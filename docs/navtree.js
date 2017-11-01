@@ -3,11 +3,10 @@ var NAVTREE =
   [ "SeaQuest Offline Software", "index.html", [
     [ "Start using this website", "index.html#STARTwebsite", [
       [ "Highlighted Features", "index.html#UsefulFeatures", null ],
-      [ "Crossreferencing with sPHENIX Git Respository", "index.html#Crossreference", null ],
+      [ "Crossreferencing with SeaQuest Offline Git Respository", "index.html#Crossreference", null ],
       [ "Slow to load?", "index.html#SlowQA", null ]
     ] ],
     [ "Write your code with Doxygen documentation", "index.html#Write_your_code", null ],
-    [ "sPHENIX Wiki", "index.html#OWiki", null ],
     [ "Fun4All", "da/d3c/md_seaquest-offline_fun4all_README.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],

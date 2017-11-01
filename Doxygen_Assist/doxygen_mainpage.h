@@ -7,7 +7,7 @@
 
 \tableofcontents
 
-Welcome to sPHENIX simulation software documentation!
+Welcome to SeaQuest Offline Software documentation!
 
 \section STARTwebsite Start using this website
 
@@ -22,10 +22,10 @@ Many feature of the website will help you navigate through the ocean of PHENIX s
 \li Highlighted <b>source code</b> with crossreferencing. Example click <i>"Go to the source code"</i> in \ref PHG4Hitv1.cc .
 There are many more features, which you are welcome to explore.
 
-\subsection Crossreference Crossreferencing with sPHENIX Git Respository
+\subsection Crossreference Crossreferencing with SeaQuest Offline Git Respository
 
-Through a special build of Doxygen, <a href = "https://github.com/sPHENIX-Collaboration/coresoftware">
-sPHENIX Git Hub respostory</a> were automatically linked for
+Through a special build of Doxygen, <a href = "https://github.com/HaiwangYu/seaquest-offline">
+SeaQuest Git Hub respostory</a> were automatically linked for
 Files, directories and member definitions.
 And users can choose between viewing the local copy of the source code (with more features) or the CVS one (most up-to-date).
 Check out links like <EM>View newest version in PHENIX CVS</EM>
@@ -46,11 +46,7 @@ These features are easy to use, and helpful for readers to understand and use yo
 To start use the Doxygen-style comments, please read the <a href = "http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html#cppblock">instruction page on the Doxygen website</a>. 
 Or even more easier, please just take a look at <a href="http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html#docexamples">this example</a>, 
 which will show up in <a href="http://www.stack.nl/~dimitri/doxygen/manual/examples/qtstyle/html/class_test.html">Doxygen page like this</a>. 
-You are also welcome to let <a href="mailto:jhuang@bnl.gov">Jin Huang</a> know, if there is any question or suggestions.
-
-\section OWiki sPHENIX Wiki
-
-<a href = "https://wiki.bnl.gov/sPHENIX/index.php/Main_Page">sPHENIX Wiki</a> provides an up-to-date documentation for sPHENIX construction and analyzers. 
+You are also welcome to let <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a> know, if there is any question or suggestions.
 
 <!-- ================================================================ -->
  */
