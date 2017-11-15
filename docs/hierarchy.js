@@ -29,6 +29,7 @@ var hierarchy =
       [ "Fun4AllServer", "da/d29/classFun4AllServer.html", null ],
       [ "Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html", null ],
       [ "SubsysReco", "d0/d32/classSubsysReco.html", [
+        [ "ReadMySql", "db/dda/classReadMySql.html", null ],
         [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ]
       ] ]
     ] ],
@@ -90,6 +91,9 @@ var hierarchy =
         [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html", null ],
         [ "RunHeader", "df/d35/classRunHeader.html", [
           [ "RunHeaderv1", "d4/d0f/classRunHeaderv1.html", null ]
+        ] ],
+        [ "SEvent", "d8/dfc/classSEvent.html", [
+          [ "SEvent_v1", "d3/da3/classSEvent__v1.html", null ]
         ] ],
         [ "SHit", "d0/da1/classSHit.html", [
           [ "SHit_v1", "d2/de1/classSHit__v1.html", null ]

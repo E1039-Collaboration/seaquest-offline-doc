@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: seaquest-offline/fun4all/interfaces/SHitMap_v1.C Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/fun4all/interfaces/SHitMap_v1.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;       iter != hitmap.<a class="code" href="../../de/d92/classSHitMap__v1.html#a4b02d19cd3ba3cce60688cbe3dfec39c">end</a>();</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;       ++iter) {</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../d0/da1/classSHit.html">SHit</a> *hit = iter-&gt;second;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.insert(make_pair(hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a4a7587a99752852bdb3fa135a576c465">get_id</a>(),hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">Clone</a>()));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.insert(make_pair(hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a80583327e744f8be37a40d5a6822b811">get_hit_id</a>(),hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">Clone</a>()));</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;       iter != hitmap.<a class="code" href="../../de/d92/classSHitMap__v1.html#a4b02d19cd3ba3cce60688cbe3dfec39c">end</a>();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;       ++iter) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../d0/da1/classSHit.html">SHit</a> *hit = iter-&gt;second;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.insert(make_pair(hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a4a7587a99752852bdb3fa135a576c465">get_id</a>(),hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">Clone</a>()));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.insert(make_pair(hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a80583327e744f8be37a40d5a6822b811">get_hit_id</a>(),hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">Clone</a>()));</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
@@ -188,7 +188,7 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> index = 0;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.empty()) index = <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.rbegin()-&gt;first + 1;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>.insert(make_pair( index , hit-&gt;<a class="code" href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">Clone</a>() ));</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>[index]-&gt;set_id(index);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>[index]-&gt;set_hit_id(index);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">_map</a>[index];</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
@@ -199,9 +199,9 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 <div class="ttc" id="classSHit_html"><div class="ttname"><a href="../../d0/da1/classSHit.html">SHit</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2c/SHit_8h_source.html#l00017">SHit.h:17</a></div></div>
 <div class="ttc" id="classSHitMap_html_a241cbf497c70dc8dbd00fc73b38cac73"><div class="ttname"><a href="../../d9/d05/classSHitMap.html#a241cbf497c70dc8dbd00fc73b38cac73">SHitMap::Iter</a></div><div class="ttdeci">std::map&lt; unsigned int, SHit * &gt;::iterator Iter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de9/SHitMap_8h_source.html#l00024">SHitMap.h:24</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_aa8962de29392f9a2f1f7ba6751809bba"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#aa8962de29392f9a2f1f7ba6751809bba">SHitMap_v1::begin</a></div><div class="ttdeci">ConstIter begin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d56/SHitMap__v1_8h_source.html#l00044">SHitMap_v1.h:44</a></div></div>
-<div class="ttc" id="classSHit_html_a4a7587a99752852bdb3fa135a576c465"><div class="ttname"><a href="../../d0/da1/classSHit.html#a4a7587a99752852bdb3fa135a576c465">SHit::get_id</a></div><div class="ttdeci">virtual unsigned int get_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2c/SHit_8h_source.html#l00034">SHit.h:34</a></div></div>
 <div class="ttc" id="SHit_8h_html"><div class="ttname"><a href="../../d2/d2c/SHit_8h.html">SHit.h</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_a4b02d19cd3ba3cce60688cbe3dfec39c"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#a4b02d19cd3ba3cce60688cbe3dfec39c">SHitMap_v1::end</a></div><div class="ttdeci">ConstIter end() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d56/SHitMap__v1_8h_source.html#l00046">SHitMap_v1.h:46</a></div></div>
+<div class="ttc" id="classSHit_html_a80583327e744f8be37a40d5a6822b811"><div class="ttname"><a href="../../d0/da1/classSHit.html#a80583327e744f8be37a40d5a6822b811">SHit::get_hit_id</a></div><div class="ttdeci">virtual int get_hit_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2c/SHit_8h_source.html#l00036">SHit.h:36</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_ac9678b99f50c2f4c300e0806a18c280f"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#ac9678b99f50c2f4c300e0806a18c280f">SHitMap_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/SHitMap__v1_8C_source.html#l00058">SHitMap_v1.C:58</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_ab39d083bdb0c48f5ed58f4628a3383c8"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#ab39d083bdb0c48f5ed58f4628a3383c8">SHitMap_v1::_map</a></div><div class="ttdeci">HitMap _map</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d56/SHitMap__v1_8h_source.html#l00053">SHitMap_v1.h:53</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_a819187d76adb3b93a8604e021d5f5a47"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#a819187d76adb3b93a8604e021d5f5a47">SHitMap_v1::insert</a></div><div class="ttdeci">SHit * insert(const SHit *hit)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/SHitMap__v1_8C_source.html#l00075">SHitMap_v1.C:75</a></div></div>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 <div class="ttc" id="classSHitMap__v1_html_ac93bfcfbeea7389fa9310a409e852ccf"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#ac93bfcfbeea7389fa9310a409e852ccf">SHitMap_v1::get</a></div><div class="ttdeci">const SHit * get(unsigned int idkey) const </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/SHitMap__v1_8C_source.html#l00063">SHitMap_v1.C:63</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_a72d18280a010fbabaf4739b1c2e2f0f1"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#a72d18280a010fbabaf4739b1c2e2f0f1">SHitMap_v1::~SHitMap_v1</a></div><div class="ttdeci">virtual ~SHitMap_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/SHitMap__v1_8C_source.html#l00044">SHitMap_v1.C:44</a></div></div>
 <div class="ttc" id="classSHitMap__v1_html_aa4b5f63d10448381a62ad527ad7f074c"><div class="ttname"><a href="../../de/d92/classSHitMap__v1.html#aa4b5f63d10448381a62ad527ad7f074c">SHitMap_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d6c/SHitMap__v1_8C_source.html#l00048">SHitMap_v1.C:48</a></div></div>
-<div class="ttc" id="classSHit_html_a34c44ef544bd3c7b68f33f8d255a8be5"><div class="ttname"><a href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">SHit::Clone</a></div><div class="ttdeci">virtual SHit * Clone() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2c/SHit_8h_source.html#l00030">SHit.h:30</a></div></div>
+<div class="ttc" id="classSHit_html_a34c44ef544bd3c7b68f33f8d255a8be5"><div class="ttname"><a href="../../d0/da1/classSHit.html#a34c44ef544bd3c7b68f33f8d255a8be5">SHit::Clone</a></div><div class="ttdeci">virtual SHit * Clone() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d2c/SHit_8h_source.html#l00032">SHit.h:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -222,7 +222,7 @@ $(document).ready(function(){initNavTree('db/d6c/SHitMap__v1_8C_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_74be70c4f955f6c94bb9d0a10011afe9.html">interfaces</a></li><li class="navelem"><a class="el" href="../../db/d6c/SHitMap__v1_8C.html">SHitMap_v1.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 1 2017 16:31:25</em> using <a
+			updated: <em>Tue Nov 14 2017 21:58:16</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
