@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hodomask',['HodoMask',['../d0/da1/classSHit.html#a9a270d31c653fff21da40c17be7827dca9a866ea36e4595eab0704fcacc212d5d',1,'SHit']]]
+  ['hodomask',['HodoMask',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da15c41dd23b32fcc0538d87332b41279c',1,'SQHit']]]
 ];

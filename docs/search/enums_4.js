@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['triggermask',['TriggerMask',['../d8/dfc/classSEvent.html#a5188fa8c53466a5d6e5f8b8e830eb8a9',1,'SEvent']]]
+  ['triggermask',['TriggerMask',['../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21',1,'SQEvent']]]
 ];

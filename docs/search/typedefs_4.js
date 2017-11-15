@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hitmap',['HitMap',['../d9/d05/classSHitMap.html#a8aa499f8dbb21feba62157bf7ac9c4bd',1,'SHitMap']]]
+  ['hitmap',['HitMap',['../d0/dac/classSQHitMap.html#acd1db90810ab6f16643e8eb1b5bea3b9',1,'SQHitMap']]]
 ];

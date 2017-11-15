@@ -1,0 +1,38 @@
+var classSQEvent =
+[
+    [ "TriggerMask", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21", [
+      [ "NIM1", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a85a7c31a2b6f94dd85c8c7e7e8d9d359", null ],
+      [ "NIM2", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a8314f890b52f7ee970d20b45d2800b92", null ],
+      [ "NIM3", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21ad5454722cb5c854f26c3dcc21b52e2b7", null ],
+      [ "NIM4", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a77413630f7d44ff920b31540aad9a7b2", null ],
+      [ "NIM5", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a2da8b092437651c7df74cda47d3669a3", null ],
+      [ "MATRIX1", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a6cc50e5215ba836a57b1aad578f0afd2", null ],
+      [ "MATRIX2", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a268ca824c5bd60e6397fa3ef5e00273f", null ],
+      [ "MATRIX3", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21ad4ae6cea6ac2a213ec7a7df7791674a8", null ],
+      [ "MATRIX4", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21adafd90b98888c1b204b4f0c91f5f3482", null ],
+      [ "MATRIX5", "d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21af4cc4c7f2762bea9b5c6bcfee821134c", null ]
+    ] ],
+    [ "~SQEvent", "d9/dd7/classSQEvent.html#a67c795afae000fb5aef7b3ee818ef023", null ],
+    [ "SQEvent", "d9/dd7/classSQEvent.html#a5e72d501b53b3c82eff5e58031712d02", null ],
+    [ "ClassDef", "d9/dd7/classSQEvent.html#a6ea88415d89f1cc29afda8421c87822a", null ],
+    [ "get_after_inh_matrix", "d9/dd7/classSQEvent.html#ab634dd0d85005fa6351bbc8da58ccd47", null ],
+    [ "get_coda_event_id", "d9/dd7/classSQEvent.html#afc0ac10fe7cf3368bd2e1c9c6dff4859", null ],
+    [ "get_data_quality", "d9/dd7/classSQEvent.html#a94c09b550ceb6a170681cf468c1e9fa6", null ],
+    [ "get_event_id", "d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a", null ],
+    [ "get_raw_matrix", "d9/dd7/classSQEvent.html#a932c8b3ab77df0ffc64ee97c94a6c4dc", null ],
+    [ "get_run_id", "d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca", null ],
+    [ "get_spill_id", "d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680", null ],
+    [ "get_trigger", "d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29", null ],
+    [ "get_vme_time", "d9/dd7/classSQEvent.html#a6f47f49c467483f56f48e09c1bbfc8c9", null ],
+    [ "identify", "d9/dd7/classSQEvent.html#a7499c02aa83432effd6d762a4c5b1830", null ],
+    [ "Reset", "d9/dd7/classSQEvent.html#a116ab5198290bfea9f57748a527102ca", null ],
+    [ "set_after_inh_matrix", "d9/dd7/classSQEvent.html#acdbf4860d5048fbfaf1d9b19318023ff", null ],
+    [ "set_coda_event_id", "d9/dd7/classSQEvent.html#a9b0a9c59c4437dc5af52a29763b14a75", null ],
+    [ "set_data_quality", "d9/dd7/classSQEvent.html#a4769df8c215f9f549a53ff3971f611fa", null ],
+    [ "set_event_id", "d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a", null ],
+    [ "set_raw_matrix", "d9/dd7/classSQEvent.html#a62d127d02ca353cbde344776971e8c92", null ],
+    [ "set_run_id", "d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36", null ],
+    [ "set_spill_id", "d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025", null ],
+    [ "set_trigger", "d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9", null ],
+    [ "set_vme_time", "d9/dd7/classSQEvent.html#a3cd07ed155ecb60d0cd26ccbe47a90ca", null ]
+];

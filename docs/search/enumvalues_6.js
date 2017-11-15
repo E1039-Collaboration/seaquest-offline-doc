@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['intime',['InTime',['../d0/da1/classSHit.html#a9a270d31c653fff21da40c17be7827dca9d30b0777575d6570d77b46db4401045',1,'SHit']]]
+  ['intime',['InTime',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da1fe7f51a874bed951c38f2ac59824b16',1,'SQHit']]]
 ];

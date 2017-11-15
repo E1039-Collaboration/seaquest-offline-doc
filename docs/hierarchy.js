@@ -92,14 +92,14 @@ var hierarchy =
         [ "RunHeader", "df/d35/classRunHeader.html", [
           [ "RunHeaderv1", "d4/d0f/classRunHeaderv1.html", null ]
         ] ],
-        [ "SEvent", "d8/dfc/classSEvent.html", [
-          [ "SEvent_v1", "d3/da3/classSEvent__v1.html", null ]
+        [ "SQEvent", "d9/dd7/classSQEvent.html", [
+          [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ]
         ] ],
-        [ "SHit", "d0/da1/classSHit.html", [
-          [ "SHit_v1", "d2/de1/classSHit__v1.html", null ]
+        [ "SQHit", "de/d79/classSQHit.html", [
+          [ "SQHit_v1", "d3/d2e/classSQHit__v1.html", null ]
         ] ],
-        [ "SHitMap", "d9/d05/classSHitMap.html", [
-          [ "SHitMap_v1", "de/d92/classSHitMap__v1.html", null ]
+        [ "SQHitMap", "d0/dac/classSQHitMap.html", [
+          [ "SQHitMap_v1", "d2/d62/classSQHitMap__v1.html", null ]
         ] ],
         [ "SyncObject", "de/dbb/classSyncObject.html", [
           [ "SyncObjectv1", "d9/d30/classSyncObjectv1.html", [

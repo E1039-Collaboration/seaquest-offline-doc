@@ -5,7 +5,7 @@ var searchData=
   ['hash_5fvalue',['hash_value',['../d4/da9/namespaceboost.html#a5bca099a20885bd9e4431a1717c1f155',1,'boost']]],
   ['histo',['Histo',['../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a',1,'Fun4AllHistoManager']]],
   ['histomanager',['HistoManager',['../da/d29/classFun4AllServer.html#a8a3a7c2b49c0f8a3b5b1c24a4c6f9e4e',1,'Fun4AllServer']]],
-  ['hitmap',['HitMap',['../d9/d05/classSHitMap.html#a8aa499f8dbb21feba62157bf7ac9c4bd',1,'SHitMap']]],
-  ['hitquality',['HitQuality',['../d0/da1/classSHit.html#a9a270d31c653fff21da40c17be7827dc',1,'SHit']]],
-  ['hodomask',['HodoMask',['../d0/da1/classSHit.html#a9a270d31c653fff21da40c17be7827dca9a866ea36e4595eab0704fcacc212d5d',1,'SHit']]]
+  ['hitmap',['HitMap',['../d0/dac/classSQHitMap.html#acd1db90810ab6f16643e8eb1b5bea3b9',1,'SQHitMap']]],
+  ['hitquality',['HitQuality',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit']]],
+  ['hodomask',['HodoMask',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da15c41dd23b32fcc0538d87332b41279c',1,'SQHit']]]
 ];
