@@ -6,6 +6,8 @@ var classReadMySql =
     [ "End", "db/dda/classReadMySql.html#a782402220d0cbf5fb4656757e72f2dda", null ],
     [ "FillSQEvent", "db/dda/classReadMySql.html#a404aa7b14dbb98abc5f3115182a8ec56", null ],
     [ "FillSQHitMap", "db/dda/classReadMySql.html#a8471cd9d896efdb04dffb6a47d431f6e", null ],
+    [ "FillSQRun", "db/dda/classReadMySql.html#a706c4e85400435a780774c48d6b69342", null ],
+    [ "FillSQSpill", "db/dda/classReadMySql.html#a8d89dbc97ba9beb83c3a19dd41b49f07", null ],
     [ "getDouble", "db/dda/classReadMySql.html#aac0291aca36d9029ec378ab7fcc336c6", null ],
     [ "getFloat", "db/dda/classReadMySql.html#af8c4f71c0671dbc34370e363d92106ad", null ],
     [ "getInt", "db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9", null ],
@@ -28,9 +30,11 @@ var classReadMySql =
     [ "_query", "db/dda/classReadMySql.html#ada57061b217282d47e6a6340a94a2b60", null ],
     [ "_res", "db/dda/classReadMySql.html#ab45e617d2b04a4b9fd575a7543757032", null ],
     [ "_row", "db/dda/classReadMySql.html#a5471652caf2bb88db4d705428d13ad98", null ],
+    [ "_run_header", "db/dda/classReadMySql.html#a9585741a89f8986a85ff000111f88019", null ],
     [ "_run_id", "db/dda/classReadMySql.html#a1128095b5774a499fc2a7ec172c9dfe4", null ],
     [ "_server_name", "db/dda/classReadMySql.html#a457b6c97b55277e3b4f261dd62a9335e", null ],
     [ "_spill_id", "db/dda/classReadMySql.html#a0f18411ce0950d3a8d5a98315e00ed30", null ],
+    [ "_spill_map", "db/dda/classReadMySql.html#a42b63eacb7c9433bb69671851071fff1", null ],
     [ "_table_name", "db/dda/classReadMySql.html#a73c50cf3f376b91cd4af20ce24bc6edf", null ],
     [ "_user_name", "db/dda/classReadMySql.html#a4d3f9e7056161476645f065a21e63e3a", null ]
 ];

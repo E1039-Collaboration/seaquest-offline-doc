@@ -101,6 +101,15 @@ var hierarchy =
         [ "SQHitMap", "d0/dac/classSQHitMap.html", [
           [ "SQHitMap_v1", "d2/d62/classSQHitMap__v1.html", null ]
         ] ],
+        [ "SQRun", "d7/db7/classSQRun.html", [
+          [ "SQRun_v1", "dc/d96/classSQRun__v1.html", null ]
+        ] ],
+        [ "SQSpill", "d0/d78/classSQSpill.html", [
+          [ "SQSpill_v1", "d2/df5/classSQSpill__v1.html", null ]
+        ] ],
+        [ "SQSpillMap", "d7/d87/classSQSpillMap.html", [
+          [ "SQSpillMap_v1", "df/de1/classSQSpillMap__v1.html", null ]
+        ] ],
         [ "SyncObject", "de/dbb/classSyncObject.html", [
           [ "SyncObjectv1", "d9/d30/classSyncObjectv1.html", [
             [ "SyncObjectv2", "df/da3/classSyncObjectv2.html", null ]
