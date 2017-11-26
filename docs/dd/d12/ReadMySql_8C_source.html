@@ -27,6 +27,8 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
+						<td id="projectlogo"><a href="https://wiki.bnl.gov/sPHENIX/index.php/Main_Page"><img
+								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
@@ -396,7 +398,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        }</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordtype">char</span> query[1000];</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordtype">char</span> <a class="code" href="../../d7/d74/namespaceupdateAlignment.html#ac95c1e5dc5e62ba5a1ea25b99b18ccb3">query</a>[1000];</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="comment">//                     0      1             2          3        4</span></div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        sprintf(query, <span class="stringliteral">&quot;SELECT hitID, detectorName, elementID, tdcTime, inTime, &quot;</span></div>
@@ -423,8 +425,8 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361">set_drift_distance</a>(<a class="code" href="../../db/dda/classReadMySql.html#af8c4f71c0671dbc34370e363d92106ad">getFloat</a>(row,7));</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6">set_pos</a>(0);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a509aa48b1e0580baa141fa83e7fa7e89">set_in_time</a>(<a class="code" href="../../db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9">getInt</a>(row,4));</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a53b36ef70708127f051eeb35dc289d94">set_hodo_mask</a>(<a class="code" href="../../db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9">getInt</a>(row,5));</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6">set_in_time</a>(<a class="code" href="../../db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9">getInt</a>(row,4));</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3">set_hodo_mask</a>(<a class="code" href="../../db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9">getInt</a>(row,5));</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor"></span>        hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#abc03f98a4ede79c131d279132b555789">identify</a>();</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -452,7 +454,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        }</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordtype">char</span> query[1000];</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordtype">char</span> <a class="code" href="../../d7/d74/namespaceupdateAlignment.html#ac95c1e5dc5e62ba5a1ea25b99b18ccb3">query</a>[1000];</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        sprintf(query,</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                        <span class="comment">//      0      1        2        3</span></div>
@@ -507,7 +509,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        }</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordtype">char</span> query[1000];</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordtype">char</span> <a class="code" href="../../d7/d74/namespaceupdateAlignment.html#ac95c1e5dc5e62ba5a1ea25b99b18ccb3">query</a>[1000];</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        sprintf(query,</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;                        <span class="comment">//      0      1        2</span></div>
@@ -545,7 +547,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;                <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        }</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <span class="keywordtype">char</span> query[1000];</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <span class="keywordtype">char</span> <a class="code" href="../../d7/d74/namespaceupdateAlignment.html#ac95c1e5dc5e62ba5a1ea25b99b18ccb3">query</a>[1000];</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        <span class="comment">//                     0      1        2</span></div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        sprintf(query, <span class="stringliteral">&quot;SELECT runID, spillID, liveProton &quot;</span></div>
@@ -590,6 +592,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="ttc" id="classSQHit_html_a7549b98c01465679c34eedaab71381e6"><div class="ttname"><a href="../../de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6">SQHit::set_pos</a></div><div class="ttdeci">virtual void set_pos(const float a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00052">SQHit.h:52</a></div></div>
 <div class="ttc" id="SQHit__v1_8h_html"><div class="ttname"><a href="../../d7/d3e/SQHit__v1_8h.html">SQHit_v1.h</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_a5e6d96f02f838e9f0bf84cb33fb1c2fa"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a5e6d96f02f838e9f0bf84cb33fb1c2fa">Fun4AllBase::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdoc">The verbosity level. 0 means not verbose at all. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase.h:75</a></div></div>
+<div class="ttc" id="classSQHit_html_ab7ef5cd97220b7bec19f37db5e2875b3"><div class="ttname"><a href="../../de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3">SQHit::set_hodo_mask</a></div><div class="ttdeci">virtual void set_hodo_mask(const bool a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit.h:58</a></div></div>
 <div class="ttc" id="classReadMySql_html_a84a6603d4344182ae1e1575c662d7e37"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a84a6603d4344182ae1e1575c662d7e37">ReadMySql::_event_header</a></div><div class="ttdeci">SQEvent * _event_header</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00095">ReadMySql.h:95</a></div></div>
 <div class="ttc" id="classReadMySql_html_aef5367b1b70eb7b88d513750e78fc872"><div class="ttname"><a href="../../db/dda/classReadMySql.html#aef5367b1b70eb7b88d513750e78fc872">ReadMySql::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00112">ReadMySql.C:112</a></div></div>
 <div class="ttc" id="classSQEvent_html_a5328bd72e6338cf887fbece656986c21a8314f890b52f7ee970d20b45d2800b92"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a8314f890b52f7ee970d20b45d2800b92">SQEvent::NIM2</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00022">SQEvent.h:22</a></div></div>
@@ -598,7 +601,6 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="ttc" id="classReadMySql_html_a27d876ad9b5e39cc546e6ebd43490301"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a27d876ad9b5e39cc546e6ebd43490301">ReadMySql::_password</a></div><div class="ttdeci">std::string _password</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00075">ReadMySql.h:75</a></div></div>
 <div class="ttc" id="classSQEvent_html_a9b019f1f9d2c475c9046fa4f112c6d36"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id</a></div><div class="ttdeci">virtual void set_run_id(const int a)=0</div></div>
 <div class="ttc" id="classReadMySql_html_acd5d8312088200e52716870649ff0425"><div class="ttname"><a href="../../db/dda/classReadMySql.html#acd5d8312088200e52716870649ff0425">ReadMySql::makeQueryInput</a></div><div class="ttdeci">int makeQueryInput()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00205">ReadMySql.C:205</a></div></div>
-<div class="ttc" id="classSQHit_html_a509aa48b1e0580baa141fa83e7fa7e89"><div class="ttname"><a href="../../de/d79/classSQHit.html#a509aa48b1e0580baa141fa83e7fa7e89">SQHit::set_in_time</a></div><div class="ttdeci">virtual void set_in_time(const bool a)=0</div></div>
 <div class="ttc" id="classSQHit_html_a9b0e74b024716ff77dcec3f480f2434b"><div class="ttname"><a href="../../de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b">SQHit::set_tdc_time</a></div><div class="ttdeci">virtual void set_tdc_time(const float a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit.h:46</a></div></div>
 <div class="ttc" id="classReadMySql_html_a06a9c40a376471e67f0b49d1032cdea1"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a06a9c40a376471e67f0b49d1032cdea1">ReadMySql::ReadMySql</a></div><div class="ttdeci">ReadMySql(const std::string &amp;name=&quot;ReadMySql&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00041">ReadMySql.C:41</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html_ac7dbf017614c324e218a001d729607bf"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">PHCompositeNode::addNode</a></div><div class="ttdeci">PHBoolean addNode(PHNode *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d01/PHCompositeNode_8cc_source.html#l00040">PHCompositeNode.cc:40</a></div></div>
@@ -625,7 +627,6 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="ttc" id="classSQSpill_html_a278e5160a41fd21dac5864d3b4c6c6e3"><div class="ttname"><a href="../../d0/d78/classSQSpill.html#a278e5160a41fd21dac5864d3b4c6c6e3">SQSpill::set_spill_id</a></div><div class="ttdeci">virtual void set_spill_id(const int a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill.h:40</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
 <div class="ttc" id="classSQEvent_html_abb5b1e5eb1b6492822c2236a78b6b3e9"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger</a></div><div class="ttdeci">virtual void set_trigger(const SQEvent::TriggerMask i, const bool a)=0</div></div>
-<div class="ttc" id="classSQHit_html_a53b36ef70708127f051eeb35dc289d94"><div class="ttname"><a href="../../de/d79/classSQHit.html#a53b36ef70708127f051eeb35dc289d94">SQHit::set_hodo_mask</a></div><div class="ttdeci">virtual void set_hodo_mask(const bool a)=0</div></div>
 <div class="ttc" id="classSQEvent__v1_html"><div class="ttname"><a href="../../dd/d59/classSQEvent__v1.html">SQEvent_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0d/SQEvent__v1_8h_source.html#l00020">SQEvent_v1.h:20</a></div></div>
 <div class="ttc" id="SQEvent__v1_8h_html"><div class="ttname"><a href="../../db/d0d/SQEvent__v1_8h.html">SQEvent_v1.h</a></div></div>
 <div class="ttc" id="classSQSpill_html"><div class="ttname"><a href="../../d0/d78/classSQSpill.html">SQSpill</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd6/SQSpill_8h_source.html#l00017">SQSpill.h:17</a></div></div>
@@ -653,6 +654,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="ttc" id="classPHNodeIterator_html"><div class="ttname"><a href="../../d5/d07/classPHNodeIterator.html">PHNodeIterator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dfd/PHNodeIterator_8h_source.html#l00014">PHNodeIterator.h:14</a></div></div>
 <div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a></div><div class="ttdoc">Output some useful messages during manual command line running. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase.h:39</a></div></div>
+<div class="ttc" id="classSQHit_html_af76759313e6258d1a2c526591ef79aa6"><div class="ttname"><a href="../../de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6">SQHit::set_in_time</a></div><div class="ttdeci">virtual void set_in_time(const bool a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00055">SQHit.h:55</a></div></div>
 <div class="ttc" id="classSQEvent_html_a5328bd72e6338cf887fbece656986c21a77413630f7d44ff920b31540aad9a7b2"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a77413630f7d44ff920b31540aad9a7b2">SQEvent::NIM4</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00024">SQEvent.h:24</a></div></div>
 <div class="ttc" id="classSQEvent_html_a7e592d3355b5300948ccc3966ae59025"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">SQEvent::set_spill_id</a></div><div class="ttdeci">virtual void set_spill_id(const int a)=0</div></div>
 <div class="ttc" id="classSQEvent_html_a5328bd72e6338cf887fbece656986c21a2da8b092437651c7df74cda47d3669a3"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a2da8b092437651c7df74cda47d3669a3">SQEvent::NIM5</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00025">SQEvent.h:25</a></div></div>
@@ -661,6 +663,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 <div class="ttc" id="classReadMySql_html_a42b63eacb7c9433bb69671851071fff1"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a42b63eacb7c9433bb69671851071fff1">ReadMySql::_spill_map</a></div><div class="ttdeci">SQSpillMap * _spill_map</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00093">ReadMySql.h:93</a></div></div>
 <div class="ttc" id="classSQRun_html"><div class="ttname"><a href="../../d7/db7/classSQRun.html">SQRun</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00017">SQRun.h:17</a></div></div>
 <div class="ttc" id="classReadMySql_html_a9585741a89f8986a85ff000111f88019"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a9585741a89f8986a85ff000111f88019">ReadMySql::_run_header</a></div><div class="ttdeci">SQRun * _run_header</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00092">ReadMySql.h:92</a></div></div>
+<div class="ttc" id="namespaceupdateAlignment_html_ac95c1e5dc5e62ba5a1ea25b99b18ccb3"><div class="ttname"><a href="../../d7/d74/namespaceupdateAlignment.html#ac95c1e5dc5e62ba5a1ea25b99b18ccb3">updateAlignment.query</a></div><div class="ttdeci">string query</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment.py:43</a></div></div>
 <div class="ttc" id="classSQHit_html_a51f264b3d3a56f8d897e7e00f05ad6d6"><div class="ttname"><a href="../../de/d79/classSQHit.html#a51f264b3d3a56f8d897e7e00f05ad6d6">SQHit::set_hit_id</a></div><div class="ttdeci">virtual void set_hit_id(const int a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00037">SQHit.h:37</a></div></div>
 <div class="ttc" id="classSQHitMap__v1_html"><div class="ttname"><a href="../../d2/d62/classSQHitMap__v1.html">SQHitMap_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d2f/SQHitMap__v1_8h_source.html#l00018">SQHitMap_v1.h:18</a></div></div>
 <div class="ttc" id="classReadMySql_html_adf46b2a7238c8f71d0c08e6df21effae"><div class="ttname"><a href="../../db/dda/classReadMySql.html#adf46b2a7238c8f71d0c08e6df21effae">ReadMySql::nextEntry</a></div><div class="ttdeci">bool nextEntry()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00216">ReadMySql.C:216</a></div></div>
@@ -691,7 +694,7 @@ $(document).ready(function(){initNavTree('dd/d12/ReadMySql_8C_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_53e8c8ec03439db9a89ffe77a4b17b46.html">modules</a></li><li class="navelem"><a class="el" href="../../dd/d12/ReadMySql_8C.html">ReadMySql.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 15 2017 01:10:45</em> using <a
+			updated: <em>Sun Nov 26 2017 17:07:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

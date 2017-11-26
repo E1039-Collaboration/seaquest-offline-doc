@@ -44,7 +44,7 @@ PROJECT_BRIEF          = "Documentation for <a href="https://github.com/HaiwangY
 # exceed 55 pixels and the maximum width should not exceed 200 pixels.
 # Doxygen will copy the logo to the output directory.
 
-PROJECT_LOGO           = Doxygen_Assist/icon.png
+PROJECT_LOGO           = Doxygen_Assist/SeaQuest.png
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute)
 # base path where the generated documentation will be put.
@@ -678,7 +678,9 @@ WARN_LOGFILE           =
 # with spaces.
 
 INPUT                  = Doxygen_Assist \
-  ../seaquest-offline/fun4all
+  ../seaquest-offline/fun4all \
+  ../seaquest-offline/ktracker \
+	../art-seaquest/art-seaquest
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding, which is

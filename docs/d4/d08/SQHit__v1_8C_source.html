@@ -27,6 +27,8 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
+						<td id="projectlogo"><a href="https://wiki.bnl.gov/sPHENIX/index.php/Main_Page"><img
+								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
@@ -128,7 +130,7 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../d4/d08/SQHit__v1_8C.html#ac36568cf39d9210222bb4fa19fb1f6cb">ClassImp</a>(<a class="code" href="../../d3/d2e/classSQHit__v1.html">SQHit_v1</a>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">   18</a></span>&#160;<a class="code" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">SQHit_v1::SQHit_v1</a>()</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  : _hit_id(INT_MAX),</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  : _hit_id(std::numeric_limits&lt;int&gt;::max()),</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        _detector_id(std::numeric_limits&lt;short&gt;::max()),</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        _element_id(std::numeric_limits&lt;short&gt;::max()),</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        _tdc_time(NAN),</div>
@@ -157,9 +159,9 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">   47</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">SQHit_v1::isValid</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#af74c9768e151040a14022d3d22a205ed">_hit_id</a> == INT_MAX) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a881a73e1f0b108e69ffdd64e11ee2926">_detector_id</a> == INT_MAX) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a8bea3e7534148f9db7b1fc53973b1093">_element_id</a> == INT_MAX) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#af74c9768e151040a14022d3d22a205ed">_hit_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a881a73e1f0b108e69ffdd64e11ee2926">_detector_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a8bea3e7534148f9db7b1fc53973b1093">_element_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#abc63ba4c491875678d3a91695bc88956">_tdc_time</a>)) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#a2348d6f1b539f13b6a6f2668f976ef5a">_drift_distance</a>)) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#a7059d1e23ce29a0da74147c40596999f">_pos</a>)) <span class="keywordflow">return</span> 0;</div>
@@ -198,7 +200,7 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_74be70c4f955f6c94bb9d0a10011afe9.html">interfaces</a></li><li class="navelem"><a class="el" href="../../d4/d08/SQHit__v1_8C.html">SQHit_v1.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 15 2017 01:10:45</em> using <a
+			updated: <em>Sun Nov 26 2017 17:07:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['phmessage',['PHMESSAGE',['../d5/d6f/phool_8h.html#a4ab9fe70ba84ee3a3a3de0677aead72f',1,'phool.h']]],
-  ['phool_5fvirtual_5fwarn',['PHOOL_VIRTUAL_WARN',['../d5/d6f/phool_8h.html#a5d1cf3d6333954907b4cb7a77f91c217',1,'phool.h']]],
-  ['phool_5fvirtual_5fwarning',['PHOOL_VIRTUAL_WARNING',['../d5/d6f/phool_8h.html#a98da12669d7bfdd5db2233160e5d54d4',1,'phool.h']]],
-  ['phwhere',['PHWHERE',['../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a',1,'phool.h']]]
+  ['fmag_5fhole_5flength',['FMAG_HOLE_LENGTH',['../dd/de2/GlobalConsts_8h.html#ac3bb00ad2ceb5b9391c3649a88571ebd',1,'GlobalConsts.h']]],
+  ['fmag_5fhole_5fradius',['FMAG_HOLE_RADIUS',['../dd/de2/GlobalConsts_8h.html#a5458e41e44e05b22639ec50196f3c0a3',1,'GlobalConsts.h']]],
+  ['fmag_5flength',['FMAG_LENGTH',['../dd/de2/GlobalConsts_8h.html#ada4a202de895743e412aba1aab0c9146',1,'GlobalConsts.h']]],
+  ['fmagstr',['FMAGSTR',['../dd/de2/GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6',1,'GlobalConsts.h']]]
 ];

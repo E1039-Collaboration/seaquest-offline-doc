@@ -27,6 +27,8 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
+						<td id="projectlogo"><a href="https://wiki.bnl.gov/sPHENIX/index.php/Main_Page"><img
+								alt="Logo" src="SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
@@ -105,8 +107,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#STARTwebsite">Start using this website</a><ul><li class="level2"><a href="#UsefulFeatures">Highlighted Features</a></li>
-<li class="level2"><a href="#Crossreference">Crossreferencing with SeaQuest Offline Git Respository</a></li>
+<ul><li class="level1"><a href="#INTRO">Introduction</a></li>
+<li class="level1"><a href="#STARTwebsite">Start using this website</a><ul><li class="level2"><a href="#UsefulFeatures">Highlighted Features</a></li>
 <li class="level2"><a href="#SlowQA">Slow to load?</a></li>
 </ul>
 </li>
@@ -114,22 +116,28 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 </div>
 <div class="textblock"><p>Welcome to SeaQuest Offline Software documentation!</p>
+<h1><a class="anchor" id="INTRO"></a>
+Introduction</h1>
+<p>This documentation digested 3 related repositories:</p>
+<ul>
+<li><a href="https://github.com/HaiwangYu/seaquest-offline/tree/master/ktracker">seaquest-offline/ktracker </a>: current root interface and reconstruction package </li>
+<li><a href="https://github.com/HaiwangYu/seaquest-offline/tree/master/fun4all">seaquest-offline/fun4all </a>: prototype 'Fun4All' implementation of the SeaQuest offline software </li>
+<li><a href="https://github.com/HaiwangYu/art-seaquest">art-seaquest </a>: prototype 'art' implementation of the SeaQuest offline software</li>
+</ul>
+<p>The source code for this document is <a href="https://github.com/HaiwangYu/seaquest-offline-doc">here</a>.</p>
 <h1><a class="anchor" id="STARTwebsite"></a>
 Start using this website</h1>
 <h2><a class="anchor" id="UsefulFeatures"></a>
 Highlighted Features</h2>
-<p>Many feature of the website will help you navigate through the ocean of PHENIX software. Few are highlighted here: </p>
+<p>Many feature of the website will help you navigate through the ocean of SeaQuest software. Few are highlighted here: </p>
 <ul>
 <li>Ever want to find a class or function? It is easy now using the <b>"Search" box</b> on top right of every page. Type few initial letters it will give hints to the rest. </li>
 <li>Left side is a <b>navigation bar</b> that expands automatically with your browsing by default. You can also make these two independent of each other by toggling the arrows on left top. </li>
 <li>Want to browse the software <b>directory tree</b>? Check out the <a href="files.html"><em>Files</em> button in the navigation bar</a>. </li>
-<li>How a class is inherited? Check out the <b>Inheritance diagram</b> in the class pages. They are auto folded by default. Example: click <em>"Inheritance diagram for PHG4Hitv1"</em> in page PHG4Hitv1. </li>
-<li>Find out <b>inter-dependencies between files</b>. Example is on PHG4Hitv1.cc page, you can try clicking to unfold <em>"Include dependency graph"</em> and <em>"files directly or indirectly include this file"</em>. </li>
-<li>Highlighted <b>source code</b> with crossreferencing. Example click <em>"Go to the source code"</em> in PHG4Hitv1.cc . There are many more features, which you are welcome to explore.</li>
+<li>How a class is inherited? Check out the <b>Inheritance diagram</b> in the class pages. They are auto folded by default. Example: click <em>"Inheritance diagram for SQHit_v1"</em> in page <a class="el" href="d3/d2e/classSQHit__v1.html">SQHit_v1</a>. </li>
+<li>Find out <b>inter-dependencies between files</b>. Example is on SQHit_v1.cc page, you can try clicking to unfold <em>"Include dependency graph"</em> and <em>"files directly or indirectly include this file"</em>. </li>
+<li>Highlighted <b>source code</b> with crossreferencing. Example click <em>"Go to the source code"</em> in SQHit_v1.cc . There are many more features, which you are welcome to explore.</li>
 </ul>
-<h2><a class="anchor" id="Crossreference"></a>
-Crossreferencing with SeaQuest Offline Git Respository</h2>
-<p>Through a special build of Doxygen, <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Git Hub respostory</a> were automatically linked for Files, directories and member definitions. And users can choose between viewing the local copy of the source code (with more features) or the CVS one (most up-to-date). Check out links like <em>View newest version in PHENIX CVS</em> in e.g. PHG4Reco::set_field .</p>
 <h2><a class="anchor" id="SlowQA"></a>
 Slow to load?</h2>
 <p>On some computers, user may experience delay up to 10s while loading pages from this web site. This is usually due to that the user browser rebuilds the navigation panel on the left side, which contains the index of thousands of software modules. In that case, to speed up the browsing, users can choose to stop auto-updating of the navigation panel by toggle off the "Sync" switch: </p>
@@ -150,7 +158,7 @@ Write your code with Doxygen documentation</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 15 2017 01:10:46</em> using <a
+			updated: <em>Sun Nov 26 2017 17:07:35</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

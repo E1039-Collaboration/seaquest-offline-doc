@@ -1,19 +1,21 @@
 var NAVTREE =
 [
   [ "SeaQuest Offline Software", "index.html", [
+    [ "Introduction", "index.html#INTRO", null ],
     [ "Start using this website", "index.html#STARTwebsite", [
       [ "Highlighted Features", "index.html#UsefulFeatures", null ],
-      [ "Crossreferencing with SeaQuest Offline Git Respository", "index.html#Crossreference", null ],
       [ "Slow to load?", "index.html#SlowQA", null ]
     ] ],
     [ "Write your code with Doxygen documentation", "index.html#Write_your_code", null ],
     [ "Fun4All", "d1/d77/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_fun4all_README.html", null ],
+    [ "Installation/Compilation guide for kTracker", "d0/d80/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_ktracker_README.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", null ],
         [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
     ] ],
@@ -34,7 +36,7 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -56,14 +58,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d48/SQRun_8C_source.html",
-"d3/dc4/SQEvent__v1_8C_source.html",
-"d5/dca/classPHCompositeNode.html#a66966cc24815b04428db2b6613390af2",
-"d8/db2/classEventHeader.html",
-"da/d29/classFun4AllServer.html#ac06bf4400d93f7c5dfb66c70f176cda3",
-"dc/d26/PHTimer_8h_source.html",
-"de/d79/classSQHit.html#aab506d06da719529a43b1210c758f379",
-"functions_vars_u.html"
+"d0/da0/classGeomSvc.html#a6a6bfc92701aafd93789257785cb719d",
+"d1/d78/hodoEfficiency__plot_8cxx.html",
+"d2/db1/classPHTimer_1_1Frequency.html#a505ecf56c41199c3795c52dfd09141ed",
+"d3/d97/chamEfficiency_8cxx.html",
+"d4/dfd/classTrackExtrapolator.html#aa8c7fc9c6e3a6c22bea44971ec6c2b9a",
+"d5/d83/classSRawEvent.html#a6ae8c885070f3936b1fe6105c9a4c841",
+"d6/d86/classPHPointerList.html",
+"d6/dd9/classSMillepede.html#ac6f02b117c605d10cd25e8508674c3d7",
+"d7/ddf/classPHDataNodeIterator.html",
+"d9/d60/qdel_8py.html#a4ef2006020750888ba611456df9a1390",
+"da/d27/RTCurveMaker_8cxx.html#a7dfdf8b2807fce3bb662ec4e62e8ad02",
+"da/dc5/targetDump_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97",
+"dc/d90/classPlane.html#a44240b813f6fb47888c34388270dddc6",
+"dd/d59/classSQEvent__v1.html#a82bd5dd97adff87e61561d44ac644a5b",
+"de/d45/classSignedHit.html#a1dd429014d79a58cbfdf9a4542fa1c10",
+"df/db9/classPHTimeServer_1_1iterator.html#a37df72415cac68819e595a66362b764e",
+"globals_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

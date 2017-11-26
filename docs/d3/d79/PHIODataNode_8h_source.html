@@ -27,6 +27,8 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
+						<td id="projectlogo"><a href="https://wiki.bnl.gov/sPHENIX/index.php/Main_Page"><img
+								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
@@ -173,9 +175,9 @@ $(document).ready(function(){initNavTree('d3/d79/PHIODataNode_8h_source.html','.
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          std::string newPath = path + <a class="code" href="../../d3/d8a/namespacephooldefs.html#abd91428a77ef5ad59019b643babd1ef3">phooldefs::branchpathdelim</a> + this-&gt;name;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;          <span class="keywordtype">bool</span> bret = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;          <span class="keywordflow">if</span> (dynamic_cast&lt;TObject *&gt; (this-&gt;data.data))</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;          <span class="keywordflow">if</span> (dynamic_cast&lt;TObject *&gt; (this-&gt;<a class="code" href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">data</a>.data))</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              bret =  np-&gt;<a class="code" href="../../d7/d4d/classPHNodeIOManager.html#a436c3a21a9c6ea54a33ffcc9f2480949">write</a>(&amp;(this-&gt;data.tobj), newPath);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;              bret =  np-&gt;<a class="code" href="../../d7/d4d/classPHNodeIOManager.html#a436c3a21a9c6ea54a33ffcc9f2480949">write</a>(&amp;(this-&gt;<a class="code" href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">data</a>.tobj), newPath);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          <span class="keywordflow">return</span> bret;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
@@ -204,6 +206,7 @@ $(document).ready(function(){initNavTree('d3/d79/PHIODataNode_8h_source.html','.
 <div class="ttc" id="PHTypedNodeIterator_8h_html"><div class="ttname"><a href="../../db/d17/PHTypedNodeIterator_8h.html">PHTypedNodeIterator.h</a></div></div>
 <div class="ttc" id="classPHIODataNode_html_a07cd6c9e2bfc7b5c31f903283d8ebe13"><div class="ttname"><a href="../../d9/dde/classPHIODataNode.html#a07cd6c9e2bfc7b5c31f903283d8ebe13">PHIODataNode::operator*</a></div><div class="ttdeci">T * operator*()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d79/PHIODataNode_8h_source.html#l00023">PHIODataNode.h:23</a></div></div>
 <div class="ttc" id="classPHIODataNode_html_ac68abf63526961b3521f1deb13171ca7"><div class="ttname"><a href="../../d9/dde/classPHIODataNode.html#ac68abf63526961b3521f1deb13171ca7">PHIODataNode::~PHIODataNode</a></div><div class="ttdeci">virtual ~PHIODataNode()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d79/PHIODataNode_8h_source.html#l00026">PHIODataNode.h:26</a></div></div>
+<div class="ttc" id="namespaceconvertRTCurve_html_a96844791aaee7db462b71eacae1d6c0b"><div class="ttname"><a href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">convertRTCurve.data</a></div><div class="ttdeci">tuple data</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d25/convertRTCurve_8py_source.html#l00025">convertRTCurve.py:25</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -214,7 +217,7 @@ $(document).ready(function(){initNavTree('d3/d79/PHIODataNode_8h_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_7671efcb0b96d5f993c57195b658d8e3.html">phool</a></li><li class="navelem"><a class="el" href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 15 2017 01:10:45</em> using <a
+			updated: <em>Sun Nov 26 2017 17:07:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

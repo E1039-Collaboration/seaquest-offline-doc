@@ -27,6 +27,8 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
+						<td id="projectlogo"><a href="https://wiki.bnl.gov/sPHENIX/index.php/Main_Page"><img
+								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
@@ -186,8 +188,8 @@ $(document).ready(function(){initNavTree('da/d7b/Fun4AllPrdfInputManager_8cc_sou
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      cout &lt;&lt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ad672f5d23801e9f8320d51238363b488">ThisName</a> &lt;&lt; <span class="stringliteral">&quot;: opening file &quot;</span> &lt;&lt; <a class="code" href="../../d4/da9/classFun4AllInputManager.html#af4ed273101b77579d99f285a74b2d840">filename</a>.c_str() &lt;&lt; endl;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordtype">int</span> status = 0;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="../../da/dd8/classFun4AllPrdfInputManager.html#a9d6b5678b0085010422ec59816f20234">eventiterator</a> = <span class="keyword">new</span> fileEventiterator(fname.c_str(), status);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d4/d7f/namespaceqdel.html#a4f86f3c61c39c1ca2d9f8f78b261068f">status</a> = 0;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="../../da/dd8/classFun4AllPrdfInputManager.html#a9d6b5678b0085010422ec59816f20234">eventiterator</a> = <span class="keyword">new</span> fileEventiterator(fname.c_str(), <a class="code" href="../../d4/d7f/namespaceqdel.html#a4f86f3c61c39c1ca2d9f8f78b261068f">status</a>);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <a class="code" href="../../da/dd8/classFun4AllPrdfInputManager.html#a5f50020c34f07ce5370ef87ca5ace180">events_thisfile</a> = 0;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">if</span> (status)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
@@ -472,6 +474,7 @@ $(document).ready(function(){initNavTree('da/d7b/Fun4AllPrdfInputManager_8cc_sou
 <div class="ttc" id="classFun4AllBase_html_a41f9ac377743d046f590617fd6f4f0ed"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Fun4AllBase::Name</a></div><div class="ttdeci">virtual const std::string Name() const </div><div class="ttdoc">Returns the name of this module. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase.h:23</a></div></div>
 <div class="ttc" id="classFun4AllSyncManager_html_a93aacc6fad1df130cc850ae8c6449b7f"><div class="ttname"><a href="../../dd/ded/classFun4AllSyncManager.html#a93aacc6fad1df130cc850ae8c6449b7f">Fun4AllSyncManager::SegmentNumber</a></div><div class="ttdeci">void SegmentNumber(const int iseg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddf/Fun4AllSyncManager_8h_source.html#l00039">Fun4AllSyncManager.h:39</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
+<div class="ttc" id="namespaceqdel_html_a4f86f3c61c39c1ca2d9f8f78b261068f"><div class="ttname"><a href="../../d4/d7f/namespaceqdel.html#a4f86f3c61c39c1ca2d9f8f78b261068f">qdel.status</a></div><div class="ttdeci">status</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d60/qdel_8py_source.html#l00031">qdel.py:31</a></div></div>
 <div class="ttc" id="classSyncObject_html_a9e8ffb7e35744a8f46cc59b4cf8fa1ca"><div class="ttname"><a href="../../de/dbb/classSyncObject.html#a9e8ffb7e35744a8f46cc59b4cf8fa1ca">SyncObject::SegmentNumber</a></div><div class="ttdeci">virtual void SegmentNumber(const int)</div><div class="ttdoc">set Segment Number </div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/ffaobjects_2SyncObject_8h_source.html#l00040">SyncObject.h:40</a></div></div>
 <div class="ttc" id="classSyncObject_html_ab8b7f5a87277828d6ea97d2ed3dd546d"><div class="ttname"><a href="../../de/dbb/classSyncObject.html#ab8b7f5a87277828d6ea97d2ed3dd546d">SyncObject::Different</a></div><div class="ttdeci">virtual int Different(const SyncObject *other) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d24/ffaobjects_2SyncObject_8cc_source.html#l00047">SyncObject.cc:47</a></div></div>
 <div class="ttc" id="classFun4AllPrdfInputManager_html_a678edaaccda7214183cc67f7a19e1925"><div class="ttname"><a href="../../da/dd8/classFun4AllPrdfInputManager.html#a678edaaccda7214183cc67f7a19e1925">Fun4AllPrdfInputManager::fileclose</a></div><div class="ttdeci">int fileclose()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d7b/Fun4AllPrdfInputManager_8cc_source.html#l00164">Fun4AllPrdfInputManager.cc:164</a></div></div>
@@ -516,7 +519,7 @@ $(document).ready(function(){initNavTree('da/d7b/Fun4AllPrdfInputManager_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_b784ba1782f28bfeb3b8cbbd0288749c.html">fun4all</a></li><li class="navelem"><a class="el" href="../../da/d7b/Fun4AllPrdfInputManager_8cc.html">Fun4AllPrdfInputManager.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 15 2017 01:10:45</em> using <a
+			updated: <em>Sun Nov 26 2017 17:07:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

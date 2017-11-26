@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fun4alldstinputmanager',['Fun4AllDstInputManager',['../de/dbb/classSyncObject.html#a3021f68dddbd3ae44514642c8cbb1078',1,'SyncObject']]]
+  ['eventreducer',['EventReducer',['../d5/d83/classSRawEvent.html#a03697a112e66f7e1012cf3913f5e631a',1,'SRawEvent']]]
 ];

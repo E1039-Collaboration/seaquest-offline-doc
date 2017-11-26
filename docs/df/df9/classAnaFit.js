@@ -1,0 +1,27 @@
+var classAnaFit =
+[
+    [ "AnaFit", "df/df9/classAnaFit.html#a47fb701b95174f3c64e47ea229484519", null ],
+    [ "~AnaFit", "df/df9/classAnaFit.html#afebecba3ad7912861f279ad9ad0f559c", null ],
+    [ "CalcChi2", "df/df9/classAnaFit.html#ad0eec23a7c539e99f32394f20468fbaf", null ],
+    [ "CreateSpline", "df/df9/classAnaFit.html#a61435a3ab42325e951b874532951babd", null ],
+    [ "DoFit", "df/df9/classAnaFit.html#adde6e84f7d6042f1114d61ff174d47a8", null ],
+    [ "EvalR", "df/df9/classAnaFit.html#acbde7876e09908e8e733f7546aecf90f", null ],
+    [ "EvalR", "df/df9/classAnaFit.html#a9d09be1c1ae2e94e8e33a6e08e789305", null ],
+    [ "GetResultDR", "df/df9/classAnaFit.html#abcb5df7ee707fad6461e178af8907560", null ],
+    [ "GetResultSpline", "df/df9/classAnaFit.html#a2622445f3d4c167b8464bdf0bf6b6054", null ],
+    [ "GetResultT0", "df/df9/classAnaFit.html#a9f2e3bc4ce2c49ab7375d4c4a14a9e5a", null ],
+    [ "GetResultT1", "df/df9/classAnaFit.html#abc0ab47feda7719b25ba20c3d27602f3", null ],
+    [ "InitInput", "df/df9/classAnaFit.html#a5458db1ce99baa76cf94074bcb8481ff", null ],
+    [ "operator()", "df/df9/classAnaFit.html#a329ee50c453050e9a835b5d69bd3b195", null ],
+    [ "Up", "df/df9/classAnaFit.html#a9eb6e796d26704eb61c7add5ae7955f0", null ],
+    [ "m_dr", "df/df9/classAnaFit.html#a390b5e8356a14cb23860ed9ed50a6621", null ],
+    [ "m_h2_RT", "df/df9/classAnaFit.html#a3391f3c3de38f4051e82eb60793672a6", null ],
+    [ "m_minuit", "df/df9/classAnaFit.html#a532a3734e9edebec28056c3478ebe2d3", null ],
+    [ "m_r_max", "df/df9/classAnaFit.html#a0e43f522ef60ee752d05d3f2b284fab2", null ],
+    [ "m_spl_t2r", "df/df9/classAnaFit.html#ac976ea424b9b92950fd0e897b023f88c", null ],
+    [ "m_t0", "df/df9/classAnaFit.html#a0400f8a779bc6700223bf6ff63f30260", null ],
+    [ "m_t1", "df/df9/classAnaFit.html#a88e1bcdaf3f5d03cf09fe25076741b58", null ],
+    [ "m_t_max", "df/df9/classAnaFit.html#a805c8673356e57398b3c7706b556a1bf", null ],
+    [ "m_t_min", "df/df9/classAnaFit.html#ae42dc9e86b50fa8127ccf8130ca737df", null ],
+    [ "N_PT", "df/df9/classAnaFit.html#affd1cd875d74709b1c4add464bfd96bf", null ]
+];
