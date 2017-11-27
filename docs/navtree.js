@@ -9,6 +9,7 @@ var NAVTREE =
     [ "Write your code with Doxygen documentation", "index.html#Write_your_code", null ],
     [ "Fun4All", "d1/d77/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_fun4all_README.html", null ],
     [ "Installation/Compilation guide for kTracker", "d0/d80/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_ktracker_README.html", null ],
+    [ "art-seaquest", "d8/dd6/md__home_yuhw_GitHub_SeaQuest_art-seaquest_README.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -47,10 +48,9 @@ var NAVTREE =
     ] ],
     [ "External Links", "usergroup0.html", [
       [ "Use Doxygen in your code", "^http://www.stack.nl/~dimitri/doxygen/manual/docblocks.html#cppblock", null ],
-      [ "PHENIX Home", "^https://www.phenix.bnl.gov", null ],
-      [ "sPHENIX WIKI", "^https://wiki.bnl.gov/sPHENIX/index.php/Main_Page", null ],
-      [ "sPHENIX simulation tutorial", "^https://indico.bnl.gov/conferenceDisplay.py?confId=1145", null ],
-      [ "sPHENIX simulation meeting series", "^https://indico.bnl.gov/categoryDisplay.py?categId=88", null ]
+      [ "ktracker", "^https://github.com/HaiwangYu/seaquest-offline/tree/master/ktracker", null ],
+      [ "fun4all", "^https://github.com/HaiwangYu/seaquest-offline/tree/master/fun4all", null ],
+      [ "art-seaquest", "^https://github.com/HaiwangYu/art-seaquest", null ]
     ] ]
   ] ]
 ];
@@ -67,14 +67,14 @@ var NAVTREEINDEX =
 "d6/d86/classPHPointerList.html",
 "d6/dd9/classSMillepede.html#ac6f02b117c605d10cd25e8508674c3d7",
 "d7/ddf/classPHDataNodeIterator.html",
-"d9/d60/qdel_8py.html#a4ef2006020750888ba611456df9a1390",
-"da/d27/RTCurveMaker_8cxx.html#a7dfdf8b2807fce3bb662ec4e62e8ad02",
-"da/dc5/targetDump_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97",
-"dc/d90/classPlane.html#a44240b813f6fb47888c34388270dddc6",
-"dd/d59/classSQEvent__v1.html#a82bd5dd97adff87e61561d44ac644a5b",
-"de/d45/classSignedHit.html#a1dd429014d79a58cbfdf9a4542fa1c10",
-"df/db9/classPHTimeServer_1_1iterator.html#a37df72415cac68819e595a66362b764e",
-"globals_m.html"
+"d9/d60/qdel_8py.html",
+"da/d27/RTCurveMaker_8cxx.html#a7a45ee82905fcb9385cd80d2bb394f2c",
+"da/dc5/targetDump_8cxx.html",
+"dc/d90/classPlane.html#a44227090e55fed21e67fcaf1665410c2",
+"dd/d59/classSQEvent__v1.html#a7d35ddc873bffc9753dd809fb405e73f",
+"de/d45/classSignedHit.html#a0e337b84364b1ea021a8f2ad0a764304",
+"df/db9/classPHTimeServer_1_1iterator.html#a26fa5d898e9f03b7416ef4365644b3c6",
+"globals_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
