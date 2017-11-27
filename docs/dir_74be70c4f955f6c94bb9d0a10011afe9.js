@@ -30,6 +30,21 @@ var dir_74be70c4f955f6c94bb9d0a10011afe9 =
     ] ],
     [ "SQHitMap_v1LinkDef.h", "d4/d2a/SQHitMap__v1LinkDef_8h.html", null ],
     [ "SQHitMapLinkDef.h", "d0/df7/SQHitMapLinkDef_8h.html", null ],
+    [ "SQHitVector.C", "de/d30/SQHitVector_8C.html", null ],
+    [ "SQHitVector.h", "db/ddd/SQHitVector_8h.html", [
+      [ "SQHitVector", "d9/dbc/classSQHitVector.html", "d9/dbc/classSQHitVector" ]
+    ] ],
+    [ "SQHitVector_v1.C", "d9/d87/SQHitVector__v1_8C.html", "d9/d87/SQHitVector__v1_8C" ],
+    [ "SQHitVector_v1.h", "d2/dec/SQHitVector__v1_8h.html", [
+      [ "SQHitVector_v1", "d9/dbf/classSQHitVector__v1.html", "d9/dbf/classSQHitVector__v1" ]
+    ] ],
+    [ "SQHitVector_v1LinkDef.h", "db/d0f/SQHitVector__v1LinkDef_8h.html", null ],
+    [ "SQHitVectorLinkDef.h", "d6/d28/SQHitVectorLinkDef_8h.html", null ],
+    [ "SQMCHit_v1.C", "df/dfd/SQMCHit__v1_8C.html", "df/dfd/SQMCHit__v1_8C" ],
+    [ "SQMCHit_v1.h", "d9/dc5/SQMCHit__v1_8h.html", [
+      [ "SQMCHit_v1", "d1/d5f/classSQMCHit__v1.html", "d1/d5f/classSQMCHit__v1" ]
+    ] ],
+    [ "SQMCHit_v1LinkDef.h", "dc/db2/SQMCHit__v1LinkDef_8h.html", null ],
     [ "SQRun.C", "d1/d48/SQRun_8C.html", null ],
     [ "SQRun.h", "de/d59/SQRun_8h.html", [
       [ "SQRun", "d7/db7/classSQRun.html", "d7/db7/classSQRun" ]

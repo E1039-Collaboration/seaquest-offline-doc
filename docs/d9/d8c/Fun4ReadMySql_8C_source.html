@@ -116,39 +116,47 @@ $(document).ready(function(){initNavTree('d9/d8c/Fun4ReadMySql_8C_source.html','
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Fun4ReadMySql.C</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: Oct 30, 2017</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: yuhw</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: yuhw@nmsu.edu</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d9/d8c/Fun4ReadMySql_8C.html#a729b39fa627147c63772f28c9be36b62">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8c/Fun4ReadMySql_8C.html#a729b39fa627147c63772f28c9be36b62">Fun4ReadMySql</a>(</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> nevent = 1, </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *outfile = <span class="stringliteral">&quot;out.root&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d9/d8c/Fun4ReadMySql_8C.html#aae0546c714e9fc6866f59e82b31ebe51">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8c/Fun4ReadMySql_8C.html#aae0546c714e9fc6866f59e82b31ebe51">Fun4ReadMySql</a>(</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">int</span> nevent = 2, </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">char</span> *outfile = <span class="stringliteral">&quot;dst.root&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                ) {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        gSystem-&gt;Load(<span class="stringliteral">&quot;libfun4all.so&quot;</span>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a>* se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        gSystem-&gt;Load(<span class="stringliteral">&quot;libmodules.so&quot;</span>);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/dda/classReadMySql.html">ReadMySql</a> *simple_reader = <span class="keyword">new</span> <a class="code" href="../../db/dda/classReadMySql.html">ReadMySql</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    simple_reader-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(100);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;JADE&quot;</span>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, outfile);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(simple_reader);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">delete</span> se;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">int</span> verbosity = 0;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        gSystem-&gt;Load(<span class="stringliteral">&quot;libfun4all.so&quot;</span>);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a>* se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        se-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(verbosity);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        gSystem-&gt;Load(<span class="stringliteral">&quot;libmodules.so&quot;</span>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../db/dda/classReadMySql.html">ReadMySql</a> *simple_reader = <span class="keyword">new</span> <a class="code" href="../../db/dda/classReadMySql.html">ReadMySql</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        simple_reader-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(verbosity);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        simple_reader-&gt;<a class="code" href="../../db/dda/classReadMySql.html#a81d1c0b99e8ea6b5333e4ec64f553202">set_hit_container_choice</a>(<span class="stringliteral">&quot;Vector&quot;</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;JADE&quot;</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, outfile);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(simple_reader);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">delete</span> se;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;Fun4ReadMySql Done!&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="ttc" id="classFun4AllServer_html_ab2cb490790d15b865ae79eb3094caabe"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">Fun4AllServer::registerInputManager</a></div><div class="ttdeci">int registerInputManager(Fun4AllInputManager *InManager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer.cc:1256</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_ab7263450319ca1d5029209fde26a7af8"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">Fun4AllServer::End</a></div><div class="ttdeci">virtual int End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer.cc:988</a></div></div>
 <div class="ttc" id="classFun4AllInputManager_html"><div class="ttname"><a href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de7/Fun4AllInputManager_8h_source.html#l00016">Fun4AllInputManager.h:16</a></div></div>
+<div class="ttc" id="classReadMySql_html_a81d1c0b99e8ea6b5333e4ec64f553202"><div class="ttname"><a href="../../db/dda/classReadMySql.html#a81d1c0b99e8ea6b5333e4ec64f553202">ReadMySql::set_hit_container_choice</a></div><div class="ttdeci">void set_hit_container_choice(const std::string &amp;hitContainerChoice)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00068">ReadMySql.h:68</a></div></div>
+<div class="ttc" id="Fun4ReadMySql_8C_html_aae0546c714e9fc6866f59e82b31ebe51"><div class="ttname"><a href="../../d9/d8c/Fun4ReadMySql_8C.html#aae0546c714e9fc6866f59e82b31ebe51">Fun4ReadMySql</a></div><div class="ttdeci">void Fun4ReadMySql(const int nevent=2, const char *outfile=&quot;dst.root&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/Fun4ReadMySql_8C_source.html#l00010">Fun4ReadMySql.C:10</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_a3e55156f91b2c94bb6c4ef33ffce587a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a></div><div class="ttdeci">static Fun4AllServer * instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00043">Fun4AllServer.cc:43</a></div></div>
 <div class="ttc" id="classFun4AllServer_html"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00024">Fun4AllServer.h:24</a></div></div>
 <div class="ttc" id="classFun4AllDummyInputManager_html"><div class="ttname"><a href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d8f/Fun4AllDummyInputManager_8h_source.html#l00011">Fun4AllDummyInputManager.h:11</a></div></div>
@@ -156,9 +164,8 @@ $(document).ready(function(){initNavTree('d9/d8c/Fun4ReadMySql_8C_source.html','
 <div class="ttc" id="classFun4AllServer_html_a11bbc8b2f53bc06e0b05ee202dd6372a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">Fun4AllServer::run</a></div><div class="ttdeci">int run(const int nevnts=0, const bool require_nevents=false)</div><div class="ttdoc">run n events (0 means up to end of file) </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer.cc:1288</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_a9e7cd54536d1edb6e5c5cc153c0a036a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">Fun4AllServer::registerOutputManager</a></div><div class="ttdeci">int registerOutputManager(Fun4AllOutputManager *manager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00359">Fun4AllServer.cc:359</a></div></div>
 <div class="ttc" id="classFun4AllDstOutputManager_html"><div class="ttname"><a href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d22/Fun4AllDstOutputManager_8h_source.html#l00012">Fun4AllDstOutputManager.h:12</a></div></div>
-<div class="ttc" id="classReadMySql_html"><div class="ttname"><a href="../../db/dda/classReadMySql.html">ReadMySql</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00038">ReadMySql.h:38</a></div></div>
+<div class="ttc" id="classReadMySql_html"><div class="ttname"><a href="../../db/dda/classReadMySql.html">ReadMySql</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d40/ReadMySql_8h_source.html#l00039">ReadMySql.h:39</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_a05da2261577843028cf78e99171343b9"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Fun4AllBase::Verbosity</a></div><div class="ttdeci">virtual void Verbosity(const int ival)</div><div class="ttdoc">Sets the verbosity of this module (0 by default=quiet). </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00058">Fun4AllBase.h:58</a></div></div>
-<div class="ttc" id="Fun4ReadMySql_8C_html_a729b39fa627147c63772f28c9be36b62"><div class="ttname"><a href="../../d9/d8c/Fun4ReadMySql_8C.html#a729b39fa627147c63772f28c9be36b62">Fun4ReadMySql</a></div><div class="ttdeci">void Fun4ReadMySql(const int nevent=1, const char *outfile=&quot;out.root&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8c/Fun4ReadMySql_8C_source.html#l00010">Fun4ReadMySql.C:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -169,7 +176,7 @@ $(document).ready(function(){initNavTree('d9/d8c/Fun4ReadMySql_8C_source.html','
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_113873eb1119382e67d6a213c266f2c5.html">macros</a></li><li class="navelem"><a class="el" href="../../d9/d8c/Fun4ReadMySql_8C.html">Fun4ReadMySql.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Nov 26 2017 19:55:35</em> using <a
+			updated: <em>Mon Nov 27 2017 01:43:22</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -31,6 +31,7 @@ var searchData=
   ['hitquality',['hitQuality',['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()'],['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit::HitQuality()'],['../d1/d7b/classseaquest_1_1Hit.html#ac5c8931d62de396ab4b939300913cb92',1,'seaquest::Hit::HitQuality()']]],
   ['hitquery',['hitQuery',['../dc/dd3/classMySQLSvc.html#af88dd7d3e50e761ebef89e1cb54c6a7c',1,'MySQLSvc']]],
   ['hits',['hits',['../d0/d1e/classPropSegment.html#a25575427a3d301ea5a04ce91bef70610',1,'PropSegment::hits()'],['../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4',1,'Tracklet::hits()']]],
+  ['hitvector',['HitVector',['../d9/dbc/classSQHitVector.html#a3b5331027926445dd9e8252501a92eb1',1,'SQHitVector']]],
   ['hodoalign_2ecxx',['hodoAlign.cxx',['../d9/d4b/analysis__tools_2hodoAlign_8cxx.html',1,'']]],
   ['hodoalign_2ecxx',['hodoAlign.cxx',['../d7/d70/alignment_2tools_2hodoAlign_8cxx.html',1,'']]],
   ['hodoefficiency_2ecxx',['hodoEfficiency.cxx',['../d7/de7/hodoEfficiency_8cxx.html',1,'']]],

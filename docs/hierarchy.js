@@ -41,7 +41,8 @@ var hierarchy =
       [ "Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html", null ],
       [ "SubsysReco", "d0/d32/classSubsysReco.html", [
         [ "ReadMySql", "db/dda/classReadMySql.html", null ],
-        [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ]
+        [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ],
+        [ "TestAnalyzer", "da/da5/classTestAnalyzer.html", null ]
       ] ]
     ] ],
     [ "G4MagneticField", null, [
@@ -138,10 +139,15 @@ var hierarchy =
           [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ]
         ] ],
         [ "SQHit", "de/d79/classSQHit.html", [
-          [ "SQHit_v1", "d3/d2e/classSQHit__v1.html", null ]
+          [ "SQHit_v1", "d3/d2e/classSQHit__v1.html", [
+            [ "SQMCHit_v1", "d1/d5f/classSQMCHit__v1.html", null ]
+          ] ]
         ] ],
         [ "SQHitMap", "d0/dac/classSQHitMap.html", [
           [ "SQHitMap_v1", "d2/d62/classSQHitMap__v1.html", null ]
+        ] ],
+        [ "SQHitVector", "d9/dbc/classSQHitVector.html", [
+          [ "SQHitVector_v1", "d9/dbf/classSQHitVector__v1.html", null ]
         ] ],
         [ "SQRun", "d7/db7/classSQRun.html", [
           [ "SQRun_v1", "dc/d96/classSQRun__v1.html", null ]
