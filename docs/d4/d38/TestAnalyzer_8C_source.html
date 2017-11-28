@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/fun4all/modules/TestAnalyzer.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+<link href="../../icon.png" rel="shortcut icon" type="image/x-icon" />
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
@@ -27,14 +28,15 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="https://github.com/HaiwangYu/seaquest-offline"><img
+						<td id="projectlogo"><a href="../../index.html"><img
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
 							</div> 
 							<div id="projectbrief">
-								Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>
+								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
+								Documentation for SeaQuest Offline Software
 							</div> 
 						</td>
 					</tr>
@@ -155,7 +157,7 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../da/da5/classTestAnalyzer.html#a66bb43d13c9fff24f5df4fc14e6744e4">   42</a></span>&#160;<a class="code" href="../../da/da5/classTestAnalyzer.html#a66bb43d13c9fff24f5df4fc14e6744e4">TestAnalyzer::TestAnalyzer</a>(<span class="keyword">const</span> std::string&amp; name) :</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a>(name),</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;_hit_container_choice(<span class="stringliteral">&quot;Vector&quot;</span>),</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;_hit_container_type(<span class="stringliteral">&quot;Vector&quot;</span>),</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;_event(0),</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;_run_header(nullptr),</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;_spill_map(nullptr),</div>
@@ -283,7 +285,7 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/da5/classTestAnalyzer.html#a0d9571d9540db6a6c6663fcbbc806e44">_hit_container_choice</a>.find(<span class="stringliteral">&quot;Map&quot;</span>) != std::string::npos) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/da5/classTestAnalyzer.html#af3419eadfae09367ca43777908b1a19d">_hit_container_type</a>.find(<span class="stringliteral">&quot;Map&quot;</span>) != std::string::npos) {</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                <a class="code" href="../../da/da5/classTestAnalyzer.html#a05db7fe514b50fef85a7c51f9fb9d9f9">_hit_map</a> = findNode::getClass&lt;SQHitMap&gt;(topNode, <span class="stringliteral">&quot;SQHitMap&quot;</span>);</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../da/da5/classTestAnalyzer.html#a05db7fe514b50fef85a7c51f9fb9d9f9">_hit_map</a>) {</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                        <a class="code" href="../../d4/d38/TestAnalyzer_8C.html#af4231849d7d75726b179a00224d575de">LogError</a>(<span class="stringliteral">&quot;!_hit_map&quot;</span>);</div>
@@ -291,7 +293,7 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                }</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        }</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/da5/classTestAnalyzer.html#a0d9571d9540db6a6c6663fcbbc806e44">_hit_container_choice</a>.find(<span class="stringliteral">&quot;Vector&quot;</span>) != std::string::npos) {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../da/da5/classTestAnalyzer.html#af3419eadfae09367ca43777908b1a19d">_hit_container_type</a>.find(<span class="stringliteral">&quot;Vector&quot;</span>) != std::string::npos) {</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                <a class="code" href="../../da/da5/classTestAnalyzer.html#a353a003a441250ac9492359c1a095cc8">_hit_vector</a> = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../da/da5/classTestAnalyzer.html#a353a003a441250ac9492359c1a095cc8">_hit_vector</a>) {</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                        <a class="code" href="../../d4/d38/TestAnalyzer_8C.html#af4231849d7d75726b179a00224d575de">LogError</a>(<span class="stringliteral">&quot;!_hit_vector&quot;</span>);</div>
@@ -313,6 +315,7 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 <div class="ttc" id="classSQEvent_html_a392d15330793852b00fa9bc842604dca"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id</a></div><div class="ttdeci">virtual int get_run_id() const =0</div></div>
 <div class="ttc" id="classTestAnalyzer_html_aabe16b2832f40c8fb67bf2b203bd84d2"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#aabe16b2832f40c8fb67bf2b203bd84d2">TestAnalyzer::_b_live_proton</a></div><div class="ttdeci">float _b_live_proton</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00089">TestAnalyzer.h:89</a></div></div>
 <div class="ttc" id="classTestAnalyzer_html_a43584559b47b25ac9be224467167e4ed"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#a43584559b47b25ac9be224467167e4ed">TestAnalyzer::_event_header</a></div><div class="ttdeci">SQEvent * _event_header</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00080">TestAnalyzer.h:80</a></div></div>
+<div class="ttc" id="classTestAnalyzer_html_af3419eadfae09367ca43777908b1a19d"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#af3419eadfae09367ca43777908b1a19d">TestAnalyzer::_hit_container_type</a></div><div class="ttdeci">std::string _hit_container_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00073">TestAnalyzer.h:73</a></div></div>
 <div class="ttc" id="TestAnalyzer_8h_html"><div class="ttname"><a href="../../d4/da2/TestAnalyzer_8h.html">TestAnalyzer.h</a></div></div>
 <div class="ttc" id="classTestAnalyzer_html_a240d8f08f74437737a5b23a38ad2c6f6"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#a240d8f08f74437737a5b23a38ad2c6f6">TestAnalyzer::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d38/TestAnalyzer_8C_source.html#l00058">TestAnalyzer.C:58</a></div></div>
 <div class="ttc" id="classTestAnalyzer_html_af8d07961a6c6438119c0ff777aa46d15"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#af8d07961a6c6438119c0ff777aa46d15">TestAnalyzer::_b_spill_id</a></div><div class="ttdeci">int _b_spill_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00088">TestAnalyzer.h:88</a></div></div>
@@ -325,7 +328,6 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
 <div class="ttc" id="classTestAnalyzer_html_a43d371d74a3f43bb88130cf48f037382"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#a43d371d74a3f43bb88130cf48f037382">TestAnalyzer::_b_drift_distance</a></div><div class="ttdeci">float _b_drift_distance[10000]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00094">TestAnalyzer.h:94</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_a5a3ed7a2a70cc2e38dbe1cb33afe9c2f"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">PHTFileServer::get</a></div><div class="ttdeci">static PHTFileServer &amp; get(void)</div><div class="ttdoc">return reference to class singleton </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/PHTFileServer_8h_source.html#l00036">PHTFileServer.h:36</a></div></div>
-<div class="ttc" id="classTestAnalyzer_html_a0d9571d9540db6a6c6663fcbbc806e44"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#a0d9571d9540db6a6c6663fcbbc806e44">TestAnalyzer::_hit_container_choice</a></div><div class="ttdeci">std::string _hit_container_choice</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00073">TestAnalyzer.h:73</a></div></div>
 <div class="ttc" id="classTestAnalyzer_html_a35bdec6ecf13b5641d2598b667464639"><div class="ttname"><a href="../../da/da5/classTestAnalyzer.html#a35bdec6ecf13b5641d2598b667464639">TestAnalyzer::_b_run_id</a></div><div class="ttdeci">int _b_run_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da2/TestAnalyzer_8h_source.html#l00087">TestAnalyzer.h:87</a></div></div>
 <div class="ttc" id="TestAnalyzer_8C_html_af4231849d7d75726b179a00224d575de"><div class="ttname"><a href="../../d4/d38/TestAnalyzer_8C.html#af4231849d7d75726b179a00224d575de">LogError</a></div><div class="ttdeci">#define LogError(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d38/TestAnalyzer_8C_source.html#l00039">TestAnalyzer.C:39</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
@@ -374,7 +376,7 @@ $(document).ready(function(){initNavTree('d4/d38/TestAnalyzer_8C_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_53e8c8ec03439db9a89ffe77a4b17b46.html">modules</a></li><li class="navelem"><a class="el" href="../../d4/d38/TestAnalyzer_8C.html">TestAnalyzer.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Nov 27 2017 01:43:22</em> using <a
+			updated: <em>Mon Nov 27 2017 20:32:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

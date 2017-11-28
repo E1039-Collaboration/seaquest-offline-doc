@@ -10,6 +10,7 @@
 <title>$title</title>
 <!--END !PROJECT_NAME-->
 <link href="$relpath$tabs.css" rel="stylesheet" type="text/css" />
+<link href="$relpath^icon.png" rel="shortcut icon" type="image/x-icon" />
 <script type="text/javascript" src="$relpath$jquery.js"></script>
 <script type="text/javascript" src="$relpath$dynsections.js"></script>
 $treeview $search $mathjax
@@ -26,7 +27,7 @@ $extrastylesheet
 				<tbody>
 					<tr style="height: 56px;">
 						<!--BEGIN PROJECT_LOGO-->
-						<td id="projectlogo"><a href="https://github.com/HaiwangYu/seaquest-offline"><img
+						<td id="projectlogo"><a href="$relpath^index.html"><img
 								alt="Logo" src="$relpath$$projectlogo" /></a></td>
 						<!--END PROJECT_LOGO-->
 						<!--BEGIN PROJECT_NAME-->
@@ -38,7 +39,8 @@ $extrastylesheet
 								<!--END PROJECT_NUMBER-->
 							</div> <!--BEGIN PROJECT_BRIEF-->
 							<div id="projectbrief">
-								Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>
+								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
+								Documentation for SeaQuest Offline Software
 							</div> <!--END PROJECT_BRIEF-->
 						</td>
 						<!--END PROJECT_NAME-->

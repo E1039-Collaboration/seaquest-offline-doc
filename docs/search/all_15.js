@@ -6,7 +6,7 @@ var searchData=
   ['unique',['unique',['../da/d18/classboost_1_1shared__ptr.html#ae34f598b321fe47606315f3b442eda94',1,'boost::shared_ptr']]],
   ['uniqueid',['uniqueID',['../d9/dcd/classTNode.html#ac7a545f24782b8cc8a3d9c62e30764cb',1,'TNode::uniqueID()'],['../d0/d88/classHit.html#ac15d4a5e97e146399d09376cb1ef445a',1,'Hit::uniqueID()']]],
   ['unitmatrix',['unitMatrix',['../d9/db7/classSMatrix.html#a50ee648ffe33d1b71520dc03158b2b43',1,'SMatrix']]],
-  ['unregistersubsystem',['unregistersubsystem',['../da/d29/classFun4AllServer.html#ad62137e922d552a0635b07e42450e1f1',1,'Fun4AllServer::unregistersubsystem()'],['../da/d29/classFun4AllServer.html#aa73ff4bad442cd150dbf6f6f3ba87d14',1,'Fun4AllServer::unregisterSubsystem(SubsysReco *subsystem)']]],
+  ['unregistersubsystem',['unregisterSubsystem',['../da/d29/classFun4AllServer.html#aa73ff4bad442cd150dbf6f6f3ba87d14',1,'Fun4AllServer::unregisterSubsystem(SubsysReco *subsystem)'],['../da/d29/classFun4AllServer.html#ad62137e922d552a0635b07e42450e1f1',1,'Fun4AllServer::unregistersubsystem()']]],
   ['unregistersubsystemsnow',['unregisterSubsystemsNow',['../da/d29/classFun4AllServer.html#a3a4e3f448388cb2e68b085e9038feaf8',1,'Fun4AllServer']]],
   ['up',['Up',['../df/df9/classAnaFit.html#a9eb6e796d26704eb61c7add5ae7955f0',1,'AnaFit']]],
   ['update',['update',['../dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32',1,'Plane::update()'],['../d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e',1,'KalmanTrack::update()']]],

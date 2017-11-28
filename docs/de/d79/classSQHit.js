@@ -5,8 +5,8 @@ var classSQHit =
       [ "HodoMask", "de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da15c41dd23b32fcc0538d87332b41279c", null ],
       [ "TriggerMask", "de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502daef3afd58ba5a97db1787d00daeebf2ba", null ]
     ] ],
-    [ "~SQHit", "de/d79/classSQHit.html#a1d8575ef257b3f3da6335b5c79091fc4", null ],
     [ "SQHit", "de/d79/classSQHit.html#a9a4f820c5f9879e0dcb17c6cb577d23c", null ],
+    [ "~SQHit", "de/d79/classSQHit.html#a1d8575ef257b3f3da6335b5c79091fc4", null ],
     [ "ClassDef", "de/d79/classSQHit.html#a1d3264e48eeb5a85670720d60e7cd932", null ],
     [ "Clone", "de/d79/classSQHit.html#ab75c6c19b8933ec4a092cd4774aaa873", null ],
     [ "get_detector_id", "de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33", null ],

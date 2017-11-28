@@ -38,7 +38,8 @@ PROJECT_NUMBER         =
 # for a project that appears at the top of each page and should give viewer
 # a quick idea about the purpose of the project. Keep the description short.
 
-PROJECT_BRIEF          = "Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software </a>"
+#PROJECT_BRIEF          = "Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software </a>"
+PROJECT_BRIEF          = "Documentation for SeaQuest Offline Software"
 # With the PROJECT_LOGO tag one can specify an logo or icon that is
 # included in the documentation. The maximum height of the logo should not
 # exceed 55 pixels and the maximum width should not exceed 200 pixels.
@@ -142,7 +143,7 @@ STRIP_FROM_INC_PATH    = ./
 
 CVS_LINK_ENABLE        = YES
 CVS_STRIP_FROM_PATH    = /home/phnxbld/doxygen_sPHENIX/utilities/utils/rebuild
-CVS_URL_PREFIX         = "https://github.com/sPHENIX-Collaboration/"
+CVS_URL_PREFIX         = "https://github.com/HaiwangYu/seaquest-offline"
 CVS_URL_SUFIX          = ""
 
 
@@ -917,6 +918,7 @@ HTML_FILE_EXTENSION    = .html
 # changing the value of configuration settings such as GENERATE_TREEVIEW!
 
 HTML_HEADER            = Doxygen_Assist/Header.shtml
+HTML_EXTRA_FILES       += Doxygen_Assist/icon.png
 
 # The HTML_FOOTER tag can be used to specify a personal HTML footer for
 # each generated HTML page. If it is left blank doxygen will generate a

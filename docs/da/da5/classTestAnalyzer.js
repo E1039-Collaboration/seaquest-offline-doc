@@ -22,7 +22,7 @@ var classTestAnalyzer =
     [ "_b_spill_id", "da/da5/classTestAnalyzer.html#af8d07961a6c6438119c0ff777aa46d15", null ],
     [ "_event", "da/da5/classTestAnalyzer.html#acecc3bd118ba0375eb345b8bdcd17b74", null ],
     [ "_event_header", "da/da5/classTestAnalyzer.html#a43584559b47b25ac9be224467167e4ed", null ],
-    [ "_hit_container_choice", "da/da5/classTestAnalyzer.html#a0d9571d9540db6a6c6663fcbbc806e44", null ],
+    [ "_hit_container_type", "da/da5/classTestAnalyzer.html#af3419eadfae09367ca43777908b1a19d", null ],
     [ "_hit_map", "da/da5/classTestAnalyzer.html#a05db7fe514b50fef85a7c51f9fb9d9f9", null ],
     [ "_hit_vector", "da/da5/classTestAnalyzer.html#a353a003a441250ac9492359c1a095cc8", null ],
     [ "_out_name", "da/da5/classTestAnalyzer.html#a3e0316e153039b8a076baf1d9f8601e9", null ],

@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/fun4all/interfaces/SQHit_v1.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
+<link href="../../icon.png" rel="shortcut icon" type="image/x-icon" />
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
@@ -27,14 +28,15 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="https://github.com/HaiwangYu/seaquest-offline"><img
+						<td id="projectlogo"><a href="../../index.html"><img
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								SeaQuest Offline Software
 							</div> 
 							<div id="projectbrief">
-								Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>
+								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
+								Documentation for SeaQuest Offline Software
 							</div> 
 						</td>
 					</tr>
@@ -116,65 +118,62 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * SQHit_v1.C</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> *  Created on: Oct 29, 2017</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: yuhw</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> *      Author: yuhw@nmsu.edu</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d3e/SQHit__v1_8h.html">SQHit_v1.h</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;limits&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//#include &lt;TMatrixF.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="../../d4/d08/SQHit__v1_8C.html#ac36568cf39d9210222bb4fa19fb1f6cb">ClassImp</a>(<a class="code" href="../../d3/d2e/classSQHit__v1.html">SQHit_v1</a>);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../d4/d08/SQHit__v1_8C.html#ac36568cf39d9210222bb4fa19fb1f6cb">ClassImp</a>(<a class="code" href="../../d3/d2e/classSQHit__v1.html">SQHit_v1</a>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">   18</a></span>&#160;<a class="code" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">SQHit_v1::SQHit_v1</a>()</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  : _hit_id(std::numeric_limits&lt;int&gt;::max()),</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        _detector_id(std::numeric_limits&lt;short&gt;::max()),</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        _element_id(std::numeric_limits&lt;short&gt;::max()),</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        _tdc_time(NAN),</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        _drift_distance(NAN),</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        _pos(NAN),</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        _flag(0)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{}</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">   28</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">SQHit_v1::identify</a>(ostream&amp; os)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---SQHit_v1--------------------&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot; hitID: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a56ff64df4ac409d707dcebc55273d035">get_hit_id</a>() &lt;&lt; endl;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot; detectorID: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a3e14f5367720633efbb5b08c107d5055">get_detector_id</a>() &lt;&lt; <span class="stringliteral">&quot; elementID: &quot;</span>&lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#af6d9633a4aa117ed985c97ca14edb328">get_element_id</a>() &lt;&lt; endl;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  os</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; tdcTime: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a878dd6a04a4e22b8eadb7a05f27ea980">get_tdc_time</a>()</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; driftDistance: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a028c0dd96f918eb56f21626caecbbcca">get_drift_distance</a>()</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; pos: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#aff03660bc12bbf7b35b7cd20d1f13b91">get_pos</a>()</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  &lt;&lt; endl;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  os</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; inTime: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a60a21c4abdab978de368520315097274">is_in_time</a>()</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; masked: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a6fb63c86af3d4c7e3611dbd161926920">is_hodo_mask</a>()</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; is_trigger_mask: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a05458d05b15c3a834c89ea7d33710963">is_trigger_mask</a>()</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  &lt;&lt; endl;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---------------------------------&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">   47</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">SQHit_v1::isValid</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#af74c9768e151040a14022d3d22a205ed">_hit_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a881a73e1f0b108e69ffdd64e11ee2926">_detector_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a8bea3e7534148f9db7b1fc53973b1093">_element_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#abc63ba4c491875678d3a91695bc88956">_tdc_time</a>)) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#a2348d6f1b539f13b6a6f2668f976ef5a">_drift_distance</a>)) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#a7059d1e23ce29a0da74147c40596999f">_pos</a>)) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">   16</a></span>&#160;<a class="code" href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">SQHit_v1::SQHit_v1</a>()</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  : _hit_id(std::numeric_limits&lt;int&gt;::max()),</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        _detector_id(std::numeric_limits&lt;short&gt;::max()),</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        _element_id(std::numeric_limits&lt;short&gt;::max()),</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        _tdc_time(NAN),</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        _drift_distance(NAN),</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="comment">//_pos(NAN),</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        _flag(0)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">SQHit_v1::identify</a>(ostream&amp; os)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---SQHit_v1--------------------&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot; hitID: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a56ff64df4ac409d707dcebc55273d035">get_hit_id</a>() &lt;&lt; endl;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot; detectorID: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a3e14f5367720633efbb5b08c107d5055">get_detector_id</a>() &lt;&lt; <span class="stringliteral">&quot; elementID: &quot;</span>&lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#af6d9633a4aa117ed985c97ca14edb328">get_element_id</a>() &lt;&lt; endl;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  os</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; tdcTime: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a878dd6a04a4e22b8eadb7a05f27ea980">get_tdc_time</a>()</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; driftDistance: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a028c0dd96f918eb56f21626caecbbcca">get_drift_distance</a>()</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="comment">//&lt;&lt; &quot; pos: &quot; &lt;&lt; get_pos()</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  &lt;&lt; endl;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  os</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; inTime: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a60a21c4abdab978de368520315097274">is_in_time</a>()</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; masked: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a6fb63c86af3d4c7e3611dbd161926920">is_hodo_mask</a>()</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  &lt;&lt; <span class="stringliteral">&quot; is_trigger_mask: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d2e/classSQHit__v1.html#a05458d05b15c3a834c89ea7d33710963">is_trigger_mask</a>()</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  &lt;&lt; endl;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---------------------------------&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">   45</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">SQHit_v1::isValid</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#af74c9768e151040a14022d3d22a205ed">_hit_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a881a73e1f0b108e69ffdd64e11ee2926">_detector_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d2e/classSQHit__v1.html#a8bea3e7534148f9db7b1fc53973b1093">_element_id</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#abc63ba4c491875678d3a91695bc88956">_tdc_time</a>)) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (isnan(<a class="code" href="../../d3/d2e/classSQHit__v1.html#a2348d6f1b539f13b6a6f2668f976ef5a">_drift_distance</a>)) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">//if (isnan(_pos)) return 0;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="ttc" id="classSQHit__v1_html_a2348d6f1b539f13b6a6f2668f976ef5a"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a2348d6f1b539f13b6a6f2668f976ef5a">SQHit_v1::_drift_distance</a></div><div class="ttdeci">float _drift_distance</div><div class="ttdoc">driftDistance </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00067">SQHit_v1.h:67</a></div></div>
 <div class="ttc" id="SQHit__v1_8h_html"><div class="ttname"><a href="../../d7/d3e/SQHit__v1_8h.html">SQHit_v1.h</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_af6d9633a4aa117ed985c97ca14edb328"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#af6d9633a4aa117ed985c97ca14edb328">SQHit_v1::get_element_id</a></div><div class="ttdeci">virtual short get_element_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00039">SQHit_v1.h:39</a></div></div>
-<div class="ttc" id="classSQHit__v1_html_aff03660bc12bbf7b35b7cd20d1f13b91"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#aff03660bc12bbf7b35b7cd20d1f13b91">SQHit_v1::get_pos</a></div><div class="ttdeci">virtual float get_pos() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00048">SQHit_v1.h:48</a></div></div>
-<div class="ttc" id="classSQHit__v1_html_a22b68ce415d3e14415149dc7552a01f4"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">SQHit_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00028">SQHit_v1.C:28</a></div></div>
-<div class="ttc" id="classSQHit__v1_html_a7bb3bd0b0773575ed200189df7debcb4"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">SQHit_v1::SQHit_v1</a></div><div class="ttdeci">SQHit_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00018">SQHit_v1.C:18</a></div></div>
+<div class="ttc" id="classSQHit__v1_html_a22b68ce415d3e14415149dc7552a01f4"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a22b68ce415d3e14415149dc7552a01f4">SQHit_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00026">SQHit_v1.C:26</a></div></div>
+<div class="ttc" id="classSQHit__v1_html_a7bb3bd0b0773575ed200189df7debcb4"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a7bb3bd0b0773575ed200189df7debcb4">SQHit_v1::SQHit_v1</a></div><div class="ttdeci">SQHit_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00016">SQHit_v1.C:16</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a028c0dd96f918eb56f21626caecbbcca"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a028c0dd96f918eb56f21626caecbbcca">SQHit_v1::get_drift_distance</a></div><div class="ttdeci">virtual float get_drift_distance() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00045">SQHit_v1.h:45</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a881a73e1f0b108e69ffdd64e11ee2926"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a881a73e1f0b108e69ffdd64e11ee2926">SQHit_v1::_detector_id</a></div><div class="ttdeci">short _detector_id</div><div class="ttdoc">mapping from detector name to ID </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00063">SQHit_v1.h:63</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_abc63ba4c491875678d3a91695bc88956"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#abc63ba4c491875678d3a91695bc88956">SQHit_v1::_tdc_time</a></div><div class="ttdeci">float _tdc_time</div><div class="ttdoc">tdcTime </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00066">SQHit_v1.h:66</a></div></div>
@@ -184,11 +183,10 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 <div class="ttc" id="SQHit__v1_8C_html_ac36568cf39d9210222bb4fa19fb1f6cb"><div class="ttname"><a href="../../d4/d08/SQHit__v1_8C.html#ac36568cf39d9210222bb4fa19fb1f6cb">ClassImp</a></div><div class="ttdeci">ClassImp(SQHit_v1)</div></div>
 <div class="ttc" id="classSQHit__v1_html_af74c9768e151040a14022d3d22a205ed"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#af74c9768e151040a14022d3d22a205ed">SQHit_v1::_hit_id</a></div><div class="ttdeci">int _hit_id</div><div class="ttdoc">hitID </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00062">SQHit_v1.h:62</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a60a21c4abdab978de368520315097274"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a60a21c4abdab978de368520315097274">SQHit_v1::is_in_time</a></div><div class="ttdeci">virtual bool is_in_time() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00051">SQHit_v1.h:51</a></div></div>
-<div class="ttc" id="classSQHit__v1_html_a7059d1e23ce29a0da74147c40596999f"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a7059d1e23ce29a0da74147c40596999f">SQHit_v1::_pos</a></div><div class="ttdeci">float _pos</div><div class="ttdoc">pos? </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00068">SQHit_v1.h:68</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a6fb63c86af3d4c7e3611dbd161926920"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a6fb63c86af3d4c7e3611dbd161926920">SQHit_v1::is_hodo_mask</a></div><div class="ttdeci">virtual bool is_hodo_mask() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00054">SQHit_v1.h:54</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a56ff64df4ac409d707dcebc55273d035"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a56ff64df4ac409d707dcebc55273d035">SQHit_v1::get_hit_id</a></div><div class="ttdeci">virtual int get_hit_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00033">SQHit_v1.h:33</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a05458d05b15c3a834c89ea7d33710963"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a05458d05b15c3a834c89ea7d33710963">SQHit_v1::is_trigger_mask</a></div><div class="ttdeci">virtual bool is_trigger_mask() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00057">SQHit_v1.h:57</a></div></div>
-<div class="ttc" id="classSQHit__v1_html_abd81a88d52019ea3be7e90eb8adabf0d"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">SQHit_v1::isValid</a></div><div class="ttdeci">int isValid() const </div><div class="ttdoc">isValid returns non zero if object contains vailid data </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00047">SQHit_v1.C:47</a></div></div>
+<div class="ttc" id="classSQHit__v1_html_abd81a88d52019ea3be7e90eb8adabf0d"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#abd81a88d52019ea3be7e90eb8adabf0d">SQHit_v1::isValid</a></div><div class="ttdeci">int isValid() const </div><div class="ttdoc">isValid returns non zero if object contains vailid data </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d08/SQHit__v1_8C_source.html#l00045">SQHit_v1.C:45</a></div></div>
 <div class="ttc" id="classSQHit__v1_html_a8bea3e7534148f9db7b1fc53973b1093"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html#a8bea3e7534148f9db7b1fc53973b1093">SQHit_v1::_element_id</a></div><div class="ttdeci">short _element_id</div><div class="ttdoc">elementID </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00064">SQHit_v1.h:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -200,7 +198,7 @@ $(document).ready(function(){initNavTree('d4/d08/SQHit__v1_8C_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_1418ce6819b683d6832e68947ebad211.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dir_74be70c4f955f6c94bb9d0a10011afe9.html">interfaces</a></li><li class="navelem"><a class="el" href="../../d4/d08/SQHit__v1_8C.html">SQHit_v1.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Nov 27 2017 01:43:22</em> using <a
+			updated: <em>Mon Nov 27 2017 20:32:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

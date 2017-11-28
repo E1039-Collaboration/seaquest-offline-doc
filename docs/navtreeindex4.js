@@ -1,8 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d3/d96/classFun4AllHistoManager.html#a4454e378ddc9086f75d0a376ad14aae0":[7,0,34,1],
-"d3/d96/classFun4AllHistoManager.html#a616c4ed0e1b29aefd1fc9014cd633a9d":[7,0,34,5],
-"d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08":[7,0,34,2],
 "d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6":[7,0,34,10],
 "d3/d96/classFun4AllHistoManager.html#a9af9dcb3bbd224b1581988bca1244a63":[7,0,34,11],
 "d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a":[7,0,34,14],
@@ -227,8 +224,8 @@ var NAVTREEINDEX4 =
 "d4/da9/classFun4AllInputManager.html#af4ed273101b77579d99f285a74b2d840":[7,0,35,32],
 "d4/da9/classFun4AllInputManager.html#af816acceac74472f017fb5d4099eed25":[7,0,35,38],
 "d4/da9/classFun4AllInputManager.html#af9bf7d76be5d2c0b10843ae734da9bbb":[7,0,35,25],
-"d4/da9/namespaceboost.html":[7,0,0],
 "d4/da9/namespaceboost.html":[6,0,0],
+"d4/da9/namespaceboost.html":[7,0,0],
 "d4/db5/array_8hpp.html":[8,0,1,0],
 "d4/db5/array_8hpp.html#a10e6587ddad642461ccaff7108ff1f47":[8,0,1,0,6],
 "d4/db5/array_8hpp.html#a5052d3eb0b7262cf72d765f0ce814177":[8,0,1,0,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX4 =
 "d4/dfc/RTCurveFitter_8h.html":[8,0,2,1,3,16],
 "d4/dfc/RTCurveFitter_8h_source.html":[8,0,2,1,3,16],
 "d4/dfd/classTrackExtrapolator.html":[7,0,117],
-"d4/dfd/classTrackExtrapolator.html#a011dc96782fe8b0f34d77886a72afc24":[7,0,117,32]
+"d4/dfd/classTrackExtrapolator.html#a011dc96782fe8b0f34d77886a72afc24":[7,0,117,32],
+"d4/dfd/classTrackExtrapolator.html#a089cbdec7db6628e763a2f3970bbf4c3":[7,0,117,21],
+"d4/dfd/classTrackExtrapolator.html#a0e0abce250bec42228fec205f53db7a0":[7,0,117,14],
+"d4/dfd/classTrackExtrapolator.html#a0f3d18b0b22ee12ac624a5a4c061b4ce":[7,0,117,39]
 };
