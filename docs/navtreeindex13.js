@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"db/ddd/SQHitVector_8h_source.html":[8,0,2,0,2,19],
 "db/dee/triggerAna_8cxx.html":[8,0,2,1,1,17],
 "db/dee/triggerAna_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97":[8,0,2,1,1,17,0],
 "db/dee/triggerAna_8cxx_source.html":[8,0,2,1,1,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "dc/dd3/classMySQLSvc.html#a6c65937a83e3fc6d2931efa650646535":[7,0,53,42],
 "dc/dd3/classMySQLSvc.html#a6e0d410f18050189e8742bd1659f649f":[7,0,53,58],
 "dc/dd3/classMySQLSvc.html#a74630f143382cd914cf1a21ba9c810bf":[7,0,53,34],
-"dc/dd3/classMySQLSvc.html#a76f8a2c4397ea47d9f552d14c2cd1e04":[7,0,53,20],
-"dc/dd3/classMySQLSvc.html#a79fcd78ce43baa52ce00354dd9322b09":[7,0,53,75]
+"dc/dd3/classMySQLSvc.html#a76f8a2c4397ea47d9f552d14c2cd1e04":[7,0,53,20]
 };

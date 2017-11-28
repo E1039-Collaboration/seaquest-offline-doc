@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/art-seaquest/README.md Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
-<link href="../../icon.png" rel="shortcut icon" type="image/x-icon" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
@@ -130,15 +130,34 @@ $(document).ready(function(){initNavTree('dd/da4/art-seaquest_2README_8md.html',
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;- [ups](ups): package dependency descriptions; files needed <span class="keywordflow">for</span> the **buildtool**</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">### Related</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;| Name | redmine page | Repository (read-only) |</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;|:---|:---|:---|</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;| **art** | https:<span class="comment">//cdcvs.fnal.gov/redmine/projects/art | http://cdcvs.fnal.gov/projects/art |</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;| **art-workbook** | https:<span class="comment">//cdcvs.fnal.gov/redmine/projects/art-workbook | http://cdcvs.fnal.gov/projects/art-workbook |</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;| **toyExperiment** | | http:<span class="comment">//cdcvs.fnal.gov/projects/toyExperiment |</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;- **art/LArSoft Course**: https:<span class="comment">//indico.fnal.gov/event/9928/overview, 3-7 August 2015</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">### Build</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span>In a FermiLab VM. </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;```</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;mkdir [path-to-build-dir]</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;cd [path-to-build-dir]</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;cp [path-to-source]/art-seaquest/scripts<span class="comment">/*.sh .</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">source setup.sh</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">source setup_build.sh</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">buildtool -j 4</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">```</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">### Run</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">In a test folder</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">```</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">cp [path-to-source]/art-seaquest/Modules/*.fcl .</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">art -c testProducer.fcl</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">art -c testAnalyzer.fcl</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">```</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">### Related</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">| Name | redmine page | Repository (read-only) |</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">|:---|:---|:---|</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">| **art** | https://cdcvs.fnal.gov/redmine/projects/art | http://cdcvs.fnal.gov/projects/art |</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">| **art-workbook** | https://cdcvs.fnal.gov/redmine/projects/art-workbook | http://cdcvs.fnal.gov/projects/art-workbook |</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">| **toyExperiment** | | http://cdcvs.fnal.gov/projects/toyExperiment |</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">- **art/LArSoft Course**: https://indico.fnal.gov/event/9928/overview, 3-7 August 2015</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -149,7 +168,7 @@ $(document).ready(function(){initNavTree('dd/da4/art-seaquest_2README_8md.html',
 		<li class="navelem"><a class="el" href="../../dd/da4/art-seaquest_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Nov 27 2017 20:32:12</em> using <a
+			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

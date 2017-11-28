@@ -98,7 +98,7 @@ var searchData=
   ['setnroads',['setNRoads',['../d5/d83/classSRawEvent.html#a5a500712ec89db44020d8ab8e7d7b607',1,'SRawEvent::setNRoads(Short_t nRoads[])'],['../d5/d83/classSRawEvent.html#a7ec703f4b0a25bd1e0eec8f637d6a1dc',1,'SRawEvent::setNRoads(Int_t nRoads[])']]],
   ['setobjecttype',['setObjectType',['../dc/d82/classPHNode.html#a5efaced7ccd6df01fc40abbb07dfe61d',1,'PHNode']]],
   ['setoptstat',['SetOptStat',['../d2/d86/rootlogon_8C.html#a1ffd7d37f76fcb85a73bce315dddf5ec',1,'rootlogon.C']]],
-  ['setoutfilename',['setOutfileName',['../d3/d96/classFun4AllHistoManager.html#a2e4df23c83f26b376bc2891b9fc055c6',1,'Fun4AllHistoManager::setOutfileName()'],['../d2/d4a/classFun4AllEventOutputManager.html#a2fa3132456444cbaa50831d3b50e1058',1,'Fun4AllEventOutputManager::SetOutfileName()']]],
+  ['setoutfilename',['SetOutfileName',['../d2/d4a/classFun4AllEventOutputManager.html#a2fa3132456444cbaa50831d3b50e1058',1,'Fun4AllEventOutputManager::SetOutfileName()'],['../d3/d96/classFun4AllHistoManager.html#a2e4df23c83f26b376bc2891b9fc055c6',1,'Fun4AllHistoManager::setOutfileName()']]],
   ['setoutputschema',['setOutputSchema',['../dc/dd3/classMySQLSvc.html#a5d022f9281f924eb6e0584ead1e58a22',1,'MySQLSvc']]],
   ['setparent',['setParent',['../dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198',1,'PHNode']]],
   ['setparentid',['SetParentID',['../dd/da5/classMCHit.html#a3a6416791e6b0bcced6fbc2572f0ab01',1,'MCHit']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n_5fpt',['N_PT',['../df/df9/classAnaFit.html#affd1cd875d74709b1c4add464bfd96bf',1,'AnaFit']]],
-  ['name',['name',['../dc/d82/classPHNode.html#aea2e5d4bf4530277194c0e08caabfbe6',1,'PHNode::name()'],['../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed',1,'Fun4AllBase::Name() const '],['../d5/dec/classFun4AllBase.html#aed169205345a2e223690f49d4e7c4c8f',1,'Fun4AllBase::Name(const std::string &amp;name)']]],
+  ['name',['Name',['../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed',1,'Fun4AllBase::Name() const '],['../d5/dec/classFun4AllBase.html#aed169205345a2e223690f49d4e7c4c8f',1,'Fun4AllBase::Name(const std::string &amp;name)'],['../dc/d82/classPHNode.html#aea2e5d4bf4530277194c0e08caabfbe6',1,'PHNode::name()']]],
   ['nbinr',['NBINR',['../da/d27/RTCurveMaker_8cxx.html#a78c6afa5fef914e4e77a7b0be58638e3',1,'RTCurveMaker.cxx']]],
   ['nbint',['NBINT',['../da/d27/RTCurveMaker_8cxx.html#aa4e05d853bd8f5b6b095b2280ab25bb9',1,'RTCurveMaker.cxx']]],
   ['nchamberplanes',['nChamberPlanes',['../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19',1,'GlobalConsts.h']]],

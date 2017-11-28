@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <title>SeaQuest Offline Software: art-seaquest</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
-<link href="../../icon.png" rel="shortcut icon" type="image/x-icon" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
@@ -123,6 +123,10 @@ $(document).ready(function(){initNavTree('d8/dd6/md__home_yuhw_GitHub_SeaQuest_a
 </li>
 <li>[ups](ups): package dependency descriptions; files needed for the <b>buildtool</b></li>
 </ul>
+<h3>Build</h3>
+<p>In a FermiLab VM. ``` mkdir [path-to-build-dir] cd [path-to-build-dir] cp [path-to-source]/art-seaquest/scripts/*.sh . source setup.sh source setup_build.sh buildtool -j 4 ```</p>
+<h3>Run</h3>
+<p>In a test folder ``` cp [path-to-source]/art-seaquest/Modules/*.fcl . art -c testProducer.fcl art -c testAnalyzer.fcl ```</p>
 <h3>Related</h3>
 <table class="doxtable">
 <tr>
@@ -146,7 +150,7 @@ $(document).ready(function(){initNavTree('d8/dd6/md__home_yuhw_GitHub_SeaQuest_a
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Nov 27 2017 20:32:12</em> using <a
+			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 <title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/art-seaquest/art-seaquest/Modules/TestProducer_module.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
-<link href="../../icon.png" rel="shortcut icon" type="image/x-icon" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
 <link href="../../navtree.css" rel="stylesheet" type="text/css"/>
@@ -126,64 +126,80 @@ $(document).ready(function(){initNavTree('d5/da0/TestProducer__module_8cc_source
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;art/Framework/Core/ModuleMacros.h&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;art/Framework/Principal/Event.h&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">namespace </span>seaquest {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;CLHEP/Random/RandFlat.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html">   19</a></span>&#160;  <span class="keyword">class </span><a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html">TestProducer</a> : <span class="keyword">public</span> art::EDProducer {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">namespace </span>seaquest {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html">   21</a></span>&#160;  <span class="keyword">class </span><a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html">TestProducer</a> : <span class="keyword">public</span> art::EDProducer {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">TestProducer</a>(fhicl::ParameterSet <span class="keyword">const</span>&amp; pset);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">produce</a>( art::Event&amp; event) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">TestProducer</a>(fhicl::ParameterSet <span class="keyword">const</span>&amp; pset);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">produce</a>( art::Event&amp; event) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#aa56bc21a6d48e8bf7832a5a1713befc1">   29</a></span>&#160;    art::InputTag <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#aa56bc21a6d48e8bf7832a5a1713befc1">fitsTag_</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  };</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">   35</a></span>&#160;<a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">seaquest::TestProducer::TestProducer</a>(fhicl::ParameterSet <span class="keyword">const</span>&amp; pset ):</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  fitsTag_(pset.get&lt;std::string&gt;(<span class="stringliteral">&quot;fitsTag&quot;</span>)){</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  produces&lt;seaquest::Event&gt;();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  produces&lt;seaquest::HitCollection&gt;();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">seaquest::TestProducer::produce</a>( art::Event&amp; event){</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;==============================================&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        std::cout &lt;&lt; <span class="keyword">event</span>.id() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">//&lt; Add dummy seaquest::event</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">auto</span> event_header = std::make_unique&lt;seaquest::Event&gt;();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  std::cout &lt;&lt; *event_header &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">event</span>.put( std::move(event_header) );</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="comment">//&lt; Add dummy seaquest::HitCollection</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">auto</span> hit_collection = std::make_unique&lt;seaquest::HitCollection&gt;();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;2; ++i){</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">auto</span> hit = std::make_unique&lt;seaquest::Hit&gt;();</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        hit-&gt;set_hit_id(i);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::cout &lt;&lt; *hit &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        hit_collection-&gt;push_back(*hit);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keyword">event</span>.put( std::move(hit_collection) );</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;DEFINE_ART_MODULE(<a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html">seaquest::TestProducer</a>)</div>
-<div class="ttc" id="classseaquest_1_1TestProducer_html_adb0a7e47216913538a43881a3490f526"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">seaquest::TestProducer::TestProducer</a></div><div class="ttdeci">TestProducer(fhicl::ParameterSet const &amp;pset)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00035">TestProducer_module.cc:35</a></div></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad6c75baae5c26b7f66353f4e2b8e0abd">   32</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad6c75baae5c26b7f66353f4e2b8e0abd">_seed</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#a0b515071104309668bf2a8cbbbea2acf">   35</a></span>&#160;    art::RandomNumberGenerator::base_engine_t &amp; <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#a0b515071104309668bf2a8cbbbea2acf">_engine</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  };</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">   42</a></span>&#160;<a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">seaquest::TestProducer::TestProducer</a>(fhicl::ParameterSet <span class="keyword">const</span>&amp; pset ):</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  _seed(pset.get&lt;int&gt;(<span class="stringliteral">&quot;seed&quot;</span>)),</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  _engine(createEngine(_seed))</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  produces&lt;seaquest::Event&gt;();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  produces&lt;seaquest::HitCollection&gt;();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">seaquest::TestProducer::produce</a>( art::Event&amp; event){</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;==============================================&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        std::cout &lt;&lt; <span class="keyword">event</span>.id() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">//&lt; Add dummy seaquest::event</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">auto</span> event_header = std::make_unique&lt;seaquest::Event&gt;();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  std::cout &lt;&lt; *event_header &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">event</span>.put( std::move(event_header) );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  CLHEP::RandFlat rand_flat(_engine);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="comment">//&lt; Add dummy seaquest::HitCollection</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keyword">auto</span> hit_collection = std::make_unique&lt;seaquest::HitCollection&gt;();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;1052; ++i){</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">auto</span> hit = std::make_unique&lt;seaquest::Hit&gt;();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        hit-&gt;set_hit_id(i);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        hit-&gt;set_detector_id(static_cast&lt;short&gt;(1000*rand_flat.fire()));</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        hit-&gt;set_element_id(static_cast&lt;short&gt;(1000*rand_flat.fire()));</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        hit-&gt;set_tdc_time(static_cast&lt;float&gt;(1000*rand_flat.fire()));</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        hit-&gt;set_drift_distance(static_cast&lt;float&gt;(1000*rand_flat.fire()));</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        hit-&gt;set_in_time(static_cast&lt;bool&gt;(rand_flat.fire()&gt;0.5));</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        hit-&gt;set_hodo_mask(static_cast&lt;bool&gt;(rand_flat.fire()&gt;0.5));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        hit-&gt;set_trigger_mask(static_cast&lt;bool&gt;(rand_flat.fire()&gt;0.5));</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    std::cout &lt;&lt; *hit &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        hit_collection-&gt;push_back(*hit);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">event</span>.put( std::move(hit_collection) );</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;DEFINE_ART_MODULE(<a class="code" href="../../d5/d3a/classseaquest_1_1TestProducer.html">seaquest::TestProducer</a>)</div>
+<div class="ttc" id="classseaquest_1_1TestProducer_html_adb0a7e47216913538a43881a3490f526"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#adb0a7e47216913538a43881a3490f526">seaquest::TestProducer::TestProducer</a></div><div class="ttdeci">TestProducer(fhicl::ParameterSet const &amp;pset)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00042">TestProducer_module.cc:42</a></div></div>
 <div class="ttc" id="Hit_8h_html"><div class="ttname"><a href="../../de/d26/Hit_8h.html">Hit.h</a></div></div>
-<div class="ttc" id="classseaquest_1_1TestProducer_html_ad0be2f0a345a1825e1e64f27f18ffad2"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">seaquest::TestProducer::produce</a></div><div class="ttdeci">void produce(art::Event &amp;event) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00041">TestProducer_module.cc:41</a></div></div>
-<div class="ttc" id="classseaquest_1_1TestProducer_html_aa56bc21a6d48e8bf7832a5a1713befc1"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#aa56bc21a6d48e8bf7832a5a1713befc1">seaquest::TestProducer::fitsTag_</a></div><div class="ttdeci">art::InputTag fitsTag_</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00029">TestProducer_module.cc:29</a></div></div>
+<div class="ttc" id="classseaquest_1_1TestProducer_html_ad6c75baae5c26b7f66353f4e2b8e0abd"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad6c75baae5c26b7f66353f4e2b8e0abd">seaquest::TestProducer::_seed</a></div><div class="ttdeci">int _seed</div><div class="ttdoc">Seed for the random number engine. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00032">TestProducer_module.cc:32</a></div></div>
+<div class="ttc" id="classseaquest_1_1TestProducer_html_ad0be2f0a345a1825e1e64f27f18ffad2"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#ad0be2f0a345a1825e1e64f27f18ffad2">seaquest::TestProducer::produce</a></div><div class="ttdeci">void produce(art::Event &amp;event) override</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00050">TestProducer_module.cc:50</a></div></div>
+<div class="ttc" id="classseaquest_1_1TestProducer_html_a0b515071104309668bf2a8cbbbea2acf"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html#a0b515071104309668bf2a8cbbbea2acf">seaquest::TestProducer::_engine</a></div><div class="ttdeci">art::RandomNumberGenerator::base_engine_t &amp; _engine</div><div class="ttdoc">Need service: art::RandomNumberGenerator. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00035">TestProducer_module.cc:35</a></div></div>
 <div class="ttc" id="Event_8h_html"><div class="ttname"><a href="../../d6/d8d/Event_8h.html">Event.h</a></div></div>
 <div class="ttc" id="HitCollection_8h_html"><div class="ttname"><a href="../../d3/d96/HitCollection_8h.html">HitCollection.h</a></div></div>
-<div class="ttc" id="classseaquest_1_1TestProducer_html"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html">seaquest::TestProducer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00019">TestProducer_module.cc:19</a></div></div>
+<div class="ttc" id="classseaquest_1_1TestProducer_html"><div class="ttname"><a href="../../d5/d3a/classseaquest_1_1TestProducer.html">seaquest::TestProducer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da0/TestProducer__module_8cc_source.html#l00021">TestProducer_module.cc:21</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -194,7 +210,7 @@ $(document).ready(function(){initNavTree('d5/da0/TestProducer__module_8cc_source
 		<li class="navelem"><a class="el" href="../../dir_7e02d3f7c799e35d640f6639b5e4b06f.html">art-seaquest</a></li><li class="navelem"><a class="el" href="../../dir_34f1607fc9bfcf778426c9e29c9e4a5a.html">art-seaquest</a></li><li class="navelem"><a class="el" href="../../dir_1e2bd32a14dbbe1a97657b0a35599fbb.html">Modules</a></li><li class="navelem"><a class="el" href="../../d5/da0/TestProducer__module_8cc.html">TestProducer_module.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Nov 27 2017 20:32:11</em> using <a
+			updated: <em>Tue Nov 28 2017 01:32:00</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
