@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/exe/others/milleAlign.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/exe/others/milleAlign.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -155,7 +155,7 @@ $(document).ready(function(){initNavTree('d3/d33/milleAlign_8cxx_source.html','.
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    geometrySvc-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6">init</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">//Retrieve the raw event</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../d5/d83/classSRawEvent.html">SRawEvent</a>* rawEvent = jobOptsSvc-&gt;<a class="code" href="../../d8/d62/classJobOptsSvc.html#a4813c94b8f0957c8493cd1b77e78912e">m_mcMode</a> ? (<span class="keyword">new</span> <a class="code" href="../../d6/dac/classSRawMCEvent.html">SRawMCEvent</a>()) : (<span class="keyword">new</span> <a class="code" href="../../d5/d83/classSRawEvent.html">SRawEvent</a>());</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#ifdef _ENABLE_KF</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>* recEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>();</div>
@@ -175,7 +175,7 @@ $(document).ready(function(){initNavTree('d3/d33/milleAlign_8cxx_source.html','.
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">//Initialize track finder</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Initializing the millepede ... &quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Initializing the millepede ... &quot;</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html">SMillepede</a>* mille = <span class="keyword">new</span> <a class="code" href="../../d6/dd9/classSMillepede.html">SMillepede</a>();</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    mille-&gt;<a class="code" href="../../d6/dd9/classSMillepede.html#a1a0ccd9e5d3753696d39381ffbb1045e">init</a>(<span class="stringliteral">&quot;mille.conf&quot;</span>);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span>(argc &gt; 4)</div>
@@ -219,7 +219,6 @@ $(document).ready(function(){initNavTree('d3/d33/milleAlign_8cxx_source.html','.
 <div class="ttc" id="classSMillepede_html_afd30d1f9c0459726a0b72465e888b08f"><div class="ttname"><a href="../../d6/dd9/classSMillepede.html#afd30d1f9c0459726a0b72465e888b08f">SMillepede::bookEvaluationTree</a></div><div class="ttdeci">void bookEvaluationTree(std::string evalFileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/SMillepede_8cxx_source.html#l00622">SMillepede.cxx:622</a></div></div>
 <div class="ttc" id="GeomSvc_8h_html"><div class="ttname"><a href="../../d6/d19/GeomSvc_8h.html">GeomSvc.h</a></div></div>
 <div class="ttc" id="KalmanFitter_8h_html"><div class="ttname"><a href="../../d8/daf/KalmanFitter_8h.html">KalmanFitter.h</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="KalmanTrack_8h_html"><div class="ttname"><a href="../../d7/d2b/KalmanTrack_8h.html">KalmanTrack.h</a></div></div>
 <div class="ttc" id="classSMillepede_html_ab40eccaa8223a80227c9a4ab769fa0bb"><div class="ttname"><a href="../../d6/dd9/classSMillepede.html#ab40eccaa8223a80227c9a4ab769fa0bb">SMillepede::printQAPlots</a></div><div class="ttdeci">void printQAPlots()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/SMillepede_8cxx_source.html#l00531">SMillepede.cxx:531</a></div></div>
 <div class="ttc" id="classSMillepede_html_ac2375672f896d870b44e1d35e297d02c"><div class="ttname"><a href="../../d6/dd9/classSMillepede.html#ac2375672f896d870b44e1d35e297d02c">SMillepede::printResults</a></div><div class="ttdeci">void printResults(std::string outputFileName, std::string incrementFileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/SMillepede_8cxx_source.html#l00498">SMillepede.cxx:498</a></div></div>
@@ -229,6 +228,7 @@ $(document).ready(function(){initNavTree('d3/d33/milleAlign_8cxx_source.html','.
 <div class="ttc" id="SRecEvent_8h_html"><div class="ttname"><a href="../../d6/da0/SRecEvent_8h.html">SRecEvent.h</a></div></div>
 <div class="ttc" id="KalmanFilter_8h_html"><div class="ttname"><a href="../../dc/db1/KalmanFilter_8h.html">KalmanFilter.h</a></div></div>
 <div class="ttc" id="classSMillepede_html_a1a0ccd9e5d3753696d39381ffbb1045e"><div class="ttname"><a href="../../d6/dd9/classSMillepede.html#a1a0ccd9e5d3753696d39381ffbb1045e">SMillepede::init</a></div><div class="ttdeci">void init(std::string configFileName=&quot;mille.conf&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/SMillepede_8cxx_source.html#l00055">SMillepede.cxx:55</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="RTCurveMaker_8cxx_html_a2266c13810c364ab1f67ff0e9b18cf44"><div class="ttname"><a href="../../da/d27/RTCurveMaker_8cxx.html#a2266c13810c364ab1f67ff0e9b18cf44">dataFile</a></div><div class="ttdeci">TFile * dataFile</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">RTCurveMaker.cxx:31</a></div></div>
 <div class="ttc" id="SMillepedeUtil_8h_html"><div class="ttname"><a href="../../d7/d69/SMillepedeUtil_8h.html">SMillepedeUtil.h</a></div></div>
 <div class="ttc" id="VertexFit_8h_html"><div class="ttname"><a href="../../dc/df1/VertexFit_8h.html">VertexFit.h</a></div></div>
@@ -247,10 +247,10 @@ $(document).ready(function(){initNavTree('d3/d33/milleAlign_8cxx_source.html','.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f66fcd0859a7a4057af90a453b3b7b5b.html">exe</a></li><li class="navelem"><a class="el" href="../../dir_eb8d61ee3a285d0c9113876f46fd69b0.html">others</a></li><li class="navelem"><a class="el" href="../../d3/d33/milleAlign_8cxx.html">milleAlign.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f30f98c142f3770b6a887f948c8436c1.html">exe</a></li><li class="navelem"><a class="el" href="../../dir_08f4c8ff5ddb60ddd7b8c0b029c34eac.html">others</a></li><li class="navelem"><a class="el" href="../../d3/d33/milleAlign_8cxx.html">milleAlign.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

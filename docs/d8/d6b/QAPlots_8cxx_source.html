@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/analysis_tools/QAPlots.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/analysis_tools/QAPlots.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -145,12 +145,12 @@ $(document).ready(function(){initNavTree('d8/d6b/QAPlots_8cxx_source.html','../.
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d6b/QAPlots_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">   29</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d6b/QAPlots_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[])</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">//Initialize geometry service</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Initializing geometry service ... &quot;</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Initializing geometry service ... &quot;</span>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geometrySvc = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    geometrySvc-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6">init</a>();</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">//Retrieve the raw event</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d6/dac/classSRawMCEvent.html">SRawMCEvent</a>* rawEvent = <span class="keyword">new</span> <a class="code" href="../../d6/dac/classSRawMCEvent.html">SRawMCEvent</a>();</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>* recEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
@@ -226,12 +226,12 @@ $(document).ready(function(){initNavTree('d8/d6b/QAPlots_8cxx_source.html','../.
 <div class="ttc" id="classSRawMCEvent_html_aeb681bcb514c1b0d2006cc13a0d7bd75"><div class="ttname"><a href="../../d6/dac/classSRawMCEvent.html#aeb681bcb514c1b0d2006cc13a0d7bd75">SRawMCEvent::p_station3</a></div><div class="ttdeci">TVector3 p_station3[2]</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dda/SRawEvent_8h_source.html#l00281">SRawEvent.h:281</a></div></div>
 <div class="ttc" id="classSRawEvent_html_a02e102684e9a027698406fe61cfc32e5"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html#a02e102684e9a027698406fe61cfc32e5">SRawEvent::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the internal event structure. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0b/SRawEvent_8cxx_source.html#l00578">SRawEvent.cxx:578</a></div></div>
 <div class="ttc" id="KalmanFitter_8h_html"><div class="ttname"><a href="../../d8/daf/KalmanFitter_8h.html">KalmanFitter.h</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="KalmanTrack_8h_html"><div class="ttname"><a href="../../d7/d2b/KalmanTrack_8h.html">KalmanTrack.h</a></div></div>
 <div class="ttc" id="SRawEvent_8h_html"><div class="ttname"><a href="../../db/dda/SRawEvent_8h.html">SRawEvent.h</a></div></div>
 <div class="ttc" id="SRecEvent_8h_html"><div class="ttname"><a href="../../d6/da0/SRecEvent_8h.html">SRecEvent.h</a></div></div>
 <div class="ttc" id="classSRecEvent_html_ae33223391d8dba8496099f939e145c1a"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#ae33223391d8dba8496099f939e145c1a">SRecEvent::getTrack</a></div><div class="ttdeci">SRecTrack &amp; getTrack(Int_t i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00319">SRecEvent.h:319</a></div></div>
 <div class="ttc" id="KalmanFilter_8h_html"><div class="ttname"><a href="../../dc/db1/KalmanFilter_8h.html">KalmanFilter.h</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="RTCurveMaker_8cxx_html_a2266c13810c364ab1f67ff0e9b18cf44"><div class="ttname"><a href="../../da/d27/RTCurveMaker_8cxx.html#a2266c13810c364ab1f67ff0e9b18cf44">dataFile</a></div><div class="ttdeci">TFile * dataFile</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">RTCurveMaker.cxx:31</a></div></div>
 <div class="ttc" id="VertexFit_8h_html"><div class="ttname"><a href="../../dc/df1/VertexFit_8h.html">VertexFit.h</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00175">GeomSvc.cxx:175</a></div></div>
@@ -247,10 +247,10 @@ $(document).ready(function(){initNavTree('d8/d6b/QAPlots_8cxx_source.html','../.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_31878ea670f02bf84722c6e7bd4deef8.html">analysis_tools</a></li><li class="navelem"><a class="el" href="../../d8/d6b/QAPlots_8cxx.html">QAPlots.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_d8ce636ec48b022325898e60a395e76e.html">analysis_tools</a></li><li class="navelem"><a class="el" href="../../d8/d6b/QAPlots_8cxx.html">QAPlots.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

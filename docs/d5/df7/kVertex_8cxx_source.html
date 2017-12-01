@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/exe/kVertex.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/exe/kVertex.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('d5/df7/kVertex_8cxx_source.html','../.
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    jobOptsSvc-&gt;<a class="code" href="../../d8/d62/classJobOptsSvc.html#acbe01f0e4b373e57ba37167cbc81d66d">save</a>(saveFile, <span class="stringliteral">&quot;vconfig&quot;</span>);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">//Initialize track finder</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Initializing the track finder and kalman filter ... &quot;</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Initializing the track finder and kalman filter ... &quot;</span>);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>* vtxfit = <span class="keyword">new</span> <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>();</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    vtxfit-&gt;<a class="code" href="../../d1/d13/classVertexFit.html#a2db71861065660d8cc26f34d2f773f65">enableOptimization</a>();</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span>(jobOptsSvc-&gt;<a class="code" href="../../d8/d62/classJobOptsSvc.html#a161f0e9ed617579ff4e60fc0992c55ce">m_enableEvaluation</a>)</div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('d5/df7/kVertex_8cxx_source.html','../.
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> offset = startEvent;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">int</span> nEvtMax = nEvents &gt; 0 ? nEvents + offset : dataTree-&gt;GetEntries();</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span>(nEvtMax &gt; dataTree-&gt;GetEntries()) nEvtMax = dataTree-&gt;GetEntries();</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Running from event &quot;</span> &lt;&lt; offset &lt;&lt; <span class="stringliteral">&quot; through to event &quot;</span> &lt;&lt; nEvtMax);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Running from event &quot;</span> &lt;&lt; offset &lt;&lt; <span class="stringliteral">&quot; through to event &quot;</span> &lt;&lt; nEvtMax);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = offset; i &lt; nEvtMax; ++i)</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        dataTree-&gt;GetEntry(i);</div>
@@ -524,7 +524,6 @@ $(document).ready(function(){initNavTree('d5/df7/kVertex_8cxx_source.html','../.
 <div class="ttc" id="KalmanFitter_8h_html"><div class="ttname"><a href="../../d8/daf/KalmanFitter_8h.html">KalmanFitter.h</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a7f8f4ba58aca4ace910e426b0a5dea8f"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a7f8f4ba58aca4ace910e426b0a5dea8f">SRecTrack::isValid</a></div><div class="ttdeci">bool isValid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/SRecEvent_8cxx_source.html#l00253">SRecEvent.cxx:253</a></div></div>
 <div class="ttc" id="FastTracklet_8h_html"><div class="ttname"><a href="../../dc/d06/FastTracklet_8h.html">FastTracklet.h</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="namespacerunAlignment_html_a756206490432e7f6c7bb3c1c24660ded"><div class="ttname"><a href="../../d3/df5/namespacerunAlignment.html#a756206490432e7f6c7bb3c1c24660ded">runAlignment.outputFile</a></div><div class="ttdeci">string outputFile</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da3/alignment_2tools_2runAlignment_8py_source.html#l00116">runAlignment.py:116</a></div></div>
 <div class="ttc" id="KalmanTrack_8h_html"><div class="ttname"><a href="../../d7/d2b/KalmanTrack_8h.html">KalmanTrack.h</a></div></div>
 <div class="ttc" id="classSRawEvent_html_ae928532903e0ef04e5cec7612859933d"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html#ae928532903e0ef04e5cec7612859933d">SRawEvent::getRunID</a></div><div class="ttdeci">Int_t getRunID()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dda/SRawEvent_8h_source.html#l00132">SRawEvent.h:132</a></div></div>
@@ -538,6 +537,7 @@ $(document).ready(function(){initNavTree('d5/df7/kVertex_8cxx_source.html','../.
 <div class="ttc" id="KalmanFilter_8h_html"><div class="ttname"><a href="../../dc/db1/KalmanFilter_8h.html">KalmanFilter.h</a></div></div>
 <div class="ttc" id="classSRecEvent_html_a49e0c986f657461e6494f85071779e3a"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#a49e0c986f657461e6494f85071779e3a">SRecEvent::isTriggeredBy</a></div><div class="ttdeci">bool isTriggeredBy(Int_t trigger)</div><div class="ttdoc">Trigger util. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00301">SRecEvent.h:301</a></div></div>
 <div class="ttc" id="classSRecEvent_html_a5629c2c2cb30f4df56891b9b48cc52b0"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#a5629c2c2cb30f4df56891b9b48cc52b0">SRecEvent::insertTrack</a></div><div class="ttdeci">void insertTrack(SRecTrack trk)</div><div class="ttdoc">Insert tracks. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00329">SRecEvent.h:329</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="classVertexFit_html_a41ae248c2d4336b8e7e4c310fb2346c9"><div class="ttname"><a href="../../d1/d13/classVertexFit.html#a41ae248c2d4336b8e7e4c310fb2346c9">VertexFit::bookEvaluation</a></div><div class="ttdeci">void bookEvaluation(std::string evalFileName=&quot;vtx_eval.root&quot;)</div><div class="ttdoc">Evaluation. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df0/VertexFit_8cxx_source.html#l00473">VertexFit.cxx:473</a></div></div>
 <div class="ttc" id="RTCurveMaker_8cxx_html_a2266c13810c364ab1f67ff0e9b18cf44"><div class="ttname"><a href="../../da/d27/RTCurveMaker_8cxx.html#a2266c13810c364ab1f67ff0e9b18cf44">dataFile</a></div><div class="ttdeci">TFile * dataFile</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">RTCurveMaker.cxx:31</a></div></div>
 <div class="ttc" id="classSRecEvent_html_ac5d74e36a889c49679ab6549c09c8bf7"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#ac5d74e36a889c49679ab6549c09c8bf7">SRecEvent::setEventInfo</a></div><div class="ttdeci">void setEventInfo(SRawEvent *rawEvent)</div><div class="ttdoc">Set/Get event info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/SRecEvent_8cxx_source.html#l00596">SRecEvent.cxx:596</a></div></div>
@@ -565,10 +565,10 @@ $(document).ready(function(){initNavTree('d5/df7/kVertex_8cxx_source.html','../.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f66fcd0859a7a4057af90a453b3b7b5b.html">exe</a></li><li class="navelem"><a class="el" href="../../d5/df7/kVertex_8cxx.html">kVertex.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f30f98c142f3770b6a887f948c8436c1.html">exe</a></li><li class="navelem"><a class="el" href="../../d5/df7/kVertex_8cxx.html">kVertex.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

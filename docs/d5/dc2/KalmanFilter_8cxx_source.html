@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/src/KalmanFilter.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/src/KalmanFilter.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -173,13 +173,13 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span>(_node.<a class="code" href="../../df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4">isPredictionDone</a>())</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In prediction: Prediction already done for this node!&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In prediction: Prediction already done for this node!&quot;</span>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span>(fabs(<a class="code" href="../../d6/d2a/classKalmanFilter.html#a2bb055d81f3f2f5230f8eb0aa816ea66">_trkpar_curr</a>.<a class="code" href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">_state_kf</a>[0][0]) &lt; 1E-5 || fabs(<a class="code" href="../../d6/d2a/classKalmanFilter.html#a2bb055d81f3f2f5230f8eb0aa816ea66">_trkpar_curr</a>.<a class="code" href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">_state_kf</a>[0][0]) &gt; 1. || <a class="code" href="../../d6/d2a/classKalmanFilter.html#a2bb055d81f3f2f5230f8eb0aa816ea66">_trkpar_curr</a>.<a class="code" href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">_state_kf</a>[0][0] != <a class="code" href="../../d6/d2a/classKalmanFilter.html#a2bb055d81f3f2f5230f8eb0aa816ea66">_trkpar_curr</a>.<a class="code" href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">_state_kf</a>[0][0])</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Current track parameter is undefined! &quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Current track parameter is undefined! &quot;</span>);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">//_node.getHit().print();</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">//_node.print(true);</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -221,13 +221,13 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(_node.<a class="code" href="../../df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c">isFilterDone</a>())</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In filtering: Filter already done for this node!&quot;</span>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In filtering: Filter already done for this node!&quot;</span>);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span>(!_node.<a class="code" href="../../df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4">isPredictionDone</a>())</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In filtering: Prediction not done for this node!&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In filtering: Prediction not done for this node!&quot;</span>);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
@@ -281,19 +281,19 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;{</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">if</span>(!_node.<a class="code" href="../../df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c">isFilterDone</a>())</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    {</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Filter not done!&quot;</span>);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Filter not done!&quot;</span>);</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">if</span>(_node.<a class="code" href="../../df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1">isSmoothDone</a>())</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Smooth already done!&quot;</span>);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Smooth already done!&quot;</span>);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">if</span>(!_node_prev.<a class="code" href="../../df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1">isSmoothDone</a>())</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    {</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Smooth not done for the last node&quot;</span>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;In smoother: Smooth not done for the last node&quot;</span>);</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keyword">const</span> TMatrixD&amp; p_filter = _node.<a class="code" href="../../df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9">getFiltered</a>().<a class="code" href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">_state_kf</a>;</div>
@@ -337,7 +337,6 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div class="ttc" id="classNode_html_a10e8167a975add910020702519aaadb0"><div class="ttname"><a href="../../df/dd0/classNode.html#a10e8167a975add910020702519aaadb0">Node::setPredictionDone</a></div><div class="ttdeci">void setPredictionDone(bool flag=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00141">KalmanUtil.h:141</a></div></div>
 <div class="ttc" id="classNode_html_ab276ce7246c8434b058236346dc121fd"><div class="ttname"><a href="../../df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd">Node::getProjector</a></div><div class="ttdeci">TMatrixD &amp; getProjector()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00122">KalmanUtil.h:122</a></div></div>
 <div class="ttc" id="classKalmanFilter_html_ad56facdfc22ee4932a847ba168e331ff"><div class="ttname"><a href="../../d6/d2a/classKalmanFilter.html#ad56facdfc22ee4932a847ba168e331ff">KalmanFilter::p_kmfit</a></div><div class="ttdeci">static KalmanFilter * p_kmfit</div><div class="ttdoc">Pointer to singlton instance. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db1/KalmanFilter_8h_source.html#l00053">KalmanFilter.h:53</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="classTrackExtrapolator_html_af4ebad9162a94321c81a4ebca6407356"><div class="ttname"><a href="../../d4/dfd/classTrackExtrapolator.html#af4ebad9162a94321c81a4ebca6407356">TrackExtrapolator::init</a></div><div class="ttdeci">bool init(std::string geometrySchema, double fMagStr=FMAGSTR, double kMagStr=KMAGSTR)</div><div class="ttdoc">Initialize geometry and physics. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc9/TrackExtrapolator_8cc_source.html#l00039">TrackExtrapolator.cc:39</a></div></div>
 <div class="ttc" id="classTrkPar_html_ac5eec2e4f6f095b3f92db4ac83bb84b8"><div class="ttname"><a href="../../d2/d70/classTrkPar.html#ac5eec2e4f6f095b3f92db4ac83bb84b8">TrkPar::_z</a></div><div class="ttdeci">double _z</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00087">KalmanUtil.h:87</a></div></div>
 <div class="ttc" id="classJobOptsSvc_html_a5ea8efc8d9092a7f474e6f6f0af71975"><div class="ttname"><a href="../../d8/d62/classJobOptsSvc.html#a5ea8efc8d9092a7f474e6f6f0af71975">JobOptsSvc::m_geomVersion</a></div><div class="ttdeci">std::string m_geomVersion</div><div class="ttdoc">Name of geometry version. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d12/JobOptsSvc_8h_source.html#l00107">JobOptsSvc.h:107</a></div></div>
@@ -349,6 +348,7 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div class="ttc" id="classTrkPar_html_a58c4a884fabd7830f78c22916eb4fc37"><div class="ttname"><a href="../../d2/d70/classTrkPar.html#a58c4a884fabd7830f78c22916eb4fc37">TrkPar::_state_kf</a></div><div class="ttdeci">TMatrixD _state_kf</div><div class="ttdoc">State vectors and its covariance. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00085">KalmanUtil.h:85</a></div></div>
 <div class="ttc" id="classSMatrix_html_a5b825aefb91608b827fbb652501eaecc"><div class="ttname"><a href="../../d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc">SMatrix::getABCt</a></div><div class="ttdeci">static TMatrixD getABCt(const TMatrixD &amp;A, const TMatrixD &amp;B, const TMatrixD &amp;C)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dfc/KalmanUtil_8cxx_source.html#l00125">KalmanUtil.cxx:125</a></div></div>
 <div class="ttc" id="KalmanFilter_8h_html"><div class="ttname"><a href="../../dc/db1/KalmanFilter_8h.html">KalmanFilter.h</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="classKalmanFilter_html_a511c8165e9c3ad5ee16b6c48ec9ae306"><div class="ttname"><a href="../../d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306">KalmanFilter::smooth</a></div><div class="ttdeci">bool smooth(Node &amp;_node, Node &amp;_node_prev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00179">KalmanFilter.cxx:179</a></div></div>
 <div class="ttc" id="classNode_html_a4beaaa953c5b36787c115a33b8b22b08"><div class="ttname"><a href="../../df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08">Node::setFilterDone</a></div><div class="ttdeci">void setFilterDone(bool flag=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00142">KalmanUtil.h:142</a></div></div>
 <div class="ttc" id="classTrkPar_html_a8f4083693cde0b94dd2d53bbe9e5fb98"><div class="ttname"><a href="../../d2/d70/classTrkPar.html#a8f4083693cde0b94dd2d53bbe9e5fb98">TrkPar::_covar_kf</a></div><div class="ttdeci">TMatrixD _covar_kf</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00086">KalmanUtil.h:86</a></div></div>
@@ -370,10 +370,10 @@ $(document).ready(function(){initNavTree('d5/dc2/KalmanFilter_8cxx_source.html',
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_e6c8516ebec11b81a46e55a4705b31c0.html">src</a></li><li class="navelem"><a class="el" href="../../d5/dc2/KalmanFilter_8cxx.html">KalmanFilter.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_8865154816a9bd078f19e2e247b5dd30.html">src</a></li><li class="navelem"><a class="el" href="../../d5/dc2/KalmanFilter_8cxx.html">KalmanFilter.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

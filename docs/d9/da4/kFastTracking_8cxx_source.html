@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/exe/kFastTracking.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/exe/kFastTracking.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -212,7 +212,7 @@ $(document).ready(function(){initNavTree('d9/da4/kFastTracking_8cxx_source.html'
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    tracklets-&gt;BypassStreamer();</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">//Initialize track finder</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Initializing the track finder and kalman filter ... &quot;</span>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Initializing the track finder and kalman filter ... &quot;</span>);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#ifdef _ENABLE_KF</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d6/d2a/classKalmanFilter.html">KalmanFilter</a>* filter = <span class="keyword">new</span> <a class="code" href="../../d6/d2a/classKalmanFilter.html">KalmanFilter</a>();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d3/d46/classKalmanFastTracking.html">KalmanFastTracking</a>* fastfinder = <span class="keyword">new</span> <a class="code" href="../../d3/d46/classKalmanFastTracking.html">KalmanFastTracking</a>();</div>
@@ -237,7 +237,7 @@ $(document).ready(function(){initNavTree('d9/da4/kFastTracking_8cxx_source.html'
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> offset = startEvent;</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">int</span> nEvtMax = nEvents &gt; 0 ? nEvents + offset : dataTree-&gt;GetEntries();</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">if</span>(nEvtMax &gt; dataTree-&gt;GetEntries()) nEvtMax = dataTree-&gt;GetEntries();</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(ts.AsString() &lt;&lt; <span class="stringliteral">&quot;: Running from event &quot;</span> &lt;&lt; offset &lt;&lt; <span class="stringliteral">&quot; through to event &quot;</span> &lt;&lt; nEvtMax);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(ts.AsString() &lt;&lt; <span class="stringliteral">&quot;: Running from event &quot;</span> &lt;&lt; offset &lt;&lt; <span class="stringliteral">&quot; through to event &quot;</span> &lt;&lt; nEvtMax);</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> printFreq = (nEvtMax - offset)/100 &gt; 1 ? (nEvtMax - offset)/100 : 1;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = offset; i &lt; nEvtMax; ++i)</div>
@@ -364,7 +364,6 @@ $(document).ready(function(){initNavTree('d9/da4/kFastTracking_8cxx_source.html'
 <div class="ttc" id="classSRawEvent_html_a02e102684e9a027698406fe61cfc32e5"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html#a02e102684e9a027698406fe61cfc32e5">SRawEvent::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the internal event structure. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0b/SRawEvent_8cxx_source.html#l00578">SRawEvent.cxx:578</a></div></div>
 <div class="ttc" id="KalmanFitter_8h_html"><div class="ttname"><a href="../../d8/daf/KalmanFitter_8h.html">KalmanFitter.h</a></div></div>
 <div class="ttc" id="FastTracklet_8h_html"><div class="ttname"><a href="../../dc/d06/FastTracklet_8h.html">FastTracklet.h</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="namespacerunAlignment_html_a756206490432e7f6c7bb3c1c24660ded"><div class="ttname"><a href="../../d3/df5/namespacerunAlignment.html#a756206490432e7f6c7bb3c1c24660ded">runAlignment.outputFile</a></div><div class="ttdeci">string outputFile</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da3/alignment_2tools_2runAlignment_8py_source.html#l00116">runAlignment.py:116</a></div></div>
 <div class="ttc" id="classTracklet_html"><div class="ttname"><a href="../../d2/d26/classTracklet.html">Tracklet</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00111">FastTracklet.h:111</a></div></div>
 <div class="ttc" id="classEventReducer_html"><div class="ttname"><a href="../../d5/dda/classEventReducer.html">EventReducer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5a/EventReducer_8h_source.html#l00027">EventReducer.h:27</a></div></div>
@@ -374,6 +373,7 @@ $(document).ready(function(){initNavTree('d9/da4/kFastTracking_8cxx_source.html'
 <div class="ttc" id="SRecEvent_8h_html"><div class="ttname"><a href="../../d6/da0/SRecEvent_8h.html">SRecEvent.h</a></div></div>
 <div class="ttc" id="classEventReducer_html_af72954cea31bb7b3b3f122c3067b632c"><div class="ttname"><a href="../../d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c">EventReducer::reduceEvent</a></div><div class="ttdeci">int reduceEvent(SRawEvent *rawEvent)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d35/EventReducer_8cxx_source.html#l00064">EventReducer.cxx:64</a></div></div>
 <div class="ttc" id="classSRecEvent_html_a5629c2c2cb30f4df56891b9b48cc52b0"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#a5629c2c2cb30f4df56891b9b48cc52b0">SRecEvent::insertTrack</a></div><div class="ttdeci">void insertTrack(SRecTrack trk)</div><div class="ttdoc">Insert tracks. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00329">SRecEvent.h:329</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="RTCurveMaker_8cxx_html_a2266c13810c364ab1f67ff0e9b18cf44"><div class="ttname"><a href="../../da/d27/RTCurveMaker_8cxx.html#a2266c13810c364ab1f67ff0e9b18cf44">dataFile</a></div><div class="ttdeci">TFile * dataFile</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">RTCurveMaker.cxx:31</a></div></div>
 <div class="ttc" id="VertexFit_8h_html"><div class="ttname"><a href="../../dc/df1/VertexFit_8h.html">VertexFit.h</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00175">GeomSvc.cxx:175</a></div></div>
@@ -401,10 +401,10 @@ $(document).ready(function(){initNavTree('d9/da4/kFastTracking_8cxx_source.html'
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f66fcd0859a7a4057af90a453b3b7b5b.html">exe</a></li><li class="navelem"><a class="el" href="../../d9/da4/kFastTracking_8cxx.html">kFastTracking.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_f30f98c142f3770b6a887f948c8436c1.html">exe</a></li><li class="navelem"><a class="el" href="../../d9/da4/kFastTracking_8cxx.html">kFastTracking.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

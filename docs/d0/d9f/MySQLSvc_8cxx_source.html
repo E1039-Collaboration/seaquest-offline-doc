@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/src/MySQLSvc.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/src/MySQLSvc.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('d0/d9f/MySQLSvc_8cxx_source.html','../
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dc/dd3/classMySQLSvc.html#a7b440d82cc8dcae8f48ae4f0ad7969ea">inputServer</a> == NULL)</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Connection to database failed!&quot;</span>);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Connection to database failed!&quot;</span>);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('d0/d9f/MySQLSvc_8cxx_source.html','../
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">if</span>(wait_count == MAX_WAIT_COUNT)</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        {</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Connection to database failed!&quot;</span>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Connection to database failed!&quot;</span>);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
@@ -1601,7 +1601,6 @@ $(document).ready(function(){initNavTree('d0/d9f/MySQLSvc_8cxx_source.html','../
 <div class="ttc" id="classMySQLSvc_html_a6318f241f4d5c1a5914fe29af3e4bb0d"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a6318f241f4d5c1a5914fe29af3e4bb0d">MySQLSvc::getLatestEvt</a></div><div class="ttdeci">bool getLatestEvt(SRawEvent *rawEvent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00265">MySQLSvc.cxx:265</a></div></div>
 <div class="ttc" id="FastTracklet_8h_html"><div class="ttname"><a href="../../dc/d06/FastTracklet_8h.html">FastTracklet.h</a></div></div>
 <div class="ttc" id="classTracklet_html_a1584bfb98531085b02b043a7d7b09db4"><div class="ttname"><a href="../../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4">Tracklet::hits</a></div><div class="ttdeci">std::list&lt; SignedHit &gt; hits</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00204">FastTracklet.h:204</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="classTriggerRoad_html_a2123e73e33a7e0431283cd94e935ab64"><div class="ttname"><a href="../../d5/d72/classTriggerRoad.html#a2123e73e33a7e0431283cd94e935ab64">TriggerRoad::getNElements</a></div><div class="ttdeci">int getNElements()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/TriggerRoad_8h_source.html#l00040">TriggerRoad.h:40</a></div></div>
 <div class="ttc" id="classMySQLSvc_html_a2ae2d075727ffba72d0cb5d24c84247d"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a2ae2d075727ffba72d0cb5d24c84247d">MySQLSvc::MySQLSvc</a></div><div class="ttdeci">MySQLSvc()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00027">MySQLSvc.cxx:27</a></div></div>
 <div class="ttc" id="classMySQLSvc_html_a91c9d5774e44738f48364430c683ca5c"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a91c9d5774e44738f48364430c683ca5c">MySQLSvc::initReader</a></div><div class="ttdeci">bool initReader()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00161">MySQLSvc.cxx:161</a></div></div>
@@ -1661,6 +1660,7 @@ $(document).ready(function(){initNavTree('d0/d9f/MySQLSvc_8cxx_source.html','../
 <div class="ttc" id="classSRecTrack_html_ad06eaab30b58ae1a422455997001ba25"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#ad06eaab30b58ae1a422455997001ba25">SRecTrack::getXVertexPos</a></div><div class="ttdeci">TVector3 getXVertexPos()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00121">SRecEvent.h:121</a></div></div>
 <div class="ttc" id="classMySQLSvc_html_a7b440d82cc8dcae8f48ae4f0ad7969ea"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a7b440d82cc8dcae8f48ae4f0ad7969ea">MySQLSvc::inputServer</a></div><div class="ttdeci">TSQLServer * inputServer</div><div class="ttdoc">Fetch input from this server. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dca/MySQLSvc_8h_source.html#l00134">MySQLSvc.h:134</a></div></div>
 <div class="ttc" id="classMySQLSvc_html_a3d30d036b6dc5eefc780c84c3b51bffd"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a3d30d036b6dc5eefc780c84c3b51bffd">MySQLSvc::initWriter</a></div><div class="ttdeci">bool initWriter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00644">MySQLSvc.cxx:644</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="classMySQLSvc_html_a1b03d00608fa181d77badf542a9bc908"><div class="ttname"><a href="../../dc/dd3/classMySQLSvc.html#a1b03d00608fa181d77badf542a9bc908">MySQLSvc::user</a></div><div class="ttdeci">std::string user</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dca/MySQLSvc_8h_source.html#l00124">MySQLSvc.h:124</a></div></div>
 <div class="ttc" id="classSignedHit_html_a1e4d11c118b19f0feacfd806872e47df"><div class="ttname"><a href="../../de/d45/classSignedHit.html#a1e4d11c118b19f0feacfd806872e47df">SignedHit::hit</a></div><div class="ttdeci">Hit hit</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00041">FastTracklet.h:41</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_ac39ebac91aa702fb64e4de86a43d9a19"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a></div><div class="ttdeci">#define nChamberPlanes</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00040">GlobalConsts.h:40</a></div></div>
@@ -1725,10 +1725,10 @@ $(document).ready(function(){initNavTree('d0/d9f/MySQLSvc_8cxx_source.html','../
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_e6c8516ebec11b81a46e55a4705b31c0.html">src</a></li><li class="navelem"><a class="el" href="../../d0/d9f/MySQLSvc_8cxx.html">MySQLSvc.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_8865154816a9bd078f19e2e247b5dd30.html">src</a></li><li class="navelem"><a class="el" href="../../d0/d9f/MySQLSvc_8cxx.html">MySQLSvc.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/ktracker/analysis_tools/trackMixer.cxx Source File</title>
+<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-ktracker/analysis_tools/trackMixer.cxx Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('de/d69/trackMixer_8cxx_source.html','.
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    jobOptsSvc-&gt;<a class="code" href="../../d8/d62/classJobOptsSvc.html#ab1a24bb7210869b6309896e120361d20">init</a>(argv[1]);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">//Retrieve the raw event</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Retrieving the event stored in ROOT file ... &quot;</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d5/d83/classSRawEvent.html">SRawEvent</a>* rawEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d83/classSRawEvent.html">SRawEvent</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>* recEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
@@ -319,7 +319,6 @@ $(document).ready(function(){initNavTree('de/d69/trackMixer_8cxx_source.html','.
 <div class="ttc" id="classSRawEvent_html_a02e102684e9a027698406fe61cfc32e5"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html#a02e102684e9a027698406fe61cfc32e5">SRawEvent::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdoc">Clear the internal event structure. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0b/SRawEvent_8cxx_source.html#l00578">SRawEvent.cxx:578</a></div></div>
 <div class="ttc" id="KalmanFitter_8h_html"><div class="ttname"><a href="../../d8/daf/KalmanFitter_8h.html">KalmanFitter.h</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a7f8f4ba58aca4ace910e426b0a5dea8f"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a7f8f4ba58aca4ace910e426b0a5dea8f">SRecTrack::isValid</a></div><div class="ttdeci">bool isValid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/SRecEvent_8cxx_source.html#l00253">SRecEvent.cxx:253</a></div></div>
-<div class="ttc" id="ReadMySql_8C_html_a1f19d3981079d5a411ea6bed207aecf6"><div class="ttname"><a href="../../dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">LogInfo</a></div><div class="ttdeci">#define LogInfo(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d12/ReadMySql_8C_source.html#l00034">ReadMySql.C:34</a></div></div>
 <div class="ttc" id="KalmanTrack_8h_html"><div class="ttname"><a href="../../d7/d2b/KalmanTrack_8h.html">KalmanTrack.h</a></div></div>
 <div class="ttc" id="classSRawEvent_html_ae928532903e0ef04e5cec7612859933d"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html#ae928532903e0ef04e5cec7612859933d">SRawEvent::getRunID</a></div><div class="ttdeci">Int_t getRunID()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dda/SRawEvent_8h_source.html#l00132">SRawEvent.h:132</a></div></div>
 <div class="ttc" id="classVertexFit_html"><div class="ttname"><a href="../../d1/d13/classVertexFit.html">VertexFit</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df1/VertexFit_8h_source.html#l00056">VertexFit.h:56</a></div></div>
@@ -330,6 +329,7 @@ $(document).ready(function(){initNavTree('de/d69/trackMixer_8cxx_source.html','.
 <div class="ttc" id="classSRecEvent_html_ae33223391d8dba8496099f939e145c1a"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#ae33223391d8dba8496099f939e145c1a">SRecEvent::getTrack</a></div><div class="ttdeci">SRecTrack &amp; getTrack(Int_t i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00319">SRecEvent.h:319</a></div></div>
 <div class="ttc" id="KalmanFilter_8h_html"><div class="ttname"><a href="../../dc/db1/KalmanFilter_8h.html">KalmanFilter.h</a></div></div>
 <div class="ttc" id="classSRecEvent_html_a5629c2c2cb30f4df56891b9b48cc52b0"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#a5629c2c2cb30f4df56891b9b48cc52b0">SRecEvent::insertTrack</a></div><div class="ttdeci">void insertTrack(SRecTrack trk)</div><div class="ttdoc">Insert tracks. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00329">SRecEvent.h:329</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a00810b1cb9d2f25d25ce2d4d93815fba"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a></div><div class="ttdeci">#define LogInfo(message)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00102">GlobalConsts.h:102</a></div></div>
 <div class="ttc" id="RTCurveMaker_8cxx_html_a2266c13810c364ab1f67ff0e9b18cf44"><div class="ttname"><a href="../../da/d27/RTCurveMaker_8cxx.html#a2266c13810c364ab1f67ff0e9b18cf44">dataFile</a></div><div class="ttdeci">TFile * dataFile</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">RTCurveMaker.cxx:31</a></div></div>
 <div class="ttc" id="classSRecEvent_html_ac5d74e36a889c49679ab6549c09c8bf7"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#ac5d74e36a889c49679ab6549c09c8bf7">SRecEvent::setEventInfo</a></div><div class="ttdeci">void setEventInfo(SRawEvent *rawEvent)</div><div class="ttdoc">Set/Get event info. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/SRecEvent_8cxx_source.html#l00596">SRecEvent.cxx:596</a></div></div>
 <div class="ttc" id="classVertexFit_html_a2db71861065660d8cc26f34d2f773f65"><div class="ttname"><a href="../../d1/d13/classVertexFit.html#a2db71861065660d8cc26f34d2f773f65">VertexFit::enableOptimization</a></div><div class="ttdeci">void enableOptimization()</div><div class="ttdoc">Enable the optimization of final dimuon vertex z position. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df1/VertexFit_8h_source.html#l00063">VertexFit.h:63</a></div></div>
@@ -349,10 +349,10 @@ $(document).ready(function(){initNavTree('de/d69/trackMixer_8cxx_source.html','.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_7dc206ff000f2f0a39054e1622e8f2da.html">ktracker</a></li><li class="navelem"><a class="el" href="../../dir_31878ea670f02bf84722c6e7bd4deef8.html">analysis_tools</a></li><li class="navelem"><a class="el" href="../../de/d69/trackMixer_8cxx.html">trackMixer.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_d8ce636ec48b022325898e60a395e76e.html">analysis_tools</a></li><li class="navelem"><a class="el" href="../../de/d69/trackMixer_8cxx.html">trackMixer.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Nov 28 2017 01:32:01</em> using <a
+			updated: <em>Fri Dec 1 2017 15:15:30</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
