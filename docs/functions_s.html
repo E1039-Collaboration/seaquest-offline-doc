@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Home&#160;page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -145,7 +146,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -162,7 +163,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d1/d13/classVertexFit.html#a41fe118d323778b3af81e0bbb1fc0cdb">VertexFit</a>
 </li>
 <li>s_detectorID
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a536b5e421b928246be044b4aa7da1d8b">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#aa0fea4c481bda2f073b465795b5a9bb7">KalmanFastTracking</a>
 </li>
 <li>s_z_vertex_eval
 : <a class="el" href="d1/d13/classVertexFit.html#a422e212c9c903896d00869f83a0876fa">VertexFit</a>
@@ -233,10 +234,15 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set_Bfield()
 : <a class="el" href="df/d35/classRunHeader.html#afa69a69cfd971c8d83afce2c54ba3163">RunHeader</a>
-, <a class="el" href="d4/d0f/classRunHeaderv1.html#aba64c8f564f5b36764e9867c08773267">RunHeaderv1</a>
 </li>
 <li>set_CharFlag()
 : <a class="el" href="d1/da8/classPHFlag.html#a716bb770db79859a16e6b7bc45e03bbd">PHFlag</a>
+</li>
+<li>set_cluster_ID()
+: <a class="el" href="d4/db3/classPHGenFit_1_1Measurement.html#a62f19a4c087918117fbe881f67ab1792">PHGenFit::Measurement</a>
+</li>
+<li>set_cluster_IDs()
+: <a class="el" href="d7/dd5/classPHGenFit_1_1Track.html#a5c766547198acda07bc9b3301b79eccd">PHGenFit::Track</a>
 </li>
 <li>set_coda_event_id()
 : <a class="el" href="d6/df6/classseaquest_1_1Event.html#ae7e7930974b94cfe4944642c85c06cdb">seaquest::Event</a>
@@ -258,6 +264,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d1/d7b/classseaquest_1_1Hit.html#aae36185fa3b84619f9544d1a08bc2dd4">seaquest::Hit</a>
 , <a class="el" href="de/d79/classSQHit.html#a9497f045fe7b60f98f6d62c75aa58c36">SQHit</a>
 , <a class="el" href="d3/d2e/classSQHit__v1.html#a98a80149d5938b8936da1317f2c45366">SQHit_v1</a>
+</li>
+<li>set_do_Event_Display()
+: <a class="el" href="d1/d35/classPHGenFit_1_1Fitter.html#ab50ed9b9fb5dd8505841d0adfb2b8bf1">PHGenFit::Fitter</a>
 </li>
 <li>set_DoubleFlag()
 : <a class="el" href="d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da">PHFlag</a>
@@ -291,6 +300,32 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d8/db2/classEventHeader.html#a75b3ba45c3e77f6c5a6e5b29ec46e714">EventHeader</a>
 , <a class="el" href="d0/d76/classEventHeaderv1.html#ab10ad6ab2b42241c2ee3388872d212c0">EventHeaderv1</a>
 </li>
+<li>set_field()
+: <a class="el" href="dc/dc5/classgenfit_1_1Field.html#ab99ecac886933cec549b75f9440cbdee">genfit::Field</a>
+</li>
+<li>set_field_config()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#abf0adee7b3d0c366ecb1cff7917bea51">PHFieldConfig</a>
+, <a class="el" href="d5/d59/classPHFieldConfig__v1.html#a5a2b478b16de588370dd8d6cb9f6455c">PHFieldConfig_v1</a>
+</li>
+<li>set_field_mag_x()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a6770f3ee14be406b4312894ae50c5a90">PHFieldConfig</a>
+, <a class="el" href="de/de9/classPHFieldConfig__v2.html#a5d341ce3dd4df48496828532e19f534f">PHFieldConfig_v2</a>
+, <a class="el" href="d3/dec/classPHFieldUniform.html#aa255e8a0888061831ba9c59a9683f6b5">PHFieldUniform</a>
+</li>
+<li>set_field_mag_y()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#aec1e3826c6197790c5a971d77894c260">PHFieldConfig</a>
+, <a class="el" href="de/de9/classPHFieldConfig__v2.html#ab8df3ae6d807aeb87d0c9f5b8f33f27b">PHFieldConfig_v2</a>
+, <a class="el" href="d3/dec/classPHFieldUniform.html#a5cd5ed02098bfba381a714a8454db658">PHFieldUniform</a>
+</li>
+<li>set_field_mag_z()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a2b72acfe564b31441672fbea2f4d82e5">PHFieldConfig</a>
+, <a class="el" href="de/de9/classPHFieldConfig__v2.html#a7676201f63a14b812f86d68827210e51">PHFieldConfig_v2</a>
+, <a class="el" href="d3/dec/classPHFieldUniform.html#ad6516cbc55a9ec4c92a5d10119a27a55">PHFieldUniform</a>
+</li>
+<li>set_filename()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a847c4c58ed92b002d83bc19edbd9f7ab">PHFieldConfig</a>
+, <a class="el" href="d5/d59/classPHFieldConfig__v1.html#a5c1edf9a5b3e2fddcc5d63b66274c59a">PHFieldConfig_v1</a>
+</li>
 <li>set_FloatFlag()
 : <a class="el" href="d1/da8/classPHFlag.html#a88212f810275c61464d51caa3cd4d1e1">PHFlag</a>
 </li>
@@ -299,7 +334,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="d1/d5f/classSQMCHit__v1.html#afdbd05926e0f5b898078d914c1ed8db6">SQMCHit_v1</a>
 </li>
 <li>set_hit_container_choice()
-: <a class="el" href="da/da5/classTestAnalyzer.html#a589a60326eba851c0d94835c6428b6f6">TestAnalyzer</a>
+: <a class="el" href="d4/dff/classKalmanFastTrackingWrapper.html#acb8d27e74f77bce50ac0cc804a092723">KalmanFastTrackingWrapper</a>
+, <a class="el" href="da/da5/classTestAnalyzer.html#a589a60326eba851c0d94835c6428b6f6">TestAnalyzer</a>
 </li>
 <li>set_hit_container_type()
 : <a class="el" href="db/dda/classReadMySql.html#aa9e1ae31cccb084be85eeb4f0114b2fa">ReadMySql</a>
@@ -329,14 +365,21 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d0/d78/classSQSpill.html#ac20c49ccee5d181d07948ad513bcd1f7">SQSpill</a>
 , <a class="el" href="d2/df5/classSQSpill__v1.html#adf5cacd2e9e7bd6ea2fb516c6576225b">SQSpill_v1</a>
 </li>
+<li>set_magfield_rescale()
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a47bdbfc0a8c67468ff20591ad0e9d2ab">PHFieldConfig</a>
+, <a class="el" href="d5/d59/classPHFieldConfig__v1.html#a8cf5d558d1f18b13ab544da077de444b">PHFieldConfig_v1</a>
+</li>
 <li>set_name()
 : <a class="el" href="d0/d5e/classPHTimer.html#a274969fb79a23b6b736b44ce20073b49">PHTimer</a>
 </li>
 <li>set_out_name()
-: <a class="el" href="da/da5/classTestAnalyzer.html#a70ad28938dd57f2fdb78cff49c9245d6">TestAnalyzer</a>
+: <a class="el" href="d0/dbd/classDetectorConstructionWrapper.html#a5b0ecf95897f919d1323e40ee0336a60">DetectorConstructionWrapper</a>
+, <a class="el" href="d4/dff/classKalmanFastTrackingWrapper.html#aec079d22ed6c5c6b429d54a5dcb71526">KalmanFastTrackingWrapper</a>
+, <a class="el" href="da/da5/classTestAnalyzer.html#a70ad28938dd57f2fdb78cff49c9245d6">TestAnalyzer</a>
 </li>
 <li>set_pos()
 : <a class="el" href="de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6">SQHit</a>
+, <a class="el" href="d3/d2e/classSQHit__v1.html#a32b613cd8d576272b571108f9d1a82b2">SQHit_v1</a>
 </li>
 <li>set_raw_matrix()
 : <a class="el" href="d6/df6/classseaquest_1_1Event.html#a4108ea9b978f775fa06f549ecc6f60dd">seaquest::Event</a>
@@ -356,7 +399,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d8/db2/classEventHeader.html#ab89f71590c90c36dd8684d480ffe0160">EventHeader</a>
 , <a class="el" href="d0/d76/classEventHeaderv1.html#ab0ed453d4886626e8a944168f75b53ba">EventHeaderv1</a>
 , <a class="el" href="df/d35/classRunHeader.html#a852c1efb3f6e1551bf3dd495513435ad">RunHeader</a>
-, <a class="el" href="d4/d0f/classRunHeaderv1.html#a5049ef9cab375b6144337c2c1e78f708">RunHeaderv1</a>
 </li>
 <li>set_spill_count()
 : <a class="el" href="d7/db7/classSQRun.html#a7a5f953eb0cbb1b1ce80a6e7fc35b05c">SQRun</a>
@@ -383,11 +425,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>set_TimeStart()
 : <a class="el" href="df/d35/classRunHeader.html#a922b7ad5da21e2b25cfbe41563fbdb75">RunHeader</a>
-, <a class="el" href="d4/d0f/classRunHeaderv1.html#af676ad7285f457828e1e54da1e7e92c3">RunHeaderv1</a>
 </li>
 <li>set_TimeStop()
 : <a class="el" href="df/d35/classRunHeader.html#add023b70d853c89da8b73d158ea451eb">RunHeader</a>
-, <a class="el" href="d4/d0f/classRunHeaderv1.html#aa6552deec94bf0389e011c139f40d078">RunHeaderv1</a>
 </li>
 <li>set_trigger()
 : <a class="el" href="d6/df6/classseaquest_1_1Event.html#aacf851782f632c56808582a023f0f516">seaquest::Event</a>
@@ -398,6 +438,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d1/d7b/classseaquest_1_1Hit.html#a5724a61a5a55a540bab3b7102b287320">seaquest::Hit</a>
 , <a class="el" href="de/d79/classSQHit.html#a9a8924314c3d2a19915df9f18866c83b">SQHit</a>
 , <a class="el" href="d3/d2e/classSQHit__v1.html#a933a5e48bd5cf64e0aee634239253786">SQHit_v1</a>
+</li>
+<li>set_verbosity()
+: <a class="el" href="d1/d35/classPHGenFit_1_1Fitter.html#a7ff3cd73102feae80a130a228939b5c6">PHGenFit::Fitter</a>
+, <a class="el" href="d7/dd5/classPHGenFit_1_1Track.html#a4c8d5ed5095f521041165465062ace85">PHGenFit::Track</a>
 </li>
 <li>set_vme_time()
 : <a class="el" href="d6/df6/classseaquest_1_1Event.html#a22da2cd32e5bd97b216da856f2c577b0">seaquest::Event</a>
@@ -504,6 +548,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setFlag()
 : <a class="el" href="d0/d88/classHit.html#a44bdc6c8889e33b39a85f035c2807d4d">Hit</a>
 </li>
+<li>SetGeometry()
+: <a class="el" href="de/de3/classPHGeomIOTGeo.html#a780a0b071aee001508b1dffffdbf078d">PHGeomIOTGeo</a>
+, <a class="el" href="d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926">PHGeomTGeo</a>
+</li>
 <li>setHit()
 : <a class="el" href="d5/d83/classSRawEvent.html#a71fdf9563242fd67e1d3fb01876b61be">SRawEvent</a>
 </li>
@@ -514,7 +562,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d0/d88/classHit.html#a7baba9709ee19582e934e7389842d7a4">Hit</a>
 </li>
 <li>setInitialStateWithCov()
-: <a class="el" href="d4/dfd/classTrackExtrapolator.html#a0e0abce250bec42228fec205f53db7a0">TrackExtrapolator</a>
+: <a class="el" href="d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48">GenFitExtrapolator</a>
+, <a class="el" href="d4/dfd/classTrackExtrapolator.html#a0e0abce250bec42228fec205f53db7a0">TrackExtrapolator</a>
 </li>
 <li>setInputSchema()
 : <a class="el" href="dc/dd3/classMySQLSvc.html#a9979397b6e64dfd66aea6d74be0ed84f">MySQLSvc</a>
@@ -529,7 +578,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594">SRecTrack</a>
 </li>
 <li>setLengthCalc()
-: <a class="el" href="d4/dfd/classTrackExtrapolator.html#a7e18dd1333df449dcf856a1b928d2eb0">TrackExtrapolator</a>
+: <a class="el" href="d1/d3d/classGenFitExtrapolator.html#acac6549d516c6784082967ffed07b848">GenFitExtrapolator</a>
+, <a class="el" href="d4/dfd/classTrackExtrapolator.html#a7e18dd1333df449dcf856a1b928d2eb0">TrackExtrapolator</a>
 </li>
 <li>setLoggingSchema()
 : <a class="el" href="dc/dd3/classMySQLSvc.html#a5cd3ef57dfa5593aeea58bc0eb8a95b5">MySQLSvc</a>
@@ -550,7 +600,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa">SRecTrack</a>
 </li>
 <li>setNRoads()
-: <a class="el" href="d5/d83/classSRawEvent.html#a5a500712ec89db44020d8ab8e7d7b607">SRawEvent</a>
+: <a class="el" href="d5/d83/classSRawEvent.html#a7ec703f4b0a25bd1e0eec8f637d6a1dc">SRawEvent</a>
 </li>
 <li>setObjectType()
 : <a class="el" href="dc/d82/classPHNode.html#a5efaced7ccd6df01fc40abbb07dfe61d">PHNode</a>
@@ -577,7 +627,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="dd/da5/classMCHit.html#ab6d892bbec039d6a49f14e66a28fc428">MCHit</a>
 </li>
 <li>setParticleType()
-: <a class="el" href="d4/dfd/classTrackExtrapolator.html#adc17fb6e413e0425cc48bebbf7c29286">TrackExtrapolator</a>
+: <a class="el" href="d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3">GenFitExtrapolator</a>
+, <a class="el" href="d4/dfd/classTrackExtrapolator.html#adc17fb6e413e0425cc48bebbf7c29286">TrackExtrapolator</a>
 </li>
 <li>SetPosition()
 : <a class="el" href="dd/da5/classMCHit.html#ab4a6a93981a9c6573a1261a69a3299a3">MCHit</a>
@@ -592,7 +643,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="df/dd0/classNode.html#ac48a9313860e24539bb569e2edbd4d97">Node</a>
 </li>
 <li>setPropCalc()
-: <a class="el" href="d4/dfd/classTrackExtrapolator.html#ae07344182742c050ab9a74c535dbb4cc">TrackExtrapolator</a>
+: <a class="el" href="d1/d3d/classGenFitExtrapolator.html#a39eec48c004525ea9b2ac216b85507ab">GenFitExtrapolator</a>
+, <a class="el" href="d4/dfd/classTrackExtrapolator.html#ae07344182742c050ab9a74c535dbb4cc">TrackExtrapolator</a>
 </li>
 <li>setPTSlope()
 : <a class="el" href="d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c">SRecTrack</a>
@@ -629,7 +681,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="df/dd0/classNode.html#acd87507e822cf12e56a26c23064af5fe">Node</a>
 </li>
 <li>setStartingParameter()
-: <a class="el" href="d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8">KalmanFitter</a>
+: <a class="el" href="d3/dc9/classKalmanFitter.html#a6822d7a32f36020b468db116726cfbc7">KalmanFitter</a>
 </li>
 <li>setStartingVertex()
 : <a class="el" href="d1/d13/classVertexFit.html#ac70d2f4af69b4bcd0a45a20282b6d7b7">VertexFit</a>
@@ -672,7 +724,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="dd/da5/classMCHit.html#ab56c4a1aeca3134ba26899fe02e5bb43">MCHit</a>
 </li>
 <li>setTriggerBits()
-: <a class="el" href="d5/d83/classSRawEvent.html#a3b08b54a99e28870161ad532de39d142">SRawEvent</a>
+: <a class="el" href="d5/d83/classSRawEvent.html#a5e98ae7aa4467a615326f828428a2c9f">SRawEvent</a>
 </li>
 <li>setTriggerEmu
 : <a class="el" href="dc/dd3/classMySQLSvc.html#a79fcd78ce43baa52ce00354dd9322b09">MySQLSvc</a>
@@ -692,6 +744,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>setUserPasswd()
 : <a class="el" href="dc/dd3/classMySQLSvc.html#a0b13655f33d5cad37999f3399d668219">MySQLSvc</a>
+</li>
+<li>SetVerbosity()
+: <a class="el" href="d2/da1/classPHGeomUtility.html#ab5bab1c037b85be537f586e6972c3973">PHGeomUtility</a>
 </li>
 <li>SetVertex()
 : <a class="el" href="dd/da5/classMCHit.html#a5ac9d347a106ec559f9a6c948236ddf1">MCHit</a>
@@ -727,7 +782,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d6/db1/classSRecTrack.html#a4e6933a5892c3e5fd593046ac3ee94a5">SRecTrack</a>
 </li>
 <li>shared_ptr()
-: <a class="el" href="da/d18/classboost_1_1shared__ptr.html#a3f35364d60fc00e67e8ee7c8f01c4a1e">boost::shared_ptr&lt; T &gt;</a>
+: <a class="el" href="da/d18/classboost_1_1shared__ptr.html#a5d9b72a658757ffc3920231268a77b84">boost::shared_ptr&lt; T &gt;</a>
 </li>
 <li>sig_z_start
 : <a class="el" href="d1/d13/classVertexFit.html#a3e6d068755742792f8718ad608b1e8a8">VertexFit</a>
@@ -740,7 +795,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="de/d45/classSignedHit.html#a46e4a7ba77a6a810862cf2a5f9131471">SignedHit</a>
 </li>
 <li>SignedHit()
-: <a class="el" href="de/d45/classSignedHit.html#ac9293c49a9b51e7d83e2ff333f34a278">SignedHit</a>
+: <a class="el" href="de/d45/classSignedHit.html#aeaa34fd6e40e1c882cce2861071afb78">SignedHit</a>
 </li>
 <li>similarity()
 : <a class="el" href="d9/dc3/classKalmanTrack.html#ab448886fb9e6ce29e039270daea6616d">KalmanTrack</a>
@@ -754,7 +809,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="dc/d90/classPlane.html#a3ca30ba234e7668f9e3eb277c9ee2085">Plane</a>
 </li>
 <li>sintheta_plane
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#af653c5b30d7eabbce5be44c67ade3fbb">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#a757f1204d5e343e518668abe3bbfbf3e">KalmanFastTracking</a>
 </li>
 <li>size()
 : <a class="el" href="d1/d96/classboost_1_1array.html#aaf4df5cfae58ef79c61cddcb80cad437">boost::array&lt; T, N &gt;</a>
@@ -776,7 +831,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="dd/ded/classFun4AllSyncManager.html#a9b5874f83d4984e24572838d55513eb3">Fun4AllSyncManager</a>
 </li>
 <li>slope_max
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a59778226469316a1d44fbe66f2c9d2b0">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#ae41b5570760f9ef12d91751be7a630b0">KalmanFastTracking</a>
 </li>
 <li>SMillepede()
 : <a class="el" href="d6/dd9/classSMillepede.html#ac6f02b117c605d10cd25e8508674c3d7">SMillepede</a>
@@ -785,16 +840,19 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306">KalmanFilter</a>
 </li>
 <li>solidVec
-: <a class="el" href="dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0">DetectorConstruction</a>
+: <a class="el" href="dc/d5b/classDetectorConstruction.html#a16474b1cd6f996ff6bbe18e5766e43c6">DetectorConstruction</a>
 </li>
 <li>sortHits()
 : <a class="el" href="d2/d26/classTracklet.html#a517e8e0a3ccc7678ef2a0cdfa5f7168d">Tracklet</a>
+</li>
+<li>SpacepointMeasurement()
+: <a class="el" href="d6/dc8/classPHGenFit_1_1SpacepointMeasurement.html#a5e4b5e51c68c0eb14c78e436c24b4124">PHGenFit::SpacepointMeasurement</a>
 </li>
 <li>spacing
 : <a class="el" href="dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855">Plane</a>
 </li>
 <li>spacing_plane
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a7ca9cb49ad3fefdd7f50a112cde397b0">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#a0f709db7c04b68a552107a8b6d251327">KalmanFastTracking</a>
 </li>
 <li>spillID
 : <a class="el" href="dc/dd3/classMySQLSvc.html#a6b560196eb5998bad4a540222dab4e60">MySQLSvc</a>
@@ -828,13 +886,13 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d0/dac/classSQHitMap.html#ac18c0bb9019a9e6f12ddaaff0d68020e">SQHitMap</a>
 </li>
 <li>SQHitMap_v1()
-: <a class="el" href="d2/d62/classSQHitMap__v1.html#a8e867d4e0fd287f94480427c4f5cf613">SQHitMap_v1</a>
+: <a class="el" href="d2/d62/classSQHitMap__v1.html#a3e3927a9424024840118febbc08107b7">SQHitMap_v1</a>
 </li>
 <li>SQHitVector()
 : <a class="el" href="d9/dbc/classSQHitVector.html#aea514ca662b7e364c64d29f084b7034f">SQHitVector</a>
 </li>
 <li>SQHitVector_v1()
-: <a class="el" href="d9/dbf/classSQHitVector__v1.html#a338a564b009b4a98b734300ccff432ee">SQHitVector_v1</a>
+: <a class="el" href="d9/dbf/classSQHitVector__v1.html#a2632a7c7921badbb3109ea08bc9b4618">SQHitVector_v1</a>
 </li>
 <li>sqlPort
 : <a class="el" href="df/d9a/classSettings.html#a65047a0f20c3f8984359844a502f3921">Settings</a>
@@ -873,10 +931,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d6/db1/classSRecTrack.html#ae61166cfb8ed06d9c45e8281cdbf953f">SRecTrack</a>
 </li>
 <li>staHitsCollection
-: <a class="el" href="d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">GenericSD</a>
+: <a class="el" href="d4/d82/classGenericSD.html#a565cb881dd8a3f9d93e3c3fa0cba5f29">GenericSD</a>
 </li>
 <li>staSD
-: <a class="el" href="dc/d5b/classDetectorConstruction.html#afc7d76171b952b575ff1451076ea3b47">DetectorConstruction</a>
+: <a class="el" href="dc/d5b/classDetectorConstruction.html#aa292b5a0cf1264abc402fec84a813eb7">DetectorConstruction</a>
 </li>
 <li>State
 : <a class="el" href="d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51">PHTimer</a>
@@ -889,7 +947,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d2/d26/classTracklet.html#a1e5feb22a62464148cfe679efeb70db3">Tracklet</a>
 </li>
 <li>stationIDs_mask
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a283ccb65c66ee54d0c1954d9e54e27e0">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#aa6232b8646d7b27e7108620a3eb2690e">KalmanFastTracking</a>
 </li>
 <li>stop()
 : <a class="el" href="d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41">PHTimer</a>
@@ -898,7 +956,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51aea9399a8f2ba02d4e49e6be9c1efcdec">PHTimer</a>
 </li>
 <li>stracks
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a1f01dbd377823a55a36dc74ea8f6fdbd">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#ae665555e8d3559c07fcc60cd95aabc2a">KalmanFastTracking</a>
 </li>
 <li>StreamStatus()
 : <a class="el" href="dc/dab/classFun4AllEventOutStream.html#a5270da9f643d513d4f13a55db48355c0">Fun4AllEventOutStream</a>
@@ -933,7 +991,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="da/d29/classFun4AllServer.html#a3f03222920d4f0f3753387aece9190ee">Fun4AllServer</a>
 </li>
 <li>superIDs
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a2c311757c0400964bd61b514c8c44439">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#accdc817da1fc789ccc299c5d17825725">KalmanFastTracking</a>
 </li>
 <li>swap()
 : <a class="el" href="d1/d96/classboost_1_1array.html#a342ef866ed696b18ce803b5c9aba4b2e">boost::array&lt; T, N &gt;</a>
@@ -969,7 +1027,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>SyncObjectv2
 : <a class="el" href="de/dbb/classSyncObject.html#a4bc4d5eea23e9f663d0b3de0bb50ee10">SyncObject</a>
-, <a class="el" href="df/da3/classSyncObjectv2.html#afea1066fd155ae592e1515c8c49fb2cc">SyncObjectv2</a>
+, <a class="el" href="df/da3/classSyncObjectv2.html#abc9e44bc4fee4e75e3cdce25d62fbedb">SyncObjectv2</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -981,7 +1039,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:33</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('d6/deb/classTriggerAnalyzer.html','../
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -127,7 +128,8 @@ $(document).ready(function(){initNavTree('d6/deb/classTriggerAnalyzer.html','../
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dcc/classTriggerAnalyzer__coll__graph.svg" width="1291" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/dcc/classTriggerAnalyzer__coll__graph.svg" width="1291" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -146,9 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad9cfc03722fb7065da7c30e9ff6a62e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51d0bd1fb5b3b41294f3772b4072ee2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#a51d0bd1fb5b3b41294f3772b4072ee2c">acceptEvent</a> (int nHits, int detectorIDs[], int elementIDs[])</td></tr>
 <tr class="separator:a51d0bd1fb5b3b41294f3772b4072ee2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7554eeae1ba51d606dc4a42436c55eed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#a7554eeae1ba51d606dc4a42436c55eed">acceptEvent</a> (<a class="el" href="../../d5/d83/classSRawEvent.html">SRawEvent</a> *rawEvent, int mode=<a class="el" href="../../dd/de2/GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a>)</td></tr>
+<tr class="memitem:a7554eeae1ba51d606dc4a42436c55eed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#a7554eeae1ba51d606dc4a42436c55eed">acceptEvent</a> (<a class="el" href="../../d5/d83/classSRawEvent.html">SRawEvent</a> *rawEvent, int mode=<a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a>)</td></tr>
 <tr class="separator:a7554eeae1ba51d606dc4a42436c55eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefeca16ccf3c1ee48aa25156d59265de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de">trimEvent</a> (<a class="el" href="../../d5/d83/classSRawEvent.html">SRawEvent</a> *rawEvent, std::list&lt; <a class="el" href="../../d0/d88/classHit.html">Hit</a> &gt; &amp;hitlist, int mode=<a class="el" href="../../dd/de2/GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a>)</td></tr>
+<tr class="memitem:aefeca16ccf3c1ee48aa25156d59265de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de">trimEvent</a> (<a class="el" href="../../d5/d83/classSRawEvent.html">SRawEvent</a> *rawEvent, std::list&lt; <a class="el" href="../../d0/d88/classHit.html">Hit</a> &gt; &amp;hitlist, int mode=<a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a>)</td></tr>
 <tr class="separator:aefeca16ccf3c1ee48aa25156d59265de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81db5e8831b70c8b7718425217c33e7"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, <a class="el" href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#ae81db5e8831b70c8b7718425217c33e7">getRoadsAll</a> (int charge)</td></tr>
 <tr class="separator:ae81db5e8831b70c8b7718425217c33e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +201,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:afe42e4ad0f740d1e3618d5ddb4349684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82bd1a115e6aa53dfb1a58f726ec15dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#a82bd1a115e6aa53dfb1a58f726ec15dd">nRoads</a> [2][2]</td></tr>
 <tr class="separator:a82bd1a115e6aa53dfb1a58f726ec15dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc88810fbc46ddd62928822d0edaeb5e"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../dc/d4d/TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#adc88810fbc46ddd62928822d0edaeb5e">triggers</a></td></tr>
+<tr class="memitem:adc88810fbc46ddd62928822d0edaeb5e"><td class="memItemLeft" align="right" valign="top">std::list&lt; <a class="el" href="../../db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#adc88810fbc46ddd62928822d0edaeb5e">triggers</a></td></tr>
 <tr class="separator:adc88810fbc46ddd62928822d0edaeb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acefc98c94737ad5e92874aad7eab565b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d97/TriggerAnalyzer_8h.html#a03f392e646661926f549d7546b842c97">DataMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html#acefc98c94737ad5e92874aad7eab565b">data</a></td></tr>
 <tr class="separator:acefc98c94737ad5e92874aad7eab565b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,7 +233,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00026">26</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00117">detectorIDs_trigger</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00461">GeomSvc::getDetectorIDs()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00108">root</a>.</p>
+<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00117">detectorIDs_trigger</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00461">GeomSvc::getDetectorIDs()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00108">root</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -299,7 +301,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00216">216</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>.</p>
+<p>References <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00270">acceptEvent()</a>, <a class="el" href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00322">MySQLSvc::getEvent()</a>, <a class="el" href="../../db/d92/update_8cxx_source.html#l00018">main()</a>, and <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00526">trimEvent()</a>.</p>
 
@@ -382,7 +384,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mode</em> = <code><a class="el" href="../../dd/de2/GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a></code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code><a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -394,7 +396,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00270">270</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00216">acceptEvent()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00124">SRawEvent::getAllHits()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00125">SRawEvent::getTriggerHits()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00040">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00041">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00086">USE_HIT</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00085">USE_TRIGGER_HIT</a>.</p>
+<p>References <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00216">acceptEvent()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00124">SRawEvent::getAllHits()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00125">SRawEvent::getTriggerHits()</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00040">nChamberPlanes</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00041">nHodoPlanes</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00086">USE_HIT</a>, and <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00085">USE_TRIGGER_HIT</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -439,7 +441,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00224">224</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00105">data</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00135">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>.</p>
+<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00105">data</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00135">GeomSvc::getDetectorName()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00306">acceptEvent()</a>.</p>
 
@@ -888,7 +890,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00119">119</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00144">TriggerRoad::clear()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">dataFile</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00104">TriggerRoad::isValid()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00193">makeRoadPairs()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00094">roads</a>.</p>
+<p>References <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00144">TriggerRoad::clear()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">dataFile</a>, <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00104">TriggerRoad::isValid()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00193">makeRoadPairs()</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00094">roads</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00006">EventReducer::EventReducer()</a>, <a class="el" href="../../d0/d9f/MySQLSvc_8cxx_source.html#l00161">MySQLSvc::initReader()</a>, and <a class="el" href="../../db/d92/update_8cxx_source.html#l00018">main()</a>.</p>
 
@@ -927,14 +929,15 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00049">49</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00158">TriggerRoad::addElement()</a>, <a class="el" href="../../d9/d25/convertRTCurve_8py_source.html#l00023">convertRTCurve::fin</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00134">GeomSvc::getDetectorID()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../dc/d4d/TriggerRoad_8h_source.html#l00094">TriggerRoad::groupID</a>, <a class="el" href="../../dd/d23/JobOptsSvc_8cxx_source.html#l00028">JobOptsSvc::instance()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00193">makeRoadPairs()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, <a class="el" href="../../dc/d4d/TriggerRoad_8h_source.html#l00091">TriggerRoad::roadID</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>.</p>
+<p>References <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00158">TriggerRoad::addElement()</a>, <a class="el" href="../../d9/d25/convertRTCurve_8py_source.html#l00023">convertRTCurve::fin</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00134">GeomSvc::getDetectorID()</a>, <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h_source.html#l00094">TriggerRoad::groupID</a>, <a class="el" href="../../d4/d46/seaquest-ktracker_2src_2JobOptsSvc_8cxx_source.html#l00028">JobOptsSvc::instance()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00193">makeRoadPairs()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, <a class="el" href="../../db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h_source.html#l00091">TriggerRoad::roadID</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>.</p>
 
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-21-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/deb/classTriggerAnalyzer_a33bd7d0faf83282d6a1bcb50397a61cd_cgraph.svg" width="662" height="255"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/deb/classTriggerAnalyzer_a33bd7d0faf83282d6a1bcb50397a61cd_cgraph.svg" width="662" height="255"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -1152,7 +1155,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00368">368</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00032">TNode::children</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00111">roads_found</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00114">roads_temp</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00031">TNode::uniqueID</a>.</p>
+<p>References <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00032">TNode::children</a>, <a class="el" href="../../d2/d78/seaquest-ktracker_2src_2TriggerRoad_8cxx_source.html#l00234">TriggerRoad::getRoadID()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00095">roads_enabled</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00111">roads_found</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00114">roads_temp</a>, and <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00031">TNode::uniqueID</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00306">acceptEvent()</a>.</p>
 
@@ -1196,7 +1199,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mode</em> = <code><a class="el" href="../../dd/de2/GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a></code>&#160;</td>
+          <td class="paramname"><em>mode</em> = <code><a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f">USE_TRIGGER_HIT</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1208,7 +1211,7 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00526">526</a> of file <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html">TriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00216">acceptEvent()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00069">Hit::detectorID</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00072">Hit::driftDistance</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00070">Hit::elementID</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00518">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00065">getNRoadsNegBot()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00064">getNRoadsNegTop()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00063">getNRoadsPosBot()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00062">getNRoadsPosTop()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00068">Hit::index</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00099">nRoads</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00073">Hit::pos</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00111">roads_found</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00048">Hit::setInTime()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00174">SRawEvent::setNRoads()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00173">SRawEvent::setTriggerEmu()</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00050">Hit::setTriggerMask()</a>, and <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00071">Hit::tdcTime</a>.</p>
+<p>References <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00216">acceptEvent()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00069">Hit::detectorID</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00072">Hit::driftDistance</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00070">Hit::elementID</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00518">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00065">getNRoadsNegBot()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00064">getNRoadsNegTop()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00063">getNRoadsPosBot()</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00062">getNRoadsPosTop()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00068">Hit::index</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00099">nRoads</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00091">p_geomSvc</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00073">Hit::pos</a>, <a class="el" href="../../d6/d97/TriggerAnalyzer_8h_source.html#l00111">roads_found</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00048">Hit::setInTime()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00174">SRawEvent::setNRoads()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00173">SRawEvent::setTriggerEmu()</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00050">Hit::setTriggerMask()</a>, and <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00071">Hit::tdcTime</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00064">EventReducer::reduceEvent()</a>.</p>
 
@@ -1481,7 +1484,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::list&lt;<a class="el" href="../../dc/d4d/TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a>&gt; TriggerAnalyzer::triggers</td>
+          <td class="memname">std::list&lt;<a class="el" href="../../db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a>&gt; TriggerAnalyzer::triggers</td>
         </tr>
       </table>
   </td>
@@ -1511,7 +1514,7 @@ Private Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d6/deb/classTriggerAnalyzer.html">TriggerAnalyzer</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:32</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

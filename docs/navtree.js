@@ -8,8 +8,11 @@ var NAVTREE =
     ] ],
     [ "Write your code with Doxygen documentation", "index.html#Write_your_code", null ],
     [ "Installation/Compilation guide for kTracker", "d1/dbc/md__home_yuhw_GitHub_SeaQuest_seaquest-ktracker_README.html", null ],
+    [ "README", "d4/d63/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_packages_PHField_README.html", null ],
+    [ "PHGenFitPkg", "d9/d56/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_packages_PHGenFitPkg_README.html", null ],
     [ "Fun4All based E1039 offline software", "de/df8/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_README.html", null ],
     [ "art-seaquest", "d8/dd6/md__home_yuhw_GitHub_SeaQuest_art-seaquest_README.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -58,23 +61,29 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/da0/classGeomSvc.html#a712c6855b1503c436272d8fa73fdd9c7",
-"d1/d5f/classSQMCHit__v1.html#a577091729db8c25200fe24a502dd311d",
-"d2/d86/rootlogon_8C.html#a2bb36906c22bae0c0e11d8ec1d2e81ff",
-"d3/d96/classFun4AllHistoManager.html#abacd0eae0fd26e6a6b55895348dcf402",
-"d4/dfd/classTrackExtrapolator.html#a29f8dcd3cd11b0f605628690c55eefd6",
-"d5/d83/classSRawEvent.html#a4a085b0b6ebb9ea287b92b554cda2250",
-"d6/d5d/classMPNode.html#a61f75fe799934e503767d643b994eef3",
-"d6/dd9/classSMillepede.html#a526822f46ede9afceb84981d4173b718",
-"d7/d87/classSQSpillMap.html#abc2908862e3f444dceab32b570991c9d",
-"d9/d30/classSyncObjectv1.html#aa26c49bf535e4170ceea4ee4c8c3feed",
-"da/d0e/SQSpillMap__v1_8h.html",
-"da/da5/classTestAnalyzer.html#ae431a7187b101c22313ab5abb9ace11e",
-"db/dee/triggerAna_8cxx_source.html",
-"dc/dd3/classMySQLSvc.html#a7c41fe1fc1f140cfd6bc3f1eb76e07eb",
-"dd/de2/GlobalConsts_8h.html#acec5347dbc4f7e55b2fd77186d8afe1b",
-"de/dbb/classSyncObject.html#ad679d42aac1a409a94d2e535766dcebd",
-"dir_08f4c8ff5ddb60ddd7b8c0b029c34eac.html"
+"d0/d88/classHit.html#ac2727a27933c07b60b6a7ccccba12fff",
+"d0/dc5/shared__ptr_8hpp.html#aa61b39f8f508757b1ad08b25b896665e",
+"d1/d96/classboost_1_1array.html#a4dd92c3399a847641733637356b0c972",
+"d2/d70/classTrkPar.html#a8b54bb0a84179176aabaacb3397c8105",
+"d3/d2e/classSQHit__v1.html#abc63ba4c491875678d3a91695bc88956",
+"d3/ddc/seaquest-offline_2packages_2ktracker_2KalmanUtil_8h.html",
+"d4/da9/classFun4AllInputManager.html#af9bf7d76be5d2c0b10843ae734da9bbb",
+"d5/d59/PHGeomIOTGeo_8cc.html",
+"d5/d83/classSRawEvent.html#a7674cfa1f4d4ce653d62daaea42b20ad",
+"d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf052a5b4a3b325e931e6e938c09d662d",
+"d6/db1/classSRecTrack.html#a6babb2f9c10d3c28375433436388c480",
+"d6/deb/classTriggerAnalyzer.html#a8da041f27cea288e3a3336637379f3a2",
+"d7/dd3/PHField3DCartesian_8h_source.html",
+"d9/d1b/namespaceMILLEPEDE.html",
+"d9/dc3/classKalmanTrack.html#a5f155d8c2406870ea29d53d9afdc79a4",
+"da/d29/classFun4AllServer.html#a1266c6d922adaaa9e895b854be49d3e8",
+"da/dc2/classPHTimeStamp.html#a50f44df466af8818a2c140e7f04deddb",
+"dc/d14/seaquest-ktracker_2src_2FastTracklet_8cxx_source.html",
+"dc/dd3/classMySQLSvc.html#a53aae2e9f95dbb1b77a5ab15ae480bef",
+"dd/de7/PHNodeIOManager_8h_source.html",
+"de/dbb/classSyncObject.html#ada7f465c7f21b1fb563cc9ab5534dbdb",
+"df/dd0/classNode.html#a99c8a3ab85ad9363bf03cf582a83ea0b",
+"globals_z.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

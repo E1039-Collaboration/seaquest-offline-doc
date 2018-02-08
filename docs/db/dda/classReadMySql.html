@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('db/dda/classReadMySql.html','../../');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -137,7 +138,8 @@ $(document).ready(function(){initNavTree('db/dda/classReadMySql.html','../../');
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d0e/classReadMySql__coll__graph.svg" width="863" height="491"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d0e/classReadMySql__coll__graph.svg" width="1120" height="718"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -155,6 +157,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a782402220d0cbf5fb4656757e72f2dda"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a782402220d0cbf5fb4656757e72f2dda">End</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="memdesc:a782402220d0cbf5fb4656757e72f2dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of all processing.  <a href="#a782402220d0cbf5fb4656757e72f2dda">More...</a><br/></td></tr>
 <tr class="separator:a782402220d0cbf5fb4656757e72f2dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706c4e85400435a780774c48d6b69342"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a706c4e85400435a780774c48d6b69342">FillSQRun</a> (<a class="el" href="../../d7/db7/classSQRun.html">SQRun</a> *run_header, TSQLServer *server, const int run_id, const char *table=&quot;Run&quot;)</td></tr>
+<tr class="separator:a706c4e85400435a780774c48d6b69342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d89dbc97ba9beb83c3a19dd41b49f07"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a8d89dbc97ba9beb83c3a19dd41b49f07">FillSQSpill</a> (<a class="el" href="../../d7/d87/classSQSpillMap.html">SQSpillMap</a> *spill_map, TSQLServer *server, const int run_id, const char *table=&quot;Spill&quot;)</td></tr>
+<tr class="separator:a8d89dbc97ba9beb83c3a19dd41b49f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404aa7b14dbb98abc5f3115182a8ec56"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a404aa7b14dbb98abc5f3115182a8ec56">FillSQEvent</a> (<a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *event_header, TSQLServer *server, const int event_id, const char *table=&quot;Event&quot;)</td></tr>
+<tr class="separator:a404aa7b14dbb98abc5f3115182a8ec56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8471cd9d896efdb04dffb6a47d431f6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a8471cd9d896efdb04dffb6a47d431f6e">FillSQHitMap</a> (<a class="el" href="../../d0/dac/classSQHitMap.html">SQHitMap</a> *hit_map, TSQLServer *server, const int event_id, const char *table=&quot;Hit&quot;)</td></tr>
+<tr class="separator:a8471cd9d896efdb04dffb6a47d431f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867fcdb2c8dc0344e80bba8019efd9bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a867fcdb2c8dc0344e80bba8019efd9bb">FillSQHitVector</a> (<a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vector, const std::string hit_type, TSQLServer *server, const int event_id, const char *table=&quot;Hit&quot;)</td></tr>
+<tr class="separator:a867fcdb2c8dc0344e80bba8019efd9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd96c32651caf97d719b3b4643d302df"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#abd96c32651caf97d719b3b4643d302df">get_hit_container_type</a> () const </td></tr>
 <tr class="separator:abd96c32651caf97d719b3b4643d302df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9e1ae31cccb084be85eeb4f0114b2fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#aa9e1ae31cccb084be85eeb4f0114b2fa">set_hit_container_type</a> (const std::string &amp;hitContainerChoice)</td></tr>
@@ -198,16 +210,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a706c4e85400435a780774c48d6b69342"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a706c4e85400435a780774c48d6b69342">FillSQRun</a> (<a class="el" href="../../d7/db7/classSQRun.html">SQRun</a> *run_header, TSQLServer *server, const int run_id, const char *table=&quot;Run&quot;)</td></tr>
-<tr class="separator:a706c4e85400435a780774c48d6b69342"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d89dbc97ba9beb83c3a19dd41b49f07"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a8d89dbc97ba9beb83c3a19dd41b49f07">FillSQSpill</a> (<a class="el" href="../../d7/d87/classSQSpillMap.html">SQSpillMap</a> *spill_map, TSQLServer *server, const int run_id, const char *table=&quot;Spill&quot;)</td></tr>
-<tr class="separator:a8d89dbc97ba9beb83c3a19dd41b49f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a404aa7b14dbb98abc5f3115182a8ec56"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a404aa7b14dbb98abc5f3115182a8ec56">FillSQEvent</a> (<a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *event_header, TSQLServer *server, const int event_id, const char *table=&quot;Event&quot;)</td></tr>
-<tr class="separator:a404aa7b14dbb98abc5f3115182a8ec56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8471cd9d896efdb04dffb6a47d431f6e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a8471cd9d896efdb04dffb6a47d431f6e">FillSQHitMap</a> (<a class="el" href="../../d0/dac/classSQHitMap.html">SQHitMap</a> *hit_map, TSQLServer *server, const int event_id, const char *table=&quot;Hit&quot;)</td></tr>
-<tr class="separator:a8471cd9d896efdb04dffb6a47d431f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a867fcdb2c8dc0344e80bba8019efd9bb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a867fcdb2c8dc0344e80bba8019efd9bb">FillSQHitVector</a> (<a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vector, const std::string hit_type, TSQLServer *server, const int event_id, const char *table=&quot;Hit&quot;)</td></tr>
-<tr class="separator:a867fcdb2c8dc0344e80bba8019efd9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f6689c1c62d985e8747ab88c0a4e2d9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a3f6689c1c62d985e8747ab88c0a4e2d9">getInt</a> (TSQLRow *row, int id, int default_val=0)</td></tr>
 <tr class="separator:a3f6689c1c62d985e8747ab88c0a4e2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8c4f71c0671dbc34370e363d92106ad"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#af8c4f71c0671dbc34370e363d92106ad">getFloat</a> (TSQLRow *row, int id, float default_val=0.)</td></tr>
@@ -264,6 +266,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab45e617d2b04a4b9fd575a7543757032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5471652caf2bb88db4d705428d13ad98"><td class="memItemLeft" align="right" valign="top">TSQLRow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a5471652caf2bb88db4d705428d13ad98">_row</a></td></tr>
 <tr class="separator:a5471652caf2bb88db4d705428d13ad98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6808eef82ecf3377012665bd90c78590"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/da0/classGeomSvc.html">GeomSvc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a6808eef82ecf3377012665bd90c78590">p_geomSvc</a></td></tr>
+<tr class="separator:a6808eef82ecf3377012665bd90c78590"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52c47061c111407bac0f5401d7eda1b5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a52c47061c111407bac0f5401d7eda1b5">_event_ids</a></td></tr>
 <tr class="separator:a52c47061c111407bac0f5401d7eda1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cb15548e134b60e028736aea83b57be"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dda/classReadMySql.html#a2cb15548e134b60e028736aea83b57be">_event</a></td></tr>
@@ -308,7 +312,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00039">39</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00035">35</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa91fa8168b0c206c908bdfeb6b7f0cb6"></a>
 <div class="memitem">
@@ -328,7 +332,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00118">118</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00117">117</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
 </div>
 </div>
@@ -347,9 +351,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00039">39</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00041">41</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">_event_ids</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00107">_event_ids</a>.</p>
 
 </div>
 </div>
@@ -374,7 +378,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00044">44</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00040">40</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
 </div>
 </div>
@@ -405,7 +409,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00136">136</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00143">143</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
 
@@ -423,9 +427,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a404aa7b14dbb98abc5f3115182a8ec56"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ReadMySql::FillSQEvent </td>
@@ -457,18 +458,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00425">425</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00459">459</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00021">SQEvent::NIM1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00022">SQEvent::NIM2</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00023">SQEvent::NIM3</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00024">SQEvent::NIM4</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00025">SQEvent::NIM5</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b0a9c59c4437dc5af52a29763b14a75">SQEvent::set_coda_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">SQEvent::set_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">SQEvent::set_spill_id()</a>, and <a class="el" href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger()</a>.</p>
+<p>References <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00026">SQEvent::MATRIX1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00027">SQEvent::MATRIX2</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00028">SQEvent::MATRIX3</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00029">SQEvent::MATRIX4</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00030">SQEvent::MATRIX5</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00021">SQEvent::NIM1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00022">SQEvent::NIM2</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00023">SQEvent::NIM3</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00024">SQEvent::NIM4</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00025">SQEvent::NIM5</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b0a9c59c4437dc5af52a29763b14a75">SQEvent::set_coda_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">SQEvent::set_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">SQEvent::set_spill_id()</a>, and <a class="el" href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -493,9 +489,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a8471cd9d896efdb04dffb6a47d431f6e"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ReadMySql::FillSQHitMap </td>
@@ -527,18 +520,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00307">307</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00314">314</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00277">getFloat()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../df/d01/SQHitMap_8h_source.html#l00043">SQHitMap::insert()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00040">SQHit::set_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00049">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00043">SQHit::set_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00037">SQHit::set_hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_hodo_mask()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00052">SQHit::set_pos()</a>, and <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit::set_tdc_time()</a>.</p>
+<p>References <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00284">getFloat()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../df/d01/SQHitMap_8h_source.html#l00043">SQHitMap::insert()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00040">SQHit::set_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00049">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00043">SQHit::set_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00037">SQHit::set_hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_hodo_mask()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00052">SQHit::set_pos()</a>, and <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit::set_tdc_time()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -563,9 +551,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a867fcdb2c8dc0344e80bba8019efd9bb"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ReadMySql::FillSQHitVector </td>
@@ -603,25 +588,21 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00359">359</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00366">366</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00277">getFloat()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00042">SQHitVector::push_back()</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00040">SQHit::set_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00049">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00043">SQHit::set_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00055">SQHit::set_g4hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00037">SQHit::set_hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_hodo_mask()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit::set_tdc_time()</a>, and <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00064">SQHit::set_trigger_mask()</a>.</p>
+<p>References <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00039">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_element_id()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00134">GeomSvc::getDetectorID()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00284">getFloat()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00518">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">p_geomSvc</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00042">SQHitVector::push_back()</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00040">SQHit::set_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00049">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00043">SQHit::set_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00055">SQHit::set_g4hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00037">SQHit::set_hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_hodo_mask()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00052">SQHit::set_pos()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit::set_tdc_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00064">SQHit::set_trigger_mask()</a>, and <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00587">GeomSvc::toLocalDetectorName()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_a867fcdb2c8dc0344e80bba8019efd9bb_cgraph.svg" width="414" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_a867fcdb2c8dc0344e80bba8019efd9bb_cgraph.svg" width="459" height="899"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -639,9 +620,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a706c4e85400435a780774c48d6b69342"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ReadMySql::FillSQRun </td>
@@ -673,18 +651,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00478">478</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00520">520</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00297">getString()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../de/d59/SQRun_8h_source.html#l00032">SQRun::set_run_id()</a>, and <a class="el" href="../../de/d59/SQRun_8h_source.html#l00035">SQRun::set_spill_count()</a>.</p>
+<p>References <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00304">getString()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../de/d59/SQRun_8h_source.html#l00032">SQRun::set_run_id()</a>, and <a class="el" href="../../de/d59/SQRun_8h_source.html#l00035">SQRun::set_spill_count()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -709,9 +682,6 @@ Additional Inherited Members</h2></td></tr>
 <a class="anchor" id="a8d89dbc97ba9beb83c3a19dd41b49f07"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ReadMySql::FillSQSpill </td>
@@ -743,18 +713,13 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00519">519</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00561">561</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00277">getFloat()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00042">SQSpillMap::insert()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00043">SQSpill::set_live_proton()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::set_run_id()</a>, and <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::set_spill_id()</a>.</p>
+<p>References <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00284">getFloat()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00042">SQSpillMap::insert()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d0/dec/updateAlignment_8py_source.html#l00043">updateAlignment::query</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00043">SQSpill::set_live_proton()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::set_run_id()</a>, and <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::set_spill_id()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -797,9 +762,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00064">64</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00060">60</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_hit_container_type</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">_hit_container_type</a>.</p>
 
 </div>
 </div>
@@ -824,9 +789,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00072">72</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00068">68</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">_hit_type</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00084">_hit_type</a>.</p>
 
 </div>
 </div>
@@ -868,7 +833,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00287">287</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00294">294</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
 </div>
 </div>
@@ -910,9 +875,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00277">277</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00284">284</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00307">FillSQHitMap()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00359">FillSQHitVector()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00519">FillSQSpill()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00314">FillSQHitMap()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00366">FillSQHitVector()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00561">FillSQSpill()</a>.</p>
 
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -963,9 +928,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">260</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">267</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00425">FillSQEvent()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00307">FillSQHitMap()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00359">FillSQHitVector()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00478">FillSQRun()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00519">FillSQSpill()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00459">FillSQEvent()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00314">FillSQHitMap()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00366">FillSQHitVector()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00520">FillSQRun()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00561">FillSQSpill()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1000,11 +965,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">197</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">204</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00116">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00112">_spill_map</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00113">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00110">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_spill_map</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1055,9 +1020,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00297">297</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00304">304</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00478">FillSQRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00520">FillSQRun()</a>.</p>
 
 <p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1095,7 +1060,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00064">64</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00067">67</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -1126,16 +1091,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">68</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">71</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">_event_ids</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00104">_input_server</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00095">_input_shcema</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00094">_password</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00092">_port</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">_query</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00106">_row</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00091">_server_name</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00112">_spill_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00093">_user_name</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00478">FillSQRun()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00519">FillSQSpill()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00260">getInt()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00036">LogError</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00238">makeQueryInput()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00249">nextEntry()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00036">Fun4AllBase::VERBOSITY_QUIET</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00107">_event_ids</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00100">_input_server</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00091">_input_shcema</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00090">_password</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">_port</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00097">_query</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00102">_row</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00110">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00087">_server_name</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_spill_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_user_name</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00520">FillSQRun()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00561">FillSQSpill()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00267">getInt()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00038">LogError</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00245">makeQueryInput()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00256">nextEntry()</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">p_geomSvc</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00036">Fun4AllBase::VERBOSITY_QUIET</a>.</p>
 
 <p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_ab73b7895d9b3e258b58f31b66b93a827_cgraph.svg" width="824" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_ab73b7895d9b3e258b58f31b66b93a827_cgraph.svg" width="824" height="620"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -1163,11 +1129,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">142</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">149</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00116">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00112">_spill_map</a>, <a class="el" href="../../df/d01/PHCompositeNode_8cc_source.html#l00040">PHCompositeNode::addNode()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator::findFirst()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00034">LogInfo</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00113">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00110">_run_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">_spill_map</a>, <a class="el" href="../../df/d01/PHCompositeNode_8cc_source.html#l00040">PHCompositeNode::addNode()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator::findFirst()</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00102">LogInfo</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1210,11 +1176,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00238">238</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00245">245</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00104">_input_server</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">_query</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">_res</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00100">_input_server</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00097">_query</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">_res</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1248,11 +1214,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00249">249</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00256">256</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">_res</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00106">_row</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">_res</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00102">_row</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1290,16 +1256,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">113</a> of file <a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">118</a> of file <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00109">_event</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">_event_ids</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">_hit_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00116">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00104">_input_server</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00425">FillSQEvent()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00307">FillSQHitMap()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00359">FillSQHitVector()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">_event</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00113">_event_header</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00107">_event_ids</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">_hit_container_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">_hit_map</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00084">_hit_type</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">_hit_vector</a>, <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00100">_input_server</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00459">FillSQEvent()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00314">FillSQHitMap()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00366">FillSQHitVector()</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00037">SQEvent::identify()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
 
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_aef5367b1b70eb7b88d513750e78fc872_cgraph.svg" width="624" height="950"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/dda/classReadMySql_aef5367b1b70eb7b88d513750e78fc872_cgraph.svg" width="648" height="1203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -1327,9 +1294,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00068">68</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00064">64</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">_hit_container_type</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">_hit_container_type</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d8c/Fun4ReadMySql_8C_source.html#l00010">Fun4ReadMySql()</a>, and <a class="el" href="../../d6/d4c/Fun4SeaQuest_8C_source.html#l00010">Fun4SeaQuest()</a>.</p>
 
@@ -1366,9 +1333,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00076">76</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00072">72</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">_hit_type</a>.</p>
+<p>References <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00084">_hit_type</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d8c/Fun4ReadMySql_8C_source.html#l00010">Fun4ReadMySql()</a>, and <a class="el" href="../../d6/d4c/Fun4SeaQuest_8C_source.html#l00010">Fun4SeaQuest()</a>.</p>
 
@@ -1402,9 +1369,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00109">109</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">108</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 </div>
 </div>
@@ -1426,9 +1393,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">114</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00113">113</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 </div>
 </div>
@@ -1450,9 +1417,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00108">108</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00107">107</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00039">ReadMySql()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00041">ReadMySql()</a>.</p>
 
 </div>
 </div>
@@ -1474,9 +1441,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">89</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00085">85</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00064">get_hit_container_type()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00068">set_hit_container_type()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00060">get_hit_container_type()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00064">set_hit_container_type()</a>.</p>
 
 </div>
 </div>
@@ -1498,9 +1465,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">115</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00114">114</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 </div>
 </div>
@@ -1522,9 +1489,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">88</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00084">84</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00072">get_hit_type()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00076">set_hit_type()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00068">get_hit_type()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>, and <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00072">set_hit_type()</a>.</p>
 
 </div>
 </div>
@@ -1546,9 +1513,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00116">116</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00115">115</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 </div>
 </div>
@@ -1570,9 +1537,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00104">104</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00100">100</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00238">makeQueryInput()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00113">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00245">makeQueryInput()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00118">process_event()</a>.</p>
 
 </div>
 </div>
@@ -1594,9 +1561,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00095">95</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00091">91</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 </div>
 </div>
@@ -1618,9 +1585,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00090">90</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 </div>
 </div>
@@ -1642,9 +1609,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00092">92</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00088">88</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 </div>
 </div>
@@ -1666,9 +1633,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">101</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00097">97</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00238">makeQueryInput()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00245">makeQueryInput()</a>.</p>
 
 </div>
 </div>
@@ -1690,9 +1657,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">105</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00101">101</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00238">makeQueryInput()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00249">nextEntry()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00245">makeQueryInput()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00256">nextEntry()</a>.</p>
 
 </div>
 </div>
@@ -1714,9 +1681,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00106">106</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00102">102</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00249">nextEntry()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00256">nextEntry()</a>.</p>
 
 </div>
 </div>
@@ -1738,9 +1705,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">111</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00110">110</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>.</p>
 
 </div>
 </div>
@@ -1762,7 +1729,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00097">97</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00093">93</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
 </div>
 </div>
@@ -1784,9 +1751,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00091">91</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00087">87</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 </div>
 </div>
@@ -1808,7 +1775,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00098">98</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00094">94</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
 </div>
 </div>
@@ -1830,9 +1797,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00112">112</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00111">111</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00197">GetNodes()</a>, <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>, and <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00142">MakeNodes()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00204">GetNodes()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00149">MakeNodes()</a>.</p>
 
 </div>
 </div>
@@ -1854,7 +1821,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00096">96</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00092">92</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
 </div>
 </div>
@@ -1876,15 +1843,39 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00093">93</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00089">89</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/d12/ReadMySql_8C_source.html#l00068">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6808eef82ecf3377012665bd90c78590"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* ReadMySql::p_geomSvc</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d9/d40/ReadMySql_8h_source.html#l00105">105</a> of file <a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00366">FillSQHitVector()</a>, and <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00071">InitRun()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/home/yuhw/GitHub/SeaQuest/seaquest-offline/module_example/<a class="el" href="../../d9/d40/ReadMySql_8h_source.html">ReadMySql.h</a></li>
-<li>/home/yuhw/GitHub/SeaQuest/seaquest-offline/module_example/<a class="el" href="../../dd/d12/ReadMySql_8C_source.html">ReadMySql.C</a></li>
+<li>/home/yuhw/GitHub/SeaQuest/seaquest-offline/module_example/<a class="el" href="../../d8/def/ReadMySql_8cxx_source.html">ReadMySql.cxx</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1896,7 +1887,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../db/dda/classReadMySql.html">ReadMySql</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:32</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

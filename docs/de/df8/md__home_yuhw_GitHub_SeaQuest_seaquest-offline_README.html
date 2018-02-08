@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li class="current"><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li><a href="../../files.html"><span>Files</span></a></li>
@@ -94,7 +95,7 @@ $(document).ready(function(){initNavTree('de/df8/md__home_yuhw_GitHub_SeaQuest_s
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -110,26 +111,12 @@ $(document).ready(function(){initNavTree('de/df8/md__home_yuhw_GitHub_SeaQuest_s
 <div class="contents">
 <div class="textblock"><p>A doxygen page of the seaquest-offline is <a href="https://haiwangyu.github.io/seaquest-offline-doc/">here</a> hosted by GitHub Pages.</p>
 <h2>Build</h2>
+<h3>cmake</h3>
+<p>Each package included a "CMakeLists.txt" Using the shell script "build.sh" to build all packages.</p>
+<h3>automake</h3>
 <p>Use <a href="https://www.gnu.org/software/automake/">automake</a>, <a href="https://www.gnu.org/software/autoconf/autoconf.html">autoconf</a> and <a href="https://www.gnu.org/software/libtool/">libtool</a> to build the code. Each package should contain 3 files: 'autogen.sh', 'configure.ac' and 'MakeFile.am'</p>
 <p>``` mkdir [path_to_build] cd [path_to_build] [path_to_package]/autogen.sh &ndash;prefix=[path_to_install] make -j 4 make install ```</p>
-<p>Need to build using the the following order</p>
-<ul>
-<li><b>framework</b>:<ul>
-<li><b>phool</b>: Fun4All IO interface 'NodeTree' and IO manager</li>
-<li><b>ffaobjects</b>: Sync multiple input streams.</li>
-<li><b>fun4all</b>: framework related classes<ul>
-<li><code><a class="el" href="../../d5/dec/classFun4AllBase.html">Fun4AllBase</a></code>: verbosity control</li>
-<li><code><a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></code>: the interface of the Fun4All framework</li>
-<li><code>Fun4AllInputManage</code></li>
-<li><code>Fun4AllOutputManage</code></li>
-<li><code>SubsystemReco</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><b>interface_main</b>: main interface objects</li>
-<li><b>module_example</b>: example modules </li>
-</ul>
+<p>Follow the package order listed in the "build.sh" </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -139,7 +126,7 @@ $(document).ready(function(){initNavTree('de/df8/md__home_yuhw_GitHub_SeaQuest_s
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

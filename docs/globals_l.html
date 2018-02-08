@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Home&#160;page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -93,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.html#index_a"><span>a</span></a></li>
+      <li><a href="globals.html#index__"><span>_</span></a></li>
+      <li><a href="globals_a.html#index_a"><span>a</span></a></li>
       <li><a href="globals_b.html#index_b"><span>b</span></a></li>
       <li><a href="globals_c.html#index_c"><span>c</span></a></li>
       <li><a href="globals_d.html#index_d"><span>d</span></a></li>
@@ -113,6 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_t.html#index_t"><span>t</span></a></li>
       <li><a href="globals_u.html#index_u"><span>u</span></a></li>
       <li><a href="globals_v.html#index_v"><span>v</span></a></li>
+      <li><a href="globals_w.html#index_w"><span>w</span></a></li>
       <li><a href="globals_x.html#index_x"><span>x</span></a></li>
       <li><a href="globals_y.html#index_y"><span>y</span></a></li>
       <li><a href="globals_z.html#index_z"><span>z</span></a></li>
@@ -138,7 +141,7 @@ $(document).ready(function(){initNavTree('globals_l.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -166,27 +169,64 @@ $(document).ready(function(){initNavTree('globals_l.html','');});
 <li>LoadInputRT()
 : <a class="el" href="da/d27/RTCurveMaker_8cxx.html#a3f76c8ab60ec07c5b2793bb113b84f13">RTCurveMaker.cxx</a>
 </li>
+<li>LOCAL_DEBUG
+: <a class="el" href="dd/d7d/Fun4kTracker_8C.html#acaa88f3e37e6e5af2643c4475a8779c7">Fun4kTracker.C</a>
+</li>
+<li>LogDEBUG
+: <a class="el" href="d2/d38/minimumTestPHGenFit_8cc.html#afc5ef35a9b7f7e9727abbfd21f2f090c">minimumTestPHGenFit.cc</a>
+</li>
 <li>LogDebug
-: <a class="el" href="dd/d12/ReadMySql_8C.html#a52279903e10561ef695cee631e3dfa4b">ReadMySql.C</a>
-, <a class="el" href="dd/d2f/SimpleReadMySql_8C.html#a52279903e10561ef695cee631e3dfa4b">SimpleReadMySql.C</a>
-, <a class="el" href="d4/d38/TestAnalyzer_8C.html#a52279903e10561ef695cee631e3dfa4b">TestAnalyzer.C</a>
-, <a class="el" href="d5/ddd/TrackExtrapolator_8hh.html#af60e8ffc327d136e5d0d8441ed98c98d">TrackExtrapolator.hh</a>
+: <a class="el" href="d8/d66/KalmanFastTrackingWrapper_8cxx.html#a52279903e10561ef695cee631e3dfa4b">KalmanFastTrackingWrapper.cxx</a>
+, <a class="el" href="d3/d7c/Tools_8cc.html#a52279903e10561ef695cee631e3dfa4b">Tools.cc</a>
+</li>
+<li>LogDEBUG
+: <a class="el" href="d1/da5/testPHGenFit_8cc.html#afc5ef35a9b7f7e9727abbfd21f2f090c">testPHGenFit.cc</a>
+</li>
+<li>LogDebug
+: <a class="el" href="d7/d95/Track_8cc.html#a52279903e10561ef695cee631e3dfa4b">Track.cc</a>
+</li>
+<li>LogDEBUG
+: <a class="el" href="de/dd4/Fitter_8cc.html#aee295d3a65f1456f265f95c368888908">Fitter.cc</a>
+</li>
+<li>LogDebug
+: <a class="el" href="d5/ddd/TrackExtrapolator_8hh.html#af60e8ffc327d136e5d0d8441ed98c98d">TrackExtrapolator.hh</a>
+, <a class="el" href="d8/def/ReadMySql_8cxx.html#a52279903e10561ef695cee631e3dfa4b">ReadMySql.cxx</a>
+, <a class="el" href="d2/dff/SimpleReadMySql_8cxx.html#a52279903e10561ef695cee631e3dfa4b">SimpleReadMySql.cxx</a>
+, <a class="el" href="d4/def/TestAnalyzer_8cxx.html#a52279903e10561ef695cee631e3dfa4b">TestAnalyzer.cxx</a>
+, <a class="el" href="d1/d32/DetectorConstructionWrapper_8cxx.html#a52279903e10561ef695cee631e3dfa4b">DetectorConstructionWrapper.cxx</a>
 </li>
 <li>LogError
-: <a class="el" href="d4/d38/TestAnalyzer_8C.html#af4231849d7d75726b179a00224d575de">TestAnalyzer.C</a>
-, <a class="el" href="dd/d12/ReadMySql_8C.html#af4231849d7d75726b179a00224d575de">ReadMySql.C</a>
-, <a class="el" href="dd/d2f/SimpleReadMySql_8C.html#af4231849d7d75726b179a00224d575de">SimpleReadMySql.C</a>
+: <a class="el" href="d8/def/ReadMySql_8cxx.html#af4231849d7d75726b179a00224d575de">ReadMySql.cxx</a>
+, <a class="el" href="d2/dff/SimpleReadMySql_8cxx.html#af4231849d7d75726b179a00224d575de">SimpleReadMySql.cxx</a>
+, <a class="el" href="d4/def/TestAnalyzer_8cxx.html#af4231849d7d75726b179a00224d575de">TestAnalyzer.cxx</a>
+, <a class="el" href="d1/d32/DetectorConstructionWrapper_8cxx.html#af4231849d7d75726b179a00224d575de">DetectorConstructionWrapper.cxx</a>
+, <a class="el" href="d7/d95/Track_8cc.html#af4231849d7d75726b179a00224d575de">Track.cc</a>
+, <a class="el" href="d3/d7c/Tools_8cc.html#af4231849d7d75726b179a00224d575de">Tools.cc</a>
+</li>
+<li>LogERROR
+: <a class="el" href="de/dd4/Fitter_8cc.html#ac522845fcb0189463a060cf051b2eadc">Fitter.cc</a>
+</li>
+<li>LogError
+: <a class="el" href="d8/d66/KalmanFastTrackingWrapper_8cxx.html#af4231849d7d75726b179a00224d575de">KalmanFastTrackingWrapper.cxx</a>
 </li>
 <li>LogInfo
-: <a class="el" href="dd/d12/ReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">ReadMySql.C</a>
-, <a class="el" href="dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">GlobalConsts.h</a>
-, <a class="el" href="dd/d2f/SimpleReadMySql_8C.html#a1f19d3981079d5a411ea6bed207aecf6">SimpleReadMySql.C</a>
-, <a class="el" href="d4/d38/TestAnalyzer_8C.html#a1f19d3981079d5a411ea6bed207aecf6">TestAnalyzer.C</a>
+: <a class="el" href="d4/def/TestAnalyzer_8cxx.html#a1f19d3981079d5a411ea6bed207aecf6">TestAnalyzer.cxx</a>
+, <a class="el" href="d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba">GlobalConsts.h</a>
+, <a class="el" href="d2/dff/SimpleReadMySql_8cxx.html#a1f19d3981079d5a411ea6bed207aecf6">SimpleReadMySql.cxx</a>
 </li>
 <li>LogWarning
-: <a class="el" href="dd/d2f/SimpleReadMySql_8C.html#a2ce6a75c28c8c3893d5e83930f546a10">SimpleReadMySql.C</a>
-, <a class="el" href="d4/d38/TestAnalyzer_8C.html#a2ce6a75c28c8c3893d5e83930f546a10">TestAnalyzer.C</a>
-, <a class="el" href="dd/d12/ReadMySql_8C.html#a2ce6a75c28c8c3893d5e83930f546a10">ReadMySql.C</a>
+: <a class="el" href="d8/def/ReadMySql_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">ReadMySql.cxx</a>
+, <a class="el" href="d2/dff/SimpleReadMySql_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">SimpleReadMySql.cxx</a>
+, <a class="el" href="d3/d7c/Tools_8cc.html#a2ce6a75c28c8c3893d5e83930f546a10">Tools.cc</a>
+</li>
+<li>LogWARNING
+: <a class="el" href="de/dd4/Fitter_8cc.html#a7e9bede22c449c281ee967761cb25ff5">Fitter.cc</a>
+</li>
+<li>LogWarning
+: <a class="el" href="d1/d32/DetectorConstructionWrapper_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">DetectorConstructionWrapper.cxx</a>
+, <a class="el" href="d8/d66/KalmanFastTrackingWrapper_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">KalmanFastTrackingWrapper.cxx</a>
+, <a class="el" href="d4/def/TestAnalyzer_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">TestAnalyzer.cxx</a>
+, <a class="el" href="d7/d95/Track_8cc.html#a2ce6a75c28c8c3893d5e83930f546a10">Track.cc</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -198,7 +238,7 @@ $(document).ready(function(){initNavTree('globals_l.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:33</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

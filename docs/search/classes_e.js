@@ -16,6 +16,7 @@ var searchData=
   ['smillepede',['SMillepede',['../d6/dd9/classSMillepede.html',1,'']]],
   ['sp_5fenable_5fif_5fauto_5fptr',['sp_enable_if_auto_ptr',['../de/d4b/structboost_1_1detail_1_1sp__enable__if__auto__ptr.html',1,'boost::detail']]],
   ['sp_5fenable_5fif_5fauto_5fptr_3c_20std_3a_3aauto_5fptr_3c_20t_20_3e_2c_20r_20_3e',['sp_enable_if_auto_ptr&lt; std::auto_ptr&lt; T &gt;, R &gt;',['../db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html',1,'boost::detail']]],
+  ['spacepointmeasurement',['SpacepointMeasurement',['../d6/dc8/classPHGenFit_1_1SpacepointMeasurement.html',1,'PHGenFit']]],
   ['sqevent',['SQEvent',['../d9/dd7/classSQEvent.html',1,'']]],
   ['sqevent_5fv1',['SQEvent_v1',['../dd/d59/classSQEvent__v1.html',1,'']]],
   ['sqhit',['SQHit',['../de/d79/classSQHit.html',1,'']]],

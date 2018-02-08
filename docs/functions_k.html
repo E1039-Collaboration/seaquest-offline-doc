@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Home&#160;page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
@@ -145,7 +146,7 @@ $(document).ready(function(){initNavTree('functions_k.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -161,11 +162,18 @@ $(document).ready(function(){initNavTree('functions_k.html','');});
 <li>KalmanFastTracking()
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a65f9b0ddbed3306a180c539931e8afe8">KalmanFastTracking</a>
 </li>
+<li>KalmanFastTrackingWrapper()
+: <a class="el" href="d4/dff/classKalmanFastTrackingWrapper.html#ac1ad8105ced8bc4e720b61ab355aaec6">KalmanFastTrackingWrapper</a>
+</li>
 <li>KalmanFilter()
 : <a class="el" href="d6/d2a/classKalmanFilter.html#ae44df2d206d9c7a7083b1a0313f20a73">KalmanFilter</a>
 </li>
 <li>KalmanFitter()
 : <a class="el" href="d3/dc9/classKalmanFitter.html#acc2379b49691ffa0476bd56bb7587f62">KalmanFitter</a>
+, <a class="el" href="d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9a746ff422782c364d5002f28b1f8d7358">PHGenFit::Fitter</a>
+</li>
+<li>KalmanFitterRefTrack
+: <a class="el" href="d1/d35/classPHGenFit_1_1Fitter.html#a62602ffe923f84f510bbc6d3709cb7c9ab2da9d941a03eb1d7f14de88b544bb78">PHGenFit::Fitter</a>
 </li>
 <li>KalmanTrack()
 : <a class="el" href="d9/dc3/classKalmanTrack.html#af94772dd289f96de9888b5e705b4c48b">KalmanTrack</a>
@@ -175,6 +183,21 @@ $(document).ready(function(){initNavTree('functions_k.html','');});
 </li>
 <li>KeepDBConnection()
 : <a class="el" href="da/d29/classFun4AllServer.html#ad140d3adf05e96b8d1de3791abc8efce">Fun4AllServer</a>
+</li>
+<li>kField2D
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a91259f1191e4ae89a21c9a63d1bcaacb">PHFieldConfig</a>
+</li>
+<li>kField3DCylindrical
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1aad039735ffe64bcfef45593e2b078bd4">PHFieldConfig</a>
+</li>
+<li>kFieldInvalid
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1af25a4b12c7c7e61b722e2925be97d0fc">PHFieldConfig</a>
+</li>
+<li>kFieldUniform
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a1cd1c4480988f0f6fc769df5bf993599">PHFieldConfig</a>
+</li>
+<li>kInvalid_FileName
+: <a class="el" href="d9/d8c/classPHFieldConfig.html#af5855af958d94cea44ce3e0948606520">PHFieldConfig</a>
 </li>
 <li>kmag_on
 : <a class="el" href="d2/d26/classTracklet.html#a234b09894f7a169285d570be0b4d46aa">Tracklet</a>
@@ -186,7 +209,7 @@ $(document).ready(function(){initNavTree('functions_k.html','');});
 : <a class="el" href="df/d9a/classSettings.html#a6489e442de562a4bcc0b2fb9b1023121">Settings</a>
 </li>
 <li>kmfitter
-: <a class="el" href="d3/d46/classKalmanFastTracking.html#a80aa471ebbcb0f714282e78793928ccc">KalmanFastTracking</a>
+: <a class="el" href="d3/d46/classKalmanFastTracking.html#a56dce28d26bda8114422593d38f46e33">KalmanFastTracking</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -198,7 +221,7 @@ $(document).ready(function(){initNavTree('functions_k.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:33</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

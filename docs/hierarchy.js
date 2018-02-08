@@ -1,5 +1,8 @@
 var hierarchy =
 [
+    [ "AbsBField", null, [
+      [ "genfit::Field", "dc/dc5/classgenfit_1_1Field.html", null ]
+    ] ],
     [ "boost::array< T, N >", "d1/d96/classboost_1_1array.html", null ],
     [ "boost::array< T, 0 >", "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html", null ],
     [ "boost::detail::const_cast_tag", "d8/d01/structboost_1_1detail_1_1const__cast__tag.html", null ],
@@ -17,6 +20,7 @@ var hierarchy =
     [ "FCNBase", null, [
       [ "AnaFit", "df/df9/classAnaFit.html", null ]
     ] ],
+    [ "PHGenFit::Fitter", "d1/d35/classPHGenFit_1_1Fitter.html", null ],
     [ "PHTimer::Frequency", "d2/db1/classPHTimer_1_1Frequency.html", null ],
     [ "Fun4AllBase", "d5/dec/classFun4AllBase.html", [
       [ "Fun4AllEventOutStream", "dc/dab/classFun4AllEventOutStream.html", [
@@ -40,6 +44,9 @@ var hierarchy =
       [ "Fun4AllServer", "da/d29/classFun4AllServer.html", null ],
       [ "Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html", null ],
       [ "SubsysReco", "d0/d32/classSubsysReco.html", [
+        [ "DetectorConstructionWrapper", "d0/dbd/classDetectorConstructionWrapper.html", null ],
+        [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html", null ],
+        [ "PHGeomFileImport", "de/d0f/classPHGeomFileImport.html", null ],
         [ "ReadMySql", "db/dda/classReadMySql.html", null ],
         [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ],
         [ "TestAnalyzer", "da/da5/classTestAnalyzer.html", null ]
@@ -47,20 +54,26 @@ var hierarchy =
     ] ],
     [ "G4MagneticField", null, [
       [ "Field", "d7/d24/classField.html", null ],
+      [ "Field", "d7/d24/classField.html", null ],
+      [ "TabulatedField3D", "d6/dd1/classTabulatedField3D.html", null ],
       [ "TabulatedField3D", "d6/dd1/classTabulatedField3D.html", null ]
     ] ],
     [ "G4VHit", null, [
+      [ "MCHit", "dd/da5/classMCHit.html", null ],
       [ "MCHit", "dd/da5/classMCHit.html", null ]
     ] ],
     [ "G4VSensitiveDetector", null, [
+      [ "GenericSD", "d4/d82/classGenericSD.html", null ],
       [ "GenericSD", "d4/d82/classGenericSD.html", null ]
     ] ],
     [ "G4VUserDetectorConstruction", null, [
+      [ "DetectorConstruction", "dc/d5b/classDetectorConstruction.html", null ],
       [ "DetectorConstruction", "dc/d5b/classDetectorConstruction.html", null ]
     ] ],
     [ "G4VUserPhysicsList", null, [
       [ "TPhysicsList", "dd/df5/classTPhysicsList.html", null ]
     ] ],
+    [ "GenFitExtrapolator", "d1/d3d/classGenFitExtrapolator.html", null ],
     [ "GeomSvc", "d0/da0/classGeomSvc.html", null ],
     [ "boost::hash< T >", "d4/d27/structboost_1_1hash.html", null ],
     [ "seaquest::Hit", "d1/d7b/classseaquest_1_1Hit.html", null ],
@@ -71,11 +84,17 @@ var hierarchy =
     [ "KalmanFilter", "d6/d2a/classKalmanFilter.html", null ],
     [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", null ],
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html", null ],
+    [ "PHGenFit::Measurement", "d4/db3/classPHGenFit_1_1Measurement.html", [
+      [ "PHGenFit::PlanarMeasurement", "db/db1/classPHGenFit_1_1PlanarMeasurement.html", null ],
+      [ "PHGenFit::SpacepointMeasurement", "d6/dc8/classPHGenFit_1_1SpacepointMeasurement.html", null ]
+    ] ],
     [ "MySQLSvc", "dc/dd3/classMySQLSvc.html", null ],
     [ "Node", "df/dd0/classNode.html", null ],
+    [ "PHFieldUtility", "df/d4d/classPHFieldUtility.html", null ],
     [ "PHFlag", "d1/da8/classPHFlag.html", [
       [ "recoConsts", "d8/d14/classrecoConsts.html", null ]
     ] ],
+    [ "PHGeomUtility", "d2/da1/classPHGeomUtility.html", null ],
     [ "PHIOManager", "d0/d36/classPHIOManager.html", [
       [ "PHNodeIOManager", "d7/d4d/classPHNodeIOManager.html", null ]
     ] ],
@@ -96,7 +115,6 @@ var hierarchy =
     [ "PHPointerList< T >", "d6/d86/classPHPointerList.html", null ],
     [ "PHPointerList< PHNode >", "d6/d86/classPHPointerList.html", null ],
     [ "PHPointerListIterator< T >", "d9/db3/classPHPointerListIterator.html", null ],
-    [ "PHRandomSeed", "dd/d1f/classPHRandomSeed.html", null ],
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
@@ -123,6 +141,7 @@ var hierarchy =
     [ "PHDataNode< T >::tobjcast", "dc/dd3/unionPHDataNode_1_1tobjcast.html", null ],
     [ "TObject", null, [
       [ "Hit", "d0/d88/classHit.html", null ],
+      [ "Hit", "d0/d88/classHit.html", null ],
       [ "MPNode", "d6/d5d/classMPNode.html", null ],
       [ "PHObject", "d9/d24/classPHObject.html", [
         [ "EventHeader", "d8/db2/classEventHeader.html", [
@@ -131,10 +150,20 @@ var hierarchy =
         [ "FlagSave", "d3/da3/classFlagSave.html", [
           [ "FlagSavev1", "da/db3/classFlagSavev1.html", null ]
         ] ],
-        [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html", null ],
-        [ "RunHeader", "df/d35/classRunHeader.html", [
-          [ "RunHeaderv1", "d4/d0f/classRunHeaderv1.html", null ]
+        [ "PHField", "da/ddc/classPHField.html", [
+          [ "PHField2D", "db/d49/classPHField2D.html", null ],
+          [ "PHField3DCartesian", "d0/dc2/classPHField3DCartesian.html", null ],
+          [ "PHField3DCylindrical", "d5/dc1/classPHField3DCylindrical.html", null ],
+          [ "PHFieldUniform", "d3/dec/classPHFieldUniform.html", null ]
         ] ],
+        [ "PHFieldConfig", "d9/d8c/classPHFieldConfig.html", [
+          [ "PHFieldConfig_v1", "d5/d59/classPHFieldConfig__v1.html", null ],
+          [ "PHFieldConfig_v2", "de/de9/classPHFieldConfig__v2.html", null ]
+        ] ],
+        [ "PHGeomIOTGeo", "de/de3/classPHGeomIOTGeo.html", null ],
+        [ "PHGeomTGeo", "d7/d6d/classPHGeomTGeo.html", null ],
+        [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html", null ],
+        [ "RunHeader", "df/d35/classRunHeader.html", null ],
         [ "SQEvent", "d9/dd7/classSQEvent.html", [
           [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ]
         ] ],
@@ -166,16 +195,26 @@ var hierarchy =
         [ "SyncObject", "de/dbb/classSyncObject.html", null ]
       ] ],
       [ "PropSegment", "d0/d1e/classPropSegment.html", null ],
+      [ "PropSegment", "d0/d1e/classPropSegment.html", null ],
+      [ "SignedHit", "de/d45/classSignedHit.html", null ],
       [ "SignedHit", "de/d45/classSignedHit.html", null ],
       [ "SRawEvent", "d5/d83/classSRawEvent.html", [
+        [ "SRawMCEvent", "d6/dac/classSRawMCEvent.html", null ],
         [ "SRawMCEvent", "d6/dac/classSRawMCEvent.html", null ]
       ] ],
+      [ "SRawEvent", "d5/d83/classSRawEvent.html", null ],
+      [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
       [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
       [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
+      [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
+      [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],
       [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],
       [ "Tracklet", "d2/d26/classTracklet.html", null ],
+      [ "Tracklet", "d2/d26/classTracklet.html", null ],
+      [ "TriggerRoad", "d5/d72/classTriggerRoad.html", null ],
       [ "TriggerRoad", "d5/d72/classTriggerRoad.html", null ]
     ] ],
+    [ "PHGenFit::Track", "d7/dd5/classPHGenFit_1_1Track.html", null ],
     [ "TrackExtrapolator", "d4/dfd/classTrackExtrapolator.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],

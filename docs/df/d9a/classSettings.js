@@ -1,6 +1,7 @@
 var classSettings =
 [
     [ "Settings", "df/d9a/classSettings.html#ab7169a6eefce79566dd07db3b1e5e967", null ],
+    [ "Settings", "df/d9a/classSettings.html#ab7169a6eefce79566dd07db3b1e5e967", null ],
     [ "asciiFieldMap", "df/d9a/classSettings.html#a40aec4487c04ff25418418ca255c80f7", null ],
     [ "beamCurrent", "df/d9a/classSettings.html#a16f67a9e8a88c5a3c770fb4fdf2f280f", null ],
     [ "beamMomentum", "df/d9a/classSettings.html#a6852cb6a5cd007fe14179e93d4f8fc23", null ],

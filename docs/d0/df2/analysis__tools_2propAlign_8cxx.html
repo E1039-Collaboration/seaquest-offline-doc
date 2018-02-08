@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -100,7 +101,7 @@ $(document).ready(function(){initNavTree('d0/df2/analysis__tools_2propAlign_8cxx
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -137,16 +138,17 @@ $(document).ready(function(){initNavTree('d0/df2/analysis__tools_2propAlign_8cxx
 <code>#include &lt;TArrow.h&gt;</code><br/>
 <code>#include &lt;TPaveText.h&gt;</code><br/>
 <code>#include &lt;TF1.h&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/dda/SRawEvent_8h_source.html">SRawEvent.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dc/d06/FastTracklet_8h_source.html">FastTracklet.h</a>&quot;</code><br/>
+<code>#include &quot;GeomSvc.h&quot;</code><br/>
+<code>#include &quot;SRawEvent.h&quot;</code><br/>
+<code>#include &quot;SRecEvent.h&quot;</code><br/>
+<code>#include &quot;FastTracklet.h&quot;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for propAlign.cxx:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d39/analysis__tools_2propAlign_8cxx__incl.svg" width="2188" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d39/analysis__tools_2propAlign_8cxx__incl.svg" width="2564" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="../../d0/df2/analysis__tools_2propAlign_8cxx_source.html">Go to the source code of this file.</a></p>
@@ -239,14 +241,15 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/df2/analysis__tools_2propAlign_8cxx_source.html#l00068">68</a> of file <a class="el" href="../../d0/df2/analysis__tools_2propAlign_8cxx_source.html">propAlign.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d1/d0b/SRawEvent_8cxx_source.html#l00578">SRawEvent::clear()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">dataFile</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00032">dataTree</a>, <a class="el" href="../../d5/d3a/alignment_2tools_2propAlign_8cxx_source.html#l00033">findCenter()</a>, <a class="el" href="../../dd/d3a/convertRT_8py_source.html#l00060">convertRT::fout</a>, <a class="el" href="../../db/dda/SRawEvent_8h_source.html#l00124">SRawEvent::getAllHits()</a>, <a class="el" href="../../dc/d06/FastTracklet_8h_source.html#l00135">Tracklet::getChisq()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00135">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00514">Tracklet::getExpPositionX()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00549">Tracklet::getExpPositionY()</a>, <a class="el" href="../../d1/d0b/SRawEvent_8cxx_source.html#l00160">SRawEvent::getHitsIndexInDetector()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00518">GeomSvc::getMeasurement()</a>, <a class="el" href="../../dc/d06/FastTracklet_8h_source.html#l00123">Tracklet::getNHits()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00140">GeomSvc::getPlanePosition()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00141">GeomSvc::getPlaneSpacing()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00160">GeomSvc::getPlaneWOffset()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00189">GeomSvc::getUinStereoPlane()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00203">GeomSvc::init()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00489">GeomSvc::isInPlane()</a>, <a class="el" href="../../d5/d3a/alignment_2tools_2propAlign_8cxx_source.html#l00047">linearFit()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00044">p_geomSvc</a>, and <a class="el" href="../../d1/d0b/SRawEvent_8cxx_source.html#l00533">SRawEvent::reIndex()</a>.</p>
+<p>References <a class="el" href="../../d2/d9e/seaquest-ktracker_2src_2SRawEvent_8cxx_source.html#l00578">SRawEvent::clear()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00031">dataFile</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00032">dataTree</a>, <a class="el" href="../../d5/d3a/alignment_2tools_2propAlign_8cxx_source.html#l00033">findCenter()</a>, <a class="el" href="../../dd/d3a/convertRT_8py_source.html#l00060">convertRT::fout</a>, <a class="el" href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00124">SRawEvent::getAllHits()</a>, <a class="el" href="../../d7/ddc/seaquest-ktracker_2inc_2FastTracklet_8h_source.html#l00135">Tracklet::getChisq()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00135">GeomSvc::getDetectorName()</a>, <a class="el" href="../../dc/d14/seaquest-ktracker_2src_2FastTracklet_8cxx_source.html#l00514">Tracklet::getExpPositionX()</a>, <a class="el" href="../../dc/d14/seaquest-ktracker_2src_2FastTracklet_8cxx_source.html#l00549">Tracklet::getExpPositionY()</a>, <a class="el" href="../../d2/d9e/seaquest-ktracker_2src_2SRawEvent_8cxx_source.html#l00160">SRawEvent::getHitsIndexInDetector()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00518">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d7/ddc/seaquest-ktracker_2inc_2FastTracklet_8h_source.html#l00123">Tracklet::getNHits()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00140">GeomSvc::getPlanePosition()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00141">GeomSvc::getPlaneSpacing()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00160">GeomSvc::getPlaneWOffset()</a>, <a class="el" href="../../d9/dcb/seaquest-ktracker_2inc_2GeomSvc_8h_source.html#l00189">GeomSvc::getUinStereoPlane()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00203">GeomSvc::init()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00175">GeomSvc::instance()</a>, <a class="el" href="../../dd/dc2/seaquest-ktracker_2src_2GeomSvc_8cxx_source.html#l00489">GeomSvc::isInPlane()</a>, <a class="el" href="../../d5/d3a/alignment_2tools_2propAlign_8cxx_source.html#l00047">linearFit()</a>, <a class="el" href="../../da/d27/RTCurveMaker_8cxx_source.html#l00044">p_geomSvc</a>, and <a class="el" href="../../d2/d9e/seaquest-ktracker_2src_2SRawEvent_8cxx_source.html#l00533">SRawEvent::reIndex()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/df2/analysis__tools_2propAlign_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="944" height="1016"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/df2/analysis__tools_2propAlign_8cxx_a0ddf1224851353fc92bfbff6f499fa97_cgraph.svg" width="944" height="1016"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -262,7 +265,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_d8ce636ec48b022325898e60a395e76e.html">analysis_tools</a></li><li class="navelem"><a class="el" href="../../d0/df2/analysis__tools_2propAlign_8cxx.html">propAlign.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -44,5 +44,6 @@ var classReadMySql =
     [ "_spill_id", "db/dda/classReadMySql.html#a0f18411ce0950d3a8d5a98315e00ed30", null ],
     [ "_spill_map", "db/dda/classReadMySql.html#a42b63eacb7c9433bb69671851071fff1", null ],
     [ "_table_name", "db/dda/classReadMySql.html#a73c50cf3f376b91cd4af20ce24bc6edf", null ],
-    [ "_user_name", "db/dda/classReadMySql.html#a4d3f9e7056161476645f065a21e63e3a", null ]
+    [ "_user_name", "db/dda/classReadMySql.html#a4d3f9e7056161476645f065a21e63e3a", null ],
+    [ "p_geomSvc", "db/dda/classReadMySql.html#a6808eef82ecf3377012665bd90c78590", null ]
 ];

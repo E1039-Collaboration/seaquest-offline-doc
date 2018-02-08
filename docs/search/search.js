@@ -14,11 +14,12 @@ var indexSectionsWithContent =
   4: "_abcdefghijklmnoprstuvwz~",
   5: "_abcdefghijklmnopqrstuvwxyz",
   6: "_cdehilmprstv",
-  7: "ehpst",
-  8: "abcdehilmnprstv",
+  7: "efhpst",
+  8: "abcdefhiklmnprstv",
   9: "defopsw",
-  10: "befhiklmnprstuvxyz",
-  11: "afi"
+  10: "_befhiklmnprstuvwxyz",
+  11: "g",
+  12: "afipr"
 };
 
 var indexSectionNames =
@@ -34,7 +35,8 @@ var indexSectionNames =
   8: "enumvalues",
   9: "related",
   10: "defines",
-  11: "pages"
+  11: "groups",
+  12: "pages"
 };
 
 function convertToId(search)

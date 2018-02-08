@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['eloss_5fabsorber',['ELOSS_ABSORBER',['../dd/de2/GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb',1,'GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp0',['ELOSS_FMAG_P0',['../dd/de2/GlobalConsts_8h.html#a09abb3a6e235f6d8044f1a162e4bbe6c',1,'GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp1',['ELOSS_FMAG_P1',['../dd/de2/GlobalConsts_8h.html#ac4ff4952d71ff06f59dd47e30f37e2ff',1,'GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp2',['ELOSS_FMAG_P2',['../dd/de2/GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28',1,'GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp3',['ELOSS_FMAG_P3',['../dd/de2/GlobalConsts_8h.html#a57a7fd7b1fbfd3a049cbf5070bd30519',1,'GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp4',['ELOSS_FMAG_P4',['../dd/de2/GlobalConsts_8h.html#a48a3c169072aa5da2acbe620fc9b6705',1,'GlobalConsts.h']]],
-  ['eloss_5fkfmag',['ELOSS_KFMAG',['../dd/de2/GlobalConsts_8h.html#a0b0ad479a6d403eb326636163cfc5e75',1,'GlobalConsts.h']]],
-  ['enable_5frefit',['ENABLE_REFIT',['../de/d50/SMillepede_8cxx.html#a52bb046c2e3441aa9c68c6e82f5680a1',1,'SMillepede.cxx']]]
+  ['beam_5fspot_5fx',['BEAM_SPOT_X',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#afecee686111b2302bc19ed59cfb608f1',1,'BEAM_SPOT_X():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#afecee686111b2302bc19ed59cfb608f1',1,'BEAM_SPOT_X():&#160;GlobalConsts.h']]],
+  ['beam_5fspot_5fy',['BEAM_SPOT_Y',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ab73d474a1c1d8072ebe4eef222edd753',1,'BEAM_SPOT_Y():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ab73d474a1c1d8072ebe4eef222edd753',1,'BEAM_SPOT_Y():&#160;GlobalConsts.h']]]
 ];

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Home&#160;page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="modules.html"><span>Modules</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
@@ -93,7 +94,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.html#index_a"><span>a</span></a></li>
+      <li><a href="globals.html#index__"><span>_</span></a></li>
+      <li><a href="globals_a.html#index_a"><span>a</span></a></li>
       <li><a href="globals_b.html#index_b"><span>b</span></a></li>
       <li><a href="globals_c.html#index_c"><span>c</span></a></li>
       <li><a href="globals_d.html#index_d"><span>d</span></a></li>
@@ -113,6 +115,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_t.html#index_t"><span>t</span></a></li>
       <li><a href="globals_u.html#index_u"><span>u</span></a></li>
       <li><a href="globals_v.html#index_v"><span>v</span></a></li>
+      <li><a href="globals_w.html#index_w"><span>w</span></a></li>
       <li><a href="globals_x.html#index_x"><span>x</span></a></li>
       <li><a href="globals_y.html#index_y"><span>y</span></a></li>
       <li><a href="globals_z.html#index_z"><span>z</span></a></li>
@@ -138,7 +141,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -165,55 +168,58 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d7/de7/hodoEfficiency_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">hodoEfficiency.cxx</a>
 , <a class="el" href="db/dee/triggerAna_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">triggerAna.cxx</a>
 , <a class="el" href="dd/d4d/triggerAna__online_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">triggerAna_online.cxx</a>
-, <a class="el" href="d3/dd8/sqlResWriter_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlResWriter.cxx</a>
-, <a class="el" href="d4/d07/sqlMCReader_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlMCReader.cxx</a>
-, <a class="el" href="d5/d18/sqlDataReader_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlDataReader.cxx</a>
-, <a class="el" href="da/d27/RTCurveMaker_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">RTCurveMaker.cxx</a>
-, <a class="el" href="d3/d33/milleAlign_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">milleAlign.cxx</a>
 , <a class="el" href="d1/d78/hodoEfficiency__plot_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">hodoEfficiency_plot.cxx</a>
 , <a class="el" href="d9/da4/kFastTracking_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">kFastTracking.cxx</a>
 , <a class="el" href="d5/df7/kVertex_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">kVertex.cxx</a>
 , <a class="el" href="d5/d3a/alignment_2tools_2propAlign_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">propAlign.cxx</a>
 , <a class="el" href="d8/d86/eventMerger_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">eventMerger.cxx</a>
 , <a class="el" href="d3/d15/hodoTracking_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">hodoTracking.cxx</a>
+, <a class="el" href="d3/d33/milleAlign_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">milleAlign.cxx</a>
+, <a class="el" href="da/d27/RTCurveMaker_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">RTCurveMaker.cxx</a>
 , <a class="el" href="d7/d46/analysis__tools_2makeRTProfile_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">makeRTProfile.cxx</a>
+, <a class="el" href="d5/d18/sqlDataReader_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlDataReader.cxx</a>
+, <a class="el" href="d4/d07/sqlMCReader_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlMCReader.cxx</a>
+, <a class="el" href="d1/da5/testPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">testPHGenFit.cc</a>
+, <a class="el" href="d2/d38/minimumTestPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">minimumTestPHGenFit.cc</a>
 , <a class="el" href="da/dbb/eventMixer_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">eventMixer.cxx</a>
 , <a class="el" href="d0/df2/analysis__tools_2propAlign_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">propAlign.cxx</a>
+, <a class="el" href="d3/dd8/sqlResWriter_8cxx.html#a3c04138a5bfe5d72780bb7e82a18e627">sqlResWriter.cxx</a>
 , <a class="el" href="d8/d6b/QAPlots_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97">QAPlots.cxx</a>
 </li>
 <li>MaxQueryLen
 : <a class="el" href="d0/d9f/MySQLSvc_8cxx.html#af4133fabf621d0484dddd0ef4dfae3f1">MySQLSvc.cxx</a>
 </li>
 <li>MCHitAllocator
-: <a class="el" href="dc/dc9/MCHit_8cc.html#aeab239e14cc4015233d1c697c62c647e">MCHit.cc</a>
-, <a class="el" href="d3/d13/MCHit_8hh.html#aeab239e14cc4015233d1c697c62c647e">MCHit.hh</a>
+: <a class="el" href="d3/d6a/seaquest-ktracker_2inc_2MCHit_8hh.html#aeab239e14cc4015233d1c697c62c647e">MCHit.hh</a>
+, <a class="el" href="df/d5a/seaquest-ktracker_2src_2MCHit_8cc.html#aeab239e14cc4015233d1c697c62c647e">MCHit.cc</a>
+, <a class="el" href="d6/d03/seaquest-offline_2packages_2db2g4_2MCHit_8hh.html#aeab239e14cc4015233d1c697c62c647e">MCHit.hh</a>
 </li>
 <li>MCHitsCollection
-: <a class="el" href="d3/d13/MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHit.hh</a>
+: <a class="el" href="d3/d6a/seaquest-ktracker_2inc_2MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHit.hh</a>
 </li>
 <li>MERGE_THRES
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#ad3446a6a52bd11a25f63353f6086b1bb">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ad3446a6a52bd11a25f63353f6086b1bb">GlobalConsts.h</a>
 </li>
 <li>MUID_EMP_P0
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#acec5347dbc4f7e55b2fd77186d8afe1b">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#acec5347dbc4f7e55b2fd77186d8afe1b">GlobalConsts.h</a>
 </li>
 <li>MUID_EMP_P1
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#a6a8a8afa30e46e6686c8118d72109050">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a6a8a8afa30e46e6686c8118d72109050">GlobalConsts.h</a>
 </li>
 <li>MUID_EMP_P2
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#ac524c7e32d14d4c1b9996b705292b5cc">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ac524c7e32d14d4c1b9996b705292b5cc">GlobalConsts.h</a>
 </li>
 <li>MUID_R_CUT
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#a1e8d669570f816873022b69730d6735b">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a1e8d669570f816873022b69730d6735b">GlobalConsts.h</a>
 </li>
 <li>MUID_REJECT
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#a557b750fd5ec806395323d7178d0002c">GlobalConsts.h</a>
+: <a class="el" href="d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a557b750fd5ec806395323d7178d0002c">GlobalConsts.h</a>
 </li>
 <li>MUID_THE_P0
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#a6ce5f375a367ffcb7a3c11d6203c0f6a">GlobalConsts.h</a>
+: <a class="el" href="d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a6ce5f375a367ffcb7a3c11d6203c0f6a">GlobalConsts.h</a>
 </li>
 <li>MUID_Z_REF
-: <a class="el" href="dd/de2/GlobalConsts_8h.html#a9f9e9ee0bd1b405cb7571c749b416743">GlobalConsts.h</a>
+: <a class="el" href="d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a9f9e9ee0bd1b405cb7571c749b416743">GlobalConsts.h</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -225,7 +231,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:33</em> using <a
+			updated: <em>Thu Feb 8 2018 11:32:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

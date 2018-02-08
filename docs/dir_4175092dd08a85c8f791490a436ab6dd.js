@@ -21,10 +21,6 @@ var dir_4175092dd08a85c8f791490a436ab6dd =
     [ "RunHeader.h", "da/d61/RunHeader_8h.html", [
       [ "RunHeader", "df/d35/classRunHeader.html", "df/d35/classRunHeader" ]
     ] ],
-    [ "RunHeaderv1.cc", "d2/d6e/RunHeaderv1_8cc.html", null ],
-    [ "RunHeaderv1.h", "db/dca/RunHeaderv1_8h.html", [
-      [ "RunHeaderv1", "d4/d0f/classRunHeaderv1.html", "d4/d0f/classRunHeaderv1" ]
-    ] ],
     [ "SyncDefs.h", "d5/d94/SyncDefs_8h.html", "d5/d94/SyncDefs_8h" ],
     [ "SyncObject.cc", "d0/d24/ffaobjects_2SyncObject_8cc.html", null ],
     [ "SyncObject.h", "da/de1/ffaobjects_2SyncObject_8h.html", [

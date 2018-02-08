@@ -1,6 +1,8 @@
 var searchData=
 [
+  ['field',['Field',['../dc/dc5/classgenfit_1_1Field.html',1,'genfit']]],
   ['field',['Field',['../d7/d24/classField.html',1,'']]],
+  ['fitter',['Fitter',['../d1/d35/classPHGenFit_1_1Fitter.html',1,'PHGenFit']]],
   ['flagsave',['FlagSave',['../d3/da3/classFlagSave.html',1,'']]],
   ['flagsavev1',['FlagSavev1',['../da/db3/classFlagSavev1.html',1,'']]],
   ['frequency',['Frequency',['../d2/db1/classPHTimer_1_1Frequency.html',1,'PHTimer']]],
