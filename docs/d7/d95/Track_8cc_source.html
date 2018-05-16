@@ -242,7 +242,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        genfit::AbsTrackRep* rep = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        genfit::TrackPoint* tp = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getPointWithMeasurementAndFitterInfo(</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                        tr_point_id, rep);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span> (tp == NULL) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span> (tp == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                std::cout &lt;&lt; <span class="stringliteral">&quot;Track has no TrackPoint with fitterInfo! \n&quot;</span>;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordtype">double</span> pathlenth = this-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a3214ff547c5fd73c0868cc6c4d98eba4">extrapolateToPlane</a>(*state, O, n, tr_point_id);</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span>(pathlenth &lt;= <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>) {</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="keyword">delete</span> state;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        }</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">return</span> state;</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        genfit::AbsTrackRep* rep = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        genfit::TrackPoint* tp = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getPointWithMeasurementAndFitterInfo(</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                        tr_point_id, rep);</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (tp == NULL) {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (tp == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                std::cout &lt;&lt; <span class="stringliteral">&quot;Track has no TrackPoint with fitterInfo! \n&quot;</span>;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        }</div>
@@ -313,7 +313,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordtype">double</span> pathlenth = this-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a6f76c826b833ece6e3ebc05ef3449da6">extrapolateToLine</a>(*state, line_point, line_direction, tr_point_id);</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">if</span>(pathlenth &lt;= <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>) {</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                <span class="keyword">delete</span> state;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        }</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                <span class="keywordflow">return</span> state;</div>
@@ -343,13 +343,13 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment">//      }</span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordtype">bool</span> have_tp_with_fit_info = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        std::unique_ptr&lt;genfit::MeasuredStateOnPlane&gt; kfsop = NULL;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        std::unique_ptr&lt;genfit::MeasuredStateOnPlane&gt; kfsop = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getNumPointsWithMeasurement() &gt; 0) {</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="preprocessor">#ifdef _DEBUG_</span></div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor"></span><span class="comment">//              std::cout&lt;&lt;__LINE__ &lt;&lt;std::endl;</span></div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span>                genfit::TrackPoint* tp = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getPointWithMeasurement(tr_point_id);</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordflow">if</span> (tp == NULL) {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordflow">if</span> (tp == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                        <a class="code" href="../../d7/d95/Track_8cc.html#af4231849d7d75726b179a00224d575de">LogError</a>(<span class="stringliteral">&quot;tp == NULL!&quot;</span>);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                        <span class="keywordflow">return</span> <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                }</div>
@@ -415,7 +415,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        <span class="keywordtype">double</span> pathlenth = this-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#a16bf468dcc101f90e7e220aed9ba39d0">extrapolateToCylinder</a>(*state, radius, line_point, line_direction, tr_point_id, direction);</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">if</span>(pathlenth &lt;= <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>) {</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <span class="keyword">delete</span> state;</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <span class="keywordflow">return</span> state;</div>
@@ -443,7 +443,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d4/db3/classPHGenFit_1_1Measurement.html">PHGenFit::Measurement</a>* measurement : measurements) {</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                std::shared_ptr&lt;PHGenFit::Track&gt; new_track = NULL;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                std::shared_ptr&lt;PHGenFit::Track&gt; new_track = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                new_track = std::shared_ptr&lt;PHGenFit::Track&gt; (<span class="keyword">new</span> <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html">PHGenFit::Track</a>(*<span class="keyword">this</span>));</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
@@ -456,9 +456,9 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                genfit::AbsTrackRep* rep = track-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                <span class="keywordtype">bool</span> newFi(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                genfit::TrackPoint *tp_base = NULL;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                std::unique_ptr&lt;genfit::MeasuredStateOnPlane&gt; currentState = NULL;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                genfit::SharedPlanePtr plane = NULL;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                genfit::TrackPoint *tp_base = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                std::unique_ptr&lt;genfit::MeasuredStateOnPlane&gt; currentState = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                genfit::SharedPlanePtr plane = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keywordflow">if</span>(track-&gt;getNumPointsWithMeasurement() &gt; 0) {</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                        tp_base = track-&gt;getPointWithMeasurement(base_tp_idx);</div>
@@ -753,7 +753,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        genfit::AbsTrackRep* rep = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;        genfit::TrackPoint* tp = <a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aac1cc8fe71272f071991d1e409029206">_track</a>-&gt;getPointWithMeasurementAndFitterInfo(</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                        tr_point_id, rep);</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        <span class="keywordflow">if</span> (tp == NULL) {</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        <span class="keywordflow">if</span> (tp == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) {</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                std::cout &lt;&lt; <span class="stringliteral">&quot;Track has no TrackPoint with fitterInfo! \n&quot;</span>;</div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>;</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        }</div>
@@ -782,7 +782,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        <span class="keywordtype">double</span> pathlenth = this-&gt;<a class="code" href="../../d7/dd5/classPHGenFit_1_1Track.html#aef307f229a5d006bbf28c3dc58e726ba">extrapolateToPoint</a>(*state, P, tr_point_id);</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        <span class="keywordflow">if</span>(pathlenth &lt;= <a class="code" href="../../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1">WILD_DOUBLE</a>) {</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                <span class="keyword">delete</span> state;</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        }</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;                <span class="keywordflow">return</span> state;</div>
@@ -881,7 +881,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;} <span class="comment">//End of PHGenFit namespace</span></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_ac24ac1591f867e1e0641112d6e12f6aa"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#ac24ac1591f867e1e0641112d6e12f6aa">PHGenFit::Track::updateOneMeasurementKalman</a></div><div class="ttdeci">int updateOneMeasurementKalman(const std::vector&lt; PHGenFit::Measurement * &gt; &amp;measurements, std::map&lt; double, std::shared_ptr&lt; PHGenFit::Track &gt; &gt; &amp;incr_chi2s_new_tracks, const int base_tp_idx=-1, const int direction=1, const float blowup_factor=1., const bool use_fitted_state=false) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00312">Track.cc:312</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Measurement_html"><div class="ttname"><a href="../../d4/db3/classPHGenFit_1_1Measurement.html">PHGenFit::Measurement</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc4/Measurement_8h_source.html#l00016">Measurement.h:16</a></div></div>
-<div class="ttc" id="classPHGenFit_1_1Track_html_afa6de34b5a0dd2df4dc87b47adf2d89b"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#afa6de34b5a0dd2df4dc87b47adf2d89b">PHGenFit::Track::~Track</a></div><div class="ttdeci">~Track()</div><div class="ttdoc">Default dtor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00110">Track.cc:110</a></div></div>
+<div class="ttc" id="classPHGenFit_1_1Track_html_afa6de34b5a0dd2df4dc87b47adf2d89b"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#afa6de34b5a0dd2df4dc87b47adf2d89b">PHGenFit::Track::~Track</a></div><div class="ttdeci">virtual ~Track()</div><div class="ttdoc">Default dtor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00110">Track.cc:110</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Measurement_html_a520d05098d52dbdf2aff0ebcd2f1d819"><div class="ttname"><a href="../../d4/db3/classPHGenFit_1_1Measurement.html#a520d05098d52dbdf2aff0ebcd2f1d819">PHGenFit::Measurement::get_cluster_ID</a></div><div class="ttdeci">unsigned int get_cluster_ID() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc4/Measurement_8h_source.html#l00034">Measurement.h:34</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a44e533bbe040f465aaaa1032785b543f"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a44e533bbe040f465aaaa1032785b543f">PHGenFit::Track::get_mom</a></div><div class="ttdeci">TVector3 get_mom() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00744">Track.cc:744</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a6f76c826b833ece6e3ebc05ef3449da6"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a6f76c826b833ece6e3ebc05ef3449da6">PHGenFit::Track::extrapolateToLine</a></div><div class="ttdeci">double extrapolateToLine(genfit::MeasuredStateOnPlane &amp;state, TVector3 line_point, TVector3 line_direction, const int tr_point_id=0) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00168">Track.cc:168</a></div></div>
@@ -889,6 +889,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 <div class="ttc" id="classPHGenFit_1_1Track_html_ad364dcea2a63c9aafe0bbf48ca64c66c"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#ad364dcea2a63c9aafe0bbf48ca64c66c">PHGenFit::Track::Track</a></div><div class="ttdeci">Track(genfit::AbsTrackRep *rep, TVector3 seed_pos, TVector3 seed_mom, TMatrixDSym seed_cov, const int v=0)</div><div class="ttdoc">Default ctor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00043">Track.cc:43</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a3c6639bba6584ef0fd2581150947b85f"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a3c6639bba6584ef0fd2581150947b85f">PHGenFit::Track::addMeasurements</a></div><div class="ttdeci">int addMeasurements(std::vector&lt; PHGenFit::Measurement * &gt; &amp;measurements)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00081">Track.cc:81</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a31b548486af1dc27699e1387d18882a9"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a31b548486af1dc27699e1387d18882a9">PHGenFit::Track::_clusterIDs</a></div><div class="ttdeci">std::vector&lt; unsigned int &gt; _clusterIDs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de0/Track_8h_source.html#l00119">Track.h:119</a></div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a132980e26e7a3ca6c5bea2abcfef072c"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a132980e26e7a3ca6c5bea2abcfef072c">PHGenFit::Track::get_ndf</a></div><div class="ttdeci">double get_ndf() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/Track_8cc_source.html#l00696">Track.cc:696</a></div></div>
 <div class="ttc" id="Measurement_8h_html"><div class="ttname"><a href="../../d6/dc4/Measurement_8h.html">Measurement.h</a></div><div class="ttdoc">Measurement is the base class for input of the fitter. </div></div>
 <div class="ttc" id="classPHGenFit_1_1Track_html_a481a4198705d0b23501d30b913e2d382"><div class="ttname"><a href="../../d7/dd5/classPHGenFit_1_1Track.html#a481a4198705d0b23501d30b913e2d382">PHGenFit::Track::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de0/Track_8h_source.html#l00115">Track.h:115</a></div></div>
@@ -919,7 +920,7 @@ $(document).ready(function(){initNavTree('d7/d95/Track_8cc_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_f39976c1790043907011bb8ccaa82059.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_bd168cfe2b98b4a4cdad2619ee62d1f7.html">PHGenFitPkg</a></li><li class="navelem"><a class="el" href="../../dir_10afabba28ded5fde4ef50b473ab13a5.html">PHGenFit</a></li><li class="navelem"><a class="el" href="../../d7/d95/Track_8cc.html">Track.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
+			updated: <em>Wed May 16 2018 15:20:50</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

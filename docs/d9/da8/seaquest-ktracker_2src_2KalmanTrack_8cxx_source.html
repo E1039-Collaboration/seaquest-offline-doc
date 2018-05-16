@@ -542,7 +542,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
 <div class="line"><a name="l00428"></a><span class="lineno"><a class="line" href="../../d9/dc3/classKalmanTrack.html#a289f9e2af2106f88f8c0e068705d2714">  428</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/dc3/classKalmanTrack.html#a289f9e2af2106f88f8c0e068705d2714">KalmanTrack::getExpPositionFast</a>(<span class="keywordtype">double</span> z, <span class="keywordtype">double</span>&amp; x, <span class="keywordtype">double</span>&amp; y, <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node)</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;{</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <span class="keywordflow">if</span>(_node == NULL)</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <span class="keywordflow">if</span>(_node == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    {</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        _node = <a class="code" href="../../d9/dc3/classKalmanTrack.html#ad92a13303a13a7941e38074edb6dcf27">getNearestNodePtr</a>(z);</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    }</div>
@@ -573,7 +573,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
 <div class="line"><a name="l00459"></a><span class="lineno"><a class="line" href="../../d9/dc3/classKalmanTrack.html#ae0ad1dd4a835dde92f944196df9e4c31">  459</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/dc3/classKalmanTrack.html#ae0ad1dd4a835dde92f944196df9e4c31">KalmanTrack::getExpPosErrorFast</a>(<span class="keywordtype">double</span> z, <span class="keywordtype">double</span>&amp; dx, <span class="keywordtype">double</span>&amp; dy, <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node)</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;{</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="keywordflow">if</span>(_node == NULL)</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="keywordflow">if</span>(_node == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    {</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        _node = <a class="code" href="../../d9/dc3/classKalmanTrack.html#ad92a13303a13a7941e38074edb6dcf27">getNearestNodePtr</a>(z);</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    }</div>
@@ -624,7 +624,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;</div>
 <div class="line"><a name="l00510"></a><span class="lineno"><a class="line" href="../../d9/dc3/classKalmanTrack.html#ac6259e0bcf7db62029b8983bf19d398e">  510</a></span>&#160;<a class="code" href="../../df/dd0/classNode.html">Node</a> *<a class="code" href="../../d9/dc3/classKalmanTrack.html#ac6259e0bcf7db62029b8983bf19d398e">KalmanTrack::getNodeUpstream</a>()</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;{</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node = NULL;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <span class="keywordflow">for</span>(std::list&lt;Node&gt;::iterator iter = <a class="code" href="../../d9/dc3/classKalmanTrack.html#abb470f361e8a4e392446cf8c15d6b32f">_nodes</a>.begin(); iter != <a class="code" href="../../d9/dc3/classKalmanTrack.html#abb470f361e8a4e392446cf8c15d6b32f">_nodes</a>.end(); ++iter)</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    {</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d0/da9/alignment_2tools_2makeRTProfile_8cxx.html#a282f67a511e155f3f3f7e82ecac24a82">detectorID</a> = iter-&gt;getHit().detectorID;</div>
@@ -643,7 +643,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;</div>
 <div class="line"><a name="l00529"></a><span class="lineno"><a class="line" href="../../d9/dc3/classKalmanTrack.html#aa242038696719aa6eee09253535e3621">  529</a></span>&#160;<a class="code" href="../../df/dd0/classNode.html">Node</a> *<a class="code" href="../../d9/dc3/classKalmanTrack.html#aa242038696719aa6eee09253535e3621">KalmanTrack::getNodeDownstream</a>()</div>
 <div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;{</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node = NULL;</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="../../df/dd0/classNode.html">Node</a>* _node = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <span class="keywordflow">for</span>(std::list&lt;Node&gt;::reverse_iterator iter = <a class="code" href="../../d9/dc3/classKalmanTrack.html#abb470f361e8a4e392446cf8c15d6b32f">_nodes</a>.rbegin(); iter != <a class="code" href="../../d9/dc3/classKalmanTrack.html#abb470f361e8a4e392446cf8c15d6b32f">_nodes</a>.rend(); ++iter)</div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    {</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d0/da9/alignment_2tools_2makeRTProfile_8cxx.html#a282f67a511e155f3f3f7e82ecac24a82">detectorID</a> = iter-&gt;getHit().detectorID;</div>
@@ -1173,6 +1173,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 <div class="ttc" id="classTrkPar_html_a8b54bb0a84179176aabaacb3397c8105"><div class="ttname"><a href="../../d2/d70/classTrkPar.html#a8b54bb0a84179176aabaacb3397c8105">TrkPar::get_z</a></div><div class="ttdeci">double get_z()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/seaquest-ktracker_2inc_2KalmanUtil_8h_source.html#l00060">KalmanUtil.h:60</a></div></div>
 <div class="ttc" id="classNode_html_a10e8167a975add910020702519aaadb0"><div class="ttname"><a href="../../df/dd0/classNode.html#a10e8167a975add910020702519aaadb0">Node::setPredictionDone</a></div><div class="ttdeci">void setPredictionDone(bool flag=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/seaquest-ktracker_2inc_2KalmanUtil_8h_source.html#l00141">KalmanUtil.h:141</a></div></div>
 <div class="ttc" id="classSeed_html_abd6a6b474153e7200e2ccad2b9a8a813"><div class="ttname"><a href="../../db/d19/classSeed.html#abd6a6b474153e7200e2ccad2b9a8a813">Seed::similarity</a></div><div class="ttdeci">bool similarity(Seed &amp;elem)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/seaquest-ktracker_2src_2KalmanTrack_8cxx_source.html#l00095">KalmanTrack.cxx:95</a></div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classSRawEvent_html"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html">SRawEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00087">SRawEvent.h:87</a></div></div>
 <div class="ttc" id="classNode_html_ab276ce7246c8434b058236346dc121fd"><div class="ttname"><a href="../../df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd">Node::getProjector</a></div><div class="ttdeci">TMatrixD &amp; getProjector()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/seaquest-ktracker_2inc_2KalmanUtil_8h_source.html#l00122">KalmanUtil.h:122</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a55338c7197761a9ac2455011212a23ee"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a55338c7197761a9ac2455011212a23ee">SRecTrack::insertCovariance</a></div><div class="ttdeci">void insertCovariance(TMatrixD covar)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dab/seaquest-ktracker_2inc_2SRecEvent_8h_source.html#l00090">SRecEvent.h:90</a></div></div>
@@ -1275,7 +1276,7 @@ $(document).ready(function(){initNavTree('d9/da8/seaquest-ktracker_2src_2KalmanT
 		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_8865154816a9bd078f19e2e247b5dd30.html">src</a></li><li class="navelem"><a class="el" href="../../d9/da8/seaquest-ktracker_2src_2KalmanTrack_8cxx.html">KalmanTrack.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:01</em> using <a
+			updated: <em>Wed May 16 2018 15:20:49</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

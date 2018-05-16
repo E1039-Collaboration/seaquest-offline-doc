@@ -1,7 +1,7 @@
 var classKalmanFitter =
 [
     [ "KalmanFitter", "d3/dc9/classKalmanFitter.html#acc2379b49691ffa0476bd56bb7587f62", null ],
-    [ "KalmanFitter", "d3/dc9/classKalmanFitter.html#acc2379b49691ffa0476bd56bb7587f62", null ],
+    [ "KalmanFitter", "d3/dc9/classKalmanFitter.html#abd097a105c435566065e6822178122e0", null ],
     [ "findVertex", "d3/dc9/classKalmanFitter.html#aef32556033edf9295a090050d1a0fc89", null ],
     [ "findVertex", "d3/dc9/classKalmanFitter.html#aef32556033edf9295a090050d1a0fc89", null ],
     [ "getChisq", "d3/dc9/classKalmanFitter.html#adb3f4f161505b15a959dd364f60458ac", null ],
@@ -30,9 +30,9 @@ var classKalmanFitter =
     [ "processOneTrack", "d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d", null ],
     [ "setControlParameter", "d3/dc9/classKalmanFitter.html#abf42245f34ef1472893326733c666e73", null ],
     [ "setControlParameter", "d3/dc9/classKalmanFitter.html#abf42245f34ef1472893326733c666e73", null ],
-    [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8", null ],
     [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8", null ],
     [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a6822d7a32f36020b468db116726cfbc7", null ],
+    [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8", null ],
     [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a6822d7a32f36020b468db116726cfbc7", null ],
     [ "updateAlignment", "d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326", null ],
     [ "updateAlignment", "d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326", null ],

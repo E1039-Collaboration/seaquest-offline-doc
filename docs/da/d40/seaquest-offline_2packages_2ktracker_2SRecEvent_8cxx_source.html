@@ -403,12 +403,12 @@ $(document).ready(function(){initNavTree('da/d40/seaquest-offline_2packages_2ktr
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="comment">//Store the steps on each point (center of the interval)</span></div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordtype">bool</span> cleanupPos = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordtype">bool</span> cleanupMom = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">if</span>(pos == NULL)</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">if</span>(pos == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    {</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        pos = <span class="keyword">new</span> TVector3[<a class="code" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a2023c32f768dad2430ec1fcebc2914d5">NSLICES_FMAG</a> + <a class="code" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a8b0a497d728cab9f6c9c6218df30b941">NSTEPS_TARGET</a> + 1];</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        cleanupPos = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">if</span>(mom == NULL)</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">if</span>(mom == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        mom = <span class="keyword">new</span> TVector3[<a class="code" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a2023c32f768dad2430ec1fcebc2914d5">NSLICES_FMAG</a> + <a class="code" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a8b0a497d728cab9f6c9c6218df30b941">NSTEPS_TARGET</a> + 1];</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        cleanupMom = <span class="keyword">true</span>;</div>
@@ -796,6 +796,7 @@ $(document).ready(function(){initNavTree('da/d40/seaquest-offline_2packages_2ktr
 <div class="ttc" id="classSRecTrack_html_a4e6933a5892c3e5fd593046ac3ee94a5"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a4e6933a5892c3e5fd593046ac3ee94a5">SRecTrack::setZVertex</a></div><div class="ttdeci">void setZVertex(Double_t z, bool update=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da3/seaquest-ktracker_2src_2SRecEvent_8cxx_source.html#l00062">SRecEvent.cxx:62</a></div></div>
 <div class="ttc" id="classKalmanFilter_html"><div class="ttname"><a href="../../d6/d2a/classKalmanFilter.html">KalmanFilter</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d21/seaquest-ktracker_2inc_2KalmanFilter_8h_source.html#l00026">KalmanFilter.h:26</a></div></div>
 <div class="ttc" id="classSRecEvent_html_accbe5fdcae7caf67347a7a6c38c2b025"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#accbe5fdcae7caf67347a7a6c38c2b025">SRecEvent::fRecStatus</a></div><div class="ttdeci">Short_t fRecStatus</div><div class="ttdoc">Reconstruction status. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dab/seaquest-ktracker_2inc_2SRecEvent_8h_source.html#l00340">SRecEvent.h:340</a></div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classSRawEvent_html"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html">SRawEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00087">SRawEvent.h:87</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a2a007d7332133ca35e214ff4daf823fc"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a2a007d7332133ca35e214ff4daf823fc">SRecTrack::getMomentumVecSt1</a></div><div class="ttdeci">TVector3 getMomentumVecSt1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dab/seaquest-ktracker_2inc_2SRecEvent_8h_source.html#l00062">SRecEvent.h:62</a></div></div>
 <div class="ttc" id="classSRecDimuon_html_ab6a8553047321642575ffef13bec9d68"><div class="ttname"><a href="../../d3/d07/classSRecDimuon.html#ab6a8553047321642575ffef13bec9d68">SRecDimuon::x1</a></div><div class="ttdeci">Double_t x1</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dab/seaquest-ktracker_2inc_2SRecEvent_8h_source.html#l00267">SRecEvent.h:267</a></div></div>
@@ -904,7 +905,7 @@ $(document).ready(function(){initNavTree('da/d40/seaquest-offline_2packages_2ktr
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_f39976c1790043907011bb8ccaa82059.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_47b75f99826f49810108a9a6dbe8d117.html">ktracker</a></li><li class="navelem"><a class="el" href="../../da/d40/seaquest-offline_2packages_2ktracker_2SRecEvent_8cxx.html">SRecEvent.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:01</em> using <a
+			updated: <em>Wed May 16 2018 15:20:49</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

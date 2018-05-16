@@ -3,7 +3,7 @@ var dir_b212a227bc9d87f3714ca61d46483cf8 =
     [ "DetectorConstruction.hh", "d6/d20/seaquest-ktracker_2inc_2DetectorConstruction_8hh.html", [
       [ "DetectorConstruction", "dc/d5b/classDetectorConstruction.html", "dc/d5b/classDetectorConstruction" ]
     ] ],
-    [ "EventReducer.h", "dc/d5a/EventReducer_8h.html", [
+    [ "EventReducer.h", "d3/d89/seaquest-ktracker_2inc_2EventReducer_8h.html", [
       [ "EventReducer", "d5/dda/classEventReducer.html", "d5/dda/classEventReducer" ]
     ] ],
     [ "FastTracklet.h", "d7/ddc/seaquest-ktracker_2inc_2FastTracklet_8h.html", [
@@ -74,7 +74,7 @@ var dir_b212a227bc9d87f3714ca61d46483cf8 =
       [ "TPhysicsList", "dd/df5/classTPhysicsList.html", "dd/df5/classTPhysicsList" ]
     ] ],
     [ "TrackExtrapolator.hh", "d5/ddd/TrackExtrapolator_8hh.html", "d5/ddd/TrackExtrapolator_8hh" ],
-    [ "TriggerAnalyzer.h", "d6/d97/TriggerAnalyzer_8h.html", "d6/d97/TriggerAnalyzer_8h" ],
+    [ "TriggerAnalyzer.h", "d1/dd8/seaquest-ktracker_2inc_2TriggerAnalyzer_8h.html", "d1/dd8/seaquest-ktracker_2inc_2TriggerAnalyzer_8h" ],
     [ "TriggerRoad.h", "db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h.html", "db/deb/seaquest-ktracker_2inc_2TriggerRoad_8h" ],
     [ "TriggerRoadLinkDef.h", "d1/d91/seaquest-ktracker_2inc_2TriggerRoadLinkDef_8h.html", null ],
     [ "VertexFit.h", "dc/df1/VertexFit_8h.html", [

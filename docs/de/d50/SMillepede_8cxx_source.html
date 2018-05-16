@@ -147,8 +147,8 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d6/dd9/classSMillepede.html#ac6f02b117c605d10cd25e8508674c3d7">   31</a></span>&#160;<a class="code" href="../../d6/dd9/classSMillepede.html#ac6f02b117c605d10cd25e8508674c3d7">SMillepede::SMillepede</a>()</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> = NULL;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#a3ac245b50dbf8325672a881693a5b47b">evalTree</a> = NULL;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#a3ac245b50dbf8325672a881693a5b47b">evalTree</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#a6a33957118413576c41938d0bbfc22f3">p_geomSvc</a> = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d6/dd9/classSMillepede.html#a8e65f7145b41271eadbbc95d31a7b2be">tracker</a> = <span class="keyword">new</span> <a class="code" href="../../d3/d46/classKalmanFastTracking.html">KalmanFastTracking</a>(<span class="keyword">false</span>);</div>
@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d6/dd9/classSMillepede.html#ac6bcddeb475d6bc3b5f03cd44fac856f">   40</a></span>&#160;<a class="code" href="../../d6/dd9/classSMillepede.html#ac6bcddeb475d6bc3b5f03cd44fac856f">SMillepede::~SMillepede</a>()</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> != NULL)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> != <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d9/d1b/namespaceMILLEPEDE.html#a2b2968f6b638e5a83bd6775f7314ca67">MILLEPEDE::NPLAN</a>; i++) <span class="keyword">delete</span> <a class="code" href="../../d6/dd9/classSMillepede.html#ae2da3a7dd626a2a7ca05264242b9c9e3">evalHist</a>[i];</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
@@ -713,7 +713,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    z_vs_id.Draw(<span class="stringliteral">&quot;APL&quot;</span>);</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    c3-&gt;SaveAs(<span class="stringliteral">&quot;z_vs_id.eps&quot;</span>);</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#a3ac245b50dbf8325672a881693a5b47b">evalTree</a> == NULL) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#a3ac245b50dbf8325672a881693a5b47b">evalTree</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    TCanvas* c4 = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;residuals&quot;</span>, <span class="stringliteral">&quot;residuals&quot;</span>);</div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    c4-&gt;Divide(6, <a class="code" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>/6);</div>
@@ -724,7 +724,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    }</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    c4-&gt;SaveAs(<span class="stringliteral">&quot;residuals.eps&quot;</span>);</div>
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> != NULL)</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> != <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    {</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a>-&gt;cd();</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        c1-&gt;Write();</div>
@@ -755,7 +755,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
 <div class="line"><a name="l00639"></a><span class="lineno"><a class="line" href="../../d6/dd9/classSMillepede.html#a9cb57e76b0a40a53a1aa4d534121d0e3">  639</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/dd9/classSMillepede.html#a9cb57e76b0a40a53a1aa4d534121d0e3">SMillepede::fillEvaluationTree</a>()</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;{</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> == NULL) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/dd9/classSMillepede.html#ad7196bdba06916435ac34890a0d1523c">evalFile</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="comment">//runID = rawEvent-&gt;getRunID();</span></div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    <span class="comment">//eventID = rawEvent-&gt;getEventID();</span></div>
@@ -799,6 +799,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 <div class="ttc" id="namespaceMILLEPEDE_html_a117a13f9022dac5a565ef45dd7e26916"><div class="ttname"><a href="../../d9/d1b/namespaceMILLEPEDE.html#a117a13f9022dac5a565ef45dd7e26916">MILLEPEDE::NPARPLAN</a></div><div class="ttdeci">static const int NPARPLAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d2f/SMillepede_8h_source.html#l00073">SMillepede.h:73</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a7a31be5621882dac17f96f7ec7e71cd3"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a7a31be5621882dac17f96f7ec7e71cd3">SRecTrack::getHitIndex</a></div><div class="ttdeci">Int_t getHitIndex(Int_t i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dab/seaquest-ktracker_2inc_2SRecEvent_8h_source.html#l00048">SRecEvent.h:48</a></div></div>
 <div class="ttc" id="SMillepede_8h_html_afb8c8e75ec62c33db2b7457cebabd5b3"><div class="ttname"><a href="../../d8/d2f/SMillepede_8h.html#afb8c8e75ec62c33db2b7457cebabd5b3">equloc_</a></div><div class="ttdeci">void equloc_(float *, float *, float *, float *)</div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classSMillepede_html_ac6bcddeb475d6bc3b5f03cd44fac856f"><div class="ttname"><a href="../../d6/dd9/classSMillepede.html#ac6bcddeb475d6bc3b5f03cd44fac856f">SMillepede::~SMillepede</a></div><div class="ttdeci">~SMillepede()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/SMillepede_8cxx_source.html#l00040">SMillepede.cxx:40</a></div></div>
 <div class="ttc" id="classSRawEvent_html"><div class="ttname"><a href="../../d5/d83/classSRawEvent.html">SRawEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0e/seaquest-ktracker_2inc_2SRawEvent_8h_source.html#l00087">SRawEvent.h:87</a></div></div>
 <div class="ttc" id="classTracklet_html_acfa229de89a95c51f515f9fec5763108"><div class="ttname"><a href="../../d2/d26/classTracklet.html#acfa229de89a95c51f515f9fec5763108">Tracklet::getExpPositionY</a></div><div class="ttdeci">double getExpPositionY(double z) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d14/seaquest-ktracker_2src_2FastTracklet_8cxx_source.html#l00549">FastTracklet.cxx:549</a></div></div>
@@ -884,7 +885,7 @@ $(document).ready(function(){initNavTree('de/d50/SMillepede_8cxx_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_8865154816a9bd078f19e2e247b5dd30.html">src</a></li><li class="navelem"><a class="el" href="../../de/d50/SMillepede_8cxx.html">SMillepede.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:01</em> using <a
+			updated: <em>Wed May 16 2018 15:20:49</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

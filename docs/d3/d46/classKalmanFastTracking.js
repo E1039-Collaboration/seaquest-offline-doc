@@ -2,7 +2,7 @@ var classKalmanFastTracking =
 [
     [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html#a65f9b0ddbed3306a180c539931e8afe8", null ],
     [ "~KalmanFastTracking", "d3/d46/classKalmanFastTracking.html#a3deb95ac6b2fba8e3928ec2b7c124906", null ],
-    [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html#a65f9b0ddbed3306a180c539931e8afe8", null ],
+    [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html#a1f0655a7ab5073c08fe0bfa15930dc8c", null ],
     [ "~KalmanFastTracking", "d3/d46/classKalmanFastTracking.html#a3deb95ac6b2fba8e3928ec2b7c124906", null ],
     [ "acceptEvent", "d3/d46/classKalmanFastTracking.html#a0190d9515c79f0b717d538205912920a", null ],
     [ "acceptEvent", "d3/d46/classKalmanFastTracking.html#a0190d9515c79f0b717d538205912920a", null ],
@@ -53,8 +53,8 @@ var classKalmanFastTracking =
     [ "removeBadHits", "d3/d46/classKalmanFastTracking.html#a1f8aefdf54827f85127e60787ac08053", null ],
     [ "removeBadHits", "d3/d46/classKalmanFastTracking.html#a1f8aefdf54827f85127e60787ac08053", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d431cbee3bb5eaafdeccf80508ec482", null ],
-    [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d431cbee3bb5eaafdeccf80508ec482", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a85b3cc71d34ec9adabb6956b0a279821", null ],
+    [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d431cbee3bb5eaafdeccf80508ec482", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a85b3cc71d34ec9adabb6956b0a279821", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d3ef7a6aeb00056e003e98564e45b65", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d3ef7a6aeb00056e003e98564e45b65", null ],

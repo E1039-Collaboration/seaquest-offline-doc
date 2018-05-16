@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('dd/dd4/getClass_8h_source.html','../..
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;      <a class="code" href="../../dc/d82/classPHNode.html">PHNode</a> *FoundNode = iter.<a class="code" href="../../d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa">findFirst</a>(name.c_str()); <span class="comment">// returns pointer to PHNode</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      <span class="keywordflow">if</span> (!FoundNode)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;          <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      <span class="comment">// first test if it is a PHDataNode</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      <a class="code" href="../../d1/d3e/classPHDataNode.html">PHDataNode&lt;T&gt;</a> *DNode = <span class="keyword">dynamic_cast&lt;</span><a class="code" href="../../d1/d3e/classPHDataNode.html">PHDataNode&lt;T&gt;</a>*<span class="keyword">&gt;</span>(FoundNode);</div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('dd/dd4/getClass_8h_source.html','../..
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;          T* <span class="keywordtype">object</span> = <span class="keyword">dynamic_cast&lt;</span>T*<span class="keyword">&gt;</span>(IONode-&gt;<a class="code" href="../../d1/d3e/classPHDataNode.html#a1f3b856fd3ce165047be8aa97f4ab9f3">getData</a>());</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;          <span class="keywordflow">if</span> (!<span class="keywordtype">object</span>)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;              <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            {</div>
@@ -170,13 +170,14 @@ $(document).ready(function(){initNavTree('dd/dd4/getClass_8h_source.html','../..
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* GETCLASS_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="classPHNodeIterator_html_aea98bf8619af59b1212a94fb32106baa"><div class="ttname"><a href="../../d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa">PHNodeIterator::findFirst</a></div><div class="ttdeci">PHNode * findFirst(const std::string &amp;, const std::string &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator.cc:50</a></div></div>
 <div class="ttc" id="classPHDataNode_html"><div class="ttname"><a href="../../d1/d3e/classPHDataNode.html">PHDataNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d9b/PHDataNode_8h_source.html#l00013">PHDataNode.h:13</a></div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="PHDataNode_8h_html"><div class="ttname"><a href="../../dd/d9b/PHDataNode_8h.html">PHDataNode.h</a></div></div>
 <div class="ttc" id="classPHDataNode_html_a1f3b856fd3ce165047be8aa97f4ab9f3"><div class="ttname"><a href="../../d1/d3e/classPHDataNode.html#a1f3b856fd3ce165047be8aa97f4ab9f3">PHDataNode::getData</a></div><div class="ttdeci">T * getData()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d9b/PHDataNode_8h_source.html#l00021">PHDataNode.h:21</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
@@ -197,7 +198,7 @@ $(document).ready(function(){initNavTree('dd/dd4/getClass_8h_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_148e408a6779c3c63aed622cf91cae82.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_fafd1ca92eee10497467c0c504fece1f.html">phool</a></li><li class="navelem"><a class="el" href="../../dd/dd4/getClass_8h.html">getClass.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:01</em> using <a
+			updated: <em>Wed May 16 2018 15:20:50</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

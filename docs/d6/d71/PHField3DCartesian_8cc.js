@@ -1,8 +1,5 @@
 var PHField3DCartesian_8cc =
 [
-    [ "trio", "d6/d71/PHField3DCartesian_8cc.html#a4138b638941f79f6d7fca877ec560807", null ],
-    [ "fieldmap", "d6/d71/PHField3DCartesian_8cc.html#a9a36b33c82e48eadde28f8c96b37a47d", null ],
-    [ "xvals", "d6/d71/PHField3DCartesian_8cc.html#afe14fffdec731e49dec5f33e51ac7d88", null ],
-    [ "yvals", "d6/d71/PHField3DCartesian_8cc.html#a7811933c3f103ef9859dd1c9c7c45d0a", null ],
-    [ "zvals", "d6/d71/PHField3DCartesian_8cc.html#aa92d551db2fd426ae7f697e1636ceef8", null ]
+    [ "UNIT_FIELD", "d6/d71/PHField3DCartesian_8cc.html#a212f6e4f9d9a5b2022f53d1bc68be62b", null ],
+    [ "UNIT_LENGTH", "d6/d71/PHField3DCartesian_8cc.html#a1b2dfce30d2dd62f2c1a7b3782d50d14", null ]
 ];

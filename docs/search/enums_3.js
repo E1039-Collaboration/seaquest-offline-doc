@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['phaccesstype',['PHAccessType',['../d5/d6f/phool_8h.html#aafca2224a364c9d630c02d414f7e1de6',1,'phool.h']]],
-  ['phmessagetype',['PHMessageType',['../d5/d6f/phool_8h.html#a23d15dd229c3c1aedba64f0f4255aa4a',1,'phool.h']]],
-  ['phtreetype',['PHTreeType',['../d5/d6f/phool_8h.html#a1042b751137e3037a0410cbc94abc466',1,'phool.h']]]
+  ['hitquality',['HitQuality',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit::HitQuality()'],['../d1/d7b/classseaquest_1_1Hit.html#ac5c8931d62de396ab4b939300913cb92',1,'seaquest::Hit::HitQuality()'],['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()'],['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()']]]
 ];

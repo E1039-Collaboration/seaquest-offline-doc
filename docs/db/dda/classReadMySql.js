@@ -9,6 +9,7 @@ var classReadMySql =
     [ "FillSQHitVector", "db/dda/classReadMySql.html#a867fcdb2c8dc0344e80bba8019efd9bb", null ],
     [ "FillSQRun", "db/dda/classReadMySql.html#a706c4e85400435a780774c48d6b69342", null ],
     [ "FillSQSpill", "db/dda/classReadMySql.html#a8d89dbc97ba9beb83c3a19dd41b49f07", null ],
+    [ "FillSQTriggerHitVector", "db/dda/classReadMySql.html#a2f214b751e2ce072c95fd37f14acab8d", null ],
     [ "get_hit_container_type", "db/dda/classReadMySql.html#abd96c32651caf97d719b3b4643d302df", null ],
     [ "get_hit_type", "db/dda/classReadMySql.html#a7ba073d0df4a29d9cfe9b20f69a2e045", null ],
     [ "getDouble", "db/dda/classReadMySql.html#aac0291aca36d9029ec378ab7fcc336c6", null ],
@@ -44,6 +45,7 @@ var classReadMySql =
     [ "_spill_id", "db/dda/classReadMySql.html#a0f18411ce0950d3a8d5a98315e00ed30", null ],
     [ "_spill_map", "db/dda/classReadMySql.html#a42b63eacb7c9433bb69671851071fff1", null ],
     [ "_table_name", "db/dda/classReadMySql.html#a73c50cf3f376b91cd4af20ce24bc6edf", null ],
+    [ "_triggerhit_vector", "db/dda/classReadMySql.html#a58664632aa82c0190bd17e7b7f2feaf5", null ],
     [ "_user_name", "db/dda/classReadMySql.html#a4d3f9e7056161476645f065a21e63e3a", null ],
     [ "p_geomSvc", "db/dda/classReadMySql.html#a6808eef82ecf3377012665bd90c78590", null ]
 ];

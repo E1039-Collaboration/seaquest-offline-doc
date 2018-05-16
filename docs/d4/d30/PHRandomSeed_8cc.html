@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -100,7 +101,7 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc.html','../../'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -110,29 +111,113 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc.html','../../'
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">PHRandomSeed.cc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../de/dea/PHRandomSeed_8h_source.html">PHRandomSeed.h</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d2/dcb/recoConsts_8h_source.html">recoConsts.h</a>&quot;</code><br/>
-<code>#include &lt;gsl/gsl_const.h&gt;</code><br/>
-<code>#include &lt;gsl/gsl_randist.h&gt;</code><br/>
-<code>#include &lt;gsl/gsl_rng.h&gt;</code><br/>
-<code>#include &lt;random&gt;</code><br/>
-<code>#include &lt;cassert&gt;</code><br/>
-<code>#include &lt;cstdio&gt;</code><br/>
 <code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;queue&gt;</code><br/>
+<code>#include &lt;random&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for PHRandomSeed.cc:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d78/PHRandomSeed_8cc__incl.svg" width="1058" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/d78/PHRandomSeed_8cc__incl.svg" width="615" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="../../d4/d30/PHRandomSeed_8cc_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a75bdebb61403f8cd3b20fab54d3dddbc"><td class="memItemLeft" align="right" valign="top">static queue&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a></td></tr>
+<tr class="separator:a75bdebb61403f8cd3b20fab54d3dddbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cf31588233791922f77996f91429ad"><td class="memItemLeft" align="right" valign="top">static std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">fRandomGenerator</a></td></tr>
+<tr class="separator:af4cf31588233791922f77996f91429ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95ea899ac61e4ad65acbaefdccbe16f"><td class="memItemLeft" align="right" valign="top">static <br class="typebreak"/>
+std::uniform_int_distribution<br class="typebreak"/>
+&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d30/PHRandomSeed_8cc.html#ad95ea899ac61e4ad65acbaefdccbe16f">fDistribution</a></td></tr>
+<tr class="separator:ad95ea899ac61e4ad65acbaefdccbe16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ad95ea899ac61e4ad65acbaefdccbe16f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::uniform_int_distribution&lt;unsigned int&gt; fDistribution</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00013">13</a> of file <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html">PHRandomSeed.cc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00019">PHRandomSeed::GetSeed()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af4cf31588233791922f77996f91429ad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mt19937 fRandomGenerator</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00012">12</a> of file <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html">PHRandomSeed.cc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00019">PHRandomSeed::GetSeed()</a>, and <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00050">PHRandomSeed::InitSeed()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a75bdebb61403f8cd3b20fab54d3dddbc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">queue&lt;unsigned int&gt; seedqueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00011">11</a> of file <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html">PHRandomSeed.cc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00019">PHRandomSeed::GetSeed()</a>, and <a class="el" href="../../d4/d30/PHRandomSeed_8cc_source.html#l00064">PHRandomSeed::LoadSeed()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -143,7 +228,7 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_148e408a6779c3c63aed622cf91cae82.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_fafd1ca92eee10497467c0c504fece1f.html">phool</a></li><li class="navelem"><a class="el" href="../../d4/d30/PHRandomSeed_8cc.html">PHRandomSeed.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
+			updated: <em>Wed May 16 2018 15:20:54</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

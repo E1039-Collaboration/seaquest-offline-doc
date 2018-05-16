@@ -112,8 +112,7 @@ $(document).ready(function(){initNavTree('d6/d71/PHField3DCartesian_8cc.html','.
 
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">PHField3DCartesian.cc File Reference</div>  </div>
 </div><!--header-->
@@ -125,113 +124,55 @@ $(document).ready(function(){initNavTree('d6/d71/PHField3DCartesian_8cc.html','.
 <code>#include &lt;boost/tuple/tuple_comparison.hpp&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;cassert&gt;</code><br/>
+<code>#include &lt;fstream&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for PHField3DCartesian.cc:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d4e/PHField3DCartesian_8cc__incl.svg" width="1132" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d4e/PHField3DCartesian_8cc__incl.svg" width="1154" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
 <p><a href="../../d6/d71/PHField3DCartesian_8cc_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a4138b638941f79f6d7fca877ec560807"><td class="memItemLeft" align="right" valign="top">typedef boost::tuple&lt; double, <br class="typebreak"/>
-double, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a4138b638941f79f6d7fca877ec560807">trio</a></td></tr>
-<tr class="separator:a4138b638941f79f6d7fca877ec560807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a9a36b33c82e48eadde28f8c96b37a47d"><td class="memItemLeft" align="right" valign="top">std::map&lt; boost::tuple&lt; double, <br class="typebreak"/>
-double, double &gt;, boost::tuple<br class="typebreak"/>
-&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a9a36b33c82e48eadde28f8c96b37a47d">fieldmap</a></td></tr>
-<tr class="separator:a9a36b33c82e48eadde28f8c96b37a47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe14fffdec731e49dec5f33e51ac7d88"><td class="memItemLeft" align="right" valign="top">std::set&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#afe14fffdec731e49dec5f33e51ac7d88">xvals</a></td></tr>
-<tr class="separator:afe14fffdec731e49dec5f33e51ac7d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7811933c3f103ef9859dd1c9c7c45d0a"><td class="memItemLeft" align="right" valign="top">std::set&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a7811933c3f103ef9859dd1c9c7c45d0a">yvals</a></td></tr>
-<tr class="separator:a7811933c3f103ef9859dd1c9c7c45d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa92d551db2fd426ae7f697e1636ceef8"><td class="memItemLeft" align="right" valign="top">std::set&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#aa92d551db2fd426ae7f697e1636ceef8">zvals</a></td></tr>
-<tr class="separator:aa92d551db2fd426ae7f697e1636ceef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a1b2dfce30d2dd62f2c1a7b3782d50d14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a1b2dfce30d2dd62f2c1a7b3782d50d14">UNIT_LENGTH</a>&#160;&#160;&#160;cm</td></tr>
+<tr class="separator:a1b2dfce30d2dd62f2c1a7b3782d50d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212f6e4f9d9a5b2022f53d1bc68be62b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a212f6e4f9d9a5b2022f53d1bc68be62b">UNIT_FIELD</a>&#160;&#160;&#160;tesla</td></tr>
+<tr class="separator:a212f6e4f9d9a5b2022f53d1bc68be62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a class="anchor" id="a4138b638941f79f6d7fca877ec560807"></a>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a212f6e4f9d9a5b2022f53d1bc68be62b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef boost::tuple&lt;double, double, double&gt; <a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html#a4138b638941f79f6d7fca877ec560807">trio</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00015">15</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a9a36b33c82e48eadde28f8c96b37a47d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;boost::tuple&lt;double, double, double&gt;, boost::tuple&lt;double, double, double&gt; &gt; fieldmap</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00016">16</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00128">PHField3DCartesian::GetFieldValue()</a>, and <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00021">PHField3DCartesian::PHField3DCartesian()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afe14fffdec731e49dec5f33e51ac7d88"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;double&gt; xvals</td>
+          <td class="memname">#define UNIT_FIELD&#160;&#160;&#160;tesla</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00017">17</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00128">PHField3DCartesian::GetFieldValue()</a>, and <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00021">PHField3DCartesian::PHField3DCartesian()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00025">PHField3DCartesian::PHField3DCartesian()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a7811933c3f103ef9859dd1c9c7c45d0a"></a>
+<a class="anchor" id="a1b2dfce30d2dd62f2c1a7b3782d50d14"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;double&gt; yvals</td>
+          <td class="memname">#define UNIT_LENGTH&#160;&#160;&#160;cm</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00018">18</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00016">16</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00128">PHField3DCartesian::GetFieldValue()</a>, and <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00021">PHField3DCartesian::PHField3DCartesian()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa92d551db2fd426ae7f697e1636ceef8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::set&lt;double&gt; zvals</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00019">19</a> of file <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html">PHField3DCartesian.cc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00128">PHField3DCartesian::GetFieldValue()</a>, and <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00021">PHField3DCartesian::PHField3DCartesian()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00175">PHField3DCartesian::GetFieldValue()</a>, and <a class="el" href="../../d6/d71/PHField3DCartesian_8cc_source.html#l00025">PHField3DCartesian::PHField3DCartesian()</a>.</p>
 
 </div>
 </div>
@@ -245,7 +186,7 @@ double, double &gt;, boost::tuple<br class="typebreak"/>
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_f39976c1790043907011bb8ccaa82059.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_b0347a47eca83cefa6204baef07c4b41.html">PHField</a></li><li class="navelem"><a class="el" href="../../d6/d71/PHField3DCartesian_8cc.html">PHField3DCartesian.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
+			updated: <em>Wed May 16 2018 15:20:55</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

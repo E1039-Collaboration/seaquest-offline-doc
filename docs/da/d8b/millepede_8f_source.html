@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      icnpr=0  <span class="comment">! number of printouts</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      loctot=0 <span class="comment">! total number of local fits</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      locrej=0 <span class="comment">! number of rejected fits</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      nstdev=max(0,min(nstd,3))  <span class="comment">! 0 ... 4</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      nstdev=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(0,<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(nstd,3))  <span class="comment">! 0 ... 4</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      cfactr=1.0</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      nagb=nagbar</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      nalc=nalcar</div>
@@ -394,7 +394,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;         <span class="keywordflow">IF</span>(icnlim.GE.0) <span class="keyword">WRITE</span>(*,*) <span class="stringliteral">&#39;Scratch file opened&#39;</span></div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      <span class="keywordflow">END IF</span></div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      lunit=lun</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      cfactr=max(1.0,cutfac)     <span class="comment">! &gt; 1.0</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      cfactr=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(1.0,cutfac)     <span class="comment">! &gt; 1.0</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      <span class="keywordflow">IF</span>(icnlim.GE.0) <span class="keyword">WRITE</span>(*,*) <span class="stringliteral">&#39;Initial cut factor is&#39;</span>,cfactr</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      itert=1  <span class="comment">! iteration 1 is first iteration</span></div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      <span class="keywordflow">END</span></div>
@@ -872,7 +872,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;<span class="comment">*        histogram of used store space</span></div>
 <div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;         <span class="keywordflow">IF</span>(nfl.EQ.0) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            ibin=1.0+50.0*float(nst)/float(nstore)</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            ibin=min(ibin,50)</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            ibin=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(ibin,50)</div>
 <div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            khist(ibin)=khist(ibin)+1</div>
 <div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;         <span class="keywordflow">ELSE</span></div>
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            khist(51)=khist(51)+1</div>
@@ -1179,8 +1179,8 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;      <span class="keywordflow">IF</span>(i.EQ.j)              <span class="keywordflow">RETURN</span></div>
 <div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;      ii=(i*i+i)/2</div>
 <div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;      jj=(j*j+j)/2</div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;      k=max(i,j)</div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;      ij=(k*k-k)/2+min(i,j)</div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;      k=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(i,j)</div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;      ij=(k*k-k)/2+<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(i,j)</div>
 <div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;      err=sqrt(abs(cgmat(ii)*cgmat(jj)))</div>
 <div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;      <span class="keywordflow">IF</span>(err.NE.0.0) <a class="code" href="../../da/d8b/millepede_8f.html#a59885ff1d3508d00f339461bd9f6631d">corpar</a>=cgmat(ij)/err</div>
 <div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;      <span class="keywordflow">END</span></div>
@@ -1281,7 +1281,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;       <span class="keywordflow">DO</span> j=1,n                   <span class="comment">! search for pivot</span></div>
 <div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;        jj=jj+j</div>
 <div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;        <span class="keywordflow">IF</span>(flag(j)) <span class="keywordflow">THEN</span>          <span class="comment">! not used so far</span></div>
-<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;           <span class="keywordflow">IF</span>(abs(v(jj)).GT.max(abs(vkk),eps*diag(j))) <span class="keywordflow">THEN</span></div>
+<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;           <span class="keywordflow">IF</span>(abs(v(jj)).GT.<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(abs(vkk),eps*diag(j))) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;              vkk=v(jj)           <span class="comment">! pivot (candidate)</span></div>
 <div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;              k  =j               <span class="comment">! index of pivot</span></div>
 <div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;              kk =jj              <span class="comment">! index of diagonal element</span></div>
@@ -1450,7 +1450,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;      <span class="keywordflow">IF</span>(ntyp.GE.0) <span class="keywordflow">THEN</span>               <span class="comment">! integer</span></div>
 <div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;         <span class="keywordflow">DO</span> i=1,n,m <span class="comment">! add M bins together</span></div>
 <div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;          mum=0</div>
-<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;          <span class="keywordflow">DO</span> k=i,min(i+m-1,n)</div>
+<div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;          <span class="keywordflow">DO</span> k=i,<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(i+m-1,n)</div>
 <div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;           mum=mum+inc(k)</div>
 <div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;          <span class="keywordflow">END DO</span></div>
 <div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;          nk=nk+1</div>
@@ -1459,7 +1459,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;      <span class="keywordflow">ELSE</span>                            <span class="comment">! floating point</span></div>
 <div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;         <span class="keywordflow">DO</span> i=1,n,m <span class="comment">! add M bins together</span></div>
 <div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;          sum=0</div>
-<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;          <span class="keywordflow">DO</span> k=i,min(i+m-1,n)</div>
+<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;          <span class="keywordflow">DO</span> k=i,<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(i+m-1,n)</div>
 <div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;           nval=inc(k)</div>
 <div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;           sum=sum+fval</div>
 <div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;          <span class="keywordflow">END DO</span></div>
@@ -1493,7 +1493,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;      n10=1+(nred-1)/10</div>
 <div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;      text(1)=<span class="stringliteral">&#39; &#39;</span></div>
 <div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;      <span class="keywordflow">DO</span> i=1,n10</div>
-<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;       iup=min(10*i,nred)</div>
+<div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;       iup=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(10*i,nred)</div>
 <div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;       text(1)(10*i-9:iup)=<span class="stringliteral">&#39;----+----+&#39;</span></div>
 <div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;       <span class="keywordflow">IF</span>(iup.EQ.10*i) text(1)(iup:iup)=chn(i)</div>
 <div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;      <span class="keywordflow">END DO</span></div>
@@ -1579,7 +1579,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01462"></a><span class="lineno"> 1462</span>&#160;           <span class="keywordflow">IF</span>(jn.NE.0.AND.jm.EQ.6) jm=j</div>
 <div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;           fxf(j:j)=ch(jn+1)</div>
 <div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;          <span class="keywordflow">END DO</span></div>
-<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;          im=min(im,jm)</div>
+<div class="line"><a name="l01465"></a><span class="lineno"> 1465</span>&#160;          im=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(im,jm)</div>
 <div class="line"><a name="l01466"></a><span class="lineno"> 1466</span>&#160;       <span class="keywordflow">END IF</span></div>
 <div class="line"><a name="l01467"></a><span class="lineno"> 1467</span>&#160;       xchar(i)=fxf</div>
 <div class="line"><a name="l01468"></a><span class="lineno"> 1468</span>&#160;      <span class="keywordflow">END DO</span></div>
@@ -1596,8 +1596,8 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;         goto 34</div>
 <div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;      <span class="keywordflow">END IF</span></div>
 <div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;<span class="comment">*     loop to convert to print format</span></div>
-<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;      ja=min(jm,jp)</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;      jb=max(6,jp+1)</div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;      ja=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(jm,jp)</div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;      jb=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(6,jp+1)</div>
 <div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;      <span class="keywordflow">DO</span> 90 i=1,n</div>
 <div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;      fxf=xchar(i)</div>
 <div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;      sxf=<span class="stringliteral">&#39; &#39;</span></div>
@@ -1666,7 +1666,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;      <span class="keywordflow">IF</span>(nd.LT.1) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160;         <a class="code" href="../../da/d8b/millepede_8f.html#aeb0cdf1da6106941af4bf286ded8b67c">chindl</a>=0.0</div>
 <div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;      <span class="keywordflow">ELSE</span></div>
-<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;         m=max(1,min(n,3))         <span class="comment">! 1, 2 or 3 sigmas</span></div>
+<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;         m=<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">max</a>(1,<a class="code" href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">min</a>(n,3))         <span class="comment">! 1, 2 or 3 sigmas</span></div>
 <div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;         <span class="keywordflow">IF</span>(nd.LE.30) <span class="keywordflow">THEN</span></div>
 <div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;            <a class="code" href="../../da/d8b/millepede_8f.html#aeb0cdf1da6106941af4bf286ded8b67c">chindl</a>=table(nd,m)     <span class="comment">! from table</span></div>
 <div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;         <span class="keywordflow">ELSE</span>                      <span class="comment">! approximation for ND &gt; 30</span></div>
@@ -1733,6 +1733,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160; </div>
 <div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160; </div>
 <div class="ttc" id="millepede_8f_html_a22a67b4559702aae1290c5e59d20c82a"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a22a67b4559702aae1290c5e59d20c82a">spavat</a></div><div class="ttdeci">subroutine spavat(V, A, W, N, M)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l01228">millepede.f:1228</a></div></div>
+<div class="ttc" id="classstd_1_1numeric__limits_3_01half_01_4_html_ad96cb37493353bb7f31aca73af0ea344"><div class="ttname"><a href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ad96cb37493353bb7f31aca73af0ea344">std::numeric_limits&lt; half &gt;::min</a></div><div class="ttdeci">static half min()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d59/halfLimits_8h_source.html#l00063">halfLimits.h:63</a></div></div>
 <div class="ttc" id="millepede_8f_html_a6e8560b02ba6b3ccf4f6b24724e5d9a3"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a6e8560b02ba6b3ccf4f6b24724e5d9a3">chfmt</a></div><div class="ttdeci">subroutine chfmt(X, N, XCHAR, ECHAR)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l01414">millepede.f:1414</a></div></div>
 <div class="ttc" id="millepede_8f_html_a5a36d250f347b627ab1551bf4477bd80"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a5a36d250f347b627ab1551bf4477bd80">initgl</a></div><div class="ttdeci">subroutine initgl(NAGBAR, NALCAR, NSTD, IPRLIM)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l00032">millepede.f:32</a></div></div>
 <div class="ttc" id="millepede_8f_html_a59885ff1d3508d00f339461bd9f6631d"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a59885ff1d3508d00f339461bd9f6631d">corpar</a></div><div class="ttdeci">function corpar(I, J)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l01030">millepede.f:1030</a></div></div>
@@ -1743,6 +1744,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 <div class="ttc" id="millepede_8f_html_a2d6f5da795ac569734a081e271d46e7d"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a2d6f5da795ac569734a081e271d46e7d">spminv</a></div><div class="ttdeci">subroutine spminv(V, B, N, NRANK, DIAG, FLAG)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l01129">millepede.f:1129</a></div></div>
 <div class="ttc" id="millepede_8f_html_a6fa409bc46c4e16669c2445e74d1b0c7"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a6fa409bc46c4e16669c2445e74d1b0c7">fitglo</a></div><div class="ttdeci">subroutine fitglo(PAR)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l00768">millepede.f:768</a></div></div>
 <div class="ttc" id="classPHTimer_html_adce6f9a85834e59bd154b9c624ee4e41"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41">PHTimer::stop</a></div><div class="ttdeci">void stop()</div><div class="ttdoc">stops the counter </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00052">PHTimer.h:52</a></div></div>
+<div class="ttc" id="classstd_1_1numeric__limits_3_01half_01_4_html_abea1f8fe21b792ac2917e29c2c20f847"><div class="ttname"><a href="../../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#abea1f8fe21b792ac2917e29c2c20f847">std::numeric_limits&lt; half &gt;::max</a></div><div class="ttdeci">static half max()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d59/halfLimits_8h_source.html#l00064">halfLimits.h:64</a></div></div>
 <div class="ttc" id="millepede_8f_html_a354fff6d5ca6eb3a4aebe74b4d8acf77"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#a354fff6d5ca6eb3a4aebe74b4d8acf77">fitmut</a></div><div class="ttdeci">subroutine fitmut(NVEC, VEC)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l01561">millepede.f:1561</a></div></div>
 <div class="ttc" id="millepede_8f_html_adfcc601c615ce4d23cd483a1dc7c15b9"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#adfcc601c615ce4d23cd483a1dc7c15b9">parglo</a></div><div class="ttdeci">subroutine parglo(PAR)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l00131">millepede.f:131</a></div></div>
 <div class="ttc" id="millepede_8f_html_aaac88ddeb4f65973104354aa45f0515b"><div class="ttname"><a href="../../da/d8b/millepede_8f.html#aaac88ddeb4f65973104354aa45f0515b">fitloc</a></div><div class="ttdeci">subroutine fitloc</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8b/millepede_8f_source.html#l00463">millepede.f:463</a></div></div>
@@ -1764,7 +1766,7 @@ $(document).ready(function(){initNavTree('da/d8b/millepede_8f_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_7b6ffbfce34ab6532d540af363e57ee1.html">seaquest-ktracker</a></li><li class="navelem"><a class="el" href="../../dir_8865154816a9bd078f19e2e247b5dd30.html">src</a></li><li class="navelem"><a class="el" href="../../da/d8b/millepede_8f.html">millepede.f</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:01</em> using <a
+			updated: <em>Wed May 16 2018 15:20:49</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

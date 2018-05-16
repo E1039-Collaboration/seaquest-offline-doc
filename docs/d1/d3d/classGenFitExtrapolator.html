@@ -115,6 +115,7 @@ $(document).ready(function(){initNavTree('d1/d3d/classGenFitExtrapolator.html','
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../da/d01/classGenFitExtrapolator-members.html">List of all members</a>  </div>
@@ -131,9 +132,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af6be6f4e2fdd6d21f7c33c32b8b38857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b087aa7263d099a4d912e319a8e38c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a5b087aa7263d099a4d912e319a8e38c3">~GenFitExtrapolator</a> ()</td></tr>
 <tr class="separator:a5b087aa7263d099a4d912e319a8e38c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbca6385cbc9c9f01dc902826081057"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a1cbca6385cbc9c9f01dc902826081057">init</a> (std::string geometrySchema, double fMagStr=<a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6">FMAGSTR</a>, double kMagStr=<a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a18ee879a71a96e2bb86c6e43e4ff4569">KMAGSTR</a>)</td></tr>
-<tr class="memdesc:a1cbca6385cbc9c9f01dc902826081057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize geometry and physics.  <a href="#a1cbca6385cbc9c9f01dc902826081057">More...</a><br/></td></tr>
-<tr class="separator:a1cbca6385cbc9c9f01dc902826081057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4990b6b1b417881f0535a498478f2205"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a4990b6b1b417881f0535a498478f2205">init</a> (const <a class="el" href="../../da/ddc/classPHField.html">PHField</a> *field, const TGeoManager *geom)</td></tr>
+<tr class="memdesc:a4990b6b1b417881f0535a498478f2205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize geometry and physics.  <a href="#a4990b6b1b417881f0535a498478f2205">More...</a><br/></td></tr>
+<tr class="separator:a4990b6b1b417881f0535a498478f2205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4266f5d426d735721763e75e530cd48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48">setInitialStateWithCov</a> (double z_in, TMatrixD &amp;state_in, TMatrixD &amp;cov_in)</td></tr>
 <tr class="memdesc:af4266f5d426d735721763e75e530cd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set input initial state parameters.  <a href="#af4266f5d426d735721763e75e530cd48">More...</a><br/></td></tr>
 <tr class="separator:af4266f5d426d735721763e75e530cd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,15 +150,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac013889a915dded109c6b9fd236b31dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the propagator.  <a href="#ac013889a915dded109c6b9fd236b31dd">More...</a><br/></td></tr>
 <tr class="separator:ac013889a915dded109c6b9fd236b31dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b1a68079d56beae96151d18c5166526"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526">extrapolateTo</a> (double z_out)</td></tr>
-<tr class="memdesc:a7b1a68079d56beae96151d18c5166526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extrapolate to a new surface z_out.  <a href="#a7b1a68079d56beae96151d18c5166526">More...</a><br/></td></tr>
 <tr class="separator:a7b1a68079d56beae96151d18c5166526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57780e708b3c2fe657e30e27b40f020c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a57780e708b3c2fe657e30e27b40f020c">propagate</a> ()</td></tr>
-<tr class="separator:a57780e708b3c2fe657e30e27b40f020c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e48b35fd7de67039131356ecf4d364e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a6e48b35fd7de67039131356ecf4d364e">extrapolateToIP</a> ()</td></tr>
 <tr class="memdesc:a6e48b35fd7de67039131356ecf4d364e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extrapolate to the primary vertex.  <a href="#a6e48b35fd7de67039131356ecf4d364e">More...</a><br/></td></tr>
 <tr class="separator:a6e48b35fd7de67039131356ecf4d364e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665990fee41ea5f21f14b8b8be2123e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7">convertSVtoMP</a> (double z, TMatrixD &amp;state, TVector3 &amp;mom, TVector3 &amp;pos)</td></tr>
+<tr class="memdesc:a665990fee41ea5f21f14b8b8be2123e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation between the state vector and the mom/pos.  <a href="#a665990fee41ea5f21f14b8b8be2123e7">More...</a><br/></td></tr>
+<tr class="separator:a665990fee41ea5f21f14b8b8be2123e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a555c962eb4a305b009e3a37069a57c63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63">convertMPtoSV</a> (TVector3 &amp;mom, TVector3 &amp;pos, TMatrixD &amp;state)</td></tr>
+<tr class="separator:a555c962eb4a305b009e3a37069a57c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96d70bf901dbf71f4772873a3b1df1b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a96d70bf901dbf71f4772873a3b1df1b5">TRSDSC</a> (int charge, TVector3 mom_input, TVector3 pos_input)</td></tr>
+<tr class="separator:a96d70bf901dbf71f4772873a3b1df1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89a02f2ed82e4444bae4662f07b1682"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#af89a02f2ed82e4444bae4662f07b1682">TRSCSD</a> (int charge, TVector3 mom_input, TVector3 pos_input)</td></tr>
+<tr class="separator:af89a02f2ed82e4444bae4662f07b1682"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21dd0ec6145766afa737e985f91ba803"><td class="memItemLeft" align="right" valign="top">TMatrixD &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a21dd0ec6145766afa737e985f91ba803">getJacSD2SC</a> ()</td></tr>
-<tr class="memdesc:a21dd0ec6145766afa737e985f91ba803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transformation between the state vector and the mom/pos.  <a href="#a21dd0ec6145766afa737e985f91ba803">More...</a><br/></td></tr>
 <tr class="separator:a21dd0ec6145766afa737e985f91ba803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5892fa1bbba8d3493ef26c9648b3617"><td class="memItemLeft" align="right" valign="top">TMatrixD &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#ae5892fa1bbba8d3493ef26c9648b3617">getJacSC2SD</a> ()</td></tr>
 <tr class="separator:ae5892fa1bbba8d3493ef26c9648b3617"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,11 +176,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ace94e29918032ba9c2bc56b686ecbaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Debug print.  <a href="#ace94e29918032ba9c2bc56b686ecbaea">More...</a><br/></td></tr>
 <tr class="separator:ace94e29918032ba9c2bc56b686ecbaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:aae2089d91097080351cc14884e4a5c12"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12">PropDirection</a> { <a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12a99c3d255f69ee5e44c430643bc1ce58c">Forward</a>, 
+<a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12a8305dc5ff739fd560c2183493fc61bb6">Backward</a>
+ }</td></tr>
+<tr class="separator:aae2089d91097080351cc14884e4a5c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a3317d59a737abb177ad57bc4235a21d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a3317d59a737abb177ad57bc4235a21d3">iParType</a></td></tr>
 <tr class="memdesc:a3317d59a737abb177ad57bc4235a21d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Particle type, for now only mu+/- is implemented.  <a href="#a3317d59a737abb177ad57bc4235a21d3">More...</a><br/></td></tr>
 <tr class="separator:a3317d59a737abb177ad57bc4235a21d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1766aa07dd68d098d2b62963f417abe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12">PropDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#ae1766aa07dd68d098d2b62963f417abe">direction</a></td></tr>
+<tr class="separator:ae1766aa07dd68d098d2b62963f417abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa33225d8aedfd63d64d50efe00a16650"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aa33225d8aedfd63d64d50efe00a16650">pos_i</a></td></tr>
+<tr class="separator:aa33225d8aedfd63d64d50efe00a16650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41128aa0a79d447c6a338e067d7aebcc"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a41128aa0a79d447c6a338e067d7aebcc">mom_i</a></td></tr>
+<tr class="separator:a41128aa0a79d447c6a338e067d7aebcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115e1a3c8a6392ce6e61516c53d73bd3"><td class="memItemLeft" align="right" valign="top">TMatrixDSym&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a115e1a3c8a6392ce6e61516c53d73bd3">cov_i</a></td></tr>
+<tr class="separator:a115e1a3c8a6392ce6e61516c53d73bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e0ab5292160534fd597ba605ad47ce"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a12e0ab5292160534fd597ba605ad47ce">pos_f</a></td></tr>
+<tr class="memdesc:a12e0ab5292160534fd597ba605ad47ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final state.  <a href="#a12e0ab5292160534fd597ba605ad47ce">More...</a><br/></td></tr>
+<tr class="separator:a12e0ab5292160534fd597ba605ad47ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb2bba34200e1235f502a5f842927ce"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a5bb2bba34200e1235f502a5f842927ce">mom_f</a></td></tr>
+<tr class="separator:a5bb2bba34200e1235f502a5f842927ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17cc5d3f2ba6630fb5abe6980d09480"><td class="memItemLeft" align="right" valign="top">TMatrixDSym&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#ab17cc5d3f2ba6630fb5abe6980d09480">cov_f</a></td></tr>
+<tr class="separator:ab17cc5d3f2ba6630fb5abe6980d09480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84c29b041eca36f4d034c2d605501ae"><td class="memItemLeft" align="right" valign="top">TMatrixD&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#af84c29b041eca36f4d034c2d605501ae">jac_sd2sc</a></td></tr>
 <tr class="memdesc:af84c29b041eca36f4d034c2d605501ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Jacobians.  <a href="#af84c29b041eca36f4d034c2d605501ae">More...</a><br/></td></tr>
 <tr class="separator:af84c29b041eca36f4d034c2d605501ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +216,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a09db146fe90e02b069f7681a5bd5958d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaada65a0e97fa712009bf2289cf27e97"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aaada65a0e97fa712009bf2289cf27e97">travelLength</a></td></tr>
 <tr class="separator:aaada65a0e97fa712009bf2289cf27e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815fe79082ef827f335540cd5bc39abc"><td class="memItemLeft" align="right" valign="top">TGeoManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#a815fe79082ef827f335540cd5bc39abc">_tgeo_manager</a></td></tr>
+<tr class="separator:a815fe79082ef827f335540cd5bc39abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -197,8 +227,37 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00026">26</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00030">30</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="aae2089d91097080351cc14884e4a5c12"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12">GenFitExtrapolator::PropDirection</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="aae2089d91097080351cc14884e4a5c12a99c3d255f69ee5e44c430643bc1ce58c"></a>Forward</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="aae2089d91097080351cc14884e4a5c12a8305dc5ff739fd560c2183493fc61bb6"></a>Backward</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00090">90</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af6be6f4e2fdd6d21f7c33c32b8b38857"></a>
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +271,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00003">3</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00033">33</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
 
 </div>
 </div>
@@ -229,11 +288,113 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00006">6</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00040">40</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a555c962eb4a305b009e3a37069a57c63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenFitExtrapolator::convertMPtoSV </td>
+          <td>(</td>
+          <td class="paramtype">TVector3 &amp;&#160;</td>
+          <td class="paramname"><em>mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3 &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TMatrixD &amp;&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00320">320</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>.</p>
+
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a555c962eb4a305b009e3a37069a57c63_icgraph.svg" width="344" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a665990fee41ea5f21f14b8b8be2123e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenFitExtrapolator::convertSVtoMP </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TMatrixD &amp;&#160;</td>
+          <td class="paramname"><em>state</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3 &amp;&#160;</td>
+          <td class="paramname"><em>mom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3 &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transformation between the state vector and the mom/pos. </p>
+
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00306">306</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a665990fee41ea5f21f14b8b8be2123e7_icgraph.svg" width="347" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a7b1a68079d56beae96151d18c5166526"></a>
 <div class="memitem">
 <div class="memproto">
@@ -247,10 +408,24 @@ Static Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If the initial or final position is out of the reasonable world</p>
+<p>if the initial and final z position is the same, don't make the transportation </p>
 
-<p>Extrapolate to a new surface z_out. </p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">196</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00029">29</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00122">cov_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00117">cov_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00121">mom_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00116">mom_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00120">pos_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00115">pos_i</a>, and <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00133">travelLength</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">extrapolateToIP()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a7b1a68079d56beae96151d18c5166526_icgraph.svg" width="320" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -269,7 +444,19 @@ Static Private Attributes</h2></td></tr>
 
 <p>Extrapolate to the primary vertex. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00039">39</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">253</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00073">FMAG_LENGTH</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00121">mom_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00116">mom_i</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00074">NSLICES_FMAG</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00075">NSTEPS_TARGET</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00120">pos_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00115">pos_i</a>, and <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00081">Z_UPSTREAM</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a6e48b35fd7de67039131356ecf4d364e_cgraph.svg" width="320" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -299,7 +486,19 @@ Static Private Attributes</h2></td></tr>
 
 <p>Get the final state parameters and covariance. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00022">22</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">131</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00090">Backward</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00320">convertMPtoSV()</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00122">cov_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00091">direction</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00126">jac_sc2sd</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00121">mom_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00120">pos_f</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00418">TRSCSD()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_af0f921bf2fe387759c642a9b7c348109_cgraph.svg" width="344" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -324,9 +523,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00066">66</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00074">74</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00104">jac_sc2sd</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00126">jac_sc2sd</a>.</p>
 
 </div>
 </div>
@@ -351,12 +550,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Transformation between the state vector and the mom/pos. </p>
-<p>Transformation between the SC and SD parameters and error matrix Transplanted from GEANT3 fortran code </p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00073">73</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00065">65</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
-
-<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00103">jac_sd2sc</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00125">jac_sd2sc</a>.</p>
 
 </div>
 </div>
@@ -376,7 +572,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Get the propagator. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00026">26</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00168">168</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
 
 </div>
 </div>
@@ -401,33 +597,27 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00043">43</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00048">48</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00111">travelLength</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00133">travelLength</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1cbca6385cbc9c9f01dc902826081057"></a>
+<a class="anchor" id="a4990b6b1b417881f0535a498478f2205"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">bool GenFitExtrapolator::init </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>geometrySchema</em>, </td>
+          <td class="paramtype">const <a class="el" href="../../da/ddc/classPHField.html">PHField</a> *&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>fMagStr</em> = <code><a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6">FMAGSTR</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>kMagStr</em> = <code><a class="el" href="../../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a18ee879a71a96e2bb86c6e43e4ff4569">KMAGSTR</a></code>&#160;</td>
+          <td class="paramtype">const TGeoManager *&#160;</td>
+          <td class="paramname"><em>geom</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -439,7 +629,19 @@ Static Private Attributes</h2></td></tr>
 
 <p>Initialize geometry and physics. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00009">9</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00043">43</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00135">_tgeo_manager</a>, <a class="el" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">PHField::GetFieldValue()</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>, and <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00102">LogInfo</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a4990b6b1b417881f0535a498478f2205_cgraph.svg" width="347" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -458,24 +660,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Debug print. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00044">44</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">499</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
 
-</div>
-</div>
-<a class="anchor" id="a57780e708b3c2fe657e30e27b40f020c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int GenFitExtrapolator::propagate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00034">34</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00122">cov_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00117">cov_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00121">mom_f</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00116">mom_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00120">pos_f</a>, and <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00115">pos_i</a>.</p>
 
 </div>
 </div>
@@ -510,8 +697,28 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set input initial state parameters. </p>
+<p>5D cov </p>
+<p>convert the error matrix from SD to SC </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cov_in</td><td>5D state defined on (0, 0, z) </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00015">15</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">78</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00306">convertSVtoMP()</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00117">cov_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00125">jac_sd2sc</a>, <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00102">LogInfo</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00116">mom_i</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00115">pos_i</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00127">setParticleType()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00332">TRSDSC()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_af4266f5d426d735721763e75e530cd48_cgraph.svg" width="347" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -537,9 +744,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00070">70</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00078">78</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00110">calcLength</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00132">calcLength</a>.</p>
 
 </div>
 </div>
@@ -559,7 +766,21 @@ Static Private Attributes</h2></td></tr>
 
 <p>Set particle type. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00019">19</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00127">127</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">iParType</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a9dac444d8a4c8632bf60968fa5b929c3_icgraph.svg" width="347" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -587,13 +808,140 @@ Static Private Attributes</h2></td></tr>
 
 <p>External control of modes. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00069">69</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00077">77</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00107">calcProp</a>.</p>
+<p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00129">calcProp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af89a02f2ed82e4444bae4662f07b1682"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenFitExtrapolator::TRSCSD </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>charge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>mom_input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>pos_input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>convert the internal momentum and positon to ROOT vectors and use GeV and cm</p>
+<p>Define the V and W direction of SD coordinate</p>
+<p>Calculate the representation of momentum </p>
+
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00418">418</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00029">c_light</a>, and <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00126">jac_sc2sd</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_af89a02f2ed82e4444bae4662f07b1682_icgraph.svg" width="344" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a96d70bf901dbf71f4772873a3b1df1b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GenFitExtrapolator::TRSDSC </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>charge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>mom_input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TVector3&#160;</td>
+          <td class="paramname"><em>pos_input</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Transformation between the SC and SD parameters and error matrix Transplanted from GEANT3 fortran code </p>
+<p>convert the internal momentum and positon to ROOT vectors and use GeV and cm</p>
+<p>Define the V and W direction of SD coordinate</p>
+<p>Calculate the representation of momentum </p>
+
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00332">332</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00029">c_light</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00125">jac_sd2sc</a>, and <a class="el" href="../../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h_source.html#l00102">LogInfo</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d3d/classGenFitExtrapolator_a96d70bf901dbf71f4772873a3b1df1b5_icgraph.svg" width="347" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a815fe79082ef827f335540cd5bc39abc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TGeoManager* GenFitExtrapolator::_tgeo_manager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00135">135</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00043">init()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a09db146fe90e02b069f7681a5bd5958d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -614,9 +962,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Control on calculation of travel length. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00110">110</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00132">132</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00070">setLengthCalc()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00078">setLengthCalc()</a>.</p>
 
 </div>
 </div>
@@ -640,9 +988,81 @@ Static Private Attributes</h2></td></tr>
 
 <p>Control on calculation of propagation matrix. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00107">107</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00129">129</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00069">setPropCalc()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00077">setPropCalc()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab17cc5d3f2ba6630fb5abe6980d09480"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMatrixDSym GenFitExtrapolator::cov_f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00122">122</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a115e1a3c8a6392ce6e61516c53d73bd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMatrixDSym GenFitExtrapolator::cov_i</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00117">117</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae1766aa07dd68d098d2b62963f417abe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html#aae2089d91097080351cc14884e4a5c12">PropDirection</a> GenFitExtrapolator::direction</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00091">91</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>.</p>
 
 </div>
 </div>
@@ -666,7 +1086,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Internal static flag, check if the tracking manager has been inited of not. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00078">78</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00086">86</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
 </div>
 </div>
@@ -690,7 +1110,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>Particle type, for now only mu+/- is implemented. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00081">81</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00089">89</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00320">convertMPtoSV()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00043">init()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00127">setParticleType()</a>.</p>
 
 </div>
 </div>
@@ -712,9 +1134,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00104">104</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00126">126</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00066">getJacSC2SD()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>, <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00074">getJacSC2SD()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00418">TRSCSD()</a>.</p>
 
 </div>
 </div>
@@ -738,9 +1160,108 @@ Static Private Attributes</h2></td></tr>
 
 <p>Jacobians. </p>
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00103">103</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00125">125</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00065">getJacSD2SC()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00073">getJacSD2SC()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00332">TRSDSC()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5bb2bba34200e1235f502a5f842927ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 GenFitExtrapolator::mom_f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00121">121</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">extrapolateToIP()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a41128aa0a79d447c6a338e067d7aebcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 GenFitExtrapolator::mom_i</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00116">116</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">extrapolateToIP()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12e0ab5292160534fd597ba605ad47ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 GenFitExtrapolator::pos_f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Final state. </p>
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00120">120</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">extrapolateToIP()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00131">getFinalStateWithCov()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa33225d8aedfd63d64d50efe00a16650"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TVector3 GenFitExtrapolator::pos_i</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GenFit uses cm, GeV and kilogauss Initial state </p>
+
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00115">115</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00253">extrapolateToIP()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00499">print()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00078">setInitialStateWithCov()</a>.</p>
 
 </div>
 </div>
@@ -762,9 +1283,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00111">111</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00133">133</a> of file <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00043">getTravelLength()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00196">extrapolateTo()</a>, and <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00048">getTravelLength()</a>.</p>
 
 </div>
 </div>
@@ -782,7 +1303,7 @@ Static Private Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d1/d3d/classGenFitExtrapolator.html">GenFitExtrapolator</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:03</em> using <a
+			updated: <em>Wed May 16 2018 15:20:57</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -111,21 +111,69 @@ $(document).ready(function(){initNavTree('d0/d9f/GenFitExtrapolator_8cxx.html','
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">GenFitExtrapolator.cxx File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html">GenFitExtrapolator.h</a>&quot;</code><br/>
+<code>#include &lt;phfield/PHFieldUtility.h&gt;</code><br/>
+<code>#include &lt;phfield/PHFieldConfig_v3.h&gt;</code><br/>
+<code>#include &lt;phfield/PHField.h&gt;</code><br/>
+<code>#include &lt;genfitexp/Field.h&gt;</code><br/>
+<code>#include &lt;GenFit/FieldManager.h&gt;</code><br/>
+<code>#include &lt;GenFit/MaterialEffects.h&gt;</code><br/>
+<code>#include &lt;GenFit/TGeoMaterialInterface.h&gt;</code><br/>
+<code>#include &lt;GenFit/MeasuredStateOnPlane.h&gt;</code><br/>
+<code>#include &lt;GenFit/SharedPlanePtr.h&gt;</code><br/>
+<code>#include &lt;GenFit/RKTrackRep.h&gt;</code><br/>
+<code>#include &lt;TGeoManager.h&gt;</code><br/>
+<code>#include &lt;TMath.h&gt;</code><br/>
+<code>#include &lt;G4SystemOfUnits.hh&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
+<code>#include &lt;cassert&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for GenFitExtrapolator.cxx:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d55/GenFitExtrapolator_8cxx__incl.svg" width="418" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d55/GenFitExtrapolator_8cxx__incl.svg" width="2762" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
 <p><a href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2085cc4cdb90e7a156b5dbdbe44bf7aa"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx.html#a2085cc4cdb90e7a156b5dbdbe44bf7aa">c_light</a> = 2.99792458e+8 * m/s</td></tr>
+<tr class="separator:a2085cc4cdb90e7a156b5dbdbe44bf7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a2085cc4cdb90e7a156b5dbdbe44bf7aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double c_light = 2.99792458e+8 * m/s</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00029">29</a> of file <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html">GenFitExtrapolator.cxx</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/de5/PHG4mRICHDetector_8cc_source.html#l00619">PHG4mRICHDetector::build_mirror()</a>, <a class="el" href="../../da/d12/PHG4CylinderCellTPCReco_8cc_source.html#l00278">PHG4CylinderCellTPCReco::process_event()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00418">GenFitExtrapolator::TRSCSD()</a>, <a class="el" href="../../d4/dc9/TrackExtrapolator_8cc_source.html#l00495">TrackExtrapolator::TRSCSD()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00332">GenFitExtrapolator::TRSDSC()</a>, and <a class="el" href="../../d4/dc9/TrackExtrapolator_8cc_source.html#l00405">TrackExtrapolator::TRSDSC()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -136,7 +184,7 @@ $(document).ready(function(){initNavTree('d0/d9f/GenFitExtrapolator_8cxx.html','
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_f39976c1790043907011bb8ccaa82059.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_47b75f99826f49810108a9a6dbe8d117.html">ktracker</a></li><li class="navelem"><a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx.html">GenFitExtrapolator.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
+			updated: <em>Wed May 16 2018 15:20:54</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -52,6 +52,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Home&#160;page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../modules.html"><span>Modules</span></a></li>
       <li><a href="../../namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
@@ -100,7 +101,7 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc_source.html','
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(11)"><span class="SelectionMark">&#160;</span>Groups</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(12)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -117,88 +118,90 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc_source.html','
 <a href="../../d4/d30/PHRandomSeed_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dea/PHRandomSeed_8h.html">PHRandomSeed.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_const.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_randist.h&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;gsl/gsl_rng.h&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;cstdio&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a62fc5eac47e7633cb8659c7e96523e3f">PHRandomSeed::fInitialized</a>(<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;mt19937 <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a8b97a07b7191fef0ddd499b08fe805f5">PHRandomSeed::fRandomGenerator</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;uniform_int_distribution&lt;unsigned int&gt; <a class="code" href="../../dd/d1f/classPHRandomSeed.html#afa729ded0d66af0cffff7fd62eca6937">PHRandomSeed::fDistribution</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">   20</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">PHRandomSeed::GetSeed</a>()</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">if</span> (!fInitialized)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    InitSeed();</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  assert(fInitialized);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordflow">return</span> fDistribution(fRandomGenerator);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">PHRandomSeed::InitSeed</a>()</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="../../d8/d14/classrecoConsts.html">recoConsts</a> *rc = <a class="code" href="../../d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802">recoConsts::instance</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">if</span> (rc-&gt;<a class="code" href="../../d1/da8/classPHFlag.html#a4b73a422f0076568904d71f40e849da5">FlagExist</a>(<span class="stringliteral">&quot;RANDOMSEED&quot;</span>))</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// fixed init seed</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> seed = rc-&gt;<a class="code" href="../../d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8">get_IntFlag</a>(<span class="stringliteral">&quot;RANDOMSEED&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    fRandomGenerator.seed(seed);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    fInitialized = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;PHRandomSeed::InitSeed - initialized with fixed random seed &quot;</span> &lt;&lt; seed &lt;&lt; <span class="stringliteral">&quot; from recoConsts.RANDOMSEED. &quot;</span>&lt;&lt;endl</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        &lt;&lt;  <span class="stringliteral">&quot;                         To reproduce this random number sequences, please add this line to Fun4All macro: &quot;</span>&lt;&lt;endl</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        &lt;&lt;  <span class="stringliteral">&quot;                         recoConsts::instance()-&gt;set_IntFlag(\&quot;RANDOMSEED\&quot;, &quot;</span> &lt;&lt; seed &lt;&lt; <span class="stringliteral">&quot;);&quot;</span>;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;queue&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;random&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">   11</a></span>&#160;<span class="keyword">static</span> queue&lt;unsigned int&gt; <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">   12</a></span>&#160;<span class="keyword">static</span> std::mt19937 <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">fRandomGenerator</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d4/d30/PHRandomSeed_8cc.html#ad95ea899ac61e4ad65acbaefdccbe16f">   13</a></span>&#160;<span class="keyword">static</span> std::uniform_int_distribution&lt;unsigned int&gt; <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#ad95ea899ac61e4ad65acbaefdccbe16f">fDistribution</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a62fc5eac47e7633cb8659c7e96523e3f">PHRandomSeed::fInitialized</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a14a37d5a31ba45b5d2e2f97e7206ca43">PHRandomSeed::fFixed</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a23ca1f7112a3be58d28bda17c7f86f8b">PHRandomSeed::verbose</a>(0);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">   19</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">PHRandomSeed::GetSeed</a>()</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> iseed;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a>.empty())</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    iseed = <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a>.front();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a>.pop();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span> (!fInitialized)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      InitSeed();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (fFixed)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      iseed = <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#ad95ea899ac61e4ad65acbaefdccbe16f">fDistribution</a>(<a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">fRandomGenerator</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      std::random_device rdev;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      iseed = rdev();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">if</span> (verbose)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// random init seed</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">//  that&#39;s when we switch to c++11</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//  std::random_device rdev;</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">//  uint32_t random_seed = rdev();</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> random_seed(0);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// use /dev/urandom which unlike /dev/random is non blocking</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// even if entropy is too low. Not for use in cryptographic apps but</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// good enough for a random seed</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    FILE *fp = fopen(<span class="stringliteral">&quot;/dev/urandom&quot;</span>, <span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> (!fp)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;could not open /dev/urandom for seed&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      exit(1);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">size_t</span> readbytes = fread(&amp;random_seed, <span class="keyword">sizeof</span>(random_seed), 1, fp);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    fclose(fp);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (!readbytes)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;PHRandomSeed: reading /dev/urandom failed&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      exit(1);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    fRandomGenerator.seed(random_seed);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    fInitialized = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;PHRandomSeed::InitSeed - initialized with random seed &quot;</span> &lt;&lt; random_seed &lt;&lt; <span class="stringliteral">&quot; from /dev/urandom. &quot;</span>&lt;&lt;endl</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;         &lt;&lt; <span class="stringliteral">&quot;                         To reproduce this random number sequences, please add this line to Fun4All macro&quot;</span>&lt;&lt;endl</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;         &lt;&lt; <span class="stringliteral">&quot;                         recoConsts::instance()-&gt;set_IntFlag(\&quot;RANDOMSEED\&quot;, &quot;</span> &lt;&lt; random_seed &lt;&lt; <span class="stringliteral">&quot;);&quot;</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="ttc" id="classPHRandomSeed_html_a5418cdc134aabef0a1556c102a790b5f"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">PHRandomSeed::GetSeed</a></div><div class="ttdeci">static unsigned int GetSeed()</div><div class="ttdoc">get a seed </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00020">PHRandomSeed.cc:20</a></div></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;PHRandomSeed::GetSeed() seed: &quot;</span> &lt;&lt; iseed &lt;&lt; endl;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">return</span> iseed;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">   50</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">PHRandomSeed::InitSeed</a>()</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <a class="code" href="../../d8/d14/classrecoConsts.html">recoConsts</a> *rc = <a class="code" href="../../d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802">recoConsts::instance</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span> (rc-&gt;<a class="code" href="../../d1/da8/classPHFlag.html#a4b73a422f0076568904d71f40e849da5">FlagExist</a>(<span class="stringliteral">&quot;RANDOMSEED&quot;</span>))</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// fixed init seed</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> seed = rc-&gt;<a class="code" href="../../d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8">get_IntFlag</a>(<span class="stringliteral">&quot;RANDOMSEED&quot;</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;PHRandomSeed: using fixed seed &quot;</span> &lt;&lt; seed &lt;&lt; endl;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">fRandomGenerator</a>.seed(seed);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    fFixed = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    fInitialized = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#a82d8caaa0180a43adc05ae970b164b05">   64</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#a82d8caaa0180a43adc05ae970b164b05">PHRandomSeed::LoadSeed</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> iseed)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a>.push(iseed);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../dd/d1f/classPHRandomSeed.html#aeb341ccbb246184d6bbab8cbf649b895">   69</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d1f/classPHRandomSeed.html#aeb341ccbb246184d6bbab8cbf649b895">PHRandomSeed::Verbosity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> iverb)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  verbose = iverb;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="ttc" id="classPHRandomSeed_html_a5418cdc134aabef0a1556c102a790b5f"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a5418cdc134aabef0a1556c102a790b5f">PHRandomSeed::GetSeed</a></div><div class="ttdeci">static unsigned int GetSeed()</div><div class="ttdoc">get a seed </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00019">PHRandomSeed.cc:19</a></div></div>
 <div class="ttc" id="recoConsts_8h_html"><div class="ttname"><a href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_a82d8caaa0180a43adc05ae970b164b05"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a82d8caaa0180a43adc05ae970b164b05">PHRandomSeed::LoadSeed</a></div><div class="ttdeci">static void LoadSeed(const unsigned int iseed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00064">PHRandomSeed.cc:64</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_a23ca1f7112a3be58d28bda17c7f86f8b"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a23ca1f7112a3be58d28bda17c7f86f8b">PHRandomSeed::verbose</a></div><div class="ttdeci">static int verbose</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00029">PHRandomSeed.h:29</a></div></div>
 <div class="ttc" id="classrecoConsts_html"><div class="ttname"><a href="../../d8/d14/classrecoConsts.html">recoConsts</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcb/recoConsts_8h_source.html#l00009">recoConsts.h:9</a></div></div>
-<div class="ttc" id="classPHRandomSeed_html_a2bde8781fe8b52f6f01d4160139f4f55"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">PHRandomSeed::InitSeed</a></div><div class="ttdeci">static void InitSeed()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00029">PHRandomSeed.cc:29</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_a2bde8781fe8b52f6f01d4160139f4f55"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a2bde8781fe8b52f6f01d4160139f4f55">PHRandomSeed::InitSeed</a></div><div class="ttdeci">static void InitSeed()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00050">PHRandomSeed.cc:50</a></div></div>
+<div class="ttc" id="PHRandomSeed_8cc_html_ad95ea899ac61e4ad65acbaefdccbe16f"><div class="ttname"><a href="../../d4/d30/PHRandomSeed_8cc.html#ad95ea899ac61e4ad65acbaefdccbe16f">fDistribution</a></div><div class="ttdeci">static std::uniform_int_distribution&lt; unsigned int &gt; fDistribution</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00013">PHRandomSeed.cc:13</a></div></div>
 <div class="ttc" id="classPHFlag_html_a4b73a422f0076568904d71f40e849da5"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a4b73a422f0076568904d71f40e849da5">PHFlag::FlagExist</a></div><div class="ttdeci">virtual int FlagExist(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00204">PHFlag.cc:204</a></div></div>
 <div class="ttc" id="classrecoConsts_html_ae69a5c29a7199ba16d0e537158618802"><div class="ttname"><a href="../../d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802">recoConsts::instance</a></div><div class="ttdeci">static recoConsts * instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcb/recoConsts_8h_source.html#l00014">recoConsts.h:14</a></div></div>
+<div class="ttc" id="PHRandomSeed_8cc_html_af4cf31588233791922f77996f91429ad"><div class="ttname"><a href="../../d4/d30/PHRandomSeed_8cc.html#af4cf31588233791922f77996f91429ad">fRandomGenerator</a></div><div class="ttdeci">static std::mt19937 fRandomGenerator</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00012">PHRandomSeed.cc:12</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_aeb341ccbb246184d6bbab8cbf649b895"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#aeb341ccbb246184d6bbab8cbf649b895">PHRandomSeed::Verbosity</a></div><div class="ttdeci">static void Verbosity(const int iverb)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00069">PHRandomSeed.cc:69</a></div></div>
 <div class="ttc" id="PHRandomSeed_8h_html"><div class="ttname"><a href="../../de/dea/PHRandomSeed_8h.html">PHRandomSeed.h</a></div></div>
-<div class="ttc" id="classPHRandomSeed_html_afa729ded0d66af0cffff7fd62eca6937"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#afa729ded0d66af0cffff7fd62eca6937">PHRandomSeed::fDistribution</a></div><div class="ttdeci">static std::uniform_int_distribution&lt; unsigned int &gt; fDistribution</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00032">PHRandomSeed.h:32</a></div></div>
-<div class="ttc" id="classPHRandomSeed_html_a62fc5eac47e7633cb8659c7e96523e3f"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a62fc5eac47e7633cb8659c7e96523e3f">PHRandomSeed::fInitialized</a></div><div class="ttdeci">static bool fInitialized</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00030">PHRandomSeed.h:30</a></div></div>
-<div class="ttc" id="classPHRandomSeed_html_a8b97a07b7191fef0ddd499b08fe805f5"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a8b97a07b7191fef0ddd499b08fe805f5">PHRandomSeed::fRandomGenerator</a></div><div class="ttdeci">static std::mt19937 fRandomGenerator</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00031">PHRandomSeed.h:31</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_a14a37d5a31ba45b5d2e2f97e7206ca43"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a14a37d5a31ba45b5d2e2f97e7206ca43">PHRandomSeed::fFixed</a></div><div class="ttdeci">static bool fFixed</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00027">PHRandomSeed.h:27</a></div></div>
+<div class="ttc" id="classPHRandomSeed_html_a62fc5eac47e7633cb8659c7e96523e3f"><div class="ttname"><a href="../../dd/d1f/classPHRandomSeed.html#a62fc5eac47e7633cb8659c7e96523e3f">PHRandomSeed::fInitialized</a></div><div class="ttdeci">static bool fInitialized</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dea/PHRandomSeed_8h_source.html#l00028">PHRandomSeed.h:28</a></div></div>
+<div class="ttc" id="PHRandomSeed_8cc_html_a75bdebb61403f8cd3b20fab54d3dddbc"><div class="ttname"><a href="../../d4/d30/PHRandomSeed_8cc.html#a75bdebb61403f8cd3b20fab54d3dddbc">seedqueue</a></div><div class="ttdeci">static queue&lt; unsigned int &gt; seedqueue</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d30/PHRandomSeed_8cc_source.html#l00011">PHRandomSeed.cc:11</a></div></div>
 <div class="ttc" id="classPHFlag_html_a07899067141a5f12333cc37183caddc8"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8">PHFlag::get_IntFlag</a></div><div class="ttdeci">virtual int get_IntFlag(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00114">PHFlag.cc:114</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -210,7 +213,7 @@ $(document).ready(function(){initNavTree('d4/d30/PHRandomSeed_8cc_source.html','
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_148e408a6779c3c63aed622cf91cae82.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_fafd1ca92eee10497467c0c504fece1f.html">phool</a></li><li class="navelem"><a class="el" href="../../d4/d30/PHRandomSeed_8cc.html">PHRandomSeed.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 1 2017 15:15:31</em> using <a
+			updated: <em>Wed May 16 2018 15:20:50</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

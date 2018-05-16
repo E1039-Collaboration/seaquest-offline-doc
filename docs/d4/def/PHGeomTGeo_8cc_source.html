@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//ClassImp(PHGeomTGeo);</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d7/d6d/classPHGeomTGeo.html#a9cb6b56d45d105fef08832e254565d3e">   22</a></span>&#160;<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a9cb6b56d45d105fef08832e254565d3e">PHGeomTGeo::PHGeomTGeo</a>() :</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    _fGeom(NULL)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    _fGeom(<a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">//  SplitLevel(0);</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926">   35</a></span>&#160;<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926">PHGeomTGeo::SetGeometry</a>(TGeoManager * g)</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821">ConsistencyCheck</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  assert(<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == NULL);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  assert(<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">if</span> (!g)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
@@ -161,8 +161,8 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;TGeoManager *</div>
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9">   53</a></span>&#160;<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9">PHGeomTGeo::GetGeometry</a>()</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == NULL)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821">ConsistencyCheck</a>();</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">return</span> NULL;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a>-&gt;UnlockGeometry();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="keyword">delete</span> <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a>;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> = NULL;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keywordtype">int</span></div>
@@ -205,7 +205,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <a class="code" href="../../d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821">ConsistencyCheck</a>();</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == NULL)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a>-&gt;IsZombie())</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> 0;</div>
@@ -215,7 +215,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">bool</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821">  112</a></span>&#160;<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821">PHGeomTGeo::ConsistencyCheck</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == NULL)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// uninitialized</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f">_fGeom</a> == gGeoManager)</div>
@@ -239,6 +239,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 <div class="ttc" id="classPHGeomTGeo_html_a6f9c494a30dab6ed3b5a221c95d150d5"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a6f9c494a30dab6ed3b5a221c95d150d5">PHGeomTGeo::identify</a></div><div class="ttdeci">virtual void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00072">PHGeomTGeo.cc:72</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_a7d42ff78b39b8bf5c73361483a45ba11"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a7d42ff78b39b8bf5c73361483a45ba11">PHGeomTGeo::~PHGeomTGeo</a></div><div class="ttdeci">virtual ~PHGeomTGeo()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00028">PHGeomTGeo.cc:28</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_a9cb6b56d45d105fef08832e254565d3e"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a9cb6b56d45d105fef08832e254565d3e">PHGeomTGeo::PHGeomTGeo</a></div><div class="ttdeci">PHGeomTGeo()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00022">PHGeomTGeo.cc:22</a></div></div>
+<div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_af0772491188524c7674c1ef004d49ad5"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#af0772491188524c7674c1ef004d49ad5">PHGeomTGeo::Reset</a></div><div class="ttdeci">virtual void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00086">PHGeomTGeo.cc:86</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_a3e111f6229f7ce6392b14a98fdf5bea9"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9">PHGeomTGeo::GetGeometry</a></div><div class="ttdeci">TGeoManager * GetGeometry()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00053">PHGeomTGeo.cc:53</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_a69190f7dbaee394d90516bce19e224a0"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a69190f7dbaee394d90516bce19e224a0">PHGeomTGeo::isValid</a></div><div class="ttdeci">virtual int isValid() const </div><div class="ttdoc">isValid returns non zero if object contains vailid data </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00100">PHGeomTGeo.cc:100</a></div></div>
@@ -252,7 +253,7 @@ $(document).ready(function(){initNavTree('d4/def/PHGeomTGeo_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_f39976c1790043907011bb8ccaa82059.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_c33a17928d379f31518935ef89940dfe.html">PHGeometry</a></li><li class="navelem"><a class="el" href="../../d4/def/PHGeomTGeo_8cc.html">PHGeomTGeo.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 8 2018 11:32:02</em> using <a
+			updated: <em>Wed May 16 2018 15:20:50</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
