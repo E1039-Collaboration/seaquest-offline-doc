@@ -196,7 +196,7 @@ $(document).ready(function(){initNavTree('d8/d06/PHG4DSTReader_8cc_source.html',
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html">record</a> rec;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#aebc8cc556e5878e1f53094fefd0d3e26">_cnt</a> = 0;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689">_name</a> = hname;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::shared_ptr&lt;TClonesArray&gt;(class_name, arr_size);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::make_shared&lt;TClonesArray&gt;(class_name, arr_size);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a731b546c706217e7a8afe0c05fc97efd">_arr_ptr</a> = rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a>.get();</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a5e4ead561a52400f0a720ee2cb40dffa">_type</a> = <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3faa25bb60c2302cc22ea4e7b1ca5ed42a2">record::typ_hit</a>;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
@@ -217,7 +217,7 @@ $(document).ready(function(){initNavTree('d8/d06/PHG4DSTReader_8cc_source.html',
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html">record</a> rec;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#aebc8cc556e5878e1f53094fefd0d3e26">_cnt</a> = 0;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689">_name</a> = <span class="stringliteral">&quot;PHG4Particle&quot;</span>;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::shared_ptr&lt;TClonesArray&gt;(class_name, arr_size);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::make_shared&lt;TClonesArray&gt;(class_name, arr_size);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a731b546c706217e7a8afe0c05fc97efd">_arr_ptr</a> = rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a>.get();</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a5e4ead561a52400f0a720ee2cb40dffa">_type</a> = <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3fa5d68dd952f40b77a91d6a85d553bc18b">record::typ_part</a>;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;</div>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('d8/d06/PHG4DSTReader_8cc_source.html',
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html">record</a> rec;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#aebc8cc556e5878e1f53094fefd0d3e26">_cnt</a> = 0;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689">_name</a> = <span class="stringliteral">&quot;PHG4VtxPoint&quot;</span>;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::shared_ptr&lt;TClonesArray&gt;(class_name, arr_size);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a> = std::make_shared&lt;TClonesArray&gt;(class_name, arr_size);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a731b546c706217e7a8afe0c05fc97efd">_arr_ptr</a> = rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79">_arr</a>.get();</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      rec.<a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a5e4ead561a52400f0a720ee2cb40dffa">_type</a> = <a class="code" href="../../db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3faa21f0f70dbca6472918c8768cdf18560">record::typ_vertex</a>;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
@@ -669,10 +669,10 @@ $(document).ready(function(){initNavTree('d8/d06/PHG4DSTReader_8cc_source.html',
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_c44bdef8d2c50542e2f1b63b16d5515c.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_5cf3786aa331c8a3cd545ef469304e41.html">g4eval</a></li><li class="navelem"><a class="el" href="../../d8/d06/PHG4DSTReader_8cc.html">PHG4DSTReader.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a950925fee4869d30dce73d61f4f3af6.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_cee4256c7625ab1e07f956565e8e11ba.html">g4eval</a></li><li class="navelem"><a class="el" href="../../d8/d06/PHG4DSTReader_8cc.html">PHG4DSTReader.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 16 2018 15:20:53</em> using <a
+			updated: <em>Tue Jun 12 2018 21:01:21</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

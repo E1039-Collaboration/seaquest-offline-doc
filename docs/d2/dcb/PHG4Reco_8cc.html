@@ -138,6 +138,7 @@ $(document).ready(function(){initNavTree('d2/dcb/PHG4Reco_8cc.html','../../');})
 <code>#include &lt;phfield/PHFieldUtility.h&gt;</code><br/>
 <code>#include &lt;phfield/PHFieldConfig_v1.h&gt;</code><br/>
 <code>#include &lt;phfield/PHFieldConfig_v2.h&gt;</code><br/>
+<code>#include &lt;phfield/PHFieldConfig_v3.h&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d8/d30/PHCompositeNode_8h_source.html">phool/PHCompositeNode.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../de/dea/PHRandomSeed_8h_source.html">phool/PHRandomSeed.h</a>&gt;</code><br/>
@@ -188,6 +189,8 @@ $(document).ready(function(){initNavTree('d2/dcb/PHG4Reco_8cc.html','../../');})
 <code>#include &lt;cassert&gt;</code><br/>
 <code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;cstring&gt;</code><br/>
+<code>#include &lt;sstream&gt;</code><br/>
+<code>#include &lt;iterator&gt;</code><br/>
 </div>
 <p><a href="../../d2/dcb/PHG4Reco_8cc_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -219,7 +222,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00084">84</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00085">85</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
 
 </div>
 </div>
@@ -238,19 +241,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00678">678</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00689">689</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
 
-<p>References <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00105">gui_thread</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00108">UImanager</a>.</p>
+<p>References <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00108">gui_thread</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00111">UImanager</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00521">PHG4Reco::StartGui()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00532">PHG4Reco::StartGui()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dcb/PHG4Reco_8cc_a4dbc25d487f7308828b303145063304e_icgraph.svg" width="294" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/dcb/PHG4Reco_8cc_a4dbc25d487f7308828b303145063304e_icgraph.svg" width="294" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -275,9 +277,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00105">105</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00108">108</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00678">g4guithread()</a>, <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00521">PHG4Reco::StartGui()</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00151">PHG4Reco::~PHG4Reco()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00689">g4guithread()</a>, <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00532">PHG4Reco::StartGui()</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00154">PHG4Reco::~PHG4Reco()</a>.</p>
 
 </div>
 </div>
@@ -291,9 +293,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00108">108</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00111">111</a> of file <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html">PHG4Reco.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00513">PHG4Reco::ApplyCommand()</a>, <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00678">g4guithread()</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00533">PHG4Reco::InitUImanager()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00524">PHG4Reco::ApplyCommand()</a>, <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00689">g4guithread()</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00544">PHG4Reco::InitUImanager()</a>.</p>
 
 </div>
 </div>
@@ -304,10 +306,10 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_c44bdef8d2c50542e2f1b63b16d5515c.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_7dc45e2a8cbbfaf53f97b20cc5a980fb.html">g4main</a></li><li class="navelem"><a class="el" href="../../d2/dcb/PHG4Reco_8cc.html">PHG4Reco.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a950925fee4869d30dce73d61f4f3af6.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_a0796238a5b6c59d033c6359068f4cdc.html">g4main</a></li><li class="navelem"><a class="el" href="../../d2/dcb/PHG4Reco_8cc.html">PHG4Reco.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 16 2018 15:20:56</em> using <a
+			updated: <em>Tue Jun 12 2018 21:01:23</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

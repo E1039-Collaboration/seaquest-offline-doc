@@ -129,12 +129,12 @@ $(document).ready(function(){initNavTree('dd/de2/PHTimeServer_8cc_source.html','
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">string</span> tmp_key( key );</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../de/deb/namespaceGridUtil.html#ad9d7e327260126893b2a90156625467c">version</a> = 0;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> version = 0;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">while</span>( ( _timers.find(tmp_key) ) != _timers.end() )</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        version++;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        ostringstream o;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        o &lt;&lt; key &lt;&lt; <span class="stringliteral">&quot;_&quot;</span> &lt;&lt; <a class="code" href="../../de/deb/namespaceGridUtil.html#ad9d7e327260126893b2a90156625467c">version</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        o &lt;&lt; key &lt;&lt; <span class="stringliteral">&quot;_&quot;</span> &lt;&lt; version;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        tmp_key = o.str();</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
@@ -150,12 +150,12 @@ $(document).ready(function(){initNavTree('dd/de2/PHTimeServer_8cc_source.html','
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">string</span> tmp_key( key );</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../de/deb/namespaceGridUtil.html#ad9d7e327260126893b2a90156625467c">version</a> = 0;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> version = 0;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">while</span>( ( _single_shot_timers.find(tmp_key) ) != _single_shot_timers.end() )</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        version++;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        ostringstream o;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        o &lt;&lt; key &lt;&lt; <span class="stringliteral">&quot;_&quot;</span> &lt;&lt; <a class="code" href="../../de/deb/namespaceGridUtil.html#ad9d7e327260126893b2a90156625467c">version</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        o &lt;&lt; key &lt;&lt; <span class="stringliteral">&quot;_&quot;</span> &lt;&lt; version;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        tmp_key = o.str();</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
@@ -293,7 +293,6 @@ $(document).ready(function(){initNavTree('dd/de2/PHTimeServer_8cc_source.html','
 <div class="ttc" id="classPHTimeServer_html_a16a5f81cb1f8b9ec11927b9a4ae883c6"><div class="ttname"><a href="../../d3/de2/classPHTimeServer.html#a16a5f81cb1f8b9ec11927b9a4ae883c6">PHTimeServer::insert_new_single_shot</a></div><div class="ttdeci">timer insert_new_single_shot(const std::string &amp;)</div><div class="ttdoc">insert new single_shot timer in map. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/PHTimeServer_8cc_source.html#l00040">PHTimeServer.cc:40</a></div></div>
 <div class="ttc" id="classPHTimeServer_html_afe7fec18fe00cc4dbd9bbcafef2d1a58"><div class="ttname"><a href="../../d3/de2/classPHTimeServer.html#afe7fec18fe00cc4dbd9bbcafef2d1a58">PHTimeServer::print</a></div><div class="ttdeci">void print(std::ostream &amp;out=std::cout) const </div><div class="ttdoc">dump all registered timer value. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/PHTimeServer_8cc_source.html#l00090">PHTimeServer.cc:90</a></div></div>
 <div class="ttc" id="classPHTimeServer_html_a9e67cf8aa4c55cd7737efb13e69027d6"><div class="ttname"><a href="../../d3/de2/classPHTimeServer.html#a9e67cf8aa4c55cd7737efb13e69027d6">PHTimeServer::get_single_shot_timer</a></div><div class="ttdeci">timer get_single_shot_timer(const std::string &amp;)</div><div class="ttdoc">retrieve existing timer. throw exception if not found </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/PHTimeServer_8cc_source.html#l00076">PHTimeServer.cc:76</a></div></div>
-<div class="ttc" id="namespaceGridUtil_html_ad9d7e327260126893b2a90156625467c"><div class="ttname"><a href="../../de/deb/namespaceGridUtil.html#ad9d7e327260126893b2a90156625467c">GridUtil.version</a></div><div class="ttdeci">tuple version</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1a/GridUtil_8py_source.html#l00014">GridUtil.py:14</a></div></div>
 <div class="ttc" id="classPHTimeServer_html_a16038c769015057b02080396e0acb366"><div class="ttname"><a href="../../d3/de2/classPHTimeServer.html#a16038c769015057b02080396e0acb366">PHTimeServer::_timers</a></div><div class="ttdeci">time_map _timers</div><div class="ttdoc">list of timers </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/PHTimeServer_8h_source.html#l00109">PHTimeServer.h:109</a></div></div>
 <div class="ttc" id="classPHTimeServer_html_ad0ba3eb3f009fcea8e46499e8ea9c33d"><div class="ttname"><a href="../../d3/de2/classPHTimeServer.html#ad0ba3eb3f009fcea8e46499e8ea9c33d">PHTimeServer::_single_shot_timers</a></div><div class="ttdeci">time_map _single_shot_timers</div><div class="ttdoc">list of single shot timers </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/PHTimeServer_8h_source.html#l00112">PHTimeServer.h:112</a></div></div>
 <div class="ttc" id="PHTimeServer_8h_html"><div class="ttname"><a href="../../d9/d36/PHTimeServer_8h.html">PHTimeServer.h</a></div><div class="ttdoc">PHTimer server for accessing external information. </div></div>
@@ -305,10 +304,10 @@ $(document).ready(function(){initNavTree('dd/de2/PHTimeServer_8cc_source.html','
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_148e408a6779c3c63aed622cf91cae82.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_fafd1ca92eee10497467c0c504fece1f.html">phool</a></li><li class="navelem"><a class="el" href="../../dd/de2/PHTimeServer_8cc.html">PHTimeServer.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a4e9faf24559475d52adf985edd9635a.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_6a3f65a80c72dd6c059289d6b6d746b6.html">phool</a></li><li class="navelem"><a class="el" href="../../dd/de2/PHTimeServer_8cc.html">PHTimeServer.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 16 2018 15:20:50</em> using <a
+			updated: <em>Tue Jun 12 2018 21:01:20</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

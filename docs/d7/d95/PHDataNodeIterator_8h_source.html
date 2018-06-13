@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('d7/d95/PHDataNodeIterator_8h_source.ht
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                  <span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a> <a class="code" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">AddIODataNode</a>(T* <a class="code" href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">data</a>, <span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a> <a class="code" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">AddIODataNode</a>(T* data, <span class="keyword">const</span> <span class="keywordtype">char</span>* name);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('d7/d95/PHDataNodeIterator_8h_source.ht
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a></div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">   82</a></span>&#160;<a class="code" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">PHDataNodeIterator::AddIODataNode</a>(T* <a class="code" href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">data</a>, <span class="keyword">const</span> <span class="keywordtype">char</span>* name)</div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">   82</a></span>&#160;<a class="code" href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">PHDataNodeIterator::AddIODataNode</a>(T* data, <span class="keyword">const</span> <span class="keywordtype">char</span>* name)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="comment">// TODO:  also check that &quot;name&quot; is not a null string!</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">if</span> (!name) </div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('d7/d95/PHDataNodeIterator_8h_source.ht
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="comment">// For IODataNode, ought to check (if possible) that T derives</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="comment">// from TObject.  Will typeid() give us this info?</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;T&gt;</a>* n = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;T&gt;</a>(<a class="code" href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">data</a>, name);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;T&gt;</a>* n = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;T&gt;</a>(data, name);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">if</span> (!n) </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d5/d6f/phool_8h.html#afeb927280547367b51a6c2f2464797bd">False</a>;  <span class="comment">// problem creating node?</span></div>
@@ -203,7 +203,6 @@ $(document).ready(function(){initNavTree('d7/d95/PHDataNodeIterator_8h_source.ht
 <div class="ttc" id="classPHDataNodeIterator_html"><div class="ttname"><a href="../../d7/ddf/classPHDataNodeIterator.html">PHDataNodeIterator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/PHDataNodeIterator_8h_source.html#l00019">PHDataNodeIterator.h:19</a></div></div>
 <div class="ttc" id="classPHDataNodeIterator_html_ada64e599ccfdcb102d9fb539225bab14"><div class="ttname"><a href="../../d7/ddf/classPHDataNodeIterator.html#ada64e599ccfdcb102d9fb539225bab14">PHDataNodeIterator::AddIODataNode</a></div><div class="ttdeci">PHBoolean AddIODataNode(T *data, const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d95/PHDataNodeIterator_8h_source.html#l00082">PHDataNodeIterator.h:82</a></div></div>
 <div class="ttc" id="phool_8h_html_afeb927280547367b51a6c2f2464797bd"><div class="ttname"><a href="../../d5/d6f/phool_8h.html#afeb927280547367b51a6c2f2464797bd">False</a></div><div class="ttdeci">static const int False</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/phool_8h_source.html#l00009">phool.h:9</a></div></div>
-<div class="ttc" id="namespaceconvertRTCurve_html_a96844791aaee7db462b71eacae1d6c0b"><div class="ttname"><a href="../../d4/d1e/namespaceconvertRTCurve.html#a96844791aaee7db462b71eacae1d6c0b">convertRTCurve.data</a></div><div class="ttdeci">tuple data</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d25/convertRTCurve_8py_source.html#l00025">convertRTCurve.py:25</a></div></div>
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -212,10 +211,10 @@ $(document).ready(function(){initNavTree('d7/d95/PHDataNodeIterator_8h_source.ht
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_148e408a6779c3c63aed622cf91cae82.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_fafd1ca92eee10497467c0c504fece1f.html">phool</a></li><li class="navelem"><a class="el" href="../../d7/d95/PHDataNodeIterator_8h.html">PHDataNodeIterator.h</a></li>
+		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a4e9faf24559475d52adf985edd9635a.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_6a3f65a80c72dd6c059289d6b6d746b6.html">phool</a></li><li class="navelem"><a class="el" href="../../d7/d95/PHDataNodeIterator_8h.html">PHDataNodeIterator.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 16 2018 15:20:50</em> using <a
+			updated: <em>Tue Jun 12 2018 21:01:20</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

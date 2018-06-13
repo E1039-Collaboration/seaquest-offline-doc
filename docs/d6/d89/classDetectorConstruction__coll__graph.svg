@@ -10,8 +10,8 @@
 <title>DetectorConstruction</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="432,-152.5 432,-171.5 540,-171.5 540,-152.5 432,-152.5"/>
-<text text-anchor="middle" x="486" y="-159.5" font-family="FreeSans" font-size="10.00">DetectorConstruction</text>
+<polygon fill="#bfbfbf" stroke="black" points="432,-132.5 432,-151.5 540,-151.5 540,-132.5 432,-132.5"/>
+<text text-anchor="middle" x="486" y="-139.5" font-family="FreeSans" font-size="10.00">DetectorConstruction</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -20,13 +20,8 @@
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M294.67,-265.082C331.214,-259.791 377.567,-250.586 414,-230 440.438,-215.061 462.597,-186.845 474.809,-171.531"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="294.063,-261.633 284.64,-266.477 295.027,-268.566 294.063,-261.633"/>
-</g>
-<!-- Node2&#45;&gt;Node1 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M317.854,-278.105C349.536,-273.608 384.926,-264.428 414,-248 446.77,-229.483 472.966,-190.567 481.794,-171.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="317.185,-274.662 307.711,-279.403 318.074,-281.605 317.185,-274.662"/>
+<path fill="none" stroke="midnightblue" d="M318.081,-272.142C350.111,-267.48 385.685,-258.173 414,-240 448.832,-217.644 472.1,-171.662 480.975,-151.654"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="317.275,-268.718 307.82,-273.498 318.192,-275.658 317.275,-268.718"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -34,10 +29,10 @@
 <text text-anchor="middle" x="233" y="-235.5" font-family="FreeSans" font-size="10.00">std::vector&lt; G4Element * &gt;</text>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M309.155,-229.08C342.03,-223.738 380.627,-215.481 414,-203 435.332,-195.023 457.733,-181.001 471.534,-171.607"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="308.488,-225.642 299.149,-230.645 309.57,-232.557 308.488,-225.642"/>
-<text text-anchor="middle" x="373" y="-227" font-family="FreeSans" font-size="10.00"> elementVec</text>
+<g id="edge2" class="edge"><title>Node3&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M309.428,-230.239C342.68,-224.787 381.497,-215.561 414,-200 439.267,-187.903 463.35,-165.026 475.935,-151.908"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="308.644,-226.819 299.3,-231.813 309.719,-233.736 308.644,-226.819"/>
+<text text-anchor="middle" x="373" y="-228" font-family="FreeSans" font-size="10.00"> elementVec</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
@@ -45,10 +40,10 @@
 <text text-anchor="middle" x="233" y="-197.5" font-family="FreeSans" font-size="10.00">std::vector&lt; G4Material * &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node1 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M309.046,-191.79C341.421,-187.892 379.665,-182.811 414,-177 423.316,-175.423 433.268,-173.483 442.683,-171.527"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="308.27,-188.357 298.753,-193.013 309.097,-195.308 308.27,-188.357"/>
-<text text-anchor="middle" x="373" y="-191" font-family="FreeSans" font-size="10.00"> materialVec</text>
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M308.736,-190.431C341.375,-185.407 379.905,-178.325 414,-169 430.918,-164.373 449.421,-157.266 463.296,-151.505"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="308.175,-186.976 298.807,-191.924 309.216,-193.898 308.175,-186.976"/>
+<text text-anchor="middle" x="373" y="-188" font-family="FreeSans" font-size="10.00"> materialVec</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -59,10 +54,10 @@
 </g>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M275.077,-162C317.807,-162 384.881,-162 431.675,-162"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="275.029,-158.5 265.029,-162 275.029,-165.5 275.029,-158.5"/>
-<text text-anchor="middle" x="373" y="-165" font-family="FreeSans" font-size="10.00"> staSD</text>
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M275.077,-158.727C317.807,-155.322 384.881,-149.978 431.675,-146.249"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="274.72,-155.244 265.029,-159.528 275.276,-162.222 274.72,-155.244"/>
+<text text-anchor="middle" x="373" y="-157" font-family="FreeSans" font-size="10.00"> staSD</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -70,14 +65,9 @@
 <text text-anchor="middle" x="57" y="-159.5" font-family="FreeSans" font-size="10.00">G4VSensitiveDetector</text>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M123.868,-155.43C150.249,-154.972 179.389,-155.387 200.765,-156.676"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="123.453,-151.938 113.533,-155.659 123.608,-158.937 123.453,-151.938"/>
-</g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge7" class="edge"><title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M123.868,-168.57C150.249,-169.028 179.389,-168.613 200.765,-167.324"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="123.608,-165.063 113.533,-168.341 123.453,-172.062 123.608,-165.063"/>
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M123.868,-162C150.249,-162 179.389,-162 200.765,-162"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="123.533,-158.5 113.533,-162 123.533,-165.5 123.533,-158.5"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -85,10 +75,10 @@
 <text text-anchor="middle" x="233" y="-121.5" font-family="FreeSans" font-size="10.00">std::vector&lt; G4LogicalVolume * &gt;</text>
 </g>
 <!-- Node7&#45;&gt;Node1 -->
-<g id="edge8" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M323.595,-133.995C352.522,-137.61 384.685,-142.039 414,-147 423.316,-148.577 433.268,-150.517 442.683,-152.473"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="323.861,-130.501 313.508,-132.751 323.004,-137.449 323.861,-130.501"/>
-<text text-anchor="middle" x="373" y="-150" font-family="FreeSans" font-size="10.00"> logicalVolumeVec</text>
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M323.601,-122.12C352.529,-122.414 384.691,-123.691 414,-127 424.641,-128.202 436.043,-130.259 446.528,-132.471"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="323.536,-118.62 313.514,-122.056 323.491,-125.62 323.536,-118.62"/>
+<text text-anchor="middle" x="373" y="-130" font-family="FreeSans" font-size="10.00"> logicalVolumeVec</text>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
@@ -96,10 +86,10 @@
 <text text-anchor="middle" x="233" y="-83.5" font-family="FreeSans" font-size="10.00">std::vector&lt; G4VSolid * &gt;</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M305.979,-94.4104C339.524,-99.7314 379.546,-108.115 414,-121 435.332,-128.977 457.733,-142.999 471.534,-152.393"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="306.204,-90.9042 295.79,-92.8558 305.148,-97.8241 306.204,-90.9042"/>
-<text text-anchor="middle" x="373" y="-124" font-family="FreeSans" font-size="10.00"> solidVec</text>
+<g id="edge7" class="edge"><title>Node8&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M305.954,-89.427C339.328,-92.3724 379.218,-97.8433 414,-108 433.81,-113.785 454.952,-124.574 468.963,-132.452"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="306.072,-85.9249 295.818,-88.5915 305.497,-92.9013 306.072,-85.9249"/>
+<text text-anchor="middle" x="373" y="-111" font-family="FreeSans" font-size="10.00"> solidVec</text>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
@@ -110,10 +100,10 @@
 </g>
 </g>
 <!-- Node9&#45;&gt;Node1 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M269.65,-48.9451C307.672,-51.3522 368.554,-59.3207 414,-85 443.921,-101.907 468.361,-135.819 479.104,-152.412"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="269.737,-45.4449 259.563,-48.4036 269.361,-52.4348 269.737,-45.4449"/>
-<text text-anchor="middle" x="373" y="-88" font-family="FreeSans" font-size="10.00"> mySettings</text>
+<g id="edge8" class="edge"><title>Node9&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M270.28,-48.146C307.964,-49.6131 367.77,-55.7041 414,-78 441.205,-91.1202 465.613,-117.933 477.451,-132.337"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="269.901,-44.6333 259.802,-47.8355 269.694,-51.6302 269.901,-44.6333"/>
+<text text-anchor="middle" x="373" y="-81" font-family="FreeSans" font-size="10.00"> mySettings</text>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
@@ -121,10 +111,10 @@
 <text text-anchor="middle" x="233" y="-7.5" font-family="FreeSans" font-size="10.00">std::vector&lt; G4RotationMatrix * &gt;</text>
 </g>
 <!-- Node10&#45;&gt;Node1 -->
-<g id="edge11" class="edge"><title>Node10&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M322.597,-11.4475C353.726,-15.605 387.511,-24.6011 414,-43 454.11,-70.8602 475.253,-129.363 482.288,-152.393"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="322.939,-7.96359 312.596,-10.262 322.114,-14.9149 322.939,-7.96359"/>
-<text text-anchor="middle" x="373" y="-46" font-family="FreeSans" font-size="10.00"> rotationMatrixVec</text>
+<g id="edge9" class="edge"><title>Node10&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M323.07,-10.9588C353.784,-14.7552 387.177,-23.0364 414,-40 450.288,-62.9499 473.062,-111.855 481.405,-132.495"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="323.09,-7.4404 312.77,-9.83723 322.332,-14.3993 323.09,-7.4404"/>
+<text text-anchor="middle" x="373" y="-43" font-family="FreeSans" font-size="10.00"> rotationMatrixVec</text>
 </g>
 </g>
 </svg>

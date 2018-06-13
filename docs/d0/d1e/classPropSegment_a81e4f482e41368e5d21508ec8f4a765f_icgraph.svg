@@ -53,17 +53,17 @@
 <path fill="none" stroke="midnightblue" d="M416.207,-98.904C465.19,-106.18 537.445,-116.914 586.274,-124.168"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="416.531,-95.4137 406.125,-97.4062 415.502,-102.338 416.531,-95.4137"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909" target="_top" xlink:title="KalmanFastTracking\l::muonID_search">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909" target="_top" xlink:title="KalmanFastTracking\l::muonID_search">
 <polygon fill="none" stroke="black" points="442.5,-54 442.5,-84 549.5,-84 549.5,-54 442.5,-54"/>
 <text text-anchor="start" x="450.5" y="-72" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="496" y="-61" font-family="FreeSans" font-size="10.00">::muonID_search</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node3&#45;&gt;Node8</title>
+<!-- Node3&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node3&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M416.207,-82.1322C424.865,-80.6892 433.827,-79.1954 442.469,-77.7552"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="415.51,-78.6999 406.222,-83.7964 416.661,-85.6047 415.51,-78.6999"/>
 </g>
@@ -83,104 +83,91 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d9/da4/kFastTracking_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="main">
-<polygon fill="none" stroke="black" points="1243,-84.5 1243,-103.5 1281,-103.5 1281,-84.5 1243,-84.5"/>
-<text text-anchor="middle" x="1262" y="-91.5" font-family="FreeSans" font-size="10.00">main</text>
+<g id="a_node6"><a xlink:href="../../d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e" target="_top" xlink:title="KalmanFastTrackingWrapper\l::process_event">
+<polygon fill="none" stroke="black" points="1190.5,-57 1190.5,-87 1333.5,-87 1333.5,-57 1190.5,-57"/>
+<text text-anchor="start" x="1198.5" y="-75" font-family="FreeSans" font-size="10.00">KalmanFastTrackingWrapper</text>
+<text text-anchor="middle" x="1262" y="-64" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M1163.75,-80.6276C1192.2,-84.5402 1223.72,-88.8734 1242.94,-91.5169"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1164.22,-77.1595 1153.83,-79.2646 1163.26,-84.0942 1164.22,-77.1595"/>
+<path fill="none" stroke="midnightblue" d="M1163.85,-72C1172.51,-72 1181.45,-72 1190.24,-72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1163.83,-68.5001 1153.83,-72 1163.83,-75.5001 1163.83,-68.5001"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e" target="_top" xlink:title="KalmanFastTrackingWrapper\l::process_event">
-<polygon fill="none" stroke="black" points="1190.5,-35 1190.5,-65 1333.5,-65 1333.5,-35 1190.5,-35"/>
-<text text-anchor="start" x="1198.5" y="-53" font-family="FreeSans" font-size="10.00">KalmanFastTrackingWrapper</text>
-<text text-anchor="middle" x="1262" y="-42" font-family="FreeSans" font-size="10.00">::process_event</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M1163.85,-63.3588C1172.51,-62.1679 1181.45,-60.9384 1190.24,-59.7296"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="1163.26,-59.9058 1153.83,-64.7354 1164.22,-66.8405 1163.26,-59.9058"/>
-</g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3e34ec4cc289246ef9842e3482e0b1cc" target="_top" xlink:title="KalmanFastTracking\l::acceptTracklet">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3e34ec4cc289246ef9842e3482e0b1cc" target="_top" xlink:title="KalmanFastTracking\l::acceptTracklet">
 <polygon fill="none" stroke="black" points="586.5,-52 586.5,-82 693.5,-82 693.5,-52 586.5,-52"/>
 <text text-anchor="start" x="594.5" y="-70" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="640" y="-59" font-family="FreeSans" font-size="10.00">::acceptTracklet</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node9</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M559.994,-68.1128C568.704,-67.9901 577.578,-67.8651 586.08,-67.7453"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="559.825,-64.6147 549.876,-68.2553 559.924,-71.614 559.825,-64.6147"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a53e313d5cd40faa789fbe1dbe716f192" target="_top" xlink:title="KalmanFastTracking\l::buildBackPartialTracks">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a53e313d5cd40faa789fbe1dbe716f192" target="_top" xlink:title="KalmanFastTracking\l::buildBackPartialTracks">
 <polygon fill="none" stroke="black" points="888,-82 888,-112 1010,-112 1010,-82 888,-82"/>
 <text text-anchor="start" x="896" y="-100" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="949" y="-89" font-family="FreeSans" font-size="10.00">::buildBackPartialTracks</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
+<!-- Node8&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M703.883,-73.1449C757.716,-78.4055 834.713,-85.9296 887.768,-91.1141"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="704.068,-69.6464 693.775,-72.1572 703.387,-76.6132 704.068,-69.6464"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" target="_top" xlink:title="KalmanFastTracking\l::buildGlobalTracks">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" target="_top" xlink:title="KalmanFastTracking\l::buildGlobalTracks">
 <polygon fill="none" stroke="black" points="895.5,-33 895.5,-63 1002.5,-63 1002.5,-33 895.5,-33"/>
 <text text-anchor="start" x="903.5" y="-51" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="949" y="-40" font-family="FreeSans" font-size="10.00">::buildGlobalTracks</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
-<g id="edge11" class="edge"><title>Node9&#45;&gt;Node11</title>
+<!-- Node8&#45;&gt;Node10 -->
+<g id="edge10" class="edge"><title>Node8&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M704.011,-63.1003C760.483,-59.6053 842.366,-54.5376 895.401,-51.2553"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="703.54,-59.6227 693.775,-63.7338 703.972,-66.6093 703.54,-59.6227"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3e8f77a6532d69cf9f470ebf16b7fa14" target="_top" xlink:title="Tracklet finding stuff. ">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3e8f77a6532d69cf9f470ebf16b7fa14" target="_top" xlink:title="Tracklet finding stuff. ">
 <polygon fill="none" stroke="black" points="730.5,-0 730.5,-30 851.5,-30 851.5,-0 730.5,-0"/>
 <text text-anchor="start" x="738.5" y="-18" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="791" y="-7" font-family="FreeSans" font-size="10.00">::buildTrackletsInStation</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
-<g id="edge13" class="edge"><title>Node9&#45;&gt;Node12</title>
+<!-- Node8&#45;&gt;Node11 -->
+<g id="edge12" class="edge"><title>Node8&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M693.6,-48.6429C711.082,-42.5417 730.331,-35.8242 747,-30.0068"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="692.385,-45.3598 684.097,-51.9594 694.692,-51.9689 692.385,-45.3598"/>
 </g>
-<!-- Node10&#45;&gt;Node5 -->
-<g id="edge10" class="edge"><title>Node10&#45;&gt;Node5</title>
+<!-- Node9&#45;&gt;Node5 -->
+<g id="edge9" class="edge"><title>Node9&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M1020.07,-85.2436C1028.89,-83.764 1037.79,-82.2706 1046.27,-80.8465"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1019.46,-81.797 1010.17,-86.9036 1020.62,-88.7006 1019.46,-81.797"/>
 </g>
-<!-- Node11&#45;&gt;Node5 -->
-<g id="edge12" class="edge"><title>Node11&#45;&gt;Node5</title>
+<!-- Node10&#45;&gt;Node5 -->
+<g id="edge11" class="edge"><title>Node10&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M1012.71,-58.101C1023.94,-59.9096 1035.53,-61.7773 1046.44,-63.534"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1012.96,-54.5964 1002.53,-56.4615 1011.85,-61.5073 1012.96,-54.5964"/>
 </g>
-<!-- Node12&#45;&gt;Node5 -->
-<g id="edge15" class="edge"><title>Node12&#45;&gt;Node5</title>
+<!-- Node11&#45;&gt;Node5 -->
+<g id="edge14" class="edge"><title>Node11&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M862.055,-9.42524C905.43,-7.95834 961.847,-9.67435 1010,-23 1035.16,-29.9624 1060.97,-45.2517 1078.28,-56.9129"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="861.736,-5.93515 851.885,-9.83507 862.018,-12.9295 861.736,-5.93515"/>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge14" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node11&#45;&gt;Node10 -->
+<g id="edge13" class="edge"><title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M861.73,-29.7505C873.049,-32.1449 884.602,-34.589 895.423,-36.878"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="862.375,-26.3097 851.868,-27.6643 860.927,-33.1582 862.375,-26.3097"/>
 </g>

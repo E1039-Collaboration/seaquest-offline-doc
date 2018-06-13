@@ -15,10 +15,10 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#a7f66fef497b3b3a6f2f29d55ffddf4cb" target="_top" xlink:title="Extrapolate to a new surface z_out. ">
+<g id="a_node2"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526" target="_top" xlink:title="GenFitExtrapolator\l::extrapolateTo">
 <polygon fill="none" stroke="black" points="155.5,-389 155.5,-419 252.5,-419 252.5,-389 155.5,-389"/>
-<text text-anchor="start" x="163.5" y="-407" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="204" y="-396" font-family="FreeSans" font-size="10.00">extrapolateTo</text>
+<text text-anchor="start" x="163.5" y="-407" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="204" y="-396" font-family="FreeSans" font-size="10.00">::extrapolateTo</text>
 </a>
 </g>
 </g>
@@ -27,207 +27,193 @@
 <path fill="none" stroke="midnightblue" d="M56.3548,-215.691C63.837,-244.535 89.7152,-330.817 142,-379 143.675,-380.544 145.459,-381.999 147.324,-383.369"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.622,-386.435 155.938,-388.852 149.381,-380.53 145.622,-386.435"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" target="_top" xlink:title="SMatrix::getABCt">
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="../../d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" target="_top" xlink:title="SMatrix::getABCt">
 <polygon fill="none" stroke="black" points="158.5,-350.5 158.5,-369.5 249.5,-369.5 249.5,-350.5 158.5,-350.5"/>
 <text text-anchor="middle" x="204" y="-357.5" font-family="FreeSans" font-size="10.00">SMatrix::getABCt</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M57.6915,-215.707C67.5176,-240.256 96.6921,-305.322 142,-340 145.009,-342.303 148.295,-344.347 151.731,-346.16"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.54,-349.464 161.089,-350.441 153.451,-343.099 150.54,-349.464"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#ab9a54c318c8696fd7f1575180aa0c6b0" target="_top" xlink:title="Get the final state parameters and covariance. ">
-<polygon fill="none" stroke="black" points="148.5,-301 148.5,-331 259.5,-331 259.5,-301 148.5,-301"/>
-<text text-anchor="start" x="156.5" y="-319" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="204" y="-308" font-family="FreeSans" font-size="10.00">getFinalStateWithCov</text>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#af0f921bf2fe387759c642a9b7c348109" target="_top" xlink:title="Get the final state parameters and covariance. ">
+<polygon fill="none" stroke="black" points="146,-301 146,-331 262,-331 262,-301 146,-301"/>
+<text text-anchor="start" x="154" y="-319" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="204" y="-308" font-family="FreeSans" font-size="10.00">::getFinalStateWithCov</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M61.7935,-215.636C76.1025,-232.8 108.209,-268.933 142,-291 144.915,-292.904 147.999,-294.708 151.17,-296.41"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="149.758,-299.616 160.271,-300.931 152.872,-293.347 149.758,-299.616"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" target="_top" xlink:title="Gets. ">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" target="_top" xlink:title="Gets. ">
 <polygon fill="none" stroke="black" points="154.5,-262.5 154.5,-281.5 253.5,-281.5 253.5,-262.5 154.5,-262.5"/>
 <text text-anchor="middle" x="204" y="-269.5" font-family="FreeSans" font-size="10.00">Node::getPredicted</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M70.4734,-215.66C87.864,-225.607 116.269,-241.144 142,-252 147.997,-254.53 154.433,-256.947 160.796,-259.17"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="160.065,-262.618 170.659,-262.494 162.3,-255.984 160.065,-262.618"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#a6759b13b94f467777804c632b8f40444" target="_top" xlink:title="Get the propagator. ">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#ac013889a915dded109c6b9fd236b31dd" target="_top" xlink:title="Get the propagator. ">
 <polygon fill="none" stroke="black" points="155.5,-213 155.5,-243 252.5,-243 252.5,-213 155.5,-213"/>
-<text text-anchor="start" x="163.5" y="-231" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="204" y="-220" font-family="FreeSans" font-size="10.00">getPropagator</text>
+<text text-anchor="start" x="163.5" y="-231" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="204" y="-220" font-family="FreeSans" font-size="10.00">::getPropagator</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M105.695,-213.633C118.429,-215.513 132.146,-217.538 145.151,-219.458"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="144.991,-222.973 155.395,-220.971 146.013,-216.048 144.991,-222.973"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" target="_top" xlink:title="Node::getPropagator">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" target="_top" xlink:title="Node::getPropagator">
 <polygon fill="none" stroke="black" points="151.5,-174.5 151.5,-193.5 256.5,-193.5 256.5,-174.5 151.5,-174.5"/>
 <text text-anchor="middle" x="204" y="-181.5" font-family="FreeSans" font-size="10.00">Node::getPropagator</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M105.695,-198.367C117.136,-196.678 129.372,-194.871 141.171,-193.129"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="142.015,-196.543 151.397,-191.619 140.993,-189.618 142.015,-196.543"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" target="_top" xlink:title="Node::getZ">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" target="_top" xlink:title="Node::getZ">
 <polygon fill="none" stroke="black" points="172,-136.5 172,-155.5 236,-155.5 236,-136.5 172,-136.5"/>
 <text text-anchor="middle" x="204" y="-143.5" font-family="FreeSans" font-size="10.00">Node::getZ</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
+<!-- Node1&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node1&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M72.5668,-196.46C90.1633,-187.633 117.476,-174.483 142,-165 148.395,-162.527 155.258,-160.141 161.99,-157.943"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="163.214,-161.227 171.691,-154.871 161.1,-154.554 163.214,-161.227"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" target="_top" xlink:title="Node::isPredictionDone">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" target="_top" xlink:title="Node::isPredictionDone">
 <polygon fill="none" stroke="black" points="145,-98.5 145,-117.5 263,-117.5 263,-98.5 145,-98.5"/>
 <text text-anchor="middle" x="204" y="-105.5" font-family="FreeSans" font-size="10.00">Node::isPredictionDone</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node12 -->
-<g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
+<!-- Node1&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M62.2251,-196.276C76.7132,-179.736 108.442,-146.07 142,-127 145.743,-124.873 149.753,-122.954 153.863,-121.229"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="155.45,-124.371 163.557,-117.55 152.966,-117.826 155.45,-124.371"/>
 </g>
-<!-- Node13 -->
-<g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#a0e0abce250bec42228fec205f53db7a0" target="_top" xlink:title="Set input initial state parameters. ">
-<polygon fill="none" stroke="black" points="147.5,-49 147.5,-79 260.5,-79 260.5,-49 147.5,-49"/>
-<text text-anchor="start" x="155.5" y="-67" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="204" y="-56" font-family="FreeSans" font-size="10.00">setInitialStateWithCov</text>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48" target="_top" xlink:title="Set input initial state parameters. ">
+<polygon fill="none" stroke="black" points="145,-49 145,-79 263,-79 263,-49 145,-49"/>
+<text text-anchor="start" x="153" y="-67" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="204" y="-56" font-family="FreeSans" font-size="10.00">::setInitialStateWithCov</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node13 -->
-<g id="edge12" class="edge"><title>Node1&#45;&gt;Node13</title>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11" class="edge"><title>Node1&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M58.8406,-196.442C70.3746,-174.542 101.561,-120.219 142,-89 144.293,-87.2296 146.729,-85.5649 149.258,-84.0023"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="151.088,-86.9892 158.135,-79.0776 147.693,-80.8679 151.088,-86.9892"/>
 </g>
-<!-- Node17 -->
-<g id="node17" class="node"><title>Node17</title>
-<g id="a_node17"><a xlink:href="../../df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" target="_top" xlink:title="Node::setPredictionDone">
+<!-- Node16 -->
+<g id="node16" class="node"><title>Node16</title>
+<g id="a_node16"><a xlink:href="../../df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" target="_top" xlink:title="Node::setPredictionDone">
 <polygon fill="none" stroke="black" points="142,-10.5 142,-29.5 266,-29.5 266,-10.5 142,-10.5"/>
 <text text-anchor="middle" x="204" y="-17.5" font-family="FreeSans" font-size="10.00">Node::setPredictionDone</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node17 -->
-<g id="edge16" class="edge"><title>Node1&#45;&gt;Node17</title>
+<!-- Node1&#45;&gt;Node16 -->
+<g id="edge15" class="edge"><title>Node1&#45;&gt;Node16</title>
 <path fill="none" stroke="midnightblue" d="M56.2737,-196.433C63.5295,-167.996 88.8406,-83.223 142,-39 144.052,-37.2931 146.257,-35.7392 148.568,-34.3246"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.612,-37.2099 157.911,-29.5303 147.416,-30.9821 150.612,-37.2099"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#abc24320c0d24b6a4caabe2e850b7f78a" target="_top" xlink:title="TrackExtrapolator::\lpropagate">
-<polygon fill="none" stroke="black" points="302.5,-389 302.5,-419 399.5,-419 399.5,-389 302.5,-389"/>
-<text text-anchor="start" x="310.5" y="-407" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-396" font-family="FreeSans" font-size="10.00">propagate</text>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63" target="_top" xlink:title="GenFitExtrapolator\l::convertMPtoSV">
+<polygon fill="none" stroke="black" points="302.5,-325 302.5,-355 399.5,-355 399.5,-325 302.5,-325"/>
+<text text-anchor="start" x="310.5" y="-343" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="351" y="-332" font-family="FreeSans" font-size="10.00">::convertMPtoSV</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M252.88,-404C265.378,-404 278.982,-404 291.945,-404"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="292.17,-407.5 302.17,-404 292.17,-400.5 292.17,-407.5"/>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M262.308,-325.485C272.178,-327.119 282.442,-328.818 292.322,-330.453"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="292.009,-333.949 302.446,-332.129 293.152,-327.043 292.009,-333.949"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#a39390815d8447674a35f54f03eae3f33" target="_top" xlink:title="TrackExtrapolator::\lconvertMPtoSV">
-<polygon fill="none" stroke="black" points="302.5,-320 302.5,-350 399.5,-350 399.5,-320 302.5,-320"/>
-<text text-anchor="start" x="310.5" y="-338" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-327" font-family="FreeSans" font-size="10.00">convertMPtoSV</text>
+<g id="a_node6"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#af89a02f2ed82e4444bae4662f07b1682" target="_top" xlink:title="GenFitExtrapolator\l::TRSCSD">
+<polygon fill="none" stroke="black" points="302.5,-276 302.5,-306 399.5,-306 399.5,-276 302.5,-276"/>
+<text text-anchor="start" x="310.5" y="-294" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="351" y="-283" font-family="FreeSans" font-size="10.00">::TRSCSD</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M259.818,-323.183C270.393,-324.569 281.503,-326.024 292.17,-327.422"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="291.86,-330.911 302.23,-328.74 292.769,-323.971 291.86,-330.911"/>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M262.308,-306.119C272.178,-304.418 282.442,-302.648 292.322,-300.945"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="293.186,-304.347 302.446,-299.199 291.997,-297.449 293.186,-304.347"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#aef1b9286d1b95824da7a794438232619" target="_top" xlink:title="TrackExtrapolator::\lTRSCSD">
-<polygon fill="none" stroke="black" points="302.5,-271 302.5,-301 399.5,-301 399.5,-271 302.5,-271"/>
-<text text-anchor="start" x="310.5" y="-289" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-278" font-family="FreeSans" font-size="10.00">TRSCSD</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M259.818,-304.658C270.393,-302.47 281.503,-300.172 292.17,-297.965"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="293.146,-301.337 302.23,-295.884 291.728,-294.482 293.146,-301.337"/>
-</g>
-<!-- Node14 -->
-<g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#aca90cc7eefb213985b4dae747f1f7461" target="_top" xlink:title="Transformation between the state vector and the mom/pos. ">
+<!-- Node13 -->
+<g id="node13" class="node"><title>Node13</title>
+<g id="a_node13"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7" target="_top" xlink:title="Transformation between the state vector and the mom/pos. ">
 <polygon fill="none" stroke="black" points="302.5,-98 302.5,-128 399.5,-128 399.5,-98 302.5,-98"/>
-<text text-anchor="start" x="310.5" y="-116" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-105" font-family="FreeSans" font-size="10.00">convertSVtoMP</text>
+<text text-anchor="start" x="310.5" y="-116" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="351" y="-105" font-family="FreeSans" font-size="10.00">::convertSVtoMP</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node14 -->
-<g id="edge13" class="edge"><title>Node13&#45;&gt;Node14</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge12" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M249.688,-79.1014C264.159,-83.9917 280.372,-89.4707 295.475,-94.5744"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="294.616,-97.9783 305.21,-97.8641 296.857,-91.3468 294.616,-97.9783"/>
 </g>
+<!-- Node14 -->
+<g id="node14" class="node"><title>Node14</title>
+<g id="a_node14"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3" target="_top" xlink:title="Set particle type. ">
+<polygon fill="none" stroke="black" points="302.5,-49 302.5,-79 399.5,-79 399.5,-49 302.5,-49"/>
+<text text-anchor="start" x="310.5" y="-67" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="351" y="-56" font-family="FreeSans" font-size="10.00">::setParticleType</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node14 -->
+<g id="edge13" class="edge"><title>Node12&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M263.142,-64C272.631,-64 282.462,-64 291.949,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="292.076,-67.5001 302.076,-64 292.076,-60.5001 292.076,-67.5001"/>
+</g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#adc17fb6e413e0425cc48bebbf7c29286" target="_top" xlink:title="Set particle type. ">
-<polygon fill="none" stroke="black" points="302.5,-49 302.5,-79 399.5,-79 399.5,-49 302.5,-49"/>
-<text text-anchor="start" x="310.5" y="-67" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-56" font-family="FreeSans" font-size="10.00">setParticleType</text>
-</a>
-</g>
-</g>
-<!-- Node13&#45;&gt;Node15 -->
-<g id="edge14" class="edge"><title>Node13&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M260.646,-64C270.949,-64 281.732,-64 292.1,-64"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="292.296,-67.5001 302.296,-64 292.296,-60.5001 292.296,-67.5001"/>
-</g>
-<!-- Node16 -->
-<g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d4/dfd/classTrackExtrapolator.html#aa5cbd79c6d716f356192f9b2530c48b8" target="_top" xlink:title="TrackExtrapolator::\lTRSDSC">
+<g id="a_node15"><a xlink:href="../../d1/d3d/classGenFitExtrapolator.html#a96d70bf901dbf71f4772873a3b1df1b5" target="_top" xlink:title="GenFitExtrapolator\l::TRSDSC">
 <polygon fill="none" stroke="black" points="302.5,-0 302.5,-30 399.5,-30 399.5,-0 302.5,-0"/>
-<text text-anchor="start" x="310.5" y="-18" font-family="FreeSans" font-size="10.00">TrackExtrapolator::</text>
-<text text-anchor="middle" x="351" y="-7" font-family="FreeSans" font-size="10.00">TRSDSC</text>
+<text text-anchor="start" x="310.5" y="-18" font-family="FreeSans" font-size="10.00">GenFitExtrapolator</text>
+<text text-anchor="middle" x="351" y="-7" font-family="FreeSans" font-size="10.00">::TRSDSC</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node16 -->
-<g id="edge15" class="edge"><title>Node13&#45;&gt;Node16</title>
+<!-- Node12&#45;&gt;Node15 -->
+<g id="edge14" class="edge"><title>Node12&#45;&gt;Node15</title>
 <path fill="none" stroke="midnightblue" d="M249.688,-48.8986C264.159,-44.0083 280.372,-38.5293 295.475,-33.4256"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="296.857,-36.6532 305.21,-30.1359 294.616,-30.0217 296.857,-36.6532"/>
 </g>

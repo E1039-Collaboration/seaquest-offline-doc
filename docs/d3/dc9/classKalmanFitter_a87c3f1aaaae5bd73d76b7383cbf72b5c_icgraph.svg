@@ -41,17 +41,17 @@
 <path fill="none" stroke="midnightblue" d="M285.769,-49.9736C294.657,-51.5274 303.727,-53.1131 312.42,-54.6329"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="286.295,-46.5126 275.842,-48.238 285.089,-53.408 286.295,-46.5126"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3d3ef7a6aeb00056e003e98564e45b65" target="_top" xlink:title="KalmanFastTracking\l::resolveLeftRight">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d3/d46/classKalmanFastTracking.html#a3d3ef7a6aeb00056e003e98564e45b65" target="_top" xlink:title="KalmanFastTracking\l::resolveLeftRight">
 <polygon fill="none" stroke="black" points="313.5,-0 313.5,-30 420.5,-30 420.5,-0 313.5,-0"/>
 <text text-anchor="start" x="321.5" y="-18" font-family="FreeSans" font-size="10.00">KalmanFastTracking</text>
 <text text-anchor="middle" x="367" y="-7" font-family="FreeSans" font-size="10.00">::resolveLeftRight</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge8" class="edge"><title>Node2&#45;&gt;Node8</title>
+<!-- Node2&#45;&gt;Node7 -->
+<g id="edge7" class="edge"><title>Node2&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M285.742,-28.4699C294.965,-26.922 304.385,-25.3411 313.376,-23.8321"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="285.124,-25.0245 275.842,-30.1315 286.283,-31.9279 285.124,-25.0245"/>
 </g>
@@ -79,7 +79,7 @@
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
-<g id="edge7" class="edge"><title>Node3&#45;&gt;Node5</title>
+<g id="edge6" class="edge"><title>Node3&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M431.959,-62.4037C440.708,-62.2365 449.576,-62.0936 458,-62 505.997,-61.4668 518.003,-61.4608 566,-62 577.745,-62.132 590.361,-62.3618 602.295,-62.6199"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="431.701,-58.9081 421.774,-62.6097 431.843,-65.9066 431.701,-58.9081"/>
 </g>
@@ -90,30 +90,17 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d9/da4/kFastTracking_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" target="_top" xlink:title="main">
-<polygon fill="none" stroke="black" points="799,-76.5 799,-95.5 837,-95.5 837,-76.5 799,-76.5"/>
-<text text-anchor="middle" x="818" y="-83.5" font-family="FreeSans" font-size="10.00">main</text>
+<g id="a_node6"><a xlink:href="../../d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e" target="_top" xlink:title="KalmanFastTrackingWrapper\l::process_event">
+<polygon fill="none" stroke="black" points="746.5,-49 746.5,-79 889.5,-79 889.5,-49 746.5,-49"/>
+<text text-anchor="start" x="754.5" y="-67" font-family="FreeSans" font-size="10.00">KalmanFastTrackingWrapper</text>
+<text text-anchor="middle" x="818" y="-56" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M719.746,-72.6276C748.202,-76.5402 779.715,-80.8734 798.941,-83.5169"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="720.217,-69.1595 709.833,-71.2646 719.263,-76.0942 720.217,-69.1595"/>
-</g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e" target="_top" xlink:title="KalmanFastTrackingWrapper\l::process_event">
-<polygon fill="none" stroke="black" points="746.5,-27 746.5,-57 889.5,-57 889.5,-27 746.5,-27"/>
-<text text-anchor="start" x="754.5" y="-45" font-family="FreeSans" font-size="10.00">KalmanFastTrackingWrapper</text>
-<text text-anchor="middle" x="818" y="-34" font-family="FreeSans" font-size="10.00">::process_event</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M719.845,-55.3588C728.506,-54.1679 737.448,-52.9384 746.239,-51.7296"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="719.263,-51.9058 709.833,-56.7354 720.217,-58.8405 719.263,-51.9058"/>
+<path fill="none" stroke="midnightblue" d="M719.845,-64C728.506,-64 737.448,-64 746.239,-64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="719.833,-60.5001 709.833,-64 719.833,-67.5001 719.833,-60.5001"/>
 </g>
 </g>
 </svg>

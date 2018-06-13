@@ -352,7 +352,7 @@ $(document).ready(function(){initNavTree('d0/d16/PHHepMCParticleSelectorDecayPro
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  <span class="keywordflow">for</span> ( HepMC::GenEvent::particle_const_iterator p = event-&gt;particles_begin(); p != <span class="keyword">event</span>-&gt;particles_end(); ++p )</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="keywordtype">int</span> pid = (*p)-&gt;pdg_id();</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="../../d4/d7f/namespaceqdel.html#a4f86f3c61c39c1ca2d9f8f78b261068f">status</a> = (*p)-&gt;status();</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      <span class="keywordtype">int</span> status = (*p)-&gt;status();</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <span class="keywordtype">double</span> pz = ((*p)-&gt;momentum()).pz();</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      <span class="keywordtype">double</span> pt = ((*p)-&gt;momentum()).perp();</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      <span class="keywordtype">double</span> eta = ((*p)-&gt;momentum()).eta();</div>
@@ -414,7 +414,6 @@ $(document).ready(function(){initNavTree('d0/d16/PHHepMCParticleSelectorDecayPro
 <div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
-<div class="ttc" id="namespaceqdel_html_a4f86f3c61c39c1ca2d9f8f78b261068f"><div class="ttname"><a href="../../d4/d7f/namespaceqdel.html#a4f86f3c61c39c1ca2d9f8f78b261068f">qdel.status</a></div><div class="ttdeci">status</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d60/qdel_8py_source.html#l00031">qdel.py:31</a></div></div>
 <div class="ttc" id="PHHepMCGenEvent_8h_html"><div class="ttname"><a href="../../d3/d8c/PHHepMCGenEvent_8h.html">PHHepMCGenEvent.h</a></div></div>
 <div class="ttc" id="classPHHepMCParticleSelectorDecayProductChain_html_ac582d49a7e687268b9e25ebb38b981c9"><div class="ttname"><a href="../../d5/d18/classPHHepMCParticleSelectorDecayProductChain.html#ac582d49a7e687268b9e25ebb38b981c9">PHHepMCParticleSelectorDecayProductChain::AddDaughter</a></div><div class="ttdeci">virtual void AddDaughter(const int pid)</div><div class="ttdoc">Add decay products of the particle you want in your output. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/PHHepMCParticleSelectorDecayProductChain_8cc_source.html#l00278">PHHepMCParticleSelectorDecayProductChain.cc:278</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
@@ -436,10 +435,10 @@ $(document).ready(function(){initNavTree('d0/d16/PHHepMCParticleSelectorDecayPro
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_36264afcc6c88fe4468b6a0e9b7ed3fa.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_578f9ebad8b24fd855925b7cb6728947.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_d136a4467d9b37469ac7a97d5d4fb27e.html">phhepmc</a></li><li class="navelem"><a class="el" href="../../d0/d16/PHHepMCParticleSelectorDecayProductChain_8cc.html">PHHepMCParticleSelectorDecayProductChain.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_aadd2de099008915ff5fdd6267020668.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_303bb60ac21ccecfe3023fc04d34595f.html">phhepmc</a></li><li class="navelem"><a class="el" href="../../d0/d16/PHHepMCParticleSelectorDecayProductChain_8cc.html">PHHepMCParticleSelectorDecayProductChain.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 16 2018 15:20:50</em> using <a
+			updated: <em>Tue Jun 12 2018 21:01:20</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

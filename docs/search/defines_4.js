@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['eloss_5fabsorber',['ELOSS_ABSORBER',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb',1,'ELOSS_ABSORBER():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb',1,'ELOSS_ABSORBER():&#160;GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp0',['ELOSS_FMAG_P0',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a09abb3a6e235f6d8044f1a162e4bbe6c',1,'ELOSS_FMAG_P0():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a09abb3a6e235f6d8044f1a162e4bbe6c',1,'ELOSS_FMAG_P0():&#160;GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp1',['ELOSS_FMAG_P1',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ac4ff4952d71ff06f59dd47e30f37e2ff',1,'ELOSS_FMAG_P1():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ac4ff4952d71ff06f59dd47e30f37e2ff',1,'ELOSS_FMAG_P1():&#160;GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp2',['ELOSS_FMAG_P2',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28',1,'ELOSS_FMAG_P2():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28',1,'ELOSS_FMAG_P2():&#160;GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp3',['ELOSS_FMAG_P3',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a57a7fd7b1fbfd3a049cbf5070bd30519',1,'ELOSS_FMAG_P3():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a57a7fd7b1fbfd3a049cbf5070bd30519',1,'ELOSS_FMAG_P3():&#160;GlobalConsts.h']]],
-  ['eloss_5ffmag_5fp4',['ELOSS_FMAG_P4',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a48a3c169072aa5da2acbe620fc9b6705',1,'ELOSS_FMAG_P4():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a48a3c169072aa5da2acbe620fc9b6705',1,'ELOSS_FMAG_P4():&#160;GlobalConsts.h']]],
-  ['eloss_5fkfmag',['ELOSS_KFMAG',['../d2/dde/seaquest-ktracker_2inc_2GlobalConsts_8h.html#a0b0ad479a6d403eb326636163cfc5e75',1,'ELOSS_KFMAG():&#160;GlobalConsts.h'],['../d4/d76/seaquest-offline_2packages_2global__consts_2GlobalConsts_8h.html#a0b0ad479a6d403eb326636163cfc5e75',1,'ELOSS_KFMAG():&#160;GlobalConsts.h']]],
-  ['enable_5frefit',['ENABLE_REFIT',['../de/d50/SMillepede_8cxx.html#a52bb046c2e3441aa9c68c6e82f5680a1',1,'SMillepede.cxx']]]
+  ['fmag_5fhole_5flength',['FMAG_HOLE_LENGTH',['../dd/de2/GlobalConsts_8h.html#ac3bb00ad2ceb5b9391c3649a88571ebd',1,'GlobalConsts.h']]],
+  ['fmag_5fhole_5fradius',['FMAG_HOLE_RADIUS',['../dd/de2/GlobalConsts_8h.html#a5458e41e44e05b22639ec50196f3c0a3',1,'GlobalConsts.h']]],
+  ['fmag_5flength',['FMAG_LENGTH',['../dd/de2/GlobalConsts_8h.html#ada4a202de895743e412aba1aab0c9146',1,'GlobalConsts.h']]],
+  ['fmagstr',['FMAGSTR',['../dd/de2/GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6',1,'GlobalConsts.h']]]
 ];

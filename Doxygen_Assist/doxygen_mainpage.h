@@ -12,9 +12,8 @@ Welcome to SeaQuest Offline Software documentation!
 \section INTRO Introduction
 This documentation digested 3 related repositories:
 
-\li <a href="https://github.com/HaiwangYu/seaquest-ktracker"> seaquest-ktracker </a>: current root interface and reconstruction package
-\li <a href="https://github.com/HaiwangYu/seaquest-offline"> seaquest-offline </a>: prototype 'Fun4All' implementation of the SeaQuest offline software
-\li <a href="https://github.com/HaiwangYu/art-seaquest"> art-seaquest </a>: prototype 'art' implementation of the SeaQuest offline software
+\li <a href="https://github.com/HaiwangYu/seaquest-offline"> seaquest-offline </a>: core libraries 
+\li <a href="https://github.com/HaiwangYu/seaquest-analysis"> seaquest-analysis </a>: analysis packages
 
 The source code for this document is <a href="https://github.com/HaiwangYu/seaquest-offline-doc"> here</a>.
 

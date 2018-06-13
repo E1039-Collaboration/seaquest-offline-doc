@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['datamatrix',['DataMatrix',['../d1/dd8/seaquest-ktracker_2inc_2TriggerAnalyzer_8h.html#a03f392e646661926f549d7546b842c97',1,'DataMatrix():&#160;TriggerAnalyzer.h'],['../de/d2c/seaquest-offline_2packages_2ktracker_2TriggerAnalyzer_8h.html#a03f392e646661926f549d7546b842c97',1,'DataMatrix():&#160;TriggerAnalyzer.h']]],
+  ['datamatrix',['DataMatrix',['../d6/d97/TriggerAnalyzer_8h.html#a03f392e646661926f549d7546b842c97',1,'TriggerAnalyzer.h']]],
   ['dconstrange',['dConstRange',['../d8/d21/classPdbParameterMap.html#a3a34762250d87b8d936ba6aa8989b2a6',1,'PdbParameterMap']]],
   ['depthmaptype',['DepthMapType',['../dd/db5/classPHG4GDMLWrite.html#a9eb6e5ab3d42e5fbccb8031b45966ade',1,'PHG4GDMLWrite']]],
   ['detectorlist',['DetectorList',['../d1/d13/classPHG4PhenixDetector.html#ae428d646dee9d118e70fe7f3351bc939',1,'PHG4PhenixDetector']]],

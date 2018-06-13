@@ -1,27 +1,15 @@
 var classSMatrix =
 [
     [ "getABC", "d9/db7/classSMatrix.html#a0f8ed76d3fd0ad56b2d45663b65ca7ea", null ],
-    [ "getABC", "d9/db7/classSMatrix.html#a59686876a53b381d65d45c48529796cb", null ],
     [ "getABCt", "d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc", null ],
-    [ "getABCt", "d9/db7/classSMatrix.html#a2620957f7e1b980ba8824afdd1c4f613", null ],
     [ "getABtC", "d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526", null ],
-    [ "getABtC", "d9/db7/classSMatrix.html#ab183e17410b4f937f77de86c084452a3", null ],
     [ "getABtCinv", "d9/db7/classSMatrix.html#a0209d8bd6c377b460a9cda4bc134b37d", null ],
-    [ "getABtCinv", "d9/db7/classSMatrix.html#aefc6f7c0cede09876cba4b321fbacc50", null ],
     [ "getAtBC", "d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e", null ],
-    [ "getAtBC", "d9/db7/classSMatrix.html#a94524cb6a400d30d41449152ea753b0f", null ],
     [ "invertMatrix", "d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a", null ],
-    [ "invertMatrix", "d9/db7/classSMatrix.html#a57a5ae9505f38b5b65c226bc7b382bb1", null ],
-    [ "invertMatrixFast", "d9/db7/classSMatrix.html#a592fb0eb0fa8bcb8cf196c25ed2a215d", null ],
     [ "invertMatrixFast", "d9/db7/classSMatrix.html#acce67205fbf4fb843dc4c62cf383e8c9", null ],
     [ "printMatrix", "d9/db7/classSMatrix.html#aea539c82ca1f7b639f3ac259d563d1a3", null ],
-    [ "printMatrix", "d9/db7/classSMatrix.html#ae40ef353164197c055d3e627f0dd473b", null ],
     [ "printMatrix", "d9/db7/classSMatrix.html#a5828af85115bf2cca8882b7fe368d3dc", null ],
-    [ "printMatrix", "d9/db7/classSMatrix.html#a1bcf909b1e24517c829b956f12d0da9c", null ],
-    [ "transposeMatrix", "d9/db7/classSMatrix.html#af800e108c6ea546f0404b8ed9c159d92", null ],
     [ "transposeMatrix", "d9/db7/classSMatrix.html#affc463dc6fc5a0a38e0adafc11b380c1", null ],
-    [ "unitMatrix", "d9/db7/classSMatrix.html#ab602abc343b09e2995f3a9ba08570108", null ],
     [ "unitMatrix", "d9/db7/classSMatrix.html#a50ee648ffe33d1b71520dc03158b2b43", null ],
-    [ "zeroMatrix", "d9/db7/classSMatrix.html#ab1490349f964b7e4b27942f5b717cba1", null ],
-    [ "zeroMatrix", "d9/db7/classSMatrix.html#adee3ea982df67f19358732b0376651a0", null ]
+    [ "zeroMatrix", "d9/db7/classSMatrix.html#ab1490349f964b7e4b27942f5b717cba1", null ]
 ];
