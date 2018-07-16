@@ -54,6 +54,7 @@ var classJobOptsSvc =
     [ "m_triggerL1", "d8/d62/classJobOptsSvc.html#af776ed6f065225ec8abbbe7ff70a50fb", null ],
     [ "m_triggerRepo", "d8/d62/classJobOptsSvc.html#a76037463f78412f8aa18f06fcd60d465", null ],
     [ "m_updateAlignment", "d8/d62/classJobOptsSvc.html#accc8a3c42ad53f62cc77d1d34e8fb312", null ],
+    [ "m_useIdealGeom", "d8/d62/classJobOptsSvc.html#a6b95647258afb5bd9ac7f4023dad1ab2", null ],
     [ "m_x_spot_size", "d8/d62/classJobOptsSvc.html#ada8f0b91bc6ddba4c91ba9097a2de6a1", null ],
     [ "m_x_vtx", "d8/d62/classJobOptsSvc.html#a9bbc28f4700eeef9f6f948873bc5865f", null ],
     [ "m_y_spot_size", "d8/d62/classJobOptsSvc.html#a70c95814977c73f5237c6610edab654c", null ],

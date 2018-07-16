@@ -42,6 +42,7 @@ var searchData=
   ['m_5ftriggerl1',['m_triggerL1',['../d8/d62/classJobOptsSvc.html#af776ed6f065225ec8abbbe7ff70a50fb',1,'JobOptsSvc']]],
   ['m_5ftriggerrepo',['m_triggerRepo',['../d8/d62/classJobOptsSvc.html#a76037463f78412f8aa18f06fcd60d465',1,'JobOptsSvc']]],
   ['m_5fupdatealignment',['m_updateAlignment',['../d8/d62/classJobOptsSvc.html#accc8a3c42ad53f62cc77d1d34e8fb312',1,'JobOptsSvc']]],
+  ['m_5fuseidealgeom',['m_useIdealGeom',['../d8/d62/classJobOptsSvc.html#a6b95647258afb5bd9ac7f4023dad1ab2',1,'JobOptsSvc']]],
   ['m_5fx_5fspot_5fsize',['m_x_spot_size',['../d8/d62/classJobOptsSvc.html#ada8f0b91bc6ddba4c91ba9097a2de6a1',1,'JobOptsSvc']]],
   ['m_5fx_5fvtx',['m_x_vtx',['../d8/d62/classJobOptsSvc.html#a9bbc28f4700eeef9f6f948873bc5865f',1,'JobOptsSvc']]],
   ['m_5fy_5fspot_5fsize',['m_y_spot_size',['../d8/d62/classJobOptsSvc.html#a70c95814977c73f5237c6610edab654c',1,'JobOptsSvc']]],

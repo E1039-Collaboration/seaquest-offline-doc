@@ -16,6 +16,7 @@ var namespaces =
     [ "PHG4TrackUserInfo", "d2/d7f/namespacePHG4TrackUserInfo.html", null ],
     [ "PHGenFit", "d3/d7e/namespacePHGenFit.html", null ],
     [ "phooldefs", "d3/d8a/namespacephooldefs.html", null ],
+    [ "Pythia8", "d3/dee/namespacePythia8.html", null ],
     [ "submit_bnl", "d1/d2b/namespacesubmit__bnl.html", null ],
     [ "submit_e1039", "d9/d8d/namespacesubmit__e1039.html", null ],
     [ "syncdefs", "d2/de5/namespacesyncdefs.html", null ],

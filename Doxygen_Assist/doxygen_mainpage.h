@@ -10,7 +10,7 @@
 Welcome to SeaQuest Offline Software documentation!
 
 \section INTRO Introduction
-This documentation digested 3 related repositories:
+This documentation digested 2 related repositories:
 
 \li <a href="https://github.com/HaiwangYu/seaquest-offline"> seaquest-offline </a>: core libraries 
 \li <a href="https://github.com/HaiwangYu/seaquest-analysis"> seaquest-analysis </a>: analysis packages

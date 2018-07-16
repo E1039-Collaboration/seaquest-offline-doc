@@ -16,6 +16,7 @@ var annotated =
     [ "PHG4TrackUserInfo", "d2/d7f/namespacePHG4TrackUserInfo.html", null ],
     [ "PHGenFit", "d3/d7e/namespacePHGenFit.html", "d3/d7e/namespacePHGenFit" ],
     [ "phooldefs", "d3/d8a/namespacephooldefs.html", null ],
+    [ "Pythia8", "d3/dee/namespacePythia8.html", null ],
     [ "std", null, [
       [ "numeric_limits< half >", "d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html", "d9/d11/classstd_1_1numeric__limits_3_01half_01_4" ]
     ] ],
@@ -266,6 +267,10 @@ var annotated =
     [ "PHParametersContainer", "d7/d6b/classPHParametersContainer.html", "d7/d6b/classPHParametersContainer" ],
     [ "PHPointerList", "d6/d86/classPHPointerList.html", "d6/d86/classPHPointerList" ],
     [ "PHPointerListIterator", "d9/db3/classPHPointerListIterator.html", "d9/db3/classPHPointerListIterator" ],
+    [ "PHPy8GenTrigger", "db/df0/classPHPy8GenTrigger.html", "db/df0/classPHPy8GenTrigger" ],
+    [ "PHPy8JetTrigger", "d7/d30/classPHPy8JetTrigger.html", "d7/d30/classPHPy8JetTrigger" ],
+    [ "PHPy8ParticleTrigger", "d9/d8b/classPHPy8ParticleTrigger.html", "d9/d8b/classPHPy8ParticleTrigger" ],
+    [ "PHPythia8", "d9/d3a/classPHPythia8.html", "d9/d3a/classPHPythia8" ],
     [ "PHRandomSeed", "dd/d1f/classPHRandomSeed.html", "dd/d1f/classPHRandomSeed" ],
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", "d3/d2b/classPHTFileServer" ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", "d0/d5e/classPHTimer" ],
@@ -318,6 +323,7 @@ var annotated =
     [ "TabulatedField3D", "d6/dd1/classTabulatedField3D.html", "d6/dd1/classTabulatedField3D" ],
     [ "TDirectoryHelper", "de/d7e/classTDirectoryHelper.html", "de/d7e/classTDirectoryHelper" ],
     [ "TestAnalyzer", "da/da5/classTestAnalyzer.html", "da/da5/classTestAnalyzer" ],
+    [ "TestSimAnalyzer", "d6/d20/classTestSimAnalyzer.html", "d6/d20/classTestSimAnalyzer" ],
     [ "TNode", "d9/dcd/classTNode.html", "d9/dcd/classTNode" ],
     [ "Tracklet", "d2/d26/classTracklet.html", "d2/d26/classTracklet" ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", "d6/deb/classTriggerAnalyzer" ],

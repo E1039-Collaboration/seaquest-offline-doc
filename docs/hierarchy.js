@@ -90,10 +90,12 @@ var hierarchy =
         ] ],
         [ "PHGeomFileImport", "de/d0f/classPHGeomFileImport.html", null ],
         [ "PHHepMCParticleSelectorDecayProductChain", "d5/d18/classPHHepMCParticleSelectorDecayProductChain.html", null ],
+        [ "PHPythia8", "d9/d3a/classPHPythia8.html", null ],
         [ "ReadEICFiles", "d3/d49/classReadEICFiles.html", null ],
         [ "ReadMySql", "db/dda/classReadMySql.html", null ],
         [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ],
         [ "TestAnalyzer", "da/da5/classTestAnalyzer.html", null ],
+        [ "TestSimAnalyzer", "d6/d20/classTestSimAnalyzer.html", null ],
         [ "TruthEval", "df/d39/classTruthEval.html", null ]
       ] ]
     ] ],
@@ -263,6 +265,10 @@ var hierarchy =
     [ "PHPointerListIterator< T >", "d9/db3/classPHPointerListIterator.html", null ],
     [ "PHPointerListIterator< PdbCalBank >", "d9/db3/classPHPointerListIterator.html", [
       [ "PdbBankListIterator", "d7/d44/classPdbBankListIterator.html", null ]
+    ] ],
+    [ "PHPy8GenTrigger", "db/df0/classPHPy8GenTrigger.html", [
+      [ "PHPy8JetTrigger", "d7/d30/classPHPy8JetTrigger.html", null ],
+      [ "PHPy8ParticleTrigger", "d9/d8b/classPHPy8ParticleTrigger.html", null ]
     ] ],
     [ "PHRandomSeed", "dd/d1f/classPHRandomSeed.html", null ],
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
@@ -460,8 +466,8 @@ var hierarchy =
     [ "PHGenFit::Track", "d7/dd5/classPHGenFit_1_1Track.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
+    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],
     [ "boost::weak_ptr< T >", "d8/de6/classboost_1_1weak__ptr.html", null ]
