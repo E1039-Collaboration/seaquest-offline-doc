@@ -1,23 +1,7 @@
 var searchData=
 [
-  ['k',['K',['../d9/d6e/structPyjets__t.html#a3168821ec9f565ed17c4fef62d64eb1f',1,'Pyjets_t']]],
-  ['k_5findex',['k_index',['../db/dad/classPHG4CylinderCellv3.html#a62e7b728c136e8a85721ed64e3a5a327',1,'PHG4CylinderCellv3']]],
-  ['kangularprecision',['kAngularPrecision',['../d9/def/classPHG4GDMLWriteDefine.html#a8207806ebfc79c814a6c24265935bbdd',1,'PHG4GDMLWriteDefine']]],
-  ['keep',['keep',['../da/da8/classPHG4TrackUserInfoV1.html#ad38476c6acfc75a9872074160bea0359',1,'PHG4TrackUserInfoV1']]],
-  ['keep_5fdb_5fconnected',['keep_db_connected',['../da/d29/classFun4AllServer.html#a9a717452b147fb487e103ebb6514f2a9',1,'Fun4AllServer']]],
-  ['keybits',['keybits',['../d2/da3/namespacePHG4CylinderCellDefs.html#a8005dde9e53c21b023b216abd7e3c29c',1,'PHG4CylinderCellDefs::keybits()'],['../da/dd0/namespacePHG4HitDefs.html#acf0ed7eaab8ee85ed7f80af702861780',1,'PHG4HitDefs::keybits()']]],
-  ['kfdp',['KFDP',['../dc/d49/structPydat3__t.html#a3188022a006595fb1819433d6f0ad2f1',1,'Pydat3_t']]],
-  ['kfiber_5fbit',['kfiber_bit',['../df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html#a683b65d7cec4f8d258a2dd5c2df77329',1,'PHG4CylinderGeom_Spacalv3::scint_id_coder']]],
-  ['kinvalid_5ffilename',['kInvalid_FileName',['../d9/d8c/classPHFieldConfig.html#af5855af958d94cea44ce3e0948606520',1,'PHFieldConfig']]],
-  ['klinearprecision',['kLinearPrecision',['../d9/def/classPHG4GDMLWriteDefine.html#aa521445511423613bfd14b5a6a7eeab5',1,'PHG4GDMLWriteDefine']]],
-  ['kmag',['kmag',['../d9/da8/classPHFieldSeaQuest.html#a1d20862636cc1713242326edfe6f6b16',1,'PHFieldSeaQuest']]],
-  ['kmag_5fon',['kmag_on',['../d2/d26/classTracklet.html#a45d63ccda2a478d05222e93989bfdb37',1,'Tracklet']]],
-  ['kmagmultiplier',['kMagMultiplier',['../df/d9a/classSettings.html#a797d74382330e75024802aee862e381a',1,'Settings']]],
-  ['kmagname',['kMagName',['../df/d9a/classSettings.html#a6489e442de562a4bcc0b2fb9b1023121',1,'Settings']]],
-  ['kmagzoffset',['kmagZOffset',['../d9/da8/classPHFieldSeaQuest.html#ab169e3dc25478133999df8f56633c893',1,'PHFieldSeaQuest']]],
-  ['kmfitter',['kmfitter',['../d3/d46/classKalmanFastTracking.html#a80aa471ebbcb0f714282e78793928ccc',1,'KalmanFastTracking']]],
-  ['kndcay',['KNDCAY',['../d3/d86/Pythia6_8hh.html#ae2620a8b6f829a46a0c5cf2ca89571db',1,'Pythia6.hh']]],
-  ['krelativeprecision',['kRelativePrecision',['../d9/def/classPHG4GDMLWriteDefine.html#a9cc8d12349d387bdf38daf244551b7aa',1,'PHG4GDMLWriteDefine']]],
-  ['ksector_5fbit',['ksector_bit',['../df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html#a8815fe4ac1f82328b50f68e682890c9f',1,'PHG4CylinderGeom_Spacalv3::scint_id_coder']]],
-  ['ktower_5fbit',['ktower_bit',['../df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html#a6f1f4df51fcb356b6fcac5491b460d2c',1,'PHG4CylinderGeom_Spacalv3::scint_id_coder']]]
+  ['j_5findex',['j_index',['../db/dad/classPHG4CylinderCellv3.html#a56d0028aca746d566cb257a958d365f7',1,'PHG4CylinderCellv3']]],
+  ['jac_5fsc2sd',['jac_sc2sd',['../d1/d3d/classGenFitExtrapolator.html#ad174529337b529108c4f6237eeb8d99a',1,'GenFitExtrapolator']]],
+  ['jac_5fsd2sc',['jac_sd2sc',['../d1/d3d/classGenFitExtrapolator.html#af84c29b041eca36f4d034c2d605501ae',1,'GenFitExtrapolator']]],
+  ['jobname',['jobname',['../d1/d2b/namespacesubmit__bnl.html#a2c332ac23f7374f5c86de26bb621d83a',1,'submit_bnl.jobname()'],['../d9/d8d/namespacesubmit__e1039.html#a36fc8814f0a2404df53976d920ea178b',1,'submit_e1039.jobname()']]]
 ];

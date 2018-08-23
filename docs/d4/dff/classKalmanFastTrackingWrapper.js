@@ -13,6 +13,7 @@ var classKalmanFastTrackingWrapper =
     [ "InitField", "d4/dff/classKalmanFastTrackingWrapper.html#a73a592ff928c69486ab8835049ae9366", null ],
     [ "InitGeom", "d4/dff/classKalmanFastTrackingWrapper.html#a11d29287a0249d9ab26b030b4883515a", null ],
     [ "InitRun", "d4/dff/classKalmanFastTrackingWrapper.html#a3bb9169cefe8ea8969f0ec5661baca2b", null ],
+    [ "MakeNodes", "d4/dff/classKalmanFastTrackingWrapper.html#a2b173121c0b43f3bcbf3657eba6aa4ea", null ],
     [ "process_event", "d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e", null ],
     [ "ResetEvalVars", "d4/dff/classKalmanFastTrackingWrapper.html#a553d25c8efc9bf3fe666e695065ba1f3", null ],
     [ "set_geom_file_name", "d4/dff/classKalmanFastTrackingWrapper.html#a96be7a5dac19e34120c3303ad08dbc35", null ],

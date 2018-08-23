@@ -96,6 +96,7 @@ var hierarchy =
         [ "SimpleReadMySql", "d0/d68/classSimpleReadMySql.html", null ],
         [ "TestAnalyzer", "da/da5/classTestAnalyzer.html", null ],
         [ "TestSimAnalyzer", "d6/d20/classTestSimAnalyzer.html", null ],
+        [ "TrkEval", "de/d2f/classTrkEval.html", null ],
         [ "TruthEval", "df/d39/classTruthEval.html", null ]
       ] ]
     ] ],
@@ -442,6 +443,9 @@ var hierarchy =
         [ "SQSpillMap", "d7/d87/classSQSpillMap.html", [
           [ "SQSpillMap_v1", "df/de1/classSQSpillMap__v1.html", null ]
         ] ],
+        [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
+        [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
+        [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],
         [ "SyncObject", "de/dbb/classSyncObject.html", [
           [ "SyncObjectv1", "d9/d30/classSyncObjectv1.html", [
             [ "SyncObjectv2", "df/da3/classSyncObjectv2.html", null ]
@@ -456,9 +460,6 @@ var hierarchy =
       [ "SRawEvent", "d5/d83/classSRawEvent.html", [
         [ "SRawMCEvent", "d6/dac/classSRawMCEvent.html", null ]
       ] ],
-      [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
-      [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
-      [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],
       [ "Tracklet", "d2/d26/classTracklet.html", null ],
       [ "TriggerRoad", "d5/d72/classTriggerRoad.html", null ],
       [ "TruthTrack", "d9/d8f/classTruthTrack.html", null ]
@@ -466,8 +467,8 @@ var hierarchy =
     [ "PHGenFit::Track", "d7/dd5/classPHGenFit_1_1Track.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
+    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],
     [ "boost::weak_ptr< T >", "d8/de6/classboost_1_1weak__ptr.html", null ]

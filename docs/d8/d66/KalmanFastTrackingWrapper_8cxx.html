@@ -144,13 +144,15 @@ $(document).ready(function(){initNavTree('d8/d66/KalmanFastTrackingWrapper_8cxx.
 <code>#include &lt;cassert&gt;</code><br/>
 <code>#include &lt;stdexcept&gt;</code><br/>
 <code>#include &lt;limits&gt;</code><br/>
+<code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;boost/lexical_cast.hpp&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for KalmanFastTrackingWrapper.cxx:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dec/KalmanFastTrackingWrapper_8cxx__incl.svg" width="4008" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dec/KalmanFastTrackingWrapper_8cxx__incl.svg" width="4023" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">Go to the source code of this file.</a></p>
@@ -163,24 +165,8 @@ Macros</h2></td></tr>
 <tr class="separator:af4231849d7d75726b179a00224d575de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ce6a75c28c8c3893d5e83930f546a10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10">LogWarning</a>(exp)&#160;&#160;&#160;std::cout&lt;&lt;&quot;WARNING: &quot;&lt;&lt;__FUNCTION__&lt;&lt;&quot;: &quot;&lt;&lt;__LINE__&lt;&lt;&quot;: &quot;&lt;&lt; exp &lt;&lt; std::endl</td></tr>
 <tr class="separator:a2ce6a75c28c8c3893d5e83930f546a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23460c6c23aa3acd0cc0003cb1a9cc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx.html#aa23460c6c23aa3acd0cc0003cb1a9cc9">_DEBUG_ON</a></td></tr>
-<tr class="separator:aa23460c6c23aa3acd0cc0003cb1a9cc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="aa23460c6c23aa3acd0cc0003cb1a9cc9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _DEBUG_ON</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00049">49</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a52279903e10561ef695cee631e3dfa4b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -195,9 +181,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00045">45</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00047">47</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00132">KalmanFastTrackingWrapper::BuildSRawEvent()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00053">KalmanFastTrackingWrapper::KalmanFastTrackingWrapper()</a>, and <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00237">KalmanFastTrackingWrapper::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00155">KalmanFastTrackingWrapper::BuildSRawEvent()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00055">KalmanFastTrackingWrapper::KalmanFastTrackingWrapper()</a>, and <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00260">KalmanFastTrackingWrapper::process_event()</a>.</p>
 
 </div>
 </div>
@@ -215,9 +201,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00046">46</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00048">48</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00132">KalmanFastTrackingWrapper::BuildSRawEvent()</a>, and <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00353">KalmanFastTrackingWrapper::GetNodes()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00155">KalmanFastTrackingWrapper::BuildSRawEvent()</a>, and <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00405">KalmanFastTrackingWrapper::GetNodes()</a>.</p>
 
 </div>
 </div>
@@ -235,7 +221,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00047">47</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00049">49</a> of file <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html">KalmanFastTrackingWrapper.cxx</a>.</p>
 
 </div>
 </div>
@@ -249,7 +235,7 @@ Macros</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_3929b4dcb358a3952471d7034fedf100.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_6fda86aaa3592db8c2275cbf436f25c7.html">ktracker</a></li><li class="navelem"><a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx.html">KalmanFastTrackingWrapper.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jul 16 2018 11:18:10</em> using <a
+			updated: <em>Thu Aug 23 2018 11:48:53</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

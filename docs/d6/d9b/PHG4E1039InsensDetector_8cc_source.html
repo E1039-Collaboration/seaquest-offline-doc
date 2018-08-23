@@ -360,89 +360,89 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      cout &lt;&lt; __LINE__ &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt;  name &lt;&lt; endl;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    sID = atoi(row[2]);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    mID = atoi(row[3]);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    sensitiveDetector = atoi(row[4]);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span>(sensitiveDetector == 1) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> == 0)</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[id] = logicWorld;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[id] = <span class="keyword">new</span> G4LogicalVolume(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a4d0e631e23277f9123ee3f333cdb3761">solidVec</a>[sID], <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a8e383eff181eaa18a82818af88d56bb8">materialVec</a>[mID], name);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  }</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  mysql_free_result(res);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  <span class="keywordtype">int</span> logicalID, motherID;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  G4ThreeVector pos;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  vector&lt;int&gt; copy;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  copy.resize((<span class="keywordtype">int</span>)<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>.size());</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i&lt;(int)copy.size(); i++)</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    copy[i] = 0;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT MAX(depth) FROM PhysicalVolumes&quot;</span>);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  row = mysql_fetch_row(res);</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <span class="keywordtype">int</span> depth = atoi(row[0]);</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.resize(0);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT lvID FROM PhysicalVolumes WHERE depth = 0&quot;</span>);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="keywordflow">if</span> ((row = mysql_fetch_row(res)))</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  {</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    logicalID = atoi(row[0]);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a3c2a2ba7933bb91b51e9e6bf70c61e4c">physiWorld</a> = <span class="keyword">new</span> G4PVPlacement(0, G4ThreeVector(), <span class="stringliteral">&quot;World&quot;</span>, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], 0, <span class="keyword">false</span>, 0);</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    copy[logicalID]++;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  }</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  mysql_free_result(res);</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <span class="keywordtype">char</span> qry[500];</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= depth; i++)</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  {</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    sprintf(qry, <span class="stringliteral">&quot;SELECT pvID, pvName, lvID, motherID, xRel, yRel, zRel, rotX, rotY, rotZ &quot;</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                 <span class="stringliteral">&quot;FROM PhysicalVolumes WHERE depth = %i&quot;</span>, i);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, qry);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">while</span> ((row = mysql_fetch_row(res)))</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    {</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="keywordtype">id</span> = atoi(row[0]);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      name = row[1];</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      logicalID = atoi(row[2]);</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID] == 0) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      motherID = atoi(row[3]);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      pos(0) = atof(row[4])*cm;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      pos(1) = atof(row[5])*cm;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      pos(2) = atof(row[6])*cm;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.push_back(<span class="keyword">new</span> G4RotationMatrix());</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateZ(atof(row[9]));</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateY(atof(row[8]));</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateX(atof(row[7]));</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <span class="keyword">new</span> G4PVPlacement(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back(), pos, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], <a class="code" href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">name</a>,</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                        logicalVolumeVec[motherID], 0, copy[logicalID]);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      copy[logicalID]++;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    mysql_free_result(res);</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  }</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  mysql_close(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span>(name.find(<span class="stringliteral">&quot;target_air&quot;</span>) != std::string::npos) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      cout &lt;&lt; __LINE__ &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt;  name &lt;&lt; endl;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    sID = atoi(row[2]);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    mID = atoi(row[3]);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    sensitiveDetector = atoi(row[4]);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">if</span>(sensitiveDetector == 1) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">id</span> == 0)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[id] = logicWorld;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[id] = <span class="keyword">new</span> G4LogicalVolume(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a4d0e631e23277f9123ee3f333cdb3761">solidVec</a>[sID], <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a8e383eff181eaa18a82818af88d56bb8">materialVec</a>[mID], name);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  }</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  mysql_free_result(res);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  <span class="keywordtype">int</span> logicalID, motherID;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  G4ThreeVector pos;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  vector&lt;int&gt; copy;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  copy.resize((<span class="keywordtype">int</span>)<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>.size());</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i&lt;(int)copy.size(); i++)</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    copy[i] = 0;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT MAX(depth) FROM PhysicalVolumes&quot;</span>);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  row = mysql_fetch_row(res);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordtype">int</span> depth = atoi(row[0]);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.resize(0);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT lvID FROM PhysicalVolumes WHERE depth = 0&quot;</span>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="keywordflow">if</span> ((row = mysql_fetch_row(res)))</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    logicalID = atoi(row[0]);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a3c2a2ba7933bb91b51e9e6bf70c61e4c">physiWorld</a> = <span class="keyword">new</span> G4PVPlacement(0, G4ThreeVector(), <span class="stringliteral">&quot;World&quot;</span>, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], 0, <span class="keyword">false</span>, 0);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    copy[logicalID]++;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  mysql_free_result(res);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  <span class="keywordtype">char</span> qry[500];</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= depth; i++)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    sprintf(qry, <span class="stringliteral">&quot;SELECT pvID, pvName, lvID, motherID, xRel, yRel, zRel, rotX, rotY, rotZ &quot;</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                 <span class="stringliteral">&quot;FROM PhysicalVolumes WHERE depth = %i&quot;</span>, i);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, qry);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  <span class="keywordflow">if</span> (mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; endl;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">while</span> ((row = mysql_fetch_row(res)))</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      <span class="keywordtype">id</span> = atoi(row[0]);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      name = row[1];</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      logicalID = atoi(row[2]);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID] == 0) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      motherID = atoi(row[3]);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      pos(0) = atof(row[4])*cm;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      pos(1) = atof(row[5])*cm;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      pos(2) = atof(row[6])*cm;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.push_back(<span class="keyword">new</span> G4RotationMatrix());</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateZ(atof(row[9]));</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateY(atof(row[8]));</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back()-&gt;rotateX(atof(row[7]));</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      <span class="keyword">new</span> G4PVPlacement(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.back(), pos, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], <a class="code" href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">name</a>,</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                        logicalVolumeVec[motherID], 0, copy[logicalID]);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;      copy[logicalID]++;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    mysql_free_result(res);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  }</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  mysql_close(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;}</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
@@ -467,6 +467,10 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
 <div class="ttc" id="classNode_html"><div class="ttname"><a href="../../df/dd0/classNode.html">Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00090">KalmanUtil.h:90</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_ad66045d8867f467fa92f18cd7f0fe35f"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">PHG4E1039InsensDetector::con</a></div><div class="ttdeci">MYSQL * con</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00084">PHG4E1039InsensDetector.h:84</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a160587c29fa89fa8feb61f60ba2f93e5"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a160587c29fa89fa8feb61f60ba2f93e5">PHG4E1039InsensDetector::elementVec</a></div><div class="ttdeci">std::vector&lt; G4Element * &gt; elementVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00067">PHG4E1039InsensDetector.h:67</a></div></div>
@@ -499,7 +503,7 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a950925fee4869d30dce73d61f4f3af6.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6600cddfbbfd1736fcb08579b2659127.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d6/d9b/PHG4E1039InsensDetector_8cc.html">PHG4E1039InsensDetector.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jul 16 2018 11:18:09</em> using <a
+			updated: <em>Thu Aug 23 2018 11:48:51</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

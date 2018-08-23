@@ -12,10 +12,10 @@ Welcome to SeaQuest Offline Software documentation!
 \section INTRO Introduction
 This documentation digested 2 related repositories:
 
-\li <a href="https://github.com/HaiwangYu/seaquest-offline"> seaquest-offline </a>: core libraries 
-\li <a href="https://github.com/HaiwangYu/seaquest-analysis"> seaquest-analysis </a>: analysis packages
+\li <a href="https://github.com/E1039-Collaboration/seaquest-offline"> seaquest-offline </a>: core libraries 
+\li <a href="https://github.com/E1039-Collaboration/seaquest-analysis"> seaquest-analysis </a>: analysis packages
 
-The source code for this document is <a href="https://github.com/HaiwangYu/seaquest-offline-doc"> here</a>.
+The source code for this document is <a href="https://github.com/E1039-Collaboration/seaquest-offline-doc"> here</a>.
 
 \section STARTwebsite Start using this website
 

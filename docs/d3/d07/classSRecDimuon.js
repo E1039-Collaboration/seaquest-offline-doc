@@ -1,10 +1,13 @@
 var classSRecDimuon =
 [
     [ "calcVariables", "d3/d07/classSRecDimuon.html#ac53e58ade80e9739db859c06760de431", null ],
+    [ "Clone", "d3/d07/classSRecDimuon.html#a1959d24c5afe7ac0d0c74ec2a0a79a3a", null ],
     [ "getVPhoton", "d3/d07/classSRecDimuon.html#af8bdaa8a74b625fe06b3ab5e51e200b3", null ],
+    [ "identify", "d3/d07/classSRecDimuon.html#a31e24d69ca3b1b8a4839cef19d7bcce2", null ],
     [ "isDump", "d3/d07/classSRecDimuon.html#a54ebc48eaba22c2f573e5848e346052e", null ],
     [ "isTarget", "d3/d07/classSRecDimuon.html#ac30915c6f3ff17e6ba7135b8a6e1bd2f", null ],
-    [ "isValid", "d3/d07/classSRecDimuon.html#a2043c455d5882f48acb825b1eb4102c1", null ],
+    [ "isValid", "d3/d07/classSRecDimuon.html#a245e2442d23490160e8c07c927f103ea", null ],
+    [ "Reset", "d3/d07/classSRecDimuon.html#ae44fc0f480a00505aba19f072c8b0f5f", null ],
     [ "chisq_dump", "d3/d07/classSRecDimuon.html#a3918d6e2eb3136e8f27c8cda5cda050e", null ],
     [ "chisq_kf", "d3/d07/classSRecDimuon.html#aa24932b70dcfa6fd14469fa11bc695e0", null ],
     [ "chisq_single", "d3/d07/classSRecDimuon.html#a0f60d9ec2760939fe27aa68bf55d49b6", null ],

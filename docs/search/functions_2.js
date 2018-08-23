@@ -12,6 +12,7 @@ var searchData=
   ['beginruntimestamp',['BeginRunTimeStamp',['../da/d29/classFun4AllServer.html#affd2d0e2577fbc521e02f627946bcdae',1,'Fun4AllServer']]],
   ['bin_5fsearch',['bin_search',['../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c',1,'PHField3DCylindrical']]],
   ['binarytimetotics',['binaryTimeToTics',['../da/dc2/classPHTimeStamp.html#a50f44df466af8818a2c140e7f04deddb',1,'PHTimeStamp']]],
+  ['binom_5ferror',['binom_error',['../dd/d2d/HodoAccGap_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873',1,'binom_error(const double a, const double b):&#160;ana.C'],['../da/d2c/PrgTrkDev_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873',1,'binom_error(const double a, const double b):&#160;ana.C']]],
   ['bits',['bits',['../d2/d29/classhalf.html#a0ddbf7dafaa9b839ae9fc3ac4c8b39ed',1,'half']]],
   ['blackhole',['BlackHole',['../d7/d7f/classPHG4DetectorGroupSubsystem.html#a56cbe5f15efc38960c8c9694e1e4b7c8',1,'PHG4DetectorGroupSubsystem::BlackHole()'],['../d5/d29/classPHG4DetectorSubsystem.html#a59a7a51adb7ebe0fdbc9d41e97ac8fd6',1,'PHG4DetectorSubsystem::BlackHole()']]],
   ['booleanwrite',['BooleanWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#acaa5a680bf366ae99a07faf07f4cbf7c',1,'PHG4GDMLWriteSolids']]],

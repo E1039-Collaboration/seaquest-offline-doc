@@ -18,6 +18,7 @@ var classPHTimer =
     [ "print", "d0/d5e/classPHTimer.html#a888198bd40c6e112b820d6b78406e3aa", null ],
     [ "PRINT", "d0/d5e/classPHTimer.html#ac0fd0e47b6cd0a290f3db3ee4dae3ab5", null ],
     [ "print_stat", "d0/d5e/classPHTimer.html#a368d0ba41f3f57737731c4bfb545a954", null ],
+    [ "reset", "d0/d5e/classPHTimer.html#adf9fade669ec04ab6a1496c56ab170c7", null ],
     [ "restart", "d0/d5e/classPHTimer.html#a433d96c3401380d49ff01acfd16ac69c", null ],
     [ "set_name", "d0/d5e/classPHTimer.html#a274969fb79a23b6b736b44ce20073b49", null ],
     [ "stop", "d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41", null ],

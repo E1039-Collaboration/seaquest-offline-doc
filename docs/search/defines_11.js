@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['wild_5fdouble',['WILD_DOUBLE',['../d7/d95/Track_8cc.html#aea0a9964a55ae9561b4a7074b71843c1',1,'Track.cc']]]
+  ['x0_5fmax',['X0_MAX',['../dd/de2/GlobalConsts_8h.html#abb7b6830036e9aefc5e53c453c490cf2',1,'GlobalConsts.h']]],
+  ['x_5fvtx',['X_VTX',['../dd/de2/GlobalConsts_8h.html#abec6370cc28652f4a426fe04e56e9f6e',1,'GlobalConsts.h']]]
 ];
