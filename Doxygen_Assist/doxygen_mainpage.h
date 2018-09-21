@@ -7,21 +7,23 @@
 
 \tableofcontents
 
-Welcome to SeaQuest Offline Software documentation!
+Welcome to E1039 Software documentation!
 
 \section INTRO Introduction
 This documentation digested 2 related repositories:
 
-\li <a href="https://github.com/E1039-Collaboration/seaquest-offline"> seaquest-offline </a>: core libraries 
-\li <a href="https://github.com/E1039-Collaboration/seaquest-analysis"> seaquest-analysis </a>: analysis packages
+\li <a href="https://github.com/E1039-Collaboration/e1039-core"> e1039-core </a>: core libraries 
+\li <a href="https://github.com/E1039-Collaboration/e1039-analysis"> e1039-analysis </a>: analysis packages
 
-The source code for this document is <a href="https://github.com/E1039-Collaboration/seaquest-offline-doc"> here</a>.
+The source code for this document is <a href="https://github.com/E1039-Collaboration/e1039-doc"> here</a>.
+
+Also plseae check the the <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki"> e1039-wiki </a> for more information.
 
 \section STARTwebsite Start using this website
 
 \subsection UsefulFeatures Highlighted Features
 
-Many feature of the website will help you navigate through the ocean of SeaQuest software. Few are highlighted here:
+Many feature of the website will help you navigate through the ocean of E1039 software. Few are highlighted here:
 \li Ever want to find a class or function? It is easy now using the <b>"Search" box</b> on top right of every page. Type few initial letters it will give hints to the rest.
 \li Left side is a <b>navigation bar</b> that expands automatically with your browsing by default. You can also make these two independent of each other by toggling the arrows on left top.
 \li Want to browse the software <b>directory tree</b>? Check out the <a href="files.html"><i>Files</i> button in the navigation bar</a>.

@@ -34,6 +34,6 @@ var classKalmanFastTrackingWrapper =
     [ "_tout", "d4/dff/classKalmanFastTrackingWrapper.html#a9ab7c3475ff1a2853233bd88b9a2d44c", null ],
     [ "_triggerhit_vector", "d4/dff/classKalmanFastTrackingWrapper.html#a063692a392f51b40c9c0d3db455505ba", null ],
     [ "eventReducer", "d4/dff/classKalmanFastTrackingWrapper.html#ac2d6270aa31ffdf600275158d8a7bffc", null ],
-    [ "fastfinder", "d4/dff/classKalmanFastTrackingWrapper.html#a3603297c13daa2d88bfa4cb37f1ed870", null ],
+    [ "fastfinder", "d4/dff/classKalmanFastTrackingWrapper.html#a4d8fffb80f1e6aef7976f37fa08976ac", null ],
     [ "p_jobOptsSvc", "d4/dff/classKalmanFastTrackingWrapper.html#ac8fd9873c186b6bdadaec8fc69556411", null ]
 ];

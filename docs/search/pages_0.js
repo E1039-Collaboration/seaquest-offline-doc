@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fun4all_20based_20e1039_20offline_20software',['Fun4All based E1039 offline software',['../de/df8/md__home_yuhw_GitHub_SeaQuest_seaquest-offline_README.html',1,'']]]
+  ['clone_20the_20analysis_20repository',['clone the analysis repository',['../d3/d3b/md__home_yuhw_GitHub_SeaQuest_e1039-analysis_HodoAccGap_README.html',1,'']]]
 ];

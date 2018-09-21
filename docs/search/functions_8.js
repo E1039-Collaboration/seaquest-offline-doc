@@ -11,7 +11,7 @@ var searchData=
   ['hepmcflowafterburner',['HepMCFlowAfterBurner',['../dd/d6c/classHepMCFlowAfterBurner.html#afc43fc55f16f269213c648ff81bc951a',1,'HepMCFlowAfterBurner']]],
   ['hepmcnodereader',['HepMCNodeReader',['../db/d6c/classHepMCNodeReader.html#ab41ca03dce45861f6fdfa57c48315625',1,'HepMCNodeReader']]],
   ['hit',['Hit',['../d0/d88/classHit.html#ac2727a27933c07b60b6a7ccccba12fff',1,'Hit::Hit()'],['../d0/d88/classHit.html#a372175d3c552a1ee05694fbd3a98c464',1,'Hit::Hit(int uniqueID)'],['../d0/d88/classHit.html#a9758715ddd80d61ab4916daf17e0be15',1,'Hit::Hit(int detectorID, int elementID)']]],
-  ['hodomask',['hodoMask',['../d3/d46/classKalmanFastTracking.html#a2ba7e37a8c501ba0e84a3036b292c0d7',1,'KalmanFastTracking']]],
+  ['hodomask',['hodoMask',['../d3/d46/classKalmanFastTracking.html#a2ba7e37a8c501ba0e84a3036b292c0d7',1,'KalmanFastTracking::hodoMask()'],['../dc/d0c/classKalmanPrgTrk.html#a6245bed169def39861faa80f0d8170f1',1,'KalmanPrgTrk::hodoMask()']]],
   ['hodoscopemask',['hodoscopeMask',['../d5/dda/classEventReducer.html#af69506f70efff619964ac0aa0a7b2c66',1,'EventReducer']]],
   ['houghreducer',['houghReducer',['../d5/dda/classEventReducer.html#a42537ac49331a51936dc0a29e5e31343',1,'EventReducer']]],
   ['hype_5fdimensionswrite',['Hype_dimensionsWrite',['../d8/dd9/classPHG4GDMLWriteParamvol.html#a115192ad15469bbbdab4a7df58323330',1,'PHG4GDMLWriteParamvol']]],

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-analysis/PrgTrkDev/ana.C Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-analysis/PrgTrkDev/ana.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div class="contents">
 <a href="../../da/d2c/PrgTrkDev_2ana_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">    3</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dd/d2d/HodoAccGap_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">ratio_error</a>(</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">    3</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">ratio_error</a>(</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> a,</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> b,</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> ea,</div>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordflow">return</span> er;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">   16</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../dd/d2d/HodoAccGap_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a>(</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">   16</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a>(</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> a,</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> b</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    ){</div>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordflow">return</span> sqrt(r*(1-r)/b);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">   24</a></span>&#160;TH1D * <a class="code" href="../../dd/d2d/HodoAccGap_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">getEffHist</a>(</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">   24</a></span>&#160;TH1D * <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">getEffHist</a>(</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span>* hname,</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">const</span> TH1D* h1,</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">const</span> TH1D* h2</div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">double</span> a = h1-&gt;GetBinContent(ibin);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">double</span> b = h2-&gt;GetBinContent(ibin);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">double</span> r = a/b;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">double</span> e = <a class="code" href="../../dd/d2d/HodoAccGap_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a>(a, b);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">double</span> e = <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a>(a, b);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    h-&gt;SetBinContent(ibin, r);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    h-&gt;SetBinError(ibin, e);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  }</div>
@@ -216,18 +216,18 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">  102</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d2d/HodoAccGap_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a>() {</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../da/d2c/PrgTrkDev_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">  102</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a>() {</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  gStyle-&gt;SetOptFit();</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <a class="code" href="../../da/d2c/PrgTrkDev_2ana_8C.html#ac5783415bf196a8f32d83585d471416a">drawEffMul</a>();</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <a class="code" href="../../da/d2c/PrgTrkDev_2ana_8C.html#a3d17b285a7139a95ce914a663a553ec6">drawTimeMul</a>();</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
+<div class="ttc" id="E1039Shielding_2ana_8C_html_a68f99920be96fd675894490fd64e9a37"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">getEffHist</a></div><div class="ttdeci">TH1D * getEffHist(const char *hname, const TH1D *h1, const TH1D *h2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00024">ana.C:24</a></div></div>
+<div class="ttc" id="E1039Shielding_2ana_8C_html_aad19f100cc413c221a6f2604b5e57873"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a></div><div class="ttdeci">double binom_error(const double a, const double b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00016">ana.C:16</a></div></div>
 <div class="ttc" id="PrgTrkDev_2ana_8C_html_ac5783415bf196a8f32d83585d471416a"><div class="ttname"><a href="../../da/d2c/PrgTrkDev_2ana_8C.html#ac5783415bf196a8f32d83585d471416a">drawEffMul</a></div><div class="ttdeci">void drawEffMul()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2c/PrgTrkDev_2ana_8C_source.html#l00067">ana.C:67</a></div></div>
-<div class="ttc" id="HodoAccGap_2ana_8C_html_afd7ae00323e59ba4f17fe20f14930277"><div class="ttname"><a href="../../dd/d2d/HodoAccGap_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">ratio_error</a></div><div class="ttdeci">double ratio_error(const double a, const double b, const double ea, const double eb)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/HodoAccGap_2ana_8C_source.html#l00003">ana.C:3</a></div></div>
-<div class="ttc" id="HodoAccGap_2ana_8C_html_a68f99920be96fd675894490fd64e9a37"><div class="ttname"><a href="../../dd/d2d/HodoAccGap_2ana_8C.html#a68f99920be96fd675894490fd64e9a37">getEffHist</a></div><div class="ttdeci">TH1D * getEffHist(const char *hname, const TH1D *h1, const TH1D *h2)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/HodoAccGap_2ana_8C_source.html#l00024">ana.C:24</a></div></div>
-<div class="ttc" id="HodoAccGap_2ana_8C_html_aad19f100cc413c221a6f2604b5e57873"><div class="ttname"><a href="../../dd/d2d/HodoAccGap_2ana_8C.html#aad19f100cc413c221a6f2604b5e57873">binom_error</a></div><div class="ttdeci">double binom_error(const double a, const double b)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/HodoAccGap_2ana_8C_source.html#l00016">ana.C:16</a></div></div>
-<div class="ttc" id="HodoAccGap_2ana_8C_html_a24b637aefa84c667b63905e9be5a8f69"><div class="ttname"><a href="../../dd/d2d/HodoAccGap_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a></div><div class="ttdeci">void ana()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/HodoAccGap_2ana_8C_source.html#l00185">ana.C:185</a></div></div>
+<div class="ttc" id="E1039Shielding_2ana_8C_html_a24b637aefa84c667b63905e9be5a8f69"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a></div><div class="ttdeci">void ana()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00193">ana.C:193</a></div></div>
+<div class="ttc" id="E1039Shielding_2ana_8C_html_afd7ae00323e59ba4f17fe20f14930277"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#afd7ae00323e59ba4f17fe20f14930277">ratio_error</a></div><div class="ttdeci">double ratio_error(const double a, const double b, const double ea, const double eb)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00003">ana.C:3</a></div></div>
 <div class="ttc" id="PrgTrkDev_2ana_8C_html_a3d17b285a7139a95ce914a663a553ec6"><div class="ttname"><a href="../../da/d2c/PrgTrkDev_2ana_8C.html#a3d17b285a7139a95ce914a663a553ec6">drawTimeMul</a></div><div class="ttdeci">void drawTimeMul()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2c/PrgTrkDev_2ana_8C_source.html#l00043">ana.C:43</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -236,10 +236,10 @@ $(document).ready(function(){initNavTree('da/d2c/PrgTrkDev_2ana_8C_source.html',
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_1ab111e80ddc0d8079d2c1e17b8e985d.html">seaquest-analysis</a></li><li class="navelem"><a class="el" href="../../dir_52f40da1c1787d442ea9a2ec6c9fc905.html">PrgTrkDev</a></li><li class="navelem"><a class="el" href="../../da/d2c/PrgTrkDev_2ana_8C.html">ana.C</a></li>
+		<li class="navelem"><a class="el" href="../../dir_1e2c4f69c8312c75d39ae37d9d1cd04e.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_358e941cb21c5a82631f526e93227ae5.html">PrgTrkDev</a></li><li class="navelem"><a class="el" href="../../da/d2c/PrgTrkDev_2ana_8C.html">ana.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:49</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:41</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

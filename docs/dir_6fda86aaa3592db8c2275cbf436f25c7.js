@@ -33,6 +33,10 @@ var dir_6fda86aaa3592db8c2275cbf436f25c7 =
     [ "KalmanFitter.h", "d8/daf/KalmanFitter_8h.html", [
       [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", "d3/dc9/classKalmanFitter" ]
     ] ],
+    [ "KalmanPrgTrk.cxx", "de/d89/KalmanPrgTrk_8cxx.html", null ],
+    [ "KalmanPrgTrk.h", "d8/d4a/KalmanPrgTrk_8h.html", [
+      [ "KalmanPrgTrk", "dc/d0c/classKalmanPrgTrk.html", "dc/d0c/classKalmanPrgTrk" ]
+    ] ],
     [ "KalmanTrack.cxx", "d0/dac/KalmanTrack_8cxx.html", null ],
     [ "KalmanTrack.h", "d7/d2b/KalmanTrack_8h.html", [
       [ "Seed", "db/d19/classSeed.html", "db/d19/classSeed" ],

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: PHGenIntegralv1 Class Reference</title>
+<title>E1039 Software: PHGenIntegralv1 Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('dd/dd1/classPHGenIntegralv1.html','../
 <p><a class="el" href="../../dd/dd1/classPHGenIntegralv1.html" title="PHGenIntegralv1. ">PHGenIntegralv1</a>.  
  <a href="../../dd/dd1/classPHGenIntegralv1.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html">/home/yuhw/GitHub/SeaQuest/seaquest-offline/generators/phhepmc/PHGenIntegralv1.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html">/home/yuhw/GitHub/SeaQuest/e1039-core/generators/phhepmc/PHGenIntegralv1.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for PHGenIntegralv1:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -158,7 +158,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef9d0192ea665f64d58afe12bcdd8b94"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd1/classPHGenIntegralv1.html#aef9d0192ea665f64d58afe12bcdd8b94">identify</a> (std::ostream &amp;os=std::cout) const </td></tr>
 <tr class="separator:aef9d0192ea665f64d58afe12bcdd8b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accf711d0c99eb3818c3480434c988122"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd1/classPHGenIntegralv1.html#accf711d0c99eb3818c3480434c988122">Reset</a> ()</td></tr>
-<tr class="memdesc:accf711d0c99eb3818c3480434c988122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear Event.  <a href="#accf711d0c99eb3818c3480434c988122">More...</a><br/></td></tr>
+<tr class="memdesc:accf711d0c99eb3818c3480434c988122"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear <a class="el" href="../../d5/da5/classEvent.html">Event</a>.  <a href="#accf711d0c99eb3818c3480434c988122">More...</a><br/></td></tr>
 <tr class="separator:accf711d0c99eb3818c3480434c988122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb7afda67a2493054dad0d806256b9ea"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd1/classPHGenIntegralv1.html#afb7afda67a2493054dad0d806256b9ea">Integrate</a> () const </td></tr>
 <tr class="separator:afb7afda67a2493054dad0d806256b9ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -539,7 +539,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sum of weight assigned to the events by the generators. Event weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
+<p>Sum of weight assigned to the events by the generators. <a class="el" href="../../d5/da5/classEvent.html">Event</a> weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
 
 <p>Reimplemented from <a class="el" href="../../d8/d0e/classPHGenIntegral.html#a3227ad5c7cdeaa8e5bfff7ca653609eb">PHGenIntegral</a>.</p>
 
@@ -698,7 +698,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Clear Event. </p>
+<p>Clear <a class="el" href="../../d5/da5/classEvent.html">Event</a>. </p>
 
 <p>Reimplemented from <a class="el" href="../../d9/d24/classPHObject.html#a079739b3b51fdbda7356e60ec50f055e">PHObject</a>.</p>
 
@@ -855,7 +855,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sum of weight assigned to the events by the generators. Event weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
+<p>Sum of weight assigned to the events by the generators. <a class="el" href="../../d5/da5/classEvent.html">Event</a> weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
 
 <p>Reimplemented from <a class="el" href="../../d8/d0e/classPHGenIntegral.html#ad07b6fe2f35d05ec2892dce02a375b06">PHGenIntegral</a>.</p>
 
@@ -987,7 +987,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Sum of weight assigned to the events by the generators. Event weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
+<p>Sum of weight assigned to the events by the generators. <a class="el" href="../../d5/da5/classEvent.html">Event</a> weight is normally 1 and thus equal to number of the generated event and is uninteresting. However, there are several cases where one may have nontrivial event weights, e.g. using user hooks in <a class="el" href="../../d3/dee/namespacePythia8.html">Pythia8</a> generators to reweight the phase space </p>
 
 <p>Definition at line <a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html#l00113">113</a> of file <a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html">PHGenIntegralv1.h</a>.</p>
 
@@ -996,8 +996,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/yuhw/GitHub/SeaQuest/seaquest-offline/generators/phhepmc/<a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html">PHGenIntegralv1.h</a></li>
-<li>/home/yuhw/GitHub/SeaQuest/seaquest-offline/generators/phhepmc/<a class="el" href="../../d3/d29/PHGenIntegralv1_8cc_source.html">PHGenIntegralv1.cc</a></li>
+<li>/home/yuhw/GitHub/SeaQuest/e1039-core/generators/phhepmc/<a class="el" href="../../d2/d51/PHGenIntegralv1_8h_source.html">PHGenIntegralv1.h</a></li>
+<li>/home/yuhw/GitHub/SeaQuest/e1039-core/generators/phhepmc/<a class="el" href="../../d3/d29/PHGenIntegralv1_8cc_source.html">PHGenIntegralv1.cc</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -1009,7 +1009,7 @@ Private Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dd/dd1/classPHGenIntegralv1.html">PHGenIntegralv1</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:57</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:47</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: Class Members</title>
+<title>E1039 Software: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -176,6 +176,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="d6/d98/classDPDigitizer.html#a7d1d8f577588ebeb5634a40859eb9995">DPDigitizer</a>
 , <a class="el" href="d5/dda/classEventReducer.html#a657916c59f90b1a9a237e5f99acb5c90">EventReducer</a>
 , <a class="el" href="d3/d46/classKalmanFastTracking.html#a556a6a110887673c1f77cbb114f46292">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#af3923e7e012c6de0efe41929e12799df">KalmanPrgTrk</a>
 , <a class="el" href="d0/d1e/classPropSegment.html#af84bd1f54a9ce5c384c8188617745eca">PropSegment</a>
 , <a class="el" href="db/dda/classReadMySql.html#a6808eef82ecf3377012665bd90c78590">ReadMySql</a>
 , <a class="el" href="d6/d20/classTestSimAnalyzer.html#a4de76b4a2b27cc36fff9c5e1c27acf2d">TestSimAnalyzer</a>
@@ -189,6 +190,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d8/d62/classJobOptsSvc.html#af4cde8d999d5e0fc0702819aacf43f7d">JobOptsSvc</a>
 , <a class="el" href="d3/d46/classKalmanFastTracking.html#a2a1b62e23eae87494878f6d629b71a76">KalmanFastTracking</a>
 , <a class="el" href="d4/dff/classKalmanFastTrackingWrapper.html#ac8fd9873c186b6bdadaec8fc69556411">KalmanFastTrackingWrapper</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#ac93f3fcad6139a21eb0170ab00e38447">KalmanPrgTrk</a>
 </li>
 <li>p_kmfit
 : <a class="el" href="d6/d2a/classKalmanFilter.html#ad56facdfc22ee4932a847ba168e331ff">KalmanFilter</a>
@@ -241,12 +243,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>pad_phibin_share
 : <a class="el" href="dc/d94/classPHG4CylinderCellTPCReco.html#a59a9cd4d5c59a7f44663e60d27bea0da">PHG4CylinderCellTPCReco</a>
 </li>
-<li>pAlp1
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#acd7f1454230dd332115f43e2c2d53c4e">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pAlp2
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#ab229613104e7ed43b48f5973a2825639">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
 <li>Para_dimensionsWrite()
 : <a class="el" href="d8/dd9/classPHG4GDMLWriteParamvol.html#a17893bfb0bac22f5261a6a9fc504e5e0">PHG4GDMLWriteParamvol</a>
 </li>
@@ -276,6 +272,8 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d8/d1b/classPHG4ParameterInterface.html#a1b8c6e5355f43ccfc47b4ab530cb7826">PHG4ParameterInterface</a>
 , <a class="el" href="d8/db8/classPHG4PolyconDetector.html#a0d7738dc437f4fefba2abcb2b54630be">PHG4PolyconDetector</a>
 , <a class="el" href="d3/d3d/classPHG4PolyconSteppingAction.html#a71679db978f6f021960852fd03741321">PHG4PolyconSteppingAction</a>
+, <a class="el" href="d9/d87/classPHG4SquareTubeDetector.html#a32c60fb3cd308f9b4b5120a3bcc2ef43">PHG4SquareTubeDetector</a>
+, <a class="el" href="dc/d4f/classPHG4SquareTubeSteppingAction.html#a237976eb98280b3cca71a9e1507cd3dd">PHG4SquareTubeSteppingAction</a>
 , <a class="el" href="df/dec/classPHG4TargetCoilDetector.html#a42445d8ae27f9c08640a78d917438fa1">PHG4TargetCoilDetector</a>
 , <a class="el" href="db/d00/classPHG4TargetCoilSteppingAction.html#a823bbdb436b89f595e4389c46a60bb41">PHG4TargetCoilSteppingAction</a>
 , <a class="el" href="d4/d31/classPHParameterInterface.html#abc27183e789c85e5b3fb4a044d5d7e36">PHParameterInterface</a>
@@ -409,27 +407,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>PdbParameterMapContainer()
 : <a class="el" href="d4/d7d/classPdbParameterMapContainer.html#a1a6d97b92c70d7dcb7e56a1e85cda2e9">PdbParameterMapContainer</a>
-</li>
-<li>pDx1
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a70390f6764f4f86093f90cef18f8045f">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDx2
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#ae68fccce3321ce50091cf3682459cd53">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDx3
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#af0d999c6c0f2cabb96684ab00e8f2df1">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDx4
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a3aa1fbdedd7634f413fc679c2a696a01">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDy1
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a5d41c3cb36cacf68155428bb1281adb5">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDy2
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a131c4f6c94f1241495e6e0e5c073cc75">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
-<li>pDz
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a586653623a11225a87668b293fd99aa2">PHG4CylinderGeom_Spacalv3::geom_tower</a>
 </li>
 <li>percent_diff()
 : <a class="el" href="d9/d3a/classPHPythia8.html#a45da762ebbc0f173a17db55dfeec2fa9">PHPythia8</a>
@@ -574,17 +551,11 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>PHG4CylinderCell()
 : <a class="el" href="d6/db7/classPHG4CylinderCell.html#a7e87da3fc0256d0ab88fa09fa2d4c31d">PHG4CylinderCell</a>
 </li>
-<li>PHG4CylinderCell_MAPS()
-: <a class="el" href="d7/d0f/classPHG4CylinderCell__MAPS.html#a8e43a7478dfaed7a28a96516038b181b">PHG4CylinderCell_MAPS</a>
-</li>
 <li>PHG4CylinderCellContainer()
 : <a class="el" href="d6/ddf/classPHG4CylinderCellContainer.html#a5b6d3fce328c66ab442da45d180bce5a">PHG4CylinderCellContainer</a>
 </li>
 <li>PHG4CylinderCellGeom()
 : <a class="el" href="d9/d85/classPHG4CylinderCellGeom.html#af7818f38b50581e704bef3e68c06a9f6">PHG4CylinderCellGeom</a>
-</li>
-<li>PHG4CylinderCellGeom_Spacalv1()
-: <a class="el" href="df/d09/classPHG4CylinderCellGeom__Spacalv1.html#af28d8f8ec4ecceec45935abf6ad5d93c">PHG4CylinderCellGeom_Spacalv1</a>
 </li>
 <li>PHG4CylinderCellGeomContainer()
 : <a class="el" href="d2/ddb/classPHG4CylinderCellGeomContainer.html#a720565c4aa146811102a6ea351d67a8a">PHG4CylinderCellGeomContainer</a>
@@ -609,21 +580,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>PHG4CylinderGeom()
 : <a class="el" href="dc/d30/classPHG4CylinderGeom.html#af86eead0e57542c08531f8cd46ca98b5">PHG4CylinderGeom</a>
-</li>
-<li>PHG4CylinderGeom_MAPS()
-: <a class="el" href="df/d55/classPHG4CylinderGeom__MAPS.html#a566c4fb6dfb69a5104d028fafdd8fe26">PHG4CylinderGeom_MAPS</a>
-</li>
-<li>PHG4CylinderGeom_Siladders()
-: <a class="el" href="db/d64/classPHG4CylinderGeom__Siladders.html#aec8bcbff82e355fdd0a7adb4a209955e">PHG4CylinderGeom_Siladders</a>
-</li>
-<li>PHG4CylinderGeom_Spacalv1()
-: <a class="el" href="d2/da2/classPHG4CylinderGeom__Spacalv1.html#a7528ffb3cb224afe3e927f74819b6334">PHG4CylinderGeom_Spacalv1</a>
-</li>
-<li>PHG4CylinderGeom_Spacalv2()
-: <a class="el" href="db/d5f/classPHG4CylinderGeom__Spacalv2.html#a0401d410b50189181202506cbad8c234">PHG4CylinderGeom_Spacalv2</a>
-</li>
-<li>PHG4CylinderGeom_Spacalv3()
-: <a class="el" href="de/d61/classPHG4CylinderGeom__Spacalv3.html#a70b13a9968506448c8ee6504c382d851">PHG4CylinderGeom_Spacalv3</a>
 </li>
 <li>PHG4CylinderGeomContainer()
 : <a class="el" href="d4/de7/classPHG4CylinderGeomContainer.html#a7ac631d3bb96acfc27119fbb4f6f20a2">PHG4CylinderGeomContainer</a>
@@ -720,6 +676,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>PHG4HitContainer()
 : <a class="el" href="d4/d30/classPHG4HitContainer.html#ac2db8359fabf21e3704923203353b8f7">PHG4HitContainer</a>
+</li>
+<li>PHG4HitDefs_keytype
+: <a class="el" href="de/d79/classSQHit.html#ae02ed4c8fc30ba145c6e435cb9cc3bc1">SQHit</a>
 </li>
 <li>PHG4HitEval()
 : <a class="el" href="d5/d60/classPHG4HitEval.html#ad73211b3cf475dbe8c58e63c54adf127">PHG4HitEval</a>
@@ -825,6 +784,15 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>PHG4SimpleEventGenerator()
 : <a class="el" href="d5/df3/classPHG4SimpleEventGenerator.html#aa2f2ad0d888566bc97f8720268fa3b78">PHG4SimpleEventGenerator</a>
+</li>
+<li>PHG4SquareTubeDetector()
+: <a class="el" href="d9/d87/classPHG4SquareTubeDetector.html#ac7847c139d6bef3cc997a9613b27fee9">PHG4SquareTubeDetector</a>
+</li>
+<li>PHG4SquareTubeSteppingAction()
+: <a class="el" href="dc/d4f/classPHG4SquareTubeSteppingAction.html#a01cbce7b50ba3b3ac2b81430fb95568d">PHG4SquareTubeSteppingAction</a>
+</li>
+<li>PHG4SquareTubeSubsystem()
+: <a class="el" href="d4/d2d/classPHG4SquareTubeSubsystem.html#ae98d6c8735221b71919737d7d798dd47">PHG4SquareTubeSubsystem</a>
 </li>
 <li>PHG4SteppingAction()
 : <a class="el" href="df/d3f/classPHG4SteppingAction.html#a3f7be4288c6944cd44ec86e27629f642">PHG4SteppingAction</a>
@@ -1027,7 +995,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="da/dc2/classPHTimeStamp.html#ae5577b84b71934bfdd2bc53fe1acf78d">PHTimeStamp</a>
 </li>
 <li>PHTypedNodeIterator()
-: <a class="el" href="df/d76/classPHTypedNodeIterator.html#a017b8ecc229b6aef9d82cde4ecbc0988">PHTypedNodeIterator&lt; T &gt;</a>
+: <a class="el" href="df/d76/classPHTypedNodeIterator.html#a42d0234a09decdbf9903dffb2f8ecf6f">PHTypedNodeIterator&lt; T &gt;</a>
 </li>
 <li>physicslist
 : <a class="el" href="d0/d78/classPHG4Reco.html#a7c753df30858d63f4788167f0cc6e44c">PHG4Reco</a>
@@ -1045,18 +1013,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>pid
 : <a class="el" href="d9/d8f/classTruthTrack.html#a94a7e6b6b032fc0dc6755bd6f5749feb">TruthTrack</a>
-</li>
-<li>pixel_number
-: <a class="el" href="d7/d0f/classPHG4CylinderCell__MAPS.html#ad41ccec7c1004bfc4b30fb2f7103a446">PHG4CylinderCell_MAPS</a>
-</li>
-<li>pixel_thickness
-: <a class="el" href="df/d55/classPHG4CylinderGeom__MAPS.html#a889ae3d4e5343ac5a0e595895150a397">PHG4CylinderGeom_MAPS</a>
-</li>
-<li>pixel_x
-: <a class="el" href="df/d55/classPHG4CylinderGeom__MAPS.html#a36ae1fb8fb0f7f638b19bd04014f179f">PHG4CylinderGeom_MAPS</a>
-</li>
-<li>pixel_z
-: <a class="el" href="df/d55/classPHG4CylinderGeom__MAPS.html#a4b62b7b1a2cdb4b2fd3c16d384b7bdf6">PHG4CylinderGeom_MAPS</a>
 </li>
 <li>place_in_x
 : <a class="el" href="d6/d41/classPHG4ConeDetector.html#a5cc34b610ab3e2e8c892db8dab458c2a">PHG4ConeDetector</a>
@@ -1097,9 +1053,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>pointer
 : <a class="el" href="da/d18/classboost_1_1shared__ptr.html#aa9ef239de25874ced292231d738b1eed">boost::shared_ptr&lt; T &gt;</a>
 </li>
-<li>polar_taper_ratio
-: <a class="el" href="db/d5f/classPHG4CylinderGeom__Spacalv2.html#a90432a58a6d4d63ef700fd245aa69635">PHG4CylinderGeom_Spacalv2</a>
-</li>
 <li>Polycone_dimensionsWrite()
 : <a class="el" href="d8/dd9/classPHG4GDMLWriteParamvol.html#a152630075a55cde45067fbc99f0af621">PHG4GDMLWriteParamvol</a>
 </li>
@@ -1124,7 +1077,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>pos
 : <a class="el" href="d0/d88/classHit.html#a720406704612b1a3e130b66aa7db991e">Hit</a>
 , <a class="el" href="d9/db3/classPHPointerListIterator.html#adacf481f4864357223b8c91541243fcd">PHPointerListIterator&lt; T &gt;</a>
-, <a class="el" href="de/d45/classSignedHit.html#ad1a91e9c2c5c47cc054e80442d4ba7a6">SignedHit</a>
+, <a class="el" href="de/d45/classSignedHit.html#aa752a613465f50fc640689c0b3eb99b5">SignedHit</a>
 , <a class="el" href="de/d2f/classTrkEval.html#a4d3b5b5b36506ba813329dd971e398a7">TrkEval</a>
 </li>
 <li>pos_f
@@ -1132,6 +1085,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>pos_i
 : <a class="el" href="d1/d3d/classGenFitExtrapolator.html#aa33225d8aedfd63d64d50efe00a16650">GenFitExtrapolator</a>
+</li>
+<li>posi
+: <a class="el" href="d4/dd1/struct__stack.html#ab18ee35deb49ec425b662a7465078545">_stack</a>
 </li>
 <li>posInf()
 : <a class="el" href="d2/d29/classhalf.html#a67c968243358acc6ac9dc4230677a316">half</a>
@@ -1145,9 +1101,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>PostUserTrackingAction()
 : <a class="el" href="d0/ddf/classPHG4PhenixTrackingAction.html#af81e0a2078ecaab18f6ad48157f87129">PHG4PhenixTrackingAction</a>
 , <a class="el" href="db/d5c/classPHG4TruthTrackingAction.html#ad4328f939fbbb908a2889a808c806edd">PHG4TruthTrackingAction</a>
-</li>
-<li>pPhi
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a70634200a939846a78e205623acddf64">PHG4CylinderGeom_Spacalv3::geom_tower</a>
 </li>
 <li>prdf_events
 : <a class="el" href="dd/ded/classFun4AllSyncManager.html#a3ebdc78a5a598c280d766616f2cde4f4">Fun4AllSyncManager</a>
@@ -1189,6 +1142,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d7/d0b/classFun4AllDstInputManager.html#ac24c4362dbe7ec37d4d7127227e540fa">Fun4AllDstInputManager</a>
 , <a class="el" href="da/daa/classFun4AllDstOutputManager.html#aabf3c98fd391310f0bd2b917213f6671">Fun4AllDstOutputManager</a>
 , <a class="el" href="d2/d4a/classFun4AllEventOutputManager.html#a2d0c494379ea20262ea11203096d0884">Fun4AllEventOutputManager</a>
+, <a class="el" href="d3/d97/classFun4AllEVIOInputManager.html#a1e8b64ec5e2cee36ed4ea706d960c94f">Fun4AllEVIOInputManager</a>
 , <a class="el" href="d6/d6f/classFun4AllHepMCInputManager.html#acab7c0aa0174dd84627f17dfc4eb7f9e">Fun4AllHepMCInputManager</a>
 , <a class="el" href="d0/dec/classFun4AllHepMCOutputManager.html#ae757e05063e710a80aa993af065a15ce">Fun4AllHepMCOutputManager</a>
 , <a class="el" href="d3/d96/classFun4AllHistoManager.html#ac920f5943d99ae803f4bf8a7a88c31da">Fun4AllHistoManager</a>
@@ -1230,10 +1184,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="da/d1d/classPHG4Cellv2.html#a7bc0525ea4847ec7f1629da36ebe9162">PHG4Cellv2</a>
 </li>
 <li>Print()
-: <a class="el" href="d2/da2/classPHG4CylinderGeom__Spacalv1.html#a1cdcc10ac6ac29063e200bbff1e4c079">PHG4CylinderGeom_Spacalv1</a>
-, <a class="el" href="db/d5f/classPHG4CylinderGeom__Spacalv2.html#a83a50d9b62827f465e2014d1c921a15a">PHG4CylinderGeom_Spacalv2</a>
-, <a class="el" href="de/d61/classPHG4CylinderGeom__Spacalv3.html#aba7c905f0fdacb1830781ea2ab74f2d1">PHG4CylinderGeom_Spacalv3</a>
-, <a class="el" href="db/dc5/classPHG4CylinderSubsystem.html#acfaba506612b5dee1a1cffa5c4b4fcb6">PHG4CylinderSubsystem</a>
+: <a class="el" href="db/dc5/classPHG4CylinderSubsystem.html#acfaba506612b5dee1a1cffa5c4b4fcb6">PHG4CylinderSubsystem</a>
 , <a class="el" href="d3/de7/classPHG4Detector.html#af9888bf83e4c764d01d31674cfe00da7">PHG4Detector</a>
 , <a class="el" href="de/d5e/classPHG4EtaParameterization.html#ac99b147a35cf2a1403dca83e7e5f2def">PHG4EtaParameterization</a>
 , <a class="el" href="d1/d75/classPHG4EtaPhiParameterization.html#a17bfde48f86e9102da3dbe6f595e305e">PHG4EtaPhiParameterization</a>
@@ -1270,12 +1221,14 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="dd/dae/classPHParameters.html#aad26ea942f2bea4c9b12af9c35f204d6">PHParameters</a>
 , <a class="el" href="d7/d6b/classPHParametersContainer.html#a369e4808cfb27fe56ebb3ed69d156bfc">PHParametersContainer</a>
 </li>
+<li>print()
+: <a class="el" href="d0/d5e/classPHTimer.html#a888198bd40c6e112b820d6b78406e3aa">PHTimer</a>
+</li>
 <li>PRINT()
 : <a class="el" href="d0/d5e/classPHTimer.html#ac0fd0e47b6cd0a290f3db3ee4dae3ab5">PHTimer</a>
 </li>
 <li>print()
-: <a class="el" href="d0/d5e/classPHTimer.html#a888198bd40c6e112b820d6b78406e3aa">PHTimer</a>
-, <a class="el" href="d3/de2/classPHTimeServer.html#afe7fec18fe00cc4dbd9bbcafef2d1a58">PHTimeServer</a>
+: <a class="el" href="d3/de2/classPHTimeServer.html#afe7fec18fe00cc4dbd9bbcafef2d1a58">PHTimeServer</a>
 , <a class="el" href="da/dc2/classPHTimeStamp.html#a4ef1bd9d8bfb3a8263aa9ceafb80bb34">PHTimeStamp</a>
 , <a class="el" href="d0/d1e/classPropSegment.html#aa71e58c815a0fcc5756f15165377129a">PropSegment</a>
 </li>
@@ -1312,6 +1265,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>printAtDetectorBack()
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#ada315a710df996c08316934282df9060">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a449735d34b6b97304e6415884e762cab">KalmanPrgTrk</a>
 </li>
 <li>PrintCharFlags()
 : <a class="el" href="d1/da8/classPHFlag.html#a22faecd438ab5934d1634d1dec80bbbc">PHFlag</a>
@@ -1388,6 +1342,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>printTimers()
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a1a257ebca4e6139b8d762da69ece51fe">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a6a8ec7d337932f247d90c0f3ac611284">KalmanPrgTrk</a>
 </li>
 <li>printTree()
 : <a class="el" href="d6/deb/classTriggerAnalyzer.html#ac9b51badbff4f66dd5ee1da2afe1c0ac">TriggerAnalyzer</a>
@@ -1406,6 +1361,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d0/d7f/classHepMCCompress.html#af609c730e44915318b8c52bd03c419bf">HepMCCompress</a>
 , <a class="el" href="db/d6c/classHepMCNodeReader.html#aa71e336f1ee6610de412c61a1de37470">HepMCNodeReader</a>
 , <a class="el" href="d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e">KalmanFastTrackingWrapper</a>
+, <a class="el" href="d1/d0a/classMainDAQDecoder.html#abcbb2512c44534963e6ea71857f99213">MainDAQDecoder</a>
 , <a class="el" href="df/d5e/classPHG4BlockCellReco.html#a8031ff9bacb684d523acc71c14054cdb">PHG4BlockCellReco</a>
 , <a class="el" href="df/d14/classPHG4BlockSubsystem.html#a1d211917dd38b977c018a7ddecb6ba6c">PHG4BlockSubsystem</a>
 , <a class="el" href="d9/df7/classPHG4BNLTargetCoilSubsystem.html#a31f7ebfcefc9409d82820c828a04b013">PHG4BNLTargetCoilSubsystem</a>
@@ -1432,6 +1388,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="d6/d12/classPHG4PolyconSubsystem.html#ac0d058ac20e3a49f36965d13fd13e24b">PHG4PolyconSubsystem</a>
 , <a class="el" href="d0/d78/classPHG4Reco.html#acd26753502bdd59a8325e609024b8156">PHG4Reco</a>
 , <a class="el" href="d5/df3/classPHG4SimpleEventGenerator.html#a4a7065a5083bd5b21c3743f8e224065b">PHG4SimpleEventGenerator</a>
+, <a class="el" href="d4/d2d/classPHG4SquareTubeSubsystem.html#a650047864e54a622d436bf28e799cbaf">PHG4SquareTubeSubsystem</a>
 , <a class="el" href="d8/d86/classPHG4TargetCoilSubsystem.html#a4ce5790874c8fecd4277af4218a64f55">PHG4TargetCoilSubsystem</a>
 , <a class="el" href="d5/d85/classPHG4TruthSubsystem.html#adb3c2d7e9328d276fd60e8e4b004298a">PHG4TruthSubsystem</a>
 , <a class="el" href="de/d0f/classPHGeomFileImport.html#a5288056a79e7230b51b1da9433010b7f">PHGeomFileImport</a>
@@ -1463,6 +1420,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>processOneTracklet()
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#ac0b6441647d023db04c618a35fd2a8cd">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a3248a6fabf2a32acaafaf75bc3e25808">KalmanPrgTrk</a>
 </li>
 <li>ProcessShowers()
 : <a class="el" href="dd/d9d/classPHG4TruthEventAction.html#ae3f2e6fb721a5bf18566688160ccc273">PHG4TruthEventAction</a>
@@ -1474,7 +1432,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="d5/da9/classPHGenericFactoryT.html#ad16e475cdc006d2a470df57648600395">PHGenericFactoryT&lt; AbstractProduct, FactoryErrorPolicy &gt;</a>
 </li>
 <li>ProductCreatorPair()
-: <a class="el" href="da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html#a3d03d37724fe7835cf129cb8e915c466">PHGenericFactoryT&lt; AbstractProduct, FactoryErrorPolicy &gt;::ProductCreatorPair</a>
+: <a class="el" href="da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html#ac4cc70d58aecfcd76884f99236d2517d">PHGenericFactoryT&lt; AbstractProduct, FactoryErrorPolicy &gt;::ProductCreatorPair</a>
 </li>
 <li>productname()
 : <a class="el" href="da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html#aafb1875ff344b2898c6f87334330dbab">PHGenericFactoryT&lt; AbstractProduct, FactoryErrorPolicy &gt;::ProductCreatorPair</a>
@@ -1667,9 +1625,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>propSegs
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#ae6d173b5a2f5aeafc066262d17737b97">KalmanFastTracking</a>
-</li>
-<li>pRotationAngleX
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#adb2ffbd35cd5896ad65a2d04b4bb6ae0">PHG4CylinderGeom_Spacalv3::geom_tower</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#abc3f8968408e2fd11362e49b08cd51e5">KalmanPrgTrk</a>
 </li>
 <li>prune()
 : <a class="el" href="d5/dca/classPHCompositeNode.html#a54f3041607c9d4c9eabecc489553925f">PHCompositeNode</a>
@@ -1695,9 +1651,6 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="d9/d78/classPHG4ParticleGeneratorD0.html#ab0610c663d0bb2de190a556ac5897aa4">PHG4ParticleGeneratorD0</a>
 , <a class="el" href="d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a34455f33298e8b8a4dddd782fec05426">PHG4ParticleGeneratorVectorMeson</a>
 </li>
-<li>pTheta
-: <a class="el" href="df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html#a4054d78f9120a31466300e2bd54bc2de">PHG4CylinderGeom_Spacalv3::geom_tower</a>
-</li>
 <li>ptmax
 : <a class="el" href="da/d36/classPHG4InputFilter.html#addc6a5ab51328424051f0f9e1c3490d9">PHG4InputFilter</a>
 </li>
@@ -1711,6 +1664,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>PushBackEvents()
 : <a class="el" href="d7/d0b/classFun4AllDstInputManager.html#a8245204030490e70ef8658cf1b6794d5">Fun4AllDstInputManager</a>
 , <a class="el" href="df/d43/classFun4AllDummyInputManager.html#a457442dab5b1cd41b3d1a2b197c60e31">Fun4AllDummyInputManager</a>
+, <a class="el" href="d3/d97/classFun4AllEVIOInputManager.html#a0d59e8ef314a38e5a18c92e0224a2efa">Fun4AllEVIOInputManager</a>
 , <a class="el" href="d6/d6f/classFun4AllHepMCInputManager.html#a13e980270840f354ddd73834d9f90fc2">Fun4AllHepMCInputManager</a>
 , <a class="el" href="d4/da9/classFun4AllInputManager.html#aaf7601bfa850b3cf4e90b1200b5323e4">Fun4AllInputManager</a>
 , <a class="el" href="db/d1f/classFun4AllOscarInputManager.html#a0ee1a9085d96d45da8f28cea1a28211e">Fun4AllOscarInputManager</a>
@@ -1797,7 +1751,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:49:00</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:48</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

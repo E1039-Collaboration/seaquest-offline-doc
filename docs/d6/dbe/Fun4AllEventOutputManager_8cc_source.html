@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/framework/fun4all/Fun4AllEventOutputManager.cc Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-core/framework/fun4all/Fun4AllEventOutputManager.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('d6/dbe/Fun4AllEventOutputManager_8cc_s
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *se = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode = se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  Event *evt = findNode::getClass&lt;Event&gt;(topNode, <span class="stringliteral">&quot;PRDF&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="../../d5/da5/classEvent.html">Event</a> *evt = findNode::getClass&lt;Event&gt;(topNode, <span class="stringliteral">&quot;PRDF&quot;</span>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordflow">if</span> (!evt)</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot;0 Event Pointer&quot;</span> &lt;&lt; endl;</div>
@@ -270,6 +270,7 @@ $(document).ready(function(){initNavTree('d6/dbe/Fun4AllEventOutputManager_8cc_s
 <div class="ttc" id="classFun4AllEventOutputManager_html_a2d0c494379ea20262ea11203096d0884"><div class="ttname"><a href="../../d2/d4a/classFun4AllEventOutputManager.html#a2d0c494379ea20262ea11203096d0884">Fun4AllEventOutputManager::Print</a></div><div class="ttdeci">void Print(const std::string &amp;what=&quot;ALL&quot;) const </div><div class="ttdoc">print method (dump event selector) </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbe/Fun4AllEventOutputManager_8cc_source.html#l00040">Fun4AllEventOutputManager.cc:40</a></div></div>
 <div class="ttc" id="classFun4AllEventOutputManager_html_a1dfe1b4f87907209e70765a44879e0a0"><div class="ttname"><a href="../../d2/d4a/classFun4AllEventOutputManager.html#a1dfe1b4f87907209e70765a44879e0a0">Fun4AllEventOutputManager::outstream</a></div><div class="ttdeci">Fun4AllEventOutStream * outstream</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d34/Fun4AllEventOutputManager_8h_source.html#l00037">Fun4AllEventOutputManager.h:37</a></div></div>
 <div class="ttc" id="classFun4AllOutputManager_html_ae13cdf197e3ae6f5310199ca034b8754"><div class="ttname"><a href="../../d8/d77/classFun4AllOutputManager.html#ae13cdf197e3ae6f5310199ca034b8754">Fun4AllOutputManager::Print</a></div><div class="ttdeci">virtual void Print(const std::string &amp;what=&quot;ALL&quot;) const </div><div class="ttdoc">print method (dump event selector) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/Fun4AllOutputManager_8cc_source.html#l00046">Fun4AllOutputManager.cc:46</a></div></div>
+<div class="ttc" id="classEvent_html"><div class="ttname"><a href="../../d5/da5/classEvent.html">Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/Event_8h_source.html#l00013">Event.h:13</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a5febb05c51c28dacf95c16f34178fe5f"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a5febb05c51c28dacf95c16f34178fe5f">Fun4AllEventOutStream::AddPacketRange</a></div><div class="ttdeci">int AddPacketRange(const int minpacket, const int maxpacket)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00165">Fun4AllEventOutStream.cc:165</a></div></div>
 <div class="ttc" id="classFun4AllEventOutputManager_html_a63165dfff79564dad481a94775b808e6"><div class="ttname"><a href="../../d2/d4a/classFun4AllEventOutputManager.html#a63165dfff79564dad481a94775b808e6">Fun4AllEventOutputManager::outfilerule</a></div><div class="ttdeci">std::string outfilerule</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d34/Fun4AllEventOutputManager_8h_source.html#l00036">Fun4AllEventOutputManager.h:36</a></div></div>
 <div class="ttc" id="classFun4AllEventOutputManager_html_a0e32da0f94b95ee2be3ea8c97d5fee4b"><div class="ttname"><a href="../../d2/d4a/classFun4AllEventOutputManager.html#a0e32da0f94b95ee2be3ea8c97d5fee4b">Fun4AllEventOutputManager::AddPacketRange</a></div><div class="ttdeci">int AddPacketRange(const int ipktmin, const int ipktmax)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbe/Fun4AllEventOutputManager_8cc_source.html#l00079">Fun4AllEventOutputManager.cc:79</a></div></div>
@@ -282,10 +283,10 @@ $(document).ready(function(){initNavTree('d6/dbe/Fun4AllEventOutputManager_8cc_s
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a4e9faf24559475d52adf985edd9635a.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_8eb13d7bb717ba73044d9c5cefad6edb.html">fun4all</a></li><li class="navelem"><a class="el" href="../../d6/dbe/Fun4AllEventOutputManager_8cc.html">Fun4AllEventOutputManager.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8846024b083f0188b5ed66bccaef8042.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_a5e9b9813bc4daf13f6006861178685d.html">fun4all</a></li><li class="navelem"><a class="el" href="../../d6/dbe/Fun4AllEventOutputManager_8cc.html">Fun4AllEventOutputManager.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:49</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:42</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

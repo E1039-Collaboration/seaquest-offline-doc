@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: File Members</title>
+<title>E1039 Software: File Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -94,8 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow4" class="tabs3">
     <ul class="tablist">
-      <li><a href="globals.html#index_$"><span>$</span></a></li>
-      <li><a href="globals_a.html#index_a"><span>a</span></a></li>
+      <li><a href="globals.html#index_a"><span>a</span></a></li>
       <li><a href="globals_b.html#index_b"><span>b</span></a></li>
       <li><a href="globals_c.html#index_c"><span>c</span></a></li>
       <li><a href="globals_d.html#index_d"><span>d</span></a></li>
@@ -119,7 +118,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="globals_x.html#index_x"><span>x</span></a></li>
       <li><a href="globals_y.html#index_y"><span>y</span></a></li>
       <li><a href="globals_z.html#index_z"><span>z</span></a></li>
-      <li><a href="globals_~.html#index_~"><span>~</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -155,11 +153,18 @@ $(document).ready(function(){initNavTree('globals_i.html','');});
 <div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>init_evStack()
+: <a class="el" href="dc/dd4/swap__util_8c.html#ab7512f8b972b7b05877b82476d70d04b">swap_util.c</a>
+</li>
 <li>initELut()
 : <a class="el" href="d2/d9a/eLut_8cpp.html#aff0a478279e65c8683ab4df286c17c1b">eLut.cpp</a>
 </li>
 <li>int_run()
 : <a class="el" href="d4/dec/HodoAccGap_2int__run_8C.html#a088590a1a5b93b904ba076de8ca1ef82">int_run.C</a>
+</li>
+<li>int_swap_byte()
+: <a class="el" href="d9/dca/evio_8c.html#af1412e237e0cf96798f8ee8c3e87b9cc">evio.c</a>
+, <a class="el" href="dc/dd4/swap__util_8c.html#a165b5e3eaf28b3984461a0208f846a59">swap_util.c</a>
 </li>
 <li>INVP_MAX
 : <a class="el" href="dd/de2/GlobalConsts_8h.html#ac6a87c2a635a8ba8233e7b501faa3a1b">GlobalConsts.h</a>
@@ -171,6 +176,9 @@ $(document).ready(function(){initNavTree('globals_i.html','');});
 : <a class="el" href="d7/d74/HepMCCompress_8cc.html#a4d4cb9d3a87f2e2c9d40eb0e32cbcfb6">HepMCCompress.cc</a>
 , <a class="el" href="d2/d09/HepMCNodeReader_8cc.html#a4d4cb9d3a87f2e2c9d40eb0e32cbcfb6">HepMCNodeReader.cc</a>
 </li>
+<li>isRealEventsInsideBlock()
+: <a class="el" href="d9/dca/evio_8c.html#a81688fd8ecfa41ae1575c301cbe2189e">evio.c</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -181,7 +189,7 @@ $(document).ready(function(){initNavTree('globals_i.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:49:00</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:48</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

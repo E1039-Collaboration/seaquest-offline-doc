@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: Class Members - Variables</title>
+<title>E1039 Software: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -285,6 +285,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 , <a class="el" href="d3/d3d/classPHG4PolyconSteppingAction.html#a5fb32d1a3bfe5b4edab6b8a8c0eefaaf">PHG4PolyconSteppingAction</a>
 , <a class="el" href="d6/d12/classPHG4PolyconSubsystem.html#aceebe769e63d087c8f0bf79270120e9d">PHG4PolyconSubsystem</a>
 , <a class="el" href="d0/d78/classPHG4Reco.html#a7ffada81f159fe1f9939b8b15c283a2a">PHG4Reco</a>
+, <a class="el" href="dc/d4f/classPHG4SquareTubeSteppingAction.html#a39df6d70e8d4224fa4786dcf8ccd119b">PHG4SquareTubeSteppingAction</a>
 , <a class="el" href="db/d00/classPHG4TargetCoilSteppingAction.html#a93e1514836f9e3d4ba7134dc3ee5d564">PHG4TargetCoilSteppingAction</a>
 , <a class="el" href="d8/d86/classPHG4TargetCoilSubsystem.html#a3b3857d180a3a001f40c7d643d07f392">PHG4TargetCoilSubsystem</a>
 </li>
@@ -310,18 +311,23 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 </li>
 <li>detectorIDs_mask
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a8b31a9373f7ea71818e8334479468a57">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#abd6aaf04357b38d1dcb7bae3fd5fb0ad">KalmanPrgTrk</a>
 </li>
 <li>detectorIDs_maskX
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#ac9e97d08feb1b8ff47e1690a819530d9">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a6a7996b30e127f1f57bed5d6f36983c7">KalmanPrgTrk</a>
 </li>
 <li>detectorIDs_maskY
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a103c09de440dc3827f8c12c8714e4ffe">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a6cea8ba0e98fcfdd9bbff6fef878140a">KalmanPrgTrk</a>
 </li>
 <li>detectorIDs_muid
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a7163e67f3a108ccccc5670f1192fb70e">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a081e2c067891bb6a2fb002043438a62b">KalmanPrgTrk</a>
 </li>
 <li>detectorIDs_muidHodoAid
 : <a class="el" href="d3/d46/classKalmanFastTracking.html#a8f879c6468c79fa6512007e093bb5392">KalmanFastTracking</a>
+, <a class="el" href="dc/d0c/classKalmanPrgTrk.html#a1c8c7d292edc5cddc23ecb9802adc835">KalmanPrgTrk</a>
 </li>
 <li>detectorIDs_trigger
 : <a class="el" href="d6/deb/classTriggerAnalyzer.html#afe4a449815ba155dd1764952f8ed906a">TriggerAnalyzer</a>
@@ -401,12 +407,6 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>distortion
 : <a class="el" href="dc/d94/classPHG4CylinderCellTPCReco.html#aa33f61085c9b69e4675f5d1daa571333">PHG4CylinderCellTPCReco</a>
 </li>
-<li>divider_mat
-: <a class="el" href="de/d61/classPHG4CylinderGeom__Spacalv3.html#ac8cad21bdc13f28594c83080aa846ea9">PHG4CylinderGeom_Spacalv3</a>
-</li>
-<li>divider_width
-: <a class="el" href="de/d61/classPHG4CylinderGeom__Spacalv3.html#aa0750349e740642b3303bf6078fd1a3c">PHG4CylinderGeom_Spacalv3</a>
-</li>
 <li>doc
 : <a class="el" href="dd/db5/classPHG4GDMLWrite.html#abf6369341a180714e1484895f2d0026b">PHG4GDMLWrite</a>
 </li>
@@ -428,9 +428,6 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 <li>dPhi
 : <a class="el" href="d6/d41/classPHG4ConeDetector.html#afed3da34df6abe3638ad4dc565e120b5">PHG4ConeDetector</a>
 , <a class="el" href="d8/d6e/classPHG4ConeSubsystem.html#a8890f2eec5338f09359e78510ec14222">PHG4ConeSubsystem</a>
-</li>
-<li>dphi_
-: <a class="el" href="db/d64/classPHG4CylinderGeom__Siladders.html#ad9228b0a3c457a3a7d318c1b3196650f">PHG4CylinderGeom_Siladders</a>
 </li>
 <li>drift_distance
 : <a class="el" href="de/d2f/classTrkEval.html#abcb79c71fd66a8a832ffc61d22a244d4">TrkEval</a>
@@ -476,7 +473,7 @@ $(document).ready(function(){initNavTree('functions_vars_d.html','');});
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:49:00</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:48</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/simulation/g4detectors/PHG4CylinderCellReco.cc Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-core/simulation/g4detectors/PHG4CylinderCellReco.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -303,8 +303,8 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;              etahi +=  etastepsize;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            }</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;          <span class="keywordtype">double</span> phimin = -M_PI;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;          <span class="keywordtype">double</span> phimax = M_PI;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a> = -M_PI;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../d5/d9b/plot__matscan_8C.html#ad5b04448de67eaac16564080ddf867c2">phimax</a> = M_PI;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;          <span class="keywordtype">double</span> phistepsize = (sizeiter-&gt;second).second;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;          <span class="keywordtype">double</span> d_phibins;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;          fract = modf((phimax - phimin) / phistepsize, &amp;d_phibins);</div>
@@ -312,12 +312,12 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;              d_phibins++;</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          phistepsize = (phimax - phimin) / d_phibins;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          phistepsize = (phimax - <a class="code" href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a>) / d_phibins;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;          (sizeiter-&gt;second).second = phistepsize;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;          <span class="keywordtype">int</span> phibins = d_phibins;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          <span class="keywordtype">double</span> philow = phimin;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;          <span class="keywordtype">int</span> <a class="code" href="../../d9/d1d/matscan_8C.html#a3a9841857ce738ebb83a4877cfba3fb4">phibins</a> = d_phibins;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          <span class="keywordtype">double</span> philow = <a class="code" href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a>;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          <span class="keywordtype">double</span> phihi = philow + phistepsize;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; phibins; i++)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d9/d1d/matscan_8C.html#a3a9841857ce738ebb83a4877cfba3fb4">phibins</a>; i++)</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            {</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;              <span class="keywordflow">if</span> (phihi &gt; phimax)</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                {</div>
@@ -355,8 +355,8 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;          size_r = circumference / bins_r;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;          (sizeiter-&gt;second).first = size_r;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;          <span class="keywordtype">double</span> phistepsize = 2 * M_PI / bins_r;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          <span class="keywordtype">double</span> phimin = -M_PI;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;          <span class="keywordtype">double</span> phimax = phimin + phistepsize;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a> = -M_PI;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;          <span class="keywordtype">double</span> <a class="code" href="../../d5/d9b/plot__matscan_8C.html#ad5b04448de67eaac16564080ddf867c2">phimax</a> = phimin + phistepsize;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;          <a class="code" href="../../d5/dd0/classPHG4CylinderCellReco.html#ad28e3938708954fa6bd6e42b7bd225c9">phistep</a>[layer] = phistepsize;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0 ; i &lt; <a class="code" href="../../d5/dd0/classPHG4CylinderCellReco.html#aab51e224e6ef0e28d5103f8806ff224b">nbins</a>[0]; i++)</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            {</div>
@@ -1286,6 +1286,7 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="ttc" id="classFun4AllBase_html_a5e6d96f02f838e9f0bf84cb33fb1c2fa"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a5e6d96f02f838e9f0bf84cb33fb1c2fa">Fun4AllBase::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdoc">The verbosity level. 0 means not verbose at all. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase.h:75</a></div></div>
 <div class="ttc" id="classPHG4CellContainer_html_a3b0df142f19fb68855865c9ec30b21ef"><div class="ttname"><a href="../../d4/d97/classPHG4CellContainer.html#a3b0df142f19fb68855865c9ec30b21ef">PHG4CellContainer::ConstIterator</a></div><div class="ttdeci">Map::const_iterator ConstIterator</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d32/PHG4CellContainer_8h_source.html#l00017">PHG4CellContainer.h:17</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellReco_html_a44267ede7d2fdb5fb84bba1060a831c4"><div class="ttname"><a href="../../d5/dd0/classPHG4CylinderCellReco.html#a44267ede7d2fdb5fb84bba1060a831c4">PHG4CylinderCellReco::cellptmap</a></div><div class="ttdeci">std::map&lt; unsigned long long, PHG4Cell * &gt; cellptmap</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da3/PHG4CylinderCellReco_8h_source.html#l00066">PHG4CylinderCellReco.h:66</a></div></div>
+<div class="ttc" id="plot__matscan_8C_html_ad5b04448de67eaac16564080ddf867c2"><div class="ttname"><a href="../../d5/d9b/plot__matscan_8C.html#ad5b04448de67eaac16564080ddf867c2">phimax</a></div><div class="ttdeci">float phimax</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d9b/plot__matscan_8C_source.html#l00002">plot_matscan.C:2</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellReco_html_ad32fbd4bece7778ffed95cb84b0fe180"><div class="ttname"><a href="../../d5/dd0/classPHG4CylinderCellReco.html#ad32fbd4bece7778ffed95cb84b0fe180">PHG4CylinderCellReco::Detector</a></div><div class="ttdeci">void Detector(const std::string &amp;d)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da5/PHG4CylinderCellReco_8cc_source.html#l01145">PHG4CylinderCellReco.cc:1145</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellGeom_html_a51de7f078df13ace9e27f165b8400b80"><div class="ttname"><a href="../../d9/d85/classPHG4CylinderCellGeom.html#a51de7f078df13ace9e27f165b8400b80">PHG4CylinderCellGeom::set_zstep</a></div><div class="ttdeci">void set_zstep(const double z)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d85/PHG4CylinderCellGeom_8cc_source.html#l00061">PHG4CylinderCellGeom.cc:61</a></div></div>
 <div class="ttc" id="classPHG4ParameterContainerInterface_html_aa7efdb8861671ac6f3f5d3a30167d210"><div class="ttname"><a href="../../d4/d69/classPHG4ParameterContainerInterface.html#aa7efdb8861671ac6f3f5d3a30167d210">PHG4ParameterContainerInterface::set_double_param</a></div><div class="ttdeci">void set_double_param(const int id, const std::string &amp;name, const double dval)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d30/PHG4ParameterContainerInterface_8cc_source.html#l00082">PHG4ParameterContainerInterface.cc:82</a></div></div>
@@ -1306,6 +1307,7 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="ttc" id="classPHG4CylinderGeom_html_a5e628ced545e46cdcdb65944fd63e524"><div class="ttname"><a href="../../dc/d30/classPHG4CylinderGeom.html#a5e628ced545e46cdcdb65944fd63e524">PHG4CylinderGeom::get_thickness</a></div><div class="ttdeci">virtual double get_thickness() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d44/PHG4CylinderGeom_8h_source.html#l00020">PHG4CylinderGeom.h:20</a></div></div>
 <div class="ttc" id="classPHG4ParameterContainerInterface_html"><div class="ttname"><a href="../../d4/d69/classPHG4ParameterContainerInterface.html">PHG4ParameterContainerInterface</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de2/PHG4ParameterContainerInterface_8h_source.html#l00013">PHG4ParameterContainerInterface.h:13</a></div></div>
 <div class="ttc" id="namespacePHG4CellDefs_1_1SizeBinning_html_a722c36ec35c9e162ddc37f9647973a03"><div class="ttname"><a href="../../d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html#a722c36ec35c9e162ddc37f9647973a03">PHG4CellDefs::SizeBinning::get_phibin</a></div><div class="ttdeci">unsigned short int get_phibin(const PHG4CellDefs::keytype key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d13/PHG4CellDefs_8cc_source.html#l00029">PHG4CellDefs.cc:29</a></div></div>
+<div class="ttc" id="matscan_8C_html_a3a9841857ce738ebb83a4877cfba3fb4"><div class="ttname"><a href="../../d9/d1d/matscan_8C.html#a3a9841857ce738ebb83a4877cfba3fb4">phibins</a></div><div class="ttdeci">int phibins</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1d/matscan_8C_source.html#l00010">matscan.C:10</a></div></div>
 <div class="ttc" id="Fun4AllServer_8h_html"><div class="ttname"><a href="../../dc/da2/Fun4AllServer_8h.html">Fun4AllServer.h</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellReco_html_a9c7da21bcd10797b94e2c8ce5cb6df32"><div class="ttname"><a href="../../d5/dd0/classPHG4CylinderCellReco.html#a9c7da21bcd10797b94e2c8ce5cb6df32">PHG4CylinderCellReco::sum_energy_before_cuts</a></div><div class="ttdeci">double sum_energy_before_cuts</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da3/PHG4CylinderCellReco_8h_source.html#l00074">PHG4CylinderCellReco.h:74</a></div></div>
 <div class="ttc" id="namespacePHG4CellDefs_html_a137372b71a3b9756aef096eee2f5764f"><div class="ttname"><a href="../../d7/dba/namespacePHG4CellDefs.html#a137372b71a3b9756aef096eee2f5764f">PHG4CellDefs::keytype</a></div><div class="ttdeci">unsigned long long keytype</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d61/PHG4CellDefs_8h_source.html#l00007">PHG4CellDefs.h:7</a></div></div>
@@ -1417,6 +1419,7 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div class="ttc" id="classPHG4CylinderGeomContainer_html"><div class="ttname"><a href="../../d4/de7/classPHG4CylinderGeomContainer.html">PHG4CylinderGeomContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db8/PHG4CylinderGeomContainer_8h_source.html#l00010">PHG4CylinderGeomContainer.h:10</a></div></div>
 <div class="ttc" id="classPHG4ParametersContainer_html_a1c59babb2da92829fbc4b98c02a59cec"><div class="ttname"><a href="../../d5/d5f/classPHG4ParametersContainer.html#a1c59babb2da92829fbc4b98c02a59cec">PHG4ParametersContainer::set_name</a></div><div class="ttdeci">void set_name(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d60/PHG4ParametersContainer_8h_source.html#l00033">PHG4ParametersContainer.h:33</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellGeomContainer_html"><div class="ttname"><a href="../../d2/ddb/classPHG4CylinderCellGeomContainer.html">PHG4CylinderCellGeomContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d90/PHG4CylinderCellGeomContainer_8h_source.html#l00010">PHG4CylinderCellGeomContainer.h:10</a></div></div>
+<div class="ttc" id="matscan_8C_html_a8709bde60c63ae1e7874c457b6fbde2d"><div class="ttname"><a href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a></div><div class="ttdeci">float phimin</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1d/matscan_8C_source.html#l00008">matscan.C:8</a></div></div>
 <div class="ttc" id="classPHG4Cell_html_a57f9eb848d0f78fd8c550c8bc8c527bc"><div class="ttname"><a href="../../dc/dfe/classPHG4Cell.html#a57f9eb848d0f78fd8c550c8bc8c527bc">PHG4Cell::EdepConstIterator</a></div><div class="ttdeci">EdepMap::const_iterator EdepConstIterator</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dff/PHG4Cell_8h_source.html#l00017">PHG4Cell.h:17</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellReco_html_a79bc62b14d2fdf91ad9b8976514553e8"><div class="ttname"><a href="../../d5/dd0/classPHG4CylinderCellReco.html#a79bc62b14d2fdf91ad9b8976514553e8">PHG4CylinderCellReco::CheckEnergy</a></div><div class="ttdeci">int CheckEnergy(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da5/PHG4CylinderCellReco_8cc_source.html#l01075">PHG4CylinderCellReco.cc:1075</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellReco_html_adfc8b841786fb622aa57c155ee221ef5"><div class="ttname"><a href="../../d5/dd0/classPHG4CylinderCellReco.html#adfc8b841786fb622aa57c155ee221ef5">PHG4CylinderCellReco::implemented_detid</a></div><div class="ttdeci">std::set&lt; int &gt; implemented_detid</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/da3/PHG4CylinderCellReco_8h_source.html#l00058">PHG4CylinderCellReco.h:58</a></div></div>
@@ -1433,10 +1436,10 @@ $(document).ready(function(){initNavTree('dd/da5/PHG4CylinderCellReco_8cc_source
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a950925fee4869d30dce73d61f4f3af6.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6600cddfbbfd1736fcb08579b2659127.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../dd/da5/PHG4CylinderCellReco_8cc.html">PHG4CylinderCellReco.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_71279399b8e06f3709dfeff09f7b757c.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_e3c2f4d803d31d855a25c92098ef3b30.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../dd/da5/PHG4CylinderCellReco_8cc.html">PHG4CylinderCellReco.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:51</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:43</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/README.md Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/README.md Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -117,25 +117,53 @@ $(document).ready(function(){initNavTree('d3/dd4/seaquest-offline_2README_8md.ht
 <div class="contents">
 <a href="../../d3/dd4/seaquest-offline_2README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor"># Fun4All based E1039 offline software</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;A doxygen page of the seaquest-offline is [here](https:<span class="comment">//haiwangyu.github.io/seaquest-offline-doc/) hosted by GitHub Pages.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;A doxygen page of the seaquest-offline is [here](https:<span class="comment">//e1039-collaboration.github.io/seaquest-offline-doc/index.html) hosted by GitHub Pages.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">## Build</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><span class="preprocessor">### cmake</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span>Each <span class="keyword">package </span>included a &quot;CMakeLists.txt&quot;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;Using the shell script &quot;build.sh&quot; to build all packages. </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;### automake</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;Use [automake](https:<span class="comment">//www.gnu.org/software/automake/), [autoconf](https://www.gnu.org/software/autoconf/autoconf.html) and [libtool](https://www.gnu.org/software/libtool/) to build the code. Each package should contain 3 files: &#39;autogen.sh&#39;, &#39;configure.ac&#39; and &#39;MakeFile.am&#39;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;```</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;mkdir [path_to_build]</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;cd [path_to_build]</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;[path_to_package]/autogen.sh --prefix=[path_to_install]</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;make -j 4</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;make install</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">## Install</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">### Prerequisite</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span>* To install on seaquestgpvm machines, simply source <span class="keyword">this</span> macro to <span class="keyword">get</span> all dependencies in place.</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;```</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;/e906/app/users/yuhw/setup.sh</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;```</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;* To install from scratch without any dependent software installed, refer to [<span class="keyword">this</span> wiki page](https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/Install-the-offline-software-from-scratch).</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">### Build</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span>Each <span class="keyword">package </span>included a &#39;CMakeLists.txt&#39;.</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;A shell script &quot;build.sh&quot; is provided to build all packages. </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;Check out the repository</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;```</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;Follow the package order listed in the &quot;build.sh&quot;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;git clone https:<span class="comment">//github.com/E1039-Collaboration/seaquest-offline.git</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;```</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;Make a build and install folder</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;```</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;mkdir &lt;build-dir&gt;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;mkdir &lt;install-dir&gt;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;cd &lt;build-dir&gt;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;```</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;Using the MY_INSTALL variable is suggested, for this variable is used in &#39;CMakeLists.txt&#39; files.</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;You may also put this line in your login macro.</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;```</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;export MY_INSTALL=&lt;install-dir&gt;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;```</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;Then change the &#39;src&#39; line of &#39;build.sh&#39; to use your source path.</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;To build and install all packages</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;```</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;./build.sh</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;```</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;To build one specific package</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;```</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;./build.sh &lt;package-name&gt;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;```</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -146,7 +174,7 @@ $(document).ready(function(){initNavTree('d3/dd4/seaquest-offline_2README_8md.ht
 		<li class="navelem"><a class="el" href="../../d3/dd4/seaquest-offline_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:50</em> using <a
+			updated: <em>Fri Sep 21 2018 10:11:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

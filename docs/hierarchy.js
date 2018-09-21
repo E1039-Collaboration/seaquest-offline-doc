@@ -1,5 +1,7 @@
 var hierarchy =
 [
+    [ "_lk", "d8/d76/struct__lk.html", null ],
+    [ "_stack", "d4/dd1/struct__stack.html", null ],
     [ "AbsBField", null, [
       [ "genfit::Field", "dc/dc5/classgenfit_1_1Field.html", null ]
     ] ],
@@ -9,13 +11,20 @@ var hierarchy =
     [ "binary_function", null, [
       [ "strless< T >", "d1/dd5/structstrless.html", null ]
     ] ],
+    [ "ce_tbl_entry", "d6/ddb/structce__tbl__entry.html", null ],
+    [ "coda_error_table_entry", "d4/dab/structcoda__error__table__entry.html", null ],
     [ "boost::detail::const_cast_tag", "d8/d01/structboost_1_1detail_1_1const__cast__tag.html", null ],
     [ "DefaultFactoryError< AbstractProduct >", "df/dd1/classDefaultFactoryError.html", null ],
     [ "DPDigiPlane", "db/d4a/classDPDigiPlane.html", null ],
     [ "boost::detail::dynamic_cast_tag", "d5/df4/structboost_1_1detail_1_1dynamic__cast__tag.html", null ],
     [ "boost::enable_shared_from_this< T >", "dd/daa/classboost_1_1enable__shared__from__this.html", null ],
     [ "boost::enable_shared_from_this2< T >", "d6/d47/classboost_1_1enable__shared__from__this2.html", null ],
+    [ "evBinarySearch", "de/ddf/structevBinarySearch.html", null ],
+    [ "Event", "d5/da5/classEvent.html", [
+      [ "EVIO_Event", "dd/daf/classEVIO__Event.html", null ]
+    ] ],
     [ "EventReducer", "d5/dda/classEventReducer.html", null ],
+    [ "evfilestruct", "d4/d04/structevfilestruct.html", null ],
     [ "FactoryErrorPolicy", null, [
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
@@ -33,6 +42,7 @@ var hierarchy =
           [ "Fun4AllNoSyncDstInputManager", "dd/df1/classFun4AllNoSyncDstInputManager.html", null ]
         ] ],
         [ "Fun4AllDummyInputManager", "df/d43/classFun4AllDummyInputManager.html", null ],
+        [ "Fun4AllEVIOInputManager", "d3/d97/classFun4AllEVIOInputManager.html", null ],
         [ "Fun4AllHepMCInputManager", "d6/d6f/classFun4AllHepMCInputManager.html", [
           [ "Fun4AllHepMCPileupInputManager", "de/d99/classFun4AllHepMCPileupInputManager.html", null ]
         ] ],
@@ -54,6 +64,7 @@ var hierarchy =
         [ "HepMCFlowAfterBurner", "dd/d6c/classHepMCFlowAfterBurner.html", null ],
         [ "HepMCNodeReader", "db/d6c/classHepMCNodeReader.html", null ],
         [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html", null ],
+        [ "MainDAQDecoder", "d1/d0a/classMainDAQDecoder.html", null ],
         [ "PHG4BlockCellReco", "df/d5e/classPHG4BlockCellReco.html", null ],
         [ "PHG4ConsistencyCheck", "dc/d38/classPHG4ConsistencyCheck.html", null ],
         [ "PHG4CylinderCellReco", "d5/dd0/classPHG4CylinderCellReco.html", null ],
@@ -84,6 +95,7 @@ var hierarchy =
             [ "PHG4CylinderSubsystem", "db/dc5/classPHG4CylinderSubsystem.html", null ],
             [ "PHG4E1039InsensSubsystem", "d9/d43/classPHG4E1039InsensSubsystem.html", null ],
             [ "PHG4PolyconSubsystem", "d6/d12/classPHG4PolyconSubsystem.html", null ],
+            [ "PHG4SquareTubeSubsystem", "d4/d2d/classPHG4SquareTubeSubsystem.html", null ],
             [ "PHG4TargetCoilSubsystem", "d8/d86/classPHG4TargetCoilSubsystem.html", null ]
           ] ],
           [ "PHG4TruthSubsystem", "d5/d85/classPHG4TruthSubsystem.html", null ]
@@ -164,7 +176,6 @@ var hierarchy =
       [ "PHG4TrackUserInfoV1", "da/da8/classPHG4TrackUserInfoV1.html", null ]
     ] ],
     [ "GenFitExtrapolator", "d1/d3d/classGenFitExtrapolator.html", null ],
-    [ "PHG4CylinderGeom_Spacalv3::geom_tower", "df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html", null ],
     [ "GeomSvc", "d0/da0/classGeomSvc.html", null ],
     [ "half", "d2/d29/classhalf.html", null ],
     [ "halfFunction< T >", "d1/d0a/classhalfFunction.html", null ],
@@ -175,7 +186,9 @@ var hierarchy =
     [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", null ],
     [ "KalmanFilter", "d6/d2a/classKalmanFilter.html", null ],
     [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", null ],
+    [ "KalmanPrgTrk", "dc/d0c/classKalmanPrgTrk.html", null ],
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html", null ],
+    [ "ManageCodaInput", "d0/d21/classManageCodaInput.html", null ],
     [ "PHGenFit::Measurement", "d4/db3/classPHGenFit_1_1Measurement.html", [
       [ "PHGenFit::PlanarMeasurement", "db/db1/classPHGenFit_1_1PlanarMeasurement.html", null ],
       [ "PHGenFit::SpacepointMeasurement", "d6/dc8/classPHGenFit_1_1SpacepointMeasurement.html", null ]
@@ -199,6 +212,7 @@ var hierarchy =
       [ "PHG4CylinderDetector", "d3/d95/classPHG4CylinderDetector.html", null ],
       [ "PHG4E1039InsensDetector", "d5/dd4/classPHG4E1039InsensDetector.html", null ],
       [ "PHG4PolyconDetector", "d8/db8/classPHG4PolyconDetector.html", null ],
+      [ "PHG4SquareTubeDetector", "d9/d87/classPHG4SquareTubeDetector.html", null ],
       [ "PHG4TargetCoilDetector", "df/dec/classPHG4TargetCoilDetector.html", null ]
     ] ],
     [ "PHG4EventAction", "dc/d39/classPHG4EventAction.html", [
@@ -233,6 +247,7 @@ var hierarchy =
       [ "PHG4CylinderSteppingAction", "da/d58/classPHG4CylinderSteppingAction.html", null ],
       [ "PHG4E1039InsensSteppingAction", "d9/d14/classPHG4E1039InsensSteppingAction.html", null ],
       [ "PHG4PolyconSteppingAction", "d3/d3d/classPHG4PolyconSteppingAction.html", null ],
+      [ "PHG4SquareTubeSteppingAction", "dc/d4f/classPHG4SquareTubeSteppingAction.html", null ],
       [ "PHG4TargetCoilSteppingAction", "db/d00/classPHG4TargetCoilSteppingAction.html", null ],
       [ "PHG4TruthSteppingAction", "d6/da2/classPHG4TruthSteppingAction.html", null ]
     ] ],
@@ -285,7 +300,6 @@ var hierarchy =
     [ "Pythia6Particle", "d3/da8/structPythia6Particle.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
     [ "RunToTime", "dc/d4a/classRunToTime.html", null ],
-    [ "PHG4CylinderGeom_Spacalv3::scint_id_coder", "df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html", null ],
     [ "Seed", "db/d19/classSeed.html", null ],
     [ "Settings", "df/d9a/classSettings.html", null ],
     [ "boost::shared_ptr< T >", "da/d18/classboost_1_1shared__ptr.html", null ],
@@ -316,9 +330,7 @@ var hierarchy =
         [ "PHG4Cellv2", "da/d1d/classPHG4Cellv2.html", null ],
         [ "PHG4CylinderCell", "d6/db7/classPHG4CylinderCell.html", [
           [ "PHG4CylinderCellv1", "dd/d2e/classPHG4CylinderCellv1.html", [
-            [ "PHG4CylinderCellv2", "db/d16/classPHG4CylinderCellv2.html", [
-              [ "PHG4CylinderCell_MAPS", "d7/d0f/classPHG4CylinderCell__MAPS.html", null ]
-            ] ],
+            [ "PHG4CylinderCellv2", "db/d16/classPHG4CylinderCellv2.html", null ],
             [ "PHG4CylinderCellv3", "db/dad/classPHG4CylinderCellv3.html", null ]
           ] ]
         ] ]
@@ -358,20 +370,11 @@ var hierarchy =
         [ "PHG4BlockGeomContainer", "d2/dd7/classPHG4BlockGeomContainer.html", null ],
         [ "PHG4CellContainer", "d4/d97/classPHG4CellContainer.html", null ],
         [ "PHG4CylinderCellContainer", "d6/ddf/classPHG4CylinderCellContainer.html", null ],
-        [ "PHG4CylinderCellGeom", "d9/d85/classPHG4CylinderCellGeom.html", [
-          [ "PHG4CylinderCellGeom_Spacalv1", "df/d09/classPHG4CylinderCellGeom__Spacalv1.html", null ]
-        ] ],
+        [ "PHG4CylinderCellGeom", "d9/d85/classPHG4CylinderCellGeom.html", null ],
         [ "PHG4CylinderCellGeomContainer", "d2/ddb/classPHG4CylinderCellGeomContainer.html", null ],
         [ "PHG4CylinderGeom", "dc/d30/classPHG4CylinderGeom.html", [
-          [ "PHG4CylinderGeom_MAPS", "df/d55/classPHG4CylinderGeom__MAPS.html", null ],
-          [ "PHG4CylinderGeom_Siladders", "db/d64/classPHG4CylinderGeom__Siladders.html", null ],
           [ "PHG4CylinderGeomv1", "d3/d63/classPHG4CylinderGeomv1.html", [
             [ "PHG4CylinderGeomv2", "d1/df3/classPHG4CylinderGeomv2.html", [
-              [ "PHG4CylinderGeom_Spacalv1", "d2/da2/classPHG4CylinderGeom__Spacalv1.html", [
-                [ "PHG4CylinderGeom_Spacalv2", "db/d5f/classPHG4CylinderGeom__Spacalv2.html", [
-                  [ "PHG4CylinderGeom_Spacalv3", "de/d61/classPHG4CylinderGeom__Spacalv3.html", null ]
-                ] ]
-              ] ],
               [ "PHG4CylinderGeomv3", "d9/db9/classPHG4CylinderGeomv3.html", null ]
             ] ]
           ] ],
@@ -467,8 +470,8 @@ var hierarchy =
     [ "PHGenFit::Track", "d7/dd5/classPHGenFit_1_1Track.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
+    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],
     [ "boost::weak_ptr< T >", "d8/de6/classboost_1_1weak__ptr.html", null ]

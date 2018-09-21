@@ -1,7 +1,27 @@
 var searchData=
 [
-  ['fmag_5fhole_5flength',['FMAG_HOLE_LENGTH',['../dd/de2/GlobalConsts_8h.html#ac3bb00ad2ceb5b9391c3649a88571ebd',1,'GlobalConsts.h']]],
-  ['fmag_5fhole_5fradius',['FMAG_HOLE_RADIUS',['../dd/de2/GlobalConsts_8h.html#a5458e41e44e05b22639ec50196f3c0a3',1,'GlobalConsts.h']]],
-  ['fmag_5flength',['FMAG_LENGTH',['../dd/de2/GlobalConsts_8h.html#ada4a202de895743e412aba1aab0c9146',1,'GlobalConsts.h']]],
-  ['fmagstr',['FMAGSTR',['../dd/de2/GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6',1,'GlobalConsts.h']]]
+  ['eloss_5fabsorber',['ELOSS_ABSORBER',['../dd/de2/GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb',1,'GlobalConsts.h']]],
+  ['eloss_5ffmag_5fp0',['ELOSS_FMAG_P0',['../dd/de2/GlobalConsts_8h.html#a09abb3a6e235f6d8044f1a162e4bbe6c',1,'GlobalConsts.h']]],
+  ['eloss_5ffmag_5fp1',['ELOSS_FMAG_P1',['../dd/de2/GlobalConsts_8h.html#ac4ff4952d71ff06f59dd47e30f37e2ff',1,'GlobalConsts.h']]],
+  ['eloss_5ffmag_5fp2',['ELOSS_FMAG_P2',['../dd/de2/GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28',1,'GlobalConsts.h']]],
+  ['eloss_5ffmag_5fp3',['ELOSS_FMAG_P3',['../dd/de2/GlobalConsts_8h.html#a57a7fd7b1fbfd3a049cbf5070bd30519',1,'GlobalConsts.h']]],
+  ['eloss_5ffmag_5fp4',['ELOSS_FMAG_P4',['../dd/de2/GlobalConsts_8h.html#a48a3c169072aa5da2acbe620fc9b6705',1,'GlobalConsts.h']]],
+  ['eloss_5fkfmag',['ELOSS_KFMAG',['../dd/de2/GlobalConsts_8h.html#a0b0ad479a6d403eb326636163cfc5e75',1,'GlobalConsts.h']]],
+  ['ev_5fhd_5fblknum',['EV_HD_BLKNUM',['../d9/dca/evio_8c.html#a5d4a7e0f93195de1a5ed500e23adf417',1,'evio.c']]],
+  ['ev_5fhd_5fblksiz',['EV_HD_BLKSIZ',['../d9/dca/evio_8c.html#a2a6a4900e283b5c3e7c2a535654b6b49',1,'evio.c']]],
+  ['ev_5fhd_5fhdsiz',['EV_HD_HDSIZ',['../d9/dca/evio_8c.html#a79a341cd7d94bbc91df2beefd7280972',1,'evio.c']]],
+  ['ev_5fhd_5fmagic',['EV_HD_MAGIC',['../d9/dca/evio_8c.html#a3fa1fcbe8a0bb506930f4241f91731fe',1,'evio.c']]],
+  ['ev_5fhd_5fresvd',['EV_HD_RESVD',['../d9/dca/evio_8c.html#aa6f5e98388fe17ef1843ecf9c38a3c66',1,'evio.c']]],
+  ['ev_5fhd_5fstart',['EV_HD_START',['../d9/dca/evio_8c.html#aee2a069b88e8a8a28e953cb8ef0dac21',1,'evio.c']]],
+  ['ev_5fhd_5fused',['EV_HD_USED',['../d9/dca/evio_8c.html#ae14656cb41f9d48e0858502e0e913cc5',1,'evio.c']]],
+  ['ev_5fhd_5fver',['EV_HD_VER',['../d9/dca/evio_8c.html#a1da7075dab30e934937ba33c9efd18ce',1,'evio.c']]],
+  ['ev_5fhdsiz',['EV_HDSIZ',['../d9/dca/evio_8c.html#abc87ed9df14f063de2cb565b22605996',1,'evio.c']]],
+  ['ev_5fmagic',['EV_MAGIC',['../d9/dca/evio_8c.html#af813a8152c5fa0225aa582516f9c65ba',1,'evio.c']]],
+  ['ev_5fpipe',['EV_PIPE',['../d9/dca/evio_8c.html#a24039e73d4539872e65452d20497623e',1,'evio.c']]],
+  ['ev_5fpipewrite',['EV_PIPEWRITE',['../d9/dca/evio_8c.html#a33e1faac94ee2fb13d241bc5c10f4f19',1,'evio.c']]],
+  ['ev_5fread',['EV_READ',['../d9/dca/evio_8c.html#a74bbaf2d529670cc0ab793497b41700f',1,'evio.c']]],
+  ['ev_5fversion',['EV_VERSION',['../d9/dca/evio_8c.html#a65ca1c87412a814a49403fcf470cc973',1,'evio.c']]],
+  ['ev_5fwrite',['EV_WRITE',['../d9/dca/evio_8c.html#a2a31813fa3b26bf2d150512cbbf893f7',1,'evio.c']]],
+  ['evblocksize',['EVBLOCKSIZE',['../d9/dca/evio_8c.html#a85223992f363518e46e1b2e24f40b85b',1,'evio.c']]],
+  ['evgetstructure',['evGetStructure',['../d9/dca/evio_8c.html#aa770536d14b1481806e3cf0c98f4be0e',1,'evio.c']]]
 ];

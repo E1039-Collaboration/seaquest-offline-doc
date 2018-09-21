@@ -1,5 +1,5 @@
 var HodoAccGap_2DisplayOn_8C =
 [
-    [ "$Á", "d9/dea/HodoAccGap_2DisplayOn_8C.html#aa2a9ded01f61dd8003b98c10c3f66ea1", null ],
-    [ "~ñ‚h˜þ", "d9/dea/HodoAccGap_2DisplayOn_8C.html#afd330969cea5ebfda2967d62ed4ac020", null ]
+    [ "displaycmd", "d9/dea/HodoAccGap_2DisplayOn_8C.html#ac24d1b820bb16d04729725317c86b234", null ],
+    [ "DisplayOn", "d9/dea/HodoAccGap_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54", null ]
 ];

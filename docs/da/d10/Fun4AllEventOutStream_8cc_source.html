@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/framework/fun4all/Fun4AllEventOutStream.cc Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-core/framework/fun4all/Fun4AllEventOutStream.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('da/d10/Fun4AllEventOutStream_8cc_sourc
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keywordtype">int</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">   47</a></span>&#160;<a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">Fun4AllEventOutStream::WriteEvent</a>(Event *evt)</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">   47</a></span>&#160;<a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">Fun4AllEventOutStream::WriteEvent</a>(<a class="code" href="../../d5/da5/classEvent.html">Event</a> *evt)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordtype">int</span> iret;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a0740d733bc7bc2fae2f80bcc2d783163">add_or_remove</a>)</div>
@@ -254,7 +254,7 @@ $(document).ready(function(){initNavTree('da/d10/Fun4AllEventOutStream_8cc_sourc
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      savepacket.pop();</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  Event *newE = <span class="keyword">new</span> A_Event(<a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a70fa05e1b314d8ce1e620d68ce1878bd">evtbuf</a>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <a class="code" href="../../d5/da5/classEvent.html">Event</a> *newE = <span class="keyword">new</span> A_Event(<a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a70fa05e1b314d8ce1e620d68ce1878bd">evtbuf</a>);</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  iret = <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">WriteEventOut</a>(newE);</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keyword">delete</span> newE;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a71d1924db86a1132f12fa4f3162c1222">npackets</a>; i++)</div>
@@ -364,6 +364,7 @@ $(document).ready(function(){initNavTree('da/d10/Fun4AllEventOutStream_8cc_sourc
 <div class="ttc" id="classFun4AllEventOutStream_html_aad9c9a83ec0bb14a7a2c19e7dcac664f"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">Fun4AllEventOutStream::WriteEventOut</a></div><div class="ttdeci">virtual int WriteEventOut(Event *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00036">Fun4AllEventOutStream.h:36</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a705a73f7a8dd7452172ef92674dfb209"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a705a73f7a8dd7452172ef92674dfb209">Fun4AllEventOutStream::Fun4AllEventOutStream</a></div><div class="ttdeci">Fun4AllEventOutStream(const std::string &amp;name=&quot;OUTSTREAM&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00014">Fun4AllEventOutStream.cc:14</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a726413b4e49772e8392c444a8789f48a"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a726413b4e49772e8392c444a8789f48a">Fun4AllEventOutStream::resize_evtbuf</a></div><div class="ttdeci">int resize_evtbuf(const unsigned int newsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00034">Fun4AllEventOutStream.cc:34</a></div></div>
+<div class="ttc" id="classEvent_html"><div class="ttname"><a href="../../d5/da5/classEvent.html">Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/Event_8h_source.html#l00013">Event.h:13</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a5febb05c51c28dacf95c16f34178fe5f"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a5febb05c51c28dacf95c16f34178fe5f">Fun4AllEventOutStream::AddPacketRange</a></div><div class="ttdeci">int AddPacketRange(const int minpacket, const int maxpacket)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00165">Fun4AllEventOutStream.cc:165</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a8ee74be6c8246dc4f621ab06e4aba545"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a8ee74be6c8246dc4f621ab06e4aba545">Fun4AllEventOutStream::plist</a></div><div class="ttdeci">Packet ** plist</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00054">Fun4AllEventOutStream.h:54</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a70fa05e1b314d8ce1e620d68ce1878bd"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a70fa05e1b314d8ce1e620d68ce1878bd">Fun4AllEventOutStream::evtbuf</a></div><div class="ttdeci">PHDWORD * evtbuf</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00049">Fun4AllEventOutStream.h:49</a></div></div>
@@ -374,10 +375,10 @@ $(document).ready(function(){initNavTree('da/d10/Fun4AllEventOutStream_8cc_sourc
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a4e9faf24559475d52adf985edd9635a.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_8eb13d7bb717ba73044d9c5cefad6edb.html">fun4all</a></li><li class="navelem"><a class="el" href="../../da/d10/Fun4AllEventOutStream_8cc.html">Fun4AllEventOutStream.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8846024b083f0188b5ed66bccaef8042.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_a5e9b9813bc4daf13f6006861178685d.html">fun4all</a></li><li class="navelem"><a class="el" href="../../da/d10/Fun4AllEventOutStream_8cc.html">Fun4AllEventOutStream.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:49</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:42</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

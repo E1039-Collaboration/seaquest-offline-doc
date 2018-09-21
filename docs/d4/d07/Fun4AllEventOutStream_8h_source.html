@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/framework/fun4all/Fun4AllEventOutStream.h Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-core/framework/fun4all/Fun4AllEventOutStream.h Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('d4/d07/Fun4AllEventOutStream_8h_source
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span>Event;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">class </span><a class="code" href="../../d5/da5/classEvent.html">Event</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">class </span>Packet;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d4a/classFun4AllEventOutputManager.html">Fun4AllEventOutputManager</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
@@ -149,8 +149,8 @@ $(document).ready(function(){initNavTree('d4/d07/Fun4AllEventOutStream_8h_source
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a6d457919c12e22828e9d4421ab84ebb6">~Fun4AllEventOutStream</a>();</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#a5270da9f643d513d4f13a55db48355c0">   34</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a5270da9f643d513d4f13a55db48355c0">StreamStatus</a>() {<span class="keywordflow">return</span> 0;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">WriteEvent</a>(Event *evt);</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">   36</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">WriteEventOut</a>(Event* <span class="comment">/*evt*/</span>) {<span class="keywordflow">return</span> 0;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#ac3f5579ceba1f3acdf722be550d6f374">WriteEvent</a>(<a class="code" href="../../d5/da5/classEvent.html">Event</a> *evt);</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">   36</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">WriteEventOut</a>(<a class="code" href="../../d5/da5/classEvent.html">Event</a>* <span class="comment">/*evt*/</span>) {<span class="keywordflow">return</span> 0;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../dc/dab/classFun4AllEventOutStream.html#a87ef656ce56394e2d48935a1f9629619">   37</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a87ef656ce56394e2d48935a1f9629619">CloseOutStream</a>() {<span class="keywordflow">return</span> 0;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">int</span>  <a class="code" href="../../dc/dab/classFun4AllEventOutStream.html#a85c89498e10d6b503f6be6bd0c645ff3">AddPacket</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> ipkt); </div>
@@ -201,6 +201,7 @@ $(document).ready(function(){initNavTree('d4/d07/Fun4AllEventOutStream_8h_source
 <div class="ttc" id="classFun4AllEventOutStream_html_aad9c9a83ec0bb14a7a2c19e7dcac664f"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#aad9c9a83ec0bb14a7a2c19e7dcac664f">Fun4AllEventOutStream::WriteEventOut</a></div><div class="ttdeci">virtual int WriteEventOut(Event *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00036">Fun4AllEventOutStream.h:36</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a705a73f7a8dd7452172ef92674dfb209"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a705a73f7a8dd7452172ef92674dfb209">Fun4AllEventOutStream::Fun4AllEventOutStream</a></div><div class="ttdeci">Fun4AllEventOutStream(const std::string &amp;name=&quot;OUTSTREAM&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00014">Fun4AllEventOutStream.cc:14</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a726413b4e49772e8392c444a8789f48a"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a726413b4e49772e8392c444a8789f48a">Fun4AllEventOutStream::resize_evtbuf</a></div><div class="ttdeci">int resize_evtbuf(const unsigned int newsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00034">Fun4AllEventOutStream.cc:34</a></div></div>
+<div class="ttc" id="classEvent_html"><div class="ttname"><a href="../../d5/da5/classEvent.html">Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/Event_8h_source.html#l00013">Event.h:13</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a5febb05c51c28dacf95c16f34178fe5f"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a5febb05c51c28dacf95c16f34178fe5f">Fun4AllEventOutStream::AddPacketRange</a></div><div class="ttdeci">int AddPacketRange(const int minpacket, const int maxpacket)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/Fun4AllEventOutStream_8cc_source.html#l00165">Fun4AllEventOutStream.cc:165</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_ae935bf7a9629dc675ce76703e2c58353"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#ae935bf7a9629dc675ce76703e2c58353">Fun4AllEventOutStream::SetManager</a></div><div class="ttdeci">void SetManager(Fun4AllEventOutputManager *myman)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00043">Fun4AllEventOutStream.h:43</a></div></div>
 <div class="ttc" id="classFun4AllEventOutStream_html_a8ee74be6c8246dc4f621ab06e4aba545"><div class="ttname"><a href="../../dc/dab/classFun4AllEventOutStream.html#a8ee74be6c8246dc4f621ab06e4aba545">Fun4AllEventOutStream::plist</a></div><div class="ttdeci">Packet ** plist</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d07/Fun4AllEventOutStream_8h_source.html#l00054">Fun4AllEventOutStream.h:54</a></div></div>
@@ -213,10 +214,10 @@ $(document).ready(function(){initNavTree('d4/d07/Fun4AllEventOutStream_8h_source
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a4e9faf24559475d52adf985edd9635a.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_8eb13d7bb717ba73044d9c5cefad6edb.html">fun4all</a></li><li class="navelem"><a class="el" href="../../d4/d07/Fun4AllEventOutStream_8h.html">Fun4AllEventOutStream.h</a></li>
+		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8846024b083f0188b5ed66bccaef8042.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_a5e9b9813bc4daf13f6006861178685d.html">fun4all</a></li><li class="navelem"><a class="el" href="../../d4/d07/Fun4AllEventOutStream_8h.html">Fun4AllEventOutStream.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:49</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:42</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

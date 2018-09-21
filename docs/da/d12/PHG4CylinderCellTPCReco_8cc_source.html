@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>SeaQuest Offline Software: /home/yuhw/GitHub/SeaQuest/seaquest-offline/simulation/g4detectors/PHG4CylinderCellTPCReco.cc Source File</title>
+<title>E1039 Software: /home/yuhw/GitHub/SeaQuest/e1039-core/simulation/g4detectors/PHG4CylinderCellTPCReco.cc Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -32,7 +32,7 @@
 								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
-								SeaQuest Offline Software
+								E1039 Software
 							</div> 
 							<div id="projectbrief">
 								<!--Documentation for <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest Offline Software</a>-->
@@ -323,8 +323,8 @@ $(document).ready(function(){initNavTree('da/d12/PHG4CylinderCellTPCReco_8cc_sou
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    size_r = circumference / bins_r;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    (sizeiter-&gt;second).first = size_r;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">double</span> phistepsize = 2 * M_PI / bins_r;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">double</span> phimin = -M_PI;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">double</span> phimax = phimin + phistepsize;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a> = -M_PI;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d5/d9b/plot__matscan_8C.html#ad5b04448de67eaac16564080ddf867c2">phimax</a> = phimin + phistepsize;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="../../dc/d94/classPHG4CylinderCellTPCReco.html#ac42c35589af724edf064ace8c3c1838b">phistep</a>[layer] = phistepsize;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../dc/d94/classPHG4CylinderCellTPCReco.html#a1cbdf7e5a9cc141c146d19da2d233ab0">nbins</a>[0]; i++)</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    {</div>
@@ -939,6 +939,7 @@ $(document).ready(function(){initNavTree('da/d12/PHG4CylinderCellTPCReco_8cc_sou
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_a911623e5a560cd45c672529c8a5068f2"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#a911623e5a560cd45c672529c8a5068f2">PHG4CylinderCellTPCReco::~PHG4CylinderCellTPCReco</a></div><div class="ttdeci">virtual ~PHG4CylinderCellTPCReco()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d12/PHG4CylinderCellTPCReco_8cc_source.html#l00084">PHG4CylinderCellTPCReco.cc:84</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_ae55b6f8dfad2accebd17c3acbe8bbfe1"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#ae55b6f8dfad2accebd17c3acbe8bbfe1">PHG4CylinderCellTPCReco::zigzag_pads</a></div><div class="ttdeci">bool zigzag_pads</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d10/PHG4CylinderCellTPCReco_8h_source.html#l00118">PHG4CylinderCellTPCReco.h:118</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_a5e6d96f02f838e9f0bf84cb33fb1c2fa"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a5e6d96f02f838e9f0bf84cb33fb1c2fa">Fun4AllBase::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdoc">The verbosity level. 0 means not verbose at all. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase.h:75</a></div></div>
+<div class="ttc" id="plot__matscan_8C_html_ad5b04448de67eaac16564080ddf867c2"><div class="ttname"><a href="../../d5/d9b/plot__matscan_8C.html#ad5b04448de67eaac16564080ddf867c2">phimax</a></div><div class="ttdeci">float phimax</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d9b/plot__matscan_8C_source.html#l00002">plot_matscan.C:2</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_ace78e3b036426e4eb8687a166d84367a"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#ace78e3b036426e4eb8687a166d84367a">PHG4CylinderCellTPCReco::seggeonodename</a></div><div class="ttdeci">std::string seggeonodename</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d10/PHG4CylinderCellTPCReco_8h_source.html#l00085">PHG4CylinderCellTPCReco.h:85</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellGeom_html_a51de7f078df13ace9e27f165b8400b80"><div class="ttname"><a href="../../d9/d85/classPHG4CylinderCellGeom.html#a51de7f078df13ace9e27f165b8400b80">PHG4CylinderCellGeom::set_zstep</a></div><div class="ttdeci">void set_zstep(const double z)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d85/PHG4CylinderCellGeom_8cc_source.html#l00061">PHG4CylinderCellGeom.cc:61</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellGeom_html_a108104cde65d2ca503e306251188e615"><div class="ttname"><a href="../../d9/d85/classPHG4CylinderCellGeom.html#a108104cde65d2ca503e306251188e615">PHG4CylinderCellGeom::get_radius</a></div><div class="ttdeci">double get_radius() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da1/PHG4CylinderCellGeom_8h_source.html#l00018">PHG4CylinderCellGeom.h:18</a></div></div>
@@ -1065,6 +1066,7 @@ $(document).ready(function(){initNavTree('da/d12/PHG4CylinderCellTPCReco_8cc_sou
 <div class="ttc" id="classPHG4CylinderGeomContainer_html"><div class="ttname"><a href="../../d4/de7/classPHG4CylinderGeomContainer.html">PHG4CylinderGeomContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db8/PHG4CylinderGeomContainer_8h_source.html#l00010">PHG4CylinderGeomContainer.h:10</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellGeomContainer_html"><div class="ttname"><a href="../../d2/ddb/classPHG4CylinderCellGeomContainer.html">PHG4CylinderCellGeomContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d90/PHG4CylinderCellGeomContainer_8h_source.html#l00010">PHG4CylinderCellGeomContainer.h:10</a></div></div>
 <div class="ttc" id="classPHG4Cellv2_html"><div class="ttname"><a href="../../da/d1d/classPHG4Cellv2.html">PHG4Cellv2</a></div><div class="ttdoc">specialized cells for TPC operations </div><div class="ttdef"><b>Definition:</b> <a href="../../de/ddd/PHG4Cellv2_8h_source.html#l00015">PHG4Cellv2.h:15</a></div></div>
+<div class="ttc" id="matscan_8C_html_a8709bde60c63ae1e7874c457b6fbde2d"><div class="ttname"><a href="../../d9/d1d/matscan_8C.html#a8709bde60c63ae1e7874c457b6fbde2d">phimin</a></div><div class="ttdeci">float phimin</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1d/matscan_8C_source.html#l00008">matscan.C:8</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_af12daaf282cbee83ef5612a9239e4a26"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#af12daaf282cbee83ef5612a9239e4a26">PHG4CylinderCellTPCReco::n_phi_z_bins</a></div><div class="ttdeci">std::map&lt; int, std::pair&lt; int, int &gt; &gt; n_phi_z_bins</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d10/PHG4CylinderCellTPCReco_8h_source.html#l00086">PHG4CylinderCellTPCReco.h:86</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_a086fee5c2581f5e9825424dec89a7c29"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#a086fee5c2581f5e9825424dec89a7c29">PHG4CylinderCellTPCReco::binning</a></div><div class="ttdeci">std::map&lt; int, int &gt; binning</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d10/PHG4CylinderCellTPCReco_8h_source.html#l00072">PHG4CylinderCellTPCReco.h:72</a></div></div>
 <div class="ttc" id="classPHG4CylinderCellTPCReco_html_ada554d35496e0d6c4c9c042c1fccd6a3"><div class="ttname"><a href="../../dc/d94/classPHG4CylinderCellTPCReco.html#ada554d35496e0d6c4c9c042c1fccd6a3">PHG4CylinderCellTPCReco::fHWindowZ</a></div><div class="ttdeci">TProfile2D * fHWindowZ</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d10/PHG4CylinderCellTPCReco_8h_source.html#l00109">PHG4CylinderCellTPCReco.h:109</a></div></div>
@@ -1082,10 +1084,10 @@ $(document).ready(function(){initNavTree('da/d12/PHG4CylinderCellTPCReco_8cc_sou
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_8826e38bfb653508d07af4c56e210d44.html">seaquest-offline</a></li><li class="navelem"><a class="el" href="../../dir_a950925fee4869d30dce73d61f4f3af6.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6600cddfbbfd1736fcb08579b2659127.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../da/d12/PHG4CylinderCellTPCReco_8cc.html">PHG4CylinderCellTPCReco.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_71279399b8e06f3709dfeff09f7b757c.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_e3c2f4d803d31d855a25c92098ef3b30.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../da/d12/PHG4CylinderCellTPCReco_8cc.html">PHG4CylinderCellTPCReco.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Aug 23 2018 11:48:51</em> using <a
+			updated: <em>Fri Sep 21 2018 10:17:43</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

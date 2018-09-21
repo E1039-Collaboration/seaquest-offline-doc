@@ -117,11 +117,6 @@ var dir_6600cddfbbfd1736fcb08579b2659127 =
     [ "PHG4CylinderCell.h", "d7/d11/PHG4CylinderCell_8h.html", [
       [ "PHG4CylinderCell", "d6/db7/classPHG4CylinderCell.html", "d6/db7/classPHG4CylinderCell" ]
     ] ],
-    [ "PHG4CylinderCell_MAPS.cc", "d9/d4e/PHG4CylinderCell__MAPS_8cc.html", null ],
-    [ "PHG4CylinderCell_MAPS.h", "d2/d37/PHG4CylinderCell__MAPS_8h.html", [
-      [ "PHG4CylinderCell_MAPS", "d7/d0f/classPHG4CylinderCell__MAPS.html", "d7/d0f/classPHG4CylinderCell__MAPS" ]
-    ] ],
-    [ "PHG4CylinderCell_MAPSLinkDef.h", "da/dd3/PHG4CylinderCell__MAPSLinkDef_8h.html", null ],
     [ "PHG4CylinderCellContainer.cc", "d6/dfd/PHG4CylinderCellContainer_8cc.html", null ],
     [ "PHG4CylinderCellContainer.h", "dc/db6/PHG4CylinderCellContainer_8h.html", [
       [ "PHG4CylinderCellContainer", "d6/ddf/classPHG4CylinderCellContainer.html", "d6/ddf/classPHG4CylinderCellContainer" ]
@@ -132,11 +127,6 @@ var dir_6600cddfbbfd1736fcb08579b2659127 =
     [ "PHG4CylinderCellGeom.h", "d4/da1/PHG4CylinderCellGeom_8h.html", [
       [ "PHG4CylinderCellGeom", "d9/d85/classPHG4CylinderCellGeom.html", "d9/d85/classPHG4CylinderCellGeom" ]
     ] ],
-    [ "PHG4CylinderCellGeom_Spacalv1.cc", "d6/df0/PHG4CylinderCellGeom__Spacalv1_8cc.html", null ],
-    [ "PHG4CylinderCellGeom_Spacalv1.h", "db/d20/PHG4CylinderCellGeom__Spacalv1_8h.html", [
-      [ "PHG4CylinderCellGeom_Spacalv1", "df/d09/classPHG4CylinderCellGeom__Spacalv1.html", "df/d09/classPHG4CylinderCellGeom__Spacalv1" ]
-    ] ],
-    [ "PHG4CylinderCellGeom_Spacalv1LinkDef.h", "d0/dc8/PHG4CylinderCellGeom__Spacalv1LinkDef_8h.html", null ],
     [ "PHG4CylinderCellGeomContainer.cc", "d6/dc2/PHG4CylinderCellGeomContainer_8cc.html", null ],
     [ "PHG4CylinderCellGeomContainer.h", "d4/d90/PHG4CylinderCellGeomContainer_8h.html", [
       [ "PHG4CylinderCellGeomContainer", "d2/ddb/classPHG4CylinderCellGeomContainer.html", "d2/ddb/classPHG4CylinderCellGeomContainer" ]
@@ -177,34 +167,6 @@ var dir_6600cddfbbfd1736fcb08579b2659127 =
     [ "PHG4CylinderGeom.h", "d9/d44/PHG4CylinderGeom_8h.html", [
       [ "PHG4CylinderGeom", "dc/d30/classPHG4CylinderGeom.html", "dc/d30/classPHG4CylinderGeom" ]
     ] ],
-    [ "PHG4CylinderGeom_MAPS.cc", "d5/d20/PHG4CylinderGeom__MAPS_8cc.html", null ],
-    [ "PHG4CylinderGeom_MAPS.h", "da/dba/PHG4CylinderGeom__MAPS_8h.html", [
-      [ "PHG4CylinderGeom_MAPS", "df/d55/classPHG4CylinderGeom__MAPS.html", "df/d55/classPHG4CylinderGeom__MAPS" ]
-    ] ],
-    [ "PHG4CylinderGeom_MAPSLinkDef.h", "dc/d7f/PHG4CylinderGeom__MAPSLinkDef_8h.html", null ],
-    [ "PHG4CylinderGeom_Siladders.cc", "d1/d5e/PHG4CylinderGeom__Siladders_8cc.html", null ],
-    [ "PHG4CylinderGeom_Siladders.h", "d0/ded/PHG4CylinderGeom__Siladders_8h.html", [
-      [ "PHG4CylinderGeom_Siladders", "db/d64/classPHG4CylinderGeom__Siladders.html", "db/d64/classPHG4CylinderGeom__Siladders" ]
-    ] ],
-    [ "PHG4CylinderGeom_SiladdersLinkDef.h", "d8/d48/PHG4CylinderGeom__SiladdersLinkDef_8h.html", null ],
-    [ "PHG4CylinderGeom_Spacalv1.cc", "d4/d11/PHG4CylinderGeom__Spacalv1_8cc.html", null ],
-    [ "PHG4CylinderGeom_Spacalv1.h", "d4/d16/PHG4CylinderGeom__Spacalv1_8h.html", [
-      [ "PHG4CylinderGeom_Spacalv1", "d2/da2/classPHG4CylinderGeom__Spacalv1.html", "d2/da2/classPHG4CylinderGeom__Spacalv1" ]
-    ] ],
-    [ "PHG4CylinderGeom_Spacalv1LinkDef.h", "d0/d6f/PHG4CylinderGeom__Spacalv1LinkDef_8h.html", null ],
-    [ "PHG4CylinderGeom_Spacalv2.cc", "db/dca/PHG4CylinderGeom__Spacalv2_8cc.html", null ],
-    [ "PHG4CylinderGeom_Spacalv2.h", "da/d31/PHG4CylinderGeom__Spacalv2_8h.html", [
-      [ "PHG4CylinderGeom_Spacalv2", "db/d5f/classPHG4CylinderGeom__Spacalv2.html", "db/d5f/classPHG4CylinderGeom__Spacalv2" ]
-    ] ],
-    [ "PHG4CylinderGeom_Spacalv2LinkDef.h", "d7/d8f/PHG4CylinderGeom__Spacalv2LinkDef_8h.html", null ],
-    [ "PHG4CylinderGeom_Spacalv3.cc", "d0/dfc/PHG4CylinderGeom__Spacalv3_8cc.html", null ],
-    [ "PHG4CylinderGeom_Spacalv3.h", "df/d6b/PHG4CylinderGeom__Spacalv3_8h.html", [
-      [ "PHG4CylinderGeom_Spacalv3", "de/d61/classPHG4CylinderGeom__Spacalv3.html", "de/d61/classPHG4CylinderGeom__Spacalv3" ],
-      [ "geom_tower", "df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower.html", "df/dec/classPHG4CylinderGeom__Spacalv3_1_1geom__tower" ],
-      [ "scint_id_coder", "df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder.html", "df/d52/classPHG4CylinderGeom__Spacalv3_1_1scint__id__coder" ]
-    ] ],
-    [ "PHG4CylinderGeom_Spacalv3_2015.cc", "df/d22/PHG4CylinderGeom__Spacalv3__2015_8cc.html", null ],
-    [ "PHG4CylinderGeom_Spacalv3LinkDef.h", "db/d6f/PHG4CylinderGeom__Spacalv3LinkDef_8h.html", null ],
     [ "PHG4CylinderGeomContainer.cc", "dd/de6/PHG4CylinderGeomContainer_8cc.html", null ],
     [ "PHG4CylinderGeomContainer.h", "d6/db8/PHG4CylinderGeomContainer_8h.html", [
       [ "PHG4CylinderGeomContainer", "d4/de7/classPHG4CylinderGeomContainer.html", "d4/de7/classPHG4CylinderGeomContainer" ]
@@ -305,6 +267,19 @@ var dir_6600cddfbbfd1736fcb08579b2659127 =
       [ "PHG4PolyconSubsystem", "d6/d12/classPHG4PolyconSubsystem.html", "d6/d12/classPHG4PolyconSubsystem" ]
     ] ],
     [ "PHG4PolyconSubsystemLinkDef.h", "dc/db6/PHG4PolyconSubsystemLinkDef_8h.html", null ],
+    [ "PHG4SquareTubeDetector.cc", "d5/dec/PHG4SquareTubeDetector_8cc.html", null ],
+    [ "PHG4SquareTubeDetector.h", "d8/d4d/PHG4SquareTubeDetector_8h.html", [
+      [ "PHG4SquareTubeDetector", "d9/d87/classPHG4SquareTubeDetector.html", "d9/d87/classPHG4SquareTubeDetector" ]
+    ] ],
+    [ "PHG4SquareTubeSteppingAction.cc", "da/da0/PHG4SquareTubeSteppingAction_8cc.html", null ],
+    [ "PHG4SquareTubeSteppingAction.h", "d8/d62/PHG4SquareTubeSteppingAction_8h.html", [
+      [ "PHG4SquareTubeSteppingAction", "dc/d4f/classPHG4SquareTubeSteppingAction.html", "dc/d4f/classPHG4SquareTubeSteppingAction" ]
+    ] ],
+    [ "PHG4SquareTubeSubsystem.cc", "df/d21/PHG4SquareTubeSubsystem_8cc.html", null ],
+    [ "PHG4SquareTubeSubsystem.h", "d8/da7/PHG4SquareTubeSubsystem_8h.html", [
+      [ "PHG4SquareTubeSubsystem", "d4/d2d/classPHG4SquareTubeSubsystem.html", "d4/d2d/classPHG4SquareTubeSubsystem" ]
+    ] ],
+    [ "PHG4SquareTubeSubsystemLinkDef.h", "dc/dd9/PHG4SquareTubeSubsystemLinkDef_8h.html", null ],
     [ "PHG4StepStatusDecode.cc", "d5/d0c/PHG4StepStatusDecode_8cc.html", "d5/d0c/PHG4StepStatusDecode_8cc" ],
     [ "PHG4StepStatusDecode.h", "db/df9/PHG4StepStatusDecode_8h.html", "db/df9/PHG4StepStatusDecode_8h" ],
     [ "PHG4TargetCoilDetector.cc", "d7/d4a/PHG4TargetCoilDetector_8cc.html", null ],
