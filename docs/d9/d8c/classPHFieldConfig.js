@@ -20,6 +20,9 @@ var classPHFieldConfig =
     [ "get_filename1", "d9/d8c/classPHFieldConfig.html#a7f21e9c7ab55a08b0562e6bceeee71b8", null ],
     [ "get_filename2", "d9/d8c/classPHFieldConfig.html#af23e61576a09b09629718fc4bb3488b7", null ],
     [ "get_magfield_rescale", "d9/d8c/classPHFieldConfig.html#a799555656757d8288161e1fcd82165fa", null ],
+    [ "get_magfield_rescale1", "d9/d8c/classPHFieldConfig.html#a4a5c15170287dff90cf40124f3d6e933", null ],
+    [ "get_magfield_rescale2", "d9/d8c/classPHFieldConfig.html#ac7ab87363434c9a7fe178b1ac2535cef", null ],
+    [ "get_taregetmag_y", "d9/d8c/classPHFieldConfig.html#af61565f27edc9deaa2df2972bd7a0bec", null ],
     [ "identify", "d9/d8c/classPHFieldConfig.html#a654b7e3f5258ab82dc39484d2f51c036", null ],
     [ "isValid", "d9/d8c/classPHFieldConfig.html#ab242524ab9d42c527ecaa000109c7686", null ],
     [ "Reset", "d9/d8c/classPHFieldConfig.html#a584381889306a3d06b49581270a0d39b", null ],
@@ -29,5 +32,6 @@ var classPHFieldConfig =
     [ "set_field_mag_z", "d9/d8c/classPHFieldConfig.html#a2b72acfe564b31441672fbea2f4d82e5", null ],
     [ "set_filename", "d9/d8c/classPHFieldConfig.html#a847c4c58ed92b002d83bc19edbd9f7ab", null ],
     [ "set_magfield_rescale", "d9/d8c/classPHFieldConfig.html#a47bdbfc0a8c67468ff20591ad0e9d2ab", null ],
+    [ "set_taregetmag_y", "d9/d8c/classPHFieldConfig.html#ac6b794d5d0ebce85cf639359132fb43a", null ],
     [ "kInvalid_FileName", "d9/d8c/classPHFieldConfig.html#af5855af958d94cea44ce3e0948606520", null ]
 ];

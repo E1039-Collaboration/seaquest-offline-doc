@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['weak_5fptr',['weak_ptr',['../d8/de6/classboost_1_1weak__ptr.html',1,'boost']]]
+  ['variablearray',['VariableArray',['../dc/db5/classVariableArray.html',1,'']]],
+  ['variablearraycontainer',['VariableArrayContainer',['../d3/dc5/classVariableArrayContainer.html',1,'']]],
+  ['variablearrayutils',['VariableArrayUtils',['../d2/d08/classVariableArrayUtils.html',1,'']]]
 ];

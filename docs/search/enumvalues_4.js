@@ -1,10 +1,22 @@
 var searchData=
 [
-  ['end_5fevent',['END_EVENT',['../d7/d36/ManageCodaInput_8h.html#a385c44f6fb256e5716a2302a5b940388a4a7f9e5588a80b509432d4359d842fdd',1,'ManageCodaInput.h']]],
-  ['end_5fspill',['END_SPILL',['../d7/d36/ManageCodaInput_8h.html#a6b7b47dd702d9e331586d485013fd1eaabf84a128a2e45acb15f3248a467ff79c',1,'ManageCodaInput.h']]],
+  ['end_5fevent',['END_EVENT',['../d6/d1e/CodaInputManager_8h.html#a385c44f6fb256e5716a2302a5b940388a4a7f9e5588a80b509432d4359d842fdd',1,'CodaInputManager.h']]],
+  ['end_5fspill',['END_SPILL',['../d6/d1e/CodaInputManager_8h.html#a6b7b47dd702d9e331586d485013fd1eaabf84a128a2e45acb15f3248a467ff79c',1,'CodaInputManager.h']]],
   ['eortimebin',['EORTIMEBIN',['../d0/d60/Fun4AllHistoBinDefs_8h.html#a99fb83031ce9923c84392b4e92f956b5a318064373667e767195a953f8b4ce8ea',1,'Fun4AllHistoBinDefs.h']]],
+  ['eos',['EOS',['../d7/d5e/classSQScaler.html#aabac272052094f55f60831b31929eacba1adcc84f814c6d0d38620744a7bd9281',1,'SQScaler']]],
+  ['error_5fstation',['ERROR_STATION',['../d2/d5a/classPatternDB.html#af7172f3b31afe042c3457fefe652ecf8a458694ba9e321d08861fc0f4f0467f5c',1,'PatternDB']]],
   ['etaphibinning',['etaphibinning',['../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca7a4c704fa3627f4b57dc89d7ccfd087a',1,'PHG4CellDefs::etaphibinning()'],['../d2/da3/namespacePHG4CylinderCellDefs.html#a0314a6fafd12193bfc855a817dc4f5b4a0eb581d15ea895eecf0722eb4b38a2a8',1,'PHG4CylinderCellDefs::etaphibinning()']]],
   ['etaslatbinning',['etaslatbinning',['../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca415b3f32f52bfdba0e7eeeb56aab166f',1,'PHG4CellDefs::etaslatbinning()'],['../d2/da3/namespacePHG4CylinderCellDefs.html#a0314a6fafd12193bfc855a817dc4f5b4a51c091ea5ad7132b409ed16c97670204',1,'PHG4CylinderCellDefs::etaslatbinning()']]],
   ['etaxsizebinning',['etaxsizebinning',['../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528ca69e1e12589004d93a52019639404bacb',1,'PHG4CellDefs']]],
-  ['event_5fok',['EVENT_OK',['../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b',1,'Fun4AllReturnCodes']]]
+  ['event_5fok',['EVENT_OK',['../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b',1,'Fun4AllReturnCodes']]],
+  ['evt_5ferr_5fn_5fqie_5f0',['EVT_ERR_N_QIE_0',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba789a27c2cb936128315940fbfca055db',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5fqie_5f2',['EVT_ERR_N_QIE_2',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba3390f192e376912ac084c15f270cfbf2',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5ftdc',['EVT_ERR_N_TDC',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5bab692a99e4bf1a57e24e3386367c0dc1e',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5ftrigb_5f0',['EVT_ERR_N_TRIGB_0',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5babd93b63343fd48646a4fe92f0292ef29',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5ftrigb_5f2',['EVT_ERR_N_TRIGB_2',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba429d447cf1705f65fbe0d7c48c748de1',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5ftrigc_5f0',['EVT_ERR_N_TRIGC_0',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba5f6a6d9dad2a307582ea01221c9ecdc6',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5ftrigc_5f2',['EVT_ERR_N_TRIGC_2',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5bab49abb127850cb1b9d39e25fb5bd5534',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5fv1495_5f0',['EVT_ERR_N_V1495_0',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba760964e3cc1f4d3b4f80f9215d6427f6',1,'MainDaqParser']]],
+  ['evt_5ferr_5fn_5fv1495_5f2',['EVT_ERR_N_V1495_2',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba5b945054422907e3cba263d619fd3b5a',1,'MainDaqParser']]],
+  ['evt_5ferr_5fv1495',['EVT_ERR_V1495',['../df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba20c56d21f81173f6a87642d2c8d07425',1,'MainDaqParser']]]
 ];

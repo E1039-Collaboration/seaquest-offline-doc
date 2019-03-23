@@ -123,6 +123,9 @@ $(document).ready(function(){initNavTree('de/d2f/classTrkEval.html','../../');})
 </div><!--header-->
 <div class="contents">
 
+<p>General purposed evaluation module.  
+ <a href="../../de/d2f/classTrkEval.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../db/d09/TrkEval_8h_source.html">/home/yuhw/GitHub/SeaQuest/e1039-core/module_example/TrkEval.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for TrkEval:</div>
@@ -203,6 +206,10 @@ Public Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a8fe64135fcd9c2922e470fa52843b5b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a8fe64135fcd9c2922e470fa52843b5b5">GetNodes</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="separator:a8fe64135fcd9c2922e470fa52843b5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe4bff3e37b8f0884e24ea933c43c60"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a0fe4bff3e37b8f0884e24ea933c43c60">TruthEval</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="separator:a0fe4bff3e37b8f0884e24ea933c43c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4c91aacd41057f331a7b236f4d4958"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a2e4c91aacd41057f331a7b236f4d4958">RecoEval</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="separator:a2e4c91aacd41057f331a7b236f4d4958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -226,8 +233,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8027a78a8a857bd25fc93d23b49526e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cee2326d934f61d91530e72e25df717"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a4cee2326d934f61d91530e72e25df717">_out_name</a></td></tr>
 <tr class="separator:a4cee2326d934f61d91530e72e25df717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec347db2b05d89a8d687b1d3392feca"><td class="memItemLeft" align="right" valign="top">TTree *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a4ec347db2b05d89a8d687b1d3392feca">_tout</a></td></tr>
-<tr class="separator:a4ec347db2b05d89a8d687b1d3392feca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d69b8282895594bf1dca3fd908e333"><td class="memItemLeft" align="right" valign="top">TTree *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a07d69b8282895594bf1dca3fd908e333">_tout_truth</a></td></tr>
+<tr class="separator:a07d69b8282895594bf1dca3fd908e333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ecb428c41fecf2c9b8e32937b69552"><td class="memItemLeft" align="right" valign="top">TTree *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ae4ecb428c41fecf2c9b8e32937b69552">_tout_reco</a></td></tr>
+<tr class="separator:ae4ecb428c41fecf2c9b8e32937b69552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2dbe6d034feafa87bba15e5370a04e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aa2dbe6d034feafa87bba15e5370a04e5">run_id</a></td></tr>
 <tr class="separator:aa2dbe6d034feafa87bba15e5370a04e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581d07630ef1c84b0458eaf65cb7afca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a581d07630ef1c84b0458eaf65cb7afca">spill_id</a></td></tr>
@@ -244,6 +253,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a72966c1a54302d3cbf5b6400a2cd8fad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdad1788a360e33dbd500bb6a4d4fe63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#acdad1788a360e33dbd500bb6a4d4fe63">detector_id</a> [10000]</td></tr>
 <tr class="separator:acdad1788a360e33dbd500bb6a4d4fe63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86d476cc906b8fb26fe7bfcdcab80c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ae86d476cc906b8fb26fe7bfcdcab80c2">element_id</a> [10000]</td></tr>
+<tr class="separator:ae86d476cc906b8fb26fe7bfcdcab80c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60393719dac5b393445b0877c3a57d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aa60393719dac5b393445b0877c3a57d8">hodo_mask</a> [10000]</td></tr>
+<tr class="separator:aa60393719dac5b393445b0877c3a57d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcb79c71fd66a8a832ffc61d22a244d4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#abcb79c71fd66a8a832ffc61d22a244d4">drift_distance</a> [10000]</td></tr>
 <tr class="separator:abcb79c71fd66a8a832ffc61d22a244d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3b5b5b36506ba813329dd971e398a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a4d3b5b5b36506ba813329dd971e398a7">pos</a> [10000]</td></tr>
@@ -258,8 +271,14 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a6aa9ea574edf2bac4cc368d9be082403"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab225d79bd527772640e68eeb7e849146"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ab225d79bd527772640e68eeb7e849146">truth_pos</a> [10000]</td></tr>
 <tr class="separator:ab225d79bd527772640e68eeb7e849146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8574eee441f8c3c8e1de279ace5bdf24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a8574eee441f8c3c8e1de279ace5bdf24">n_particles</a></td></tr>
-<tr class="separator:a8574eee441f8c3c8e1de279ace5bdf24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db197d43c2d5284633d6653e5190386"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a1db197d43c2d5284633d6653e5190386">n_tracks</a></td></tr>
+<tr class="separator:a1db197d43c2d5284633d6653e5190386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a4535ec9433f4392ef2f6e8c99d537"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ae7a4535ec9433f4392ef2f6e8c99d537">rec_id</a> [1000]</td></tr>
+<tr class="separator:ae7a4535ec9433f4392ef2f6e8c99d537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa819db7222a4b7f6de1df95f71d6c528"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aa819db7222a4b7f6de1df95f71d6c528">par_id</a> [1000]</td></tr>
+<tr class="separator:aa819db7222a4b7f6de1df95f71d6c528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5738151c40401c944196b65c8441a1e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a5738151c40401c944196b65c8441a1e3">pid</a> [1000]</td></tr>
+<tr class="separator:a5738151c40401c944196b65c8441a1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaefc43a7b0e8b46066f1b0471de453b6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aaefc43a7b0e8b46066f1b0471de453b6">gvx</a> [1000]</td></tr>
 <tr class="separator:aaefc43a7b0e8b46066f1b0471de453b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87bac389e0ce70463dbdf8b78b2f233c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a87bac389e0ce70463dbdf8b78b2f233c">gvy</a> [1000]</td></tr>
@@ -272,6 +291,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abc6b652cbead28904d114ec955e5bb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03f30f2d3cbb11c8cb770e3e06fe2da6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a03f30f2d3cbb11c8cb770e3e06fe2da6">gpz</a> [1000]</td></tr>
 <tr class="separator:a03f30f2d3cbb11c8cb770e3e06fe2da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade21345941ec64bd88903c4cac72b970"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ade21345941ec64bd88903c4cac72b970">gx_st1</a> [1000]</td></tr>
+<tr class="separator:ade21345941ec64bd88903c4cac72b970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1976edd7e82ff9a7c807cfe3e028372"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ac1976edd7e82ff9a7c807cfe3e028372">gy_st1</a> [1000]</td></tr>
+<tr class="separator:ac1976edd7e82ff9a7c807cfe3e028372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b596952f0fb36adc7e6546e4ade89d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ac0b596952f0fb36adc7e6546e4ade89d">gz_st1</a> [1000]</td></tr>
+<tr class="separator:ac0b596952f0fb36adc7e6546e4ade89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a0cee0efcad8a0b49ee3809c2177020"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a4a0cee0efcad8a0b49ee3809c2177020">gpx_st1</a> [1000]</td></tr>
+<tr class="separator:a4a0cee0efcad8a0b49ee3809c2177020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab773a80f321c0e147545e5cdfae8a0ab"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ab773a80f321c0e147545e5cdfae8a0ab">gpy_st1</a> [1000]</td></tr>
+<tr class="separator:ab773a80f321c0e147545e5cdfae8a0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98701d2bea09471afc49afeb5f9b2e2f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a98701d2bea09471afc49afeb5f9b2e2f">gpz_st1</a> [1000]</td></tr>
+<tr class="separator:a98701d2bea09471afc49afeb5f9b2e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a517ca1642e73b7d47031eaf6d398de31"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a517ca1642e73b7d47031eaf6d398de31">gpt</a> [1000]</td></tr>
 <tr class="separator:a517ca1642e73b7d47031eaf6d398de31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a838e9281ba4f28ab734be4897712a25c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a838e9281ba4f28ab734be4897712a25c">geta</a> [1000]</td></tr>
@@ -288,6 +319,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a407ea08ac708a4483d3b43a8c90a5963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5609ffb736d536eff793ea6281415459"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a5609ffb736d536eff793ea6281415459">ntruhits</a> [1000]</td></tr>
 <tr class="separator:a5609ffb736d536eff793ea6281415459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bc97e565ed795e8a78fc61440ffde4e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a5bc97e565ed795e8a78fc61440ffde4e">nhits</a> [1000]</td></tr>
+<tr class="separator:a5bc97e565ed795e8a78fc61440ffde4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd0f0ea75578125427a8604fc0dc2f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#adfd0f0ea75578125427a8604fc0dc2f8">charge</a> [1000]</td></tr>
+<tr class="separator:adfd0f0ea75578125427a8604fc0dc2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf88cdcd83ee3709ddc9779c3554899"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a8bf88cdcd83ee3709ddc9779c3554899">vx</a> [1000]</td></tr>
 <tr class="separator:a8bf88cdcd83ee3709ddc9779c3554899"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1c8defd770956964a634c09aaa60862"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aa1c8defd770956964a634c09aaa60862">vy</a> [1000]</td></tr>
@@ -306,6 +341,18 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abf79b4e122cb7de1509215199b7cf5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05f0b3f78da24e1ceef012fd8ea09a9c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a05f0b3f78da24e1ceef012fd8ea09a9c">phi</a> [1000]</td></tr>
 <tr class="separator:a05f0b3f78da24e1ceef012fd8ea09a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74a62889343eb28c98ba56ebbba94072"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a74a62889343eb28c98ba56ebbba94072">x_st1</a> [1000]</td></tr>
+<tr class="separator:a74a62889343eb28c98ba56ebbba94072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e0d20776ddf1d90505be6746f8a619"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a19e0d20776ddf1d90505be6746f8a619">y_st1</a> [1000]</td></tr>
+<tr class="separator:a19e0d20776ddf1d90505be6746f8a619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a25ce7297401c4b78d930f575036e76"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a6a25ce7297401c4b78d930f575036e76">px_st1</a> [1000]</td></tr>
+<tr class="separator:a6a25ce7297401c4b78d930f575036e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b4874d1fd9fcbc2e7323cb791517c60"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a2b4874d1fd9fcbc2e7323cb791517c60">py_st1</a> [1000]</td></tr>
+<tr class="separator:a2b4874d1fd9fcbc2e7323cb791517c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f4f15b5315b9977ab3de208691cee9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#af3f4f15b5315b9977ab3de208691cee9">pz_st1</a> [1000]</td></tr>
+<tr class="separator:af3f4f15b5315b9977ab3de208691cee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014afcde69529fd0ebed2e572876c1ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a014afcde69529fd0ebed2e572876c1ea">gelmid</a> [1000][55]</td></tr>
+<tr class="separator:a014afcde69529fd0ebed2e572876c1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb01d26ad7aca1ede99aae1cd602c17d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#adb01d26ad7aca1ede99aae1cd602c17d">gndimu</a></td></tr>
 <tr class="separator:adb01d26ad7aca1ede99aae1cd602c17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c0c945b7a431fbe66b8033d27f4dba"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ae3c0c945b7a431fbe66b8033d27f4dba">dimu_gpx</a> [1000]</td></tr>
@@ -316,6 +363,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a1850089f5cc658708028c082c972045e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56e6e2f422356e032fef8a8cdc1c2618"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a56e6e2f422356e032fef8a8cdc1c2618">dimu_gpt</a> [1000]</td></tr>
 <tr class="separator:a56e6e2f422356e032fef8a8cdc1c2618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacab4dbf1e67e3dcd766631bddf2ada7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aacab4dbf1e67e3dcd766631bddf2ada7">dimu_gmass</a> [1000]</td></tr>
+<tr class="separator:aacab4dbf1e67e3dcd766631bddf2ada7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab56f95190bebc50b441374d729954ae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aab56f95190bebc50b441374d729954ae">dimu_geta</a> [1000]</td></tr>
 <tr class="separator:aab56f95190bebc50b441374d729954ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069efccbdb1a9b928052e423fb3ebd10"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a069efccbdb1a9b928052e423fb3ebd10">dimu_gphi</a> [1000]</td></tr>
@@ -330,6 +379,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aea49fb5f538965a20b2f2a5ce686e8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a748dee315b71d942be61fc3e5057a3d9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a748dee315b71d942be61fc3e5057a3d9">dimu_pt</a> [1000]</td></tr>
 <tr class="separator:a748dee315b71d942be61fc3e5057a3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa976450daac04969e639f960dfcc6cae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#aa976450daac04969e639f960dfcc6cae">dimu_mass</a> [1000]</td></tr>
+<tr class="separator:aa976450daac04969e639f960dfcc6cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a88ee5656afabe8623560355017b74"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#ad1a88ee5656afabe8623560355017b74">dimu_eta</a> [1000]</td></tr>
 <tr class="separator:ad1a88ee5656afabe8623560355017b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84af2d7e18121c1d188850ed1eaa5e52"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2f/classTrkEval.html#a84af2d7e18121c1d188850ed1eaa5e52">dimu_phi</a> [1000]</td></tr>
@@ -365,8 +416,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a5e6d96f02f838e9f0bf84cb33fb1c2fa inherit pro_attribs_classFun4AllBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00043">43</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<div class="textblock"><p>General purposed evaluation module. </p>
+<dl class="section author"><dt>Author</dt><dd>Haiwang Yu, <a href="#" onclick="location.href='mai'+'lto:'+'yuh'+'w@'+'nms'+'u.'+'edu'; return false;">yuhw@<span style="display: none;">.nosp@m.</span>nmsu<span style="display: none;">.nosp@m.</span>.edu</a></dd></dl>
+<p>Created: 08-27-2018 </p>
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00044">44</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5807a70405e50083b9f0cad0dcd1a4b7"></a>
 <div class="memitem">
@@ -382,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00054">54</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00057">57</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
 </div>
 </div>
@@ -407,7 +461,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00049">49</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
 </div>
 </div>
@@ -438,9 +492,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00395">395</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00801">801</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_out_name</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00095">_tout</a>, <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00076">PHTFileServer::cd()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00036">PHTFileServer::get()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">_out_name</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">_tout_reco</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">_tout_truth</a>, <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00076">PHTFileServer::cd()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00036">PHTFileServer::get()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -474,9 +528,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00060">60</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00079">_hit_container_type</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">_hit_container_type</a>.</p>
 
 </div>
 </div>
@@ -501,9 +555,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00067">67</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00068">68</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_out_name</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">_out_name</a>.</p>
 
 </div>
 </div>
@@ -529,11 +583,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">532</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">1038</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00086">_event_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00079">_hit_container_type</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00087">_hit_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">_hit_vector</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">_recEvent</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">_run_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00084">_spill_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">_truth</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00049">LogError</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">_event_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">_hit_container_type</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00091">_hit_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">_hit_vector</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00096">_recEvent</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00087">_run_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">_spill_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_truth</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00052">LogError</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00071">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00074">InitRun()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -571,7 +625,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00067">67</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00070">70</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -590,11 +644,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">405</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">812</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_out_name</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00095">_tout</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">dimu_eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">dimu_nrec</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">dimu_phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">dimu_pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">dimu_px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">dimu_py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">dimu_pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">event_id</a>, <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00036">PHTFileServer::get()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00121">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00116">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">hit_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00101">krecstat</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">n_particles</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">ntruhits</a>, <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00029">PHTFileServer::open()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00107">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00097">run_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">truth_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">vy</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">vz</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">_out_name</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">_tout_reco</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">_tout_truth</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00147">charge</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00180">dimu_eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00171">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00170">dimu_gmass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00172">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00169">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00166">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00167">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00168">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00179">dimu_mass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00174">dimu_nrec</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00181">dimu_phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00178">dimu_pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00175">dimu_px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00176">dimu_py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00177">dimu_pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">element_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00155">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">event_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00163">gelmid</a>, <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00036">PHTFileServer::get()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00139">geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00165">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">gpx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">gpy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">gpz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">gx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">gy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">gz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00109">hit_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">hodo_mask</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">krecstat</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">n_tracks</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">nhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">ntruhits</a>, <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00029">PHTFileServer::open()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">par_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00156">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">pid</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00114">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">px_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00160">py_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00161">pz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">rec_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00102">run_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">truth_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">vy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">vz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00157">x_st1</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00158">y_st1</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00071">InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00074">InitRun()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -641,9 +695,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00071">71</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00074">74</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00180">GeomSvc::instance()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">p_geomSvc</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00180">GeomSvc::instance()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00186">p_geomSvc</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -678,20 +732,69 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Called for each event. This is where you do the real work. </p>
-<p>TODO change back to map? </p>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">84</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00087">87</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00081">_event</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00086">_event_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">_hit_vector</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">_recEvent</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00084">_spill_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00095">_tout</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">_truth</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00040">SQHitVector::at()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">dimu_eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">dimu_nrec</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">dimu_phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">dimu_pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">dimu_px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">dimu_py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">dimu_pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">event_id</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00051">SQHit::get_drift_distance()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00039">SQHit::get_hit_id()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00014">PHG4Particle::get_pid()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00054">SQHit::get_pos()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00016">PHG4Particle::get_px()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00017">PHG4Particle::get_py()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00018">PHG4Particle::get_pz()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">SQEvent::get_spill_id()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00021">PHG4Particle::get_track_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00057">SQHit::get_track_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00063">SQHit::get_truth_x()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00066">SQHit::get_truth_y()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00069">SQHit::get_truth_z()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00022">PHG4Particle::get_vtx_id()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00020">PHG4VtxPoint::get_x()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00021">PHG4VtxPoint::get_y()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00022">PHG4VtxPoint::get_z()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">geta</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00187">GeomSvc::getCostheta()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00057">SRecTrack::getHitIndex()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00051">SRecTrack::getNHits()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00340">SRecEvent::getNTracks()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00184">GeomSvc::getPlanePosition()</a>, <a class="el" href="../../d0/d25/PHG4TruthInfoContainer_8h_source.html#l00056">PHG4TruthInfoContainer::GetPrimaryParticleRange()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">SRecEvent::getRecStatus()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00188">GeomSvc::getSintheta()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00134">SRecTrack::getTargetMom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00129">SRecTrack::getTargetPos()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">SRecEvent::getTrack()</a>, <a class="el" href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00130">PHG4TruthInfoContainer::GetVtx()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00121">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00116">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">hit_id</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00030">SQHit::identify()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00101">krecstat</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00048">LogDebug</a>, <a class="el" href="../../d2/dff/SimpleReadMySql_8cxx_source.html#l00030">LogInfo</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00050">LogWarning</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">n_particles</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">ntruhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">p_geomSvc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00107">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">pz</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00097">run_id</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">SQHitVector::size()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">truth_z</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">vy</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">vz</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00085">_event</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00096">_recEvent</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a0c626d9ee4c94abf889fa5408f1f49d1_cgraph.svg" width="400" height="1944"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a0c626d9ee4c94abf889fa5408f1f49d1_cgraph.svg" width="590" height="2399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2e4c91aacd41057f331a7b236f4d4958"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::RecoEval </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"><em>topNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TODO change back to map? </p>
+
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">103</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00085">_event</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">_event_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">_hit_vector</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00096">_recEvent</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">_spill_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">_tout_reco</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_truth</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00040">SQHitVector::at()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00147">charge</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00155">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">event_id</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d5/d4c/PHG4HitContainer_8cc_source.html#l00167">PHG4HitContainer::findHit()</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00060">SQHit::get_g4hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00039">SQHit::get_hit_id()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00024">PHG4Hit::get_px()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00025">PHG4Hit::get_py()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00026">PHG4Hit::get_pz()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">SQEvent::get_spill_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00057">SQHit::get_track_id()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00020">PHG4VtxPoint::get_x()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00021">PHG4Hit::get_x()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00021">PHG4VtxPoint::get_y()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00022">PHG4Hit::get_y()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00022">PHG4VtxPoint::get_z()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00023">PHG4Hit::get_z()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00139">geta</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00050">SRecTrack::getCharge()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00057">SRecTrack::getHitIndex()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00069">SRecTrack::getMomentumSt1()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00051">SRecTrack::getNHits()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00340">SRecEvent::getNTracks()</a>, <a class="el" href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00114">PHG4TruthInfoContainer::GetParticle()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00077">SRecTrack::getPositionSt1()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">SRecEvent::getRecStatus()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00134">SRecTrack::getTargetMom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00129">SRecTrack::getTargetPos()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">SRecEvent::getTrack()</a>, <a class="el" href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00130">PHG4TruthInfoContainer::GetVtx()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">gpx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">gpy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">gpz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">gx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">gy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">gz_st1</a>, <a class="el" href="../../d5/dc4/PHG4Hit_8cc_source.html#l00035">PHG4Hit::identify()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00030">SQHit::identify()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">krecstat</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00051">LogDebug</a>, <a class="el" href="../../d2/dff/SimpleReadMySql_8cxx_source.html#l00030">LogInfo</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00053">LogWarning</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">n_tracks</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">nhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">ntruhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">par_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00156">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">pid</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">px_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00160">py_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00161">pz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">rec_id</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00102">run_id</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">SQHitVector::size()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">target_pos</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">vy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">vz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00157">x_st1</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00158">y_st1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00087">process_event()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a2e4c91aacd41057f331a7b236f4d4958_cgraph.svg" width="608" height="1894"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a2e4c91aacd41057f331a7b236f4d4958_icgraph.svg" width="344" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -710,18 +813,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">471</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">945</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">event_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00121">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00116">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00101">krecstat</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">n_particles</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">ntruhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00107">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00097">run_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">truth_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">vy</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">vz</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00147">charge</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00180">dimu_eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00171">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00170">dimu_gmass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00172">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00169">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00166">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00167">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00168">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00179">dimu_mass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00174">dimu_nrec</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00181">dimu_phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00178">dimu_pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00175">dimu_px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00176">dimu_py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00177">dimu_pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">element_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00155">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">event_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00163">gelmid</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00139">geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00165">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">gpx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">gpy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">gpz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">gx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">gy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">gz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">hodo_mask</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">krecstat</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">n_tracks</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">nhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">ntruhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">par_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00156">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">pid</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00114">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">px_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00160">py_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00161">pz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">rec_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00102">run_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">truth_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">vy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">vz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00157">x_st1</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00158">y_st1</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00074">InitRun()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_ac304098657cc1038779103fe742308b5_icgraph.svg" width="376" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_ac304098657cc1038779103fe742308b5_icgraph.svg" width="552" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -749,19 +852,18 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00063">63</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00064">64</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00079">_hit_container_type</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">_hit_container_type</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d9/dfb/Fun4PrgTrkDev_8C_source.html#l00006">Fun4PrgTrkDev()</a>, and <a class="el" href="../../d7/d65/e1039-core_2macros_2Fun4Sim_8C_source.html#l00006">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a755bda896d4b56cffb535aa67ed4f327_icgraph.svg" width="371" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a755bda896d4b56cffb535aa67ed4f327_icgraph.svg" width="371" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -789,19 +891,58 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00071">71</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00072">72</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_out_name</a>.</p>
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">_out_name</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d9/dfb/Fun4PrgTrkDev_8C_source.html#l00006">Fun4PrgTrkDev()</a>, and <a class="el" href="../../d7/d65/e1039-core_2macros_2Fun4Sim_8C_source.html#l00006">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a298aa365137f9cb32706c6818db0755b_icgraph.svg" width="355" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a298aa365137f9cb32706c6818db0755b_icgraph.svg" width="355" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fe4bff3e37b8f0884e24ea933c43c60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::TruthEval </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"><em>topNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>TODO change back to map? </p>
+
+<p>Definition at line <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">390</a> of file <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html">TrkEval.cxx</a>.</p>
+
+<p>References <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00085">_event</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">_event_header</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">_hit_vector</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00096">_recEvent</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">_spill_map</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">_tout_truth</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">_truth</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00040">SQHitVector::at()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00147">charge</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">detector_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">detector_z</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00180">dimu_eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00171">dimu_geta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00170">dimu_gmass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00172">dimu_gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00169">dimu_gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00166">dimu_gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00167">dimu_gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00168">dimu_gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00179">dimu_mass</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00174">dimu_nrec</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00181">dimu_phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00178">dimu_pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00175">dimu_px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00176">dimu_py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00177">dimu_pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">drift_distance</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">element_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00155">eta</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">event_id</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d5/d4c/PHG4HitContainer_8cc_source.html#l00167">PHG4HitContainer::findHit()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00163">gelmid</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00051">SQHit::get_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00060">SQHit::get_g4hit_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00039">SQHit::get_hit_id()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00014">PHG4Particle::get_pid()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00054">SQHit::get_pos()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00016">PHG4Particle::get_px()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00024">PHG4Hit::get_px()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00017">PHG4Particle::get_py()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00025">PHG4Hit::get_py()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00018">PHG4Particle::get_pz()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00026">PHG4Hit::get_pz()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">SQEvent::get_spill_id()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00021">PHG4Particle::get_track_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00057">SQHit::get_track_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00063">SQHit::get_truth_x()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00066">SQHit::get_truth_y()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00069">SQHit::get_truth_z()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00022">PHG4Particle::get_vtx_id()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00020">PHG4VtxPoint::get_x()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00021">PHG4Hit::get_x()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00021">PHG4VtxPoint::get_y()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00022">PHG4Hit::get_y()</a>, <a class="el" href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00022">PHG4VtxPoint::get_z()</a>, <a class="el" href="../../de/d83/PHG4Hit_8h_source.html#l00023">PHG4Hit::get_z()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00139">geta</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00050">SRecTrack::getCharge()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00187">GeomSvc::getCostheta()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00057">SRecTrack::getHitIndex()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00069">SRecTrack::getMomentumSt1()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00051">SRecTrack::getNHits()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00340">SRecEvent::getNTracks()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00184">GeomSvc::getPlanePosition()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00077">SRecTrack::getPositionSt1()</a>, <a class="el" href="../../d0/d25/PHG4TruthInfoContainer_8h_source.html#l00056">PHG4TruthInfoContainer::GetPrimaryParticleRange()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">SRecEvent::getRecStatus()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00188">GeomSvc::getSintheta()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00134">SRecTrack::getTargetMom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00129">SRecTrack::getTargetPos()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">SRecEvent::getTrack()</a>, <a class="el" href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00130">PHG4TruthInfoContainer::GetVtx()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">gndc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00165">gndimu</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">gnhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">gnhodo</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">gnprop</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">gphi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">gpt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">gpx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">gpx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">gpy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">gpy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">gpz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">gpz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">gvx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">gvy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">gvz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">gx_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">gy_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">gz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00109">hit_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">hodo_mask</a>, <a class="el" href="../../d5/dc4/PHG4Hit_8cc_source.html#l00035">PHG4Hit::identify()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00030">SQHit::identify()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00075">SQHit::is_hodo_mask()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">krecstat</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00051">LogDebug</a>, <a class="el" href="../../d2/dff/SimpleReadMySql_8cxx_source.html#l00030">LogInfo</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00053">LogWarning</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">n_hits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">n_tracks</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">nhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">ntruhits</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00186">p_geomSvc</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">par_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00156">phi</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">pid</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00114">pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">pt</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">px</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">px_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">py</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00160">py_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">pz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00161">pz_st1</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">rec_id</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00102">run_id</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">SQHitVector::size()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">spill_id</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">target_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">truth_pos</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">truth_x</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">truth_y</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">truth_z</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">vx</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">vy</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">vz</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00157">x_st1</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00158">y_st1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00087">process_event()</a>.</p>
+
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d2f/classTrkEval_a0fe4bff3e37b8f0884e24ea933c43c60_icgraph.svg" width="344" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
@@ -826,9 +967,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00081">81</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00085">85</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00087">process_event()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -850,9 +991,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00086">86</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">90</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -874,9 +1015,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00079">79</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">83</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00059">get_hit_container_choice()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00063">set_hit_container_choice()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00060">get_hit_container_choice()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00064">set_hit_container_choice()</a>.</p>
 
 </div>
 </div>
@@ -898,9 +1039,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00087">87</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00091">91</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>.</p>
 
 </div>
 </div>
@@ -922,9 +1063,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">88</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">92</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -946,9 +1087,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">94</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">98</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00395">End()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00067">get_out_name()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00071">set_out_name()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00801">End()</a>, <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00068">get_out_name()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, and <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00072">set_out_name()</a>.</p>
 
 </div>
 </div>
@@ -970,9 +1111,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00092">92</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00096">96</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00087">process_event()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -994,9 +1135,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00083">83</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00087">87</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>.</p>
 
 </div>
 </div>
@@ -1018,13 +1159,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00084">84</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00088">88</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a4ec347db2b05d89a8d687b1d3392feca"></a>
+<a class="anchor" id="ae4ecb428c41fecf2c9b8e32937b69552"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1032,7 +1173,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">TTree* TrkEval::_tout</td>
+          <td class="memname">TTree* TrkEval::_tout_reco</td>
         </tr>
       </table>
   </td>
@@ -1042,9 +1183,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00095">95</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">100</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00395">End()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00801">End()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a07d69b8282895594bf1dca3fd908e333"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TTree* TrkEval::_tout_truth</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">99</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00801">End()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1066,9 +1231,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00090">90</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00094">94</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00532">GetNodes()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l01038">GetNodes()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adfd0f0ea75578125427a8604fc0dc2f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::charge[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00147">147</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1090,9 +1279,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">105</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">110</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1114,9 +1303,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">108</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">115</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1138,9 +1327,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">153</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00180">180</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1162,9 +1351,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">145</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00171">171</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aacab4dbf1e67e3dcd766631bddf2ada7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::dimu_gmass[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00170">170</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1186,9 +1399,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">146</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00172">172</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1210,9 +1423,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">144</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00169">169</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1234,9 +1447,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">141</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00166">166</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1258,9 +1471,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">142</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00167">167</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1282,9 +1495,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">143</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00168">168</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa976450daac04969e639f960dfcc6cae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::dimu_mass[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00179">179</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1306,9 +1543,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">148</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00174">174</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1330,9 +1567,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">154</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00181">181</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1354,9 +1591,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">152</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00178">178</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1378,9 +1615,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">149</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00175">175</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1402,9 +1639,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">150</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00176">176</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1426,9 +1663,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">151</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00177">177</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1450,9 +1687,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">106</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">113</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae86d476cc906b8fb26fe7bfcdcab80c2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::element_id[10000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">111</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1474,9 +1735,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">137</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00155">155</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1498,9 +1759,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00100">100</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00105">105</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a014afcde69529fd0ebed2e572876c1ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::gelmid[1000][55]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00163">163</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1522,9 +1807,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">123</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00139">139</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1546,9 +1831,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">126</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00142">142</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1570,9 +1855,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">140</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00165">165</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1594,9 +1879,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">125</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00141">141</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1618,9 +1903,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">127</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00143">143</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1642,9 +1927,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">128</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00144">144</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1666,9 +1951,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">124</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00140">140</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1690,9 +1975,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">122</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">138</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1714,9 +1999,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">119</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">129</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a0cee0efcad8a0b49ee3809c2177020"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gpx_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">135</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1738,9 +2047,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">120</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">130</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab773a80f321c0e147545e5cdfae8a0ab"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gpy_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">136</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1762,9 +2095,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00121">121</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">131</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a98701d2bea09471afc49afeb5f9b2e2f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gpz_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00137">137</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1786,9 +2143,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00116">116</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00126">126</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1810,9 +2167,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">117</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00127">127</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1834,9 +2191,81 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">118</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00128">128</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ade21345941ec64bd88903c4cac72b970"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gx_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">132</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac1976edd7e82ff9a7c807cfe3e028372"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gy_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">133</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac0b596952f0fb36adc7e6546e4ade89d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::gz_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">134</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1858,9 +2287,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">104</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00109">109</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa60393719dac5b393445b0877c3a57d8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::hodo_mask[10000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">112</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1882,9 +2335,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00101">101</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00106">106</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1906,13 +2359,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">103</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00108">108</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a8574eee441f8c3c8e1de279ace5bdf24"></a>
+<a class="anchor" id="a1db197d43c2d5284633d6653e5190386"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1920,7 +2373,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int TrkEval::n_particles</td>
+          <td class="memname">int TrkEval::n_tracks</td>
         </tr>
       </table>
   </td>
@@ -1930,9 +2383,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00115">115</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00122">122</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5bc97e565ed795e8a78fc61440ffde4e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::nhits[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00146">146</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1954,9 +2431,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00129">129</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00145">145</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -1978,9 +2455,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">159</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00186">186</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00071">InitRun()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00074">InitRun()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa819db7222a4b7f6de1df95f71d6c528"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::par_id[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00124">124</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2002,9 +2503,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00138">138</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00156">156</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5738151c40401c944196b65c8441a1e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::pid[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00125">125</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2026,9 +2551,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00107">107</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00114">114</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2050,9 +2575,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00136">136</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00154">154</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2074,9 +2599,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00133">133</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00151">151</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6a25ce7297401c4b78d930f575036e76"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::px_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00159">159</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2098,9 +2647,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00134">134</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00152">152</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b4874d1fd9fcbc2e7323cb791517c60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::py_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00160">160</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2122,9 +2695,57 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00135">135</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00153">153</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af3f4f15b5315b9977ab3de208691cee9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::pz_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00161">161</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae7a4535ec9433f4392ef2f6e8c99d537"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TrkEval::rec_id[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00123">123</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2146,9 +2767,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00097">97</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00102">102</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2170,9 +2791,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00098">98</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00103">103</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2194,9 +2815,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00099">99</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00104">104</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2218,9 +2839,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00113">113</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00120">120</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2242,9 +2863,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00110">110</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00117">117</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2266,9 +2887,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00111">111</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00118">118</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2290,9 +2911,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00112">112</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00119">119</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2314,9 +2935,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00130">130</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00148">148</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2338,9 +2959,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00131">131</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00149">149</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2362,9 +2983,57 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00132">132</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00150">150</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00405">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00084">process_event()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00471">ResetEvalVars()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a74a62889343eb28c98ba56ebbba94072"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::x_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00157">157</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a19e0d20776ddf1d90505be6746f8a619"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float TrkEval::y_st1[1000]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d09/TrkEval_8h_source.html#l00158">158</a> of file <a class="el" href="../../db/d09/TrkEval_8h_source.html">TrkEval.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00812">InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00103">RecoEval()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00945">ResetEvalVars()</a>, and <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00390">TruthEval()</a>.</p>
 
 </div>
 </div>
@@ -2382,7 +3051,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../de/d2f/classTrkEval.html">TrkEval</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 21 2018 10:17:48</em> using <a
+			updated: <em>Sat Mar 23 2019 16:02:45</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

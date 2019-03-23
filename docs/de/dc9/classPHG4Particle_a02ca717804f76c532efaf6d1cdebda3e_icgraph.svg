@@ -30,16 +30,16 @@
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
 <g id="a_node4"><a xlink:href="../../dd/d9d/classPHG4TruthEventAction.html#aadf84e52ab9bcf0b8fb892c626b53c27" target="_top" xlink:title="PHG4TruthEventAction\l::EndOfEventAction">
-<polygon fill="none" stroke="black" points="325.5,-64 325.5,-94 444.5,-94 444.5,-64 325.5,-64"/>
-<text text-anchor="start" x="333.5" y="-82" font-family="FreeSans" font-size="10.00">PHG4TruthEventAction</text>
-<text text-anchor="middle" x="385" y="-71" font-family="FreeSans" font-size="10.00">::EndOfEventAction</text>
+<polygon fill="none" stroke="black" points="325.5,-83 325.5,-113 444.5,-113 444.5,-83 325.5,-83"/>
+<text text-anchor="start" x="333.5" y="-101" font-family="FreeSans" font-size="10.00">PHG4TruthEventAction</text>
+<text text-anchor="middle" x="385" y="-90" font-family="FreeSans" font-size="10.00">::EndOfEventAction</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M104.075,-115.206C148.138,-126.829 220.81,-140.678 282,-127 310.268,-120.681 339.942,-105.625 359.949,-94.0469"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="104.887,-111.8 94.318,-112.545 103.044,-118.553 104.887,-111.8"/>
+<path fill="none" stroke="midnightblue" d="M104.837,-115.325C122.272,-119.978 142.956,-124.702 162,-127 214.949,-133.389 229.177,-134.363 282,-127 301.693,-124.255 322.923,-118.665 340.89,-113.118"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="105.553,-111.892 94.983,-112.612 103.695,-118.641 105.553,-111.892"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -57,30 +57,30 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../de/d2f/classTrkEval.html#a0c626d9ee4c94abf889fa5408f1f49d1" target="_top" xlink:title="TrkEval::process_event">
-<polygon fill="none" stroke="black" points="163,-49.5 163,-68.5 281,-68.5 281,-49.5 163,-49.5"/>
-<text text-anchor="middle" x="222" y="-56.5" font-family="FreeSans" font-size="10.00">TrkEval::process_event</text>
+<g id="a_node6"><a xlink:href="../../dd/d9d/classPHG4TruthEventAction.html#ae3f2e6fb721a5bf18566688160ccc273" target="_top" xlink:title="PHG4TruthEventAction\l::ProcessShowers">
+<polygon fill="none" stroke="black" points="162.5,-39 162.5,-69 281.5,-69 281.5,-39 162.5,-39"/>
+<text text-anchor="start" x="170.5" y="-57" font-family="FreeSans" font-size="10.00">PHG4TruthEventAction</text>
+<text text-anchor="middle" x="222" y="-46" font-family="FreeSans" font-size="10.00">::ProcessShowers</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M107.703,-90.7522C132.767,-83.7276 163.766,-75.04 187,-68.5287"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="106.751,-87.3839 98.0667,-93.4527 108.64,-94.1242 106.751,-87.3839"/>
+<path fill="none" stroke="midnightblue" d="M104.472,-90.3687C125.341,-83.8554 150.938,-75.8666 172.82,-69.037"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="103.147,-87.1156 94.6439,-93.436 105.233,-93.7977 103.147,-87.1156"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../dd/d9d/classPHG4TruthEventAction.html#ae3f2e6fb721a5bf18566688160ccc273" target="_top" xlink:title="PHG4TruthEventAction\l::ProcessShowers">
-<polygon fill="none" stroke="black" points="162.5,-0 162.5,-30 281.5,-30 281.5,-0 162.5,-0"/>
-<text text-anchor="start" x="170.5" y="-18" font-family="FreeSans" font-size="10.00">PHG4TruthEventAction</text>
-<text text-anchor="middle" x="222" y="-7" font-family="FreeSans" font-size="10.00">::ProcessShowers</text>
+<g id="a_node7"><a xlink:href="../../de/d2f/classTrkEval.html#a0fe4bff3e37b8f0884e24ea933c43c60" target="_top" xlink:title="TrkEval::TruthEval">
+<polygon fill="none" stroke="black" points="174.5,-0.5 174.5,-19.5 269.5,-19.5 269.5,-0.5 174.5,-0.5"/>
+<text text-anchor="middle" x="222" y="-7.5" font-family="FreeSans" font-size="10.00">TrkEval::TruthEval</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M85.615,-87.5791C105.055,-74.0849 134.674,-54.4377 162,-40 168.59,-36.5181 175.772,-33.1463 182.785,-30.0655"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="83.3736,-84.8759 77.1945,-93.4823 87.3919,-90.6078 83.3736,-84.8759"/>
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M81.8338,-86.5761C100.574,-70.0612 131.512,-44.8395 162,-29 169.066,-25.3287 176.977,-22.1923 184.654,-19.5884"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="79.4677,-83.9967 74.3566,-93.2772 84.1395,-89.2096 79.4677,-83.9967"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
@@ -96,10 +96,23 @@
 <path fill="none" stroke="midnightblue" d="M289.512,-191C299.036,-191 308.83,-191 318.337,-191"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="289.31,-187.5 279.31,-191 289.31,-194.5 289.31,-187.5"/>
 </g>
-<!-- Node7&#45;&gt;Node4 -->
-<g id="edge7" class="edge"><title>Node7&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M270.111,-33.7272C294.34,-43.3588 323.474,-54.9402 346.211,-63.9781"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="271.333,-30.4468 260.747,-30.0052 268.747,-36.9517 271.333,-30.4468"/>
+<!-- Node6&#45;&gt;Node4 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M287.777,-71.7029C301.448,-75.4392 315.749,-79.3475 329.018,-82.9738"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="288.526,-68.2794 277.957,-69.0192 286.68,-75.0317 288.526,-68.2794"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../de/d2f/classTrkEval.html#a0c626d9ee4c94abf889fa5408f1f49d1" target="_top" xlink:title="TrkEval::process_event">
+<polygon fill="none" stroke="black" points="326,-0.5 326,-19.5 444,-19.5 444,-0.5 326,-0.5"/>
+<text text-anchor="middle" x="385" y="-7.5" font-family="FreeSans" font-size="10.00">TrkEval::process_event</text>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge8" class="edge"><title>Node7&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M279.69,-10C294.631,-10 310.773,-10 325.792,-10"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="279.568,-6.5001 269.568,-10 279.568,-13.5001 279.568,-6.5001"/>
 </g>
 </g>
 </svg>

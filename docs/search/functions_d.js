@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['main',['main',['../df/de8/evtest_8c.html#a51af30a60f9f02777c6396b8247e356f',1,'main():&#160;evtest.c'],['../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;eLut.cpp'],['../d5/d7e/toFloat_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;toFloat.cpp'],['../d2/d38/minimumTestPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;minimumTestPHGenFit.cc'],['../d1/da5/testPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;testPHGenFit.cc']]],
-  ['maindaqdecoder',['MainDAQDecoder',['../d1/d0a/classMainDAQDecoder.html#a7ce3452c5c8d753750e9cb9c129b948a',1,'MainDAQDecoder']]],
-  ['makeevent',['makeEvent',['../df/de8/evtest_8c.html#adf985c2b26eea921d80b456041f9fb5a',1,'evtest.c']]],
+  ['main',['main',['../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;eLut.cpp'],['../d5/d7e/toFloat_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;toFloat.cpp'],['../d2/d38/minimumTestPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;minimumTestPHGenFit.cc'],['../d1/da5/testPHGenFit_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;testPHGenFit.cc']]],
+  ['maindaqparser',['MainDaqParser',['../df/dcd/classMainDaqParser.html#a5c5bb917a7b5e65b9787cea4ef9dc761',1,'MainDaqParser']]],
   ['makehisto',['makeHisto',['../d3/d96/classFun4AllHistoManager.html#ad13a9bc82841ea99d349f7b9b5f93177',1,'Fun4AllHistoManager::makeHisto()'],['../da/d29/classFun4AllServer.html#a248740a0e8d771bcabbe44cc08a5a1b6',1,'Fun4AllServer::makeHisto()']]],
-  ['makenodes',['MakeNodes',['../db/dda/classReadMySql.html#a893da68c47d48aaa94b6a6befdb4ab85',1,'ReadMySql::MakeNodes()'],['../d0/d68/classSimpleReadMySql.html#a650a5f65ee1634450425061b781ec942',1,'SimpleReadMySql::MakeNodes()'],['../d1/d0a/classMainDAQDecoder.html#a728dfaac3c2e046990983d5ab3236c83',1,'MainDAQDecoder::MakeNodes()'],['../d4/dff/classKalmanFastTrackingWrapper.html#a2b173121c0b43f3bcbf3657eba6aa4ea',1,'KalmanFastTrackingWrapper::MakeNodes()']]],
+  ['makenodes',['MakeNodes',['../db/dda/classReadMySql.html#a893da68c47d48aaa94b6a6befdb4ab85',1,'ReadMySql::MakeNodes()'],['../d0/d68/classSimpleReadMySql.html#a650a5f65ee1634450425061b781ec942',1,'SimpleReadMySql::MakeNodes()'],['../d4/dff/classKalmanFastTrackingWrapper.html#a2b173121c0b43f3bcbf3657eba6aa4ea',1,'KalmanFastTrackingWrapper::MakeNodes()']]],
   ['makenodespersistent',['MakeNodesPersistent',['../da/d29/classFun4AllServer.html#ac9e5b55796d46d41f6f0ec9e3422959a',1,'Fun4AllServer']]],
   ['makenodestransient',['MakeNodesTransient',['../da/d29/classFun4AllServer.html#a92c6fe0e0c19c48d2b1f9d0f63c12bbe',1,'Fun4AllServer']]],
   ['makepersistent',['makePersistent',['../dc/d82/classPHNode.html#ad5c0a3b8418667e0b16c0581435b0aff',1,'PHNode']]],
@@ -12,7 +11,9 @@ var searchData=
   ['makeroadlist',['makeRoadList',['../d5/d72/classTriggerRoad.html#a1d36c47262de34a3324f2ad2f35b8881',1,'TriggerRoad']]],
   ['makeroadpairs',['makeRoadPairs',['../d6/deb/classTriggerAnalyzer.html#a229c582ae4a6de49bfbfef24f9642561',1,'TriggerAnalyzer']]],
   ['maketransient',['makeTransient',['../dc/d82/classPHNode.html#a6202404549f6c053f3a3485ab28a968e',1,'PHNode']]],
-  ['managecodainput',['ManageCodaInput',['../d0/d21/classManageCodaInput.html#a0200f7fccb542bdf1b692660b2d6ef0a',1,'ManageCodaInput']]],
+  ['mapperscaler',['MapperScaler',['../d4/d77/classMapperScaler.html#a161d288aaba18fe9a50e9dcb18f97f8f',1,'MapperScaler']]],
+  ['mappertaiwan',['MapperTaiwan',['../d0/d37/classMapperTaiwan.html#a7eb6663912ad1d34e841c0417aa3aa22',1,'MapperTaiwan']]],
+  ['mapperv1495',['MapperV1495',['../d4/d88/classMapperV1495.html#a70cd5243d84b792b94fe6e69ea25668f',1,'MapperV1495']]],
   ['materialswrite',['MaterialsWrite',['../dd/db5/classPHG4GDMLWrite.html#a53261ba42feb5edb57ac7d491689c96a',1,'PHG4GDMLWrite::MaterialsWrite()'],['../d3/d04/classPHG4GDMLWriteMaterials.html#acc9c7831eea2e3e5c2ea03c3d6248338',1,'PHG4GDMLWriteMaterials::MaterialsWrite()']]],
   ['materialwrite',['MaterialWrite',['../d3/d04/classPHG4GDMLWriteMaterials.html#a24dff32470666c766f8e697a00247b74',1,'PHG4GDMLWriteMaterials']]],
   ['matscan',['matscan',['../d9/d1d/matscan_8C.html#a98ccbc6135fead542f3c4d1dd6882d63',1,'matscan.C']]],
@@ -38,7 +39,7 @@ var searchData=
   ['movevertex',['moveVertex',['../d7/d7b/classPHHepMCGenEvent.html#a4cd34cc37b99ec3a4a1301dfed8eab6c',1,'PHHepMCGenEvent']]],
   ['mratio',['mratio',['../d5/d72/classTriggerRoad.html#a04ea5274a15bb368fba6a47d87ddb2d3',1,'TriggerRoad']]],
   ['multiunionwrite',['MultiUnionWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#a0e1bf2f22e7d43045979c8f4d3b7268f',1,'PHG4GDMLWriteSolids']]],
-  ['muonid_5fcomp',['muonID_comp',['../d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b',1,'KalmanFastTracking::muonID_comp()'],['../dc/d0c/classKalmanPrgTrk.html#aa5a55006b0379ed0fdb070a2d63e233d',1,'KalmanPrgTrk::muonID_comp()']]],
-  ['muonid_5fhodoaid',['muonID_hodoAid',['../d3/d46/classKalmanFastTracking.html#ab9097108e13ba257954b854f2bc2e45b',1,'KalmanFastTracking::muonID_hodoAid()'],['../dc/d0c/classKalmanPrgTrk.html#aef18a8ded90a578f1d408d879ff2ef64',1,'KalmanPrgTrk::muonID_hodoAid()']]],
-  ['muonid_5fsearch',['muonID_search',['../d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909',1,'KalmanFastTracking::muonID_search()'],['../dc/d0c/classKalmanPrgTrk.html#a58729586f9a4bbfdfb97d8c031dc6d07',1,'KalmanPrgTrk::muonID_search()']]]
+  ['muonid_5fcomp',['muonID_comp',['../db/daa/classKalmanDSTrk.html#a4c7987b3b868494c5c16695f151cd0f1',1,'KalmanDSTrk::muonID_comp()'],['../d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b',1,'KalmanFastTracking::muonID_comp()']]],
+  ['muonid_5fhodoaid',['muonID_hodoAid',['../db/daa/classKalmanDSTrk.html#a4b3c56c9abbdcc00ab0c79205b9aa82b',1,'KalmanDSTrk::muonID_hodoAid()'],['../d3/d46/classKalmanFastTracking.html#ab9097108e13ba257954b854f2bc2e45b',1,'KalmanFastTracking::muonID_hodoAid()']]],
+  ['muonid_5fsearch',['muonID_search',['../db/daa/classKalmanDSTrk.html#ad5e83ecd7c597cedf5dab19a73aeb1f5',1,'KalmanDSTrk::muonID_search()'],['../d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909',1,'KalmanFastTracking::muonID_search()']]]
 ];

@@ -155,6 +155,10 @@ var dir_bb80997cdf93f144aaa8b621465fe023 =
     [ "PHG4PrimaryGeneratorAction.h", "d1/d92/PHG4PrimaryGeneratorAction_8h.html", [
       [ "PHG4PrimaryGeneratorAction", "d7/d54/classPHG4PrimaryGeneratorAction.html", "d7/d54/classPHG4PrimaryGeneratorAction" ]
     ] ],
+    [ "PHG4PSScanGenerator.cc", "d7/d6c/PHG4PSScanGenerator_8cc.html", null ],
+    [ "PHG4PSScanGenerator.h", "d3/d6c/PHG4PSScanGenerator_8h.html", [
+      [ "PHG4PSScanGenerator", "de/d76/classPHG4PSScanGenerator.html", "de/d76/classPHG4PSScanGenerator" ]
+    ] ],
     [ "PHG4Reco.cc", "d2/dcb/PHG4Reco_8cc.html", "d2/dcb/PHG4Reco_8cc" ],
     [ "PHG4Reco.h", "d0/d2b/PHG4Reco_8h.html", [
       [ "PHG4Reco", "d0/d78/classPHG4Reco.html", "d0/d78/classPHG4Reco" ]

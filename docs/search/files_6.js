@@ -11,5 +11,7 @@ var searchData=
   ['hepmcflowafterburner_2eh',['HepMCFlowAfterBurner.h',['../d8/d16/HepMCFlowAfterBurner_8h.html',1,'']]],
   ['hepmcflowafterburnerlinkdef_2eh',['HepMCFlowAfterBurnerLinkDef.h',['../d5/dbe/HepMCFlowAfterBurnerLinkDef_8h.html',1,'']]],
   ['hepmcnodereader_2ecc',['HepMCNodeReader.cc',['../d2/d09/HepMCNodeReader_8cc.html',1,'']]],
-  ['hepmcnodereader_2eh',['HepMCNodeReader.h',['../dd/de1/HepMCNodeReader_8h.html',1,'']]]
+  ['hepmcnodereader_2eh',['HepMCNodeReader.h',['../dd/de1/HepMCNodeReader_8h.html',1,'']]],
+  ['histoserver_2ecc',['HistoServer.cc',['../d1/d0f/HistoServer_8cc.html',1,'']]],
+  ['histoserver_2eh',['HistoServer.h',['../d8/da3/HistoServer_8h.html',1,'']]]
 ];

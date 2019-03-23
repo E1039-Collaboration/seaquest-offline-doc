@@ -295,6 +295,19 @@ var dir_e3c2f4d803d31d855a25c92098ef3b30 =
       [ "PHG4TargetCoilSubsystem", "d8/d86/classPHG4TargetCoilSubsystem.html", "d8/d86/classPHG4TargetCoilSubsystem" ]
     ] ],
     [ "PHG4TargetCoilSubsystemLinkDef.h", "df/d0b/PHG4TargetCoilSubsystemLinkDef_8h.html", null ],
+    [ "PHG4TargetCoilV2Detector.cc", "d7/d9e/PHG4TargetCoilV2Detector_8cc.html", null ],
+    [ "PHG4TargetCoilV2Detector.h", "d6/d15/PHG4TargetCoilV2Detector_8h.html", [
+      [ "PHG4TargetCoilV2Detector", "d0/d00/classPHG4TargetCoilV2Detector.html", "d0/d00/classPHG4TargetCoilV2Detector" ]
+    ] ],
+    [ "PHG4TargetCoilV2SteppingAction.cc", "da/d59/PHG4TargetCoilV2SteppingAction_8cc.html", null ],
+    [ "PHG4TargetCoilV2SteppingAction.h", "df/d9f/PHG4TargetCoilV2SteppingAction_8h.html", [
+      [ "PHG4TargetCoilV2SteppingAction", "d0/dc8/classPHG4TargetCoilV2SteppingAction.html", "d0/dc8/classPHG4TargetCoilV2SteppingAction" ]
+    ] ],
+    [ "PHG4TargetCoilV2Subsystem.cc", "d8/d58/PHG4TargetCoilV2Subsystem_8cc.html", null ],
+    [ "PHG4TargetCoilV2Subsystem.h", "d2/d32/PHG4TargetCoilV2Subsystem_8h.html", [
+      [ "PHG4TargetCoilV2Subsystem", "db/ddf/classPHG4TargetCoilV2Subsystem.html", "db/ddf/classPHG4TargetCoilV2Subsystem" ]
+    ] ],
+    [ "PHG4TargetCoilV2SubsystemLinkDef.h", "d3/d35/PHG4TargetCoilV2SubsystemLinkDef_8h.html", null ],
     [ "PHG4TrackStatusDecode.cc", "db/da9/PHG4TrackStatusDecode_8cc.html", "db/da9/PHG4TrackStatusDecode_8cc" ],
     [ "PHG4TrackStatusDecode.h", "dd/d2b/PHG4TrackStatusDecode_8h.html", "dd/d2b/PHG4TrackStatusDecode_8h" ]
 ];

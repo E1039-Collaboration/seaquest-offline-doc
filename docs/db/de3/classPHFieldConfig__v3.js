@@ -1,19 +1,26 @@
 var classPHFieldConfig__v3 =
 [
-    [ "PHFieldConfig_v3", "db/de3/classPHFieldConfig__v3.html#a58457972fa8bb6ffbc6ded6fa6eb5488", null ],
+    [ "PHFieldConfig_v3", "db/de3/classPHFieldConfig__v3.html#a8654c01d2cd12d97a21b4338e4d76804", null ],
     [ "PHFieldConfig_v3", "db/de3/classPHFieldConfig__v3.html#ad627d674f3fda5150abe2cdbf58f4b37", null ],
     [ "~PHFieldConfig_v3", "db/de3/classPHFieldConfig__v3.html#abe9495fbb9828156c5c3c7502c8fb40c", null ],
     [ "clone", "db/de3/classPHFieldConfig__v3.html#aa7ca6c4289eca94d1865c334529bebab", null ],
     [ "get_field_config", "db/de3/classPHFieldConfig__v3.html#a740fd2458803be6f0f503b213e518fc9", null ],
     [ "get_filename1", "db/de3/classPHFieldConfig__v3.html#a259e024ac148b27c30ee892b0cb0b04d", null ],
     [ "get_filename2", "db/de3/classPHFieldConfig__v3.html#a46735e89d78967b8ed7d21bcc059eba3", null ],
+    [ "get_magfield_rescale1", "db/de3/classPHFieldConfig__v3.html#a2d16d808c8e1c9a707aaa98787a9d379", null ],
+    [ "get_magfield_rescale2", "db/de3/classPHFieldConfig__v3.html#a549ee705b542375c970e0c8ef5f2f117", null ],
+    [ "get_taregetmag_y", "db/de3/classPHFieldConfig__v3.html#a5494ab94a9c329ec3fcb904e5a03bb4a", null ],
     [ "identify", "db/de3/classPHFieldConfig__v3.html#ad51ca63a3592751f786218f2b4be9ef9", null ],
     [ "isValid", "db/de3/classPHFieldConfig__v3.html#a650a78545b61457b4db0c66d15306cea", null ],
     [ "Reset", "db/de3/classPHFieldConfig__v3.html#a14758224d0dfb319268aba95f7b47204", null ],
     [ "set_field_config", "db/de3/classPHFieldConfig__v3.html#a7ba088f18362ac821513772350e5dd38", null ],
     [ "set_filename1", "db/de3/classPHFieldConfig__v3.html#a1e42fd03f039bea5201f965d1a1ce859", null ],
     [ "set_filename2", "db/de3/classPHFieldConfig__v3.html#adc889eebfdc04e337f119d354001c016", null ],
+    [ "set_taregetmag_y", "db/de3/classPHFieldConfig__v3.html#ac68e956c0b55bdf1c141797001a3e0c3", null ],
+    [ "_taregetmag_y", "db/de3/classPHFieldConfig__v3.html#a7ff75adfe1e39759cd3539f8937a4131", null ],
     [ "field_config_", "db/de3/classPHFieldConfig__v3.html#aefc5510841b6822af5eba70d0f28ef1a", null ],
     [ "filename1_", "db/de3/classPHFieldConfig__v3.html#a43d3ae4fe1008595cb97580797583ed6", null ],
-    [ "filename2_", "db/de3/classPHFieldConfig__v3.html#ac7374e929df5e93aa51dca18eeb4a791", null ]
+    [ "filename2_", "db/de3/classPHFieldConfig__v3.html#ac7374e929df5e93aa51dca18eeb4a791", null ],
+    [ "scale1_", "db/de3/classPHFieldConfig__v3.html#a16a341eced1d26b7c8f414f9fc00c15b", null ],
+    [ "scale2_", "db/de3/classPHFieldConfig__v3.html#a630114df133a59602e7260350c623a71", null ]
 ];

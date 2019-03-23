@@ -16,6 +16,10 @@ var dir_2e5a368af81bf3e511dabdb465a68c30 =
       [ "GenFitExtrapolator", "d1/d3d/classGenFitExtrapolator.html", "d1/d3d/classGenFitExtrapolator" ]
     ] ],
     [ "GenFitExtrapolatorLindDef.h", "d2/d30/GenFitExtrapolatorLindDef_8h.html", null ],
+    [ "KalmanDSTrk.cxx", "df/d8d/KalmanDSTrk_8cxx.html", "df/d8d/KalmanDSTrk_8cxx" ],
+    [ "KalmanDSTrk.h", "d5/d75/KalmanDSTrk_8h.html", [
+      [ "KalmanDSTrk", "db/daa/classKalmanDSTrk.html", "db/daa/classKalmanDSTrk" ]
+    ] ],
     [ "KalmanFastTracking.cxx", "d0/d4a/KalmanFastTracking_8cxx.html", null ],
     [ "KalmanFastTracking.h", "db/db6/KalmanFastTracking_8h.html", [
       [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", "d3/d46/classKalmanFastTracking" ]
@@ -33,10 +37,6 @@ var dir_2e5a368af81bf3e511dabdb465a68c30 =
     [ "KalmanFitter.h", "d8/daf/KalmanFitter_8h.html", [
       [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", "d3/dc9/classKalmanFitter" ]
     ] ],
-    [ "KalmanPrgTrk.cxx", "de/d89/KalmanPrgTrk_8cxx.html", null ],
-    [ "KalmanPrgTrk.h", "d8/d4a/KalmanPrgTrk_8h.html", [
-      [ "KalmanPrgTrk", "dc/d0c/classKalmanPrgTrk.html", "dc/d0c/classKalmanPrgTrk" ]
-    ] ],
     [ "KalmanTrack.cxx", "d0/dac/KalmanTrack_8cxx.html", null ],
     [ "KalmanTrack.h", "d7/d2b/KalmanTrack_8h.html", [
       [ "Seed", "db/d19/classSeed.html", "db/d19/classSeed" ],
@@ -48,6 +48,19 @@ var dir_2e5a368af81bf3e511dabdb465a68c30 =
       [ "TrkPar", "d2/d70/classTrkPar.html", "d2/d70/classTrkPar" ],
       [ "Node", "df/dd0/classNode.html", "df/dd0/classNode" ]
     ] ],
+    [ "PatternDB.cxx", "d7/d4b/PatternDB_8cxx.html", "d7/d4b/PatternDB_8cxx" ],
+    [ "PatternDB.h", "d5/deb/PatternDB_8h.html", [
+      [ "TrackletKey", "d3/d1f/classTrackletKey.html", "d3/d1f/classTrackletKey" ],
+      [ "PartTrackKey", "d6/dfe/classPartTrackKey.html", "d6/dfe/classPartTrackKey" ],
+      [ "GlobTrackKey", "da/d33/classGlobTrackKey.html", "da/d33/classGlobTrackKey" ],
+      [ "PatternDB", "d2/d5a/classPatternDB.html", "d2/d5a/classPatternDB" ]
+    ] ],
+    [ "PatternDBLinkDef.h", "d1/d8f/PatternDBLinkDef_8h.html", null ],
+    [ "PatternDBUtil.cxx", "df/da6/PatternDBUtil_8cxx.html", "df/da6/PatternDBUtil_8cxx" ],
+    [ "PatternDBUtil.h", "df/d4d/PatternDBUtil_8h.html", [
+      [ "PatternDBUtil", "d2/d0e/classPatternDBUtil.html", "d2/d0e/classPatternDBUtil" ]
+    ] ],
+    [ "PatternDBUtilLinkDef.h", "d1/d4f/PatternDBUtilLinkDef_8h.html", null ],
     [ "SRawEvent.cxx", "d1/d0b/SRawEvent_8cxx.html", "d1/d0b/SRawEvent_8cxx" ],
     [ "SRawEvent.h", "db/dda/SRawEvent_8h.html", "db/dda/SRawEvent_8h" ],
     [ "SRawEventLinkDef.h", "df/d01/SRawEventLinkDef_8h.html", null ],

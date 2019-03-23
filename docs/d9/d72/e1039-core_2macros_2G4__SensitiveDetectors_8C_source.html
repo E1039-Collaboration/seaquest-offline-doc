@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;};</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a8119b82a70a07de70537a4b569bc870b">   19</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a8119b82a70a07de70537a4b569bc870b">get_phys_param</a>(</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    TSQLServer *server,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    TSQLServer *<a class="code" href="../../d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6">server</a>,</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">string</span> &amp;pvName,</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> &amp;lvID,</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">double</span> *place,</div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#aff0da41783c725f82c54e9bd61b6a02c">   49</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#aff0da41783c725f82c54e9bd61b6a02c">get_logi_param</a>(</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    TSQLServer *server,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    TSQLServer *<a class="code" href="../../d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6">server</a>,</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> lvID,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> &amp;sID</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    ){</div>
@@ -186,7 +186,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a9538e536bb090dc99db92ed6074d081a">   71</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a9538e536bb090dc99db92ed6074d081a">get_soli_param</a>(</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    TSQLServer *server,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    TSQLServer *<a class="code" href="../../d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6">server</a>,</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> sID,</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> *size</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    ){</div>
@@ -219,7 +219,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    ){</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordtype">char</span> serverUrl[200];</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  sprintf(serverUrl, <span class="stringliteral">&quot;mysql://%s:%d&quot;</span>, _server_name.c_str(), _port);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  TSQLServer *server = TSQLServer::Connect(serverUrl, _user_name.c_str(), _password.c_str());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  TSQLServer *<a class="code" href="../../d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6">server</a> = TSQLServer::Connect(serverUrl, _user_name.c_str(), _password.c_str());</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordtype">char</span> query[2000];</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  sprintf(query, <span class="stringliteral">&quot;USE %s&quot;</span>, _input_shcema.c_str());</div>
@@ -309,6 +309,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="ttc" id="classSolidParam_html_aa0f2f8b0c172306126290795ec6f15ab"><div class="ttname"><a href="../../d8/dd3/classSolidParam.html#aa0f2f8b0c172306126290795ec6f15ab">SolidParam::zLength</a></div><div class="ttdeci">double zLength</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00016">G4_SensitiveDetectors.C:16</a></div></div>
 <div class="ttc" id="classPHG4Reco_html"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a></div><div class="ttdoc">Runs G4 as a subsystem. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/PHG4Reco_8h_source.html#l00038">PHG4Reco.h:38</a></div></div>
 <div class="ttc" id="e1039-core_2macros_2G4__SensitiveDetectors_8C_html_a52279903e10561ef695cee631e3dfa4b"><div class="ttname"><a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a></div><div class="ttdeci">#define LogDebug(exp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00003">G4_SensitiveDetectors.C:3</a></div></div>
+<div class="ttc" id="HistoServer_8cc_html_a73fdf82650602ce867f6ab0b93e0a8a6"><div class="ttname"><a href="../../d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6">server</a></div><div class="ttdeci">static void * server(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0f/HistoServer_8cc_source.html#l00068">HistoServer.cc:68</a></div></div>
 <div class="ttc" id="e1039-core_2macros_2G4__SensitiveDetectors_8C_html_a8119b82a70a07de70537a4b569bc870b"><div class="ttname"><a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a8119b82a70a07de70537a4b569bc870b">get_phys_param</a></div><div class="ttdeci">void get_phys_param(TSQLServer *server, const string &amp;pvName, int &amp;lvID, double *place, double *rot)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00019">G4_SensitiveDetectors.C:19</a></div></div>
 <div class="ttc" id="classPHG4DetectorSubsystem_html_aa0c11d415a70a207a3ea851b28932dfd"><div class="ttname"><a href="../../d5/d29/classPHG4DetectorSubsystem.html#aa0c11d415a70a207a3ea851b28932dfd">PHG4DetectorSubsystem::SuperDetector</a></div><div class="ttdeci">void SuperDetector(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00146">PHG4DetectorSubsystem.cc:146</a></div></div>
 <div class="ttc" id="e1039-core_2macros_2G4__SensitiveDetectors_8C_html_a9538e536bb090dc99db92ed6074d081a"><div class="ttname"><a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a9538e536bb090dc99db92ed6074d081a">get_soli_param</a></div><div class="ttdeci">void get_soli_param(TSQLServer *server, const int sID, double *size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00071">G4_SensitiveDetectors.C:71</a></div></div>
@@ -334,7 +335,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_c7b8d1830c80e8dadb6ebaa775549376.html">macros</a></li><li class="navelem"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html">G4_SensitiveDetectors.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 21 2018 10:17:42</em> using <a
+			updated: <em>Sat Mar 23 2019 16:02:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
