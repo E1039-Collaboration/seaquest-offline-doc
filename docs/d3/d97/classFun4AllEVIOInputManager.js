@@ -9,6 +9,7 @@ var classFun4AllEVIOInputManager =
     [ "GetSyncObject", "d3/d97/classFun4AllEVIOInputManager.html#a8c69a52e64076f4811c9fd8fbad92519", null ],
     [ "isOpen", "d3/d97/classFun4AllEVIOInputManager.html#a322dfa399b696964d40d13c3904e4ba0", null ],
     [ "OpenNextFile", "d3/d97/classFun4AllEVIOInputManager.html#a1e94c890a89e8601f767c64cf26db5f9", null ],
+    [ "PretendSpillInterval", "d3/d97/classFun4AllEVIOInputManager.html#aa9cb04231f22d5d6b35b90e2bdf61343", null ],
     [ "Print", "d3/d97/classFun4AllEVIOInputManager.html#a1e8b64ec5e2cee36ed4ea706d960c94f", null ],
     [ "PushBackEvents", "d3/d97/classFun4AllEVIOInputManager.html#a0d59e8ef314a38e5a18c92e0224a2efa", null ],
     [ "ResetEvent", "d3/d97/classFun4AllEVIOInputManager.html#ab63de423d59f530620d8d8fa68ab29b2", null ],

@@ -7,5 +7,6 @@ var classAnaMainDaq =
     [ "InitRun", "d9/d60/classAnaMainDaq.html#acdfdeb804b85e55f7f38cb00a886e0a6", null ],
     [ "PrintEvent", "d9/d60/classAnaMainDaq.html#ad72f966c21e28c61329752090dcae964", null ],
     [ "PrintSpill", "d9/d60/classAnaMainDaq.html#a3cac87e2c787b0fe3fe6eefe917b5bbb", null ],
-    [ "process_event", "d9/d60/classAnaMainDaq.html#a290ce29de3596b1d1b87342dc2b11032", null ]
+    [ "process_event", "d9/d60/classAnaMainDaq.html#a290ce29de3596b1d1b87342dc2b11032", null ],
+    [ "h1_evt_qual", "d9/d60/classAnaMainDaq.html#ac4726e2f85cded1b31f82c9bc74de908", null ]
 ];

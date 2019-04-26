@@ -1,6 +1,7 @@
 var searchData=
 [
   ['data',['data',['../d1/d96/classboost_1_1array.html#ac68ab6dc2b94e4b43c38c8a3b172c021',1,'boost::array::data() const '],['../d1/d96/classboost_1_1array.html#a10062ba8864b582a04a4ab5c72107376',1,'boost::array::data()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#a139a7af9e357252ed8139030d97490c5',1,'boost::array&lt; T, 0 &gt;::data() const '],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#afabf8ccbd2b01f94bbc17407868d0e24',1,'boost::array&lt; T, 0 &gt;::data()']]],
+  ['dbsvc',['DbSvc',['../d2/da4/classDbSvc.html#a5f328abc1cca706bc49a9856a83fb540',1,'DbSvc']]],
   ['debug',['debug',['../dd/d23/JobOptsSvc_8cxx.html#a71e70a8ecc08c35494b083076d2ace7b',1,'JobOptsSvc.cxx']]],
   ['decay',['Decay',['../d8/d46/classG4Pythia6Decayer.html#a63cee99c2dbc69ce4915964e31cd5480',1,'G4Pythia6Decayer']]],
   ['decidecharge',['decideCharge',['../db/d19/classSeed.html#abe4d1096850cbf386062a71ebf3924c6',1,'Seed']]],
@@ -8,6 +9,7 @@ var searchData=
   ['decidemomentum_5fmodel',['decideMomentum_model',['../db/d19/classSeed.html#a41c8560427b1032cfe42e9a1b7005021',1,'Seed']]],
   ['declusterize',['deClusterize',['../d5/dda/classEventReducer.html#a6aa4f5546837d8b2e47367b131332e7e',1,'EventReducer']]],
   ['decoparam',['DecoParam',['../d3/df0/structDecoParam.html#a81158b50a5528460268bddb31b9ec6e9',1,'DecoParam']]],
+  ['deepclone',['DeepClone',['../d5/d83/classSRawEvent.html#ad51593b8a33085c35b0a2ffefb3c4282',1,'SRawEvent']]],
   ['defaultfieldconfig',['DefaultFieldConfig',['../df/d4d/classPHFieldUtility.html#a5e2323118f8ce5c3d9eeb849d0fc40af',1,'PHFieldUtility']]],
   ['definematerials',['DefineMaterials',['../d0/d78/classPHG4Reco.html#a90115a5a7726db54ec46f7fa341e0e5c',1,'PHG4Reco']]],
   ['defineregions',['DefineRegions',['../d0/d78/classPHG4Reco.html#a0ef2e9563072fdd4550b15579d512d66',1,'PHG4Reco']]],
@@ -37,10 +39,12 @@ var searchData=
   ['dpdigitizer',['DPDigitizer',['../d6/d98/classDPDigitizer.html#ada2dd6027365bb13435d18901169c1f4',1,'DPDigitizer']]],
   ['drawaccphi',['drawAccPhi',['../d5/de9/E1039Shielding_2ana_8C.html#a3ba0128a44af3e91c67e20e94c653894',1,'drawAccPhi():&#160;ana.C'],['../dd/d2d/HodoAccGap_2ana_8C.html#a3ba0128a44af3e91c67e20e94c653894',1,'drawAccPhi():&#160;ana.C']]],
   ['draweffmul',['drawEffMul',['../da/d2c/PrgTrkDev_2ana_8C.html#ac5783415bf196a8f32d83585d471416a',1,'ana.C']]],
+  ['drawmonitor',['DrawMonitor',['../d9/d62/classOnlMonClient.html#a8a5d3825cb5df3fbfdb488df353b8c88',1,'OnlMonClient::DrawMonitor()'],['../d8/d69/classOnlMonMainDaq.html#ad84a74b4b2b1986c7cc1d1a433594728',1,'OnlMonMainDaq::DrawMonitor()']]],
   ['drawrelacc',['drawRelAcc',['../d5/de9/E1039Shielding_2ana_8C.html#a09e39b78e54933b7241c1588e2649465',1,'drawRelAcc():&#160;ana.C'],['../dd/d2d/HodoAccGap_2ana_8C.html#a09e39b78e54933b7241c1588e2649465',1,'drawRelAcc():&#160;ana.C']]],
   ['drawtimemul',['drawTimeMul',['../da/d2c/PrgTrkDev_2ana_8C.html#a3d17b285a7139a95ce914a663a553ec6',1,'ana.C']]],
   ['droppacket',['DropPacket',['../d2/d4a/classFun4AllEventOutputManager.html#a3c12f858e61f2c9e1cb7d3994e51975e',1,'Fun4AllEventOutputManager::DropPacket()'],['../dc/dab/classFun4AllEventOutStream.html#a9a3916f44aa23694827b9badbba92bd9',1,'Fun4AllEventOutStream::DropPacket()']]],
   ['droppacketrange',['DropPacketRange',['../d2/d4a/classFun4AllEventOutputManager.html#a9ba5514375f351891f23257a6dc3efea',1,'Fun4AllEventOutputManager::DropPacketRange()'],['../dc/dab/classFun4AllEventOutStream.html#aa0331dc19ef673eda335ce026e4b11d6',1,'Fun4AllEventOutStream::DropPacketRange()']]],
+  ['droptable',['DropTable',['../d2/da4/classDbSvc.html#a7a6da517bc72f88c593f1102378dfdba',1,'DbSvc::DropTable(const char *name)'],['../d2/da4/classDbSvc.html#af202271f54386e26019373280cb409bd',1,'DbSvc::DropTable(const std::string name)']]],
   ['dstevents',['DstEvents',['../da/d29/classFun4AllServer.html#a4f75287cf7b45915eb298b3632ce6e38',1,'Fun4AllServer']]],
   ['dump_5fgdml',['Dump_GDML',['../d9/df8/classPHG4GDMLUtility.html#adb03ec38807279cb5abaf38987c5a73f',1,'PHG4GDMLUtility::Dump_GDML()'],['../d0/d78/classPHG4Reco.html#a490f5037508d384c5b60855ef0f7e227',1,'PHG4Reco::Dump_GDML()']]],
   ['dumphistos',['dumpHistos',['../d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08',1,'Fun4AllHistoManager::dumpHistos()'],['../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e',1,'Fun4AllServer::dumpHistos()']]],

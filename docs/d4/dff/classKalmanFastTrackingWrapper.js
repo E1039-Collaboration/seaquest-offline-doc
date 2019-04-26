@@ -1,5 +1,9 @@
 var classKalmanFastTrackingWrapper =
 [
+    [ "INPUPT_TYPE", "d4/dff/classKalmanFastTrackingWrapper.html#a9eec92cd78d839efb3c4b5f10bedb20a", [
+      [ "E1039", "d4/dff/classKalmanFastTrackingWrapper.html#a9eec92cd78d839efb3c4b5f10bedb20aa4a396cfd93ac05e6eda947c8de167942", null ],
+      [ "E906", "d4/dff/classKalmanFastTrackingWrapper.html#a9eec92cd78d839efb3c4b5f10bedb20aad6b245f2e8b44c5e030eaa7c70b5e274", null ]
+    ] ],
     [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html#ac1ad8105ced8bc4e720b61ab355aaec6", null ],
     [ "~KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html#a0cae88e6dbda7195c5980e36f5c8ee82", null ],
     [ "BuildSRawEvent", "d4/dff/classKalmanFastTrackingWrapper.html#a386a9ee1d8c460550a6f9b0ced1e5a76", null ],
@@ -35,6 +39,7 @@ var classKalmanFastTrackingWrapper =
     [ "_hit_container_type", "d4/dff/classKalmanFastTrackingWrapper.html#a6cd5fb5cffa818b212e1f84f148f86c8", null ],
     [ "_hit_map", "d4/dff/classKalmanFastTrackingWrapper.html#aa21f2d7c5dbe71128daf7c673b6c1da8", null ],
     [ "_hit_vector", "d4/dff/classKalmanFastTrackingWrapper.html#ab774fd9232f3b85a131960ce85ed4343", null ],
+    [ "_input_type", "d4/dff/classKalmanFastTrackingWrapper.html#a4543dfabc3ab43c26e98b78b1dca5d4c", null ],
     [ "_out_name", "d4/dff/classKalmanFastTrackingWrapper.html#a4b78f7c0a21b116287dfe9e999f6e3c7", null ],
     [ "_rawEvent", "d4/dff/classKalmanFastTrackingWrapper.html#aad0fb9c071a76d079ac3434c34d10d12", null ],
     [ "_recEvent", "d4/dff/classKalmanFastTrackingWrapper.html#a77459a6aeca2af1017161898bcd3a9b5", null ],

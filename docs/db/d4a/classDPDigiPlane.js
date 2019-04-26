@@ -6,7 +6,7 @@ var classDPDigiPlane =
     [ "getW", "db/d4a/classDPDigiPlane.html#a20411531fb9a93968adeb5193877ba73", null ],
     [ "getX", "db/d4a/classDPDigiPlane.html#afde9cdea4d508a9c2f30469813396e69", null ],
     [ "getY", "db/d4a/classDPDigiPlane.html#a4631706c11ddb7c715149fa8ae8f4607", null ],
-    [ "intercept", "db/d4a/classDPDigiPlane.html#a9a614a6efad5d173ef6bd1c42214cd06", null ],
+    [ "intercept", "db/d4a/classDPDigiPlane.html#ae30ed6eeda9f6195d1bdecac4dc3fcc2", null ],
     [ "isInPlane", "db/d4a/classDPDigiPlane.html#a5482aa27a60b6964db187026b9ed5176", null ],
     [ "preCalculation", "db/d4a/classDPDigiPlane.html#ac3797ad63cabccdfe703631c1d67d496", null ],
     [ "operator<<", "db/d4a/classDPDigiPlane.html#a2ead5c7a5591844b9ec19bd235f79f81", null ],

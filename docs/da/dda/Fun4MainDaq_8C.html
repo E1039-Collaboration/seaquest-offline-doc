@@ -122,11 +122,11 @@ $(document).ready(function(){initNavTree('da/dda/Fun4MainDaq_8C.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a273bae96b963d6f38e2f0c26fe24cf22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dda/Fun4MainDaq_8C.html#a273bae96b963d6f38e2f0c26fe24cf22">Fun4MainDaq</a> (const int nevent=0, const char *fn_in=&quot;/data/e906/run_028700.dat&quot;, const char *fn_out=&quot;maindaq.root&quot;)</td></tr>
-<tr class="separator:a273bae96b963d6f38e2f0c26fe24cf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48acfc4b2d865af5dda6f6e96770799"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dda/Fun4MainDaq_8C.html#ad48acfc4b2d865af5dda6f6e96770799">Fun4MainDaq</a> (const int nevent=0, const int run=28700)</td></tr>
+<tr class="separator:ad48acfc4b2d865af5dda6f6e96770799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a273bae96b963d6f38e2f0c26fe24cf22"></a>
+<a class="anchor" id="ad48acfc4b2d865af5dda6f6e96770799"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -139,14 +139,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>fn_in</em> = <code>&quot;/data/e906/run_028700.dat&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>fn_out</em> = <code>&quot;maindaq.root&quot;</code>&#160;</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>run</em> = <code>28700</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -159,16 +153,17 @@ Functions</h2></td></tr>
 <p>To run this macro on a local computer, you need copy Coda file and also mapping files. You can use the following commands; RUN=28700 DIR_LOCAL=/data/e906</p>
 <p>mkdir -p $DIR_LOCAL/runs RUN6=$(printf '%06i' $RUN) scp -p e906-gat6.fnal.gov:/data3/data/mainDAQ/run_$RUN6.dat $DIR_LOCAL scp -pr e906-gat6.fnal.gov:/data2/production/runs/run_$RUN6 $DIR_LOCAL/runs </p>
 
-<p>Definition at line <a class="el" href="../../da/dda/Fun4MainDaq_8C_source.html#l00013">13</a> of file <a class="el" href="../../da/dda/Fun4MainDaq_8C_source.html">Fun4MainDaq.C</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dda/Fun4MainDaq_8C_source.html#l00017">17</a> of file <a class="el" href="../../da/dda/Fun4MainDaq_8C_source.html">Fun4MainDaq.C</a>.</p>
 
-<p>References <a class="el" href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00193">ana()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00488">Fun4AllEVIOInputManager::DirParam()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer::End()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00483">Fun4AllEVIOInputManager::EventSamplingFactor()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00101">Fun4AllEVIOInputManager::fileopen()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00043">Fun4AllServer::instance()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer::registerInputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00359">Fun4AllServer::registerOutputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00181">Fun4AllServer::registerSubsystem()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer::run()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00058">Fun4AllBase::Verbosity()</a>.</p>
+<p>References <a class="el" href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00193">ana()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00488">Fun4AllEVIOInputManager::DirParam()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer::End()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00483">Fun4AllEVIOInputManager::EventSamplingFactor()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00101">Fun4AllEVIOInputManager::fileopen()</a>, <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00005">OnlMonServer::instance()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00493">Fun4AllEVIOInputManager::PretendSpillInterval()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer::registerInputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00359">Fun4AllServer::registerOutputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00181">Fun4AllServer::registerSubsystem()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer::run()</a>, <a class="el" href="../../d7/d8a/OnlMonServer_8h_source.html#l00023">OnlMonServer::StartServer()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00058">Fun4AllBase::Verbosity()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dda/Fun4MainDaq_8C_a273bae96b963d6f38e2f0c26fe24cf22_cgraph.svg" width="1320" height="1336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dda/Fun4MainDaq_8C_ad48acfc4b2d865af5dda6f6e96770799_cgraph.svg" width="1320" height="1276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </p>
 
@@ -181,10 +176,10 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_c7b8d1830c80e8dadb6ebaa775549376.html">macros</a></li><li class="navelem"><a class="el" href="../../da/dda/Fun4MainDaq_8C.html">Fun4MainDaq.C</a></li>
+		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_c7b9fcda5b57452e91441dab2a035646.html">macros</a></li><li class="navelem"><a class="el" href="../../da/dda/Fun4MainDaq_8C.html">Fun4MainDaq.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Mar 23 2019 16:02:38</em> using <a
+			updated: <em>Thu Apr 25 2019 22:32:37</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -497,8 +497,8 @@ $(document).ready(function(){initNavTree('dd/d23/JobOptsSvc_8cxx_source.html','.
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    TString s_fmagFile = m_fMagFile;</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    TString s_kmagFile = m_kMagFile;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    TString s_fmagStr  = Form(<span class="stringliteral">&quot;%.3f&quot;</span>, <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6">FMAGSTR</a>);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    TString s_kmagStr  = Form(<span class="stringliteral">&quot;%.3f&quot;</span>, <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a18ee879a71a96e2bb86c6e43e4ff4569">KMAGSTR</a>);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="comment">//TString s_fmagStr  = Form(&quot;%.3f&quot;, FMAGSTR);</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="comment">//TString s_kmagStr  = Form(&quot;%.3f&quot;, KMAGSTR);</span></div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    TString s_st0Reject = Form(<span class="stringliteral">&quot;%.4f&quot;</span>, m_st0_reject);</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    TString s_st1Reject = Form(<span class="stringliteral">&quot;%.4f&quot;</span>, m_st1_reject);</div>
@@ -550,8 +550,8 @@ $(document).ready(function(){initNavTree('dd/d23/JobOptsSvc_8cxx_source.html','.
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;Calibration&quot;</span>, &amp;s_calibrationFile);</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;FMag&quot;</span>, &amp;s_fmagFile);</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;KMag&quot;</span>, &amp;s_kmagFile);</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;FMagStr&quot;</span>, &amp;s_fmagStr);</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;KMagStr&quot;</span>, &amp;s_kmagStr);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="comment">//saveTree-&gt;Branch(&quot;FMagStr&quot;, &amp;s_fmagStr);</span></div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <span class="comment">//saveTree-&gt;Branch(&quot;KMagStr&quot;, &amp;s_kmagStr);</span></div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;Geometry&quot;</span>, &amp;s_geomVersion);</div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;TimingOffset&quot;</span>, &amp;s_timingOffset);</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    saveTree-&gt;Branch(<span class="stringliteral">&quot;kTrackerVer&quot;</span>, &amp;s_softver);</div>
@@ -581,8 +581,6 @@ $(document).ready(function(){initNavTree('dd/d23/JobOptsSvc_8cxx_source.html','.
 <div class="ttc" id="JobOptsSvc_8cxx_html_a71e70a8ecc08c35494b083076d2ace7b"><div class="ttname"><a href="../../dd/d23/JobOptsSvc_8cxx.html#a71e70a8ecc08c35494b083076d2ace7b">debug</a></div><div class="ttdeci">bool debug()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/JobOptsSvc_8cxx_source.html#l00017">JobOptsSvc.cxx:17</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_aaf84880bbb22468a607ee6ce810a539e"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#aaf84880bbb22468a607ee6ce810a539e">Y_VTX</a></div><div class="ttdeci">#define Y_VTX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00064">GlobalConsts.h:64</a></div></div>
 <div class="ttc" id="classJobOptsSvc_html_ac9bd815a62dd7fdddbbfede3fee4b495"><div class="ttname"><a href="../../d8/d62/classJobOptsSvc.html#ac9bd815a62dd7fdddbbfede3fee4b495">JobOptsSvc::GetRoadsFilePlusTop</a></div><div class="ttdeci">std::string GetRoadsFilePlusTop() const </div><div class="ttdoc">Return the location of PlusTop roads file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/JobOptsSvc_8cxx_source.html#l00293">JobOptsSvc.cxx:293</a></div></div>
-<div class="ttc" id="GlobalConsts_8h_html_a83665056c13c984191454c18123caaa6"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a83665056c13c984191454c18123caaa6">FMAGSTR</a></div><div class="ttdeci">#define FMAGSTR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00044">GlobalConsts.h:44</a></div></div>
-<div class="ttc" id="GlobalConsts_8h_html_a18ee879a71a96e2bb86c6e43e4ff4569"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a18ee879a71a96e2bb86c6e43e4ff4569">KMAGSTR</a></div><div class="ttdeci">#define KMAGSTR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00045">GlobalConsts.h:45</a></div></div>
 <div class="ttc" id="classJobOptsSvc_html_ac238bee42d68853a00ffe92e034e90f7"><div class="ttname"><a href="../../d8/d62/classJobOptsSvc.html#ac238bee42d68853a00ffe92e034e90f7">JobOptsSvc::ExpandEnvironmentals</a></div><div class="ttdeci">std::string ExpandEnvironmentals(const std::string &amp;input) const </div><div class="ttdoc">Return a string with environmental variables expanded. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/JobOptsSvc_8cxx_source.html#l00276">JobOptsSvc.cxx:276</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_abec6370cc28652f4a426fe04e56e9f6e"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#abec6370cc28652f4a426fe04e56e9f6e">X_VTX</a></div><div class="ttdeci">#define X_VTX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00063">GlobalConsts.h:63</a></div></div>
 <div class="ttc" id="classJobOptsSvc_html_a34977abd9aa743e3db29020cb441e908"><div class="ttname"><a href="../../d8/d62/classJobOptsSvc.html#a34977abd9aa743e3db29020cb441e908">JobOptsSvc::GetRoadsFileMinusBottom</a></div><div class="ttdeci">std::string GetRoadsFileMinusBottom() const </div><div class="ttdoc">Return the location of MinusBottom roads file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d23/JobOptsSvc_8cxx_source.html#l00313">JobOptsSvc.cxx:313</a></div></div>
@@ -597,10 +595,10 @@ $(document).ready(function(){initNavTree('dd/d23/JobOptsSvc_8cxx_source.html','.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0941d4c1f5407076d67ba59f9192bdde.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_3ec183504cfb7b8380874238128e41ab.html">jobopts_svc</a></li><li class="navelem"><a class="el" href="../../dd/d23/JobOptsSvc_8cxx.html">JobOptsSvc.cxx</a></li>
+		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_fa15fa1979a2f587dfa447baa637660a.html">jobopts_svc</a></li><li class="navelem"><a class="el" href="../../dd/d23/JobOptsSvc_8cxx.html">JobOptsSvc.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Mar 23 2019 16:02:35</em> using <a
+			updated: <em>Thu Apr 25 2019 22:32:33</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['dbsvc',['DbSvc',['../d2/da4/classDbSvc.html',1,'']]],
   ['decoparam',['DecoParam',['../d3/df0/structDecoParam.html',1,'']]],
   ['defaultfactoryerror',['DefaultFactoryError',['../df/dd1/classDefaultFactoryError.html',1,'']]],
   ['detectorconstruction',['DetectorConstruction',['../dc/d5b/classDetectorConstruction.html',1,'']]],

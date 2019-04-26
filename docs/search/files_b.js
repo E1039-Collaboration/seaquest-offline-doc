@@ -2,6 +2,7 @@ var searchData=
 [
   ['maindaqparser_2ecc',['MainDaqParser.cc',['../d8/d76/MainDaqParser_8cc.html',1,'']]],
   ['maindaqparser_2eh',['MainDaqParser.h',['../d7/d04/MainDaqParser_8h.html',1,'']]],
+  ['makechanmap_2ec',['MakeChanMap.C',['../d2/d75/MakeChanMap_8C.html',1,'']]],
   ['mapperscaler_2ecc',['MapperScaler.cc',['../d6/ded/MapperScaler_8cc.html',1,'']]],
   ['mapperscaler_2eh',['MapperScaler.h',['../d8/de6/MapperScaler_8h.html',1,'']]],
   ['mappertaiwan_2ecc',['MapperTaiwan.cc',['../de/d18/MapperTaiwan_8cc.html',1,'']]],

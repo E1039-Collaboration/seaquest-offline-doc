@@ -116,6 +116,7 @@ $(document).ready(function(){initNavTree('d9/d60/classAnaMainDaq.html','../../')
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d3/df2/classAnaMainDaq-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">AnaMainDaq Class Reference</div>  </div>
@@ -193,6 +194,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad72f966c21e28c61329752090dcae964"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d60/classAnaMainDaq.html#ad72f966c21e28c61329752090dcae964">PrintEvent</a> (<a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *evt, <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *v_hit, <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *v_trig_hit)</td></tr>
 <tr class="separator:ad72f966c21e28c61329752090dcae964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ac4726e2f85cded1b31f82c9bc74de908"><td class="memItemLeft" align="right" valign="top">TH1 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d60/classAnaMainDaq.html#ac4726e2f85cded1b31f82c9bc74de908">h1_evt_qual</a></td></tr>
+<tr class="separator:ac4726e2f85cded1b31f82c9bc74de908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classFun4AllBase"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classFun4AllBase')"><img src="../../closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="../../d5/dec/classFun4AllBase.html">Fun4AllBase</a></td></tr>
@@ -222,7 +228,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00014">14</a> of file <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html">AnaMainDaq.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00015">15</a> of file <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html">AnaMainDaq.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab26c014c5e135d90967679aa2325b8b3"></a>
 <div class="memitem">
@@ -238,7 +244,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00023">23</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00026">26</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
 </div>
 </div>
@@ -263,7 +269,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00017">17</a> of file <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html">AnaMainDaq.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00018">18</a> of file <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html">AnaMainDaq.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00065">65</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00081">81</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -325,9 +331,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00028">28</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00031">31</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00027">h1_evt_qual</a>, <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00005">OnlMonServer::instance()</a>, <a class="el" href="../../df/d24/Fun4AllHistoManager_8cc_source.html#l00150">Fun4AllHistoManager::registerHisto()</a>, and <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00460">Fun4AllServer::registerHistoManager()</a>.</p>
+
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_a426e3519c0c33c8437f34d54dfc919c2_cgraph.svg" width="550" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -356,15 +372,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00033">33</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00042">42</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../de/d59/SQRun_8h_source.html#l00031">SQRun::get_run_id()</a>, and <a class="el" href="../../de/d59/SQRun_8h_source.html#l00034">SQRun::get_spill_count()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_acdfdeb804b85e55f7f38cb00a886e0a6_cgraph.svg" width="360" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
@@ -409,26 +425,26 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00100">100</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00116">116</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
 <p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00045">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00046">SQHitVector::end()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#afc0ac10fe7cf3368bd2e1c9c6dff4859">SQEvent::get_coda_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a94c09b550ceb6a170681cf468c1e9fa6">SQEvent::get_data_quality()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">SQEvent::get_spill_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a6f47f49c467483f56f48e09c1bbfc8c9">SQEvent::get_vme_time()</a>, and <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">SQHitVector::size()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00044">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00053">process_event()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_ad72f966c21e28c61329752090dcae964_cgraph.svg" width="411" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_ad72f966c21e28c61329752090dcae964_icgraph.svg" width="371" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
@@ -457,26 +473,26 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00070">70</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00086">86</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
 <p>References <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00036">SQStringMap::begin()</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00038">SQStringMap::end()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00046">SQSpill::get_bos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00058">SQSpill::get_bos_scaler_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00049">SQSpill::get_bos_vme_time()</a>, <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00035">SQScaler::get_count()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00052">SQSpill::get_eos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00059">SQSpill::get_eos_scaler_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00055">SQSpill::get_eos_vme_time()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::get_run_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00061">SQSpill::get_slow_cont_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::get_spill_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00043">SQSpill::get_target_pos()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00025">SQSlowCont::get_time_stamp()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00034">SQSlowCont::get_type()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00031">SQSlowCont::get_value()</a>, and <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00027">SQStringMap::size()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00044">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00053">process_event()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_a3cac87e2c787b0fe3fe6eefe917b5bbb_cgraph.svg" width="398" height="864"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_a3cac87e2c787b0fe3fe6eefe917b5bbb_icgraph.svg" width="363" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
@@ -508,18 +524,43 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00044">44</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00053">53</a> of file <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html">AnaMainDaq.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00100">PrintEvent()</a>, and <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00070">PrintSpill()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00027">h1_evt_qual</a>, <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00116">PrintEvent()</a>, and <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00086">PrintSpill()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d60/classAnaMainDaq_a290ce29de3596b1d1b87342dc2b11032_cgraph.svg" width="608" height="1320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ac4726e2f85cded1b31f82c9bc74de908"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TH1* AnaMainDaq::h1_evt_qual</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html#l00027">27</a> of file <a class="el" href="../../d5/d15/AnaMainDaq_8h_source.html">AnaMainDaq.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00031">Init()</a>, and <a class="el" href="../../dd/df9/AnaMainDaq_8cc_source.html#l00053">process_event()</a>.</p>
 
 </div>
 </div>
@@ -537,7 +578,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/d60/classAnaMainDaq.html">AnaMainDaq</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Mar 23 2019 16:02:39</em> using <a
+			updated: <em>Thu Apr 25 2019 22:32:39</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

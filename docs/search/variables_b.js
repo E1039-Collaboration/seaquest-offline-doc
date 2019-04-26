@@ -13,7 +13,6 @@ var searchData=
   ['kinvalid_5ffilename',['kInvalid_FileName',['../d9/d8c/classPHFieldConfig.html#af5855af958d94cea44ce3e0948606520',1,'PHFieldConfig']]],
   ['klinearprecision',['kLinearPrecision',['../d9/def/classPHG4GDMLWriteDefine.html#aa521445511423613bfd14b5a6a7eeab5',1,'PHG4GDMLWriteDefine']]],
   ['kmag',['kmag',['../d9/da8/classPHFieldSeaQuest.html#a1d20862636cc1713242326edfe6f6b16',1,'PHFieldSeaQuest']]],
-  ['kmag_5fon',['kmag_on',['../d2/d26/classTracklet.html#a45d63ccda2a478d05222e93989bfdb37',1,'Tracklet']]],
   ['kmagmultiplier',['kMagMultiplier',['../df/d9a/classSettings.html#a797d74382330e75024802aee862e381a',1,'Settings']]],
   ['kmagname',['kMagName',['../df/d9a/classSettings.html#a6489e442de562a4bcc0b2fb9b1023121',1,'Settings']]],
   ['kmagzoffset',['kmagZOffset',['../d9/da8/classPHFieldSeaQuest.html#ab169e3dc25478133999df8f56633c893',1,'PHFieldSeaQuest']]],

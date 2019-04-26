@@ -135,6 +135,7 @@ $(document).ready(function(){initNavTree('d4/dcd/DPDigitizer_8cc.html','../../')
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;regex&gt;</code><br/>
+<code>#include &lt;vector&gt;</code><br/>
 <code>#include &lt;Geant4/G4SystemOfUnits.hh&gt;</code><br/>
 <code>#include &lt;Geant4/Randomize.hh&gt;</code><br/>
 <code>#include &lt;TMath.h&gt;</code><br/>
@@ -147,7 +148,8 @@ $(document).ready(function(){initNavTree('d4/dcd/DPDigitizer_8cc.html','../../')
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d3f/DPDigitizer_8cc__incl.svg" width="4212" height="739"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d3f/DPDigitizer_8cc__incl.svg" width="3950" height="739"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="../../d4/dcd/DPDigitizer_8cc_source.html">Go to the source code of this file.</a></p>
@@ -156,6 +158,8 @@ $(document).ready(function(){initNavTree('d4/dcd/DPDigitizer_8cc.html','../../')
 Macros</h2></td></tr>
 <tr class="memitem:a52279903e10561ef695cee631e3dfa4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcd/DPDigitizer_8cc.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(exp)&#160;&#160;&#160;std::cout&lt;&lt;&quot;DEBUG: &quot;  &lt;&lt;__FUNCTION__&lt;&lt;&quot;: &quot;&lt;&lt;__LINE__&lt;&lt;&quot;: &quot;&lt;&lt; exp &lt;&lt; std::endl</td></tr>
 <tr class="separator:a52279903e10561ef695cee631e3dfa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6bca16ed021b1e211fde8669758f199"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcd/DPDigitizer_8cc.html#ab6bca16ed021b1e211fde8669758f199">NEW</a></td></tr>
+<tr class="separator:ab6bca16ed021b1e211fde8669758f199"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -177,9 +181,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00034">34</a> of file <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html">DPDigitizer.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00035">35</a> of file <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html">DPDigitizer.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00473">DPDigitizer::digitize()</a>, <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00586">DPDigitizer::InitRun()</a>, and <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00617">DPDigitizer::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00505">DPDigitizer::digitize()</a>, <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00647">DPDigitizer::InitRun()</a>, and <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00678">DPDigitizer::process_event()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6bca16ed021b1e211fde8669758f199"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NEW</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -208,7 +224,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00139">139</a> of file <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html">DPDigitizer.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html#l00141">141</a> of file <a class="el" href="../../d4/dcd/DPDigitizer_8cc_source.html">DPDigitizer.cc</a>.</p>
 
 <p>References <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00059">DPDigiPlane::detectorGroupName</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00058">DPDigiPlane::detectorID</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00060">DPDigiPlane::detectorName</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00071">DPDigiPlane::nElements</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00085">DPDigiPlane::nVec</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00086">DPDigiPlane::uVec</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00087">DPDigiPlane::vVec</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00077">DPDigiPlane::xc</a>, <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00077">DPDigiPlane::yc</a>, and <a class="el" href="../../d9/da1/DPDigitizer_8h_source.html#l00077">DPDigiPlane::zc</a>.</p>
 
@@ -221,10 +237,10 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_810a5474308ccd455f294ee06809b0db.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_71279399b8e06f3709dfeff09f7b757c.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_e3c2f4d803d31d855a25c92098ef3b30.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d4/dcd/DPDigitizer_8cc.html">DPDigitizer.cc</a></li>
+		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_f4e8c2e4e07ba1c1cfb499dcc2852b5d.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d4/dcd/DPDigitizer_8cc.html">DPDigitizer.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Mar 23 2019 16:02:38</em> using <a
+			updated: <em>Thu Apr 25 2019 22:32:38</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.6 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

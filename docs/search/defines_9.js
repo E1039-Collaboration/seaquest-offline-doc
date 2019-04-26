@@ -1,11 +1,14 @@
 var searchData=
 [
-  ['merge_5fthres',['MERGE_THRES',['../dd/de2/GlobalConsts_8h.html#ad3446a6a52bd11a25f63353f6086b1bb',1,'GlobalConsts.h']]],
-  ['muid_5femp_5fp0',['MUID_EMP_P0',['../dd/de2/GlobalConsts_8h.html#acec5347dbc4f7e55b2fd77186d8afe1b',1,'GlobalConsts.h']]],
-  ['muid_5femp_5fp1',['MUID_EMP_P1',['../dd/de2/GlobalConsts_8h.html#a6a8a8afa30e46e6686c8118d72109050',1,'GlobalConsts.h']]],
-  ['muid_5femp_5fp2',['MUID_EMP_P2',['../dd/de2/GlobalConsts_8h.html#ac524c7e32d14d4c1b9996b705292b5cc',1,'GlobalConsts.h']]],
-  ['muid_5fr_5fcut',['MUID_R_CUT',['../dd/de2/GlobalConsts_8h.html#a1e8d669570f816873022b69730d6735b',1,'GlobalConsts.h']]],
-  ['muid_5freject',['MUID_REJECT',['../dd/de2/GlobalConsts_8h.html#a557b750fd5ec806395323d7178d0002c',1,'GlobalConsts.h']]],
-  ['muid_5fthe_5fp0',['MUID_THE_P0',['../dd/de2/GlobalConsts_8h.html#a6ce5f375a367ffcb7a3c11d6203c0f6a',1,'GlobalConsts.h']]],
-  ['muid_5fz_5fref',['MUID_Z_REF',['../dd/de2/GlobalConsts_8h.html#a9f9e9ee0bd1b405cb7571c749b416743',1,'GlobalConsts.h']]]
+  ['nchamberplanes',['nChamberPlanes',['../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19',1,'GlobalConsts.h']]],
+  ['ndetplanes',['NDETPLANES',['../d9/da1/DPDigitizer_8h.html#a23e76859e5b46549873b75d752975591',1,'DPDigitizer.h']]],
+  ['new',['NEW',['../d1/da5/testPHGenFit_8cc.html#a5a32cbd126ef648a11dea856fed625b5',1,'NEW():&#160;testPHGenFit.cc'],['../d4/dcd/DPDigitizer_8cc.html#ab6bca16ed021b1e211fde8669758f199',1,'NEW():&#160;DPDigitizer.cc']]],
+  ['nhodoplanes',['nHodoPlanes',['../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109',1,'GlobalConsts.h']]],
+  ['nlayers',['NLAYERS',['../d1/da5/testPHGenFit_8cc.html#a2fee686f11f6bca3b18d4d036d9cd1ee',1,'testPHGenFit.cc']]],
+  ['npropplanes',['nPropPlanes',['../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513',1,'GlobalConsts.h']]],
+  ['nslices_5ffmag',['NSLICES_FMAG',['../dd/de2/GlobalConsts_8h.html#a2023c32f768dad2430ec1fcebc2914d5',1,'GlobalConsts.h']]],
+  ['nstations',['nStations',['../dd/de2/GlobalConsts_8h.html#adbf69e388f8e095b2867a9c3ea4953e5',1,'GlobalConsts.h']]],
+  ['nsteps_5ftarget',['NSTEPS_TARGET',['../dd/de2/GlobalConsts_8h.html#a8b0a497d728cab9f6c9c6218df30b941',1,'GlobalConsts.h']]],
+  ['ntheta',['ntheta',['../d5/d9b/plot__matscan_8C.html#a205fb89330c5fbbf57005d752e930a1c',1,'plot_matscan.C']]],
+  ['null',['NULL',['../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'Pdb.h']]]
 ];

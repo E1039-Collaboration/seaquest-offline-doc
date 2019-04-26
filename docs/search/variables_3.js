@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['c1',['c1',['../d9/d62/classOnlMonClient.html#a0271e7c1c3e037e47a479188d01f2b08',1,'OnlMonClient']]],
   ['c2helementids',['c2helementIDs',['../d5/dda/classEventReducer.html#ad79eca667c526521ce6e079cc778cfe2',1,'EventReducer']]],
   ['c_5flight',['c_light',['../d0/d9f/GenFitExtrapolator_8cxx.html#a2085cc4cdb90e7a156b5dbdbe44bf7aa',1,'GenFitExtrapolator.cxx']]],
   ['cache_5fhits',['cache_hits',['../d0/dc2/classPHField3DCartesian.html#a77e6dca92d36d8fdeac2925f40ac3090',1,'PHField3DCartesian']]],
@@ -16,10 +17,14 @@ var searchData=
   ['cellptarray',['cellptarray',['../dc/d32/PHG4BlockCellReco_8cc.html#af0c5cbab9e8bcae442657a289768b0e3',1,'PHG4BlockCellReco.cc']]],
   ['cellptmap',['cellptmap',['../d5/dd0/classPHG4CylinderCellReco.html#a44267ede7d2fdb5fb84bba1060a831c4',1,'PHG4CylinderCellReco']]],
   ['cellwidth',['cellWidth',['../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c',1,'Plane::cellWidth()'],['../db/d4a/classDPDigiPlane.html#ae65a62f076a2a7e11b1bf1451afe861f',1,'DPDigiPlane::cellWidth()']]],
+  ['center',['center',['../db/d96/structCalibParamInTimeTaiwan_1_1ParamItem.html#a878250fbb9da9d6782b6410bbb36ad57',1,'CalibParamInTimeTaiwan::ParamItem::center()'],['../da/d35/structCalibParamInTimeV1495_1_1ParamItem.html#a0f40d90e2e4e24912c775635f3a5ca63',1,'CalibParamInTimeV1495::ParamItem::center()']]],
   ['cexport',['cexport',['../d2/d72/classPHG4GDMLWriteStructure.html#ae582614328b6e4c731dabbab9e42279a',1,'PHG4GDMLWriteStructure']]],
   ['chameff',['chamEff',['../d5/dda/classEventReducer.html#a2b2fb1043e9c9403be3337ea58fc5d28',1,'EventReducer']]],
   ['chamresol',['chamResol',['../d5/dda/classEventReducer.html#a4019e32e9d202bf4752765cb4d775b2a',1,'EventReducer']]],
-  ['chan',['chan',['../dc/dac/structScalerData.html#a66ef4c6df82e49ddeb4d3fafe2e4a77b',1,'ScalerData::chan()'],['../d2/de9/structHitData.html#a46dfd4ee10ecd3e9bc8e0b48fabb4190',1,'HitData::chan()']]],
+  ['chan',['chan',['../d3/d44/structChanMapScaler_1_1MapItem.html#a8207887be40ca768a2fc8aa68033330f',1,'ChanMapScaler::MapItem::chan()'],['../d8/df0/structChanMapTaiwan_1_1MapItem.html#a8c6d4334685cd04134ff8aa917131bb3',1,'ChanMapTaiwan::MapItem::chan()'],['../d4/d07/structChanMapV1495_1_1MapItem.html#aec026c22b4b9dcd83118dd25ceba3f22',1,'ChanMapV1495::MapItem::chan()'],['../dc/dac/structScalerData.html#a66ef4c6df82e49ddeb4d3fafe2e4a77b',1,'ScalerData::chan()'],['../d2/de9/structHitData.html#a46dfd4ee10ecd3e9bc8e0b48fabb4190',1,'HitData::chan()']]],
+  ['chan_5fmap_5fscaler',['chan_map_scaler',['../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b',1,'DecoParam']]],
+  ['chan_5fmap_5ftaiwan',['chan_map_taiwan',['../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00',1,'DecoParam']]],
+  ['chan_5fmap_5fv1495',['chan_map_v1495',['../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa',1,'DecoParam']]],
   ['charflag',['charflag',['../d1/da8/classPHFlag.html#aa1b92aa1afc7c9b5e979af5b2a3fd38a',1,'PHFlag']]],
   ['charge',['charge',['../de/d2f/classTrkEval.html#adfd0f0ea75578125427a8604fc0dc2f8',1,'TrkEval::charge()'],['../db/d19/classSeed.html#a26be10be88053a0ce4f2240bd2a442a8',1,'Seed::charge()']]],
   ['children',['children',['../d9/dcd/classTNode.html#a0b268718a42dd4073578424f33b61272',1,'TNode']]],

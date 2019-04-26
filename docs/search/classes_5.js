@@ -27,5 +27,6 @@ var searchData=
   ['fun4allprdfoutputmanager',['Fun4AllPrdfOutputManager',['../d6/dc8/classFun4AllPrdfOutputManager.html',1,'']]],
   ['fun4allrolloverfileoutstream',['Fun4AllRolloverFileOutStream',['../d0/dbe/classFun4AllRolloverFileOutStream.html',1,'']]],
   ['fun4allserver',['Fun4AllServer',['../da/d29/classFun4AllServer.html',1,'']]],
+  ['fun4allsraweventinputmanager',['Fun4AllSRawEventInputManager',['../d5/dd4/classFun4AllSRawEventInputManager.html',1,'']]],
   ['fun4allsyncmanager',['Fun4AllSyncManager',['../dd/ded/classFun4AllSyncManager.html',1,'']]]
 ];
