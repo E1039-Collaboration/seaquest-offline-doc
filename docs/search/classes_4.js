@@ -10,5 +10,6 @@ var searchData=
   ['eventinfo',['EventInfo',['../d2/d31/structEventInfo.html',1,'']]],
   ['eventreducer',['EventReducer',['../d5/dda/classEventReducer.html',1,'']]],
   ['evfilestruct',['evfilestruct',['../d4/d04/structevfilestruct.html',1,'']]],
-  ['evio_5fevent',['EVIO_Event',['../dd/daf/classEVIO__Event.html',1,'']]]
+  ['evio_5fevent',['EVIO_Event',['../dd/daf/classEVIO__Event.html',1,'']]],
+  ['evtfilter',['EvtFilter',['../d1/dbd/classEvtFilter.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['varids',['varids',['../d1/db0/namespacevarids.html',1,'']]]
+  ['utilhist',['UtilHist',['../d3/daf/namespaceUtilHist.html',1,'']]]
 ];

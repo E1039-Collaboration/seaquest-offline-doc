@@ -8,7 +8,7 @@ var classCodaInputManager =
     [ "IsEnded", "d9/de8/classCodaInputManager.html#aff17acc184cc2429e87656e9a4b7cbf4", null ],
     [ "NextCodaEvent", "d9/de8/classCodaInputManager.html#aedda0f443ef8f023461c82dfc42c86c4", null ],
     [ "OpenFile", "d9/de8/classCodaInputManager.html#ad9168c85450f5b92be1e138905ffe233", null ],
-    [ "SetOnline", "d9/de8/classCodaInputManager.html#a6074f204621fd33124c56d1ce3acd9b8", null ],
+    [ "SetOnline", "d9/de8/classCodaInputManager.html#a7283aa792aadb1d52a41c0dc4bbecc35", null ],
     [ "SetRunNumber", "d9/de8/classCodaInputManager.html#ac3aaf84e4033ef721ea084a2d4350c62", null ],
     [ "SetVerbosity", "d9/de8/classCodaInputManager.html#a261b079752a4c002225e5d5ac6dcb31f", null ],
     [ "buflen", "d9/de8/classCodaInputManager.html#af9d447d957e134423895b8b37b4df6bd", null ],

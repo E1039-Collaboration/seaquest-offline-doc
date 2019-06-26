@@ -1,10 +1,10 @@
 var classPlane =
 [
     [ "Plane", "dc/d90/classPlane.html#acac0d9c003e0ab10d07b146c3566a0c7", null ],
-    [ "getW", "dc/d90/classPlane.html#a48ab3a309bee8c386464b36a7593df16", null ],
-    [ "getX", "dc/d90/classPlane.html#ab397d6d58dc1a700624071dcae93d321", null ],
-    [ "getY", "dc/d90/classPlane.html#a22c53087b4186b9b21cf4a157ab203b9", null ],
-    [ "intercept", "dc/d90/classPlane.html#a191135123cee80722e6d7b2da0055a76", null ],
+    [ "getW", "dc/d90/classPlane.html#ae2f73d2ce9445b62a0356579d7cb6608", null ],
+    [ "getX", "dc/d90/classPlane.html#ae70d2be681992396bd64a31ad13c72ac", null ],
+    [ "getY", "dc/d90/classPlane.html#ad95b8ccc0f3bfcd69ddde3b902a4f2c0", null ],
+    [ "intercept", "dc/d90/classPlane.html#add495596083d4c8a4e987e889c099ef4", null ],
     [ "update", "dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32", null ],
     [ "operator<<", "dc/d90/classPlane.html#af60fc8a1b7f2ae95452e0fd5704b2f7a", null ],
     [ "angleFromVert", "dc/d90/classPlane.html#a11a214a9f65fe7697b2c40e953c52bf0", null ],

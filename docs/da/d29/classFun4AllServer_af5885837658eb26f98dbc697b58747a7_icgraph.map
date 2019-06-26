@@ -1,15 +1,24 @@
 <map id="Fun4AllServer::getHistoManager" name="Fun4AllServer::getHistoManager">
-<area shape="rect" id="node2" href="$d8/da3/HistoServer_8h.html#a3878d599729268140232f06a080d17e6" title="handleconnection" alt="" coords="264,81,387,108"/>
-<area shape="rect" id="node3" href="$d1/d0f/HistoServer_8cc.html#a73fdf82650602ce867f6ab0b93e0a8a6" title="server" alt="" coords="435,81,493,108"/>
-<area shape="rect" id="node4" href="$d6/d98/classDPDigitizer.html#a4b1a5b0ce0dc72295a82b03060b03b3a" title="DPDigitizer::Init" alt="" coords="570,5,681,32"/>
-<area shape="rect" id="node5" href="$d8/da3/HistoServer_8h.html#a7f5f060ff3dcc9dde2f16fa9295c3da0" title="setup_server" alt="" coords="577,56,674,83"/>
-<area shape="rect" id="node8" href="$d4/d47/G4__DriftChamber_8C.html#af6b5e9bef23ca9f27a83cdba85771ef8" title="SetupDriftChamber" alt="" coords="559,107,691,133"/>
-<area shape="rect" id="node10" href="$d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#aedf9a1830da0e1db97b62a4c3a1b1ca0" title="SetupSensitiveDetectors" alt="" coords="542,208,709,235"/>
-<area shape="rect" id="node6" href="$d8/d38/classOnlMonServer.html#a1faba47a8f98c19d258624675f820705" title="OnlMonServer::StartServer" alt="" coords="758,56,935,83"/>
-<area shape="rect" id="node7" href="$da/dda/Fun4MainDaq_8C.html#ad48acfc4b2d865af5dda6f6e96770799" title="Fun4MainDaq" alt="" coords="985,56,1087,83"/>
-<area shape="rect" id="node9" href="$d4/de5/e1039-analysis_2Pythia8Demo_2Fun4Sim_8C.html#a13db461d7442e3977a7c3773cd8119df" title="Fun4Sim" alt="" coords="809,107,884,133"/>
-<area shape="rect" id="node11" href="$d2/d24/Fun4E1039Shielding_8C.html#a42592782dd55d6e219305ff678a00dc2" title="Fun4E1039Shielding" alt="" coords="777,157,917,184"/>
-<area shape="rect" id="node12" href="$d6/d6a/Fun4HodoAccGap_8C.html#a7aaa0687f144d5e7b417d7e9ac5f36da" title="Fun4HodoAccGap" alt="" coords="782,208,911,235"/>
-<area shape="rect" id="node13" href="$d9/dfb/Fun4PrgTrkDev_8C.html#a5f65e7394cb50b6f7d7e12ba4815b2c6" title="Fun4PrgTrkDev" alt="" coords="790,259,903,285"/>
-<area shape="rect" id="node14" href="$d7/d65/e1039-core_2macros_2Fun4Sim_8C.html#a5e9276116ae0064f58b288a1e0e4e3db" title="Fun4Sim" alt="" coords="809,309,884,336"/>
+<area shape="rect" id="node2" href="$d8/d38/classOnlMonServer.html#a9693ee62bc93597159ee3afcab2e4fe3" title="OnlMonServer::HandleConnection" alt="" coords="260,99,475,125"/>
+<area shape="rect" id="node23" href="$da/d29/classFun4AllServer.html#a248740a0e8d771bcabbe44cc08a5a1b6" title="Fun4AllServer::makeHisto" alt="" coords="282,149,453,176"/>
+<area shape="rect" id="node3" href="$d8/d38/classOnlMonServer.html#a6b92b7327c6c0a063d3478cd8422e42c" title="OnlMonServer::FuncServer" alt="" coords="523,73,699,100"/>
+<area shape="rect" id="node5" href="$d8/d38/classOnlMonServer.html#a127778f90627b20bb428496ca7cfd6b9" title="OnlMonServer::GetPort" alt="" coords="969,73,1124,100"/>
+<area shape="rect" id="node4" href="$d8/d38/classOnlMonServer.html#a1faba47a8f98c19d258624675f820705" title="OnlMonServer::StartServer" alt="" coords="747,23,921,49"/>
+<area shape="rect" id="node6" href="$d9/d62/classOnlMonClient.html#a6db97dd2f1c18d8ec92d011f3a8e86b6" title="OnlMonClient::ReceiveHist" alt="" coords="1178,107,1353,133"/>
+<area shape="rect" id="node22" href="$d8/d38/classOnlMonServer.html#a17e2269d141eeaf02cdb5e388c0a8b5b" title="Close an existing server process if such exists. " alt="" coords="1172,41,1359,82"/>
+<area shape="rect" id="node7" href="$d9/d62/classOnlMonClient.html#a68fab899fe1e1e3071ba0588a0853930" title="OnlMonClient::StartMonitor" alt="" coords="1652,81,1829,108"/>
+<area shape="rect" id="node18" href="$d9/d62/classOnlMonClient.html#afbad21ed4282b594258ed81f7435558a" title="OnlMonClient::GetClearUsFlag" alt="" coords="1407,132,1604,159"/>
+<area shape="rect" id="node8" href="$d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee" title="OnlMonClient::Title" alt="" coords="1903,81,2033,108"/>
+<area shape="rect" id="node9" href="$db/d15/classOnlMonCham.html#abf08fde770e7baa178c5332808df3f84" title="OnlMonCham::OnlMonCham" alt="" coords="2109,5,2295,32"/>
+<area shape="rect" id="node11" href="$d9/d62/classOnlMonClient.html#a8e707fd7f6a89c8af8d716bdd06eed5d" title="Called at the end of all processing. " alt="" coords="2138,56,2266,83"/>
+<area shape="rect" id="node12" href="$d8/dc8/classOnlMonHodo.html#aff558860dfa3bce0f78380ff29d9e469" title="OnlMonHodo::OnlMonHodo" alt="" coords="2113,107,2291,133"/>
+<area shape="rect" id="node14" href="$d7/dac/classOnlMonProp.html#a76bbcb7424334621863eaa4ffd737d41" title="OnlMonProp::OnlMonProp" alt="" coords="2116,157,2288,184"/>
+<area shape="rect" id="node16" href="$d6/d41/classOnlMonV1495.html#a960bff6f2651b31ec130c2e6072e9b81" title="OnlMonV1495::OnlMonV1495" alt="" coords="2107,208,2297,235"/>
+<area shape="rect" id="node10" href="$db/d15/classOnlMonCham.html#a54da69b693cca5d7868c4b530f065055" title="OnlMonCham::Clone" alt="" coords="2347,5,2487,32"/>
+<area shape="rect" id="node13" href="$d8/dc8/classOnlMonHodo.html#a62358ca3d71a9322a5aca7c493cb3a80" title="OnlMonHodo::Clone" alt="" coords="2349,107,2485,133"/>
+<area shape="rect" id="node15" href="$d7/dac/classOnlMonProp.html#abd4536b38f93d118f2a8063d054cf6d3" title="OnlMonProp::Clone" alt="" coords="2350,157,2483,184"/>
+<area shape="rect" id="node17" href="$d6/d41/classOnlMonV1495.html#a52f22368dc580dc0ccd55e47c6b06f8b" title="OnlMonV1495::Clone" alt="" coords="2345,208,2488,235"/>
+<area shape="rect" id="node19" href="$d1/de7/classOnlMonUI.html#a30f58f22fe3ab98c09880483c92254b1" title="OnlMonUI::BuildInterface" alt="" coords="1657,132,1824,159"/>
+<area shape="rect" id="node20" href="$d1/de7/classOnlMonUI.html#a6ac24090b1eeb9637d152d45d31a50dd" title="OnlMonUI::OnlMonUI" alt="" coords="1896,183,2040,209"/>
+<area shape="rect" id="node21" href="$d1/de7/classOnlMonUI.html#af945f8eb686a17f5c43ba3b27d069d99" title="OnlMonUI::GetCycleInterval" alt="" coords="1877,132,2059,159"/>
 </map>

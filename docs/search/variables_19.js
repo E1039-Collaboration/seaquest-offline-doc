@@ -12,7 +12,6 @@ var searchData=
   ['yc',['yc',['../dc/d90/classPlane.html#acf363744e3f0cbae742f0f9931f80d65',1,'Plane::yc()'],['../db/d4a/classDPDigiPlane.html#a47971cc54847a9b37efcdd9606f529f0',1,'DPDigiPlane::yc()']]],
   ['yfield',['yField',['../d6/dd1/classTabulatedField3D.html#a0ec5bc1770c1707068dec4892ed23d15',1,'TabulatedField3D']]],
   ['ykey_5fsave',['ykey_save',['../d0/dc2/classPHField3DCartesian.html#aea81cef5f69b37b06118b8234c146d3e',1,'PHField3DCartesian']]],
-  ['ylength',['yLength',['../d8/dd3/classSolidParam.html#aef51de63d140d16e6c4dbd5ac39de2bd',1,'SolidParam']]],
   ['ymax',['ymax',['../d0/dc2/classPHField3DCartesian.html#ad55ed50ae235679e9e590b73f701051f',1,'PHField3DCartesian']]],
   ['ymax_5fkmag',['ymax_kmag',['../d0/da0/classGeomSvc.html#aa6942d4d92bcae395c73ee8c58f2a97b',1,'GeomSvc']]],
   ['ymin',['ymin',['../d0/dc2/classPHField3DCartesian.html#a68abeba8b67664a15883ead7e28afb69',1,'PHField3DCartesian']]],

@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['x',['x',['../d7/dcc/structCalibParamXT_1_1ParamItem.html#ad32f08c45ea9b5a77d0e51552188ff74',1,'CalibParamXT::ParamItem::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()'],['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()']]],
+  ['x',['X',['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()'],['../d7/dcc/structCalibParamXT_1_1ParamItem.html#ad32f08c45ea9b5a77d0e51552188ff74',1,'CalibParamXT::ParamItem::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()']]],
   ['x0',['x0',['../dc/d90/classPlane.html#ab1e54f526f034360007cc97447f0c4b6',1,'Plane::x0()'],['../d2/d26/classTracklet.html#a4d010ad8661d14b6ace17f5dc838b218',1,'Tracklet::x0()']]],
-  ['x0max',['x0max',['../d5/d9b/plot__matscan_8C.html#a1f9fde3c80fd661c0b3c9254c26a8cb2',1,'plot_matscan.C']]],
-  ['x0min',['x0min',['../d5/d9b/plot__matscan_8C.html#af801aa677d9d37d79974c125bac5790b',1,'plot_matscan.C']]],
   ['x1',['x1',['../dc/d90/classPlane.html#abcde574cfae3af4275ce674ea80089c2',1,'Plane::x1()'],['../d6/dac/classSRawMCEvent.html#a218a22cfc1cec3e827c2ade14f2ff4c3',1,'SRawMCEvent::x1()'],['../d3/d07/classSRecDimuon.html#ab6a8553047321642575ffef13bec9d68',1,'SRecDimuon::x1()']]],
   ['x2',['x2',['../dc/d90/classPlane.html#a3035f7119149f708254592edbc6a9199',1,'Plane::x2()'],['../d6/dac/classSRawMCEvent.html#aa0c4e89c528074cd63569b81088993f4',1,'SRawMCEvent::x2()'],['../d3/d07/classSRecDimuon.html#aa39d7fd0bbcab1c603f1f5cad507715b',1,'SRecDimuon::x2()']]],
   ['x_5fmask_5fmax',['x_mask_max',['../db/daa/classKalmanDSTrk.html#a8f9dc5d6062d86f7b1bb96317e8463ed',1,'KalmanDSTrk::x_mask_max()'],['../d3/d46/classKalmanFastTracking.html#adb5b6bdfb0f9ff9af6e508eb7cc9cf26',1,'KalmanFastTracking::x_mask_max()']]],
@@ -14,7 +12,6 @@ var searchData=
   ['xf',['xF',['../d6/dac/classSRawMCEvent.html#a093a44b06ff75e79917a62fe951380aa',1,'SRawMCEvent::xF()'],['../d3/d07/classSRecDimuon.html#a76c5c422745f641efad48a6435323fb9',1,'SRecDimuon::xF()']]],
   ['xfield',['xField',['../d6/dd1/classTabulatedField3D.html#a4e2b2033ea289abf3c7f783fcb17cf28',1,'TabulatedField3D']]],
   ['xkey_5fsave',['xkey_save',['../d0/dc2/classPHField3DCartesian.html#aa778428169cd35dd7449a2dd2d94c370',1,'PHField3DCartesian']]],
-  ['xlength',['xLength',['../d8/dd3/classSolidParam.html#a356d5fb9964f6c8c90e4f66926047ee1',1,'SolidParam']]],
   ['xmax',['xmax',['../d0/dc2/classPHField3DCartesian.html#a2858cdab35d0be5d9479d8c209c9e3e3',1,'PHField3DCartesian']]],
   ['xmax_5fkmag',['xmax_kmag',['../d0/da0/classGeomSvc.html#a6ec9dfa6f276eae84a1a132e312031bb',1,'GeomSvc']]],
   ['xmin',['xmin',['../d0/dc2/classPHField3DCartesian.html#ae230b0b77c9bc9bc2fe67997ca6b363d',1,'PHField3DCartesian']]],

@@ -1,12 +1,26 @@
 <map id="CodaInputManager::OpenFile" name="CodaInputManager::OpenFile">
-<area shape="rect" id="node2" href="$d9/dca/evio_8c.html#abe7e79c9336111cd6aeb9d8f37fd1101" title="evOpen" alt="" coords="307,52,373,79"/>
-<area shape="rect" id="node6" href="$d9/de8/classCodaInputManager.html#a4d6d936d724f91a01c136a3177ab9f59" title="CodaInputManager::file\l_exists" alt="" coords="486,129,639,170"/>
-<area shape="rect" id="node7" href="$d9/de8/classCodaInputManager.html#aedda0f443ef8f023461c82dfc42c86c4" title="CodaInputManager::NextCoda\lEvent" alt="" coords="243,158,437,200"/>
-<area shape="rect" id="node3" href="$d9/dca/evio_8c.html#af1412e237e0cf96798f8ee8c3e87b9cc" title="int_swap_byte" alt="" coords="701,48,806,75"/>
-<area shape="rect" id="node4" href="$d9/dca/evio_8c.html#ac64821bbb60806b36efae710468d2b31" title="kill_trailing" alt="" coords="521,27,604,54"/>
-<area shape="rect" id="node5" href="$d9/dca/evio_8c.html#a8941d1ffdddcc0ce2d4612dc50fcd52f" title="swapped_intcpy" alt="" coords="505,78,620,104"/>
-<area shape="rect" id="node8" href="$d9/dca/evio_8c.html#ad49f0b3e9d98e46c750b86c34e0a4cb6" title="evRead" alt="" coords="529,195,596,222"/>
-<area shape="rect" id="node9" href="$d9/dca/evio_8c.html#afc9ef0a07a0bc472e3cde4e37a581c2f" title="evGetNewBuffer" alt="" coords="694,170,813,196"/>
-<area shape="rect" id="node11" href="$d9/dca/evio_8c.html#aa5e03258123476c0f0588bc163ac7b1e" title="swapped_memcpy" alt="" coords="688,220,819,247"/>
-<area shape="rect" id="node10" href="$d9/dca/evio_8c.html#ae3c41eeb7eb9a85d44383d77f54c09bd" title="onmemory_swap" alt="" coords="867,170,987,196"/>
+<area shape="rect" id="node2" href="$d9/de8/classCodaInputManager.html#a683d92ec87ad857149fcabc1e7d8471a" title="CodaInputManager::CloseFile" alt="" coords="724,5,915,32"/>
+<area shape="rect" id="node8" href="$d9/dca/evio_8c.html#abe7e79c9336111cd6aeb9d8f37fd1101" title="evOpen" alt="" coords="306,157,373,184"/>
+<area shape="rect" id="node19" href="$d9/de8/classCodaInputManager.html#a4d6d936d724f91a01c136a3177ab9f59" title="CodaInputManager::file\l_exists" alt="" coords="503,259,657,301"/>
+<area shape="rect" id="node20" href="$d9/de8/classCodaInputManager.html#aedda0f443ef8f023461c82dfc42c86c4" title="CodaInputManager::NextCoda\lEvent" alt="" coords="243,369,436,410"/>
+<area shape="rect" id="node3" href="$d9/dca/evio_8c.html#a2f48414e60ed98e36184c0d714927134" title="evClose" alt="" coords="1305,31,1372,57"/>
+<area shape="rect" id="node4" href="$d9/dca/evio_8c.html#acb33f16a6cc76b4da916bfd03181de96" title="evFlush" alt="" coords="1420,81,1487,108"/>
+<area shape="rect" id="node5" href="$d9/dca/evio_8c.html#a8b71aa8cd4a072abe81e3820ab3be228" title="evioctl_" alt="" coords="1535,81,1601,108"/>
+<area shape="rect" id="node6" href="$d9/dca/evio_8c.html#ae5359833beeb174e395e75b347a6ccf0" title="evIoctl" alt="" coords="1649,81,1709,108"/>
+<area shape="rect" id="node7" href="$d9/dca/evio_8c.html#ad63ee18fc0d14a4e0022f212a8c72f65" title="evclose_" alt="" coords="1757,56,1829,83"/>
+<area shape="rect" id="node9" href="$d9/dca/evio_8c.html#ae03ba5881a2cca0aa4b784aa018f1db5" title="evread_" alt="" coords="547,107,613,133"/>
+<area shape="rect" id="node15" href="$d9/dca/evio_8c.html#af1412e237e0cf96798f8ee8c3e87b9cc" title="int_swap_byte" alt="" coords="975,56,1078,83"/>
+<area shape="rect" id="node17" href="$d9/dca/evio_8c.html#ac64821bbb60806b36efae710468d2b31" title="kill_trailing" alt="" coords="539,157,621,184"/>
+<area shape="rect" id="node18" href="$d9/dca/evio_8c.html#a8941d1ffdddcc0ce2d4612dc50fcd52f" title="swapped_intcpy" alt="" coords="523,208,637,235"/>
+<area shape="rect" id="node10" href="$d9/dca/evio_8c.html#ad49f0b3e9d98e46c750b86c34e0a4cb6" title="evRead" alt="" coords="787,107,852,133"/>
+<area shape="rect" id="node11" href="$d9/dca/evio_8c.html#afc9ef0a07a0bc472e3cde4e37a581c2f" title="evGetNewBuffer" alt="" coords="969,157,1084,184"/>
+<area shape="rect" id="node16" href="$d9/dca/evio_8c.html#aa5e03258123476c0f0588bc163ac7b1e" title="swapped_memcpy" alt="" coords="963,107,1091,133"/>
+<area shape="rect" id="node12" href="$d9/dca/evio_8c.html#a096f67bf913abdf0e100ae7cefd3cd4b" title="evwrite_" alt="" coords="1163,157,1233,184"/>
+<area shape="rect" id="node14" href="$d9/dca/evio_8c.html#ae3c41eeb7eb9a85d44383d77f54c09bd" title="onmemory_swap" alt="" coords="1139,107,1257,133"/>
+<area shape="rect" id="node13" href="$d9/dca/evio_8c.html#a93874f4f343b26125e3bb8482a9885f6" title="evWrite" alt="" coords="1306,107,1371,133"/>
+<area shape="rect" id="node21" href="$d9/de8/classCodaInputManager.html#a67044b0a612db9e13c07e64416bdeb89" title="CodaInputManager::ForceEnd" alt="" coords="484,376,676,403"/>
+<area shape="rect" id="node22" href="$df/da2/classUtilOnline.html#a4cf9e0ff905fd4ededb1a1ab43ad8fb7" title="UtilOnline::GetCodaFileDir" alt="" coords="494,427,666,453"/>
+<area shape="rect" id="node23" href="$df/da2/classUtilOnline.html#a64dceba97ee62424bec63444ccbd038c" title="UtilOnline::GetEndFileDir" alt="" coords="498,477,662,504"/>
+<area shape="rect" id="node24" href="$df/da2/classUtilOnline.html#a496a3a450fd26a7783ec6f7178f2314d" title="Convert a run number to the corresponding name of Coda file. " alt="" coords="484,528,676,555"/>
+<area shape="rect" id="node25" href="$df/da2/classUtilOnline.html#a28b8e62ece2f07e607ac2a788da434f1" title="Convert a run number to the corresponding name of END file. " alt="" coords="488,579,672,605"/>
 </map>

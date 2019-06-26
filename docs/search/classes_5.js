@@ -1,8 +1,7 @@
 var searchData=
 [
   ['feedata',['FeeData',['../d1/df2/structFeeData.html',1,'']]],
-  ['field',['Field',['../d7/d24/classField.html',1,'']]],
-  ['field',['Field',['../dc/dc5/classgenfit_1_1Field.html',1,'genfit']]],
+  ['field',['Field',['../d7/d24/classField.html',1,'Field'],['../dc/dc5/classgenfit_1_1Field.html',1,'genfit::Field']]],
   ['fitter',['Fitter',['../d1/d35/classPHGenFit_1_1Fitter.html',1,'PHGenFit']]],
   ['flagsave',['FlagSave',['../d3/da3/classFlagSave.html',1,'']]],
   ['flagsavev1',['FlagSavev1',['../da/db3/classFlagSavev1.html',1,'']]],

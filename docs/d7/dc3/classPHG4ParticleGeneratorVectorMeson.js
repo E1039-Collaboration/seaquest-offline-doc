@@ -25,7 +25,7 @@ var classPHG4ParticleGeneratorVectorMeson =
     [ "set_vertex_size_function", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a3c140cc2b25622725a8c7846fbdc65d5", null ],
     [ "set_vertex_size_parameters", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a0b67bbbfcf01b50230dae47c0e111fed", null ],
     [ "set_width", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a79413a4c24aeb64311d12e32608a06b1", null ],
-    [ "smearvtx", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a6cac3dd9db201da87466992ce4e27cb7", null ],
+    [ "smearvtx", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ac0498293d5a99e2a8de5891a97a81a2d", null ],
     [ "_histrand_init", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a8264d75aa90803e762ddada8b6a00e7d", null ],
     [ "_t0", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a84f8cb0609c10e87a0e471929bff1030", null ],
     [ "_vertex_func_x", "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a88d7342d45e823d5552b55427489646f", null ],

@@ -20,7 +20,6 @@ var dir_315af1d1b16bd7190138a3622a101347 =
       [ "Fun4AllOscarInputManager", "db/d1f/classFun4AllOscarInputManager.html", "db/d1f/classFun4AllOscarInputManager" ]
     ] ],
     [ "Fun4AllOscarInputManagerLinkDef.h", "de/d07/Fun4AllOscarInputManagerLinkDef_8h.html", null ],
-    [ "HepMCFlowAfterBurner.C", "d3/de2/HepMCFlowAfterBurner_8C.html", "d3/de2/HepMCFlowAfterBurner_8C" ],
     [ "HepMCFlowAfterBurner.cc", "d3/d8f/HepMCFlowAfterBurner_8cc.html", "d3/d8f/HepMCFlowAfterBurner_8cc" ],
     [ "HepMCFlowAfterBurner.h", "d8/d16/HepMCFlowAfterBurner_8h.html", [
       [ "HepMCFlowAfterBurner", "dd/d6c/classHepMCFlowAfterBurner.html", "dd/d6c/classHepMCFlowAfterBurner" ]

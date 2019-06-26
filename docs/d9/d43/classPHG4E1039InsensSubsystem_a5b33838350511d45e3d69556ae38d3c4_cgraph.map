@@ -1,22 +1,45 @@
 <map id="PHG4E1039InsensSubsystem::InitRunSubsystem" name="PHG4E1039InsensSubsystem::InitRunSubsystem">
-<area shape="rect" id="node2" href="$d4/d30/classPHG4HitContainer.html#ab6b839bb51d6eb2f878651f6c3a52ca9" title="PHG4HitContainer::AddLayer" alt="" coords="255,5,446,32"/>
-<area shape="rect" id="node3" href="$d2/dd7/classPHG4BlockGeomContainer.html#a4f7db051cc84567591d367fceb6cbdec" title="PHG4BlockGeomContainer\l::AddLayerGeom" alt="" coords="260,57,441,98"/>
-<area shape="rect" id="node5" href="$d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf" title="PHCompositeNode::addNode" alt="" coords="255,123,447,149"/>
-<area shape="rect" id="node9" href="$d5/d29/classPHG4DetectorSubsystem.html#a3a654db38f49eafe08c5fb725f63c959" title="PHG4DetectorSubsystem\l::CheckOverlap" alt="" coords="265,174,437,215"/>
-<area shape="rect" id="node10" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="PHNodeIterator::findFirst" alt="" coords="268,264,433,291"/>
-<area shape="rect" id="node12" href="$d5/d29/classPHG4DetectorSubsystem.html#ac1432a8cbba08919cd979a2ab8c0b6c9" title="PHG4DetectorSubsystem\l::get_double_param" alt="" coords="265,315,437,357"/>
-<area shape="rect" id="node14" href="$d5/d29/classPHG4DetectorSubsystem.html#a0782302d2c93bb541eb2bc6c642b047b" title="PHG4DetectorSubsystem\l::get_int_param" alt="" coords="265,381,437,422"/>
-<area shape="rect" id="node16" href="$d5/d29/classPHG4DetectorSubsystem.html#a9c9fc303db21d021153ed9bd2f636643" title="PHG4DetectorSubsystem\l::GetLayer" alt="" coords="265,446,437,487"/>
-<area shape="rect" id="node17" href="$d5/d29/classPHG4DetectorSubsystem.html#a6ce8e425ac50e6f13d44075bd6843dcf" title="PHG4DetectorSubsystem\l::GetParams" alt="" coords="265,511,437,553"/>
-<area shape="rect" id="node18" href="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed" title="Returns the name of this module. " alt="" coords="282,577,419,604"/>
-<area shape="rect" id="node19" href="$d3/de7/classPHG4Detector.html#a66317072e07262741c28f524681dd0fe" title="PHG4Detector::OverlapCheck" alt="" coords="253,628,448,655"/>
-<area shape="rect" id="node20" href="$d5/dd4/classPHG4E1039InsensDetector.html#a70d6c6887f3e47a17671fe46b9ff87be" title="PHG4E1039InsensDetector\l::SuperDetector" alt="" coords="259,679,442,721"/>
-<area shape="rect" id="node21" href="$d5/d29/classPHG4DetectorSubsystem.html#a77a3c2f18604af4bc24e71703bdfb7de" title="PHG4DetectorSubsystem\l::SuperDetector" alt="" coords="265,745,437,786"/>
-<area shape="rect" id="node4" href="$df/d82/classPHG4BlockGeom.html#a5c1d6dceab925b27f4a0e753d8e714c0" title="PHG4BlockGeom::set\l_layer" alt="" coords="510,46,661,87"/>
-<area shape="rect" id="node6" href="$d6/d86/classPHPointerList.html#af5fc4e6958b5b90c57bfb497566f503c" title="PHPointerList::append" alt="" coords="509,112,661,139"/>
-<area shape="rect" id="node7" href="$dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3" title="PHNode::getName" alt="" coords="520,213,651,240"/>
-<area shape="rect" id="node8" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title="PHNode::setParent" alt="" coords="518,163,653,189"/>
-<area shape="rect" id="node11" href="$dc/d82/classPHNode.html#a4ab1f90aed955a652813bfe377087bda" title="PHNode::getType" alt="" coords="523,264,647,291"/>
-<area shape="rect" id="node13" href="$dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf" title="PHParameters::get_double\l_param" alt="" coords="497,315,674,357"/>
-<area shape="rect" id="node15" href="$dd/dae/classPHParameters.html#a0241ca27a369ab4865ac3d79620ac27c" title="PHParameters::get_int\l_param" alt="" coords="509,381,662,422"/>
+<area shape="rect" id="node2" href="$d4/d30/classPHG4HitContainer.html#ab6b839bb51d6eb2f878651f6c3a52ca9" title="PHG4HitContainer::AddLayer" alt="" coords="249,64,437,91"/>
+<area shape="rect" id="node7" href="$d2/dd7/classPHG4BlockGeomContainer.html#a4f7db051cc84567591d367fceb6cbdec" title="PHG4BlockGeomContainer\l::AddLayerGeom" alt="" coords="253,154,433,195"/>
+<area shape="rect" id="node9" href="$d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf" title="PHCompositeNode::addNode" alt="" coords="249,252,437,279"/>
+<area shape="rect" id="node13" href="$d5/d29/classPHG4DetectorSubsystem.html#a9767472c3a504c25eda9daa47432e04e" title="PHG4DetectorSubsystem\l::CheckOverlap" alt="" coords="259,406,428,447"/>
+<area shape="rect" id="node14" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="PHNodeIterator::findFirst" alt="" coords="262,340,425,367"/>
+<area shape="rect" id="node16" href="$d5/d29/classPHG4DetectorSubsystem.html#a9cea410bcb0dba5f7d00b4cb5d194bf2" title="PHG4DetectorSubsystem\l::get_double_param" alt="" coords="501,391,671,433"/>
+<area shape="rect" id="node18" href="$d5/d29/classPHG4DetectorSubsystem.html#abef5234e8adfbba5118da17fe018f97f" title="PHG4DetectorSubsystem\l::get_int_param" alt="" coords="501,457,671,498"/>
+<area shape="rect" id="node20" href="$d5/d29/classPHG4DetectorSubsystem.html#acfd1e290e068cab8769c7f697a8c5bbd" title="PHG4DetectorSubsystem\l::GetLayer" alt="" coords="259,1031,428,1073"/>
+<area shape="rect" id="node29" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module. " alt="" coords="755,928,890,955"/>
+<area shape="rect" id="node33" href="$d5/d29/classPHG4DetectorSubsystem.html#aa5e97e5426bb03493c904cd1dee653ac" title="PHG4DetectorSubsystem\l::GetParams" alt="" coords="259,587,428,629"/>
+<area shape="rect" id="node42" href="$d3/de7/classPHG4Detector.html#a66317072e07262741c28f524681dd0fe" title="PHG4Detector::OverlapCheck" alt="" coords="247,1097,440,1124"/>
+<area shape="rect" id="node43" href="$d5/dd4/classPHG4E1039InsensDetector.html#a70d6c6887f3e47a17671fe46b9ff87be" title="PHG4E1039InsensDetector\l::SuperDetector" alt="" coords="254,1149,433,1190"/>
+<area shape="rect" id="node44" href="$d5/d29/classPHG4DetectorSubsystem.html#a271a97b2b2c6e59a8530a8cd057e4403" title="PHG4DetectorSubsystem\l::SuperDetector" alt="" coords="259,1214,428,1255"/>
+<area shape="rect" id="node3" href="$d4/d30/classPHG4HitContainer.html#a1cf8afd339b72457bd9d00c53587ed97" title="PHG4HitContainer::Remove\lZeroEDep" alt="" coords="495,57,677,98"/>
+<area shape="rect" id="node5" href="$d4/d30/classPHG4HitContainer.html#a032b255f36b64361b918bcf89c42be23" title="PHG4HitContainer::getmaxkey" alt="" coords="488,5,684,32"/>
+<area shape="rect" id="node4" href="$d3/d9e/classPHG4Hit.html#a46bad8844c95e7fce6f0f366931873b7" title="PHG4Hit::get_edep" alt="" coords="757,64,889,91"/>
+<area shape="rect" id="node6" href="$d4/d30/classPHG4HitContainer.html#aeefa4abb50d90b015033527cf0d5abb4" title="return all hist " alt="" coords="735,5,910,32"/>
+<area shape="rect" id="node8" href="$df/d82/classPHG4BlockGeom.html#a5c1d6dceab925b27f4a0e753d8e714c0" title="PHG4BlockGeom::set\l_layer" alt="" coords="512,122,660,163"/>
+<area shape="rect" id="node10" href="$d6/d86/classPHPointerList.html#af5fc4e6958b5b90c57bfb497566f503c" title="PHPointerList::append" alt="" coords="511,239,661,265"/>
+<area shape="rect" id="node11" href="$dc/d82/classPHNode.html#aa9c780cb75e143c50861c4a75ba8aeb6" title="PHNode::getName" alt="" coords="522,289,650,316"/>
+<area shape="rect" id="node12" href="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198" title="PHNode::setParent" alt="" coords="521,188,651,215"/>
+<area shape="rect" id="node15" href="$dc/d82/classPHNode.html#a2ad5efd9aead81422462224b33f5c0a9" title="PHNode::getType" alt="" coords="525,340,647,367"/>
+<area shape="rect" id="node17" href="$dd/dae/classPHParameters.html#a333017103f8178e3cf9d8111dd62b2ad" title="PHParameters::get_double\l_param" alt="" coords="735,391,910,433"/>
+<area shape="rect" id="node19" href="$dd/dae/classPHParameters.html#a525f19b78bf06130a1575d49e37042d2" title="PHParameters::get_int\l_param" alt="" coords="747,457,898,498"/>
+<area shape="rect" id="node21" href="$d5/d29/classPHG4DetectorSubsystem.html#add5cbb7bd43524ba72079425ca230200" title="PHG4DetectorSubsystem\l::InitializeParameters" alt="" coords="501,1149,671,1190"/>
+<area shape="rect" id="node22" href="$d5/d29/classPHG4DetectorSubsystem.html#aff8499a0c11c3fa5be809484bbd51693" title="PHG4DetectorSubsystem\l::set_default_int_param" alt="" coords="738,1005,907,1046"/>
+<area shape="rect" id="node27" href="$d5/d29/classPHG4DetectorSubsystem.html#adb39c7396bb4d0a510820ba62a4fa3e4" title="PHG4DetectorSubsystem\l::SetDefaultParameters" alt="" coords="738,1331,907,1373"/>
+<area shape="rect" id="node28" href="$d5/d29/classPHG4DetectorSubsystem.html#ae0b1bd86b9ce277cce1fe1252c97f0a9" title="PHG4DetectorSubsystem\l::PHG4DetectorSubsystem" alt="" coords="499,966,673,1007"/>
+<area shape="rect" id="node30" href="$d5/d29/classPHG4DetectorSubsystem.html#a4b15c4efd6415380306bd39144c4c8a4" title="PHG4DetectorSubsystem\l::set_default_double_param" alt="" coords="497,1331,675,1373"/>
+<area shape="rect" id="node31" href="$d5/d29/classPHG4DetectorSubsystem.html#a8643b3dcbba55cda5f11cb15d4e7857b" title="PHG4DetectorSubsystem\l::set_default_string_param" alt="" coords="500,1031,672,1073"/>
+<area shape="rect" id="node32" href="$d5/d29/classPHG4DetectorSubsystem.html#a0cd450fefb34aa6206f62bc76fd2b919" title="PHG4DetectorSubsystem\l::set_default_vdouble_param" alt="" coords="493,1214,679,1255"/>
+<area shape="rect" id="node23" href="$dd/dae/classPHParameters.html#a75005aa44390e1eb574603b0b230152b" title="PHParameters::set_double\l_param" alt="" coords="735,1201,910,1242"/>
+<area shape="rect" id="node24" href="$dd/dae/classPHParameters.html#a62881b44dd0564425633070316af66ec" title="PHParameters::set_int\l_param" alt="" coords="747,1266,898,1307"/>
+<area shape="rect" id="node25" href="$dd/dae/classPHParameters.html#a2ebd6e499647b20dd41ca164e71ca061" title="PHParameters::set_string\l_param" alt="" coords="739,1070,906,1111"/>
+<area shape="rect" id="node26" href="$dd/dae/classPHParameters.html#ad9201a6d3a8d35bf69695a6fc30babad" title="PHParameters::set_vdouble\l_param" alt="" coords="733,1135,913,1177"/>
+<area shape="rect" id="node34" href="$d5/d29/classPHG4DetectorSubsystem.html#ad60fa20627a00f7d7fbe3be395617ed0" title="PHG4DetectorSubsystem\l::get_string_param" alt="" coords="501,849,671,890"/>
+<area shape="rect" id="node36" href="$d5/d29/classPHG4DetectorSubsystem.html#a79aa29156f8c6c7701f5d95114c875a6" title="PHG4DetectorSubsystem\l::get_vdouble_param" alt="" coords="501,522,671,563"/>
+<area shape="rect" id="node38" href="$d5/d29/classPHG4DetectorSubsystem.html#a48e75fd1738dab9d0d66b174053ead8f" title="PHG4DetectorSubsystem\l::set_double_param" alt="" coords="501,587,671,629"/>
+<area shape="rect" id="node39" href="$d5/d29/classPHG4DetectorSubsystem.html#a9c64b70e82272ef90f285ecaef1e50b4" title="PHG4DetectorSubsystem\l::set_int_param" alt="" coords="501,653,671,694"/>
+<area shape="rect" id="node40" href="$d5/d29/classPHG4DetectorSubsystem.html#a82c122f8a80f34dc4ffba6675ce60c75" title="PHG4DetectorSubsystem\l::set_string_param" alt="" coords="501,718,671,759"/>
+<area shape="rect" id="node41" href="$d5/d29/classPHG4DetectorSubsystem.html#a192f80b03a4d9cf52623045fce024b1d" title="PHG4DetectorSubsystem\l::set_vdouble_param" alt="" coords="501,783,671,825"/>
+<area shape="rect" id="node35" href="$dd/dae/classPHParameters.html#a9a17d978a0687bc1e4e505061bd06b19" title="PHParameters::get_string\l_param" alt="" coords="739,849,907,890"/>
+<area shape="rect" id="node37" href="$dd/dae/classPHParameters.html#aeef3fc4089ca0818b2a865b6fba79c29" title="PHParameters::get_vdouble\l_param" alt="" coords="732,522,913,563"/>
 </map>

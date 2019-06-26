@@ -2,10 +2,10 @@ var classDPDigiPlane =
 [
     [ "getH", "db/d4a/classDPDigiPlane.html#a55c135eb6e23cc1bc99edecc24e66467", null ],
     [ "getV", "db/d4a/classDPDigiPlane.html#a94eff8322b71938e2c1d6c5cfcc7e758", null ],
-    [ "getW", "db/d4a/classDPDigiPlane.html#ac9ce65c2576aa90877b2ed94eb3a4b3b", null ],
+    [ "getW", "db/d4a/classDPDigiPlane.html#a84ef5e748d66019959f721cf50cd7ebe", null ],
     [ "getW", "db/d4a/classDPDigiPlane.html#a20411531fb9a93968adeb5193877ba73", null ],
-    [ "getX", "db/d4a/classDPDigiPlane.html#afde9cdea4d508a9c2f30469813396e69", null ],
-    [ "getY", "db/d4a/classDPDigiPlane.html#a4631706c11ddb7c715149fa8ae8f4607", null ],
+    [ "getX", "db/d4a/classDPDigiPlane.html#aa01bab075c3d3ce719a0a12e2eddf571", null ],
+    [ "getY", "db/d4a/classDPDigiPlane.html#a70cfad3fad0ce0502e4f3088d19e2a79", null ],
     [ "intercept", "db/d4a/classDPDigiPlane.html#ae30ed6eeda9f6195d1bdecac4dc3fcc2", null ],
     [ "isInPlane", "db/d4a/classDPDigiPlane.html#a5482aa27a60b6964db187026b9ed5176", null ],
     [ "preCalculation", "db/d4a/classDPDigiPlane.html#ac3797ad63cabccdfe703631c1d67d496", null ],

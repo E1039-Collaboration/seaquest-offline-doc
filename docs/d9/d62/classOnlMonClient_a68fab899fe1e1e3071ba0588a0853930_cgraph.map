@@ -1,6 +1,51 @@
 <map id="OnlMonClient::StartMonitor" name="OnlMonClient::StartMonitor">
-<area shape="rect" id="node2" href="$d9/d62/classOnlMonClient.html#a8a5d3825cb5df3fbfdb488df353b8c88" title="OnlMonClient::DrawMonitor" alt="" coords="232,5,411,32"/>
-<area shape="rect" id="node3" href="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed" title="Returns the name of this module. " alt="" coords="482,56,619,83"/>
-<area shape="rect" id="node4" href="$d9/d62/classOnlMonClient.html#a6db97dd2f1c18d8ec92d011f3a8e86b6" title="OnlMonClient::ReceiveHist" alt="" coords="233,107,410,133"/>
-<area shape="rect" id="node5" href="$d9/d62/classOnlMonClient.html#a939621e122baae4578b2cda3479d52eb" title="OnlMonClient::ClearHistList" alt="" coords="459,107,642,133"/>
+<area shape="rect" id="node2" href="$d9/d62/classOnlMonClient.html#a0c4277b645c86cb4da1162f3fdd3c6cc" title="OnlMonClient::ClearCanvasList" alt="" coords="717,285,916,312"/>
+<area shape="rect" id="node3" href="$d9/d62/classOnlMonClient.html#a8a5d3825cb5df3fbfdb488df353b8c88" title="OnlMonClient::DrawMonitor" alt="" coords="727,893,906,920"/>
+<area shape="rect" id="node4" href="$d9/d62/classOnlMonClient.html#afc7cf38cb57cdb324794da1bf5cbe442" title="OnlMonClient::FindAllMonHist" alt="" coords="476,640,669,667"/>
+<area shape="rect" id="node5" href="$d9/d62/classOnlMonClient.html#a20f0a173e580ffc399efd4dfc60da2be" title="OnlMonClient::FindMonObj" alt="" coords="485,691,661,717"/>
+<area shape="rect" id="node6" href="$d9/d62/classOnlMonClient.html#ae3e568b6d2a925ea517ecada43971a32" title="OnlMonClient::GetBasicInfo" alt="" coords="726,640,907,667"/>
+<area shape="rect" id="node7" href="$d9/d62/classOnlMonClient.html#afbad21ed4282b594258ed81f7435558a" title="OnlMonClient::GetClearUsFlag" alt="" coords="231,235,428,261"/>
+<area shape="rect" id="node9" href="$d9/d62/classOnlMonClient.html#a6db97dd2f1c18d8ec92d011f3a8e86b6" title="OnlMonClient::ReceiveHist" alt="" coords="485,184,660,211"/>
+<area shape="rect" id="node26" href="$d5/dec/classFun4AllBase.html#ab4106fbb3615ea6836f394c52642b893" title="Returns the name of this module. " alt="" coords="2177,667,2312,693"/>
+<area shape="rect" id="node34" href="$df/ddc/classOnlMonCanvas.html#ad9d50146b1e9a2cf7c31fb5dd90abe0f" title="OnlMonCanvas::PostDraw" alt="" coords="731,437,902,464"/>
+<area shape="rect" id="node36" href="$df/ddc/classOnlMonCanvas.html#aeaed18c17d691ff47072be3c526f5f54" title="OnlMonCanvas::PreDraw" alt="" coords="735,336,899,363"/>
+<area shape="rect" id="node37" href="$df/ddc/classOnlMonCanvas.html#ae41aee3322ab257c007b9009df4883d9" title="OnlMonCanvas::SetBasicInfo" alt="" coords="722,387,911,413"/>
+<area shape="rect" id="node38" href="$d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee" title="OnlMonClient::Title" alt="" coords="264,829,395,856"/>
+<area shape="rect" id="node8" href="$d9/d62/classOnlMonClient.html#a939621e122baae4578b2cda3479d52eb" title="OnlMonClient::ClearHistList" alt="" coords="727,235,906,261"/>
+<area shape="rect" id="node32" href="$d9/d62/classOnlMonClient.html#a0a659e9aa28997009eac5759a41cad2e" title="OnlMonClient::RegisterHist" alt="" coords="485,589,660,616"/>
+<area shape="rect" id="node10" href="$d8/d38/classOnlMonServer.html#a1e7b873bc5d67dcede30725ad2cafd6c" title="OnlMonServer::GetHost" alt="" coords="1455,5,1613,32"/>
+<area shape="rect" id="node11" href="$d8/d38/classOnlMonServer.html#a127778f90627b20bb428496ca7cfd6b9" title="OnlMonServer::GetPort" alt="" coords="739,133,894,160"/>
+<area shape="rect" id="node12" href="$d8/d38/classOnlMonServer.html#a1faba47a8f98c19d258624675f820705" title="OnlMonServer::StartServer" alt="" coords="967,133,1141,160"/>
+<area shape="rect" id="node15" href="$d8/d38/classOnlMonServer.html#a17e2269d141eeaf02cdb5e388c0a8b5b" title="Close an existing server process if such exists. " alt="" coords="1192,27,1379,69"/>
+<area shape="rect" id="node16" href="$d8/d38/classOnlMonServer.html#a6b92b7327c6c0a063d3478cd8422e42c" title="OnlMonServer::FuncServer" alt="" coords="1197,245,1373,272"/>
+<area shape="rect" id="node18" href="$d8/d38/classOnlMonServer.html#a9693ee62bc93597159ee3afcab2e4fe3" title="OnlMonServer::HandleConnection" alt="" coords="1427,195,1641,221"/>
+<area shape="rect" id="node13" href="$d5/dec/classFun4AllBase.html#ad0a0fa887b36a995eca4815d2b7f5afb" title="Gets the verbosity of this module. " alt="" coords="1716,99,1869,125"/>
+<area shape="rect" id="node30" href="$d8/d38/classOnlMonServer.html#ad47951c3720d1d0c910767acdc2f8ee8" title="OnlMonServer::SetThreadId" alt="" coords="1195,144,1376,171"/>
+<area shape="rect" id="node14" href="$d5/dec/classFun4AllBase.html#abb5c44adbf26aa0a45b2d44c2692fdb7" title="Fun4AllBase::Fun4AllBase" alt="" coords="1944,99,2119,125"/>
+<area shape="rect" id="node17" href="$d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9" title="Sets the verbosity of this module (0 by default=quiet). " alt="" coords="1457,296,1611,323"/>
+<area shape="rect" id="node29" href="$d8/d38/classOnlMonServer.html#a01ca3f07a4426ade7bbf56dcfa540b88" title="OnlMonServer::GetGoEnd" alt="" coords="1449,245,1619,272"/>
+<area shape="rect" id="node19" href="$da/d29/classFun4AllServer.html#af5885837658eb26f98dbc697b58747a7" title="Fun4AllServer::getHistoManager" alt="" coords="1689,287,1896,313"/>
+<area shape="rect" id="node20" href="$d3/d96/classFun4AllHistoManager.html#a6103bc42f17e9be33b879705cb38a456" title="Fun4AllHistoManager\l::nHistos" alt="" coords="1720,155,1865,197"/>
+<area shape="rect" id="node28" href="$d3/d96/classFun4AllHistoManager.html#abcf7967604453e72b87fed9470f5a20c" title="Fun4AllHistoManager\l::getHisto" alt="" coords="1720,221,1865,262"/>
+<area shape="rect" id="node21" href="$d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08" title="Fun4AllHistoManager\l::dumpHistos" alt="" coords="1959,281,2104,322"/>
+<area shape="rect" id="node27" href="$d3/d96/classFun4AllHistoManager.html#a0a5308cb3f26ccc95504c5c5dac30441" title="Fun4AllHistoManager\l::Reset" alt="" coords="1959,155,2104,197"/>
+<area shape="rect" id="node22" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title="PHFlag::FlagExist" alt="" coords="2183,313,2306,340"/>
+<area shape="rect" id="node23" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title="PHFlag::get_IntFlag" alt="" coords="2177,364,2313,391"/>
+<area shape="rect" id="node24" href="$d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802" title="recoConsts::instance" alt="" coords="2175,212,2315,239"/>
+<area shape="rect" id="node25" href="$de/d7e/classTDirectoryHelper.html#aefc78be51a5c3501caf4e2e73bc7ce80" title="TDirectoryHelper::mkdir" alt="" coords="2167,263,2323,289"/>
+<area shape="rect" id="node31" href="$d8/d38/classOnlMonServer.html#a411c371af3e7314a2051268fef5d1657" title="OnlMonServer::OnlMonServer" alt="" coords="1438,144,1630,171"/>
+<area shape="rect" id="node33" href="$d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6" title="Fun4AllHistoManager\l::registerHisto" alt="" coords="744,945,889,986"/>
+<area shape="rect" id="node35" href="$d8/d38/classOnlMonServer.html#ad1abd8d2aeef4db65f7a66adfbbbfb8a" title="OnlMonServer::GetOutDir" alt="" coords="970,539,1138,565"/>
+<area shape="rect" id="node39" href="$d9/d62/classOnlMonClient.html#a91282c6ffe8d2b7787632a1ab8d6916a" title="OnlMonClient::Init" alt="" coords="511,1264,635,1291"/>
+<area shape="rect" id="node40" href="$d9/d62/classOnlMonClient.html#afe0494fd792508afa23d22744fe8d2a5" title="OnlMonClient::InitOnlMon" alt="" coords="732,1264,901,1291"/>
+<area shape="rect" id="node41" href="$d9/d62/classOnlMonClient.html#a8eec0bd29f49d0ba659e332dee888a4c" title="OnlMonClient::InitRun" alt="" coords="499,1163,646,1189"/>
+<area shape="rect" id="node43" href="$d9/d62/classOnlMonClient.html#a2201a47dd5fe18015df27506c121d17e" title="OnlMonClient::InitRunOnlMon" alt="" coords="721,1011,913,1037"/>
+<area shape="rect" id="node46" href="$d9/d62/classOnlMonClient.html#aae8316ce9e475ceb116f375bcb07fd41" title="OnlMonClient::process\l_event" alt="" coords="497,793,648,834"/>
+<area shape="rect" id="node47" href="$d9/d62/classOnlMonClient.html#a30a70509da7324cb35c0f201722bf859" title="OnlMonClient::ProcessEvent\lOnlMon" alt="" coords="725,777,909,818"/>
+<area shape="rect" id="node48" href="$d9/d62/classOnlMonClient.html#a8e707fd7f6a89c8af8d716bdd06eed5d" title="Called at the end of all processing. " alt="" coords="509,488,637,515"/>
+<area shape="rect" id="node49" href="$d9/d62/classOnlMonClient.html#af04988ecd7d9958d0c195a88a4199d8f" title="OnlMonClient::EndOnlMon" alt="" coords="730,843,903,869"/>
+<area shape="rect" id="node50" href="$d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a" title="OnlMonClient::FindMonHist" alt="" coords="483,909,662,936"/>
+<area shape="rect" id="node42" href="$d7/db7/classSQRun.html#af2c21987bb3a78a7255194de26e5fe6b" title="SQRun::get_run_id" alt="" coords="751,1213,882,1240"/>
+<area shape="rect" id="node44" href="$d8/d38/classOnlMonServer.html#a051f5d14c8aee2413bb6f69cb92dc096" title="OnlMonServer::instance" alt="" coords="737,1163,896,1189"/>
+<area shape="rect" id="node45" href="$da/d29/classFun4AllServer.html#a377f113767f24ce6413e678752ed7f53" title="Fun4AllServer::registerHisto\lManager" alt="" coords="964,843,1144,885"/>
 </map>

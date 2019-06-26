@@ -24,7 +24,7 @@ var classNode =
     [ "isFilterDone", "df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c", null ],
     [ "isPredictionDone", "df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4", null ],
     [ "isSmoothDone", "df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1", null ],
-    [ "operator<", "df/dd0/classNode.html#ab254f8aecb34acb24da406e1277823bd", null ],
+    [ "operator<", "df/dd0/classNode.html#ae52b8c98053fc24cdcac8a94ebe41665", null ],
     [ "print", "df/dd0/classNode.html#a20fc8851cfd1ecfd38b145ec17d117da", null ],
     [ "resetFlags", "df/dd0/classNode.html#a99c8a3ab85ad9363bf03cf582a83ea0b", null ],
     [ "setChisq", "df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e", null ],

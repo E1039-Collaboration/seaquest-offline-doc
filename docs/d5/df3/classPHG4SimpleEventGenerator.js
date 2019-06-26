@@ -22,7 +22,7 @@ var classPHG4SimpleEventGenerator =
     [ "set_vertex_distribution_width", "d5/df3/classPHG4SimpleEventGenerator.html#a862de2febaf53d48c0141834579eba69", null ],
     [ "set_vertex_size_function", "d5/df3/classPHG4SimpleEventGenerator.html#a45b24fce3e573785faac119dcae77554", null ],
     [ "set_vertex_size_parameters", "d5/df3/classPHG4SimpleEventGenerator.html#ad2163ba775c5037bde6d852085922ab1", null ],
-    [ "smearvtx", "d5/df3/classPHG4SimpleEventGenerator.html#ac8d70dc67d5cd91bf0385fae330c2fca", null ],
+    [ "smearvtx", "d5/df3/classPHG4SimpleEventGenerator.html#aff91e007e2710acddd104b9c24127393", null ],
     [ "_eta_max", "d5/df3/classPHG4SimpleEventGenerator.html#a5db0d318439ff0005b7950e45f53e461", null ],
     [ "_eta_min", "d5/df3/classPHG4SimpleEventGenerator.html#a4e6dcae80b7142e01b31c94a9ac0898a", null ],
     [ "_ineve", "d5/df3/classPHG4SimpleEventGenerator.html#a5258d5bb75ebd5bb914c484f23d73551", null ],

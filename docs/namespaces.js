@@ -20,5 +20,6 @@ var namespaces =
     [ "submit_bnl", "d1/d2b/namespacesubmit__bnl.html", null ],
     [ "submit_e1039", "d9/d8d/namespacesubmit__e1039.html", null ],
     [ "syncdefs", "d2/de5/namespacesyncdefs.html", null ],
+    [ "UtilHist", "d3/daf/namespaceUtilHist.html", null ],
     [ "varids", "d1/db0/namespacevarids.html", null ]
 ];

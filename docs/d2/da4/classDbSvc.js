@@ -1,5 +1,6 @@
 var classDbSvc =
 [
+    [ "VarList", "da/dfa/classDbSvc_1_1VarList.html", "da/dfa/classDbSvc_1_1VarList" ],
     [ "SvrId_t", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89", [
       [ "DB1", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a9d901475d2b29f9233c821a067c7e42e", null ],
       [ "DB2", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89acd81f44e35cf09f50086d8caf3713bce", null ],
@@ -15,8 +16,9 @@ var classDbSvc =
     [ "~DbSvc", "d2/da4/classDbSvc.html#a0013281a909be870df1f80bfeb5f1b56", null ],
     [ "Con", "d2/da4/classDbSvc.html#af342c238c151003ac35ca3e96f60d02e", null ],
     [ "ConnectServer", "d2/da4/classDbSvc.html#a73d4b11969d0079093ebc6cae9d60049", null ],
-    [ "CreateTable", "d2/da4/classDbSvc.html#a9dbe92e2c9070d20a27e77a4fca11d18", null ],
-    [ "CreateTable", "d2/da4/classDbSvc.html#aa85a2c91a9c768838bd96de8b9548bf6", null ],
+    [ "CreateTable", "d2/da4/classDbSvc.html#abc037dbd5084422aacdfa76bd0e8d2b7", null ],
+    [ "CreateTable", "d2/da4/classDbSvc.html#a5a26d12329fddebe42e563baaecc0b20", null ],
+    [ "CreateTable", "d2/da4/classDbSvc.html#a4dd8baff848be03868bae90af6259133", null ],
     [ "DropTable", "d2/da4/classDbSvc.html#a7a6da517bc72f88c593f1102378dfdba", null ],
     [ "DropTable", "d2/da4/classDbSvc.html#af202271f54386e26019373280cb409bd", null ],
     [ "HasTable", "d2/da4/classDbSvc.html#af7e30673551b9cbc6d0ad9e37e4ec35b", null ],

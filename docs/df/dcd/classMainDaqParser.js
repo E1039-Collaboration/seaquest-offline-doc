@@ -1,17 +1,5 @@
 var classMainDaqParser =
 [
-    [ "EventErrorFlag_t", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5b", [
-      [ "EVT_ERR_N_TDC", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5bab692a99e4bf1a57e24e3386367c0dc1e", null ],
-      [ "EVT_ERR_V1495", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba20c56d21f81173f6a87642d2c8d07425", null ],
-      [ "EVT_ERR_N_V1495_0", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba760964e3cc1f4d3b4f80f9215d6427f6", null ],
-      [ "EVT_ERR_N_V1495_2", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba5b945054422907e3cba263d619fd3b5a", null ],
-      [ "EVT_ERR_N_TRIGB_0", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5babd93b63343fd48646a4fe92f0292ef29", null ],
-      [ "EVT_ERR_N_TRIGB_2", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba429d447cf1705f65fbe0d7c48c748de1", null ],
-      [ "EVT_ERR_N_TRIGC_0", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba5f6a6d9dad2a307582ea01221c9ecdc6", null ],
-      [ "EVT_ERR_N_TRIGC_2", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5bab49abb127850cb1b9d39e25fb5bd5534", null ],
-      [ "EVT_ERR_N_QIE_0", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba789a27c2cb936128315940fbfca055db", null ],
-      [ "EVT_ERR_N_QIE_2", "df/dcd/classMainDaqParser.html#ac5a2c986919a56d39a0b9f86d2246a5ba3390f192e376912ac084c15f270cfbf2", null ]
-    ] ],
     [ "SpillType_t", "df/dcd/classMainDaqParser.html#a51fb62809eb2ad4380fa85c273e70478", [
       [ "TYPE_BOS", "df/dcd/classMainDaqParser.html#a51fb62809eb2ad4380fa85c273e70478a76e123ee229bf8f793b5b8be9db8a439", null ],
       [ "TYPE_EOS", "df/dcd/classMainDaqParser.html#a51fb62809eb2ad4380fa85c273e70478a2668d247aa4ff97f842a4bd34be0d8f3", null ]
@@ -19,6 +7,7 @@ var classMainDaqParser =
     [ "MainDaqParser", "df/dcd/classMainDaqParser.html#a5c5bb917a7b5e65b9787cea4ef9dc761", null ],
     [ "~MainDaqParser", "df/dcd/classMainDaqParser.html#a3c258d3157d5e339c5522130f496af51", null ],
     [ "End", "df/dcd/classMainDaqParser.html#ade90d9a3b3b05b89cc47a4bc4f1b194c", null ],
+    [ "GetCoda", "df/dcd/classMainDaqParser.html#a44b8e1e79624227a49e33f53fc67341a", null ],
     [ "NextPhysicsEvent", "df/dcd/classMainDaqParser.html#a82fee38c4e8fa7912e47085f7e66f97d", null ],
     [ "OpenCodaFile", "df/dcd/classMainDaqParser.html#a09b8b037548dfc3fda7765cc9715c669", null ],
     [ "PackOneSpillData", "df/dcd/classMainDaqParser.html#a341e77dca10164f77b996348f2f7330a", null ],
@@ -27,6 +16,11 @@ var classMainDaqParser =
     [ "ProcessBoardFeeQIE", "df/dcd/classMainDaqParser.html#abc962147bfa55fb5375adc73f82193c5", null ],
     [ "ProcessBoardJyTDC2", "df/dcd/classMainDaqParser.html#a189e8c180d739db6e426b43250a7c659", null ],
     [ "ProcessBoardScaler", "df/dcd/classMainDaqParser.html#a7bdb899d99bef39f20ccab4e0990029c", null ],
+    [ "ProcessBoardStdFeeQIE", "df/dcd/classMainDaqParser.html#a32388ead1827c562f2a3e209abcecd35", null ],
+    [ "ProcessBoardStdJyTDC2", "df/dcd/classMainDaqParser.html#aaf660d6779c3c411e8b97b7c723f2d92", null ],
+    [ "ProcessBoardStdTriggerBit", "df/dcd/classMainDaqParser.html#a86887583b18c4704cedf669de3a95bdb", null ],
+    [ "ProcessBoardStdTriggerCount", "df/dcd/classMainDaqParser.html#a0b284b4eb211171cadb849af1810d579", null ],
+    [ "ProcessBoardStdV1495TDC", "df/dcd/classMainDaqParser.html#ac3155641c3bb12fa7120a153c7d1cd83", null ],
     [ "ProcessBoardTriggerBit", "df/dcd/classMainDaqParser.html#a1467884089433bc3da29432b3a7b91b3", null ],
     [ "ProcessBoardTriggerCount", "df/dcd/classMainDaqParser.html#a27ce6f6077d5f92dbae1b949973cb83a", null ],
     [ "ProcessBoardV1495TDC", "df/dcd/classMainDaqParser.html#a963feecba4fdd069bd527440b55b3bd8", null ],
