@@ -17,7 +17,7 @@ digraph "DPDigitizer"
   Node6 [label="std::map\< std::string,\l int \>",height=0.2,width=0.4,color="grey75"];
   Node4 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="FreeSans"];
   Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" digits" ,fontname="FreeSans"];
-  Node7 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html"];
+  Node7 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html",tooltip="An SQ interface class to hold a list of SQHit objects. "];
   Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node8 [label="PHObject",height=0.2,width=0.4,color="black",URL="$d9/d24/classPHObject.html"];
   Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];

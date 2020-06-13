@@ -57,7 +57,7 @@ digraph "SQReco"
   Node23 [label="SQHitMap",height=0.2,width=0.4,color="black",URL="$d0/dac/classSQHitMap.html"];
   Node11 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node24 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _hit_vector\n_triggerhit_vector" ,fontname="FreeSans"];
-  Node24 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html"];
+  Node24 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html",tooltip="An SQ interface class to hold a list of SQHit objects. "];
   Node11 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node25 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _gfitter" ,fontname="FreeSans"];
   Node25 [label="SQGenFit::GFFitter",height=0.2,width=0.4,color="black",URL="$d8/d77/classSQGenFit_1_1GFFitter.html"];

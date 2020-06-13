@@ -188,7 +188,7 @@ digraph "Graphical Class Hierarchy"
   Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node92 [label="SQEvent_v1",height=0.2,width=0.4,color="black",URL="$dd/d59/classSQEvent__v1.html"];
   Node14 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
-  Node93 [label="SQHit",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html"];
+  Node93 [label="SQHit",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html",tooltip="An SQ interface class to hold one detector hit. "];
   Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node94 [label="SQHit_v1",height=0.2,width=0.4,color="black",URL="$d3/d2e/classSQHit__v1.html"];
   Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
@@ -198,7 +198,7 @@ digraph "Graphical Class Hierarchy"
   Node96 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node97 [label="SQHitMap_v1",height=0.2,width=0.4,color="black",URL="$d2/d62/classSQHitMap__v1.html"];
   Node14 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
-  Node98 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html"];
+  Node98 [label="SQHitVector",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html",tooltip="An SQ interface class to hold a list of SQHit objects. "];
   Node98 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
   Node99 [label="SQHitVector_v1",height=0.2,width=0.4,color="black",URL="$d9/dbf/classSQHitVector__v1.html"];
   Node14 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
