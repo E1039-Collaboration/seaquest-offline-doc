@@ -1,0 +1,26 @@
+digraph "DetectorConstruction"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DetectorConstruction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="G4VUserDetectorConstruction",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elementVec" ,fontname="FreeSans"];
+  Node3 [label="std::vector\< G4Element * \>",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" materialVec" ,fontname="FreeSans"];
+  Node4 [label="std::vector\< G4Material * \>",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" staSD" ,fontname="FreeSans"];
+  Node5 [label="GenericSD",height=0.2,width=0.4,color="black",URL="$d4/d82/classGenericSD.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="G4VSensitiveDetector",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" logicalVolumeVec" ,fontname="FreeSans"];
+  Node7 [label="std::vector\< G4LogicalVolume * \>",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" solidVec" ,fontname="FreeSans"];
+  Node8 [label="std::vector\< G4VSolid * \>",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mySettings" ,fontname="FreeSans"];
+  Node9 [label="Settings",height=0.2,width=0.4,color="black",URL="$df/d9a/classSettings.html"];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" rotationMatrixVec" ,fontname="FreeSans"];
+  Node10 [label="std::vector\< G4RotationMatrix * \>",height=0.2,width=0.4,color="grey75"];
+}

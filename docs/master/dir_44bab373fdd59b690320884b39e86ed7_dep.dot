@@ -1,0 +1,17 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/packages/Display/modules" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_ad96a070a8764384151950b77cc12f77 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Display" fontname="FreeSans", fontsize="10", URL="dir_ad96a070a8764384151950b77cc12f77.html"]
+  dir_44bab373fdd59b690320884b39e86ed7 [shape=box, label="modules", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_44bab373fdd59b690320884b39e86ed7.html"];
+  }
+  dir_5fde958d0efff8f0c14671d1322e68e9 [shape=box label="geom_svc" color="red" URL="dir_5fde958d0efff8f0c14671d1322e68e9.html"];
+  dir_68879e08c6651a210f7d5b44f4a6e313 [shape=box label="framework" color="red" URL="dir_68879e08c6651a210f7d5b44f4a6e313.html"];
+  dir_4109f03a5b9c2dae233205e99792f74d [shape=box label="interface_main" URL="dir_4109f03a5b9c2dae233205e99792f74d.html"];
+  dir_4109f03a5b9c2dae233205e99792f74d->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="29", labeldistance=1.5 headhref="dir_000032_000024.html"];
+  dir_44bab373fdd59b690320884b39e86ed7->dir_5fde958d0efff8f0c14671d1322e68e9 [headlabel="1", labeldistance=1.5 headhref="dir_000052_000056.html"];
+  dir_44bab373fdd59b690320884b39e86ed7->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="9", labeldistance=1.5 headhref="dir_000052_000024.html"];
+  dir_44bab373fdd59b690320884b39e86ed7->dir_4109f03a5b9c2dae233205e99792f74d [headlabel="4", labeldistance=1.5 headhref="dir_000052_000032.html"];
+}

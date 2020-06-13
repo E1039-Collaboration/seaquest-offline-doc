@@ -1,0 +1,12 @@
+digraph "OnlMonV1495::DrawMonitor"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OnlMonV1495::DrawMonitor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OnlMonClient::GetCanvas",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="OnlMonCanvas::GetMainPad",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183"];
+}

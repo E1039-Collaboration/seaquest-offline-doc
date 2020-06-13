@@ -1,0 +1,14 @@
+digraph "PHHepMCParticleSelectorDecayProductChain::process_event"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHHepMCParticleSelectorDecay\lProductChain::process_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHHepMCGenEventMap::get",height=0.2,width=0.4,color="black",URL="$d5/d41/classPHHepMCGenEventMap.html#aeee51cbc5dbbd18af41e66c03e955319",tooltip="fetch event "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHHepMCGenEvent::getEvent",height=0.2,width=0.4,color="black",URL="$d7/d7b/classPHHepMCGenEvent.html#a086a77104ec225e191885f9db7538521"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHHepMCParticleSelectorDecay\lProductChain::GetParent",height=0.2,width=0.4,color="black",URL="$d5/d18/classPHHepMCParticleSelectorDecayProductChain.html#ae3f510b7168d4ba797d0954bc5de7d99",tooltip="find out if a particle comes from one of _theAncestors "];
+}

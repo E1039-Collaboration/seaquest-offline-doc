@@ -1,0 +1,38 @@
+digraph "SQReco::InitGeom"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQReco::InitGeom",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHGeomUtility::GetGeomTGeoNode",height=0.2,width=0.4,color="black",URL="$d2/da1/classPHGeomUtility.html#a93ec483f3447fdefc3a471601fc8587b",tooltip="Get non-persistent PHGeomTGeo from DST nodes. If not found, make a new one. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="black",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa"];
+  Node3 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHNode::getName",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHNode::getType",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html#a4ab1f90aed955a652813bfe377087bda"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHGeomUtility::GetTGeoManager",height=0.2,width=0.4,color="black",URL="$d2/da1/classPHGeomUtility.html#aa80925b14430021ea70d0b906af8e885",tooltip="Main user interface: DST node -&gt; TGeoManager for downstream use. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHGeomTGeo::GetGeometry",height=0.2,width=0.4,color="black",URL="$d7/d6d/classPHGeomTGeo.html#a3e111f6229f7ce6392b14a98fdf5bea9"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHGeomTGeo::ConsistencyCheck",height=0.2,width=0.4,color="black",URL="$d7/d6d/classPHGeomTGeo.html#af37739b87530fe2bbd5d8d03098c1821"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHGeomTGeo::isValid",height=0.2,width=0.4,color="black",URL="$d7/d6d/classPHGeomTGeo.html#a69190f7dbaee394d90516bce19e224a0",tooltip="isValid returns non zero if object contains vailid data "];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHGeomUtility::ImportGeomFile",height=0.2,width=0.4,color="black",URL="$d2/da1/classPHGeomUtility.html#a4a80252bedb22198d011065e41aa669e",tooltip="TGeo ROOT/GDML/Macro file -&gt; DST node with automatic file type discrimination based on file names..."];
+  Node10 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHGeomTGeo::Reset",height=0.2,width=0.4,color="black",URL="$d7/d6d/classPHGeomTGeo.html#af0772491188524c7674c1ef004d49ad5",tooltip="Clear Event. "];
+  Node11 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="PHGeomTGeo::SetGeometry",height=0.2,width=0.4,color="black",URL="$d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926"];
+  Node12 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Fun4AllBase::Verbosity",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40",tooltip="Gets the verbosity of this module. "];
+}

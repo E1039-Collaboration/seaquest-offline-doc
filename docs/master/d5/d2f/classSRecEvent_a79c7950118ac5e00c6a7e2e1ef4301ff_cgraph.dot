@@ -1,0 +1,24 @@
+digraph "SRecEvent::setRawEvent"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SRecEvent::setRawEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SRawEvent::getHit",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a659ce19883485b43f7e4a100e8ca6ccf"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SRawEvent::getNHitsAll",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a565e2bbd3b852d7e203c35130b066719"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SRecEvent::setEventInfo",height=0.2,width=0.4,color="black",URL="$d5/d2f/classSRecEvent.html#ac5d74e36a889c49679ab6549c09c8bf7",tooltip="Set/Get event info. "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SRawEvent::getEventID",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a378b3b2729b651de9479c7bcd7aec169"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SRawEvent::getRunID",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#ae928532903e0ef04e5cec7612859933d"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="SRawEvent::getSpillID",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a28ff31d5b5e95a20cb41ca4fa8f28a0a"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="SRawEvent::getTargetPos",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#ae769e86a7cbcc030bd5d5c747aec77a1"];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="SRawEvent::getTriggerBits",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a51cd8d3010d8a2df78fe5543a2a6cb31",tooltip="Set/get the trigger types. "];
+}

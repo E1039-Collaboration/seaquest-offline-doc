@@ -1,0 +1,23 @@
+digraph "KalmanFastTracking::acceptTracklet"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="KalmanFastTracking\l::acceptTracklet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="KalmanFastTracking\l::buildBackPartialTracks",height=0.2,width=0.4,color="black",URL="$d3/d46/classKalmanFastTracking.html#a53e313d5cd40faa789fbe1dbe716f192"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="KalmanFastTracking\l::setRawEvent",height=0.2,width=0.4,color="black",URL="$d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="KalmanFastTrackingWrapper\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQReco::process_event",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="KalmanFastTracking\l::buildGlobalTracks",height=0.2,width=0.4,color="black",URL="$d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="KalmanFastTracking\l::buildTrackletsInStation",height=0.2,width=0.4,color="black",URL="$d3/d46/classKalmanFastTracking.html#a4aab1bd454f44de3a3ed2569efeca4b7",tooltip="Tracklet finding stuff. "];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

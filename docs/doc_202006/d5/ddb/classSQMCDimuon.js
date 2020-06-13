@@ -1,0 +1,26 @@
+var classSQMCDimuon =
+[
+    [ "SQMCDimuon", "d5/ddb/classSQMCDimuon.html#a6dceb92cbdff684830a964c327a6c5d4", null ],
+    [ "~SQMCDimuon", "d5/ddb/classSQMCDimuon.html#a293e6aec09b03952eaae2d30c9afaca7", null ],
+    [ "calcVariables", "d5/ddb/classSQMCDimuon.html#a5bcb737712e92a8fd3f068f4b8a574fe", null ],
+    [ "get_Dimuon_xs", "d5/ddb/classSQMCDimuon.html#a9f2995770126afab674b4256a015305b", null ],
+    [ "Reset", "d5/ddb/classSQMCDimuon.html#a2a4d5185e2849758a61432c2eecfe630", null ],
+    [ "set_Dimuon_xs", "d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb", null ],
+    [ "operator<<", "d5/ddb/classSQMCDimuon.html#a38bd365786b050e24a02628328089bf6", null ],
+    [ "Dimuon_xs", "d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b", null ],
+    [ "fAccepted", "d5/ddb/classSQMCDimuon.html#a151d4cc31a1c615cf3032fe6409cb70e", null ],
+    [ "fCosTh", "d5/ddb/classSQMCDimuon.html#a05c0f8556cf97971327e9310420c5633", null ],
+    [ "fDimuonID", "d5/ddb/classSQMCDimuon.html#a065cb2132ae9217b10b7fe358a8e50ed", null ],
+    [ "fMass", "d5/ddb/classSQMCDimuon.html#a7b435831e69e96f0f3fe95edfac6c092", null ],
+    [ "fNegMomentum", "d5/ddb/classSQMCDimuon.html#a3d6f8a55fab5a9785e8b1fb766a6ad62", null ],
+    [ "fNegTrackID", "d5/ddb/classSQMCDimuon.html#af996bf98fcb9f5393e0be771a31e694e", null ],
+    [ "fOriginVol", "d5/ddb/classSQMCDimuon.html#a772cdd1e2612dc83d52005bfbc0c96de", null ],
+    [ "fPhi", "d5/ddb/classSQMCDimuon.html#a00617f1a62be7e682aec59ff5032b7f7", null ],
+    [ "fPosMomentum", "d5/ddb/classSQMCDimuon.html#a69c490150f7ddc4718bd36563f62d094", null ],
+    [ "fPosTrackID", "d5/ddb/classSQMCDimuon.html#a9ea04921a2483c3f041766df38e37f6c", null ],
+    [ "fpT", "d5/ddb/classSQMCDimuon.html#a514468d7dfb228b7c73e1a37dbd97528", null ],
+    [ "fVertex", "d5/ddb/classSQMCDimuon.html#a08c0b0b3c32ee886bf27b1e5a57b6122", null ],
+    [ "fx1", "d5/ddb/classSQMCDimuon.html#a20c79ed83ebdfa8fb59bf7c0c52705b4", null ],
+    [ "fx2", "d5/ddb/classSQMCDimuon.html#a77e8ec92b2e589aaa655c2200dbbabd5", null ],
+    [ "fxF", "d5/ddb/classSQMCDimuon.html#ac7f0bbaf847ff683ca99fc47ea742d9d", null ]
+];

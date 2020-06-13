@@ -1,0 +1,20 @@
+digraph "OnlMonMainDaq::DrawMonitor"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OnlMonMainDaq::DrawMonitor",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OnlMonCanvas::AddMessage",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="UtilHist::AutoSetRange",height=0.2,width=0.4,color="black",URL="$d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="UtilHist::FindFilledRange",height=0.2,width=0.4,color="black",URL="$d3/daf/namespaceUtilHist.html#a3cf821e9299974225cc90084beadcb30"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="OnlMonCanvas::GetMainPad",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="OnlMonCanvas::SetStatus",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="OnlMonCanvas::SetWorseStatus",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#afe5cfc9e7acdac2773513ba5f33f57f0"];
+}

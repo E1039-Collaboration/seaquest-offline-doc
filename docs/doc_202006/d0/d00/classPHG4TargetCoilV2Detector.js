@@ -1,0 +1,15 @@
+var classPHG4TargetCoilV2Detector =
+[
+    [ "PHG4TargetCoilV2Detector", "d0/d00/classPHG4TargetCoilV2Detector.html#a07b9d0d269312dac71b069e02a4adee3", null ],
+    [ "~PHG4TargetCoilV2Detector", "d0/d00/classPHG4TargetCoilV2Detector.html#a6ac05874f326ebc52bbca671d1c6cadb", null ],
+    [ "Construct", "d0/d00/classPHG4TargetCoilV2Detector.html#ae28a3e7c09d003ef2d7e85ad3ddf8769", null ],
+    [ "get_elem_id", "d0/d00/classPHG4TargetCoilV2Detector.html#a6c7696ca21f9fc7a1e5bd8d237465090", null ],
+    [ "get_Layer", "d0/d00/classPHG4TargetCoilV2Detector.html#a6293c4e7f3c01e64c1b0dc3a12aceb18", null ],
+    [ "IsInCylinder", "d0/d00/classPHG4TargetCoilV2Detector.html#abc82b901e18e4fb2167596066661b13d", null ],
+    [ "SuperDetector", "d0/d00/classPHG4TargetCoilV2Detector.html#aba2df8ab9bb6de75f9dc679779d03937", null ],
+    [ "SuperDetector", "d0/d00/classPHG4TargetCoilV2Detector.html#a92642d3727e6b90b45c77f892214bffd", null ],
+    [ "cylinder_physi", "d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6", null ],
+    [ "layer", "d0/d00/classPHG4TargetCoilV2Detector.html#a0c05c41a68750bf9bdd8773da0c084a6", null ],
+    [ "params", "d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d", null ],
+    [ "superdetector", "d0/d00/classPHG4TargetCoilV2Detector.html#ad8de7ff0ff2d00fd96a0b8671ca5848c", null ]
+];

@@ -1,0 +1,32 @@
+digraph "TriggerAnalyzer::trimEvent"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="TriggerAnalyzer::trimEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="TriggerAnalyzer::acceptEvent",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#ad9cfc03722fb7065da7c30e9ff6a62e1"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="TriggerRoad::getRoadID",height=0.2,width=0.4,color="black",URL="$d5/d72/classTriggerRoad.html#affb1214bf3dda5cbeb9ff171ab681641"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="TriggerRoad::getTB",height=0.2,width=0.4,color="black",URL="$d5/d72/classTriggerRoad.html#a54f9154ab88c8742e9ed4d8df493c9db"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="GeomSvc::getMeasurement",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a5a50feb4de0351f6d3d739dbc66d6247",tooltip="Convert the detectorID and elementID to the actual hit position. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="TriggerAnalyzer::getNRoads\lNegBot",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#a41633691ed466ce8f5eec57d3fbba875"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="TriggerAnalyzer::getNRoads\lNegTop",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#a3862bedaf3afdb2fbd3a152b1b59033b"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="TriggerAnalyzer::getNRoads\lPosBot",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#a5ee1effdec559c713e59a68baaa735b7"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="TriggerAnalyzer::getNRoads\lPosTop",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#ab689aa54f443aad962ba28b071bfebb1"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Hit::setInTime",height=0.2,width=0.4,color="black",URL="$d0/d88/classHit.html#ad56973a505f8aee1cf1fc1b9b5cc8335"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="SRawEvent::setNRoads",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a5a500712ec89db44020d8ab8e7d7b607"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="SRawEvent::setTriggerEmu",height=0.2,width=0.4,color="black",URL="$d5/d83/classSRawEvent.html#a35713143af2898c9b3347d9a2090ddcd"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Hit::setTriggerMask",height=0.2,width=0.4,color="black",URL="$d0/d88/classHit.html#ab0b03a327ed7af2ceec1f7130cf944ec"];
+}

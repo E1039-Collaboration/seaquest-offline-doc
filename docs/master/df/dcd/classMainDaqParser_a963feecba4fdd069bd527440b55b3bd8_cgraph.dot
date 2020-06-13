@@ -1,0 +1,14 @@
+digraph "MainDaqParser::ProcessBoardV1495TDC"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainDaqParser::ProcessBoard\lV1495TDC",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Abort",height=0.2,width=0.4,color="black",URL="$d8/d78/CodaInputManager_8cc.html#a7aba209881ef8e916080304c12f70d18"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="get_hex_bits",height=0.2,width=0.4,color="black",URL="$d8/d78/CodaInputManager_8cc.html#a64e9930ff828b30da3572a5ff66a4115"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="MainDaqParser::SetEventInfo",height=0.2,width=0.4,color="black",URL="$df/dcd/classMainDaqParser.html#aeecce7618f04fe0ece68943ee1d885aa"];
+}

@@ -1,0 +1,14 @@
+digraph "SQScaler_v1::SQScaler_v1"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQScaler_v1::SQScaler_v1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQScaler_v1::Clone",height=0.2,width=0.4,color="black",URL="$d4/d64/classSQScaler__v1.html#a87c02f3e3db663ae8212d80c92fa0714",tooltip="Use Clone() or clone()?? "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQScaler_v1::clone",height=0.2,width=0.4,color="black",URL="$d4/d64/classSQScaler__v1.html#abbb21fabd72e3b525dbeb296911f95dc",tooltip="Use Clone() or clone()?? "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQScaler_v1::Reset",height=0.2,width=0.4,color="black",URL="$d4/d64/classSQScaler__v1.html#a55bea7f662a406df235c0c402e7ba584",tooltip="Clear Event. "];
+}

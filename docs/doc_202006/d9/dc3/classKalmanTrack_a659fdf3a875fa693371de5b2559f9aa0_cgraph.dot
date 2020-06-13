@@ -1,0 +1,46 @@
+digraph "KalmanTrack::addHit"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="KalmanTrack::addHit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="KalmanFilter::filter",height=0.2,width=0.4,color="black",URL="$d6/d2a/classKalmanFilter.html#a06b2c6aa660f89c5f30e164b0a29512c"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SMatrix::getABCt",height=0.2,width=0.4,color="black",URL="$d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SMatrix::getABtC",height=0.2,width=0.4,color="black",URL="$d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SMatrix::getAtBC",height=0.2,width=0.4,color="black",URL="$d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Node::getFiltered",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Node::getMeasurement",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Node::getMeasurementCov",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Node::getPredicted",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8",tooltip="Gets. "];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Node::getProjector",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd"];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="SMatrix::invertMatrix",height=0.2,width=0.4,color="black",URL="$d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a"];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="Node::isFilterDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c"];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="Node::isPredictionDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="Node::setChisq",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e"];
+  Node2 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="Node::setFilterDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="KalmanFilter::instance",height=0.2,width=0.4,color="black",URL="$d6/d2a/classKalmanFilter.html#a6f0a34958ea81f4f3843ad3c03bfa366",tooltip="singlton instance "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="KalmanFilter::KalmanFilter",height=0.2,width=0.4,color="black",URL="$d6/d2a/classKalmanFilter.html#ae44df2d206d9c7a7083b1a0313f20a73",tooltip="Real constructor. "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="Node::setPredictionDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a10e8167a975add910020702519aaadb0"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="KalmanTrack::update",height=0.2,width=0.4,color="black",URL="$d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e",tooltip="Update the track status. "];
+}

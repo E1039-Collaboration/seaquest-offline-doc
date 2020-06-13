@@ -1,0 +1,12 @@
+digraph "get_gun"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="get_gun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Fun4AllServer::getSubsysReco",height=0.2,width=0.4,color="black",URL="$da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Fun4AllServer::instance",height=0.2,width=0.4,color="black",URL="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a"];
+}

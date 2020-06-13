@@ -1,0 +1,14 @@
+digraph "PHNodeIOManager::PHNodeIOManager"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHNodeIOManager::PHNodeIOManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHNodeIOManager::setFile",height=0.2,width=0.4,color="black",URL="$d7/d4d/classPHNodeIOManager.html#a5d6181baf8cf3741d062e1b50eb8c131"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHNodeIOManager::closeFile",height=0.2,width=0.4,color="black",URL="$d7/d4d/classPHNodeIOManager.html#a684551827a6ed397d1cab2d4dfee988d"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHNodeIOManager::selectObject\lToRead",height=0.2,width=0.4,color="black",URL="$d7/d4d/classPHNodeIOManager.html#a7f701a7b25803133c586853f87454a3a"];
+}

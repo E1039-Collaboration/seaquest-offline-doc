@@ -1,0 +1,10 @@
+digraph "PHG4RegionInformation::SetWorld"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4RegionInformation\l::SetWorld",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4PhenixDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$d1/d13/classPHG4PhenixDetector.html#aed5e9a8d0ba20e1fef8a48240aa06b85",tooltip="this is called by geant to actually construct all detectors "];
+}

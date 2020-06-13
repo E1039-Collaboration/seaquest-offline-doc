@@ -1,0 +1,10 @@
+digraph "OnlMonMainDaq::OnlMonMainDaq"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OnlMonMainDaq::OnlMonMainDaq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OnlMonMainDaq::Clone",height=0.2,width=0.4,color="black",URL="$d8/d69/classOnlMonMainDaq.html#a99d24d75f7feee752010b182875de460"];
+}

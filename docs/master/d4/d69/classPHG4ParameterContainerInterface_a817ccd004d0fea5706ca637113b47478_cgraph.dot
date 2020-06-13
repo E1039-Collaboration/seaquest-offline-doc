@@ -1,0 +1,23 @@
+digraph "PHG4ParameterContainerInterface::UpdateParametersWithMacro"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParameterContainerInterface\l::UpdateParametersWithMacro",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4ParameterContainerInterface\l::CreateInitialize",height=0.2,width=0.4,color="black",URL="$d4/d69/classPHG4ParameterContainerInterface.html#a0553a355ae2d94250f4383fc54c88c18"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4ParametersContainer\l::AddPHG4Parameters",height=0.2,width=0.4,color="black",URL="$d5/d5f/classPHG4ParametersContainer.html#a4a75fbc12b4219993210c82c1fb4f165"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4ParametersContainer\l::GetParametersToModify",height=0.2,width=0.4,color="black",URL="$d5/d5f/classPHG4ParametersContainer.html#ad8e3be7b9f2dfbeda9b7fa524e6e637d"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4ParametersContainer\l::Name",height=0.2,width=0.4,color="black",URL="$d5/d5f/classPHG4ParametersContainer.html#a8d85fde2c957047fc5eccf45df464efb"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4Parameters::set\l_double_param",height=0.2,width=0.4,color="black",URL="$da/d29/classPHG4Parameters.html#a40d8acd8a8c5475928d5b5dacf38f583"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4Parameters::set\l_int_param",height=0.2,width=0.4,color="black",URL="$da/d29/classPHG4Parameters.html#a6d831f6d8c5f18dcbbf66236e973dd1f"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4Parameters::set\l_string_param",height=0.2,width=0.4,color="black",URL="$da/d29/classPHG4Parameters.html#ac0ae53e353d265af89ecb5ef10d9da3e"];
+}

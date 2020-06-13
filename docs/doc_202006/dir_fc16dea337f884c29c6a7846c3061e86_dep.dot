@@ -1,0 +1,16 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/packages/PHGeometry" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_8ea7cac0f8d8113a9a7e5b799137b771 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="packages" fontname="FreeSans", fontsize="10", URL="dir_8ea7cac0f8d8113a9a7e5b799137b771.html"]
+  subgraph clusterdir_fc16dea337f884c29c6a7846c3061e86 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fc16dea337f884c29c6a7846c3061e86.html"];
+    dir_fc16dea337f884c29c6a7846c3061e86 [shape=plaintext label="PHGeometry"];
+    dir_25d4fd782c23792dda48cffd10f22b57 [shape=box label="macros" color="black" fillcolor="white" style="filled" URL="dir_25d4fd782c23792dda48cffd10f22b57.html"];
+  }
+  }
+  dir_68879e08c6651a210f7d5b44f4a6e313 [shape=box label="framework" color="red" URL="dir_68879e08c6651a210f7d5b44f4a6e313.html"];
+  dir_fc16dea337f884c29c6a7846c3061e86->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="16", labeldistance=1.5 headhref="dir_000062_000024.html"];
+}

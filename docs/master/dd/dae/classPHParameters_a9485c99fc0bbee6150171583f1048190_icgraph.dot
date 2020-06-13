@@ -1,0 +1,12 @@
+digraph "PHParameters::SaveToNodeTree"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHParameters::SaveToNodeTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4DetectorSubsystem\l::InitRun",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#a3c2ac5dc436f84e09140b6e2a1be8ff9"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHParameterInterface\l::SaveToNodeTree",height=0.2,width=0.4,color="black",URL="$d4/d31/classPHParameterInterface.html#ab386d05bc4aa6e4e3fcd2ff4d466aeb1"];
+}

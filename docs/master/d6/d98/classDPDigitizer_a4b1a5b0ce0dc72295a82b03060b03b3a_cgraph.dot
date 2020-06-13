@@ -1,0 +1,43 @@
+digraph "DPDigitizer::Init"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="DPDigitizer::Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="GeomSvc::instance",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4",tooltip="singlton instance "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="GeomSvc::init",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6",tooltip="Initialization, either from MySQL or from ascii file. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="GeomSvc::initPlaneDbSvc",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="GeomSvc::toLocalDetectorName",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a315e886f05db8254ed7d320706e268e6",tooltip="Convert the official detectorName to local detectorName. "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Plane::update",height=0.2,width=0.4,color="black",URL="$dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Plane::getW",height=0.2,width=0.4,color="black",URL="$dc/d90/classPlane.html#a48ab3a309bee8c386464b36a7593df16"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="GeomSvc::initPlaneDirect",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a0d550b9f787318d57cdae9db2d04d6fb"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="JobOptsSvc::instance",height=0.2,width=0.4,color="black",URL="$d8/d62/classJobOptsSvc.html#aeb0d694dc08274aa90b0d6b1ee8384cb",tooltip="singlton instance "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="debug",height=0.2,width=0.4,color="black",URL="$dd/d23/JobOptsSvc_8cxx.html#a71e70a8ecc08c35494b083076d2ace7b"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="GeomSvc::loadMilleAlignment",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8"];
+  Node11 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="GeomSvc::loadAlignment",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8"];
+  Node12 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="GeomSvc::loadCalibration",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="GeomSvc::getDetectorName",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb"];
+  Node3 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="GeomSvc::initWireLUT",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d"];
+}

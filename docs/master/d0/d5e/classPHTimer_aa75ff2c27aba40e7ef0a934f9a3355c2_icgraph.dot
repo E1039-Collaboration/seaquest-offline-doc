@@ -1,0 +1,26 @@
+digraph "PHTimer::get_difference"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHTimer::get_difference",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHTimer::elapsed",height=0.2,width=0.4,color="black",URL="$d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685",tooltip="retrieve elapsed value since last restart (in ms) "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHTimer::print",height=0.2,width=0.4,color="black",URL="$d0/d5e/classPHTimer.html#a888198bd40c6e112b820d6b78406e3aa",tooltip="Dump elapsed time to provided ostream. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHTimer::test",height=0.2,width=0.4,color="black",URL="$d0/d5e/classPHTimer.html#a01cc1f85cc7a3303d38cb5a7a2f0a749",tooltip="test PHTimer for a given amount of time (in ms) "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHTimer::stop",height=0.2,width=0.4,color="black",URL="$d0/d5e/classPHTimer.html#adce6f9a85834e59bd154b9c624ee4e41",tooltip="stops the counter "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4BlockCellReco::\lprocess_event",height=0.2,width=0.4,color="black",URL="$df/d5e/classPHG4BlockCellReco.html#a8031ff9bacb684d523acc71c14054cdb",tooltip="event processing "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4CylinderCellReco\l::process_event",height=0.2,width=0.4,color="black",URL="$d5/dd0/classPHG4CylinderCellReco.html#acd9297cbac172c726c8da55f875a824a",tooltip="event processing "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4CylinderCellTPCReco\l::process_event",height=0.2,width=0.4,color="black",URL="$dc/d94/classPHG4CylinderCellTPCReco.html#a75c377807a2b0585b5bad470cb2cf9f5",tooltip="event processing "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4PhenixEventAction\l::EndOfEventAction",height=0.2,width=0.4,color="black",URL="$d9/d7a/classPHG4PhenixEventAction.html#a2a4797d6cc52dc97b4a234b79dc82b80"];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4Reco::process_event",height=0.2,width=0.4,color="black",URL="$d0/d78/classPHG4Reco.html#acd26753502bdd59a8325e609024b8156",tooltip="event processing method "];
+}

@@ -1,0 +1,12 @@
+digraph "PHG4CollimatorSteppingAction::SetInterfacePointers"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4CollimatorSteppingAction\l::SetInterfacePointers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Detector::GetName",height=0.2,width=0.4,color="black",URL="$d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4CollimatorDetector\l::SuperDetector",height=0.2,width=0.4,color="black",URL="$d8/d44/classPHG4CollimatorDetector.html#a396a9c6104aca7f62cae8d0447a7c22c"];
+}

@@ -1,0 +1,30 @@
+digraph "Fun4AllHepMCInputManager::fileclose"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fun4AllHepMCInputManager\l::fileclose",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Fun4AllHepMCInputManager\l::fileopen",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Fun4DB",height=0.2,width=0.4,color="black",URL="$df/dc0/Fun4DB_8C.html#a156048b96f7485e3cc410afbc05fc286"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="eve_disp_db",height=0.2,width=0.4,color="black",URL="$de/d2a/eve__disp__db_8C.html#aa8b45dd9cf940c8aff427aed5d9db19f"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Fun4AllHepMCInputManager\l::OpenNextFile",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#a0eee823ea0302273e9e2d3459bcc3508"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Fun4AllHepMCInputManager::run",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#ab6c80a8ee0701bfff5eee3ec3623015c"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Fun4AllHepMCPileupInputManager::run",height=0.2,width=0.4,color="black",URL="$de/d99/classFun4AllHepMCPileupInputManager.html#a81bf2b69c3c4d3aae0aadebafe1c2c2e"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Fun4Sim",height=0.2,width=0.4,color="black",URL="$d5/d4a/e1039-analysis_2SimChainDev_2Fun4Sim_8C.html#a05d19d59f1955a51d54ae22957bbcf86"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Fun4AllHepMCInputManager\l::PushBackEvents",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#a13e980270840f354ddd73834d9f90fc2"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Fun4AllHepMCInputManager\l::NoSyncPushBackEvents",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#a029ae29076ba01a4ca36f7047964dc8f"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Fun4AllHepMCInputManager\l::~Fun4AllHepMCInputManager",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#aa3b44c632c823330ae4e1c1a52bdbb0c"];
+}

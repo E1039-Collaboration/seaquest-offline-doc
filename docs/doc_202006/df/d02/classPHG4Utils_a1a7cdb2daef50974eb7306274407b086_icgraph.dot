@@ -1,0 +1,24 @@
+digraph "PHG4Utils::SetColour"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4Utils::SetColour",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4BlockDetector::\lConstruct",height=0.2,width=0.4,color="black",URL="$dc/d36/classPHG4BlockDetector.html#aaca6af5fccde9dcfdc03ff3033569db2",tooltip="construct "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4CollimatorDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$d8/d44/classPHG4CollimatorDetector.html#a870097d3b8391e28d314cca30a4eabe6",tooltip="construct "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4TargetCoilDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$df/dec/classPHG4TargetCoilDetector.html#a98aec1b4b1c7927bed92574f0ef85f76",tooltip="construct "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4BNLTargetCoilDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$d7/d21/classPHG4BNLTargetCoilDetector.html#a16c32900d2a48f11dc455765404f20a0",tooltip="construct "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4CylinderDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$d3/d95/classPHG4CylinderDetector.html#a6fa5431545a727e69c380d93d141357f",tooltip="construct "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4TargetCoilV2Detector\l::Construct",height=0.2,width=0.4,color="black",URL="$d0/d00/classPHG4TargetCoilV2Detector.html#ae28a3e7c09d003ef2d7e85ad3ddf8769",tooltip="construct "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4PolyconDetector\l::Construct",height=0.2,width=0.4,color="black",URL="$d8/db8/classPHG4PolyconDetector.html#a78253ae45c0a5aadaa7120e7178ccca1",tooltip="construct "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4ConeDetector::Construct",height=0.2,width=0.4,color="black",URL="$d6/d41/classPHG4ConeDetector.html#ae9950a3dc1632d3d824267316ffc055e",tooltip="construct "];
+}

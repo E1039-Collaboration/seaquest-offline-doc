@@ -1,0 +1,10 @@
+digraph "PHG4ParametersContainer::WriteToFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParametersContainer\l::WriteToFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4DetectorGroupSubsystem\l::SaveParamsToFile",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a55ef1ae528c71c43bbd8c9fa04454094"];
+}

@@ -1,0 +1,26 @@
+digraph "EventReducer::initHodoMaskLUT"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="EventReducer::initHodoMaskLUT",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="GeomSvc::get2DBoxSize",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#af4a7c6010841138de3cbcabe33ec8e03"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="GeomSvc::getDetectorName",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="GeomSvc::getDetectorID",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2",tooltip="Get the plane position. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="GeomSvc::getExpElementID",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#aa473fe84216b361eab68967a0d41e30f"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="GeomSvc::getPlaneNElements",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="GeomSvc::getPlanePosition",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a58a3d25847e956be5173e1c0241d8cc3"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="GeomSvc::getPlaneType",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#ac22b1c50a84423eb7aa7792595c2fca1"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="GeomSvc::getWireEndPoints",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a247234ec614ff09436ae5da46c2af983"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="EventReducer::lineCrossing",height=0.2,width=0.4,color="black",URL="$d5/dda/classEventReducer.html#a683856e4721e710f3a21597bffbc2da6"];
+}

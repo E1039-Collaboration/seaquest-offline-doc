@@ -1,0 +1,12 @@
+digraph "PHG4TargetCoilSteppingAction::SetInterfacePointers"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4TargetCoilSteppingAction\l::SetInterfacePointers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Detector::GetName",height=0.2,width=0.4,color="black",URL="$d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4TargetCoilDetector\l::SuperDetector",height=0.2,width=0.4,color="black",URL="$df/dec/classPHG4TargetCoilDetector.html#a3c8b75b05e97b85910bbbeb4ce25190d"];
+}

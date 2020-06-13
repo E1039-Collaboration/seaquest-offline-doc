@@ -1,0 +1,16 @@
+digraph "PropSegment::identify"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PropSegment::identify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PropSegment::print",height=0.2,width=0.4,color="black",URL="$d0/d1e/classPropSegment.html#a04dbc4d41941e680c639e94c335768c6"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PropSegment::getNHits",height=0.2,width=0.4,color="black",URL="$d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PropSegment::getNPlanes",height=0.2,width=0.4,color="black",URL="$d0/d1e/classPropSegment.html#ac9d12f6f1989c4165c36e82622932a12"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PropSegment::getExpPosition",height=0.2,width=0.4,color="black",URL="$d0/d1e/classPropSegment.html#a33d7789b109a4815fc5c76d391003df9"];
+}

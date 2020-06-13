@@ -1,0 +1,26 @@
+digraph "mTrkEveDisplay::draw_hits"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mTrkEveDisplay::draw_hits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQHitVector::begin",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html#a194d01789d543dd623068b46c450e434"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQHitVector::end",height=0.2,width=0.4,color="black",URL="$d9/dbc/classSQHitVector.html#afc94725c2663f4280cabaa5754a57f17"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQHit::get_detector_id",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQHit::get_element_id",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html#a4ce14b27ab63d03e5f3aab541b2efe26"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="mTrkEveDisplay::hit\l_to_wire",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#a2d81773e8944852045fb20a235565ad8"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="GeomSvc::getMeasurement",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a5a50feb4de0351f6d3d739dbc66d6247",tooltip="Convert the detectorID and elementID to the actual hit position. "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="GeomSvc::getCostheta",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a23e7d026a79544283e2b654f3d0d5c8e"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="GeomSvc::getSintheta",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a41346cb0bb159f91049cfc0a284c1b29"];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="GeomSvc::getPlane",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a17c4a4237ff0337468553fe73454fa66"];
+}

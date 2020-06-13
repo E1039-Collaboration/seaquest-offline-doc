@@ -1,0 +1,12 @@
+digraph "SQPrimaryVertexGen::generateVtxPerp"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQPrimaryVertexGen\l::generateVtxPerp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQPrimaryVertexGen\l::traverse",height=0.2,width=0.4,color="black",URL="$d8/dc4/classSQPrimaryVertexGen.html#aee609798c429586963ce6d5b12f0c014"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQPrimaryParticleGen\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b"];
+}

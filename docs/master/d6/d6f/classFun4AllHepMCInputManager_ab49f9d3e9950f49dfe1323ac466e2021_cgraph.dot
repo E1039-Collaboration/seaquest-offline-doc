@@ -1,0 +1,36 @@
+digraph "Fun4AllHepMCInputManager::Fun4AllHepMCInputManager"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fun4AllHepMCInputManager\l::Fun4AllHepMCInputManager",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHCompositeNode::addNode",height=0.2,width=0.4,color="black",URL="$d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHNode::getName",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHNode::setParent",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html#adda2bd6cef2d5067bbe3016a990b7198"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHPointerList::append",height=0.2,width=0.4,color="black",URL="$d6/d86/classPHPointerList.html#af5fc4e6958b5b90c57bfb497566f503c"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Fun4AllServer::getNode",height=0.2,width=0.4,color="black",URL="$da/d29/classFun4AllServer.html#ac42fd391b795d9605811abb9394c2011"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Fun4AllServer::topNode",height=0.2,width=0.4,color="black",URL="$da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHNodeIterator::findFirst",height=0.2,width=0.4,color="black",URL="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHNode::getType",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html#a4ab1f90aed955a652813bfe377087bda"];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Fun4AllServer::instance",height=0.2,width=0.4,color="black",URL="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Fun4AllHepMCInputManager\l::set_embedding_id",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#a37cab2f9f12d53223bdc72cde7baeaee"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="PHHepMCGenHelper::set\l_embedding_id",height=0.2,width=0.4,color="black",URL="$dd/d2a/classPHHepMCGenHelper.html#a884de454f3d4310e9481815d85f6e2fc"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="PHHepMCGenHelper::set\l_geneventmap",height=0.2,width=0.4,color="black",URL="$dd/d2a/classPHHepMCGenHelper.html#a0e8777adca4af0d70ab0ea76740c7952"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,24 @@
+digraph "PHG4ParametersContainer::GetParameters"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParametersContainer\l::GetParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4ParameterContainerInterface\l::get_double_param",height=0.2,width=0.4,color="black",URL="$d4/d69/classPHG4ParameterContainerInterface.html#aada040dd6c8f3500ad4b9fe2d9772d0f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4BlockCellReco::\lInitRun",height=0.2,width=0.4,color="black",URL="$df/d5e/classPHG4BlockCellReco.html#aa62bbe31407e5e4c80f541dbd5c18aa4",tooltip="module initialization "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4CylinderCellReco\l::InitRun",height=0.2,width=0.4,color="black",URL="$d5/dd0/classPHG4CylinderCellReco.html#ada869396a39d11561fcbb85572446310",tooltip="module initialization "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4DetectorGroupSubsystem\l::get_double_param",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ab162d4327eb79d053483639438cb9aa6"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4ParameterContainerInterface\l::get_int_param",height=0.2,width=0.4,color="black",URL="$d4/d69/classPHG4ParameterContainerInterface.html#a219f4a44cccbd1b310048e01d4c3b8c0"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4DetectorGroupSubsystem\l::get_int_param",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#acd856830d505c1bf925e6eb30ced21f2"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4ParameterContainerInterface\l::get_string_param",height=0.2,width=0.4,color="black",URL="$d4/d69/classPHG4ParameterContainerInterface.html#af767ccf76a81b93f91c98696948228b0"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4DetectorGroupSubsystem\l::get_string_param",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ae58e42ec972236624828bc54a9c73b21"];
+}

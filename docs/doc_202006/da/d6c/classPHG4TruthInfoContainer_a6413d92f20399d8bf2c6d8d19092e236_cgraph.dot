@@ -1,0 +1,18 @@
+digraph "PHG4TruthInfoContainer::AddShower"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4TruthInfoContainer\l::AddShower",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4TruthInfoContainer\l::identify",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a349601fb176f9c6a2b2910831870cb81"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4TruthInfoContainer\l::GetPrimaryVertexIndex",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a77051a88c6708ed10465eca6b73c2272"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4TruthInfoContainer\l::GetPrimaryVtxRange",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a53587ae22361008bcee4c51cc1d8d242"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4TruthInfoContainer\l::isEmbededVtx",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a434c7528ce4a7f089bb4aaeb613af2ff"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4Shower::set_id",height=0.2,width=0.4,color="black",URL="$db/d88/classPHG4Shower.html#a381e15145a06e9f33c3764c7bc4e678d"];
+}

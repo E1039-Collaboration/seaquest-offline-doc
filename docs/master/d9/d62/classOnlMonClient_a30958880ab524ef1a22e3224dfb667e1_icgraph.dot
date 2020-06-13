@@ -1,0 +1,18 @@
+digraph "OnlMonClient::GetCanvas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OnlMonClient::GetCanvas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OnlMonCham::DrawMonitor",height=0.2,width=0.4,color="black",URL="$db/d15/classOnlMonCham.html#a00dbbbd38ad4a6fb3ae3dce82cff0cfd"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="OnlMonProp::DrawMonitor",height=0.2,width=0.4,color="black",URL="$d7/dac/classOnlMonProp.html#a7a10e2e0b11916fab619d82fcd834499"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="OnlMonH4::DrawMonitor",height=0.2,width=0.4,color="black",URL="$d2/d02/classOnlMonH4.html#a66abbc2af31a200e6eaf3b0d5fc63011"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="OnlMonHodo::DrawMonitor",height=0.2,width=0.4,color="black",URL="$d8/dc8/classOnlMonHodo.html#a1f9f3e14154fcd51bd2b74601ad68682"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="OnlMonV1495::DrawMonitor",height=0.2,width=0.4,color="black",URL="$d6/d41/classOnlMonV1495.html#a9be82f97a640a215665c96b4eb2468bd"];
+}

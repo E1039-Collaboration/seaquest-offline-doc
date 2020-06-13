@@ -1,0 +1,32 @@
+digraph "PHG4GDMLWriteSolids::ZplaneWrite"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4GDMLWriteSolids\l::ZplaneWrite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4GDMLWriteParamvol\l::Polycone_dimensionsWrite",height=0.2,width=0.4,color="black",URL="$d8/dd9/classPHG4GDMLWriteParamvol.html#a152630075a55cde45067fbc99f0af621"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4GDMLWriteParamvol\l::ParametersWrite",height=0.2,width=0.4,color="black",URL="$d8/dd9/classPHG4GDMLWriteParamvol.html#ac1ba363d8d334c018fa187f309858193"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4GDMLWriteParamvol\l::ParamvolAlgorithmWrite",height=0.2,width=0.4,color="black",URL="$d8/dd9/classPHG4GDMLWriteParamvol.html#a3b3e03b3d2ce50bd3de5a9a68f314495"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4GDMLWriteParamvol\l::ParamvolWrite",height=0.2,width=0.4,color="black",URL="$d8/dd9/classPHG4GDMLWriteParamvol.html#a93a2dff92e3409e4fe71b661e584afd1"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4GDMLWriteStructure\l::TraverseVolumeTree",height=0.2,width=0.4,color="black",URL="$d2/d72/classPHG4GDMLWriteStructure.html#a957c6f2d283732660e3eb9c41b982048"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4GDMLWriteSolids\l::PolyconeWrite",height=0.2,width=0.4,color="black",URL="$d0/d94/classPHG4GDMLWriteSolids.html#af6b5adff80e56fddc9767fae06af651a"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4GDMLWriteSolids\l::AddSolid",height=0.2,width=0.4,color="black",URL="$d0/d94/classPHG4GDMLWriteSolids.html#ae96019d064cee9517bad4aea85bd94e9"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4GDMLWriteSolids\l::BooleanWrite",height=0.2,width=0.4,color="black",URL="$d0/d94/classPHG4GDMLWriteSolids.html#acaa5a680bf366ae99a07faf07f4cbf7c"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4GDMLWriteParamvol\l::Polyhedra_dimensionsWrite",height=0.2,width=0.4,color="black",URL="$d8/dd9/classPHG4GDMLWriteParamvol.html#af37ce5bcfc07bea2c0a4026da4fa2c3a"];
+  Node10 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4GDMLWriteSolids\l::PolyhedraWrite",height=0.2,width=0.4,color="black",URL="$d0/d94/classPHG4GDMLWriteSolids.html#ace99086533ca2af8366d439a3a08f9ae"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

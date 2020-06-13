@@ -1,0 +1,20 @@
+digraph "PHGenIntegralv1::CopyContent"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHGenIntegralv1::CopyContent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHGenIntegral::get\l_Description",height=0.2,width=0.4,color="black",URL="$d8/d0e/classPHGenIntegral.html#a791856679fd7c0cf8927b9d31f25fe38",tooltip="description on the source "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHGenIntegral::get\l_Integrated_Lumi",height=0.2,width=0.4,color="black",URL="$d8/d0e/classPHGenIntegral.html#a602ff4dfd24221ca9cbb86e69c2f8d38",tooltip="Integrated luminosity in pb^-1. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHGenIntegral::get\l_N_Generator_Accepted_Event",height=0.2,width=0.4,color="black",URL="$d8/d0e/classPHGenIntegral.html#ab423bef5cb65ec50c9e5dc8d24cf5adc",tooltip="Number of accepted events in the event generator. This can be higher than fNProcessedEvent depending ..."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHGenIntegral::get\l_N_Processed_Event",height=0.2,width=0.4,color="black",URL="$d8/d0e/classPHGenIntegral.html#aaf67e6931c93f2f00069e882e370499c",tooltip="Number of processed events in the Fun4All cycles. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHGenIntegral::get\l_Sum_Of_Weight",height=0.2,width=0.4,color="black",URL="$d8/d0e/classPHGenIntegral.html#a3227ad5c7cdeaa8e5bfff7ca653609eb"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHObject::identify",height=0.2,width=0.4,color="black",URL="$d9/d24/classPHObject.html#a83a7b0e5681a0f4f92814692f1bf3375"];
+}

@@ -1,0 +1,10 @@
+digraph "Pythia6::Pythia6"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Pythia6::Pythia6",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="pythia6_common_address",height=0.2,width=0.4,color="black",URL="$d8/de1/Pythia6_8cc.html#a77d0b9d64ec0087e94c426a01cf59645"];
+}

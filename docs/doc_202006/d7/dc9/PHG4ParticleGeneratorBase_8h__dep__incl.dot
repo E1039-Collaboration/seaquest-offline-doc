@@ -1,0 +1,47 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/simulation/g4main/PHG4ParticleGeneratorBase.h"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorBase.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/generators/E906LegacyGen\l/SQPrimaryParticleGen.C",height=0.2,width=0.4,color="black",URL="$d5/d5f/SQPrimaryParticleGen_8C.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/generators/E906LegacyGen\l/SQPrimaryParticleGen.h",height=0.2,width=0.4,color="black",URL="$d6/de2/SQPrimaryParticleGen_8h.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGenerator.h",height=0.2,width=0.4,color="black",URL="$d4/d8b/PHG4ParticleGenerator_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGenerator.cc",height=0.2,width=0.4,color="black",URL="$d6/d6b/PHG4ParticleGenerator_8cc.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-analysis\l/TrkDev/Fun4TrkDev.C",height=0.2,width=0.4,color="black",URL="$d2/d3a/Fun4TrkDev_8C.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorBase.cc",height=0.2,width=0.4,color="black",URL="$d4/d94/PHG4ParticleGeneratorBase_8cc.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorD0.h",height=0.2,width=0.4,color="black",URL="$d5/dde/PHG4ParticleGeneratorD0_8h.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorD0.cc",height=0.2,width=0.4,color="black",URL="$d1/de0/PHG4ParticleGeneratorD0_8cc.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorVectorMeson.h",height=0.2,width=0.4,color="black",URL="$d8/dc1/PHG4ParticleGeneratorVectorMeson_8h.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGeneratorVectorMeson.cc",height=0.2,width=0.4,color="black",URL="$dd/d77/PHG4ParticleGeneratorVectorMeson_8cc.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4ParticleGun.h",height=0.2,width=0.4,color="black",URL="$de/d65/PHG4ParticleGun_8h.html"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4Particle\lGun.cc",height=0.2,width=0.4,color="black",URL="$db/ddd/PHG4ParticleGun_8cc.html"];
+  Node12 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4PileupGenerator.h",height=0.2,width=0.4,color="black",URL="$dd/d3c/PHG4PileupGenerator_8h.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4PileupGenerator.cc",height=0.2,width=0.4,color="black",URL="$d8/da7/PHG4PileupGenerator_8cc.html"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4PSScanGenerator.h",height=0.2,width=0.4,color="black",URL="$d3/d6c/PHG4PSScanGenerator_8h.html"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4PSScanGenerator.cc",height=0.2,width=0.4,color="black",URL="$d7/d6c/PHG4PSScanGenerator_8cc.html"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node18 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4SimpleEvent\lGenerator.h",height=0.2,width=0.4,color="black",URL="$da/d45/PHG4SimpleEventGenerator_8h.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node19 [label="/dev/shm/kenichi/update\l-e1039-doc/e1039-core\l/simulation/g4main/PHG4SimpleEvent\lGenerator.cc",height=0.2,width=0.4,color="black",URL="$d3/d3e/PHG4SimpleEventGenerator_8cc.html"];
+  Node18 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

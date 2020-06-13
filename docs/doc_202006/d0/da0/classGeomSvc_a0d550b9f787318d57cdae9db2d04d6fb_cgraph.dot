@@ -1,0 +1,22 @@
+digraph "GeomSvc::initPlaneDirect"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GeomSvc::initPlaneDirect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Plane::getW",height=0.2,width=0.4,color="black",URL="$dc/d90/classPlane.html#a48ab3a309bee8c386464b36a7593df16"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="JobOptsSvc::instance",height=0.2,width=0.4,color="black",URL="$d8/d62/classJobOptsSvc.html#aeb0d694dc08274aa90b0d6b1ee8384cb",tooltip="singlton instance "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="debug",height=0.2,width=0.4,color="black",URL="$dd/d23/JobOptsSvc_8cxx.html#a71e70a8ecc08c35494b083076d2ace7b"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="GeomSvc::loadMilleAlignment",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Plane::update",height=0.2,width=0.4,color="black",URL="$dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32"];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="GeomSvc::toLocalDetectorName",height=0.2,width=0.4,color="black",URL="$d0/da0/classGeomSvc.html#a315e886f05db8254ed7d320706e268e6",tooltip="Convert the official detectorName to local detectorName. "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

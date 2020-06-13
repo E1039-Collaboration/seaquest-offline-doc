@@ -1,0 +1,10 @@
+digraph "SQReco::InitEvalTree"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQReco::InitEvalTree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQReco::InitRun",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#ac7504718746454c2518be860d2224802"];
+}

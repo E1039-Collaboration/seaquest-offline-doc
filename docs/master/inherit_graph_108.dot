@@ -1,0 +1,32 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4SteppingAction",height=0.2,width=0.4,color="black",URL="$df/d3f/classPHG4SteppingAction.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4BlockSteppingAction",height=0.2,width=0.4,color="black",URL="$d1/da2/classPHG4BlockSteppingAction.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4BNLTargetCoilStepping\lAction",height=0.2,width=0.4,color="black",URL="$d2/db5/classPHG4BNLTargetCoilSteppingAction.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4CollimatorSteppingAction",height=0.2,width=0.4,color="black",URL="$d2/dc6/classPHG4CollimatorSteppingAction.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4ConeSteppingAction",height=0.2,width=0.4,color="black",URL="$d4/d7a/classPHG4ConeSteppingAction.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4CylinderSteppingAction",height=0.2,width=0.4,color="black",URL="$da/d58/classPHG4CylinderSteppingAction.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4E1039InsensSteppingAction",height=0.2,width=0.4,color="black",URL="$d9/d14/classPHG4E1039InsensSteppingAction.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4PolyconSteppingAction",height=0.2,width=0.4,color="black",URL="$d3/d3d/classPHG4PolyconSteppingAction.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4SquareTubeSteppingAction",height=0.2,width=0.4,color="black",URL="$dc/d4f/classPHG4SquareTubeSteppingAction.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4TargetCoilSteppingAction",height=0.2,width=0.4,color="black",URL="$db/d00/classPHG4TargetCoilSteppingAction.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4TargetCoilV2Stepping\lAction",height=0.2,width=0.4,color="black",URL="$d0/dc8/classPHG4TargetCoilV2SteppingAction.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="PHG4TruthSteppingAction",height=0.2,width=0.4,color="black",URL="$d6/da2/classPHG4TruthSteppingAction.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="SQG4DipoleMagnetStepping\lAction",height=0.2,width=0.4,color="black",URL="$d4/db3/classSQG4DipoleMagnetSteppingAction.html"];
+}

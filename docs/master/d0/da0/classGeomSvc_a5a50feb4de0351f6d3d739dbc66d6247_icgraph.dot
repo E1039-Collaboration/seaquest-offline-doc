@@ -1,0 +1,42 @@
+digraph "GeomSvc::getMeasurement"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GeomSvc::getMeasurement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="DPDigitizer::digitize",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880",tooltip="main external call, fill the digi hit vector "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="DPDigitizer::process\l_event",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f",tooltip="event processing "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="ReadMySql::FillSQHitVector",height=0.2,width=0.4,color="black",URL="$db/dda/classReadMySql.html#a867fcdb2c8dc0344e80bba8019efd9bb"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="ReadMySql::process\l_event",height=0.2,width=0.4,color="black",URL="$db/dda/classReadMySql.html#aef5367b1b70eb7b88d513750e78fc872"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="ReadMySql::FillSQTrigger\lHitVector",height=0.2,width=0.4,color="black",URL="$db/dda/classReadMySql.html#a2f214b751e2ce072c95fd37f14acab8d"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="mTrkEveDisplay::hit\l_to_wire",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#a2d81773e8944852045fb20a235565ad8"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="mTrkEveDisplay::draw_hits",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#a364f4ae0f30bf1fa50f30d6b6a222647"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="mTrkEveDisplay::event",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="KalmanTrack::KalmanTrack",height=0.2,width=0.4,color="black",URL="$d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="main",height=0.2,width=0.4,color="black",URL="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="RndmEmbed::process\l_event",height=0.2,width=0.4,color="black",URL="$d9/d0c/classRndmEmbed.html#aab52cc2c180db26dd572a3556c8d6d9e"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="SRawEventEmbed::process\l_event",height=0.2,width=0.4,color="black",URL="$d4/d36/classSRawEventEmbed.html#a0041b344c23d0d679125dbb74aa1652b"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="EventReducer::reduceEvent",height=0.2,width=0.4,color="black",URL="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="SQReco::process_event",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="KalmanFastTrackingWrapper\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="TriggerAnalyzer::trimEvent",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de"];
+  Node17 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

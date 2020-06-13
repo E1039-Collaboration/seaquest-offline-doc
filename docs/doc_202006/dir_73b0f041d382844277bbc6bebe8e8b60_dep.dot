@@ -1,0 +1,15 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/generators/PHPythia8" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_e00d85e4e5e7202633354b6b9bef7328 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="generators" fontname="FreeSans", fontsize="10", URL="dir_e00d85e4e5e7202633354b6b9bef7328.html"]
+  dir_73b0f041d382844277bbc6bebe8e8b60 [shape=box, label="PHPythia8", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_73b0f041d382844277bbc6bebe8e8b60.html"];
+  }
+  dir_68879e08c6651a210f7d5b44f4a6e313 [shape=box label="framework" color="red" URL="dir_68879e08c6651a210f7d5b44f4a6e313.html"];
+  dir_315af1d1b16bd7190138a3622a101347 [shape=box label="phhepmc" URL="dir_315af1d1b16bd7190138a3622a101347.html"];
+  dir_315af1d1b16bd7190138a3622a101347->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="62", labeldistance=1.5 headhref="dir_000030_000024.html"];
+  dir_73b0f041d382844277bbc6bebe8e8b60->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="6", labeldistance=1.5 headhref="dir_000031_000024.html"];
+  dir_73b0f041d382844277bbc6bebe8e8b60->dir_315af1d1b16bd7190138a3622a101347 [headlabel="4", labeldistance=1.5 headhref="dir_000031_000030.html"];
+}

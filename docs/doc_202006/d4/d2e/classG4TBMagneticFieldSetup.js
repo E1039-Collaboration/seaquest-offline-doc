@@ -1,0 +1,26 @@
+var classG4TBMagneticFieldSetup =
+[
+    [ "G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html#a219f4c199df5731549942737857ae65f", null ],
+    [ "~G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html#aad69048e0a7ec56abb97a1aa2829d75f", null ],
+    [ "get_magfield_at_000", "d4/d2e/classG4TBMagneticFieldSetup.html#a45a4973769d5edb2130e48d43d90c60d", null ],
+    [ "GetGlobalFieldManager", "d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1", null ],
+    [ "SetFieldValue", "d4/d2e/classG4TBMagneticFieldSetup.html#a103bf25af906e5e94f05946cbcbed9f1", null ],
+    [ "SetFieldValue", "d4/d2e/classG4TBMagneticFieldSetup.html#abf019706c03b5ada7a0e02b54cf4b2f0", null ],
+    [ "SetMinStep", "d4/d2e/classG4TBMagneticFieldSetup.html#a27cc8ce147867c9111a5157aa2a9c02d", null ],
+    [ "SetStepper", "d4/d2e/classG4TBMagneticFieldSetup.html#a7d247ff9b7c77cd4a8d112e03979e34e", null ],
+    [ "SetStepperType", "d4/d2e/classG4TBMagneticFieldSetup.html#a00d52151154a13ccb4d58f0062434e60", null ],
+    [ "UpdateField", "d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe", null ],
+    [ "Verbosity", "d4/d2e/classG4TBMagneticFieldSetup.html#a753f17bf12d26b861e7790b503d5c18a", null ],
+    [ "fChordFinder", "d4/d2e/classG4TBMagneticFieldSetup.html#a712995c9ce9b96dd499b5fafc70d61af", null ],
+    [ "fElFieldValue", "d4/d2e/classG4TBMagneticFieldSetup.html#a55aced714c3ab017ed6bd34f46f95976", null ],
+    [ "fEMfield", "d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6", null ],
+    [ "fEquation", "d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1", null ],
+    [ "fFieldManager", "d4/d2e/classG4TBMagneticFieldSetup.html#ae746ec3c86cbd6272049d1ecc71e55db", null ],
+    [ "fFieldMessenger", "d4/d2e/classG4TBMagneticFieldSetup.html#ad7cc3606c350b071f69b7a490c97fde2", null ],
+    [ "fIntgrDriver", "d4/d2e/classG4TBMagneticFieldSetup.html#a6412a0495daf9386758b93e922789130", null ],
+    [ "fMinStep", "d4/d2e/classG4TBMagneticFieldSetup.html#aebba84bc4f67d91eae9da0b7f517558a", null ],
+    [ "fStepper", "d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662", null ],
+    [ "fStepperType", "d4/d2e/classG4TBMagneticFieldSetup.html#a2b1b765ab012f16ed0c77064698cf52e", null ],
+    [ "magfield_at_000", "d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3", null ],
+    [ "verbosity", "d4/d2e/classG4TBMagneticFieldSetup.html#aef3240e7a83abd7cc991e3bd79a83e9e", null ]
+];

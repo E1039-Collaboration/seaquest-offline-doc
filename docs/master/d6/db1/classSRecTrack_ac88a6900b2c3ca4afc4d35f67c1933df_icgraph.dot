@@ -1,0 +1,29 @@
+digraph "SRecTrack::getMomentum"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SRecTrack::getMomentum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SRecTrack::getExpMomentumFast",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#ac158651bf6339871050b643f31681ba5"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SRecTrack::getExpMomentumFast",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#a5b73b35f637ed16bb452ddf4791b0e02"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SRecTrack::getMomentumSt1",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#a59839d885f4ef9262b5eda40a8e155e1"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="TrkEval::RecoEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a2e4c91aacd41057f331a7b236f4d4958"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="TrkEval::process_event",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0c626d9ee4c94abf889fa5408f1f49d1"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="TrkEval::TruthEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0fe4bff3e37b8f0884e24ea933c43c60"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="mTrkEveDisplay::draw\l_tracks",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#a9dccd02ff8c77a1e34236d4575644100"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="mTrkEveDisplay::event",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="SRecTrack::getMomentumSt3",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#aec8b9048859bbe371f5ce7992254c5d5"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="SRecTrack::getMomentumVertex",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#aa200010ac6336750943c68b6cee123e0"];
+}

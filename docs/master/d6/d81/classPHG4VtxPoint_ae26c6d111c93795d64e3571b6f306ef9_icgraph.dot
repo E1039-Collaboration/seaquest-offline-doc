@@ -1,0 +1,39 @@
+digraph "PHG4VtxPoint::get_z"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4VtxPoint::get_z",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4VtxPoint::operator==",height=0.2,width=0.4,color="black",URL="$d6/d81/classPHG4VtxPoint.html#a77a792f28bd75c230a9539e0377e6dc5",tooltip="comparison of vertex value only, not on the id, per algorithm requirement in PHG4TruthInfoContainer::..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="TruthEval::process\l_event",height=0.2,width=0.4,color="black",URL="$df/d39/classTruthEval.html#a81f42e26bc57120814b56c5241c495e3"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4DSTReader::process\l_event",height=0.2,width=0.4,color="black",URL="$d4/dc9/classPHG4DSTReader.html#aa32c5027cd9c3e4d667a0e84d7243412",tooltip="event processing method "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="TrkEval::RecoEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a2e4c91aacd41057f331a7b236f4d4958"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="TrkEval::process_event",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0c626d9ee4c94abf889fa5408f1f49d1"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4ParticleGeneratorBase\l::ReuseExistingVertex",height=0.2,width=0.4,color="black",URL="$d8/d78/classPHG4ParticleGeneratorBase.html#a1c8fb7b3cb97ad9c0eb85468be4f0f1b"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4ParticleGenerator\l::process_event",height=0.2,width=0.4,color="black",URL="$dd/d68/classPHG4ParticleGenerator.html#a1292dcb1c73496ea30769a4b8c355780"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4ParticleGeneratorD0\l::process_event",height=0.2,width=0.4,color="black",URL="$d9/d78/classPHG4ParticleGeneratorD0.html#a0d5fb0589e341d72f767844ead51039a"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4ParticleGun::process\l_event",height=0.2,width=0.4,color="black",URL="$dd/d13/classPHG4ParticleGun.html#a6a76fa0b061c94d8ce36da48fd41d274"];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4ParticleGeneratorVector\lMeson::process_event",height=0.2,width=0.4,color="black",URL="$d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a31f17c8146593b2d946cc4c2762d25ed"];
+  Node7 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="PHG4SimpleEventGenerator\l::process_event",height=0.2,width=0.4,color="black",URL="$d5/df3/classPHG4SimpleEventGenerator.html#a4a7065a5083bd5b21c3743f8e224065b"];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="PHG4PSScanGenerator\l::process_event",height=0.2,width=0.4,color="black",URL="$de/d76/classPHG4PSScanGenerator.html#a7da87ee5f9d1dc005871a8df83145c63"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="PatternDBGen::TruthEval",height=0.2,width=0.4,color="black",URL="$de/d1e/classPatternDBGen.html#a56101ce12e7222017e64f8e3c45eb953"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="PatternDBGen::process\l_event",height=0.2,width=0.4,color="black",URL="$de/d1e/classPatternDBGen.html#a7ee5bd712a184a109f52fd67e98acf7d"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="TrkEval::TruthEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0fe4bff3e37b8f0884e24ea933c43c60"];
+  Node16 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

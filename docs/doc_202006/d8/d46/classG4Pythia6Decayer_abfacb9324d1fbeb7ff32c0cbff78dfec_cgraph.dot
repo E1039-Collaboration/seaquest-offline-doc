@@ -1,0 +1,29 @@
+digraph "G4Pythia6Decayer::ImportDecayProducts"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="G4Pythia6Decayer::Import\lDecayProducts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="G4Pythia6Decayer::Create\lDynamicParticle",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a05b129da7d197e15e480a0d33c95bc85"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="G4Pythia6Decayer::GetParticle\lDefinition",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a5bb3114cee4fb6b63da50c75f259e900"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="G4Pythia6Decayer::GetParticle\lMomentum",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a737335a4796752879e5121a37f1590fa"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="G4Pythia6Decayer::Decay",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a63cee99c2dbc69ce4915964e31cd5480"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Pythia6::Instance",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a2d69c1109df9b9a45134c793c312c223"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Pythia6::Pythia6",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a7907092070bb53cee29bb34c9d7f2b0a"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="pythia6_common_address",height=0.2,width=0.4,color="black",URL="$d8/de1/Pythia6_8cc.html#a77d0b9d64ec0087e94c426a01cf59645"];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="Pythia6::Py1ent",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#acafaaac24b6d1fc40a2c369dcb94ab32"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="G4Pythia6Decayer::Import\lParticles",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a3eb447ab907ce5466a4e3a15bc45b4e3"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Pythia6::ImportParticles",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a3330971ef3343452c6ff99364015dd4f"];
+}

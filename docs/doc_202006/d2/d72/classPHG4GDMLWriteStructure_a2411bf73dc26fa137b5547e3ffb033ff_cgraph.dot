@@ -1,0 +1,20 @@
+digraph "PHG4GDMLWriteStructure::SkinSurfaceCache"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4GDMLWriteStructure\l::SkinSurfaceCache",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4GDMLWriteStructure\l::FindOpticalSurface",height=0.2,width=0.4,color="black",URL="$d2/d72/classPHG4GDMLWriteStructure.html#a4b44e12fbebe7ea36b278c1c1d04a3ef"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4GDMLWrite::GenerateName",height=0.2,width=0.4,color="black",URL="$dd/db5/classPHG4GDMLWrite.html#a16834147e17b47595b04d27a49405198"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4GDMLWrite::NewAttribute",height=0.2,width=0.4,color="black",URL="$dd/db5/classPHG4GDMLWrite.html#afe96dc9fdc7c1a0a1a96b59dc15dffa2"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4GDMLWrite::NewElement",height=0.2,width=0.4,color="black",URL="$dd/db5/classPHG4GDMLWrite.html#ada0a5579d406ec27f3150711ab83becc"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4GDMLWriteSolids\l::OpticalSurfaceWrite",height=0.2,width=0.4,color="black",URL="$d0/d94/classPHG4GDMLWriteSolids.html#aeff594027a690ae9d0146a298ed2481c"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

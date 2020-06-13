@@ -1,0 +1,11 @@
+digraph "PHDataNode&lt; T &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="PHDataNode\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHNode",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHIODataNode\< T \>",height=0.2,width=0.4,color="black",URL="$d9/dde/classPHIODataNode.html"];
+}

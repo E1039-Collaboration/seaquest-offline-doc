@@ -1,0 +1,25 @@
+var classPHG4EtaPhiParameterization =
+[
+    [ "PHG4EtaPhiParameterization", "d1/d75/classPHG4EtaPhiParameterization.html#af63bd3d29cca859eb7b5fb540bff804b", null ],
+    [ "~PHG4EtaPhiParameterization", "d1/d75/classPHG4EtaPhiParameterization.html#ac5c6e0acb81651da12bc5db73c111e7a", null ],
+    [ "ComputeDimensions", "d1/d75/classPHG4EtaPhiParameterization.html#ad247bfd037a0d3bfaafc88ec439928ca", null ],
+    [ "ComputeTransformation", "d1/d75/classPHG4EtaPhiParameterization.html#abbd3ee8b0c4a985b958812233ac3a526", null ],
+    [ "GetIEta", "d1/d75/classPHG4EtaPhiParameterization.html#abe5c2769926afdd9b0d7509154b05964", null ],
+    [ "GetIPhi", "d1/d75/classPHG4EtaPhiParameterization.html#a81f702042abd57b3e78c0df34709457e", null ],
+    [ "Print", "d1/d75/classPHG4EtaPhiParameterization.html#a17bfde48f86e9102da3dbe6f595e305e", null ],
+    [ "_centerZ", "d1/d75/classPHG4EtaPhiParameterization.html#ad2ed57863cf3c560ef31000c706d3f07", null ],
+    [ "_deltaPhi", "d1/d75/classPHG4EtaPhiParameterization.html#a7b48dae17e162403005dea6eddc16500", null ],
+    [ "_ieta", "d1/d75/classPHG4EtaPhiParameterization.html#ad73799c4b4bdbdbea48439238a8591a6", null ],
+    [ "_iphi", "d1/d75/classPHG4EtaPhiParameterization.html#a5d7f23198a2530cfe510880dac9d5d64", null ],
+    [ "_maxEta", "d1/d75/classPHG4EtaPhiParameterization.html#aad1adead07dd398770eea7e7927ae3c1", null ],
+    [ "_minEta", "d1/d75/classPHG4EtaPhiParameterization.html#a71c6649cbb22a02507fce5cf2a484063", null ],
+    [ "_neta", "d1/d75/classPHG4EtaPhiParameterization.html#aae1c80c904582dfe3736ccfff24eb6c0", null ],
+    [ "_nphi", "d1/d75/classPHG4EtaPhiParameterization.html#a5c61205b63f2e5c8ee4bf6dfe5bed392", null ],
+    [ "_phi0", "d1/d75/classPHG4EtaPhiParameterization.html#a25f52ec2d1ec5252b33f6435080081b2", null ],
+    [ "_phi1", "d1/d75/classPHG4EtaPhiParameterization.html#af0d39c135d1684dc9c0e9b22ff966cdc", null ],
+    [ "_radiusIn", "d1/d75/classPHG4EtaPhiParameterization.html#afd6a1fc48a74c0d9facac5d3b6b1bfb6", null ],
+    [ "_radiusOut", "d1/d75/classPHG4EtaPhiParameterization.html#ac622e91f22124afbe0854ddfbadd9008", null ],
+    [ "_startPhi", "d1/d75/classPHG4EtaPhiParameterization.html#a9d082f6b8c5dfd87b7a8f9a07863cc54", null ],
+    [ "_zhalf", "d1/d75/classPHG4EtaPhiParameterization.html#aac33c634dad6225be4fe2691b3b7164b", null ],
+    [ "_zpos", "d1/d75/classPHG4EtaPhiParameterization.html#a7df7fdd3930eed43eeb6225ec3ab42e9", null ]
+];

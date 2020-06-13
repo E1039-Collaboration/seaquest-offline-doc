@@ -1,0 +1,22 @@
+digraph "PHG4ConsistencyCheck::process_event"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ConsistencyCheck\l::process_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Particle::get_primary_id",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#a057540307b3af50a74b4d40d7edd8dfb"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4TruthInfoContainer\l::GetEmbeddedTrkIds",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#af2dd129e3f79658965fc5c659bbe1e2f"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4HitContainer::getHits",height=0.2,width=0.4,color="black",URL="$d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439",tooltip="return all hits matching a given detid "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4TruthInfoContainer\l::GetParticle",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#abd3b1934fe45fac4ef5ae7b33bdbe1da"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4TruthInfoContainer\l::GetParticleRange",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a1ee31482bc1d9463f16bf4de90273c41",tooltip="Get a range of iterators covering the entire container. "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4Particle::identify",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#a3dd58b08ff18a16d8d290fd5bcb1de7b"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4TruthInfoContainer\l::isEmbeded",height=0.2,width=0.4,color="black",URL="$da/d6c/classPHG4TruthInfoContainer.html#a20c4cc7019b477ad8490ddbb5ddaf547"];
+}

@@ -1,0 +1,10 @@
+digraph "SQDimuonVector_v1::Clone"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQDimuonVector_v1::\lClone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQDimuonVector_v1::\lSQDimuonVector_v1",height=0.2,width=0.4,color="black",URL="$d3/dc1/classSQDimuonVector__v1.html#a5f1cebfd827404a229e0c55c60a0bb5a"];
+}

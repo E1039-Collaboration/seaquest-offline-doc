@@ -1,0 +1,24 @@
+digraph "PHG4PhenixDetector::SetWorldSizeX"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4PhenixDetector\l::SetWorldSizeX",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Reco::InitRun",height=0.2,width=0.4,color="black",URL="$d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="DisplayOn",height=0.2,width=0.4,color="black",URL="$da/d76/E1039Shielding_2DisplayOn_8C.html#a8ac4d6fb78f920957b354f88d6195f54"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="int_run",height=0.2,width=0.4,color="black",URL="$d1/da2/E1039Shielding_2int__run_8C.html#a088590a1a5b93b904ba076de8ca1ef82"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="matscan",height=0.2,width=0.4,color="black",URL="$d9/d1d/matscan_8C.html#a98ccbc6135fead542f3c4d1dd6882d63"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="eve_disp",height=0.2,width=0.4,color="black",URL="$d2/d96/eve__disp_8C.html#abeb034dea489ef1866373d2464ec5721"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="eve_disp_db",height=0.2,width=0.4,color="black",URL="$de/d2a/eve__disp__db_8C.html#aa8b45dd9cf940c8aff427aed5d9db19f"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="InitInput",height=0.2,width=0.4,color="black",URL="$d6/d9e/EventDisp4MainDaqDst_8C.html#a9d62acc9c2150e00b509d9d553d7d6c1"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="EventDisp4MainDaqDst",height=0.2,width=0.4,color="black",URL="$d6/d9e/EventDisp4MainDaqDst_8C.html#a52e0269749883c6976db81717ead7d9b"];
+}

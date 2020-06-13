@@ -1,0 +1,18 @@
+digraph "PHIODataNode&lt; T &gt;"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="PHIODataNode\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHDataNode\< T \>",height=0.2,width=0.4,color="black",URL="$d1/d3e/classPHDataNode.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHNode",height=0.2,width=0.4,color="black",URL="$dc/d82/classPHNode.html"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" parent" ,fontname="FreeSans"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" objecttype\nobjectclass\ntype\nname" ,fontname="FreeSans"];
+  Node4 [label="std::string",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="std::basic_string\<\l char \>",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" data" ,fontname="FreeSans"];
+  Node6 [label="PHDataNode\< T \>::tobjcast",height=0.2,width=0.4,color="black",URL="$dc/dd3/unionPHDataNode_1_1tobjcast.html"];
+}

@@ -1,0 +1,16 @@
+digraph "PHG4InputFilter::process_event"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4InputFilter::process\l_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4InEvent::DeleteParticle",height=0.2,width=0.4,color="black",URL="$db/d62/classPHG4InEvent.html#a3dd93bdfcca611ac18f565586fd0e126"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4InputFilter::get_eta",height=0.2,width=0.4,color="black",URL="$da/d36/classPHG4InputFilter.html#acf47b52aa23a2d9928f650817f59cc84"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4InEvent::GetParticles\l_Modify",height=0.2,width=0.4,color="black",URL="$db/d62/classPHG4InEvent.html#aac39d39c05f70c0f8194cc940e4665ae"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4InEvent::identify",height=0.2,width=0.4,color="black",URL="$db/d62/classPHG4InEvent.html#a47af3dda48d75749874e989dbd730b28"];
+}

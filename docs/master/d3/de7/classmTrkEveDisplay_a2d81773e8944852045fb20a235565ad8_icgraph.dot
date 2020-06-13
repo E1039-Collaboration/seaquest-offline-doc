@@ -1,0 +1,12 @@
+digraph "mTrkEveDisplay::hit_to_wire"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mTrkEveDisplay::hit\l_to_wire",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="mTrkEveDisplay::draw_hits",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#a364f4ae0f30bf1fa50f30d6b6a222647"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="mTrkEveDisplay::event",height=0.2,width=0.4,color="black",URL="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1"];
+}

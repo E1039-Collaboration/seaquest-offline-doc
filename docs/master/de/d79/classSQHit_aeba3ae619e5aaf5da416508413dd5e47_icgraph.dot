@@ -1,0 +1,28 @@
+digraph "SQHit::get_tdc_time"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQHit::get_tdc_time",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQReco::BuildSRawEvent",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#aa71a1b4406e5d02575ed860c2861030d"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQReco::process_event",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="KalmanFastTrackingWrapper\l::BuildSRawEvent",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a386a9ee1d8c460550a6f9b0ced1e5a76"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="KalmanFastTrackingWrapper\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="UtilSQHit::FindFirstHits",height=0.2,width=0.4,color="black",URL="$d0/dc5/namespaceUtilSQHit.html#ac07955c51fa7471fe13fc5355be40dad"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="CalibMergeH4::MergeHitsAnd",height=0.2,width=0.4,color="black",URL="$df/d49/classCalibMergeH4.html#a04cb3900f6782caa8dcb187a50b06ec0"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="CalibMergeH4::MergeHits",height=0.2,width=0.4,color="black",URL="$df/d49/classCalibMergeH4.html#a7a0917c307806ea9966b30af1be934fd"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="CalibMergeH4::process\l_event",height=0.2,width=0.4,color="black",URL="$df/d49/classCalibMergeH4.html#a33959572b7e56019a5adeb354e11d08f"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="CalibXT::process_event",height=0.2,width=0.4,color="black",URL="$da/dab/classCalibXT.html#a99b3f792d9e0b603a46e7389b9db62c7"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="CalibInTime::process\l_event",height=0.2,width=0.4,color="black",URL="$d3/d98/classCalibInTime.html#aac65bd9f79688ca0ebbc2162f9e5e965"];
+}

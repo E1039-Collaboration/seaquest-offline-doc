@@ -1,0 +1,25 @@
+var classSQMCEvent__v1 =
+[
+    [ "SQMCEvent_v1", "d7/df6/classSQMCEvent__v1.html#a03d4d994767c6494f19971646ec59d1b", null ],
+    [ "~SQMCEvent_v1", "d7/df6/classSQMCEvent__v1.html#accf029c2c4dcb6cd29c9d06f4a576b6b", null ],
+    [ "Clone", "d7/df6/classSQMCEvent__v1.html#a6766b5067fd3995e7d15a779310d07d3", null ],
+    [ "get_cross_section", "d7/df6/classSQMCEvent__v1.html#a6befc923d4866a3f9b2abea282b783c7", null ],
+    [ "get_particle_id", "d7/df6/classSQMCEvent__v1.html#abd78d0935bdd24387f4e3f899556c362", null ],
+    [ "get_particle_momentum", "d7/df6/classSQMCEvent__v1.html#a8cd18d36ddb8901ee46ae475c04d6927", null ],
+    [ "get_process_id", "d7/df6/classSQMCEvent__v1.html#aa1cda53e5838fb04c9c01f10600769ec", null ],
+    [ "get_weight", "d7/df6/classSQMCEvent__v1.html#a3781d9059beb3794f5b11ab99edcc5cd", null ],
+    [ "identify", "d7/df6/classSQMCEvent__v1.html#a60bcec8def1830d0737fd0138eb79140", null ],
+    [ "isValid", "d7/df6/classSQMCEvent__v1.html#a5c285b734d778982b05483fbd11b0dcf", null ],
+    [ "Reset", "d7/df6/classSQMCEvent__v1.html#a3463f4192affd9ef9ddad4a247578668", null ],
+    [ "set_cross_section", "d7/df6/classSQMCEvent__v1.html#a86ac090903ae1e85ecc88913dd5a2afb", null ],
+    [ "set_particle_id", "d7/df6/classSQMCEvent__v1.html#a92435ec6e6ce274b48efd9922e692b9c", null ],
+    [ "set_particle_momentum", "d7/df6/classSQMCEvent__v1.html#a5dd51ea48b7f5db5ac90d3d66d800c6d", null ],
+    [ "set_process_id", "d7/df6/classSQMCEvent__v1.html#af6a26864b6e2ec44489bbad55167f552", null ],
+    [ "set_weight", "d7/df6/classSQMCEvent__v1.html#a1d4e1ca6eaed2eb552b2ea099539e26c", null ],
+    [ "_N_PAR", "d7/df6/classSQMCEvent__v1.html#a320c7114a418fdedc3a0d36d1626986e", null ],
+    [ "_par_id", "d7/df6/classSQMCEvent__v1.html#a90068e84993df83bff9aacdc797db8af", null ],
+    [ "_par_mom", "d7/df6/classSQMCEvent__v1.html#a87c8bcbbfeddcddbd42682ca93ebf988", null ],
+    [ "_proc_id", "d7/df6/classSQMCEvent__v1.html#abf430fe70f1a2b33d5abc9576a0cbbde", null ],
+    [ "_weight", "d7/df6/classSQMCEvent__v1.html#a51ced586f59504d8513f973c536a0a95", null ],
+    [ "_xsec", "d7/df6/classSQMCEvent__v1.html#acd2b0a84fb78ea2b08208026aff19ddf", null ]
+];

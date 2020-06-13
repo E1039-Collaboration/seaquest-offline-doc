@@ -1,0 +1,32 @@
+digraph "OnlMonClient::DrawCanvas"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="OnlMonClient::DrawCanvas",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="OnlMonClient::DrawMonitor",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a8a5d3825cb5df3fbfdb488df353b8c88"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="OnlMonClient::FindAllMonHist",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#afc7cf38cb57cdb324794da1bf5cbe442"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="OnlMonClient::FindMonHist",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="OnlMonClient::GetBasicCount",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a43ccb19d8110714c124d4f6030574445"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="OnlMonClient::GetBasicID",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a57ac8fb934024059e72ba8bff0c4a12d"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Fun4AllBase::Name",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed",tooltip="Returns the name of this module. "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="OnlMonCanvas::PostDraw",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#ad9d50146b1e9a2cf7c31fb5dd90abe0f"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="UtilOnline::GetOnlMonDir",height=0.2,width=0.4,color="black",URL="$df/da2/classUtilOnline.html#a2a61c299f526c8b69e33122dc9552467"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="OnlMonCanvas::PreDraw",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#aeaed18c17d691ff47072be3c526f5f54"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="OnlMonCanvas::SetBasicCount",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#ab6485196d8e1cdd716142d4451a335b5"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="OnlMonCanvas::SetBasicID",height=0.2,width=0.4,color="black",URL="$df/ddc/classOnlMonCanvas.html#ac3810d113733ae967972b18fffab6a84"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="OnlMonClient::Title",height=0.2,width=0.4,color="black",URL="$d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee"];
+}

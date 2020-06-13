@@ -1,0 +1,18 @@
+digraph "KalmanFitter::initSmoother"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="KalmanFitter::initSmoother",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Node::getFiltered",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Node::getSmoothed",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a385cbcf82382c3ff0e7d347d6e6d6a77"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Node::isFilterDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Node::isSmoothDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Node::setSmoothDone",height=0.2,width=0.4,color="black",URL="$df/dd0/classNode.html#acd87507e822cf12e56a26c23064af5fe"];
+}

@@ -1,0 +1,18 @@
+digraph "SQSpillMap_v1::operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQSpillMap_v1::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQSpillMap_v1::begin",height=0.2,width=0.4,color="black",URL="$df/de1/classSQSpillMap__v1.html#aa677a6cadcc655da8cffb51e4c96c725"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQSpill::Clone",height=0.2,width=0.4,color="black",URL="$d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQSpillMap_v1::end",height=0.2,width=0.4,color="black",URL="$df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQSpill::get_spill_id",height=0.2,width=0.4,color="black",URL="$d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SQSpillMap_v1::Reset",height=0.2,width=0.4,color="black",URL="$df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41",tooltip="Clear Event. "];
+}

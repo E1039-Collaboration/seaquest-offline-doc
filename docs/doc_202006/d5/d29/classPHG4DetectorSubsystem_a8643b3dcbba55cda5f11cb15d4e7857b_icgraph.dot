@@ -1,0 +1,28 @@
+digraph "PHG4DetectorSubsystem::set_default_string_param"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4DetectorSubsystem\l::set_default_string_param",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4BlockSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$df/d14/classPHG4BlockSubsystem.html#ab703feea0231875301e07bb67e111068"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4E1039InsensSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$d9/d43/classPHG4E1039InsensSubsystem.html#a407298151129b0256cf211916c272209"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4CollimatorSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$de/d78/classPHG4CollimatorSubsystem.html#a930cd8a3be6173616d1c5fe00b28f1b5"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4SquareTubeSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$d4/d2d/classPHG4SquareTubeSubsystem.html#a93bb98957aa6ac6cd4c8516f51d8474c"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SQG4DipoleMagnetSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$dc/d3f/classSQG4DipoleMagnetSubsystem.html#a160a2eae7fa4a1fe360d92ae8243abfa"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4PolyconSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$d6/d12/classPHG4PolyconSubsystem.html#a0506d008a2b05efbabb3c8a670ef6311"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4BNLTargetCoilSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$d9/df7/classPHG4BNLTargetCoilSubsystem.html#a1d83bb214a3161c0a35e558af3b5310d"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4CylinderSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$db/dc5/classPHG4CylinderSubsystem.html#a077f147993ce809de7faa97ed1aaafdd"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4TargetCoilSubsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$d8/d86/classPHG4TargetCoilSubsystem.html#a43165c6cea763ec16570f41378901489"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4TargetCoilV2Subsystem\l::SetDefaultParameters",height=0.2,width=0.4,color="black",URL="$db/ddf/classPHG4TargetCoilV2Subsystem.html#a1274c4c4452e9e08cd4382ecd91e813f"];
+}

@@ -1,0 +1,42 @@
+digraph "PHEventDisplay"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHEventDisplay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SubsysReco",height=0.2,width=0.4,color="black",URL="$d0/d32/classSubsysReco.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Fun4AllBase",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ThisName" ,fontname="FreeSans"];
+  Node4 [label="std::string",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="std::basic_string\<\l char \>",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _PHEveDisplay" ,fontname="FreeSans"];
+  Node6 [label="boost::shared_ptr\<\l PHEveDisplay \>",height=0.2,width=0.4,color="black",URL="$da/d18/classboost_1_1shared__ptr.html"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" px" ,fontname="FreeSans"];
+  Node7 [label="PHEveDisplay",height=0.2,width=0.4,color="black",URL="$df/d41/classPHEveDisplay.html"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mapped_field" ,fontname="FreeSans"];
+  Node8 [label="PHEveDisplay::MappedField",height=0.2,width=0.4,color="black",URL="$db/d3c/classPHEveDisplay_1_1MappedField.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="TEveMagField",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _fieldmap" ,fontname="FreeSans"];
+  Node10 [label="PHField",height=0.2,width=0.4,color="black",URL="$da/ddc/classPHField.html",tooltip="transient DST object for field storage and access "];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHObject",height=0.2,width=0.4,color="black",URL="$d9/d24/classPHObject.html"];
+  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="TObject",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" map_filename\ngeo_filename" ,fontname="FreeSans"];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _modules" ,fontname="FreeSans"];
+  Node13 [label="std::vector\< boost\l::shared_ptr\< mPHEveModule\lBase \> \>",height=0.2,width=0.4,color="grey75"];
+  Node14 -> Node13 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node14 [label="boost::shared_ptr\<\l mPHEveModuleBase \>",height=0.2,width=0.4,color="black",URL="$da/d18/classboost_1_1shared__ptr.html"];
+  Node15 -> Node14 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" px" ,fontname="FreeSans"];
+  Node15 [label="mPHEveModuleBase",height=0.2,width=0.4,color="black",URL="$d0/d41/classmPHEveModuleBase.html"];
+  Node16 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _elmt_buffer" ,fontname="FreeSans"];
+  Node16 [label="std::multimap\< TEveElement\l *, TEveElement * \>",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mapname\ngeoname" ,fontname="FreeSans"];
+  Node17 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _update_thread\n_status_thread" ,fontname="FreeSans"];
+  Node17 [label="boost::shared_ptr\<\l boost::thread \>",height=0.2,width=0.4,color="black",URL="$da/d18/classboost_1_1shared__ptr.html"];
+}

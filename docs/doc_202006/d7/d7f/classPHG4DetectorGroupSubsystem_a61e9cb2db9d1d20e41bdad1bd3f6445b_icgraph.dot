@@ -1,0 +1,16 @@
+digraph "PHG4DetectorGroupSubsystem::set_int_param"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4DetectorGroupSubsystem\l::set_int_param",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4DetectorGroupSubsystem\l::BlackHole",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a56cbe5f15efc38960c8c9694e1e4b7c8"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4DetectorGroupSubsystem\l::SetAbsorberActive",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a647213a2db245e8c859370ca0897ed23"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4DetectorGroupSubsystem\l::SetAbsorberTruth",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#a5bf08c640a7ccb29c6230e009d144a11"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4DetectorGroupSubsystem\l::SetActive",height=0.2,width=0.4,color="black",URL="$d7/d7f/classPHG4DetectorGroupSubsystem.html#ac6d2c4fb6ba110085d0ca90a8f039e66"];
+}

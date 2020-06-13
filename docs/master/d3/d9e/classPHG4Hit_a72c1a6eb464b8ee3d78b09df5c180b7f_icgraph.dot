@@ -1,0 +1,23 @@
+digraph "PHG4Hit::get_px"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4Hit::get_px",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="DPDigitizer::digitize",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880",tooltip="main external call, fill the digi hit vector "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="DPDigitizer::process\l_event",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f",tooltip="event processing "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="TrkEval::RecoEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a2e4c91aacd41057f331a7b236f4d4958"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="TrkEval::process_event",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0c626d9ee4c94abf889fa5408f1f49d1"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PatternDBGen::TruthEval",height=0.2,width=0.4,color="black",URL="$de/d1e/classPatternDBGen.html#a56101ce12e7222017e64f8e3c45eb953"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PatternDBGen::process\l_event",height=0.2,width=0.4,color="black",URL="$de/d1e/classPatternDBGen.html#a7ee5bd712a184a109f52fd67e98acf7d"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="TrkEval::TruthEval",height=0.2,width=0.4,color="black",URL="$de/d2f/classTrkEval.html#a0fe4bff3e37b8f0884e24ea933c43c60"];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

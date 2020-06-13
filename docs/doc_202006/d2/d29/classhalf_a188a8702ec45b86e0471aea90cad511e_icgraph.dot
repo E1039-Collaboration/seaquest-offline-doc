@@ -1,0 +1,18 @@
+digraph "half::half"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="half::half",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="half::operator*=",height=0.2,width=0.4,color="black",URL="$d2/d29/classhalf.html#abd70746e0e734e1b0cf0532f95fe12d1"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="half::operator+=",height=0.2,width=0.4,color="black",URL="$d2/d29/classhalf.html#a075213467c54ef6b1af5b02b44c8fcd9"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="half::operator-=",height=0.2,width=0.4,color="black",URL="$d2/d29/classhalf.html#a8de7289736af876dfe04455f01dd7f4b"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="half::operator/=",height=0.2,width=0.4,color="black",URL="$d2/d29/classhalf.html#a2b1be56e36094987cdd1f712dac53006"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="half::operator=",height=0.2,width=0.4,color="black",URL="$d2/d29/classhalf.html#a3ddfb47d9d9e66716c1030d5579652f1"];
+}

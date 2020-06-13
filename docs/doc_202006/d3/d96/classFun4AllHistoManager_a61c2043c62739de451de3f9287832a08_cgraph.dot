@@ -1,0 +1,20 @@
+digraph "Fun4AllHistoManager::dumpHistos"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fun4AllHistoManager\l::dumpHistos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHFlag::FlagExist",height=0.2,width=0.4,color="black",URL="$d1/da8/classPHFlag.html#a4b73a422f0076568904d71f40e849da5"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHFlag::get_IntFlag",height=0.2,width=0.4,color="black",URL="$d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="recoConsts::instance",height=0.2,width=0.4,color="black",URL="$d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="recoConsts::recoConsts",height=0.2,width=0.4,color="black",URL="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="TDirectoryHelper::mkdir",height=0.2,width=0.4,color="black",URL="$de/d7e/classTDirectoryHelper.html#aefc78be51a5c3501caf4e2e73bc7ce80"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Fun4AllBase::Name",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed",tooltip="Returns the name of this module. "];
+}

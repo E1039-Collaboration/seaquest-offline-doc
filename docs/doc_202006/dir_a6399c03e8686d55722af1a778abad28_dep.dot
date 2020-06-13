@@ -1,0 +1,17 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/packages/dptrigger" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_8ea7cac0f8d8113a9a7e5b799137b771 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="packages" fontname="FreeSans", fontsize="10", URL="dir_8ea7cac0f8d8113a9a7e5b799137b771.html"]
+  dir_a6399c03e8686d55722af1a778abad28 [shape=box, label="dptrigger", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a6399c03e8686d55722af1a778abad28.html"];
+  }
+  dir_5fde958d0efff8f0c14671d1322e68e9 [shape=box label="geom_svc" color="red" URL="dir_5fde958d0efff8f0c14671d1322e68e9.html"];
+  dir_68879e08c6651a210f7d5b44f4a6e313 [shape=box label="framework" color="red" URL="dir_68879e08c6651a210f7d5b44f4a6e313.html"];
+  dir_4109f03a5b9c2dae233205e99792f74d [shape=box label="interface_main" URL="dir_4109f03a5b9c2dae233205e99792f74d.html"];
+  dir_4109f03a5b9c2dae233205e99792f74d->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="29", labeldistance=1.5 headhref="dir_000032_000024.html"];
+  dir_a6399c03e8686d55722af1a778abad28->dir_5fde958d0efff8f0c14671d1322e68e9 [headlabel="1", labeldistance=1.5 headhref="dir_000053_000056.html"];
+  dir_a6399c03e8686d55722af1a778abad28->dir_68879e08c6651a210f7d5b44f4a6e313 [headlabel="7", labeldistance=1.5 headhref="dir_000053_000024.html"];
+  dir_a6399c03e8686d55722af1a778abad28->dir_4109f03a5b9c2dae233205e99792f74d [headlabel="8", labeldistance=1.5 headhref="dir_000053_000032.html"];
+}

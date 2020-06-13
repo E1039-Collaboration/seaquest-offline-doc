@@ -1,0 +1,34 @@
+digraph "G4Pythia6Decayer::ForceHadronicD"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="G4Pythia6Decayer::ForceHadronicD",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="G4Pythia6Decayer::ForceParticle\lDecay",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#a811d49ed4865ad3b9001c7770104d08b"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Pythia6::Instance",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a2d69c1109df9b9a45134c793c312c223"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Pythia6::Pythia6",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a7907092070bb53cee29bb34c9d7f2b0a"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="pythia6_common_address",height=0.2,width=0.4,color="black",URL="$d8/de1/Pythia6_8cc.html#a77d0b9d64ec0087e94c426a01cf59645"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Pythia6::Pycomp",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a8de9bc23893ff2dea3bc59bc2b50f973"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="Pythia6::SetMDCY",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a1c309e0807535318aaecfae4985889e4"];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Pythia6::GetMDCY",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a3ad80d4c2d9891bc2a82d717c2a76e26"];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="G4Pythia6Decayer::CountProducts",height=0.2,width=0.4,color="black",URL="$d8/d46/classG4Pythia6Decayer.html#ac8715f299f7b17c024f0e18f49fd8dd3"];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="Pythia6::SetMDME",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#abe9b1ada9bf1bd85428366f88b434321"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="Pythia6::GetKFDP",height=0.2,width=0.4,color="black",URL="$d8/d25/classPythia6.html#a1bdc0d72709ccb972bcfee24020170d1"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

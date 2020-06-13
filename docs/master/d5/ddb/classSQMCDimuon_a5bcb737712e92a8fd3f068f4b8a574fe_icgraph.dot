@@ -1,0 +1,20 @@
+digraph "SQMCDimuon::calcVariables"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQMCDimuon::calcVariables",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQPrimaryParticleGen\l::generateDimuon",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#ab539402f38eec7049588d242ae8685fc",tooltip="Dimuon phase space generator. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQPrimaryParticleGen\l::generateDrellYan",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#acb9d64a17b2176d50e06275170ac7878",tooltip="Various generators. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQPrimaryParticleGen\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQPrimaryParticleGen\l::generateJPsi",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#a85f076747e4de28e06193216b0ee30ec"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SQPrimaryParticleGen\l::generatePsip",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#a2d5f49fbafe2df88df9b0dd402512ed5"];
+  Node6 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

@@ -1,0 +1,12 @@
+digraph "/dev/shm/kenichi/update-e1039-doc/e1039-core/packages/jobopts_svc" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_8ea7cac0f8d8113a9a7e5b799137b771 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="packages" fontname="FreeSans", fontsize="10", URL="dir_8ea7cac0f8d8113a9a7e5b799137b771.html"]
+  dir_fa15fa1979a2f587dfa447baa637660a [shape=box, label="jobopts_svc", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_fa15fa1979a2f587dfa447baa637660a.html"];
+  }
+  dir_db0f62da9640c3e2ac69534d9d31ddb5 [shape=box label="global_consts" URL="dir_db0f62da9640c3e2ac69534d9d31ddb5.html"];
+  dir_fa15fa1979a2f587dfa447baa637660a->dir_db0f62da9640c3e2ac69534d9d31ddb5 [headlabel="1", labeldistance=1.5 headhref="dir_000060_000058.html"];
+}

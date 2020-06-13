@@ -1,0 +1,18 @@
+digraph "PHFieldConfig_v1::identify"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHFieldConfig_v1::identify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHFieldConfig_v1::get\l_field_config",height=0.2,width=0.4,color="black",URL="$d5/d59/classPHFieldConfig__v1.html#a9fae0e73e6d9777bdd4379f4efcd87dc"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHFieldConfig::get\l_field_config_description",height=0.2,width=0.4,color="black",URL="$d9/d8c/classPHFieldConfig.html#a4586212355d0920215c53aace6f87f1c"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHFieldConfig_v1::get\l_filename",height=0.2,width=0.4,color="black",URL="$d5/d59/classPHFieldConfig__v1.html#a289aebf0b0c215565652cb8d717f4c7d"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHFieldConfig_v1::get\l_magfield_rescale",height=0.2,width=0.4,color="black",URL="$d5/d59/classPHFieldConfig__v1.html#aeca5549077e5d3dc66259b8290ab06d8"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHFieldConfig_v1::isValid",height=0.2,width=0.4,color="black",URL="$d5/d59/classPHFieldConfig__v1.html#a88adea60ee0a9e34f349c82d62dd3a41",tooltip="isValid returns non zero if object contains vailid data "];
+}

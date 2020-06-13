@@ -1,0 +1,18 @@
+digraph "SQHitMap_v1::operator="
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQHitMap_v1::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQHitMap_v1::begin",height=0.2,width=0.4,color="black",URL="$d2/d62/classSQHitMap__v1.html#a3b7dbfe6d08eb4d66cdae41eced532a1"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQHit::Clone",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html#ab75c6c19b8933ec4a092cd4774aaa873"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQHitMap_v1::end",height=0.2,width=0.4,color="black",URL="$d2/d62/classSQHitMap__v1.html#ab001e34de4c634be82ad961a7bf0f263"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQHit::get_hit_id",height=0.2,width=0.4,color="black",URL="$de/d79/classSQHit.html#a9e470ede0a608c4e13325eab1d691694"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="SQHitMap_v1::Reset",height=0.2,width=0.4,color="black",URL="$d2/d62/classSQHitMap__v1.html#aea1b50285fd892c00424fe312c03be2e",tooltip="Clear Event. "];
+}

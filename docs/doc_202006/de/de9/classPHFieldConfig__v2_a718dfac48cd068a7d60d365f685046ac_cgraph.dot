@@ -1,0 +1,18 @@
+digraph "PHFieldConfig_v2::identify"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHFieldConfig_v2::identify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHFieldConfig::get\l_field_config_description",height=0.2,width=0.4,color="black",URL="$d9/d8c/classPHFieldConfig.html#a4586212355d0920215c53aace6f87f1c"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHFieldConfig_v2::get\l_field_mag_x",height=0.2,width=0.4,color="black",URL="$de/de9/classPHFieldConfig__v2.html#a39a5a49d3899c741eb0a77bcf5adb82d",tooltip="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2 "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHFieldConfig_v2::get\l_field_mag_y",height=0.2,width=0.4,color="black",URL="$de/de9/classPHFieldConfig__v2.html#a526d9de3cb49dcd8910339a27f5b7774",tooltip="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2 "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHFieldConfig_v2::get\l_field_mag_z",height=0.2,width=0.4,color="black",URL="$de/de9/classPHFieldConfig__v2.html#a457a4bb8618427cad1ff991188b4ca51",tooltip="field value in Tesla for uniform field model ONLY for PHFieldConfig_v2 "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHFieldConfig_v2::isValid",height=0.2,width=0.4,color="black",URL="$de/de9/classPHFieldConfig__v2.html#a6207887541204ff023e447fb7e9e831c",tooltip="isValid returns non zero if object contains vailid data "];
+}

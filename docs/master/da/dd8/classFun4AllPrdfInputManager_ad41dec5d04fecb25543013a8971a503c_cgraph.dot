@@ -1,0 +1,18 @@
+digraph "Fun4AllPrdfInputManager::OpenNextFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Fun4AllPrdfInputManager\l::OpenNextFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="Fun4AllPrdfInputManager\l::fileopen",height=0.2,width=0.4,color="black",URL="$da/dd8/classFun4AllPrdfInputManager.html#af7c7687826ed9f7495f0837fbc7f3f1e"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Fun4AllInputManager\l::AddToFileOpened",height=0.2,width=0.4,color="black",URL="$d4/da9/classFun4AllInputManager.html#a98ac3fb04956625a423ef41a3909ba27"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Fun4AllPrdfInputManager\l::fileclose",height=0.2,width=0.4,color="black",URL="$da/dd8/classFun4AllPrdfInputManager.html#a678edaaccda7214183cc67f7a19e1925"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Fun4AllBase::Name",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed",tooltip="Returns the name of this module. "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="Fun4AllUtils::GetRunSegment",height=0.2,width=0.4,color="black",URL="$dd/d3e/namespaceFun4AllUtils.html#a6dfe352085d7f142c63a03003f9df963"];
+}

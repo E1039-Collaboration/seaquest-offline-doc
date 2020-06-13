@@ -1,0 +1,30 @@
+digraph "Graphical Class Hierarchy"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4Detector",height=0.2,width=0.4,color="black",URL="$d3/de7/classPHG4Detector.html",tooltip="base class for phenix detector creation "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4BlockDetector",height=0.2,width=0.4,color="black",URL="$dc/d36/classPHG4BlockDetector.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4BNLTargetCoilDetector",height=0.2,width=0.4,color="black",URL="$d7/d21/classPHG4BNLTargetCoilDetector.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4CollimatorDetector",height=0.2,width=0.4,color="black",URL="$d8/d44/classPHG4CollimatorDetector.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4ConeDetector",height=0.2,width=0.4,color="black",URL="$d6/d41/classPHG4ConeDetector.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4CylinderDetector",height=0.2,width=0.4,color="black",URL="$d3/d95/classPHG4CylinderDetector.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4E1039InsensDetector",height=0.2,width=0.4,color="black",URL="$d5/dd4/classPHG4E1039InsensDetector.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4PolyconDetector",height=0.2,width=0.4,color="black",URL="$d8/db8/classPHG4PolyconDetector.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4SquareTubeDetector",height=0.2,width=0.4,color="black",URL="$d9/d87/classPHG4SquareTubeDetector.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4TargetCoilDetector",height=0.2,width=0.4,color="black",URL="$df/dec/classPHG4TargetCoilDetector.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4TargetCoilV2Detector",height=0.2,width=0.4,color="black",URL="$d0/d00/classPHG4TargetCoilV2Detector.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="SQG4DipoleMagnetDetector",height=0.2,width=0.4,color="black",URL="$d3/d93/classSQG4DipoleMagnetDetector.html"];
+}

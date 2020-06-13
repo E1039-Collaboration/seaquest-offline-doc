@@ -1,0 +1,13 @@
+digraph "PHG4EtaParameterization"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="PHG4EtaParameterization",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="G4VPVParameterisation",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _iphi\n_ieta" ,fontname="FreeSans"];
+  Node3 [label="std::vector\< int \>",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" _zpos\n_phi0\n_phi1\n_zhalf" ,fontname="FreeSans"];
+  Node4 [label="std::vector\< double \>",height=0.2,width=0.4,color="grey75"];
+}

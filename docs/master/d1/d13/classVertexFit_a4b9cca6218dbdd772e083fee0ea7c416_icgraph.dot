@@ -1,0 +1,16 @@
+digraph "VertexFit::updateVertex"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="VertexFit::updateVertex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="VertexFit::findVertex",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#a349a76249cda8005ff0fb3bcd75bdb4b",tooltip="Find the primary vertex. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="VertexFit::processOnePair",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#afe7aeb07239dfd3e84eff9551f8220c7",tooltip="After setting both tracks and hypothesis, start the iteration. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="VertexFit::setRecEvent",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211",tooltip="Set the SRecEvent, main external call the use vertex fit. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="VertexFit::process\l_event",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e"];
+}

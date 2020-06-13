@@ -1,0 +1,18 @@
+digraph "PHHepMCGenEventMap::insert_event"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHHepMCGenEventMap\l::insert_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHHepMCGenHelper::insert\l_event",height=0.2,width=0.4,color="black",URL="$dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227",tooltip="send HepMC::GenEvent to DST tree. This function takes ownership of evt "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="Fun4AllHepMCInputManager::run",height=0.2,width=0.4,color="black",URL="$d6/d6f/classFun4AllHepMCInputManager.html#ab6c80a8ee0701bfff5eee3ec3623015c"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Fun4AllOscarInputManager\l::ConvertFromOscar",height=0.2,width=0.4,color="black",URL="$db/d1f/classFun4AllOscarInputManager.html#a1537e89c4e652f70747fbbef18ceadc4"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Fun4AllOscarInputManager::run",height=0.2,width=0.4,color="black",URL="$db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHPythia8::process\l_event",height=0.2,width=0.4,color="black",URL="$d9/d3a/classPHPythia8.html#a5cc4124cc6be2fb2467714e3d3bc5a6a"];
+}

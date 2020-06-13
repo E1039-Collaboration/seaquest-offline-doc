@@ -1,0 +1,16 @@
+digraph "AnaSimDst::FindTrackRelation"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AnaSimDst::FindTrackRelation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQTrack::get_charge",height=0.2,width=0.4,color="black",URL="$d7/d1b/classSQTrack.html#a314678666c4468b687a6da3f832986aa",tooltip="Return the charge, i.e. +1 or -1. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQTrack::get_mom_vtx",height=0.2,width=0.4,color="black",URL="$d7/d1b/classSQTrack.html#a769675e6e32bc5e71c70752135a479e7",tooltip="Return the track momentum at vertex. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SRecTrack::getCharge",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#adaa99bd36a3a352621c57aaa0a7b09f5",tooltip="Gets. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SRecTrack::getMomentumVertex",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#a3e74da471844b37aca46c69d59351632",tooltip="Get the vertex info. "];
+}

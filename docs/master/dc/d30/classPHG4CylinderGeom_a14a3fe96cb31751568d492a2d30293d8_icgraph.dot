@@ -1,0 +1,12 @@
+digraph "PHG4CylinderGeom::ImportParameters"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4CylinderGeom::Import\lParameters",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4CylinderGeomv1\l::ImportParameters",height=0.2,width=0.4,color="black",URL="$d3/d63/classPHG4CylinderGeomv1.html#accabd2d72bf6949d7e6daefbc93e8ab2",tooltip="load parameters from PHParameters, which interface to Database/XML/ROOT files "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4CylinderGeomv2\l::ImportParameters",height=0.2,width=0.4,color="black",URL="$d1/df3/classPHG4CylinderGeomv2.html#ae660d920fd9c780b4cc92b92037aeb0e",tooltip="load parameters from PHParameters, which interface to Database/XML/ROOT files "];
+}

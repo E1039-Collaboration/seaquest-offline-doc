@@ -1,0 +1,38 @@
+digraph "PHG4ParameterInterface"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParameterInterface",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" default_double\ndparams" ,fontname="FreeSans"];
+  Node2 [label="std::map\< const std\l::string, double \>",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="FreeSans"];
+  Node3 [label="std::string",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="std::basic_string\<\l char \>",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" iparams\ndefault_int" ,fontname="FreeSans"];
+  Node5 [label="std::map\< const std\l::string, int \>",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys" ,fontname="FreeSans"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" default_string\ncparams" ,fontname="FreeSans"];
+  Node6 [label="std::map\< const std\l::string, std::string \>",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" keys\nelements" ,fontname="FreeSans"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" params" ,fontname="FreeSans"];
+  Node7 [label="PHG4Parameters",height=0.2,width=0.4,color="black",URL="$da/d29/classPHG4Parameters.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHObject",height=0.2,width=0.4,color="black",URL="$d9/d24/classPHObject.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="TObject",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" doubleparams" ,fontname="FreeSans"];
+  Node5 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" intparams" ,fontname="FreeSans"];
+  Node10 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pdbparam" ,fontname="FreeSans"];
+  Node10 [label="PdbParameterMap",height=0.2,width=0.4,color="black",URL="$d8/d21/classPdbParameterMap.html"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PdbCalChan",height=0.2,width=0.4,color="black",URL="$d6/d4b/classPdbCalChan.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dparams" ,fontname="FreeSans"];
+  Node5 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" iparams" ,fontname="FreeSans"];
+  Node6 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cparams" ,fontname="FreeSans"];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stringparams" ,fontname="FreeSans"];
+  Node3 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" detname" ,fontname="FreeSans"];
+}

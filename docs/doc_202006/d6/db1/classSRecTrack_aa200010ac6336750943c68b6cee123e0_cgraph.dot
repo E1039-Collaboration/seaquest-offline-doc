@@ -1,0 +1,10 @@
+digraph "SRecTrack::getMomentumVertex"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SRecTrack::getMomentumVertex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SRecTrack::getMomentum",height=0.2,width=0.4,color="black",URL="$d6/db1/classSRecTrack.html#ac88a6900b2c3ca4afc4d35f67c1933df"];
+}

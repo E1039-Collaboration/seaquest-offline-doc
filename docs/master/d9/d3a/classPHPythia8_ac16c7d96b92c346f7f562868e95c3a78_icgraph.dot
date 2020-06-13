@@ -1,0 +1,10 @@
+digraph "PHPythia8::set_vertex_distribution_width"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHPythia8::set_vertex\l_distribution_width",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHPythia8::beam_vertex\l_parameters",height=0.2,width=0.4,color="black",URL="$d9/d3a/classPHPythia8.html#abb21b0537da59ea9e6a1a4b92827af18"];
+}

@@ -1,0 +1,14 @@
+digraph "PHG4TargetCoilDetector::SuperDetector"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4TargetCoilDetector\l::SuperDetector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4TargetCoilSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$d8/d86/classPHG4TargetCoilSubsystem.html#ab2523afc854bd0070f5de6bd2448664e",tooltip="init runwise stuff "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4TargetCoilSteppingAction\l::SetInterfacePointers",height=0.2,width=0.4,color="black",URL="$db/d00/classPHG4TargetCoilSteppingAction.html#afd2db75b892b6605581d713739a51dca",tooltip="reimplemented from base class "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4TargetCoilSteppingAction\l::UserSteppingAction",height=0.2,width=0.4,color="black",URL="$db/d00/classPHG4TargetCoilSteppingAction.html#a782a5cc75c50dcb78cff48729fe8922f",tooltip="stepping action "];
+}

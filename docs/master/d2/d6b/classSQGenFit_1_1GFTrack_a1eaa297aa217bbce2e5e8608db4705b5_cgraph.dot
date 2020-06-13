@@ -1,0 +1,14 @@
+digraph "SQGenFit::GFTrack::addMeasurements"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQGenFit::GFTrack::\laddMeasurements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQGenFit::GFTrack::\laddMeasurement",height=0.2,width=0.4,color="black",URL="$d2/d6b/classSQGenFit_1_1GFTrack.html#a3c58a85e0b91e6d047bfd483fce664f4"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQGenFit::GFMeasurement\l::getZ",height=0.2,width=0.4,color="black",URL="$d4/d9d/classSQGenFit_1_1GFMeasurement.html#aeb80fc6239682770165f1094a78e6ff7"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQGenFit::GFMeasurement\l::setTrackPtr",height=0.2,width=0.4,color="black",URL="$d4/d9d/classSQGenFit_1_1GFMeasurement.html#a56058c0c023f6ced2dbe91bf21fd6a17"];
+}

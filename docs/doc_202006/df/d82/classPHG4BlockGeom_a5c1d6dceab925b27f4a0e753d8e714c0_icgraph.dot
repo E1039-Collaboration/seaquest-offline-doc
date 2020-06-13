@@ -1,0 +1,18 @@
+digraph "PHG4BlockGeom::set_layer"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4BlockGeom::set\l_layer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4BlockGeomContainer\l::AddLayerGeom",height=0.2,width=0.4,color="black",URL="$d2/dd7/classPHG4BlockGeomContainer.html#a4f7db051cc84567591d367fceb6cbdec"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4BlockSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$df/d14/classPHG4BlockSubsystem.html#ac0d173351f388609274a5105753746c3",tooltip="InitRunSubsystem. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4CollimatorSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$de/d78/classPHG4CollimatorSubsystem.html#a92f9e8f0d2891f34d9a638a76577a6b2",tooltip="InitRunSubsystem. "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4E1039InsensSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$d9/d43/classPHG4E1039InsensSubsystem.html#a5b33838350511d45e3d69556ae38d3c4",tooltip="InitRunSubsystem. "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4SquareTubeSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$d4/d2d/classPHG4SquareTubeSubsystem.html#a5b92b85e8435b833679496938bc6c4d8",tooltip="InitRunSubsystem. "];
+}

@@ -141,12 +141,6 @@ STRIP_FROM_PATH        = ./
 
 STRIP_FROM_INC_PATH    = ./
 
-CVS_LINK_ENABLE        = YES
-CVS_STRIP_FROM_PATH    = /home/phnxbld/doxygen_sPHENIX/utilities/utils/rebuild
-CVS_URL_PREFIX         = "https://github.com/E1039-Collaboration/e1039-core.git"
-CVS_URL_SUFIX          = ""
-
-
 # If the SHORT_NAMES tag is set to YES, doxygen will generate much shorter
 # (but less readable) file names. This can be useful if your file system
 # doesn't support long names like on DOS, Mac, or CD-ROM.

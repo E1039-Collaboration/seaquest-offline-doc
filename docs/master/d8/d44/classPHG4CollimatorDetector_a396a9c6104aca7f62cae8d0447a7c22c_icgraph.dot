@@ -1,0 +1,12 @@
+digraph "PHG4CollimatorDetector::SuperDetector"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4CollimatorDetector\l::SuperDetector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4CollimatorSubsystem\l::InitRunSubsystem",height=0.2,width=0.4,color="black",URL="$de/d78/classPHG4CollimatorSubsystem.html#a92f9e8f0d2891f34d9a638a76577a6b2",tooltip="InitRunSubsystem. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4CollimatorSteppingAction\l::SetInterfacePointers",height=0.2,width=0.4,color="black",URL="$d2/dc6/classPHG4CollimatorSteppingAction.html#ab4b83e879c4b3cc26a8503207e874eaf",tooltip="reimplemented from base class "];
+}

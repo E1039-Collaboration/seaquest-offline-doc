@@ -1,0 +1,18 @@
+digraph "SQGenFit::GFMeasurement::setTrackPtr"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQGenFit::GFMeasurement\l::setTrackPtr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="SQGenFit::GFTrack::\laddMeasurement",height=0.2,width=0.4,color="black",URL="$d2/d6b/classSQGenFit_1_1GFTrack.html#a3c58a85e0b91e6d047bfd483fce664f4"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQGenFit::GFTrack::\laddMeasurements",height=0.2,width=0.4,color="black",URL="$d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQGenFit::GFTrack::\lsetTracklet",height=0.2,width=0.4,color="black",URL="$d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SQReco::fitTrackCand",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a32bb088e7896b2ecdb5b9aa4df1f6a50"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="main",height=0.2,width=0.4,color="black",URL="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

@@ -1,0 +1,16 @@
+digraph "SQHit_v1::set_hit_id"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SQHit_v1::set_hit_id",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="DPDigitizer::digitize",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880",tooltip="main external call, fill the digi hit vector "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="DPDigitizer::process\l_event",height=0.2,width=0.4,color="black",URL="$d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f",tooltip="event processing "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="RndmEmbed::process\l_event",height=0.2,width=0.4,color="black",URL="$d9/d0c/classRndmEmbed.html#aab52cc2c180db26dd572a3556c8d6d9e"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="SRawEventEmbed::process\l_event",height=0.2,width=0.4,color="black",URL="$d4/d36/classSRawEventEmbed.html#a0041b344c23d0d679125dbb74aa1652b"];
+}

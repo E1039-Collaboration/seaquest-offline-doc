@@ -1,0 +1,41 @@
+digraph "PHGeomTGeo::isValid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHGeomTGeo::isValid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHGeomUtility::GetTGeoManager",height=0.2,width=0.4,color="black",URL="$d2/da1/classPHGeomUtility.html#aa80925b14430021ea70d0b906af8e885",tooltip="Main user interface: DST node -&gt; TGeoManager for downstream use. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SQPrimaryParticleGen\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHEveDisplay::load\l_geometry",height=0.2,width=0.4,color="black",URL="$df/d41/classPHEveDisplay.html#aebe110b9ffdbada7535ce4c5ceb7736d"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHEventDisplay::InitRun",height=0.2,width=0.4,color="black",URL="$d1/dce/classPHEventDisplay.html#a41be51990798d21514cd311258511f42",tooltip="Run initialization. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="eve_disp",height=0.2,width=0.4,color="black",URL="$d2/d96/eve__disp_8C.html#abeb034dea489ef1866373d2464ec5721"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="eve_disp_db",height=0.2,width=0.4,color="black",URL="$de/d2a/eve__disp__db_8C.html#aa8b45dd9cf940c8aff427aed5d9db19f"];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="InitInput",height=0.2,width=0.4,color="black",URL="$d6/d9e/EventDisp4MainDaqDst_8C.html#a9d62acc9c2150e00b509d9d553d7d6c1"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="EventDisp4MainDaqDst",height=0.2,width=0.4,color="black",URL="$d6/d9e/EventDisp4MainDaqDst_8C.html#a52e0269749883c6976db81717ead7d9b"];
+  Node2 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHGeom_DSTInspection",height=0.2,width=0.4,color="black",URL="$d6/deb/PHGeom__DSTInspection_8C.html#a8a06a40e2950cd31dda512c040049cd0"];
+  Node2 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="KalmanFastTrackingWrapper\l::InitGeom",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a11d29287a0249d9ab26b030b4883515a"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="KalmanFastTrackingWrapper\l::InitRun",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a3bb9169cefe8ea8969f0ec5661baca2b"];
+  Node2 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="SQReco::InitGeom",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a66e290d6ce11a576f9c76ab6c84ce132"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="SQReco::InitRun",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#ac7504718746454c2518be860d2224802"];
+  Node2 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node15 [label="VertexFit::InitGeom",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#ad7a5852b17237bf3dbcfba6912173075"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node16 [label="VertexFit::InitRun",height=0.2,width=0.4,color="black",URL="$d1/d13/classVertexFit.html#a818383ba3a5c7c386c5c8bb3328aa0a3"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node17 [label="PHGeomUtility::ImportCurrent\lTGeoManager",height=0.2,width=0.4,color="black",URL="$d2/da1/classPHGeomUtility.html#ae053065752b1bff9f63f585b6fefc68b",tooltip="gGeoManager -&gt; DST node "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+}

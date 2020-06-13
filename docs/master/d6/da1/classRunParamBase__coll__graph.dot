@@ -1,0 +1,18 @@
+digraph "RunParamBase"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="RunParamBase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_label\nm_header\nm_type\nm_map_id\nm_dir_base" ,fontname="FreeSans"];
+  Node2 [label="std::string",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="std::basic_string\<\l char \>",height=0.2,width=0.4,color="grey75",tooltip="STL class. "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_range" ,fontname="FreeSans"];
+  Node4 [label="ParamRunRange",height=0.2,width=0.4,color="black",URL="$d0/d0d/classParamRunRange.html"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" m_list" ,fontname="FreeSans"];
+  Node5 [label="std::vector\< RangeItem \>",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" elements" ,fontname="FreeSans"];
+  Node6 [label="ParamRunRange::RangeItem",height=0.2,width=0.4,color="black",URL="$dd/d8c/structParamRunRange_1_1RangeItem.html"];
+  Node2 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" map_id" ,fontname="FreeSans"];
+}

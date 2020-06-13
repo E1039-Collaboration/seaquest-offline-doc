@@ -1,0 +1,16 @@
+digraph "Hit::setTriggerMask"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Hit::setTriggerMask",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="TriggerAnalyzer::trimEvent",height=0.2,width=0.4,color="black",URL="$d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="EventReducer::reduceEvent",height=0.2,width=0.4,color="black",URL="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="SQReco::process_event",height=0.2,width=0.4,color="black",URL="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="KalmanFastTrackingWrapper\l::process_event",height=0.2,width=0.4,color="black",URL="$d4/dff/classKalmanFastTrackingWrapper.html#a5edc61b3b9a06f6486b1f22e44f7d63e"];
+}

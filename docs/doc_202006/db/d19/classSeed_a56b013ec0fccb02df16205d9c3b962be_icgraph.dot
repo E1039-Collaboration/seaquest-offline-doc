@@ -1,0 +1,16 @@
+digraph "Seed::getExpPositionY"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Seed::getExpPositionY",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="KalmanTrack::getMuIDAngle",height=0.2,width=0.4,color="black",URL="$d9/dc3/classKalmanTrack.html#a5109b783a2a64bfcf59edd72a728abd5"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="KalmanTrack::isInStation3",height=0.2,width=0.4,color="black",URL="$d9/dc3/classKalmanTrack.html#ac7e41743680505a0c0951c730921f0a9",tooltip="Check if the seed goes to station 3+ or station 3-. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="KalmanTrack::KalmanTrack",height=0.2,width=0.4,color="black",URL="$d9/dc3/classKalmanTrack.html#a1781fbc1ebabbda4a1fc16fe4ab38ecb"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="Seed::similarity",height=0.2,width=0.4,color="black",URL="$db/d19/classSeed.html#abd6a6b474153e7200e2ccad2b9a8a813"];
+}

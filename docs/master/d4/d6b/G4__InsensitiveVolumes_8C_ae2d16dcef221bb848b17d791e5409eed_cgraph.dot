@@ -1,0 +1,20 @@
+digraph "SetupInsensitiveVolumes"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SetupInsensitiveVolumes",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Reco::registerSubsystem",height=0.2,width=0.4,color="black",URL="$d0/d78/classPHG4Reco.html#abc0956c0994a72d5a817b69511e1456b",tooltip="register subsystem "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4DetectorSubsystem\l::set_double_param",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#a48e75fd1738dab9d0d66b174053ead8f"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4DetectorSubsystem\l::set_int_param",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#a9c64b70e82272ef90f285ecaef1e50b4"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4DetectorSubsystem\l::set_string_param",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#a82c122f8a80f34dc4ffba6675ce60c75"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4DetectorSubsystem\l::SetActive",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#a06d7265cdb191528ced9e78e73ba0f0a"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4DetectorSubsystem\l::SuperDetector",height=0.2,width=0.4,color="black",URL="$d5/d29/classPHG4DetectorSubsystem.html#aa0c11d415a70a207a3ea851b28932dfd"];
+}

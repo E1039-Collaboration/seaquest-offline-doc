@@ -1,0 +1,26 @@
+digraph "MainDaqParser::OpenCodaFile"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MainDaqParser::OpenCodaFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="CodaInputManager::OpenFile",height=0.2,width=0.4,color="black",URL="$d9/de8/classCodaInputManager.html#a010f2f99cd72b21042c534a0236c3151"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="CodaInputManager::CloseFile",height=0.2,width=0.4,color="black",URL="$d9/de8/classCodaInputManager.html#a683d92ec87ad857149fcabc1e7d8471a"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="evClose",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#a2f48414e60ed98e36184c0d714927134"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="evFlush",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#acb33f16a6cc76b4da916bfd03181de96"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="evOpen",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#abe7e79c9336111cd6aeb9d8f37fd1101"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="int_swap_byte",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#af1412e237e0cf96798f8ee8c3e87b9cc"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="kill_trailing",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#ac64821bbb60806b36efae710468d2b31"];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="swapped_intcpy",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#a8941d1ffdddcc0ce2d4612dc50fcd52f"];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="CodaInputManager::file\l_exists",height=0.2,width=0.4,color="black",URL="$d9/de8/classCodaInputManager.html#a4d6d936d724f91a01c136a3177ab9f59"];
+}

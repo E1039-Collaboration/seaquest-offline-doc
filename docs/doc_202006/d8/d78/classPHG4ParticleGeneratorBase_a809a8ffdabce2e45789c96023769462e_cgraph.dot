@@ -1,0 +1,22 @@
+digraph "PHG4ParticleGeneratorBase::SetParticleId"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParticleGeneratorBase\l::SetParticleId",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4InEvent::AddEmbedded\lParticle",height=0.2,width=0.4,color="black",URL="$db/d62/classPHG4InEvent.html#ad2c9552e01280a46e3e6fca2ec45b8ed"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHG4Particle::get_name",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#aaf95cb29207cce8188669625f7287471"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="PHG4ParticleGeneratorBase\l::get_pdgcode",height=0.2,width=0.4,color="black",URL="$d8/d78/classPHG4ParticleGeneratorBase.html#a2b222deb69d82462362adb14bf3222e9"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4ParticleGeneratorBase\l::get_pdgname",height=0.2,width=0.4,color="black",URL="$d8/d78/classPHG4ParticleGeneratorBase.html#a3c9fbe79aed7b346b81221e07a87b610"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4Particle::get_pid",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#a474033dbd058eea155c71fc4d17aaf4d"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4Particle::set_name",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#aee8ffddf6f6d6f13e10d836e029b1f85"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4Particle::set_pid",height=0.2,width=0.4,color="black",URL="$de/dc9/classPHG4Particle.html#a46b6688accb92b757c61c937b2096cfd"];
+}

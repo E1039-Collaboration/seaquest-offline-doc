@@ -1,0 +1,26 @@
+digraph "onmemory_swap"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="onmemory_swap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="evGetNewBuffer",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#afc9ef0a07a0bc472e3cde4e37a581c2f"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="evRead",height=0.2,width=0.4,color="black",URL="$d9/df8/evio_8h.html#a6d108c15d7831eef29f733da52b8543f"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="CodaInputManager::NextCoda\lEvent",height=0.2,width=0.4,color="black",URL="$d9/de8/classCodaInputManager.html#aedda0f443ef8f023461c82dfc42c86c4"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="CodaInputManager::JumpCoda\lEvent",height=0.2,width=0.4,color="black",URL="$d9/de8/classCodaInputManager.html#aaeb27a863ef1b2598575d927b447b00a"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="MainDaqParser::ParseOneSpill",height=0.2,width=0.4,color="black",URL="$df/dcd/classMainDaqParser.html#aec37294974c2bae1ec389cfc1b6ce2ae"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="MainDaqParser::NextPhysics\lEvent",height=0.2,width=0.4,color="black",URL="$df/dcd/classMainDaqParser.html#a82fee38c4e8fa7912e47085f7e66f97d"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="Fun4AllEVIOInputManager::run",height=0.2,width=0.4,color="black",URL="$d3/d97/classFun4AllEVIOInputManager.html#af61a28facba084aad29bf788ef2d28e7"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="evread_",height=0.2,width=0.4,color="black",URL="$d9/dca/evio_8c.html#ae03ba5881a2cca0aa4b784aa018f1db5"];
+}

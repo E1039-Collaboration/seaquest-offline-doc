@@ -1,0 +1,10 @@
+digraph "PHG4ParticleGeneratorBase::set_pid"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4ParticleGeneratorBase\l::set_pid",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4ParticleGeneratorBase\l::CheckAndCreateParticleVector",height=0.2,width=0.4,color="black",URL="$d8/d78/classPHG4ParticleGeneratorBase.html#a700e600d844bad2352786a0f1506a2dd"];
+}

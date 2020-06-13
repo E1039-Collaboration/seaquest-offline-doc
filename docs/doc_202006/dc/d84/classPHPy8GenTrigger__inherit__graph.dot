@@ -1,0 +1,11 @@
+digraph "PHPy8GenTrigger"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="PHPy8GenTrigger",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHPy8JetTrigger",height=0.2,width=0.4,color="black",URL="$d7/d30/classPHPy8JetTrigger.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="PHPy8ParticleTrigger",height=0.2,width=0.4,color="black",URL="$d9/d8b/classPHPy8ParticleTrigger.html"];
+}

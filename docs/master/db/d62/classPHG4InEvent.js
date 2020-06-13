@@ -1,0 +1,25 @@
+var classPHG4InEvent =
+[
+    [ "PHG4InEvent", "db/d62/classPHG4InEvent.html#ac939425268d3c20fd911c53ea4789f97", null ],
+    [ "~PHG4InEvent", "db/d62/classPHG4InEvent.html#a4eb602f778fead6b1b0dfe2deef88a3d", null ],
+    [ "AddEmbeddedParticle", "db/d62/classPHG4InEvent.html#ad2c9552e01280a46e3e6fca2ec45b8ed", null ],
+    [ "AddParticle", "db/d62/classPHG4InEvent.html#a1ce8225b21358e01f87adfd4b5d46d4b", null ],
+    [ "AddVtx", "db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148", null ],
+    [ "AddVtx", "db/d62/classPHG4InEvent.html#a09e3fdbb8bfd182fc89963dba77f9507", null ],
+    [ "AddVtxCommon", "db/d62/classPHG4InEvent.html#ab893e0a611fdd0867f68c2a6d694e7d2", null ],
+    [ "AddVtxHepMC", "db/d62/classPHG4InEvent.html#a565abe8aa2e32da8ccab3b24ffdd4ff1", null ],
+    [ "DeleteParticle", "db/d62/classPHG4InEvent.html#a3dd93bdfcca611ac18f565586fd0e126", null ],
+    [ "GetEmbeddedParticles", "db/d62/classPHG4InEvent.html#afa86efb055556b6284baffb284b69e33", null ],
+    [ "GetNEmbedded", "db/d62/classPHG4InEvent.html#a620e4276e7fb6a0db18c1c429b98b06f", null ],
+    [ "GetNVtx", "db/d62/classPHG4InEvent.html#a21ffc7a40dc313688f69a53efb536e5c", null ],
+    [ "GetParticles", "db/d62/classPHG4InEvent.html#a64ce473f416b917858b446396f7522af", null ],
+    [ "GetParticles", "db/d62/classPHG4InEvent.html#aa595a0e50bf3eb2ec19218c96a54a607", null ],
+    [ "GetParticles_Modify", "db/d62/classPHG4InEvent.html#aac39d39c05f70c0f8194cc940e4665ae", null ],
+    [ "GetVertices", "db/d62/classPHG4InEvent.html#a459357d91b697f1a08abee3fc0b0dcce", null ],
+    [ "identify", "db/d62/classPHG4InEvent.html#a47af3dda48d75749874e989dbd730b28", null ],
+    [ "isEmbeded", "db/d62/classPHG4InEvent.html#a73f34552202ce3034314d189207fdce1", null ],
+    [ "Reset", "db/d62/classPHG4InEvent.html#a936204b04d98528a3f8d8124ab834d79", null ],
+    [ "embedded_particlelist", "db/d62/classPHG4InEvent.html#abed26ab707a4096016984629709b59d3", null ],
+    [ "particlelist", "db/d62/classPHG4InEvent.html#a1525da2fc45c6fdab53d92e4cffc2b1e", null ],
+    [ "vtxlist", "db/d62/classPHG4InEvent.html#ae79dbe36f273b91ddba4f621a333ddbe", null ]
+];

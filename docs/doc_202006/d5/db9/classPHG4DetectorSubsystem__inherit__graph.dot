@@ -1,0 +1,34 @@
+digraph "PHG4DetectorSubsystem"
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PHG4DetectorSubsystem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="PHG4Subsystem",height=0.2,width=0.4,color="black",URL="$db/df7/classPHG4Subsystem.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="SubsysReco",height=0.2,width=0.4,color="black",URL="$d0/d32/classSubsysReco.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="Fun4AllBase",height=0.2,width=0.4,color="black",URL="$d5/dec/classFun4AllBase.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="PHG4BlockSubsystem",height=0.2,width=0.4,color="black",URL="$df/d14/classPHG4BlockSubsystem.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="PHG4BNLTargetCoilSubsystem",height=0.2,width=0.4,color="black",URL="$d9/df7/classPHG4BNLTargetCoilSubsystem.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="PHG4CollimatorSubsystem",height=0.2,width=0.4,color="black",URL="$de/d78/classPHG4CollimatorSubsystem.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node8 [label="PHG4CylinderSubsystem",height=0.2,width=0.4,color="black",URL="$db/dc5/classPHG4CylinderSubsystem.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node9 [label="PHG4E1039InsensSubsystem",height=0.2,width=0.4,color="black",URL="$d9/d43/classPHG4E1039InsensSubsystem.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node10 [label="PHG4PolyconSubsystem",height=0.2,width=0.4,color="black",URL="$d6/d12/classPHG4PolyconSubsystem.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node11 [label="PHG4SquareTubeSubsystem",height=0.2,width=0.4,color="black",URL="$d4/d2d/classPHG4SquareTubeSubsystem.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node12 [label="PHG4TargetCoilSubsystem",height=0.2,width=0.4,color="black",URL="$d8/d86/classPHG4TargetCoilSubsystem.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node13 [label="PHG4TargetCoilV2Subsystem",height=0.2,width=0.4,color="black",URL="$db/ddf/classPHG4TargetCoilV2Subsystem.html"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node14 [label="SQG4DipoleMagnetSubsystem",height=0.2,width=0.4,color="black",URL="$dc/d3f/classSQG4DipoleMagnetSubsystem.html"];
+}
