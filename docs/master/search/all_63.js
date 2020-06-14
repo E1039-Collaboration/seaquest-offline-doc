@@ -245,6 +245,6 @@ var searchData=
   ['customschema',['customSchema',['../df/d9a/classSettings.html#a87bb6b12efc0a43980c1af29b6f55259',1,'Settings']]],
   ['cuttubewrite',['CutTubeWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#afa8d5aea54a4b2e2367e0511bc7c12a5',1,'PHG4GDMLWriteSolids']]],
   ['cylinder_5fphysi',['cylinder_physi',['../d7/d21/classPHG4BNLTargetCoilDetector.html#a6d8238b8f230a1f4bc68c43cf2f2dd91',1,'PHG4BNLTargetCoilDetector::cylinder_physi()'],['../d3/d95/classPHG4CylinderDetector.html#aa3c909d68d0d6b7fb2794a2ae7498c2d',1,'PHG4CylinderDetector::cylinder_physi()'],['../d8/db8/classPHG4PolyconDetector.html#ac27c653792f49ea076380cf971596be0',1,'PHG4PolyconDetector::cylinder_physi()'],['../df/dec/classPHG4TargetCoilDetector.html#acfa4a86e800cd5c45e4dbde852299e76',1,'PHG4TargetCoilDetector::cylinder_physi()'],['../d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6',1,'PHG4TargetCoilV2Detector::cylinder_physi()']]],
-  ['clone_20the_20analysis_20repository',['clone the analysis repository',['../dc/d0e/md__dev_shm_kenichi_update-e1039-doc_e1039-analysis_E1039Shielding_readme.html',1,'']]],
-  ['clone_20the_20analysis_20repository',['clone the analysis repository',['../d9/d58/md__dev_shm_kenichi_update-e1039-doc_e1039-analysis_HodoAccGap_README.html',1,'']]]
+  ['clone_20the_20analysis_20repository',['clone the analysis repository',['../dd/d99/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_E1039Shielding_readme.html',1,'']]],
+  ['clone_20the_20analysis_20repository',['clone the analysis repository',['../db/d33/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_HodoAccGap_README.html',1,'']]]
 ];

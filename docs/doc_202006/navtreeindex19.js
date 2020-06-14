@@ -1,7 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d5/d83/classSRawEvent.html#a105c9c286d28e7cd505adf7d649ccc97":[16,0,423,88],
-"d5/d83/classSRawEvent.html#a109ab819cba7899e7148d87cb2b3ba6a":[16,0,423,45],
 "d5/d83/classSRawEvent.html#a11525ddaed9a590a36246f91e15a2a43":[16,0,423,19],
 "d5/d83/classSRawEvent.html#a1173db6056ac7309df338d93ad19c338":[16,0,423,48],
 "d5/d83/classSRawEvent.html#a1238414467b0d6c43cc758d02b534735":[16,0,423,27],
@@ -249,5 +247,7 @@ var NAVTREEINDEX19 =
 "d5/dba/classTrackletVector.html#addccde810131ce5081febbd4c408857c":[16,0,442,4],
 "d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c":[16,0,442,14],
 "d5/dbe/HepMCFlowAfterBurnerLinkDef_8h.html":[17,0,2,2,1,15],
-"d5/dbe/HepMCFlowAfterBurnerLinkDef_8h_source.html":[17,0,2,2,1,15]
+"d5/dbe/HepMCFlowAfterBurnerLinkDef_8h_source.html":[17,0,2,2,1,15],
+"d5/dc1/classPHField3DCylindrical.html":[16,0,173],
+"d5/dc1/classPHField3DCylindrical.html#a01680789ef997305fa63259f31b4a063":[16,0,173,14]
 };

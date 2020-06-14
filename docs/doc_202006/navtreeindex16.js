@@ -1,6 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d4/db3/classSQG4DipoleMagnetSteppingAction.html#a5330e940da933c335f720785bb5241bd":[16,0,387,10],
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a7eee5f0e993027cdeb0e5d641bfe6a05":[16,0,387,2],
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a8c465acaa2b81e1a4d9bbb4628395aed":[16,0,387,11],
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9561125aff4239fa9dd297b13c199645":[16,0,387,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "d5/d0a/unionPHG4Hitv1_1_1u__property.html#af6cbfeb34d9762bec14b46945e078719":[16,0,254,0,2],
 "d5/d0c/PHG4StepStatusDecode_8cc.html":[17,0,2,8,1,163],
 "d5/d0c/PHG4StepStatusDecode_8cc.html#a46a57d6f5d21918da0985585fb9e0a24":[17,0,2,8,1,163,0],
-"d5/d0c/PHG4StepStatusDecode_8cc_source.html":[17,0,2,8,1,163]
+"d5/d0c/PHG4StepStatusDecode_8cc_source.html":[17,0,2,8,1,163],
+"d5/d12/PHG4DetectorGroupSubsystem_8h.html":[17,0,2,8,1,120]
 };

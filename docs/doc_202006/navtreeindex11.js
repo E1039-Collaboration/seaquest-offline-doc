@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b":[16,0,121,19],
 "d3/d46/classKalmanFastTracking.html#a7ca9cb49ad3fefdd7f50a112cde397b0":[16,0,121,59],
 "d3/d46/classKalmanFastTracking.html#a80aa471ebbcb0f714282e78793928ccc":[16,0,121,49],
 "d3/d46/classKalmanFastTracking.html#a84d901e24def2f971d1b011e9f215b88":[16,0,121,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d95/classPHG4CylinderDetector.html#aa3c909d68d0d6b7fb2794a2ae7498c2d":[16,0,216,7],
 "d3/d95/classPHG4CylinderDetector.html#aad94d71db627d92eeed36b8ce2ba9dc9":[16,0,216,3],
 "d3/d95/classPHG4CylinderDetector.html#abb97414b7aeff85a63fb3d4159f33abc":[16,0,216,9],
-"d3/d95/classPHG4CylinderDetector.html#acac9ef480a99b88d02512b189192ce9d":[16,0,216,6],
-"d3/d96/classFun4AllHistoManager.html":[16,0,89]
+"d3/d95/classPHG4CylinderDetector.html#acac9ef480a99b88d02512b189192ce9d":[16,0,216,6]
 };

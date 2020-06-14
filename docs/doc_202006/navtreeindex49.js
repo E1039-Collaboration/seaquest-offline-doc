@@ -1,8 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"dd/dc9/PHG4PolyconSubsystem_8cc.html":[17,0,2,8,1,153],
-"dd/dc9/PHG4PolyconSubsystem_8cc_source.html":[17,0,2,8,1,153],
-"dd/dca/PHG4GDMLConfig_8cc.html":[17,0,2,8,4,1],
 "dd/dca/PHG4GDMLConfig_8cc_source.html":[17,0,2,8,4,1],
 "dd/dcc/PHG4Detector_8h.html":[17,0,2,8,5,12],
 "dd/dcc/PHG4Detector_8h_source.html":[17,0,2,8,5,12],
@@ -249,5 +246,8 @@ var NAVTREEINDEX49 =
 "de/d0f/classPHGeomFileImport.html#a5288056a79e7230b51b1da9433010b7f":[16,0,319,5],
 "de/d0f/classPHGeomFileImport.html#a5b2b801f71f2c2853d7db629ff8f86d5":[16,0,319,1],
 "de/d0f/classPHGeomFileImport.html#a86782508fa3342e14b06c62194567599":[16,0,319,0],
-"de/d0f/classPHGeomFileImport.html#a8fcce1efd2bbf14ecb4835b71830346b":[16,0,319,6]
+"de/d0f/classPHGeomFileImport.html#a8fcce1efd2bbf14ecb4835b71830346b":[16,0,319,6],
+"de/d0f/classPHGeomFileImport.html#aec25f7186f832f7d3bf4c5cce29fcd3b":[16,0,319,4],
+"de/d10/Fun4All__G4__E1039__R1_8C.html":[17,0,1,12,7],
+"de/d10/Fun4All__G4__E1039__R1_8C.html#a99a10663134dd48fa60ad1c5826a45eb":[17,0,1,12,7,1]
 };

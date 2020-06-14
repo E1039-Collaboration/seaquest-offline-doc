@@ -1,10 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"dd/d13/classPHG4ParticleGun.html#a602c1dc8c1b1a7aa762d9a1def15c0f9":[16,0,270,0],
-"dd/d13/classPHG4ParticleGun.html#a6a76fa0b061c94d8ce36da48fd41d274":[16,0,270,4],
-"dd/d13/classPHG4ParticleGun.html#adadde5ec4273504953ce2c5d2d2a7c28":[16,0,270,6],
-"dd/d13/classPHG4ParticleGun.html#afa64e84e25209e628fb70fac75357559":[16,0,270,3],
-"dd/d1f/EVIO__Event_8cxx.html":[17,0,2,6,1,2],
 "dd/d1f/EVIO__Event_8cxx_source.html":[17,0,2,6,1,2],
 "dd/d1f/classPHRandomSeed.html":[16,0,346],
 "dd/d1f/classPHRandomSeed.html#a14a37d5a31ba45b5d2e2f97e7206ca43":[16,0,346,7],
@@ -138,8 +133,8 @@ var NAVTREEINDEX47 =
 "dd/d39/PHG4ConeSteppingAction_8h_source.html":[17,0,2,8,1,63],
 "dd/d3c/PHG4PileupGenerator_8h.html":[17,0,2,8,5,75],
 "dd/d3c/PHG4PileupGenerator_8h_source.html":[17,0,2,8,5,75],
-"dd/d3e/namespaceFun4AllUtils.html":[15,0,5],
 "dd/d3e/namespaceFun4AllUtils.html":[16,0,5],
+"dd/d3e/namespaceFun4AllUtils.html":[15,0,5],
 "dd/d3f/G4TBMagneticFieldSetup_8hh.html":[17,0,2,8,5,3],
 "dd/d3f/G4TBMagneticFieldSetup_8hh_source.html":[17,0,2,8,5,3],
 "dd/d44/classTruthNodeMaker.html":[16,0,448],
@@ -249,5 +244,10 @@ var NAVTREEINDEX47 =
 "dd/d68/classPHG4ParticleGenerator.html#a2519e761aa5d07a73586842149b4fc93":[16,0,266,4],
 "dd/d68/classPHG4ParticleGenerator.html#a2e4bf8cceee101428c03b4f987a623eb":[16,0,266,1],
 "dd/d68/classPHG4ParticleGenerator.html#a42c805e711babd555b7fac596d80e913":[16,0,266,10],
-"dd/d68/classPHG4ParticleGenerator.html#a4b2a92c163bf14fd08ac939df40e1d8f":[16,0,266,3]
+"dd/d68/classPHG4ParticleGenerator.html#a4b2a92c163bf14fd08ac939df40e1d8f":[16,0,266,3],
+"dd/d68/classPHG4ParticleGenerator.html#a78fcabc0824f41c97a420bb45267b5e2":[16,0,266,14],
+"dd/d68/classPHG4ParticleGenerator.html#a860cd3165e960b07c21a79274e401f83":[16,0,266,7],
+"dd/d68/classPHG4ParticleGenerator.html#a9ab606ba3426a75c0b0f12f7c0c066fc":[16,0,266,8],
+"dd/d68/classPHG4ParticleGenerator.html#a9b3d712c68eeca5a15bc6ae3daa2ff6d":[16,0,266,13],
+"dd/d68/classPHG4ParticleGenerator.html#a9b68744c1449c4c44616b9a16f3ee191":[16,0,266,5]
 };

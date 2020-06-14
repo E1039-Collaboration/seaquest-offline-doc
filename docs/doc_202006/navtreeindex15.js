@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d4/d64/classSQScaler__v1.html#ab82a8f1ebfd521ccfc7f2c59f0f20ccf":[16,0,409,0],
 "d4/d64/classSQScaler__v1.html#abbb21fabd72e3b525dbeb296911f95dc":[16,0,409,4],
 "d4/d64/classSQScaler__v1.html#abbe4de9122292db020c34c9b86a527d7":[16,0,409,14],
 "d4/d64/classSQScaler__v1.html#ac0fe1d48e4b769fc827b42cbc03f3206":[16,0,409,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a1575ec23032fe09706851b48b80f8337":[16,0,387,17],
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a290c1cd2eef43bddf28d9dda644401ed":[16,0,387,18],
 "d4/db3/classSQG4DipoleMagnetSteppingAction.html#a368b1f67c816bbbc14682ee7d7c08a41":[16,0,387,8],
-"d4/db3/classSQG4DipoleMagnetSteppingAction.html#a4f0dfbe411b37b35d01d122d54044845":[16,0,387,14]
+"d4/db3/classSQG4DipoleMagnetSteppingAction.html#a4f0dfbe411b37b35d01d122d54044845":[16,0,387,14],
+"d4/db3/classSQG4DipoleMagnetSteppingAction.html#a5330e940da933c335f720785bb5241bd":[16,0,387,10]
 };

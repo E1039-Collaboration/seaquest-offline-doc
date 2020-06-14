@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d5/dc1/classPHField3DCylindrical.html":[16,0,173],
-"d5/dc1/classPHField3DCylindrical.html#a01680789ef997305fa63259f31b4a063":[16,0,173,14],
 "d5/dc1/classPHField3DCylindrical.html#a08691abb9e0b422956d5c69ec14f6f7d":[16,0,173,7],
 "d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec":[16,0,173,6],
 "d5/dc1/classPHField3DCylindrical.html#a0dfc91682559a6cc12a9633f09e7a781":[16,0,173,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "d5/ddd/OnlMonHodo_8h.html":[17,0,2,6,3,14],
 "d5/ddd/OnlMonHodo_8h_source.html":[17,0,2,6,3,14],
 "d5/dde/PHG4ParticleGeneratorD0_8h.html":[17,0,2,8,5,57],
-"d5/dde/PHG4ParticleGeneratorD0_8h_source.html":[17,0,2,8,5,57]
+"d5/dde/PHG4ParticleGeneratorD0_8h_source.html":[17,0,2,8,5,57],
+"d5/de1/ChanMapScaler_8h.html":[17,0,2,7,6,11],
+"d5/de1/ChanMapScaler_8h_source.html":[17,0,2,7,6,11]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d3/d04/classPHG4GDMLWriteMaterials.html#a02dfefd1f4b0aa2c122952dc4ebc1a87":[16,0,243,4],
 "d3/d04/classPHG4GDMLWriteMaterials.html#a05df03cc8cf4c3d28cc8f206638a2238":[16,0,243,13],
 "d3/d04/classPHG4GDMLWriteMaterials.html#a24dff32470666c766f8e697a00247b74":[16,0,243,10],
 "d3/d04/classPHG4GDMLWriteMaterials.html#a2b0f79e7a135e1e204a49efc3379caaa":[16,0,243,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d3/d46/classKalmanFastTracking.html#a6a54682cb860f609e675148665fd29f2":[16,0,121,33],
 "d3/d46/classKalmanFastTracking.html#a6dfe096ad8f31ac3a21c9790ba5b11df":[16,0,121,25],
 "d3/d46/classKalmanFastTracking.html#a7163e67f3a108ccccc5670f1192fb70e":[16,0,121,40],
-"d3/d46/classKalmanFastTracking.html#a787fd93b5730e6eb125b2194235af011":[16,0,121,14],
-"d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b":[16,0,121,19]
+"d3/d46/classKalmanFastTracking.html#a787fd93b5730e6eb125b2194235af011":[16,0,121,14]
 };

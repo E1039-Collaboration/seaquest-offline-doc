@@ -1,7 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d5/de1/ChanMapScaler_8h.html":[17,0,2,7,6,11],
-"d5/de1/ChanMapScaler_8h_source.html":[17,0,2,7,6,11],
 "d5/de2/PdbApplication_8cc.html":[17,0,2,0,0,0,1],
 "d5/de2/PdbApplication_8cc_source.html":[17,0,2,0,0,0,1],
 "d5/de9/E1039Shielding_2ana_8C.html":[17,0,1,4,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX21 =
 "d6/d20/classTestSimAnalyzer.html#a9da054a0cc333f0e5db17937391ed00a":[16,0,437,0],
 "d6/d20/classTestSimAnalyzer.html#a9e5015ee53f5ee5fea71d1cf8f074cde":[16,0,437,23],
 "d6/d20/classTestSimAnalyzer.html#aad71c27fb989cb12f270ca35e1d1a52f":[16,0,437,4],
-"d6/d20/classTestSimAnalyzer.html#ab5a63316dc5165275a779598f609b621":[16,0,437,29]
+"d6/d20/classTestSimAnalyzer.html#ab5a63316dc5165275a779598f609b621":[16,0,437,29],
+"d6/d20/classTestSimAnalyzer.html#ab9cdd3b232d7d2cfbe9b98cb39df9f79":[16,0,437,34],
+"d6/d20/classTestSimAnalyzer.html#aceb1f16cf1bfa7ded35d9c504ea7cc1e":[16,0,437,15]
 };
