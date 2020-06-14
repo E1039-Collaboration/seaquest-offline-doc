@@ -120,6 +120,9 @@ $(document).ready(function(){initNavTree('d9/dd7/classSQEvent.html','../../');})
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold one event header.  
+ <a href="../../d9/dd7/classSQEvent.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d0/db5/SQEvent_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQEvent.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQEvent:</div>
@@ -167,86 +170,107 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7499c02aa83432effd6d762a4c5b1830"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a7499c02aa83432effd6d762a4c5b1830">identify</a> (std::ostream &amp;os=std::cout) const </td></tr>
 <tr class="separator:a7499c02aa83432effd6d762a4c5b1830"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a392d15330793852b00fa9bc842604dca"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">get_run_id</a> () const =0</td></tr>
+<tr class="memdesc:a392d15330793852b00fa9bc842604dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the run ID.  <a href="#a392d15330793852b00fa9bc842604dca">More...</a><br/></td></tr>
 <tr class="separator:a392d15330793852b00fa9bc842604dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b019f1f9d2c475c9046fa4f112c6d36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">set_run_id</a> (const int a)=0</td></tr>
 <tr class="separator:a9b019f1f9d2c475c9046fa4f112c6d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6da8f0b44b8858c40d7e4ec97fe0680"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">get_spill_id</a> () const =0</td></tr>
+<tr class="memdesc:ac6da8f0b44b8858c40d7e4ec97fe0680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the spill ID.  <a href="#ac6da8f0b44b8858c40d7e4ec97fe0680">More...</a><br/></td></tr>
 <tr class="separator:ac6da8f0b44b8858c40d7e4ec97fe0680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e592d3355b5300948ccc3966ae59025"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">set_spill_id</a> (const int a)=0</td></tr>
 <tr class="separator:a7e592d3355b5300948ccc3966ae59025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae99eb349fe38c0a3e655cadeecb8772a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">get_event_id</a> () const =0</td></tr>
+<tr class="memdesc:ae99eb349fe38c0a3e655cadeecb8772a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the event ID, which is unique per run.  <a href="#ae99eb349fe38c0a3e655cadeecb8772a">More...</a><br/></td></tr>
 <tr class="separator:ae99eb349fe38c0a3e655cadeecb8772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a838679aeba51973a3d3252491706430a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">set_event_id</a> (const int a)=0</td></tr>
 <tr class="separator:a838679aeba51973a3d3252491706430a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc0ac10fe7cf3368bd2e1c9c6dff4859"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#afc0ac10fe7cf3368bd2e1c9c6dff4859">get_coda_event_id</a> () const =0</td></tr>
+<tr class="memdesc:afc0ac10fe7cf3368bd2e1c9c6dff4859"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Coda-event ID, which is unique per run.  <a href="#afc0ac10fe7cf3368bd2e1c9c6dff4859">More...</a><br/></td></tr>
 <tr class="separator:afc0ac10fe7cf3368bd2e1c9c6dff4859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b0a9c59c4437dc5af52a29763b14a75"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a9b0a9c59c4437dc5af52a29763b14a75">set_coda_event_id</a> (const int a)=0</td></tr>
 <tr class="separator:a9b0a9c59c4437dc5af52a29763b14a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94c09b550ceb6a170681cf468c1e9fa6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a94c09b550ceb6a170681cf468c1e9fa6">get_data_quality</a> () const =0</td></tr>
+<tr class="memdesc:a94c09b550ceb6a170681cf468c1e9fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the data-quality bits.  <a href="#a94c09b550ceb6a170681cf468c1e9fa6">More...</a><br/></td></tr>
 <tr class="separator:a94c09b550ceb6a170681cf468c1e9fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4769df8c215f9f549a53ff3971f611fa"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a4769df8c215f9f549a53ff3971f611fa">set_data_quality</a> (const int a)=0</td></tr>
 <tr class="separator:a4769df8c215f9f549a53ff3971f611fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f47f49c467483f56f48e09c1bbfc8c9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a6f47f49c467483f56f48e09c1bbfc8c9">get_vme_time</a> () const =0</td></tr>
+<tr class="memdesc:a6f47f49c467483f56f48e09c1bbfc8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the VME time.  <a href="#a6f47f49c467483f56f48e09c1bbfc8c9">More...</a><br/></td></tr>
 <tr class="separator:a6f47f49c467483f56f48e09c1bbfc8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cd07ed155ecb60d0cd26ccbe47a90ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a3cd07ed155ecb60d0cd26ccbe47a90ca">set_vme_time</a> (const int a)=0</td></tr>
 <tr class="separator:a3cd07ed155ecb60d0cd26ccbe47a90ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7965e4398ca4e41dc4133a958b3caa29"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29">get_trigger</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21">SQEvent::TriggerMask</a> i) const =0</td></tr>
+<tr class="memdesc:a7965e4398ca4e41dc4133a958b3caa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the trigger bit (fired or not) of the selected trigger channel.  <a href="#a7965e4398ca4e41dc4133a958b3caa29">More...</a><br/></td></tr>
 <tr class="separator:a7965e4398ca4e41dc4133a958b3caa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb5b1e5eb1b6492822c2236a78b6b3e9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">set_trigger</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21">SQEvent::TriggerMask</a> i, const bool a)=0</td></tr>
 <tr class="separator:abb5b1e5eb1b6492822c2236a78b6b3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22fecd42a6ba93f4eed7caabc697bb57"><td class="memItemLeft" align="right" valign="top">virtual unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a22fecd42a6ba93f4eed7caabc697bb57">get_trigger</a> () const =0</td></tr>
+<tr class="memdesc:a22fecd42a6ba93f4eed7caabc697bb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the full trigger bits.  <a href="#a22fecd42a6ba93f4eed7caabc697bb57">More...</a><br/></td></tr>
 <tr class="separator:a22fecd42a6ba93f4eed7caabc697bb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56676cfae09f20bf2396da7c8fdbec26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a56676cfae09f20bf2396da7c8fdbec26">set_trigger</a> (const unsigned short a)=0</td></tr>
 <tr class="separator:a56676cfae09f20bf2396da7c8fdbec26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a932c8b3ab77df0ffc64ee97c94a6c4dc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a932c8b3ab77df0ffc64ee97c94a6c4dc">get_raw_matrix</a> (const unsigned short i) const =0</td></tr>
+<tr class="memdesc:a932c8b3ab77df0ffc64ee97c94a6c4dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">[Not Useful] Return the raw count of the selected trigger channel.  <a href="#a932c8b3ab77df0ffc64ee97c94a6c4dc">More...</a><br/></td></tr>
 <tr class="separator:a932c8b3ab77df0ffc64ee97c94a6c4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62d127d02ca353cbde344776971e8c92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a62d127d02ca353cbde344776971e8c92">set_raw_matrix</a> (const unsigned short i, const bool a)=0</td></tr>
 <tr class="separator:a62d127d02ca353cbde344776971e8c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab634dd0d85005fa6351bbc8da58ccd47"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ab634dd0d85005fa6351bbc8da58ccd47">get_after_inh_matrix</a> (const unsigned short i) const =0</td></tr>
+<tr class="memdesc:ab634dd0d85005fa6351bbc8da58ccd47"><td class="mdescLeft">&#160;</td><td class="mdescRight">[Not Useful] Return the after-inhibited count of the selected trigger channel.  <a href="#ab634dd0d85005fa6351bbc8da58ccd47">More...</a><br/></td></tr>
 <tr class="separator:ab634dd0d85005fa6351bbc8da58ccd47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdbf4860d5048fbfaf1d9b19318023ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#acdbf4860d5048fbfaf1d9b19318023ff">set_after_inh_matrix</a> (const unsigned short i, const bool a)=0</td></tr>
 <tr class="separator:acdbf4860d5048fbfaf1d9b19318023ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a068dff77a6d6c7b7f25def8e43e9901e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a068dff77a6d6c7b7f25def8e43e9901e">get_qie_presum</a> (const unsigned short i) const =0</td></tr>
+<tr class="memdesc:a068dff77a6d6c7b7f25def8e43e9901e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the i-th QIE presum, where i=0...3.  <a href="#a068dff77a6d6c7b7f25def8e43e9901e">More...</a><br/></td></tr>
 <tr class="separator:a068dff77a6d6c7b7f25def8e43e9901e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a65b5d6c74c5b8e027649d8be1b0bcdec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a65b5d6c74c5b8e027649d8be1b0bcdec">set_qie_presum</a> (const unsigned short i, const int a)=0</td></tr>
 <tr class="separator:a65b5d6c74c5b8e027649d8be1b0bcdec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41ded3fae16ebc0a055681b7ec3502a2"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a41ded3fae16ebc0a055681b7ec3502a2">get_qie_trigger_count</a> () const =0</td></tr>
+<tr class="memdesc:a41ded3fae16ebc0a055681b7ec3502a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the QIE trigger counts.  <a href="#a41ded3fae16ebc0a055681b7ec3502a2">More...</a><br/></td></tr>
 <tr class="separator:a41ded3fae16ebc0a055681b7ec3502a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f05c77c42fa42c3dcf86f6187a6bca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ab4f05c77c42fa42c3dcf86f6187a6bca">set_qie_trigger_count</a> (const int a)=0</td></tr>
 <tr class="separator:ab4f05c77c42fa42c3dcf86f6187a6bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dfcfaa62f3da38bd875f768940eb5cd"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a7dfcfaa62f3da38bd875f768940eb5cd">get_qie_turn_id</a> () const =0</td></tr>
+<tr class="memdesc:a7dfcfaa62f3da38bd875f768940eb5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the QIE turn ID.  <a href="#a7dfcfaa62f3da38bd875f768940eb5cd">More...</a><br/></td></tr>
 <tr class="separator:a7dfcfaa62f3da38bd875f768940eb5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f919b9b26e01879a687e1e299ca16c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a5f919b9b26e01879a687e1e299ca16c3">set_qie_turn_id</a> (const int a)=0</td></tr>
 <tr class="separator:a5f919b9b26e01879a687e1e299ca16c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabc7c4e57e08fd62fca31be965e90ba8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#aabc7c4e57e08fd62fca31be965e90ba8">get_qie_rf_id</a> () const =0</td></tr>
+<tr class="memdesc:aabc7c4e57e08fd62fca31be965e90ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the QIE RF ID.  <a href="#aabc7c4e57e08fd62fca31be965e90ba8">More...</a><br/></td></tr>
 <tr class="separator:aabc7c4e57e08fd62fca31be965e90ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94dd2b4b9838ea5c658290e5409d35ef"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a94dd2b4b9838ea5c658290e5409d35ef">set_qie_rf_id</a> (const int a)=0</td></tr>
 <tr class="separator:a94dd2b4b9838ea5c658290e5409d35ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7592da49f16b4a1ad6ccf1fbf4ce8d31"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a7592da49f16b4a1ad6ccf1fbf4ce8d31">get_qie_rf_intensity</a> (const short i) const =0</td></tr>
+<tr class="memdesc:a7592da49f16b4a1ad6ccf1fbf4ce8d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the i-th QIE RF intensity, where i=-16...+16.  <a href="#a7592da49f16b4a1ad6ccf1fbf4ce8d31">More...</a><br/></td></tr>
 <tr class="separator:a7592da49f16b4a1ad6ccf1fbf4ce8d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d83f66ff4f35d5296337bc14a26284"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a96d83f66ff4f35d5296337bc14a26284">set_qie_rf_intensity</a> (const short i, const int a)=0</td></tr>
 <tr class="separator:a96d83f66ff4f35d5296337bc14a26284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b971cdde8aaf7934296778cc230bd3"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a22b971cdde8aaf7934296778cc230bd3">get_flag_v1495</a> () const =0</td></tr>
+<tr class="memdesc:a22b971cdde8aaf7934296778cc230bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the quality flag of the V1495 readout.  <a href="#a22b971cdde8aaf7934296778cc230bd3">More...</a><br/></td></tr>
 <tr class="separator:a22b971cdde8aaf7934296778cc230bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab38ef582d1b1f77008b88e56f2461fa0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ab38ef582d1b1f77008b88e56f2461fa0">set_flag_v1495</a> (const short a)=0</td></tr>
 <tr class="separator:ab38ef582d1b1f77008b88e56f2461fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a652783b428a73b9a0d9008b812a7b342"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a652783b428a73b9a0d9008b812a7b342">get_n_board_qie</a> () const =0</td></tr>
+<tr class="memdesc:a652783b428a73b9a0d9008b812a7b342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of QIE boards read out.  <a href="#a652783b428a73b9a0d9008b812a7b342">More...</a><br/></td></tr>
 <tr class="separator:a652783b428a73b9a0d9008b812a7b342"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4650bac3750f02f2b7f52197701946c2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a4650bac3750f02f2b7f52197701946c2">set_n_board_qie</a> (const short a)=0</td></tr>
 <tr class="separator:a4650bac3750f02f2b7f52197701946c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8bd45e9eba907a7506c9779514fbd3d"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ae8bd45e9eba907a7506c9779514fbd3d">get_n_board_v1495</a> () const =0</td></tr>
+<tr class="memdesc:ae8bd45e9eba907a7506c9779514fbd3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of V1495 boards read out.  <a href="#ae8bd45e9eba907a7506c9779514fbd3d">More...</a><br/></td></tr>
 <tr class="separator:ae8bd45e9eba907a7506c9779514fbd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6e78e518beb95c17ef3d3646a29ce23"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ad6e78e518beb95c17ef3d3646a29ce23">set_n_board_v1495</a> (const short a)=0</td></tr>
 <tr class="separator:ad6e78e518beb95c17ef3d3646a29ce23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af986f2309b03a5f2e5db84ccf0f89528"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#af986f2309b03a5f2e5db84ccf0f89528">get_n_board_taiwan</a> () const =0</td></tr>
+<tr class="memdesc:af986f2309b03a5f2e5db84ccf0f89528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of Taiwan-TDC boards read out.  <a href="#af986f2309b03a5f2e5db84ccf0f89528">More...</a><br/></td></tr>
 <tr class="separator:af986f2309b03a5f2e5db84ccf0f89528"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee06f153d3620cbab437f16fbc73d7bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#aee06f153d3620cbab437f16fbc73d7bb">set_n_board_taiwan</a> (const short a)=0</td></tr>
 <tr class="separator:aee06f153d3620cbab437f16fbc73d7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac638a6a2f52c15280bea532b126a8f2f"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#ac638a6a2f52c15280bea532b126a8f2f">get_n_board_trig_bit</a> () const =0</td></tr>
+<tr class="memdesc:ac638a6a2f52c15280bea532b126a8f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of trigger-bit boards read out.  <a href="#ac638a6a2f52c15280bea532b126a8f2f">More...</a><br/></td></tr>
 <tr class="separator:ac638a6a2f52c15280bea532b126a8f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a084c9c3b50821ea8bbc0845029f40bd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a084c9c3b50821ea8bbc0845029f40bd8">set_n_board_trig_bit</a> (const short a)=0</td></tr>
 <tr class="separator:a084c9c3b50821ea8bbc0845029f40bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89aafe9fede6f49d74a02357b756362a"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a89aafe9fede6f49d74a02357b756362a">get_n_board_trig_count</a> () const =0</td></tr>
+<tr class="memdesc:a89aafe9fede6f49d74a02357b756362a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of trigger-count boards read out.  <a href="#a89aafe9fede6f49d74a02357b756362a">More...</a><br/></td></tr>
 <tr class="separator:a89aafe9fede6f49d74a02357b756362a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c9d1e82d0fb25ce214a73a759074516"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dd7/classSQEvent.html#a9c9d1e82d0fb25ce214a73a759074516">set_n_board_trig_count</a> (const short a)=0</td></tr>
 <tr class="separator:a9c9d1e82d0fb25ce214a73a759074516"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -296,8 +320,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a6ea88415d89f1cc29afda8421c87822a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00016">16</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold one event header. </p>
+
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00017">17</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a5328bd72e6338cf887fbece656986c21"></a>
 <div class="memitem">
@@ -331,7 +356,7 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00020">20</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00021">21</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 
 </div>
 </div>
@@ -357,7 +382,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00033">33</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00034">34</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 
 </div>
 </div>
@@ -382,7 +407,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00112">112</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00113">113</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 
 </div>
 </div>
@@ -443,6 +468,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>[Not Useful] Return the after-inhibited count of the selected trigger channel. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#aa0e187591daceab8affec10ac133ca7e">SQEvent_v1</a>.</p>
 
 </div>
@@ -467,6 +494,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the Coda-event ID, which is unique per run. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a9d815fc244cafa0f269839efd719d478">SQEvent_v1</a>.</p>
 
@@ -493,6 +522,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the data-quality bits. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a477aa61ea1f681f25d43afad8101e67d">SQEvent_v1</a>.</p>
 
 </div>
@@ -517,6 +548,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the event ID, which is unique per run. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a297c8fd8da6a030de1d814f6b75794af">SQEvent_v1</a>.</p>
 
@@ -555,6 +588,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the quality flag of the V1495 readout. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a4e907775cf6a41b491c0c345c9738c5a">SQEvent_v1</a>.</p>
 
 </div>
@@ -579,6 +614,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the number of QIE boards read out. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#ae48a4a371270e9ac56efa24a9f89f150">SQEvent_v1</a>.</p>
 
@@ -605,6 +642,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of Taiwan-TDC boards read out. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#ae1f3aadcb2acd4c2d87cc8fa47029188">SQEvent_v1</a>.</p>
 
 </div>
@@ -629,6 +668,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the number of trigger-bit boards read out. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a74a6f9cec68197b0639535d4906266aa">SQEvent_v1</a>.</p>
 
@@ -655,6 +696,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of trigger-count boards read out. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a139eb892c4687678b6d6f407b3394ca1">SQEvent_v1</a>.</p>
 
 </div>
@@ -679,6 +722,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the number of V1495 boards read out. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a78305f0f00d1da5dd2fa7c4423119af9">SQEvent_v1</a>.</p>
 
@@ -706,6 +751,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the i-th QIE presum, where i=0...3. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#ac0eb396e3665fcee8af74571192696a5">SQEvent_v1</a>.</p>
 
 </div>
@@ -730,6 +777,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the QIE RF ID. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a7f9386361a02d57e55f1a53c16dd3d9c">SQEvent_v1</a>.</p>
 
@@ -757,6 +806,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the i-th QIE RF intensity, where i=-16...+16. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a41f4913039cf732eebfebd0f78e11a12">SQEvent_v1</a>.</p>
 
 </div>
@@ -782,6 +833,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the QIE trigger counts. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#ae94b82aaad60f0bb838dc80a98b17c89">SQEvent_v1</a>.</p>
 
 </div>
@@ -806,6 +859,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the QIE turn ID. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a4c6e69702bdc5e0c84884b48b864efba">SQEvent_v1</a>.</p>
 
@@ -833,6 +888,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>[Not Useful] Return the raw count of the selected trigger channel. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a9fc27c30c1bba26f4e293308da17612e">SQEvent_v1</a>.</p>
 
 </div>
@@ -857,6 +914,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the run ID. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a4ec8eeecf686154494ea0e70b7d4595c">SQEvent_v1</a>.</p>
 
@@ -894,6 +953,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the spill ID. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a9c83f9a93310061cda7b37254036366f">SQEvent_v1</a>.</p>
 
@@ -933,6 +994,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the trigger bit (fired or not) of the selected trigger channel. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a9030e95fafd68e2a1b473e1d0d7936ca">SQEvent_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d7e/EvtDispFilter_8cxx_source.html#l00041">EvtDispFilter::process_event()</a>, and <a class="el" href="../../d2/dce/EvtFilter_8cxx_source.html#l00053">EvtFilter::process_event()</a>.</p>
@@ -970,6 +1033,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the full trigger bits. </p>
+
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a70d6f1590aaea95402a94d5d7eb9747c">SQEvent_v1</a>.</p>
 
 </div>
@@ -994,6 +1059,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the VME time. </p>
 
 <p>Implemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a477f1747b273e386d2be3968ef96f0ba">SQEvent_v1</a>.</p>
 
@@ -1032,7 +1099,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#a3751d0d7d04ac511cf350f9b6a606bf5">SQEvent_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00038">38</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/dce/EvtFilter_8cxx_source.html#l00053">EvtFilter::process_event()</a>, <a class="el" href="../../d8/def/ReadMySql_8cxx_source.html#l00127">ReadMySql::process_event()</a>, and <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00204">DPTriggerAnalyzer::process_event()</a>.</p>
 
@@ -1075,7 +1142,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dd/d59/classSQEvent__v1.html#abc7c0a7bffb6efb23209c7c4750026a6">SQEvent_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00035">35</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00036">36</a> of file <a class="el" href="../../d0/db5/SQEvent_8h_source.html">SQEvent.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00204">DPTriggerAnalyzer::process_event()</a>.</p>
 
@@ -1940,7 +2007,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 22:04:14</em> using <a
+			updated: <em>Sun Jun 14 2020 00:10:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
