@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -160,19 +158,19 @@ $(document).ready(function(){initNavTree('dc/d5a/SQG4DipoleMagnetSteppingAction_
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="comment">// and the memory is still allocated, so we need to delete it here</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="comment">// if the last hit was saved, hit is a nullptr pointer which are</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="comment">// legal to delete (it results in a no operation)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9561125aff4239fa9dd297b13c199645">hit</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">delete</span> hit;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//____________________________________________________________________________..</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9daa3eeb6e371b13df50a4879552c815">   51</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9daa3eeb6e371b13df50a4879552c815">SQG4DipoleMagnetSteppingAction::UserSteppingAction</a>(<span class="keyword">const</span> G4Step* aStep, <span class="keywordtype">bool</span>)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ad524bab7abd358aeb4c961c23f11e872">enable_track_filter</a> == 0) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span>(enable_track_filter == 0) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  G4TouchableHandle touch = aStep-&gt;GetPreStepPoint()-&gt;GetTouchableHandle();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  G4TouchableHandle touchpost = aStep-&gt;GetPostStepPoint()-&gt;GetTouchableHandle();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  G4VPhysicalVolume* volume = touch-&gt;GetVolume();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ad8eadfad909a0e5518640e686a2d328c">detector_</a>-&gt;<a class="code" href="../../d3/d93/classSQG4DipoleMagnetDetector.html#a2f477f37700fc1fe515f1b1ef882142d">IsInBlock</a>(volume)) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordflow">if</span>(!detector_-&gt;<a class="code" href="../../d3/d93/classSQG4DipoleMagnetDetector.html#a2f477f37700fc1fe515f1b1ef882142d">IsInBlock</a>(volume)) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="comment">//apply track filtering cuts</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  G4Track* aTrack = aStep-&gt;GetTrack();</div>
@@ -192,7 +190,7 @@ $(document).ready(function(){initNavTree('dc/d5a/SQG4DipoleMagnetSteppingAction_
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">double</span> z_pos = aTrack-&gt;GetPosition()[2]/cm;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">if</span>(z_pos &gt; 0. &amp;&amp; z_pos &lt; 500.) <span class="comment">//in the beam dump, but energy is not sufficient to get out</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">double</span> minE = (500. - z_pos)/500.*<a class="code" href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a368b1f67c816bbbc14682ee7d7c08a41">filter_min_energy</a>*GeV;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">double</span> minE = (500. - z_pos)/500.*filter_min_energy*GeV;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span>(aTrack-&gt;GetTotalEnergy() &lt; minE)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      aTrack-&gt;SetTrackStatus(fStopAndKill);</div>
@@ -211,21 +209,17 @@ $(document).ready(function(){initNavTree('dc/d5a/SQG4DipoleMagnetSteppingAction_
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 <div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_a9daa3eeb6e371b13df50a4879552c815"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9daa3eeb6e371b13df50a4879552c815">SQG4DipoleMagnetSteppingAction::UserSteppingAction</a></div><div class="ttdeci">virtual bool UserSteppingAction(const G4Step *, bool)</div><div class="ttdoc">stepping action </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html#l00051">SQG4DipoleMagnetSteppingAction.cc:51</a></div></div>
 <div class="ttc" id="PHG4TrackUserInfoV1_8h_html"><div class="ttname"><a href="../../df/d1a/PHG4TrackUserInfoV1_8h.html">PHG4TrackUserInfoV1.h</a></div></div>
-<div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_a9561125aff4239fa9dd297b13c199645"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a9561125aff4239fa9dd297b13c199645">SQG4DipoleMagnetSteppingAction::hit</a></div><div class="ttdeci">PHG4Hit * hit</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d16/SQG4DipoleMagnetSteppingAction_8h_source.html#l00034">SQG4DipoleMagnetSteppingAction.h:34</a></div></div>
-<div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_ad524bab7abd358aeb4c961c23f11e872"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ad524bab7abd358aeb4c961c23f11e872">SQG4DipoleMagnetSteppingAction::enable_track_filter</a></div><div class="ttdeci">int enable_track_filter</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d16/SQG4DipoleMagnetSteppingAction_8h_source.html#l00046">SQG4DipoleMagnetSteppingAction.h:46</a></div></div>
 <div class="ttc" id="PHG4Hitv1_8h_html"><div class="ttname"><a href="../../db/d2b/PHG4Hitv1_8h.html">PHG4Hitv1.h</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
 <div class="ttc" id="SQG4DipoleMagnetSteppingAction_8h_html"><div class="ttname"><a href="../../d3/d16/SQG4DipoleMagnetSteppingAction_8h.html">SQG4DipoleMagnetSteppingAction.h</a></div></div>
 <div class="ttc" id="classPHParameters_html"><div class="ttname"><a href="../../dd/dae/classPHParameters.html">PHParameters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d23/PHParameters_8h_source.html#l00017">PHParameters.h:17</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
-<div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_a368b1f67c816bbbc14682ee7d7c08a41"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a368b1f67c816bbbc14682ee7d7c08a41">SQG4DipoleMagnetSteppingAction::filter_min_energy</a></div><div class="ttdeci">double filter_min_energy</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d16/SQG4DipoleMagnetSteppingAction_8h_source.html#l00048">SQG4DipoleMagnetSteppingAction.h:48</a></div></div>
 <div class="ttc" id="PHG4Hit_8h_html"><div class="ttname"><a href="../../de/d83/PHG4Hit_8h.html">PHG4Hit.h</a></div></div>
 <div class="ttc" id="PHG4Shower_8h_html"><div class="ttname"><a href="../../d1/dc0/PHG4Shower_8h.html">PHG4Shower.h</a></div></div>
 <div class="ttc" id="classSQG4DipoleMagnetDetector_html"><div class="ttname"><a href="../../d3/d93/classSQG4DipoleMagnetDetector.html">SQG4DipoleMagnetDetector</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d80/SQG4DipoleMagnetDetector_8h_source.html#l00022">SQG4DipoleMagnetDetector.h:22</a></div></div>
 <div class="ttc" id="SQG4DipoleMagnetDetector_8h_html"><div class="ttname"><a href="../../d0/d80/SQG4DipoleMagnetDetector_8h.html">SQG4DipoleMagnetDetector.h</a></div></div>
 <div class="ttc" id="PHG4StepStatusDecode_8h_html"><div class="ttname"><a href="../../db/df9/PHG4StepStatusDecode_8h.html">PHG4StepStatusDecode.h</a></div></div>
 <div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_ab79def9e53b34492d9335dac7294b840"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ab79def9e53b34492d9335dac7294b840">SQG4DipoleMagnetSteppingAction::~SQG4DipoleMagnetSteppingAction</a></div><div class="ttdeci">virtual ~SQG4DipoleMagnetSteppingAction()</div><div class="ttdoc">destructor </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html#l00041">SQG4DipoleMagnetSteppingAction.cc:41</a></div></div>
-<div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_ad8eadfad909a0e5518640e686a2d328c"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ad8eadfad909a0e5518640e686a2d328c">SQG4DipoleMagnetSteppingAction::detector_</a></div><div class="ttdeci">SQG4DipoleMagnetDetector * detector_</div><div class="ttdoc">pointer to the detector </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d16/SQG4DipoleMagnetSteppingAction_8h_source.html#l00030">SQG4DipoleMagnetSteppingAction.h:30</a></div></div>
 <div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_af488c3df82ff2dc58fc30d5a5a3e6899"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#af488c3df82ff2dc58fc30d5a5a3e6899">SQG4DipoleMagnetSteppingAction::SQG4DipoleMagnetSteppingAction</a></div><div class="ttdeci">SQG4DipoleMagnetSteppingAction(SQG4DipoleMagnetDetector *, const PHParameters *parameters)</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html#l00021">SQG4DipoleMagnetSteppingAction.cc:21</a></div></div>
 <div class="ttc" id="classSQG4DipoleMagnetDetector_html_a2f477f37700fc1fe515f1b1ef882142d"><div class="ttname"><a href="../../d3/d93/classSQG4DipoleMagnetDetector.html#a2f477f37700fc1fe515f1b1ef882142d">SQG4DipoleMagnetDetector::IsInBlock</a></div><div class="ttdeci">bool IsInBlock(G4VPhysicalVolume *) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dae/SQG4DipoleMagnetDetector_8cc_source.html#l00038">SQG4DipoleMagnetDetector.cc:38</a></div></div>
 <div class="ttc" id="classSQG4DipoleMagnetSteppingAction_html_a7eee5f0e993027cdeb0e5d641bfe6a05"><div class="ttname"><a href="../../d4/db3/classSQG4DipoleMagnetSteppingAction.html#a7eee5f0e993027cdeb0e5d641bfe6a05">SQG4DipoleMagnetSteppingAction::SetInterfacePointers</a></div><div class="ttdeci">virtual void SetInterfacePointers(PHCompositeNode *)</div><div class="ttdoc">reimplemented from base class </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html#l00091">SQG4DipoleMagnetSteppingAction.cc:91</a></div></div>
@@ -240,7 +234,7 @@ $(document).ready(function(){initNavTree('dc/d5a/SQG4DipoleMagnetSteppingAction_
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_f4e8c2e4e07ba1c1cfb499dcc2852b5d.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../dc/d5a/SQG4DipoleMagnetSteppingAction_8cc.html">SQG4DipoleMagnetSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:47</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

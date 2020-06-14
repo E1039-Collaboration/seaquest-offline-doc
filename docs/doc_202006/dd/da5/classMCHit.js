@@ -27,17 +27,5 @@ var classMCHit =
     [ "SetVertex", "dd/da5/classMCHit.html#a5ac9d347a106ec559f9a6c948236ddf1", null ],
     [ "SetVertexKineticEnergy", "dd/da5/classMCHit.html#a3620b205d6c7650c2c163bd3d51038b6", null ],
     [ "SetVertexMomentumDirection", "dd/da5/classMCHit.html#aaff6b173b2667cbffb78b4f316ce5476", null ],
-    [ "SetVolume", "dd/da5/classMCHit.html#aa392783321c04b07fcc4447473a4fcb9", null ],
-    [ "fDE", "dd/da5/classMCHit.html#af46100f5c616aa9c6e5aadf6a0cc8df9", null ],
-    [ "fMomentum", "dd/da5/classMCHit.html#a75d90fc18c20299b90a5f42045ac3fb0", null ],
-    [ "fName", "dd/da5/classMCHit.html#a7a627c0594711996857a707ea2676d66", null ],
-    [ "fParentID", "dd/da5/classMCHit.html#ab6a445ef8ce9064c4e3f733d52c78637", null ],
-    [ "fPid", "dd/da5/classMCHit.html#a3e338a153efade6dd02a561b63541f3a", null ],
-    [ "fPosition", "dd/da5/classMCHit.html#a79e0a0227770b55ef7222a00bdb14c23", null ],
-    [ "fTime", "dd/da5/classMCHit.html#a140b1e6e9237444f0597c377c24337c3", null ],
-    [ "fTrackID", "dd/da5/classMCHit.html#a2a53bb94cb4c2452fc8a0242e9363ae2", null ],
-    [ "fVertex", "dd/da5/classMCHit.html#ae62c52acaebe92db6a6167476080409a", null ],
-    [ "fVertexKineticEnergy", "dd/da5/classMCHit.html#a1f601872b3dd340b10e79717c821b0de", null ],
-    [ "fVertexMomentumDirection", "dd/da5/classMCHit.html#a73216c8ea5f2dedc5a6314c932b38e56", null ],
-    [ "fVolume", "dd/da5/classMCHit.html#a52f675b0386c5ca74f6abf0b18b7cf73", null ]
+    [ "SetVolume", "dd/da5/classMCHit.html#aa392783321c04b07fcc4447473a4fcb9", null ]
 ];

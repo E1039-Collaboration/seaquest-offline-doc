@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -1201,34 +1199,34 @@ $(document).ready(function(){initNavTree('d0/d06/FastTracklet_8cxx_source.html',
 <div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;</div>
 <div class="line"><a name="l01088"></a><span class="lineno"><a class="line" href="../../d5/dba/classTrackletVector.html#abf5296a5e48c5299c05a0f9bcaa83e5c"> 1088</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dba/classTrackletVector.html#abf5296a5e48c5299c05a0f9bcaa83e5c">TrackletVector::Reset</a>()</div>
 <div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;{</div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.begin(); iter != <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.end(); ++iter) <span class="keyword">delete</span> (*iter);</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;    <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.clear();</div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = trackletVec.begin(); iter != trackletVec.end(); ++iter) <span class="keyword">delete</span> (*iter);</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;    trackletVec.clear();</div>
 <div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;}</div>
 <div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;</div>
 <div class="line"><a name="l01094"></a><span class="lineno"><a class="line" href="../../d5/dba/classTrackletVector.html#a75ea262649e91c4e19dd484ad3b5450c"> 1094</a></span>&#160;<span class="keyword">const</span> <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>* <a class="code" href="../../d5/dba/classTrackletVector.html#a75ea262649e91c4e19dd484ad3b5450c">TrackletVector::at</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index)<span class="keyword"> const</span></div>
 <div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;    <span class="keywordflow">if</span>(index &gt;= <a class="code" href="../../d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f">size</a>()) <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>[index];</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;    <span class="keywordflow">return</span> trackletVec[index];</div>
 <div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;}</div>
 <div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;</div>
 <div class="line"><a name="l01100"></a><span class="lineno"><a class="line" href="../../d5/dba/classTrackletVector.html#a11c27b7286d7a3609b1cf373a9a07c06"> 1100</a></span>&#160;<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>* <a class="code" href="../../d5/dba/classTrackletVector.html#a75ea262649e91c4e19dd484ad3b5450c">TrackletVector::at</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index)</div>
 <div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;{</div>
 <div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <span class="keywordflow">if</span>(index &gt;= <a class="code" href="../../d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f">size</a>()) <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>[index];</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    <span class="keywordflow">return</span> trackletVec[index];</div>
 <div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;}</div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;</div>
 <div class="line"><a name="l01106"></a><span class="lineno"><a class="line" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c"> 1106</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">TrackletVector::push_back</a>(<span class="keyword">const</span> <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>* tracklet)</div>
 <div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;{</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.push_back(tracklet-&gt;<a class="code" href="../../d2/d26/classTracklet.html#a62a3fd6fb62c97247e1da8fbcb9f6eda">Clone</a>());</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    trackletVec.push_back(tracklet-&gt;<a class="code" href="../../d2/d26/classTracklet.html#a62a3fd6fb62c97247e1da8fbcb9f6eda">Clone</a>());</div>
 <div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;}</div>
 <div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;</div>
 <div class="line"><a name="l01111"></a><span class="lineno"><a class="line" href="../../d5/dba/classTrackletVector.html#aba726023f8edd2a549c3e8e42de243a9"> 1111</a></span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="../../d5/dba/classTrackletVector.html#aba726023f8edd2a549c3e8e42de243a9">TrackletVector::erase</a>(<span class="keyword">const</span> <span class="keywordtype">size_t</span> index)</div>
 <div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;{</div>
 <div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;    <span class="keywordflow">if</span>(index &gt;= <a class="code" href="../../d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f">size</a>()) <span class="keywordflow">return</span> <a class="code" href="../../d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f">size</a>();</div>
 <div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;    <span class="keyword">delete</span> <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>[index];</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;    <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.erase(<a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.begin() + index);</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">trackletVec</a>.size();</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;    <span class="keyword">delete</span> trackletVec[index];</div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;    trackletVec.erase(trackletVec.begin() + index);</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;    <span class="keywordflow">return</span> trackletVec.size();</div>
 <div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;}</div>
 <div class="ttc" id="classSRecTrack_html_acf90300a77e5af7a464937b09ac3b8ae"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#acf90300a77e5af7a464937b09ac3b8ae">SRecTrack::insertHitIndex</a></div><div class="ttdeci">void insertHitIndex(Int_t index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00097">SRecEvent.h:97</a></div></div>
 <div class="ttc" id="classTriggerRoad_html_affb1214bf3dda5cbeb9ff171ab681641"><div class="ttname"><a href="../../d5/d72/classTriggerRoad.html#affb1214bf3dda5cbeb9ff171ab681641">TriggerRoad::getRoadID</a></div><div class="ttdeci">int getRoadID()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d74/TriggerRoad_8cxx_source.html#l00234">TriggerRoad.cxx:234</a></div></div>
@@ -1352,7 +1350,6 @@ $(document).ready(function(){initNavTree('d0/d06/FastTracklet_8cxx_source.html',
 <div class="ttc" id="classTracklet_html_adca6f6eddbd98bcbdf892f434e473dee"><div class="ttname"><a href="../../d2/d26/classTracklet.html#adca6f6eddbd98bcbdf892f434e473dee">Tracklet::getProb</a></div><div class="ttdeci">double getProb() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d06/FastTracklet_8cxx_source.html#l00560">FastTracklet.cxx:560</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_ae57bf152e0585efccc4da101382d84cb"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb">ELOSS_ABSORBER</a></div><div class="ttdeci">#define ELOSS_ABSORBER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00054">GlobalConsts.h:54</a></div></div>
 <div class="ttc" id="classTrackletVector_html_a1adabe85ede7148057d3796e7003472f"><div class="ttname"><a href="../../d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f">TrackletVector::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00264">FastTracklet.h:264</a></div></div>
-<div class="ttc" id="classTrackletVector_html_a974c70dc75b9919afcc05718311bb0c6"><div class="ttname"><a href="../../d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6">TrackletVector::trackletVec</a></div><div class="ttdeci">std::vector&lt; Tracklet * &gt; trackletVec</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00279">FastTracklet.h:279</a></div></div>
 <div class="ttc" id="classPropSegment_html_af1a9452ce491fa488cd99580c246f3b1"><div class="ttname"><a href="../../d0/d1e/classPropSegment.html#af1a9452ce491fa488cd99580c246f3b1">PropSegment::err_b</a></div><div class="ttdeci">double err_b</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00108">FastTracklet.h:108</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_abe6ef8461ce166e78c42a0067288d74d"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#abe6ef8461ce166e78c42a0067288d74d">Z_KFMAG_BEND</a></div><div class="ttdeci">#define Z_KFMAG_BEND</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00050">GlobalConsts.h:50</a></div></div>
 <div class="ttc" id="classTrackletVector_html_ae5cfaede448884011ecfffbc4887ae8c"><div class="ttname"><a href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">TrackletVector::push_back</a></div><div class="ttdeci">void push_back(const Tracklet *tracklet)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d06/FastTracklet_8cxx_source.html#l01106">FastTracklet.cxx:1106</a></div></div>
@@ -1378,7 +1375,7 @@ $(document).ready(function(){initNavTree('d0/d06/FastTracklet_8cxx_source.html',
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_2fc89f0a6e4d1b1c08f5a2b3f2469cd0.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_d5900b3bfb54265301ec879c265f94a7.html">interface</a></li><li class="navelem"><a class="el" href="../../d0/d06/FastTracklet_8cxx.html">FastTracklet.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

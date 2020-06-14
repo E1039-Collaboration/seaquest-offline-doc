@@ -5,7 +5,6 @@ var classRndmEmbed =
     [ "End", "d9/d0c/classRndmEmbed.html#a0fecf7d0d05c3a6f7174dd6e30f10aa2", null ],
     [ "get_hit_container_choice", "d9/d0c/classRndmEmbed.html#acec18b146239118ca0546aece0bdc303", null ],
     [ "get_out_name", "d9/d0c/classRndmEmbed.html#a748b963b294faec3a0d496b61d46ee8a", null ],
-    [ "GetNodes", "d9/d0c/classRndmEmbed.html#a27326524d98028fe56f2ffd054b79e5d", null ],
     [ "Init", "d9/d0c/classRndmEmbed.html#ac014cd25933678069d066022d00a7867", null ],
     [ "InitEvalTree", "d9/d0c/classRndmEmbed.html#ac7627b8e5ab78446fb8c61a301fbaee2", null ],
     [ "InitRun", "d9/d0c/classRndmEmbed.html#a5cb455956c81cb828949df893636ae4f", null ],
@@ -14,13 +13,5 @@ var classRndmEmbed =
     [ "ResetEvalVars", "d9/d0c/classRndmEmbed.html#ad72837a0a3914c8b07dfb93ed93495dc", null ],
     [ "set_hit_container_choice", "d9/d0c/classRndmEmbed.html#a1e5ee66cdcc5af345d14b88c319197ec", null ],
     [ "set_noise_rate", "d9/d0c/classRndmEmbed.html#abe566883abd122aeee6d3e89e5714074", null ],
-    [ "set_out_name", "d9/d0c/classRndmEmbed.html#a9b64c18ea4e25f1e771cff785caec562", null ],
-    [ "_event", "d9/d0c/classRndmEmbed.html#a9b9f95a8c734e1476470098d17f2ce3f", null ],
-    [ "_hit_container_type", "d9/d0c/classRndmEmbed.html#a058898b28836c0698dfecba9e0438b48", null ],
-    [ "_hit_map", "d9/d0c/classRndmEmbed.html#a75764df7078c003d2cb6f35dd3fc8cb0", null ],
-    [ "_hit_vector", "d9/d0c/classRndmEmbed.html#a7b7cf88bc6f0d9981e0cc256f3217468", null ],
-    [ "_noise_rate", "d9/d0c/classRndmEmbed.html#aab5a268ad93aeb96240cc91a16d66a41", null ],
-    [ "_out_name", "d9/d0c/classRndmEmbed.html#a6db3148d184e58a65e9e816ad146ea30", null ],
-    [ "_tout", "d9/d0c/classRndmEmbed.html#accc8d6a91e5b8c57acc44317560f341b", null ],
-    [ "p_geomSvc", "d9/d0c/classRndmEmbed.html#ac2a5fcfffff0bd93b378ff007c5fe879", null ]
+    [ "set_out_name", "d9/d0c/classRndmEmbed.html#a9b64c18ea4e25f1e771cff785caec562", null ]
 ];

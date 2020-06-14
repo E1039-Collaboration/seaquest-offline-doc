@@ -7,7 +7,6 @@ var classSQMCDimuon =
     [ "Reset", "d5/ddb/classSQMCDimuon.html#a2a4d5185e2849758a61432c2eecfe630", null ],
     [ "set_Dimuon_xs", "d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb", null ],
     [ "operator<<", "d5/ddb/classSQMCDimuon.html#a38bd365786b050e24a02628328089bf6", null ],
-    [ "Dimuon_xs", "d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b", null ],
     [ "fAccepted", "d5/ddb/classSQMCDimuon.html#a151d4cc31a1c615cf3032fe6409cb70e", null ],
     [ "fCosTh", "d5/ddb/classSQMCDimuon.html#a05c0f8556cf97971327e9310420c5633", null ],
     [ "fDimuonID", "d5/ddb/classSQMCDimuon.html#a065cb2132ae9217b10b7fe358a8e50ed", null ],

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -147,7 +145,7 @@ $(document).ready(function(){initNavTree('dc/dbe/PHEveDisplay_8h_source.html','.
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">virtual</span> TEveVectorD <a class="code" href="../../db/d3c/classPHEveDisplay_1_1MappedField.html#a8b89d4df3e23cf68bac41a8f3f9b9fa1">GetFieldD</a>(Double_t x, Double_t y, Double_t z) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../db/d3c/classPHEveDisplay_1_1MappedField.html#a65704e8cb7123ec5d0cd5632b4582091">   34</a></span>&#160;    <span class="keyword">const</span> <a class="code" href="../../da/ddc/classPHField.html">PHField</a>* <a class="code" href="../../db/d3c/classPHEveDisplay_1_1MappedField.html#a65704e8cb7123ec5d0cd5632b4582091">_fieldmap</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../da/ddc/classPHField.html">PHField</a>* _fieldmap;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  };</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <a class="code" href="../../df/d41/classPHEveDisplay.html#a7277b7998bff90aa84bdc066e6cbbb6a">PHEveDisplay</a>(<span class="keywordtype">int</span> w,</div>
@@ -211,7 +209,6 @@ $(document).ready(function(){initNavTree('dc/dbe/PHEveDisplay_8h_source.html','.
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;};</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#endif // __PHEVEDISPLAY_H__</span></div>
-<div class="ttc" id="classPHEveDisplay_1_1MappedField_html_a65704e8cb7123ec5d0cd5632b4582091"><div class="ttname"><a href="../../db/d3c/classPHEveDisplay_1_1MappedField.html#a65704e8cb7123ec5d0cd5632b4582091">PHEveDisplay::MappedField::_fieldmap</a></div><div class="ttdeci">const PHField * _fieldmap</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbe/PHEveDisplay_8h_source.html#l00034">PHEveDisplay.h:34</a></div></div>
 <div class="ttc" id="classPHEveDisplay_html_a6cc9f6586d9397b71c9b14b231dbdfe2"><div class="ttname"><a href="../../df/d41/classPHEveDisplay.html#a6cc9f6586d9397b71c9b14b231dbdfe2">PHEveDisplay::_eve_manager</a></div><div class="ttdeci">TEveManager * _eve_manager</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbe/PHEveDisplay_8h_source.html#l00074">PHEveDisplay.h:74</a></div></div>
 <div class="ttc" id="classPHEveDisplay_html_a90fd5929d1f72863e96603455eea0c68"><div class="ttname"><a href="../../df/d41/classPHEveDisplay.html#a90fd5929d1f72863e96603455eea0c68">PHEveDisplay::get_true_list</a></div><div class="ttdeci">TEveElementList * get_true_list() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbe/PHEveDisplay_8h_source.html#l00061">PHEveDisplay.h:61</a></div></div>
 <div class="ttc" id="classPHEveDisplay_html_a99636506b4e0aacec8b17a0dee93d31d"><div class="ttname"><a href="../../df/d41/classPHEveDisplay.html#a99636506b4e0aacec8b17a0dee93d31d">PHEveDisplay::_use_fieldmap</a></div><div class="ttdeci">bool _use_fieldmap</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbe/PHEveDisplay_8h_source.html#l00087">PHEveDisplay.h:87</a></div></div>
@@ -272,7 +269,7 @@ $(document).ready(function(){initNavTree('dc/dbe/PHEveDisplay_8h_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_ad96a070a8764384151950b77cc12f77.html">Display</a></li><li class="navelem"><a class="el" href="../../dir_46e25ddce298c7dcc29ed2e67c6b2bca.html">display</a></li><li class="navelem"><a class="el" href="../../dc/dbe/PHEveDisplay_8h.html">PHEveDisplay.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

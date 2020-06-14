@@ -10,7 +10,6 @@ var classPHHepMCGenEventMap =
     [ "~PHHepMCGenEventMap", "d5/d41/classPHHepMCGenEventMap.html#ad6623d9bada584f57eb4145663bda6e4", null ],
     [ "begin", "d5/d41/classPHHepMCGenEventMap.html#a4d8fb4d75f0ceefd149e5caf412cb6c7", null ],
     [ "begin", "d5/d41/classPHHepMCGenEventMap.html#a8b8dc99dfbf4c36b5dd2cb504955d785", null ],
-    [ "ClassDef", "d5/d41/classPHHepMCGenEventMap.html#a0894ca612ca0e66631dc552e828cb7e9", null ],
     [ "clear", "d5/d41/classPHHepMCGenEventMap.html#a0b2d71ce433926c367c83dc1bd4a60fd", null ],
     [ "Clone", "d5/d41/classPHHepMCGenEventMap.html#abd2c54aa03692bddb1f0d22ca7a00660", null ],
     [ "count", "d5/d41/classPHHepMCGenEventMap.html#a1fe94b5855c9b6a116acbf12001949ec", null ],
@@ -36,6 +35,5 @@ var classPHHepMCGenEventMap =
     [ "rend", "d5/d41/classPHHepMCGenEventMap.html#a7970c7bea97397801bfa690433a1025b", null ],
     [ "rend", "d5/d41/classPHHepMCGenEventMap.html#a7192be3263f57e1755090191e0f9bdce", null ],
     [ "Reset", "d5/d41/classPHHepMCGenEventMap.html#a5fea7d0e043e833d13416272c5cb7d9d", null ],
-    [ "size", "d5/d41/classPHHepMCGenEventMap.html#a699ca20aa340579944b420dea9ecca8f", null ],
-    [ "_map", "d5/d41/classPHHepMCGenEventMap.html#a446b0c555b8a48a2bb812c6b2dc5a5ae", null ]
+    [ "size", "d5/d41/classPHHepMCGenEventMap.html#a699ca20aa340579944b420dea9ecca8f", null ]
 ];

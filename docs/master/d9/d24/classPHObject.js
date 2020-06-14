@@ -17,7 +17,5 @@ var classPHObject =
     [ "isValid", "d9/d24/classPHObject.html#abde12c77c21a17be62baa20d0eef4b52", null ],
     [ "Reset", "d9/d24/classPHObject.html#a079739b3b51fdbda7356e60ec50f055e", null ],
     [ "SplitLevel", "d9/d24/classPHObject.html#ab31eb105fb44d43de8f1a77709ed3ed4", null ],
-    [ "SplitLevel", "d9/d24/classPHObject.html#a8f3a4a47999206949e130fb5b36afd49", null ],
-    [ "bufSize", "d9/d24/classPHObject.html#aaf21881ca55bba3e3e8ce1db7ff189ae", null ],
-    [ "split", "d9/d24/classPHObject.html#aa8e3ec837e6c424f5238824250f695a6", null ]
+    [ "SplitLevel", "d9/d24/classPHObject.html#a8f3a4a47999206949e130fb5b36afd49", null ]
 ];

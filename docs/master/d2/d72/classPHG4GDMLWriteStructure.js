@@ -19,10 +19,6 @@ var classPHG4GDMLWriteStructure =
     [ "TraverseVolumeTree", "d2/d72/classPHG4GDMLWriteStructure.html#a957c6f2d283732660e3eb9c41b982048", null ],
     [ "auxmap", "d2/d72/classPHG4GDMLWriteStructure.html#a2c7bf40e3d330e54c902257af3f39c86", null ],
     [ "borderElementVec", "d2/d72/classPHG4GDMLWriteStructure.html#aa53584e596f9df11da0f1fe10c4d7411", null ],
-    [ "cexport", "d2/d72/classPHG4GDMLWriteStructure.html#ae582614328b6e4c731dabbab9e42279a", null ],
-    [ "config", "d2/d72/classPHG4GDMLWriteStructure.html#a475d66ebda2d3976270183cbe8ca14e1", null ],
-    [ "opt_vec", "d2/d72/classPHG4GDMLWriteStructure.html#a4b79824ee14745a99b0a37710f3701e8", null ],
-    [ "reflFactory", "d2/d72/classPHG4GDMLWriteStructure.html#aff08d66180c5a8fab8c5ec4c162227ab", null ],
     [ "skinElementVec", "d2/d72/classPHG4GDMLWriteStructure.html#a8478b1220b2ea55f603d189d80caa380", null ],
     [ "structureElement", "d2/d72/classPHG4GDMLWriteStructure.html#aaa1fbe7f15eab3f3de331180a88b76c6", null ]
 ];

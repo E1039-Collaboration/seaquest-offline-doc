@@ -1,7 +1,5 @@
 var evio_8c =
 [
-    [ "evfilestruct", "d4/d04/structevfilestruct.html", "d4/d04/structevfilestruct" ],
-    [ "evBinarySearch", "de/ddf/structevBinarySearch.html", "de/ddf/structevBinarySearch" ],
     [ "EV_HD_BLKNUM", "d9/dca/evio_8c.html#a5d4a7e0f93195de1a5ed500e23adf417", null ],
     [ "EV_HD_BLKSIZ", "d9/dca/evio_8c.html#a2a6a4900e283b5c3e7c2a535654b6b49", null ],
     [ "EV_HD_HDSIZ", "d9/dca/evio_8c.html#a79a341cd7d94bbc91df2beefd7280972", null ],

@@ -100,18 +100,5 @@ var classSRawEvent =
     [ "setTriggerEmu", "d5/d83/classSRawEvent.html#a35713143af2898c9b3347d9a2090ddcd", null ],
     [ "setTriggerHit", "d5/d83/classSRawEvent.html#aa878444822d59d24e642e88bd3bf9d64", null ],
     [ "setTurnID", "d5/d83/classSRawEvent.html#a105c9c286d28e7cd505adf7d649ccc97", null ],
-    [ "EventReducer", "d5/d83/classSRawEvent.html#a03697a112e66f7e1012cf3913f5e631a", null ],
-    [ "fAllHits", "d5/d83/classSRawEvent.html#a481f3d7acb9cc3093e96d2c5a412da0f", null ],
-    [ "fEventID", "d5/d83/classSRawEvent.html#a161a1888f2d2f073075c3a708b92eef4", null ],
-    [ "fIntensity", "d5/d83/classSRawEvent.html#ac0a9d31a72f646f2e1a989465c1e7977", null ],
-    [ "fNHits", "d5/d83/classSRawEvent.html#a2550e46480610243e354718070fa2314", null ],
-    [ "fNRoads", "d5/d83/classSRawEvent.html#ae78b50f6776a5e180aa9d44c46e1fb9e", null ],
-    [ "fRFID", "d5/d83/classSRawEvent.html#a9e5e1822998ebae1e35333e894042bbe", null ],
-    [ "fRunID", "d5/d83/classSRawEvent.html#a6acd2afde03da9af36221a5417ddf73a", null ],
-    [ "fSpillID", "d5/d83/classSRawEvent.html#a5fb59a8e6c3fe6fc8b53daca805e942f", null ],
-    [ "fTargetPos", "d5/d83/classSRawEvent.html#a552f6d69a08e5d776a54ccdd6c9a0525", null ],
-    [ "fTriggerBits", "d5/d83/classSRawEvent.html#acdd7faec8303b509b84087196d1c0dc3", null ],
-    [ "fTriggerEmu", "d5/d83/classSRawEvent.html#a8ef2e50279f46f6bccf468fffb8990d7", null ],
-    [ "fTriggerHits", "d5/d83/classSRawEvent.html#a72a2ef92fccb88218015c06fcc1ab85e", null ],
-    [ "fTurnID", "d5/d83/classSRawEvent.html#a767397d9ad41028d14bb4f43ec909003", null ]
+    [ "EventReducer", "d5/d83/classSRawEvent.html#a03697a112e66f7e1012cf3913f5e631a", null ]
 ];

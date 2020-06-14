@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -197,8 +195,8 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; field_map-&gt;GetEntries(); i++)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    field_map-&gt;GetEntry(i);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a13f1b8a723124b49aff4752231aaa2dd">trio</a> coord_key(ROOT_Z, ROOT_R, ROOT_PHI);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a13f1b8a723124b49aff4752231aaa2dd">trio</a> field_val(ROOT_BZ, ROOT_BR, ROOT_BPHI);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    trio coord_key(ROOT_Z, ROOT_R, ROOT_PHI);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    trio field_val(ROOT_BZ, ROOT_BR, ROOT_BPHI);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    sorted_map[coord_key] = field_val;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    z_set.insert(ROOT_Z * cm);</div>
@@ -210,14 +208,14 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">if</span> (verb_ &gt; 4)</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  {</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    map&lt;trio, trio&gt;::iterator it = sorted_map.begin();</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">print_map</a>(it);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    print_map(it);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">float</span> last_z = it-&gt;first.get&lt;0&gt;();</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">for</span> (it = sorted_map.begin(); it != sorted_map.end(); ++it)</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">if</span> (it-&gt;first.get&lt;0&gt;() != last_z)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      {</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        last_z = it-&gt;first.get&lt;0&gt;();</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">print_map</a>(it);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        print_map(it);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
@@ -298,7 +296,7 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="comment">// couts print the values entered into the vectors</span></div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> (fabs(z) &lt; 10 &amp;&amp; ir &lt; 10 <span class="comment">/*&amp;&amp; iphi==2*/</span> &amp;&amp; verb_ &gt; 3)</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    {</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">print_map</a>(iter);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      print_map(iter);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot; B(&quot;</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;             &lt;&lt; <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a619940a67bd825a8aa441a584465ad18">r_map_</a>[ir] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
@@ -510,7 +508,7 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;<span class="comment">// a binary search algorithm that puts the location that &quot;key&quot; would be, into index...</span></div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="comment">// it returns true if key was found, and false if not.</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno"><a class="line" href="../../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c">  397</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c">PHField3DCylindrical::bin_search</a>(<span class="keyword">const</span> vector&lt;float&gt; &amp;vec, <span class="keywordtype">unsigned</span> start, <span class="keywordtype">unsigned</span> end, <span class="keyword">const</span> <span class="keywordtype">float</span> &amp;key, <span class="keywordtype">unsigned</span> &amp;index)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="keywordtype">bool</span> PHField3DCylindrical::bin_search(<span class="keyword">const</span> vector&lt;float&gt; &amp;vec, <span class="keywordtype">unsigned</span> start, <span class="keywordtype">unsigned</span> end, <span class="keyword">const</span> <span class="keywordtype">float</span> &amp;key, <span class="keywordtype">unsigned</span> &amp;index)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="comment">// Termination condition: start index greater than end index</span></div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keywordflow">if</span> (start &gt; end)</div>
@@ -530,13 +528,13 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  }</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (vec[middle] &gt; key)</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  {</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c">bin_search</a>(vec, start, middle - 1, key, index);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <span class="keywordflow">return</span> bin_search(vec, start, middle - 1, key, index);</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;  }</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c">bin_search</a>(vec, middle + 1, end, key, index);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <span class="keywordflow">return</span> bin_search(vec, middle + 1, end, key, index);</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;}</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="comment">// debug function to print key/value pairs in map</span></div>
-<div class="line"><a name="l00423"></a><span class="lineno"><a class="line" href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">  423</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">PHField3DCylindrical::print_map</a>(map&lt;trio, trio&gt;::iterator &amp;it)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;<span class="keywordtype">void</span> PHField3DCylindrical::print_map(map&lt;trio, trio&gt;::iterator &amp;it)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;    Key: &lt;&quot;</span></div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;       &lt;&lt; it-&gt;first.get&lt;0&gt;() * cm &lt;&lt; <span class="stringliteral">&quot;,&quot;</span></div>
@@ -548,13 +546,10 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;       &lt;&lt; it-&gt;second.get&lt;1&gt;() * gauss &lt;&lt; <span class="stringliteral">&quot;,&quot;</span></div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;       &lt;&lt; it-&gt;second.get&lt;2&gt;() * gauss &lt;&lt; <span class="stringliteral">&quot;&gt;\n&quot;</span>;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
-<div class="ttc" id="classPHField3DCylindrical_html_a13f1b8a723124b49aff4752231aaa2dd"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a13f1b8a723124b49aff4752231aaa2dd">PHField3DCylindrical::trio</a></div><div class="ttdeci">boost::tuple&lt; float, float, float &gt; trio</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/PHField3DCylindrical_8h_source.html#l00034">PHField3DCylindrical.h:34</a></div></div>
 <div class="ttc" id="classPHField3DCylindrical_html_a773468b8b7d1907d1489447e51b10876"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a773468b8b7d1907d1489447e51b10876">PHField3DCylindrical::BFieldR_</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; std::vector&lt; float &gt; &gt; &gt; BFieldR_</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/PHField3DCylindrical_8h_source.html#l00045">PHField3DCylindrical.h:45</a></div></div>
 <div class="ttc" id="classPHField_html_acc5b419af2babb382ced53f59f1541a3"><div class="ttname"><a href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">PHField::verb_</a></div><div class="ttdeci">unsigned verb_</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00036">PHField.h:36</a></div></div>
-<div class="ttc" id="classPHField3DCylindrical_html_a0d9c0618fb287a7e7013e0b322ea8fec"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a0d9c0618fb287a7e7013e0b322ea8fec">PHField3DCylindrical::print_map</a></div><div class="ttdeci">void print_map(std::map&lt; trio, trio &gt;::iterator &amp;it) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/PHField3DCylindrical_8cc_source.html#l00423">PHField3DCylindrical.cc:423</a></div></div>
 <div class="ttc" id="classPHField3DCylindrical_html_a01680789ef997305fa63259f31b4a063"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a01680789ef997305fa63259f31b4a063">PHField3DCylindrical::z_map_</a></div><div class="ttdeci">std::vector&lt; float &gt; z_map_</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/PHField3DCylindrical_8h_source.html#l00049">PHField3DCylindrical.h:49</a></div></div>
 <div class="ttc" id="classPHField3DCylindrical_html_a45a2829339024068f40e87510b918ade"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a45a2829339024068f40e87510b918ade">PHField3DCylindrical::GetFieldCyl</a></div><div class="ttdeci">void GetFieldCyl(const double CylPoint[4], double *Bfield) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/PHField3DCylindrical_8cc_source.html#l00265">PHField3DCylindrical.cc:265</a></div></div>
-<div class="ttc" id="classPHField3DCylindrical_html_a8b3a378bc14492762dda548aa9a4856c"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a8b3a378bc14492762dda548aa9a4856c">PHField3DCylindrical::bin_search</a></div><div class="ttdeci">bool bin_search(const std::vector&lt; float &gt; &amp;vec, unsigned start, unsigned end, const float &amp;key, unsigned &amp;index) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/PHField3DCylindrical_8cc_source.html#l00397">PHField3DCylindrical.cc:397</a></div></div>
 <div class="ttc" id="classPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00015">PHField.h:15</a></div></div>
 <div class="ttc" id="classPHField3DCylindrical_html_a197fbbe9032221d9cb559f2b7a31145c"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a197fbbe9032221d9cb559f2b7a31145c">PHField3DCylindrical::GetFieldValue</a></div><div class="ttdeci">void GetFieldValue(const double Point[4], double *Bfield) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/PHField3DCylindrical_8cc_source.html#l00208">PHField3DCylindrical.cc:208</a></div></div>
 <div class="ttc" id="classPHField3DCylindrical_html_a08691abb9e0b422956d5c69ec14f6f7d"><div class="ttname"><a href="../../d5/dc1/classPHField3DCylindrical.html#a08691abb9e0b422956d5c69ec14f6f7d">PHField3DCylindrical::BFieldPHI_</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; std::vector&lt; float &gt; &gt; &gt; BFieldPHI_</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d42/PHField3DCylindrical_8h_source.html#l00046">PHField3DCylindrical.h:46</a></div></div>
@@ -575,7 +570,7 @@ $(document).ready(function(){initNavTree('dd/dde/PHField3DCylindrical_8cc_source
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_29bc369c4f71a7b86d08f7eb27605fd7.html">PHField</a></li><li class="navelem"><a class="el" href="../../dd/dde/PHField3DCylindrical_8cc.html">PHField3DCylindrical.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

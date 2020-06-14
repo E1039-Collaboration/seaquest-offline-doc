@@ -34,18 +34,5 @@ var classNode =
     [ "setProjector", "df/dd0/classNode.html#a524535410dd44b339dd44de77280d764", null ],
     [ "setPropagator", "df/dd0/classNode.html#ac48a9313860e24539bb569e2edbd4d97", null ],
     [ "setSmoothDone", "df/dd0/classNode.html#acd87507e822cf12e56a26c23064af5fe", null ],
-    [ "setZ", "df/dd0/classNode.html#a3e34b0104817584060e987797eb5d18c", null ],
-    [ "_chisq", "df/dd0/classNode.html#ad2ae159df003b4c50702a55b1920ad38", null ],
-    [ "_filter_done", "df/dd0/classNode.html#a931457d8049f264a3511f55b36836759", null ],
-    [ "_filtered", "df/dd0/classNode.html#aa0d7d390903d8afff1e84c0884797cd4", null ],
-    [ "_hit", "df/dd0/classNode.html#a844ff25d8e8353afc2a5d29d58b7633d", null ],
-    [ "_measurement", "df/dd0/classNode.html#a66b86766139b6eb1c3663ff996e0534f", null ],
-    [ "_measurement_cov", "df/dd0/classNode.html#a2e24886da488aa629c3c8cf3477fc288", null ],
-    [ "_predicted", "df/dd0/classNode.html#acc05055b8770ec3c52b85ed20a6321de", null ],
-    [ "_prediction_done", "df/dd0/classNode.html#a05344495aedf6c853eae908fb7109779", null ],
-    [ "_projector", "df/dd0/classNode.html#a0596936b4ae08eef6e85b424465cc1cb", null ],
-    [ "_propagator", "df/dd0/classNode.html#a6cdbfc1c91b677ccdb99e50cdce4beee", null ],
-    [ "_smooth_done", "df/dd0/classNode.html#a38cc00f91996293ffafdad0c13d151ce", null ],
-    [ "_smoothed", "df/dd0/classNode.html#a3356ba42a47c82a4f41ce56f230ecfb9", null ],
-    [ "_z", "df/dd0/classNode.html#abf572d9ab2977ded23090d4a8968bb06", null ]
+    [ "setZ", "df/dd0/classNode.html#a3e34b0104817584060e987797eb5d18c", null ]
 ];

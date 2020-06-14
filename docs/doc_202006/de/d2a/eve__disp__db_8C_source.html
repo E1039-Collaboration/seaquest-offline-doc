@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -119,15 +117,15 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../de/d2a/eve__disp__db_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">    3</a></span>&#160;<a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *<a class="code" href="../../d2/d96/eve__disp_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../de/d2a/eve__disp__db_8C.html#a1849bfa06d2486756eb80db2e8b5d928">    4</a></span>&#160;TGLViewer*  <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span><a class="code" href="../../d2/d99/classEvNavHandler.html">EvNavHandler</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">class </span>EvNavHandler</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d2/d99/classEvNavHandler.html#ad5d302e05a2917dbcf1d4b66453b7187">    9</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d2/d99/classEvNavHandler.html#ad5d302e05a2917dbcf1d4b66453b7187">NextEvent</a>()</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">void</span> NextEvent()</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;      printf(<span class="stringliteral">&quot;se-&gt;run(1)\n&quot;</span>);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;      se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(1);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d2/d99/classEvNavHandler.html#a6a0d1b7b8ffea5638a047bb69a152ca9">   14</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d2/d99/classEvNavHandler.html#a6a0d1b7b8ffea5638a047bb69a152ca9">TopView</a>()</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> TopView()</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;      printf(<span class="stringliteral">&quot;Top View\n&quot;</span>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;ResetCurrentCamera();</div>
@@ -136,7 +134,7 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;CurrentCamera().Truck(2800,0);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;DoDraw();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d2/d99/classEvNavHandler.html#aacdcbe12337ebbb8a6dd97425e57d3eb">   23</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d2/d99/classEvNavHandler.html#aacdcbe12337ebbb8a6dd97425e57d3eb">SideView</a>()</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> SideView()</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;      printf(<span class="stringliteral">&quot;Side View\n&quot;</span>);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;ResetCurrentCamera();</div>
@@ -144,7 +142,7 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;CurrentCamera().Truck(2800,0);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;DoDraw();</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d99/classEvNavHandler.html#a534aaeee4f7fa8f4f8ad94219d983066">   31</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d2/d99/classEvNavHandler.html#a534aaeee4f7fa8f4f8ad94219d983066">View3D</a>()</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> View3D()</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      printf(<span class="stringliteral">&quot;3D View\n&quot;</span>);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>-&gt;ResetCurrentCamera();</div>
@@ -171,7 +169,7 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    TGTextButton* b = 0;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d2/d99/classEvNavHandler.html">EvNavHandler</a>    *fh = <span class="keyword">new</span> <a class="code" href="../../d2/d99/classEvNavHandler.html">EvNavHandler</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    EvNavHandler    *fh = <span class="keyword">new</span> EvNavHandler;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    b = <span class="keyword">new</span> TGTextButton(hf, <span class="stringliteral">&quot;Next Event&quot;</span>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    hf-&gt;AddFrame(b);</div>
@@ -229,13 +227,8 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 <div class="ttc" id="Fun4DB_8C_html"><div class="ttname"><a href="../../df/dc0/Fun4DB_8C.html">Fun4DB.C</a></div></div>
 <div class="ttc" id="classFun4AllServer_html"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00024">Fun4AllServer.h:24</a></div></div>
 <div class="ttc" id="eve__disp_8C_html_a551ab180f35c54b85752aae3551c1af0"><div class="ttname"><a href="../../d2/d96/eve__disp_8C.html#a551ab180f35c54b85752aae3551c1af0">make_gui</a></div><div class="ttdeci">void make_gui()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00054">eve_disp.C:54</a></div></div>
-<div class="ttc" id="classEvNavHandler_html_a534aaeee4f7fa8f4f8ad94219d983066"><div class="ttname"><a href="../../d2/d99/classEvNavHandler.html#a534aaeee4f7fa8f4f8ad94219d983066">EvNavHandler::View3D</a></div><div class="ttdeci">void View3D()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2a/eve__disp__db_8C_source.html#l00031">eve_disp_db.C:31</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_a11bbc8b2f53bc06e0b05ee202dd6372a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">Fun4AllServer::run</a></div><div class="ttdeci">int run(const int nevnts=0, const bool require_nevents=false)</div><div class="ttdoc">run n events (0 means up to end of file) </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer.cc:1288</a></div></div>
-<div class="ttc" id="classEvNavHandler_html_a6a0d1b7b8ffea5638a047bb69a152ca9"><div class="ttname"><a href="../../d2/d99/classEvNavHandler.html#a6a0d1b7b8ffea5638a047bb69a152ca9">EvNavHandler::TopView</a></div><div class="ttdeci">void TopView()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2a/eve__disp__db_8C_source.html#l00014">eve_disp_db.C:14</a></div></div>
-<div class="ttc" id="classEvNavHandler_html_ad5d302e05a2917dbcf1d4b66453b7187"><div class="ttname"><a href="../../d2/d99/classEvNavHandler.html#ad5d302e05a2917dbcf1d4b66453b7187">EvNavHandler::NextEvent</a></div><div class="ttdeci">void NextEvent()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2a/eve__disp__db_8C_source.html#l00009">eve_disp_db.C:9</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_abcaf6825367e5db292ff795237bdcf62"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">Fun4AllServer::topNode</a></div><div class="ttdeci">PHCompositeNode * topNode() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00059">Fun4AllServer.h:59</a></div></div>
-<div class="ttc" id="classEvNavHandler_html"><div class="ttname"><a href="../../d2/d99/classEvNavHandler.html">EvNavHandler</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00009">eve_disp.C:9</a></div></div>
-<div class="ttc" id="classEvNavHandler_html_aacdcbe12337ebbb8a6dd97425e57d3eb"><div class="ttname"><a href="../../d2/d99/classEvNavHandler.html#aacdcbe12337ebbb8a6dd97425e57d3eb">EvNavHandler::SideView</a></div><div class="ttdeci">void SideView()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2a/eve__disp__db_8C_source.html#l00023">eve_disp_db.C:23</a></div></div>
 <div class="ttc" id="classPHG4Reco_html_a9d8228ce8682c19cd6be2f6b44ec847b"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">PHG4Reco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco.cc:316</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_ac6d47a2b3bc98933a03fd63bb75d624a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">Fun4AllServer::getSubsysReco</a></div><div class="ttdeci">SubsysReco * getSubsysReco(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00324">Fun4AllServer.cc:324</a></div></div>
 <div class="ttc" id="eve__disp__db_8C_html_aa8b45dd9cf940c8aff427aed5d9db19f"><div class="ttname"><a href="../../de/d2a/eve__disp__db_8C.html#aa8b45dd9cf940c8aff427aed5d9db19f">eve_disp_db</a></div><div class="ttdeci">void eve_disp_db()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2a/eve__disp__db_8C_source.html#l00088">eve_disp_db.C:88</a></div></div>
@@ -249,7 +242,7 @@ $(document).ready(function(){initNavTree('de/d2a/eve__disp__db_8C_source.html','
 		<li class="navelem"><a class="el" href="../../dir_99844dfacebbb87e315d9ca28a232aeb.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_89536d893d6f04a75c6a1de9e65ffdde.html">SimChainDev</a></li><li class="navelem"><a class="el" href="../../de/d2a/eve__disp__db_8C.html">eve_disp_db.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

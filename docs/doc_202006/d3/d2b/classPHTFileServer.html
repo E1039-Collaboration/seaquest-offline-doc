@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -116,7 +114,6 @@ $(document).ready(function(){initNavTree('d3/d2b/classPHTFileServer.html','../..
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d9/dc5/classPHTFileServer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PHTFileServer Class Reference</div>  </div>
@@ -128,19 +125,13 @@ $(document).ready(function(){initNavTree('d3/d2b/classPHTFileServer.html','../..
 
 <p><code>#include &lt;<a class="el" href="../../d6/de6/PHTFileServer_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/framework/fun4all/PHTFileServer.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html">SafeTFile</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">local class to store TFile and counter  <a href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adfad981fb056e34d6fe6bc34c8bc3e3d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2b/classPHTFileServer.html#adfad981fb056e34d6fe6bc34c8bc3e3d">~PHTFileServer</a> ()</td></tr>
 <tr class="memdesc:adfad981fb056e34d6fe6bc34c8bc3e3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor. All non close TFiles are closed, with a warning.  <a href="#adfad981fb056e34d6fe6bc34c8bc3e3d">More...</a><br/></td></tr>
 <tr class="separator:adfad981fb056e34d6fe6bc34c8bc3e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaae99c6748eb17d5f8d7df375bc6d615"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2b/classPHTFileServer.html#aaae99c6748eb17d5f8d7df375bc6d615">open</a> (const std::string &amp;filename, const std::string &amp;type=&quot;RECREATE&quot;)</td></tr>
-<tr class="memdesc:aaae99c6748eb17d5f8d7df375bc6d615"><td class="mdescLeft">&#160;</td><td class="mdescRight">open a <a class="el" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html" title="local class to store TFile and counter ">SafeTFile</a>. If filename is not found in the map, create a new TFile and append to the map; increment counter otherwise  <a href="#aaae99c6748eb17d5f8d7df375bc6d615">More...</a><br/></td></tr>
+<tr class="memdesc:aaae99c6748eb17d5f8d7df375bc6d615"><td class="mdescLeft">&#160;</td><td class="mdescRight">open a SafeTFile. If filename is not found in the map, create a new TFile and append to the map; increment counter otherwise  <a href="#aaae99c6748eb17d5f8d7df375bc6d615">More...</a><br/></td></tr>
 <tr class="separator:aaae99c6748eb17d5f8d7df375bc6d615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f6bcc2c1d273dcd3f84f8d235dde7e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2b/classPHTFileServer.html#a7f6bcc2c1d273dcd3f84f8d235dde7e2">flush</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a7f6bcc2c1d273dcd3f84f8d235dde7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">flush TFile matching filename  <a href="#a7f6bcc2c1d273dcd3f84f8d235dde7e2">More...</a><br/></td></tr>
@@ -160,12 +151,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a3ed7a2a70cc2e38dbe1cb33afe9c2f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d2b/classPHTFileServer.html">PHTFileServer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">get</a> (void)</td></tr>
 <tr class="memdesc:a5a3ed7a2a70cc2e38dbe1cb33afe9c2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">return reference to class singleton  <a href="#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">More...</a><br/></td></tr>
 <tr class="separator:a5a3ed7a2a70cc2e38dbe1cb33afe9c2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aac244bf00ad0898a3c69e50c8a9b0c96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2b/classPHTFileServer.html#aac244bf00ad0898a3c69e50c8a9b0c96">PHTFileServer</a> (void)</td></tr>
-<tr class="memdesc:aac244bf00ad0898a3c69e50c8a9b0c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructor  <a href="#aac244bf00ad0898a3c69e50c8a9b0c96">More...</a><br/></td></tr>
-<tr class="separator:aac244bf00ad0898a3c69e50c8a9b0c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>TFile clean handling. It allow independant classes to access the same TFile and write ntuple to it. TFiles get written only when as many write request are achieved as open request. It get closed when the server is deleted. </p>
@@ -197,34 +182,6 @@ Private Member Functions</h2></td></tr>
 <p>destructor. All non close TFiles are closed, with a warning. </p>
 
 <p>Definition at line <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00023">23</a> of file <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html">PHTFileServer.cxx</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aac244bf00ad0898a3c69e50c8a9b0c96"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">PHTFileServer::PHTFileServer </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>constructor </p>
-
-<p>Definition at line <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00069">69</a> of file <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html">PHTFileServer.h</a>.</p>
 
 </div>
 </div>
@@ -327,14 +284,14 @@ Private Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html#l00036">36</a> of file <a class="el" href="../../d6/de6/PHTFileServer_8h_source.html">PHTFileServer.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00149">PHG4DSTReader::build_tree()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00264">TruthEval::End()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00112">TestAnalyzer::End()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00141">TestSimAnalyzer::End()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00194">RndmEmbed::End()</a>, <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00454">SQReco::End()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00260">PatternDBGen::End()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00398">KalmanFastTrackingWrapper::End()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00851">TrkEval::End()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00187">SRawEventEmbed::End()</a>, <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00443">PHG4DSTReader::End()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00277">TruthEval::InitEvalTree()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00122">TestAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00151">TestSimAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00204">RndmEmbed::InitEvalTree()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00270">PatternDBGen::InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00862">TrkEval::InitEvalTree()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00410">KalmanFastTrackingWrapper::InitEvalTree()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00197">SRawEventEmbed::InitEvalTree()</a>, and <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00540">SQReco::InitEvalTree()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00149">PHG4DSTReader::build_tree()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00264">TruthEval::End()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00112">TestAnalyzer::End()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00141">TestSimAnalyzer::End()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00194">RndmEmbed::End()</a>, <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00454">SQReco::End()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00260">PatternDBGen::End()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00398">KalmanFastTrackingWrapper::End()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00851">TrkEval::End()</a>, <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00443">PHG4DSTReader::End()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00187">SRawEventEmbed::End()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00277">TruthEval::InitEvalTree()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00122">TestAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00151">TestSimAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00204">RndmEmbed::InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00862">TrkEval::InitEvalTree()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00410">KalmanFastTrackingWrapper::InitEvalTree()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00270">PatternDBGen::InitEvalTree()</a>, and <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00197">SRawEventEmbed::InitEvalTree()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d2b/classPHTFileServer_a5a3ed7a2a70cc2e38dbe1cb33afe9c2f_icgraph.svg" width="646" height="1016"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d2b/classPHTFileServer_a5a3ed7a2a70cc2e38dbe1cb33afe9c2f_icgraph.svg" width="646" height="966"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -365,18 +322,18 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>open a <a class="el" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html" title="local class to store TFile and counter ">SafeTFile</a>. If filename is not found in the map, create a new TFile and append to the map; increment counter otherwise </p>
+<p>open a SafeTFile. If filename is not found in the map, create a new TFile and append to the map; increment counter otherwise </p>
 
 <p>Definition at line <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00029">29</a> of file <a class="el" href="../../dd/dfa/PHTFileServer_8cxx_source.html">PHTFileServer.cxx</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00149">PHG4DSTReader::build_tree()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00277">TruthEval::InitEvalTree()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00122">TestAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00151">TestSimAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00204">RndmEmbed::InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00862">TrkEval::InitEvalTree()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00270">PatternDBGen::InitEvalTree()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00410">KalmanFastTrackingWrapper::InitEvalTree()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00197">SRawEventEmbed::InitEvalTree()</a>, and <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00540">SQReco::InitEvalTree()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d06/PHG4DSTReader_8cc_source.html#l00149">PHG4DSTReader::build_tree()</a>, <a class="el" href="../../d0/db6/TruthEval_8cxx_source.html#l00277">TruthEval::InitEvalTree()</a>, <a class="el" href="../../d4/def/TestAnalyzer_8cxx_source.html#l00122">TestAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d13/TestSimAnalyzer_8cxx_source.html#l00151">TestSimAnalyzer::InitEvalTree()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00204">RndmEmbed::InitEvalTree()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00270">PatternDBGen::InitEvalTree()</a>, <a class="el" href="../../d2/d16/TrkEval_8cxx_source.html#l00862">TrkEval::InitEvalTree()</a>, <a class="el" href="../../d8/d66/KalmanFastTrackingWrapper_8cxx_source.html#l00410">KalmanFastTrackingWrapper::InitEvalTree()</a>, and <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00197">SRawEventEmbed::InitEvalTree()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d2b/classPHTFileServer_aaae99c6748eb17d5f8d7df375bc6d615_icgraph.svg" width="640" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d2b/classPHTFileServer_aaae99c6748eb17d5f8d7df375bc6d615_icgraph.svg" width="640" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -417,7 +374,7 @@ Private Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d3/d2b/classPHTFileServer.html">PHTFileServer</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:55:00</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

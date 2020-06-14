@@ -9,7 +9,6 @@ var classSQHitVector =
     [ "at", "d9/dbc/classSQHitVector.html#a798d008085ce67e6f99ea2b2631136c2", null ],
     [ "begin", "d9/dbc/classSQHitVector.html#a194d01789d543dd623068b46c450e434", null ],
     [ "begin", "d9/dbc/classSQHitVector.html#a72c67b0d00fc0fd046f223ac4acc4000", null ],
-    [ "ClassDef", "d9/dbc/classSQHitVector.html#af0348329b8af8c75c41aee72cf32a86d", null ],
     [ "clear", "d9/dbc/classSQHitVector.html#a19f0a08d5d20b975a5411f6c477280ec", null ],
     [ "Clone", "d9/dbc/classSQHitVector.html#a80bec3a0e39b5618485e7bbee65a2e17", null ],
     [ "empty", "d9/dbc/classSQHitVector.html#a971c555cae52ae5df76573826ed2824d", null ],

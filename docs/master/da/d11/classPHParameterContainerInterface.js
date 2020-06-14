@@ -21,8 +21,5 @@ var classPHParameterContainerInterface =
     [ "set_name", "da/d11/classPHParameterContainerInterface.html#a0c187ac6f77932165f16fd3c6d27b71e", null ],
     [ "set_string_param", "da/d11/classPHParameterContainerInterface.html#ae977deb9105f6cb63e012bdc0a0760a7", null ],
     [ "SetDefaultParameters", "da/d11/classPHParameterContainerInterface.html#ac08e90ba060213990d919450bcce48f8", null ],
-    [ "UpdateParametersWithMacro", "da/d11/classPHParameterContainerInterface.html#a23926b47f33ef3c8dcf8fcfda7891341", null ],
-    [ "defaultparams", "da/d11/classPHParameterContainerInterface.html#a2d0bb35f45f4e67395bab0021841aa5c", null ],
-    [ "macroparams", "da/d11/classPHParameterContainerInterface.html#aa84df27d72325be15d422719d41c8ed4", null ],
-    [ "paramscontainer", "da/d11/classPHParameterContainerInterface.html#a9d575b8623d7975c38f520ff083f3db9", null ]
+    [ "UpdateParametersWithMacro", "da/d11/classPHParameterContainerInterface.html#a23926b47f33ef3c8dcf8fcfda7891341", null ]
 ];

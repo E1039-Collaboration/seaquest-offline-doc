@@ -5,7 +5,6 @@ var classPHTimeStamp =
     [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html#a8822bf375b7847d34f248d3f3d6f884e", null ],
     [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html#a87669a7d1fd5ac19732d40eba927f4c8", null ],
     [ "~PHTimeStamp", "da/dc2/classPHTimeStamp.html#a5492372b1b95c93e9a7a56666504dcae", null ],
-    [ "binaryTimeToTics", "da/dc2/classPHTimeStamp.html#a50f44df466af8818a2c140e7f04deddb", null ],
     [ "formatTimeString", "da/dc2/classPHTimeStamp.html#a091196843c7530360dbbf62309558783", null ],
     [ "getBinaryTime", "da/dc2/classPHTimeStamp.html#af0cba0d0c75a20cb21c1750ac59bcf17", null ],
     [ "getTics", "da/dc2/classPHTimeStamp.html#aaf398dcc8d0066c674cc30dbbef5efcb", null ],
@@ -27,6 +26,5 @@ var classPHTimeStamp =
     [ "setTics", "da/dc2/classPHTimeStamp.html#ac23964c2bd33495dfed5b3a3b941198b", null ],
     [ "setToFarFuture", "da/dc2/classPHTimeStamp.html#acf0adad74c21cafb6b4cee8d97b0f623", null ],
     [ "setToSystemTime", "da/dc2/classPHTimeStamp.html#a19ad7e5e8f528070be4ea8ae718b1c06", null ],
-    [ "ticsToBinaryTime", "da/dc2/classPHTimeStamp.html#a1db133b3f18db63d160ef59cc4417d13", null ],
     [ "binaryTime", "da/dc2/classPHTimeStamp.html#a79d4a61997162340c292493bd2430daf", null ]
 ];

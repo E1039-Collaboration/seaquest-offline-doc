@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -141,7 +139,7 @@ $(document).ready(function(){initNavTree('d2/d32/SQSpillMap__v1_8cxx_source.html
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;       iter != hitmap.<a class="code" href="../../df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1">end</a>();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;       ++iter) {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spill = iter-&gt;second;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.insert(make_pair(spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f">get_spill_id</a>(),spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>()));</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    _map.insert(make_pair(spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f">get_spill_id</a>(),spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>()));</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
@@ -151,7 +149,7 @@ $(document).ready(function(){initNavTree('d2/d32/SQSpillMap__v1_8cxx_source.html
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;       iter != hitmap.<a class="code" href="../../df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1">end</a>();</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;       ++iter) {</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;          <span class="keyword">const</span> <a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spill = iter-&gt;second;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.insert(make_pair(spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f">get_spill_id</a>(),spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>()));</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          _map.insert(make_pair(spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f">get_spill_id</a>(),spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>()));</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
@@ -161,36 +159,36 @@ $(document).ready(function(){initNavTree('d2/d32/SQSpillMap__v1_8cxx_source.html
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41">   47</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41">SQSpillMap_v1::Reset</a>() {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a> iter = <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.begin();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;       iter != <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.end();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a> iter = _map.begin();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;       iter != _map.end();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;       ++iter) {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a> *hit = iter-&gt;second;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">delete</span> hit;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.clear();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  _map.clear();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../df/de1/classSQSpillMap__v1.html#a0dc1c791e1674c79cd463478889464cf">   57</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/de1/classSQSpillMap__v1.html#a0dc1c791e1674c79cd463478889464cf">SQSpillMap_v1::identify</a>(ostream&amp; os)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;SQSpillMap_v1: size = &quot;</span> &lt;&lt; <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.size() &lt;&lt; endl;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;SQSpillMap_v1: size = &quot;</span> &lt;&lt; _map.size() &lt;&lt; endl;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../df/de1/classSQSpillMap__v1.html#adaceb5662f5219e689064e1d8c5a7383">   62</a></span>&#160;<span class="keyword">const</span> <a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a>* <a class="code" href="../../df/de1/classSQSpillMap__v1.html#adaceb5662f5219e689064e1d8c5a7383">SQSpillMap_v1::get</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="../../d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612">ConstIter</a> iter = <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.find(<span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordflow">if</span> (iter == <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="../../d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612">ConstIter</a> iter = _map.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordflow">if</span> (iter == _map.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">return</span> iter-&gt;second;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../df/de1/classSQSpillMap__v1.html#a36db572e54c2c6b01dc04d5f7b26dba3">   68</a></span>&#160;<a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a>* <a class="code" href="../../df/de1/classSQSpillMap__v1.html#adaceb5662f5219e689064e1d8c5a7383">SQSpillMap_v1::get</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>) {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a> iter = <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.find(<span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">if</span> (iter == <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <a class="code" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a> iter = _map.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">if</span> (iter == _map.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">return</span> iter-&gt;second;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../df/de1/classSQSpillMap__v1.html#ad049891b6661863aedd66e0fb5b35678">   74</a></span>&#160;<a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a>* <a class="code" href="../../df/de1/classSQSpillMap__v1.html#ad049891b6661863aedd66e0fb5b35678">SQSpillMap_v1::insert</a>(<span class="keyword">const</span> <a class="code" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spill) {</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">int</span> index = spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a29e7126ee7862f88c4aca1f9f38ad52f">get_spill_id</a>();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>.insert(make_pair( index , spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>() ));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">_map</a>[index];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  _map.insert(make_pair( index , spill-&gt;<a class="code" href="../../d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b">Clone</a>() ));</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">return</span> _map[index];</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
@@ -210,7 +208,6 @@ $(document).ready(function(){initNavTree('d2/d32/SQSpillMap__v1_8cxx_source.html
 <div class="ttc" id="PdbCalChan_8cc_html_a2e42736505dcaba519d53efaa5586008"><div class="ttname"><a href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a></div><div class="ttdeci">ClassImp(PdbCalChan)</div></div>
 <div class="ttc" id="classSQSpillMap_html_a9132b74a1d4fb2434969e8028f2c5641"><div class="ttname"><a href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">SQSpillMap::Iter</a></div><div class="ttdeci">std::map&lt; unsigned int, SQSpill * &gt;::iterator Iter</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d81/SQSpillMap_8h_source.html#l00024">SQSpillMap.h:24</a></div></div>
 <div class="ttc" id="classSQSpillMap__v1_html_aa677a6cadcc655da8cffb51e4c96c725"><div class="ttname"><a href="../../df/de1/classSQSpillMap__v1.html#aa677a6cadcc655da8cffb51e4c96c725">SQSpillMap_v1::begin</a></div><div class="ttdeci">ConstIter begin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0e/SQSpillMap__v1_8h_source.html#l00044">SQSpillMap_v1.h:44</a></div></div>
-<div class="ttc" id="classSQSpillMap__v1_html_aa85f2f1ed11ef0609dbe6cb72735fe12"><div class="ttname"><a href="../../df/de1/classSQSpillMap__v1.html#aa85f2f1ed11ef0609dbe6cb72735fe12">SQSpillMap_v1::_map</a></div><div class="ttdeci">SpillMap _map</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0e/SQSpillMap__v1_8h_source.html#l00053">SQSpillMap_v1.h:53</a></div></div>
 <div class="ttc" id="classSQSpillMap__v1_html_a0dc1c791e1674c79cd463478889464cf"><div class="ttname"><a href="../../df/de1/classSQSpillMap__v1.html#a0dc1c791e1674c79cd463478889464cf">SQSpillMap_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d32/SQSpillMap__v1_8cxx_source.html#l00057">SQSpillMap_v1.cxx:57</a></div></div>
 <div class="ttc" id="classSQSpillMap__v1_html_a9c4a97f77e222f22aa321b9b0d28fc41"><div class="ttname"><a href="../../df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41">SQSpillMap_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d32/SQSpillMap__v1_8cxx_source.html#l00047">SQSpillMap_v1.cxx:47</a></div></div>
 <div class="ttc" id="classSQSpillMap__v1_html_aa4428af436effb61e716a0182ead289a"><div class="ttname"><a href="../../df/de1/classSQSpillMap__v1.html#aa4428af436effb61e716a0182ead289a">SQSpillMap_v1::SQSpillMap_v1</a></div><div class="ttdeci">SQSpillMap_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d32/SQSpillMap__v1_8cxx_source.html#l00018">SQSpillMap_v1.cxx:18</a></div></div>
@@ -224,7 +221,7 @@ $(document).ready(function(){initNavTree('d2/d32/SQSpillMap__v1_8cxx_source.html
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4109f03a5b9c2dae233205e99792f74d.html">interface_main</a></li><li class="navelem"><a class="el" href="../../d2/d32/SQSpillMap__v1_8cxx.html">SQSpillMap_v1.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

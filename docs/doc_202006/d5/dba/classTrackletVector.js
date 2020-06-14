@@ -16,6 +16,5 @@ var classTrackletVector =
     [ "isValid", "d5/dba/classTrackletVector.html#a6c88399ffdaa07123d03a6aabfbdaac3", null ],
     [ "push_back", "d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c", null ],
     [ "Reset", "d5/dba/classTrackletVector.html#abf5296a5e48c5299c05a0f9bcaa83e5c", null ],
-    [ "size", "d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f", null ],
-    [ "trackletVec", "d5/dba/classTrackletVector.html#a974c70dc75b9919afcc05718311bb0c6", null ]
+    [ "size", "d5/dba/classTrackletVector.html#a1adabe85ede7148057d3796e7003472f", null ]
 ];

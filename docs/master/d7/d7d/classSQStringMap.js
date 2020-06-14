@@ -7,7 +7,6 @@ var classSQStringMap =
     [ "SQStringMap", "d7/d7d/classSQStringMap.html#abe6f1a5d2779d610f1655cfa929f7250", null ],
     [ "begin", "d7/d7d/classSQStringMap.html#a8f02e6b73ce6ca7493c227c7a01515b5", null ],
     [ "begin", "d7/d7d/classSQStringMap.html#ad37e68245171738dfc6818d514f12d3c", null ],
-    [ "ClassDef", "d7/d7d/classSQStringMap.html#a84f83008f77bfb6c7edd75e73d3bf00e", null ],
     [ "clear", "d7/d7d/classSQStringMap.html#afc4c711674b6e28bb2650e2b9bdcb26c", null ],
     [ "Clone", "d7/d7d/classSQStringMap.html#afaabc41d9915653dd6efee8d096e137a", null ],
     [ "count", "d7/d7d/classSQStringMap.html#aa92b939a3d2f21a7cf531d3e68a867b6", null ],

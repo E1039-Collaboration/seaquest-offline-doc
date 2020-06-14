@@ -19,14 +19,5 @@ var classDecoError =
     [ "InitData", "d3/d6b/classDecoError.html#a8ea670df7e092ef7ab05de0ffb383d41", null ],
     [ "PrintData", "d3/d6b/classDecoError.html#a6e598b6cd3a4a17f7193031f2dfdca1e", null ],
     [ "SetFlushError", "d3/d6b/classDecoError.html#aa63c91350685ca4eccaeef1fc747a2db", null ],
-    [ "SetID", "d3/d6b/classDecoError.html#acf3a5cbfbf4e89261e5483b1184e168c", null ],
-    [ "UpdateDbInfo", "d3/d6b/classDecoError.html#ab8e9e7bd41ed47c98f386e918163bd35", null ],
-    [ "UpdateDbTdc", "d3/d6b/classDecoError.html#aa0a7edf6ea1a3dfe2690a15e2ca9ee51", null ],
-    [ "m_flush_has_error", "d3/d6b/classDecoError.html#a01ad42f6cb62ea17c9d1ef68583834a1", null ],
-    [ "m_n_err_tdc", "d3/d6b/classDecoError.html#a42f9bf41ad53a18b80787abbea990c40", null ],
-    [ "m_n_evt_all", "d3/d6b/classDecoError.html#aa744d9b84c2270bae417cfc9f165e312", null ],
-    [ "m_n_evt_ng", "d3/d6b/classDecoError.html#a4fc341dea3054663a5b538e57647c95a", null ],
-    [ "m_run_id", "d3/d6b/classDecoError.html#aa1a2c5c590308008b0911ea9c402d833", null ],
-    [ "m_spill_id", "d3/d6b/classDecoError.html#a075a9428455251dc2e83b4603e5738ca", null ],
-    [ "N_ROC", "d3/d6b/classDecoError.html#ace91802e1f7ca38f41168cc45a09383c", null ]
+    [ "SetID", "d3/d6b/classDecoError.html#acf3a5cbfbf4e89261e5483b1184e168c", null ]
 ];

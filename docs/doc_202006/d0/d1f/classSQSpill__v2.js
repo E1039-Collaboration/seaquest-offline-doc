@@ -2,7 +2,6 @@ var classSQSpill__v2 =
 [
     [ "SQSpill_v2", "d0/d1f/classSQSpill__v2.html#ab064a5faedddc177d0a9b2ee013a5cc1", null ],
     [ "~SQSpill_v2", "d0/d1f/classSQSpill__v2.html#a80e52e278f465021170963e98b39228a", null ],
-    [ "ClassDef", "d0/d1f/classSQSpill__v2.html#a3c18ba8f17f557c547250dbfa01570e9", null ],
     [ "Clone", "d0/d1f/classSQSpill__v2.html#ae84b7ea13a01ec8a4ef68ee3f91ff477", null ],
     [ "get_bos_coda_id", "d0/d1f/classSQSpill__v2.html#ac3c1485b4a49bd81f46320fff6a1efc9", null ],
     [ "get_bos_scaler_list", "d0/d1f/classSQSpill__v2.html#aaf1f934b5fd8d6c89eeaddcde356604c", null ],
@@ -23,15 +22,5 @@ var classSQSpill__v2 =
     [ "set_eos_vme_time", "d0/d1f/classSQSpill__v2.html#afb19427ac8fc38eb1449e88fd3b26e40", null ],
     [ "set_run_id", "d0/d1f/classSQSpill__v2.html#aeb08f3fd607f33518d0159384215de36", null ],
     [ "set_spill_id", "d0/d1f/classSQSpill__v2.html#a7d4c650234f78260bf5856ac4c8d96d7", null ],
-    [ "set_target_pos", "d0/d1f/classSQSpill__v2.html#ab2e88c96f780269450945a46dc454039", null ],
-    [ "_bos_coda_id", "d0/d1f/classSQSpill__v2.html#ac94742df82b2b3b666d34446ca906057", null ],
-    [ "_bos_scaler_list", "d0/d1f/classSQSpill__v2.html#a8d69e404e0b4587e2829a4ebd47dd69f", null ],
-    [ "_bos_vme_time", "d0/d1f/classSQSpill__v2.html#a0aa47f39d6091f3b2fdb1d662cab81f4", null ],
-    [ "_eos_coda_id", "d0/d1f/classSQSpill__v2.html#ae91004c642b630020e6d4a874d703c04", null ],
-    [ "_eos_scaler_list", "d0/d1f/classSQSpill__v2.html#a80045ebe6d4a6f31d363f0a6c94122f2", null ],
-    [ "_eos_vme_time", "d0/d1f/classSQSpill__v2.html#a57a03d9acdb99b50395c645040d6f489", null ],
-    [ "_run_id", "d0/d1f/classSQSpill__v2.html#ab14f4062457349195f68b9abc29ffe19", null ],
-    [ "_slow_cont_list", "d0/d1f/classSQSpill__v2.html#a985ec72f61a90a43b0efae8baf74f4b5", null ],
-    [ "_spill_id", "d0/d1f/classSQSpill__v2.html#aadcfe702e499ab3b999565b392fdbaee", null ],
-    [ "_target_pos", "d0/d1f/classSQSpill__v2.html#a635ba1df5e11f2374e6e3df1d6942933", null ]
+    [ "set_target_pos", "d0/d1f/classSQSpill__v2.html#ab2e88c96f780269450945a46dc454039", null ]
 ];

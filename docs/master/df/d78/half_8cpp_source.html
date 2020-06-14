@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -167,9 +165,9 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">// Lookup tables for half-to-float and float-to-half conversion</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//-------------------------------------------------------------</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<a class="code" href="../../d8/dd3/half_8h.html#a5d74254ff04d38cd1852d61ec0c0fba8">HALF_EXPORT_CONST</a> <a class="code" href="../../db/d55/unionhalf_1_1uif.html">half::uif</a> <a class="code" href="../../d2/d29/classhalf.html#a80b3dbd17abb250a60037f2ac489a399">half::_toFloat</a>[1 &lt;&lt; 16] =</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<a class="code" href="../../d8/dd3/half_8h.html#a5d74254ff04d38cd1852d61ec0c0fba8">HALF_EXPORT_CONST</a> <a class="code" href="../../db/d55/unionhalf_1_1uif.html">half::uif</a> half::_toFloat[1 &lt;&lt; 16] =</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d31/toFloat_8h.html">toFloat.h</a>&quot;</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../d8/dd3/half_8h.html#a5d74254ff04d38cd1852d61ec0c0fba8">HALF_EXPORT_CONST</a> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <a class="code" href="../../d2/d29/classhalf.html#aa29cfe4214b2170a5b0b4d5bbf1ef6d7">half::_eLut</a>[1 &lt;&lt; 9] =</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../d8/dd3/half_8h.html#a5d74254ff04d38cd1852d61ec0c0fba8">HALF_EXPORT_CONST</a> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> half::_eLut[1 &lt;&lt; 9] =</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/de6/eLut_8h.html">eLut.h</a>&quot;</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
@@ -180,7 +178,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">//-----------------------------------------------</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">float</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<a class="code" href="../../d2/d29/classhalf.html#a555236e684dcc0c74ad46f0d396f3f6d">half::overflow</a> ()</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;half::overflow ()</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">volatile</span> <span class="keywordtype">float</span> f = 1e10;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
@@ -197,7 +195,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">//-----------------------------------------------------</span></div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">short</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<a class="code" href="../../d2/d29/classhalf.html#a99d089d2d1ab51dabbb4cfbf5052e633">half::convert</a> (<span class="keywordtype">int</span> i)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;half::convert (<span class="keywordtype">int</span> i)</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="comment">//</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// Our floating point number, f, is represented by the bit</span></div>
@@ -427,12 +425,8 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 <div class="ttc" id="unionhalf_1_1uif_html_a1b30f73b6ad5937c99f4e2ced5af4cf0"><div class="ttname"><a href="../../db/d55/unionhalf_1_1uif.html#a1b30f73b6ad5937c99f4e2ced5af4cf0">half::uif::i</a></div><div class="ttdeci">unsigned int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd3/half_8h_source.html#l00219">half.h:219</a></div></div>
 <div class="ttc" id="namespaceDPGEN_html_a5ad3679fb5bed4f7b6c9bd74bbb6298b"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">DPGEN::s</a></div><div class="ttdeci">const double s</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00057">SQPrimaryParticleGen.C:57</a></div></div>
 <div class="ttc" id="half_8h_html"><div class="ttname"><a href="../../d8/dd3/half_8h.html">half.h</a></div></div>
-<div class="ttc" id="classhalf_html_a555236e684dcc0c74ad46f0d396f3f6d"><div class="ttname"><a href="../../d2/d29/classhalf.html#a555236e684dcc0c74ad46f0d396f3f6d">half::overflow</a></div><div class="ttdeci">static float overflow()</div></div>
-<div class="ttc" id="classhalf_html_aa29cfe4214b2170a5b0b4d5bbf1ef6d7"><div class="ttname"><a href="../../d2/d29/classhalf.html#aa29cfe4214b2170a5b0b4d5bbf1ef6d7">half::_eLut</a></div><div class="ttdeci">static HALF_EXPORT_CONST unsigned short _eLut[1&lt;&lt; 9]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd3/half_8h_source.html#l00231">half.h:231</a></div></div>
 <div class="ttc" id="eLut_8h_html"><div class="ttname"><a href="../../dd/de6/eLut_8h.html">eLut.h</a></div></div>
 <div class="ttc" id="unionhalf_1_1uif_html_a82ae956fc53adcc4799da384200398b4"><div class="ttname"><a href="../../db/d55/unionhalf_1_1uif.html#a82ae956fc53adcc4799da384200398b4">half::uif::f</a></div><div class="ttdeci">float f</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd3/half_8h_source.html#l00220">half.h:220</a></div></div>
-<div class="ttc" id="classhalf_html_a80b3dbd17abb250a60037f2ac489a399"><div class="ttname"><a href="../../d2/d29/classhalf.html#a80b3dbd17abb250a60037f2ac489a399">half::_toFloat</a></div><div class="ttdeci">static HALF_EXPORT_CONST uif _toFloat[1&lt;&lt; 16]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd3/half_8h_source.html#l00230">half.h:230</a></div></div>
-<div class="ttc" id="classhalf_html_a99d089d2d1ab51dabbb4cfbf5052e633"><div class="ttname"><a href="../../d2/d29/classhalf.html#a99d089d2d1ab51dabbb4cfbf5052e633">half::convert</a></div><div class="ttdeci">static short convert(int i)</div></div>
 <div class="ttc" id="namespaceboost_html_ae634c47469bc449ed15aa57d4ed22040"><div class="ttname"><a href="../../d4/da9/namespaceboost.html#ae634c47469bc449ed15aa57d4ed22040">boost::operator&lt;&lt;</a></div><div class="ttdeci">std::basic_ostream&lt; E, T &gt; &amp; operator&lt;&lt;(std::basic_ostream&lt; E, T &gt; &amp;os, shared_ptr&lt; Y &gt; const &amp;p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc5/shared__ptr_8hpp_source.html#l00573">shared_ptr.hpp:573</a></div></div>
 <div class="ttc" id="unionhalf_1_1uif_html"><div class="ttname"><a href="../../db/d55/unionhalf_1_1uif.html">half::uif</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd3/half_8h_source.html#l00217">half.h:217</a></div></div>
 <div class="ttc" id="toFloat_8h_html"><div class="ttname"><a href="../../dd/d31/toFloat_8h.html">toFloat.h</a></div></div>
@@ -450,7 +444,7 @@ $(document).ready(function(){initNavTree('df/d78/half_8cpp_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_e7863e6fb5933b1f27a002b573dc9f5d.html">Half</a></li><li class="navelem"><a class="el" href="../../df/d78/half_8cpp.html">half.cpp</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

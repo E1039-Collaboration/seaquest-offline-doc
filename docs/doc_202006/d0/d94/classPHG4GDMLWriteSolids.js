@@ -1,6 +1,5 @@
 var classPHG4GDMLWriteSolids =
 [
-    [ "G4ThreeVectorCompare", "df/d36/classPHG4GDMLWriteSolids_1_1G4ThreeVectorCompare.html", "df/d36/classPHG4GDMLWriteSolids_1_1G4ThreeVectorCompare" ],
     [ "PHG4GDMLWriteSolids", "d0/d94/classPHG4GDMLWriteSolids.html#a05ab8c182b32785d2b78819cb9024390", null ],
     [ "~PHG4GDMLWriteSolids", "d0/d94/classPHG4GDMLWriteSolids.html#ac80fc1d1a7f974734ade0cae24bafa34", null ],
     [ "AddSolid", "d0/d94/classPHG4GDMLWriteSolids.html#ae96019d064cee9517bad4aea85bd94e9", null ],

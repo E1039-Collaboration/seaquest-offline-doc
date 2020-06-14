@@ -20,10 +20,5 @@ var classDPTriggerRoad =
     [ "setPxMin", "da/d6a/classDPTriggerRoad.html#a1171715e349ae5c8f1f45168edeb047f", null ],
     [ "setRoadID", "da/d6a/classDPTriggerRoad.html#ae332b5694f77a08099c8fdd60fdfa22f", null ],
     [ "setSigWeight", "da/d6a/classDPTriggerRoad.html#a3c97e62d1d1768b80bc4d44d528e99fa", null ],
-    [ "operator<<", "da/d6a/classDPTriggerRoad.html#a739925beec3ecbf1bcc14e80e2a89974", null ],
-    [ "bkgRate", "da/d6a/classDPTriggerRoad.html#ad54ff97c738705b3f30a9f988e91a631", null ],
-    [ "pXmin", "da/d6a/classDPTriggerRoad.html#a733760760e7c4e4d8754afaaf5f4e7c6", null ],
-    [ "roadID", "da/d6a/classDPTriggerRoad.html#a5584b2d2e036f272877174bd2df0f09e", null ],
-    [ "sigWeight", "da/d6a/classDPTriggerRoad.html#a39cae5efd7ab979fffa0ccd5c60c4c95", null ],
-    [ "uniqueTrIDs", "da/d6a/classDPTriggerRoad.html#a29c82f87abaa831581ca7639f912a6a9", null ]
+    [ "operator<<", "da/d6a/classDPTriggerRoad.html#a739925beec3ecbf1bcc14e80e2a89974", null ]
 ];

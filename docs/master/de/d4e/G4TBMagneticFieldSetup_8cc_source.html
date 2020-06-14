@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -198,25 +196,25 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{    </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  assert(phfield);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a> = <span class="keyword">new</span> <a class="code" href="../../d3/d4e/classPHG4MagneticField.html">PHG4MagneticField</a>(phfield);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ad7cc3606c350b071f69b7a490c97fde2">fFieldMessenger</a> = <span class="keyword">new</span> <a class="code" href="../../df/d05/classG4TBFieldMessenger.html">G4TBFieldMessenger</a>(<span class="keyword">this</span>) ;  </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a> = <span class="keyword">new</span>  G4Mag_UsualEqRhs(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>); </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aebba84bc4f67d91eae9da0b7f517558a">fMinStep</a>     = 0.005*mm ; <span class="comment">// minimal step of 10 microns</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a2b1b765ab012f16ed0c77064698cf52e">fStepperType</a> = 4 ;        <span class="comment">// ClassicalRK4 -- the default stepper</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  fEMfield = <span class="keyword">new</span> <a class="code" href="../../d3/d4e/classPHG4MagneticField.html">PHG4MagneticField</a>(phfield);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  fFieldMessenger = <span class="keyword">new</span> <a class="code" href="../../df/d05/classG4TBFieldMessenger.html">G4TBFieldMessenger</a>(<span class="keyword">this</span>) ;  </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  fEquation = <span class="keyword">new</span>  G4Mag_UsualEqRhs(fEMfield); </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  fMinStep     = 0.005*mm ; <span class="comment">// minimal step of 10 microns</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  fStepperType = 4 ;        <span class="comment">// ClassicalRK4 -- the default stepper</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae746ec3c86cbd6272049d1ecc71e55db">fFieldManager</a> = <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1">GetGlobalFieldManager</a>();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  fFieldManager = <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1">GetGlobalFieldManager</a>();</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe">UpdateField</a>();</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordtype">double</span> point[4] = {0,0,0,0};</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>-&gt;GetFieldValue(&amp;point[0],&amp;<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[0]);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;<span class="keyword">sizeof</span>(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>)/<span class="keyword">sizeof</span>(<span class="keywordtype">double</span>);i++)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  fEMfield-&gt;GetFieldValue(&amp;point[0],&amp;magfield_at_000[0]);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;<span class="keyword">sizeof</span>(magfield_at_000)/<span class="keyword">sizeof</span>(<span class="keywordtype">double</span>);i++)</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[i] = <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[i]/tesla;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      magfield_at_000[i] = magfield_at_000[i]/tesla;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aef3240e7a83abd7cc991e3bd79a83e9e">verbosity</a> &gt; 0)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">if</span> (verbosity &gt; 0)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;field: x&quot;</span> &lt;&lt; <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[0]</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;     &lt;&lt; <span class="stringliteral">&quot;, y: &quot;</span> &lt;&lt; <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[1]</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;     &lt;&lt; <span class="stringliteral">&quot;, z: &quot;</span> &lt;&lt; <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">magfield_at_000</a>[2]</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;field: x&quot;</span> &lt;&lt; magfield_at_000[0]</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;     &lt;&lt; <span class="stringliteral">&quot;, y: &quot;</span> &lt;&lt; magfield_at_000[1]</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;     &lt;&lt; <span class="stringliteral">&quot;, z: &quot;</span> &lt;&lt; magfield_at_000[2]</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;     &lt;&lt; endl;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
@@ -291,11 +289,11 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
 <div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aad69048e0a7ec56abb97a1aa2829d75f">  179</a></span>&#160;<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aad69048e0a7ec56abb97a1aa2829d75f">G4TBMagneticFieldSetup::~G4TBMagneticFieldSetup</a>()</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;{</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a712995c9ce9b96dd499b5fafc70d61af">fChordFinder</a>;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a>;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ad7cc3606c350b071f69b7a490c97fde2">fFieldMessenger</a>;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>;   </div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keyword">delete</span> fChordFinder;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <span class="keyword">delete</span> fStepper;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  <span class="keyword">delete</span> fFieldMessenger;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="keyword">delete</span> fEquation;   </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keyword">delete</span> fEMfield;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;}</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">//</span></div>
@@ -307,17 +305,17 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;{</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a7d247ff9b7c77cd4a8d112e03979e34e">SetStepper</a>();</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae746ec3c86cbd6272049d1ecc71e55db">fFieldManager</a>-&gt;SetDetectorField(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a> );</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  fFieldManager-&gt;SetDetectorField(fEMfield );</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a712995c9ce9b96dd499b5fafc70d61af">fChordFinder</a>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keyword">delete</span> fChordFinder;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a6412a0495daf9386758b93e922789130">fIntgrDriver</a> = <span class="keyword">new</span> G4MagInt_Driver(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aebba84bc4f67d91eae9da0b7f517558a">fMinStep</a>, </div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                     <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a>, </div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                     <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a>-&gt;GetNumberOfVariables() );</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  fIntgrDriver = <span class="keyword">new</span> G4MagInt_Driver(fMinStep, </div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                     fStepper, </div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                     fStepper-&gt;GetNumberOfVariables() );</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a712995c9ce9b96dd499b5fafc70d61af">fChordFinder</a> = <span class="keyword">new</span> G4ChordFinder(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a6412a0495daf9386758b93e922789130">fIntgrDriver</a>);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  fChordFinder = <span class="keyword">new</span> G4ChordFinder(fIntgrDriver);</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae746ec3c86cbd6272049d1ecc71e55db">fFieldManager</a>-&gt;SetChordFinder( fChordFinder );</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  fFieldManager-&gt;SetChordFinder( fChordFinder );</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment">//</span></div>
@@ -328,63 +326,63 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;{</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  G4int nvar = 8;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  <span class="keyword">delete</span> fStepper;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  std::stringstream message;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;  </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  <span class="keywordflow">switch</span> ( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a2b1b765ab012f16ed0c77064698cf52e">fStepperType</a> ) </div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;  <span class="keywordflow">switch</span> ( fStepperType ) </div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">case</span> 0:  </div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4ExplicitEuler( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar ); </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      fStepper = <span class="keyword">new</span> G4ExplicitEuler( fEquation, nvar ); </div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4ExplicitEuler&quot;</span>;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">case</span> 1:  </div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4ImplicitEuler( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar );</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      fStepper = <span class="keyword">new</span> G4ImplicitEuler( fEquation, nvar );</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4ImplicitEuler&quot;</span>;     </div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordflow">case</span> 2:  </div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4SimpleRunge( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar );</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      fStepper = <span class="keyword">new</span> G4SimpleRunge( fEquation, nvar );</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4SimpleRunge&quot;</span>;     </div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">case</span> 3:  </div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4SimpleHeum( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar );         </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      fStepper = <span class="keyword">new</span> G4SimpleHeum( fEquation, nvar );         </div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4SimpleHeum&quot;</span>;     </div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordflow">case</span> 4:  </div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4ClassicalRK4( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar );       </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      fStepper = <span class="keyword">new</span> G4ClassicalRK4( fEquation, nvar );       </div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4ClassicalRK4 (default)&quot;</span>;     </div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">case</span> 5:  </div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <span class="keyword">new</span> G4CashKarpRKF45( <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>, nvar );      </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      fStepper = <span class="keyword">new</span> G4CashKarpRKF45( fEquation, nvar );      </div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;Stepper in use: G4CashKarpRKF45&quot;</span>;     </div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">case</span> 6:  </div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4RKG3_Stepper( fEquation, nvar );       </span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      fStepper = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4RKG3_Stepper( fEquation, nvar );       </span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;G4RKG3_Stepper is not currently working for Magnetic Field&quot;</span>;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">case</span> 7:  </div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixExplicitEuler( fEquation ); </span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      fStepper = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixExplicitEuler( fEquation ); </span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;G4HelixExplicitEuler is not valid for Magnetic Field&quot;</span>;     </div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keywordflow">case</span> 8:  </div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixImplicitEuler( fEquation ); </span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      fStepper = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixImplicitEuler( fEquation ); </span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;G4HelixImplicitEuler is not valid for Magnetic Field&quot;</span>;     </div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">case</span> 9:  </div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixSimpleRunge( fEquation );   </span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      fStepper = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// new G4HelixSimpleRunge( fEquation );   </span></div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      message &lt;&lt; <span class="stringliteral">&quot;G4HelixSimpleRunge is not valid for Magnetic Field&quot;</span>;     </div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">default</span>: <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a> = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">default</span>: fStepper = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  }</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    </div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aef3240e7a83abd7cc991e3bd79a83e9e">verbosity</a> &gt; 0) {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <span class="keywordflow">if</span> (verbosity &gt; 0) {</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot; ---------- G4TBMagneticFieldSetup::SetStepper() -----------&quot;</span> &lt;&lt; G4endl;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; message.str() &lt;&lt; endl;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot;  Minimum step size: &quot;</span> &lt;&lt; <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aebba84bc4f67d91eae9da0b7f517558a">fMinStep</a>/mm &lt;&lt; <span class="stringliteral">&quot; mm&quot;</span> &lt;&lt; G4endl;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot;  Minimum step size: &quot;</span> &lt;&lt; fMinStep/mm &lt;&lt; <span class="stringliteral">&quot; mm&quot;</span> &lt;&lt; G4endl;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot; -----------------------------------------------------------&quot;</span> &lt;&lt; G4endl;</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  }</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">fStepper</a>)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">if</span> (!fStepper)</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    {</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;no stepper set, edxiting now&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      exit(1);</div>
@@ -415,24 +413,24 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    </div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  <span class="keywordflow">if</span>(fieldVector != G4ThreeVector(0.,0.,0.))</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  { </div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>) <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a> = <span class="keyword">new</span>  G4UniformMagField(fieldVector);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span>(fEMfield) <span class="keyword">delete</span> fEMfield;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    fEMfield = <span class="keyword">new</span>  G4UniformMagField(fieldVector);</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>-&gt;SetFieldObj(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>);  <span class="comment">// must now point to the new field</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    fEquation-&gt;SetFieldObj(fEMfield);  <span class="comment">// must now point to the new field</span></div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="comment">// UpdateField();</span></div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;   </div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    fieldMgr-&gt;SetDetectorField(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    fieldMgr-&gt;SetDetectorField(fEMfield);</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keywordflow">else</span> </div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  {</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// If the new field&#39;s value is Zero, then it is best to</span></div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">//  insure that it is not used for propagation.</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>) <span class="keyword">delete</span> <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a> = 0;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">fEquation</a>-&gt;SetFieldObj(<a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a>);   <span class="comment">// As a double check ...</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">if</span>(fEMfield) <span class="keyword">delete</span> fEMfield;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    fEMfield = 0;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    fEquation-&gt;SetFieldObj(fEMfield);   <span class="comment">// As a double check ...</span></div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    G4MagneticField* <a class="code" href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">fEMfield</a> = 0;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    G4MagneticField* fEMfield = 0;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;     fieldMgr-&gt;SetDetectorField(fEMfield);</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  }</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;}</div>
@@ -445,30 +443,19 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  <span class="keywordflow">return</span> G4TransportationManager::GetTransportationManager()-&gt;GetFieldManager();</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
 <div class="ttc" id="G4TBFieldMessenger_8hh_html"><div class="ttname"><a href="../../d2/d78/G4TBFieldMessenger_8hh.html">G4TBFieldMessenger.hh</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_a712995c9ce9b96dd499b5fafc70d61af"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a712995c9ce9b96dd499b5fafc70d61af">G4TBMagneticFieldSetup::fChordFinder</a></div><div class="ttdeci">G4ChordFinder * fChordFinder</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00091">G4TBMagneticFieldSetup.hh:91</a></div></div>
 <div class="ttc" id="PHG4MagneticField_8h_html"><div class="ttname"><a href="../../d8/d63/PHG4MagneticField_8h.html">PHG4MagneticField.h</a></div></div>
 <div class="ttc" id="classG4TBMagneticFieldSetup_html_a7930ec66420896c9fbaa9c72cf7543fe"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe">G4TBMagneticFieldSetup::UpdateField</a></div><div class="ttdeci">void UpdateField()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/G4TBMagneticFieldSetup_8cc_source.html#l00194">G4TBMagneticFieldSetup.cc:194</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_a29e04138503ab0a50f74d71dd28502f3"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a29e04138503ab0a50f74d71dd28502f3">G4TBMagneticFieldSetup::magfield_at_000</a></div><div class="ttdeci">double magfield_at_000[3]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00108">G4TBMagneticFieldSetup.hh:108</a></div></div>
 <div class="ttc" id="classG4TBFieldMessenger_html"><div class="ttname"><a href="../../df/d05/classG4TBFieldMessenger.html">G4TBFieldMessenger</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d78/G4TBFieldMessenger_8hh_source.html#l00050">G4TBFieldMessenger.hh:50</a></div></div>
 <div class="ttc" id="Fun4AllServer_8h_html"><div class="ttname"><a href="../../dc/da2/Fun4AllServer_8h.html">Fun4AllServer.h</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_ad7cc3606c350b071f69b7a490c97fde2"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ad7cc3606c350b071f69b7a490c97fde2">G4TBMagneticFieldSetup::fFieldMessenger</a></div><div class="ttdeci">G4TBFieldMessenger * fFieldMessenger</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00106">G4TBMagneticFieldSetup.hh:106</a></div></div>
 <div class="ttc" id="classPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00015">PHField.h:15</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_a6412a0495daf9386758b93e922789130"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a6412a0495daf9386758b93e922789130">G4TBMagneticFieldSetup::fIntgrDriver</a></div><div class="ttdeci">G4MagInt_Driver * fIntgrDriver</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00100">G4TBMagneticFieldSetup.hh:100</a></div></div>
 <div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classG4TBMagneticFieldSetup_html_a0c0283b70cfe56722463755a240697a1"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1">G4TBMagneticFieldSetup::GetGlobalFieldManager</a></div><div class="ttdeci">G4FieldManager * GetGlobalFieldManager()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/G4TBMagneticFieldSetup_8cc_source.html#l00335">G4TBMagneticFieldSetup.cc:335</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_ab7fa1e928ba6a904bb2cd6edd85842e1"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ab7fa1e928ba6a904bb2cd6edd85842e1">G4TBMagneticFieldSetup::fEquation</a></div><div class="ttdeci">G4Mag_UsualEqRhs * fEquation</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00093">G4TBMagneticFieldSetup.hh:93</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_a2b1b765ab012f16ed0c77064698cf52e"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a2b1b765ab012f16ed0c77064698cf52e">G4TBMagneticFieldSetup::fStepperType</a></div><div class="ttdeci">G4int fStepperType</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00102">G4TBMagneticFieldSetup.hh:102</a></div></div>
 <div class="ttc" id="classG4TBMagneticFieldSetup_html_a103bf25af906e5e94f05946cbcbed9f1"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a103bf25af906e5e94f05946cbcbed9f1">G4TBMagneticFieldSetup::SetFieldValue</a></div><div class="ttdeci">void SetFieldValue(const G4ThreeVector fieldVector)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/G4TBMagneticFieldSetup_8cc_source.html#l00302">G4TBMagneticFieldSetup.cc:302</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
 <div class="ttc" id="classPHG4MagneticField_html"><div class="ttname"><a href="../../d3/d4e/classPHG4MagneticField.html">PHG4MagneticField</a></div><div class="ttdoc">PHG4MagneticField interfaces with Geant4. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d63/PHG4MagneticField_8h_source.html#l00021">PHG4MagneticField.h:21</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_ae746ec3c86cbd6272049d1ecc71e55db"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae746ec3c86cbd6272049d1ecc71e55db">G4TBMagneticFieldSetup::fFieldManager</a></div><div class="ttdeci">G4FieldManager * fFieldManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00089">G4TBMagneticFieldSetup.hh:89</a></div></div>
 <div class="ttc" id="classG4TBMagneticFieldSetup_html_aad69048e0a7ec56abb97a1aa2829d75f"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aad69048e0a7ec56abb97a1aa2829d75f">G4TBMagneticFieldSetup::~G4TBMagneticFieldSetup</a></div><div class="ttdeci">virtual ~G4TBMagneticFieldSetup()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/G4TBMagneticFieldSetup_8cc_source.html#l00179">G4TBMagneticFieldSetup.cc:179</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_aebba84bc4f67d91eae9da0b7f517558a"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aebba84bc4f67d91eae9da0b7f517558a">G4TBMagneticFieldSetup::fMinStep</a></div><div class="ttdeci">G4double fMinStep</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00104">G4TBMagneticFieldSetup.hh:104</a></div></div>
 <div class="ttc" id="classG4TBMagneticFieldSetup_html_a7d247ff9b7c77cd4a8d112e03979e34e"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#a7d247ff9b7c77cd4a8d112e03979e34e">G4TBMagneticFieldSetup::SetStepper</a></div><div class="ttdeci">void SetStepper()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4e/G4TBMagneticFieldSetup_8cc_source.html#l00216">G4TBMagneticFieldSetup.cc:216</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_ae5fc47e7842a0ae8fe4ffac298fb4662"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#ae5fc47e7842a0ae8fe4ffac298fb4662">G4TBMagneticFieldSetup::fStepper</a></div><div class="ttdeci">G4MagIntegratorStepper * fStepper</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00099">G4TBMagneticFieldSetup.hh:99</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_aef3240e7a83abd7cc991e3bd79a83e9e"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#aef3240e7a83abd7cc991e3bd79a83e9e">G4TBMagneticFieldSetup::verbosity</a></div><div class="ttdeci">int verbosity</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00087">G4TBMagneticFieldSetup.hh:87</a></div></div>
-<div class="ttc" id="classG4TBMagneticFieldSetup_html_afb1b2b2432e60916523bb1f597676da6"><div class="ttname"><a href="../../d4/d2e/classG4TBMagneticFieldSetup.html#afb1b2b2432e60916523bb1f597676da6">G4TBMagneticFieldSetup::fEMfield</a></div><div class="ttdeci">G4MagneticField * fEMfield</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh_source.html#l00095">G4TBMagneticFieldSetup.hh:95</a></div></div>
 <div class="ttc" id="PHCompositeNode_8h_html"><div class="ttname"><a href="../../d8/d30/PHCompositeNode_8h.html">PHCompositeNode.h</a></div></div>
 <div class="ttc" id="G4TBMagneticFieldSetup_8hh_html"><div class="ttname"><a href="../../dd/d3f/G4TBMagneticFieldSetup_8hh.html">G4TBMagneticFieldSetup.hh</a></div></div>
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
@@ -483,7 +470,7 @@ $(document).ready(function(){initNavTree('de/d4e/G4TBMagneticFieldSetup_8cc_sour
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6dbf4c28b450a5e981a5a6978e27aa63.html">g4main</a></li><li class="navelem"><a class="el" href="../../de/d4e/G4TBMagneticFieldSetup_8cc.html">G4TBMagneticFieldSetup.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:47</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

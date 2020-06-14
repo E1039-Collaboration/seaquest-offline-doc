@@ -10,6 +10,5 @@ var classOnlMonTrigNim =
     [ "FindAllMonHist", "d2/d9d/classOnlMonTrigNim.html#ae4ff96d9be78ec06e667d595c5b52e81", null ],
     [ "InitOnlMon", "d2/d9d/classOnlMonTrigNim.html#ab38fc2c418008f324e9419e17e78c87b", null ],
     [ "InitRunOnlMon", "d2/d9d/classOnlMonTrigNim.html#a4e59967e0d941a237e9c9b59add89742", null ],
-    [ "ProcessEventOnlMon", "d2/d9d/classOnlMonTrigNim.html#ae5288ba2b767db89f6690ca8c2529ec5", null ],
-    [ "h2_count", "d2/d9d/classOnlMonTrigNim.html#ad60b7c1dded59495b26dad03f8b8b436", null ]
+    [ "ProcessEventOnlMon", "d2/d9d/classOnlMonTrigNim.html#ae5288ba2b767db89f6690ca8c2529ec5", null ]
 ];

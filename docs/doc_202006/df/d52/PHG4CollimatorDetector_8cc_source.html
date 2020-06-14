@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -150,7 +148,7 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//_______________________________________________________________</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d8/d44/classPHG4CollimatorDetector.html#ac0b5c56191553a21bc3d41d1ab73daa5">   35</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#ac0b5c56191553a21bc3d41d1ab73daa5">PHG4CollimatorDetector::IsInBlock</a>(G4VPhysicalVolume * volume)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> (volume == <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#ad3392e0ba0aaba4355300081e9f5e623">block_physi</a>)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> (volume == block_physi)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div>
@@ -294,7 +292,7 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordtype">double</span> inch = 2.54*cm;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordtype">double</span> z = <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#a0948aaac39e0dce938f8027cac7ae64d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;size_z&quot;</span>)*cm;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordtype">double</span> z = params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;size_z&quot;</span>)*cm;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordtype">double</span> x1 = 3.08*inch;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordtype">double</span> y1 = 1.37*inch;</div>
@@ -304,7 +302,7 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordtype">double</span> y3 = 16.78*inch;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordtype">double</span> dy3 = (4.28-8.688)/2*inch;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordtype">double</span> dz3 = <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#a0948aaac39e0dce938f8027cac7ae64d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_z&quot;</span>)*cm;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordtype">double</span> dz3 = params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_z&quot;</span>)*cm;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  G4VSolid *block_solid = <span class="keyword">new</span> G4Box(G4String(<a class="code" href="../../d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f">GetName</a>().c_str()),</div>
@@ -312,7 +310,7 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                        y3/2.,</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                        z/2.);</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordtype">double</span> steplimits = <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#a0948aaac39e0dce938f8027cac7ae64d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;steplimits&quot;</span>) * cm;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordtype">double</span> steplimits = params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;steplimits&quot;</span>) * cm;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  G4UserLimits *g4userlimits = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="keywordflow">if</span> (isfinite(steplimits))</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  {</div>
@@ -331,8 +329,8 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  block_logic-&gt;SetVisAttributes(matVis);</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  G4RotationMatrix *rotm  = <span class="keyword">new</span> G4RotationMatrix();</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  rotm-&gt;rotateZ(<a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#a0948aaac39e0dce938f8027cac7ae64d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_z&quot;</span>)*deg);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <a class="code" href="../../d8/d44/classPHG4CollimatorDetector.html#ad3392e0ba0aaba4355300081e9f5e623">block_physi</a> = <span class="keyword">new</span> G4PVPlacement(</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  rotm-&gt;rotateZ(params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_z&quot;</span>)*deg);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  block_physi = <span class="keyword">new</span> G4PVPlacement(</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                rotm,</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                        G4ThreeVector(0.,dy3,dz3),</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                        block_logic,</div>
@@ -397,14 +395,12 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 <div class="ttc" id="classPHG4Utils_html_a1a7cdb2daef50974eb7306274407b086"><div class="ttname"><a href="../../df/d02/classPHG4Utils.html#a1a7cdb2daef50974eb7306274407b086">PHG4Utils::SetColour</a></div><div class="ttdeci">static void SetColour(G4VisAttributes *att, const std::string &amp;mat)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de9/PHG4Utils_8cc_source.html#l00075">PHG4Utils.cc:75</a></div></div>
 <div class="ttc" id="classPHG4CollimatorDetector_html_ac0b5c56191553a21bc3d41d1ab73daa5"><div class="ttname"><a href="../../d8/d44/classPHG4CollimatorDetector.html#ac0b5c56191553a21bc3d41d1ab73daa5">PHG4CollimatorDetector::IsInBlock</a></div><div class="ttdeci">bool IsInBlock(G4VPhysicalVolume *) const </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/PHG4CollimatorDetector_8cc_source.html#l00035">PHG4CollimatorDetector.cc:35</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
-<div class="ttc" id="classPHG4CollimatorDetector_html_ad3392e0ba0aaba4355300081e9f5e623"><div class="ttname"><a href="../../d8/d44/classPHG4CollimatorDetector.html#ad3392e0ba0aaba4355300081e9f5e623">PHG4CollimatorDetector::block_physi</a></div><div class="ttdeci">G4VPhysicalVolume * block_physi</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da3/PHG4CollimatorDetector_8h_source.html#l00038">PHG4CollimatorDetector.h:38</a></div></div>
 <div class="ttc" id="classPHParameters_html"><div class="ttname"><a href="../../dd/dae/classPHParameters.html">PHParameters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d23/PHParameters_8h_source.html#l00017">PHParameters.h:17</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
 <div class="ttc" id="classPHG4Detector_html"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a></div><div class="ttdoc">base class for phenix detector creation </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00013">PHG4Detector.h:13</a></div></div>
 <div class="ttc" id="PHG4Utils_8h_html"><div class="ttname"><a href="../../d6/d5e/PHG4Utils_8h.html">PHG4Utils.h</a></div></div>
 <div class="ttc" id="PHCompositeNode_8h_html"><div class="ttname"><a href="../../d8/d30/PHCompositeNode_8h.html">PHCompositeNode.h</a></div></div>
-<div class="ttc" id="classPHG4CollimatorDetector_html_a0948aaac39e0dce938f8027cac7ae64d"><div class="ttname"><a href="../../d8/d44/classPHG4CollimatorDetector.html#a0948aaac39e0dce938f8027cac7ae64d">PHG4CollimatorDetector::params</a></div><div class="ttdeci">PHParameters * params</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da3/PHG4CollimatorDetector_8h_source.html#l00036">PHG4CollimatorDetector.h:36</a></div></div>
 <div class="ttc" id="classPHG4Detector_html_a2d071f49fa045db5ade51bb99f88218f"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f">PHG4Detector::GetName</a></div><div class="ttdeci">virtual std::string GetName() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00051">PHG4Detector.h:51</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -416,7 +412,7 @@ $(document).ready(function(){initNavTree('df/d52/PHG4CollimatorDetector_8cc_sour
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_f4e8c2e4e07ba1c1cfb499dcc2852b5d.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../df/d52/PHG4CollimatorDetector_8cc.html">PHG4CollimatorDetector.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:56</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

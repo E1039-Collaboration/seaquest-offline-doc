@@ -1,7 +1,5 @@
 var swap__util_8c =
 [
-    [ "_stack", "d4/dd1/struct__stack.html", "d4/dd1/struct__stack" ],
-    [ "_lk", "d8/d76/struct__lk.html", "d8/d76/struct__lk" ],
     [ "evStack", "dc/dd4/swap__util_8c.html#ad9df0be873e26d20c8f723bb6d92dc83", null ],
     [ "LK_AHEAD", "dc/dd4/swap__util_8c.html#a217a13154c7834121f65525301d7a8e9", null ],
     [ "evStack_free", "dc/dd4/swap__util_8c.html#a04ec6d4362535e55bb01e5a7e824e162", null ],

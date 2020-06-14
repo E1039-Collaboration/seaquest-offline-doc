@@ -7,7 +7,6 @@ var classSQSpillMap =
     [ "SQSpillMap", "d7/d87/classSQSpillMap.html#abc2908862e3f444dceab32b570991c9d", null ],
     [ "begin", "d7/d87/classSQSpillMap.html#a4ee6a948b8f4f3c7d004df6ba314ccf9", null ],
     [ "begin", "d7/d87/classSQSpillMap.html#a7b0e7e85ff2c230619d13394e14f9195", null ],
-    [ "ClassDef", "d7/d87/classSQSpillMap.html#afe646fd7e4f62338dc1f6bf27d188f0b", null ],
     [ "clear", "d7/d87/classSQSpillMap.html#ae710de29703100a3abfec3bd40e5fc34", null ],
     [ "Clone", "d7/d87/classSQSpillMap.html#adee2ec0e453ecbfdedc864e39457a53e", null ],
     [ "count", "d7/d87/classSQSpillMap.html#a7ebfce770623bb24bf8096354edcb268", null ],

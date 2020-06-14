@@ -5,7 +5,6 @@ var classSQIntMap__v1 =
     [ "~SQIntMap_v1", "d1/d94/classSQIntMap__v1.html#a4202500219d43c34cd68670cf0f5bf9e", null ],
     [ "begin", "d1/d94/classSQIntMap__v1.html#a6539077a337a8b3f5dbdd4e079240f16", null ],
     [ "begin", "d1/d94/classSQIntMap__v1.html#a688e2cb4be0250b1d53730d474f2ec6d", null ],
-    [ "ClassDef", "d1/d94/classSQIntMap__v1.html#ad7e4a579716835b9c4f360676783409d", null ],
     [ "clear", "d1/d94/classSQIntMap__v1.html#a17a55e39ea4fd1bfbaa984db68b574f4", null ],
     [ "Clone", "d1/d94/classSQIntMap__v1.html#adbefc21f6a3dd7635db5f1c1f8c1cb01", null ],
     [ "count", "d1/d94/classSQIntMap__v1.html#ad60ebbdc1dd0f44d8eb34b0e18b5d436", null ],
@@ -22,6 +21,5 @@ var classSQIntMap__v1 =
     [ "isValid", "d1/d94/classSQIntMap__v1.html#a3f83e8873a08199e3a3f08aacfee7356", null ],
     [ "operator=", "d1/d94/classSQIntMap__v1.html#a93572f420e98df66e6840b22b59cda74", null ],
     [ "Reset", "d1/d94/classSQIntMap__v1.html#a802e2c5361296e154cc20ff4736c9972", null ],
-    [ "size", "d1/d94/classSQIntMap__v1.html#a585e14cde53e626a9d05301e87c6ecfe", null ],
-    [ "_map", "d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef", null ]
+    [ "size", "d1/d94/classSQIntMap__v1.html#a585e14cde53e626a9d05301e87c6ecfe", null ]
 ];

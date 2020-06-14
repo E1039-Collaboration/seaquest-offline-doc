@@ -1,7 +1,5 @@
 var hierarchy =
 [
-    [ "_lk", "d8/d76/struct__lk.html", null ],
-    [ "_stack", "d4/dd1/struct__stack.html", null ],
     [ "AbsBField", null, [
       [ "SQGenFit::GFField", "d4/db7/classSQGenFit_1_1GFField.html", null ]
     ] ],
@@ -23,7 +21,6 @@ var hierarchy =
     [ "boost::detail::dynamic_cast_tag", "d5/df4/structboost_1_1detail_1_1dynamic__cast__tag.html", null ],
     [ "boost::enable_shared_from_this< T >", "dd/daa/classboost_1_1enable__shared__from__this.html", null ],
     [ "boost::enable_shared_from_this2< T >", "d6/d47/classboost_1_1enable__shared__from__this2.html", null ],
-    [ "evBinarySearch", "de/ddf/structevBinarySearch.html", null ],
     [ "Event", "d5/da5/classEvent.html", [
       [ "EVIO_Event", "dd/daf/classEVIO__Event.html", null ]
     ] ],
@@ -31,12 +28,9 @@ var hierarchy =
     [ "EventDispUI", "d8/d6d/classEventDispUI.html", null ],
     [ "EventInfo", "d2/d31/structEventInfo.html", null ],
     [ "EventReducer", "d5/dda/classEventReducer.html", null ],
-    [ "evfilestruct", "d4/d04/structevfilestruct.html", null ],
-    [ "EvNavHandler", "d2/d99/classEvNavHandler.html", null ],
     [ "FactoryErrorPolicy", null, [
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
-    [ "PHTimer::Frequency", "d2/db1/classPHTimer_1_1Frequency.html", null ],
     [ "Fun4AllBase", "d5/dec/classFun4AllBase.html", [
       [ "Fun4AllEventOutStream", "dc/dab/classFun4AllEventOutStream.html", [
         [ "Fun4AllFileOutStream", "de/d50/classFun4AllFileOutStream.html", [
@@ -168,7 +162,6 @@ var hierarchy =
       [ "TabulatedField3D", "d6/dd1/classTabulatedField3D.html", null ]
     ] ],
     [ "G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html", null ],
-    [ "PHG4GDMLWriteSolids::G4ThreeVectorCompare", "df/d36/classPHG4GDMLWriteSolids_1_1G4ThreeVectorCompare.html", null ],
     [ "G4UImessenger", null, [
       [ "G4Pythia6DecayerMessenger", "d4/d06/classG4Pythia6DecayerMessenger.html", null ],
       [ "G4TBFieldMessenger", "df/d05/classG4TBFieldMessenger.html", null ]
@@ -233,7 +226,6 @@ var hierarchy =
     [ "halfFunction< T >", "d1/d0a/classhalfFunction.html", null ],
     [ "boost::hash< T >", "d4/d27/structboost_1_1hash.html", null ],
     [ "HitData", "d2/de9/structHitData.html", null ],
-    [ "IsStateFinal", "dc/d8f/classIsStateFinal.html", null ],
     [ "PHTimeServer::iterator", "df/db9/classPHTimeServer_1_1iterator.html", null ],
     [ "JobOptsSvc", "d8/d62/classJobOptsSvc.html", null ],
     [ "KalmanDSTrk", "db/daa/classKalmanDSTrk.html", null ],
@@ -242,9 +234,6 @@ var hierarchy =
     [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", null ],
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html", null ],
     [ "MainDaqParser", "df/dcd/classMainDaqParser.html", null ],
-    [ "ChanMapV1495::MapItem", "d4/d07/structChanMapV1495_1_1MapItem.html", null ],
-    [ "ChanMapTaiwan::MapItem", "d8/df0/structChanMapTaiwan_1_1MapItem.html", null ],
-    [ "ChanMapScaler::MapItem", "d3/d44/structChanMapScaler_1_1MapItem.html", null ],
     [ "DPTriggerAnalyzer::MatrixNode", "dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode.html", null ],
     [ "mPHEveModuleBase", "d0/d41/classmPHEveModuleBase.html", [
       [ "mTrkEveDisplay", "d3/de7/classmTrkEveDisplay.html", null ]
@@ -254,9 +243,6 @@ var hierarchy =
     [ "OnlMonCanvas", "df/ddc/classOnlMonCanvas.html", null ],
     [ "OnlMonComm", "d9/d95/classOnlMonComm.html", null ],
     [ "OnlMonUI", "d1/de7/classOnlMonUI.html", null ],
-    [ "CalibParamInTimeTaiwan::ParamItem", "db/d96/structCalibParamInTimeTaiwan_1_1ParamItem.html", null ],
-    [ "CalibParamInTimeV1495::ParamItem", "da/d35/structCalibParamInTimeV1495_1_1ParamItem.html", null ],
-    [ "CalibParamXT::ParamItem", "d7/dcc/structCalibParamXT_1_1ParamItem.html", null ],
     [ "ParamRunRange", "d0/d0d/classParamRunRange.html", null ],
     [ "PatternDBUtil", "d2/d0e/classPatternDBUtil.html", null ],
     [ "PdbApplication", "dd/df1/classPdbApplication.html", null ],
@@ -368,7 +354,6 @@ var hierarchy =
     [ "Pyjets_t", "d9/d6e/structPyjets__t.html", null ],
     [ "Pythia6", "d8/d25/classPythia6.html", null ],
     [ "Pythia6Particle", "d3/da8/structPythia6Particle.html", null ],
-    [ "ParamRunRange::RangeItem", "dd/d8c/structParamRunRange_1_1RangeItem.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
     [ "RunParamBase", "db/d8a/classRunParamBase.html", [
       [ "CalibParamBase", "d5/d33/classCalibParamBase.html", [
@@ -400,7 +385,6 @@ var hierarchy =
     [ "boost::detail::shared_ptr_traits< void volatile >", "df/d5a/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01volatile_01_4.html", null ],
     [ "SlowControlData", "db/d49/structSlowControlData.html", null ],
     [ "SMatrix", "d9/db7/classSMatrix.html", null ],
-    [ "SolidParam", "d8/dd3/classSolidParam.html", null ],
     [ "boost::detail::sp_enable_if_auto_ptr< T, R >", "de/d4b/structboost_1_1detail_1_1sp__enable__if__auto__ptr.html", null ],
     [ "boost::detail::sp_enable_if_auto_ptr< std::auto_ptr< T >, R >", "db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html", null ],
     [ "SpillData", "d4/dbe/structSpillData.html", null ],
@@ -411,10 +395,6 @@ var hierarchy =
     [ "TEveMagField", null, [
       [ "PHEveDisplay::MappedField", "db/d3c/classPHEveDisplay_1_1MappedField.html", null ]
     ] ],
-    [ "TFile", null, [
-      [ "PHTFileServer::SafeTFile", "da/dbc/classPHTFileServer_1_1SafeTFile.html", null ]
-    ] ],
-    [ "PHTimer::time_struct", "dc/d23/structPHTimer_1_1time__struct.html", null ],
     [ "PHTimeServer::timer", "d7/d41/classPHTimeServer_1_1timer.html", null ],
     [ "TNode", "d9/dcd/classTNode.html", null ],
     [ "PHDataNode< T >::tobjcast", "dc/dd3/unionPHDataNode_1_1tobjcast.html", null ],

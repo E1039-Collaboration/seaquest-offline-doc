@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -119,15 +117,15 @@ $(document).ready(function(){initNavTree('d9/d97/DecoStatusDb_8h_source.html','.
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="keyword">class </span><a class="code" href="../../d2/da4/classDbSvc.html">DbSvc</a>;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../d7/d48/classDecoStatusDb.html">DecoStatusDb</a> {</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aa">    6</a></span>&#160;  <span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa37433cd5c7d93fc11ccb8e9972621c60">    7</a></span>&#160;    <a class="code" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa37433cd5c7d93fc11ccb8e9972621c60">UNKNOWN</a>  = 0,</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaada11225c7557a4d80fa7c2e60e7dfaf2">    8</a></span>&#160;    <a class="code" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaada11225c7557a4d80fa7c2e60e7dfaf2">STARTED</a>  = 1,</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa5c39619cc872b8222de52b1eec27f666">    9</a></span>&#160;    <a class="code" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa5c39619cc872b8222de52b1eec27f666">FINISHED</a> = 2,</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaaa0ee3520f5739bc32e7d1cc8e2357f41">   10</a></span>&#160;    <a class="code" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaaa0ee3520f5739bc32e7d1cc8e2357f41">UPDATED</a>  = 3</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  } <a class="code" href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aa">Status_t</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keyword">typedef</span> <span class="keyword">enum</span> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    UNKNOWN  = 0,</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    STARTED  = 1,</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    FINISHED = 2,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    UPDATED  = 3</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  } Status_t;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#ab0924d3a3bbc420ccd4d6d548857e39f">   13</a></span>&#160;  std::string <a class="code" href="../../d7/d48/classDecoStatusDb.html#ab0924d3a3bbc420ccd4d6d548857e39f">m_name_table</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d7/d48/classDecoStatusDb.html#aa012d1d0b1885c88956a72bdcbcdbac0">   14</a></span>&#160;  <a class="code" href="../../d2/da4/classDbSvc.html">DbSvc</a>* <a class="code" href="../../d7/d48/classDecoStatusDb.html#aa012d1d0b1885c88956a72bdcbcdbac0">m_db</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  std::string m_name_table;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <a class="code" href="../../d2/da4/classDbSvc.html">DbSvc</a>* m_db;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="comment">//typedef std::map&lt;std::string, int&gt; StatusMap_t;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="comment">//StatusMap_t m_stat_map;</span></div>
@@ -144,19 +142,12 @@ $(document).ready(function(){initNavTree('d9/d97/DecoStatusDb_8h_source.html','.
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _DECO_STATUS_DB__H_ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="classDecoStatusDb_html_ac931f50d8aeae7f72c3a8319c52946fd"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ac931f50d8aeae7f72c3a8319c52946fd">DecoStatusDb::RunUpdated</a></div><div class="ttdeci">void RunUpdated(const int run, int utime=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00068">DecoStatusDb.cc:68</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ad7546e830a39859c04bb3a5bc59ec6aaa5c39619cc872b8222de52b1eec27f666"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa5c39619cc872b8222de52b1eec27f666">DecoStatusDb::FINISHED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00009">DecoStatusDb.h:9</a></div></div>
 <div class="ttc" id="classDbSvc_html"><div class="ttname"><a href="../../d2/da4/classDbSvc.html">DbSvc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00009">DbSvc.h:9</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html_af00f1b7b4b93e5de7871330cea526584"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#af00f1b7b4b93e5de7871330cea526584">DecoStatusDb::RunStarted</a></div><div class="ttdeci">void RunStarted(const int run, int utime=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00049">DecoStatusDb.cc:49</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html_aab50be69bb6a7b142c6fe60720ab968f"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#aab50be69bb6a7b142c6fe60720ab968f">DecoStatusDb::~DecoStatusDb</a></div><div class="ttdeci">virtual ~DecoStatusDb()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00020">DecoStatusDb.cc:20</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_aa012d1d0b1885c88956a72bdcbcdbac0"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#aa012d1d0b1885c88956a72bdcbcdbac0">DecoStatusDb::m_db</a></div><div class="ttdeci">DbSvc * m_db</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00014">DecoStatusDb.h:14</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ad7546e830a39859c04bb3a5bc59ec6aaa37433cd5c7d93fc11ccb8e9972621c60"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaa37433cd5c7d93fc11ccb8e9972621c60">DecoStatusDb::UNKNOWN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00007">DecoStatusDb.h:7</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ad7546e830a39859c04bb3a5bc59ec6aaada11225c7557a4d80fa7c2e60e7dfaf2"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaada11225c7557a4d80fa7c2e60e7dfaf2">DecoStatusDb::STARTED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00008">DecoStatusDb.h:8</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html_aa378b6bc5250210ff4ff3b58dcf0565d"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#aa378b6bc5250210ff4ff3b58dcf0565d">DecoStatusDb::RunFinished</a></div><div class="ttdeci">void RunFinished(const int run, const int result, int utime=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00080">DecoStatusDb.cc:80</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ad7546e830a39859c04bb3a5bc59ec6aa"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aa">DecoStatusDb::Status_t</a></div><div class="ttdeci">Status_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00006">DecoStatusDb.h:6</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html_aaba24471944a89239a3f5e7742cc856c"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#aaba24471944a89239a3f5e7742cc856c">DecoStatusDb::InitTable</a></div><div class="ttdeci">void InitTable(const bool refresh=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00025">DecoStatusDb.cc:25</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html_a26abf7cec85823b53eb740ff60b4c2a5"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#a26abf7cec85823b53eb740ff60b4c2a5">DecoStatusDb::DecoStatusDb</a></div><div class="ttdeci">DecoStatusDb()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d69/DecoStatusDb_8cc_source.html#l00008">DecoStatusDb.cc:8</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ab0924d3a3bbc420ccd4d6d548857e39f"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ab0924d3a3bbc420ccd4d6d548857e39f">DecoStatusDb::m_name_table</a></div><div class="ttdeci">std::string m_name_table</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00013">DecoStatusDb.h:13</a></div></div>
-<div class="ttc" id="classDecoStatusDb_html_ad7546e830a39859c04bb3a5bc59ec6aaaa0ee3520f5739bc32e7d1cc8e2357f41"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html#ad7546e830a39859c04bb3a5bc59ec6aaaa0ee3520f5739bc32e7d1cc8e2357f41">DecoStatusDb::UPDATED</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00010">DecoStatusDb.h:10</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html">DecoStatusDb</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00005">DecoStatusDb.h:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -168,7 +159,7 @@ $(document).ready(function(){initNavTree('d9/d97/DecoStatusDb_8h_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_25265c60903145931e9a6e46f0a7c1c5.html">decoder_maindaq</a></li><li class="navelem"><a class="el" href="../../d9/d97/DecoStatusDb_8h.html">DecoStatusDb.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

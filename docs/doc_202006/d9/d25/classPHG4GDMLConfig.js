@@ -8,7 +8,5 @@ var classPHG4GDMLConfig =
     [ "get_excluded_physical_vol", "d9/d25/classPHG4GDMLConfig.html#ae773181c027bde9a1d37bda8c7f571f0", null ],
     [ "identify", "d9/d25/classPHG4GDMLConfig.html#a9b0aafa45412ee45313d4dc61c0347e6", null ],
     [ "isValid", "d9/d25/classPHG4GDMLConfig.html#ae729169d635adac3bed0fcc3b9d6ba57", null ],
-    [ "Reset", "d9/d25/classPHG4GDMLConfig.html#a1163adce37e7546c6a71b8f92b600424", null ],
-    [ "excluded_logical_vol", "d9/d25/classPHG4GDMLConfig.html#abdd1af6b054ade87ef6e66004dc9f48e", null ],
-    [ "excluded_physical_vol", "d9/d25/classPHG4GDMLConfig.html#a9034b3c98835a822daef09c36e5d8721", null ]
+    [ "Reset", "d9/d25/classPHG4GDMLConfig.html#a1163adce37e7546c6a71b8f92b600424", null ]
 ];

@@ -32,7 +32,6 @@ var classJobOptsSvc =
     [ "m_hodomask", "d8/d62/classJobOptsSvc.html#a6fb4d31a19a3960c1b506ae2bf8f47a0", null ],
     [ "m_inputFile", "d8/d62/classJobOptsSvc.html#ace876dcf17b83d5fa4f7272b3cb430b2", null ],
     [ "m_inputSchema", "d8/d62/classJobOptsSvc.html#af3823dec9945477f45e4cb0ebc107b64", null ],
-    [ "m_isInit", "d8/d62/classJobOptsSvc.html#a5a3707d3a33eef11fd0c20edf03e8112", null ],
     [ "m_kMagFile", "d8/d62/classJobOptsSvc.html#a70b9d2d3b36745c40f900ec6e956974c", null ],
     [ "m_mcMode", "d8/d62/classJobOptsSvc.html#a4813c94b8f0957c8493cd1b77e78912e", null ],
     [ "m_mergeHodo", "d8/d62/classJobOptsSvc.html#aa50a599ea5186b6fbde0aee1d880e82b", null ],
@@ -58,6 +57,5 @@ var classJobOptsSvc =
     [ "m_x_spot_size", "d8/d62/classJobOptsSvc.html#ada8f0b91bc6ddba4c91ba9097a2de6a1", null ],
     [ "m_x_vtx", "d8/d62/classJobOptsSvc.html#a9bbc28f4700eeef9f6f948873bc5865f", null ],
     [ "m_y_spot_size", "d8/d62/classJobOptsSvc.html#a70c95814977c73f5237c6610edab654c", null ],
-    [ "m_y_vtx", "d8/d62/classJobOptsSvc.html#a4d5483cbff10ae21c8dfb685c167018b", null ],
-    [ "p_jobOptsSvc", "d8/d62/classJobOptsSvc.html#af4cde8d999d5e0fc0702819aacf43f7d", null ]
+    [ "m_y_vtx", "d8/d62/classJobOptsSvc.html#a4d5483cbff10ae21c8dfb685c167018b", null ]
 ];

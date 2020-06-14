@@ -1,6 +1,5 @@
 var classPHFieldRegionalConst =
 [
-    [ "trio", "d8/d4f/classPHFieldRegionalConst.html#a1bf2fc4ca34fc1de04d9b46a6f76d5e0", null ],
     [ "PHFieldRegionalConst", "d8/d4f/classPHFieldRegionalConst.html#a7fbb9ac6b92f1f3fc8c09af873775e73", null ],
     [ "~PHFieldRegionalConst", "d8/d4f/classPHFieldRegionalConst.html#a27e9edcef7f5492c6e4622fa9c0faec8", null ],
     [ "get_field_val", "d8/d4f/classPHFieldRegionalConst.html#a81d45d13b58dc9265b66cfa9b50d0305", null ],

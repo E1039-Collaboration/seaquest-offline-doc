@@ -2,7 +2,6 @@ var classSQSlowCont =
 [
     [ "~SQSlowCont", "d2/dea/classSQSlowCont.html#a01ac27cfe9028df0c708b3e1e3263af3", null ],
     [ "SQSlowCont", "d2/dea/classSQSlowCont.html#a2c9af32cfc347034f1d7bff46fb72c78", null ],
-    [ "ClassDef", "d2/dea/classSQSlowCont.html#a19cdb8bb09ba8d0aa69640aaed065c45", null ],
     [ "Clone", "d2/dea/classSQSlowCont.html#a2733b438e2ce0c2f10c505a826056921", null ],
     [ "clone", "d2/dea/classSQSlowCont.html#aec7728c154be27210f040eef94f1e886", null ],
     [ "get_name", "d2/dea/classSQSlowCont.html#ad31a2f45af9c028b64f91ff57d2b0552", null ],

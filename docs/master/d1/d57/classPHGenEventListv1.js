@@ -14,12 +14,7 @@ var classPHGenEventListv1 =
     [ "identify", "d1/d57/classPHGenEventListv1.html#a7d95dfd786839dcdc3823168535004d7", null ],
     [ "insert", "d1/d57/classPHGenEventListv1.html#a3e337f0d3393c88f9c1f44ad9b147a9e", null ],
     [ "print", "d1/d57/classPHGenEventListv1.html#a75d295a386e93d2a21a623f95aa0b7b8", null ],
-    [ "refresh", "d1/d57/classPHGenEventListv1.html#a9be249a09c7184bdf24b182bce2ca5ea", null ],
     [ "remove", "d1/d57/classPHGenEventListv1.html#af8cac0552a28c8a84597b98da2a4f862", null ],
     [ "Reset", "d1/d57/classPHGenEventListv1.html#a6e14a2f93022e98aaad397e839c69780", null ],
-    [ "size", "d1/d57/classPHGenEventListv1.html#ad1f229b50ef1f5e65664bd9df7dee39c", null ],
-    [ "stale", "d1/d57/classPHGenEventListv1.html#a666d42a81bf20c003332447e268d52c5", null ],
-    [ "_genevents", "d1/d57/classPHGenEventListv1.html#a389f3d3a537a5385788a54278d094c67", null ],
-    [ "_id_genevent_map", "d1/d57/classPHGenEventListv1.html#abd0715fad077a830d8c62c16d7f49e72", null ],
-    [ "_stale", "d1/d57/classPHGenEventListv1.html#a368cea32fe68125c16969796242ecd0e", null ]
+    [ "size", "d1/d57/classPHGenEventListv1.html#ad1f229b50ef1f5e65664bd9df7dee39c", null ]
 ];

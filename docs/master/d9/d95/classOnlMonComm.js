@@ -1,6 +1,5 @@
 var classOnlMonComm =
 [
-    [ "SpillList_t", "d9/d95/classOnlMonComm.html#a7eba69c802ce90f6f02fed6929cb8c15", null ],
     [ "SpillMode_t", "d9/d95/classOnlMonComm.html#a030dc15b387e5468225516105d466d2c", [
       [ "SP_ALL", "d9/d95/classOnlMonComm.html#a030dc15b387e5468225516105d466d2cadfaebd323de7e5e56069a65e82273a06", null ],
       [ "SP_LAST", "d9/d95/classOnlMonComm.html#a030dc15b387e5468225516105d466d2ca7989ebda93b0e741b56b5e24f08d5f31", null ],
@@ -27,15 +26,5 @@ var classOnlMonComm =
     [ "SetSpillRange", "d9/d95/classOnlMonComm.html#a78e4b1f566f245fed134391889bf354c", null ],
     [ "SetSpillRangeHigh", "d9/d95/classOnlMonComm.html#a94f31ea81f7df357ca66d2d41ab72ed4", null ],
     [ "SetSpillRangeLow", "d9/d95/classOnlMonComm.html#aee6acce7b9a440f0cb4abf04245c9a30", null ],
-    [ "SetSpillSelectability", "d9/d95/classOnlMonComm.html#a44670fdb8a85b9aaa632ac7713efd563", null ],
-    [ "m_inst", "d9/d95/classOnlMonComm.html#ac08e5cbf651a8f4ff9ef88740320fa42", null ],
-    [ "m_list_sp", "d9/d95/classOnlMonComm.html#ac2a4ba7db80886e786ffbeda77798fd0", null ],
-    [ "m_n_sp_sel_max", "d9/d95/classOnlMonComm.html#ae9a617db6f996b1fdf07b7b06acd176a", null ],
-    [ "m_sp_hi", "d9/d95/classOnlMonComm.html#afb450ed2b7cb1e0d9b49e8bc71121032", null ],
-    [ "m_sp_lo", "d9/d95/classOnlMonComm.html#af91614567c621b8f1f3c86c18528c3d0", null ],
-    [ "m_sp_max", "d9/d95/classOnlMonComm.html#a3c3656d9529ab76cc5df5ce789571238", null ],
-    [ "m_sp_min", "d9/d95/classOnlMonComm.html#a4922a8bace5928bee43a583f40e87538", null ],
-    [ "m_sp_mode", "d9/d95/classOnlMonComm.html#a108285fa1dbf9cd27383276eb2f7ed2c", null ],
-    [ "m_sp_num", "d9/d95/classOnlMonComm.html#a909b087e454782b96bacaf7e7526d80e", null ],
-    [ "m_sp_sel", "d9/d95/classOnlMonComm.html#a839df38d8324d06fe93c40b3e5cd00d9", null ]
+    [ "SetSpillSelectability", "d9/d95/classOnlMonComm.html#a44670fdb8a85b9aaa632ac7713efd563", null ]
 ];

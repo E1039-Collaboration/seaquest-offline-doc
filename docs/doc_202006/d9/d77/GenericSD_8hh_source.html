@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -140,7 +138,7 @@ $(document).ready(function(){initNavTree('d9/d77/GenericSD_8hh_source.html','../
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d4/d82/classGenericSD.html#a6083ef66d8233c0a4d89e481a46c3718">EndOfEvent</a>(G4HCofThisEvent*);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">   27</a></span>&#160;    <a class="code" href="../../d3/d13/MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHitsCollection</a>* <a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d3/d13/MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHitsCollection</a>* staHitsCollection;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
@@ -149,7 +147,6 @@ $(document).ready(function(){initNavTree('d9/d77/GenericSD_8hh_source.html','../
 <div class="ttc" id="classGenericSD_html_a6083ef66d8233c0a4d89e481a46c3718"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#a6083ef66d8233c0a4d89e481a46c3718">GenericSD::EndOfEvent</a></div><div class="ttdeci">void EndOfEvent(G4HCofThisEvent *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de4/GenericSD_8cc_source.html#l00058">GenericSD.cc:58</a></div></div>
 <div class="ttc" id="classGenericSD_html"><div class="ttname"><a href="../../d4/d82/classGenericSD.html">GenericSD</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d77/GenericSD_8hh_source.html#l00016">GenericSD.hh:16</a></div></div>
 <div class="ttc" id="MCHit_8hh_html"><div class="ttname"><a href="../../d3/d13/MCHit_8hh.html">MCHit.hh</a></div></div>
-<div class="ttc" id="classGenericSD_html_ae336075e44855d121a250a3ee906f4e1"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">GenericSD::staHitsCollection</a></div><div class="ttdeci">MCHitsCollection * staHitsCollection</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d77/GenericSD_8hh_source.html#l00027">GenericSD.hh:27</a></div></div>
 <div class="ttc" id="classGenericSD_html_a4e64f30a11d6f88414459242a8527ea8"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#a4e64f30a11d6f88414459242a8527ea8">GenericSD::~GenericSD</a></div><div class="ttdeci">~GenericSD()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de4/GenericSD_8cc_source.html#l00011">GenericSD.cc:11</a></div></div>
 <div class="ttc" id="classGenericSD_html_af5f7a49393d5e64fd736cf22c24d6538"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#af5f7a49393d5e64fd736cf22c24d6538">GenericSD::Initialize</a></div><div class="ttdeci">void Initialize(G4HCofThisEvent *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de4/GenericSD_8cc_source.html#l00015">GenericSD.cc:15</a></div></div>
 <div class="ttc" id="classGenericSD_html_a10d7c641a74f679049884f6307efc58b"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#a10d7c641a74f679049884f6307efc58b">GenericSD::ProcessHits</a></div><div class="ttdeci">G4bool ProcessHits(G4Step *, G4TouchableHistory *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de4/GenericSD_8cc_source.html#l00024">GenericSD.cc:24</a></div></div>
@@ -164,7 +161,7 @@ $(document).ready(function(){initNavTree('d9/d77/GenericSD_8hh_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1881616b07e0466b150c88b4a15ca32b.html">db2g4</a></li><li class="navelem"><a class="el" href="../../d9/d77/GenericSD_8hh.html">GenericSD.hh</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

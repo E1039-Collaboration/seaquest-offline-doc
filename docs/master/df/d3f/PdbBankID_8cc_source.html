@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -129,19 +127,18 @@ $(document).ready(function(){initNavTree('df/d3f/PdbBankID_8cc_source.html','../
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../dc/d80/classPdbBankID.html#a1dbc92695eb40e7d2da6a84ceea115ee">   14</a></span>&#160;<a class="code" href="../../dc/d80/classPdbBankID.html#a1dbc92695eb40e7d2da6a84ceea115ee">PdbBankID::PdbBankID</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> val)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   <a class="code" href="../../dc/d80/classPdbBankID.html#ad89b6526d7bc0081d5970d11c76d2557">bankID</a> = val;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;   bankID = val;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../dc/d80/classPdbBankID.html#ab7dc9c9d4f25c0091821d8207cf273e3">   19</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d80/classPdbBankID.html#ab7dc9c9d4f25c0091821d8207cf273e3">PdbBankID::print</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;BankID = &quot;</span> &lt;&lt; <a class="code" href="../../dc/d80/classPdbBankID.html#ad89b6526d7bc0081d5970d11c76d2557">bankID</a>  &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;BankID = &quot;</span> &lt;&lt; bankID  &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">   24</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade">operator == </a>(<span class="keyword">const</span> <a class="code" href="../../dc/d80/classPdbBankID.html">PdbBankID</a> &amp; a, <span class="keyword">const</span> <a class="code" href="../../dc/d80/classPdbBankID.html">PdbBankID</a> &amp; b)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keywordflow">return</span> (a.<a class="code" href="../../dc/d80/classPdbBankID.html#ad89b6526d7bc0081d5970d11c76d2557">bankID</a> == b.<a class="code" href="../../dc/d80/classPdbBankID.html#ad89b6526d7bc0081d5970d11c76d2557">bankID</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;   <span class="keywordflow">return</span> (a.bankID == b.bankID);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="ttc" id="classPdbBankID_html_ad89b6526d7bc0081d5970d11c76d2557"><div class="ttname"><a href="../../dc/d80/classPdbBankID.html#ad89b6526d7bc0081d5970d11c76d2557">PdbBankID::bankID</a></div><div class="ttdeci">int bankID</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc2/PdbBankID_8h_source.html#l00032">PdbBankID.h:32</a></div></div>
 <div class="ttc" id="PdbBankID_8h_html"><div class="ttname"><a href="../../da/dc2/PdbBankID_8h.html">PdbBankID.h</a></div></div>
 <div class="ttc" id="classPdbBankID_html_a1dbc92695eb40e7d2da6a84ceea115ee"><div class="ttname"><a href="../../dc/d80/classPdbBankID.html#a1dbc92695eb40e7d2da6a84ceea115ee">PdbBankID::PdbBankID</a></div><div class="ttdeci">PdbBankID(const int val=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d3f/PdbBankID_8cc_source.html#l00014">PdbBankID.cc:14</a></div></div>
 <div class="ttc" id="classPdbBankID_html"><div class="ttname"><a href="../../dc/d80/classPdbBankID.html">PdbBankID</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc2/PdbBankID_8h_source.html#l00019">PdbBankID.h:19</a></div></div>
@@ -157,7 +154,7 @@ $(document).ready(function(){initNavTree('df/d3f/PdbBankID_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_019b430ba7b564876d29de5f79a1def6.html">database</a></li><li class="navelem"><a class="el" href="../../dir_147508685d1e177c5e02ebcee5f964f4.html">pdbcal</a></li><li class="navelem"><a class="el" href="../../dir_29be2350c3fb340c5e5cae084515aad9.html">base</a></li><li class="navelem"><a class="el" href="../../df/d3f/PdbBankID_8cc.html">PdbBankID.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:45</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:03</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

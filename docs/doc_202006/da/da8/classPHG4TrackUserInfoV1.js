@@ -14,11 +14,5 @@ var classPHG4TrackUserInfoV1 =
     [ "SetUserParentId", "da/da8/classPHG4TrackUserInfoV1.html#a96c2367a7b1b511fae71cb148e186ca2", null ],
     [ "SetUserPrimaryId", "da/da8/classPHG4TrackUserInfoV1.html#aa698373693814f05582c80e7da59aefa", null ],
     [ "SetUserTrackId", "da/da8/classPHG4TrackUserInfoV1.html#a90c958f79ba16dcd742b81babd628571", null ],
-    [ "SetWanted", "da/da8/classPHG4TrackUserInfoV1.html#aff94d466d51d42b75da59e00f065c084", null ],
-    [ "keep", "da/da8/classPHG4TrackUserInfoV1.html#ad38476c6acfc75a9872074160bea0359", null ],
-    [ "shower", "da/da8/classPHG4TrackUserInfoV1.html#adf26c1a44f18b4ec41b4fd45decd81c2", null ],
-    [ "userparentid", "da/da8/classPHG4TrackUserInfoV1.html#ab118963b6acd821b7c7095d88ba2df37", null ],
-    [ "userprimaryid", "da/da8/classPHG4TrackUserInfoV1.html#a194fee25e89a398fe1517b48f66badec", null ],
-    [ "usertrackid", "da/da8/classPHG4TrackUserInfoV1.html#a0bea3f11d393cbc89e79092a934f4fce", null ],
-    [ "wanted", "da/da8/classPHG4TrackUserInfoV1.html#a86645600fa2c79ead897a56327c1f7e9", null ]
+    [ "SetWanted", "da/da8/classPHG4TrackUserInfoV1.html#aff94d466d51d42b75da59e00f065c084", null ]
 ];

@@ -1,8 +1,5 @@
 var classPHG4GDMLWrite =
 [
-    [ "DepthMapType", "dd/db5/classPHG4GDMLWrite.html#a9eb6e5ab3d42e5fbccb8031b45966ade", null ],
-    [ "PhysVolumeMapType", "dd/db5/classPHG4GDMLWrite.html#a3873d1635d930ace155a62a385908b40", null ],
-    [ "VolumeMapType", "dd/db5/classPHG4GDMLWrite.html#a6914425d5fe87da92305f0accf9f9e7b", null ],
     [ "PHG4GDMLWrite", "dd/db5/classPHG4GDMLWrite.html#a4d381ccea9981c3fbd13375564d964dc", null ],
     [ "~PHG4GDMLWrite", "dd/db5/classPHG4GDMLWrite.html#ad40e5db189f7f5eac05e50c2bffed143", null ],
     [ "AddAuxiliary", "dd/db5/classPHG4GDMLWrite.html#a2aa606a9a6d8eabcf3edbb352381a8f2", null ],

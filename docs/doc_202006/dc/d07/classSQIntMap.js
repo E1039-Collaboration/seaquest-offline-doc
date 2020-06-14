@@ -7,7 +7,6 @@ var classSQIntMap =
     [ "SQIntMap", "dc/d07/classSQIntMap.html#a686c8a7fa36e4ce6d4f1005797d81b2c", null ],
     [ "begin", "dc/d07/classSQIntMap.html#ac7ce1ed4653fb405e53518f9d2120a39", null ],
     [ "begin", "dc/d07/classSQIntMap.html#a80c38b3647c0b54fcf98a7511098421a", null ],
-    [ "ClassDef", "dc/d07/classSQIntMap.html#a608e37c2f95ab23354bccadd8d1f8bb6", null ],
     [ "clear", "dc/d07/classSQIntMap.html#a6ac27997be36a223cdac142317382d07", null ],
     [ "Clone", "dc/d07/classSQIntMap.html#aaad1ca4f2b56909bb8ded6b84dd1302d", null ],
     [ "count", "dc/d07/classSQIntMap.html#ad48d49d7514e6ded2fdf63d8eb9501ef", null ],

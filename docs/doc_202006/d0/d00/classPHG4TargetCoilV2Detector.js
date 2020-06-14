@@ -7,9 +7,5 @@ var classPHG4TargetCoilV2Detector =
     [ "get_Layer", "d0/d00/classPHG4TargetCoilV2Detector.html#a6293c4e7f3c01e64c1b0dc3a12aceb18", null ],
     [ "IsInCylinder", "d0/d00/classPHG4TargetCoilV2Detector.html#abc82b901e18e4fb2167596066661b13d", null ],
     [ "SuperDetector", "d0/d00/classPHG4TargetCoilV2Detector.html#aba2df8ab9bb6de75f9dc679779d03937", null ],
-    [ "SuperDetector", "d0/d00/classPHG4TargetCoilV2Detector.html#a92642d3727e6b90b45c77f892214bffd", null ],
-    [ "cylinder_physi", "d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6", null ],
-    [ "layer", "d0/d00/classPHG4TargetCoilV2Detector.html#a0c05c41a68750bf9bdd8773da0c084a6", null ],
-    [ "params", "d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d", null ],
-    [ "superdetector", "d0/d00/classPHG4TargetCoilV2Detector.html#ad8de7ff0ff2d00fd96a0b8671ca5848c", null ]
+    [ "SuperDetector", "d0/d00/classPHG4TargetCoilV2Detector.html#a92642d3727e6b90b45c77f892214bffd", null ]
 ];

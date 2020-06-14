@@ -6,9 +6,5 @@ var classPHG4SquareTubeDetector =
     [ "get_Layer", "d9/d87/classPHG4SquareTubeDetector.html#ab7b83d5553c5b1f7401e21a5bcabd2d9", null ],
     [ "IsInBlock", "d9/d87/classPHG4SquareTubeDetector.html#a950e64ea7d2c7061f5c6c317659d3906", null ],
     [ "SuperDetector", "d9/d87/classPHG4SquareTubeDetector.html#a2f26f00af28dd837236d293c3fafccd4", null ],
-    [ "SuperDetector", "d9/d87/classPHG4SquareTubeDetector.html#a8c8065a9721ea8d0030d71ee344e789a", null ],
-    [ "block_physi", "d9/d87/classPHG4SquareTubeDetector.html#aba66f4d529d4207c7d2dd9e9f0df2873", null ],
-    [ "layer", "d9/d87/classPHG4SquareTubeDetector.html#a665ca9501a331a47a26ee81c8cdd83e6", null ],
-    [ "params", "d9/d87/classPHG4SquareTubeDetector.html#a32c60fb3cd308f9b4b5120a3bcc2ef43", null ],
-    [ "superdetector", "d9/d87/classPHG4SquareTubeDetector.html#a9833b5b26817fb59a3edd9ddd46bded0", null ]
+    [ "SuperDetector", "d9/d87/classPHG4SquareTubeDetector.html#a8c8065a9721ea8d0030d71ee344e789a", null ]
 ];

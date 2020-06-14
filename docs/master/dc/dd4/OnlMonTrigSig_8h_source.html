@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -119,12 +117,12 @@ $(document).ready(function(){initNavTree('dc/dd4/OnlMonTrigSig_8h_source.html','
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;<a class="code" href="../../dd/d5f/OnlMonClient_8h.html">OnlMonClient.h</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html">    5</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../dc/dae/classOnlMonTrigSig.html">OnlMonTrigSig</a>: <span class="keyword">public</span> <a class="code" href="../../d9/d62/classOnlMonClient.html">OnlMonClient</a> {</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a7faa97ab2f54d5cc09fc374882acd40c">    6</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a7faa97ab2f54d5cc09fc374882acd40c">h2_bi_fpga</a>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a8ebb3ae7f78cf6f27384dd2847955781">    7</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a8ebb3ae7f78cf6f27384dd2847955781">h2_ai_fpga</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a4c60da84fe9ba2becac665eabb1fa7e4">    8</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a4c60da84fe9ba2becac665eabb1fa7e4">h2_bi_nim</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a0b68a610fb68cc8897b9204ffab54fa8">    9</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a0b68a610fb68cc8897b9204ffab54fa8">h2_ai_nim</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a716b052548ac78626183022edc3fa5a8">   10</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a716b052548ac78626183022edc3fa5a8">h2_rf</a>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a232e2b308bf7fb7c3e60dd88b3194fbc">   11</a></span>&#160;  TH2* <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a232e2b308bf7fb7c3e60dd88b3194fbc">h2_stop</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  TH2* h2_bi_fpga;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  TH2* h2_ai_fpga;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  TH2* h2_bi_nim;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  TH2* h2_ai_nim;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  TH2* h2_rf;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  TH2* h2_stop;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#aeeb789b46435bfb205b20b465c4cc81a">OnlMonTrigSig</a>();</div>
@@ -139,7 +137,7 @@ $(document).ready(function(){initNavTree('dc/dd4/OnlMonTrigSig_8h_source.html','
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a71950efa0e8e426846fdce62a71e54c7">DrawMonitor</a>();</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a1b9d9fff6328e9319499e1fc8bcbd572">DrawTH2WithPeakPos</a>(TH2* h2, <span class="keyword">const</span> <span class="keywordtype">double</span> cont_min=100);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordtype">void</span> DrawTH2WithPeakPos(TH2* h2, <span class="keyword">const</span> <span class="keywordtype">double</span> cont_min=100);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _ONL_MON_TRIG_SIG__H_ */</span><span class="preprocessor"></span></div>
@@ -147,22 +145,15 @@ $(document).ready(function(){initNavTree('dc/dd4/OnlMonTrigSig_8h_source.html','
 <div class="ttc" id="OnlMonClient_8h_html"><div class="ttname"><a href="../../dd/d5f/OnlMonClient_8h.html">OnlMonClient.h</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a71950efa0e8e426846fdce62a71e54c7"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a71950efa0e8e426846fdce62a71e54c7">OnlMonTrigSig::DrawMonitor</a></div><div class="ttdeci">int DrawMonitor()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00136">OnlMonTrigSig.cc:136</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a88f0d1cfc7d2259d40c26d38ed1ea579"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a88f0d1cfc7d2259d40c26d38ed1ea579">OnlMonTrigSig::Clone</a></div><div class="ttdeci">OnlMonClient * Clone()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00016">OnlMonTrigSig.h:16</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a716b052548ac78626183022edc3fa5a8"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a716b052548ac78626183022edc3fa5a8">OnlMonTrigSig::h2_rf</a></div><div class="ttdeci">TH2 * h2_rf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00010">OnlMonTrigSig.h:10</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_aeeb789b46435bfb205b20b465c4cc81a"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#aeeb789b46435bfb205b20b465c4cc81a">OnlMonTrigSig::OnlMonTrigSig</a></div><div class="ttdeci">OnlMonTrigSig()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00034">OnlMonTrigSig.cc:34</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a059dd3c99a0d88fb498c81ff4300594b"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a059dd3c99a0d88fb498c81ff4300594b">OnlMonTrigSig::InitRunOnlMon</a></div><div class="ttdeci">int InitRunOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00046">OnlMonTrigSig.cc:46</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a5e4fbbe18d8ee428071e8020ec468721"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a5e4fbbe18d8ee428071e8020ec468721">OnlMonTrigSig::InitOnlMon</a></div><div class="ttdeci">int InitOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00041">OnlMonTrigSig.cc:41</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a0b68a610fb68cc8897b9204ffab54fa8"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a0b68a610fb68cc8897b9204ffab54fa8">OnlMonTrigSig::h2_ai_nim</a></div><div class="ttdeci">TH2 * h2_ai_nim</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00009">OnlMonTrigSig.h:9</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a5bd6a237ca917580e250279de0573a49"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a5bd6a237ca917580e250279de0573a49">OnlMonTrigSig::FindAllMonHist</a></div><div class="ttdeci">int FindAllMonHist()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00125">OnlMonTrigSig.cc:125</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a138528b06e4b34c068a6db325aa5e7f0"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a138528b06e4b34c068a6db325aa5e7f0">OnlMonTrigSig::ProcessEventOnlMon</a></div><div class="ttdeci">int ProcessEventOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00090">OnlMonTrigSig.cc:90</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a7faa97ab2f54d5cc09fc374882acd40c"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a7faa97ab2f54d5cc09fc374882acd40c">OnlMonTrigSig::h2_bi_fpga</a></div><div class="ttdeci">TH2 * h2_bi_fpga</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00006">OnlMonTrigSig.h:6</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html_a314f1c7f65ee2d26db44f2a7169a4f95"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a314f1c7f65ee2d26db44f2a7169a4f95">OnlMonTrigSig::EndOnlMon</a></div><div class="ttdeci">int EndOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00120">OnlMonTrigSig.cc:120</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a4c60da84fe9ba2becac665eabb1fa7e4"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a4c60da84fe9ba2becac665eabb1fa7e4">OnlMonTrigSig::h2_bi_nim</a></div><div class="ttdeci">TH2 * h2_bi_nim</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00008">OnlMonTrigSig.h:8</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a8ebb3ae7f78cf6f27384dd2847955781"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a8ebb3ae7f78cf6f27384dd2847955781">OnlMonTrigSig::h2_ai_fpga</a></div><div class="ttdeci">TH2 * h2_ai_fpga</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00007">OnlMonTrigSig.h:7</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a1b9d9fff6328e9319499e1fc8bcbd572"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a1b9d9fff6328e9319499e1fc8bcbd572">OnlMonTrigSig::DrawTH2WithPeakPos</a></div><div class="ttdeci">void DrawTH2WithPeakPos(TH2 *h2, const double cont_min=100)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00172">OnlMonTrigSig.cc:172</a></div></div>
 <div class="ttc" id="classOnlMonClient_html"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html">OnlMonClient</a></div><div class="ttdoc">Base class for the OnlMon subsystem module. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/OnlMonClient_8h_source.html#l00035">OnlMonClient.h:35</a></div></div>
 <div class="ttc" id="classOnlMonTrigSig_html"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html">OnlMonTrigSig</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00005">OnlMonTrigSig.h:5</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a232e2b308bf7fb7c3e60dd88b3194fbc"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a232e2b308bf7fb7c3e60dd88b3194fbc">OnlMonTrigSig::h2_stop</a></div><div class="ttdeci">TH2 * h2_stop</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd4/OnlMonTrigSig_8h_source.html#l00011">OnlMonTrigSig.h:11</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -173,7 +164,7 @@ $(document).ready(function(){initNavTree('dc/dd4/OnlMonTrigSig_8h_source.html','
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_a95975a7d021972a796996e0e81f39b2.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../dc/dd4/OnlMonTrigSig_8h.html">OnlMonTrigSig.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

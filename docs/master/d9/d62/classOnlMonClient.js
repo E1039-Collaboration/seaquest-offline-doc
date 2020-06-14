@@ -1,33 +1,12 @@
 var classOnlMonClient =
 [
-    [ "HistList_t", "d9/d62/classOnlMonClient.html#adb74ac49e2b5c97d496c0adacb1f5e98", null ],
-    [ "HistModeMap_t", "d9/d62/classOnlMonClient.html#a5767b94f2f38624fff574ac50f121a43", null ],
-    [ "Name2SpillHistMap_t", "d9/d62/classOnlMonClient.html#ad3d32da8ab47014bd0c4f20d56eaa743", null ],
-    [ "SelfList_t", "d9/d62/classOnlMonClient.html#a5e4dac0994450321510867ad634f3da9", null ],
-    [ "SpillHistMap_t", "d9/d62/classOnlMonClient.html#af6be228d3c9b8fd8a23685d889c7ff6e", null ],
-    [ "BasicIdBin_t", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6", [
-      [ "BIN_RUN", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6a89932370ac621f656df597f0c6de0f1b", null ],
-      [ "BIN_SPILL", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6a8feb8772d3e2c33db45b4a867b48cf83", null ],
-      [ "BIN_EVENT", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6a3f2956e90521af292a777f5b54ab0cb9", null ],
-      [ "BIN_SPILL_MIN", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6ab7eb52dcef6ac4266e8b383af6b4ed36", null ],
-      [ "BIN_SPILL_MAX", "d9/d62/classOnlMonClient.html#a47923f0261a24f3293bf3f321a9d08a6a8307cb7fb1448a9e46921911e22ae209", null ]
-    ] ],
-    [ "BasicInfoBin_t", "d9/d62/classOnlMonClient.html#ae4bb607a3f4329e0cd7f8d80f6b9d7bf", [
-      [ "BIN_N_EVT", "d9/d62/classOnlMonClient.html#ae4bb607a3f4329e0cd7f8d80f6b9d7bfab72fac71cea6305ee089d323393d85d5", null ],
-      [ "BIN_N_SP", "d9/d62/classOnlMonClient.html#ae4bb607a3f4329e0cd7f8d80f6b9d7bfaddf2fd931b972e941db01d7e4877bd18", null ]
-    ] ],
     [ "HistMode_t", "d9/d62/classOnlMonClient.html#a6e52532477d71955816ba201ae8a04ed", [
       [ "MODE_ADD", "d9/d62/classOnlMonClient.html#a6e52532477d71955816ba201ae8a04eda505b8ea36acca0ca75964f80b08010c4", null ],
       [ "MODE_UPDATE", "d9/d62/classOnlMonClient.html#a6e52532477d71955816ba201ae8a04eda91a4fc3f410b2ea34fa11efb7a7bdace", null ]
     ] ],
     [ "OnlMonClient", "d9/d62/classOnlMonClient.html#acd422b83a84bb1ba1114a348b21f66e0", null ],
     [ "~OnlMonClient", "d9/d62/classOnlMonClient.html#aad14181b1d23e101444ea989c3c45dbe", null ],
-    [ "ClearCanvasList", "d9/d62/classOnlMonClient.html#a0c4277b645c86cb4da1162f3fdd3c6cc", null ],
-    [ "ClearHistList", "d9/d62/classOnlMonClient.html#a6ebde70bd4ffa2905ad9e4ec66b5e86f", null ],
-    [ "ClearSpillHist", "d9/d62/classOnlMonClient.html#a66a0f398da943d4f232f1b3406fe7d2d", null ],
     [ "Clone", "d9/d62/classOnlMonClient.html#afe550e804de20ec52139d84fdde05b70", null ],
-    [ "DisableSpillHist", "d9/d62/classOnlMonClient.html#adf3843d78cb59c4df0a8baa454755042", null ],
-    [ "DrawCanvas", "d9/d62/classOnlMonClient.html#ac43168b63e4026d2c2eb9c65fc12da16", null ],
     [ "DrawMonitor", "d9/d62/classOnlMonClient.html#a8a5d3825cb5df3fbfdb488df353b8c88", null ],
     [ "End", "d9/d62/classOnlMonClient.html#a8e707fd7f6a89c8af8d716bdd06eed5d", null ],
     [ "EndOnlMon", "d9/d62/classOnlMonClient.html#af04988ecd7d9958d0c195a88a4199d8f", null ],
@@ -41,30 +20,14 @@ var classOnlMonClient =
     [ "InitOnlMon", "d9/d62/classOnlMonClient.html#afe0494fd792508afa23d22744fe8d2a5", null ],
     [ "InitRun", "d9/d62/classOnlMonClient.html#a8eec0bd29f49d0ba659e332dee888a4c", null ],
     [ "InitRunOnlMon", "d9/d62/classOnlMonClient.html#a2201a47dd5fe18015df27506c121d17e", null ],
-    [ "MakeMergedHist", "d9/d62/classOnlMonClient.html#a5327959f5913f05de4a7bed106a66604", null ],
-    [ "MakeSpillHist", "d9/d62/classOnlMonClient.html#a2da49730f4fe278a8f85d80eb3b8d3c7", null ],
     [ "NumCanvases", "d9/d62/classOnlMonClient.html#ad7213326d0049101ae05e4caab2591c8", null ],
     [ "NumCanvases", "d9/d62/classOnlMonClient.html#a9291a22f516ea38a805ad11726ddb38d", null ],
     [ "process_event", "d9/d62/classOnlMonClient.html#aae8316ce9e475ceb116f375bcb07fd41", null ],
     [ "ProcessEventOnlMon", "d9/d62/classOnlMonClient.html#a30a70509da7324cb35c0f201722bf859", null ],
-    [ "ReceiveHist", "d9/d62/classOnlMonClient.html#a6db97dd2f1c18d8ec92d011f3a8e86b6", null ],
     [ "RegisterHist", "d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd", null ],
     [ "SendHist", "d9/d62/classOnlMonClient.html#a99db500a862ab027dceda35548427aa7", null ],
     [ "SetClearUsFlag", "d9/d62/classOnlMonClient.html#aa2e8df648672b2b594c36c3f58086b52", null ],
     [ "StartMonitor", "d9/d62/classOnlMonClient.html#a68fab899fe1e1e3071ba0588a0853930", null ],
     [ "Title", "d9/d62/classOnlMonClient.html#a76b87ef01b6f5eb2db41fa7de6858817", null ],
-    [ "Title", "d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee", null ],
-    [ "m_bl_clear_us", "d9/d62/classOnlMonClient.html#ad1913d30de4425a5150331dbd2bd74c8", null ],
-    [ "m_h1_basic_cnt", "d9/d62/classOnlMonClient.html#ac0fb802b89f01f578db2f1f7f49286c2", null ],
-    [ "m_h1_basic_id", "d9/d62/classOnlMonClient.html#a38df970a27cca72906c23ade2f0d2bd0", null ],
-    [ "m_hist_mode", "d9/d62/classOnlMonClient.html#a9fa0c9504994dca77c24148a93c7de4a", null ],
-    [ "m_hm", "d9/d62/classOnlMonClient.html#abcc061a55c4c01f81c92ee48037960e8", null ],
-    [ "m_list_can", "d9/d62/classOnlMonClient.html#a02b66c9654d42afee2cea21d1f603b1c", null ],
-    [ "m_list_h1", "d9/d62/classOnlMonClient.html#a0c322d5fef5233b6d3394f8fd6aca4a4", null ],
-    [ "m_list_us", "d9/d62/classOnlMonClient.html#acd025bfb97109e6f5a482ac91ac0ab0f", null ],
-    [ "m_make_sp_hist", "d9/d62/classOnlMonClient.html#aab3f9301d120edc93e197649f642d8fd", null ],
-    [ "m_map_hist_sp", "d9/d62/classOnlMonClient.html#a4d93e87ea8bbdbfe8c1c86c8de9a4e46", null ],
-    [ "m_n_can", "d9/d62/classOnlMonClient.html#ac2f6445f45cda3c81d369499ff7d77e6", null ],
-    [ "m_spill_id_pre", "d9/d62/classOnlMonClient.html#a9d5e4f44731ef942126b9b462def1e17", null ],
-    [ "m_title", "d9/d62/classOnlMonClient.html#a7f625286f6e82c5bf289c04bdd1925a2", null ]
+    [ "Title", "d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee", null ]
 ];

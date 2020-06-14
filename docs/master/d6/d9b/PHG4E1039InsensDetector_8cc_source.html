@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -151,7 +149,7 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d5/dd4/classPHG4E1039InsensDetector.html#af882a320b9bc392f779baa6a7a54519b">   36</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#af882a320b9bc392f779baa6a7a54519b">PHG4E1039InsensDetector::IsInBlock</a>(G4VPhysicalVolume* volume)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(volume == <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a727564e1c2ff5278e21d00ed30b64bb9">block_physi</a>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(volume == block_physi)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
@@ -162,9 +160,9 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d5/dd4/classPHG4E1039InsensDetector.html#aafcefa72a9613bbf52a23a4c16798189">   47</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#aafcefa72a9613bbf52a23a4c16798189">PHG4E1039InsensDetector::Construct</a>(G4LogicalVolume* logicWorld)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a> = mysql_init(<a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    con = mysql_init(<a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    mysql_real_connect(</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        con,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        <span class="stringliteral">&quot;e906-db1.fnal.gov&quot;</span>,</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        <span class="stringliteral">&quot;seaguest&quot;</span>,</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        <span class="stringliteral">&quot;qqbar2mu+mu-&quot;</span>,</div>
@@ -182,10 +180,10 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> id;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    G4String <a class="code" href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">name</a>, symbol;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT eID, eName, symbol, z, n FROM Elements&quot;</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT eID, eName, symbol, z, n FROM Elements&quot;</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">int</span> nElement = mysql_num_rows(res);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a160587c29fa89fa8feb61f60ba2f93e5">elementVec</a>.resize(nElement+1);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
@@ -210,12 +208,12 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    std::vector&lt;G4String&gt; eleName;    eleName.resize(11);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    std::vector&lt;int&gt; eID;             eID.resize(11);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT mID, mName, density, numElements, eID1, eID2, eID3, eID4, eID5, &quot;</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT mID, mName, density, numElements, eID1, eID2, eID3, eID4, eID5, &quot;</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="stringliteral">&quot;eID6, eID7, eID8, eID9, eID10, elementPercent1, elementPercent2, &quot;</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="stringliteral">&quot;elementPercent3, elementPercent4, elementPercent5, elementPercent6, &quot;</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="stringliteral">&quot;elementPercent7, elementPercent8, elementPercent9, elementPercent10 FROM Materials&quot;</span>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> nMaterial = mysql_num_rows(res);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a8e383eff181eaa18a82818af88d56bb8">materialVec</a>.resize(nMaterial+1);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
@@ -252,9 +250,9 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">int</span> nSolid = 3000;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a4d0e631e23277f9123ee3f333cdb3761">solidVec</a>.resize(nSolid);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT sID, sName, xLength, yLength, zLength FROM SolidBoxes&quot;</span>);</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT sID, sName, xLength, yLength, zLength FROM SolidBoxes&quot;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">while</span>((row = mysql_fetch_row(res)))</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    {</div>
@@ -271,9 +269,9 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    mysql_free_result(res);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">//Load all tube shapes from Table SolidTubes</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT sID, sName, length, radiusMin, radiusMax FROM SolidTubes&quot;</span>);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT sID, sName, length, radiusMin, radiusMax FROM SolidTubes&quot;</span>);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">while</span>((row = mysql_fetch_row(res)))</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    {</div>
@@ -290,9 +288,9 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    mysql_free_result(res);</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">//Load all substraction shaoe from Table SubtractionSolids</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT sID, sName, shellID, holeID, rotX, rotY, rotZ, posX, posY, posZ FROM SubtractionSolids&quot;</span>);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT sID, sName, shellID, holeID, rotX, rotY, rotZ, posX, posY, posZ FROM SubtractionSolids&quot;</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">while</span>((row = mysql_fetch_row(res)))</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    {</div>
@@ -324,9 +322,9 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">int</span> sID, mID;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">int</span> sensitiveDetector = 0;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT lvID, lvName, sID, mID, sensitiveDetector FROM LogicalVolumes&quot;</span>);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT lvID, lvName, sID, mID, sensitiveDetector FROM LogicalVolumes&quot;</span>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordtype">int</span> nLogicalVolume = mysql_num_rows(res);</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>.resize(nLogicalVolume);</div>
@@ -363,22 +361,22 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; copyIDs.size(); ++i) copyIDs[i] = 0;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="comment">//Get the maximum depth</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT MAX(depth) FROM PhysicalVolumes&quot;</span>);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT MAX(depth) FROM PhysicalVolumes&quot;</span>);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    row = mysql_fetch_row(res);</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">int</span> maxDepth = atoi(row[0]);</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    mysql_free_result(res);</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="comment">//Get the world volume size/pos</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, <span class="stringliteral">&quot;SELECT lvID FROM PhysicalVolumes WHERE depth = 0&quot;</span>);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    mysql_query(con, <span class="stringliteral">&quot;SELECT lvID FROM PhysicalVolumes WHERE depth = 0&quot;</span>);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    res = mysql_store_result(con);</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">if</span>((row = mysql_fetch_row(res)))</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    {</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        logicalID = atoi(row[0]);</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a3c2a2ba7933bb91b51e9e6bf70c61e4c">physiWorld</a> = <span class="keyword">new</span> G4PVPlacement(0, G4ThreeVector(), <span class="stringliteral">&quot;World&quot;</span>, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], 0, <span class="keyword">false</span>, 0);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        physiWorld = <span class="keyword">new</span> G4PVPlacement(0, G4ThreeVector(), <span class="stringliteral">&quot;World&quot;</span>, <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">logicalVolumeVec</a>[logicalID], 0, <span class="keyword">false</span>, 0);</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        copyIDs[logicalID]++;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    mysql_free_result(res);</div>
@@ -387,10 +385,10 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">rotationMatrixVec</a>.resize(0);</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= maxDepth; ++i)</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    {</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        mysql_query(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>, Form(<span class="stringliteral">&quot;SELECT pvID, pvName, lvID, motherID, xRel, yRel, zRel, rotX, rotY, rotZ &quot;</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        mysql_query(con, Form(<span class="stringliteral">&quot;SELECT pvID, pvName, lvID, motherID, xRel, yRel, zRel, rotX, rotY, rotZ &quot;</span></div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                              <span class="stringliteral">&quot;FROM PhysicalVolumes WHERE depth = %d&quot;</span>, i));</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">if</span>(mysql_errno(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) != 0) std::cout &lt;&lt; mysql_error(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>) &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        res = mysql_store_result(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">if</span>(mysql_errno(con) != 0) std::cout &lt;&lt; mysql_error(con) &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        res = mysql_store_result(con);</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">while</span> ((row = mysql_fetch_row(res)))</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {</div>
@@ -414,22 +412,19 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        }</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        mysql_free_result(res);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    mysql_close(<a class="code" href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">con</a>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    mysql_close(con);</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;}</div>
-<div class="ttc" id="classPHG4E1039InsensDetector_html_ad66045d8867f467fa92f18cd7f0fe35f"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#ad66045d8867f467fa92f18cd7f0fe35f">PHG4E1039InsensDetector::con</a></div><div class="ttdeci">MYSQL * con</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00070">PHG4E1039InsensDetector.h:70</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a160587c29fa89fa8feb61f60ba2f93e5"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a160587c29fa89fa8feb61f60ba2f93e5">PHG4E1039InsensDetector::elementVec</a></div><div class="ttdeci">std::vector&lt; G4Element * &gt; elementVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00057">PHG4E1039InsensDetector.h:57</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a448f635f8fc79197f858f48e5ba3d33a"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a448f635f8fc79197f858f48e5ba3d33a">PHG4E1039InsensDetector::PHG4E1039InsensDetector</a></div><div class="ttdeci">PHG4E1039InsensDetector(PHCompositeNode *node, PHParameters *parameters, const std::string &amp;dnam=&quot;BLOCK&quot;, const int lyr=0)</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9b/PHG4E1039InsensDetector_8cc_source.html#l00027">PHG4E1039InsensDetector.cc:27</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a181062bee4c1d757202b583b8840d088"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a181062bee4c1d757202b583b8840d088">PHG4E1039InsensDetector::logicalVolumeVec</a></div><div class="ttdeci">std::vector&lt; G4LogicalVolume * &gt; logicalVolumeVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00060">PHG4E1039InsensDetector.h:60</a></div></div>
 <div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a4d0e631e23277f9123ee3f333cdb3761"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a4d0e631e23277f9123ee3f333cdb3761">PHG4E1039InsensDetector::solidVec</a></div><div class="ttdeci">std::vector&lt; G4VSolid * &gt; solidVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00059">PHG4E1039InsensDetector.h:59</a></div></div>
-<div class="ttc" id="classPHG4E1039InsensDetector_html_a3c2a2ba7933bb91b51e9e6bf70c61e4c"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a3c2a2ba7933bb91b51e9e6bf70c61e4c">PHG4E1039InsensDetector::physiWorld</a></div><div class="ttdeci">G4VPhysicalVolume * physiWorld</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00068">PHG4E1039InsensDetector.h:68</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_af882a320b9bc392f779baa6a7a54519b"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#af882a320b9bc392f779baa6a7a54519b">PHG4E1039InsensDetector::IsInBlock</a></div><div class="ttdeci">bool IsInBlock(G4VPhysicalVolume *) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9b/PHG4E1039InsensDetector_8cc_source.html#l00036">PHG4E1039InsensDetector.cc:36</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
 <div class="ttc" id="classPHParameters_html"><div class="ttname"><a href="../../dd/dae/classPHParameters.html">PHParameters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d23/PHParameters_8h_source.html#l00017">PHParameters.h:17</a></div></div>
 <div class="ttc" id="classPHG4E1039InsensDetector_html_a15e1e57a58f9c21dd36df0debe75eb82"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a15e1e57a58f9c21dd36df0debe75eb82">PHG4E1039InsensDetector::rotationMatrixVec</a></div><div class="ttdeci">std::vector&lt; G4RotationMatrix * &gt; rotationMatrixVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00061">PHG4E1039InsensDetector.h:61</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
-<div class="ttc" id="classPHG4E1039InsensDetector_html_a727564e1c2ff5278e21d00ed30b64bb9"><div class="ttname"><a href="../../d5/dd4/classPHG4E1039InsensDetector.html#a727564e1c2ff5278e21d00ed30b64bb9">PHG4E1039InsensDetector::block_physi</a></div><div class="ttdeci">G4VPhysicalVolume * block_physi</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d1b/PHG4E1039InsensDetector_8h_source.html#l00049">PHG4E1039InsensDetector.h:49</a></div></div>
 <div class="ttc" id="classPHG4Detector_html"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a></div><div class="ttdoc">base class for phenix detector creation </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00013">PHG4Detector.h:13</a></div></div>
 <div class="ttc" id="classPHG4Detector_html_a8790611ab760c902d64f821e79433253"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">PHG4Detector::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00061">PHG4Detector.h:61</a></div></div>
 <div class="ttc" id="PHG4Utils_8h_html"><div class="ttname"><a href="../../d6/d5e/PHG4Utils_8h.html">PHG4Utils.h</a></div></div>
@@ -448,7 +443,7 @@ $(document).ready(function(){initNavTree('d6/d9b/PHG4E1039InsensDetector_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_f4e8c2e4e07ba1c1cfb499dcc2852b5d.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d6/d9b/PHG4E1039InsensDetector_8cc.html">PHG4E1039InsensDetector.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:47</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

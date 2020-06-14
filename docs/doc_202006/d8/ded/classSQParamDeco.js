@@ -6,7 +6,6 @@ var classSQParamDeco =
     [ "~SQParamDeco", "d8/ded/classSQParamDeco.html#a131776842f049006957db26bef528604", null ],
     [ "SQParamDeco", "d8/ded/classSQParamDeco.html#a6010f997b2755d7836eac6021ffeb656", null ],
     [ "begin", "d8/ded/classSQParamDeco.html#adfb1cd0b80d9003a2c25649b6b003cca", null ],
-    [ "ClassDef", "d8/ded/classSQParamDeco.html#ad7888537c3f4899e2548f2ddd68e1e71", null ],
     [ "Clone", "d8/ded/classSQParamDeco.html#af05e656a3b7d17b8a7c5f12474acc15f", null ],
     [ "end", "d8/ded/classSQParamDeco.html#a5e4c4a2689d26ee22aaf0ff4efcf8722", null ],
     [ "get_variable", "d8/ded/classSQParamDeco.html#ad9208c9f3e301eec7c82f050498d36c8", null ],

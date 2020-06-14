@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -148,17 +146,15 @@ $(document).ready(function(){initNavTree('d7/d08/SQSpill__v1_8cxx_source.html','
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d2/df5/classSQSpill__v1.html#ae90924fc296a2488d24d763bbac00536">   34</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/df5/classSQSpill__v1.html#ae90924fc296a2488d24d763bbac00536">SQSpill_v1::isValid</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d2/df5/classSQSpill__v1.html#a58be6c5d326eab4e69aba85af6a464ca">_run_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d2/df5/classSQSpill__v1.html#aecba74414fd907273b05205a5fbfa8d5">_spill_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d2/df5/classSQSpill__v1.html#ac9c5858005b3dd4320d003bc9395e0b9">_target_pos</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">if</span> (_run_id == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span> (_spill_id == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> (_target_pos == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="ttc" id="classSQSpill__v1_html_a552ce43858385c0a9d4b6fcd900ea158"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#a552ce43858385c0a9d4b6fcd900ea158">SQSpill_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d08/SQSpill__v1_8cxx_source.html#l00024">SQSpill_v1.cxx:24</a></div></div>
-<div class="ttc" id="classSQSpill__v1_html_ac9c5858005b3dd4320d003bc9395e0b9"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#ac9c5858005b3dd4320d003bc9395e0b9">SQSpill_v1::_target_pos</a></div><div class="ttdeci">short _target_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00045">SQSpill_v1.h:45</a></div></div>
 <div class="ttc" id="classSQSpill__v1_html_a2364877ed1036217d2975de6b2707bff"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#a2364877ed1036217d2975de6b2707bff">SQSpill_v1::get_target_pos</a></div><div class="ttdeci">virtual short get_target_pos() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00037">SQSpill_v1.h:37</a></div></div>
-<div class="ttc" id="classSQSpill__v1_html_a58be6c5d326eab4e69aba85af6a464ca"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#a58be6c5d326eab4e69aba85af6a464ca">SQSpill_v1::_run_id</a></div><div class="ttdeci">int _run_id</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00043">SQSpill_v1.h:43</a></div></div>
 <div class="ttc" id="classSQSpill__v1_html_ae90924fc296a2488d24d763bbac00536"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#ae90924fc296a2488d24d763bbac00536">SQSpill_v1::isValid</a></div><div class="ttdeci">int isValid() const </div><div class="ttdoc">isValid returns non zero if object contains vailid data </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d08/SQSpill__v1_8cxx_source.html#l00034">SQSpill_v1.cxx:34</a></div></div>
 <div class="ttc" id="classSQSpill__v1_html_ae7dccaa0a3db285b00b881b849c474b2"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#ae7dccaa0a3db285b00b881b849c474b2">SQSpill_v1::get_spill_id</a></div><div class="ttdeci">virtual int get_spill_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00034">SQSpill_v1.h:34</a></div></div>
 <div class="ttc" id="SQSpill__v1_8h_html"><div class="ttname"><a href="../../dd/df4/SQSpill__v1_8h.html">SQSpill_v1.h</a></div></div>
@@ -166,7 +162,6 @@ $(document).ready(function(){initNavTree('d7/d08/SQSpill__v1_8cxx_source.html','
 <div class="ttc" id="classSQSpill__v1_html_a1043ef86a73bc84330c184fa588dd4d3"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#a1043ef86a73bc84330c184fa588dd4d3">SQSpill_v1::get_run_id</a></div><div class="ttdeci">virtual int get_run_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00031">SQSpill_v1.h:31</a></div></div>
 <div class="ttc" id="PdbCalChan_8cc_html_a2e42736505dcaba519d53efaa5586008"><div class="ttname"><a href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a></div><div class="ttdeci">ClassImp(PdbCalChan)</div></div>
 <div class="ttc" id="classSQSpill__v1_html"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html">SQSpill_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00017">SQSpill_v1.h:17</a></div></div>
-<div class="ttc" id="classSQSpill__v1_html_aecba74414fd907273b05205a5fbfa8d5"><div class="ttname"><a href="../../d2/df5/classSQSpill__v1.html#aecba74414fd907273b05205a5fbfa8d5">SQSpill_v1::_spill_id</a></div><div class="ttdeci">int _spill_id</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/df4/SQSpill__v1_8h_source.html#l00044">SQSpill_v1.h:44</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -177,7 +172,7 @@ $(document).ready(function(){initNavTree('d7/d08/SQSpill__v1_8cxx_source.html','
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4109f03a5b9c2dae233205e99792f74d.html">interface_main</a></li><li class="navelem"><a class="el" href="../../d7/d08/SQSpill__v1_8cxx.html">SQSpill_v1.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

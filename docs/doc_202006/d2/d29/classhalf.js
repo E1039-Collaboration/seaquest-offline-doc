@@ -4,7 +4,6 @@ var classhalf =
     [ "half", "d2/d29/classhalf.html#a188a8702ec45b86e0471aea90cad511e", null ],
     [ "half", "d2/d29/classhalf.html#a99acfa5329e169f52964715cecda3233", null ],
     [ "bits", "d2/d29/classhalf.html#a0ddbf7dafaa9b839ae9fc3ac4c8b39ed", null ],
-    [ "convert", "d2/d29/classhalf.html#a99d089d2d1ab51dabbb4cfbf5052e633", null ],
     [ "isDenormalized", "d2/d29/classhalf.html#ab3332758125bf4b7b542d7ecb71f315d", null ],
     [ "isFinite", "d2/d29/classhalf.html#a4dc4ceac213d0e942f1e8a472eff6ec7", null ],
     [ "isInfinity", "d2/d29/classhalf.html#a90714c49f35d42b3655b7f35ac708d4c", null ],
@@ -25,13 +24,9 @@ var classhalf =
     [ "operator/=", "d2/d29/classhalf.html#ab65cdb957e0fb7f74c12daad89a37c91", null ],
     [ "operator=", "d2/d29/classhalf.html#a74a1d9e0015a01085b5772c437a5d315", null ],
     [ "operator=", "d2/d29/classhalf.html#a3ddfb47d9d9e66716c1030d5579652f1", null ],
-    [ "overflow", "d2/d29/classhalf.html#a555236e684dcc0c74ad46f0d396f3f6d", null ],
     [ "posInf", "d2/d29/classhalf.html#a67c968243358acc6ac9dc4230677a316", null ],
     [ "qNan", "d2/d29/classhalf.html#a0b9bd3c051b63b6d71ecf432169214ae", null ],
     [ "round", "d2/d29/classhalf.html#a3dc8aaac5df12b870495fce866fc53d3", null ],
     [ "setBits", "d2/d29/classhalf.html#a4857b7bd2071eb5c23e35cd8d2bea79a", null ],
-    [ "sNan", "d2/d29/classhalf.html#a0cff35d55e297d91042441c4415a339d", null ],
-    [ "_eLut", "d2/d29/classhalf.html#aa29cfe4214b2170a5b0b4d5bbf1ef6d7", null ],
-    [ "_h", "d2/d29/classhalf.html#a24ebd6b4a42b158cf04834e98a134f3d", null ],
-    [ "_toFloat", "d2/d29/classhalf.html#a80b3dbd17abb250a60037f2ac489a399", null ]
+    [ "sNan", "d2/d29/classhalf.html#a0cff35d55e297d91042441c4415a339d", null ]
 ];

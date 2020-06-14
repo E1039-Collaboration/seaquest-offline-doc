@@ -16,11 +16,5 @@ var classPatternDBUtil =
     [ "ResScaleDC3", "d2/d0e/classPatternDBUtil.html#af2b3bc8fa376db16c4687e2a0bb0ae88", null ],
     [ "ResScaleDC3", "d2/d0e/classPatternDBUtil.html#a8403a0c90ea9322c5328a8c0b30c0572", null ],
     [ "Verbosity", "d2/d0e/classPatternDBUtil.html#a8d50db132792a01b0061096eb7310928", null ],
-    [ "Verbosity", "d2/d0e/classPatternDBUtil.html#ad84be57e6331d2348238f46cb8e98ba3", null ],
-    [ "_detid_view", "d2/d0e/classPatternDBUtil.html#a65e86fa0f41546a48d6de967814c37da", null ],
-    [ "_loose_mode", "d2/d0e/classPatternDBUtil.html#aaa2d13c1f342aa20ca8db07fbb94ee93", null ],
-    [ "_RESOLUTION1_", "d2/d0e/classPatternDBUtil.html#a33a5f0f727ae15f262221274b8fd7b75", null ],
-    [ "_RESOLUTION2_", "d2/d0e/classPatternDBUtil.html#ac5862a92c11742f30c36cb39334489d1", null ],
-    [ "_RESOLUTION3_", "d2/d0e/classPatternDBUtil.html#a610b06719b7afb4168c7e4912d026719", null ],
-    [ "verbosity", "d2/d0e/classPatternDBUtil.html#a2c2a05b216f77588dc2792067487ea03", null ]
+    [ "Verbosity", "d2/d0e/classPatternDBUtil.html#ad84be57e6331d2348238f46cb8e98ba3", null ]
 ];

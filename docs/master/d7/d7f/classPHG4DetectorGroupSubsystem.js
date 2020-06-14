@@ -46,22 +46,5 @@ var classPHG4DetectorGroupSubsystem =
     [ "SuperDetector", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a0fea003f8acfb04f8a49dba5254aa5c9", null ],
     [ "UpdateParametersWithMacro", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a388dbfc8434dc9dce81adcce6b031bd8", null ],
     [ "UseCalibFiles", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a82dfacfbde1532fde155c6c5e7a23d9e", null ],
-    [ "UseDB", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a178a14051163dcdbbce3a79b88e39db5", null ],
-    [ "beginrunexecuted", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a800856435fcee98fd6b5c8df61d2ea4c", null ],
-    [ "calibfiledir", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a6a9465a162c59d7035976c2b476efb18", null ],
-    [ "cparams", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a453369871c9880d52788e88d539cbca8", null ],
-    [ "default_double", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a4404e8c7347cc5ff77d86affaf81af70", null ],
-    [ "default_int", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a110620ba34523b87bf8883212dc24460", null ],
-    [ "default_string", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a7f92e6857544116f3842881f21e64bc7", null ],
-    [ "dparams", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a151486f587d411bed6e7587c18d9a911", null ],
-    [ "filetype", "d7/d7f/classPHG4DetectorGroupSubsystem.html#ae334042082ffee8ce296a2ae1b05598a", null ],
-    [ "iparams", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a116acdfff5c33eb245372f6a2a088281", null ],
-    [ "layer", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a44d1148908b10ad56ddf25c89b18ee4e", null ],
-    [ "layers", "d7/d7f/classPHG4DetectorGroupSubsystem.html#aed26129697676af1707a9f63ee26d730", null ],
-    [ "overlapcheck", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a968c80e532c8edf8232011e0b1a3251c", null ],
-    [ "paramscontainer", "d7/d7f/classPHG4DetectorGroupSubsystem.html#abebeb16ad2f8cc14f9b3ff59133cd030", null ],
-    [ "paramscontainer_default", "d7/d7f/classPHG4DetectorGroupSubsystem.html#ae2d5361598ff7cee9bc734e5af43e9f7", null ],
-    [ "savetopNode", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a0fb5026175597a383e63c0fdd8eebfce", null ],
-    [ "superdetector", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a0a6ae899726a728b8d5e6b3ecf6ab1cd", null ],
-    [ "usedb", "d7/d7f/classPHG4DetectorGroupSubsystem.html#af52d0deaf95f89d38c463a55e79f81f3", null ]
+    [ "UseDB", "d7/d7f/classPHG4DetectorGroupSubsystem.html#a178a14051163dcdbbce3a79b88e39db5", null ]
 ];

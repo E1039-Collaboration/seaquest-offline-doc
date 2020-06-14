@@ -1,12 +1,7 @@
 var searchData=
 [
   ['a',['a',['../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8',1,'PropSegment::a()'],['../d5/d7b/classSQBeamlineObject.html#ae01e887a07b0dfb58e19637631eecfed',1,'SQBeamlineObject::A()']]],
-  ['absmatercmd',['AbsMaterCmd',['../df/d05/classG4TBFieldMessenger.html#a4d9ec838e1fc5636eb8907c95cf68a08',1,'G4TBFieldMessenger']]],
-  ['accessmode',['accessMode',['../d7/d4d/classPHNodeIOManager.html#aaf17a317c4e26eb86f73674bf9eaf264',1,'PHNodeIOManager']]],
   ['accumulatedprob',['accumulatedProb',['../d5/d7b/classSQBeamlineObject.html#a8b077f03ed29258d9a88ba049448b0fc',1,'SQBeamlineObject']]],
-  ['accumulatedprobs',['accumulatedProbs',['../d8/dc4/classSQPrimaryVertexGen.html#ae0aa945b70cd672edab3e651da4e46c5',1,'SQPrimaryVertexGen']]],
-  ['actions_5f',['actions_',['../d9/d7a/classPHG4PhenixEventAction.html#aa153739afabac5565272b3b1c1c3eb2c',1,'PHG4PhenixEventAction::actions_()'],['../d1/d53/classPHG4PhenixSteppingAction.html#a733a1469894cea42d99d11f831326d09',1,'PHG4PhenixSteppingAction::actions_()'],['../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca',1,'PHG4PhenixTrackingAction::actions_()']]],
-  ['active',['active',['../d1/da2/classPHG4BlockSteppingAction.html#ab7c97bf884f68256e58921059dd18f18',1,'PHG4BlockSteppingAction::active()'],['../d2/db5/classPHG4BNLTargetCoilSteppingAction.html#a98e3ae89e908e79876340266bc204744',1,'PHG4BNLTargetCoilSteppingAction::active()'],['../d2/dc6/classPHG4CollimatorSteppingAction.html#acdeaffcb675f67dcce07d460cf279ee1',1,'PHG4CollimatorSteppingAction::active()'],['../d6/d41/classPHG4ConeDetector.html#a9a3cc349de5d89f4e5cbdef75f34dccd',1,'PHG4ConeDetector::active()'],['../d8/d6e/classPHG4ConeSubsystem.html#a5515ae2981262c01915471659239dd79',1,'PHG4ConeSubsystem::active()'],['../da/d58/classPHG4CylinderSteppingAction.html#aba2cfaf400736ad62b59cd7ed7dda942',1,'PHG4CylinderSteppingAction::active()'],['../d9/d14/classPHG4E1039InsensSteppingAction.html#ab3b705df72976d4aafcc2cfd094cbf68',1,'PHG4E1039InsensSteppingAction::active()'],['../d3/d3d/classPHG4PolyconSteppingAction.html#a9362d6c672ed6303d2277d394c37b5f0',1,'PHG4PolyconSteppingAction::active()'],['../dc/d4f/classPHG4SquareTubeSteppingAction.html#aa37d9833893603b7ea5799c56e75f0da',1,'PHG4SquareTubeSteppingAction::active()'],['../db/d00/classPHG4TargetCoilSteppingAction.html#abc26b80e7917e68dea600a065b3be846',1,'PHG4TargetCoilSteppingAction::active()'],['../d0/dc8/classPHG4TargetCoilV2SteppingAction.html#a4f1b74930c0b633e957f5e184fd384bc',1,'PHG4TargetCoilV2SteppingAction::active()'],['../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ab669d2170cecec4c7f4dcfa25c8752be',1,'SQG4DipoleMagnetSteppingAction::active()']]],
   ['active_5fdecayer_5f',['active_decayer_',['../d0/d78/classPHG4Reco.html#aaa1e4dec37dd46ff3c428c1f267e5700',1,'PHG4Reco']]],
   ['active_5fforce_5fdecay_5f',['active_force_decay_',['../d0/d78/classPHG4Reco.html#a6996ffafba25ab275e546b325d4b2434',1,'PHG4Reco']]],
   ['adc_5fzbin',['adc_zbin',['../dc/d94/classPHG4CylinderCellTPCReco.html#afc75b19d5b25723c35243176832cfd35',1,'PHG4CylinderCellTPCReco']]],
@@ -14,7 +9,6 @@ var searchData=
   ['add_5for_5fremove',['add_or_remove',['../dc/dab/classFun4AllEventOutStream.html#a0740d733bc7bc2fae2f80bcc2d783163',1,'Fun4AllEventOutStream']]],
   ['addpktrange',['addpktrange',['../dc/dab/classFun4AllEventOutStream.html#ab9ba8dd0eef67de77010b9d30bbdb793',1,'Fun4AllEventOutStream']]],
   ['addpointertoname',['addPointerToName',['../dd/db5/classPHG4GDMLWrite.html#add754b306f9390fa5a15a8d2120a49d8',1,'PHG4GDMLWrite']]],
-  ['afterhit',['afterhit',['../d5/dda/classEventReducer.html#a30b5a23c3f3067e363457a8249b62614',1,'EventReducer']]],
   ['afterinhmatrix',['AfterInhMATRIX',['../d2/d31/structEventInfo.html#aaecf95f2b7bc10e655310eb9ff849149',1,'EventInfo']]],
   ['ajpsi',['ajpsi',['../d2/da1/namespaceDPGEN.html#a2682c11ce16bf943da85c39bd6d411d2',1,'DPGEN']]],
   ['angle_5ffrom_5fvert',['angle_from_vert',['../d6/d90/structGeomParamPlane_1_1Plane.html#ac05777841edd18e7951a7e1c6340d0e8',1,'GeomParamPlane::Plane']]],

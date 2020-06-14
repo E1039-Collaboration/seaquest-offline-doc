@@ -27,11 +27,5 @@ var classRunParamBase =
     [ "WriteRangeToDB", "db/d8a/classRunParamBase.html#a15b5bce0a44515a4d6e55698a1f5f2b0", null ],
     [ "WriteToDB", "db/d8a/classRunParamBase.html#a0e3b99356e38f4e79d30cbb3a30f44ff", null ],
     [ "WriteToFile", "db/d8a/classRunParamBase.html#a4510366c99232fefdffda2af89b5232d", null ],
-    [ "WriteToLocalFile", "db/d8a/classRunParamBase.html#a9cbea36e938b05b0e9ce5def455c4e61", null ],
-    [ "m_dir_base", "db/d8a/classRunParamBase.html#a7954af2f27e1b87e63a4eb80112513f1", null ],
-    [ "m_header", "db/d8a/classRunParamBase.html#ad03e1f4a0ba3b70dc72862be6006f91d", null ],
-    [ "m_label", "db/d8a/classRunParamBase.html#a3eb0085d45e33167d6eaa04b4ea5d8ac", null ],
-    [ "m_map_id", "db/d8a/classRunParamBase.html#a5b126e522cbf4f83932ac6e5e747794c", null ],
-    [ "m_range", "db/d8a/classRunParamBase.html#ad4f9095aa146b2f8ebc1e95c1af09717", null ],
-    [ "m_type", "db/d8a/classRunParamBase.html#af2ca3e608e742a7c1e5d562dd240a93c", null ]
+    [ "WriteToLocalFile", "db/d8a/classRunParamBase.html#a9cbea36e938b05b0e9ce5def455c4e61", null ]
 ];

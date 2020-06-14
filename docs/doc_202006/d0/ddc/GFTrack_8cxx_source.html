@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -141,12 +139,12 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a338093580415312f97ebd45765b1f7b0">   26</a></span>&#160;<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a338093580415312f97ebd45765b1f7b0">GFTrack::~GFTrack</a>()</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a> != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keywordflow">if</span>(_track != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _track;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce">   31</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce">GFTrack::setVerbosity</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">_trkrep</a> != <span class="keyword">nullptr</span>) <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">_trkrep</a>-&gt;setDebugLvl(v);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">if</span>(_trkrep != <span class="keyword">nullptr</span>) _trkrep-&gt;setDebugLvl(v);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5">   36</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5">GFTrack::addMeasurements</a>(std::vector&lt;GFMeasurement*&gt;&amp; measurements)</div>
@@ -162,17 +160,17 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  measurement-&gt;<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#a56058c0c023f6ced2dbe91bf21fd6a17">setTrackPtr</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  genfit::TrackPoint* tp = <span class="keyword">new</span> genfit::TrackPoint(measurement, <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  genfit::TrackPoint* tp = <span class="keyword">new</span> genfit::TrackPoint(measurement, _track);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  tp-&gt;setSortingParameter(measurement-&gt;<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#aeb80fc6239682770165f1094a78e6ff7">getZ</a>());</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;insertPoint(tp);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  _track-&gt;insertPoint(tp);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a78fc424bb4897352c3e61d11f139f9a4">   54</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a78fc424bb4897352c3e61d11f139f9a4">GFTrack::getChi2</a>()</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">if</span>(rep)</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    genfit::FitStatus* fs = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getFitStatus(rep);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    genfit::FitStatus* fs = _track-&gt;getFitStatus(rep);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">if</span>(fs) <span class="keywordflow">return</span> fs-&gt;getChi2();</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  </div>
@@ -181,10 +179,10 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a041e6d9185b46011b7918a2e9aaa5cbb">   66</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a041e6d9185b46011b7918a2e9aaa5cbb">GFTrack::getNDF</a>()</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">if</span>(rep)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    genfit::FitStatus* fs = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getFitStatus(rep);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    genfit::FitStatus* fs = _track-&gt;getFitStatus(rep);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span>(fs) <span class="keywordflow">return</span> fs-&gt;getNdf();</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  </div>
@@ -194,19 +192,19 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a3346d5421801fc75167936da61a23dd8">   78</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a3346d5421801fc75167936da61a23dd8">GFTrack::getNearestMeasurementID</a>(<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* meas)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordtype">double</span> z = meas-&gt;<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#aeb80fc6239682770165f1094a78e6ff7">getZ</a>();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">if</span>(z &lt; <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.front()-&gt;getZ())</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">if</span>(z &lt; _measurements.front()-&gt;getZ())</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(z &gt; <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.back()-&gt;getZ())</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(z &gt; _measurements.back()-&gt;getZ())</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.size() - 1;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> _measurements.size() - 1;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">auto</span> iter = std::lower_bound(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(), <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.end(), meas, [](<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* a, <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* b) { <span class="keywordflow">return</span> (a-&gt;getZ() &lt; b-&gt;getZ()); });</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">int</span> idx = std::distance(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(), iter);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> fabs(z - <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>[idx]-&gt;getZ()) &lt; fabs(z - <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>[idx-1]-&gt;getZ()) ? idx : idx-1;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keyword">auto</span> iter = std::lower_bound(_measurements.begin(), _measurements.end(), meas, [](<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* a, <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* b) { <span class="keywordflow">return</span> (a-&gt;getZ() &lt; b-&gt;getZ()); });</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">int</span> idx = std::distance(_measurements.begin(), iter);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> fabs(z - _measurements[idx]-&gt;getZ()) &lt; fabs(z - _measurements[idx-1]-&gt;getZ()) ? idx : idx-1;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
@@ -215,10 +213,10 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  TVector3 linePoint = (endPoint2 + endPoint1);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  TVector3 lineDir = endPoint2 - endPoint1;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">setInitialStateForExtrap</a>(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  <span class="keywordflow">if</span>(!setInitialStateForExtrap(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToLine(*<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>, linePoint, lineDir);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToLine(*_propState, linePoint, lineDir);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  TVectorD hitcoord(7);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  hitcoord[0] = endPoint1.X();</div>
@@ -230,7 +228,7 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  hitcoord[6] = 0.;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  TMatrixDSym tempcov(7);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;  tempcov.Zero();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aea4e89963965744b72ec7a3880aae05d">_virtMeas</a>.reset(<span class="keyword">new</span> genfit::WireMeasurement(hitcoord, tempcov, 999, 999, <span class="keyword">nullptr</span>));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  _virtMeas.reset(<span class="keyword">new</span> genfit::WireMeasurement(hitcoord, tempcov, 999, 999, <span class="keyword">nullptr</span>));</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  <span class="keywordflow">return</span> len;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
@@ -239,10 +237,10 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  genfit::SharedPlanePtr destPlane(<span class="keyword">new</span> genfit::DetPlane(pO, pU, pV));</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">setInitialStateForExtrap</a>(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordflow">if</span>(!setInitialStateForExtrap(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToPlane(*<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>, destPlane);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToPlane(*_propState, destPlane);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  TVectorD hitcoord(2);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  hitcoord[0] = pO.X();</div>
@@ -252,17 +250,17 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  genfit::PlanarMeasurement* pMeas = <span class="keyword">new</span> genfit::PlanarMeasurement(hitcoord, tempcov, 998, 998, <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  pMeas-&gt;setPlane(destPlane);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aea4e89963965744b72ec7a3880aae05d">_virtMeas</a>.reset(pMeas);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  _virtMeas.reset(pMeas);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="keywordflow">return</span> len;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;}</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
 <div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aabd9a51b3afdeb42d9e28303bfa7495e">  144</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aabd9a51b3afdeb42d9e28303bfa7495e">GFTrack::extrapolateToPoint</a>(TVector3&amp; point, <span class="keywordtype">bool</span> update, <span class="keyword">const</span> <span class="keywordtype">int</span> startPtID)</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;{</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">setInitialStateForExtrap</a>(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="keywordflow">if</span>(!setInitialStateForExtrap(startPtID)) <span class="keywordflow">return</span> -9999.;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToPoint(*<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>, point);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordtype">double</span> len = rep-&gt;extrapolateToPoint(*_propState, point);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">//TODO: implement the virtual spacepoint measurement here</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
@@ -272,11 +270,11 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5">  156</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5">GFTrack::updatePropState</a>(<span class="keyword">const</span> TVectorD&amp; meas, <span class="keyword">const</span> TMatrixDSym&amp; V)</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="comment">//get the H matrix from measurement</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  std::unique_ptr&lt;const genfit::AbsHMatrix&gt; H(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aea4e89963965744b72ec7a3880aae05d">_virtMeas</a>-&gt;constructHMatrix(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>-&gt;getRep()));</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  std::unique_ptr&lt;const genfit::AbsHMatrix&gt; H(_virtMeas-&gt;constructHMatrix(_propState-&gt;getRep()));</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="comment">//Handcrafted KF</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  TVectorD stateVec(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>-&gt;getState());</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  TMatrixDSym cov(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>-&gt;getCov());</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  TVectorD stateVec(_propState-&gt;getState());</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  TMatrixDSym cov(_propState-&gt;getCov());</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordtype">double</span> chi2 = 9999.;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordtype">double</span> ndf = meas.GetNrows();</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
@@ -292,7 +290,7 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  stateVec += update;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  covSumInv.Similarity(CHt);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  cov -= covSumInv;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>-&gt;setStateCov(stateVec, cov);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  _propState-&gt;setStateCov(stateVec, cov);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="comment">//calc chi2</span></div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  TVectorD resNew(meas - H-&gt;Hv(stateVec));</div>
@@ -306,23 +304,23 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">return</span> chi2/ndf;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">  193</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">GFTrack::setInitialStateForExtrap</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> startPtID)</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<span class="keywordtype">bool</span> GFTrack::setInitialStateForExtrap(<span class="keyword">const</span> <span class="keywordtype">int</span> startPtID)</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;{</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  genfit::AbsTrackRep* rep = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getCardinalRep();</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  genfit::TrackPoint*   tp = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getPointWithMeasurementAndFitterInfo(startPtID, rep);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  genfit::AbsTrackRep* rep = _track-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  genfit::TrackPoint*   tp = _track-&gt;getPointWithMeasurementAndFitterInfo(startPtID, rep);</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  <span class="keywordflow">if</span>(tp == <span class="keyword">nullptr</span>) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  genfit::KalmanFitterInfo* info = <span class="keyword">static_cast&lt;</span>genfit::KalmanFitterInfo*<span class="keyword">&gt;</span>(tp-&gt;getFitterInfo(rep));</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">_propState</a>.reset(<span class="keyword">new</span> genfit::MeasuredStateOnPlane(info-&gt;getFittedState()));</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  _propState.reset(<span class="keyword">new</span> genfit::MeasuredStateOnPlane(info-&gt;getFittedState()));</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;}</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
 <div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8">  205</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8">GFTrack::setTracklet</a>(<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>&amp; tracklet, <span class="keywordtype">double</span> z_reference, <span class="keywordtype">bool</span> wildseedcov)</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;{</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ae88b0da96610b0ca989b739f27770834">_trkcand</a> = &amp;tracklet;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#afff93eee29f73d285f37e068ed58e332">_pdg</a> = tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a1f2be06375c110356dabc35f1033ea73">getCharge</a>() &gt; 0 ? -13 : 13;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">_trkrep</a> = <span class="keyword">new</span> genfit::RKTrackRep(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#afff93eee29f73d285f37e068ed58e332">_pdg</a>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  _trkcand = &amp;tracklet;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  _pdg = tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a1f2be06375c110356dabc35f1033ea73">getCharge</a>() &gt; 0 ? -13 : 13;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  _trkrep = <span class="keyword">new</span> genfit::RKTrackRep(_pdg);</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  TVectorD seed_state(6);</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    </div>
@@ -349,26 +347,26 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  {</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">//Implement a smaller cov based on the chi^2 fit?</span></div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  }</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a> = <span class="keyword">new</span> genfit::Track(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">_trkrep</a>, seed_state, seed_cov);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  _track = <span class="keyword">new</span> genfit::Track(_trkrep, seed_state, seed_cov);</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.clear();</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  _measurements.clear();</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4">hits</a>.begin(); iter != tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4">hits</a>.end(); ++iter)</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  {</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;hit.index &lt; 0) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* meas = <span class="keyword">new</span> <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>(*iter);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.push_back(meas);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    _measurements.push_back(meas);</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  }</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  std::sort(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(), <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.end(), [](<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* a, <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* b) { <span class="keywordflow">return</span> (a-&gt;<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#aeb80fc6239682770165f1094a78e6ff7">getZ</a>() &lt; b-&gt;getZ()); });</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  std::sort(_measurements.begin(), _measurements.end(), [](<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* a, <a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">GFMeasurement</a>* b) { <span class="keywordflow">return</span> (a-&gt;<a class="code" href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#aeb80fc6239682770165f1094a78e6ff7">getZ</a>() &lt; b-&gt;getZ()); });</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5">addMeasurements</a>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5">addMeasurements</a>(_measurements);</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">checkConsistency</a>();</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;}</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
 <div class="line"><a name="l00252"></a><span class="lineno"><a class="line" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168">  252</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168">GFTrack::postFitUpdate</a>(<span class="keywordtype">bool</span> updateMeasurements)</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;{</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  <span class="keywordflow">if</span>(!updateMeasurements) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(); iter != <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.end(); ++iter)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = _measurements.begin(); iter != _measurements.end(); ++iter)</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  {</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    (*iter)-&gt;postFitUpdate();</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;  }</div>
@@ -380,7 +378,7 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  <span class="comment">//The following steps are pretty hacky and should be considered as only a temporary solution</span></div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> strack;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a531224aa6d35aac25811549534707d59">setChisq</a>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a78fc424bb4897352c3e61d11f139f9a4">getChi2</a>());</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(); iter != <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.end(); ++iter)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = _measurements.begin(); iter != _measurements.end(); ++iter)</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  {</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    strack.<a class="code" href="../../d6/db1/classSRecTrack.html#acf90300a77e5af7a464937b09ac3b8ae">insertHitIndex</a>((*iter)-&gt;getBeforeFitHit().hit.index);</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
@@ -519,30 +517,29 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;{</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;=============== SGTrack ===============&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;------------ Track candidate ----------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ae88b0da96610b0ca989b739f27770834">_trkcand</a>-&gt;<a class="code" href="../../d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4">print</a>();</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  _trkcand-&gt;<a class="code" href="../../d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4">print</a>();</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;------------ Fit status ---------------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getFitStatus(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">_trkrep</a>)-&gt;Print();</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  _track-&gt;getFitStatus(_trkrep)-&gt;Print();</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;------------ Fit Result ---------------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;getFittedState().Print();  <span class="comment">//default to the first hit</span></div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  _track-&gt;getFittedState().Print();  <span class="comment">//default to the first hit</span></div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  <span class="keywordflow">if</span>(debugLvl &lt; 1) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.begin(); iter != <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">_measurements</a>.end(); ++iter)</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = _measurements.begin(); iter != _measurements.end(); ++iter)</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;  {</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    (*iter)-&gt;print(debugLvl-1);</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;  }</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">if</span>(debugLvl &lt; 20) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;------------ GenFit Track ---------------&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">_track</a>-&gt;Print();</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;  _track-&gt;Print();</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;}</div>
 <div class="ttc" id="classSRecTrack_html_acf90300a77e5af7a464937b09ac3b8ae"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#acf90300a77e5af7a464937b09ac3b8ae">SRecTrack::insertHitIndex</a></div><div class="ttdeci">void insertHitIndex(Int_t index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00097">SRecEvent.h:97</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a4c47a82cf378aae1787e2dc4d168b658"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658">SQGenFit::GFTrack::getSRecTrack</a></div><div class="ttdeci">SRecTrack getSRecTrack()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00261">GFTrack.cxx:261</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a4dd87de212d933e555eaeb2e7b2f3503"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a4dd87de212d933e555eaeb2e7b2f3503">SRecTrack::insertChisq</a></div><div class="ttdeci">void insertChisq(Double_t chisq)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00101">SRecEvent.h:101</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_aa67e16d361faf260f1e986400220c8c5"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5">SQGenFit::GFTrack::_track</a></div><div class="ttdeci">genfit::Track * _track</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00062">GFTrack.h:62</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFMeasurement_html_a56058c0c023f6ced2dbe91bf21fd6a17"><div class="ttname"><a href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html#a56058c0c023f6ced2dbe91bf21fd6a17">SQGenFit::GFMeasurement::setTrackPtr</a></div><div class="ttdeci">void setTrackPtr(GFTrack *trackPtr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00060">GFMeasurement.cxx:60</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_af507321c9368e0da4ef4c58f1b083303"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">SQGenFit::GFTrack::checkConsistency</a></div><div class="ttdeci">void checkConsistency()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00046">GFTrack.h:46</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_ab7f060d1a32c45f6d49365ef6457c4f5"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5">SQGenFit::GFTrack::updatePropState</a></div><div class="ttdeci">double updatePropState(const TVectorD &amp;meas, const TMatrixDSym &amp;V)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00156">GFTrack.cxx:156</a></div></div>
@@ -569,22 +566,15 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 <div class="ttc" id="classTracklet_html_ae35d72a1a17879f996f97a31df948db4"><div class="ttname"><a href="../../d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4">Tracklet::print</a></div><div class="ttdeci">void print(std::ostream &amp;os=std::cout)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d06/FastTracklet_8cxx_source.html#l01044">FastTracklet.cxx:1044</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a18b038ca69416737b2276b8580d343e1"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a18b038ca69416737b2276b8580d343e1">SQGenFit::GFTrack::extrapolateToPlane</a></div><div class="ttdeci">double extrapolateToPlane(TVector3 &amp;pO, TVector3 &amp;pU, TVector3 &amp;pV, const int startPtID=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00122">GFTrack.cxx:122</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFMeasurement_html"><div class="ttname"><a href="../../d4/d9d/classSQGenFit_1_1GFMeasurement.html">SQGenFit::GFMeasurement</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/GFMeasurement_8h_source.html#l00013">GFMeasurement.h:13</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_abe2c593cddfb9d5224dfe28d778bd637"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637">SQGenFit::GFTrack::_propState</a></div><div class="ttdeci">std::unique_ptr&lt; genfit::MeasuredStateOnPlane &gt; _propState</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00066">GFTrack.h:66</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a3c58a85e0b91e6d047bfd483fce664f4"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a3c58a85e0b91e6d047bfd483fce664f4">SQGenFit::GFTrack::addMeasurement</a></div><div class="ttdeci">void addMeasurement(GFMeasurement *measurement)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00045">GFTrack.cxx:45</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a2a0f27f6d51c7ebf4c9fca7f9d7e19ce"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce">SQGenFit::GFTrack::setVerbosity</a></div><div class="ttdeci">void setVerbosity(unsigned int v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00031">GFTrack.cxx:31</a></div></div>
 <div class="ttc" id="classTracklet_html_a1584bfb98531085b02b043a7d7b09db4"><div class="ttname"><a href="../../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4">Tracklet::hits</a></div><div class="ttdeci">std::list&lt; SignedHit &gt; hits</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00227">FastTracklet.h:227</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_ae88b0da96610b0ca989b739f27770834"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ae88b0da96610b0ca989b739f27770834">SQGenFit::GFTrack::_trkcand</a></div><div class="ttdeci">Tracklet * _trkcand</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00070">GFTrack.h:70</a></div></div>
 <div class="ttc" id="classTracklet_html"><div class="ttname"><a href="../../d2/d26/classTracklet.html">Tracklet</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00123">FastTracklet.h:123</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a1eaa297aa217bbce2e5e8608db4705b5"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5">SQGenFit::GFTrack::addMeasurements</a></div><div class="ttdeci">void addMeasurements(std::vector&lt; GFMeasurement * &gt; &amp;measurements)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00036">GFTrack.cxx:36</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_acb2c51e569d06481fb23a5d51de6caed"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed">SQGenFit::GFTrack::_measurements</a></div><div class="ttdeci">std::vector&lt; GFMeasurement * &gt; _measurements</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00063">GFTrack.h:63</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_ae33e1158068ee975ecd9d33343609bd6"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ae33e1158068ee975ecd9d33343609bd6">SQGenFit::GFTrack::getCharge</a></div><div class="ttdeci">int getCharge()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00034">GFTrack.h:34</a></div></div>
 <div class="ttc" id="classTracklet_html_acb810c814bd5881c5d723158f2f349d7"><div class="ttname"><a href="../../d2/d26/classTracklet.html#acb810c814bd5881c5d723158f2f349d7">Tracklet::getExpMomentum</a></div><div class="ttdeci">TVector3 getExpMomentum(double z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d06/FastTracklet_8cxx_source.html#l00584">FastTracklet.cxx:584</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_af38f921f2cff361c579722da779acc87"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87">SQGenFit::GFTrack::setInitialStateForExtrap</a></div><div class="ttdeci">bool setInitialStateForExtrap(const int startPtID=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00193">GFTrack.cxx:193</a></div></div>
 <div class="ttc" id="SRawEvent_8h_html"><div class="ttname"><a href="../../db/dda/SRawEvent_8h.html">SRawEvent.h</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a7ae8a09e431b0a75bb631a1779383cae"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a7ae8a09e431b0a75bb631a1779383cae">SQGenFit::GFTrack::GFTrack</a></div><div class="ttdeci">GFTrack()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00023">GFTrack.cxx:23</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_ac840055c842f851d3424c5083112a356"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356">SQGenFit::GFTrack::_trkrep</a></div><div class="ttdeci">genfit::AbsTrackRep * _trkrep</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00061">GFTrack.h:61</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_afff93eee29f73d285f37e068ed58e332"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#afff93eee29f73d285f37e068ed58e332">SQGenFit::GFTrack::_pdg</a></div><div class="ttdeci">int _pdg</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00071">GFTrack.h:71</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_aea4e89963965744b72ec7a3880aae05d"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aea4e89963965744b72ec7a3880aae05d">SQGenFit::GFTrack::_virtMeas</a></div><div class="ttdeci">std::unique_ptr&lt; genfit::AbsMeasurement &gt; _virtMeas</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00067">GFTrack.h:67</a></div></div>
 <div class="ttc" id="classSRecTrack_html_a6babb2f9c10d3c28375433436388c480"><div class="ttname"><a href="../../d6/db1/classSRecTrack.html#a6babb2f9c10d3c28375433436388c480">SRecTrack::setChisqTarget</a></div><div class="ttdeci">void setChisqTarget(Double_t chisq)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00157">SRecEvent.h:157</a></div></div>
 <div class="ttc" id="GlobalConsts_8h_html_aad6b76d294bb644fbbf59a49e56d257b"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#aad6b76d294bb644fbbf59a49e56d257b">Z_TARGET</a></div><div class="ttdeci">#define Z_TARGET</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00058">GlobalConsts.h:58</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html_a338093580415312f97ebd45765b1f7b0"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a338093580415312f97ebd45765b1f7b0">SQGenFit::GFTrack::~GFTrack</a></div><div class="ttdeci">~GFTrack()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddc/GFTrack_8cxx_source.html#l00026">GFTrack.cxx:26</a></div></div>
@@ -605,7 +595,7 @@ $(document).ready(function(){initNavTree('d0/ddc/GFTrack_8cxx_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_2fc89f0a6e4d1b1c08f5a2b3f2469cd0.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_bfbda1860e73dbb398db847b971277c1.html">SQGenFit</a></li><li class="navelem"><a class="el" href="../../d0/ddc/GFTrack_8cxx.html">GFTrack.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:56</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

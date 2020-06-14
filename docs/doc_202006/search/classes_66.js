@@ -5,7 +5,6 @@ var searchData=
   ['filtersimevent',['FilterSimEvent',['../d5/db4/classFilterSimEvent.html',1,'']]],
   ['flagsave',['FlagSave',['../d3/da3/classFlagSave.html',1,'']]],
   ['flagsavev1',['FlagSavev1',['../da/db3/classFlagSavev1.html',1,'']]],
-  ['frequency',['Frequency',['../d2/db1/classPHTimer_1_1Frequency.html',1,'PHTimer']]],
   ['fun4allbase',['Fun4AllBase',['../d5/dec/classFun4AllBase.html',1,'']]],
   ['fun4alldstinputmanager',['Fun4AllDstInputManager',['../d7/d0b/classFun4AllDstInputManager.html',1,'']]],
   ['fun4alldstoutputmanager',['Fun4AllDstOutputManager',['../da/daa/classFun4AllDstOutputManager.html',1,'']]],

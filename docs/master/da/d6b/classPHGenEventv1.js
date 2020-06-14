@@ -12,15 +12,9 @@ var classPHGenEventv1 =
     [ "identify", "da/d6b/classPHGenEventv1.html#a462708666b42781de42b9ca487bbea17", null ],
     [ "particles_size", "da/d6b/classPHGenEventv1.html#a91b02a3b1a28f17ba6446d4dd2d22d1c", null ],
     [ "print", "da/d6b/classPHGenEventv1.html#af8bdf4fdbb7d397fc503ab3fef1ce6c4", null ],
-    [ "refresh", "da/d6b/classPHGenEventv1.html#af4a503c6947445916148bd68165f4efc", null ],
     [ "Reset", "da/d6b/classPHGenEventv1.html#a503a190d1fedb77f8407174dfef6f77a", null ],
     [ "set_event", "da/d6b/classPHGenEventv1.html#a068fa817ddf19250eaedc513ec0a6a7a", null ],
     [ "set_event", "da/d6b/classPHGenEventv1.html#a3d4b5753d6d0de0a22a94e9a5733bbc9", null ],
     [ "set_id", "da/d6b/classPHGenEventv1.html#afdd16f4d9a5759cc7301d22923854b7c", null ],
-    [ "stale", "da/d6b/classPHGenEventv1.html#a5a1d747c83dfdb3cc7bcf4686590a448", null ],
-    [ "vertices_size", "da/d6b/classPHGenEventv1.html#a2a9e95022d43fad8bee21b4eb79891fc", null ],
-    [ "_event", "da/d6b/classPHGenEventv1.html#a25cdb39e4c89eb4b9b5e4ea236bf44ff", null ],
-    [ "_event_record", "da/d6b/classPHGenEventv1.html#a7a321840a85eae7a5dd87e225c1868c0", null ],
-    [ "_id", "da/d6b/classPHGenEventv1.html#a6b303d66dfe3c5a0be9a8f896f3f1700", null ],
-    [ "_stale", "da/d6b/classPHGenEventv1.html#aa9cdb0f318e0e3f60729b744fce667f6", null ]
+    [ "vertices_size", "da/d6b/classPHGenEventv1.html#a2a9e95022d43fad8bee21b4eb79891fc", null ]
 ];

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -321,7 +319,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <span class="keywordflow">return</span> stmt;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;}</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
-<div class="line"><a name="l00218"></a><span class="lineno"><a class="line" href="../../d2/da4/classDbSvc.html#a03163897a1bcd9447653c54132624f6f">  218</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/da4/classDbSvc.html#a03163897a1bcd9447653c54132624f6f">DbSvc::SelectServer</a>()</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="keywordtype">void</span> DbSvc::SelectServer()</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;{</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  <span class="keywordflow">if</span>      (m_svr_id == DB1 ) m_svr = <span class="stringliteral">&quot;e906-db1.fnal.gov&quot;</span>;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (m_svr_id == DB2 ) m_svr = <span class="stringliteral">&quot;e906-db2.fnal.gov&quot;</span>;</div>
@@ -335,7 +333,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  }</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;}</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
-<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="../../d2/da4/classDbSvc.html#a73d4b11969d0079093ebc6cae9d60049">  232</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/da4/classDbSvc.html#a73d4b11969d0079093ebc6cae9d60049">DbSvc::ConnectServer</a>()</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="keywordtype">void</span> DbSvc::ConnectServer()</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;{</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  ostringstream oss;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;mysql://&quot;</span> &lt;&lt; m_svr &lt;&lt; <span class="stringliteral">&quot;/?reconnect=1&amp;cnf_file=&quot;</span> &lt;&lt; m_my_cnf;</div>
@@ -360,7 +358,6 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;  type   = m_type  [idx];</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  is_key = m_is_key[idx];</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div>
-<div class="ttc" id="classDbSvc_html_a03163897a1bcd9447653c54132624f6f"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a03163897a1bcd9447653c54132624f6f">DbSvc::SelectServer</a></div><div class="ttdeci">void SelectServer()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00218">DbSvc.cc:218</a></div></div>
 <div class="ttc" id="classDbSvc_1_1VarList_html_af185efd235b2f0d00093b403fee2c57f"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">DbSvc::VarList::Get</a></div><div class="ttdeci">void Get(const int idx, std::string &amp;name, std::string &amp;type, bool &amp;is_key) const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00252">DbSvc.cc:252</a></div></div>
 <div class="ttc" id="classDbSvc_html_ac816f917a8d4bea6f8257f91740ca688"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688">DbSvc::UsrId_t</a></div><div class="ttdeci">UsrId_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00012">DbSvc.h:12</a></div></div>
 <div class="ttc" id="classDbSvc_html_a7e4cc05e20e0a21eef9c185c34c51044"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a7e4cc05e20e0a21eef9c185c34c51044">DbSvc::UseSchema</a></div><div class="ttdeci">void UseSchema(const char *name, const bool do_create=false, const bool do_drop=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc.cc:82</a></div></div>
@@ -373,7 +370,6 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="ttc" id="DbSvc_8cc_html_a796d6df1ba630b2c252c5ca036bd3034"><div class="ttname"><a href="../../da/d4b/DbSvc_8cc.html#a796d6df1ba630b2c252c5ca036bd3034">FileExist</a></div><div class="ttdeci">bool FileExist(const std::string fileName)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00018">DbSvc.cc:18</a></div></div>
 <div class="ttc" id="classDbSvc_html_abc037dbd5084422aacdfa76bd0e8d2b7"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#abc037dbd5084422aacdfa76bd0e8d2b7">DbSvc::CreateTable</a></div><div class="ttdeci">void CreateTable(const std::string name, const std::vector&lt; std::string &gt; list_var, const std::vector&lt; std::string &gt; list_type, const std::vector&lt; std::string &gt; list_key)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00132">DbSvc.cc:132</a></div></div>
 <div class="ttc" id="classDbSvc_1_1VarList_html_ac68f13573a99eb9d4b23d3632377fc0f"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#ac68f13573a99eb9d4b23d3632377fc0f">DbSvc::VarList::Size</a></div><div class="ttdeci">unsigned int Size() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00018">DbSvc.h:18</a></div></div>
-<div class="ttc" id="classDbSvc_html_a73d4b11969d0079093ebc6cae9d60049"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a73d4b11969d0079093ebc6cae9d60049">DbSvc::ConnectServer</a></div><div class="ttdeci">void ConnectServer()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00232">DbSvc.cc:232</a></div></div>
 <div class="ttc" id="classDbSvc_html_af7e30673551b9cbc6d0ad9e37e4ec35b"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#af7e30673551b9cbc6d0ad9e37e4ec35b">DbSvc::HasTable</a></div><div class="ttdeci">bool HasTable(const char *name, const bool exit_on_false=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00122">DbSvc.cc:122</a></div></div>
 <div class="ttc" id="classDbSvc_html_a0013281a909be870df1f80bfeb5f1b56"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a0013281a909be870df1f80bfeb5f1b56">DbSvc::~DbSvc</a></div><div class="ttdeci">~DbSvc()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00077">DbSvc.cc:77</a></div></div>
 <div class="ttc" id="classDbSvc_html_a7a6da517bc72f88c593f1102378dfdba"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a7a6da517bc72f88c593f1102378dfdba">DbSvc::DropTable</a></div><div class="ttdeci">void DropTable(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00112">DbSvc.cc:112</a></div></div>
@@ -389,7 +385,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_70fbc567754c78c7943d3b6e8f1518e2.html">db_svc</a></li><li class="navelem"><a class="el" href="../../da/d4b/DbSvc_8cc.html">DbSvc.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

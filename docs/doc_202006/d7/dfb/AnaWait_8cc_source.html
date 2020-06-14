@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -152,10 +150,10 @@ $(document).ready(function(){initNavTree('d7/dfb/AnaWait_8cc_source.html','../..
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    id_pre = id;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<span class="keywordtype">id</span> != id_pre) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    id_pre = id;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;  AnaWait: &quot;</span> &lt;&lt; <a class="code" href="../../d5/d60/classAnaWait.html#a884b92484fc055f9873dddc03faf4198">m_wait_spill</a> &lt;&lt; <span class="stringliteral">&quot; sec.&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9">DoWait</a>(<a class="code" href="../../d5/d60/classAnaWait.html#a884b92484fc055f9873dddc03faf4198">m_wait_spill</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;  AnaWait: &quot;</span> &lt;&lt; m_wait_spill &lt;&lt; <span class="stringliteral">&quot; sec.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9">DoWait</a>(m_wait_spill);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9">DoWait</a>(<a class="code" href="../../d5/d60/classAnaWait.html#a4bf09b1f720d78b5f6246261b3e1a388">m_wait_event</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9">DoWait</a>(m_wait_event);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
@@ -172,7 +170,6 @@ $(document).ready(function(){initNavTree('d7/dfb/AnaWait_8cc_source.html','../..
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 <div class="ttc" id="AnaWait_8h_html"><div class="ttname"><a href="../../da/d72/AnaWait_8h.html">AnaWait.h</a></div></div>
 <div class="ttc" id="classAnaWait_html_aada362afa727f5ce115f9c33791bb017"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#aada362afa727f5ce115f9c33791bb017">AnaWait::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/AnaWait_8cc_source.html#l00048">AnaWait.cc:48</a></div></div>
-<div class="ttc" id="classAnaWait_html_a884b92484fc055f9873dddc03faf4198"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a884b92484fc055f9873dddc03faf4198">AnaWait::m_wait_spill</a></div><div class="ttdeci">int m_wait_spill</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d72/AnaWait_8h_source.html#l00006">AnaWait.h:6</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
 <div class="ttc" id="classAnaWait_html_a5f7e24b021ba446a9ec7557a2f844ca3"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a5f7e24b021ba446a9ec7557a2f844ca3">AnaWait::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/AnaWait_8cc_source.html#l00023">AnaWait.cc:23</a></div></div>
@@ -181,7 +178,6 @@ $(document).ready(function(){initNavTree('d7/dfb/AnaWait_8cc_source.html','../..
 <div class="ttc" id="classAnaWait_html_a41b305f5a8e05bac87cbebf41eb1f3f4"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a41b305f5a8e05bac87cbebf41eb1f3f4">AnaWait::~AnaWait</a></div><div class="ttdeci">virtual ~AnaWait()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/AnaWait_8cc_source.html#l00013">AnaWait.cc:13</a></div></div>
 <div class="ttc" id="classSQEvent_html"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html">SQEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00016">SQEvent.h:16</a></div></div>
 <div class="ttc" id="classAnaWait_html_a3766d7f32712b60a9331c1e935331cd9"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9">AnaWait::DoWait</a></div><div class="ttdeci">void DoWait(int sec)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/AnaWait_8cc_source.html#l00053">AnaWait.cc:53</a></div></div>
-<div class="ttc" id="classAnaWait_html_a4bf09b1f720d78b5f6246261b3e1a388"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a4bf09b1f720d78b5f6246261b3e1a388">AnaWait::m_wait_event</a></div><div class="ttdeci">int m_wait_event</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d72/AnaWait_8h_source.html#l00007">AnaWait.h:7</a></div></div>
 <div class="ttc" id="classAnaWait_html_a6dcc5693ad57c0a47800c86fde1841f3"><div class="ttname"><a href="../../d5/d60/classAnaWait.html#a6dcc5693ad57c0a47800c86fde1841f3">AnaWait::AnaWait</a></div><div class="ttdeci">AnaWait(const int sec_spill=30, const int sec_event=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/AnaWait_8cc_source.html#l00007">AnaWait.cc:7</a></div></div>
 <div class="ttc" id="Fun4AllReturnCodes_8h_html"><div class="ttname"><a href="../../da/dc1/Fun4AllReturnCodes_8h.html">Fun4AllReturnCodes.h</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes.h:7</a></div></div>
@@ -197,7 +193,7 @@ $(document).ready(function(){initNavTree('d7/dfb/AnaWait_8cc_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_a95975a7d021972a796996e0e81f39b2.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../d7/dfb/AnaWait_8cc.html">AnaWait.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

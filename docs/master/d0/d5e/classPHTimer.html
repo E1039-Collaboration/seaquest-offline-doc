@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -117,9 +115,6 @@ $(document).ready(function(){initNavTree('d0/d5e/classPHTimer.html','../../');})
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d7/d4d/classPHTimer-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">PHTimer Class Reference</div>  </div>
@@ -130,24 +125,7 @@ $(document).ready(function(){initNavTree('d0/d5e/classPHTimer.html','../../');})
  <a href="../../d0/d5e/classPHTimer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../dc/d26/PHTimer_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/framework/phool/PHTimer.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for PHTimer:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d0e/classPHTimer__coll__graph.svg" width="439" height="235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db1/classPHTimer_1_1Frequency.html">Frequency</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">internal frequency read from cpu information file  <a href="../../d2/db1/classPHTimer_1_1Frequency.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to store high precision time using two integers  <a href="../../dc/d23/structPHTimer_1_1time__struct.html#details">More...</a><br/></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:ab6cf2fd3cb7ca95ab0a16ae136d2ba51"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51">State</a> { <a class="el" href="../../d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51aea9399a8f2ba02d4e49e6be9c1efcdec">STOP</a> =0, 
@@ -205,45 +183,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ac0fd0e47b6cd0a290f3db3ee4dae3ab5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#ac0fd0e47b6cd0a290f3db3ee4dae3ab5">PRINT</a> (std::ostream &amp;os=std::cout, const std::string &amp;message=&quot;&quot;)</td></tr>
 <tr class="memdesc:ac0fd0e47b6cd0a290f3db3ee4dae3ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">print a message (formated) to a stream  <a href="#ac0fd0e47b6cd0a290f3db3ee4dae3ab5">More...</a><br/></td></tr>
 <tr class="separator:ac0fd0e47b6cd0a290f3db3ee4dae3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:aa92e3fe4a0a1799f39743eda9ef9d497"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#aa92e3fe4a0a1799f39743eda9ef9d497">get_clock_counts</a> (void)</td></tr>
-<tr class="memdesc:aa92e3fe4a0a1799f39743eda9ef9d497"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets time from cpu clock counts  <a href="#aa92e3fe4a0a1799f39743eda9ef9d497">More...</a><br/></td></tr>
-<tr class="separator:aa92e3fe4a0a1799f39743eda9ef9d497"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75ff2c27aba40e7ef0a934f9a3355c2"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2">get_difference</a> (const <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> &amp;, const <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> &amp;)</td></tr>
-<tr class="memdesc:aa75ff2c27aba40e7ef0a934f9a3355c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns difference between to time  <a href="#aa75ff2c27aba40e7ef0a934f9a3355c2">More...</a><br/></td></tr>
-<tr class="separator:aa75ff2c27aba40e7ef0a934f9a3355c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:adb06b0384013f7840aac6632dd091b13"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#adb06b0384013f7840aac6632dd091b13">_name</a></td></tr>
-<tr class="memdesc:adb06b0384013f7840aac6632dd091b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer name  <a href="#adb06b0384013f7840aac6632dd091b13">More...</a><br/></td></tr>
-<tr class="separator:adb06b0384013f7840aac6632dd091b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a161db8ebe4b8f394517af90c1db8a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#a8a161db8ebe4b8f394517af90c1db8a2">_state</a></td></tr>
-<tr class="memdesc:a8a161db8ebe4b8f394517af90c1db8a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">timer state  <a href="#a8a161db8ebe4b8f394517af90c1db8a2">More...</a><br/></td></tr>
-<tr class="separator:a8a161db8ebe4b8f394517af90c1db8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1771f1f7bcaf03171fb7e5c413f55f32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#a1771f1f7bcaf03171fb7e5c413f55f32">_start_time</a></td></tr>
-<tr class="memdesc:a1771f1f7bcaf03171fb7e5c413f55f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">start time structure  <a href="#a1771f1f7bcaf03171fb7e5c413f55f32">More...</a><br/></td></tr>
-<tr class="separator:a1771f1f7bcaf03171fb7e5c413f55f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9786a92c0d2908dd76700e9a3febd6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#a9786a92c0d2908dd76700e9a3febd6c8">_stop_time</a></td></tr>
-<tr class="memdesc:a9786a92c0d2908dd76700e9a3febd6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop time structure  <a href="#a9786a92c0d2908dd76700e9a3febd6c8">More...</a><br/></td></tr>
-<tr class="separator:a9786a92c0d2908dd76700e9a3febd6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab05b8a08be5e6ab9288c0b54fad21148"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#ab05b8a08be5e6ab9288c0b54fad21148">_accumulated_time</a></td></tr>
-<tr class="memdesc:ab05b8a08be5e6ab9288c0b54fad21148"><td class="mdescLeft">&#160;</td><td class="mdescRight">cumulated time  <a href="#ab05b8a08be5e6ab9288c0b54fad21148">More...</a><br/></td></tr>
-<tr class="separator:ab05b8a08be5e6ab9288c0b54fad21148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11666f29b084279ab6f1b38c6c2da14b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#a11666f29b084279ab6f1b38c6c2da14b">_ncycle</a></td></tr>
-<tr class="memdesc:a11666f29b084279ab6f1b38c6c2da14b"><td class="mdescLeft">&#160;</td><td class="mdescRight">number of restart/stop cycles  <a href="#a11666f29b084279ab6f1b38c6c2da14b">More...</a><br/></td></tr>
-<tr class="separator:a11666f29b084279ab6f1b38c6c2da14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:a1c9cade5d1f7aec53fc1a5c3ded8dced"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/db1/classPHTimer_1_1Frequency.html">Frequency</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#a1c9cade5d1f7aec53fc1a5c3ded8dced">_frequency</a> = <a class="el" href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a>()</td></tr>
-<tr class="memdesc:a1c9cade5d1f7aec53fc1a5c3ded8dced"><td class="mdescLeft">&#160;</td><td class="mdescRight">static frequency object  <a href="#a1c9cade5d1f7aec53fc1a5c3ded8dced">More...</a><br/></td></tr>
-<tr class="separator:a1c9cade5d1f7aec53fc1a5c3ded8dced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada456978c57c033ca370a31a4cec061a"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5e/classPHTimer.html#ada456978c57c033ca370a31a4cec061a">_twopower32</a> = pow(2,32)</td></tr>
-<tr class="memdesc:ada456978c57c033ca370a31a4cec061a"><td class="mdescLeft">&#160;</td><td class="mdescRight">to stores 2^32  <a href="#ada456978c57c033ca370a31a4cec061a">More...</a><br/></td></tr>
-<tr class="separator:ada456978c57c033ca370a31a4cec061a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>high precision timer </p>
@@ -300,8 +239,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00040">40</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00183">PHTimer::time_struct::_low</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00218">_stop_time</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -331,25 +268,15 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">116</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00215">_start_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">_state</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00218">_stop_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00191">get_clock_counts()</a>, <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00062">get_difference()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00032">RUN</a>.</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00032">RUN</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">print()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a976738876ad978116fdc4549a3765685_cgraph.svg" width="528" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a976738876ad978116fdc4549a3765685_icgraph.svg" width="515" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -383,112 +310,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00104">104</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">_accumulated_time</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aa92e3fe4a0a1799f39743eda9ef9d497"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> PHTimer::get_clock_counts </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>gets time from cpu clock counts </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00191">191</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00186">PHTimer::time_struct::_high</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00183">PHTimer::time_struct::_low</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00018">rdtsc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">restart()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_aa92e3fe4a0a1799f39743eda9ef9d497_icgraph.svg" width="710" height="416"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aa75ff2c27aba40e7ef0a934f9a3355c2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double PHTimer::get_difference </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> &amp;&#160;</td>
-          <td class="paramname"><em>t0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> &amp;&#160;</td>
-          <td class="paramname"><em>t1</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns difference between to time </p>
-
-<p>Definition at line <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00062">62</a> of file <a class="el" href="../../d2/d65/PHTimer_8cc_source.html">PHTimer.cc</a>.</p>
-
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00203">_frequency</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00186">PHTimer::time_struct::_high</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00183">PHTimer::time_struct::_low</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00206">_twopower32</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00157">PHTimer::Frequency::period()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>.</p>
-
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_aa75ff2c27aba40e7ef0a934f9a3355c2_cgraph.svg" width="358" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_aa75ff2c27aba40e7ef0a934f9a3355c2_icgraph.svg" width="723" height="351"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <a class="anchor" id="a24cbaff90a8b3fc118e0a09715f01ceb"></a>
@@ -516,8 +337,6 @@ Static Private Attributes</h2></td></tr>
 <p>get timer name </p>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00100">100</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">_name</a>.</p>
 
 </div>
 </div>
@@ -547,8 +366,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00108">108</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">_ncycle</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="acb41861905dc4c5b0c1903f94d4710ba"></a>
@@ -576,8 +393,6 @@ Static Private Attributes</h2></td></tr>
 <p>access timer state </p>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00036">36</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">_state</a>.</p>
 
 </div>
 </div>
@@ -607,8 +422,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00112">112</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">_accumulated_time</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">_ncycle</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a888198bd40c6e112b820d6b78406e3aa"></a>
@@ -637,25 +450,25 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">73</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">_name</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, and <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>.</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, and <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00124">test()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a888198bd40c6e112b820d6b78406e3aa_cgraph.svg" width="680" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a888198bd40c6e112b820d6b78406e3aa_cgraph.svg" width="286" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a888198bd40c6e112b820d6b78406e3aa_icgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -701,11 +514,11 @@ Static Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">print()</a>, <a class="el" href="../../dd/de2/PHTimeServer_8cc_source.html#l00090">PHTimeServer::print()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00082">print_stat()</a>, <a class="el" href="../../dd/de2/PHTimeServer_8cc_source.html#l00127">PHTimeServer::print_stat()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00124">test()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_ac0fd0e47b6cd0a290f3db3ee4dae3ab5_icgraph.svg" width="494" height="219"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -739,13 +552,13 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00082">82</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">_accumulated_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">_name</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">_ncycle</a>, and <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>.</p>
+<p>References <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a368d0ba41f3f57737731c4bfb545a954_cgraph.svg" width="312" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -776,17 +589,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">51</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">_accumulated_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00183">PHTimer::time_struct::_low</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">_ncycle</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00215">_start_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">_state</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00218">_stop_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00191">get_clock_counts()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00031">STOP</a>.</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_adf9fade669ec04ab6a1496c56ab170c7_cgraph.svg" width="302" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00031">STOP</a>.</p>
 
 </div>
 </div>
@@ -815,25 +618,15 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">70</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00215">_start_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">_state</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00191">get_clock_counts()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00032">RUN</a>.</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00032">RUN</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00020">PHG4PhenixEventAction::BeginOfEventAction()</a>, <a class="el" href="../../dc/d32/PHG4BlockCellReco_8cc_source.html#l00248">PHG4BlockCellReco::process_event()</a>, <a class="el" href="../../dd/da5/PHG4CylinderCellReco_8cc_source.html#l00330">PHG4CylinderCellReco::process_event()</a>, <a class="el" href="../../da/d12/PHG4CylinderCellTPCReco_8cc_source.html#l00278">PHG4CylinderCellTPCReco::process_event()</a>, <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00566">PHG4Reco::process_event()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00124">test()</a>.</p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a433d96c3401380d49ff01acfd16ac69c_cgraph.svg" width="310" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a433d96c3401380d49ff01acfd16ac69c_icgraph.svg" width="355" height="350"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -867,8 +660,6 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">_name</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="adce6f9a85834e59bd154b9c624ee4e41"></a>
@@ -896,25 +687,25 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">61</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">_accumulated_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">_ncycle</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">_state</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00218">_stop_time</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00191">get_clock_counts()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00031">STOP</a>.</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00031">STOP</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00039">PHG4PhenixEventAction::EndOfEventAction()</a>, <a class="el" href="../../dc/d32/PHG4BlockCellReco_8cc_source.html#l00248">PHG4BlockCellReco::process_event()</a>, <a class="el" href="../../dd/da5/PHG4CylinderCellReco_8cc_source.html#l00330">PHG4CylinderCellReco::process_event()</a>, <a class="el" href="../../da/d12/PHG4CylinderCellTPCReco_8cc_source.html#l00278">PHG4CylinderCellTPCReco::process_event()</a>, and <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00566">PHG4Reco::process_event()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_adce6f9a85834e59bd154b9c624ee4e41_cgraph.svg" width="680" height="110"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_adce6f9a85834e59bd154b9c624ee4e41_cgraph.svg" width="286" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_adce6f9a85834e59bd154b9c624ee4e41_icgraph.svg" width="344" height="299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -958,226 +749,17 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00124">124</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
 
-<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">_name</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">print()</a>, <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">restart()</a>.</p>
+<p>References <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">print()</a>, <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00075">PRINT()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">restart()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a01cc1f85cc7a3303d38cb5a7a2f0a749_cgraph.svg" width="840" height="146"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d5e/classPHTimer_a01cc1f85cc7a3303d38cb5a7a2f0a749_cgraph.svg" width="446" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ab05b8a08be5e6ab9288c0b54fad21148"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double PHTimer::_accumulated_time</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>cumulated time </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00221">221</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00104">get_accumulated_time()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00112">get_time_per_cycle()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00082">print_stat()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1c9cade5d1f7aec53fc1a5c3ded8dced"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a> PHTimer::_frequency = <a class="el" href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a>()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>static frequency object </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00203">203</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00062">get_difference()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adb06b0384013f7840aac6632dd091b13"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string PHTimer::_name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>timer name </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00209">209</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00100">get_name()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00073">print()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00082">print_stat()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00096">set_name()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00124">test()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a11666f29b084279ab6f1b38c6c2da14b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int PHTimer::_ncycle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>number of restart/stop cycles </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00224">224</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00108">get_ncycle()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00112">get_time_per_cycle()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00082">print_stat()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1771f1f7bcaf03171fb7e5c413f55f32"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> PHTimer::_start_time</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>start time structure </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00215">215</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">restart()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a8a161db8ebe4b8f394517af90c1db8a2"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d5e/classPHTimer.html#ab6cf2fd3cb7ca95ab0a16ae136d2ba51">State</a> PHTimer::_state</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>timer state </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00212">212</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00036">get_state()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00070">restart()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9786a92c0d2908dd76700e9a3febd6c8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dc/d23/structPHTimer_1_1time__struct.html">time_struct</a> PHTimer::_stop_time</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>stop time structure </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00218">218</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00116">elapsed()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00040">PHTimer()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00051">reset()</a>, and <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00061">stop()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ada456978c57c033ca370a31a4cec061a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double PHTimer::_twopower32 = pow(2,32)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>to stores 2^32 </p>
-
-<p>Definition at line <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00206">206</a> of file <a class="el" href="../../dc/d26/PHTimer_8h_source.html">PHTimer.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d2/d65/PHTimer_8cc_source.html#l00062">get_difference()</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +777,7 @@ Static Private Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d0/d5e/classPHTimer.html">PHTimer</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:51</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

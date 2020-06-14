@@ -3,7 +3,6 @@ var classboost_1_1shared__ptr =
     [ "element_type", "da/d18/classboost_1_1shared__ptr.html#ab268a0e0bb107869852ebda109afa85b", null ],
     [ "pointer", "da/d18/classboost_1_1shared__ptr.html#aa9ef239de25874ced292231d738b1eed", null ],
     [ "reference", "da/d18/classboost_1_1shared__ptr.html#a713e091c46ac2284e17688bc79b3e992", null ],
-    [ "this_type", "da/d18/classboost_1_1shared__ptr.html#a209496c954f7f4631dcabbc9003ddaab", null ],
     [ "value_type", "da/d18/classboost_1_1shared__ptr.html#afa7a8ee85f760c375d8abdcd3e578fdf", null ],
     [ "shared_ptr", "da/d18/classboost_1_1shared__ptr.html#a9c4af06145575abf5d3226e9bb1f0a9d", null ],
     [ "shared_ptr", "da/d18/classboost_1_1shared__ptr.html#adbf470dab626b01bacc2167273971ee1", null ],
@@ -39,7 +38,5 @@ var classboost_1_1shared__ptr =
     [ "use_count", "da/d18/classboost_1_1shared__ptr.html#a480fa4956e4977eff3091e16a0cf54f3", null ],
     [ "shared_ptr", "da/d18/classboost_1_1shared__ptr.html#ab2104fa6e839672da3c30400e8325e52", null ],
     [ "weak_ptr", "da/d18/classboost_1_1shared__ptr.html#a27df6e2a1650d985bdeda33f0303c83f", null ],
-    [ "__pad0__", "da/d18/classboost_1_1shared__ptr.html#a7761946231d5b303b3a5e8a6bd4e4931", null ],
-    [ "pn", "da/d18/classboost_1_1shared__ptr.html#a8b1ba90a97ebc4690caf42e4ec4de057", null ],
-    [ "px", "da/d18/classboost_1_1shared__ptr.html#adc6bf1a33855e1647c88084a4df0c463", null ]
+    [ "__pad0__", "da/d18/classboost_1_1shared__ptr.html#a7761946231d5b303b3a5e8a6bd4e4931", null ]
 ];

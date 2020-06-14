@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -125,7 +123,7 @@ $(document).ready(function(){initNavTree('dd/dfa/PHTFileServer_8cxx_source.html'
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//_________________________________________________</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#a59e93192660a2333e270075c93bb4178">PHTFileServer::SafeTFile::TFileMap</a> <a class="code" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#af3715e885fcf4753638bf3b979fc47b4">PHTFileServer::SafeTFile::_map</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;PHTFileServer::SafeTFile::TFileMap PHTFileServer::SafeTFile::_map;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//_________________________________________________</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d3/d2b/classPHTFileServer.html#adfad981fb056e34d6fe6bc34c8bc3e3d">   23</a></span>&#160;<a class="code" href="../../d3/d2b/classPHTFileServer.html#adfad981fb056e34d6fe6bc34c8bc3e3d">PHTFileServer::~PHTFileServer</a>( <span class="keywordtype">void</span> )</div>
@@ -155,7 +153,7 @@ $(document).ready(function(){initNavTree('dd/dfa/PHTFileServer_8cxx_source.html'
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    cout &lt;&lt;( what.str() )&lt;&lt;endl;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// create new SafeTFile; insert in map; change TDirectory</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html">SafeTFile</a> *file( <span class="keyword">new</span> <a class="code" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html">SafeTFile</a>( filename, type ) );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    SafeTFile *file( <span class="keyword">new</span> SafeTFile( filename, type ) );</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span>( !file-&gt;IsOpen() ) cout &lt;&lt;( <span class="stringliteral">&quot;PHTFileServer::open - error opening TFile&quot;</span> )&lt;&lt;endl;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    SafeTFile::file_map().insert( make_pair( filename, file ) );</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    file-&gt;cd();</div>
@@ -278,7 +276,7 @@ $(document).ready(function(){initNavTree('dd/dfa/PHTFileServer_8cxx_source.html'
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">//__________________________________________________________________________________</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#af59280f9ea2b4111fbdeab455d510492">  173</a></span>&#160;<a class="code" href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#af59280f9ea2b4111fbdeab455d510492">PHTFileServer::SafeTFile::~SafeTFile</a>( <span class="keywordtype">void</span> )</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;PHTFileServer::SafeTFile::~SafeTFile( <span class="keywordtype">void</span> )</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="comment">// see if TFile is still open</span></div>
@@ -309,13 +307,9 @@ $(document).ready(function(){initNavTree('dd/dfa/PHTFileServer_8cxx_source.html'
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
 <div class="ttc" id="classPHTFileServer_html_adfad981fb056e34d6fe6bc34c8bc3e3d"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#adfad981fb056e34d6fe6bc34c8bc3e3d">PHTFileServer::~PHTFileServer</a></div><div class="ttdeci">virtual ~PHTFileServer()</div><div class="ttdoc">destructor. All non close TFiles are closed, with a warning. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00023">PHTFileServer.cxx:23</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_a7f6bcc2c1d273dcd3f84f8d235dde7e2"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#a7f6bcc2c1d273dcd3f84f8d235dde7e2">PHTFileServer::flush</a></div><div class="ttdeci">bool flush(const std::string &amp;filename)</div><div class="ttdoc">flush TFile matching filename </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00060">PHTFileServer.cxx:60</a></div></div>
-<div class="ttc" id="classPHTFileServer_1_1SafeTFile_html_af3715e885fcf4753638bf3b979fc47b4"><div class="ttname"><a href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#af3715e885fcf4753638bf3b979fc47b4">PHTFileServer::SafeTFile::_map</a></div><div class="ttdeci">static TFileMap _map</div><div class="ttdoc">filename/SafeTFile map </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/PHTFileServer_8h_source.html#l00111">PHTFileServer.h:111</a></div></div>
-<div class="ttc" id="classPHTFileServer_1_1SafeTFile_html"><div class="ttname"><a href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html">PHTFileServer::SafeTFile</a></div><div class="ttdoc">local class to store TFile and counter </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/PHTFileServer_8h_source.html#l00073">PHTFileServer.h:73</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_a081621118101b14bf7eba52e5f8ed3a5"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#a081621118101b14bf7eba52e5f8ed3a5">PHTFileServer::write</a></div><div class="ttdeci">bool write(const std::string &amp;filename)</div><div class="ttdoc">if TFile is found in map and counter is 0, close the TFile, decrement counter otherwise ...</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00092">PHTFileServer.cxx:92</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_ac4e4f66af63e11c709628712c43c5dc9"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#ac4e4f66af63e11c709628712c43c5dc9">PHTFileServer::cd</a></div><div class="ttdeci">bool cd(const std::string &amp;filename)</div><div class="ttdoc">change to directory of TFile matching filename </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00076">PHTFileServer.cxx:76</a></div></div>
-<div class="ttc" id="classPHTFileServer_1_1SafeTFile_html_af59280f9ea2b4111fbdeab455d510492"><div class="ttname"><a href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#af59280f9ea2b4111fbdeab455d510492">PHTFileServer::SafeTFile::~SafeTFile</a></div><div class="ttdeci">virtual ~SafeTFile(void)</div><div class="ttdoc">destructor </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00173">PHTFileServer.cxx:173</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_a97e4129d0cae6dbf8545e729dcb10982"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#a97e4129d0cae6dbf8545e729dcb10982">PHTFileServer::close</a></div><div class="ttdeci">void close(void)</div><div class="ttdoc">close all TFiles </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00138">PHTFileServer.cxx:138</a></div></div>
-<div class="ttc" id="classPHTFileServer_1_1SafeTFile_html_a59e93192660a2333e270075c93bb4178"><div class="ttname"><a href="../../da/dbc/classPHTFileServer_1_1SafeTFile.html#a59e93192660a2333e270075c93bb4178">PHTFileServer::SafeTFile::TFileMap</a></div><div class="ttdeci">std::map&lt; std::string, SafeTFile * &gt; TFileMap</div><div class="ttdoc">shortcut for SafeTFile map </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/PHTFileServer_8h_source.html#l00097">PHTFileServer.h:97</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_aaae99c6748eb17d5f8d7df375bc6d615"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#aaae99c6748eb17d5f8d7df375bc6d615">PHTFileServer::open</a></div><div class="ttdeci">void open(const std::string &amp;filename, const std::string &amp;type=&quot;RECREATE&quot;)</div><div class="ttdoc">open a SafeTFile. If filename is not found in the map, create a new TFile and append to the map; incr...</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00029">PHTFileServer.cxx:29</a></div></div>
 <div class="ttc" id="PHTFileServer_8h_html"><div class="ttname"><a href="../../d6/de6/PHTFileServer_8h.html">PHTFileServer.h</a></div><div class="ttdoc">TFile clean handling. </div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -328,7 +322,7 @@ $(document).ready(function(){initNavTree('dd/dfa/PHTFileServer_8cxx_source.html'
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_68879e08c6651a210f7d5b44f4a6e313.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_55959d07b8989f6dfc505bf0b420a158.html">fun4all</a></li><li class="navelem"><a class="el" href="../../dd/dfa/PHTFileServer_8cxx.html">PHTFileServer.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:45</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

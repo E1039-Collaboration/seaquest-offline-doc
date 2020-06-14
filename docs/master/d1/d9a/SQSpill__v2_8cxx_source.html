@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -143,9 +141,9 @@ $(document).ready(function(){initNavTree('d1/d9a/SQSpill__v2_8cxx_source.html','
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d0/d1f/classSQSpill__v2.html#a80e52e278f465021170963e98b39228a">   28</a></span>&#160;<a class="code" href="../../d0/d1f/classSQSpill__v2.html#a80e52e278f465021170963e98b39228a">SQSpill_v2::~SQSpill_v2</a>()</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d0/d1f/classSQSpill__v2.html#a8d69e404e0b4587e2829a4ebd47dd69f">_bos_scaler_list</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d0/d1f/classSQSpill__v2.html#a80045ebe6d4a6f31d363f0a6c94122f2">_eos_scaler_list</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d0/d1f/classSQSpill__v2.html#a985ec72f61a90a43b0efae8baf74f4b5">_slow_cont_list</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <span class="keyword">delete</span> _bos_scaler_list;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">delete</span> _eos_scaler_list;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">delete</span> _slow_cont_list;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
 <div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d0/d1f/classSQSpill__v2.html#aef0d016bcdecd8144a6278e0e4b3fe67">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d1f/classSQSpill__v2.html#aef0d016bcdecd8144a6278e0e4b3fe67">SQSpill_v2::identify</a>(ostream&amp; os)<span class="keyword"> const </span>{</div>
@@ -159,28 +157,22 @@ $(document).ready(function(){initNavTree('d1/d9a/SQSpill__v2_8cxx_source.html','
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d0/d1f/classSQSpill__v2.html#a178184be100ccf1de74df19f8e72f3f9">   45</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d1f/classSQSpill__v2.html#a178184be100ccf1de74df19f8e72f3f9">SQSpill_v2::isValid</a>()<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d0/d1f/classSQSpill__v2.html#ab14f4062457349195f68b9abc29ffe19">_run_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d0/d1f/classSQSpill__v2.html#aadcfe702e499ab3b999565b392fdbaee">_spill_id</a> == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d0/d1f/classSQSpill__v2.html#a635ba1df5e11f2374e6e3df1d6942933">_target_pos</a> == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (_run_id == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">if</span> (_spill_id == std::numeric_limits&lt;int&gt;::max()) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">if</span> (_target_pos == std::numeric_limits&lt;short&gt;::max()) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="ttc" id="classSQSpill__v2_html_a178184be100ccf1de74df19f8e72f3f9"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a178184be100ccf1de74df19f8e72f3f9">SQSpill_v2::isValid</a></div><div class="ttdeci">int isValid() const </div><div class="ttdoc">isValid returns non zero if object contains vailid data </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/SQSpill__v2_8cxx_source.html#l00045">SQSpill_v2.cxx:45</a></div></div>
-<div class="ttc" id="classSQSpill__v2_html_a635ba1df5e11f2374e6e3df1d6942933"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a635ba1df5e11f2374e6e3df1d6942933">SQSpill_v2::_target_pos</a></div><div class="ttdeci">short _target_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00055">SQSpill_v2.h:55</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_ab064a5faedddc177d0a9b2ee013a5cc1"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#ab064a5faedddc177d0a9b2ee013a5cc1">SQSpill_v2::SQSpill_v2</a></div><div class="ttdeci">SQSpill_v2()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/SQSpill__v2_8cxx_source.html#l00015">SQSpill_v2.cxx:15</a></div></div>
 <div class="ttc" id="classSQStringMap__v1_html"><div class="ttname"><a href="../../d7/d3d/classSQStringMap__v1.html">SQStringMap_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d13/SQStringMap__v1_8h_source.html#l00008">SQStringMap_v1.h:8</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_a80e52e278f465021170963e98b39228a"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a80e52e278f465021170963e98b39228a">SQSpill_v2::~SQSpill_v2</a></div><div class="ttdeci">virtual ~SQSpill_v2()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/SQSpill__v2_8cxx_source.html#l00028">SQSpill_v2.cxx:28</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_a50b6d80ecb348a9594713d966b1724ac"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a50b6d80ecb348a9594713d966b1724ac">SQSpill_v2::get_target_pos</a></div><div class="ttdeci">virtual short get_target_pos() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00031">SQSpill_v2.h:31</a></div></div>
-<div class="ttc" id="classSQSpill__v2_html_aadcfe702e499ab3b999565b392fdbaee"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#aadcfe702e499ab3b999565b392fdbaee">SQSpill_v2::_spill_id</a></div><div class="ttdeci">int _spill_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00054">SQSpill_v2.h:54</a></div></div>
 <div class="ttc" id="SQSpill__v2_8h_html"><div class="ttname"><a href="../../d6/d9f/SQSpill__v2_8h.html">SQSpill_v2.h</a></div></div>
-<div class="ttc" id="classSQSpill__v2_html_ab14f4062457349195f68b9abc29ffe19"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#ab14f4062457349195f68b9abc29ffe19">SQSpill_v2::_run_id</a></div><div class="ttdeci">int _run_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00053">SQSpill_v2.h:53</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_aef0d016bcdecd8144a6278e0e4b3fe67"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#aef0d016bcdecd8144a6278e0e4b3fe67">SQSpill_v2::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/SQSpill__v2_8cxx_source.html#l00035">SQSpill_v2.cxx:35</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html">SQSpill_v2</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00011">SQSpill_v2.h:11</a></div></div>
 <div class="ttc" id="PdbCalChan_8cc_html_a2e42736505dcaba519d53efaa5586008"><div class="ttname"><a href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a></div><div class="ttdeci">ClassImp(PdbCalChan)</div></div>
-<div class="ttc" id="classSQSpill__v2_html_a985ec72f61a90a43b0efae8baf74f4b5"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a985ec72f61a90a43b0efae8baf74f4b5">SQSpill_v2::_slow_cont_list</a></div><div class="ttdeci">SQStringMap * _slow_cont_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00062">SQSpill_v2.h:62</a></div></div>
-<div class="ttc" id="classSQSpill__v2_html_a80045ebe6d4a6f31d363f0a6c94122f2"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a80045ebe6d4a6f31d363f0a6c94122f2">SQSpill_v2::_eos_scaler_list</a></div><div class="ttdeci">SQStringMap * _eos_scaler_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00061">SQSpill_v2.h:61</a></div></div>
-<div class="ttc" id="classSQSpill__v2_html_a8d69e404e0b4587e2829a4ebd47dd69f"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a8d69e404e0b4587e2829a4ebd47dd69f">SQSpill_v2::_bos_scaler_list</a></div><div class="ttdeci">SQStringMap * _bos_scaler_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00060">SQSpill_v2.h:60</a></div></div>
 <div class="ttc" id="SQStringMap__v1_8h_html"><div class="ttname"><a href="../../da/d13/SQStringMap__v1_8h.html">SQStringMap_v1.h</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_a1af2971edc24c6bbdfc84d57002eeec7"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a1af2971edc24c6bbdfc84d57002eeec7">SQSpill_v2::get_run_id</a></div><div class="ttdeci">virtual int get_run_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00025">SQSpill_v2.h:25</a></div></div>
 <div class="ttc" id="classSQSpill__v2_html_a900e7e3cd753b11cbc701635cc498ff6"><div class="ttname"><a href="../../d0/d1f/classSQSpill__v2.html#a900e7e3cd753b11cbc701635cc498ff6">SQSpill_v2::get_spill_id</a></div><div class="ttdeci">virtual int get_spill_id() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d9f/SQSpill__v2_8h_source.html#l00028">SQSpill_v2.h:28</a></div></div>
@@ -194,7 +186,7 @@ $(document).ready(function(){initNavTree('d1/d9a/SQSpill__v2_8cxx_source.html','
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4109f03a5b9c2dae233205e99792f74d.html">interface_main</a></li><li class="navelem"><a class="el" href="../../d1/d9a/SQSpill__v2_8cxx.html">SQSpill_v2.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

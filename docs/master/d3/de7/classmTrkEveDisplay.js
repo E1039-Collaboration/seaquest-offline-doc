@@ -11,13 +11,5 @@ var classmTrkEveDisplay =
     [ "hit_to_wire", "d3/de7/classmTrkEveDisplay.html#a2d81773e8944852045fb20a235565ad8", null ],
     [ "init", "d3/de7/classmTrkEveDisplay.html#a31e2c49827b3cb58f31b3b9be2279a85", null ],
     [ "init_run", "d3/de7/classmTrkEveDisplay.html#a39dc0dea10ca2c38b47bdfebb079f90a", null ],
-    [ "pid_cut", "d3/de7/classmTrkEveDisplay.html#af2423874a42099a3463822282f4227c1", null ],
-    [ "_evedisp", "d3/de7/classmTrkEveDisplay.html#a4068e5a98baa9fe294cd37a5fff09430", null ],
-    [ "_geom_svc", "d3/de7/classmTrkEveDisplay.html#a0e285dea3325295fb7b10e5fc9d6a37e", null ],
-    [ "_hit_wires", "d3/de7/classmTrkEveDisplay.html#a14e0d7ac4c5bc51d44bf188ebcd59cb5", null ],
-    [ "_prop", "d3/de7/classmTrkEveDisplay.html#a3214196487c9fe80a529dd0c16b21811", null ],
-    [ "_recEvent", "d3/de7/classmTrkEveDisplay.html#a541f8a0b309bad5385330f963664e86b", null ],
-    [ "_reco_tracks", "d3/de7/classmTrkEveDisplay.html#a0490948c8c0a87fda93f532ef1484028", null ],
-    [ "_sqhit_col", "d3/de7/classmTrkEveDisplay.html#ae3b3a5aedcf730b2b433c584accfc02c", null ],
-    [ "verbosity", "d3/de7/classmTrkEveDisplay.html#ab4b5e752ca41b6009d9bfeeb36b85618", null ]
+    [ "pid_cut", "d3/de7/classmTrkEveDisplay.html#af2423874a42099a3463822282f4227c1", null ]
 ];

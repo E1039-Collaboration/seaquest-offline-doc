@@ -13,7 +13,5 @@ var classFun4AllHistoManager =
     [ "registerHisto", "d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6", null ],
     [ "registerHisto", "d3/d96/classFun4AllHistoManager.html#a9af9dcb3bbd224b1581988bca1244a63", null ],
     [ "Reset", "d3/d96/classFun4AllHistoManager.html#a0a5308cb3f26ccc95504c5c5dac30441", null ],
-    [ "setOutfileName", "d3/d96/classFun4AllHistoManager.html#a2e4df23c83f26b376bc2891b9fc055c6", null ],
-    [ "Histo", "d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a", null ],
-    [ "outfilename", "d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a", null ]
+    [ "setOutfileName", "d3/d96/classFun4AllHistoManager.html#a2e4df23c83f26b376bc2891b9fc055c6", null ]
 ];

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -130,12 +128,11 @@ $(document).ready(function(){initNavTree('df/d18/DbUpRun_8h_source.html','../../
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d1/de7/classDbUpRun.html#aa774e4acba1b9e65244a78265bec930a">End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">UploadRun</a>(<a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>* sq);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">UploadParam</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> run, <span class="keyword">const</span> <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* sq);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">void</span> UploadRun(<a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>* sq);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keywordtype">void</span> UploadParam(<span class="keyword">const</span> <span class="keywordtype">int</span> run, <span class="keyword">const</span> <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* sq);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;};</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* _DB_UP_RUN__H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="classDbUpRun_html_a3923b9457847d047e33f130ccfe1f690"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">DbUpRun::UploadParam</a></div><div class="ttdeci">void UploadParam(const int run, const SQParamDeco *sq)</div><div class="ttdoc">Function to upload the decoder parameters into DB. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00131">DbUpRun.cc:131</a></div></div>
 <div class="ttc" id="classDbUpRun_html_aa774e4acba1b9e65244a78265bec930a"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#aa774e4acba1b9e65244a78265bec930a">DbUpRun::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00053">DbUpRun.cc:53</a></div></div>
 <div class="ttc" id="classDbUpRun_html_a31653ac17e2608e7d60492b198151ae1"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a31653ac17e2608e7d60492b198151ae1">DbUpRun::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00028">DbUpRun.cc:28</a></div></div>
 <div class="ttc" id="SubsysReco_8h_html"><div class="ttname"><a href="../../d5/dc2/SubsysReco_8h.html">SubsysReco.h</a></div></div>
@@ -148,7 +145,6 @@ $(document).ready(function(){initNavTree('df/d18/DbUpRun_8h_source.html','../../
 <div class="ttc" id="classSQRun_html"><div class="ttname"><a href="../../d7/db7/classSQRun.html">SQRun</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00017">SQRun.h:17</a></div></div>
 <div class="ttc" id="classDbUpRun_html_a031fecd745dd45b973d9a71b6a029042"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a031fecd745dd45b973d9a71b6a029042">DbUpRun::~DbUpRun</a></div><div class="ttdeci">virtual ~DbUpRun()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d18/DbUpRun_8h_source.html#l00010">DbUpRun.h:10</a></div></div>
 <div class="ttc" id="classSQParamDeco_html"><div class="ttname"><a href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a></div><div class="ttdoc">SQParamDeco.h. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d59/SQParamDeco_8h_source.html#l00012">SQParamDeco.h:12</a></div></div>
-<div class="ttc" id="classDbUpRun_html_a65b83d0861288f4a4f5d75e1e11a3214"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">DbUpRun::UploadRun</a></div><div class="ttdeci">void UploadRun(SQRun *sq)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00067">DbUpRun.cc:67</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -159,7 +155,7 @@ $(document).ready(function(){initNavTree('df/d18/DbUpRun_8h_source.html','../../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_25265c60903145931e9a6e46f0a7c1c5.html">decoder_maindaq</a></li><li class="navelem"><a class="el" href="../../df/d18/DbUpRun_8h.html">DbUpRun.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

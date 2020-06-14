@@ -26,16 +26,5 @@ var classTriggerAnalyzer =
     [ "printRoadFound", "d6/deb/classTriggerAnalyzer.html#ad1214cbc0bde7cc97816d9c9c3b1b43e", null ],
     [ "printTree", "d6/deb/classTriggerAnalyzer.html#ac9b51badbff4f66dd5ee1da2afe1c0ac", null ],
     [ "search", "d6/deb/classTriggerAnalyzer.html#a12f3a9f8fdf52dff3f902f21baa7525f", null ],
-    [ "trimEvent", "d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de", null ],
-    [ "data", "d6/deb/classTriggerAnalyzer.html#acefc98c94737ad5e92874aad7eab565b", null ],
-    [ "detectorIDs_trigger", "d6/deb/classTriggerAnalyzer.html#afe4a449815ba155dd1764952f8ed906a", null ],
-    [ "nRoads", "d6/deb/classTriggerAnalyzer.html#a82bd1a115e6aa53dfb1a58f726ec15dd", null ],
-    [ "p_geomSvc", "d6/deb/classTriggerAnalyzer.html#a03cdbf2899a61b853878d4da733c8aec", null ],
-    [ "roads", "d6/deb/classTriggerAnalyzer.html#a99270ba22eff85b4528160f54780a65a", null ],
-    [ "roads_disabled", "d6/deb/classTriggerAnalyzer.html#afe42e4ad0f740d1e3618d5ddb4349684", null ],
-    [ "roads_enabled", "d6/deb/classTriggerAnalyzer.html#a9b942c60dd31268a9ebe9d676139f2da", null ],
-    [ "roads_found", "d6/deb/classTriggerAnalyzer.html#a7442c997f61bc14ce695ae79e08ab39b", null ],
-    [ "roads_temp", "d6/deb/classTriggerAnalyzer.html#abc71b09540cf3fd1738a69c97a3d204d", null ],
-    [ "root", "d6/deb/classTriggerAnalyzer.html#a8da041f27cea288e3a3336637379f3a2", null ],
-    [ "triggers", "d6/deb/classTriggerAnalyzer.html#adc88810fbc46ddd62928822d0edaeb5e", null ]
+    [ "trimEvent", "d6/deb/classTriggerAnalyzer.html#aefeca16ccf3c1ee48aa25156d59265de", null ]
 ];

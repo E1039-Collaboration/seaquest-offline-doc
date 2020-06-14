@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -132,7 +130,7 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d7/dac/classOnlMonProp.html#a76bbcb7424334621863eaa4ffd737d41">   17</a></span>&#160;<a class="code" href="../../d7/dac/classOnlMonProp.html#a76bbcb7424334621863eaa4ffd737d41">OnlMonProp::OnlMonProp</a>(<span class="keyword">const</span> <a class="code" href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1f">PropType_t</a> type) : m_type(type)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="../../d9/d62/classOnlMonClient.html#a9291a22f516ea38a805ad11726ddb38d">NumCanvases</a>(2);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">switch</span> (<a class="code" href="../../d7/dac/classOnlMonProp.html#ade2a46405ad5c1dec379ef4255df88e2">m_type</a>) {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">switch</span> (m_type) {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordflow">case</span> <a class="code" href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1fa6dc9ee7ce85a5f52d221168e223a2fe2">P1</a>:  <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Name</a>(<span class="stringliteral">&quot;OnlMonPropP1&quot;</span> );  <a class="code" href="../../d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee">Title</a>( <span class="stringliteral">&quot;Prop Tube: P1&quot;</span>);  <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">case</span> <a class="code" href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1fa4a3994fa072e8c4fe648251b68f7e274">P2</a>:  <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Name</a>(<span class="stringliteral">&quot;OnlMonPropP2&quot;</span> );  <a class="code" href="../../d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee">Title</a>( <span class="stringliteral">&quot;Prop Tube: P2&quot;</span>);  <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  }</div>
@@ -147,7 +145,7 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">string</span> name_regex = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">switch</span> (<a class="code" href="../../d7/dac/classOnlMonProp.html#ade2a46405ad5c1dec379ef4255df88e2">m_type</a>) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">switch</span> (m_type) {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">case</span> <a class="code" href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1fa6dc9ee7ce85a5f52d221168e223a2fe2">P1</a>:  name_regex = <span class="stringliteral">&quot;^P1&quot;</span>;  <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">case</span> <a class="code" href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1fa4a3994fa072e8c4fe648251b68f7e274">P2</a>:  name_regex = <span class="stringliteral">&quot;^P2&quot;</span>;  <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  }</div>
@@ -156,18 +154,18 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;OnlMonProp::InitRunOnlMon():  Found no ID for &#39;&quot;</span> &lt;&lt; name_regex &lt;&lt; <span class="stringliteral">&quot;&#39;.&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <a class="code" href="../../d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a">m_pl0</a> = list_det_id[0];</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  m_pl0 = list_det_id[0];</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  ostringstream oss;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304">N_PL</a>; pl++) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">string</span> name = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>  (<a class="code" href="../../d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a">m_pl0</a> + pl);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span>   n_ele = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c">getPlaneNElements</a>(<a class="code" href="../../d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a">m_pl0</a> + pl); </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">string</span> name = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>  (m_pl0 + pl);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span>   n_ele = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c">getPlaneNElements</a>(m_pl0 + pl); </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;h1_ele_&quot;</span> &lt;&lt; pl;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a>[pl] = <span class="keyword">new</span> TH1D(oss.str().c_str(), <span class="stringliteral">&quot;&quot;</span>, n_ele, 0.5, n_ele+0.5);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    h1_ele[pl] = <span class="keyword">new</span> TH1D(oss.str().c_str(), <span class="stringliteral">&quot;&quot;</span>, n_ele, 0.5, n_ele+0.5);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    oss &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;;Element ID;Hit count&quot;</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a>[pl]-&gt;SetTitle(oss.str().c_str());</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    h1_ele[pl]-&gt;SetTitle(oss.str().c_str());</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> DT = 80/9.0; <span class="comment">// 4/9 ns per single count of Taiwan TDC</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> NT    = 100;</div>
@@ -176,14 +174,14 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;h1_time_&quot;</span> &lt;&lt; pl;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl] = <span class="keyword">new</span> TH1D(oss.str().c_str(), <span class="stringliteral">&quot;&quot;</span>, NT, T0, T1);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    h1_time[pl] = <span class="keyword">new</span> TH1D(oss.str().c_str(), <span class="stringliteral">&quot;&quot;</span>, NT, T0, T1);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    oss &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;;tdcTime;Hit count&quot;</span>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]-&gt;SetTitle(oss.str().c_str());</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    h1_time[pl]-&gt;SetTitle(oss.str().c_str());</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd">RegisterHist</a>(<a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a> [pl]);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd">RegisterHist</a>(<a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd">RegisterHist</a>(h1_ele [pl]);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd">RegisterHist</a>(h1_time[pl]);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
@@ -196,10 +194,10 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">if</span> (!event_header || !hit_vec) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d9/dbc/classSQHitVector.html#aab09d655321bec52564233584a2db222">SQHitVector::ConstIter</a> it = hit_vec-&gt;begin(); it != hit_vec-&gt;end(); it++) {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> pl = (*it)-&gt;get_detector_id() - <a class="code" href="../../d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a">m_pl0</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> pl = (*it)-&gt;get_detector_id() - m_pl0;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (pl &lt; 0 || pl &gt;= <a class="code" href="../../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304">N_PL</a>) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a> [pl]-&gt;Fill((*it)-&gt;get_element_id());</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]-&gt;Fill((*it)-&gt;get_tdc_time  ());</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    h1_ele [pl]-&gt;Fill((*it)-&gt;get_element_id());</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    h1_time[pl]-&gt;Fill((*it)-&gt;get_tdc_time  ());</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
@@ -216,12 +214,12 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304">N_PL</a>; pl++) {</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;h1_ele_&quot;</span> &lt;&lt; pl;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a>[pl] = <a class="code" href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">FindMonHist</a>(oss.str().c_str());</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span> (! <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a>[pl]) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    h1_ele[pl] = <a class="code" href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">FindMonHist</a>(oss.str().c_str());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span> (! h1_ele[pl]) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;h1_time_&quot;</span> &lt;&lt; pl;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl] = <a class="code" href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">FindMonHist</a>(oss.str().c_str());</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span> (! <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    h1_time[pl] = <a class="code" href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">FindMonHist</a>(oss.str().c_str());</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span> (! h1_time[pl]) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
@@ -234,7 +232,7 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  pad0-&gt;Divide(2, 2);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304">N_PL</a>; pl++) {</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    pad0-&gt;cd(pl+1);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">h1_ele</a>[pl]-&gt;Draw();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    h1_ele[pl]-&gt;Draw();</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="comment">//can0-&gt;SetStatus(OnlMonCanvas::OK);</span></div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
@@ -244,8 +242,8 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  pad1-&gt;Divide(2, 2);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304">N_PL</a>; pl++) {</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    pad1-&gt;cd(pl+1);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719">UtilHist::AutoSetRange</a>(<a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <a class="code" href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">h1_time</a>[pl]-&gt;Draw();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719">UtilHist::AutoSetRange</a>(h1_time[pl]);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    h1_time[pl]-&gt;Draw();</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="comment">//can1-&gt;SetStatus(OnlMonCanvas::OK);</span></div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
@@ -256,10 +254,8 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="ttc" id="classGeomSvc_html_a64fde7dce7f3df7cf534796d7da4ecdb"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">GeomSvc::getDetectorName</a></div><div class="ttdeci">std::string getDetectorName(const int &amp;detectorID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00182">GeomSvc.h:182</a></div></div>
 <div class="ttc" id="classOnlMonClient_html_a30958880ab524ef1a22e3224dfb667e1"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">OnlMonClient::GetCanvas</a></div><div class="ttdeci">OnlMonCanvas * GetCanvas(const int num=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dae/OnlMonClient_8cc_source.html#l00464">OnlMonClient.cc:464</a></div></div>
 <div class="ttc" id="OnlMonProp_8h_html"><div class="ttname"><a href="../../d3/d06/OnlMonProp_8h.html">OnlMonProp.h</a></div></div>
-<div class="ttc" id="classOnlMonProp_html_a49d0c6d1ea571a2542a3607544ca429a"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a">OnlMonProp::m_pl0</a></div><div class="ttdeci">int m_pl0</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d06/OnlMonProp_8h_source.html#l00012">OnlMonProp.h:12</a></div></div>
 <div class="ttc" id="classOnlMonProp_html_a0738d0919cf6457266df90f59194c3ea"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#a0738d0919cf6457266df90f59194c3ea">OnlMonProp::EndOnlMon</a></div><div class="ttdeci">int EndOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da1/OnlMonProp_8cc_source.html#l00093">OnlMonProp.cc:93</a></div></div>
 <div class="ttc" id="classSQHitVector_html_aab09d655321bec52564233584a2db222"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html#aab09d655321bec52564233584a2db222">SQHitVector::ConstIter</a></div><div class="ttdeci">std::vector&lt; SQHit * &gt;::const_iterator ConstIter</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddd/SQHitVector_8h_source.html#l00024">SQHitVector.h:24</a></div></div>
-<div class="ttc" id="classOnlMonProp_html_ade2a46405ad5c1dec379ef4255df88e2"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#ade2a46405ad5c1dec379ef4255df88e2">OnlMonProp::m_type</a></div><div class="ttdeci">PropType_t m_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d06/OnlMonProp_8h_source.html#l00011">OnlMonProp.h:11</a></div></div>
 <div class="ttc" id="classOnlMonProp_html_a7a10e2e0b11916fab619d82fcd834499"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#a7a10e2e0b11916fab619d82fcd834499">OnlMonProp::DrawMonitor</a></div><div class="ttdeci">int DrawMonitor()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da1/OnlMonProp_8cc_source.html#l00114">OnlMonProp.cc:114</a></div></div>
 <div class="ttc" id="classOnlMonProp_html_af6a8bc95c097de25e7d059db2728eb1fa6dc9ee7ce85a5f52d221168e223a2fe2"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#af6a8bc95c097de25e7d059db2728eb1fa6dc9ee7ce85a5f52d221168e223a2fe2">OnlMonProp::P1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d06/OnlMonProp_8h_source.html#l00007">OnlMonProp.h:7</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
@@ -268,7 +264,6 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="ttc" id="classOnlMonProp_html_aeb8c4230a23173cc8d3d27db00d98be0"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#aeb8c4230a23173cc8d3d27db00d98be0">OnlMonProp::InitRunOnlMon</a></div><div class="ttdeci">int InitRunOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da1/OnlMonProp_8cc_source.html#l00031">OnlMonProp.cc:31</a></div></div>
 <div class="ttc" id="classOnlMonClient_html_a8d9777853eb790abf4721f25cf4340cd"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd">OnlMonClient::RegisterHist</a></div><div class="ttdeci">void RegisterHist(TH1 *h1, const HistMode_t mode=MODE_ADD)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dae/OnlMonClient_8cc_source.html#l00250">OnlMonClient.cc:250</a></div></div>
 <div class="ttc" id="classOnlMonClient_html_a5f72e7aa45de26872b40a05a0f5d8aee"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee">OnlMonClient::Title</a></div><div class="ttdeci">std::string Title()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/OnlMonClient_8h_source.html#l00073">OnlMonClient.h:73</a></div></div>
-<div class="ttc" id="classOnlMonProp_html_a3a35b4a7485cf6cbd9f06eb7e511c8b1"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1">OnlMonProp::h1_time</a></div><div class="ttdeci">TH1 * h1_time[N_PL]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d06/OnlMonProp_8h_source.html#l00014">OnlMonProp.h:14</a></div></div>
 <div class="ttc" id="classOnlMonProp_html_ab903193057daa5b7335ea5f228cd46d4"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#ab903193057daa5b7335ea5f228cd46d4">OnlMonProp::ProcessEventOnlMon</a></div><div class="ttdeci">int ProcessEventOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da1/OnlMonProp_8cc_source.html#l00077">OnlMonProp.cc:77</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_a41f9ac377743d046f590617fd6f4f0ed"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Fun4AllBase::Name</a></div><div class="ttdeci">virtual const std::string Name() const </div><div class="ttdoc">Returns the name of this module. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase.h:23</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
@@ -296,7 +291,6 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 <div class="ttc" id="OnlMonServer_8h_html"><div class="ttname"><a href="../../d7/d8a/OnlMonServer_8h.html">OnlMonServer.h</a></div></div>
 <div class="ttc" id="classOnlMonProp_html_a76bbcb7424334621863eaa4ffd737d41"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#a76bbcb7424334621863eaa4ffd737d41">OnlMonProp::OnlMonProp</a></div><div class="ttdeci">OnlMonProp(const PropType_t type)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/da1/OnlMonProp_8cc_source.html#l00017">OnlMonProp.cc:17</a></div></div>
 <div class="ttc" id="SQEvent_8h_html"><div class="ttname"><a href="../../d0/db5/SQEvent_8h.html">SQEvent.h</a></div></div>
-<div class="ttc" id="classOnlMonProp_html_aa29b65df9df7ff71d69bdd88aa946ba5"><div class="ttname"><a href="../../d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5">OnlMonProp::h1_ele</a></div><div class="ttdeci">TH1 * h1_ele[N_PL]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d06/OnlMonProp_8h_source.html#l00013">OnlMonProp.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -307,7 +301,7 @@ $(document).ready(function(){initNavTree('dd/da1/OnlMonProp_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_a95975a7d021972a796996e0e81f39b2.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../dd/da1/OnlMonProp_8cc.html">OnlMonProp.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

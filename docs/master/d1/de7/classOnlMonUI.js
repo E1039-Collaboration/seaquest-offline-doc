@@ -20,20 +20,5 @@ var classOnlMonUI =
     [ "SetCycleInterval", "d1/de7/classOnlMonUI.html#a4090fafcb7627726a5334979d556cd93", null ],
     [ "StartBgProc", "d1/de7/classOnlMonUI.html#a33d5d734e9e2d9f75d5b8a8d4aefbac3", null ],
     [ "SyncSpillRange", "d1/de7/classOnlMonUI.html#ac9b08e122047ebaf05cecc2761eec1b6", null ],
-    [ "UpdateFullSpillRange", "d1/de7/classOnlMonUI.html#a1606bcb6ab4e21a81922b7cbe1e6bd6f", null ],
-    [ "m_auto_cycle", "d1/de7/classOnlMonUI.html#a9d60cf68fcd2eb8e9fd81fd9958a1cce", null ],
-    [ "m_fr_main", "d1/de7/classOnlMonUI.html#a4e05c2fe647f4e066c9eda4d95a222e0", null ],
-    [ "m_fr_sp_range", "d1/de7/classOnlMonUI.html#abe7e0fe8d096567e1a0a3192f31a740a", null ],
-    [ "m_interval", "d1/de7/classOnlMonUI.html#aa2f20482c2f8674a42b7cf36ea1a48ac", null ],
-    [ "m_lbl_sp", "d1/de7/classOnlMonUI.html#acc25b482a4a92735e75754f21ced0927", null ],
-    [ "m_list_omc", "d1/de7/classOnlMonUI.html#a4652f0436d1d386af04ab595c6d51e13", null ],
-    [ "m_num_sp", "d1/de7/classOnlMonUI.html#ae4e846d7e71c606b0f3ad24e65bc3433", null ],
-    [ "m_num_sp0", "d1/de7/classOnlMonUI.html#aed80f023e7250e327bcb1d5ca135fd0f", null ],
-    [ "m_num_sp1", "d1/de7/classOnlMonUI.html#a3c8874026289936fc2ed5443e733d79a", null ],
-    [ "m_rad_sp_all", "d1/de7/classOnlMonUI.html#ab16f126f47f5bb6010817dfe608e3be9", null ],
-    [ "m_rad_sp_last", "d1/de7/classOnlMonUI.html#a6a1f8e1dd8563f062d6543b31ecac30b", null ],
-    [ "m_rad_sp_range", "d1/de7/classOnlMonUI.html#a3b0d7d67d76459f3e3920b19a5c2d4a3", null ],
-    [ "m_slider", "d1/de7/classOnlMonUI.html#a8187a16d9dae2ead23c9451de1c2e60b", null ],
-    [ "m_tid1", "d1/de7/classOnlMonUI.html#a108badbc66e1edf522f82c2a94b1029c", null ],
-    [ "m_tid2", "d1/de7/classOnlMonUI.html#a7f34fea413d9f91893b2f0c1277bf06d", null ]
+    [ "UpdateFullSpillRange", "d1/de7/classOnlMonUI.html#a1606bcb6ab4e21a81922b7cbe1e6bd6f", null ]
 ];

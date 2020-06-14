@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -114,7 +112,6 @@ $(document).ready(function(){initNavTree('da/dbe/classDbUpSpill.html','../../');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d1/df9/classDbUpSpill-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">DbUpSpill Class Reference</div>  </div>
@@ -186,19 +183,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8a5c77a92bdac6bc043476e132379a40 inherit pub_methods_classFun4AllBase"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a> () const </td></tr>
 <tr class="memdesc:a8a5c77a92bdac6bc043476e132379a40 inherit pub_methods_classFun4AllBase"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the verbosity of this module.  <a href="#a8a5c77a92bdac6bc043476e132379a40">More...</a><br/></td></tr>
 <tr class="separator:a8a5c77a92bdac6bc043476e132379a40 inherit pub_methods_classFun4AllBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ab81ad85bc0152711f20baefd246d9e9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbe/classDbUpSpill.html#ab81ad85bc0152711f20baefd246d9e9a">ClearTable</a> (const char *table_name, const int run_id)</td></tr>
-<tr class="separator:ab81ad85bc0152711f20baefd246d9e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00fc65b2fbd99ba0fb6862d1011f582f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbe/classDbUpSpill.html#a00fc65b2fbd99ba0fb6862d1011f582f">UploadToSpillTable</a> (<a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spi)</td></tr>
-<tr class="separator:a00fc65b2fbd99ba0fb6862d1011f582f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dde2019beca93d5ce60c830dfab0384"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbe/classDbUpSpill.html#a7dde2019beca93d5ce60c830dfab0384">UploadToScalerTable</a> (<a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spi, const std::string boseos)</td></tr>
-<tr class="separator:a7dde2019beca93d5ce60c830dfab0384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566bd9523d5240f6a09d44a5ca08c429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbe/classDbUpSpill.html#a566bd9523d5240f6a09d44a5ca08c429">UploadToSlowContTable</a> (<a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spi)</td></tr>
-<tr class="separator:a566bd9523d5240f6a09d44a5ca08c429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1785c83b3716157d8cadeecf8351ae2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dbe/classDbUpSpill.html#a1785c83b3716157d8cadeecf8351ae2c">PrintSpill</a> (<a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *spi)</td></tr>
-<tr class="separator:a1785c83b3716157d8cadeecf8351ae2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -275,66 +259,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab81ad85bc0152711f20baefd246d9e9a"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DbUpSpill::ClearTable </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>table_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>run_id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00072">72</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
-
-<p>References <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00038">DbSvc::Con()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00011">DbSvc::DB1</a>, <a class="el" href="../../db/d8e/UtilOnline_8h_source.html#l00028">UtilOnline::GetSchemaMainDaq()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00122">DbSvc::HasTable()</a>, and <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc::UseSchema()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00032">InitRun()</a>.</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_ab81ad85bc0152711f20baefd246d9e9a_cgraph.svg" width="411" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_ab81ad85bc0152711f20baefd246d9e9a_icgraph.svg" width="334" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
 <a class="anchor" id="ae5dfed7f5e78778d9970907bdf6b9df4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -425,52 +349,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00032">32</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00072">ClearTable()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../de/d59/SQRun_8h_source.html#l00031">SQRun::get_run_id()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../de/d59/SQRun_8h_source.html#l00031">SQRun::get_run_id()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a7cd979235b7cfa8761940e90c7837ac3_cgraph.svg" width="587" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a1785c83b3716157d8cadeecf8351ae2c"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DbUpSpill::PrintSpill </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td>
-          <td class="paramname"><em>spi</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00229">229</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
-
-<p>References <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00036">SQStringMap::begin()</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00038">SQStringMap::end()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00046">SQSpill::get_bos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00058">SQSpill::get_bos_scaler_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00049">SQSpill::get_bos_vme_time()</a>, <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00035">SQScaler::get_count()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00052">SQSpill::get_eos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00059">SQSpill::get_eos_scaler_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00055">SQSpill::get_eos_vme_time()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::get_run_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00061">SQSpill::get_slow_cont_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::get_spill_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00043">SQSpill::get_target_pos()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00025">SQSlowCont::get_time_stamp()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00034">SQSlowCont::get_type()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00031">SQSlowCont::get_value()</a>, and <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00027">SQStringMap::size()</a>.</p>
-
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a1785c83b3716157d8cadeecf8351ae2c_cgraph.svg" width="379" height="864"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a7cd979235b7cfa8761940e90c7837ac3_cgraph.svg" width="318" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -504,174 +390,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00047">47</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00125">UploadToScalerTable()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00174">UploadToSlowContTable()</a>, and <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00085">UploadToSpillTable()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">SQSpillMap::get()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a40696735da3084f1e3e649bff1e63379_cgraph.svg" width="638" height="1118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a7dde2019beca93d5ce60c830dfab0384"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DbUpSpill::UploadToScalerTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td>
-          <td class="paramname"><em>spi</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>boseos</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00125">125</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
-
-<p>References <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00245">DbSvc::VarList::Add()</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00036">SQStringMap::begin()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00038">DbSvc::Con()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00132">DbSvc::CreateTable()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00011">DbSvc::DB1</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00038">SQStringMap::end()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00058">SQSpill::get_bos_scaler_list()</a>, <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00035">SQScaler::get_count()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00059">SQSpill::get_eos_scaler_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::get_run_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::get_spill_id()</a>, <a class="el" href="../../db/d8e/UtilOnline_8h_source.html#l00028">UtilOnline::GetSchemaMainDaq()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00122">DbSvc::HasTable()</a>, and <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc::UseSchema()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00047">process_event()</a>.</p>
-
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a7dde2019beca93d5ce60c830dfab0384_cgraph.svg" width="443" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a7dde2019beca93d5ce60c830dfab0384_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a566bd9523d5240f6a09d44a5ca08c429"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DbUpSpill::UploadToSlowContTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td>
-          <td class="paramname"><em>spi</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00174">174</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
-
-<p>References <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00245">DbSvc::VarList::Add()</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00036">SQStringMap::begin()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00038">DbSvc::Con()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00132">DbSvc::CreateTable()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00011">DbSvc::DB1</a>, <a class="el" href="../../d7/d7e/SQStringMap_8h_source.html#l00038">SQStringMap::end()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::get_run_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00061">SQSpill::get_slow_cont_list()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::get_spill_id()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00025">SQSlowCont::get_time_stamp()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00034">SQSlowCont::get_type()</a>, <a class="el" href="../../db/d64/SQSlowCont_8h_source.html#l00031">SQSlowCont::get_value()</a>, <a class="el" href="../../db/d8e/UtilOnline_8h_source.html#l00028">UtilOnline::GetSchemaMainDaq()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00122">DbSvc::HasTable()</a>, and <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc::UseSchema()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00047">process_event()</a>.</p>
-
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a566bd9523d5240f6a09d44a5ca08c429_cgraph.svg" width="459" height="712"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a566bd9523d5240f6a09d44a5ca08c429_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a00fc65b2fbd99ba0fb6862d1011f582f"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DbUpSpill::UploadToSpillTable </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td>
-          <td class="paramname"><em>spi</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00085">85</a> of file <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html">DbUpSpill.cc</a>.</p>
-
-<p>References <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00245">DbSvc::VarList::Add()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00038">DbSvc::Con()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00132">DbSvc::CreateTable()</a>, <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00011">DbSvc::DB1</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00046">SQSpill::get_bos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00049">SQSpill::get_bos_vme_time()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00052">SQSpill::get_eos_coda_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00055">SQSpill::get_eos_vme_time()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00037">SQSpill::get_run_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00040">SQSpill::get_spill_id()</a>, <a class="el" href="../../d0/dd6/SQSpill_8h_source.html#l00043">SQSpill::get_target_pos()</a>, <a class="el" href="../../db/d8e/UtilOnline_8h_source.html#l00028">UtilOnline::GetSchemaMainDaq()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00122">DbSvc::HasTable()</a>, and <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc::UseSchema()</a>.</p>
-
-<p>Referenced by <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00047">process_event()</a>.</p>
-
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a00fc65b2fbd99ba0fb6862d1011f582f_cgraph.svg" width="430" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a00fc65b2fbd99ba0fb6862d1011f582f_icgraph.svg" width="355" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dbe/classDbUpSpill_a40696735da3084f1e3e649bff1e63379_cgraph.svg" width="304" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -692,7 +418,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../da/dbe/classDbUpSpill.html">DbUpSpill</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:58</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

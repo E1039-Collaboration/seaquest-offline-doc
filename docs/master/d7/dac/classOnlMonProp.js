@@ -13,9 +13,5 @@ var classOnlMonProp =
     [ "InitOnlMon", "d7/dac/classOnlMonProp.html#a623b1d39b0e3e6333f01ccb95aecf886", null ],
     [ "InitRunOnlMon", "d7/dac/classOnlMonProp.html#aeb8c4230a23173cc8d3d27db00d98be0", null ],
     [ "ProcessEventOnlMon", "d7/dac/classOnlMonProp.html#ab903193057daa5b7335ea5f228cd46d4", null ],
-    [ "h1_ele", "d7/dac/classOnlMonProp.html#aa29b65df9df7ff71d69bdd88aa946ba5", null ],
-    [ "h1_time", "d7/dac/classOnlMonProp.html#a3a35b4a7485cf6cbd9f06eb7e511c8b1", null ],
-    [ "m_pl0", "d7/dac/classOnlMonProp.html#a49d0c6d1ea571a2542a3607544ca429a", null ],
-    [ "m_type", "d7/dac/classOnlMonProp.html#ade2a46405ad5c1dec379ef4255df88e2", null ],
     [ "N_PL", "d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304", null ]
 ];

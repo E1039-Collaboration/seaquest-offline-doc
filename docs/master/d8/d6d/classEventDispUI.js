@@ -1,6 +1,5 @@
 var classEventDispUI =
 [
-    [ "RunList_t", "d8/d6d/classEventDispUI.html#a7dedba070f4813fcd73cb7fc860277d1", null ],
     [ "EventDispUI", "d8/d6d/classEventDispUI.html#aa27c37f86466f09ce91668837add2e98", null ],
     [ "~EventDispUI", "d8/d6d/classEventDispUI.html#a955f54b85ec8e63cd9b5c4f2a2a80cfe", null ],
     [ "BuildInterface", "d8/d6d/classEventDispUI.html#aef63d462bef07095dda1c1e83d66fa5f", null ],
@@ -22,25 +21,5 @@ var classEventDispUI =
     [ "UpdateLabels", "d8/d6d/classEventDispUI.html#adda988f76cc4151561606d5395520919", null ],
     [ "View3D", "d8/d6d/classEventDispUI.html#aef1a8e632f480222e5ff1c5aeedaa1a7", null ],
     [ "ViewSide", "d8/d6d/classEventDispUI.html#a6a31199b07744657bff84b6b9a8e51e8", null ],
-    [ "ViewTop", "d8/d6d/classEventDispUI.html#aea52a951ae19fe59b423faf5c2ce8bea", null ],
-    [ "m_auto_mode", "d8/d6d/classEventDispUI.html#af9a5a89964973bd60691c45130ee4ead", null ],
-    [ "m_fr_evt_mode", "d8/d6d/classEventDispUI.html#aa06d591bf50511124a66e443201f26fe", null ],
-    [ "m_fr_evt_next", "d8/d6d/classEventDispUI.html#a784546d16d86d34373e6b2be4e8cb4f8", null ],
-    [ "m_fr_evt_prev", "d8/d6d/classEventDispUI.html#a65714db6347114b95fb47bf4db7da3ce", null ],
-    [ "m_fr_evt_sel", "d8/d6d/classEventDispUI.html#a092b83f85cf2ff922831ce3af6676d75", null ],
-    [ "m_fr_main", "d8/d6d/classEventDispUI.html#aa2e513805d83d0a215f58beff87adb03", null ],
-    [ "m_fr_menu", "d8/d6d/classEventDispUI.html#a6fc93a1270503df3817c8ef2fe8ccf64", null ],
-    [ "m_i_evt", "d8/d6d/classEventDispUI.html#aaa4c31421f236ca48b71c2d0f85629e8", null ],
-    [ "m_lbl_mode", "d8/d6d/classEventDispUI.html#a34c9ef57fa3606a472d0ca51f5674712", null ],
-    [ "m_lbl_n_evt", "d8/d6d/classEventDispUI.html#a96e1fdfcd41b53a6ee5da4ee87d02924", null ],
-    [ "m_lbl_run", "d8/d6d/classEventDispUI.html#adb4c662f99db15c2c45c76575422bd7d", null ],
-    [ "m_list_run", "d8/d6d/classEventDispUI.html#ae94c4b5f1cb16a37c314383f904ac099", null ],
-    [ "m_n_evt", "d8/d6d/classEventDispUI.html#a033ede03e787a365824db1bab73fe452", null ],
-    [ "m_ne_evt_id", "d8/d6d/classEventDispUI.html#aad56025719a033a772f1819018a42b67", null ],
-    [ "m_ne_trig", "d8/d6d/classEventDispUI.html#addaa7bf74191056bd5a323763dd0da15", null ],
-    [ "m_online_mode", "d8/d6d/classEventDispUI.html#abc3abe827c9190d12885465c64c2665b", null ],
-    [ "m_run", "d8/d6d/classEventDispUI.html#ac0ae200774949572d8c23cd1739f404a", null ],
-    [ "m_tid1", "d8/d6d/classEventDispUI.html#a099cab302c7bf30b2ec4bee96f694c9a", null ],
-    [ "RUN_MAX", "d8/d6d/classEventDispUI.html#a946ced7ff8cb489dd126519be332fe6d", null ],
-    [ "RUN_MIN", "d8/d6d/classEventDispUI.html#a6b6b36d15860e68424178ca1d6bd4651", null ]
+    [ "ViewTop", "d8/d6d/classEventDispUI.html#aea52a951ae19fe59b423faf5c2ce8bea", null ]
 ];

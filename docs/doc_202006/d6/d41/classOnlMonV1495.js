@@ -19,15 +19,5 @@ var classOnlMonV1495 =
     [ "InitOnlMon", "d6/d41/classOnlMonV1495.html#a234720e1059c668848003f3e9fa506bb", null ],
     [ "InitRunOnlMon", "d6/d41/classOnlMonV1495.html#a89a01d9a67e3993664c0ebaa343bdf77", null ],
     [ "ProcessEventOnlMon", "d6/d41/classOnlMonV1495.html#a0ccc427992a8901905d42f748a3aa316", null ],
-    [ "SetDet", "d6/d41/classOnlMonV1495.html#a603a264ad8444fba842f88df948c7de6", null ],
-    [ "h1_ele", "d6/d41/classOnlMonV1495.html#a4e5611ad46a9aee5bb0855b80baad7c0", null ],
-    [ "h1_ele_in", "d6/d41/classOnlMonV1495.html#ac6a0169611b273f6f44840e097a21913", null ],
-    [ "h1_time", "d6/d41/classOnlMonV1495.html#a958756e55824c8286d13a13e97ed9a15", null ],
-    [ "h1_time_in", "d6/d41/classOnlMonV1495.html#a3ee814153c62037f70945929711b93c7", null ],
-    [ "h2_time_ele", "d6/d41/classOnlMonV1495.html#a5aab6039c5b68b8e3228e6b1a8f5beaf", null ],
-    [ "list_det_id", "d6/d41/classOnlMonV1495.html#a743f56e2d3fb6e9ed28ac2d6ba058701", null ],
-    [ "list_det_name", "d6/d41/classOnlMonV1495.html#aeca9e2cc08954136a7ed79aeaa18e075", null ],
-    [ "m_lvl", "d6/d41/classOnlMonV1495.html#ae238d4bef1b3dcba3e3cf22edba03af9", null ],
-    [ "m_type", "d6/d41/classOnlMonV1495.html#ab243ff059d4469ab48cb2c4fd143b0f4", null ],
     [ "N_DET", "d6/d41/classOnlMonV1495.html#af4953839795838fe7c07ce5fba5f90bf", null ]
 ];

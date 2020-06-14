@@ -23,14 +23,5 @@ var classOnlMonHodo =
     [ "InitOnlMon", "d8/dc8/classOnlMonHodo.html#a11f3476c7515940e2f08350b0e481a3f", null ],
     [ "InitRunOnlMon", "d8/dc8/classOnlMonHodo.html#a7722572b5da3befd0a1d4ccbae0f903d", null ],
     [ "ProcessEventOnlMon", "d8/dc8/classOnlMonHodo.html#a206f11cc8ee72e48b83442b4619dd4b5", null ],
-    [ "SetDet", "d8/dc8/classOnlMonHodo.html#ac8f6f8a8bbdcbc277b1d8ecffbf91bfe", null ],
-    [ "h1_ele", "d8/dc8/classOnlMonHodo.html#a2cc498553e4abc0f62324740882bf796", null ],
-    [ "h1_ele_in", "d8/dc8/classOnlMonHodo.html#a6f87309a239f95bad009e74a6fce1e8d", null ],
-    [ "h1_time", "d8/dc8/classOnlMonHodo.html#a03e51227d7a2efe15c75dbc1b2615441", null ],
-    [ "h1_time_in", "d8/dc8/classOnlMonHodo.html#a4b5fa789a925ff0038edc1236043449b", null ],
-    [ "h2_time_ele", "d8/dc8/classOnlMonHodo.html#a3cc7a4f46c4a81e93d5444d8895ace46", null ],
-    [ "list_det_id", "d8/dc8/classOnlMonHodo.html#ab21a88923190e65e050a976bc1f33116", null ],
-    [ "list_det_name", "d8/dc8/classOnlMonHodo.html#a9b7a50be626e8e1ef11037d74edf0380", null ],
-    [ "m_type", "d8/dc8/classOnlMonHodo.html#a66e6856972f5e6a5185a365428afb0cc", null ],
     [ "N_DET", "d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32", null ]
 ];

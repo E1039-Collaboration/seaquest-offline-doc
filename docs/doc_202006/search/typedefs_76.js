@@ -9,7 +9,6 @@ var searchData=
   ['vertexidconstiter',['VertexIdConstIter',['../db/d88/classPHG4Shower.html#adff34107bbad0bb677ba3294f894b0fa',1,'PHG4Shower']]],
   ['vertexiditer',['VertexIdIter',['../db/d88/classPHG4Shower.html#a5e6f4862aa53aea35952b2b9a0034fb8',1,'PHG4Shower']]],
   ['vertexidset',['VertexIdSet',['../db/d88/classPHG4Shower.html#a44933b7299b3a4a46ed21366d26e50f9',1,'PHG4Shower']]],
-  ['volumemaptype',['VolumeMapType',['../dd/db5/classPHG4GDMLWrite.html#a6914425d5fe87da92305f0accf9f9e7b',1,'PHG4GDMLWrite']]],
   ['vtxiterator',['VtxIterator',['../da/d6c/classPHG4TruthInfoContainer.html#a91cc4af637d1913d3da007f536280635',1,'PHG4TruthInfoContainer']]],
   ['vtxmap',['VtxMap',['../da/d6c/classPHG4TruthInfoContainer.html#aa9c97c19e83c2d20c889c543ce6d56f2',1,'PHG4TruthInfoContainer']]],
   ['vtxrange',['VtxRange',['../da/d6c/classPHG4TruthInfoContainer.html#a9414755db7a671125d55ae862c5d32ca',1,'PHG4TruthInfoContainer']]]

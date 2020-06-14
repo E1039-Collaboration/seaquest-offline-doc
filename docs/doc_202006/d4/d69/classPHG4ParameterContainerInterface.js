@@ -21,8 +21,5 @@ var classPHG4ParameterContainerInterface =
     [ "set_name", "d4/d69/classPHG4ParameterContainerInterface.html#a2df4a3e8b39eaa945589a0df9b4207d5", null ],
     [ "set_string_param", "d4/d69/classPHG4ParameterContainerInterface.html#ae140bb6c7a71cf48afc1b089b7a5e6cd", null ],
     [ "SetDefaultParameters", "d4/d69/classPHG4ParameterContainerInterface.html#af6185f30e94400bffa7816659fd524dc", null ],
-    [ "UpdateParametersWithMacro", "d4/d69/classPHG4ParameterContainerInterface.html#a817ccd004d0fea5706ca637113b47478", null ],
-    [ "defaultparams", "d4/d69/classPHG4ParameterContainerInterface.html#a90feee58e0ee6edef69d0eaecf497516", null ],
-    [ "macroparams", "d4/d69/classPHG4ParameterContainerInterface.html#a8ae5508a6d372d8b843ca83e38b046db", null ],
-    [ "paramscontainer", "d4/d69/classPHG4ParameterContainerInterface.html#af22337c61ff88ab3feb5142f41e1d417", null ]
+    [ "UpdateParametersWithMacro", "d4/d69/classPHG4ParameterContainerInterface.html#a817ccd004d0fea5706ca637113b47478", null ]
 ];

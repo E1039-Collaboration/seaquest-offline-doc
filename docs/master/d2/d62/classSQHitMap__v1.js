@@ -5,7 +5,6 @@ var classSQHitMap__v1 =
     [ "~SQHitMap_v1", "d2/d62/classSQHitMap__v1.html#a9de20c8b8871597fbd4d9a96b20d601a", null ],
     [ "begin", "d2/d62/classSQHitMap__v1.html#a3b7dbfe6d08eb4d66cdae41eced532a1", null ],
     [ "begin", "d2/d62/classSQHitMap__v1.html#a02f0a7c947da626844f58925b0d25b3e", null ],
-    [ "ClassDef", "d2/d62/classSQHitMap__v1.html#a74804cc108af553e1614cd0c669b94c2", null ],
     [ "clear", "d2/d62/classSQHitMap__v1.html#a69226c7ff053a86141199883888f4ed7", null ],
     [ "Clone", "d2/d62/classSQHitMap__v1.html#a2462968b631212e513e2e8327259b18b", null ],
     [ "count", "d2/d62/classSQHitMap__v1.html#a91e3a6ad535a68d348257b1dec813870", null ],
@@ -22,6 +21,5 @@ var classSQHitMap__v1 =
     [ "isValid", "d2/d62/classSQHitMap__v1.html#a9eb35987305786fdcf2dd26e50bac8a6", null ],
     [ "operator=", "d2/d62/classSQHitMap__v1.html#a9ef821212f518f4ab3670fe258e5646f", null ],
     [ "Reset", "d2/d62/classSQHitMap__v1.html#aea1b50285fd892c00424fe312c03be2e", null ],
-    [ "size", "d2/d62/classSQHitMap__v1.html#aca16e6d3bdf5f00e999b7e7c91589f8f", null ],
-    [ "_map", "d2/d62/classSQHitMap__v1.html#a6d00491f46c2093b034cbecf21ede6bc", null ]
+    [ "size", "d2/d62/classSQHitMap__v1.html#aca16e6d3bdf5f00e999b7e7c91589f8f", null ]
 ];

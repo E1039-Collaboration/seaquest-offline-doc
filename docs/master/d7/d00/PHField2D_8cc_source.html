@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -131,10 +129,10 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../db/d49/classPHField2D.html#a40312a4b2b0702dfc9303e0945da5989">   15</a></span>&#160;<a class="code" href="../../db/d49/classPHField2D.html#a40312a4b2b0702dfc9303e0945da5989">PHField2D::PHField2D</a>( <span class="keyword">const</span> <span class="keywordtype">string</span> &amp;filename, <span class="keyword">const</span> <span class="keywordtype">int</span> verb, <span class="keyword">const</span> <span class="keywordtype">float</span> magfield_rescale) :</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../da/ddc/classPHField.html">PHField</a>(verb)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <a class="code" href="../../db/d49/classPHField2D.html#af27baa2ae09efcab505ae8318525f421">r_index0_cache</a> = 0;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="../../db/d49/classPHField2D.html#a18d91f393ec4f7d1dc1d75abe020cdb2">r_index1_cache</a> = 0;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <a class="code" href="../../db/d49/classPHField2D.html#af159151e74bcca69b8ceb0163ec2222d">z_index0_cache</a> = 0;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="../../db/d49/classPHField2D.html#a04d31399216512378da11e72002f380c">z_index1_cache</a> = 0;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  r_index0_cache = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  r_index1_cache = 0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  z_index0_cache = 0;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  z_index1_cache = 0;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a> &gt; 0)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot; ------------- PHField2D::PHField2D() ------------------&quot;</span> &lt;&lt; endl;</div>
@@ -211,8 +209,8 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; field_map-&gt;GetEntries(); i++)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      field_map-&gt;GetEntry(i);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <a class="code" href="../../db/d49/classPHField2D.html#ad52e8fa2cac08c8b1e75be02f9d81dde">trio</a> coord_key( ROOT_Z, ROOT_R );</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <a class="code" href="../../db/d49/classPHField2D.html#ad52e8fa2cac08c8b1e75be02f9d81dde">trio</a> field_val( ROOT_BZ, ROOT_BR );</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      trio coord_key( ROOT_Z, ROOT_R );</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      trio field_val( ROOT_BZ, ROOT_BR );</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      sorted_map[coord_key] = field_val;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      z_set.insert(ROOT_Z*cm);</div>
@@ -223,14 +221,14 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a> &gt; 4)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      map&lt;trio, trio&gt;::iterator it = sorted_map.begin();</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <a class="code" href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">print_map</a>(it);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      print_map(it);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordtype">float</span> last_z = it-&gt;first.get&lt;0&gt;();</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <span class="keywordflow">for</span> ( it = sorted_map.begin(); it != sorted_map.end(); ++it )</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        {</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="keywordflow">if</span> ( it-&gt;first.get&lt;0&gt;() != last_z )</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;              last_z = it-&gt;first.get&lt;0&gt;();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;              <a class="code" href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">print_map</a>( it );</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;              print_map( it );</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
@@ -300,7 +298,7 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <span class="comment">// couts print the values entered into the vectors</span></div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <span class="keywordflow">if</span> ( fabs(z) &lt; 10 &amp;&amp; ir &lt; 10 <span class="comment">/*&amp;&amp; iphi==2*/</span> &amp;&amp; <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a> &gt; 3)</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          <a class="code" href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">print_map</a>(iter);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          print_map(iter);</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;          cout &lt;&lt; <span class="stringliteral">&quot; B(&quot;</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                 &lt;&lt; <a class="code" href="../../db/d49/classPHField2D.html#a547cdc422219b91656abe665c4774c58">r_map_</a>[ir] &lt;&lt; <span class="stringliteral">&quot;, &quot;</span></div>
@@ -396,8 +394,8 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="comment">// between subsequent calls, we can save on the expense of the upper_bound</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <span class="comment">// lookup (~10-15% of central event run time) with some caching between calls</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  </div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> r_index0 = <a class="code" href="../../db/d49/classPHField2D.html#af27baa2ae09efcab505ae8318525f421">r_index0_cache</a>;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> r_index1 = <a class="code" href="../../db/d49/classPHField2D.html#a18d91f393ec4f7d1dc1d75abe020cdb2">r_index1_cache</a>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> r_index0 = r_index0_cache;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> r_index1 = r_index1_cache;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  </div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="keywordflow">if</span> (!((r &gt; <a class="code" href="../../db/d49/classPHField2D.html#a547cdc422219b91656abe665c4774c58">r_map_</a>[r_index0])&amp;&amp;(r &lt; <a class="code" href="../../db/d49/classPHField2D.html#a547cdc422219b91656abe665c4774c58">r_map_</a>[r_index1]))) {</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    </div>
@@ -418,12 +416,12 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    }</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <span class="comment">// update cache</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="../../db/d49/classPHField2D.html#af27baa2ae09efcab505ae8318525f421">r_index0_cache</a> = r_index0;</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <a class="code" href="../../db/d49/classPHField2D.html#a18d91f393ec4f7d1dc1d75abe020cdb2">r_index1_cache</a> = r_index1;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    r_index0_cache = r_index0;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    r_index1_cache = r_index1;</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  }</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> z_index0 = <a class="code" href="../../db/d49/classPHField2D.html#af159151e74bcca69b8ceb0163ec2222d">z_index0_cache</a>;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> z_index1 = <a class="code" href="../../db/d49/classPHField2D.html#a04d31399216512378da11e72002f380c">z_index1_cache</a>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> z_index0 = z_index0_cache;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> z_index1 = z_index1_cache;</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <span class="keywordflow">if</span> (!((z &gt; <a class="code" href="../../db/d49/classPHField2D.html#a700dd287b7635bbdafaae27d14317cbd">z_map_</a>[z_index0])&amp;&amp;(z &lt; <a class="code" href="../../db/d49/classPHField2D.html#a700dd287b7635bbdafaae27d14317cbd">z_map_</a>[z_index1]))) {</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
@@ -438,8 +436,8 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="comment">// update cache</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <a class="code" href="../../db/d49/classPHField2D.html#af159151e74bcca69b8ceb0163ec2222d">z_index0_cache</a> = z_index0;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <a class="code" href="../../db/d49/classPHField2D.html#a04d31399216512378da11e72002f380c">z_index1_cache</a> = z_index1;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    z_index0_cache = z_index0;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    z_index1_cache = z_index1;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  }</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    </div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <span class="keywordtype">double</span> Br000 = <a class="code" href="../../db/d49/classPHField2D.html#a2caa24d51b6786f1a5bbaad2d2164d17">BFieldR_</a>[z_index0][r_index0];</div>
@@ -488,7 +486,7 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;}</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="comment">// debug function to print key/value pairs in map</span></div>
-<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">  375</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">PHField2D::print_map</a>( map&lt;trio, trio&gt;::iterator&amp; it )<span class="keyword"> const</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<span class="keywordtype">void</span> PHField2D::print_map( map&lt;trio, trio&gt;::iterator&amp; it )<span class="keyword"> const</span></div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;    Key: &lt;&quot;</span></div>
@@ -501,25 +499,19 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="ttc" id="classPHField2D_html_af159151e74bcca69b8ceb0163ec2222d"><div class="ttname"><a href="../../db/d49/classPHField2D.html#af159151e74bcca69b8ceb0163ec2222d">PHField2D::z_index0_cache</a></div><div class="ttdeci">unsigned int z_index0_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00053">PHField2D.h:53</a></div></div>
 <div class="ttc" id="classPHField2D_html_a8697dfd40beaa724d06d0a44f928e570"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a8697dfd40beaa724d06d0a44f928e570">PHField2D::GetFieldCyl</a></div><div class="ttdeci">void GetFieldCyl(const double CylPoint[4], double *Bfield) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d00/PHField2D_8cc_source.html#l00260">PHField2D.cc:260</a></div></div>
 <div class="ttc" id="classPHField2D_html_a40312a4b2b0702dfc9303e0945da5989"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a40312a4b2b0702dfc9303e0945da5989">PHField2D::PHField2D</a></div><div class="ttdeci">PHField2D(const std::string &amp;filename, const int verb=0, const float magfield_rescale=1.0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d00/PHField2D_8cc_source.html#l00015">PHField2D.cc:15</a></div></div>
 <div class="ttc" id="classPHField_html_acc5b419af2babb382ced53f59f1541a3"><div class="ttname"><a href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">PHField::verb_</a></div><div class="ttdeci">unsigned verb_</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00036">PHField.h:36</a></div></div>
 <div class="ttc" id="classPHField2D_html_a700dd287b7635bbdafaae27d14317cbd"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a700dd287b7635bbdafaae27d14317cbd">PHField2D::z_map_</a></div><div class="ttdeci">std::vector&lt; float &gt; z_map_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00036">PHField2D.h:36</a></div></div>
 <div class="ttc" id="classPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00015">PHField.h:15</a></div></div>
-<div class="ttc" id="classPHField2D_html_a04d31399216512378da11e72002f380c"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a04d31399216512378da11e72002f380c">PHField2D::z_index1_cache</a></div><div class="ttdeci">unsigned int z_index1_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00054">PHField2D.h:54</a></div></div>
 <div class="ttc" id="PHField2D_8h_html"><div class="ttname"><a href="../../da/d06/PHField2D_8h.html">PHField2D.h</a></div></div>
 <div class="ttc" id="classPHField2D_html_a9a44feb1859bf5025d4424b4b685cfbf"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a9a44feb1859bf5025d4424b4b685cfbf">PHField2D::maxz_</a></div><div class="ttdeci">float maxz_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00040">PHField2D.h:40</a></div></div>
 <div class="ttc" id="classPHField2D_html_a2caa24d51b6786f1a5bbaad2d2164d17"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a2caa24d51b6786f1a5bbaad2d2164d17">PHField2D::BFieldR_</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; float &gt; &gt; BFieldR_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00032">PHField2D.h:32</a></div></div>
 <div class="ttc" id="classPHField2D_html_acc0c26900b35a2fb938b10271a1731ec"><div class="ttname"><a href="../../db/d49/classPHField2D.html#acc0c26900b35a2fb938b10271a1731ec">PHField2D::BFieldZ_</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; float &gt; &gt; BFieldZ_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00031">PHField2D.h:31</a></div></div>
-<div class="ttc" id="classPHField2D_html_ad52e8fa2cac08c8b1e75be02f9d81dde"><div class="ttname"><a href="../../db/d49/classPHField2D.html#ad52e8fa2cac08c8b1e75be02f9d81dde">PHField2D::trio</a></div><div class="ttdeci">boost::tuple&lt; float, float &gt; trio</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00016">PHField2D.h:16</a></div></div>
-<div class="ttc" id="classPHField2D_html_af27baa2ae09efcab505ae8318525f421"><div class="ttname"><a href="../../db/d49/classPHField2D.html#af27baa2ae09efcab505ae8318525f421">PHField2D::r_index0_cache</a></div><div class="ttdeci">unsigned int r_index0_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00051">PHField2D.h:51</a></div></div>
 <div class="ttc" id="classPHField2D_html_a970903b68b3be4a1b204e5ad3482e902"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a970903b68b3be4a1b204e5ad3482e902">PHField2D::magfield_unit</a></div><div class="ttdeci">double magfield_unit</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00041">PHField2D.h:41</a></div></div>
-<div class="ttc" id="classPHField2D_html_a18d91f393ec4f7d1dc1d75abe020cdb2"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a18d91f393ec4f7d1dc1d75abe020cdb2">PHField2D::r_index1_cache</a></div><div class="ttdeci">unsigned int r_index1_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00052">PHField2D.h:52</a></div></div>
 <div class="ttc" id="classPHField2D_html_ae13beeab1a7b2218c1669676976d7630"><div class="ttname"><a href="../../db/d49/classPHField2D.html#ae13beeab1a7b2218c1669676976d7630">PHField2D::minz_</a></div><div class="ttdeci">float minz_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00040">PHField2D.h:40</a></div></div>
 <div class="ttc" id="classPHField2D_html_a6cd46d9bcc55669fc3b05715648078e8"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a6cd46d9bcc55669fc3b05715648078e8">PHField2D::GetFieldValue</a></div><div class="ttdeci">void GetFieldValue(const double Point[4], double *Bfield) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d00/PHField2D_8cc_source.html#l00208">PHField2D.cc:208</a></div></div>
 <div class="ttc" id="classPHField2D_html_a547cdc422219b91656abe665c4774c58"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a547cdc422219b91656abe665c4774c58">PHField2D::r_map_</a></div><div class="ttdeci">std::vector&lt; float &gt; r_map_</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d06/PHField2D_8h_source.html#l00037">PHField2D.h:37</a></div></div>
-<div class="ttc" id="classPHField2D_html_a732f464d9faa0b5177a828da906e54ea"><div class="ttname"><a href="../../db/d49/classPHField2D.html#a732f464d9faa0b5177a828da906e54ea">PHField2D::print_map</a></div><div class="ttdeci">void print_map(std::map&lt; trio, trio &gt;::iterator &amp;it) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d00/PHField2D_8cc_source.html#l00375">PHField2D.cc:375</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -530,7 +522,7 @@ $(document).ready(function(){initNavTree('d7/d00/PHField2D_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_29bc369c4f71a7b86d08f7eb27605fd7.html">PHField</a></li><li class="navelem"><a class="el" href="../../d7/d00/PHField2D_8cc.html">PHField2D.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -151,12 +149,12 @@ $(document).ready(function(){initNavTree('d1/db2/SimDstTrimmer_8cxx_source.html'
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../de/d85/classSimDstTrimmer.html#a9f837dff38c3365d00aa68fd8dbc7c55">   36</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d85/classSimDstTrimmer.html#a9f837dff38c3365d00aa68fd8dbc7c55">SimDstTrimmer::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">int</span> ret = <a class="code" href="../../de/d85/classSimDstTrimmer.html#a507983e298df6ef550abd599024f9aa9">GetNodes</a>(topNode);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">int</span> ret = GetNodes(topNode);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">if</span> (ret != <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>) <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a0296294492897c750eb4bb15476b8cdc">PHG4TruthInfoContainer::ShowerRange</a> range = <a class="code" href="../../de/d85/classSimDstTrimmer.html#ad5b44633129d7128eb42a1522e088655">_truth</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#ac6b9ed0a4bd663427a44f8b0518db0c3">GetShowerRange</a>();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a0296294492897c750eb4bb15476b8cdc">PHG4TruthInfoContainer::ShowerRange</a> range = _truth-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#ac6b9ed0a4bd663427a44f8b0518db0c3">GetShowerRange</a>();</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#ad926fc7b62189b186d3ac41bad191f4f">PHG4TruthInfoContainer::ShowerIterator</a> it = range.first; it != range.second; ) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../de/d85/classSimDstTrimmer.html#ad5b44633129d7128eb42a1522e088655">_truth</a>-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a1e640d02fdcd9a0e4c6babce6e9cc86c">delete_shower</a>(it++);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    _truth-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a1e640d02fdcd9a0e4c6babce6e9cc86c">delete_shower</a>(it++);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
@@ -167,10 +165,10 @@ $(document).ready(function(){initNavTree('d1/db2/SimDstTrimmer_8cxx_source.html'
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../de/d85/classSimDstTrimmer.html#a507983e298df6ef550abd599024f9aa9">   54</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d85/classSimDstTrimmer.html#a507983e298df6ef550abd599024f9aa9">SimDstTrimmer::GetNodes</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">int</span> SimDstTrimmer::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <a class="code" href="../../de/d85/classSimDstTrimmer.html#ad5b44633129d7128eb42a1522e088655">_truth</a> = findNode::getClass&lt;PHG4TruthInfoContainer&gt;(topNode, <span class="stringliteral">&quot;G4TruthInfo&quot;</span>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">if</span> (!<a class="code" href="../../de/d85/classSimDstTrimmer.html#ad5b44633129d7128eb42a1522e088655">_truth</a>) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  _truth = findNode::getClass&lt;PHG4TruthInfoContainer&gt;(topNode, <span class="stringliteral">&quot;G4TruthInfo&quot;</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">if</span> (!_truth) {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d1/db2/SimDstTrimmer_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;!_truth&quot;</span>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div>
@@ -191,8 +189,6 @@ $(document).ready(function(){initNavTree('d1/db2/SimDstTrimmer_8cxx_source.html'
 <div class="ttc" id="classSimDstTrimmer_html_a9f837dff38c3365d00aa68fd8dbc7c55"><div class="ttname"><a href="../../de/d85/classSimDstTrimmer.html#a9f837dff38c3365d00aa68fd8dbc7c55">SimDstTrimmer::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db2/SimDstTrimmer_8cxx_source.html#l00036">SimDstTrimmer.cxx:36</a></div></div>
 <div class="ttc" id="classSimDstTrimmer_html_ab30f58eec7baf859c35e6b6a85f4ef60"><div class="ttname"><a href="../../de/d85/classSimDstTrimmer.html#ab30f58eec7baf859c35e6b6a85f4ef60">SimDstTrimmer::~SimDstTrimmer</a></div><div class="ttdeci">virtual ~SimDstTrimmer()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db2/SimDstTrimmer_8cxx_source.html#l00021">SimDstTrimmer.cxx:21</a></div></div>
 <div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
-<div class="ttc" id="classSimDstTrimmer_html_ad5b44633129d7128eb42a1522e088655"><div class="ttname"><a href="../../de/d85/classSimDstTrimmer.html#ad5b44633129d7128eb42a1522e088655">SimDstTrimmer::_truth</a></div><div class="ttdeci">PHG4TruthInfoContainer * _truth</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d40/SimDstTrimmer_8h_source.html#l00023">SimDstTrimmer.h:23</a></div></div>
-<div class="ttc" id="classSimDstTrimmer_html_a507983e298df6ef550abd599024f9aa9"><div class="ttname"><a href="../../de/d85/classSimDstTrimmer.html#a507983e298df6ef550abd599024f9aa9">SimDstTrimmer::GetNodes</a></div><div class="ttdeci">int GetNodes(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db2/SimDstTrimmer_8cxx_source.html#l00054">SimDstTrimmer.cxx:54</a></div></div>
 <div class="ttc" id="classPHG4TruthInfoContainer_html_a1e640d02fdcd9a0e4c6babce6e9cc86c"><div class="ttname"><a href="../../da/d6c/classPHG4TruthInfoContainer.html#a1e640d02fdcd9a0e4c6babce6e9cc86c">PHG4TruthInfoContainer::delete_shower</a></div><div class="ttdeci">void delete_shower(ShowerIterator piter)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00274">PHG4TruthInfoContainer.cc:274</a></div></div>
 <div class="ttc" id="classSimDstTrimmer_html_a099efb12364f724329013a5116d683a2"><div class="ttname"><a href="../../de/d85/classSimDstTrimmer.html#a099efb12364f724329013a5116d683a2">SimDstTrimmer::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db2/SimDstTrimmer_8cxx_source.html#l00031">SimDstTrimmer.cxx:31</a></div></div>
 <div class="ttc" id="PHCompositeNode_8h_html"><div class="ttname"><a href="../../d8/d30/PHCompositeNode_8h.html">PHCompositeNode.h</a></div></div>
@@ -212,7 +208,7 @@ $(document).ready(function(){initNavTree('d1/db2/SimDstTrimmer_8cxx_source.html'
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_85806d049710cb8d5869d7cc7d797cb3.html">evt_filter</a></li><li class="navelem"><a class="el" href="../../d1/db2/SimDstTrimmer_8cxx.html">SimDstTrimmer.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:46</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

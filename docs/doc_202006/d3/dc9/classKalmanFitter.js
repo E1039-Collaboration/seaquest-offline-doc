@@ -18,14 +18,5 @@ var classKalmanFitter =
     [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8", null ],
     [ "setStartingParameter", "d3/dc9/classKalmanFitter.html#a6822d7a32f36020b468db116726cfbc7", null ],
     [ "updateAlignment", "d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326", null ],
-    [ "updateTrack", "d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c", null ],
-    [ "_chisq", "d3/dc9/classKalmanFitter.html#abfbf7a961e4271b0b68c43b2670df77f", null ],
-    [ "_kmfit", "d3/dc9/classKalmanFitter.html#aed8a21b4cdf4cbbc86b76d9887521e6a", null ],
-    [ "_max_iteration", "d3/dc9/classKalmanFitter.html#ae8f6c519fcfe5a637bd85d20705ee015", null ],
-    [ "_nodes", "d3/dc9/classKalmanFitter.html#a304054023c925b6bf68eeb4168307877", null ],
-    [ "_tolerance", "d3/dc9/classKalmanFitter.html#a4f871c3e4329248e0fc461c2524c47b3", null ],
-    [ "rM_20", "d3/dc9/classKalmanFitter.html#a8fb6711eca6d6dc641d2af4983600dae", null ],
-    [ "rM_21", "d3/dc9/classKalmanFitter.html#a65729de566a744b3dd03f199dd78ed3c", null ],
-    [ "rM_22", "d3/dc9/classKalmanFitter.html#a36de12805a9c5534533faa4a137f2874", null ],
-    [ "z_planes", "d3/dc9/classKalmanFitter.html#a54028cfceaf7af434750c3fdac0bcbf7", null ]
+    [ "updateTrack", "d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c", null ]
 ];

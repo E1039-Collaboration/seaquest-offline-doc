@@ -25,13 +25,6 @@ var classOnlMonServer =
     [ "SetServerReady", "d8/d38/classOnlMonServer.html#a010169e02d5d39a6f3880a1f2a26b647", null ],
     [ "SetThreadId", "d8/d38/classOnlMonServer.html#ad47951c3720d1d0c910767acdc2f8ee8", null ],
     [ "StartServer", "d8/d38/classOnlMonServer.html#a1faba47a8f98c19d258624675f820705", null ],
-    [ "m_go_end", "d8/d38/classOnlMonServer.html#a3bf3a89b0a7b46d554f32836a11217e8", null ],
-    [ "m_is_online", "d8/d38/classOnlMonServer.html#a5977a0f775175e38253111104d6aff8d", null ],
-    [ "m_mon_host", "d8/d38/classOnlMonServer.html#a5d8f1e06df78d738e362538ab96d909f", null ],
-    [ "m_mon_n_port", "d8/d38/classOnlMonServer.html#a90f195280d6f361eb4ed1b7a0a5278ef", null ],
-    [ "m_mon_port", "d8/d38/classOnlMonServer.html#aa37e8430d730d524576e0c35707249df", null ],
-    [ "m_mon_port_0", "d8/d38/classOnlMonServer.html#a433b7c86cab318fdaa70edf332a654e2", null ],
-    [ "m_svr_ready", "d8/d38/classOnlMonServer.html#a46831e6f0d310716f23a3cf6ed48adb2", null ],
     [ "mutex", "d8/d38/classOnlMonServer.html#a0aee2d77220e4b2df55f8bcf9f640c0d", null ],
     [ "serverthreadid", "d8/d38/classOnlMonServer.html#acd1fdfa041b3e5a503479c56b41b1675", null ]
 ];

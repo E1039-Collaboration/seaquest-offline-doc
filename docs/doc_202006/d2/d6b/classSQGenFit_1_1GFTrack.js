@@ -19,15 +19,7 @@ var classSQGenFit_1_1GFTrack =
     [ "getSRecTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658", null ],
     [ "postFitUpdate", "d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168", null ],
     [ "print", "d2/d6b/classSQGenFit_1_1GFTrack.html#a11e6a9fba368ce5f8116ad4d660e4c52", null ],
-    [ "setInitialStateForExtrap", "d2/d6b/classSQGenFit_1_1GFTrack.html#af38f921f2cff361c579722da779acc87", null ],
     [ "setTracklet", "d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8", null ],
     [ "setVerbosity", "d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce", null ],
-    [ "updatePropState", "d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5", null ],
-    [ "_measurements", "d2/d6b/classSQGenFit_1_1GFTrack.html#acb2c51e569d06481fb23a5d51de6caed", null ],
-    [ "_pdg", "d2/d6b/classSQGenFit_1_1GFTrack.html#afff93eee29f73d285f37e068ed58e332", null ],
-    [ "_propState", "d2/d6b/classSQGenFit_1_1GFTrack.html#abe2c593cddfb9d5224dfe28d778bd637", null ],
-    [ "_track", "d2/d6b/classSQGenFit_1_1GFTrack.html#aa67e16d361faf260f1e986400220c8c5", null ],
-    [ "_trkcand", "d2/d6b/classSQGenFit_1_1GFTrack.html#ae88b0da96610b0ca989b739f27770834", null ],
-    [ "_trkrep", "d2/d6b/classSQGenFit_1_1GFTrack.html#ac840055c842f851d3424c5083112a356", null ],
-    [ "_virtMeas", "d2/d6b/classSQGenFit_1_1GFTrack.html#aea4e89963965744b72ec7a3880aae05d", null ]
+    [ "updatePropState", "d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5", null ]
 ];

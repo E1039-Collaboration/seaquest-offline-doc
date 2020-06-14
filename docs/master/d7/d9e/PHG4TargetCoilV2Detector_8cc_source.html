@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -154,7 +152,7 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//_______________________________________________________________</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#abc82b901e18e4fb2167596066661b13d">   39</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#abc82b901e18e4fb2167596066661b13d">PHG4TargetCoilV2Detector::IsInCylinder</a>(<span class="keyword">const</span> G4VPhysicalVolume *volume)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">if</span> (volume == <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6">cylinder_physi</a> || volume-&gt;GetMotherLogical() == <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6">cylinder_physi</a>-&gt;GetLogicalVolume())</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">if</span> (volume == cylinder_physi || volume-&gt;GetMotherLogical() == cylinder_physi-&gt;GetLogicalVolume())</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  }</div>
@@ -440,7 +438,7 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                        0*deg,</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                        <a class="code" href="../../d2/da1/namespaceDPGEN.html#ab6a70fdc2832b8704200b37bdff4f155">twopi</a>);</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="keywordtype">double</span> steplimits = <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;steplimits&quot;</span>) * cm;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="keywordtype">double</span> steplimits = params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;steplimits&quot;</span>) * cm;</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  G4UserLimits *g4userlimits = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <span class="keywordflow">if</span> (isfinite(steplimits))</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  {</div>
@@ -455,17 +453,17 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  cylinder_logic-&gt;SetVisAttributes(cylinder_vis);</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  G4RotationMatrix *rotm  = <span class="keyword">new</span> G4RotationMatrix();</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  rotm-&gt;rotateX(<a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_x&quot;</span>)*deg);</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  rotm-&gt;rotateY(<a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_y&quot;</span>)*deg);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  rotm-&gt;rotateZ(<a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_z&quot;</span>)*deg);</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aad26ea942f2bea4c9b12af9c35f204d6">Print</a>();</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  rotm-&gt;rotateX(params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_x&quot;</span>)*deg);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  rotm-&gt;rotateY(params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_y&quot;</span>)*deg);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  rotm-&gt;rotateZ(params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;rot_z&quot;</span>)*deg);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aad26ea942f2bea4c9b12af9c35f204d6">Print</a>();</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  rotm-&gt;print(std::cout);</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6">cylinder_physi</a> = <span class="keyword">new</span> G4PVPlacement(</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  cylinder_physi = <span class="keyword">new</span> G4PVPlacement(</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                rotm,</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                G4ThreeVector(</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                                <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_x&quot;</span>) * cm,</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                                <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_y&quot;</span>) * cm,</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                        <a class="code" href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">params</a>-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_z&quot;</span>) * cm),</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                                params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_x&quot;</span>) * cm,</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                                params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_y&quot;</span>) * cm,</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                        params-&gt;<a class="code" href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">get_double_param</a>(<span class="stringliteral">&quot;place_z&quot;</span>) * cm),</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                                        cylinder_logic,</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                                        G4String(<a class="code" href="../../d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f">GetName</a>().c_str()),</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                                        logicWorld, 0, <span class="keyword">false</span>, overlapcheck);</div>
@@ -596,7 +594,6 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
 <div class="ttc" id="classPHParameters_html_aa61ce249b94375d9af4482c36a1308cf"><div class="ttname"><a href="../../dd/dae/classPHParameters.html#aa61ce249b94375d9af4482c36a1308cf">PHParameters::get_double_param</a></div><div class="ttdeci">double get_double_param(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/PHParameters_8cc_source.html#l00101">PHParameters.cc:101</a></div></div>
-<div class="ttc" id="classPHG4TargetCoilV2Detector_html_a6b55b2d54d3c6bf7ce52f47abe98f49d"><div class="ttname"><a href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6b55b2d54d3c6bf7ce52f47abe98f49d">PHG4TargetCoilV2Detector::params</a></div><div class="ttdeci">PHParameters * params</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d15/PHG4TargetCoilV2Detector_8h_source.html#l00032">PHG4TargetCoilV2Detector.h:32</a></div></div>
 <div class="ttc" id="PHG4TargetCoilV2Detector_8h_html"><div class="ttname"><a href="../../d6/d15/PHG4TargetCoilV2Detector_8h.html">PHG4TargetCoilV2Detector.h</a></div></div>
 <div class="ttc" id="classNode_html"><div class="ttname"><a href="../../df/dd0/classNode.html">Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1d/KalmanUtil_8h_source.html#l00090">KalmanUtil.h:90</a></div></div>
 <div class="ttc" id="classPHG4TargetCoilV2Detector_html_a6c7696ca21f9fc7a1e5bd8d237465090"><div class="ttname"><a href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a6c7696ca21f9fc7a1e5bd8d237465090">PHG4TargetCoilV2Detector::get_elem_id</a></div><div class="ttdeci">int get_elem_id(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9e/PHG4TargetCoilV2Detector_8cc_source.html#l00452">PHG4TargetCoilV2Detector.cc:452</a></div></div>
@@ -606,7 +603,6 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 <div class="ttc" id="classPHParameters_html"><div class="ttname"><a href="../../dd/dae/classPHParameters.html">PHParameters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d23/PHParameters_8h_source.html#l00017">PHParameters.h:17</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
-<div class="ttc" id="classPHG4TargetCoilV2Detector_html_a99d5f7da6e397fc4a209a386665dc0a6"><div class="ttname"><a href="../../d0/d00/classPHG4TargetCoilV2Detector.html#a99d5f7da6e397fc4a209a386665dc0a6">PHG4TargetCoilV2Detector::cylinder_physi</a></div><div class="ttdeci">G4VPhysicalVolume * cylinder_physi</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d15/PHG4TargetCoilV2Detector_8h_source.html#l00034">PHG4TargetCoilV2Detector.h:34</a></div></div>
 <div class="ttc" id="classPHG4Detector_html"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a></div><div class="ttdoc">base class for phenix detector creation </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00013">PHG4Detector.h:13</a></div></div>
 <div class="ttc" id="classPHG4Detector_html_a8790611ab760c902d64f821e79433253"><div class="ttname"><a href="../../d3/de7/classPHG4Detector.html#a8790611ab760c902d64f821e79433253">PHG4Detector::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dcc/PHG4Detector_8h_source.html#l00061">PHG4Detector.h:61</a></div></div>
 <div class="ttc" id="PHG4Utils_8h_html"><div class="ttname"><a href="../../d6/d5e/PHG4Utils_8h.html">PHG4Utils.h</a></div></div>
@@ -627,7 +623,7 @@ $(document).ready(function(){initNavTree('d7/d9e/PHG4TargetCoilV2Detector_8cc_so
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_f4e8c2e4e07ba1c1cfb499dcc2852b5d.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d7/d9e/PHG4TargetCoilV2Detector_8cc.html">PHG4TargetCoilV2Detector.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:47</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

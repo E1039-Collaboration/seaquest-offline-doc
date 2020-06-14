@@ -21,11 +21,5 @@ var classUtilOnline =
     [ "SetEndFileDir", "df/da2/classUtilOnline.html#ab3cf85ce6f975f4c2cb8b6e537e617b2", null ],
     [ "SetOnlMonDir", "df/da2/classUtilOnline.html#a2bad376ce811461e1134a1c5a4d13526", null ],
     [ "SetSchemaMainDaq", "df/da2/classUtilOnline.html#a98255d9eb90840ffdfc418130224913b", null ],
-    [ "UseOutputLocationForDevel", "df/da2/classUtilOnline.html#a1b169013bb8cf80fc91fe0acd1108678", null ],
-    [ "m_dir_coda", "df/da2/classUtilOnline.html#ad3169158c92e1c83256ed25cbbc51294", null ],
-    [ "m_dir_dst", "df/da2/classUtilOnline.html#a6f433e1a97fc5f4c508a76e7958a784b", null ],
-    [ "m_dir_eddst", "df/da2/classUtilOnline.html#ad4fec21c5b8a6765d1f1eb4a3385bd14", null ],
-    [ "m_dir_end", "df/da2/classUtilOnline.html#a0dcade75fa778c6c07c23848329361fc", null ],
-    [ "m_dir_onlmon", "df/da2/classUtilOnline.html#ac33c0cbbb0ebcab1bd7d19bd4a7ebfb0", null ],
-    [ "m_sch_maindaq", "df/da2/classUtilOnline.html#a5f24c5336c4f036c8df791c1ddda16db", null ]
+    [ "UseOutputLocationForDevel", "df/da2/classUtilOnline.html#a1b169013bb8cf80fc91fe0acd1108678", null ]
 ];

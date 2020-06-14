@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -157,19 +155,16 @@ $(document).ready(function(){initNavTree('d2/d0b/PHG4RegionInformation_8cc_sourc
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../da/d3d/classPHG4RegionInformation.html#a329e714425a5665019a3b8abdcf96a6d">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d3d/classPHG4RegionInformation.html#a329e714425a5665019a3b8abdcf96a6d">PHG4RegionInformation::Print</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; G4cout &lt;&lt; <span class="stringliteral">&quot;I&#39;m &quot;</span>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; <span class="keywordflow">if</span>(<a class="code" href="../../da/d3d/classPHG4RegionInformation.html#a82d4e0e54112550e451aecbd3535c8dc">isWorld</a>) { G4cout &lt;&lt; <span class="stringliteral">&quot;World.&quot;</span>; }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../da/d3d/classPHG4RegionInformation.html#a3c8c8be836260fab8a4593e607d94bcb">isTracker</a>) { G4cout &lt;&lt; <span class="stringliteral">&quot;Tracker.&quot;</span>; }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../da/d3d/classPHG4RegionInformation.html#a97d94caf4f01ab07b13f98f809c7ec20">isCalorimeter</a>) { G4cout &lt;&lt; <span class="stringliteral">&quot;Calorimeter.&quot;</span>; }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; <span class="keywordflow">if</span>(isWorld) { G4cout &lt;&lt; <span class="stringliteral">&quot;World.&quot;</span>; }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; <span class="keywordflow">else</span> <span class="keywordflow">if</span>(isTracker) { G4cout &lt;&lt; <span class="stringliteral">&quot;Tracker.&quot;</span>; }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; <span class="keywordflow">else</span> <span class="keywordflow">if</span>(isCalorimeter) { G4cout &lt;&lt; <span class="stringliteral">&quot;Calorimeter.&quot;</span>; }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; <span class="keywordflow">else</span> { G4cout &lt;&lt; <span class="stringliteral">&quot;unknown.&quot;</span>; }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; G4cout &lt;&lt; G4endl;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="ttc" id="PHG4RegionInformation_8h_html"><div class="ttname"><a href="../../da/d7e/PHG4RegionInformation_8h.html">PHG4RegionInformation.h</a></div></div>
 <div class="ttc" id="classPHG4RegionInformation_html_a329e714425a5665019a3b8abdcf96a6d"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#a329e714425a5665019a3b8abdcf96a6d">PHG4RegionInformation::Print</a></div><div class="ttdeci">void Print() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0b/PHG4RegionInformation_8cc_source.html#l00041">PHG4RegionInformation.cc:41</a></div></div>
-<div class="ttc" id="classPHG4RegionInformation_html_a97d94caf4f01ab07b13f98f809c7ec20"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#a97d94caf4f01ab07b13f98f809c7ec20">PHG4RegionInformation::isCalorimeter</a></div><div class="ttdeci">G4bool isCalorimeter</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d7e/PHG4RegionInformation_8h_source.html#l00051">PHG4RegionInformation.h:51</a></div></div>
 <div class="ttc" id="classPHG4RegionInformation_html_ab5edb10daf5351717874e8bff8185114"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#ab5edb10daf5351717874e8bff8185114">PHG4RegionInformation::PHG4RegionInformation</a></div><div class="ttdeci">PHG4RegionInformation()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0b/PHG4RegionInformation_8cc_source.html#l00034">PHG4RegionInformation.cc:34</a></div></div>
-<div class="ttc" id="classPHG4RegionInformation_html_a82d4e0e54112550e451aecbd3535c8dc"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#a82d4e0e54112550e451aecbd3535c8dc">PHG4RegionInformation::isWorld</a></div><div class="ttdeci">G4bool isWorld</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d7e/PHG4RegionInformation_8h_source.html#l00049">PHG4RegionInformation.h:49</a></div></div>
-<div class="ttc" id="classPHG4RegionInformation_html_a3c8c8be836260fab8a4593e607d94bcb"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#a3c8c8be836260fab8a4593e607d94bcb">PHG4RegionInformation::isTracker</a></div><div class="ttdeci">G4bool isTracker</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d7e/PHG4RegionInformation_8h_source.html#l00050">PHG4RegionInformation.h:50</a></div></div>
 <div class="ttc" id="classPHG4RegionInformation_html_aa77dd261be3a0133bec4589e4769a6ff"><div class="ttname"><a href="../../da/d3d/classPHG4RegionInformation.html#aa77dd261be3a0133bec4589e4769a6ff">PHG4RegionInformation::~PHG4RegionInformation</a></div><div class="ttdeci">~PHG4RegionInformation()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0b/PHG4RegionInformation_8cc_source.html#l00038">PHG4RegionInformation.cc:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -181,7 +176,7 @@ $(document).ready(function(){initNavTree('d2/d0b/PHG4RegionInformation_8cc_sourc
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6dbf4c28b450a5e981a5a6978e27aa63.html">g4main</a></li><li class="navelem"><a class="el" href="../../d2/d0b/PHG4RegionInformation_8cc.html">PHG4RegionInformation.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:48</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

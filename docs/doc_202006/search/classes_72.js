@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['rangeitem',['RangeItem',['../dd/d8c/structParamRunRange_1_1RangeItem.html',1,'ParamRunRange']]],
   ['readeicfiles',['ReadEICFiles',['../d3/d49/classReadEICFiles.html',1,'']]],
   ['readmysql',['ReadMySql',['../db/dda/classReadMySql.html',1,'']]],
   ['recoconsts',['recoConsts',['../d8/d14/classrecoConsts.html',1,'']]],

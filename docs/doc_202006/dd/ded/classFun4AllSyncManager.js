@@ -4,7 +4,6 @@ var classFun4AllSyncManager =
     [ "~Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html#a92345a8d4f1929baa0a93fa4d4ad68e7", null ],
     [ "BranchSelect", "dd/ded/classFun4AllSyncManager.html#afee33b7e25e89e35d5fa7fbf04f659c3", null ],
     [ "BranchSelect", "dd/ded/classFun4AllSyncManager.html#a91cbfc16dda454cb1f29036a5ae3ed17", null ],
-    [ "CheckSync", "dd/ded/classFun4AllSyncManager.html#a8b1fa694987276a45bb6e602f8cb549b", null ],
     [ "CurrentEvent", "dd/ded/classFun4AllSyncManager.html#a8b09000694a12e572075bc5f9824b13f", null ],
     [ "CurrentRun", "dd/ded/classFun4AllSyncManager.html#accab39002c98d83f875d96631b5d78bb", null ],
     [ "CurrentRun", "dd/ded/classFun4AllSyncManager.html#ac572b5225d10d2a47374337efde2cb28", null ],
@@ -27,14 +26,5 @@ var classFun4AllSyncManager =
     [ "setBranches", "dd/ded/classFun4AllSyncManager.html#a26041c760d2f12efd77a274002808c06", null ],
     [ "skip", "dd/ded/classFun4AllSyncManager.html#a9b5874f83d4984e24572838d55513eb3", null ],
     [ "TotalEvents", "dd/ded/classFun4AllSyncManager.html#a090292bd23af146f4ec4859f192a7663", null ],
-    [ "TotalEvents", "dd/ded/classFun4AllSyncManager.html#ae1a2dd9787c76b1ac42989886d2654ab", null ],
-    [ "currentevent", "dd/ded/classFun4AllSyncManager.html#a1f70050fa4ab9998da83d263c77953a0", null ],
-    [ "currentrun", "dd/ded/classFun4AllSyncManager.html#a857bf164d7ba9abaa57c2f331191cadf", null ],
-    [ "events_total", "dd/ded/classFun4AllSyncManager.html#a365ba3c35ec6427864f499ed6c49b956", null ],
-    [ "InManager", "dd/ded/classFun4AllSyncManager.html#ae7f445a54256f4513d82f1f65d742573", null ],
-    [ "iretInManager", "dd/ded/classFun4AllSyncManager.html#abdfc8fd5d3f065544ae462f8e986c379", null ],
-    [ "MasterSync", "dd/ded/classFun4AllSyncManager.html#a12792ebed8e9577094c88a2839e8fc79", null ],
-    [ "prdf_events", "dd/ded/classFun4AllSyncManager.html#a3ebdc78a5a598c280d766616f2cde4f4", null ],
-    [ "prdf_segment", "dd/ded/classFun4AllSyncManager.html#a7c13781f3dba1b282f1b6cf64f3ddef0", null ],
-    [ "repeat", "dd/ded/classFun4AllSyncManager.html#a51d6b317409b1a26ca8e4fc65f6ed504", null ]
+    [ "TotalEvents", "dd/ded/classFun4AllSyncManager.html#ae1a2dd9787c76b1ac42989886d2654ab", null ]
 ];

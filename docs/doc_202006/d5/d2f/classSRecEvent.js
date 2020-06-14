@@ -29,16 +29,5 @@ var classSRecEvent =
     [ "setEventSource", "d5/d2f/classSRecEvent.html#a273209ea4fd6e69c59d0aeda757baad2", null ],
     [ "setRawEvent", "d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff", null ],
     [ "setRecStatus", "d5/d2f/classSRecEvent.html#a019729051374bee85e8778951606082a", null ],
-    [ "setTargetPos", "d5/d2f/classSRecEvent.html#a4848fefc10ab16daaac0e9604c652943", null ],
-    [ "fAllTracks", "d5/d2f/classSRecEvent.html#aedefe00f3eacb28c5cdddd05d1c2a9b3", null ],
-    [ "fDimuons", "d5/d2f/classSRecEvent.html#a79ce2363c59606558febbeec42137e5e", null ],
-    [ "fEventID", "d5/d2f/classSRecEvent.html#a8303cb5b100b135ff16fdc04af0a5fae", null ],
-    [ "fLocalID", "d5/d2f/classSRecEvent.html#ad717496df0455dea255831721d8413d3", null ],
-    [ "fRecStatus", "d5/d2f/classSRecEvent.html#accbe5fdcae7caf67347a7a6c38c2b025", null ],
-    [ "fRunID", "d5/d2f/classSRecEvent.html#aab0f6c14d529b95c141da054ee3269ec", null ],
-    [ "fSource1", "d5/d2f/classSRecEvent.html#af6cd1d3168eba6fc6bca0b549558eb40", null ],
-    [ "fSource2", "d5/d2f/classSRecEvent.html#a42e2d8595d36e80098dd067c1f2475eb", null ],
-    [ "fSpillID", "d5/d2f/classSRecEvent.html#a2b56abb6c7cb5ae3d0fa23758c4ad8d3", null ],
-    [ "fTargetPos", "d5/d2f/classSRecEvent.html#a5abe7db1b27e42edfa25d64c7f68314c", null ],
-    [ "fTriggerBits", "d5/d2f/classSRecEvent.html#a593fd9ed9ae84dc18dcb0884940a1635", null ]
+    [ "setTargetPos", "d5/d2f/classSRecEvent.html#a4848fefc10ab16daaac0e9604c652943", null ]
 ];

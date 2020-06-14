@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -137,7 +135,7 @@ $(document).ready(function(){initNavTree('dd/d8c/PHG4PhenixEventAction_8h_source
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#a6db28bc6d2aa900d4d74fdd2de3ecb2a">~PHG4PhenixEventAction</a>();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d9/d7a/classPHG4PhenixEventAction.html#a715e0072dfcc8b3cf9434e77ee0858f6">   24</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#a715e0072dfcc8b3cf9434e77ee0858f6">AddAction</a>( <a class="code" href="../../dc/d39/classPHG4EventAction.html">PHG4EventAction</a>* action )</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  { <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#aa153739afabac5565272b3b1c1c3eb2c">actions_</a>.push_back( action ); }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  { actions_.push_back( action ); }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#a8d3143a3ddb0d3f652ceebd780a28357">BeginOfEventAction</a>(<span class="keyword">const</span> G4Event*);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
@@ -145,23 +143,20 @@ $(document).ready(function(){initNavTree('dd/d8c/PHG4PhenixEventAction_8h_source
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d9/d7a/classPHG4PhenixEventAction.html#a8adcafba0d6b1d9659b463d046109333">   34</a></span>&#160;  <span class="keyword">typedef</span> std::list&lt;PHG4EventAction*&gt; <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#a8adcafba0d6b1d9659b463d046109333">ActionList</a>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d9/d7a/classPHG4PhenixEventAction.html#aa153739afabac5565272b3b1c1c3eb2c">   35</a></span>&#160;  <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#a8adcafba0d6b1d9659b463d046109333">ActionList</a> <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#aa153739afabac5565272b3b1c1c3eb2c">actions_</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keyword">typedef</span> std::list&lt;PHG4EventAction*&gt; ActionList;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  ActionList actions_;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d9/d7a/classPHG4PhenixEventAction.html#afb870760555bcbe7dddb7a59bf6572bc">   38</a></span>&#160;  <a class="code" href="../../d7/d41/classPHTimeServer_1_1timer.html">PHTimeServer::timer</a> <a class="code" href="../../d9/d7a/classPHG4PhenixEventAction.html#afb870760555bcbe7dddb7a59bf6572bc">_timer</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <a class="code" href="../../d7/d41/classPHTimeServer_1_1timer.html">PHTimeServer::timer</a> _timer;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="classPHG4PhenixEventAction_html_afb870760555bcbe7dddb7a59bf6572bc"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#afb870760555bcbe7dddb7a59bf6572bc">PHG4PhenixEventAction::_timer</a></div><div class="ttdeci">PHTimeServer::timer _timer</div><div class="ttdoc">module timer. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8c/PHG4PhenixEventAction_8h_source.html#l00038">PHG4PhenixEventAction.h:38</a></div></div>
-<div class="ttc" id="classPHG4PhenixEventAction_html_aa153739afabac5565272b3b1c1c3eb2c"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#aa153739afabac5565272b3b1c1c3eb2c">PHG4PhenixEventAction::actions_</a></div><div class="ttdeci">ActionList actions_</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8c/PHG4PhenixEventAction_8h_source.html#l00035">PHG4PhenixEventAction.h:35</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html_a8d3143a3ddb0d3f652ceebd780a28357"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#a8d3143a3ddb0d3f652ceebd780a28357">PHG4PhenixEventAction::BeginOfEventAction</a></div><div class="ttdeci">void BeginOfEventAction(const G4Event *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00020">PHG4PhenixEventAction.cc:20</a></div></div>
 <div class="ttc" id="classPHG4EventAction_html"><div class="ttname"><a href="../../dc/d39/classPHG4EventAction.html">PHG4EventAction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db6/PHG4EventAction_8h_source.html#l00007">PHG4EventAction.h:7</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html_a6db28bc6d2aa900d4d74fdd2de3ecb2a"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#a6db28bc6d2aa900d4d74fdd2de3ecb2a">PHG4PhenixEventAction::~PHG4PhenixEventAction</a></div><div class="ttdeci">virtual ~PHG4PhenixEventAction()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00010">PHG4PhenixEventAction.cc:10</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html_a715e0072dfcc8b3cf9434e77ee0858f6"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#a715e0072dfcc8b3cf9434e77ee0858f6">PHG4PhenixEventAction::AddAction</a></div><div class="ttdeci">void AddAction(PHG4EventAction *action)</div><div class="ttdoc">register an action. This is called in PHG4Reco::Init based on which actions are found on the tree ...</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8c/PHG4PhenixEventAction_8h_source.html#l00024">PHG4PhenixEventAction.h:24</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html_a2a4797d6cc52dc97b4a234b79dc82b80"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#a2a4797d6cc52dc97b4a234b79dc82b80">PHG4PhenixEventAction::EndOfEventAction</a></div><div class="ttdeci">void EndOfEventAction(const G4Event *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00039">PHG4PhenixEventAction.cc:39</a></div></div>
-<div class="ttc" id="classPHG4PhenixEventAction_html_a8adcafba0d6b1d9659b463d046109333"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#a8adcafba0d6b1d9659b463d046109333">PHG4PhenixEventAction::ActionList</a></div><div class="ttdeci">std::list&lt; PHG4EventAction * &gt; ActionList</div><div class="ttdoc">list of subsystem specific Event actions </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8c/PHG4PhenixEventAction_8h_source.html#l00034">PHG4PhenixEventAction.h:34</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html">PHG4PhenixEventAction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8c/PHG4PhenixEventAction_8h_source.html#l00015">PHG4PhenixEventAction.h:15</a></div></div>
 <div class="ttc" id="classPHG4PhenixEventAction_html_ac5d84750a61e2a9964d36a96699fe756"><div class="ttname"><a href="../../d9/d7a/classPHG4PhenixEventAction.html#ac5d84750a61e2a9964d36a96699fe756">PHG4PhenixEventAction::PHG4PhenixEventAction</a></div><div class="ttdeci">PHG4PhenixEventAction(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd2/PHG4PhenixEventAction_8cc_source.html#l00006">PHG4PhenixEventAction.cc:6</a></div></div>
 <div class="ttc" id="PHTimeServer_8h_html"><div class="ttname"><a href="../../d9/d36/PHTimeServer_8h.html">PHTimeServer.h</a></div><div class="ttdoc">PHTimer server for accessing external information. </div></div>
@@ -176,7 +171,7 @@ $(document).ready(function(){initNavTree('dd/d8c/PHG4PhenixEventAction_8h_source
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6dbf4c28b450a5e981a5a6978e27aa63.html">g4main</a></li><li class="navelem"><a class="el" href="../../dd/d8c/PHG4PhenixEventAction_8h.html">PHG4PhenixEventAction.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:56</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

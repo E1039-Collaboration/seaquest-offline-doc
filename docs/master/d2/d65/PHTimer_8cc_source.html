@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -125,14 +123,14 @@ $(document).ready(function(){initNavTree('d2/d65/PHTimer_8cc_source.html','../..
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//______________________________________________________________________</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// static members</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a> <a class="code" href="../../d0/d5e/classPHTimer.html#a1c9cade5d1f7aec53fc1a5c3ded8dced">PHTimer::_frequency</a> = <a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../d0/d5e/classPHTimer.html#ada456978c57c033ca370a31a4cec061a">PHTimer::_twopower32</a> = pow(2,32);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;PHTimer::Frequency PHTimer::_frequency = PHTimer::Frequency();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">const</span> <span class="keywordtype">double</span> PHTimer::_twopower32 = pow(2,32);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">//______________________________________________________________________</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d2/db1/classPHTimer_1_1Frequency.html#abc7e5422f79ddde70d489ec3271ff1e5">   24</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html#abc7e5422f79ddde70d489ec3271ff1e5">PHTimer::Frequency::set_cpu_freq</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> * path)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> PHTimer::Frequency::set_cpu_freq(<span class="keyword">const</span> <span class="keywordtype">char</span> * path)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="comment">// Set the default to 2 GHz</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html#a505ecf56c41199c3795c52dfd09141ed">_frequency</a> = 2e9;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    _frequency = 2e9;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="comment">// Open the cpuinfo file</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    std::ifstream cpuProcFile(path);</div>
@@ -159,7 +157,7 @@ $(document).ready(function(){initNavTree('d2/d65/PHTimer_8cc_source.html','../..
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                std::istringstream frequencySstream(frequencyString);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                frequencySstream &gt;&gt; freqMHz;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html#a505ecf56c41199c3795c52dfd09141ed">_frequency</a> = freqMHz*1e6;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                _frequency = freqMHz*1e6;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
@@ -167,16 +165,16 @@ $(document).ready(function(){initNavTree('d2/d65/PHTimer_8cc_source.html','../..
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//______________________________________________________________________</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2">   62</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2">PHTimer::get_difference</a>( <span class="keyword">const</span> <a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html">PHTimer::time_struct</a> &amp;t0, <span class="keyword">const</span> <a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html">PHTimer::time_struct</a> &amp;t1 )</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">double</span> PHTimer::get_difference( <span class="keyword">const</span> PHTimer::time_struct &amp;t0, <span class="keyword">const</span> PHTimer::time_struct &amp;t1 )</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> diff_high = t0.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a499eefa0b117e524402c0927e7567db0">_high</a> - t1.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a499eefa0b117e524402c0927e7567db0">_high</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> diff_high = t0._high - t1._high;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> diff_low;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (t0.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a> &lt; t1.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a>) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (t0._low &lt; t1._low) {</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        --diff_high;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        diff_low = (UINT_MAX - t1.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a>) + t0.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a> + 1;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    } <span class="keywordflow">else</span> diff_low = t0.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a> - t1.<a class="code" href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">_low</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        diff_low = (UINT_MAX - t1._low) + t0._low + 1;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    } <span class="keywordflow">else</span> diff_low = t0._low - t1._low;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d0/d5e/classPHTimer.html#ada456978c57c033ca370a31a4cec061a">_twopower32</a>*diff_high + diff_low)*<a class="code" href="../../d0/d5e/classPHTimer.html#a1c9cade5d1f7aec53fc1a5c3ded8dced">_frequency</a>.<a class="code" href="../../d2/db1/classPHTimer_1_1Frequency.html#a023a2d706df9a8bd303810a9ed017f61">period</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">return</span> (_twopower32*diff_high + diff_low)*_frequency.period();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">//_______________________________________________________</span></div>
@@ -194,17 +192,7 @@ $(document).ready(function(){initNavTree('d2/d65/PHTimer_8cc_source.html','../..
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    os &lt;&lt; message &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    os &lt;&lt; std::string(post,<span class="charliteral">&#39;-&#39;</span>) &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="ttc" id="classPHTimer_html_a1c9cade5d1f7aec53fc1a5c3ded8dced"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html#a1c9cade5d1f7aec53fc1a5c3ded8dced">PHTimer::_frequency</a></div><div class="ttdeci">static Frequency _frequency</div><div class="ttdoc">static frequency object </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00203">PHTimer.h:203</a></div></div>
 <div class="ttc" id="classPHTimer_html_ac0fd0e47b6cd0a290f3db3ee4dae3ab5"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html#ac0fd0e47b6cd0a290f3db3ee4dae3ab5">PHTimer::PRINT</a></div><div class="ttdeci">static void PRINT(std::ostream &amp;os=std::cout, const std::string &amp;message=&quot;&quot;)</div><div class="ttdoc">print a message (formated) to a stream </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d65/PHTimer_8cc_source.html#l00075">PHTimer.cc:75</a></div></div>
-<div class="ttc" id="structPHTimer_1_1time__struct_html"><div class="ttname"><a href="../../dc/d23/structPHTimer_1_1time__struct.html">PHTimer::time_struct</a></div><div class="ttdoc">used to store high precision time using two integers </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00173">PHTimer.h:173</a></div></div>
-<div class="ttc" id="structPHTimer_1_1time__struct_html_a821a83030be9f51382c54688f4c2f497"><div class="ttname"><a href="../../dc/d23/structPHTimer_1_1time__struct.html#a821a83030be9f51382c54688f4c2f497">PHTimer::time_struct::_low</a></div><div class="ttdeci">unsigned long _low</div><div class="ttdoc">low wheight bits cpu count </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00183">PHTimer.h:183</a></div></div>
-<div class="ttc" id="classPHTimer_1_1Frequency_html"><div class="ttname"><a href="../../d2/db1/classPHTimer_1_1Frequency.html">PHTimer::Frequency</a></div><div class="ttdoc">internal frequency read from cpu information file </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00140">PHTimer.h:140</a></div></div>
-<div class="ttc" id="classPHTimer_1_1Frequency_html_a023a2d706df9a8bd303810a9ed017f61"><div class="ttname"><a href="../../d2/db1/classPHTimer_1_1Frequency.html#a023a2d706df9a8bd303810a9ed017f61">PHTimer::Frequency::period</a></div><div class="ttdeci">double period() const </div><div class="ttdoc">period accessor </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00157">PHTimer.h:157</a></div></div>
-<div class="ttc" id="classPHTimer_1_1Frequency_html_abc7e5422f79ddde70d489ec3271ff1e5"><div class="ttname"><a href="../../d2/db1/classPHTimer_1_1Frequency.html#abc7e5422f79ddde70d489ec3271ff1e5">PHTimer::Frequency::set_cpu_freq</a></div><div class="ttdeci">void set_cpu_freq(const char *cpuinfopath=&quot;/proc/cpuinfo&quot;)</div><div class="ttdoc">read pc frequency from cpuinfo place </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d65/PHTimer_8cc_source.html#l00024">PHTimer.cc:24</a></div></div>
-<div class="ttc" id="classPHTimer_1_1Frequency_html_a505ecf56c41199c3795c52dfd09141ed"><div class="ttname"><a href="../../d2/db1/classPHTimer_1_1Frequency.html#a505ecf56c41199c3795c52dfd09141ed">PHTimer::Frequency::_frequency</a></div><div class="ttdeci">double _frequency</div><div class="ttdoc">pc frequency </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00163">PHTimer.h:163</a></div></div>
-<div class="ttc" id="classPHTimer_html_ada456978c57c033ca370a31a4cec061a"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html#ada456978c57c033ca370a31a4cec061a">PHTimer::_twopower32</a></div><div class="ttdeci">static const double _twopower32</div><div class="ttdoc">to stores 2^32 </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00206">PHTimer.h:206</a></div></div>
-<div class="ttc" id="structPHTimer_1_1time__struct_html_a499eefa0b117e524402c0927e7567db0"><div class="ttname"><a href="../../dc/d23/structPHTimer_1_1time__struct.html#a499eefa0b117e524402c0927e7567db0">PHTimer::time_struct::_high</a></div><div class="ttdeci">unsigned long _high</div><div class="ttdoc">high wheight bits cpu count </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d26/PHTimer_8h_source.html#l00186">PHTimer.h:186</a></div></div>
-<div class="ttc" id="classPHTimer_html_aa75ff2c27aba40e7ef0a934f9a3355c2"><div class="ttname"><a href="../../d0/d5e/classPHTimer.html#aa75ff2c27aba40e7ef0a934f9a3355c2">PHTimer::get_difference</a></div><div class="ttdeci">static double get_difference(const time_struct &amp;, const time_struct &amp;)</div><div class="ttdoc">returns difference between to time </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d65/PHTimer_8cc_source.html#l00062">PHTimer.cc:62</a></div></div>
 <div class="ttc" id="PHTimer_8h_html"><div class="ttname"><a href="../../dc/d26/PHTimer_8h.html">PHTimer.h</a></div><div class="ttdoc">high precision timer </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -216,7 +204,7 @@ $(document).ready(function(){initNavTree('d2/d65/PHTimer_8cc_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_68879e08c6651a210f7d5b44f4a6e313.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_f2aaf1f4a851c309b82ce7b22fc6c279.html">phool</a></li><li class="navelem"><a class="el" href="../../d2/d65/PHTimer_8cc.html">PHTimer.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:45</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:04</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -31,8 +31,7 @@ var dir_a82a11dc94e7855df3c677887c2f8ffb =
     ] ],
     [ "PHG4GDMLWriteSolids.cc", "d8/de3/PHG4GDMLWriteSolids_8cc.html", null ],
     [ "PHG4GDMLWriteSolids.hh", "d5/d38/PHG4GDMLWriteSolids_8hh.html", [
-      [ "PHG4GDMLWriteSolids", "d0/d94/classPHG4GDMLWriteSolids.html", "d0/d94/classPHG4GDMLWriteSolids" ],
-      [ "G4ThreeVectorCompare", "df/d36/classPHG4GDMLWriteSolids_1_1G4ThreeVectorCompare.html", "df/d36/classPHG4GDMLWriteSolids_1_1G4ThreeVectorCompare" ]
+      [ "PHG4GDMLWriteSolids", "d0/d94/classPHG4GDMLWriteSolids.html", "d0/d94/classPHG4GDMLWriteSolids" ]
     ] ],
     [ "PHG4GDMLWriteStructure.cc", "d3/dcd/PHG4GDMLWriteStructure_8cc.html", null ],
     [ "PHG4GDMLWriteStructure.hh", "df/db5/PHG4GDMLWriteStructure_8hh.html", [

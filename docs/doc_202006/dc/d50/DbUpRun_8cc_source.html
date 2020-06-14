@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -145,8 +143,8 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  <a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>*       run      = findNode::getClass&lt;SQRun      &gt;(topNode, <span class="stringliteral">&quot;SQRun&quot;</span>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* par_deco = findNode::getClass&lt;SQParamDeco&gt;(topNode, <span class="stringliteral">&quot;SQParamDeco&quot;</span>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">if</span> (!run || !par_deco) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <a class="code" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">UploadRun</a>(run);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <a class="code" href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">UploadParam</a>(run-&gt;<a class="code" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a>(), par_deco);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  UploadRun(run);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  UploadParam(run-&gt;<a class="code" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a>(), par_deco);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -158,7 +156,7 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    utime_pre = utime_now;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>* run_header = findNode::getClass&lt;SQRun&gt;(topNode, <span class="stringliteral">&quot;SQRun&quot;</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (!run_header) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">UploadRun</a>(run_header);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    UploadRun(run_header);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d7/d48/classDecoStatusDb.html">DecoStatusDb</a> deco_stat;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    deco_stat.<a class="code" href="../../d7/d48/classDecoStatusDb.html#ac931f50d8aeae7f72c3a8319c52946fd">RunUpdated</a>(run_header-&gt;<a class="code" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a>());</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  }</div>
@@ -170,12 +168,12 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>*       run      = findNode::getClass&lt;SQRun      &gt;(topNode, <span class="stringliteral">&quot;SQRun&quot;</span>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* par_deco = findNode::getClass&lt;SQParamDeco&gt;(topNode, <span class="stringliteral">&quot;SQParamDeco&quot;</span>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">if</span> (!run || !par_deco) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">UploadRun</a>(run);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  <a class="code" href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">UploadParam</a>(run-&gt;<a class="code" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a>(), par_deco);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  UploadRun(run);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  UploadParam(run-&gt;<a class="code" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a>(), par_deco);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">   67</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">DbUpRun::UploadRun</a>(<a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>* sq)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">void</span> DbUpRun::UploadRun(<a class="code" href="../../d7/db7/classSQRun.html">SQRun</a>* sq)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* table_name = <span class="stringliteral">&quot;run&quot;</span>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">static</span> <a class="code" href="../../d2/da4/classDbSvc.html">DbSvc</a>* db = 0;</div>
@@ -238,7 +236,7 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">  131</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">DbUpRun::UploadParam</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> run, <span class="keyword">const</span> <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* sq)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="keywordtype">void</span> DbUpRun::UploadParam(<span class="keyword">const</span> <span class="keywordtype">int</span> run, <span class="keyword">const</span> <a class="code" href="../../d8/ded/classSQParamDeco.html">SQParamDeco</a>* sq)</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">char</span>* table_name = <span class="stringliteral">&quot;param_deco&quot;</span>;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <a class="code" href="../../d2/da4/classDbSvc.html">DbSvc</a> db(<a class="code" href="../../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a9d901475d2b29f9233c821a067c7e42e">DbSvc::DB1</a>);</div>
@@ -279,7 +277,6 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="ttc" id="classSQRun_html_a66cecc9754f2a8fd458cafdbf215b7a7"><div class="ttname"><a href="../../d7/db7/classSQRun.html#a66cecc9754f2a8fd458cafdbf215b7a7">SQRun::get_unix_time_end</a></div><div class="ttdeci">virtual int get_unix_time_end() const </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00037">SQRun.h:37</a></div></div>
 <div class="ttc" id="classDbSvc_html_a7e4cc05e20e0a21eef9c185c34c51044"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a7e4cc05e20e0a21eef9c185c34c51044">DbSvc::UseSchema</a></div><div class="ttdeci">void UseSchema(const char *name, const bool do_create=false, const bool do_drop=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00082">DbSvc.cc:82</a></div></div>
 <div class="ttc" id="classSQRun_html_a2c1a18d5f0531b1b923093f2e2e46785"><div class="ttname"><a href="../../d7/db7/classSQRun.html#a2c1a18d5f0531b1b923093f2e2e46785">SQRun::get_nim_prescale</a></div><div class="ttdeci">virtual int get_nim_prescale(const int chan) const </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00049">SQRun.h:49</a></div></div>
-<div class="ttc" id="classDbUpRun_html_a3923b9457847d047e33f130ccfe1f690"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a3923b9457847d047e33f130ccfe1f690">DbUpRun::UploadParam</a></div><div class="ttdeci">void UploadParam(const int run, const SQParamDeco *sq)</div><div class="ttdoc">Function to upload the decoder parameters into DB. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00131">DbUpRun.cc:131</a></div></div>
 <div class="ttc" id="classDbUpRun_html_aa774e4acba1b9e65244a78265bec930a"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#aa774e4acba1b9e65244a78265bec930a">DbUpRun::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00053">DbUpRun.cc:53</a></div></div>
 <div class="ttc" id="classSQRun_html_aac7f209aa17fe470c433a72bda370f3f"><div class="ttname"><a href="../../d7/db7/classSQRun.html#aac7f209aa17fe470c433a72bda370f3f">SQRun::get_unix_time_begin</a></div><div class="ttdeci">virtual int get_unix_time_begin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00034">SQRun.h:34</a></div></div>
 <div class="ttc" id="classSQRun_html_a1801d7cae6cae837b9e3ba0224da5ba9"><div class="ttname"><a href="../../d7/db7/classSQRun.html#a1801d7cae6cae837b9e3ba0224da5ba9">SQRun::get_n_spill</a></div><div class="ttdeci">virtual int get_n_spill() const </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d59/SQRun_8h_source.html#l00064">SQRun.h:64</a></div></div>
@@ -317,7 +314,6 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 <div class="ttc" id="classSQParamDeco_html_abd3f9b73c319779abdefe08735529a0e"><div class="ttname"><a href="../../d8/ded/classSQParamDeco.html#abd3f9b73c319779abdefe08735529a0e">SQParamDeco::ParamConstIter</a></div><div class="ttdeci">ParamMap::const_iterator ParamConstIter</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d59/SQParamDeco_8h_source.html#l00015">SQParamDeco.h:15</a></div></div>
 <div class="ttc" id="SQRun_8h_html"><div class="ttname"><a href="../../de/d59/SQRun_8h.html">SQRun.h</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes.h:7</a></div></div>
-<div class="ttc" id="classDbUpRun_html_a65b83d0861288f4a4f5d75e1e11a3214"><div class="ttname"><a href="../../d1/de7/classDbUpRun.html#a65b83d0861288f4a4f5d75e1e11a3214">DbUpRun::UploadRun</a></div><div class="ttdeci">void UploadRun(SQRun *sq)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d50/DbUpRun_8cc_source.html#l00067">DbUpRun.cc:67</a></div></div>
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 <div class="ttc" id="classDbSvc_1_1VarList_html"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html">DbSvc::VarList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00013">DbSvc.h:13</a></div></div>
 <div class="ttc" id="classDecoStatusDb_html"><div class="ttname"><a href="../../d7/d48/classDecoStatusDb.html">DecoStatusDb</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/DecoStatusDb_8h_source.html#l00005">DecoStatusDb.h:5</a></div></div>
@@ -331,7 +327,7 @@ $(document).ready(function(){initNavTree('dc/d50/DbUpRun_8cc_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_25265c60903145931e9a6e46f0a7c1c5.html">decoder_maindaq</a></li><li class="navelem"><a class="el" href="../../dc/d50/DbUpRun_8cc.html">DbUpRun.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

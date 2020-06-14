@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['safetfile',['SafeTFile',['../da/dbc/classPHTFileServer_1_1SafeTFile.html',1,'PHTFileServer']]],
   ['scalerdata',['ScalerData',['../dc/dac/structScalerData.html',1,'']]],
   ['seed',['Seed',['../db/d19/classSeed.html',1,'']]],
   ['settings',['Settings',['../df/d9a/classSettings.html',1,'']]],
@@ -18,7 +17,6 @@ var searchData=
   ['simplereadmysql',['SimpleReadMySql',['../d0/d68/classSimpleReadMySql.html',1,'']]],
   ['slowcontroldata',['SlowControlData',['../db/d49/structSlowControlData.html',1,'']]],
   ['smatrix',['SMatrix',['../d9/db7/classSMatrix.html',1,'']]],
-  ['solidparam',['SolidParam',['../d8/dd3/classSolidParam.html',1,'']]],
   ['sp_5fenable_5fif_5fauto_5fptr',['sp_enable_if_auto_ptr',['../de/d4b/structboost_1_1detail_1_1sp__enable__if__auto__ptr.html',1,'boost::detail']]],
   ['sp_5fenable_5fif_5fauto_5fptr_3c_20std_3a_3aauto_5fptr_3c_20t_20_3e_2c_20r_20_3e',['sp_enable_if_auto_ptr&lt; std::auto_ptr&lt; T &gt;, R &gt;',['../db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html',1,'boost::detail']]],
   ['spilldata',['SpillData',['../d4/dbe/structSpillData.html',1,'']]],

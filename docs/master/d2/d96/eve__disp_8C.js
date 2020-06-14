@@ -1,6 +1,5 @@
 var eve__disp_8C =
 [
-    [ "EvNavHandler", "d2/d99/classEvNavHandler.html", "d2/d99/classEvNavHandler" ],
     [ "eve_disp", "d2/d96/eve__disp_8C.html#abeb034dea489ef1866373d2464ec5721", null ],
     [ "make_gui", "d2/d96/eve__disp_8C.html#a551ab180f35c54b85752aae3551c1af0", null ],
     [ "evt_filter", "d2/d96/eve__disp_8C.html#a320e904700f0c0f2164057bff085d8c3", null ],

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -114,7 +112,6 @@ $(document).ready(function(){initNavTree('da/dfa/classDbSvc_1_1VarList.html','..
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d5/d58/classDbSvc_1_1VarList-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">DbSvc::VarList Class Reference</div>  </div>
@@ -122,14 +119,6 @@ $(document).ready(function(){initNavTree('da/dfa/classDbSvc_1_1VarList.html','..
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="../../d7/d8f/DbSvc_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/packages/db_svc/DbSvc.h</a>&gt;</code></p>
-<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for DbSvc::VarList:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d09/classDbSvc_1_1VarList__coll__graph.svg" width="316" height="326"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,15 +128,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8835fc0ecc4041873b5e15dbb35a5218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af185efd235b2f0d00093b403fee2c57f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">Get</a> (const int idx, std::string &amp;name, std::string &amp;type, bool &amp;is_key) const </td></tr>
 <tr class="separator:af185efd235b2f0d00093b403fee2c57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a6c6f8be4da4f660c7c7a62a6c66bbfd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfa/classDbSvc_1_1VarList.html#a6c6f8be4da4f660c7c7a62a6c66bbfd8">m_name</a></td></tr>
-<tr class="separator:a6c6f8be4da4f660c7c7a62a6c66bbfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab645317c8b36e2ed94e5383c647504d8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfa/classDbSvc_1_1VarList.html#ab645317c8b36e2ed94e5383c647504d8">m_type</a></td></tr>
-<tr class="separator:ab645317c8b36e2ed94e5383c647504d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e3e040515abdc35e993cad9cf42ad6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfa/classDbSvc_1_1VarList.html#ae4e3e040515abdc35e993cad9cf42ad6">m_is_key</a></td></tr>
-<tr class="separator:ae4e3e040515abdc35e993cad9cf42ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -185,14 +165,14 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00245">245</a> of file <a class="el" href="../../da/d4b/DbSvc_8cc_source.html">DbSvc.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d69/DecoStatusDb_8cc_source.html#l00025">DecoStatusDb::InitTable()</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00075">DecoError::UpdateDbInfo()</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00102">DecoError::UpdateDbTdc()</a>, <a class="el" href="../../dc/d50/DbUpRun_8cc_source.html#l00131">DbUpRun::UploadParam()</a>, <a class="el" href="../../dc/d50/DbUpRun_8cc_source.html#l00067">DbUpRun::UploadRun()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00125">DbUpSpill::UploadToScalerTable()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00174">DbUpSpill::UploadToSlowContTable()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00085">DbUpSpill::UploadToSpillTable()</a>, and <a class="el" href="../../d0/d87/GeomParamPlane_8cc_source.html#l00069">GeomParamPlane::WriteDbTable()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d69/DecoStatusDb_8cc_source.html#l00025">DecoStatusDb::InitTable()</a>, and <a class="el" href="../../d0/d87/GeomParamPlane_8cc_source.html#l00069">GeomParamPlane::WriteDbTable()</a>.</p>
 
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfa/classDbSvc_1_1VarList_a8835fc0ecc4041873b5e15dbb35a5218_icgraph.svg" width="2115" height="488"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfa/classDbSvc_1_1VarList_a8835fc0ecc4041873b5e15dbb35a5218_icgraph.svg" width="784" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -239,11 +219,11 @@ Private Attributes</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00180">DbSvc::CreateTable()</a>.</p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfa/classDbSvc_1_1VarList_af185efd235b2f0d00093b403fee2c57f_icgraph.svg" width="328" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -274,88 +254,17 @@ Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00018">18</a> of file <a class="el" href="../../d7/d8f/DbSvc_8h_source.html">DbSvc.h</a>.</p>
 
-<p>References <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00014">m_name</a>.</p>
-
 <p>Referenced by <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00180">DbSvc::CreateTable()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dfa/classDbSvc_1_1VarList_ac68f13573a99eb9d4b23d3632377fc0f_icgraph.svg" width="331" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ae4e3e040515abdc35e993cad9cf42ad6"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;bool&gt; DbSvc::VarList::m_is_key</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00016">16</a> of file <a class="el" href="../../d7/d8f/DbSvc_8h_source.html">DbSvc.h</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6c6f8be4da4f660c7c7a62a6c66bbfd8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; DbSvc::VarList::m_name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00014">14</a> of file <a class="el" href="../../d7/d8f/DbSvc_8h_source.html">DbSvc.h</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00018">Size()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab645317c8b36e2ed94e5383c647504d8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::string&gt; DbSvc::VarList::m_type</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d7/d8f/DbSvc_8h_source.html#l00015">15</a> of file <a class="el" href="../../d7/d8f/DbSvc_8h_source.html">DbSvc.h</a>.</p>
 
 </div>
 </div>
@@ -373,7 +282,7 @@ Private Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d2/da4/classDbSvc.html">DbSvc</a></li><li class="navelem"><a class="el" href="../../da/dfa/classDbSvc_1_1VarList.html">VarList</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:53:49</em> using <a
+			updated: <em>Sat Jun 13 2020 22:03:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

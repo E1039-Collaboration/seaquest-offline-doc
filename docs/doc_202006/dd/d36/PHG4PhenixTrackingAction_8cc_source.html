@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -121,10 +119,10 @@ $(document).ready(function(){initNavTree('dd/d36/PHG4PhenixTrackingAction_8cc_so
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af4944a53b8260a1ca054e7468d45f2af">    6</a></span>&#160;<a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af4944a53b8260a1ca054e7468d45f2af">PHG4PhenixTrackingAction::~PHG4PhenixTrackingAction</a>()</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordflow">while</span> (<a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.begin() != <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.end())</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordflow">while</span> (actions_.begin() != actions_.end())</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;      <span class="keyword">delete</span> <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.back();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;      <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.pop_back();</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;      <span class="keyword">delete</span> actions_.back();</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;      actions_.pop_back();</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
@@ -135,7 +133,7 @@ $(document).ready(function(){initNavTree('dd/d36/PHG4PhenixTrackingAction_8cc_so
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#a9afe8aed96bfccbbfba57f210c89ad0c">Verbosity</a>()&gt;0 ) std::cout &lt;&lt; <span class="stringliteral">&quot;PHG4PhenixTrackingAction::PreUserTrackingAction&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="comment">// loop over registered actions, and process</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">for</span>( ActionList::const_iterator iter = <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.begin(); iter != <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.end(); ++iter )</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">for</span>( ActionList::const_iterator iter = actions_.begin(); iter != actions_.end(); ++iter )</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;      <span class="keywordflow">if</span> (*iter)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        {</div>
@@ -153,7 +151,7 @@ $(document).ready(function(){initNavTree('dd/d36/PHG4PhenixTrackingAction_8cc_so
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">if</span> ( <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#a9afe8aed96bfccbbfba57f210c89ad0c">Verbosity</a>()&gt;0 ) std::cout &lt;&lt; <span class="stringliteral">&quot;PHG4PhenixTrackingAction::PostUserTrackingAction&quot;</span> &lt;&lt; std::endl;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="comment">// loop over registered actions, and process</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">for</span>( ActionList::const_iterator iter = <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.begin(); iter != <a class="code" href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">actions_</a>.end(); ++iter )</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">for</span>( ActionList::const_iterator iter = actions_.begin(); iter != actions_.end(); ++iter )</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;      <span class="keywordflow">if</span> (*iter)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
@@ -165,7 +163,6 @@ $(document).ready(function(){initNavTree('dd/d36/PHG4PhenixTrackingAction_8cc_so
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="classPHG4PhenixTrackingAction_html_af4944a53b8260a1ca054e7468d45f2af"><div class="ttname"><a href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af4944a53b8260a1ca054e7468d45f2af">PHG4PhenixTrackingAction::~PHG4PhenixTrackingAction</a></div><div class="ttdeci">virtual ~PHG4PhenixTrackingAction()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d36/PHG4PhenixTrackingAction_8cc_source.html#l00006">PHG4PhenixTrackingAction.cc:6</a></div></div>
 <div class="ttc" id="classPHG4PhenixTrackingAction_html_a9afe8aed96bfccbbfba57f210c89ad0c"><div class="ttname"><a href="../../d0/ddf/classPHG4PhenixTrackingAction.html#a9afe8aed96bfccbbfba57f210c89ad0c">PHG4PhenixTrackingAction::Verbosity</a></div><div class="ttdeci">int Verbosity() const </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2f/PHG4PhenixTrackingAction_8h_source.html#l00029">PHG4PhenixTrackingAction.h:29</a></div></div>
-<div class="ttc" id="classPHG4PhenixTrackingAction_html_af27fcd5c42c869fdf53b3dd8b62a29ca"><div class="ttname"><a href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af27fcd5c42c869fdf53b3dd8b62a29ca">PHG4PhenixTrackingAction::actions_</a></div><div class="ttdeci">ActionList actions_</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d2f/PHG4PhenixTrackingAction_8h_source.html#l00035">PHG4PhenixTrackingAction.h:35</a></div></div>
 <div class="ttc" id="classPHG4PhenixTrackingAction_html_a6291d60a8082f907f06b4ab48a63611f"><div class="ttname"><a href="../../d0/ddf/classPHG4PhenixTrackingAction.html#a6291d60a8082f907f06b4ab48a63611f">PHG4PhenixTrackingAction::PreUserTrackingAction</a></div><div class="ttdeci">virtual void PreUserTrackingAction(const G4Track *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d36/PHG4PhenixTrackingAction_8cc_source.html#l00016">PHG4PhenixTrackingAction.cc:16</a></div></div>
 <div class="ttc" id="PHG4PhenixTrackingAction_8h_html"><div class="ttname"><a href="../../df/d2f/PHG4PhenixTrackingAction_8h.html">PHG4PhenixTrackingAction.h</a></div></div>
 <div class="ttc" id="classPHG4PhenixTrackingAction_html_af81e0a2078ecaab18f6ad48157f87129"><div class="ttname"><a href="../../d0/ddf/classPHG4PhenixTrackingAction.html#af81e0a2078ecaab18f6ad48157f87129">PHG4PhenixTrackingAction::PostUserTrackingAction</a></div><div class="ttdeci">virtual void PostUserTrackingAction(const G4Track *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d36/PHG4PhenixTrackingAction_8cc_source.html#l00034">PHG4PhenixTrackingAction.cc:34</a></div></div>
@@ -180,7 +177,7 @@ $(document).ready(function(){initNavTree('dd/d36/PHG4PhenixTrackingAction_8cc_so
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_6dbf4c28b450a5e981a5a6978e27aa63.html">g4main</a></li><li class="navelem"><a class="el" href="../../dd/d36/PHG4PhenixTrackingAction_8cc.html">PHG4PhenixTrackingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:56</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

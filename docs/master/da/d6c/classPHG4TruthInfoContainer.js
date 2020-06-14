@@ -70,10 +70,5 @@ var classPHG4TruthInfoContainer =
     [ "minvtxindex", "da/d6c/classPHG4TruthInfoContainer.html#a808b5f4866d1bf7a14e5e1cae1c559ad", null ],
     [ "Reset", "da/d6c/classPHG4TruthInfoContainer.html#a2916d899554e90cd0af8fd7afc360d25", null ],
     [ "shower_size", "da/d6c/classPHG4TruthInfoContainer.html#aefb8f14c9f2b8e18c78dca39bf364ecc", null ],
-    [ "size", "da/d6c/classPHG4TruthInfoContainer.html#a4066d082d8c73bfd4661f42c159f8ff2", null ],
-    [ "particle_embed_flags", "da/d6c/classPHG4TruthInfoContainer.html#acb72267029a69caf67ee0d2d8f9e52cf", null ],
-    [ "particlemap", "da/d6c/classPHG4TruthInfoContainer.html#af8c8aa445f0a6971b223306935624bf0", null ],
-    [ "showermap", "da/d6c/classPHG4TruthInfoContainer.html#a5985da7312ab25f9080d242e623bd4af", null ],
-    [ "vertex_embed_flags", "da/d6c/classPHG4TruthInfoContainer.html#aa4acded7df9396ddfacae5e46922b8c8", null ],
-    [ "vtxmap", "da/d6c/classPHG4TruthInfoContainer.html#ac20034893efeb099e162663474b2b595", null ]
+    [ "size", "da/d6c/classPHG4TruthInfoContainer.html#a4066d082d8c73bfd4661f42c159f8ff2", null ]
 ];

@@ -8,9 +8,5 @@ var classPHG4UserPrimaryParticleInformation =
     [ "Print", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a56177aa21c31548bf2ebfdc5ba80b0e6", null ],
     [ "set_user_barcode", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a1c16508e50fa624953f3c83bb5ac178d", null ],
     [ "set_user_track_id", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#abf796dff20b709000ff3fffe4b3b66a0", null ],
-    [ "set_user_vtx_id", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a53d5ba12c7ec9eca7db286d6244eb359", null ],
-    [ "barcode", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a6e899bbbfb1d99fbd313b9bd9bb36210", null ],
-    [ "embed", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a485baeb8572eefcdf18d7187692cce4a", null ],
-    [ "usertrackid", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#aa879bbbd5a6aa848f2170a3ba32437dc", null ],
-    [ "uservtxid", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a03dbd90035a67abaf7d3a61cace2535b", null ]
+    [ "set_user_vtx_id", "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a53d5ba12c7ec9eca7db286d6244eb359", null ]
 ];

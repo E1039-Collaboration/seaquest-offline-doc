@@ -14,11 +14,5 @@ var classSQDimuonTruthInfoContainer =
     [ "set_Dimuon_phiCS", "d0/d60/classSQDimuonTruthInfoContainer.html#a127a3fdd6b39e3977d2c7703a17fb721", null ],
     [ "set_Dimuon_pt", "d0/d60/classSQDimuonTruthInfoContainer.html#a1523522bc82b4fcc29f7af9953dd131c", null ],
     [ "set_Dimuon_xF", "d0/d60/classSQDimuonTruthInfoContainer.html#a43db9ecbdf25c52afae013abd2911d2f", null ],
-    [ "set_Dimuon_xs", "d0/d60/classSQDimuonTruthInfoContainer.html#aa1cecb5a04c2c84508ca15efd3a59ca1", null ],
-    [ "Dimuon_cosThetaCS", "d0/d60/classSQDimuonTruthInfoContainer.html#ac97f473376eb8d09e12b0ac8a3fb5582", null ],
-    [ "Dimuon_m", "d0/d60/classSQDimuonTruthInfoContainer.html#ab5f544915a941708095876beea8c9047", null ],
-    [ "Dimuon_phiCS", "d0/d60/classSQDimuonTruthInfoContainer.html#a046ff12c74715411720ea3eaa371e061", null ],
-    [ "Dimuon_pt", "d0/d60/classSQDimuonTruthInfoContainer.html#a49baa3787eef2d44b2260eb27248ba8f", null ],
-    [ "Dimuon_xF", "d0/d60/classSQDimuonTruthInfoContainer.html#a4b369b3083112dc1758cd1546cbd013d", null ],
-    [ "Dimuon_xs", "d0/d60/classSQDimuonTruthInfoContainer.html#a98784333499222c6bc654b69736b1179", null ]
+    [ "set_Dimuon_xs", "d0/d60/classSQDimuonTruthInfoContainer.html#aa1cecb5a04c2c84508ca15efd3a59ca1", null ]
 ];

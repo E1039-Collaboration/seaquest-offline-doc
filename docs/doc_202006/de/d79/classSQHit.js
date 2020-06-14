@@ -8,7 +8,6 @@ var classSQHit =
     ] ],
     [ "SQHit", "de/d79/classSQHit.html#a9a4f820c5f9879e0dcb17c6cb577d23c", null ],
     [ "~SQHit", "de/d79/classSQHit.html#a1d8575ef257b3f3da6335b5c79091fc4", null ],
-    [ "ClassDef", "de/d79/classSQHit.html#a1d3264e48eeb5a85670720d60e7cd932", null ],
     [ "Clone", "de/d79/classSQHit.html#ab75c6c19b8933ec4a092cd4774aaa873", null ],
     [ "get_detector_id", "de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33", null ],
     [ "get_drift_distance", "de/d79/classSQHit.html#aab506d06da719529a43b1210c758f379", null ],

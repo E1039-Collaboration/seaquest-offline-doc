@@ -16,9 +16,5 @@ var classOnlMonCham =
     [ "InitOnlMon", "db/d15/classOnlMonCham.html#a50817c0cf12ebe6b807c13db94cb49c9", null ],
     [ "InitRunOnlMon", "db/d15/classOnlMonCham.html#aaf9e68b3b806ed449fb7d5e3e54b03cd", null ],
     [ "ProcessEventOnlMon", "db/d15/classOnlMonCham.html#af2d131e413474d64586153fcd62da056", null ],
-    [ "h1_ele", "db/d15/classOnlMonCham.html#ad3cf1cb0b7df2de4445c21c7e6bde610", null ],
-    [ "h1_time", "db/d15/classOnlMonCham.html#a78214d9972a8e2603cbdfe1e7d977b7f", null ],
-    [ "m_pl0", "db/d15/classOnlMonCham.html#ad30b2a1074b597aa9acfe2f76587064a", null ],
-    [ "m_type", "db/d15/classOnlMonCham.html#a40bdb416c1b0e8885de3d524df3ec994", null ],
     [ "N_PL", "db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b", null ]
 ];

@@ -2,7 +2,6 @@ var classSQSpill =
 [
     [ "~SQSpill", "d0/d78/classSQSpill.html#ad9b633e357841b450d95040fd1bb875f", null ],
     [ "SQSpill", "d0/d78/classSQSpill.html#abbd0a41db7a58b96dd74539dbacf5e49", null ],
-    [ "ClassDef", "d0/d78/classSQSpill.html#a2d8842a5cbda03202bb043ea63abff6a", null ],
     [ "Clone", "d0/d78/classSQSpill.html#a1e7d289e4cdf0b6d58b5e91b7223cf3b", null ],
     [ "get_bos_coda_id", "d0/d78/classSQSpill.html#a4d1b352b7c3b5002b5ea865aafd1aac2", null ],
     [ "get_bos_scaler_list", "d0/d78/classSQSpill.html#a3684c1d2d9faa353d7b1c2cb628dd335", null ],

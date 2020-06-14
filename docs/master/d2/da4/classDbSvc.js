@@ -18,7 +18,6 @@ var classDbSvc =
     [ "DbSvc", "d2/da4/classDbSvc.html#af8a608ba2104267facd4a7184a17283f", null ],
     [ "~DbSvc", "d2/da4/classDbSvc.html#a0013281a909be870df1f80bfeb5f1b56", null ],
     [ "Con", "d2/da4/classDbSvc.html#af342c238c151003ac35ca3e96f60d02e", null ],
-    [ "ConnectServer", "d2/da4/classDbSvc.html#a73d4b11969d0079093ebc6cae9d60049", null ],
     [ "CreateTable", "d2/da4/classDbSvc.html#abc037dbd5084422aacdfa76bd0e8d2b7", null ],
     [ "CreateTable", "d2/da4/classDbSvc.html#a5a26d12329fddebe42e563baaecc0b20", null ],
     [ "CreateTable", "d2/da4/classDbSvc.html#a4dd8baff848be03868bae90af6259133", null ],
@@ -28,12 +27,6 @@ var classDbSvc =
     [ "HasTable", "d2/da4/classDbSvc.html#add8d2572a01adb1724ddb165ee14bf36", null ],
     [ "Process", "d2/da4/classDbSvc.html#a5a73427afe9c0bd72d41b45e211ae187", null ],
     [ "Process", "d2/da4/classDbSvc.html#aa82c4a03595ea2cde841250c93bc9d02", null ],
-    [ "SelectServer", "d2/da4/classDbSvc.html#a03163897a1bcd9447653c54132624f6f", null ],
     [ "UseSchema", "d2/da4/classDbSvc.html#a7e4cc05e20e0a21eef9c185c34c51044", null ],
-    [ "UseSchema", "d2/da4/classDbSvc.html#a31582c0d3c5d0dabb5b2c339397c55dc", null ],
-    [ "m_con", "d2/da4/classDbSvc.html#aaaff277c5b1ab0f432c9e38d89ff2d7a", null ],
-    [ "m_my_cnf", "d2/da4/classDbSvc.html#aa497fb16daf645540ce079650c3dd72e", null ],
-    [ "m_svr", "d2/da4/classDbSvc.html#a791e896e5645f6da8e6c5a900a7438c8", null ],
-    [ "m_svr_id", "d2/da4/classDbSvc.html#a65983f712fc6f679299c41be4c481d63", null ],
-    [ "m_usr_id", "d2/da4/classDbSvc.html#a7263ed8a8655d1b5abfeaabd34af4194", null ]
+    [ "UseSchema", "d2/da4/classDbSvc.html#a31582c0d3c5d0dabb5b2c339397c55dc", null ]
 ];

@@ -10,8 +10,5 @@ var classKalmanFilter =
     [ "predict", "d6/d2a/classKalmanFilter.html#adfaf7ddeefb43919df6aee3f1e2638ae", null ],
     [ "setCurrTrkpar", "d6/d2a/classKalmanFilter.html#a8d8429d9087367301473581d099091f6", null ],
     [ "setCurrTrkpar", "d6/d2a/classKalmanFilter.html#a3f4f044f2dcf3a810f385b00b7229d57", null ],
-    [ "smooth", "d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306", null ],
-    [ "_extrapolator", "d6/d2a/classKalmanFilter.html#aa02d7999096081fe99880d18010bf32e", null ],
-    [ "_trkpar_curr", "d6/d2a/classKalmanFilter.html#a2bb055d81f3f2f5230f8eb0aa816ea66", null ],
-    [ "p_kmfit", "d6/d2a/classKalmanFilter.html#ad56facdfc22ee4932a847ba168e331ff", null ]
+    [ "smooth", "d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306", null ]
 ];

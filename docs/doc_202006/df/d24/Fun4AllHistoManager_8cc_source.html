@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -145,10 +143,10 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#a4454e378ddc9086f75d0a376ad14aae0">   30</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a4454e378ddc9086f75d0a376ad14aae0">Fun4AllHistoManager::~Fun4AllHistoManager</a>()</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">while</span>(<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin() != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end())</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">while</span>(Histo.begin() != Histo.end())</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">delete</span> <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin()-&gt;second;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.erase(<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin());</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      <span class="keyword">delete</span> Histo.begin()-&gt;second;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      Histo.erase(Histo.begin());</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  return ;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
@@ -159,11 +157,11 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">int</span> iret = 0;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordflow">if</span> (!filename.empty())</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a> = filename;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      outfilename = filename;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a>.empty())</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keywordflow">if</span> (outfilename.empty())</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          <a class="code" href="../../d8/d14/classrecoConsts.html">recoConsts</a> *rc = <a class="code" href="../../d8/d14/classrecoConsts.html#ae69a5c29a7199ba16d0e537158618802">recoConsts::instance</a>();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;          ostringstream filnam;</div>
@@ -178,23 +176,23 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          filnam &lt;&lt; <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Name</a>() &lt;&lt; <span class="stringliteral">&quot;-&quot;</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                 &lt;&lt; setfill(<span class="charliteral">&#39;0&#39;</span>) &lt;&lt; setw(10)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                 &lt;&lt; runnumber &lt;&lt; <span class="stringliteral">&quot;.root&quot;</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;          <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a> = filnam.str();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;          outfilename = filnam.str();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;Fun4AllHistoManager::dumpHistos() Writing root file: &quot;</span> &lt;&lt; <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a> &lt;&lt; endl;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;Fun4AllHistoManager::dumpHistos() Writing root file: &quot;</span> &lt;&lt; outfilename &lt;&lt; endl;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> compress = 9;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  ostringstream creator;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  creator &lt;&lt; <span class="stringliteral">&quot;Created by &quot;</span> &lt;&lt; <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Name</a>();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  TFile hfile(<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a>.c_str(), openmode.c_str(), creator.str().c_str(), compress);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  TFile hfile(outfilename.c_str(), openmode.c_str(), creator.str().c_str(), compress);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">if</span> (!hfile.IsOpen())</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; Could not open output file&quot;</span> &lt;&lt; <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">outfilename</a> &lt;&lt; endl;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      cout &lt;&lt; <a class="code" href="../../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a">PHWHERE</a> &lt;&lt; <span class="stringliteral">&quot; Could not open output file&quot;</span> &lt;&lt; outfilename &lt;&lt; endl;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator hiter;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">for</span> (hiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin(); hiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end(); ++hiter)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">for</span> (hiter = Histo.begin(); hiter != Histo.end(); ++hiter)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <span class="keyword">const</span> std::string &amp; hname = hiter-&gt;first;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      <span class="keyword">const</span> TNamed*       hptr  = hiter-&gt;second;</div>
@@ -265,8 +263,8 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keywordtype">bool</span></div>
 <div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6">  150</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6">Fun4AllHistoManager::registerHisto</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;hname, TNamed *h1d, <span class="keyword">const</span> <span class="keywordtype">int</span> replace)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;{</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.find(hname);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="keywordflow">if</span> (histoiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end() &amp;&amp; replace == 0)</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = Histo.find(hname);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="keywordflow">if</span> (histoiter != Histo.end() &amp;&amp; replace == 0)</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    {</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      cerr &lt;&lt; <span class="stringliteral">&quot;Histogram &quot;</span> &lt;&lt; hname &lt;&lt; <span class="stringliteral">&quot; already registered, I won&#39;t overwrite it&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      cerr &lt;&lt; <span class="stringliteral">&quot;Use a different name and try again&quot;</span> &lt;&lt; endl;</div>
@@ -290,7 +288,7 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="comment">// this one did some very ugly mutilation to a const char *</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="comment">// using a string seems to avoid the damage</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  h1d-&gt;SetName(histoname.c_str());</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>[hname] = h1d;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  Histo[hname] = h1d;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <span class="keywordflow">if</span> (h1d-&gt;InheritsFrom(<span class="stringliteral">&quot;TTree&quot;</span>))</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    static_cast&lt;TTree*&gt;(h1d)-&gt;SetDirectory(0);</div>
@@ -302,8 +300,8 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#af2d3721028bbdf8eca4c6f09de0b65dc">  186</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#af2d3721028bbdf8eca4c6f09de0b65dc">Fun4AllHistoManager::isHistoRegistered</a>(<span class="keyword">const</span> std::string &amp;name)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keyword"></span>{</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.find(name);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">if</span> (histoiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end())</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = Histo.find(name);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">if</span> (histoiter != Histo.end())</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
@@ -313,8 +311,8 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;TNamed *</div>
 <div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#af6d83f298ef12faa3d70434f7909a60d">  198</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#ae5401f032b650d41224dfa0e2f12d364">Fun4AllHistoManager::getHisto</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ihisto)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin();</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.size();</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = Histo.begin();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size = Histo.size();</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 3)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;Map contains &quot;</span> &lt;&lt; size &lt;&lt; <span class="stringliteral">&quot; Elements&quot;</span> &lt;&lt; endl;</div>
@@ -338,8 +336,8 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keyword">const</span> <span class="keywordtype">char</span> *</div>
 <div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#a616c4ed0e1b29aefd1fc9014cd633a9d">  223</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a616c4ed0e1b29aefd1fc9014cd633a9d">Fun4AllHistoManager::getHistoName</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> ihisto)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin();</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.size();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = Histo.begin();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> size = Histo.size();</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a5e6d96f02f838e9f0bf84cb33fb1c2fa">verbosity</a> &gt; 3)</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    {</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;Map contains &quot;</span> &lt;&lt; size &lt;&lt; <span class="stringliteral">&quot; Elements&quot;</span> &lt;&lt; endl;</div>
@@ -363,8 +361,8 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;TNamed *</div>
 <div class="line"><a name="l00248"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#ae5401f032b650d41224dfa0e2f12d364">  248</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#ae5401f032b650d41224dfa0e2f12d364">Fun4AllHistoManager::getHisto</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;hname)<span class="keyword"> const</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.find(hname);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordflow">if</span> (histoiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end())</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator histoiter = Histo.find(hname);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordflow">if</span> (histoiter != Histo.end())</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      <span class="keywordflow">return</span> histoiter-&gt;second;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    }</div>
@@ -387,7 +385,7 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;           &lt;&lt; <a class="code" href="../../d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed">Name</a>() &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;      map&lt;const string, TNamed *&gt;::const_iterator hiter;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      <span class="keywordflow">for</span> (hiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin(); hiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end(); ++hiter)</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      <span class="keywordflow">for</span> (hiter = Histo.begin(); hiter != Histo.end(); ++hiter)</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        {</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;          cout &lt;&lt; hiter-&gt;first &lt;&lt; <span class="stringliteral">&quot; is &quot;</span> &lt;&lt; hiter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        }</div>
@@ -400,7 +398,7 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="../../d3/d96/classFun4AllHistoManager.html#a0a5308cb3f26ccc95504c5c5dac30441">  284</a></span>&#160;<a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a0a5308cb3f26ccc95504c5c5dac30441">Fun4AllHistoManager::Reset</a>()</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  map&lt;const string, TNamed *&gt;::const_iterator hiter;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="keywordflow">for</span> (hiter = <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.begin(); hiter != <a class="code" href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Histo</a>.end(); ++hiter)</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="keywordflow">for</span> (hiter = Histo.begin(); hiter != Histo.end(); ++hiter)</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    {</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      TNamed* h = hiter-&gt;second;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      <span class="keywordflow">if</span> (h-&gt;InheritsFrom(<span class="stringliteral">&quot;TH1&quot;</span>))</div>
@@ -434,9 +432,7 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 <div class="ttc" id="classFun4AllHistoManager_html_a61c2043c62739de451de3f9287832a08"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08">Fun4AllHistoManager::dumpHistos</a></div><div class="ttdeci">int dumpHistos(const std::string &amp;filename=&quot;&quot;, const std::string &amp;openmode=&quot;RECREATE&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d24/Fun4AllHistoManager_8cc_source.html#l00041">Fun4AllHistoManager.cc:41</a></div></div>
 <div class="ttc" id="Fun4AllHistoManager_8h_html"><div class="ttname"><a href="../../d0/d59/Fun4AllHistoManager_8h.html">Fun4AllHistoManager.h</a></div></div>
 <div class="ttc" id="classFun4AllHistoManager_html_a7e1354855437fa28bb0d29dc0581d0a6"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html#a7e1354855437fa28bb0d29dc0581d0a6">Fun4AllHistoManager::registerHisto</a></div><div class="ttdeci">bool registerHisto(const std::string &amp;hname, TNamed *h1d, const int replace=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d24/Fun4AllHistoManager_8cc_source.html#l00150">Fun4AllHistoManager.cc:150</a></div></div>
-<div class="ttc" id="classFun4AllHistoManager_html_a3494b477a8b284c76b7901466668ed3a"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html#a3494b477a8b284c76b7901466668ed3a">Fun4AllHistoManager::outfilename</a></div><div class="ttdeci">std::string outfilename</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d59/Fun4AllHistoManager_8h_source.html#l00037">Fun4AllHistoManager.h:37</a></div></div>
 <div class="ttc" id="classTDirectoryHelper_html_aefc78be51a5c3501caf4e2e73bc7ce80"><div class="ttname"><a href="../../de/d7e/classTDirectoryHelper.html#aefc78be51a5c3501caf4e2e73bc7ce80">TDirectoryHelper::mkdir</a></div><div class="ttdeci">static TDirectory * mkdir(TDirectory *topDir, const char *path, std::vector&lt; std::string &gt; *titles=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/TDirectoryHelper_8cc_source.html#l00147">TDirectoryHelper.cc:147</a></div></div>
-<div class="ttc" id="classFun4AllHistoManager_html_a9e250adcf3e097c39914080f2766d89a"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html#a9e250adcf3e097c39914080f2766d89a">Fun4AllHistoManager::Histo</a></div><div class="ttdeci">std::map&lt; const std::string, TNamed * &gt; Histo</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d59/Fun4AllHistoManager_8h_source.html#l00038">Fun4AllHistoManager.h:38</a></div></div>
 <div class="ttc" id="classPHFlag_html_a07899067141a5f12333cc37183caddc8"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8">PHFlag::get_IntFlag</a></div><div class="ttdeci">virtual int get_IntFlag(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00114">PHFlag.cc:114</a></div></div>
 <div class="ttc" id="classFun4AllHistoManager_html_af2d3721028bbdf8eca4c6f09de0b65dc"><div class="ttname"><a href="../../d3/d96/classFun4AllHistoManager.html#af2d3721028bbdf8eca4c6f09de0b65dc">Fun4AllHistoManager::isHistoRegistered</a></div><div class="ttdeci">int isHistoRegistered(const std::string &amp;name) const </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d24/Fun4AllHistoManager_8cc_source.html#l00186">Fun4AllHistoManager.cc:186</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -449,7 +445,7 @@ $(document).ready(function(){initNavTree('df/d24/Fun4AllHistoManager_8cc_source.
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_68879e08c6651a210f7d5b44f4a6e313.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_55959d07b8989f6dfc505bf0b420a158.html">fun4all</a></li><li class="navelem"><a class="el" href="../../df/d24/Fun4AllHistoManager_8cc.html">Fun4AllHistoManager.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

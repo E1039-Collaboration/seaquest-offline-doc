@@ -60,13 +60,5 @@ var classKalmanTrack =
     [ "setTracklet", "d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210", null ],
     [ "similarity", "d9/dc3/classKalmanTrack.html#ab448886fb9e6ce29e039270daea6616d", null ],
     [ "update", "d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e", null ],
-    [ "updateMomentum", "d9/dc3/classKalmanTrack.html#a28f5acae5a39bc08e61514fd6c45eab6", null ],
-    [ "_chisq", "d9/dc3/classKalmanTrack.html#a1dcec195eb600660127cea9e54d8059f", null ],
-    [ "_chisq_vertex", "d9/dc3/classKalmanTrack.html#ac2459d503699e2e80c6756d79472375d", null ],
-    [ "_hit_index", "d9/dc3/classKalmanTrack.html#ae19fc946d754c288d0a1667bf55fd479", null ],
-    [ "_node_next", "d9/dc3/classKalmanTrack.html#a80b817c7f919d3032c9dd4fb114fc9ae", null ],
-    [ "_nodes", "d9/dc3/classKalmanTrack.html#ab11303b49c748a96b97ce0b51693c575", null ],
-    [ "_quality", "d9/dc3/classKalmanTrack.html#a5b0a7eb64c9d6c64b96beb3f540afdf8", null ],
-    [ "_seed", "d9/dc3/classKalmanTrack.html#a2c0d583f2f8c05b7da07067788e4f4de", null ],
-    [ "_trkpar_curr", "d9/dc3/classKalmanTrack.html#a674bf3d191035a246634c6cbd340ffa2", null ]
+    [ "updateMomentum", "d9/dc3/classKalmanTrack.html#a28f5acae5a39bc08e61514fd6c45eab6", null ]
 ];

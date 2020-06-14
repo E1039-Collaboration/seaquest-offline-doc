@@ -70,8 +70,7 @@ var dir_55959d07b8989f6dfc505bf0b420a158 =
     [ "PHFlagLinkDef.h", "d4/d03/fun4all_2PHFlagLinkDef_8h.html", null ],
     [ "PHTFileServer.cxx", "dd/dfa/PHTFileServer_8cxx.html", null ],
     [ "PHTFileServer.h", "d6/de6/PHTFileServer_8h.html", [
-      [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", "d3/d2b/classPHTFileServer" ],
-      [ "SafeTFile", "da/dbc/classPHTFileServer_1_1SafeTFile.html", "da/dbc/classPHTFileServer_1_1SafeTFile" ]
+      [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", "d3/d2b/classPHTFileServer" ]
     ] ],
     [ "RunNumberRanges.h", "d5/dae/RunNumberRanges_8h.html", "d5/dae/RunNumberRanges_8h" ],
     [ "SubsysReco.cc", "de/d98/SubsysReco_8cc.html", null ],

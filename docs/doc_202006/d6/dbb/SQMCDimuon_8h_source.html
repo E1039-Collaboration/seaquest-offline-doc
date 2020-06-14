@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -145,9 +143,9 @@ $(document).ready(function(){initNavTree('d6/dbb/SQMCDimuon_8h_source.html','../
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#a151d4cc31a1c615cf3032fe6409cb70e">   30</a></span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#a151d4cc31a1c615cf3032fe6409cb70e">fAccepted</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#a2a4d5185e2849758a61432c2eecfe630">Reset</a>();</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#a9f2995770126afab674b4256a015305b">   32</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#a9f2995770126afab674b4256a015305b">get_Dimuon_xs</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b">Dimuon_xs</a>;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#a9f2995770126afab674b4256a015305b">   32</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#a9f2995770126afab674b4256a015305b">get_Dimuon_xs</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> Dimuon_xs;}</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb">   34</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb">set_Dimuon_xs</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> xs){<a class="code" href="../../d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b">Dimuon_xs</a> = xs;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb">   34</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#abb4b9f5b0b00207f8032f35262a29edb">set_Dimuon_xs</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> xs){Dimuon_xs = xs;}</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; <span class="keyword">public</span>:</div>
@@ -158,7 +156,7 @@ $(document).ready(function(){initNavTree('d6/dbb/SQMCDimuon_8h_source.html','../
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">friend</span> std::ostream&amp; <a class="code" href="../../d5/ddb/classSQMCDimuon.html#a38bd365786b050e24a02628328089bf6">operator &lt;&lt; </a>(std::ostream&amp; os, <span class="keyword">const</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html">SQMCDimuon</a>&amp; dimuon);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b">   46</a></span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b">Dimuon_xs</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">double</span> Dimuon_xs;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  ClassDef(<a class="code" href="../../d5/ddb/classSQMCDimuon.html">SQMCDimuon</a>, 1)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif // __MCDimuon_H__</span></div>
@@ -169,7 +167,6 @@ $(document).ready(function(){initNavTree('d6/dbb/SQMCDimuon_8h_source.html','../
 <div class="ttc" id="classSQMCDimuon_html_a20c79ed83ebdfa8fb59bf7c0c52705b4"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a20c79ed83ebdfa8fb59bf7c0c52705b4">SQMCDimuon::fx1</a></div><div class="ttdeci">Double_t fx1</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00040">SQMCDimuon.h:40</a></div></div>
 <div class="ttc" id="classSQMCDimuon_html_a151d4cc31a1c615cf3032fe6409cb70e"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a151d4cc31a1c615cf3032fe6409cb70e">SQMCDimuon::fAccepted</a></div><div class="ttdeci">bool fAccepted</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00030">SQMCDimuon.h:30</a></div></div>
 <div class="ttc" id="classSQMCDimuon_html_a69c490150f7ddc4718bd36563f62d094"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a69c490150f7ddc4718bd36563f62d094">SQMCDimuon::fPosMomentum</a></div><div class="ttdeci">TLorentzVector fPosMomentum</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00026">SQMCDimuon.h:26</a></div></div>
-<div class="ttc" id="classSQMCDimuon_html_ad67688d6ad33e0102f583e77b4919c6b"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#ad67688d6ad33e0102f583e77b4919c6b">SQMCDimuon::Dimuon_xs</a></div><div class="ttdeci">double Dimuon_xs</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00046">SQMCDimuon.h:46</a></div></div>
 <div class="ttc" id="classSQMCDimuon_html_a5bcb737712e92a8fd3f068f4b8a574fe"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a5bcb737712e92a8fd3f068f4b8a574fe">SQMCDimuon::calcVariables</a></div><div class="ttdeci">void calcVariables()</div><div class="ttdoc">calculate derived variables </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5d/SQMCDimuon_8C_source.html#l00022">SQMCDimuon.C:22</a></div></div>
 <div class="ttc" id="classSQMCDimuon_html_a77e8ec92b2e589aaa655c2200dbbabd5"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a77e8ec92b2e589aaa655c2200dbbabd5">SQMCDimuon::fx2</a></div><div class="ttdeci">Double_t fx2</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00040">SQMCDimuon.h:40</a></div></div>
 <div class="ttc" id="classSQMCDimuon_html_a00617f1a62be7e682aec59ff5032b7f7"><div class="ttname"><a href="../../d5/ddb/classSQMCDimuon.html#a00617f1a62be7e682aec59ff5032b7f7">SQMCDimuon::fPhi</a></div><div class="ttdeci">Double_t fPhi</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbb/SQMCDimuon_8h_source.html#l00040">SQMCDimuon.h:40</a></div></div>
@@ -198,7 +195,7 @@ $(document).ready(function(){initNavTree('d6/dbb/SQMCDimuon_8h_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_e00d85e4e5e7202633354b6b9bef7328.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_aadef39b35f16c0ee7709c336ceb9dfc.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../d6/dbb/SQMCDimuon_8h.html">SQMCDimuon.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

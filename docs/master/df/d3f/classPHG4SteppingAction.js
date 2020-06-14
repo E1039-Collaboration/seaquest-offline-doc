@@ -15,8 +15,6 @@ var classPHG4SteppingAction =
     [ "UserSteppingAction", "df/d3f/classPHG4SteppingAction.html#af310f1449ab5dc82173f902d68f7bd4c", null ],
     [ "Verbosity", "df/d3f/classPHG4SteppingAction.html#a693ac1159f06460044936f3083d361a5", null ],
     [ "Verbosity", "df/d3f/classPHG4SteppingAction.html#a7d7168b4bafa826a3e43562f177c7fcf", null ],
-    [ "_ScintLightYieldMissingMaterial", "df/d3f/classPHG4SteppingAction.html#a3705a43c516fab18d8c4f3332ebd961a", null ],
     [ "name", "df/d3f/classPHG4SteppingAction.html#a5183bb8d4d85ea62fd4960dfbd378eb8", null ],
-    [ "opt_int", "df/d3f/classPHG4SteppingAction.html#a48ca3c686fa998f3178f913de39f5e35", null ],
     [ "verbosity", "df/d3f/classPHG4SteppingAction.html#a7bb830d99275c662f0b9ab1322badb6e", null ]
 ];

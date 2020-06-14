@@ -7,7 +7,6 @@ var classSQScaler =
     ] ],
     [ "~SQScaler", "d7/d5e/classSQScaler.html#a7bef52f95cb3e4abc4c7b60cebfb085e", null ],
     [ "SQScaler", "d7/d5e/classSQScaler.html#af0c040436018924000ec738ac4335642", null ],
-    [ "ClassDef", "d7/d5e/classSQScaler.html#abec58f659e742355c5dc43c4ebc8c35c", null ],
     [ "Clone", "d7/d5e/classSQScaler.html#af2b6b3b27c384e4ada59ded87b2d7ad2", null ],
     [ "clone", "d7/d5e/classSQScaler.html#a5e18331777a44cdcdd7ca1415fd4e37f", null ],
     [ "get_count", "d7/d5e/classSQScaler.html#aa89531f3f2209773b8f6517b0dd59748", null ],

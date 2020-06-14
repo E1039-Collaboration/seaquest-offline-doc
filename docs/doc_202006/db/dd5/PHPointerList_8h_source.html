@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -166,12 +164,12 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a>    <a class="code" href="../../d6/d86/classPHPointerList.html#acba7232b09598552e9560b674e29416b">insertAt</a>(T*, <span class="keywordtype">size_t</span>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a> <a class="code" href="../../d6/d86/classPHPointerList.html#ab73157ba19b5b6cae3cd7b1eb06aa499">grow</a>(<span class="keywordtype">size_t</span> = 0);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a> grow(<span class="keywordtype">size_t</span> = 0);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="keyword">private</span>: </div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d6/d86/classPHPointerList.html#a72e7bf735f4fe3af54daf48ba758ee7a">   56</a></span>&#160;  T**       <a class="code" href="../../d6/d86/classPHPointerList.html#a72e7bf735f4fe3af54daf48ba758ee7a">items</a>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../d6/d86/classPHPointerList.html#a9f8a19e4f79dd383520d5844c96d5446">   57</a></span>&#160;  <span class="keywordtype">size_t</span>    <a class="code" href="../../d6/d86/classPHPointerList.html#a9f8a19e4f79dd383520d5844c96d5446">maxNItems</a>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="../../d6/d86/classPHPointerList.html#ae7906ce5318fe101f0afe6aa773ecb5d">   58</a></span>&#160;  <span class="keywordtype">size_t</span>    <a class="code" href="../../d6/d86/classPHPointerList.html#ae7906ce5318fe101f0afe6aa773ecb5d">nItems</a>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  T**       items;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordtype">size_t</span>    maxNItems;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordtype">size_t</span>    nItems;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">// Implementation of member functions</span></div>
@@ -194,8 +192,8 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 <div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="../../d6/d86/classPHPointerList.html#ad62fc0fc6f3278d0d7b5e61f8511bda9">   78</a></span>&#160;<a class="code" href="../../d6/d86/classPHPointerList.html#ad62fc0fc6f3278d0d7b5e61f8511bda9">PHPointerList&lt;T&gt;::operator = </a>(<span class="keyword">const</span> <a class="code" href="../../d6/d86/classPHPointerList.html">PHPointerList&lt;T&gt;</a> &amp; l)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">if</span>(<span class="keyword">this</span> != &amp;l){</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    maxNItems = l.<a class="code" href="../../d6/d86/classPHPointerList.html#a9f8a19e4f79dd383520d5844c96d5446">maxNItems</a>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    grow(l.<a class="code" href="../../d6/d86/classPHPointerList.html#a9f8a19e4f79dd383520d5844c96d5446">maxNItems</a>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    maxNItems = l.maxNItems;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    grow(l.maxNItems);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    nItems = l.<a class="code" href="../../d6/d86/classPHPointerList.html#aa48452c4f6bad6c475f9c3efeb97e4b9">length</a>();</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;nItems; ++i)</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      {</div>
@@ -214,7 +212,7 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="keyword">template</span>&lt;<span class="keyword">class</span> T&gt; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<a class="code" href="../../d5/d6f/phool_8h.html#a8604ca91fffcae9135a98a2fbc6c313f">PHBoolean</a> </div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d6/d86/classPHPointerList.html#ab73157ba19b5b6cae3cd7b1eb06aa499">  101</a></span>&#160;<a class="code" href="../../d6/d86/classPHPointerList.html#ab73157ba19b5b6cae3cd7b1eb06aa499">PHPointerList&lt;T&gt;::grow</a>(<span class="keywordtype">size_t</span> newSize)</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<a class="code" href="../../d6/d86/classPHPointerList.html">PHPointerList&lt;T&gt;::grow</a>(<span class="keywordtype">size_t</span> newSize)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordflow">if</span> (newSize == 0) </div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    {</div>
@@ -381,9 +379,6 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __PHPOINTERLIST_H__ */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="classPHPointerList_html_acba7232b09598552e9560b674e29416b"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#acba7232b09598552e9560b674e29416b">PHPointerList::insertAt</a></div><div class="ttdeci">PHBoolean insertAt(T *, size_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00168">PHPointerList.h:168</a></div></div>
-<div class="ttc" id="classPHPointerList_html_a9f8a19e4f79dd383520d5844c96d5446"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#a9f8a19e4f79dd383520d5844c96d5446">PHPointerList::maxNItems</a></div><div class="ttdeci">size_t maxNItems</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00057">PHPointerList.h:57</a></div></div>
-<div class="ttc" id="classPHPointerList_html_ae7906ce5318fe101f0afe6aa773ecb5d"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#ae7906ce5318fe101f0afe6aa773ecb5d">PHPointerList::nItems</a></div><div class="ttdeci">size_t nItems</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00058">PHPointerList.h:58</a></div></div>
-<div class="ttc" id="classPHPointerList_html_ab73157ba19b5b6cae3cd7b1eb06aa499"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#ab73157ba19b5b6cae3cd7b1eb06aa499">PHPointerList::grow</a></div><div class="ttdeci">PHBoolean grow(size_t=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00101">PHPointerList.h:101</a></div></div>
 <div class="ttc" id="classPHPointerList_html_a5fe1668a8673c6b6d2f06b18e0c0d120"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#a5fe1668a8673c6b6d2f06b18e0c0d120">PHPointerList::clearAndDestroy</a></div><div class="ttdeci">void clearAndDestroy()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00201">PHPointerList.h:201</a></div></div>
 <div class="ttc" id="phool_8h_html"><div class="ttname"><a href="../../d5/d6f/phool_8h.html">phool.h</a></div></div>
 <div class="ttc" id="classPHPointerList_html_a560c9339d74f28f604d07dcb10a2e0be"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#a560c9339d74f28f604d07dcb10a2e0be">PHPointerList::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00193">PHPointerList.h:193</a></div></div>
@@ -400,7 +395,6 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 <div class="ttc" id="classPHPointerList_html_ac0570b0428cc5d6d0f9bc21ed321ad61"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#ac0570b0428cc5d6d0f9bc21ed321ad61">PHPointerList::removeAt</a></div><div class="ttdeci">T * removeAt(size_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00235">PHPointerList.h:235</a></div></div>
 <div class="ttc" id="phool_8h_html_afeb927280547367b51a6c2f2464797bd"><div class="ttname"><a href="../../d5/d6f/phool_8h.html#afeb927280547367b51a6c2f2464797bd">False</a></div><div class="ttdeci">static const int False</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/phool_8h_source.html#l00009">phool.h:9</a></div></div>
 <div class="ttc" id="classPHPointerList_html_a37bebc30be41ff5ab22e84a15d4d553c"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#a37bebc30be41ff5ab22e84a15d4d553c">PHPointerList::operator[]</a></div><div class="ttdeci">T * operator[](size_t) const </div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00127">PHPointerList.h:127</a></div></div>
-<div class="ttc" id="classPHPointerList_html_a72e7bf735f4fe3af54daf48ba758ee7a"><div class="ttname"><a href="../../d6/d86/classPHPointerList.html#a72e7bf735f4fe3af54daf48ba758ee7a">PHPointerList::items</a></div><div class="ttdeci">T ** items</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/PHPointerList_8h_source.html#l00056">PHPointerList.h:56</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -411,7 +405,7 @@ $(document).ready(function(){initNavTree('db/dd5/PHPointerList_8h_source.html','
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_68879e08c6651a210f7d5b44f4a6e313.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_f2aaf1f4a851c309b82ce7b22fc6c279.html">phool</a></li><li class="navelem"><a class="el" href="../../db/dd5/PHPointerList_8h.html">PHPointerList.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

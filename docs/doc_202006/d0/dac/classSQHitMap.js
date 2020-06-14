@@ -7,7 +7,6 @@ var classSQHitMap =
     [ "SQHitMap", "d0/dac/classSQHitMap.html#ac18c0bb9019a9e6f12ddaaff0d68020e", null ],
     [ "begin", "d0/dac/classSQHitMap.html#abecf779faed8b9f82ed455f392ea820b", null ],
     [ "begin", "d0/dac/classSQHitMap.html#a6c94d8d39a6fd3fbb150b02391dc93a1", null ],
-    [ "ClassDef", "d0/dac/classSQHitMap.html#ab35b0fb582f063eb0b2efdef1326bc29", null ],
     [ "clear", "d0/dac/classSQHitMap.html#a417dd2c1f142504750052cee58de3e2f", null ],
     [ "Clone", "d0/dac/classSQHitMap.html#a19f3cd183931c2d94f6d65bbad48c3dd", null ],
     [ "count", "d0/dac/classSQHitMap.html#a94c75b26f61ecf3c0772a871ca160608", null ],

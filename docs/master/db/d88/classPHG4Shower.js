@@ -20,7 +20,6 @@ var classPHG4Shower =
     [ "begin_g4particle_id", "db/d88/classPHG4Shower.html#a46279fbda706b644a1db061bf003d99c", null ],
     [ "begin_g4vertex_id", "db/d88/classPHG4Shower.html#aa3418fbef6e052f0af37bb90a2f85ff3", null ],
     [ "begin_g4vertex_id", "db/d88/classPHG4Shower.html#a573b44ea9915a15ad02c222752cb089a", null ],
-    [ "ClassDef", "db/d88/classPHG4Shower.html#ac2643ca5c5a5d7e80bf44df7a4fc6a18", null ],
     [ "clear_g4hit_id", "db/d88/classPHG4Shower.html#abdc73f07f8538ae1ed2c4d9535291de0", null ],
     [ "clear_g4particle_id", "db/d88/classPHG4Shower.html#abee5279f2a0109e1017cd9c8eeece239", null ],
     [ "clear_g4vertex_id", "db/d88/classPHG4Shower.html#a9c20f9f24b8ec3ecdcc742941ef216ad", null ],

@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -130,11 +128,11 @@ $(document).ready(function(){initNavTree('df/de4/GenericSD_8cc_source.html','../
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d4/d82/classGenericSD.html#af5f7a49393d5e64fd736cf22c24d6538">   15</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/d82/classGenericSD.html#af5f7a49393d5e64fd736cf22c24d6538">GenericSD::Initialize</a>(G4HCofThisEvent* HCE)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a> = <span class="keyword">new</span> <a class="code" href="../../d3/d13/MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHitsCollection</a>(SensitiveDetectorName, collectionName[0]); </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  staHitsCollection = <span class="keyword">new</span> <a class="code" href="../../d3/d13/MCHit_8hh.html#a32c875074da2323926170ed0cc50b1ec">MCHitsCollection</a>(SensitiveDetectorName, collectionName[0]); </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keyword">static</span> G4int HCID = -1;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordflow">if</span>(HCID&lt;0)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    HCID = G4SDManager::GetSDMpointer()-&gt;GetCollectionID(collectionName[0]);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  HCE-&gt;AddHitsCollection(HCID, <a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  HCE-&gt;AddHitsCollection(HCID, staHitsCollection);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d4/d82/classGenericSD.html#a10d7c641a74f679049884f6307efc58b">   24</a></span>&#160;G4bool <a class="code" href="../../d4/d82/classGenericSD.html#a10d7c641a74f679049884f6307efc58b">GenericSD::ProcessHits</a>(G4Step* aStep,G4TouchableHistory*)</div>
@@ -166,7 +164,7 @@ $(document).ready(function(){initNavTree('df/de4/GenericSD_8cc_source.html','../
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  newHit-&gt;<a class="code" href="../../dd/da5/classMCHit.html#aa392783321c04b07fcc4447473a4fcb9">SetVolume</a>(curVolname);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a>-&gt;insert( newHit );</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  staHitsCollection-&gt;insert( newHit );</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
@@ -175,11 +173,11 @@ $(document).ready(function(){initNavTree('df/de4/GenericSD_8cc_source.html','../
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="keywordflow">if</span> (verboseLevel&gt;0)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    G4int NbHits = <a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a>-&gt;entries();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    G4int NbHits = staHitsCollection-&gt;entries();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    G4cout &lt;&lt; <span class="stringliteral">&quot;\n--------&gt;Hits Collection: in this event there are &quot;</span> &lt;&lt; NbHits</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;           &lt;&lt; <span class="stringliteral">&quot; hits at detector station 1: &quot;</span> &lt;&lt; G4endl;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">for</span> (G4int i=0;i&lt;NbHits;i++)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      (*<a class="code" href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">staHitsCollection</a>)[i]-&gt;Print();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      (*staHitsCollection)[i]-&gt;Print();</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  } </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 <div class="ttc" id="classMCHit_html_ab4a6a93981a9c6573a1261a69a3299a3"><div class="ttname"><a href="../../dd/da5/classMCHit.html#ab4a6a93981a9c6573a1261a69a3299a3">MCHit::SetPosition</a></div><div class="ttdeci">void SetPosition(G4ThreeVector pos)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00048">MCHit.hh:48</a></div></div>
@@ -193,7 +191,6 @@ $(document).ready(function(){initNavTree('df/de4/GenericSD_8cc_source.html','../
 <div class="ttc" id="classMCHit_html_a5ac9d347a106ec559f9a6c948236ddf1"><div class="ttname"><a href="../../dd/da5/classMCHit.html#a5ac9d347a106ec559f9a6c948236ddf1">MCHit::SetVertex</a></div><div class="ttdeci">void SetVertex(G4ThreeVector v0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00060">MCHit.hh:60</a></div></div>
 <div class="ttc" id="classMCHit_html_ab6d892bbec039d6a49f14e66a28fc428"><div class="ttname"><a href="../../dd/da5/classMCHit.html#ab6d892bbec039d6a49f14e66a28fc428">MCHit::SetParticleName</a></div><div class="ttdeci">void SetParticleName(G4String pName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00045">MCHit.hh:45</a></div></div>
 <div class="ttc" id="classMCHit_html_a3047d31e8cb4f29d390d78c7aa825aa0"><div class="ttname"><a href="../../dd/da5/classMCHit.html#a3047d31e8cb4f29d390d78c7aa825aa0">MCHit::SetDE</a></div><div class="ttdeci">void SetDE(G4double de)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00051">MCHit.hh:51</a></div></div>
-<div class="ttc" id="classGenericSD_html_ae336075e44855d121a250a3ee906f4e1"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#ae336075e44855d121a250a3ee906f4e1">GenericSD::staHitsCollection</a></div><div class="ttdeci">MCHitsCollection * staHitsCollection</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d77/GenericSD_8hh_source.html#l00027">GenericSD.hh:27</a></div></div>
 <div class="ttc" id="classMCHit_html_a3a6416791e6b0bcced6fbc2572f0ab01"><div class="ttname"><a href="../../dd/da5/classMCHit.html#a3a6416791e6b0bcced6fbc2572f0ab01">MCHit::SetParentID</a></div><div class="ttdeci">void SetParentID(G4int parentID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00069">MCHit.hh:69</a></div></div>
 <div class="ttc" id="classGenericSD_html_a4e64f30a11d6f88414459242a8527ea8"><div class="ttname"><a href="../../d4/d82/classGenericSD.html#a4e64f30a11d6f88414459242a8527ea8">GenericSD::~GenericSD</a></div><div class="ttdeci">~GenericSD()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de4/GenericSD_8cc_source.html#l00011">GenericSD.cc:11</a></div></div>
 <div class="ttc" id="classMCHit_html_a8d9beebe9d4a6bcedca15598ad141fdf"><div class="ttname"><a href="../../dd/da5/classMCHit.html#a8d9beebe9d4a6bcedca15598ad141fdf">MCHit::SetParticleID</a></div><div class="ttdeci">void SetParticleID(G4int particle_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d13/MCHit_8hh_source.html#l00042">MCHit.hh:42</a></div></div>
@@ -213,7 +210,7 @@ $(document).ready(function(){initNavTree('df/de4/GenericSD_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_8ea7cac0f8d8113a9a7e5b799137b771.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1881616b07e0466b150c88b4a15ca32b.html">db2g4</a></li><li class="navelem"><a class="el" href="../../df/de4/GenericSD_8cc.html">GenericSD.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

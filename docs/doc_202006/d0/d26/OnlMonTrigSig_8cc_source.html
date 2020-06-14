@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -284,7 +282,7 @@ $(document).ready(function(){initNavTree('d0/d26/OnlMonTrigSig_8cc_source.html',
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a1b9d9fff6328e9319499e1fc8bcbd572">  172</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a1b9d9fff6328e9319499e1fc8bcbd572">OnlMonTrigSig::DrawTH2WithPeakPos</a>(TH2* h2, <span class="keyword">const</span> <span class="keywordtype">double</span> cont_min)</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="keywordtype">void</span> OnlMonTrigSig::DrawTH2WithPeakPos(TH2* h2, <span class="keyword">const</span> <span class="keywordtype">double</span> cont_min)</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;{</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  h2-&gt;Draw(<span class="stringliteral">&quot;colz&quot;</span>);</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="keywordtype">int</span> ny = h2-&gt;GetNbinsY();</div>
@@ -319,7 +317,6 @@ $(document).ready(function(){initNavTree('d0/d26/OnlMonTrigSig_8cc_source.html',
 <div class="ttc" id="classOnlMonTrigSig_html_a314f1c7f65ee2d26db44f2a7169a4f95"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a314f1c7f65ee2d26db44f2a7169a4f95">OnlMonTrigSig::EndOnlMon</a></div><div class="ttdeci">int EndOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00120">OnlMonTrigSig.cc:120</a></div></div>
 <div class="ttc" id="classSQHitVector_html"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html">SQHitVector</a></div><div class="ttdoc">An SQ interface class to hold a list of SQHit objects. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddd/SQHitVector_8h_source.html#l00032">SQHitVector.h:32</a></div></div>
 <div class="ttc" id="classSQEvent_html"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html">SQEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00016">SQEvent.h:16</a></div></div>
-<div class="ttc" id="classOnlMonTrigSig_html_a1b9d9fff6328e9319499e1fc8bcbd572"><div class="ttname"><a href="../../dc/dae/classOnlMonTrigSig.html#a1b9d9fff6328e9319499e1fc8bcbd572">OnlMonTrigSig::DrawTH2WithPeakPos</a></div><div class="ttdeci">void DrawTH2WithPeakPos(TH2 *h2, const double cont_min=100)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00172">OnlMonTrigSig.cc:172</a></div></div>
 <div class="ttc" id="classOnlMonCanvas_html_aec0773674b0c23cc053658c3a4526183"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">OnlMonCanvas::GetMainPad</a></div><div class="ttdeci">TPad * GetMainPad()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00074">OnlMonCanvas.cc:74</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00234">GeomSvc.cxx:234</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a3e4f40789e9b2a98477ab8e8191d5ff2"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">GeomSvc::getDetectorID</a></div><div class="ttdeci">int getDetectorID(const std::string &amp;detectorName) const </div><div class="ttdoc">Get the plane position. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00178">GeomSvc.h:178</a></div></div>
@@ -343,7 +340,7 @@ $(document).ready(function(){initNavTree('d0/d26/OnlMonTrigSig_8cc_source.html',
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_f4caa60ffed12ad39e9f06369a757050.html">online</a></li><li class="navelem"><a class="el" href="../../dir_a95975a7d021972a796996e0e81f39b2.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../d0/d26/OnlMonTrigSig_8cc.html">OnlMonTrigSig.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:55</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

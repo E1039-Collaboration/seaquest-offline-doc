@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -128,7 +126,7 @@ $(document).ready(function(){initNavTree('d7/d77/SQIntMap__v1_8cxx_source.html',
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#afd113e0373705af8cc6132f16e524315">   12</a></span>&#160;<a class="code" href="../../d1/d94/classSQIntMap__v1.html#ad3193b30cf50be0822650e848165a98b">SQIntMap_v1::SQIntMap_v1</a>(<span class="keyword">const</span> <a class="code" href="../../d1/d94/classSQIntMap__v1.html">SQIntMap_v1</a>&amp; map) : _map()</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../dc/d07/classSQIntMap.html#ad3f015d590fa0e7a73315e49253eac81">ConstIter</a> iter = map.<a class="code" href="../../d1/d94/classSQIntMap__v1.html#a6539077a337a8b3f5dbdd4e079240f16">begin</a>(); iter != map.<a class="code" href="../../d1/d94/classSQIntMap__v1.html#ad51066910ed4c1e776eb22d9726111f1">end</a>(); ++iter) {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.insert(make_pair(iter-&gt;first, iter-&gt;second-&gt;clone()));</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    _map.insert(make_pair(iter-&gt;first, iter-&gt;second-&gt;clone()));</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  }</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
@@ -136,7 +134,7 @@ $(document).ready(function(){initNavTree('d7/d77/SQIntMap__v1_8cxx_source.html',
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a802e2c5361296e154cc20ff4736c9972">Reset</a>();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../dc/d07/classSQIntMap.html#ad3f015d590fa0e7a73315e49253eac81">ConstIter</a> iter = map.<a class="code" href="../../d1/d94/classSQIntMap__v1.html#a6539077a337a8b3f5dbdd4e079240f16">begin</a>(); iter != map.<a class="code" href="../../d1/d94/classSQIntMap__v1.html#ad51066910ed4c1e776eb22d9726111f1">end</a>(); ++iter) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.insert(make_pair(iter-&gt;first, iter-&gt;second-&gt;clone()));</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    _map.insert(make_pair(iter-&gt;first, iter-&gt;second-&gt;clone()));</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
@@ -146,32 +144,32 @@ $(document).ready(function(){initNavTree('d7/d77/SQIntMap__v1_8cxx_source.html',
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#a802e2c5361296e154cc20ff4736c9972">   32</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a802e2c5361296e154cc20ff4736c9972">SQIntMap_v1::Reset</a>() {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../dc/d07/classSQIntMap.html#a8b3e7ae5104a702cf4c2eb151abe2ec1">Iter</a> iter = <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.begin(); iter != <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.end(); ++iter) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../dc/d07/classSQIntMap.html#a8b3e7ae5104a702cf4c2eb151abe2ec1">Iter</a> iter = _map.begin(); iter != _map.end(); ++iter) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">delete</span> iter-&gt;second;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.clear();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  _map.clear();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#a3adcc1d385d6c6de1af5e1dcec0b4f81">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a3adcc1d385d6c6de1af5e1dcec0b4f81">SQIntMap_v1::identify</a>(ostream&amp; os)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;SQIntMap_v1: size = &quot;</span> &lt;&lt; <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.size() &lt;&lt; endl;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;SQIntMap_v1: size = &quot;</span> &lt;&lt; _map.size() &lt;&lt; endl;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#a68535669ab7c0a93fc26b3a9f3a906f2">   44</a></span>&#160;<span class="keyword">const</span> <a class="code" href="../../d9/d24/classPHObject.html">PHObject</a>* <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a68535669ab7c0a93fc26b3a9f3a906f2">SQIntMap_v1::get</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="../../dc/d07/classSQIntMap.html#ad3f015d590fa0e7a73315e49253eac81">ConstIter</a> iter = <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.find(<span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (iter == <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="../../dc/d07/classSQIntMap.html#ad3f015d590fa0e7a73315e49253eac81">ConstIter</a> iter = _map.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">if</span> (iter == _map.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">return</span> iter-&gt;second;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#a1c09ecb73c45203b8eb06332eccee039">   50</a></span>&#160;<a class="code" href="../../d9/d24/classPHObject.html">PHObject</a>* <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a68535669ab7c0a93fc26b3a9f3a906f2">SQIntMap_v1::get</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>) {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../dc/d07/classSQIntMap.html#a8b3e7ae5104a702cf4c2eb151abe2ec1">Iter</a> iter = <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.find(<span class="keywordtype">id</span>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (iter == <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../dc/d07/classSQIntMap.html#a8b3e7ae5104a702cf4c2eb151abe2ec1">Iter</a> iter = _map.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordflow">if</span> (iter == _map.end()) <span class="keywordflow">return</span> <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">return</span> iter-&gt;second;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d1/d94/classSQIntMap__v1.html#a4e734e6c064cf2f86870d1acffbe6978">   56</a></span>&#160;<a class="code" href="../../d9/d24/classPHObject.html">PHObject</a>* <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a4e734e6c064cf2f86870d1acffbe6978">SQIntMap_v1::insert</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keyword">const</span> <a class="code" href="../../d9/d24/classPHObject.html">PHObject</a> *item) {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>.insert(make_pair(<span class="keywordtype">id</span>, item-&gt;<a class="code" href="../../d9/d24/classPHObject.html#aeae64119bcf42ad6ae61e56e8ac9e654">clone</a>() ));</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">_map</a>[id];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  _map.insert(make_pair(<span class="keywordtype">id</span>, item-&gt;<a class="code" href="../../d9/d24/classPHObject.html#aeae64119bcf42ad6ae61e56e8ac9e654">clone</a>() ));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">return</span> _map[id];</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 <div class="ttc" id="classPHObject_html"><div class="ttname"><a href="../../d9/d24/classPHObject.html">PHObject</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d32/PHObject_8h_source.html#l00012">PHObject.h:12</a></div></div>
 <div class="ttc" id="classSQIntMap__v1_html_a6539077a337a8b3f5dbdd4e079240f16"><div class="ttname"><a href="../../d1/d94/classSQIntMap__v1.html#a6539077a337a8b3f5dbdd4e079240f16">SQIntMap_v1::begin</a></div><div class="ttdeci">ConstIter begin() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df3/SQIntMap__v1_8h_source.html#l00033">SQIntMap_v1.h:33</a></div></div>
@@ -190,7 +188,6 @@ $(document).ready(function(){initNavTree('d7/d77/SQIntMap__v1_8cxx_source.html',
 <div class="ttc" id="classPHObject_html_aeae64119bcf42ad6ae61e56e8ac9e654"><div class="ttname"><a href="../../d9/d24/classPHObject.html#aeae64119bcf42ad6ae61e56e8ac9e654">PHObject::clone</a></div><div class="ttdeci">virtual PHObject * clone() const </div><div class="ttdoc">Virtual copy constructor. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2b/PHObject_8cc_source.html#l00014">PHObject.cc:14</a></div></div>
 <div class="ttc" id="PdbCalChan_8cc_html_a2e42736505dcaba519d53efaa5586008"><div class="ttname"><a href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a></div><div class="ttdeci">ClassImp(PdbCalChan)</div></div>
 <div class="ttc" id="classSQIntMap__v1_html"><div class="ttname"><a href="../../d1/d94/classSQIntMap__v1.html">SQIntMap_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df3/SQIntMap__v1_8h_source.html#l00008">SQIntMap_v1.h:8</a></div></div>
-<div class="ttc" id="classSQIntMap__v1_html_a26e7fb9374b13dc7cde81eeeb3e177ef"><div class="ttname"><a href="../../d1/d94/classSQIntMap__v1.html#a26e7fb9374b13dc7cde81eeeb3e177ef">SQIntMap_v1::_map</a></div><div class="ttdeci">ObjectMap _map</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df3/SQIntMap__v1_8h_source.html#l00042">SQIntMap_v1.h:42</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -201,7 +198,7 @@ $(document).ready(function(){initNavTree('d7/d77/SQIntMap__v1_8cxx_source.html',
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4109f03a5b9c2dae233205e99792f74d.html">interface_main</a></li><li class="navelem"><a class="el" href="../../d7/d77/SQIntMap__v1_8cxx.html">SQIntMap_v1.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:54</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

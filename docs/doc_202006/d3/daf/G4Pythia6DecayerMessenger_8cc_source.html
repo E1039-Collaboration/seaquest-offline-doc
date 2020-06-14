@@ -28,8 +28,6 @@
 			<table cellspacing="0" cellpadding="0">
 				<tbody>
 					<tr style="height: 56px;">
-						<td id="projectlogo"><a href="../../index.html"><img
-								alt="Logo" src="../../SeaQuest.png" /></a></td>
 						<td style="padding-left: 0.5em;">
 							<div id="projectname">
 								E1039 Software
@@ -161,7 +159,7 @@ $(document).ready(function(){initNavTree('d3/daf/G4Pythia6DecayerMessenger_8cc_s
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">   50</a></span>&#160;<a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a757ff63893130b11034d213e5e772279">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a>(</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">   50</a></span>&#160;<a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a>(</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                               <a class="code" href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a>* pythia6Decayer)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  : G4UImessenger(),</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    fPythia6Decayer(pythia6Decayer),</div>
@@ -170,25 +168,25 @@ $(document).ready(function(){initNavTree('d3/daf/G4Pythia6DecayerMessenger_8cc_s
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    fDecayTypeCmd(0)</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a344070eaada039aee775109dfe9d563f">fDirectory</a> = <span class="keyword">new</span> G4UIdirectory(<span class="stringliteral">&quot;/pythia6Decayer/&quot;</span>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a344070eaada039aee775109dfe9d563f">fDirectory</a>-&gt;SetGuidance(<span class="stringliteral">&quot;G4Pythia6Decayer control commands.&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  fDirectory = <span class="keyword">new</span> G4UIdirectory(<span class="stringliteral">&quot;/pythia6Decayer/&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  fDirectory-&gt;SetGuidance(<span class="stringliteral">&quot;G4Pythia6Decayer control commands.&quot;</span>);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a> </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  fVerboseCmd </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    = <span class="keyword">new</span> G4UIcmdWithAnInteger(<span class="stringliteral">&quot;/pythia6Decayer/verbose&quot;</span>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>-&gt;SetGuidance(<span class="stringliteral">&quot;Set Pythia6Decayer verbose level&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>-&gt;SetParameterName(<span class="stringliteral">&quot;VerboseLevel&quot;</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>-&gt;SetRange(<span class="stringliteral">&quot;VerboseLevel &gt;= 0 &amp;&amp; VerboseLevel &lt;= 1&quot;</span>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>-&gt;AvailableForStates(G4State_Idle);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  fVerboseCmd-&gt;SetGuidance(<span class="stringliteral">&quot;Set Pythia6Decayer verbose level&quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  fVerboseCmd-&gt;SetParameterName(<span class="stringliteral">&quot;VerboseLevel&quot;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  fVerboseCmd-&gt;SetRange(<span class="stringliteral">&quot;VerboseLevel &gt;= 0 &amp;&amp; VerboseLevel &lt;= 1&quot;</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  fVerboseCmd-&gt;AvailableForStates(G4State_Idle);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a> </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  fDecayTypeCmd </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    = <span class="keyword">new</span> G4UIcmdWithAnInteger(<span class="stringliteral">&quot;/pythia6Decayer/forceDecayType&quot;</span>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>-&gt;SetGuidance(<span class="stringliteral">&quot;Force the specified decay type&quot;</span>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>-&gt;SetParameterName(<span class="stringliteral">&quot;DecayType&quot;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  fDecayTypeCmd-&gt;SetGuidance(<span class="stringliteral">&quot;Force the specified decay type&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  fDecayTypeCmd-&gt;SetParameterName(<span class="stringliteral">&quot;DecayType&quot;</span>, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  std::ostringstream os;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;DecayType &gt;=  &quot;</span> &lt;&lt; <a class="code" href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476eab4e5c170a5434ac71915c25f1734ccf2">kSemiElectronic</a> </div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;     &lt;&lt; <span class="stringliteral">&quot; &amp;&amp; DecayType &lt;= &quot;</span> &lt;&lt; <a class="code" href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476ea42949c9c968de3fd1120a78325ecfbf1">kMaxDecay</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>-&gt;SetRange(os.str().c_str());</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>-&gt;AvailableForStates(G4State_Idle);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  fDecayTypeCmd-&gt;SetRange(os.str().c_str());</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  fDecayTypeCmd-&gt;AvailableForStates(G4State_Idle);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......</span></div>
@@ -196,9 +194,9 @@ $(document).ready(function(){initNavTree('d3/daf/G4Pythia6DecayerMessenger_8cc_s
 <div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">   83</a></span>&#160;<a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">G4Pythia6DecayerMessenger::~G4Pythia6DecayerMessenger</a>() </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a344070eaada039aee775109dfe9d563f">fDirectory</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keyword">delete</span> fDirectory;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keyword">delete</span> fVerboseCmd;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="keyword">delete</span> fDecayTypeCmd;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">//</span></div>
@@ -211,33 +209,29 @@ $(document).ready(function(){initNavTree('d3/daf/G4Pythia6DecayerMessenger_8cc_s
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;       G4String newValue)</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{ </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordflow">if</span>(command == <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>) { </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#af368a640bcd6ac68cee80133f11c44c3">fPythia6Decayer</a></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      -&gt;<a class="code" href="../../d8/d46/classG4Pythia6Decayer.html#ad931e2ff605120a90b2ee9ffe5cb40af">SetVerboseLevel</a>(<a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">fVerboseCmd</a>-&gt;GetNewIntValue(newValue)); </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordflow">if</span>(command == fVerboseCmd) { </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    fPythia6Decayer</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      -&gt;<a class="code" href="../../d8/d46/classG4Pythia6Decayer.html#ad931e2ff605120a90b2ee9ffe5cb40af">SetVerboseLevel</a>(fVerboseCmd-&gt;GetNewIntValue(newValue)); </div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  }   </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(command == <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>) { </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#af368a640bcd6ac68cee80133f11c44c3">fPythia6Decayer</a></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      -&gt;<a class="code" href="../../d8/d46/classG4Pythia6Decayer.html#a9e2c2eb2d96530707e459567d49cbc70">ForceDecayType</a>(<a class="code" href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476e">EDecayType</a>(<a class="code" href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">fDecayTypeCmd</a>-&gt;GetNewIntValue(newValue))); </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(command == fDecayTypeCmd) { </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    fPythia6Decayer</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      -&gt;<a class="code" href="../../d8/d46/classG4Pythia6Decayer.html#a9e2c2eb2d96530707e459567d49cbc70">ForceDecayType</a>(<a class="code" href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476e">EDecayType</a>(fDecayTypeCmd-&gt;GetNewIntValue(newValue))); </div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }   </div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......</span></div>
 <div class="ttc" id="classG4Pythia6Decayer_html_a9e2c2eb2d96530707e459567d49cbc70"><div class="ttname"><a href="../../d8/d46/classG4Pythia6Decayer.html#a9e2c2eb2d96530707e459567d49cbc70">G4Pythia6Decayer::ForceDecayType</a></div><div class="ttdeci">void ForceDecayType(EDecayType decayType)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/G4Pythia6Decayer_8cc_source.html#l00618">G4Pythia6Decayer.cc:618</a></div></div>
-<div class="ttc" id="classG4Pythia6DecayerMessenger_html_a344070eaada039aee775109dfe9d563f"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a344070eaada039aee775109dfe9d563f">G4Pythia6DecayerMessenger::fDirectory</a></div><div class="ttdeci">G4UIdirectory * fDirectory</div><div class="ttdoc">command directory </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d61/G4Pythia6DecayerMessenger_8hh_source.html#l00071">G4Pythia6DecayerMessenger.hh:71</a></div></div>
-<div class="ttc" id="classG4Pythia6DecayerMessenger_html_ab9d65ad9a7301d9b48f8b025a90dc66e"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#ab9d65ad9a7301d9b48f8b025a90dc66e">G4Pythia6DecayerMessenger::fDecayTypeCmd</a></div><div class="ttdeci">G4UIcmdWithAnInteger * fDecayTypeCmd</div><div class="ttdoc">command: forceDEcayeType </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d61/G4Pythia6DecayerMessenger_8hh_source.html#l00073">G4Pythia6DecayerMessenger.hh:73</a></div></div>
-<div class="ttc" id="classG4Pythia6DecayerMessenger_html_a757ff63893130b11034d213e5e772279"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a757ff63893130b11034d213e5e772279">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a></div><div class="ttdeci">G4Pythia6DecayerMessenger()</div><div class="ttdoc">Not implemented. </div></div>
 <div class="ttc" id="classG4Pythia6Decayer_html_ad931e2ff605120a90b2ee9ffe5cb40af"><div class="ttname"><a href="../../d8/d46/classG4Pythia6Decayer.html#ad931e2ff605120a90b2ee9ffe5cb40af">G4Pythia6Decayer::SetVerboseLevel</a></div><div class="ttdeci">void SetVerboseLevel(G4int verboseLevel)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/G4Pythia6Decayer_8hh_source.html#l00064">G4Pythia6Decayer.hh:64</a></div></div>
 <div class="ttc" id="EDecayType_8hh_html"><div class="ttname"><a href="../../d9/d5f/EDecayType_8hh.html">EDecayType.hh</a></div></div>
 <div class="ttc" id="G4Pythia6DecayerMessenger_8hh_html"><div class="ttname"><a href="../../d4/d61/G4Pythia6DecayerMessenger_8hh.html">G4Pythia6DecayerMessenger.hh</a></div></div>
-<div class="ttc" id="classG4Pythia6DecayerMessenger_html_af368a640bcd6ac68cee80133f11c44c3"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#af368a640bcd6ac68cee80133f11c44c3">G4Pythia6DecayerMessenger::fPythia6Decayer</a></div><div class="ttdeci">G4Pythia6Decayer * fPythia6Decayer</div><div class="ttdoc">associated class </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d61/G4Pythia6DecayerMessenger_8hh_source.html#l00070">G4Pythia6DecayerMessenger.hh:70</a></div></div>
 <div class="ttc" id="EDecayType_8hh_html_a25d1b091c2bb9d7850d72019a0a5476eab4e5c170a5434ac71915c25f1734ccf2"><div class="ttname"><a href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476eab4e5c170a5434ac71915c25f1734ccf2">kSemiElectronic</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5f/EDecayType_8hh_source.html#l00043">EDecayType.hh:43</a></div></div>
-<div class="ttc" id="classG4Pythia6DecayerMessenger_html_a8624ca26bd2b2027e12564fadbb41686"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a8624ca26bd2b2027e12564fadbb41686">G4Pythia6DecayerMessenger::fVerboseCmd</a></div><div class="ttdeci">G4UIcmdWithAnInteger * fVerboseCmd</div><div class="ttdoc">command: verbose </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d61/G4Pythia6DecayerMessenger_8hh_source.html#l00072">G4Pythia6DecayerMessenger.hh:72</a></div></div>
 <div class="ttc" id="classG4Pythia6DecayerMessenger_html_af4a400cb97ecc6dcd249759951290f63"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#af4a400cb97ecc6dcd249759951290f63">G4Pythia6DecayerMessenger::SetNewValue</a></div><div class="ttdeci">virtual void SetNewValue(G4UIcommand *command, G4String string)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/daf/G4Pythia6DecayerMessenger_8cc_source.html#l00098">G4Pythia6DecayerMessenger.cc:98</a></div></div>
 <div class="ttc" id="classG4Pythia6Decayer_html"><div class="ttname"><a href="../../d8/d46/classG4Pythia6Decayer.html">G4Pythia6Decayer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfd/G4Pythia6Decayer_8hh_source.html#l00054">G4Pythia6Decayer.hh:54</a></div></div>
 <div class="ttc" id="EDecayType_8hh_html_a25d1b091c2bb9d7850d72019a0a5476e"><div class="ttname"><a href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476e">EDecayType</a></div><div class="ttdeci">EDecayType</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5f/EDecayType_8hh_source.html#l00041">EDecayType.hh:41</a></div></div>
 <div class="ttc" id="classG4Pythia6DecayerMessenger_html_a510007e27533639be95779077d17d4a6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6">G4Pythia6DecayerMessenger::~G4Pythia6DecayerMessenger</a></div><div class="ttdeci">virtual ~G4Pythia6DecayerMessenger()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/daf/G4Pythia6DecayerMessenger_8cc_source.html#l00083">G4Pythia6DecayerMessenger.cc:83</a></div></div>
 <div class="ttc" id="G4Pythia6Decayer_8hh_html"><div class="ttname"><a href="../../d7/dfd/G4Pythia6Decayer_8hh.html">G4Pythia6Decayer.hh</a></div></div>
 <div class="ttc" id="EDecayType_8hh_html_a25d1b091c2bb9d7850d72019a0a5476ea42949c9c968de3fd1120a78325ecfbf1"><div class="ttname"><a href="../../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476ea42949c9c968de3fd1120a78325ecfbf1">kMaxDecay</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d5f/EDecayType_8hh_source.html#l00065">EDecayType.hh:65</a></div></div>
+<div class="ttc" id="classG4Pythia6DecayerMessenger_html_a5488a8234ad408256220c944b23b4bf6"><div class="ttname"><a href="../../d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6">G4Pythia6DecayerMessenger::G4Pythia6DecayerMessenger</a></div><div class="ttdeci">G4Pythia6DecayerMessenger(G4Pythia6Decayer *pythia6Decayer)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/daf/G4Pythia6DecayerMessenger_8cc_source.html#l00050">G4Pythia6DecayerMessenger.cc:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -248,7 +242,7 @@ $(document).ready(function(){initNavTree('d3/daf/G4Pythia6DecayerMessenger_8cc_s
 		<li class="navelem"><a class="el" href="../../dir_0a085354c5474f38d4b9d20ae746ec67.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_da541d554d94b5dd7d8677e6570914d2.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_96506df32658d64eb17e7e15ae8ddf22.html">g4decayer</a></li><li class="navelem"><a class="el" href="../../d3/daf/G4Pythia6DecayerMessenger_8cc.html">G4Pythia6DecayerMessenger.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Jun 13 2020 20:54:56</em> using <a
+			updated: <em>Sat Jun 13 2020 22:04:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
