@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "E1039 Software", "index.html", [
+  [ "Class Reference for E1039 Core & Analysis Software", "index.html", [
     [ "Introduction", "index.html#INTRO", null ],
     [ "Start using this website", "index.html#STARTwebsite", [
       [ "Highlighted Features", "index.html#UsefulFeatures", null ],
