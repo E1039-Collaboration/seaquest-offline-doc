@@ -3,8 +3,9 @@
 ## Use crontab to run this script regularly:
 ##   */10 * * * * /path/to/update-github-e1039-doc.sh
 
-PROG_BASE=$(basename $0 .sh)
-DIR_WORK=/dev/shm/$USER/$PROG_BASE
+DIR_PROG=$(dirname $(readlink -f $0))
+BN_PROG=$(basename $0 .sh)
+DIR_WORK=/dev/shm/$USER/$BN_PROG
 FN_LOG=$DIR_WORK/log-update.txt
 
 if [ $(hostname -s) != 'spinquestana1' ] ; then
@@ -20,15 +21,7 @@ mkdir -p $DIR_WORK
 
 { ## Redirect to log file
 
-##
-## Clone e1039-doc
-##
-cd $DIR_WORK
-if [ ! -d e1039-doc ] ; then
-    git clone git@github.com:E1039-Collaboration/e1039-doc.git
-fi
-cd e1039-doc
-git checkout gh-pages
+echo "Program directory = $DIR_PROG"
 
 ##
 ## Clone or update e1039-analysis
@@ -60,8 +53,8 @@ cd e1039-core
 git fetch origin
 for BR_ORG in 'origin/master' $(git branch -r | grep 'origin/doc_20') ; do
     BR_LOC=${BR_ORG#'origin/'}
-    echo "  e1039-core branch:  $BR_LOC $BR_ORG"
-    git checkout $BR_LOC
+    #echo "  e1039-core branch:  $BR_LOC $BR_ORG"
+    git checkout -q $BR_LOC
     MSG="$(git merge $BR_ORG)"
     if [ $CORE_CLONED = 'yes' -o "$MSG" != 'Already up-to-date.' ] ; then
 	LIST_CORE_BR_UPD+=($BR_LOC)
@@ -86,31 +79,43 @@ if [ ${#LIST_CORE_BR[*]} -eq 0 ] ; then
 fi
 
 ##
-## Update the documents
+## Update the contents of e1039-doc:gh-pages
 ##
+cd $DIR_WORK
+if [ ! -d e1039-doc ] ; then
+    git clone git@github.com:E1039-Collaboration/e1039-doc.git
+fi
+cd e1039-doc
+git checkout -q gh-pages
+rm -f Doxyfile Doxygen_Assist
+ln -s $DIR_PROG/Doxyfile
+ln -s $DIR_PROG/Doxygen_Assist
+
 for BR in ${LIST_CORE_BR[*]} ; do
     echo "  Branch: $BR"
     cd $DIR_WORK/e1039-core
-    git checkout $BR
+    git checkout -q $BR
     cd $DIR_WORK/e1039-doc
-    test -d docs/$BR && rm -rf docs/$BR
-    mkdir -p docs/$BR
-    ( cat Doxyfile ; echo "HTML_OUTPUT = docs/$BR" ) | doxygen - &>../log-doxygen-$BR.txt
+    test -d $BR && rm -rf $BR
+    mkdir -p $BR
+    ( cat Doxyfile ; echo "HTML_OUTPUT = $BR" ) | doxygen - &>../log-doxygen-$BR.txt
 done
 
 TS="$(date '+%F %H:%M:%S')"
 
 { ## Create the index page.
+    echo "# Class Reference for E1039 Core & Analysis Software"
     for BR in ${LIST_CORE_BR_ALL[*]} ; do
 	echo "## [Version \"$BR\"]($BR/)"
     done
     echo "Last updated at $TS."
-    
-} >$DIR_WORK/e1039-doc/docs/README.md
+} >$DIR_WORK/e1039-doc/README.md
 
 cd $DIR_WORK/e1039-doc
-git add --all docs &>../log-git-add.txt
-git commit --message "$TS"
-git push origin gh-pages
+{ ## Redirect to log file
+    git add --all README.md ${LIST_CORE_BR[*]}
+    git commit --message "$TS"
+    git push origin gh-pages
+} &>../log-git-add.txt
 
 } &>$FN_LOG
