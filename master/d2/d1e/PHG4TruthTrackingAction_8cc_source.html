@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  <span class="comment">// create a new vertex object ------------------------------------------------</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  G4ThreeVector <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a> = track-&gt;GetVertexPosition();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  G4ThreeVector v = track-&gt;GetVertexPosition();</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  map&lt;G4ThreeVector, int&gt;::const_iterator viter = VertexMap.find(v);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordtype">int</span> vtxindex = 0;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">if</span> (viter != VertexMap.end()) {</div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      vtxindex = truthInfoList_-&gt;<a class="code" href="../../da/d6c/classPHG4TruthInfoContainer.html#a808b5f4866d1bf7a14e5e1cae1c559ad">minvtxindex</a>() - 1;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    VertexMap[<a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>] = vtxindex;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    VertexMap[v] = vtxindex;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d5/dff/classPHG4VtxPointv1.html">PHG4VtxPointv1</a> *vtxpt = <span class="keyword">new</span> <a class="code" href="../../d5/dff/classPHG4VtxPointv1.html">PHG4VtxPointv1</a>(v[0] / cm,</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                               v[1] / cm,</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                               v[2] / cm,</div>
@@ -321,7 +321,6 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 <div class="ttc" id="classPHG4Showerv1_html_a80cfcaa01c5054d941527b46d87d64e3"><div class="ttname"><a href="../../db/dfa/classPHG4Showerv1.html#a80cfcaa01c5054d941527b46d87d64e3">PHG4Showerv1::set_parent_shower_id</a></div><div class="ttdeci">void set_parent_shower_id(int parent_shower_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1d/PHG4Showerv1_8h_source.html#l00036">PHG4Showerv1.h:36</a></div></div>
 <div class="ttc" id="classPHG4Particlev2_html"><div class="ttname"><a href="../../d1/db9/classPHG4Particlev2.html">PHG4Particlev2</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3b/PHG4Particlev2_8h_source.html#l00006">PHG4Particlev2.h:6</a></div></div>
 <div class="ttc" id="classPHG4Particlev1_html_aa07b8c93df3398457b73ed567e2ae881"><div class="ttname"><a href="../../d1/d42/classPHG4Particlev1.html#aa07b8c93df3398457b73ed567e2ae881">PHG4Particlev1::set_px</a></div><div class="ttdeci">void set_px(const double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d39/PHG4Particlev1_8h_source.html#l00025">PHG4Particlev1.h:25</a></div></div>
-<div class="ttc" id="eve__disp_8C_html_a1849bfa06d2486756eb80db2e8b5d928"><div class="ttname"><a href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a></div><div class="ttdeci">TGLViewer * v</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00005">eve_disp.C:5</a></div></div>
 <div class="ttc" id="classPHG4TrackUserInfoV1_html"><div class="ttname"><a href="../../da/da8/classPHG4TrackUserInfoV1.html">PHG4TrackUserInfoV1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d1a/PHG4TrackUserInfoV1_8h_source.html#l00015">PHG4TrackUserInfoV1.h:15</a></div></div>
 <div class="ttc" id="classPHG4Showerv1_html_a11a4f7bec96066ce2bc7a6d62004d265"><div class="ttname"><a href="../../db/dfa/classPHG4Showerv1.html#a11a4f7bec96066ce2bc7a6d62004d265">PHG4Showerv1::set_id</a></div><div class="ttdeci">void set_id(int id)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1d/PHG4Showerv1_8h_source.html#l00030">PHG4Showerv1.h:30</a></div></div>
 <div class="ttc" id="classPHG4TruthInfoContainer_html_a808b5f4866d1bf7a14e5e1cae1c559ad"><div class="ttname"><a href="../../da/d6c/classPHG4TruthInfoContainer.html#a808b5f4866d1bf7a14e5e1cae1c559ad">PHG4TruthInfoContainer::minvtxindex</a></div><div class="ttdeci">int minvtxindex() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d02/PHG4TruthInfoContainer_8cc_source.html#l00236">PHG4TruthInfoContainer.cc:236</a></div></div>
@@ -370,7 +369,7 @@ $(document).ready(function(){initNavTree('d2/d1e/PHG4TruthTrackingAction_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0a538a087021ce8adf1d4849fdeba031.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_58fcd450565d9abaf4895ca6c5d9b2fd.html">g4main</a></li><li class="navelem"><a class="el" href="../../d2/d1e/PHG4TruthTrackingAction_8cc.html">PHG4TruthTrackingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:43:39</em> using <a
+			updated: <em>Wed Jun 17 2020 06:40:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

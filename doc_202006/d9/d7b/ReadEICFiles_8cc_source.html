@@ -373,8 +373,8 @@ $(document).ready(function(){initNavTree('d9/d7b/ReadEICFiles_8cc_source.html','
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <span class="comment">/* Add HepMC vertices to event */</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <span class="keywordflow">for</span> ( <span class="keywordtype">unsigned</span> <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a> = 0; <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a> &lt; hepmc_vertices.size(); <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>++ )</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    evt-&gt;add_vertex( hepmc_vertices.at(<a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>) );</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <span class="keywordflow">for</span> ( <span class="keywordtype">unsigned</span> v = 0; v &lt; hepmc_vertices.size(); v++ )</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    evt-&gt;add_vertex( hepmc_vertices.at(v) );</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <span class="comment">/* set beam particles */</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  evt-&gt;set_beam_particles( hepmc_beam1, hepmc_beam2 );</div>
@@ -404,7 +404,6 @@ $(document).ready(function(){initNavTree('d9/d7b/ReadEICFiles_8cc_source.html','
 <div class="ttc" id="PHHepMCGenEventMap_8h_html"><div class="ttname"><a href="../../d4/dd2/PHHepMCGenEventMap_8h.html">PHHepMCGenEventMap.h</a></div></div>
 <div class="ttc" id="classReadEICFiles_html_a06b035d2f97f0a804874a383ae0fe658"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a06b035d2f97f0a804874a383ae0fe658">ReadEICFiles::GetTree</a></div><div class="ttdeci">void GetTree()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7b/ReadEICFiles_8cc_source.html#l00062">ReadEICFiles.cc:62</a></div></div>
 <div class="ttc" id="classReadEICFiles_html_a5d64c69a61ede6c488cf5e265075a709"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a5d64c69a61ede6c488cf5e265075a709">ReadEICFiles::filename</a></div><div class="ttdeci">std::string filename</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc2/ReadEICFiles_8h_source.html#l00076">ReadEICFiles.h:76</a></div></div>
-<div class="ttc" id="eve__disp_8C_html_a1849bfa06d2486756eb80db2e8b5d928"><div class="ttname"><a href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a></div><div class="ttdeci">TGLViewer * v</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00005">eve_disp.C:5</a></div></div>
 <div class="ttc" id="classPHHepMCGenEvent_html"><div class="ttname"><a href="../../d7/d7b/classPHHepMCGenEvent.html">PHHepMCGenEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00017">PHHepMCGenEvent.h:17</a></div></div>
 <div class="ttc" id="classReadEICFiles_html_a232160e6e6bd99fb04893198ea134c91"><div class="ttname"><a href="../../d3/d49/classReadEICFiles.html#a232160e6e6bd99fb04893198ea134c91">ReadEICFiles::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7b/ReadEICFiles_8cc_source.html#l00074">ReadEICFiles.cc:74</a></div></div>
 <div class="ttc" id="Pdb_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/Pdb_8h_source.html#l00009">Pdb.h:9</a></div></div>
@@ -439,7 +438,7 @@ $(document).ready(function(){initNavTree('d9/d7b/ReadEICFiles_8cc_source.html','
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0a538a087021ce8adf1d4849fdeba031.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_58fcd450565d9abaf4895ca6c5d9b2fd.html">g4main</a></li><li class="navelem"><a class="el" href="../../d9/d7b/ReadEICFiles_8cc.html">ReadEICFiles.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:44:45</em> using <a
+			updated: <em>Wed Jun 17 2020 06:41:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

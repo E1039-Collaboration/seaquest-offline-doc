@@ -115,7 +115,6 @@ var searchData=
   ['fun4allsraweventinputmanager',['Fun4AllSRawEventInputManager',['../d5/dd4/classFun4AllSRawEventInputManager.html#a72fc8aee367810a4f5104178ab58850d',1,'Fun4AllSRawEventInputManager']]],
   ['fun4allsyncmanager',['Fun4AllSyncManager',['../dd/ded/classFun4AllSyncManager.html#a393b98dfae131cef2df25b1ed72d4306',1,'Fun4AllSyncManager']]],
   ['fun4coda',['Fun4CODA',['../db/dbe/Fun4CODA_8C.html#a1bbee777074605aa2a59ddf9b2b52742',1,'Fun4CODA.C']]],
-  ['fun4db',['Fun4DB',['../df/dc0/Fun4DB_8C.html#a156048b96f7485e3cc410afbc05fc286',1,'Fun4DB.C']]],
   ['fun4dst',['Fun4DST',['../de/daf/Fun4DST_8C.html#a6a43c5ad028285b022976fa872e60cbc',1,'Fun4DST.C']]],
   ['fun4e1039shielding',['Fun4E1039Shielding',['../d2/d24/Fun4E1039Shielding_8C.html#a42592782dd55d6e219305ff678a00dc2',1,'Fun4E1039Shielding.C']]],
   ['fun4geom',['Fun4Geom',['../db/d7c/Fun4DumpGeom_8C.html#ac8b66de3cf15072c6969f76f6b8f7f4c',1,'Fun4DumpGeom.C']]],

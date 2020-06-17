@@ -145,64 +145,27 @@ $(document).ready(function(){initNavTree('d5/d8f/e1039-analysis_2SimChainDev_2RE
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;root -b -q <a class="code" href="../../d7/d65/e1039-core_2macros_2Fun4Sim_8C.html#a5e9276116ae0064f58b288a1e0e4e3db">Fun4Sim</a>.C</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;```</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;The simulation result is written into multiple ROOT files.</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;By <span class="keywordflow">default</span> a simple muon-pair event (via <a class="code" href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a>) is simulated.</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;You can/should change various options to simulate what you need.</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;## Large Process</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;When you want a large set of simulated events,</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;you should run the simulation on the grid.</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;The procedure is explained in</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;[<span class="keyword">this</span> Wiki page](https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/Submit-jobs-to-the-grid).</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">## More information</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;You could refer to</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;[E1039-simulation-tutorial---Apr.-19](https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/E1039-simulation-tutorial---Apr.-19).</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">## Event display</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;Below is an example how to interactively run the <span class="keyword">event</span> display.</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;Open a ROOT session</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;```bash</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;root -l</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;```</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;```C++</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;gROOT-&gt;ProcessLine(<span class="stringliteral">&quot;.x Fun4Sim.C(-1)&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *<a class="code" href="../../d2/d96/eve__disp_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a> = <a class="code" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a>();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<a class="code" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *g4 = (<a class="code" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *) se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">getSubsysReco</a>(<span class="stringliteral">&quot;PHG4RECO&quot;</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a> *eve = (<a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a> *) se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">getSubsysReco</a>(<span class="stringliteral">&quot;PHEventDisplay&quot;</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;g4-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;eve-&gt;<a class="code" href="../../d1/dce/classPHEventDisplay.html#a41be51990798d21514cd311258511f42">InitRun</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(1);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">// control TGLViewer from terminal</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;TGLViewer*  <a class="code" href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a> = gEve-&gt;GetDefaultGLViewer();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;v-&gt;CurrentCamera().RotateRad(0, -3.14/2.0); <span class="comment">// beam view</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;v-&gt;DoDraw();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;```</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="ttc" id="classPHG4Reco_html"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a></div><div class="ttdoc">Runs G4 as a subsystem. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/PHG4Reco_8h_source.html#l00038">PHG4Reco.h:38</a></div></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;By <span class="keywordflow">default</span> a simple muon-pair event (via <a class="code" href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a>) is simulated.</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;You can/should change various options to simulate what you need.</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;The simulation result is written into multiple ROOT files.</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;The <a class="code" href="../../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> output file is <span class="stringliteral">&quot;DST.root&quot;</span>, which is structured in the E1039 standard data format.</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;It is usually analyzed by `e1039-analysis/<a class="code" href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a>`.</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;## Large Process</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;When you want a large set of simulated events,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;you should run the simulation on the grid.</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;The procedure is explained in</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;[<span class="keyword">this</span> Wiki page](https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/Submit-jobs-to-the-grid).</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">## More information</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;You could refer to</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;[E1039-simulation-tutorial---Apr.-19](https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/E1039-simulation-tutorial---Apr.-19).</span></div>
 <div class="ttc" id="classPHG4SimpleEventGenerator_html"><div class="ttname"><a href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/PHG4SimpleEventGenerator_8h_source.html#l00015">PHG4SimpleEventGenerator.h:15</a></div></div>
-<div class="ttc" id="classPHEventDisplay_html_a41be51990798d21514cd311258511f42"><div class="ttname"><a href="../../d1/dce/classPHEventDisplay.html#a41be51990798d21514cd311258511f42">PHEventDisplay::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdoc">Run initialization. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d55/PHEventDisplay_8cxx_source.html#l00230">PHEventDisplay.cxx:230</a></div></div>
-<div class="ttc" id="classPHEventDisplay_html"><div class="ttname"><a href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5f/PHEventDisplay_8h_source.html#l00034">PHEventDisplay.h:34</a></div></div>
-<div class="ttc" id="eve__disp_8C_html_af8c7a3e26fa5fcf0403c823ec9f4c7ca"><div class="ttname"><a href="../../d2/d96/eve__disp_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a></div><div class="ttdeci">Fun4AllServer * se</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00003">eve_disp.C:3</a></div></div>
-<div class="ttc" id="classFun4AllServer_html_a3e55156f91b2c94bb6c4ef33ffce587a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance</a></div><div class="ttdeci">static Fun4AllServer * instance()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00043">Fun4AllServer.cc:43</a></div></div>
-<div class="ttc" id="eve__disp_8C_html_a1849bfa06d2486756eb80db2e8b5d928"><div class="ttname"><a href="../../d2/d96/eve__disp_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a></div><div class="ttdeci">TGLViewer * v</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d96/eve__disp_8C_source.html#l00005">eve_disp.C:5</a></div></div>
-<div class="ttc" id="classFun4AllServer_html"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00024">Fun4AllServer.h:24</a></div></div>
-<div class="ttc" id="classFun4AllServer_html_a11bbc8b2f53bc06e0b05ee202dd6372a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">Fun4AllServer::run</a></div><div class="ttdeci">int run(const int nevnts=0, const bool require_nevents=false)</div><div class="ttdoc">run n events (0 means up to end of file) </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer.cc:1288</a></div></div>
-<div class="ttc" id="classFun4AllServer_html_abcaf6825367e5db292ff795237bdcf62"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">Fun4AllServer::topNode</a></div><div class="ttdeci">PHCompositeNode * topNode() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00059">Fun4AllServer.h:59</a></div></div>
-<div class="ttc" id="classPHG4Reco_html_a9d8228ce8682c19cd6be2f6b44ec847b"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">PHG4Reco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco.cc:316</a></div></div>
-<div class="ttc" id="classFun4AllServer_html_ac6d47a2b3bc98933a03fd63bb75d624a"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ac6d47a2b3bc98933a03fd63bb75d624a">Fun4AllServer::getSubsysReco</a></div><div class="ttdeci">SubsysReco * getSubsysReco(const std::string &amp;name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00324">Fun4AllServer.cc:324</a></div></div>
+<div class="ttc" id="eLut_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="../../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9a/eLut_8cpp_source.html#l00086">eLut.cpp:86</a></div></div>
+<div class="ttc" id="classAnaSimDst_html"><div class="ttname"><a href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a></div><div class="ttdoc">An example class to analyze the simulated uDST file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/AnaSimDst_8h_source.html#l00017">AnaSimDst.h:17</a></div></div>
 <div class="ttc" id="e1039-core_2macros_2Fun4Sim_8C_html_a5e9276116ae0064f58b288a1e0e4e3db"><div class="ttname"><a href="../../d7/d65/e1039-core_2macros_2Fun4Sim_8C.html#a5e9276116ae0064f58b288a1e0e4e3db">Fun4Sim</a></div><div class="ttdeci">int Fun4Sim(const int nEvents=1, const double hodo_gap=0., const double target_coil_pos_z=-130)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d65/e1039-core_2macros_2Fun4Sim_8C_source.html#l00006">Fun4Sim.C:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -214,7 +177,7 @@ $(document).ready(function(){initNavTree('d5/d8f/e1039-analysis_2SimChainDev_2RE
 		<li class="navelem"><a class="el" href="../../d5/d8f/e1039-analysis_2SimChainDev_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:44:43</em> using <a
+			updated: <em>Wed Jun 17 2020 06:41:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -110,21 +110,12 @@ $(document).ready(function(){initNavTree('db/da1/md__dev_shm_kenichi_update-gith
 <h2>Test Process</h2>
 <p>You run the following commands to run a small test. It will take 10-20(?) minutes. Note that you have to set up the environment beforehand, as explained above.</p>
 <p>``` cd e1039-analysis/SimChainDev root -b -q Fun4Sim.C ```</p>
-<p>The simulation result is written into multiple ROOT files. By default a simple muon-pair event (via <a class="el" href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a>) is simulated. You can/should change various options to simulate what you need.</p>
+<p>By default a simple muon-pair event (via <a class="el" href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a>) is simulated. You can/should change various options to simulate what you need.</p>
+<p>The simulation result is written into multiple ROOT files. The main output file is "DST.root", which is structured in the E1039 standard data format. It is usually analyzed by <code>e1039-analysis/AnaSimDst</code>.</p>
 <h2>Large Process</h2>
 <p>When you want a large set of simulated events, you should run the simulation on the grid. The procedure is explained in <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/Submit-jobs-to-the-grid">this Wiki page</a>.</p>
 <h2>More information</h2>
-<p>You could refer to <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/E1039-simulation-tutorial---Apr.-19">E1039-simulation-tutorial---Apr.-19</a>.</p>
-<h2><a class="el" href="../../d5/da5/classEvent.html">Event</a> display</h2>
-<p>Below is an example how to interactively run the event display.</p>
-<p>Open a ROOT session ```bash root -l ```</p>
-<p>```C++</p>
-<p>gROOT-&gt;ProcessLine(".x Fun4Sim.C(-1)");</p>
-<p><a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> *se = <a class="el" href="../../da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a">Fun4AllServer::instance()</a>;</p>
-<p><a class="el" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem. ">PHG4Reco</a> *g4 = (<a class="el" href="../../d0/d78/classPHG4Reco.html" title="Runs G4 as a subsystem. ">PHG4Reco</a> *) se-&gt;getSubsysReco("PHG4RECO"); <a class="el" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a> *eve = (<a class="el" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a> *) se-&gt;getSubsysReco("PHEventDisplay");</p>
-<p>g4-&gt;InitRun(se-&gt;topNode()); eve-&gt;InitRun(se-&gt;topNode());</p>
-<p>se-&gt;run(1);</p>
-<p>// control TGLViewer from terminal TGLViewer* v = gEve-&gt;GetDefaultGLViewer(); v-&gt;CurrentCamera().RotateRad(0, -3.14/2.0); // beam view v-&gt;DoDraw(); ``` </p>
+<p>You could refer to <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/E1039-simulation-tutorial---Apr.-19">E1039-simulation-tutorial---Apr.-19</a>. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -134,7 +125,7 @@ $(document).ready(function(){initNavTree('db/da1/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:43:40</em> using <a
+			updated: <em>Wed Jun 17 2020 06:40:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

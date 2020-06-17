@@ -73,7 +73,6 @@ var searchData=
   ['maindaqparser',['MainDaqParser',['../df/dcd/classMainDaqParser.html',1,'MainDaqParser'],['../df/dcd/classMainDaqParser.html#a5c5bb917a7b5e65b9787cea4ef9dc761',1,'MainDaqParser::MainDaqParser()']]],
   ['maindaqparser_2ecc',['MainDaqParser.cc',['../d8/d76/MainDaqParser_8cc.html',1,'']]],
   ['maindaqparser_2eh',['MainDaqParser.h',['../d7/d04/MainDaqParser_8h.html',1,'']]],
-  ['make_5fgui',['make_gui',['../d2/d96/eve__disp_8C.html#a551ab180f35c54b85752aae3551c1af0',1,'make_gui():&#160;eve_disp.C'],['../de/d2a/eve__disp__db_8C.html#a551ab180f35c54b85752aae3551c1af0',1,'make_gui():&#160;eve_disp_db.C']]],
   ['makechanmap',['MakeChanMap',['../d0/da4/UploadChanMap_8C.html#a1e7e5c79eeb34653003164775cf59e31',1,'UploadChanMap.C']]],
   ['makehisto',['makeHisto',['../d3/d96/classFun4AllHistoManager.html#ad13a9bc82841ea99d349f7b9b5f93177',1,'Fun4AllHistoManager::makeHisto()'],['../da/d29/classFun4AllServer.html#a248740a0e8d771bcabbe44cc08a5a1b6',1,'Fun4AllServer::makeHisto()']]],
   ['makenodespersistent',['MakeNodesPersistent',['../da/d29/classFun4AllServer.html#ac9e5b55796d46d41f6f0ec9e3422959a',1,'Fun4AllServer']]],

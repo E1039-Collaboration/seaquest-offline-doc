@@ -104,8 +104,8 @@ $(document).ready(function(){initNavTree('dd/d99/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>``` git clone <a href="https://github.com/E1039-Collaboration/seaquest-analysis.git">https://github.com/E1039-Collaboration/seaquest-analysis.git</a> ```</p>
 <h3>run the Fun4All shielding macro into the local gpvm machine:</h3>
-<p>``` cd &lt;path-to-/seaquest-analysis/E1039Shielding&gt; root -l <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C.html">Fun4E1039Shielding.C</a> ``` Several root files are generated. The 'trk_eval.root' contains the information from the evaluator [<code><a class="el" href="../../de/d2f/classTrkEval.html" title="General purposed evaluation module. ">TrkEval</a></code>]. You may open that file and check the contents.</p>
-<p>``` $root -l trk_eval.root root [0] Attaching file trk_eval.root as _file0... root [1] .ls TFile** trk_eval.root TFile* trk_eval.root KEY: TTree T;1 <a class="el" href="../../de/d2f/classTrkEval.html" title="General purposed evaluation module. ">TrkEval</a> ```</p>
+<p>``` cd &lt;path-to-/seaquest-analysis/E1039Shielding&gt; root -l <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C.html">Fun4E1039Shielding.C</a> ``` Several root files are generated. The 'trk_eval.root' contains the information from the evaluator [<code>TrkEval</code>]. You may open that file and check the contents.</p>
+<p>``` $root -l trk_eval.root root [0] Attaching file trk_eval.root as _file0... root [1] .ls TFile** trk_eval.root TFile* trk_eval.root KEY: TTree T;1 TrkEval ```</p>
 <h3>analysis</h3>
 <p>This root file 'trk_eval.root' needs to be attached in the macro for analysis. The analysis macro <code>ana.C</code> is for acceptance vs hole size study and the macro <code><a class="el" href="../../dd/d2a/loop__ana_8C.html">loop_ana.C</a></code> is for acceptance vs dimuon mass study. You may test it using the example data from the trk_eval.root. ``` root -l root [0] .L ana.C root [1] <a class="el" href="../../d5/de9/E1039Shielding_2ana_8C.html#a09e39b78e54933b7241c1588e2649465">drawRelAcc()</a> root [2] <a class="el" href="../../d5/de9/E1039Shielding_2ana_8C.html#a3ba0128a44af3e91c67e20e94c653894">drawAccPhi()</a> ```</p>
 <p>``` root -l root [0] .L <a class="el" href="../../dd/d2a/loop__ana_8C.html">loop_ana.C</a> root [1] <a class="el" href="../../dd/d2a/loop__ana_8C.html#a803639b7a0a3daf890c0b9a57d11ee92">drawAccMass()</a> ```</p>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('dd/d99/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:43:40</em> using <a
+			updated: <em>Wed Jun 17 2020 06:40:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -164,13 +164,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7e90f95c3b6c574ea23eb224bb0cff3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#ab7e90f95c3b6c574ea23eb224bb0cff3">is_simulated</a> () const </td></tr>
 <tr class="memdesc:ab7e90f95c3b6c574ea23eb224bb0cff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether this event has been processed in Geant4 simulation  <a href="#ab7e90f95c3b6c574ea23eb224bb0cff3">More...</a><br/></td></tr>
 <tr class="separator:ab7e90f95c3b6c574ea23eb224bb0cff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8b120229e3943b6e018328e36ddac61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#ab8b120229e3943b6e018328e36ddac61">is_simulated</a> (bool <a class="el" href="../../de/d2a/eve__disp__db_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>)</td></tr>
+<tr class="memitem:ab8b120229e3943b6e018328e36ddac61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#ab8b120229e3943b6e018328e36ddac61">is_simulated</a> (bool v)</td></tr>
 <tr class="memdesc:ab8b120229e3943b6e018328e36ddac61"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether this event has been processed in Geant4 simulation  <a href="#ab8b120229e3943b6e018328e36ddac61">More...</a><br/></td></tr>
 <tr class="separator:ab8b120229e3943b6e018328e36ddac61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb1f4b1ca526d968a3b025a3063c61c4"><td class="memItemLeft" align="right" valign="top">const HepMC::FourVector &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4">get_collision_vertex</a> () const </td></tr>
 <tr class="memdesc:aeb1f4b1ca526d968a3b025a3063c61c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns  <a href="#aeb1f4b1ca526d968a3b025a3063c61c4">More...</a><br/></td></tr>
 <tr class="separator:aeb1f4b1ca526d968a3b025a3063c61c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06fdba410c23e1c64bf4fc649a5f191"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#aa06fdba410c23e1c64bf4fc649a5f191">set_collision_vertex</a> (const HepMC::FourVector &amp;<a class="el" href="../../de/d2a/eve__disp__db_8C.html#a1849bfa06d2486756eb80db2e8b5d928">v</a>)</td></tr>
+<tr class="memitem:aa06fdba410c23e1c64bf4fc649a5f191"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#aa06fdba410c23e1c64bf4fc649a5f191">set_collision_vertex</a> (const HepMC::FourVector &amp;v)</td></tr>
 <tr class="memdesc:aa06fdba410c23e1c64bf4fc649a5f191"><td class="mdescLeft">&#160;</td><td class="mdescRight">collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns  <a href="#aa06fdba410c23e1c64bf4fc649a5f191">More...</a><br/></td></tr>
 <tr class="separator:aa06fdba410c23e1c64bf4fc649a5f191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34a8f753178a4d74085b90e3a5264907"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html#a34a8f753178a4d74085b90e3a5264907">addEvent</a> (HepMC::GenEvent *evt)</td></tr>
@@ -582,7 +582,7 @@ Protected Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00092">_theEvt</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d36/PHHepMCGenEvent_8cc_source.html#l00031">PHHepMCGenEvent()</a>, <a class="el" href="../../d0/d16/PHHepMCParticleSelectorDecayProductChain_8cc_source.html#l00052">PHHepMCParticleSelectorDecayProductChain::process_event()</a>, <a class="el" href="../../d2/d09/HepMCNodeReader_8cc_source.html#l00099">HepMCNodeReader::process_event()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00057">TruthNodeMaker::process_event()</a>, and <a class="el" href="../../d6/d39/Fun4AllHepMCOutputManager_8cc_source.html#l00113">Fun4AllHepMCOutputManager::Write()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d36/PHHepMCGenEvent_8cc_source.html#l00031">PHHepMCGenEvent()</a>, <a class="el" href="../../d0/d16/PHHepMCParticleSelectorDecayProductChain_8cc_source.html#l00052">PHHepMCParticleSelectorDecayProductChain::process_event()</a>, <a class="el" href="../../d2/d09/HepMCNodeReader_8cc_source.html#l00099">HepMCNodeReader::process_event()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00050">TruthNodeMaker::process_event()</a>, and <a class="el" href="../../d6/d39/Fun4AllHepMCOutputManager_8cc_source.html#l00113">Fun4AllHepMCOutputManager::Write()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -749,7 +749,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00053">53</a> of file <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html">PHHepMCGenEvent.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00086">_isSimulated</a>, and <a class="el" href="../../d2/d96/eve__disp_8C_source.html#l00005">v</a>.</p>
+<p>References <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00086">_isSimulated</a>.</p>
 
 </div>
 </div>
@@ -1004,7 +1004,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00059">59</a> of file <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html">PHHepMCGenEvent.h</a>.</p>
 
-<p>References <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00089">_collisionVertex</a>, and <a class="el" href="../../d2/d96/eve__disp_8C_source.html#l00005">v</a>.</p>
+<p>References <a class="el" href="../../d3/d8c/PHHepMCGenEvent_8h_source.html#l00089">_collisionVertex</a>.</p>
 
 </div>
 </div>
@@ -1266,7 +1266,7 @@ Protected Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html">PHHepMCGenEvent</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Jun 15 2020 01:43:42</em> using <a
+			updated: <em>Wed Jun 17 2020 06:40:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
