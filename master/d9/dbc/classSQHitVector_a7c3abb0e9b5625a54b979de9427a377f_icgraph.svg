@@ -15,15 +15,15 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880" target="_top" xlink:title="main external call, fill the digi hit vector ">
-<polygon fill="none" stroke="black" points="158.5,-274.5 158.5,-293.5 257.5,-293.5 257.5,-274.5 158.5,-274.5"/>
-<text text-anchor="middle" x="208" y="-281.5" font-family="FreeSans" font-size="10.00">DPDigitizer::digitize</text>
+<g id="a_node2"><a xlink:href="../../df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" target="_top" xlink:title="main external call, fill the digi hit vector ">
+<polygon fill="none" stroke="black" points="145.5,-274.5 145.5,-293.5 270.5,-293.5 270.5,-274.5 145.5,-274.5"/>
+<text text-anchor="middle" x="208" y="-281.5" font-family="FreeSans" font-size="10.00">SQDigitizer::digitizePlane</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M55.4106,-170.745C67.6854,-195.908 92.9238,-240.193 128,-264 137.014,-270.118 147.752,-274.365 158.363,-277.313"/>
+<path fill="none" stroke="midnightblue" d="M55.4106,-170.745C67.6854,-195.908 92.9238,-240.193 128,-264 134.438,-268.37 141.757,-271.785 149.28,-274.455"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="58.5043,-169.099 51.0835,-161.537 52.1689,-172.076 58.5043,-169.099"/>
 </g>
 <!-- Node4 -->
@@ -110,17 +110,17 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="330,-269 330,-299 432,-299 432,-269 330,-269"/>
-<text text-anchor="start" x="338" y="-287" font-family="FreeSans" font-size="10.00">DPDigitizer::process</text>
+<g id="a_node3"><a xlink:href="../../df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="329.5,-269 329.5,-299 432.5,-299 432.5,-269 329.5,-269"/>
+<text text-anchor="start" x="337.5" y="-287" font-family="FreeSans" font-size="10.00">SQDigitizer::process</text>
 <text text-anchor="middle" x="381" y="-276" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M267.591,-284C287.841,-284 310.334,-284 329.846,-284"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="267.544,-280.5 257.544,-284 267.544,-287.5 267.544,-280.5"/>
+<path fill="none" stroke="midnightblue" d="M280.782,-284C297.096,-284 314.094,-284 329.316,-284"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="280.735,-280.5 270.735,-284 280.735,-287.5 280.735,-280.5"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>

@@ -230,9 +230,9 @@ $(document).ready(function(){initNavTree('d8/de3/PHG4BlockSteppingAction_8cc_sou
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a896d7a45139f9cbc2e429127baa61715">set_z</a>(0, prePoint-&gt;GetPosition().z() / cm);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="comment">//</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      G4ThreeVector track_mom = aTrack-&gt;GetMomentum();</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5454f2609bd0574d3beebff27c598c1d">set_px</a>(0, track_mom.x());</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5c93815f1d3921153ac87c5ff0c8439d">set_py</a>(0, track_mom.y());</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5fe95d18c4dbfee43494b9b926d1df02">set_pz</a>(0, track_mom.z());</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5454f2609bd0574d3beebff27c598c1d">set_px</a>(0, track_mom.x()/GeV);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5c93815f1d3921153ac87c5ff0c8439d">set_py</a>(0, track_mom.y()/GeV);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5fe95d18c4dbfee43494b9b926d1df02">set_pz</a>(0, track_mom.z()/GeV);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      <span class="comment">// time in ns</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#a5cced855d1a85cb380f993417f1e5b1a">set_t</a>(0, prePoint-&gt;GetGlobalTime() / nanosecond);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="comment">//set the track ID</span></div>
@@ -438,7 +438,7 @@ $(document).ready(function(){initNavTree('d8/de3/PHG4BlockSteppingAction_8cc_sou
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0a538a087021ce8adf1d4849fdeba031.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_3eb0cc2acfb784258aeda8faf9aac162.html">g4detectors</a></li><li class="navelem"><a class="el" href="../../d8/de3/PHG4BlockSteppingAction_8cc.html">PHG4BlockSteppingAction.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jun 18 2020 11:40:09</em> using <a
+			updated: <em>Mon Jun 22 2020 23:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

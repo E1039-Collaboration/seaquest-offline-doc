@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">G4_SensitiveDetectors.C File Reference</div>  </div>
@@ -113,12 +113,13 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../de/d16/PHG4BlockSubsystem_8h_source.html">g4detectors/PHG4BlockSubsystem.h</a>&gt;</code><br/>
 <code>#include &lt;iostream&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../da/dca/SQDigitizer_8h_source.html">g4detectors/SQDigitizer.h</a>&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for G4_SensitiveDetectors.C:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0b/e1039-core_2macros_2G4__SensitiveDetectors_8C__incl.svg" width="455" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d0b/e1039-core_2macros_2G4__SensitiveDetectors_8C__incl.svg" width="1471" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -132,37 +133,33 @@ $(document).ready(function(){initNavTree('d9/d72/e1039-core_2macros_2G4__Sensiti
 </div>
 <p><a href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a52279903e10561ef695cee631e3dfa4b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(exp)&#160;&#160;&#160;std::cout&lt;&lt;&quot;DEBUG: &quot;  &lt;&lt;__FILE__&lt;&lt;&quot;: &quot;&lt;&lt;__LINE__&lt;&lt;&quot;: &quot;&lt;&lt; exp &lt;&lt; std::endl</td></tr>
-<tr class="separator:a52279903e10561ef695cee631e3dfa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ae2229971095a14c99ccf1f9075c3872f"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#ae2229971095a14c99ccf1f9075c3872f">DPDigitizer</a></td></tr>
+<tr class="separator:ae2229971095a14c99ccf1f9075c3872f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af71e50cde83a891cd25129c49f742314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#af71e50cde83a891cd25129c49f742314">SetupSensitiveDetectors</a> (<a class="el" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *g4Reco, const int verbosity=0)</td></tr>
-<tr class="separator:af71e50cde83a891cd25129c49f742314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab928346dfa48282adc4488ea6c1e160a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#ab928346dfa48282adc4488ea6c1e160a">SetupSensitiveDetectors</a> (<a class="el" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *g4Reco, bool toggle_dphodo=true, bool toggle_dc1=false, std::string chamberGas=&quot;SQ_ArCO2&quot;, std::string hodoMat=&quot;SQ_Scintillator&quot;, const int verbosity=0)</td></tr>
+<tr class="separator:ab928346dfa48282adc4488ea6c1e160a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a52279903e10561ef695cee631e3dfa4b"></a>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="ae2229971095a14c99ccf1f9075c3872f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LogDebug</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">exp</td><td>)</td>
-          <td>&#160;&#160;&#160;std::cout&lt;&lt;&quot;DEBUG: &quot;  &lt;&lt;__FILE__&lt;&lt;&quot;: &quot;&lt;&lt;__LINE__&lt;&lt;&quot;: &quot;&lt;&lt; exp &lt;&lt; std::endl</td>
+          <td class="memname">typedef <a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a> <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html#ae2229971095a14c99ccf1f9075c3872f">DPDigitizer</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00009">9</a> of file <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html">G4_SensitiveDetectors.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00004">4</a> of file <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html">G4_SensitiveDetectors.C</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="af71e50cde83a891cd25129c49f742314"></a>
+<a class="anchor" id="ab928346dfa48282adc4488ea6c1e160a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -171,6 +168,30 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *&#160;</td>
           <td class="paramname"><em>g4Reco</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toggle_dphodo</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>toggle_dc1</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>chamberGas</em> = <code>&quot;SQ_ArCO2&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>hodoMat</em> = <code>&quot;SQ_Scintillator&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -188,16 +209,16 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html#l00011">11</a> of file <a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_source.html">G4_SensitiveDetectors.C</a>.</p>
 
-<p>References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00234">GeomSvc::instance()</a>, <a class="el" href="../../d0/d2b/PHG4Reco_8h_source.html#l00065">PHG4Reco::registerSubsystem()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00153">PHG4DetectorSubsystem::set_double_param()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00227">PHG4DetectorSubsystem::set_string_param()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00462">PHG4DetectorSubsystem::SetActive()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00146">PHG4DetectorSubsystem::SuperDetector()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>.</p>
+<p>References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00187">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00210">GeomSvc::getPlaneCenterX()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">GeomSvc::getPlaneCenterY()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00212">GeomSvc::getPlaneCenterZ()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00203">GeomSvc::getPlaneScaleX()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00204">GeomSvc::getPlaneScaleY()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00205">GeomSvc::getPlaneScaleZ()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00213">GeomSvc::getRotationInX()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00214">GeomSvc::getRotationInY()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">GeomSvc::getRotationInZ()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00040">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00043">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00041">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00042">nPropPlanes</a>, <a class="el" href="../../d0/d2b/PHG4Reco_8h_source.html#l00065">PHG4Reco::registerSubsystem()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00153">PHG4DetectorSubsystem::set_double_param()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00227">PHG4DetectorSubsystem::set_string_param()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00462">PHG4DetectorSubsystem::SetActive()</a>, and <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00146">PHG4DetectorSubsystem::SuperDetector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../db/dbe/Fun4CODA_8C_source.html#l00031">Fun4CODA()</a>, <a class="el" href="../../de/daf/Fun4DST_8C_source.html#l00021">Fun4DST()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../db/d7c/Fun4DumpGeom_8C_source.html#l00014">Fun4Geom()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../de/d00/e1039-analysis_2OnlMonDev_2Fun4MainDaq_8C_source.html#l00024">Fun4MainDaq()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00018">Fun4Sim()</a>, <a class="el" href="../../d8/de7/Fun4SRawEvent_8C_source.html#l00019">Fun4SRawEvent()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, <a class="el" href="../../d6/d9e/EventDisp4MainDaqDst_8C_source.html#l00025">InitInput()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00025">RecoE1039Sim()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../db/dbe/Fun4CODA_8C_source.html#l00031">Fun4CODA()</a>, <a class="el" href="../../de/daf/Fun4DST_8C_source.html#l00021">Fun4DST()</a>, <a class="el" href="../../db/d7c/Fun4DumpGeom_8C_source.html#l00015">Fun4DumpGeom()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../de/d00/e1039-analysis_2OnlMonDev_2Fun4MainDaq_8C_source.html#l00024">Fun4MainDaq()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00018">Fun4Sim()</a>, <a class="el" href="../../d8/de7/Fun4SRawEvent_8C_source.html#l00019">Fun4SRawEvent()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, <a class="el" href="../../d6/d9e/EventDisp4MainDaqDst_8C_source.html#l00025">InitInput()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00025">RecoE1039Sim()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_af71e50cde83a891cd25129c49f742314_cgraph.svg" width="1160" height="503"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_ab928346dfa48282adc4488ea6c1e160a_cgraph.svg" width="1160" height="938"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -207,7 +228,7 @@ Functions</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_af71e50cde83a891cd25129c49f742314_icgraph.svg" width="568" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C_ab928346dfa48282adc4488ea6c1e160a_icgraph.svg" width="568" height="646"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -224,7 +245,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0987381a3d6260ef070a766a46bdeb23.html">macros</a></li><li class="navelem"><a class="el" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html">G4_SensitiveDetectors.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jun 18 2020 11:40:10</em> using <a
+			updated: <em>Mon Jun 22 2020 23:30:08</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

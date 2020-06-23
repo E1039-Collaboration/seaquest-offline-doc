@@ -15,9 +15,9 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880" target="_top" xlink:title="main external call, fill the digi hit vector ">
-<polygon fill="none" stroke="black" points="191.5,-309.5 191.5,-328.5 290.5,-328.5 290.5,-309.5 191.5,-309.5"/>
-<text text-anchor="middle" x="241" y="-316.5" font-family="FreeSans" font-size="10.00">DPDigitizer::digitize</text>
+<g id="a_node2"><a xlink:href="../../df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" target="_top" xlink:title="main external call, fill the digi hit vector ">
+<polygon fill="none" stroke="black" points="178.5,-309.5 178.5,-328.5 303.5,-328.5 303.5,-309.5 178.5,-309.5"/>
+<text text-anchor="middle" x="241" y="-316.5" font-family="FreeSans" font-size="10.00">SQDigitizer::digitizePlane</text>
 </a>
 </g>
 </g>
@@ -122,17 +122,17 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="362,-304 362,-334 464,-334 464,-304 362,-304"/>
-<text text-anchor="start" x="370" y="-322" font-family="FreeSans" font-size="10.00">DPDigitizer::process</text>
+<g id="a_node3"><a xlink:href="../../df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="361.5,-304 361.5,-334 464.5,-334 464.5,-304 361.5,-304"/>
+<text text-anchor="start" x="369.5" y="-322" font-family="FreeSans" font-size="10.00">SQDigitizer::process</text>
 <text text-anchor="middle" x="413" y="-311" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M300.877,-319C320.728,-319 342.683,-319 361.8,-319"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="300.715,-315.5 290.715,-319 300.715,-322.5 300.715,-315.5"/>
+<path fill="none" stroke="midnightblue" d="M314.175,-319C330.05,-319 346.535,-319 361.348,-319"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="313.855,-315.5 303.855,-319 313.855,-322.5 313.855,-315.5"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>

@@ -28,9 +28,9 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d6/d98/classDPDigitizer.html#a9bf0122395ac7fcf5c832e78e52f4880" target="_top" xlink:title="main external call, fill the digi hit vector ">
-<polygon fill="none" stroke="black" points="154.5,-87.5 154.5,-106.5 253.5,-106.5 253.5,-87.5 154.5,-87.5"/>
-<text text-anchor="middle" x="204" y="-94.5" font-family="FreeSans" font-size="10.00">DPDigitizer::digitize</text>
+<g id="a_node15"><a xlink:href="../../df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" target="_top" xlink:title="main external call, fill the digi hit vector ">
+<polygon fill="none" stroke="black" points="141.5,-87.5 141.5,-106.5 266.5,-106.5 266.5,-87.5 141.5,-87.5"/>
+<text text-anchor="middle" x="204" y="-94.5" font-family="FreeSans" font-size="10.00">SQDigitizer::digitizePlane</text>
 </a>
 </g>
 </g>
@@ -66,19 +66,19 @@
 <path fill="none" stroke="midnightblue" d="M53.3549,-267.387C57.5541,-221.459 74.2274,-105.855 138,-40 141.701,-36.1784 146.05,-32.9319 150.714,-30.1757"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="49.8555,-267.239 52.535,-277.489 56.8325,-267.805 49.8555,-267.239"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d1/da2/classPHG4BlockSteppingAction.html#ae7baa1eb4f42a8a23888709986dd6881" target="_top" xlink:title="stepping action ">
-<polygon fill="none" stroke="black" points="321,-609 321,-639 455,-639 455,-609 321,-609"/>
-<text text-anchor="start" x="329" y="-627" font-family="FreeSans" font-size="10.00">PHG4BlockSteppingAction</text>
-<text text-anchor="middle" x="388" y="-616" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
+<!-- Node12 -->
+<g id="node12" class="node"><title>Node12</title>
+<g id="a_node12"><a xlink:href="../../dc/d4f/classPHG4SquareTubeSteppingAction.html#a92220e4fe55c670cc2a51162184abb11" target="_top" xlink:title="stepping action ">
+<polygon fill="none" stroke="black" points="307.5,-168 307.5,-198 468.5,-198 468.5,-168 307.5,-168"/>
+<text text-anchor="start" x="315.5" y="-186" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSteppingAction</text>
+<text text-anchor="middle" x="388" y="-175" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge18" class="edge"><title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M52.9756,-306.687C56.3674,-353.792 71.4434,-474.046 138,-541 186.669,-589.96 264.94,-610.04 320.73,-618.275"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="56.4623,-306.363 52.3526,-296.598 49.4756,-306.795 56.4623,-306.363"/>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge18" class="edge"><title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M79.8811,-272.894C96.4739,-264.871 118.107,-255.049 138,-248 197.062,-227.071 266.145,-209.565 316.542,-198.013"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="78.1816,-269.829 70.7451,-277.376 81.2646,-276.114 78.1816,-269.829"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -94,6 +94,20 @@
 <path fill="none" stroke="midnightblue" d="M56.6016,-306.51C65.8532,-341.41 90.0481,-414.555 138,-454 187.262,-494.523 258.313,-512.244 311.919,-519.992"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="59.946,-305.458 54.1117,-296.614 53.1575,-307.166 59.946,-305.458"/>
 </g>
+<!-- Node3 -->
+<g id="node3" class="node"><title>Node3</title>
+<g id="a_node3"><a xlink:href="../../d1/da2/classPHG4BlockSteppingAction.html#ae7baa1eb4f42a8a23888709986dd6881" target="_top" xlink:title="stepping action ">
+<polygon fill="none" stroke="black" points="321,-609 321,-639 455,-639 455,-609 321,-609"/>
+<text text-anchor="start" x="329" y="-627" font-family="FreeSans" font-size="10.00">PHG4BlockSteppingAction</text>
+<text text-anchor="middle" x="388" y="-616" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge20" class="edge"><title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M52.9756,-306.687C56.3674,-353.792 71.4434,-474.046 138,-541 186.669,-589.96 264.94,-610.04 320.73,-618.275"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="56.4623,-306.363 52.3526,-296.598 49.4756,-306.795 56.4623,-306.363"/>
+</g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
 <g id="a_node9"><a xlink:href="../../d9/d14/classPHG4E1039InsensSteppingAction.html#a96517d619844a56a49d337482f09d5dd" target="_top" xlink:title="stepping action ">
@@ -104,23 +118,9 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
-<g id="edge20" class="edge"><title>Node1&#45;&gt;Node9</title>
+<g id="edge21" class="edge"><title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M111.905,-285.927C165.95,-284.959 245.905,-283.527 305.706,-282.456"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="111.727,-282.43 101.791,-286.108 111.852,-289.428 111.727,-282.43"/>
-</g>
-<!-- Node12 -->
-<g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../dc/d4f/classPHG4SquareTubeSteppingAction.html#a92220e4fe55c670cc2a51162184abb11" target="_top" xlink:title="stepping action ">
-<polygon fill="none" stroke="black" points="307.5,-168 307.5,-198 468.5,-198 468.5,-168 307.5,-168"/>
-<text text-anchor="start" x="315.5" y="-186" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSteppingAction</text>
-<text text-anchor="middle" x="388" y="-175" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node12 -->
-<g id="edge21" class="edge"><title>Node1&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M79.8811,-272.894C96.4739,-264.871 118.107,-255.049 138,-248 197.062,-227.071 266.145,-209.565 316.542,-198.013"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="78.1816,-269.829 70.7451,-277.376 81.2646,-276.114 78.1816,-269.829"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -136,48 +136,6 @@
 <path fill="none" stroke="midnightblue" d="M63.2266,-305.437C77.6511,-327.417 104.829,-363.494 138,-382 195.01,-413.805 269.665,-424.19 322.312,-427.303"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="65.9984,-303.273 57.6826,-296.708 60.0895,-307.026 65.9984,-303.273"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../da/d58/classPHG4CylinderSteppingAction.html#a617bc1e8c57c83679e482a27a7d5a8b5" target="_top" xlink:title="stepping action ">
-<polygon fill="none" stroke="black" points="316.5,-315 316.5,-345 459.5,-345 459.5,-315 316.5,-315"/>
-<text text-anchor="start" x="324.5" y="-333" font-family="FreeSans" font-size="10.00">PHG4CylinderSteppingAction</text>
-<text text-anchor="middle" x="388" y="-322" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge23" class="edge"><title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M111.794,-294.675C169.153,-302.038 255.772,-313.156 316.473,-320.947"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="112.155,-291.193 101.791,-293.391 111.264,-298.136 112.155,-291.193"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d2/db5/classPHG4BNLTargetCoilSteppingAction.html#a0e62c4546b2a6fceca0f410e1fe4d222" target="_top" xlink:title="stepping action ">
-<polygon fill="none" stroke="black" points="316,-560 316,-590 460,-590 460,-560 316,-560"/>
-<text text-anchor="start" x="324" y="-578" font-family="FreeSans" font-size="10.00">PHG4BNLTargetCoilStepping</text>
-<text text-anchor="middle" x="388" y="-567" font-family="FreeSans" font-size="10.00">Action::UserSteppingAction</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge24" class="edge"><title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M54.5082,-306.556C60.8097,-347.636 81.0921,-443.439 138,-496 186.725,-541.004 261.044,-560.37 315.812,-568.705"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="57.9519,-305.911 53.0828,-296.501 51.0212,-306.894 57.9519,-305.911"/>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d4/de5/classPHG4ConeRegionSteppingAction.html#a6a0eac7c30dd6f9410c17974f373aa3b" target="_top" xlink:title="stepping action ">
-<polygon fill="none" stroke="black" points="307.5,-462 307.5,-492 468.5,-492 468.5,-462 307.5,-462"/>
-<text text-anchor="start" x="315.5" y="-480" font-family="FreeSans" font-size="10.00">PHG4ConeRegionSteppingAction</text>
-<text text-anchor="middle" x="388" y="-469" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node6 -->
-<g id="edge25" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M59.6258,-306.409C71.7952,-334.774 98.3507,-387.193 138,-415 187.786,-449.916 255.272,-465.225 307.428,-471.908"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="62.7178,-304.726 55.6688,-296.817 56.2468,-307.396 62.7178,-304.726"/>
-</g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
 <g id="a_node13"><a xlink:href="../../db/d00/classPHG4TargetCoilSteppingAction.html#a782a5cc75c50dcb78cff48729fe8922f" target="_top" xlink:title="stepping action ">
@@ -188,7 +146,7 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
-<g id="edge26" class="edge"><title>Node1&#45;&gt;Node13</title>
+<g id="edge23" class="edge"><title>Node1&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M66.5327,-269.311C82.3351,-251.176 109.212,-223.377 138,-207 191.937,-176.316 259.924,-157.517 311.223,-146.697"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="63.5139,-267.459 59.705,-277.345 68.8479,-271.992 63.5139,-267.459"/>
 </g>
@@ -202,9 +160,51 @@
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
-<g id="edge27" class="edge"><title>Node1&#45;&gt;Node14</title>
+<g id="edge24" class="edge"><title>Node1&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M59.126,-267.627C70.9221,-238.294 97.3204,-182.873 138,-153 139.998,-151.533 258.266,-119.588 331.069,-100.011"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="55.7828,-266.569 55.4413,-277.158 62.3118,-269.093 55.7828,-266.569"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d2/db5/classPHG4BNLTargetCoilSteppingAction.html#a0e62c4546b2a6fceca0f410e1fe4d222" target="_top" xlink:title="stepping action ">
+<polygon fill="none" stroke="black" points="316,-560 316,-590 460,-590 460,-560 316,-560"/>
+<text text-anchor="start" x="324" y="-578" font-family="FreeSans" font-size="10.00">PHG4BNLTargetCoilStepping</text>
+<text text-anchor="middle" x="388" y="-567" font-family="FreeSans" font-size="10.00">Action::UserSteppingAction</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge25" class="edge"><title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M54.5082,-306.556C60.8097,-347.636 81.0921,-443.439 138,-496 186.725,-541.004 261.044,-560.37 315.812,-568.705"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="57.9519,-305.911 53.0828,-296.501 51.0212,-306.894 57.9519,-305.911"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../da/d58/classPHG4CylinderSteppingAction.html#a617bc1e8c57c83679e482a27a7d5a8b5" target="_top" xlink:title="stepping action ">
+<polygon fill="none" stroke="black" points="316.5,-315 316.5,-345 459.5,-345 459.5,-315 316.5,-315"/>
+<text text-anchor="start" x="324.5" y="-333" font-family="FreeSans" font-size="10.00">PHG4CylinderSteppingAction</text>
+<text text-anchor="middle" x="388" y="-322" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge26" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M111.794,-294.675C169.153,-302.038 255.772,-313.156 316.473,-320.947"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="112.155,-291.193 101.791,-293.391 111.264,-298.136 112.155,-291.193"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d4/de5/classPHG4ConeRegionSteppingAction.html#a6a0eac7c30dd6f9410c17974f373aa3b" target="_top" xlink:title="stepping action ">
+<polygon fill="none" stroke="black" points="307.5,-462 307.5,-492 468.5,-492 468.5,-462 307.5,-462"/>
+<text text-anchor="start" x="315.5" y="-480" font-family="FreeSans" font-size="10.00">PHG4ConeRegionSteppingAction</text>
+<text text-anchor="middle" x="388" y="-469" font-family="FreeSans" font-size="10.00">::UserSteppingAction</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge27" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M59.6258,-306.409C71.7952,-334.774 98.3507,-387.193 138,-415 187.786,-449.916 255.272,-465.225 307.428,-471.908"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="62.7178,-304.726 55.6688,-296.817 56.2468,-307.396 62.7178,-304.726"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
@@ -291,16 +291,16 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d6/d98/classDPDigitizer.html#a2d585e16710f9dc114334772f104869f" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="337,-21 337,-51 439,-51 439,-21 337,-21"/>
-<text text-anchor="start" x="345" y="-39" font-family="FreeSans" font-size="10.00">DPDigitizer::process</text>
+<g id="a_node16"><a xlink:href="../../df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="336.5,-21 336.5,-51 439.5,-51 439.5,-21 336.5,-21"/>
+<text text-anchor="start" x="344.5" y="-39" font-family="FreeSans" font-size="10.00">SQDigitizer::process</text>
 <text text-anchor="middle" x="388" y="-28" font-family="FreeSans" font-size="10.00">_event</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge15" class="edge"><title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M251.57,-84.4912C257.825,-82.4908 264.111,-80.3115 270,-78 286.652,-71.4643 289.36,-66.5663 306,-60 315.823,-56.1238 326.528,-52.5295 336.841,-49.3651"/>
+<path fill="none" stroke="midnightblue" d="M251.57,-84.4912C257.825,-82.4908 264.111,-80.3115 270,-78 286.652,-71.4643 289.36,-66.5663 306,-60 315.687,-56.1776 326.231,-52.6294 336.411,-49.4972"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="250.361,-81.2012 241.828,-87.481 252.415,-87.8932 250.361,-81.2012"/>
 </g>
 </g>

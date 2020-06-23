@@ -19,6 +19,7 @@ var classPlane =
     [ "deltaZ", "dc/d90/classPlane.html#a197dd226141359484ea87aef14935b39", null ],
     [ "detectorID", "dc/d90/classPlane.html#ab4a0d070736ad81dcc5cf6eb697099e0", null ],
     [ "detectorName", "dc/d90/classPlane.html#ad61fb2203ddedd69abd1ac1e0297af1d", null ],
+    [ "elementPos", "dc/d90/classPlane.html#a39977de3821a54f9790c5c00fa11c50a", null ],
     [ "nElements", "dc/d90/classPlane.html#a063bf35bfe693843f4759472538da523", null ],
     [ "nVec", "dc/d90/classPlane.html#a14a2c0a7bbcc7d14d5f8da9f17b90776", null ],
     [ "overlap", "dc/d90/classPlane.html#a2abdd1745a9f01d4427a6ba813bd6109", null ],
@@ -55,5 +56,7 @@ var classPlane =
     [ "yc", "dc/d90/classPlane.html#acf363744e3f0cbae742f0f9931f80d65", null ],
     [ "yVec", "dc/d90/classPlane.html#a260df5dc1e0ad7dff51ccce231d6b649", null ],
     [ "z0", "dc/d90/classPlane.html#abaeeb6bbe96b2c16a75ebfec813942f4", null ],
+    [ "z1", "dc/d90/classPlane.html#a6389866c86ef234ebb8fafbc7ad09261", null ],
+    [ "z2", "dc/d90/classPlane.html#af292a721d7157ff2a6fa2cad10e75d69", null ],
     [ "zc", "dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638", null ]
 ];

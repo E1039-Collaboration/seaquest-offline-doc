@@ -12,5 +12,5 @@ var searchData=
   ['userinfoelement',['userinfoElement',['../dd/db5/classPHG4GDMLWrite.html#aabebf93aead72149db4f9429db657cce',1,'PHG4GDMLWrite']]],
   ['utime_5fb',['utime_b',['../d0/d64/structRunData.html#a03aa049b0da3d53d8cefe180ad0b461c',1,'RunData']]],
   ['utime_5fe',['utime_e',['../d0/d64/structRunData.html#abb77d945530072289674ec74c3ee076f',1,'RunData']]],
-  ['uvec',['uVec',['../dc/d90/classPlane.html#ac1b1d8c19b3ac5500303891df3a91ee1',1,'Plane::uVec()'],['../db/d4a/classDPDigiPlane.html#a2aa9924e09159026dca0ae17afd68b2f',1,'DPDigiPlane::uVec()']]]
+  ['uvec',['uVec',['../dc/d90/classPlane.html#ac1b1d8c19b3ac5500303891df3a91ee1',1,'Plane']]]
 ];

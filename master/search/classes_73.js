@@ -20,6 +20,7 @@ var searchData=
   ['sp_5fenable_5fif_5fauto_5fptr_3c_20std_3a_3aauto_5fptr_3c_20t_20_3e_2c_20r_20_3e',['sp_enable_if_auto_ptr&lt; std::auto_ptr&lt; T &gt;, R &gt;',['../db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html',1,'boost::detail']]],
   ['spilldata',['SpillData',['../d4/dbe/structSpillData.html',1,'']]],
   ['sqbeamlineobject',['SQBeamlineObject',['../d5/d7b/classSQBeamlineObject.html',1,'']]],
+  ['sqdigitizer',['SQDigitizer',['../df/d36/classSQDigitizer.html',1,'']]],
   ['sqdimuon',['SQDimuon',['../d8/dd3/classSQDimuon.html',1,'']]],
   ['sqdimuon_5fv1',['SQDimuon_v1',['../d0/d85/classSQDimuon__v1.html',1,'']]],
   ['sqdimuontruthinfocontainer',['SQDimuonTruthInfoContainer',['../d0/d60/classSQDimuonTruthInfoContainer.html',1,'']]],

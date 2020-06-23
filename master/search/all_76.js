@@ -76,7 +76,7 @@ var searchData=
   ['vtxmap',['VtxMap',['../da/d6c/classPHG4TruthInfoContainer.html#aa9c97c19e83c2d20c889c543ce6d56f2',1,'PHG4TruthInfoContainer']]],
   ['vtxpar',['VtxPar',['../db/d64/classVtxPar.html',1,'VtxPar'],['../db/d64/classVtxPar.html#a9557c4cad2f54a44b44b6af8f59139cc',1,'VtxPar::VtxPar()']]],
   ['vtxrange',['VtxRange',['../da/d6c/classPHG4TruthInfoContainer.html#a9414755db7a671125d55ae862c5d32ca',1,'PHG4TruthInfoContainer']]],
-  ['vvec',['vVec',['../dc/d90/classPlane.html#ae428f7c6a71e72f095aa62f1e77fc58e',1,'Plane::vVec()'],['../db/d4a/classDPDigiPlane.html#a7976673f85b27593dc745ea8ebfc6cbb',1,'DPDigiPlane::vVec()']]],
+  ['vvec',['vVec',['../dc/d90/classPlane.html#ae428f7c6a71e72f095aa62f1e77fc58e',1,'Plane']]],
   ['vx',['vx',['../d5/dff/classPHG4VtxPointv1.html#ab54923dea3ce24d9f667a2fd03824b9b',1,'PHG4VtxPointv1::vx()'],['../d9/d8f/classTruthTrack.html#a31181d3094b19e0b89823bb2caa812c0',1,'TruthTrack::vx()']]],
   ['vy',['vy',['../d5/dff/classPHG4VtxPointv1.html#a7518a898a9b65610ebb249dc2b8f30a2',1,'PHG4VtxPointv1::vy()'],['../d9/d8f/classTruthTrack.html#a99891f93c6adb90b7a97af07fc3e2fee',1,'TruthTrack::vy()']]],
   ['vz',['vz',['../d5/dff/classPHG4VtxPointv1.html#a0d8f744ece9ff6ea178dae6049feaeb6',1,'PHG4VtxPointv1::vz()'],['../d9/d8f/classTruthTrack.html#a5e3ce6cc872e690cd34891583241df93',1,'TruthTrack::vz()']]]

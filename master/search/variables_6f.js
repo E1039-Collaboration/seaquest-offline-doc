@@ -13,6 +13,6 @@ var searchData=
   ['outputfilename',['outputFileName',['../df/d9a/classSettings.html#aadcea4dbd9fc7eb6e38490632d39ae5d',1,'Settings']]],
   ['outputmanager',['OutputManager',['../da/d29/classFun4AllServer.html#a6380beeeff3b33447d59ebe69129245a',1,'Fun4AllServer']]],
   ['outstream',['outstream',['../d2/d4a/classFun4AllEventOutputManager.html#a1dfe1b4f87907209e70765a44879e0a0',1,'Fun4AllEventOutputManager']]],
-  ['overlap',['overlap',['../dc/d90/classPlane.html#a2abdd1745a9f01d4427a6ba813bd6109',1,'Plane::overlap()'],['../db/d4a/classDPDigiPlane.html#ad15d609bca274a273b2bf02675c1be46',1,'DPDigiPlane::overlap()']]],
+  ['overlap',['overlap',['../dc/d90/classPlane.html#a2abdd1745a9f01d4427a6ba813bd6109',1,'Plane']]],
   ['overlapcheck',['overlapcheck',['../d3/de7/classPHG4Detector.html#a80386cc788fd737d6e809242013c8003',1,'PHG4Detector::overlapcheck()'],['../db/df7/classPHG4Subsystem.html#a00a9758458cb57c975a51375851b57fc',1,'PHG4Subsystem::overlapcheck()']]]
 ];

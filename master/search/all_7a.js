@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['z',['Z',['../d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc',1,'SQBeamlineObject::Z()'],['../d9/d35/classPHG4Hitv1.html#a310839a3bd07bad2c46020a246d1626e',1,'PHG4Hitv1::z()']]],
+  ['z',['z',['../d9/d35/classPHG4Hitv1.html#a310839a3bd07bad2c46020a246d1626e',1,'PHG4Hitv1::z()'],['../d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc',1,'SQBeamlineObject::Z()']]],
   ['z0',['z0',['../d5/d7b/classSQBeamlineObject.html#a7d85033d3abc7e02c4d64d0830c5c24b',1,'SQBeamlineObject::z0()'],['../d6/d90/structGeomParamPlane_1_1Plane.html#a5d3f24aedb96b4888ef2f2c8e2362752',1,'GeomParamPlane::Plane::z0()'],['../dc/d90/classPlane.html#abaeeb6bbe96b2c16a75ebfec813942f4',1,'Plane::z0()']]],
+  ['z1',['z1',['../dc/d90/classPlane.html#a6389866c86ef234ebb8fafbc7ad09261',1,'Plane']]],
   ['z1h',['z1h',['../dc/d5b/classDetectorConstruction.html#aef96823cb792e265065b3960c95d7a96',1,'DetectorConstruction::z1h()'],['../d5/dd4/classPHG4E1039InsensDetector.html#aba8fb223faca60728e10cb7b72bbd370',1,'PHG4E1039InsensDetector::z1h()']]],
   ['z1v',['z1v',['../dc/d5b/classDetectorConstruction.html#a5d69ac881b780c98ac2500ee5fe3b870',1,'DetectorConstruction::z1v()'],['../d5/dd4/classPHG4E1039InsensDetector.html#a6232a171f5bd481f6544bcc00eea3aab',1,'PHG4E1039InsensDetector::z1v()']]],
+  ['z2',['z2',['../dc/d90/classPlane.html#af292a721d7157ff2a6fa2cad10e75d69',1,'Plane']]],
   ['z2h',['z2h',['../dc/d5b/classDetectorConstruction.html#a2e0a73cdf922f724a7e6e770fd08f985',1,'DetectorConstruction::z2h()'],['../d5/dd4/classPHG4E1039InsensDetector.html#aa1da4ab576c244ecf8a3b32b6113ba04',1,'PHG4E1039InsensDetector::z2h()']]],
   ['z2v',['z2v',['../dc/d5b/classDetectorConstruction.html#a8fd1977f687ee142e8a89a4dca0bb5d3',1,'DetectorConstruction::z2v()'],['../d5/dd4/classPHG4E1039InsensDetector.html#a5e0744b98ddee4e3481006d9dba030b5',1,'PHG4E1039InsensDetector::z2v()']]],
   ['z_5fabsorber',['Z_ABSORBER',['../dd/de2/GlobalConsts_8h.html#a7e21894b4b363f89aa8009e9bc856948',1,'GlobalConsts.h']]],
@@ -23,7 +25,7 @@ var searchData=
   ['z_5ftarget',['Z_TARGET',['../dd/de2/GlobalConsts_8h.html#aad6b76d294bb644fbbf59a49e56d257b',1,'GlobalConsts.h']]],
   ['z_5fup',['z_up',['../d5/d7b/classSQBeamlineObject.html#a792acf34fa819ad9b314bb45175f415d',1,'SQBeamlineObject']]],
   ['z_5fupstream',['Z_UPSTREAM',['../dd/de2/GlobalConsts_8h.html#a5fb843562ecad10510a6f6bedbe16151',1,'GlobalConsts.h']]],
-  ['zc',['zc',['../dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638',1,'Plane::zc()'],['../db/d4a/classDPDigiPlane.html#a72b7df6860ab9cc795fd5735b6056d91',1,'DPDigiPlane::zc()']]],
+  ['zc',['zc',['../dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638',1,'Plane']]],
   ['zeromatrix',['zeroMatrix',['../d9/db7/classSMatrix.html#ab1490349f964b7e4b27942f5b717cba1',1,'SMatrix']]],
   ['zigzag_5fpads',['zigzag_pads',['../dc/d94/classPHG4CylinderCellTPCReco.html#ae55b6f8dfad2accebd17c3acbe8bbfe1',1,'PHG4CylinderCellTPCReco']]],
   ['zinbuffer',['zinbuffer',['../d6/d6f/classFun4AllHepMCInputManager.html#a2e5b3971f04c3436bff7ba7cf0a36970',1,'Fun4AllHepMCInputManager::zinbuffer()'],['../db/dbe/Fun4AllOscarInputManager_8cc.html#a9f5d148a70f9354113264052c143dca8',1,'zinbuffer():&#160;Fun4AllOscarInputManager.cc']]],

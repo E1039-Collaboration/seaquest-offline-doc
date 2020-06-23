@@ -116,7 +116,7 @@ var searchData=
   ['anawait_2ecc',['AnaWait.cc',['../d7/dfb/AnaWait_8cc.html',1,'']]],
   ['anawait_2eh',['AnaWait.h',['../da/d72/AnaWait_8h.html',1,'']]],
   ['angle_5ffrom_5fvert',['angle_from_vert',['../d6/d90/structGeomParamPlane_1_1Plane.html#ac05777841edd18e7951a7e1c6340d0e8',1,'GeomParamPlane::Plane']]],
-  ['anglefromvert',['angleFromVert',['../dc/d90/classPlane.html#a11a214a9f65fe7697b2c40e953c52bf0',1,'Plane::angleFromVert()'],['../db/d4a/classDPDigiPlane.html#a8addb4131bc27e4fca53609a007be386',1,'DPDigiPlane::angleFromVert()']]],
+  ['anglefromvert',['angleFromVert',['../dc/d90/classPlane.html#a11a214a9f65fe7697b2c40e953c52bf0',1,'Plane']]],
   ['aparticleiterator',['aParticleIterator',['../d9/de1/P6DExtDecayerPhysics_8cc.html#afbc8c18893a64a11db1d95ec55777e2d',1,'P6DExtDecayerPhysics.cc']]],
   ['append',['append',['../d6/d86/classPHPointerList.html#af5fc4e6958b5b90c57bfb497566f503c',1,'PHPointerList']]],
   ['apply',['Apply',['../db/df0/classPHPy8GenTrigger.html#af6b861b74be494424420724da11628b8',1,'PHPy8GenTrigger::Apply()'],['../d7/d30/classPHPy8JetTrigger.html#acaf40813fe5634434bf56986738b1d6e',1,'PHPy8JetTrigger::Apply()'],['../d9/d8b/classPHPy8ParticleTrigger.html#a310a967ad158bf270b6ceaf8f6b0183c',1,'PHPy8ParticleTrigger::Apply()']]],

@@ -1,8 +1,5 @@
 var dir_3eb0cc2acfb784258aeda8faf9aac162 =
 [
-    [ "DPDigitizer.cc", "d4/dcd/DPDigitizer_8cc.html", "d4/dcd/DPDigitizer_8cc" ],
-    [ "DPDigitizer.h", "d9/da1/DPDigitizer_8h.html", "d9/da1/DPDigitizer_8h" ],
-    [ "DPDigitizerLinkDef.h", "d3/d3e/DPDigitizerLinkDef_8h.html", null ],
     [ "PHG4BlockCellGeom.cc", "d5/dd1/PHG4BlockCellGeom_8cc.html", null ],
     [ "PHG4BlockCellGeom.h", "d7/d39/PHG4BlockCellGeom_8h.html", [
       [ "PHG4BlockCellGeom", "d1/dd7/classPHG4BlockCellGeom.html", "d1/dd7/classPHG4BlockCellGeom" ]
@@ -310,6 +307,11 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
     [ "PHG4TargetCoilV2SubsystemLinkDef.h", "d3/d35/PHG4TargetCoilV2SubsystemLinkDef_8h.html", null ],
     [ "PHG4TrackStatusDecode.cc", "db/da9/PHG4TrackStatusDecode_8cc.html", "db/da9/PHG4TrackStatusDecode_8cc" ],
     [ "PHG4TrackStatusDecode.h", "dd/d2b/PHG4TrackStatusDecode_8h.html", "dd/d2b/PHG4TrackStatusDecode_8h" ],
+    [ "SQDigitizer.cc", "d2/d4d/SQDigitizer_8cc.html", null ],
+    [ "SQDigitizer.h", "da/dca/SQDigitizer_8h.html", [
+      [ "SQDigitizer", "df/d36/classSQDigitizer.html", "df/d36/classSQDigitizer" ]
+    ] ],
+    [ "SQDigitizerLinkDef.h", "d6/d95/SQDigitizerLinkDef_8h.html", null ],
     [ "SQG4DipoleMagnetDetector.cc", "d0/dae/SQG4DipoleMagnetDetector_8cc.html", null ],
     [ "SQG4DipoleMagnetDetector.h", "d0/d80/SQG4DipoleMagnetDetector_8h.html", [
       [ "SQG4DipoleMagnetDetector", "d3/d93/classSQG4DipoleMagnetDetector.html", "d3/d93/classSQG4DipoleMagnetDetector" ]

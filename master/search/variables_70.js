@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['p',['P',['../d9/d6e/structPyjets__t.html#a59d8beba6ebb21790872ad73bcc7c195',1,'Pyjets_t::P()'],['../db/d19/classSeed.html#a22043600f8e8610794b45a80b6ef7d85',1,'Seed::p()'],['../d9/d8f/classTruthTrack.html#a55897769cdf387785cb11209c69a9dd2',1,'TruthTrack::p()']]],
+  ['p',['p',['../db/d19/classSeed.html#a22043600f8e8610794b45a80b6ef7d85',1,'Seed::p()'],['../d9/d8f/classTruthTrack.html#a55897769cdf387785cb11209c69a9dd2',1,'TruthTrack::p()'],['../d9/d6e/structPyjets__t.html#a59d8beba6ebb21790872ad73bcc7c195',1,'Pyjets_t::P()']]],
   ['p_5fcms',['p_cms',['../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85',1,'DPGEN']]],
   ['p_5fneg',['p_neg',['../d3/d07/classSRecDimuon.html#a917641855d8ff79aca8a282c3d1161e7',1,'SRecDimuon']]],
   ['p_5fneg_5fsingle',['p_neg_single',['../d3/d07/classSRecDimuon.html#a7e8bd27a1b5210c7282452349e084903',1,'SRecDimuon']]],
@@ -47,9 +47,7 @@ var searchData=
   ['physicslist',['physicslist',['../d0/d78/classPHG4Reco.html#a7c753df30858d63f4788167f0cc6e44c',1,'PHG4Reco']]],
   ['pi',['pi',['../d2/da1/namespaceDPGEN.html#abcf15a9c321ec6645c996d89339fdca9',1,'DPGEN']]],
   ['pid',['pid',['../d9/d8f/classTruthTrack.html#a94a7e6b6b032fc0dc6755bd6f5749feb',1,'TruthTrack']]],
-  ['planeheight',['planeHeight',['../db/d4a/classDPDigiPlane.html#aab1a2706bae19dca6569f33e18e0600f',1,'DPDigiPlane']]],
   ['planetype',['planeType',['../dc/d90/classPlane.html#a7fc8ca0ecab7258378871bd270eb63ac',1,'Plane']]],
-  ['planewidth',['planeWidth',['../db/d4a/classDPDigiPlane.html#af15ddbd4d5b53647a8e0bb4514404e53',1,'DPDigiPlane']]],
   ['plist',['plist',['../dc/dab/classFun4AllEventOutStream.html#a8ee74be6c8246dc4f621ab06e4aba545',1,'Fun4AllEventOutStream']]],
   ['pos',['pos',['../d0/d88/classHit.html#a720406704612b1a3e130b66aa7db991e',1,'Hit::pos()'],['../d3/d4a/structUtilHodo_1_1Track1D.html#a46237fcdf89d24c98eab60d958d88464',1,'UtilHodo::Track1D::pos()'],['../dd/dec/structDimuonData.html#ad61aa05988e6d7556efeba77d94f8557',1,'DimuonData::pos()']]],
   ['pos_5fvtx',['pos_vtx',['../dd/d7f/structTrackData.html#a7a88a24357d23b7955c0dbfada981059',1,'TrackData']]],
