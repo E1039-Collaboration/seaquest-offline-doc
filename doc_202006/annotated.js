@@ -30,6 +30,7 @@ var annotated =
     [ "varids", "d1/db0/namespacevarids.html", null ],
     [ "AnaEffCham", "db/d63/classAnaEffCham.html", "db/d63/classAnaEffCham" ],
     [ "AnaEffHodo", "db/d7d/classAnaEffHodo.html", "db/d7d/classAnaEffHodo" ],
+    [ "AnaModule", "dc/da8/classAnaModule.html", "dc/da8/classAnaModule" ],
     [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ],
     [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", "d1/d9e/classAnaSimDst" ],
     [ "AnaWait", "d5/d60/classAnaWait.html", "d5/d60/classAnaWait" ],
