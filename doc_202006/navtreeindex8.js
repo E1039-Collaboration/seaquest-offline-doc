@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d2/de9/structHitData.html#a175cf8c398d41c5935f8db1ac7fb1b2e":[17,0,113,1],
-"d2/de9/structHitData.html#a3b474d4599f5a9f6c6e83c6f1211a677":[17,0,113,10],
 "d2/de9/structHitData.html#a3b89541829f349c6623ec2c87423818a":[17,0,113,7],
 "d2/de9/structHitData.html#a3f48fab5ae464face1b07ba010591cdd":[17,0,113,2],
 "d2/de9/structHitData.html#a46dfd4ee10ecd3e9bc8e0b48fabb4190":[17,0,113,3],
@@ -53,6 +51,8 @@ var NAVTREEINDEX8 =
 "d2/df6/namespacePHG4StepStatusDecode.html":[17,0,10],
 "d2/df7/SQStringMap__v1_8cxx.html":[18,0,2,3,92],
 "d2/df7/SQStringMap__v1_8cxx_source.html":[18,0,2,3,92],
+"d2/dfa/e1039-analysis_2RecoDev_2AnaModule_2LinkDef_8h.html":[18,0,1,11,0,2],
+"d2/dfa/e1039-analysis_2RecoDev_2AnaModule_2LinkDef_8h_source.html":[18,0,1,11,0,2],
 "d2/dfd/PHG4CylinderGeomv3_8cc.html":[18,0,2,8,1,108],
 "d2/dfd/PHG4CylinderGeomv3_8cc_source.html":[18,0,2,8,1,108],
 "d2/dfd/PHGenIntegral_8h.html":[18,0,2,2,1,29],

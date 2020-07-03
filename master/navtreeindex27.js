@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"d9/d33/Fun4AllHepMCPileupInputManagerLinkDef_8h.html":[18,0,2,2,1,8],
+"d9/d33/Fun4AllHepMCPileupInputManagerLinkDef_8h_source.html":[18,0,2,2,1,8],
 "d9/d33/PHParameterInterfaceLinkDef_8h.html":[18,0,2,0,1,5],
 "d9/d33/PHParameterInterfaceLinkDef_8h_source.html":[18,0,2,0,1,5],
 "d9/d35/Fun4AllNoSyncDstInputManager_8cc.html":[18,0,2,1,1,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "d9/d78/classPHG4ParticleGeneratorD0.html#ae7615566486b0649743e72a143823425":[17,0,261,12],
 "d9/d78/classPHG4ParticleGeneratorD0.html#ae7eefe18bcd061263b0f3b24b0a76c15":[17,0,261,25],
 "d9/d78/classPHG4ParticleGeneratorD0.html#aeae4f1b55c8f2b44f94d80f10b00d3ff":[17,0,261,9],
-"d9/d78/classPHG4ParticleGeneratorD0.html#af5af8a936d39b5f1be13788f34382ecc":[17,0,261,5],
-"d9/d78/classPHG4ParticleGeneratorD0.html#af7c7f77fba8676fb2abf404f39a14813":[17,0,261,22],
-"d9/d79/EventHeader_8cc.html":[18,0,2,1,0,0]
+"d9/d78/classPHG4ParticleGeneratorD0.html#af5af8a936d39b5f1be13788f34382ecc":[17,0,261,5]
 };

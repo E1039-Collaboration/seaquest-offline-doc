@@ -1,7 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d2/d1e/PHG4TruthTrackingAction_8cc.html":[18,0,2,8,5,106],
-"d2/d1e/PHG4TruthTrackingAction_8cc.html#a4a20323806e186f80a443d377d400e69":[18,0,2,8,5,106,0],
 "d2/d1e/PHG4TruthTrackingAction_8cc_source.html":[18,0,2,8,5,106],
 "d2/d24/Fun4E1039Shielding_8C.html":[18,0,1,4,3],
 "d2/d24/Fun4E1039Shielding_8C.html#a42592782dd55d6e219305ff678a00dc2":[18,0,1,4,3,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "d2/d6b/classSQGenFit_1_1GFTrack.html#a338093580415312f97ebd45765b1f7b0":[17,0,16,3,1],
 "d2/d6b/classSQGenFit_1_1GFTrack.html#a3c58a85e0b91e6d047bfd483fce664f4":[17,0,16,3,2],
 "d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658":[17,0,16,3,16],
-"d2/d6b/classSQGenFit_1_1GFTrack.html#a572bf9d878238e1960412b6d36d78dcb":[17,0,16,3,5]
+"d2/d6b/classSQGenFit_1_1GFTrack.html#a572bf9d878238e1960412b6d36d78dcb":[17,0,16,3,5],
+"d2/d6b/classSQGenFit_1_1GFTrack.html#a5df7799e067068a63dbd8a4e2e1d8c67":[17,0,16,3,10],
+"d2/d6b/classSQGenFit_1_1GFTrack.html#a78fc424bb4897352c3e61d11f139f9a4":[17,0,16,3,9]
 };

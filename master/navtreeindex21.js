@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"d7/d21/classPHG4BNLTargetCoilDetector.html#aa77b00e6ae09614d1bb752f26f0867a9":[17,0,185,7],
+"d7/d21/classPHG4BNLTargetCoilDetector.html#ab310aa717fa68673170b8452955defe6":[17,0,185,5],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#ae3848aea7c8fc48866af5d922016584c":[17,0,185,6],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#aef6b65f6a3a7c4c3a24cd8909446a8d5":[17,0,185,1],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#af946d2d7cc66b2610d9b77fa450bf22f":[17,0,185,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "d7/d7b/classPHHepMCGenEvent.html#ab8b120229e3943b6e018328e36ddac61":[17,0,316,13],
 "d7/d7b/classPHHepMCGenEvent.html#ac5529cd67a3f4a4aa004476356eecd4e":[17,0,316,11],
 "d7/d7b/classPHHepMCGenEvent.html#adc27205d39813aa12f4a2fd1c6d81b30":[17,0,316,26],
-"d7/d7b/classPHHepMCGenEvent.html#ae92a42bd9bfdb338524ce5484592f3f1":[17,0,316,17],
-"d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4":[17,0,316,7],
-"d7/d7b/classPHHepMCGenEvent.html#afceae861a3c0594dfb92ca247e2ec357":[17,0,316,27]
+"d7/d7b/classPHHepMCGenEvent.html#ae92a42bd9bfdb338524ce5484592f3f1":[17,0,316,17]
 };

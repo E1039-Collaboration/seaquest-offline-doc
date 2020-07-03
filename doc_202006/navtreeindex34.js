@@ -1,5 +1,9 @@
 var NAVTREEINDEX34 =
 {
+"db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6":[17,0,88,13],
+"db/d1f/classFun4AllOscarInputManager.html#a5110f3e1f297076a3c56b1026b4fe1c7":[17,0,88,24],
+"db/d1f/classFun4AllOscarInputManager.html#a5661505114daa0f36e89c7af9060fe5b":[17,0,88,12],
+"db/d1f/classFun4AllOscarInputManager.html#a5a425c1c743f7654dec7be5dd42d039e":[17,0,88,20],
 "db/d1f/classFun4AllOscarInputManager.html#a5f79f3b12535df02533d25a14aab26a6":[17,0,88,18],
 "db/d1f/classFun4AllOscarInputManager.html#a6dfb5b861fd26ce99192c04973d6cabd":[17,0,88,31],
 "db/d1f/classFun4AllOscarInputManager.html#a6eba24090795ccb027a1dedc87db1a85":[17,0,88,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX34 =
 "db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97":[18,0,2,7,12,4,0,0,0],
 "db/d86/test__minimum_8cxx_source.html":[18,0,2,7,12,4,0,0],
 "db/d87/PHGenEvent_8h.html":[18,0,2,2,1,17],
-"db/d87/PHGenEvent_8h_source.html":[18,0,2,2,1,17],
-"db/d88/classPHG4Shower.html":[17,0,280],
-"db/d88/classPHG4Shower.html#a0751738c450c5810ea6ea857b9c119ba":[17,0,280,0],
-"db/d88/classPHG4Shower.html#a0a49618c836e9537150d0568a6f2868b":[17,0,280,26],
-"db/d88/classPHG4Shower.html#a1394a30863939f0f246ff5c3d4d00ff7":[17,0,280,47]
+"db/d87/PHGenEvent_8h_source.html":[18,0,2,2,1,17]
 };
