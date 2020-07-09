@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b',['b',['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment']]],
+  ['b',['B',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a67eb8d60485fca39da4fd691885032d4',1,'SQField3DCartesian::FieldPoint::B()'],['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment::b()']]],
   ['back',['back',['../d1/d96/classboost_1_1array.html#a1ac7c3e7833222573dc540ee5791df74',1,'boost::array::back()'],['../d1/d96/classboost_1_1array.html#a2ce0d047e8821142da4fea5798cc3ead',1,'boost::array::back() const '],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#abbfeb9b9181561448a2780ab832c9419',1,'boost::array&lt; T, 0 &gt;::back()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#af3a2f4dad316a352d94caa7d38ecd3f9',1,'boost::array&lt; T, 0 &gt;::back() const ']]],
   ['barcode',['barcode',['../d1/d42/classPHG4Particlev1.html#a2f2fdb9b3294007ba7216b5e739bc3c0',1,'PHG4Particlev1']]],
   ['beam_5fspot_5fx',['BEAM_SPOT_X',['../dd/de2/GlobalConsts_8h.html#afecee686111b2302bc19ed59cfb608f1',1,'GlobalConsts.h']]],

@@ -3,6 +3,7 @@ var classG4TBMagneticFieldSetup =
     [ "G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html#a219f4c199df5731549942737857ae65f", null ],
     [ "~G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html#aad69048e0a7ec56abb97a1aa2829d75f", null ],
     [ "get_magfield_at_000", "d4/d2e/classG4TBMagneticFieldSetup.html#a45a4973769d5edb2130e48d43d90c60d", null ],
+    [ "GetDummyFieldManager", "d4/d2e/classG4TBMagneticFieldSetup.html#a1021020549f50b4b02ae436df63a1d2f", null ],
     [ "GetGlobalFieldManager", "d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1", null ],
     [ "SetFieldValue", "d4/d2e/classG4TBMagneticFieldSetup.html#a103bf25af906e5e94f05946cbcbed9f1", null ],
     [ "SetFieldValue", "d4/d2e/classG4TBMagneticFieldSetup.html#abf019706c03b5ada7a0e02b54cf4b2f0", null ],

@@ -30,6 +30,7 @@ var hierarchy =
     [ "FactoryErrorPolicy", null, [
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
+    [ "SQField3DCartesian::FieldPoint", "df/d82/classSQField3DCartesian_1_1FieldPoint.html", null ],
     [ "Fun4AllBase", "d5/dec/classFun4AllBase.html", [
       [ "Fun4AllEventOutStream", "dc/dab/classFun4AllEventOutStream.html", [
         [ "Fun4AllFileOutStream", "de/d50/classFun4AllFileOutStream.html", [
@@ -432,7 +433,8 @@ var hierarchy =
           [ "PHField3DCylindrical", "d5/dc1/classPHField3DCylindrical.html", null ],
           [ "PHFieldRegionalConst", "d8/d4f/classPHFieldRegionalConst.html", null ],
           [ "PHFieldSeaQuest", "d9/da8/classPHFieldSeaQuest.html", null ],
-          [ "PHFieldUniform", "d3/dec/classPHFieldUniform.html", null ]
+          [ "PHFieldUniform", "d3/dec/classPHFieldUniform.html", null ],
+          [ "SQField3DCartesian", "d7/d58/classSQField3DCartesian.html", null ]
         ] ],
         [ "PHFieldConfig", "d9/d8c/classPHFieldConfig.html", [
           [ "PHFieldConfig_v1", "d5/d59/classPHFieldConfig__v1.html", null ],

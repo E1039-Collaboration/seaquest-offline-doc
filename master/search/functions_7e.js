@@ -324,6 +324,7 @@ var searchData=
   ['_7esqdimuonvector_5fv1',['~SQDimuonVector_v1',['../d3/dc1/classSQDimuonVector__v1.html#a9fae01adb6f4d1dac000f1d3aa207a35',1,'SQDimuonVector_v1']]],
   ['_7esqevent',['~SQEvent',['../d9/dd7/classSQEvent.html#a67c795afae000fb5aef7b3ee818ef023',1,'SQEvent']]],
   ['_7esqevent_5fv1',['~SQEvent_v1',['../dd/d59/classSQEvent__v1.html#ad71b03470871545bb7414f0ce5358b9f',1,'SQEvent_v1']]],
+  ['_7esqfield3dcartesian',['~SQField3DCartesian',['../d7/d58/classSQField3DCartesian.html#a62565f3ded6a713e6b772c1a23bfeea8',1,'SQField3DCartesian']]],
   ['_7esqg4dipolemagnetdetector',['~SQG4DipoleMagnetDetector',['../d3/d93/classSQG4DipoleMagnetDetector.html#ab6a83cd68b7b3c9a8619ca99e0690f6e',1,'SQG4DipoleMagnetDetector']]],
   ['_7esqg4dipolemagnetsteppingaction',['~SQG4DipoleMagnetSteppingAction',['../d4/db3/classSQG4DipoleMagnetSteppingAction.html#ab79def9e53b34492d9335dac7294b840',1,'SQG4DipoleMagnetSteppingAction']]],
   ['_7esqg4dipolemagnetsubsystem',['~SQG4DipoleMagnetSubsystem',['../dc/d3f/classSQG4DipoleMagnetSubsystem.html#ac5595eb7e57b6dffed83623793d81c9e',1,'SQG4DipoleMagnetSubsystem']]],

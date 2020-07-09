@@ -29,7 +29,7 @@ var searchData=
   ['addcylindercell',['AddCylinderCell',['../d6/ddf/classPHG4CylinderCellContainer.html#a3ef325a3f7e2fa5b17677c758dee3f2c',1,'PHG4CylinderCellContainer']]],
   ['addcylindercellspecifykey',['AddCylinderCellSpecifyKey',['../d6/ddf/classPHG4CylinderCellContainer.html#a5fe555e4d583f9fb08b6ef5d6d725825',1,'PHG4CylinderCellContainer']]],
   ['adddaughter',['AddDaughter',['../d5/d18/classPHHepMCParticleSelectorDecayProductChain.html#ac582d49a7e687268b9e25ebb38b981c9',1,'PHHepMCParticleSelectorDecayProductChain']]],
-  ['adddetector',['AddDetector',['../d1/d13/classPHG4PhenixDetector.html#a2e9d45f2c881b6c9ced3b3031333f1b6',1,'PHG4PhenixDetector']]],
+  ['adddetector',['AddDetector',['../d1/d13/classPHG4PhenixDetector.html#a2eff5105a7370631a71a821ebfbaeef5',1,'PHG4PhenixDetector']]],
   ['adddetid',['AddDetId',['../d7/d7f/classPHG4DetectorGroupSubsystem.html#a68b228254410e456701c89e673871b9c',1,'PHG4DetectorGroupSubsystem']]],
   ['adddummyhits',['addDummyHits',['../d2/d26/classTracklet.html#af99af892aa799956176d2fdcf18a0add',1,'Tracklet']]],
   ['addelement',['addElement',['../d5/d72/classTriggerRoad.html#ad62755caa8c04f44757ff48c5e02798b',1,'TriggerRoad::addElement()'],['../d3/d04/classPHG4GDMLWriteMaterials.html#aefdb9e07e1d9da07562125baeb0d0447',1,'PHG4GDMLWriteMaterials::AddElement()']]],

@@ -108,49 +108,47 @@ $(document).ready(function(){initNavTree('d7/d2a/PHField_8h_source.html','../../
 <div class="title">PHField.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d7/d2a/PHField_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef __PHFIELD_H__</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __PHFIELD_H__</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d32/PHObject_8h.html">phool/PHObject.h</a>&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// units of this class. To convert internal value to Geant4/CLHEP units for fast access</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">//#include &lt;CLHEP/Units/SystemOfUnits.h&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;G4SystemOfUnits.hh&gt;</span></div>
+<a href="../../d7/d2a/PHField_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __PHFIELD_H__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __PHFIELD_H__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d32/PHObject_8h.html">phool/PHObject.h</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// units of this class. To convert internal value to Geant4/CLHEP units for fast access</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//#include &lt;CLHEP/Units/SystemOfUnits.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;Geant4/G4SystemOfUnits.hh&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../da/ddc/classPHField.html">PHField</a> : <span class="keyword">public</span> <a class="code" href="../../d9/d24/classPHObject.html">PHObject</a></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">   19</a></span>&#160;  <span class="keyword">explicit</span> <a class="code" href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">PHField</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> verb = 0)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    : <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a>(verb)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  }</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">   23</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">~PHField</a>() {}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">GetFieldValue</a>(</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> Point[4],</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keywordtype">double</span> *Bfield) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../da/ddc/classPHField.html">PHField</a> : <span class="keyword">public</span> <a class="code" href="../../d9/d24/classPHObject.html">PHObject</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">   17</a></span>&#160;  <span class="keyword">explicit</span> <a class="code" href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">PHField</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> verb = 0)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    : <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a>(verb)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  }</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">   21</a></span>&#160;  <span class="keyword">virtual</span> <a class="code" href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">~PHField</a>() {}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">GetFieldValue</a>(</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">double</span> Point[4],</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;      <span class="keywordtype">double</span> *Bfield) <span class="keyword">const</span> = 0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">   30</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">identify</a>(std::ostream&amp; os = std::cout)<span class="keyword"> const </span>{std::cout &lt;&lt; <span class="stringliteral">&quot;I am a PHField object!&quot;</span> &lt;&lt; std::endl;}</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">   32</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">identify</a>(std::ostream&amp; os = std::cout)<span class="keyword"> const </span>{std::cout &lt;&lt; <span class="stringliteral">&quot;I am a PHField object!&quot;</span> &lt;&lt; std::endl;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">   34</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">Verbosity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> i) { <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a> = i; }</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">   36</a></span>&#160;  <span class="keywordtype">unsigned</span> <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">   32</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">Verbosity</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> i) { <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a> = i; }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">   34</a></span>&#160;  <span class="keywordtype">unsigned</span> <a class="code" href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">verb_</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classPHObject_html"><div class="ttname"><a href="../../d9/d24/classPHObject.html">PHObject</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d32/PHObject_8h_source.html#l00012">PHObject.h:12</a></div></div>
-<div class="ttc" id="classPHField_html_acc5b419af2babb382ced53f59f1541a3"><div class="ttname"><a href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">PHField::verb_</a></div><div class="ttdeci">unsigned verb_</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00036">PHField.h:36</a></div></div>
-<div class="ttc" id="classPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00015">PHField.h:15</a></div></div>
-<div class="ttc" id="classPHField_html_a8b77c2b9c63a4dd14b33d38825726283"><div class="ttname"><a href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">PHField::~PHField</a></div><div class="ttdeci">virtual ~PHField()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00023">PHField.h:23</a></div></div>
-<div class="ttc" id="classPHField_html_ad7c24b839a6b0083c76f8a576a6cb005"><div class="ttname"><a href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">PHField::Verbosity</a></div><div class="ttdeci">void Verbosity(const int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00034">PHField.h:34</a></div></div>
-<div class="ttc" id="classPHField_html_a4e1aead33dc9ee43f02710746dcdb2c9"><div class="ttname"><a href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">PHField::PHField</a></div><div class="ttdeci">PHField(const int verb=0)</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00019">PHField.h:19</a></div></div>
+<div class="ttc" id="classPHField_html_acc5b419af2babb382ced53f59f1541a3"><div class="ttname"><a href="../../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3">PHField::verb_</a></div><div class="ttdeci">unsigned verb_</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00034">PHField.h:34</a></div></div>
+<div class="ttc" id="classPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00013">PHField.h:13</a></div></div>
+<div class="ttc" id="classPHField_html_a8b77c2b9c63a4dd14b33d38825726283"><div class="ttname"><a href="../../da/ddc/classPHField.html#a8b77c2b9c63a4dd14b33d38825726283">PHField::~PHField</a></div><div class="ttdeci">virtual ~PHField()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00021">PHField.h:21</a></div></div>
+<div class="ttc" id="classPHField_html_ad7c24b839a6b0083c76f8a576a6cb005"><div class="ttname"><a href="../../da/ddc/classPHField.html#ad7c24b839a6b0083c76f8a576a6cb005">PHField::Verbosity</a></div><div class="ttdeci">void Verbosity(const int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00032">PHField.h:32</a></div></div>
+<div class="ttc" id="classPHField_html_a4e1aead33dc9ee43f02710746dcdb2c9"><div class="ttname"><a href="../../da/ddc/classPHField.html#a4e1aead33dc9ee43f02710746dcdb2c9">PHField::PHField</a></div><div class="ttdeci">PHField(const int verb=0)</div><div class="ttdoc">constructor </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00017">PHField.h:17</a></div></div>
 <div class="ttc" id="PHObject_8h_html"><div class="ttname"><a href="../../df/d32/PHObject_8h.html">PHObject.h</a></div></div>
 <div class="ttc" id="classPHField_html_af517f905af775d9045dfca957739fcbb"><div class="ttname"><a href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">PHField::GetFieldValue</a></div><div class="ttdeci">virtual void GetFieldValue(const double Point[4], double *Bfield) const =0</div></div>
-<div class="ttc" id="classPHField_html_a47f757591bc0271b58a99d08f8a48145"><div class="ttname"><a href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">PHField::identify</a></div><div class="ttdeci">virtual void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00032">PHField.h:32</a></div></div>
+<div class="ttc" id="classPHField_html_a47f757591bc0271b58a99d08f8a48145"><div class="ttname"><a href="../../da/ddc/classPHField.html#a47f757591bc0271b58a99d08f8a48145">PHField::identify</a></div><div class="ttdeci">virtual void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00030">PHField.h:30</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -161,7 +159,7 @@ $(document).ready(function(){initNavTree('d7/d2a/PHField_8h_source.html','../../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_7cf5f668fc8ace05967f051e594e3592.html">PHField</a></li><li class="navelem"><a class="el" href="../../d7/d2a/PHField_8h.html">PHField.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Jul 3 2020 18:10:08</em> using <a
+			updated: <em>Thu Jul 9 2020 12:40:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

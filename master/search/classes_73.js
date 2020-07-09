@@ -28,6 +28,7 @@ var searchData=
   ['sqdimuonvector_5fv1',['SQDimuonVector_v1',['../d3/dc1/classSQDimuonVector__v1.html',1,'']]],
   ['sqevent',['SQEvent',['../d9/dd7/classSQEvent.html',1,'']]],
   ['sqevent_5fv1',['SQEvent_v1',['../dd/d59/classSQEvent__v1.html',1,'']]],
+  ['sqfield3dcartesian',['SQField3DCartesian',['../d7/d58/classSQField3DCartesian.html',1,'']]],
   ['sqg4dipolemagnetdetector',['SQG4DipoleMagnetDetector',['../d3/d93/classSQG4DipoleMagnetDetector.html',1,'']]],
   ['sqg4dipolemagnetsteppingaction',['SQG4DipoleMagnetSteppingAction',['../d4/db3/classSQG4DipoleMagnetSteppingAction.html',1,'']]],
   ['sqg4dipolemagnetsubsystem',['SQG4DipoleMagnetSubsystem',['../dc/d3f/classSQG4DipoleMagnetSubsystem.html',1,'']]],

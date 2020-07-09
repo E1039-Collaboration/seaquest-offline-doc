@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b',['b',['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment']]],
+  ['b',['B',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a67eb8d60485fca39da4fd691885032d4',1,'SQField3DCartesian::FieldPoint::B()'],['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment::b()']]],
   ['barcode',['barcode',['../d1/d42/classPHG4Particlev1.html#a2f2fdb9b3294007ba7216b5e739bc3c0',1,'PHG4Particlev1']]],
   ['beamcurrent',['beamCurrent',['../df/d9a/classSettings.html#a16f67a9e8a88c5a3c770fb4fdf2f280f',1,'Settings']]],
   ['beammomentum',['beamMomentum',['../df/d9a/classSettings.html#a6852cb6a5cd007fe14179e93d4f8fc23',1,'Settings']]],

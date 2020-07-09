@@ -379,6 +379,7 @@ var annotated =
     [ "SQDimuonVector_v1", "d3/dc1/classSQDimuonVector__v1.html", "d3/dc1/classSQDimuonVector__v1" ],
     [ "SQEvent", "d9/dd7/classSQEvent.html", "d9/dd7/classSQEvent" ],
     [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", "dd/d59/classSQEvent__v1" ],
+    [ "SQField3DCartesian", "d7/d58/classSQField3DCartesian.html", "d7/d58/classSQField3DCartesian" ],
     [ "SQG4DipoleMagnetDetector", "d3/d93/classSQG4DipoleMagnetDetector.html", "d3/d93/classSQG4DipoleMagnetDetector" ],
     [ "SQG4DipoleMagnetSteppingAction", "d4/db3/classSQG4DipoleMagnetSteppingAction.html", "d4/db3/classSQG4DipoleMagnetSteppingAction" ],
     [ "SQG4DipoleMagnetSubsystem", "dc/d3f/classSQG4DipoleMagnetSubsystem.html", "dc/d3f/classSQG4DipoleMagnetSubsystem" ],
