@@ -51,7 +51,6 @@ var searchData=
   ['neventsphysics',['nEventsPhysics',['../d4/d06/classSQPrimaryParticleGen.html#a18a307a32e6a6073597f836b21bd2103',1,'SQPrimaryParticleGen']]],
   ['neventsthrown',['nEventsThrown',['../d4/d06/classSQPrimaryParticleGen.html#ac45bb1906f930cedf95595becbe6e61b',1,'SQPrimaryParticleGen']]],
   ['nframeworkbins',['NFRAMEWORKBINS',['../d0/d60/Fun4AllHistoBinDefs_8h.html#aabed3a21b06b56d5cb6c5653ddd1597f',1,'Fun4AllHistoBinDefs.h']]],
-  ['nhits',['nHits',['../d6/dac/classSRawMCEvent.html#a657a73d7685f121d4fdc3c3e1b70ad94',1,'SRawMCEvent']]],
   ['nhodohits',['nHodoHits',['../d0/d1e/classPropSegment.html#a48ced147a9013d4b47249ceed72ef980',1,'PropSegment']]],
   ['nim',['NIM',['../d2/d31/structEventInfo.html#aed29cf550905612e9b326397a2ac1113',1,'EventInfo']]],
   ['nim_5fenabled',['nim_enabled',['../d0/d64/structRunData.html#ae822f3770fd383e67d8710fa9fb51e54',1,'RunData']]],

@@ -46,6 +46,7 @@ var searchData=
   ['binz',['binz',['../dd/d2e/classPHG4CylinderCellv1.html#a8e3c88922c4a212b65080b152486344d',1,'PHG4CylinderCellv1']]],
   ['bjpsi',['bjpsi',['../d2/da1/namespaceDPGEN.html#a0512590ba0452309d12cbcf7ea6592e1',1,'DPGEN']]],
   ['board',['board',['../d1/df2/structFeeData.html#a27b125c4d004c5d13df088181ba49260',1,'FeeData::board()'],['../dc/dac/structScalerData.html#aaebfbaa7014230865c92a7aa4a92f356',1,'ScalerData::board()'],['../d2/de9/structHitData.html#a3f48fab5ae464face1b07ba010591cdd',1,'HitData::board()']]],
+  ['boolflag',['boolflag',['../d1/da8/classPHFlag.html#a284873c28d823e6416d7aa95a4bf0257',1,'PHFlag']]],
   ['borderelementvec',['borderElementVec',['../d2/d72/classPHG4GDMLWriteStructure.html#aa53584e596f9df11da0f1fe10c4d7411',1,'PHG4GDMLWriteStructure']]],
   ['bortime_5foverride',['bortime_override',['../da/d29/classFun4AllServer.html#ad0bfa077fb51a8122a9955c60ea88206',1,'Fun4AllServer']]],
   ['bos_5fcoda_5fid',['bos_coda_id',['../d4/dbe/structSpillData.html#a41a88bd8d7d90780f9ca9210229405ea',1,'SpillData']]],
@@ -56,7 +57,5 @@ var searchData=
   ['brjpsi',['brjpsi',['../d2/da1/namespaceDPGEN.html#abe97efe3f80c88149929eff7a5e87954',1,'DPGEN']]],
   ['bucket_5fsize',['bucket_size',['../df/d9a/classSettings.html#a8846938893d11cba0c838f1acdb06f44',1,'Settings']]],
   ['bv_5fcms',['bv_cms',['../d2/da1/namespaceDPGEN.html#ad2f4dbf0f6b46fe55d09135ebaff6eda',1,'DPGEN']]],
-  ['bxz',['bxz',['../db/d19/classSeed.html#a8f11cb1952f594697ad1687d0c86c693',1,'Seed']]],
-  ['byteswritten',['byteswritten',['../de/d50/classFun4AllFileOutStream.html#abeb4b991601e37eb7bc738d7f8837bf7',1,'Fun4AllFileOutStream']]],
-  ['byz',['byz',['../db/d19/classSeed.html#afa5bdac1a9fea61d343177832f7bc5ce',1,'Seed']]]
+  ['byteswritten',['byteswritten',['../de/d50/classFun4AllFileOutStream.html#abeb4b991601e37eb7bc738d7f8837bf7',1,'Fun4AllFileOutStream']]]
 ];

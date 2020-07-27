@@ -85,7 +85,6 @@ var hierarchy =
         [ "HepMCCompress", "d0/d7f/classHepMCCompress.html", null ],
         [ "HepMCFlowAfterBurner", "dd/d6c/classHepMCFlowAfterBurner.html", null ],
         [ "HepMCNodeReader", "db/d6c/classHepMCNodeReader.html", null ],
-        [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html", null ],
         [ "OnlMonClient", "d9/d62/classOnlMonClient.html", [
           [ "OnlMonCham", "db/d15/classOnlMonCham.html", null ],
           [ "OnlMonH4", "d2/d02/classOnlMonH4.html", null ],
@@ -118,6 +117,7 @@ var hierarchy =
           [ "PHG4PileupGenerator", "dc/dbf/classPHG4PileupGenerator.html", null ],
           [ "PHG4PSScanGenerator", "de/d76/classPHG4PSScanGenerator.html", null ],
           [ "PHG4SimpleEventGenerator", "d5/df3/classPHG4SimpleEventGenerator.html", null ],
+          [ "SQCosmicGen", "d8/d0f/classSQCosmicGen.html", null ],
           [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html", null ]
         ] ],
         [ "PHG4Reco", "d0/d78/classPHG4Reco.html", null ],
@@ -224,7 +224,6 @@ var hierarchy =
     [ "boost::hash< T >", "d4/d27/structboost_1_1hash.html", null ],
     [ "HitData", "d2/de9/structHitData.html", null ],
     [ "PHTimeServer::iterator", "df/db9/classPHTimeServer_1_1iterator.html", null ],
-    [ "JobOptsSvc", "d8/d62/classJobOptsSvc.html", null ],
     [ "KalmanDSTrk", "db/daa/classKalmanDSTrk.html", null ],
     [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", null ],
     [ "KalmanFilter", "d6/d2a/classKalmanFilter.html", null ],
@@ -369,7 +368,6 @@ var hierarchy =
     ] ],
     [ "RunToTime", "dc/d4a/classRunToTime.html", null ],
     [ "ScalerData", "dc/dac/structScalerData.html", null ],
-    [ "Seed", "db/d19/classSeed.html", null ],
     [ "Settings", "df/d9a/classSettings.html", null ],
     [ "boost::shared_ptr< T >", "da/d18/classboost_1_1shared__ptr.html", null ],
     [ "boost::shared_ptr< boost::thread >", "da/d18/classboost_1_1shared__ptr.html", null ],
@@ -560,9 +558,7 @@ var hierarchy =
         [ "SQTrackVector", "db/d03/classSQTrackVector.html", [
           [ "SQTrackVector_v1", "d6/d0b/classSQTrackVector__v1.html", null ]
         ] ],
-        [ "SRawEvent", "d5/d83/classSRawEvent.html", [
-          [ "SRawMCEvent", "d6/dac/classSRawMCEvent.html", null ]
-        ] ],
+        [ "SRawEvent", "d5/d83/classSRawEvent.html", null ],
         [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
         [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
         [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],

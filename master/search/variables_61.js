@@ -21,7 +21,5 @@ var searchData=
   ['attenuation',['attenuation',['../d5/d7b/classSQBeamlineObject.html#a1d2ab4762cb4b610961d9465a77576fe',1,'SQBeamlineObject']]],
   ['attenuationself',['attenuationSelf',['../d5/d7b/classSQBeamlineObject.html#af04b28ccc6385918ba56253551158d3d',1,'SQBeamlineObject']]],
   ['auxlist',['auxList',['../d4/d37/structPHG4GDMLAuxStructType.html#a689c773a8b94d99f9c26ca2a6738b9ed',1,'PHG4GDMLAuxStructType::auxList()'],['../dd/db5/classPHG4GDMLWrite.html#a16c0b0a002e07a335acfa48092026637',1,'PHG4GDMLWrite::auxList()']]],
-  ['auxmap',['auxmap',['../d2/d72/classPHG4GDMLWriteStructure.html#a2c7bf40e3d330e54c902257af3f39c86',1,'PHG4GDMLWriteStructure']]],
-  ['axz',['axz',['../db/d19/classSeed.html#ada06c31eb4474ea9399d05b24cd1e910',1,'Seed']]],
-  ['ayz',['ayz',['../db/d19/classSeed.html#a2f74e34cf359ca11356c36a668e449c3',1,'Seed']]]
+  ['auxmap',['auxmap',['../d2/d72/classPHG4GDMLWriteStructure.html#a2c7bf40e3d330e54c902257af3f39c86',1,'PHG4GDMLWriteStructure']]]
 ];

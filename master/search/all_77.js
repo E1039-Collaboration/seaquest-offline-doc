@@ -5,7 +5,7 @@ var searchData=
   ['wc',['wc',['../dc/d90/classPlane.html#af3c5d38b7e3f596498a97dcc3503fc8d',1,'Plane']]],
   ['weak_5fptr',['weak_ptr',['../d8/de6/classboost_1_1weak__ptr.html',1,'boost']]],
   ['weak_5fptr',['weak_ptr',['../da/d18/classboost_1_1shared__ptr.html#a27df6e2a1650d985bdeda33f0303c83f',1,'boost::shared_ptr']]],
-  ['weight',['weight',['../d6/dac/classSRawMCEvent.html#a3ec023786e121c6c80261fc8b3998d22',1,'SRawMCEvent::weight()'],['../d5/d72/classTriggerRoad.html#a26a4f05723c07ad0fdd8bb061b7900e5',1,'TriggerRoad::weight()']]],
+  ['weight',['weight',['../d5/d72/classTriggerRoad.html#a26a4f05723c07ad0fdd8bb061b7900e5',1,'TriggerRoad']]],
   ['width',['width',['../d6/d90/structGeomParamPlane_1_1Plane.html#a64e82af00ff6e6dc3421b0228688cd07',1,'GeomParamPlane::Plane::width()'],['../d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#aeb8e042c1847ac97d4f4bf4f74c6eb7c',1,'PHG4ParticleGeneratorVectorMeson::width()']]],
   ['word_5fonly89',['WORD_ONLY89',['../d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a46455cac0b9656656552e331975ae84b',1,'DecoError']]],
   ['word_5foverflow',['WORD_OVERFLOW',['../d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225aafc295bd6948ef896d4c6a9345cb86dd',1,'DecoError']]],

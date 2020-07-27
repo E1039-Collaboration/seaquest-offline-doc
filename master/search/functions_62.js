@@ -15,6 +15,7 @@ var searchData=
   ['blackhole',['BlackHole',['../d7/d7f/classPHG4DetectorGroupSubsystem.html#a56cbe5f15efc38960c8c9694e1e4b7c8',1,'PHG4DetectorGroupSubsystem::BlackHole()'],['../d5/d29/classPHG4DetectorSubsystem.html#a59a7a51adb7ebe0fdbc9d41e97ac8fd6',1,'PHG4DetectorSubsystem::BlackHole()']]],
   ['bookevaluation',['bookEvaluation',['../d1/d13/classVertexFit.html#a41ae248c2d4336b8e7e4c310fb2346c9',1,'VertexFit']]],
   ['booleanwrite',['BooleanWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#acaa5a680bf366ae99a07faf07f4cbf7c',1,'PHG4GDMLWriteSolids']]],
+  ['boolmap',['BoolMap',['../d1/da8/classPHFlag.html#a5c10fa00aa11ec6dbf07c95b8b515629',1,'PHFlag']]],
   ['bordersurfacecache',['BorderSurfaceCache',['../d2/d72/classPHG4GDMLWriteStructure.html#aa22bfa894b736e4069f3733c5410b42e',1,'PHG4GDMLWriteStructure']]],
   ['box_5fdimensionswrite',['Box_dimensionsWrite',['../d8/dd9/classPHG4GDMLWriteParamvol.html#a38f5e401544a3dcbf1d3e49f8bb57e45',1,'PHG4GDMLWriteParamvol']]],
   ['boxwrite',['BoxWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#adb86c05c10ce4fdade5108b9e32b4398',1,'PHG4GDMLWriteSolids']]],

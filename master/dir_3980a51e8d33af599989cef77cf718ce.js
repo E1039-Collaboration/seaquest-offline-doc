@@ -13,11 +13,6 @@ var dir_3980a51e8d33af599989cef77cf718ce =
     [ "KalmanFastTracking.h", "db/db6/KalmanFastTracking_8h.html", [
       [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", "d3/d46/classKalmanFastTracking" ]
     ] ],
-    [ "KalmanFastTrackingWrapper.cxx", "d8/d66/KalmanFastTrackingWrapper_8cxx.html", "d8/d66/KalmanFastTrackingWrapper_8cxx" ],
-    [ "KalmanFastTrackingWrapper.h", "d0/d8f/KalmanFastTrackingWrapper_8h.html", [
-      [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html", "d4/dff/classKalmanFastTrackingWrapper" ]
-    ] ],
-    [ "KalmanFastTrackingWrapperLinkDef.h", "d4/d07/KalmanFastTrackingWrapperLinkDef_8h.html", null ],
     [ "SQReco.cxx", "d0/d98/SQReco_8cxx.html", "d0/d98/SQReco_8cxx" ],
     [ "SQReco.h", "d8/dde/SQReco_8h.html", [
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]

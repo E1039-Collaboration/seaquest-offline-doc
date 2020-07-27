@@ -1,14 +1,6 @@
 var searchData=
 [
   ['v',['V',['../d3/d1f/classTrackletKey.html#ad896c87672bf3ae8e7556bbfda176fa7',1,'TrackletKey::V()'],['../d9/d6e/structPyjets__t.html#a60178dbdd833e0c0e920cd24f4b84e3b',1,'Pyjets_t::V()']]],
-  ['v_5fstation1',['v_station1',['../d6/dac/classSRawMCEvent.html#a8644f700bd00e99652fd55a7f8537e0a',1,'SRawMCEvent']]],
-  ['v_5fstation2',['v_station2',['../d6/dac/classSRawMCEvent.html#ad8ef270abbd72fad37add94fcab0861c',1,'SRawMCEvent']]],
-  ['v_5fstation3',['v_station3',['../d6/dac/classSRawMCEvent.html#a1502d62c96e494f444ac5a862cad9a50',1,'SRawMCEvent']]],
-  ['v_5fstation4',['v_station4',['../d6/dac/classSRawMCEvent.html#af0a804820cb2d139f7b91dd5c86b9b73',1,'SRawMCEvent']]],
-  ['v_5fstationh1',['v_stationH1',['../d6/dac/classSRawMCEvent.html#a69c43be1fbb0a8db30c75be7723ba040',1,'SRawMCEvent']]],
-  ['v_5fstationh2',['v_stationH2',['../d6/dac/classSRawMCEvent.html#afe631f65e7fed389dbc121e60194d03a',1,'SRawMCEvent']]],
-  ['v_5fstationh3',['v_stationH3',['../d6/dac/classSRawMCEvent.html#a46b31afd88b0c608717c8b3f53e0e9de',1,'SRawMCEvent']]],
-  ['v_5fstationh4',['v_stationH4',['../d6/dac/classSRawMCEvent.html#a70d0cfc65fec53e12c6c39164bcffc22',1,'SRawMCEvent']]],
   ['value',['value',['../db/d49/structSlowControlData.html#a982979823f0d69e06f91821f79fe6e1b',1,'SlowControlData::value()'],['../dc/dac/structScalerData.html#ab861c549e3b6fd12dcdd3dc93a2b6fcf',1,'ScalerData::value()'],['../d4/d37/structPHG4GDMLAuxStructType.html#a0fe7d381ef524f89707ac6d894fc5e4b',1,'PHG4GDMLAuxStructType::value()']]],
   ['vdoubleparams',['vdoubleparams',['../dd/dae/classPHParameters.html#a4a10c67e22a08a4726ea65306bb3da00',1,'PHParameters']]],
   ['verb_5f',['verb_',['../da/ddc/classPHField.html#acc5b419af2babb382ced53f59f1541a3',1,'PHField']]],
@@ -17,7 +9,7 @@ var searchData=
   ['view',['view',['../d1/dd6/EventDisplay4Sim_8C.html#a06697dd5e6cdad5da2f4f14632bea358',1,'EventDisplay4Sim.C']]],
   ['vismanager',['visManager',['../d0/d78/classPHG4Reco.html#a8413ea3c6d4d987e2f0c6a984c2bfca5',1,'PHG4Reco']]],
   ['vmetime',['vmeTime',['../d2/d31/structEventInfo.html#a3d9488c372aaf159e802ed4ff1f628fd',1,'EventInfo']]],
-  ['vtx',['vtx',['../d6/dac/classSRawMCEvent.html#a966723abcb0aa7d52dc5dc458c0719cb',1,'SRawMCEvent::vtx()'],['../d3/d07/classSRecDimuon.html#a146bc0d4909b3d7fe9615d1ba99b8cb0',1,'SRecDimuon::vtx()']]],
+  ['vtx',['vtx',['../d3/d07/classSRecDimuon.html#a146bc0d4909b3d7fe9615d1ba99b8cb0',1,'SRecDimuon']]],
   ['vtx_5fneg',['vtx_neg',['../d3/d07/classSRecDimuon.html#abd1f1d6b559f5fd96be6a59d7e893f73',1,'SRecDimuon']]],
   ['vtx_5fpos',['vtx_pos',['../d3/d07/classSRecDimuon.html#ad22c47d0a68b8ae35308d14ee9e2b81d',1,'SRecDimuon']]],
   ['vtx_5fx',['vtx_x',['../d8/d78/classPHG4ParticleGeneratorBase.html#a42d9f3827b295ae60e73140f0cf2937c',1,'PHG4ParticleGeneratorBase']]],

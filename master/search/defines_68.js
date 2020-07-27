@@ -15,6 +15,5 @@ var searchData=
   ['half_5fradix',['HALF_RADIX',['../d8/dd3/half_8h.html#a28a9162ede14d72457b610bc0e808592',1,'half.h']]],
   ['has_5fthnsparse',['HAS_THNSPARSE',['../df/d24/Fun4AllHistoManager_8cc.html#a277fac7699c20a2813d6443f5e85f267',1,'Fun4AllHistoManager.cc']]],
   ['have_5flhep',['HAVE_LHEP',['../d2/dcb/PHG4Reco_8cc.html#a5221c4de3c8551fa533e73628534bd94',1,'PHG4Reco.cc']]],
-  ['hit_5freject',['HIT_REJECT',['../dd/de2/GlobalConsts_8h.html#af3e57e34ceec268b28fe524e578b3fcf',1,'GlobalConsts.h']]],
   ['hitflagbit',['hitFlagBit',['../db/dda/SRawEvent_8h.html#a4de584d2448f1168bb2f0c409dc5a496',1,'SRawEvent.h']]]
 ];

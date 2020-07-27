@@ -1,7 +1,6 @@
 var searchData=
 [
   ['scalerdata',['ScalerData',['../dc/dac/structScalerData.html',1,'']]],
-  ['seed',['Seed',['../db/d19/classSeed.html',1,'']]],
   ['settings',['Settings',['../df/d9a/classSettings.html',1,'']]],
   ['shared_5fptr',['shared_ptr',['../da/d18/classboost_1_1shared__ptr.html',1,'boost']]],
   ['shared_5fptr_3c_20boost_3a_3athread_20_3e',['shared_ptr&lt; boost::thread &gt;',['../da/d18/classboost_1_1shared__ptr.html',1,'boost']]],
@@ -20,6 +19,7 @@ var searchData=
   ['sp_5fenable_5fif_5fauto_5fptr_3c_20std_3a_3aauto_5fptr_3c_20t_20_3e_2c_20r_20_3e',['sp_enable_if_auto_ptr&lt; std::auto_ptr&lt; T &gt;, R &gt;',['../db/d21/structboost_1_1detail_1_1sp__enable__if__auto__ptr_3_01std_1_1auto__ptr_3_01T_01_4_00_01R_01_4.html',1,'boost::detail']]],
   ['spilldata',['SpillData',['../d4/dbe/structSpillData.html',1,'']]],
   ['sqbeamlineobject',['SQBeamlineObject',['../d5/d7b/classSQBeamlineObject.html',1,'']]],
+  ['sqcosmicgen',['SQCosmicGen',['../d8/d0f/classSQCosmicGen.html',1,'']]],
   ['sqdigitizer',['SQDigitizer',['../df/d36/classSQDigitizer.html',1,'']]],
   ['sqdimuon',['SQDimuon',['../d8/dd3/classSQDimuon.html',1,'']]],
   ['sqdimuon_5fv1',['SQDimuon_v1',['../d0/d85/classSQDimuon__v1.html',1,'']]],
@@ -68,7 +68,6 @@ var searchData=
   ['sqtrackvector_5fv1',['SQTrackVector_v1',['../d6/d0b/classSQTrackVector__v1.html',1,'']]],
   ['srawevent',['SRawEvent',['../d5/d83/classSRawEvent.html',1,'']]],
   ['sraweventembed',['SRawEventEmbed',['../d4/d36/classSRawEventEmbed.html',1,'']]],
-  ['srawmcevent',['SRawMCEvent',['../d6/dac/classSRawMCEvent.html',1,'']]],
   ['srecdimuon',['SRecDimuon',['../d3/d07/classSRecDimuon.html',1,'']]],
   ['srecevent',['SRecEvent',['../d5/d2f/classSRecEvent.html',1,'']]],
   ['srectrack',['SRecTrack',['../d6/db1/classSRecTrack.html',1,'']]],
