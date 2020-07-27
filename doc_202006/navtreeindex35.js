@@ -1,8 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"db/d88/classPHG4Shower.html":[17,0,280],
-"db/d88/classPHG4Shower.html#a0751738c450c5810ea6ea857b9c119ba":[17,0,280,0],
-"db/d88/classPHG4Shower.html#a0a49618c836e9537150d0568a6f2868b":[17,0,280,26],
 "db/d88/classPHG4Shower.html#a1394a30863939f0f246ff5c3d4d00ff7":[17,0,280,47],
 "db/d88/classPHG4Shower.html#a15c28f472c5bde05ba5ef2bd207614b0":[17,0,280,16],
 "db/d88/classPHG4Shower.html#a19357f31c92996bc52fe850f8df29610":[17,0,280,49],
@@ -249,5 +246,8 @@ var NAVTREEINDEX35 =
 "db/ddf/classPHG4TargetCoilV2Subsystem.html#a9c4f91f118c8220fb08c4653ebc04601":[17,0,293,0],
 "db/ddf/classPHG4TargetCoilV2Subsystem.html#af7c6453931db8826949d84b8f7d6e93a":[17,0,293,5],
 "db/de3/classPHFieldConfig__v3.html":[17,0,172],
-"db/de3/classPHFieldConfig__v3.html#a14758224d0dfb319268aba95f7b47204":[17,0,172,12]
+"db/de3/classPHFieldConfig__v3.html#a14758224d0dfb319268aba95f7b47204":[17,0,172,12],
+"db/de3/classPHFieldConfig__v3.html#a16a341eced1d26b7c8f414f9fc00c15b":[17,0,172,21],
+"db/de3/classPHFieldConfig__v3.html#a1e42fd03f039bea5201f965d1a1ce859":[17,0,172,14],
+"db/de3/classPHFieldConfig__v3.html#a259e024ac148b27c30ee892b0cb0b04d":[17,0,172,5]
 };

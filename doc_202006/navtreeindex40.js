@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"dd/d2a/classPHHepMCGenHelper.html#ac7cd24ce28d07d1fa3459688fc8c407b":[17,0,320,4],
-"dd/d2a/classPHHepMCGenHelper.html#acc3a46749b96a94e16970a25cc95fd0b":[17,0,320,12],
 "dd/d2a/classPHHepMCGenHelper.html#af1c2525b75067fcdd4c28de6007c5963":[17,0,320,9],
 "dd/d2a/loop__ana_8C.html":[18,0,1,4,7],
 "dd/d2a/loop__ana_8C.html#a43b318e80d2457f5ce3e00a6cf1543c8":[18,0,1,4,7,0],
@@ -68,8 +66,8 @@ var NAVTREEINDEX40 =
 "dd/d39/PHG4ConeSteppingAction_8h_source.html":[18,0,2,8,1,63],
 "dd/d3c/PHG4PileupGenerator_8h.html":[18,0,2,8,5,75],
 "dd/d3c/PHG4PileupGenerator_8h_source.html":[18,0,2,8,5,75],
-"dd/d3e/namespaceFun4AllUtils.html":[16,0,5],
 "dd/d3e/namespaceFun4AllUtils.html":[17,0,5],
+"dd/d3e/namespaceFun4AllUtils.html":[16,0,5],
 "dd/d3f/G4TBMagneticFieldSetup_8hh.html":[18,0,2,8,5,3],
 "dd/d3f/G4TBMagneticFieldSetup_8hh_source.html":[18,0,2,8,5,3],
 "dd/d44/classTruthNodeMaker.html":[17,0,442],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a56177aa21c31548bf2ebfdc5ba80b0e6":[17,0,302,5],
 "dd/d9e/classPHG4UserPrimaryParticleInformation.html#a9e69d289b5776ca0890bea47b7b53a00":[17,0,302,3],
 "dd/d9e/classPHG4UserPrimaryParticleInformation.html#abc8d2a6d01a1b4e053ec610830299577":[17,0,302,0],
-"dd/d9e/classPHG4UserPrimaryParticleInformation.html#abf796dff20b709000ff3fffe4b3b66a0":[17,0,302,7]
+"dd/d9e/classPHG4UserPrimaryParticleInformation.html#abf796dff20b709000ff3fffe4b3b66a0":[17,0,302,7],
+"dd/d9e/classPHG4UserPrimaryParticleInformation.html#ac42dcec53744d268d1ffa59a4740e0d6":[17,0,302,4],
+"dd/d9e/classPHG4UserPrimaryParticleInformation.html#aedbe54dbb51fcb81f051be902700efc7":[17,0,302,1]
 };

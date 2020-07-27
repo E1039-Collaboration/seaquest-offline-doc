@@ -1,7 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"dd/d9e/classPHG4UserPrimaryParticleInformation.html#ac42dcec53744d268d1ffa59a4740e0d6":[17,0,302,4],
-"dd/d9e/classPHG4UserPrimaryParticleInformation.html#aedbe54dbb51fcb81f051be902700efc7":[17,0,302,1],
 "dd/d9e/classPHG4UserPrimaryParticleInformation.html#af53cb036e995b156be52949e30533e52":[17,0,302,2],
 "dd/da1/OnlMonProp_8cc.html":[18,0,2,6,3,17],
 "dd/da1/OnlMonProp_8cc_source.html":[18,0,2,6,3,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX41 =
 "dd/de2/GlobalConsts_8h.html#ae2ba96c84c895dc8c253228452ad5783":[18,0,2,7,7,0,36],
 "dd/de2/GlobalConsts_8h.html#ae57bf152e0585efccc4da101382d84cb":[18,0,2,7,7,0,2],
 "dd/de2/GlobalConsts_8h.html#ae7348d2315b9f9f0c8176bf002f8787f":[18,0,2,7,7,0,49],
-"dd/de2/GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28":[18,0,2,7,7,0,5]
+"dd/de2/GlobalConsts_8h.html#ae7fcfdf4f45fbe619e7f3c06f9bdbb28":[18,0,2,7,7,0,5],
+"dd/de2/GlobalConsts_8h.html#ae8a2930021a4911babcf62a0fc0de54e":[18,0,2,7,7,0,52],
+"dd/de2/GlobalConsts_8h.html#aea8a73d368f36bef755e83bf761bc280":[18,0,2,7,7,0,50]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"db/dbc/PHG4TargetCoilSteppingAction_8cc.html":[18,0,2,7,1,164],
-"db/dbc/PHG4TargetCoilSteppingAction_8cc_source.html":[18,0,2,7,1,164],
-"db/dbe/Fun4AllOscarInputManager_8cc.html":[18,0,2,2,1,9],
 "db/dbe/Fun4AllOscarInputManager_8cc.html#a6bde64d7528df1ca2bde90a10dcf10a1":[18,0,2,2,1,9,0],
 "db/dbe/Fun4AllOscarInputManager_8cc.html#a6e03dca3d9c4e96cc05819f1e389cb3f":[18,0,2,2,1,9,1],
 "db/dbe/Fun4AllOscarInputManager_8cc.html#a9f5d148a70f9354113264052c143dca8":[18,0,2,2,1,9,2],
@@ -67,11 +64,11 @@ var NAVTREEINDEX35 =
 "db/de3/classPHFieldConfig__v3.html#aefc5510841b6822af5eba70d0f28ef1a":[17,0,168,18],
 "db/de7/SQHitMap__v1_8cxx.html":[18,0,2,3,26],
 "db/de7/SQHitMap__v1_8cxx_source.html":[18,0,2,3,26],
-"db/dea/RecoE1039Data_8C.html":[18,0,1,11,2],
-"db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[18,0,1,11,2,0],
-"db/dea/RecoE1039Data_8C_source.html":[18,0,1,11,2],
-"db/ded/namespacePHG4TrackStatusDecode.html":[17,0,12],
+"db/dea/RecoE1039Data_8C.html":[18,0,1,11,1],
+"db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[18,0,1,11,1,0],
+"db/dea/RecoE1039Data_8C_source.html":[18,0,1,11,1],
 "db/ded/namespacePHG4TrackStatusDecode.html":[16,0,12],
+"db/ded/namespacePHG4TrackStatusDecode.html":[17,0,12],
 "db/df0/VertexFit_8cxx.html":[18,0,2,6,11,2,12],
 "db/df0/VertexFit_8cxx_source.html":[18,0,2,6,11,2,12],
 "db/df0/classPHPy8GenTrigger.html":[17,0,333],
@@ -249,5 +246,8 @@ var NAVTREEINDEX35 =
 "dc/d30/classPHG4CylinderGeom.html#a2080dfb45186f3bcb820c79d49526f53":[17,0,208,5],
 "dc/d30/classPHG4CylinderGeom.html#a2ce5e62733c0032b408d6b29689f7134":[17,0,208,26],
 "dc/d30/classPHG4CylinderGeom.html#a314e0a7c0210ad44b9d02f178f209a4e":[17,0,208,19],
-"dc/d30/classPHG4CylinderGeom.html#a554ae3b5caa718578910acf2a3e198f5":[17,0,208,27]
+"dc/d30/classPHG4CylinderGeom.html#a554ae3b5caa718578910acf2a3e198f5":[17,0,208,27],
+"dc/d30/classPHG4CylinderGeom.html#a5e628ced545e46cdcdb65944fd63e524":[17,0,208,17],
+"dc/d30/classPHG4CylinderGeom.html#a65215722dae7c8766a83c220a222b6a1":[17,0,208,18],
+"dc/d30/classPHG4CylinderGeom.html#a66c0e9b04057cd3b2fffdbd6727e7f94":[17,0,208,11]
 };

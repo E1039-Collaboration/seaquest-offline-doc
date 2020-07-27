@@ -1,8 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"db/d64/classVtxPar.html#a77ebe881dfd59d29d0bbcd03252b174f":[17,0,441,1],
-"db/d64/classVtxPar.html#a9557c4cad2f54a44b44b6af8f59139cc":[17,0,441,0],
-"db/d64/classVtxPar.html#af1a9b7824bf7c448b134c990a9d1bcbc":[17,0,441,2],
 "db/d65/PHG4BlockGeomContainer_8h.html":[18,0,2,7,1,15],
 "db/d65/PHG4BlockGeomContainer_8h_source.html":[18,0,2,7,1,15],
 "db/d68/RndmEmbedLinkDef_8h.html":[18,0,2,6,4,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX34 =
 "db/db6/KalmanFastTracking_8h_source.html":[18,0,2,6,11,2,6],
 "db/dba/Fun4SimDst_8C.html":[18,0,1,2,1,0],
 "db/dba/Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae":[18,0,1,2,1,0,0],
-"db/dba/Fun4SimDst_8C_source.html":[18,0,1,2,1,0]
+"db/dba/Fun4SimDst_8C_source.html":[18,0,1,2,1,0],
+"db/dbc/PHG4TargetCoilSteppingAction_8cc.html":[18,0,2,7,1,164],
+"db/dbc/PHG4TargetCoilSteppingAction_8cc_source.html":[18,0,2,7,1,164],
+"db/dbe/Fun4AllOscarInputManager_8cc.html":[18,0,2,2,1,9]
 };

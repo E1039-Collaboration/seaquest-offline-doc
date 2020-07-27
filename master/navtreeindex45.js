@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"df/d9a/classSettings.html#a34f105dc22197e4ff8ea65a7437998c5":[17,0,359,14],
-"df/d9a/classSettings.html#a3dd9c408bee58f6a95cd4212b101d07a":[17,0,359,26],
 "df/d9a/classSettings.html#a40aec4487c04ff25418418ca255c80f7":[17,0,359,1],
 "df/d9a/classSettings.html#a46b46257833190125140eb1378a4433c":[17,0,359,20],
 "df/d9a/classSettings.html#a6489e442de562a4bcc0b2fb9b1023121":[17,0,359,16],
@@ -86,10 +84,6 @@ var NAVTREEINDEX45 =
 "df/db9/classPHTimeServer_1_1iterator.html#afefab8983e99e97395c9878f3556f73e":[17,0,340,0,2],
 "df/dbc/PHGenericFactoryT_8h.html":[18,0,2,0,0,0,31],
 "df/dbc/PHGenericFactoryT_8h_source.html":[18,0,2,0,0,0,31],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html":[18,0,1,11,1,0],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b":[18,0,1,11,1,0,0],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html#af71e50cde83a891cd25129c49f742314":[18,0,1,11,1,0,1],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C_source.html":[18,0,1,11,1,0],
 "df/dca/OnlMonMainDaq_8h.html":[18,0,2,5,3,16],
 "df/dca/OnlMonMainDaq_8h_source.html":[18,0,2,5,3,16],
 "df/dcd/PHNodeReset_8h.html":[18,0,2,1,2,22],
@@ -249,5 +243,11 @@ var NAVTREEINDEX45 =
 "df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0a865d047dfa46d0953a71ceeb8cca3f2a":[17,0,395,0,3],
 "df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0ab361121968d67698dc68c8515726ce67":[17,0,395,0,2],
 "df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0aefaab24c77e74a91337ce1707f9c14c6":[17,0,395,0,4],
-"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081":[17,0,395,0,0]
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081":[17,0,395,0,0],
+"df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb":[17,0,395,17],
+"df/df2/classSQReco.html#a50547612983effadd740fbf90e27bb09":[17,0,395,10],
+"df/df2/classSQReco.html#a676dd771ef706498758692f778f7c659":[17,0,395,22],
+"df/df2/classSQReco.html#a6c0a83b27bb557a841efe71bfa7ae45d":[17,0,395,25],
+"df/df2/classSQReco.html#a76d0080f40e14f5b1a3387f338dfec72":[17,0,395,8],
+"df/df2/classSQReco.html#a776b09887ccbc519302f98905019813c":[17,0,395,26]
 };

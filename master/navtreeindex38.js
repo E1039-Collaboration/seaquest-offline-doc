@@ -1,7 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"dc/dae/classOnlMonTrigSig.html#aeeb789b46435bfb205b20b465c4cc81a":[17,0,133,0],
-"dc/db1/KalmanFilter_8h.html":[18,0,2,6,11,1,3],
 "dc/db1/KalmanFilter_8h_source.html":[18,0,2,6,11,1,3],
 "dc/db2/SQMCHit__v1LinkDef_8h.html":[18,0,2,3,50],
 "dc/db2/SQMCHit__v1LinkDef_8h_source.html":[18,0,2,3,50],
@@ -249,5 +247,7 @@ var NAVTREEINDEX38 =
 "dd/d13/classPHG4ParticleGun.html#a602c1dc8c1b1a7aa762d9a1def15c0f9":[17,0,261,0],
 "dd/d13/classPHG4ParticleGun.html#a6a76fa0b061c94d8ce36da48fd41d274":[17,0,261,4],
 "dd/d13/classPHG4ParticleGun.html#adadde5ec4273504953ce2c5d2d2a7c28":[17,0,261,6],
-"dd/d13/classPHG4ParticleGun.html#afa64e84e25209e628fb70fac75357559":[17,0,261,3]
+"dd/d13/classPHG4ParticleGun.html#afa64e84e25209e628fb70fac75357559":[17,0,261,3],
+"dd/d1f/EVIO__Event_8cxx.html":[18,0,2,5,1,2],
+"dd/d1f/EVIO__Event_8cxx_source.html":[18,0,2,5,1,2]
 };

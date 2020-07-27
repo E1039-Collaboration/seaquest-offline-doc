@@ -1,8 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"dc/d39/classPHG4EventAction.html#a51f4512ce8b1e3e698c3e93d1730cd86":[17,0,229,3],
-"dc/d39/classPHG4EventAction.html#a5541c7fbee69057a501f010204b60ed5":[17,0,229,2],
-"dc/d39/classPHG4EventAction.html#aa3de5031934dcadb89a3c0e0e9472328":[17,0,229,5],
 "dc/d39/classPHG4EventAction.html#ac9fa31d16ad34e6b2c64c6dbf272ca88":[17,0,229,4],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html":[17,0,382],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html#a987f9dd192d0398318a72f229fb715eb":[17,0,382,5],
@@ -249,5 +246,8 @@ var NAVTREEINDEX37 =
 "dc/d94/classPHG4CylinderCellTPCReco.html#a59a9cd4d5c59a7f44663e60d27bea0da":[17,0,207,61],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a5a8db0052705e4b8b5f9ea01e3d5aabb":[17,0,207,49],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a60484205e9c8eecf75b456a47f5c9a5f":[17,0,207,21],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a652e23eb754817317594aedd63b8c7dc":[17,0,207,10]
+"dc/d94/classPHG4CylinderCellTPCReco.html#a652e23eb754817317594aedd63b8c7dc":[17,0,207,10],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a66b8e24b6e4d8f8365175e90a6175894":[17,0,207,45],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a67bb69d3fa7e7ca20a7cc86d8ae21411":[17,0,207,43],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a73846db9ce9c976c6fa284c30b7a20cf":[17,0,207,38]
 };

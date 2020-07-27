@@ -1,7 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"df/d9a/classSettings.html#a16f67a9e8a88c5a3c770fb4fdf2f280f":[17,0,365,2],
-"df/d9a/classSettings.html#a19e0944aa7a4e21804b9303a895172d9":[17,0,365,27],
 "df/d9a/classSettings.html#a24ac2e383d7c30f6230278c906e7cedc":[17,0,365,6],
 "df/d9a/classSettings.html#a2a7e2619ccbe0fb4e0331dc392ad04e7":[17,0,365,17],
 "df/d9a/classSettings.html#a34f105dc22197e4ff8ea65a7437998c5":[17,0,365,14],
@@ -90,10 +88,6 @@ var NAVTREEINDEX46 =
 "df/db9/classPHTimeServer_1_1iterator.html#afefab8983e99e97395c9878f3556f73e":[17,0,344,0,2],
 "df/dbc/PHGenericFactoryT_8h.html":[18,0,2,0,0,0,31],
 "df/dbc/PHGenericFactoryT_8h_source.html":[18,0,2,0,0,0,31],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html":[18,0,1,11,1,0],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b":[18,0,1,11,1,0,0],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C.html#af71e50cde83a891cd25129c49f742314":[18,0,1,11,1,0,1],
-"df/dc5/e1039-analysis_2RecoDev_2support_2G4__SensitiveDetectors_8C_source.html":[18,0,1,11,1,0],
 "df/dca/OnlMonMainDaq_8h.html":[18,0,2,6,3,16],
 "df/dca/OnlMonMainDaq_8h_source.html":[18,0,2,6,3,16],
 "df/dcd/PHNodeReset_8h.html":[18,0,2,1,2,22],
@@ -249,5 +243,11 @@ var NAVTREEINDEX46 =
 "df/df2/classSQReco.html#a32bb088e7896b2ecdb5b9aa4df1f6a50":[17,0,399,7],
 "df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b":[17,0,399,15],
 "df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0":[17,0,399,0],
-"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0a3cdae1f10bab017b9b0b95bc394a0475":[17,0,399,0,1]
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0a3cdae1f10bab017b9b0b95bc394a0475":[17,0,399,0,1],
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0a865d047dfa46d0953a71ceeb8cca3f2a":[17,0,399,0,3],
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0ab361121968d67698dc68c8515726ce67":[17,0,399,0,2],
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0aefaab24c77e74a91337ce1707f9c14c6":[17,0,399,0,4],
+"df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081":[17,0,399,0,0],
+"df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb":[17,0,399,17],
+"df/df2/classSQReco.html#a50547612983effadd740fbf90e27bb09":[17,0,399,10]
 };

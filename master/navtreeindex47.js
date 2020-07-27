@@ -1,12 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"globals_0x70.html":[18,1,0,16],
-"globals_0x72.html":[18,1,0,17],
-"globals_0x73.html":[18,1,0,18],
-"globals_0x74.html":[18,1,0,19],
-"globals_0x75.html":[18,1,0,20],
-"globals_0x76.html":[18,1,0,21],
-"globals_0x78.html":[18,1,0,22],
 "globals_0x7a.html":[18,1,0,23],
 "globals_defs.html":[18,1,6],
 "globals_enum.html":[18,1,4],

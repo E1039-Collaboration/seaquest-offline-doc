@@ -1,8 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d6/db7/classPHG4CylinderCell.html#a863f7fffe009e7017fe0b812146dbec9":[17,0,198,37],
-"d6/db7/classPHG4CylinderCell.html#a88b5768b1e8cfba0c61e75159596fb9a":[17,0,198,53],
-"d6/db7/classPHG4CylinderCell.html#a90979ae1257e2622faf703286c6455ce":[17,0,198,52],
 "d6/db7/classPHG4CylinderCell.html#a91a532247921775f821aa09628446158":[17,0,198,46],
 "d6/db7/classPHG4CylinderCell.html#aa2d6911417325fe718a534869dd3bfa8":[17,0,198,3],
 "d6/db7/classPHG4CylinderCell.html#aa5d5789c0a371cf3d0c9a3dfc7f3f467":[17,0,198,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX20 =
 "d7/d21/classPHG4BNLTargetCoilDetector.html":[17,0,183],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#a16c32900d2a48f11dc455765404f20a0":[17,0,183,2],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#a6cc5a8e1b905449fdd61d8f1b183512b":[17,0,183,4],
-"d7/d21/classPHG4BNLTargetCoilDetector.html#a74105d7831d94e07c994c206c44bc348":[17,0,183,3]
+"d7/d21/classPHG4BNLTargetCoilDetector.html#a74105d7831d94e07c994c206c44bc348":[17,0,183,3],
+"d7/d21/classPHG4BNLTargetCoilDetector.html#aa77b00e6ae09614d1bb752f26f0867a9":[17,0,183,7],
+"d7/d21/classPHG4BNLTargetCoilDetector.html#ab310aa717fa68673170b8452955defe6":[17,0,183,5],
+"d7/d21/classPHG4BNLTargetCoilDetector.html#ae3848aea7c8fc48866af5d922016584c":[17,0,183,6]
 };

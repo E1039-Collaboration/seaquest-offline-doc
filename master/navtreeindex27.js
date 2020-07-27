@@ -1,8 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d9/d35/classPHG4Hitv1.html#a30d9335ef66effcdaf02c2d0d638ee52":[17,0,245,50],
-"d9/d35/classPHG4Hitv1.html#a310839a3bd07bad2c46020a246d1626e":[17,0,245,86],
-"d9/d35/classPHG4Hitv1.html#a3296b2329cd86b74a3d91d19cdd566ae":[17,0,245,4],
 "d9/d35/classPHG4Hitv1.html#a38136c40743d7278ad78463c0c2c3311":[17,0,245,46],
 "d9/d35/classPHG4Hitv1.html#a3af71e8df729d92ec42801d6c21b8f95":[17,0,245,30],
 "d9/d35/classPHG4Hitv1.html#a3d46ef22fe9004c2ab891367beb60cdd":[17,0,245,7],
@@ -249,5 +246,8 @@ var NAVTREEINDEX27 =
 "d9/d85/classPHG4CylinderCellGeom.html":[17,0,200],
 "d9/d85/classPHG4CylinderCellGeom.html#a0cdfdbb3b06ded109b6229d2bd74e92d":[17,0,200,22],
 "d9/d85/classPHG4CylinderCellGeom.html#a0ce4e04ee11a264e6953af75fcbfc94a":[17,0,200,50],
-"d9/d85/classPHG4CylinderCellGeom.html#a0e73f31eebff77409ad169e3ba6e7cdd":[17,0,200,40]
+"d9/d85/classPHG4CylinderCellGeom.html#a0e73f31eebff77409ad169e3ba6e7cdd":[17,0,200,40],
+"d9/d85/classPHG4CylinderCellGeom.html#a108104cde65d2ca503e306251188e615":[17,0,200,19],
+"d9/d85/classPHG4CylinderCellGeom.html#a10a58a3eed1d5566cebd3b19583d78bb":[17,0,200,18],
+"d9/d85/classPHG4CylinderCellGeom.html#a140ad9b8b6ad9f527060932156139ccd":[17,0,200,37]
 };

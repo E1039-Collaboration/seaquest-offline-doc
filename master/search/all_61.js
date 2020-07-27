@@ -106,7 +106,7 @@ var searchData=
   ['anaeffhodo_2ecc',['AnaEffHodo.cc',['../d6/d1e/AnaEffHodo_8cc.html',1,'']]],
   ['anaeffhodo_2eh',['AnaEffHodo.h',['../da/d85/AnaEffHodo_8h.html',1,'']]],
   ['anaevents',['AnaEvents',['../d3/dcd/Fun4SimTree_8C.html#a65653d89a06358ac749f7ff6e27369d0',1,'Fun4SimTree.C']]],
-  ['anamodule',['AnaModule',['../dc/da8/classAnaModule.html',1,'AnaModule'],['../dc/da8/classAnaModule.html#a0bd548e5941ef92c14a90d972c59bb71',1,'AnaModule::AnaModule()'],['../dc/da8/classAnaModule.html#a0bd548e5941ef92c14a90d972c59bb71',1,'AnaModule::AnaModule()']]],
+  ['anamodule',['AnaModule',['../dc/da8/classAnaModule.html',1,'AnaModule'],['../dc/da8/classAnaModule.html#a0bd548e5941ef92c14a90d972c59bb71',1,'AnaModule::AnaModule()'],['../dc/da8/classAnaModule.html#ae021361d9386096305da0eefbbc96c92',1,'AnaModule::AnaModule(const std::string &amp;name=&quot;AnaModule&quot;)']]],
   ['anamodule_2ecxx',['AnaModule.cxx',['../df/d0d/EMCalDev_2AnaModule_2AnaModule_8cxx.html',1,'']]],
   ['anamodule_2ecxx',['AnaModule.cxx',['../da/d8d/RecoDev_2AnaModule_2AnaModule_8cxx.html',1,'']]],
   ['anamodule_2eh',['AnaModule.h',['../d3/dec/EMCalDev_2AnaModule_2AnaModule_8h.html',1,'']]],

@@ -1,8 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"db/de3/classPHFieldConfig__v3.html#a16a341eced1d26b7c8f414f9fc00c15b":[17,0,172,21],
-"db/de3/classPHFieldConfig__v3.html#a1e42fd03f039bea5201f965d1a1ce859":[17,0,172,14],
-"db/de3/classPHFieldConfig__v3.html#a259e024ac148b27c30ee892b0cb0b04d":[17,0,172,5],
 "db/de3/classPHFieldConfig__v3.html#a2d16d808c8e1c9a707aaa98787a9d379":[17,0,172,7],
 "db/de3/classPHFieldConfig__v3.html#a43d3ae4fe1008595cb97580797583ed6":[17,0,172,19],
 "db/de3/classPHFieldConfig__v3.html#a46735e89d78967b8ed7d21bcc059eba3":[17,0,172,6],
@@ -24,9 +21,9 @@ var NAVTREEINDEX36 =
 "db/de3/classPHFieldConfig__v3.html#aefc5510841b6822af5eba70d0f28ef1a":[17,0,172,18],
 "db/de7/SQHitMap__v1_8cxx.html":[18,0,2,3,26],
 "db/de7/SQHitMap__v1_8cxx_source.html":[18,0,2,3,26],
-"db/dea/RecoE1039Data_8C.html":[18,0,1,11,2],
-"db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[18,0,1,11,2,0],
-"db/dea/RecoE1039Data_8C_source.html":[18,0,1,11,2],
+"db/dea/RecoE1039Data_8C.html":[18,0,1,11,1],
+"db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[18,0,1,11,1,0],
+"db/dea/RecoE1039Data_8C_source.html":[18,0,1,11,1],
 "db/ded/namespacePHG4TrackStatusDecode.html":[16,0,12],
 "db/ded/namespacePHG4TrackStatusDecode.html":[17,0,12],
 "db/df0/VertexFit_8cxx.html":[18,0,2,7,12,2,15],
@@ -120,8 +117,8 @@ var NAVTREEINDEX36 =
 "db/dfa/classPHG4Showerv1.html#af4ddd60461252725d11f67899c8085f1":[17,0,281,48],
 "db/dfa/classPHG4Showerv1.html#af597fa48f724bbda18976815189bd8d0":[17,0,281,33],
 "db/dfa/classPHG4Showerv1.html#af83ab28c05381aca906a9246684a1a8b":[17,0,281,42],
-"db/dfc/namespaceerhic.html":[16,0,2],
 "db/dfc/namespaceerhic.html":[17,0,2],
+"db/dfc/namespaceerhic.html":[16,0,2],
 "db/dfd/SubsysRecoLinkDef_8h.html":[18,0,2,1,1,43],
 "db/dfd/SubsysRecoLinkDef_8h_source.html":[18,0,2,1,1,43],
 "dc/d01/PHNodeReset_8cc.html":[18,0,2,1,2,21],
@@ -249,5 +246,8 @@ var NAVTREEINDEX36 =
 "dc/d38/classPHG4ConsistencyCheck.html#ae7787e4ce2e1ba0b118212ac37186319":[17,0,201,4],
 "dc/d39/classPHG4EventAction.html":[17,0,229],
 "dc/d39/classPHG4EventAction.html#a03372e3ca55aa95b5e318d7047419419":[17,0,229,1],
-"dc/d39/classPHG4EventAction.html#a0ca03c2943e3534c00d1bfb071345d73":[17,0,229,0]
+"dc/d39/classPHG4EventAction.html#a0ca03c2943e3534c00d1bfb071345d73":[17,0,229,0],
+"dc/d39/classPHG4EventAction.html#a51f4512ce8b1e3e698c3e93d1730cd86":[17,0,229,3],
+"dc/d39/classPHG4EventAction.html#a5541c7fbee69057a501f010204b60ed5":[17,0,229,2],
+"dc/d39/classPHG4EventAction.html#aa3de5031934dcadb89a3c0e0e9472328":[17,0,229,5]
 };

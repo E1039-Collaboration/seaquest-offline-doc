@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"df/d3f/classPHG4SteppingAction.html#a290ed92a661efc7ee1ea1b2acbcaa40b":[17,0,286,7],
-"df/d3f/classPHG4SteppingAction.html#a3f7be4288c6944cd44ec86e27629f642":[17,0,286,0],
 "df/d3f/classPHG4SteppingAction.html#a5183bb8d4d85ea62fd4960dfbd378eb8":[17,0,286,15],
 "df/d3f/classPHG4SteppingAction.html#a57aa751589ae9eb0c2e6563948e85513":[17,0,286,5],
 "df/d3f/classPHG4SteppingAction.html#a57fef5578f2f19918f0460413162cec1":[17,0,286,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX45 =
 "df/d98/PHGenIntegral_8cc.html":[18,0,2,2,1,28],
 "df/d98/PHGenIntegral_8cc_source.html":[18,0,2,2,1,28],
 "df/d9a/classSettings.html":[17,0,365],
-"df/d9a/classSettings.html#a068f0293666259ebbba2ac50567b85d6":[17,0,365,25]
+"df/d9a/classSettings.html#a068f0293666259ebbba2ac50567b85d6":[17,0,365,25],
+"df/d9a/classSettings.html#a16f67a9e8a88c5a3c770fb4fdf2f280f":[17,0,365,2],
+"df/d9a/classSettings.html#a19e0944aa7a4e21804b9303a895172d9":[17,0,365,27]
 };

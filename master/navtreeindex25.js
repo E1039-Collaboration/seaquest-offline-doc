@@ -1,8 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d8/d75/PHG4BlockCellReco_8h.html":[18,0,2,7,1,8],
-"d8/d75/PHG4BlockCellReco_8h_source.html":[18,0,2,7,1,8],
-"d8/d76/MainDaqParser_8cc.html":[18,0,2,5,0,38],
 "d8/d76/MainDaqParser_8cc_source.html":[18,0,2,5,0,38],
 "d8/d77/classFun4AllOutputManager.html":[17,0,87],
 "d8/d77/classFun4AllOutputManager.html#a10d330c52e45b958d7e8ec5bebbe5a57":[17,0,87,19],
@@ -249,5 +246,8 @@ var NAVTREEINDEX25 =
 "d8/dd9/classPHG4GDMLWriteParamvol.html#aca1efafd52e225a354ae880df2cfa4a6":[17,0,235,4],
 "d8/dd9/classPHG4GDMLWriteParamvol.html#adba0dddfc7fa2597e58ee2d74fd0e18d":[17,0,235,13],
 "d8/dd9/classPHG4GDMLWriteParamvol.html#aeb0a16c27558638560ddc0f459797cc1":[17,0,235,17],
-"d8/dd9/classPHG4GDMLWriteParamvol.html#aeb0ab329331fed2eb6f9e7222d7ff7bc":[17,0,235,14]
+"d8/dd9/classPHG4GDMLWriteParamvol.html#aeb0ab329331fed2eb6f9e7222d7ff7bc":[17,0,235,14],
+"d8/dd9/classPHG4GDMLWriteParamvol.html#af37ce5bcfc07bea2c0a4026da4fa2c3a":[17,0,235,12],
+"d8/dda/classDPTriggerAnalyzer.html":[17,0,55],
+"d8/dda/classDPTriggerAnalyzer.html#a000f2f9719caea965ece0207962937b5":[17,0,55,1]
 };
