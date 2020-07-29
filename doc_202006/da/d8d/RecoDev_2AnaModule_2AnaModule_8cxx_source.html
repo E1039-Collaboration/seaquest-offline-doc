@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/da8/classAnaModule.html#ae3ca49406af66b8b7dd5724f48802c59">AnaModule::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordtype">int</span> nTracks = trackVector-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a69322b73b694fc0bf3b82dc30a5d005e">size</a>();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> nRecTracks = recEvent != <span class="keyword">nullptr</span> ? recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ad4f62731f72ed59ec80729cf04a6d222">getNTracks</a>() : -1;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> nRecTracks = legacyContainer ? recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ad4f62731f72ed59ec80729cf04a6d222">getNTracks</a>() : recTrackVector-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a69322b73b694fc0bf3b82dc30a5d005e">size</a>();</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nTracks; ++i)</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  {</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d7/d1b/classSQTrack.html">SQTrack</a>* track = trackVector-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a489eca8d2db14da5fa3042bc4405f0bc">at</a>(i);</div>
@@ -192,7 +192,7 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> recid = track-&gt;get_rec_track_id();</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>(recid &gt;= 0 &amp;&amp; recid &lt; nRecTracks)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a>* recTrack = &amp;(recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ae33223391d8dba8496099f939e145c1a">getTrack</a>(recid));</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a>* recTrack = legacyContainer ? &amp;(recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ae33223391d8dba8496099f939e145c1a">getTrack</a>(recid)) : dynamic_cast&lt;SRecTrack*&gt;(recTrackVector-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a489eca8d2db14da5fa3042bc4405f0bc">at</a>(recid));</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      *rec_mom1 = recTrack-&gt;<a class="code" href="../../d6/db1/classSRecTrack.html#a2a007d7332133ca35e214ff4daf823fc">getMomentumVecSt1</a>();</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      *rec_momvtx = recTrack-&gt;<a class="code" href="../../d6/db1/classSRecTrack.html#aa7a56c7cf5835e13ed21880317d70770">getVertexMom</a>();</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
@@ -206,7 +206,7 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  }</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">int</span> nDimuons = dimuonVector-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a77cbc4eede018179f7ada30e2736a30f">size</a>();</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordtype">int</span> nRecDimuons = recEvent != <span class="keyword">nullptr</span> ? recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#af3ec950be8c17e1e72c5c3fe5dc31b1c">getNDimuons</a>() : -1;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordtype">int</span> nRecDimuons = legacyContainer ? recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#af3ec950be8c17e1e72c5c3fe5dc31b1c">getNDimuons</a>() : recDimuonVector-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a77cbc4eede018179f7ada30e2736a30f">size</a>();</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nDimuons; ++i)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  {</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a>* dimuon = dimuonVector-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a28ff637cf6742f35a3b1303e10b4de7e">at</a>(i);</div>
@@ -217,10 +217,10 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> recid = dimuon-&gt;get_rec_dimuon_id();</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span>(recid &gt;= 0 &amp;&amp; recid&lt; nRecDimuons)</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <a class="code" href="../../d3/d07/classSRecDimuon.html">SRecDimuon</a> recDimuon = recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ae58e9b5338329870fd20651abf27c570">getDimuon</a>(recid);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      rec_mass = recDimuon.<a class="code" href="../../d3/d07/classSRecDimuon.html#ab7d64de79dbdc4624fde028f7dd66195">mass</a>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      *rec_pmom = recDimuon.<a class="code" href="../../d3/d07/classSRecDimuon.html#aa42c0c2f1e88a8c357e24680527b938d">p_pos</a>.Vect();</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      *rec_nmom = recDimuon.<a class="code" href="../../d3/d07/classSRecDimuon.html#a917641855d8ff79aca8a282c3d1161e7">p_neg</a>.Vect();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <a class="code" href="../../d3/d07/classSRecDimuon.html">SRecDimuon</a>* recDimuon = legacyContainer ? &amp;(recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#ae58e9b5338329870fd20651abf27c570">getDimuon</a>(recid)) : dynamic_cast&lt;SRecDimuon*&gt;(recDimuonVector-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a28ff637cf6742f35a3b1303e10b4de7e">at</a>(recid));</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      rec_mass = recDimuon-&gt;<a class="code" href="../../d3/d07/classSRecDimuon.html#ab7d64de79dbdc4624fde028f7dd66195">mass</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      *rec_pmom = recDimuon-&gt;<a class="code" href="../../d3/d07/classSRecDimuon.html#aa42c0c2f1e88a8c357e24680527b938d">p_pos</a>.Vect();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      *rec_nmom = recDimuon-&gt;<a class="code" href="../../d3/d07/classSRecDimuon.html#a917641855d8ff79aca8a282c3d1161e7">p_neg</a>.Vect();</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
@@ -246,8 +246,8 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keywordtype">int</span> AnaModule::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;{</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  hitVector = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  trackVector = findNode::getClass&lt;SQTrackVector&gt;(topNode, <span class="stringliteral">&quot;SQTruthTrackVector&quot;</span>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  hitVector    = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  trackVector  = findNode::getClass&lt;SQTrackVector&gt;(topNode, <span class="stringliteral">&quot;SQTruthTrackVector&quot;</span>);</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  dimuonVector = findNode::getClass&lt;SQDimuonVector&gt;(topNode, <span class="stringliteral">&quot;SQTruthDimuonVector&quot;</span>);</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="keywordflow">if</span>(!hitVector || !trackVector || !dimuonVector)</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  {</div>
@@ -260,42 +260,49 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(!recEvent)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    {</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;      recEvent = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  }</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  recTrackVector = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  recDimuonVector = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="keywordtype">void</span> AnaModule::MakeTree()</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;{</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  saveFile = <span class="keyword">new</span> TFile(saveName, <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    recTrackVector  = findNode::getClass&lt;SQTrackVector&gt;(topNode, <span class="stringliteral">&quot;SQRecTrackVector&quot;</span>);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    recDimuonVector = findNode::getClass&lt;SQDimuonVector&gt;(topNode, <span class="stringliteral">&quot;SQRecDimuonVector&quot;</span>);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">if</span>(!recTrackVector || !recDimuonVector)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  }</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  saveTree1 = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;trk&quot;</span>, <span class="stringliteral">&quot;Track Tree Created by AnaModule&quot;</span>);</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;eventID, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;charge&quot;</span>, &amp;charge, <span class="stringliteral">&quot;charge/I&quot;</span>);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos1&quot;</span>, &amp;pos1, 256000, 99);</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos2&quot;</span>, &amp;pos2, 256000, 99);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos3&quot;</span>, &amp;pos3, 256000, 99);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;posvtx&quot;</span>, &amp;posvtx, 256000, 99);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom1&quot;</span>, &amp;mom1, 256000, 99);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom2&quot;</span>, &amp;mom2, 256000, 99);</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom3&quot;</span>, &amp;mom3, 256000, 99);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;momvtx&quot;</span>, &amp;momvtx, 256000, 99);</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;rec_mom1&quot;</span>, &amp;rec_mom1, 256000, 99);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;rec_momvtx&quot;</span>, &amp;rec_momvtx, 256000, 99);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  saveTree2 = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;dim&quot;</span>, <span class="stringliteral">&quot;Dimuon Tree Created by AnaModule&quot;</span>);</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;eventID, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;mass&quot;</span>, &amp;mass, <span class="stringliteral">&quot;mass/D&quot;</span>);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_mass&quot;</span>, &amp;rec_mass, <span class="stringliteral">&quot;rec_mass/D&quot;</span>);</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;pmom&quot;</span>, &amp;pmom, 256000, 99);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;nmom&quot;</span>, &amp;nmom, 256000, 99);</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_pmom&quot;</span>, &amp;rec_pmom, 256000, 99);</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_nmom&quot;</span>, &amp;rec_nmom, 256000, 99);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;}</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keywordtype">void</span> AnaModule::MakeTree()</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  saveFile = <span class="keyword">new</span> TFile(saveName, <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  saveTree1 = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;trk&quot;</span>, <span class="stringliteral">&quot;Track Tree Created by AnaModule&quot;</span>);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;eventID, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;charge&quot;</span>, &amp;charge, <span class="stringliteral">&quot;charge/I&quot;</span>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos1&quot;</span>, &amp;pos1, 256000, 99);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos2&quot;</span>, &amp;pos2, 256000, 99);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;pos3&quot;</span>, &amp;pos3, 256000, 99);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;posvtx&quot;</span>, &amp;posvtx, 256000, 99);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom1&quot;</span>, &amp;mom1, 256000, 99);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom2&quot;</span>, &amp;mom2, 256000, 99);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;mom3&quot;</span>, &amp;mom3, 256000, 99);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;momvtx&quot;</span>, &amp;momvtx, 256000, 99);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;rec_mom1&quot;</span>, &amp;rec_mom1, 256000, 99);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  saveTree1-&gt;Branch(<span class="stringliteral">&quot;rec_momvtx&quot;</span>, &amp;rec_momvtx, 256000, 99);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  saveTree2 = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;dim&quot;</span>, <span class="stringliteral">&quot;Dimuon Tree Created by AnaModule&quot;</span>);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;eventID, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;mass&quot;</span>, &amp;mass, <span class="stringliteral">&quot;mass/D&quot;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_mass&quot;</span>, &amp;rec_mass, <span class="stringliteral">&quot;rec_mass/D&quot;</span>);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;pmom&quot;</span>, &amp;pmom, 256000, 99);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;nmom&quot;</span>, &amp;nmom, 256000, 99);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_pmom&quot;</span>, &amp;rec_pmom, 256000, 99);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  saveTree2-&gt;Branch(<span class="stringliteral">&quot;rec_nmom&quot;</span>, &amp;rec_nmom, 256000, 99);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
 <div class="ttc" id="classSQTrack_html_a247e1764cbde039ea677fcad7181b9be"><div class="ttname"><a href="../../d7/d1b/classSQTrack.html#a247e1764cbde039ea677fcad7181b9be">SQTrack::get_pos_vtx</a></div><div class="ttdeci">virtual TVector3 get_pos_vtx() const =0</div><div class="ttdoc">Return the track position at vertex. </div></div>
 <div class="ttc" id="classSRecEvent_html_af3ec950be8c17e1e72c5c3fe5dc31b1c"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#af3ec950be8c17e1e72c5c3fe5dc31b1c">SRecEvent::getNDimuons</a></div><div class="ttdeci">Int_t getNDimuons()</div><div class="ttdoc">Get dimuons. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00355">SRecEvent.h:355</a></div></div>
 <div class="ttc" id="classSRecEvent_html_ad4f62731f72ed59ec80729cf04a6d222"><div class="ttname"><a href="../../d5/d2f/classSRecEvent.html#ad4f62731f72ed59ec80729cf04a6d222">SRecEvent::getNTracks</a></div><div class="ttdeci">Int_t getNTracks()</div><div class="ttdoc">Get tracks. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/SRecEvent_8h_source.html#l00348">SRecEvent.h:348</a></div></div>
@@ -349,7 +356,7 @@ $(document).ready(function(){initNavTree('da/d8d/RecoDev_2AnaModule_2AnaModule_8
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_57eaaaaa5e0829567f81415cfd3ec12d.html">RecoDev</a></li><li class="navelem"><a class="el" href="../../dir_78a7df1884dbd4b4913fa62df6407c98.html">AnaModule</a></li><li class="navelem"><a class="el" href="../../da/d8d/RecoDev_2AnaModule_2AnaModule_8cxx.html">AnaModule.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Jul 28 2020 14:11:39</em> using <a
+			updated: <em>Tue Jul 28 2020 20:51:41</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
