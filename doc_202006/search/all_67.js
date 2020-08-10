@@ -759,7 +759,7 @@ var searchData=
   ['getparticles',['GetParticles',['../db/d62/classPHG4InEvent.html#a64ce473f416b917858b446396f7522af',1,'PHG4InEvent::GetParticles(const int vtxid) const '],['../db/d62/classPHG4InEvent.html#aa595a0e50bf3eb2ec19218c96a54a607',1,'PHG4InEvent::GetParticles() const ']]],
   ['getparticles_5fmodify',['GetParticles_Modify',['../db/d62/classPHG4InEvent.html#aac39d39c05f70c0f8194cc940e4665ae',1,'PHG4InEvent']]],
   ['getphysicalvolume',['GetPhysicalVolume',['../d1/d13/classPHG4PhenixDetector.html#a08f9f09748e767ac536249ac56995fd2',1,'PHG4PhenixDetector']]],
-  ['getplane',['getPlane',['../d0/da0/classGeomSvc.html#a17c4a4237ff0337468553fe73454fa66',1,'GeomSvc::getPlane()'],['../d1/d3b/classGeomParamPlane.html#a8c176df7c57af3b0e4f35edee8ee0898',1,'GeomParamPlane::GetPlane()']]],
+  ['getplane',['GetPlane',['../d1/d3b/classGeomParamPlane.html#a8c176df7c57af3b0e4f35edee8ee0898',1,'GeomParamPlane::GetPlane()'],['../d0/da0/classGeomSvc.html#a17c4a4237ff0337468553fe73454fa66',1,'GeomSvc::getPlane()']]],
   ['getplanecenterx',['getPlaneCenterX',['../d0/da0/classGeomSvc.html#a6ba0782756b1082859e85e660a2a386b',1,'GeomSvc']]],
   ['getplanecentery',['getPlaneCenterY',['../d0/da0/classGeomSvc.html#a162032f241ca74df57ec894b89484a84',1,'GeomSvc']]],
   ['getplanecenterz',['getPlaneCenterZ',['../d0/da0/classGeomSvc.html#a3297a6727be56e5bdacee689f3a309da',1,'GeomSvc']]],
