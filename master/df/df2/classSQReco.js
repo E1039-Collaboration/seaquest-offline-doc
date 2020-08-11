@@ -15,12 +15,9 @@ var classSQReco =
     [ "~SQReco", "df/df2/classSQReco.html#ac004a60404bdead688bea035eab4cbb0", null ],
     [ "add_eval_list", "df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264", null ],
     [ "End", "df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f", null ],
-    [ "fitTrackCand", "df/df2/classSQReco.html#a2d24deb38cf514e80e9b53199f2c81a9", null ],
-    [ "fitTrackCand", "df/df2/classSQReco.html#a32bb088e7896b2ecdb5b9aa4df1f6a50", null ],
     [ "get_eval_file_name", "df/df2/classSQReco.html#a76d0080f40e14f5b1a3387f338dfec72", null ],
     [ "get_evt_reducer_opt", "df/df2/classSQReco.html#a2fabee38a0f191c1fd5d67ec7aeaad88", null ],
     [ "get_geom_file_name", "df/df2/classSQReco.html#a50547612983effadd740fbf90e27bb09", null ],
-    [ "get_hit_container_choice", "df/df2/classSQReco.html#a7e86b88cf9f6062eedb7918d3ee8fa5f", null ],
     [ "Init", "df/df2/classSQReco.html#acd3e2b1910304b8ba8558dba99ab46a4", null ],
     [ "InitRun", "df/df2/classSQReco.html#ac7504718746454c2518be860d2224802", null ],
     [ "is_eval_dst_enabled", "df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714", null ],
@@ -33,7 +30,7 @@ var classSQReco =
     [ "set_eval_file_name", "df/df2/classSQReco.html#af0ea5e7cebcf22402b9352852212b137", null ],
     [ "set_evt_reducer_opt", "df/df2/classSQReco.html#a676dd771ef706498758692f778f7c659", null ],
     [ "set_geom_file_name", "df/df2/classSQReco.html#a0871655f71f89a5e115a71634a03b600", null ],
-    [ "set_hit_container_choice", "df/df2/classSQReco.html#adfdaae768d3d07420e351841cc5f550d", null ],
+    [ "set_legacy_rec_container", "df/df2/classSQReco.html#ae211f2cdcaf58e031e72b6cd3ec1bd2d", null ],
     [ "setFitterTy", "df/df2/classSQReco.html#a6c0a83b27bb557a841efe71bfa7ae45d", null ],
     [ "setInputTy", "df/df2/classSQReco.html#a776b09887ccbc519302f98905019813c", null ]
 ];

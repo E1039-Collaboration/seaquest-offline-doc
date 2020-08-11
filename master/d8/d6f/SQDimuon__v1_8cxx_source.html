@@ -109,41 +109,92 @@ $(document).ready(function(){initNavTree('d8/d6f/SQDimuon__v1_8cxx_source.html',
 </div><!--header-->
 <div class="contents">
 <a href="../../d8/d6f/SQDimuon__v1_8cxx.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/df8/SQDimuon__v1_8h.html">SQDimuon_v1.h</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html">GlobalConsts.h</a>&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">    4</a></span>&#160;<a class="code" href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">SQDimuon_v1::SQDimuon_v1</a>()</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  : _id(-1)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  , _pdg_id(0)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  , _track_id_pos(0)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  , _track_id_neg(0)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  , _pos(0,0,0)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  , _mom(0,0,0,0)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , _mom_pos(0,0,0,0)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , _mom_neg(0,0,0,0)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  ;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">   17</a></span>&#160;<a class="code" href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">SQDimuon_v1::~SQDimuon_v1</a>()</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  ;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">   22</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">SQDimuon_v1::identify</a>(std::ostream&amp; os)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  ;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">SQDimuon_v1::Reset</a>()</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  ;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="ttc" id="classSQDimuon__v1_html_a818d2de2cd844631606f1e8caacdbf17"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">SQDimuon_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00027">SQDimuon_v1.cxx:27</a></div></div>
-<div class="ttc" id="classSQDimuon__v1_html_a1d4a87b1594ae44d3d9992bdbe8882b6"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">SQDimuon_v1::SQDimuon_v1</a></div><div class="ttdeci">SQDimuon_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00004">SQDimuon_v1.cxx:4</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">    6</a></span>&#160;<a class="code" href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">SQDimuon_v1::SQDimuon_v1</a>()</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  : _id(-1)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  , _rec_id(-1)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  , _pdg_id(0)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  , _track_id_pos(0)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , _track_id_neg(0)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , _pos(0,0,0)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  , _mom(0,0,0,0)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , _mom_pos(0,0,0,0)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  , _mom_neg(0,0,0,0)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  ;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">   20</a></span>&#160;<a class="code" href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">SQDimuon_v1::~SQDimuon_v1</a>()</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  ;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">   25</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">SQDimuon_v1::identify</a>(std::ostream&amp; os)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">   30</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">SQDimuon_v1::Reset</a>()</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  ;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a33d4ed66226d750b789819176d8dd7ae">   35</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a33d4ed66226d750b789819176d8dd7ae">SQDimuon_v1::get_x1</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">p_beam</a>(0., 0., sqrt(<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a> - <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>), <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>(0., 0., 0., M_P);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a> = p_beam + <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  TLorentzVector p_sum = <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a0fc475bd879be7660b49ca86a3bf4dba">_mom_pos</a> + <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a903c226a6c1211abba70516ae93b6679">_mom_neg</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">return</span> (p_target*p_sum)/(p_target*<a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#a087663dafc16d486aa1bba92de60b659">   46</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a087663dafc16d486aa1bba92de60b659">SQDimuon_v1::get_x2</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">p_beam</a>(0., 0., sqrt(<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a> - <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>), <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>(0., 0., 0., M_P);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a> = p_beam + <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  TLorentzVector p_sum = <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a0fc475bd879be7660b49ca86a3bf4dba">_mom_pos</a> + <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a903c226a6c1211abba70516ae93b6679">_mom_neg</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordflow">return</span> (p_beam*p_sum)/(p_beam*<a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../d0/d85/classSQDimuon__v1.html#ac62ab6af13faa6f028a384c8e2f878ca">   57</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/d85/classSQDimuon__v1.html#ac62ab6af13faa6f028a384c8e2f878ca">SQDimuon_v1::get_xf</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">p_beam</a>(0., 0., sqrt(<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a> - <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>*<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>), <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>(0., 0., 0., M_P);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a> = p_beam + <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  TLorentzVector p_sum = <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a0fc475bd879be7660b49ca86a3bf4dba">_mom_pos</a> + <a class="code" href="../../d0/d85/classSQDimuon__v1.html#a903c226a6c1211abba70516ae93b6679">_mom_neg</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">double</span> mass = p_sum.M();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordtype">double</span> <a class="code" href="../../d2/da1/namespaceDPGEN.html#af44e11f40fa39234c8e731f3368d57ae">sqrts</a> = p_cms.M();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordflow">return</span> 2.*p_sum.Pz()/sqrts/(1. - mass*mass/sqrts/<a class="code" href="../../d2/da1/namespaceDPGEN.html#af44e11f40fa39234c8e731f3368d57ae">sqrts</a>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="ttc" id="classSQDimuon__v1_html_a903c226a6c1211abba70516ae93b6679"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a903c226a6c1211abba70516ae93b6679">SQDimuon_v1::_mom_neg</a></div><div class="ttdeci">TLorentzVector _mom_neg</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df8/SQDimuon__v1_8h_source.html#l00058">SQDimuon_v1.h:58</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a818d2de2cd844631606f1e8caacdbf17"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a818d2de2cd844631606f1e8caacdbf17">SQDimuon_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00030">SQDimuon_v1.cxx:30</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_ac62ab6af13faa6f028a384c8e2f878ca"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#ac62ab6af13faa6f028a384c8e2f878ca">SQDimuon_v1::get_xf</a></div><div class="ttdeci">virtual double get_xf() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00057">SQDimuon_v1.cxx:57</a></div></div>
+<div class="ttc" id="namespaceDPGEN_html_af44e11f40fa39234c8e731f3368d57ae"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#af44e11f40fa39234c8e731f3368d57ae">DPGEN::sqrts</a></div><div class="ttdeci">const double sqrts</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00058">SQPrimaryParticleGen.C:58</a></div></div>
+<div class="ttc" id="namespaceDPGEN_html_a21ec5fa2fedf044b3f0f539ed54242a4"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">DPGEN::p_beam</a></div><div class="ttdeci">const TLorentzVector p_beam(0., 0., TMath::Sqrt(ebeam *ebeam-mp *mp), ebeam)</div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a0fc475bd879be7660b49ca86a3bf4dba"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a0fc475bd879be7660b49ca86a3bf4dba">SQDimuon_v1::_mom_pos</a></div><div class="ttdeci">TLorentzVector _mom_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df8/SQDimuon__v1_8h_source.html#l00057">SQDimuon_v1.h:57</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a1d4a87b1594ae44d3d9992bdbe8882b6"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a1d4a87b1594ae44d3d9992bdbe8882b6">SQDimuon_v1::SQDimuon_v1</a></div><div class="ttdeci">SQDimuon_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00006">SQDimuon_v1.cxx:6</a></div></div>
+<div class="ttc" id="namespaceDPGEN_html_a5ade4ed2af54a1a38cf51a3e4f005c85"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">DPGEN::p_cms</a></div><div class="ttdeci">const TLorentzVector p_cms</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00055">SQPrimaryParticleGen.C:55</a></div></div>
+<div class="ttc" id="namespaceDPGEN_html_add08e2813c32370aafa63ee51324def2"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">DPGEN::p_target</a></div><div class="ttdeci">const TLorentzVector p_target(0., 0., 0., mp)</div></div>
 <div class="ttc" id="SQDimuon__v1_8h_html"><div class="ttname"><a href="../../d9/df8/SQDimuon__v1_8h.html">SQDimuon_v1.h</a></div></div>
-<div class="ttc" id="classSQDimuon__v1_html_aa4dfc1f79e638970d3cc171672acd647"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">SQDimuon_v1::~SQDimuon_v1</a></div><div class="ttdeci">virtual ~SQDimuon_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00017">SQDimuon_v1.cxx:17</a></div></div>
-<div class="ttc" id="classSQDimuon__v1_html_a446350a46d9ec84763828ed7320bc84d"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">SQDimuon_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00022">SQDimuon_v1.cxx:22</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_aa4dfc1f79e638970d3cc171672acd647"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#aa4dfc1f79e638970d3cc171672acd647">SQDimuon_v1::~SQDimuon_v1</a></div><div class="ttdeci">virtual ~SQDimuon_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00020">SQDimuon_v1.cxx:20</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a98a213294605adf4d40b31e143bd09a9"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a></div><div class="ttdeci">#define E_BEAM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00014">GlobalConsts.h:14</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a446350a46d9ec84763828ed7320bc84d"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a446350a46d9ec84763828ed7320bc84d">SQDimuon_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00025">SQDimuon_v1.cxx:25</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html">GlobalConsts.h</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a087663dafc16d486aa1bba92de60b659"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a087663dafc16d486aa1bba92de60b659">SQDimuon_v1::get_x2</a></div><div class="ttdeci">virtual double get_x2() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00046">SQDimuon_v1.cxx:46</a></div></div>
+<div class="ttc" id="classSQDimuon__v1_html_a33d4ed66226d750b789819176d8dd7ae"><div class="ttname"><a href="../../d0/d85/classSQDimuon__v1.html#a33d4ed66226d750b789819176d8dd7ae">SQDimuon_v1::get_x1</a></div><div class="ttdeci">virtual double get_x1() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6f/SQDimuon__v1_8cxx_source.html#l00035">SQDimuon_v1.cxx:35</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_ab4d888266c25c8140baedb207e24e8f4"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a></div><div class="ttdeci">#define M_P</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00013">GlobalConsts.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -154,7 +205,7 @@ $(document).ready(function(){initNavTree('d8/d6f/SQDimuon__v1_8cxx_source.html',
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_21fa564a88be47a3879b0c5d4f9e77d5.html">interface_main</a></li><li class="navelem"><a class="el" href="../../d8/d6f/SQDimuon__v1_8cxx.html">SQDimuon_v1.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Aug 9 2020 20:10:12</em> using <a
+			updated: <em>Mon Aug 10 2020 23:10:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

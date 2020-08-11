@@ -66,6 +66,7 @@ var searchData=
   ['sqtrack_5fv1',['SQTrack_v1',['../d6/d88/classSQTrack__v1.html',1,'']]],
   ['sqtrackvector',['SQTrackVector',['../db/d03/classSQTrackVector.html',1,'']]],
   ['sqtrackvector_5fv1',['SQTrackVector_v1',['../d6/d0b/classSQTrackVector__v1.html',1,'']]],
+  ['sqtruthvertexing',['SQTruthVertexing',['../d8/d20/classSQTruthVertexing.html',1,'']]],
   ['srawevent',['SRawEvent',['../d5/d83/classSRawEvent.html',1,'']]],
   ['sraweventembed',['SRawEventEmbed',['../d4/d36/classSRawEventEmbed.html',1,'']]],
   ['srecdimuon',['SRecDimuon',['../d3/d07/classSRecDimuon.html',1,'']]],

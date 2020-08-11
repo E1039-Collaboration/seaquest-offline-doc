@@ -1,23 +1,26 @@
 <map id="SRecTrack::getNHits" name="SRecTrack::getNHits">
-<area shape="rect" id="node2" href="$d6/db1/classSRecTrack.html#ac158651bf6339871050b643f31681ba5" title="SRecTrack::getExpMomentumFast" alt="" coords="433,5,655,32"/>
-<area shape="rect" id="node4" href="$d6/db1/classSRecTrack.html#a00a37e4581663256e6887ff3fb52ee52" title="SRecTrack::getExpPosErrorFast" alt="" coords="441,68,647,95"/>
-<area shape="rect" id="node5" href="$d6/db1/classSRecTrack.html#a40e81eda5f15d9e18a2c48fbcda3cd6f" title="SRecTrack::getExpPositionFast" alt="" coords="443,144,645,171"/>
-<area shape="rect" id="node9" href="$d6/db1/classSRecTrack.html#a9862feab2764002e22502227cff0ecd4" title="SRecTrack::getNearestNode" alt="" coords="198,100,383,127"/>
-<area shape="rect" id="node10" href="$d6/db1/classSRecTrack.html#af592191a44a77eeafcf606c0d6b6d4d1" title="SRecTrack::getProb" alt="" coords="221,201,360,228"/>
-<area shape="rect" id="node12" href="$d6/db1/classSRecTrack.html#ad0abcd5f180f01f4a334803320368e4a" title="SRecTrack::getQuality" alt="" coords="215,303,366,329"/>
-<area shape="rect" id="node13" href="$d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e" title="isValid returns non zero if object contains vailid data " alt="" coords="225,353,356,380"/>
-<area shape="rect" id="node22" href="$d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398" title="KalmanTrack::KalmanTrack" alt="" coords="199,404,382,431"/>
-<area shape="rect" id="node11" href="$d6/db1/classSRecTrack.html#a253fffc55e1729316a90c45aab61f854" title="Comparitor. " alt="" coords="470,216,618,243"/>
-<area shape="rect" id="node3" href="$d6/db1/classSRecTrack.html#a5b73b35f637ed16bb452ddf4791b0e02" title="SRecTrack::getExpMomentumFast" alt="" coords="705,5,927,32"/>
-<area shape="rect" id="node6" href="$d3/de7/classmTrkEveDisplay.html#a9dccd02ff8c77a1e34236d4575644100" title="mTrkEveDisplay::draw\l_tracks" alt="" coords="743,115,889,157"/>
-<area shape="rect" id="node8" href="$d5/d72/classTriggerRoad.html#a08d12f235fee9687b0e789c6e49689dd" title="TriggerRoad::TriggerRoad" alt="" coords="732,181,900,208"/>
-<area shape="rect" id="node7" href="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1" title="mTrkEveDisplay::event" alt="" coords="993,123,1143,149"/>
-<area shape="rect" id="node14" href="$d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" title="KalmanFastTracking\l::buildGlobalTracks" alt="" coords="473,283,615,325"/>
-<area shape="rect" id="node17" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit. " alt="" coords="469,353,619,380"/>
-<area shape="rect" id="node19" href="$db/daa/classKalmanDSTrk.html#adf4981f081f2606bf3412851eaa62eb0" title="KalmanDSTrk::buildGlobal\lTracks" alt="" coords="457,407,631,449"/>
-<area shape="rect" id="node15" href="$d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b" title="KalmanFastTracking\l::setRawEvent" alt="" coords="745,281,887,322"/>
-<area shape="rect" id="node16" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title="SQReco::process_event" alt="" coords="989,288,1147,315"/>
-<area shape="rect" id="node18" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title="VertexFit::process\l_event" alt="" coords="755,346,877,387"/>
-<area shape="rect" id="node20" href="$db/daa/classKalmanDSTrk.html#a58ceb0cdcf685588b2a543d7a9c2bf9d" title="KalmanDSTrk::setRawEvent\lWorker" alt="" coords="725,411,907,453"/>
-<area shape="rect" id="node21" href="$db/daa/classKalmanDSTrk.html#a67f1b61fbc3fbba52e10f4b06d4f8794" title="KalmanDSTrk::setRawEvent" alt="" coords="977,419,1159,445"/>
+<area shape="rect" id="node2" href="$d6/db1/classSRecTrack.html#ab9a04133fcd51d78a50f8bf2a4d800cf" title="SRecTrack::get_num_hits" alt="" coords="205,5,376,32"/>
+<area shape="rect" id="node3" href="$d6/db1/classSRecTrack.html#ac158651bf6339871050b643f31681ba5" title="SRecTrack::getExpMomentumFast" alt="" coords="433,69,655,96"/>
+<area shape="rect" id="node5" href="$d6/db1/classSRecTrack.html#a00a37e4581663256e6887ff3fb52ee52" title="SRecTrack::getExpPosErrorFast" alt="" coords="441,145,647,172"/>
+<area shape="rect" id="node6" href="$d6/db1/classSRecTrack.html#a40e81eda5f15d9e18a2c48fbcda3cd6f" title="SRecTrack::getExpPositionFast" alt="" coords="443,203,645,229"/>
+<area shape="rect" id="node10" href="$d6/db1/classSRecTrack.html#a9862feab2764002e22502227cff0ecd4" title="SRecTrack::getNearestNode" alt="" coords="198,107,383,133"/>
+<area shape="rect" id="node11" href="$d6/db1/classSRecTrack.html#af592191a44a77eeafcf606c0d6b6d4d1" title="SRecTrack::getProb" alt="" coords="221,309,360,336"/>
+<area shape="rect" id="node13" href="$d6/db1/classSRecTrack.html#ad0abcd5f180f01f4a334803320368e4a" title="SRecTrack::getQuality" alt="" coords="215,360,366,387"/>
+<area shape="rect" id="node14" href="$d2/d6b/classSQGenFit_1_1GFTrack.html#ac83dd24f3ea3f1761cdae1697e799c70" title="SQGenFit::GFTrack::\lGFTrack" alt="" coords="219,411,362,453"/>
+<area shape="rect" id="node15" href="$d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e" title="isValid returns non zero if object contains vailid data " alt="" coords="225,477,356,504"/>
+<area shape="rect" id="node24" href="$d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398" title="KalmanTrack::KalmanTrack" alt="" coords="199,528,382,555"/>
+<area shape="rect" id="node12" href="$d6/db1/classSRecTrack.html#a253fffc55e1729316a90c45aab61f854" title="Comparitor. " alt="" coords="470,284,618,311"/>
+<area shape="rect" id="node25" href="$dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397" title="TruthNodeMaker::process\l_event" alt="" coords="207,579,375,621"/>
+<area shape="rect" id="node4" href="$d6/db1/classSRecTrack.html#a5b73b35f637ed16bb452ddf4791b0e02" title="SRecTrack::getExpMomentumFast" alt="" coords="705,69,927,96"/>
+<area shape="rect" id="node7" href="$d3/de7/classmTrkEveDisplay.html#a9dccd02ff8c77a1e34236d4575644100" title="mTrkEveDisplay::draw\l_tracks" alt="" coords="743,174,889,215"/>
+<area shape="rect" id="node9" href="$d5/d72/classTriggerRoad.html#a08d12f235fee9687b0e789c6e49689dd" title="TriggerRoad::TriggerRoad" alt="" coords="732,240,900,267"/>
+<area shape="rect" id="node8" href="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1" title="mTrkEveDisplay::event" alt="" coords="993,181,1143,208"/>
+<area shape="rect" id="node16" href="$d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" title="KalmanFastTracking\l::buildGlobalTracks" alt="" coords="473,407,615,449"/>
+<area shape="rect" id="node19" href="$d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211" title="Set the SRecEvent, main external call the use vertex fit. " alt="" coords="469,477,619,504"/>
+<area shape="rect" id="node21" href="$db/daa/classKalmanDSTrk.html#adf4981f081f2606bf3412851eaa62eb0" title="KalmanDSTrk::buildGlobal\lTracks" alt="" coords="457,531,631,573"/>
+<area shape="rect" id="node17" href="$d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b" title="KalmanFastTracking\l::setRawEvent" alt="" coords="745,405,887,446"/>
+<area shape="rect" id="node18" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title="SQReco::process_event" alt="" coords="989,412,1147,439"/>
+<area shape="rect" id="node20" href="$d1/d13/classVertexFit.html#a056c9f1aa5805bfd6f92e833722dd25e" title="VertexFit::process\l_event" alt="" coords="755,470,877,511"/>
+<area shape="rect" id="node22" href="$db/daa/classKalmanDSTrk.html#a58ceb0cdcf685588b2a543d7a9c2bf9d" title="KalmanDSTrk::setRawEvent\lWorker" alt="" coords="725,535,907,577"/>
+<area shape="rect" id="node23" href="$db/daa/classKalmanDSTrk.html#a67f1b61fbc3fbba52e10f4b06d4f8794" title="KalmanDSTrk::setRawEvent" alt="" coords="977,543,1159,569"/>
 </map>

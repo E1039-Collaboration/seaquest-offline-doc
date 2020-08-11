@@ -129,7 +129,6 @@ var hierarchy =
             [ "PHG4BNLTargetCoilSubsystem", "d9/df7/classPHG4BNLTargetCoilSubsystem.html", null ],
             [ "PHG4CollimatorSubsystem", "de/d78/classPHG4CollimatorSubsystem.html", null ],
             [ "PHG4CylinderSubsystem", "db/dc5/classPHG4CylinderSubsystem.html", null ],
-            [ "PHG4E1039InsensSubsystem", "d9/d43/classPHG4E1039InsensSubsystem.html", null ],
             [ "PHG4PolyconSubsystem", "d6/d12/classPHG4PolyconSubsystem.html", null ],
             [ "PHG4SquareTubeSubsystem", "d4/d2d/classPHG4SquareTubeSubsystem.html", null ],
             [ "PHG4TargetCoilSubsystem", "d8/d86/classPHG4TargetCoilSubsystem.html", null ],
@@ -141,12 +140,12 @@ var hierarchy =
         [ "PHGeomFileImport", "de/d0f/classPHGeomFileImport.html", null ],
         [ "PHHepMCParticleSelectorDecayProductChain", "d5/d18/classPHHepMCParticleSelectorDecayProductChain.html", null ],
         [ "PHPythia8", "d9/d3a/classPHPythia8.html", null ],
-        [ "ReadEICFiles", "d3/d49/classReadEICFiles.html", null ],
         [ "RequireParticlesInAcc", "da/d73/classRequireParticlesInAcc.html", null ],
         [ "RndmEmbed", "d9/d0c/classRndmEmbed.html", null ],
         [ "SimDstTrimmer", "de/d85/classSimDstTrimmer.html", null ],
         [ "SQDigitizer", "df/d36/classSQDigitizer.html", null ],
         [ "SQReco", "df/df2/classSQReco.html", null ],
+        [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", null ],
         [ "SRawEventEmbed", "d4/d36/classSRawEventEmbed.html", null ],
         [ "TruthEval", "df/d39/classTruthEval.html", null ],
         [ "TruthNodeMaker", "dd/d44/classTruthNodeMaker.html", null ],
@@ -257,7 +256,6 @@ var hierarchy =
       [ "PHG4CollimatorDetector", "d8/d44/classPHG4CollimatorDetector.html", null ],
       [ "PHG4ConeDetector", "d6/d41/classPHG4ConeDetector.html", null ],
       [ "PHG4CylinderDetector", "d3/d95/classPHG4CylinderDetector.html", null ],
-      [ "PHG4E1039InsensDetector", "d5/dd4/classPHG4E1039InsensDetector.html", null ],
       [ "PHG4PolyconDetector", "d8/db8/classPHG4PolyconDetector.html", null ],
       [ "PHG4SquareTubeDetector", "d9/d87/classPHG4SquareTubeDetector.html", null ],
       [ "PHG4TargetCoilDetector", "df/dec/classPHG4TargetCoilDetector.html", null ],
@@ -294,7 +292,6 @@ var hierarchy =
       [ "PHG4CollimatorSteppingAction", "d2/dc6/classPHG4CollimatorSteppingAction.html", null ],
       [ "PHG4ConeSteppingAction", "d4/d7a/classPHG4ConeSteppingAction.html", null ],
       [ "PHG4CylinderSteppingAction", "da/d58/classPHG4CylinderSteppingAction.html", null ],
-      [ "PHG4E1039InsensSteppingAction", "d9/d14/classPHG4E1039InsensSteppingAction.html", null ],
       [ "PHG4PolyconSteppingAction", "d3/d3d/classPHG4PolyconSteppingAction.html", null ],
       [ "PHG4SquareTubeSteppingAction", "dc/d4f/classPHG4SquareTubeSteppingAction.html", null ],
       [ "PHG4TargetCoilSteppingAction", "db/d00/classPHG4TargetCoilSteppingAction.html", null ],
@@ -503,7 +500,8 @@ var hierarchy =
         [ "RunHeader", "df/d35/classRunHeader.html", null ],
         [ "SignedHit", "de/d45/classSignedHit.html", null ],
         [ "SQDimuon", "d8/dd3/classSQDimuon.html", [
-          [ "SQDimuon_v1", "d0/d85/classSQDimuon__v1.html", null ]
+          [ "SQDimuon_v1", "d0/d85/classSQDimuon__v1.html", null ],
+          [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ]
         ] ],
         [ "SQDimuonTruthInfoContainer", "d0/d60/classSQDimuonTruthInfoContainer.html", null ],
         [ "SQDimuonVector", "d3/df1/classSQDimuonVector.html", [
@@ -553,15 +551,14 @@ var hierarchy =
           [ "SQStringMap_v1", "d7/d3d/classSQStringMap__v1.html", null ]
         ] ],
         [ "SQTrack", "d7/d1b/classSQTrack.html", [
-          [ "SQTrack_v1", "d6/d88/classSQTrack__v1.html", null ]
+          [ "SQTrack_v1", "d6/d88/classSQTrack__v1.html", null ],
+          [ "SRecTrack", "d6/db1/classSRecTrack.html", null ]
         ] ],
         [ "SQTrackVector", "db/d03/classSQTrackVector.html", [
           [ "SQTrackVector_v1", "d6/d0b/classSQTrackVector__v1.html", null ]
         ] ],
         [ "SRawEvent", "d5/d83/classSRawEvent.html", null ],
-        [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ],
         [ "SRecEvent", "d5/d2f/classSRecEvent.html", null ],
-        [ "SRecTrack", "d6/db1/classSRecTrack.html", null ],
         [ "SyncObject", "de/dbb/classSyncObject.html", [
           [ "SyncObjectv1", "d9/d30/classSyncObjectv1.html", [
             [ "SyncObjectv2", "df/da3/classSyncObjectv2.html", null ]
@@ -583,8 +580,8 @@ var hierarchy =
     [ "TrackData", "dd/d7f/structTrackData.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
+    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UtilOnline", "df/da2/classUtilOnline.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],

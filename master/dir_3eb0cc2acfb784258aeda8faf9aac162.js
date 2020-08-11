@@ -209,19 +209,6 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
       [ "PHG4DetectorSubsystem", "d5/d29/classPHG4DetectorSubsystem.html", "d5/d29/classPHG4DetectorSubsystem" ]
     ] ],
     [ "PHG4DetectorSubsystemLinkDef.h", "d4/d35/PHG4DetectorSubsystemLinkDef_8h.html", null ],
-    [ "PHG4E1039InsensDetector.cc", "d6/d9b/PHG4E1039InsensDetector_8cc.html", null ],
-    [ "PHG4E1039InsensDetector.h", "d1/d1b/PHG4E1039InsensDetector_8h.html", [
-      [ "PHG4E1039InsensDetector", "d5/dd4/classPHG4E1039InsensDetector.html", "d5/dd4/classPHG4E1039InsensDetector" ]
-    ] ],
-    [ "PHG4E1039InsensSteppingAction.cc", "d4/ddf/PHG4E1039InsensSteppingAction_8cc.html", null ],
-    [ "PHG4E1039InsensSteppingAction.h", "df/d52/PHG4E1039InsensSteppingAction_8h.html", [
-      [ "PHG4E1039InsensSteppingAction", "d9/d14/classPHG4E1039InsensSteppingAction.html", "d9/d14/classPHG4E1039InsensSteppingAction" ]
-    ] ],
-    [ "PHG4E1039InsensSubsystem.cc", "dc/de7/PHG4E1039InsensSubsystem_8cc.html", null ],
-    [ "PHG4E1039InsensSubsystem.h", "da/de8/PHG4E1039InsensSubsystem_8h.html", [
-      [ "PHG4E1039InsensSubsystem", "d9/d43/classPHG4E1039InsensSubsystem.html", "d9/d43/classPHG4E1039InsensSubsystem" ]
-    ] ],
-    [ "PHG4E1039InsensSubsystemLinkDef.h", "db/d2d/PHG4E1039InsensSubsystemLinkDef_8h.html", null ],
     [ "PHG4EventActionClearZeroEdep.cc", "d8/dfd/PHG4EventActionClearZeroEdep_8cc.html", null ],
     [ "PHG4EventActionClearZeroEdep.h", "df/d8f/PHG4EventActionClearZeroEdep_8h.html", [
       [ "PHG4EventActionClearZeroEdep", "db/d55/classPHG4EventActionClearZeroEdep.html", "db/d55/classPHG4EventActionClearZeroEdep" ]

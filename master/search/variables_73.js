@@ -42,7 +42,7 @@ var searchData=
   ['slope',['slope',['../d3/d4a/structUtilHodo_1_1Track1D.html#a56553d140bc9ff46c34940e96759991a',1,'UtilHodo::Track1D']]],
   ['solidlist',['solidList',['../d0/d94/classPHG4GDMLWriteSolids.html#af70d7e83114f68e651633468024c632e',1,'PHG4GDMLWriteSolids']]],
   ['solidselement',['solidsElement',['../d0/d94/classPHG4GDMLWriteSolids.html#a02344c7e2df1fbba7ec1b43400bf6593',1,'PHG4GDMLWriteSolids']]],
-  ['solidvec',['solidVec',['../dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0',1,'DetectorConstruction::solidVec()'],['../d5/dd4/classPHG4E1039InsensDetector.html#a4d0e631e23277f9123ee3f333cdb3761',1,'PHG4E1039InsensDetector::solidVec()']]],
+  ['solidvec',['solidVec',['../dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0',1,'DetectorConstruction']]],
   ['spacing',['spacing',['../dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855',1,'Plane']]],
   ['sphenix_5fbuild_5ftag',['sphenix_build_tag',['../d1/d2b/namespacesubmit__bnl.html#afcbd17f85d168e172b325acd1437d8cc',1,'submit_bnl.sphenix_build_tag()'],['../d9/d8d/namespacesubmit__e1039.html#aba3f12b8832052534af5f04b9c7ed4fb',1,'submit_e1039.sphenix_build_tag()']]],
   ['spill_5fid',['spill_id',['../d4/dbe/structSpillData.html#a62a882a26d8405ed6e9adab5c6ea37f8',1,'SpillData']]],

@@ -32,7 +32,7 @@ var searchData=
   ['mass_5fsingle',['mass_single',['../d3/d07/classSRecDimuon.html#a04c1aaf4dcb7bd0a2cef534dbbf2ebf5',1,'SRecDimuon']]],
   ['materiallist',['materialList',['../d3/d04/classPHG4GDMLWriteMaterials.html#a888cd4469d210da14d7c6cc9faa2c28b',1,'PHG4GDMLWriteMaterials']]],
   ['materialselement',['materialsElement',['../d3/d04/classPHG4GDMLWriteMaterials.html#a554e2360e7bb933457f2b8f95b30162b',1,'PHG4GDMLWriteMaterials']]],
-  ['materialvec',['materialVec',['../dc/d5b/classDetectorConstruction.html#a8e98303628a6d438173c53924fa68d96',1,'DetectorConstruction::materialVec()'],['../d5/dd4/classPHG4E1039InsensDetector.html#a8e383eff181eaa18a82818af88d56bb8',1,'PHG4E1039InsensDetector::materialVec()']]],
+  ['materialvec',['materialVec',['../dc/d5b/classDetectorConstruction.html#a8e98303628a6d438173c53924fa68d96',1,'DetectorConstruction']]],
   ['matrix',['MATRIX',['../d2/d31/structEventInfo.html#a82c9460c648da4f65d2d3461b589370f',1,'EventInfo']]],
   ['max_5fexponent',['max_exponent',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#aae6aa0a90192dd3208ea94fc7deabece',1,'std::numeric_limits&lt; half &gt;']]],
   ['max_5fexponent10',['max_exponent10',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#a0d8aaa54c0c78e544468c92e1a8b27a2',1,'std::numeric_limits&lt; half &gt;']]],

@@ -18,6 +18,11 @@ var dir_3980a51e8d33af599989cef77cf718ce =
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]
     ] ],
     [ "SQRecoLinkDef.h", "dd/ddd/SQRecoLinkDef_8h.html", null ],
+    [ "SQTruthVertexing.cxx", "da/da7/SQTruthVertexing_8cxx.html", null ],
+    [ "SQTruthVertexing.h", "de/d3a/SQTruthVertexing_8h.html", [
+      [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", "d8/d20/classSQTruthVertexing" ]
+    ] ],
+    [ "SQTruthVertexingLinkDef.h", "de/d15/SQTruthVertexingLinkDef_8h.html", null ],
     [ "TriggerAnalyzer.cxx", "d3/dfc/TriggerAnalyzer_8cxx.html", "d3/dfc/TriggerAnalyzer_8cxx" ],
     [ "TriggerAnalyzer.h", "d6/d97/TriggerAnalyzer_8h.html", "d6/d97/TriggerAnalyzer_8h" ],
     [ "VertexFit.cxx", "db/df0/VertexFit_8cxx.html", null ],

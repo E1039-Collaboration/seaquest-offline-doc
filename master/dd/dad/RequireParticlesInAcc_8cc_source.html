@@ -119,121 +119,123 @@ $(document).ready(function(){initNavTree('dd/dad/RequireParticlesInAcc_8cc_sourc
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d6/dfd/RequireParticlesInAcc_8h.html">RequireParticlesInAcc.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a943dceebdb047dccffb99b611baede5d">   12</a></span>&#160;<a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a943dceebdb047dccffb99b611baede5d">RequireParticlesInAcc::RequireParticlesInAcc</a>()</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  : m_npl_per_par(4)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , m_npar_per_evt(2)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  ;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">   19</a></span>&#160;<a class="code" href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">RequireParticlesInAcc::~RequireParticlesInAcc</a>()</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  ;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">   24</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">RequireParticlesInAcc::Init</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">   29</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">RequireParticlesInAcc::InitRun</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordtype">int</span> ret = GetNodes(topNode);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">if</span> (ret != <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>) <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">   36</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">RequireParticlesInAcc::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  vector&lt;int&gt; vec_id_h1 = ExtractParticleID(g4hc_h1t, g4hc_h1b);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  vector&lt;int&gt; vec_id_h2 = ExtractParticleID(g4hc_h2t, g4hc_h2b);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  vector&lt;int&gt; vec_id_h3 = ExtractParticleID(g4hc_h3t, g4hc_h3b);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  vector&lt;int&gt; vec_id_h4 = ExtractParticleID(g4hc_h4t, g4hc_h4b);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  map&lt;int, int&gt; map_nhit; <span class="comment">// [particle ID] -&gt; N of hit planes</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  CountHitPlanesPerParticle(vec_id_h1, map_nhit);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  CountHitPlanesPerParticle(vec_id_h2, map_nhit);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  CountHitPlanesPerParticle(vec_id_h3, map_nhit);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  CountHitPlanesPerParticle(vec_id_h4, map_nhit);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordtype">int</span> n_par_ok = 0;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">for</span> (map&lt;int, int&gt;::iterator it = map_nhit.begin(); it != map_nhit.end(); it++) {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (it-&gt;second &gt;= m_npl_per_par) n_par_ok++;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">return</span> n_par_ok &gt;= m_npar_per_evt ? <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a> : <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">   60</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">RequireParticlesInAcc::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="keywordtype">int</span> RequireParticlesInAcc::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;{</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  g4hc_h1t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H1T&quot;</span>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  g4hc_h1b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H1B&quot;</span>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  g4hc_h2t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H2T&quot;</span>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  g4hc_h2b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H2B&quot;</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  g4hc_h3t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H3T&quot;</span>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  g4hc_h3b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H3B&quot;</span>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  g4hc_h4t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H4T&quot;</span>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  g4hc_h4b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H4B&quot;</span>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span> (!g4hc_h1t || !g4hc_h1b || !g4hc_h2t || !g4hc_h2b ||</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      !g4hc_h3t || !g4hc_h3b || !g4hc_h4t || !g4hc_h4b   ) {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  }</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keywordtype">void</span> RequireParticlesInAcc::ExtractParticleID(<span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc, vector&lt;int&gt;&amp; vec_par_id)</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <a class="code" href="../../d4/d30/classPHG4HitContainer.html#ab658db8ccd521f492fba0969f117ba2d">PHG4HitContainer::ConstRange</a> range = g4hc-&gt;<a class="code" href="../../d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439">getHits</a>();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d4/d30/classPHG4HitContainer.html#a12a799852ecb6e81a78012cc8d920ee2">PHG4HitContainer::ConstIterator</a> it = range.first; it != range.second; it++) {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d3/d9e/classPHG4Hit.html">PHG4Hit</a>* hit = it-&gt;second;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    vec_par_id.push_back(hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76">get_trkid</a>());</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;vector&lt;int&gt; RequireParticlesInAcc::ExtractParticleID(<span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc_t, <span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc_b)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  vector&lt;int&gt; vec;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  ExtractParticleID(g4hc_t, vec);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  ExtractParticleID(g4hc_b, vec);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  sort(vec.begin(), vec.end());</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  vec.erase(unique(vec.begin(), vec.end()), vec.end());</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordflow">return</span> vec;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keywordtype">void</span> RequireParticlesInAcc::CountHitPlanesPerParticle(<span class="keyword">const</span> vector&lt;int&gt; vec_id, map&lt;int, int&gt;&amp; map_nhit)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">for</span> (vector&lt;int&gt;::const_iterator it = vec_id.begin(); it != vec_id.end(); it++) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">int</span> <span class="keywordtype">id</span> = *it;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (map_nhit.find(<span class="keywordtype">id</span>) == map_nhit.end()) map_nhit[<span class="keywordtype">id</span>] = 1;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">else</span>                                     map_nhit[id]++;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a7f33f3c2f2bdebc9007934847c46b37a">   12</a></span>&#160;<a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a7f33f3c2f2bdebc9007934847c46b37a">RequireParticlesInAcc::RequireParticlesInAcc</a>(<span class="keyword">const</span> <span class="keywordtype">string</span>&amp; name)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  : <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a>(name)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , m_npl_per_par(4)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  , m_npar_per_evt(2)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  ;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">   20</a></span>&#160;<a class="code" href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">RequireParticlesInAcc::~RequireParticlesInAcc</a>()</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  ;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">   25</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">RequireParticlesInAcc::Init</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">   30</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">RequireParticlesInAcc::InitRun</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">int</span> ret = GetNodes(topNode);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordflow">if</span> (ret != <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>) <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">   37</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">RequireParticlesInAcc::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  vector&lt;int&gt; vec_id_h1 = ExtractParticleID(g4hc_h1t, g4hc_h1b);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  vector&lt;int&gt; vec_id_h2 = ExtractParticleID(g4hc_h2t, g4hc_h2b);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  vector&lt;int&gt; vec_id_h3 = ExtractParticleID(g4hc_h3t, g4hc_h3b);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  vector&lt;int&gt; vec_id_h4 = ExtractParticleID(g4hc_h4t, g4hc_h4b);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  map&lt;int, int&gt; map_nhit; <span class="comment">// [particle ID] -&gt; N of hit planes</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  CountHitPlanesPerParticle(vec_id_h1, map_nhit);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  CountHitPlanesPerParticle(vec_id_h2, map_nhit);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  CountHitPlanesPerParticle(vec_id_h3, map_nhit);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  CountHitPlanesPerParticle(vec_id_h4, map_nhit);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">int</span> n_par_ok = 0;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordflow">for</span> (map&lt;int, int&gt;::iterator it = map_nhit.begin(); it != map_nhit.end(); it++) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> (it-&gt;second &gt;= m_npl_per_par) n_par_ok++;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">return</span> n_par_ok &gt;= m_npar_per_evt ? <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a> : <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">   61</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">RequireParticlesInAcc::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">int</span> RequireParticlesInAcc::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  g4hc_h1t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H1T&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  g4hc_h1b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H1B&quot;</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  g4hc_h2t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H2T&quot;</span>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  g4hc_h2b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H2B&quot;</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  g4hc_h3t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H3T&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  g4hc_h3b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H3B&quot;</span>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  g4hc_h4t  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H4T&quot;</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  g4hc_h4b  = findNode::getClass&lt;PHG4HitContainer&gt;(topNode, <span class="stringliteral">&quot;G4HIT_H4B&quot;</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">if</span> (!g4hc_h1t || !g4hc_h1b || !g4hc_h2t || !g4hc_h2b ||</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      !g4hc_h3t || !g4hc_h3b || !g4hc_h4t || !g4hc_h4b   ) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordtype">void</span> RequireParticlesInAcc::ExtractParticleID(<span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc, vector&lt;int&gt;&amp; vec_par_id)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="../../d4/d30/classPHG4HitContainer.html#ab658db8ccd521f492fba0969f117ba2d">PHG4HitContainer::ConstRange</a> range = g4hc-&gt;<a class="code" href="../../d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439">getHits</a>();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d4/d30/classPHG4HitContainer.html#a12a799852ecb6e81a78012cc8d920ee2">PHG4HitContainer::ConstIterator</a> it = range.first; it != range.second; it++) {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d3/d9e/classPHG4Hit.html">PHG4Hit</a>* hit = it-&gt;second;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    vec_par_id.push_back(hit-&gt;<a class="code" href="../../d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76">get_trkid</a>());</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;vector&lt;int&gt; RequireParticlesInAcc::ExtractParticleID(<span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc_t, <span class="keyword">const</span> <a class="code" href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a>* g4hc_b)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  vector&lt;int&gt; vec;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  ExtractParticleID(g4hc_t, vec);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  ExtractParticleID(g4hc_b, vec);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  sort(vec.begin(), vec.end());</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  vec.erase(unique(vec.begin(), vec.end()), vec.end());</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">return</span> vec;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keywordtype">void</span> RequireParticlesInAcc::CountHitPlanesPerParticle(<span class="keyword">const</span> vector&lt;int&gt; vec_id, map&lt;int, int&gt;&amp; map_nhit)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keywordflow">for</span> (vector&lt;int&gt;::const_iterator it = vec_id.begin(); it != vec_id.end(); it++) {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">int</span> <span class="keywordtype">id</span> = *it;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span> (map_nhit.find(<span class="keywordtype">id</span>) == map_nhit.end()) map_nhit[<span class="keywordtype">id</span>] = 1;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">else</span>                                     map_nhit[id]++;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
 <div class="ttc" id="RequireParticlesInAcc_8h_html"><div class="ttname"><a href="../../d6/dfd/RequireParticlesInAcc_8h.html">RequireParticlesInAcc.h</a></div></div>
 <div class="ttc" id="classPHG4Hit_html_ac19cdd97dbd9b8154b8012ec0de01f76"><div class="ttname"><a href="../../d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76">PHG4Hit::get_trkid</a></div><div class="ttdeci">virtual int get_trkid() const </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d83/PHG4Hit_8h_source.html#l00041">PHG4Hit.h:41</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
 <div class="ttc" id="classPHG4HitContainer_html"><div class="ttname"><a href="../../d4/d30/classPHG4HitContainer.html">PHG4HitContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d08/PHG4HitContainer_8h_source.html#l00012">PHG4HitContainer.h:12</a></div></div>
 <div class="ttc" id="getClass_8h_html"><div class="ttname"><a href="../../dd/dd4/getClass_8h.html">getClass.h</a></div></div>
-<div class="ttc" id="classPHG4HitContainer_html_aec01041c4b9347f93832704e142b2439"><div class="ttname"><a href="../../d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439">PHG4HitContainer::getHits</a></div><div class="ttdeci">ConstRange getHits(const unsigned int detid) const </div><div class="ttdoc">return all hits matching a given detid </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4c/PHG4HitContainer_8cc_source.html#l00132">PHG4HitContainer.cc:132</a></div></div>
+<div class="ttc" id="classPHG4HitContainer_html_aec01041c4b9347f93832704e142b2439"><div class="ttname"><a href="../../d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439">PHG4HitContainer::getHits</a></div><div class="ttdeci">ConstRange getHits(const unsigned int detid) const </div><div class="ttdoc">return all hits matching a given detid </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4c/PHG4HitContainer_8cc_source.html#l00117">PHG4HitContainer.cc:117</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_a7f33f3c2f2bdebc9007934847c46b37a"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a7f33f3c2f2bdebc9007934847c46b37a">RequireParticlesInAcc::RequireParticlesInAcc</a></div><div class="ttdeci">RequireParticlesInAcc(const std::string &amp;name=&quot;ACCEPTANCE&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00012">RequireParticlesInAcc.cc:12</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
 <div class="ttc" id="classPHG4HitContainer_html_ab658db8ccd521f492fba0969f117ba2d"><div class="ttname"><a href="../../d4/d30/classPHG4HitContainer.html#ab658db8ccd521f492fba0969f117ba2d">PHG4HitContainer::ConstRange</a></div><div class="ttdeci">std::pair&lt; ConstIterator, ConstIterator &gt; ConstRange</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d08/PHG4HitContainer_8h_source.html#l00020">PHG4HitContainer.h:20</a></div></div>
 <div class="ttc" id="classPHG4Hit_html"><div class="ttname"><a href="../../d3/d9e/classPHG4Hit.html">PHG4Hit</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d83/PHG4Hit_8h_source.html#l00009">PHG4Hit.h:9</a></div></div>
 <div class="ttc" id="classPHG4HitContainer_html_a12a799852ecb6e81a78012cc8d920ee2"><div class="ttname"><a href="../../d4/d30/classPHG4HitContainer.html#a12a799852ecb6e81a78012cc8d920ee2">PHG4HitContainer::ConstIterator</a></div><div class="ttdeci">Map::const_iterator ConstIterator</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d08/PHG4HitContainer_8h_source.html#l00018">PHG4HitContainer.h:18</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_a90b5364ad1dbd29ff350264297a3410b"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">RequireParticlesInAcc::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00029">RequireParticlesInAcc.cc:29</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_a90b5364ad1dbd29ff350264297a3410b"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a90b5364ad1dbd29ff350264297a3410b">RequireParticlesInAcc::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00030">RequireParticlesInAcc.cc:30</a></div></div>
 <div class="ttc" id="PHG4Hit_8h_html"><div class="ttname"><a href="../../de/d83/PHG4Hit_8h.html">PHG4Hit.h</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_a943dceebdb047dccffb99b611baede5d"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a943dceebdb047dccffb99b611baede5d">RequireParticlesInAcc::RequireParticlesInAcc</a></div><div class="ttdeci">RequireParticlesInAcc()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00012">RequireParticlesInAcc.cc:12</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_a98724ae2e7f30d0b9ca626f23cb0cc85"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">RequireParticlesInAcc::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00024">RequireParticlesInAcc.cc:24</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_ac0527c0c4c33288b66aab3358c3fb288"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">RequireParticlesInAcc::~RequireParticlesInAcc</a></div><div class="ttdeci">virtual ~RequireParticlesInAcc()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00019">RequireParticlesInAcc.cc:19</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_a639587b4a5d07820a9aef65555ea62ad"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">RequireParticlesInAcc::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00060">RequireParticlesInAcc.cc:60</a></div></div>
+<div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_a98724ae2e7f30d0b9ca626f23cb0cc85"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a98724ae2e7f30d0b9ca626f23cb0cc85">RequireParticlesInAcc::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00025">RequireParticlesInAcc.cc:25</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_ac0527c0c4c33288b66aab3358c3fb288"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#ac0527c0c4c33288b66aab3358c3fb288">RequireParticlesInAcc::~RequireParticlesInAcc</a></div><div class="ttdeci">virtual ~RequireParticlesInAcc()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00020">RequireParticlesInAcc.cc:20</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_a639587b4a5d07820a9aef65555ea62ad"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a639587b4a5d07820a9aef65555ea62ad">RequireParticlesInAcc::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00061">RequireParticlesInAcc.cc:61</a></div></div>
 <div class="ttc" id="Fun4AllReturnCodes_8h_html"><div class="ttname"><a href="../../da/dc1/Fun4AllReturnCodes_8h.html">Fun4AllReturnCodes.h</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes.h:7</a></div></div>
-<div class="ttc" id="classRequireParticlesInAcc_html_a6d1809a67044211fe54ffa7bbab86619"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">RequireParticlesInAcc::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00036">RequireParticlesInAcc.cc:36</a></div></div>
+<div class="ttc" id="classRequireParticlesInAcc_html_a6d1809a67044211fe54ffa7bbab86619"><div class="ttname"><a href="../../da/d73/classRequireParticlesInAcc.html#a6d1809a67044211fe54ffa7bbab86619">RequireParticlesInAcc::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dad/RequireParticlesInAcc_8cc_source.html#l00037">RequireParticlesInAcc.cc:37</a></div></div>
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 <div class="ttc" id="PHG4HitContainer_8h_html"><div class="ttname"><a href="../../d3/d08/PHG4HitContainer_8h.html">PHG4HitContainer.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -246,7 +248,7 @@ $(document).ready(function(){initNavTree('dd/dad/RequireParticlesInAcc_8cc_sourc
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0a538a087021ce8adf1d4849fdeba031.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_9598b5ae202ac628aa063f9ec73a2ad2.html">g4dst</a></li><li class="navelem"><a class="el" href="../../dd/dad/RequireParticlesInAcc_8cc.html">RequireParticlesInAcc.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Aug 9 2020 20:10:14</em> using <a
+			updated: <em>Mon Aug 10 2020 23:10:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

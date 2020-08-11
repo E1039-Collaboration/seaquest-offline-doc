@@ -27,6 +27,7 @@ var searchData=
   ['detectorid',['detectorID',['../dc/d90/classPlane.html#ab4a0d070736ad81dcc5cf6eb697099e0',1,'Plane::detectorID()'],['../d0/d88/classHit.html#a978417770444c107798a959c32b0b9f9',1,'Hit::detectorID()']]],
   ['detectorids',['detectorIDs',['../d5/d72/classTriggerRoad.html#ab83c60c2c96ee88c53101f2948c6a098',1,'TriggerRoad']]],
   ['detectorname',['detectorName',['../dc/d90/classPlane.html#ad61fb2203ddedd69abd1ac1e0297af1d',1,'Plane']]],
+  ['detid_5fmask',['detid_mask',['../da/dd0/namespacePHG4HitDefs.html#ae15045c3c4a000e0a376a5c83a255f0e',1,'PHG4HitDefs']]],
   ['detname',['detname',['../dd/dae/classPHParameters.html#a0ea61399af0d3ef4517d75750fde3631',1,'PHParameters::detname()'],['../da/d29/classPHG4Parameters.html#ab8c28f760f5117a4fda59bfae1b877b4',1,'PHG4Parameters::detname()']]],
   ['digits',['digits',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ac6db367a091792dafc32cc6912435eb9',1,'std::numeric_limits&lt; half &gt;']]],
   ['digits10',['digits10',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ae83777abb4ecd29e2ba40588d28b5f26',1,'std::numeric_limits&lt; half &gt;']]],

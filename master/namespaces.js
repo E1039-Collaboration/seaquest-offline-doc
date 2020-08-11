@@ -2,7 +2,6 @@ var namespaces =
 [
     [ "boost", "d4/da9/namespaceboost.html", "d4/da9/namespaceboost" ],
     [ "DPGEN", "d2/da1/namespaceDPGEN.html", null ],
-    [ "erhic", "db/dfc/namespaceerhic.html", null ],
     [ "findNode", "da/dc3/namespacefindNode.html", null ],
     [ "Fun4AllReturnCodes", "d1/d38/namespaceFun4AllReturnCodes.html", null ],
     [ "Fun4AllUtils", "dd/d3e/namespaceFun4AllUtils.html", null ],

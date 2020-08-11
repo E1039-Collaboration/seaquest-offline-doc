@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['readeicfiles_2ecc',['ReadEICFiles.cc',['../d9/d7b/ReadEICFiles_8cc.html',1,'']]],
-  ['readeicfiles_2eh',['ReadEICFiles.h',['../d9/dc2/ReadEICFiles_8h.html',1,'']]],
   ['readme_2emd',['readme.md',['../d0/d20/readme_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../d6/d1d/e1039-core_2packages_2Display_2README_8md.html',1,'']]],
   ['readme_2emd',['README.md',['../de/d6f/e1039-core_2packages_2PHField_2README_8md.html',1,'']]],

@@ -57,7 +57,6 @@ var searchData=
   ['fit_5f34hits',['fit_34hits',['../d0/d1e/classPropSegment.html#aca28cdf1a12ff0d4a0c58a5fbd595dff',1,'PropSegment']]],
   ['fit_5fnode',['fit_node',['../d6/d2a/classKalmanFilter.html#a9c77cbaf604c1adc5e0e12ef3463d37c',1,'KalmanFilter']]],
   ['fittrack',['fitTrack',['../d3/d46/classKalmanFastTracking.html#adae298d8b0d2aa7ca771228cacd66974',1,'KalmanFastTracking::fitTrack()'],['../db/daa/classKalmanDSTrk.html#a6ef1da3cf3344ef3215f9618c1cfe21f',1,'KalmanDSTrk::fitTrack()']]],
-  ['fittrackcand',['fitTrackCand',['../df/df2/classSQReco.html#a2d24deb38cf514e80e9b53199f2c81a9',1,'SQReco::fitTrackCand(Tracklet &amp;tracklet, KalmanFitter *fitter)'],['../df/df2/classSQReco.html#a32bb088e7896b2ecdb5b9aa4df1f6a50',1,'SQReco::fitTrackCand(Tracklet &amp;tracklet, SQGenFit::GFFitter *fitter)']]],
   ['fittracklet',['fitTracklet',['../d3/d46/classKalmanFastTracking.html#a4b2ba1b9863eed906c3b6746cc9fa88b',1,'KalmanFastTracking::fitTracklet()'],['../db/daa/classKalmanDSTrk.html#a7f85c61feb66250b806bbeb6b2b71ff1',1,'KalmanDSTrk::fitTracklet()']]],
   ['flagexist',['FlagExist',['../d1/da8/classPHFlag.html#a4b73a422f0076568904d71f40e849da5',1,'PHFlag']]],
   ['flagsavev1',['FlagSavev1',['../da/db3/classFlagSavev1.html#a08fb1db97da8350b05c2a3acb98b7b91',1,'FlagSavev1']]],

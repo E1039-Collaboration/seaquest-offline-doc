@@ -90,6 +90,7 @@ var searchData=
   ['detectorid',['detectorID',['../dc/d90/classPlane.html#ab4a0d070736ad81dcc5cf6eb697099e0',1,'Plane::detectorID()'],['../d0/d88/classHit.html#a978417770444c107798a959c32b0b9f9',1,'Hit::detectorID()']]],
   ['detectorids',['detectorIDs',['../d5/d72/classTriggerRoad.html#ab83c60c2c96ee88c53101f2948c6a098',1,'TriggerRoad']]],
   ['detectorname',['detectorName',['../dc/d90/classPlane.html#ad61fb2203ddedd69abd1ac1e0297af1d',1,'Plane']]],
+  ['detid_5fmask',['detid_mask',['../da/dd0/namespacePHG4HitDefs.html#ae15045c3c4a000e0a376a5c83a255f0e',1,'PHG4HitDefs']]],
   ['detname',['detname',['../dd/dae/classPHParameters.html#a0ea61399af0d3ef4517d75750fde3631',1,'PHParameters::detname()'],['../da/d29/classPHG4Parameters.html#ab8c28f760f5117a4fda59bfae1b877b4',1,'PHG4Parameters::detname()']]],
   ['difference_5ftype',['difference_type',['../d1/d96/classboost_1_1array.html#ac30bfc655383f5d40dce586585cfe5a6',1,'boost::array::difference_type()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#aea99b447a24a726d5f6e8cf3aa1ff39c',1,'boost::array&lt; T, 0 &gt;::difference_type()']]],
   ['different',['Different',['../de/dbb/classSyncObject.html#ab8b7f5a87277828d6ea97d2ed3dd546d',1,'SyncObject::Different(const SyncObject *other) const '],['../de/dbb/classSyncObject.html#a09c4601f4fbb74b3267c4a48f369c102',1,'SyncObject::Different(const SyncObject *other) const ']]],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['readeicfiles',['ReadEICFiles',['../d3/d49/classReadEICFiles.html',1,'']]],
   ['recoconsts',['recoConsts',['../d8/d14/classrecoConsts.html',1,'']]],
   ['record',['record',['../db/d09/structPHG4DSTReader_1_1record.html',1,'PHG4DSTReader']]],
   ['requireparticlesinacc',['RequireParticlesInAcc',['../da/d73/classRequireParticlesInAcc.html',1,'']]],

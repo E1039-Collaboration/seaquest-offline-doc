@@ -115,8 +115,8 @@ $(document).ready(function(){initNavTree('d4/d8d/UtilDimuon_8cc_source.html','..
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d4/dcc/namespaceUtilDimuon.html#a3998d44988236a047a2a93e18f5d3649">    6</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/dcc/namespaceUtilDimuon.html#a3998d44988236a047a2a93e18f5d3649">UtilDimuon::GetX1X2</a>(<span class="keyword">const</span> <a class="code" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a>* dim, <span class="keywordtype">double</span>&amp; x1, <span class="keywordtype">double</span>&amp; x2)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> M_P    = 0.938;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> E_BEAM = 120.0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a>    = 0.938;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a> = 120.0;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keyword">const</span> TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">p_beam</a>  (0, 0, sqrt(E_BEAM*E_BEAM - M_P*M_P), E_BEAM);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keyword">const</span> TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>(0, 0, 0, M_P);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keyword">const</span> TLorentzVector <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">p_cms</a> = p_beam + <a class="code" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">p_target</a>;</div>
@@ -156,7 +156,9 @@ $(document).ready(function(){initNavTree('d4/d8d/UtilDimuon_8cc_source.html','..
 <div class="ttc" id="namespaceDPGEN_html_a5ade4ed2af54a1a38cf51a3e4f005c85"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a5ade4ed2af54a1a38cf51a3e4f005c85">DPGEN::p_cms</a></div><div class="ttdeci">const TLorentzVector p_cms</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00055">SQPrimaryParticleGen.C:55</a></div></div>
 <div class="ttc" id="namespaceDPGEN_html_add08e2813c32370aafa63ee51324def2"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">DPGEN::p_target</a></div><div class="ttdeci">const TLorentzVector p_target(0., 0., 0., mp)</div></div>
 <div class="ttc" id="SQDimuon_8h_html"><div class="ttname"><a href="../../d5/d78/SQDimuon_8h.html">SQDimuon.h</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_a98a213294605adf4d40b31e143bd09a9"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9">E_BEAM</a></div><div class="ttdeci">#define E_BEAM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00014">GlobalConsts.h:14</a></div></div>
 <div class="ttc" id="classSQDimuon_html"><div class="ttname"><a href="../../d8/dd3/classSQDimuon.html">SQDimuon</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d78/SQDimuon_8h_source.html#l00007">SQDimuon.h:7</a></div></div>
+<div class="ttc" id="GlobalConsts_8h_html_ab4d888266c25c8140baedb207e24e8f4"><div class="ttname"><a href="../../dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4">M_P</a></div><div class="ttdeci">#define M_P</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de2/GlobalConsts_8h_source.html#l00013">GlobalConsts.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -167,7 +169,7 @@ $(document).ready(function(){initNavTree('d4/d8d/UtilDimuon_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_564b6959276516c8dfa5a8a6d9fbe0fa.html">UtilAna</a></li><li class="navelem"><a class="el" href="../../d4/d8d/UtilDimuon_8cc.html">UtilDimuon.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Aug 9 2020 20:10:13</em> using <a
+			updated: <em>Mon Aug 10 2020 23:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

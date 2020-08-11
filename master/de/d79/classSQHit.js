@@ -1,6 +1,5 @@
 var classSQHit =
 [
-    [ "PHG4HitDefs_keytype", "de/d79/classSQHit.html#ae02ed4c8fc30ba145c6e435cb9cc3bc1", null ],
     [ "HitQuality", "de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d", [
       [ "InTime", "de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da1fe7f51a874bed951c38f2ac59824b16", null ],
       [ "HodoMask", "de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502da15c41dd23b32fcc0538d87332b41279c", null ],
@@ -12,7 +11,7 @@ var classSQHit =
     [ "get_detector_id", "de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33", null ],
     [ "get_drift_distance", "de/d79/classSQHit.html#aab506d06da719529a43b1210c758f379", null ],
     [ "get_element_id", "de/d79/classSQHit.html#a4ce14b27ab63d03e5f3aab541b2efe26", null ],
-    [ "get_g4hit_id", "de/d79/classSQHit.html#a1d772c528193b2f6bac704d3a32a5acc", null ],
+    [ "get_g4hit_id", "de/d79/classSQHit.html#af01763a2d5c671656646944fafc155d4", null ],
     [ "get_hit_id", "de/d79/classSQHit.html#a9e470ede0a608c4e13325eab1d691694", null ],
     [ "get_level", "de/d79/classSQHit.html#a13aacfea8dac7c8772a17601e758081e", null ],
     [ "get_pos", "de/d79/classSQHit.html#a2560a11b54287b55ec70196fc416b573", null ],
@@ -33,7 +32,7 @@ var classSQHit =
     [ "set_detector_id", "de/d79/classSQHit.html#a9497f045fe7b60f98f6d62c75aa58c36", null ],
     [ "set_drift_distance", "de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361", null ],
     [ "set_element_id", "de/d79/classSQHit.html#a3ba426998ce6bd9061e3d821dbf8d80e", null ],
-    [ "set_g4hit_id", "de/d79/classSQHit.html#ae709f1be572ca04b87981ff558865054", null ],
+    [ "set_g4hit_id", "de/d79/classSQHit.html#ad7361d8d7e389ae5014515d403f45dc2", null ],
     [ "set_hit_id", "de/d79/classSQHit.html#a51f264b3d3a56f8d897e7e00f05ad6d6", null ],
     [ "set_hodo_mask", "de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3", null ],
     [ "set_in_time", "de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6", null ],
