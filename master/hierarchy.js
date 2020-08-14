@@ -70,6 +70,7 @@ var hierarchy =
         [ "AnaModule", "dc/da8/classAnaModule.html", null ],
         [ "AnaRealDst", "d0/d63/classAnaRealDst.html", null ],
         [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", null ],
+        [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", null ],
         [ "AnaWait", "d5/d60/classAnaWait.html", null ],
         [ "CalibEvtQual", "da/de3/classCalibEvtQual.html", null ],
         [ "CalibInTime", "d3/d98/classCalibInTime.html", null ],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['nchamberplanes',['nChamberPlanes',['../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19',1,'GlobalConsts.h']]],
   ['ndarkphotonplanes',['nDarkPhotonPlanes',['../dd/de2/GlobalConsts_8h.html#acac414e575e1ee011cf3e3d0bbf14adc',1,'GlobalConsts.h']]],
+  ['ndet',['NDET',['../db/d7f/AnaTrkQA_8cxx.html#a39f5f232d3b0120a3674487caa376349',1,'AnaTrkQA.cxx']]],
   ['ndetplanes',['NDETPLANES',['../d4/d12/mTrkEveDisplay_8h.html#a23e76859e5b46549873b75d752975591',1,'mTrkEveDisplay.h']]],
   ['nhodoplanes',['nHodoPlanes',['../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109',1,'GlobalConsts.h']]],
   ['nmaxhodos',['NMAXHODOS',['../d7/da0/DPTriggerAnalyzer_8h.html#ab74683be9ac29ccb82ce8f16b75ab491',1,'DPTriggerAnalyzer.h']]],

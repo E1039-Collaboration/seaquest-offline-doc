@@ -33,6 +33,7 @@ var annotated =
     [ "AnaModule", "dc/da8/classAnaModule.html", "dc/da8/classAnaModule" ],
     [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ],
     [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", "d1/d9e/classAnaSimDst" ],
+    [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", "d9/d85/classAnaTrkQA" ],
     [ "AnaWait", "d5/d60/classAnaWait.html", "d5/d60/classAnaWait" ],
     [ "CalibEvtQual", "da/de3/classCalibEvtQual.html", "da/de3/classCalibEvtQual" ],
     [ "CalibInTime", "d3/d98/classCalibInTime.html", "d3/d98/classCalibInTime" ],
