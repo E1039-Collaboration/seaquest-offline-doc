@@ -106,9 +106,9 @@ $(document).ready(function(){initNavTree('dd/d81/md__dev_shm_kenichi_update-gith
 <h2>Building</h2>
 <p>The analysis code is located in <code>e1039-analysis/AnaTrkQA/src</code>. The following commands set up the shell environment and compile the code; ``` cd e1039-analysis/AnaTrkQA source setup.sh cd build cmake-ana-TrkQA make install ``` </p>
 <h3>Running the analysis macro</h3>
-<p>Load <code>libana_trkqa.so</code> in Fun4Sim macro in SimChainDev area and register the <a class="el" href="../../d9/d85/classAnaTrkQA.html">AnaTrkQA</a> after the recontruction process as ``` AnaTrkQA* trackQA = new <a class="el" href="../../d9/d85/classAnaTrkQA.html">AnaTrkQA()</a>; trackQA-&gt;set_hit_container_choice("Vector"); trackQA-&gt;set_out_name("trackQA.root"); se-&gt;registerSubsystem(trackQA); ``` </p>
+<p>Run <code><a class="el" href="../../d3/da6/Fun4Sim__TrkQA_8C.html">Fun4Sim_TrkQA.C</a></code> macro in <code>macors\</code>area</p>
 <h3>Plotting macors</h3>
-<p>Plotting macro <code>plot_trackQA.C</code> is situated inside macros directory. It loads <code>trackQA.root</code> produced by Fun4Sim macro and plots various histograms and graphs for quality assurance of the tracks. </p>
+<p>still under reconstruction </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('dd/d81/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Aug 14 2020 18:50:10</em> using <a
+			updated: <em>Fri Aug 14 2020 19:00:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
