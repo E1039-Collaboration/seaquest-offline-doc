@@ -1,0 +1,27 @@
+var classSQCalMCHit__v1 =
+[
+    [ "SQCalMCHit_v1", "d7/d16/classSQCalMCHit__v1.html#a77610589f0ff02a2207b0bc75b2632e5", null ],
+    [ "~SQCalMCHit_v1", "d7/d16/classSQCalMCHit__v1.html#a7fdbb11558d0fd7bd3b2a9c690d17974", null ],
+    [ "Clone", "d7/d16/classSQCalMCHit__v1.html#a02774108eba5747284570e2a48ae1e4f", null ],
+    [ "get_g4hit_id", "d7/d16/classSQCalMCHit__v1.html#a36a34a192c5ebd9b00d92a9d888789cf", null ],
+    [ "get_shower_id", "d7/d16/classSQCalMCHit__v1.html#aad0d0b80562a8baa7aa1a355bc948ccb", null ],
+    [ "get_track_id", "d7/d16/classSQCalMCHit__v1.html#a531294b9326676e7fd23b2df87e84c52", null ],
+    [ "get_truth_px", "d7/d16/classSQCalMCHit__v1.html#ac717679287bc49c178efba103aaf4a39", null ],
+    [ "get_truth_py", "d7/d16/classSQCalMCHit__v1.html#a86ad227942d24497431ce5bee5ce784a", null ],
+    [ "get_truth_pz", "d7/d16/classSQCalMCHit__v1.html#ab1e2acc92a4742210545671595f54b2d", null ],
+    [ "get_truth_x", "d7/d16/classSQCalMCHit__v1.html#af578f455ac87682d08bd5ef6f24f952c", null ],
+    [ "get_truth_y", "d7/d16/classSQCalMCHit__v1.html#a483ba81c1955c3f5d81c4524fce2e022", null ],
+    [ "get_truth_z", "d7/d16/classSQCalMCHit__v1.html#a5dedbc4027a7d74ca518de8cd40012b0", null ],
+    [ "identify", "d7/d16/classSQCalMCHit__v1.html#ab95110d50e012e719807f4f086f82ad5", null ],
+    [ "isValid", "d7/d16/classSQCalMCHit__v1.html#a9c9aebbf0900b35a8d3764dc6be59d8a", null ],
+    [ "Reset", "d7/d16/classSQCalMCHit__v1.html#a7fbce61be3d2293a12f0720dc84b3663", null ],
+    [ "set_g4hit_id", "d7/d16/classSQCalMCHit__v1.html#aabf3756152dba82b0a9b90949687e370", null ],
+    [ "set_shower_id", "d7/d16/classSQCalMCHit__v1.html#a9b8c6bb00c7e08e634a91607e388b0e4", null ],
+    [ "set_track_id", "d7/d16/classSQCalMCHit__v1.html#a956faefc76344cf2be71333ad69b19f9", null ],
+    [ "set_truth_px", "d7/d16/classSQCalMCHit__v1.html#a4a9b49c73ec4b9075d3969e88354822a", null ],
+    [ "set_truth_py", "d7/d16/classSQCalMCHit__v1.html#a54c0af44451f6ad75ba395c84476d745", null ],
+    [ "set_truth_pz", "d7/d16/classSQCalMCHit__v1.html#a3ab5980bf1f235d2c14b16cba39e86c0", null ],
+    [ "set_truth_x", "d7/d16/classSQCalMCHit__v1.html#aeec9c4004e6f5bda52c0b8ba826a8a1a", null ],
+    [ "set_truth_y", "d7/d16/classSQCalMCHit__v1.html#a1c8d94e0f9d3707104fae8a1aee3d5c7", null ],
+    [ "set_truth_z", "d7/d16/classSQCalMCHit__v1.html#a55400749a4b081e6f17f996ddf5c077c", null ]
+];

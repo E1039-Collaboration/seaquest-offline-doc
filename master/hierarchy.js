@@ -130,6 +130,7 @@ var hierarchy =
             [ "PHG4BNLTargetCoilSubsystem", "d9/df7/classPHG4BNLTargetCoilSubsystem.html", null ],
             [ "PHG4CollimatorSubsystem", "de/d78/classPHG4CollimatorSubsystem.html", null ],
             [ "PHG4CylinderSubsystem", "db/dc5/classPHG4CylinderSubsystem.html", null ],
+            [ "PHG4EMCalSubsystem", "d5/d2e/classPHG4EMCalSubsystem.html", null ],
             [ "PHG4PolyconSubsystem", "d6/d12/classPHG4PolyconSubsystem.html", null ],
             [ "PHG4SquareTubeSubsystem", "d4/d2d/classPHG4SquareTubeSubsystem.html", null ],
             [ "PHG4TargetCoilSubsystem", "d8/d86/classPHG4TargetCoilSubsystem.html", null ],
@@ -257,6 +258,7 @@ var hierarchy =
       [ "PHG4CollimatorDetector", "d8/d44/classPHG4CollimatorDetector.html", null ],
       [ "PHG4ConeDetector", "d6/d41/classPHG4ConeDetector.html", null ],
       [ "PHG4CylinderDetector", "d3/d95/classPHG4CylinderDetector.html", null ],
+      [ "PHG4EMCalDetector", "dd/d57/classPHG4EMCalDetector.html", null ],
       [ "PHG4PolyconDetector", "d8/db8/classPHG4PolyconDetector.html", null ],
       [ "PHG4SquareTubeDetector", "d9/d87/classPHG4SquareTubeDetector.html", null ],
       [ "PHG4TargetCoilDetector", "df/dec/classPHG4TargetCoilDetector.html", null ],
@@ -293,6 +295,7 @@ var hierarchy =
       [ "PHG4CollimatorSteppingAction", "d2/dc6/classPHG4CollimatorSteppingAction.html", null ],
       [ "PHG4ConeSteppingAction", "d4/d7a/classPHG4ConeSteppingAction.html", null ],
       [ "PHG4CylinderSteppingAction", "da/d58/classPHG4CylinderSteppingAction.html", null ],
+      [ "PHG4EMCalSteppingAction", "db/d53/classPHG4EMCalSteppingAction.html", null ],
       [ "PHG4PolyconSteppingAction", "d3/d3d/classPHG4PolyconSteppingAction.html", null ],
       [ "PHG4SquareTubeSteppingAction", "dc/d4f/classPHG4SquareTubeSteppingAction.html", null ],
       [ "PHG4TargetCoilSteppingAction", "db/d00/classPHG4TargetCoilSteppingAction.html", null ],
@@ -339,8 +342,8 @@ var hierarchy =
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
-    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
+    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "boost::detail::polymorphic_cast_tag", "da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
     [ "Pydat1_t", "d0/da2/structPydat1__t.html", null ],
@@ -512,6 +515,9 @@ var hierarchy =
           [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ]
         ] ],
         [ "SQHit", "de/d79/classSQHit.html", [
+          [ "SQCalHit_v1", "da/db1/classSQCalHit__v1.html", [
+            [ "SQCalMCHit_v1", "d7/d16/classSQCalMCHit__v1.html", null ]
+          ] ],
           [ "SQHit_v1", "d3/d2e/classSQHit__v1.html", [
             [ "SQMCHit_v1", "d1/d5f/classSQMCHit__v1.html", null ]
           ] ]
@@ -581,8 +587,8 @@ var hierarchy =
     [ "TrackData", "dd/d7f/structTrackData.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
+    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UtilOnline", "df/da2/classUtilOnline.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],

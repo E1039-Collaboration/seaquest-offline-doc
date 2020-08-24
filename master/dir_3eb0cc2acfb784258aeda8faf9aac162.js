@@ -209,6 +209,19 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
       [ "PHG4DetectorSubsystem", "d5/d29/classPHG4DetectorSubsystem.html", "d5/d29/classPHG4DetectorSubsystem" ]
     ] ],
     [ "PHG4DetectorSubsystemLinkDef.h", "d4/d35/PHG4DetectorSubsystemLinkDef_8h.html", null ],
+    [ "PHG4EMCalDetector.cc", "dd/dc7/PHG4EMCalDetector_8cc.html", null ],
+    [ "PHG4EMCalDetector.h", "dd/dda/PHG4EMCalDetector_8h.html", [
+      [ "PHG4EMCalDetector", "dd/d57/classPHG4EMCalDetector.html", "dd/d57/classPHG4EMCalDetector" ]
+    ] ],
+    [ "PHG4EMCalSteppingAction.cc", "db/d10/PHG4EMCalSteppingAction_8cc.html", null ],
+    [ "PHG4EMCalSteppingAction.h", "d5/d60/PHG4EMCalSteppingAction_8h.html", [
+      [ "PHG4EMCalSteppingAction", "db/d53/classPHG4EMCalSteppingAction.html", "db/d53/classPHG4EMCalSteppingAction" ]
+    ] ],
+    [ "PHG4EMCalSubsystem.cc", "da/dc1/PHG4EMCalSubsystem_8cc.html", null ],
+    [ "PHG4EMCalSubsystem.h", "dd/d87/PHG4EMCalSubsystem_8h.html", [
+      [ "PHG4EMCalSubsystem", "d5/d2e/classPHG4EMCalSubsystem.html", "d5/d2e/classPHG4EMCalSubsystem" ]
+    ] ],
+    [ "PHG4EMCalSubsystemLinkDef.h", "db/d60/PHG4EMCalSubsystemLinkDef_8h.html", null ],
     [ "PHG4EventActionClearZeroEdep.cc", "d8/dfd/PHG4EventActionClearZeroEdep_8cc.html", null ],
     [ "PHG4EventActionClearZeroEdep.h", "df/d8f/PHG4EventActionClearZeroEdep_8h.html", [
       [ "PHG4EventActionClearZeroEdep", "db/d55/classPHG4EventActionClearZeroEdep.html", "db/d55/classPHG4EventActionClearZeroEdep" ]

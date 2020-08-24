@@ -1,46 +1,51 @@
 <map id="SQDigitizer::process_event" name="SQDigitizer::process_event">
-<area shape="rect" id="node2" href="$df/d36/classSQDigitizer.html#a8db95e9af1b348833d7e759a486ee3da" title="digitize the emcal hits " alt="" coords="192,892,363,919"/>
-<area shape="rect" id="node3" href="$df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" title="main external call, fill the digi hit vector " alt="" coords="194,943,361,969"/>
-<area shape="rect" id="node44" href="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed" title="Returns the name of this module. " alt="" coords="210,993,345,1020"/>
-<area shape="rect" id="node45" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module. " alt="" coords="201,1044,354,1071"/>
-<area shape="rect" id="node4" href="$d3/d9e/classPHG4Hit.html#acea6b2f3763d899e4de3765b9b5c6e51" title="PHG4Hit::get_hit_id" alt="" coords="443,5,578,32"/>
-<area shape="rect" id="node5" href="$d3/d2e/classSQHit__v1.html#aff03660bc12bbf7b35b7cd20d1f13b91" title="SQHit_v1::get_pos" alt="" coords="447,56,575,83"/>
-<area shape="rect" id="node6" href="$d3/d9e/classPHG4Hit.html#a72c1a6eb464b8ee3d78b09df5c180b7f" title="PHG4Hit::get_px" alt="" coords="452,107,569,133"/>
-<area shape="rect" id="node7" href="$d3/d9e/classPHG4Hit.html#aba1f526c01fe8e4d349e5a8888ce9665" title="PHG4Hit::get_py" alt="" coords="452,157,569,184"/>
-<area shape="rect" id="node8" href="$d3/d9e/classPHG4Hit.html#aefe993eb75a44e97540180eb55d0a993" title="PHG4Hit::get_pz" alt="" coords="452,208,569,235"/>
-<area shape="rect" id="node9" href="$d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76" title="PHG4Hit::get_trkid" alt="" coords="446,259,575,285"/>
-<area shape="rect" id="node10" href="$d3/d9e/classPHG4Hit.html#a69cc7aee827e3da7cf86e87418f9211b" title="PHG4Hit::get_x" alt="" coords="455,309,566,336"/>
-<area shape="rect" id="node11" href="$d3/d9e/classPHG4Hit.html#a17de3a9c9dc84ce4a50fc89082689d55" title="PHG4Hit::get_y" alt="" coords="455,360,566,387"/>
-<area shape="rect" id="node12" href="$d3/d9e/classPHG4Hit.html#a06fcf6b2cbcc8413ca3d6a172458e94e" title="PHG4Hit::get_z" alt="" coords="455,411,566,437"/>
-<area shape="rect" id="node13" href="$d0/da0/classGeomSvc.html#a72f79573287920fa85e8662d0a4452aa" title="GeomSvc::getCellWidth" alt="" coords="431,461,590,488"/>
-<area shape="rect" id="node14" href="$d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509" title="GeomSvc::getDCA" alt="" coords="445,512,576,539"/>
-<area shape="rect" id="node16" href="$d0/da0/classGeomSvc.html#aa473fe84216b361eab68967a0d41e30f" title="GeomSvc::getExpElementID" alt="" coords="419,563,603,589"/>
-<area shape="rect" id="node17" href="$d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439" title="return all hits matching a given detid " alt="" coords="423,613,598,640"/>
-<area shape="rect" id="node18" href="$d0/da0/classGeomSvc.html#a0490f7069c7c31609d956dc96daa3524" title="Get the interception of a line an a plane. " alt="" coords="425,664,596,691"/>
-<area shape="rect" id="node20" href="$d0/da0/classGeomSvc.html#a5a50feb4de0351f6d3d739dbc66d6247" title="Convert the detectorID and elementID to the actual hit position. " alt="" coords="420,715,601,741"/>
-<area shape="rect" id="node21" href="$d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c" title="GeomSvc::getPlaneNElements" alt="" coords="411,765,610,792"/>
-<area shape="rect" id="node22" href="$d0/da0/classGeomSvc.html#a89a92f7dce975143878a46dd08a3e463" title="GeomSvc::getPlaneOverlap" alt="" coords="421,816,601,843"/>
-<area shape="rect" id="node23" href="$d0/da0/classGeomSvc.html#a58a3d25847e956be5173e1c0241d8cc3" title="GeomSvc::getPlanePosition" alt="" coords="419,867,602,893"/>
-<area shape="rect" id="node24" href="$d0/da0/classGeomSvc.html#aeb39d8892e1abc38eaf32608b0db0a20" title="See if a point is in a plane. " alt="" coords="441,917,580,944"/>
-<area shape="rect" id="node25" href="$d9/dbc/classSQHitVector.html#aeefecc59b07f9082de2629256f5d4675" title="SQHitVector::push_back" alt="" coords="429,968,592,995"/>
-<area shape="rect" id="node26" href="$d3/d2e/classSQHit__v1.html#a98a80149d5938b8936da1317f2c45366" title="SQHit_v1::set_detector_id" alt="" coords="425,1019,596,1045"/>
-<area shape="rect" id="node27" href="$d3/d2e/classSQHit__v1.html#a22bf5f98cc42849977e2b62a89b13dde" title="SQHit_v1::set_drift\l_distance" alt="" coords="446,1070,575,1111"/>
-<area shape="rect" id="node28" href="$d3/d2e/classSQHit__v1.html#a9850d90b3d3a90f5339b2d244c38e3bc" title="SQHit_v1::set_element_id" alt="" coords="425,1136,596,1163"/>
-<area shape="rect" id="node29" href="$d1/d5f/classSQMCHit__v1.html#a6af5e2ae581230eafdd8ec87f66e20dc" title="SQMCHit_v1::set_g4hit_id" alt="" coords="425,1187,597,1213"/>
-<area shape="rect" id="node30" href="$d3/d2e/classSQHit__v1.html#a91a37de0a629fa76d55d1670d40cbcb3" title="SQHit_v1::set_hit_id" alt="" coords="441,1237,580,1264"/>
-<area shape="rect" id="node31" href="$d3/d2e/classSQHit__v1.html#a8d25b701917be4d29bd836204bf5da37" title="SQHit_v1::set_hodo_mask" alt="" coords="424,1288,597,1315"/>
-<area shape="rect" id="node32" href="$d3/d2e/classSQHit__v1.html#adc9978b8f7143da209763ec3f04c4ebb" title="SQHit_v1::set_in_time" alt="" coords="436,1339,585,1365"/>
-<area shape="rect" id="node33" href="$d3/d2e/classSQHit__v1.html#a32b613cd8d576272b571108f9d1a82b2" title="SQHit_v1::set_pos" alt="" coords="447,1389,574,1416"/>
-<area shape="rect" id="node34" href="$d3/d2e/classSQHit__v1.html#a7d6c5f92fddca59f4c0c2db3da3803fe" title="SQHit_v1::set_tdc_time" alt="" coords="432,1440,589,1467"/>
-<area shape="rect" id="node35" href="$d1/d5f/classSQMCHit__v1.html#a7491948ca713c99c832e07988758d258" title="SQMCHit_v1::set_track_id" alt="" coords="424,1491,597,1517"/>
-<area shape="rect" id="node36" href="$d1/d5f/classSQMCHit__v1.html#ab1090c6266c4842001bf1ad501840790" title="SQMCHit_v1::set_truth_px" alt="" coords="424,1541,597,1568"/>
-<area shape="rect" id="node37" href="$d1/d5f/classSQMCHit__v1.html#a30697f71022797794fc33905baf3518c" title="SQMCHit_v1::set_truth_py" alt="" coords="424,1592,597,1619"/>
-<area shape="rect" id="node38" href="$d1/d5f/classSQMCHit__v1.html#aa87c42088430092e0649af52e0fdf692" title="SQMCHit_v1::set_truth_pz" alt="" coords="424,1643,597,1669"/>
-<area shape="rect" id="node39" href="$d1/d5f/classSQMCHit__v1.html#a4072584b6f6f10568f2a9a69265bdebd" title="SQMCHit_v1::set_truth_x" alt="" coords="427,1693,594,1720"/>
-<area shape="rect" id="node40" href="$d1/d5f/classSQMCHit__v1.html#a9a81a1ab5df352e020b99e914dc6e00e" title="SQMCHit_v1::set_truth_y" alt="" coords="427,1744,594,1771"/>
-<area shape="rect" id="node41" href="$d1/d5f/classSQMCHit__v1.html#aa89d1b41cd6c0880a2e2fd5d77990106" title="SQMCHit_v1::set_truth_z" alt="" coords="427,1795,594,1821"/>
-<area shape="rect" id="node42" href="$d9/dbc/classSQHitVector.html#a7c3abb0e9b5625a54b979de9427a377f" title="SQHitVector::size" alt="" coords="449,1845,572,1872"/>
-<area shape="rect" id="node43" href="$d4/d30/classPHG4HitContainer.html#a516cd69a4ce8570252cd9bd7dafcc35a" title="PHG4HitContainer::size" alt="" coords="433,1896,589,1923"/>
-<area shape="rect" id="node15" href="$d0/da0/classGeomSvc.html#a631d2a6b362ac1c735920cb16f056945" title="GeomSvc::getEndPoints" alt="" coords="659,512,821,539"/>
-<area shape="rect" id="node19" href="$dc/d90/classPlane.html#a191135123cee80722e6d7b2da0055a76" title="Plane::intercept" alt="" coords="685,664,795,691"/>
+<area shape="rect" id="node2" href="$df/d36/classSQDigitizer.html#a8db95e9af1b348833d7e759a486ee3da" title="digitize the emcal hits " alt="" coords="192,1456,363,1483"/>
+<area shape="rect" id="node35" href="$df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" title="main external call, fill the digi hit vector " alt="" coords="194,655,361,681"/>
+<area shape="rect" id="node49" href="$d5/dec/classFun4AllBase.html#a41f9ac377743d046f590617fd6f4f0ed" title="Returns the name of this module. " alt="" coords="210,1507,345,1533"/>
+<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module. " alt="" coords="201,1557,354,1584"/>
+<area shape="rect" id="node3" href="$d3/d9e/classPHG4Hit.html#a299edb9d0b140d0456f8bfecdf9cac56" title="PHG4Hit::get_edep" alt="" coords="445,2184,577,2211"/>
+<area shape="rect" id="node4" href="$d3/d9e/classPHG4Hit.html#acea6b2f3763d899e4de3765b9b5c6e51" title="PHG4Hit::get_hit_id" alt="" coords="443,1136,578,1163"/>
+<area shape="rect" id="node5" href="$d3/d9e/classPHG4Hit.html#aa7ecccadf5859e325696a11d3b0e11e7" title="PHG4Hit::get_index_l" alt="" coords="439,2235,583,2261"/>
+<area shape="rect" id="node6" href="$d3/d9e/classPHG4Hit.html#a72c1a6eb464b8ee3d78b09df5c180b7f" title="PHG4Hit::get_px" alt="" coords="452,1187,569,1213"/>
+<area shape="rect" id="node7" href="$d3/d9e/classPHG4Hit.html#aba1f526c01fe8e4d349e5a8888ce9665" title="PHG4Hit::get_py" alt="" coords="452,1237,569,1264"/>
+<area shape="rect" id="node8" href="$d3/d9e/classPHG4Hit.html#aefe993eb75a44e97540180eb55d0a993" title="PHG4Hit::get_pz" alt="" coords="452,680,569,707"/>
+<area shape="rect" id="node9" href="$d3/d9e/classPHG4Hit.html#a287eb4f89787c2d7e42783454471f8e1" title="PHG4Hit::get_scint_id" alt="" coords="437,2285,585,2312"/>
+<area shape="rect" id="node10" href="$d3/d9e/classPHG4Hit.html#ab640cd94d468b23b439656ea9cdfedf5" title="PHG4Hit::get_shower_id" alt="" coords="430,2336,591,2363"/>
+<area shape="rect" id="node11" href="$d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76" title="PHG4Hit::get_trkid" alt="" coords="446,731,575,757"/>
+<area shape="rect" id="node12" href="$d3/d9e/classPHG4Hit.html#a69cc7aee827e3da7cf86e87418f9211b" title="PHG4Hit::get_x" alt="" coords="455,781,566,808"/>
+<area shape="rect" id="node13" href="$d3/d9e/classPHG4Hit.html#a17de3a9c9dc84ce4a50fc89082689d55" title="PHG4Hit::get_y" alt="" coords="455,832,566,859"/>
+<area shape="rect" id="node14" href="$d3/d9e/classPHG4Hit.html#a06fcf6b2cbcc8413ca3d6a172458e94e" title="PHG4Hit::get_z" alt="" coords="455,883,566,909"/>
+<area shape="rect" id="node15" href="$d4/d30/classPHG4HitContainer.html#aec01041c4b9347f93832704e142b2439" title="return all hits matching a given detid " alt="" coords="423,933,598,960"/>
+<area shape="rect" id="node16" href="$d9/dbc/classSQHitVector.html#aeefecc59b07f9082de2629256f5d4675" title="SQHitVector::push_back" alt="" coords="429,984,592,1011"/>
+<area shape="rect" id="node17" href="$da/db1/classSQCalHit__v1.html#aeb11c77a1b2eb1985f9af7b2cbf51720" title="SQCalHit_v1::set_detector_id" alt="" coords="415,2387,606,2413"/>
+<area shape="rect" id="node18" href="$de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361" title="SQHit::set_drift_distance" alt="" coords="429,1288,593,1315"/>
+<area shape="rect" id="node19" href="$da/db1/classSQCalHit__v1.html#a98e855863129b8c7d210bbd60ef1eb61" title="SQCalHit_v1::set_element_id" alt="" coords="416,1339,605,1365"/>
+<area shape="rect" id="node20" href="$d7/d16/classSQCalMCHit__v1.html#aabf3756152dba82b0a9b90949687e370" title="SQCalMCHit_v1::set\l_g4hit_id" alt="" coords="441,1390,580,1431"/>
+<area shape="rect" id="node21" href="$de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3" title="SQHit::set_hodo_mask" alt="" coords="434,1456,587,1483"/>
+<area shape="rect" id="node22" href="$de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6" title="SQHit::set_in_time" alt="" coords="446,1507,575,1533"/>
+<area shape="rect" id="node23" href="$de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6" title="SQHit::set_pos" alt="" coords="457,1557,564,1584"/>
+<area shape="rect" id="node24" href="$d7/d16/classSQCalMCHit__v1.html#a9b8c6bb00c7e08e634a91607e388b0e4" title="SQCalMCHit_v1::set\l_shower_id" alt="" coords="441,1609,580,1650"/>
+<area shape="rect" id="node25" href="$de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b" title="SQHit::set_tdc_time" alt="" coords="442,1675,579,1701"/>
+<area shape="rect" id="node26" href="$d7/d16/classSQCalMCHit__v1.html#a956faefc76344cf2be71333ad69b19f9" title="SQCalMCHit_v1::set\l_track_id" alt="" coords="441,1726,580,1767"/>
+<area shape="rect" id="node27" href="$d7/d16/classSQCalMCHit__v1.html#a4a9b49c73ec4b9075d3969e88354822a" title="SQCalMCHit_v1::set\l_truth_px" alt="" coords="441,1791,580,1833"/>
+<area shape="rect" id="node28" href="$d7/d16/classSQCalMCHit__v1.html#a54c0af44451f6ad75ba395c84476d745" title="SQCalMCHit_v1::set\l_truth_py" alt="" coords="441,1857,580,1898"/>
+<area shape="rect" id="node29" href="$d7/d16/classSQCalMCHit__v1.html#a3ab5980bf1f235d2c14b16cba39e86c0" title="SQCalMCHit_v1::set\l_truth_pz" alt="" coords="441,1922,580,1963"/>
+<area shape="rect" id="node30" href="$d7/d16/classSQCalMCHit__v1.html#aeec9c4004e6f5bda52c0b8ba826a8a1a" title="SQCalMCHit_v1::set\l_truth_x" alt="" coords="441,1987,580,2029"/>
+<area shape="rect" id="node31" href="$d7/d16/classSQCalMCHit__v1.html#a1c8d94e0f9d3707104fae8a1aee3d5c7" title="SQCalMCHit_v1::set\l_truth_y" alt="" coords="441,2053,580,2094"/>
+<area shape="rect" id="node32" href="$d7/d16/classSQCalMCHit__v1.html#a55400749a4b081e6f17f996ddf5c077c" title="SQCalMCHit_v1::set\l_truth_z" alt="" coords="441,2118,580,2159"/>
+<area shape="rect" id="node33" href="$d9/dbc/classSQHitVector.html#a7c3abb0e9b5625a54b979de9427a377f" title="SQHitVector::size" alt="" coords="449,1035,572,1061"/>
+<area shape="rect" id="node34" href="$d4/d30/classPHG4HitContainer.html#a516cd69a4ce8570252cd9bd7dafcc35a" title="PHG4HitContainer::size" alt="" coords="433,1085,589,1112"/>
+<area shape="rect" id="node36" href="$d3/d2e/classSQHit__v1.html#aff03660bc12bbf7b35b7cd20d1f13b91" title="SQHit_v1::get_pos" alt="" coords="447,275,575,301"/>
+<area shape="rect" id="node37" href="$d0/da0/classGeomSvc.html#a72f79573287920fa85e8662d0a4452aa" title="GeomSvc::getCellWidth" alt="" coords="431,325,590,352"/>
+<area shape="rect" id="node38" href="$d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509" title="GeomSvc::getDCA" alt="" coords="445,376,576,403"/>
+<area shape="rect" id="node39" href="$d0/da0/classGeomSvc.html#aa473fe84216b361eab68967a0d41e30f" title="GeomSvc::getExpElementID" alt="" coords="419,427,603,453"/>
+<area shape="rect" id="node40" href="$d0/da0/classGeomSvc.html#a0490f7069c7c31609d956dc96daa3524" title="Get the interception of a line an a plane. " alt="" coords="425,477,596,504"/>
+<area shape="rect" id="node41" href="$d0/da0/classGeomSvc.html#a5a50feb4de0351f6d3d739dbc66d6247" title="Convert the detectorID and elementID to the actual hit position. " alt="" coords="420,528,601,555"/>
+<area shape="rect" id="node42" href="$d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c" title="GeomSvc::getPlaneNElements" alt="" coords="411,579,610,605"/>
+<area shape="rect" id="node43" href="$d0/da0/classGeomSvc.html#a89a92f7dce975143878a46dd08a3e463" title="GeomSvc::getPlaneOverlap" alt="" coords="421,629,601,656"/>
+<area shape="rect" id="node44" href="$d0/da0/classGeomSvc.html#a58a3d25847e956be5173e1c0241d8cc3" title="GeomSvc::getPlanePosition" alt="" coords="419,5,602,32"/>
+<area shape="rect" id="node45" href="$d0/da0/classGeomSvc.html#aeb39d8892e1abc38eaf32608b0db0a20" title="See if a point is in a plane. " alt="" coords="441,56,580,83"/>
+<area shape="rect" id="node46" href="$d3/d2e/classSQHit__v1.html#a98a80149d5938b8936da1317f2c45366" title="SQHit_v1::set_detector_id" alt="" coords="425,107,596,133"/>
+<area shape="rect" id="node47" href="$d3/d2e/classSQHit__v1.html#a22bf5f98cc42849977e2b62a89b13dde" title="SQHit_v1::set_drift\l_distance" alt="" coords="446,158,575,199"/>
+<area shape="rect" id="node48" href="$d3/d2e/classSQHit__v1.html#a9850d90b3d3a90f5339b2d244c38e3bc" title="SQHit_v1::set_element_id" alt="" coords="425,224,596,251"/>
 </map>
