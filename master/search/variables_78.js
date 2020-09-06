@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()'],['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()']]],
+  ['x',['X',['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()'],['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()']]],
   ['x0',['x0',['../d6/d90/structGeomParamPlane_1_1Plane.html#a747407b2624302dfe4caa70871cca897',1,'GeomParamPlane::Plane::x0()'],['../dc/d90/classPlane.html#ab1e54f526f034360007cc97447f0c4b6',1,'Plane::x0()'],['../d2/d26/classTracklet.html#a4d010ad8661d14b6ace17f5dc838b218',1,'Tracklet::x0()']]],
   ['x0max',['x0max',['../d5/d9b/plot__matscan_8C.html#a1f9fde3c80fd661c0b3c9254c26a8cb2',1,'plot_matscan.C']]],
   ['x0min',['x0min',['../d5/d9b/plot__matscan_8C.html#af801aa677d9d37d79974c125bac5790b',1,'plot_matscan.C']]],

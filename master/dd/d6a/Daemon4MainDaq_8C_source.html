@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('dd/d6a/Daemon4MainDaq_8C_source.html',
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">string</span> name = name_char;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> length = name.length();</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (length &lt; 4 || name.substr(length-4, 4) != <span class="stringliteral">&quot;.dat&quot;</span>) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> run = <a class="code" href="../../df/da2/classUtilOnline.html#a3a5c3dd313ba7872494d6ec35b1615f3">UtilOnline::CodaFile2RunNum</a>(name);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a> = <a class="code" href="../../df/da2/classUtilOnline.html#a3a5c3dd313ba7872494d6ec35b1615f3">UtilOnline::CodaFile2RunNum</a>(name);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    list_run.push_back(run);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  }</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('dd/d6a/Daemon4MainDaq_8C_source.html',
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../dd/d6a/Daemon4MainDaq_8C.html#adecd55eca8834ca390c1122f91d09888">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d6a/Daemon4MainDaq_8C.html#adecd55eca8834ca390c1122f91d09888">StartDecoder</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> run, <span class="keyword">const</span> <span class="keywordtype">int</span> n_evt=0, <span class="keyword">const</span> <span class="keywordtype">bool</span> is_online=<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../dd/d6a/Daemon4MainDaq_8C.html#adecd55eca8834ca390c1122f91d09888">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d6a/Daemon4MainDaq_8C.html#adecd55eca8834ca390c1122f91d09888">StartDecoder</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>, <span class="keyword">const</span> <span class="keywordtype">int</span> n_evt=0, <span class="keyword">const</span> <span class="keywordtype">bool</span> is_online=<span class="keyword">true</span>)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  ostringstream oss;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;/dev/shm/decoder_maindaq&quot;</span>;</div>
@@ -184,8 +184,8 @@ $(document).ready(function(){initNavTree('dd/d6a/Daemon4MainDaq_8C_source.html',
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">for</span> (vector&lt;int&gt;::iterator it = list_run.begin(); it != list_run.end(); it++) {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordtype">int</span> run = *it;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">if</span> (find(list_run_done.begin(), list_run_done.end(), run) == list_run_done.end()) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a> = *it;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">if</span> (find(list_run_done.begin(), list_run_done.end(), <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>) == list_run_done.end()) {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        list_run_done.push_back(run);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../dd/d6a/Daemon4MainDaq_8C.html#adecd55eca8834ca390c1122f91d09888">StartDecoder</a>(run);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      }</div>
@@ -194,6 +194,7 @@ $(document).ready(function(){initNavTree('dd/d6a/Daemon4MainDaq_8C_source.html',
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
+<div class="ttc" id="run_8C_html_a078d38b1d96e7c0e4f35d93363cc8325"><div class="ttname"><a href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a></div><div class="ttdeci">int run(const int nEvents=1)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbc/run_8C_source.html#l00010">run.C:10</a></div></div>
 <div class="ttc" id="classUtilOnline_html_a4cf9e0ff905fd4ededb1a1ab43ad8fb7"><div class="ttname"><a href="../../df/da2/classUtilOnline.html#a4cf9e0ff905fd4ededb1a1ab43ad8fb7">UtilOnline::GetCodaFileDir</a></div><div class="ttdeci">static std::string GetCodaFileDir()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d8e/UtilOnline_8h_source.html#l00024">UtilOnline.h:24</a></div></div>
 <div class="ttc" id="classUtilOnline_html_a3a5c3dd313ba7872494d6ec35b1615f3"><div class="ttname"><a href="../../df/da2/classUtilOnline.html#a3a5c3dd313ba7872494d6ec35b1615f3">UtilOnline::CodaFile2RunNum</a></div><div class="ttdeci">static int CodaFile2RunNum(const std::string name)</div><div class="ttdoc">Convert the name of a Coda file to its run number. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d85/UtilOnline_8cc_source.html#l00025">UtilOnline.cc:25</a></div></div>
 <div class="ttc" id="Daemon4MainDaq_8C_html_aa863a64441cd412156a8340eabb322a4"><div class="ttname"><a href="../../dd/d6a/Daemon4MainDaq_8C.html#aa863a64441cd412156a8340eabb322a4">FindExistingRuns</a></div><div class="ttdeci">bool FindExistingRuns(vector&lt; int &gt; &amp;list_run)</div><div class="ttdoc">Daemon4MainDaq.C. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d6a/Daemon4MainDaq_8C_source.html#l00006">Daemon4MainDaq.C:6</a></div></div>
@@ -209,7 +210,7 @@ $(document).ready(function(){initNavTree('dd/d6a/Daemon4MainDaq_8C_source.html',
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_1be68d73ffe0a8e8b6693504d5ea5a85.html">macros</a></li><li class="navelem"><a class="el" href="../../dd/d6a/Daemon4MainDaq_8C.html">Daemon4MainDaq.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Sep 3 2020 17:50:09</em> using <a
+			updated: <em>Sun Sep 6 2020 12:20:08</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

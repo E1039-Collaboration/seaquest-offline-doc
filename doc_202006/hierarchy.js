@@ -68,6 +68,7 @@ var hierarchy =
         [ "AnaEffHodo", "db/d7d/classAnaEffHodo.html", null ],
         [ "AnaModule", "dc/da8/classAnaModule.html", null ],
         [ "AnaModule", "dc/da8/classAnaModule.html", null ],
+        [ "AnaModule", "dc/da8/classAnaModule.html", null ],
         [ "AnaRealDst", "d0/d63/classAnaRealDst.html", null ],
         [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", null ],
         [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", null ],
