@@ -1,5 +1,13 @@
 var NAVTREEINDEX23 =
 {
+"d7/d95/PHDataNodeIterator_8h.html":[20,0,2,1,2,4],
+"d7/d95/PHDataNodeIterator_8h_source.html":[20,0,2,1,2,4],
+"d7/d95/namespaceSQGenFit.html":[18,0,15],
+"d7/d95/namespaceSQGenFit.html":[19,0,15],
+"d7/d9c/TruthTrack_8h.html":[20,0,1,16,0,4],
+"d7/d9c/TruthTrack_8h_source.html":[20,0,1,16,0,4],
+"d7/d9e/PHG4TargetCoilV2Detector_8cc.html":[20,0,2,7,1,169],
+"d7/d9e/PHG4TargetCoilV2Detector_8cc_source.html":[20,0,2,7,1,169],
 "d7/d9e/mTrkEveDisplay_8cxx.html":[20,0,2,6,2,3,4],
 "d7/d9e/mTrkEveDisplay_8cxx_source.html":[20,0,2,6,2,3,4],
 "d7/da0/DPTriggerAnalyzer_8h.html":[20,0,2,6,3,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX23 =
 "d7/dec/classPHG4BlockGeomv1.html#a78e0bcafd348ae513bd64d81f4c55513":[19,0,180,17],
 "d7/dec/classPHG4BlockGeomv1.html#a7eccd2183f194420da5c3c682e030535":[19,0,180,4],
 "d7/dec/classPHG4BlockGeomv1.html#a7f76764167b47d10daa4c90f65b5209a":[19,0,180,0],
-"d7/dec/classPHG4BlockGeomv1.html#a9a16b5bccde44785dac8f1525b22e14d":[19,0,180,18],
-"d7/dec/classPHG4BlockGeomv1.html#aa5ad8b9fdfeb86f7b5f127dd99eeacee":[19,0,180,24],
-"d7/dec/classPHG4BlockGeomv1.html#aa5f918ba21f34b83a29a9fa13b389832":[19,0,180,1],
-"d7/dec/classPHG4BlockGeomv1.html#aad245c3ac31562efc5e1bc25d23a226b":[19,0,180,27],
-"d7/dec/classPHG4BlockGeomv1.html#ab30e92d7adcf0e6c1c8979f324969618":[19,0,180,25],
-"d7/dec/classPHG4BlockGeomv1.html#aba5eec61abf9161c81f9a686ffa188fa":[19,0,180,22],
-"d7/dec/classPHG4BlockGeomv1.html#adb1f70799e37c6ce035ffca4ac3a9d68":[19,0,180,15],
-"d7/dec/classPHG4BlockGeomv1.html#adeea92bddaf856251177737944d8b9d2":[19,0,180,11],
-"d7/dec/classPHG4BlockGeomv1.html#af31ca3d1ba6cbcde3fa17fd3a3d67936":[19,0,180,16]
+"d7/dec/classPHG4BlockGeomv1.html#a9a16b5bccde44785dac8f1525b22e14d":[19,0,180,18]
 };

@@ -37,6 +37,7 @@ var searchData=
   ['rplane',['rplane',['../d6/d7e/classPHG4EventHeaderv1.html#a0c76d42fa0d04b04773f364bdbc09198',1,'PHG4EventHeaderv1']]],
   ['rtprofile',['rtprofile',['../dc/d90/classPlane.html#a45c2241e178fe9b0af6448e2d9dbb56a',1,'Plane']]],
   ['run_5fdesc',['run_desc',['../d0/d64/structRunData.html#af790e99cc1be46e4b677b14f94e4d771',1,'RunData']]],
+  ['run_5fheader',['run_header',['../d5/dd4/classFun4AllSRawEventInputManager.html#a6c3d388984dc808d631411747bcf9748',1,'Fun4AllSRawEventInputManager']]],
   ['run_5fid',['run_id',['../d0/d64/structRunData.html#a0f28a4262cfcfd9df0da19228c4c1275',1,'RunData::run_id()'],['../d4/dbe/structSpillData.html#a5a5d4a1f1eb4ea5f71f38bd34f0b7989',1,'SpillData::run_id()']]],
   ['runid',['runID',['../d2/d31/structEventInfo.html#a20a7a46b40eee277e40dfc3d221c0ecf',1,'EventInfo::runID()'],['../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30',1,'DecoParam::runID()']]],
   ['runmanager_5f',['runManager_',['../d0/d78/classPHG4Reco.html#ae55bdb2e9cf7e1a3d06dff00ee216888',1,'PHG4Reco']]],

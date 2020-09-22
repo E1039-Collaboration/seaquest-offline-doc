@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"df/d43/classFun4AllDummyInputManager.html#a1f3516aa5a3c372ba0008c05e574eb68":[19,0,75,5],
+"df/d43/classFun4AllDummyInputManager.html#a3863cb07576f56e8e514ae272b322679":[19,0,75,8],
+"df/d43/classFun4AllDummyInputManager.html#a39a0799f84587ebb476ff23cb04e82a8":[19,0,75,7],
+"df/d43/classFun4AllDummyInputManager.html#a457442dab5b1cd41b3d1a2b197c60e31":[19,0,75,6],
+"df/d43/classFun4AllDummyInputManager.html#a4ea8607e949bbead85b2ff1ff8a7badc":[19,0,75,4],
+"df/d43/classFun4AllDummyInputManager.html#a50003778894a40e02d9fc200965f43ac":[19,0,75,10],
+"df/d43/classFun4AllDummyInputManager.html#a94330286b206e5c0523e9e0bccb56758":[19,0,75,3],
+"df/d43/classFun4AllDummyInputManager.html#a9ae5e17634cfd4b1bd946b25c97499d2":[19,0,75,9],
 "df/d43/classFun4AllDummyInputManager.html#aa072dbeb6ec359df164411fb42a33028":[19,0,75,1],
 "df/d43/classFun4AllDummyInputManager.html#afeb9b7d1676329f2c60178f368bde03b":[19,0,75,2],
 "df/d43/unionPHG4Cellv1_1_1u__property.html":[19,0,188,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "df/da2/classUtilOnline.html#ae37d7ae5b4e182ca19c09789116450a4":[19,0,438,17],
 "df/da2/classUtilOnline.html#aeb1e7e1f8e67e710397fbbbd28e74ea8":[19,0,438,15],
 "df/da3/PHG4CollimatorDetector_8h.html":[20,0,2,7,1,49],
-"df/da3/PHG4CollimatorDetector_8h_source.html":[20,0,2,7,1,49],
-"df/da3/classSyncObjectv2.html":[19,0,424],
-"df/da3/classSyncObjectv2.html#a0a7a1b51c48b8ceea5471ac3d3abec9f":[19,0,424,5],
-"df/da3/classSyncObjectv2.html#a13b6650096a3889cd609d92b399725cd":[19,0,424,7],
-"df/da3/classSyncObjectv2.html#a3dc9316d2542e2f458e0ad72bc77fcbd":[19,0,424,3],
-"df/da3/classSyncObjectv2.html#a576e5eab7069a92de24f9dc27e5bd87a":[19,0,424,8],
-"df/da3/classSyncObjectv2.html#a94be2a1de1e9d1d8dfc02741fcc6f4ed":[19,0,424,6],
-"df/da3/classSyncObjectv2.html#abc9e44bc4fee4e75e3cdce25d62fbedb":[19,0,424,0],
-"df/da3/classSyncObjectv2.html#ae418b558a993cea5644817c09779e24a":[19,0,424,2]
+"df/da3/PHG4CollimatorDetector_8h_source.html":[20,0,2,7,1,49]
 };

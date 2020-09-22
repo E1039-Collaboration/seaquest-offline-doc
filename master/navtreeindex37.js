@@ -1,5 +1,13 @@
 var NAVTREEINDEX37 =
 {
+"dc/d53/ChanMapTaiwanLinkDef_8h_source.html":[20,0,2,6,6,15],
+"dc/d55/EventDispUI_8h.html":[20,0,2,6,2,1,1],
+"dc/d55/EventDispUI_8h_source.html":[20,0,2,6,2,1,1],
+"dc/d59/SQTrack_8cxx.html":[20,0,2,3,102],
+"dc/d59/SQTrack_8cxx_source.html":[20,0,2,3,102],
+"dc/d5a/EventReducer_8h.html":[20,0,2,6,11,2,1],
+"dc/d5a/EventReducer_8h_source.html":[20,0,2,6,11,2,1],
+"dc/d5a/SQG4DipoleMagnetSteppingAction_8cc.html":[20,0,2,7,1,183],
 "dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html":[20,0,2,7,1,183],
 "dc/d5b/classDetectorConstruction.html":[19,0,52],
 "dc/d5b/classDetectorConstruction.html#a0811a820c7e4f2c3bc54cae2feae7486":[19,0,52,23],
@@ -241,13 +249,5 @@ var NAVTREEINDEX37 =
 "dc/d96/classSQRun__v1.html#a120e2f711a8409100551386f5c758273":[19,0,398,66],
 "dc/d96/classSQRun__v1.html#a1c4aaef2030a6f44c53b9ac4222df918":[19,0,398,69],
 "dc/d96/classSQRun__v1.html#a1f626ecd4991f044c4b18dffcb2239cd":[19,0,398,55],
-"dc/d96/classSQRun__v1.html#a274007d72ddb8759234105996a49b3bb":[19,0,398,15],
-"dc/d96/classSQRun__v1.html#a275f04325321f474017514632653cacf":[19,0,398,47],
-"dc/d96/classSQRun__v1.html#a2795915dd888c23e95b6ad7bd202c0cd":[19,0,398,5],
-"dc/d96/classSQRun__v1.html#a287c0fca861ffe7bcff1eda13abab9d9":[19,0,398,36],
-"dc/d96/classSQRun__v1.html#a296bbe1045240c61e4a39043c2cd76db":[19,0,398,54],
-"dc/d96/classSQRun__v1.html#a2e1c1261407d0c2acafa49d997e0b808":[19,0,398,64],
-"dc/d96/classSQRun__v1.html#a2e9ecc837708d038d83cbb98a1a68369":[19,0,398,24],
-"dc/d96/classSQRun__v1.html#a328f86eb65e1de0ad74180c5bd76ede2":[19,0,398,6],
-"dc/d96/classSQRun__v1.html#a3405a90738f4fa890b4c7e8f969185f3":[19,0,398,38]
+"dc/d96/classSQRun__v1.html#a274007d72ddb8759234105996a49b3bb":[19,0,398,15]
 };
