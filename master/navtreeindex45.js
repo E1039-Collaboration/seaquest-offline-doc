@@ -1,14 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"df/d41/classPHEveDisplay.html#af17f4cd4bb78b2cc6df5d5778cf7ad08":[20,0,159,11],
-"df/d41/classPHEveDisplay.html#af8788d403cbd791d5151c720e3c99aca":[20,0,159,17],
-"df/d43/classFun4AllDummyInputManager.html":[20,0,75],
-"df/d43/classFun4AllDummyInputManager.html#a013d17ebdcf392192bf8e584f8239aaf":[20,0,75,0],
-"df/d43/classFun4AllDummyInputManager.html#a1f3516aa5a3c372ba0008c05e574eb68":[20,0,75,5],
-"df/d43/classFun4AllDummyInputManager.html#a3863cb07576f56e8e514ae272b322679":[20,0,75,8],
-"df/d43/classFun4AllDummyInputManager.html#a39a0799f84587ebb476ff23cb04e82a8":[20,0,75,7],
-"df/d43/classFun4AllDummyInputManager.html#a457442dab5b1cd41b3d1a2b197c60e31":[20,0,75,6],
-"df/d43/classFun4AllDummyInputManager.html#a4ea8607e949bbead85b2ff1ff8a7badc":[20,0,75,4],
 "df/d43/classFun4AllDummyInputManager.html#a50003778894a40e02d9fc200965f43ac":[20,0,75,10],
 "df/d43/classFun4AllDummyInputManager.html#a94330286b206e5c0523e9e0bccb56758":[20,0,75,3],
 "df/d43/classFun4AllDummyInputManager.html#a9ae5e17634cfd4b1bd946b25c97499d2":[20,0,75,9],
@@ -249,5 +240,14 @@ var NAVTREEINDEX45 =
 "df/da2/classUtilOnline.html#ab3cf85ce6f975f4c2cb8b6e537e617b2":[20,0,438,18],
 "df/da2/classUtilOnline.html#ac40933cd70528dcf1c02ab2e53b90804":[20,0,438,16],
 "df/da2/classUtilOnline.html#ac7bbb57104e0eebe65aff956f2a8b0b3":[20,0,438,13],
-"df/da2/classUtilOnline.html#ad2b118059ad42fa4cd490aa1445369c7":[20,0,438,5]
+"df/da2/classUtilOnline.html#ad2b118059ad42fa4cd490aa1445369c7":[20,0,438,5],
+"df/da2/classUtilOnline.html#ae37d7ae5b4e182ca19c09789116450a4":[20,0,438,17],
+"df/da2/classUtilOnline.html#aeb1e7e1f8e67e710397fbbbd28e74ea8":[20,0,438,15],
+"df/da3/PHG4CollimatorDetector_8h.html":[21,0,2,7,1,49],
+"df/da3/PHG4CollimatorDetector_8h_source.html":[21,0,2,7,1,49],
+"df/da3/classSyncObjectv2.html":[20,0,424],
+"df/da3/classSyncObjectv2.html#a0a7a1b51c48b8ceea5471ac3d3abec9f":[20,0,424,5],
+"df/da3/classSyncObjectv2.html#a13b6650096a3889cd609d92b399725cd":[20,0,424,7],
+"df/da3/classSyncObjectv2.html#a3dc9316d2542e2f458e0ad72bc77fcbd":[20,0,424,3],
+"df/da3/classSyncObjectv2.html#a576e5eab7069a92de24f9dc27e5bd87a":[20,0,424,8]
 };

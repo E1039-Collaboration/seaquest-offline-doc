@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d4/d2d/classPHG4SquareTubeSubsystem.html#ae98d6c8735221b71919737d7d798dd47":[20,0,281,0],
+"d4/d2e/classG4TBMagneticFieldSetup.html":[20,0,98],
 "d4/d2e/classG4TBMagneticFieldSetup.html#a00d52151154a13ccb4d58f0062434e60":[20,0,98,9],
 "d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1":[20,0,98,4],
 "d4/d2e/classG4TBMagneticFieldSetup.html#a1021020549f50b4b02ae436df63a1d2f":[20,0,98,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d4/d7d/classPdbParameterMapContainer.html#a55963580788041a80059eb87848fb501":[20,0,154,0],
 "d4/d7d/classPdbParameterMapContainer.html#a70fbe38cdc71710d387c062757965c88":[20,0,154,7],
 "d4/d7d/classPdbParameterMapContainer.html#a733e9ec4c41fed9d2a2713ba65785845":[20,0,154,12],
-"d4/d7d/classPdbParameterMapContainer.html#ab5120bd7b9fa846f8bacee578a33c168":[20,0,154,11],
-"d4/d7d/classPdbParameterMapContainer.html#af4957471e65dbc714563864c8139c639":[20,0,154,4],
-"d4/d7d/classPdbParameterMapContainer.html#af6d1e0fae18841c086b86e82b93e92c2":[20,0,154,10]
+"d4/d7d/classPdbParameterMapContainer.html#ab5120bd7b9fa846f8bacee578a33c168":[20,0,154,11]
 };

@@ -27,7 +27,6 @@ var searchData=
   ['builddata',['buildData',['../d6/deb/classTriggerAnalyzer.html#a095d42811ed0348e26a4e42b1cc12d49',1,'TriggerAnalyzer']]],
   ['buildfieldmap',['BuildFieldMap',['../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124',1,'PHFieldUtility']]],
   ['buildglobaltracks',['buildGlobalTracks',['../d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c',1,'KalmanFastTracking::buildGlobalTracks()'],['../db/daa/classKalmanDSTrk.html#adf4981f081f2606bf3412851eaa62eb0',1,'KalmanDSTrk::buildGlobalTracks()']]],
-  ['buildhitpattern',['buildHitPattern',['../d8/dda/classDPTriggerAnalyzer.html#ae8833b58c2ebf1e3abf374c12857b548',1,'DPTriggerAnalyzer']]],
   ['buildinterface',['BuildInterface',['../d1/de7/classOnlMonUI.html#a30f58f22fe3ab98c09880483c92254b1',1,'OnlMonUI::BuildInterface()'],['../d8/d6d/classEventDispUI.html#aef63d462bef07095dda1c1e83d66fa5f',1,'EventDispUI::BuildInterface()']]],
   ['buildpatterndb',['BuildPatternDB',['../d2/d0e/classPatternDBUtil.html#a332a44268857397d811857c0099a5b5c',1,'PatternDBUtil']]],
   ['buildpropsegments',['buildPropSegments',['../d3/d46/classKalmanFastTracking.html#aa85f2e38eff0fe4a53d365feedb112d1',1,'KalmanFastTracking::buildPropSegments()'],['../db/daa/classKalmanDSTrk.html#ac715ce9ee791825f2f65dfd77e6909ba',1,'KalmanDSTrk::buildPropSegments()']]],

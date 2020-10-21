@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d3/d95/classPHG4CylinderDetector.html#a6fa5431545a727e69c380d93d141357f":[20,0,207,2],
+"d3/d95/classPHG4CylinderDetector.html#a85f5d41159260b540362b717f34e5076":[20,0,207,4],
 "d3/d95/classPHG4CylinderDetector.html#a90183c0d5ca32b4c1d6933ed41bc9207":[20,0,207,0],
 "d3/d95/classPHG4CylinderDetector.html#aad94d71db627d92eeed36b8ce2ba9dc9":[20,0,207,3],
 "d3/d95/classPHG4CylinderDetector.html#acac9ef480a99b88d02512b189192ce9d":[20,0,207,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d3/dc1/classSQDimuonVector__v1.html#ad003a7f5a09a045d32b8c34dd0d50ec6":[20,0,373,5],
 "d3/dc1/classSQDimuonVector__v1.html#af85468897832213e70a30cbee650c5ff":[20,0,373,8],
 "d3/dc2/TruthEvalLinkDef_8h.html":[21,0,1,16,0,2],
-"d3/dc2/TruthEvalLinkDef_8h_source.html":[21,0,1,16,0,2],
-"d3/dc3/PHG4CylinderCellv2_8h.html":[21,0,2,7,1,86],
-"d3/dc3/PHG4CylinderCellv2_8h_source.html":[21,0,2,7,1,86]
+"d3/dc2/TruthEvalLinkDef_8h_source.html":[21,0,1,16,0,2]
 };

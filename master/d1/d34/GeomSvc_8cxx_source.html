@@ -316,7 +316,7 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* GeomSvc::p_geometrySvc = <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">bool</span>     GeomSvc::use_dbsvc = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">bool</span>     GeomSvc::use_dbsvc = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
 <div class="line"><a name="l00211"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">  211</a></span>&#160;<a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>()</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
@@ -1000,277 +1000,289 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    <span class="comment">//}</span></div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;}</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;</div>
-<div class="line"><a name="l00897"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">  897</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">GeomSvc::getDriftDistance</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tdcTime)</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;{</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;    <span class="keywordflow">if</span>(!calibration_loaded)</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    {</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="keywordflow">return</span> 0.;</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    }</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(planes[detectorID].rtprofile == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    {</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        <span class="keywordflow">return</span> 0.;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    }</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(tdcTime &lt; planes[detectorID].tmin)</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    {</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <span class="keywordflow">return</span> 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    }</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(tdcTime &gt; planes[detectorID].tmax)</div>
+<div class="line"><a name="l00897"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c">  897</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c">GeomSvc::getHodoStation</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> detectorID)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c">getHodoStation</a>(<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>(detectorID));</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;}</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;</div>
+<div class="line"><a name="l00902"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a28747b9fb16639f591b6c90ddb6cdd2f">  902</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c">GeomSvc::getHodoStation</a>(<span class="keyword">const</span> std::string detectorName)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;  <span class="keywordflow">if</span> (detectorName.size() == 0 || detectorName[0] != <span class="charliteral">&#39;H&#39;</span>) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;  <span class="keywordtype">int</span> num = detectorName[1] - <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;  <span class="keywordflow">return</span> 1 &lt;= num &amp;&amp; num &lt;= 4  ?  num  :  0;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;}</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;</div>
+<div class="line"><a name="l00909"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">  909</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">GeomSvc::getDriftDistance</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tdcTime)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;{</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    <span class="keywordflow">if</span>(!calibration_loaded)</div>
 <div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    {</div>
 <div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        <span class="keywordflow">return</span> 0.;</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;    }</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(planes[detectorID].rtprofile == <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    {</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <span class="keywordflow">return</span> planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a45c2241e178fe9b0af6448e2d9dbb56a">rtprofile</a>-&gt;Eval(tdcTime);</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <span class="keywordflow">return</span> 0.;</div>
 <div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    }</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="keywordflow">return</span> 0.;</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;}</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;</div>
-<div class="line"><a name="l00923"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">  923</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">GeomSvc::getInterceptionFast</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tx, <span class="keywordtype">double</span> ty, <span class="keywordtype">double</span> x0, <span class="keywordtype">double</span> y0)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;    <span class="keywordflow">return</span> (tx*planes[detectorID].zc + x0)*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a58849d1c587f12c717391fb77e9dd910">costheta</a> + (ty*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638">zc</a> + y0)*planes[detectorID].sintheta;</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;}</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;</div>
-<div class="line"><a name="l00928"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">  928</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">GeomSvc::getDCA</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">int</span> elementID, <span class="keywordtype">double</span> tx, <span class="keywordtype">double</span> ty, <span class="keywordtype">double</span> x0, <span class="keywordtype">double</span> y0)</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;{</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;    TVector3 trkp0(x0, y0, 0.);</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    TVector3 trkdir(tx, ty, 1.);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;    TVector3 ep1, ep2;</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    <a class="code" href="../../d0/da0/classGeomSvc.html#a631d2a6b362ac1c735920cb16f056945">getEndPoints</a>(detectorID, elementID, ep1, ep2);</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;    TVector3 wiredir = ep2 - ep1;</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    TVector3 norm = trkdir.Cross(wiredir);</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    norm.SetMag(1.);</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    <span class="keywordflow">return</span> (ep1 - trkp0).Dot(norm);</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;}</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;</div>
-<div class="line"><a name="l00942"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">  942</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">GeomSvc::loadAlignment</a>(<span class="keyword">const</span> std::string&amp; alignmentFile_chamber, <span class="keyword">const</span> std::string&amp; alignmentFile_hodo, <span class="keyword">const</span> std::string&amp; alignmentFile_prop)</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;{</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    <span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="comment">//load alignment numbers for chambers</span></div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    fstream _align_chamber;</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    _align_chamber.open(alignmentFile_chamber.c_str(), ios::in);</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    <span class="keywordflow">if</span>(_align_chamber)</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    {</div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i++)</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        {</div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;            _align_chamber.getline(buf, 100);</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;            istringstream stringBuf(buf);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(tdcTime &lt; planes[detectorID].tmin)</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    {</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        <span class="keywordflow">return</span> 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    }</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(tdcTime &gt; planes[detectorID].tmax)</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;    {</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <span class="keywordflow">return</span> 0.;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;    }</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;    {</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        <span class="keywordflow">return</span> planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a45c2241e178fe9b0af6448e2d9dbb56a">rtprofile</a>-&gt;Eval(tdcTime);</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;    }</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    <span class="keywordflow">return</span> 0.;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;}</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;</div>
+<div class="line"><a name="l00935"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">  935</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">GeomSvc::getInterceptionFast</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tx, <span class="keywordtype">double</span> ty, <span class="keywordtype">double</span> x0, <span class="keywordtype">double</span> y0)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <span class="keywordflow">return</span> (tx*planes[detectorID].zc + x0)*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a58849d1c587f12c717391fb77e9dd910">costheta</a> + (ty*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638">zc</a> + y0)*planes[detectorID].sintheta;</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;}</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;</div>
+<div class="line"><a name="l00940"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">  940</a></span>&#160;<span class="keywordtype">double</span> <a class="code" href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">GeomSvc::getDCA</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">int</span> elementID, <span class="keywordtype">double</span> tx, <span class="keywordtype">double</span> ty, <span class="keywordtype">double</span> x0, <span class="keywordtype">double</span> y0)</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;{</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;    TVector3 trkp0(x0, y0, 0.);</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;    TVector3 trkdir(tx, ty, 1.);</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    TVector3 ep1, ep2;</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <a class="code" href="../../d0/da0/classGeomSvc.html#a631d2a6b362ac1c735920cb16f056945">getEndPoints</a>(detectorID, elementID, ep1, ep2);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    TVector3 wiredir = ep2 - ep1;</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;    TVector3 norm = trkdir.Cross(wiredir);</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    norm.SetMag(1.);</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    <span class="keywordflow">return</span> (ep1 - trkp0).Dot(norm);</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;}</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;</div>
+<div class="line"><a name="l00954"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">  954</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">GeomSvc::loadAlignment</a>(<span class="keyword">const</span> std::string&amp; alignmentFile_chamber, <span class="keyword">const</span> std::string&amp; alignmentFile_hodo, <span class="keyword">const</span> std::string&amp; alignmentFile_prop)</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;{</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    <span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;            stringBuf &gt;&gt; planes[i].deltaW &gt;&gt; planes[i].resolution;</div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;            <span class="comment">//if(planes[i].resolution &lt; RESOLUTION_DC) planes[i].resolution = RESOLUTION_DC;</span></div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;</div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;            planes[i].update();</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;        }</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i += 2)</div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;        {</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;            <span class="keywordtype">double</span> resol = planes[i].resolution &gt; planes[i+1].resolution ? planes[i].resolution : planes[i+1].resolution;</div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;            planes[i].resolution = resol;</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            planes[i].resolution = resol;</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;        }</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    <span class="comment">//load alignment numbers for chambers</span></div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;    fstream _align_chamber;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;    _align_chamber.open(alignmentFile_chamber.c_str(), ios::in);</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;    <span class="keywordflow">if</span>(_align_chamber)</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;    {</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i++)</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;        {</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;            _align_chamber.getline(buf, 100);</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;            istringstream stringBuf(buf);</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            stringBuf &gt;&gt; planes[i].deltaW &gt;&gt; planes[i].resolution;</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;            <span class="comment">//if(planes[i].resolution &lt; RESOLUTION_DC) planes[i].resolution = RESOLUTION_DC;</span></div>
 <div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded chamber alignment parameters from &quot;</span> &lt;&lt; alignmentFile_chamber &lt;&lt; endl;</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;    }</div>
-<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;    _align_chamber.close();</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;</div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    <span class="comment">//load alignment numbers for hodos</span></div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    fstream _align_hodo;</div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;    _align_hodo.open(alignmentFile_hodo.c_str(), ios::in);</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;</div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;    <span class="keywordflow">if</span>(_align_hodo)</div>
-<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;    {</div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>; i++)</div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;        {</div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;            _align_hodo.getline(buf, 100);</div>
-<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;            istringstream stringBuf(buf);</div>
-<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;</div>
-<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;            stringBuf &gt;&gt; planes[i].deltaW;</div>
-<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
-<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
-<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;            planes[i].update();</div>
-<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;        }</div>
-<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded hodoscope alignment parameters from &quot;</span> &lt;&lt; alignmentFile_hodo &lt;&lt; endl;</div>
-<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;    }</div>
-<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;    {</div>
-<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load hodoscope alignment parameters from &quot;</span> &lt;&lt; alignmentFile_hodo &lt;&lt; endl;</div>
-<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;    }</div>
-<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    _align_hodo.close();</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;</div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <span class="comment">//load alignment numbers for prop. tubes</span></div>
-<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;    fstream _align_prop;</div>
-<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    _align_prop.open(alignmentFile_prop.c_str(), ios::in);</div>
-<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;</div>
-<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;    <span class="keywordflow">if</span>(_align_prop)</div>
-<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;    {</div>
-<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>; i += 2)</div>
-<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;        {</div>
-<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;            planes[i].deltaW = 0.;</div>
-<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;            planes[i+1].deltaW = 0.;</div>
-<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; 9; j++)</div>
-<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;            {</div>
-<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;                _align_prop.getline(buf, 100);</div>
-<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;                istringstream stringBuf(buf);</div>
-<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;</div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;                stringBuf &gt;&gt; planes[i].deltaW_module[j];</div>
-<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;                planes[i+1].deltaW_module[j] = planes[i].deltaW_module[j];</div>
-<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;</div>
-<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;                planes[i].deltaW += planes[i].deltaW_module[j];</div>
-<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;                planes[i+1].deltaW += planes[i+1].deltaW_module[j];</div>
-<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;            }</div>
-<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;</div>
-<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;            planes[i].deltaW /= 9.;</div>
-<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
-<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
-<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;</div>
-<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;            planes[i+1].deltaW /= 9.;</div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;            planes[i+1].deltaX = planes[i+1].deltaW*planes[i+1].costheta;</div>
-<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;            planes[i+1].deltaY = planes[i+1].deltaW*planes[i+1].sintheta;</div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;        }</div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded prop. tube alignment parameters from &quot;</span> &lt;&lt; alignmentFile_prop &lt;&lt; endl;</div>
-<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;    }</div>
-<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;    {</div>
-<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load prop. tube alignment parameters from &quot;</span> &lt;&lt; alignmentFile_prop &lt;&lt; endl;</div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;    }</div>
-<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;</div>
-<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;}</div>
-<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;</div>
-<div class="line"><a name="l01040"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8"> 1040</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8">GeomSvc::loadMilleAlignment</a>(<span class="keyword">const</span> std::string&amp; alignmentFile_mille)</div>
-<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;{</div>
-<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;    <span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;</div>
-<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;    <span class="comment">//load alignment numbers for chambers</span></div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;    fstream _align_mille;</div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;    _align_mille.open(alignmentFile_mille.c_str(), ios::in);</div>
-<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;</div>
-<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
-<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;    <span class="keywordflow">if</span>(_align_mille)</div>
-<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;    {</div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i++)</div>
-<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;        {</div>
-<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;            _align_mille.getline(buf, 100);</div>
-<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;            istringstream stringBuf(buf);</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;            planes[i].update();</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;        }</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;</div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i += 2)</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;        {</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;            <span class="keywordtype">double</span> resol = planes[i].resolution &gt; planes[i+1].resolution ? planes[i].resolution : planes[i+1].resolution;</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;            planes[i].resolution = resol;</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;            planes[i].resolution = resol;</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;        }</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded chamber alignment parameters from &quot;</span> &lt;&lt; alignmentFile_chamber &lt;&lt; endl;</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;    }</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;    _align_chamber.close();</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;</div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    <span class="comment">//load alignment numbers for hodos</span></div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;    fstream _align_hodo;</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;    _align_hodo.open(alignmentFile_hodo.c_str(), ios::in);</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;</div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;    <span class="keywordflow">if</span>(_align_hodo)</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;    {</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>; i++)</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;        {</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;            _align_hodo.getline(buf, 100);</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;            istringstream stringBuf(buf);</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;            stringBuf &gt;&gt; planes[i].deltaW;</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;            planes[i].update();</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;        }</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded hodoscope alignment parameters from &quot;</span> &lt;&lt; alignmentFile_hodo &lt;&lt; endl;</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;    }</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;    {</div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load hodoscope alignment parameters from &quot;</span> &lt;&lt; alignmentFile_hodo &lt;&lt; endl;</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;    }</div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;    _align_hodo.close();</div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;</div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;    <span class="comment">//load alignment numbers for prop. tubes</span></div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;    fstream _align_prop;</div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;    _align_prop.open(alignmentFile_prop.c_str(), ios::in);</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;</div>
+<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;    <span class="keywordflow">if</span>(_align_prop)</div>
+<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;    {</div>
+<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>; i += 2)</div>
+<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;        {</div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;            planes[i].deltaW = 0.;</div>
+<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;            planes[i+1].deltaW = 0.;</div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; 9; j++)</div>
+<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;            {</div>
+<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;                _align_prop.getline(buf, 100);</div>
+<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;                istringstream stringBuf(buf);</div>
+<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;</div>
+<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;                stringBuf &gt;&gt; planes[i].deltaW_module[j];</div>
+<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;                planes[i+1].deltaW_module[j] = planes[i].deltaW_module[j];</div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;</div>
+<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;                planes[i].deltaW += planes[i].deltaW_module[j];</div>
+<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;                planes[i+1].deltaW += planes[i+1].deltaW_module[j];</div>
+<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;            }</div>
+<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;</div>
+<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;            planes[i].deltaW /= 9.;</div>
+<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
+<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
+<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;</div>
+<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;            planes[i+1].deltaW /= 9.;</div>
+<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;            planes[i+1].deltaX = planes[i+1].deltaW*planes[i+1].costheta;</div>
+<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;            planes[i+1].deltaY = planes[i+1].deltaW*planes[i+1].sintheta;</div>
+<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;        }</div>
+<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded prop. tube alignment parameters from &quot;</span> &lt;&lt; alignmentFile_prop &lt;&lt; endl;</div>
+<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;    }</div>
+<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;    {</div>
+<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load prop. tube alignment parameters from &quot;</span> &lt;&lt; alignmentFile_prop &lt;&lt; endl;</div>
+<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    }</div>
+<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;</div>
+<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;}</div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;</div>
+<div class="line"><a name="l01052"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8"> 1052</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8">GeomSvc::loadMilleAlignment</a>(<span class="keyword">const</span> std::string&amp; alignmentFile_mille)</div>
+<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;{</div>
+<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;    <span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;</div>
-<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;            stringBuf &gt;&gt; planes[i].deltaZ &gt;&gt; planes[i].rotZ &gt;&gt; planes[i].deltaW &gt;&gt; planes[i].resolution;</div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;            planes[i].update();</div>
-<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;</div>
-<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;            <span class="comment">//if(planes[i].resolution &lt; RESOLUTION_DC) planes[i].resolution = RESOLUTION_DC;</span></div>
-<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;        }</div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded millepede-based alignment parameters from &quot;</span> &lt;&lt; alignmentFile_mille &lt;&lt; endl;</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;</div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i+=2)</div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;        {</div>
-<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;            planes[i].resolution = rc-&gt;get_DoubleFlag(<span class="stringliteral">&quot;RESOLUTION_FACTOR&quot;</span>)*0.5*(planes[i].resolution + planes[i+1].resolution);</div>
-<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;            planes[i+1].resolution = planes[i].resolution;</div>
-<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;        }</div>
-<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;    }</div>
-<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;    {</div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load mullepede-based alignment parameters from &quot;</span> &lt;&lt; alignmentFile_mille &lt;&lt; endl;</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;    }</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    _align_mille.close();</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;}</div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;</div>
-<div class="line"><a name="l01079"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661"> 1079</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661">GeomSvc::loadCalibration</a>(<span class="keyword">const</span> std::string&amp; calibrationFile)</div>
-<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;{</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;    <span class="keyword">using namespace </span>std;</div>
-<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;</div>
-<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    fstream _cali_file;</div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    _cali_file.open(calibrationFile.c_str(), ios::in);</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;</div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <span class="keywordtype">int</span> iBin, nBin, detectorID;</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    <span class="keywordtype">double</span> tmin_temp, tmax_temp;</div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    <span class="keywordtype">double</span> R[500], T[500];</div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordflow">if</span>(_cali_file)</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;    {</div>
-<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;        calibration_loaded = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;</div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;        <span class="keywordflow">while</span>(_cali_file.getline(buf, 100))</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;        {</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;            istringstream detector_info(buf);</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;            detector_info &gt;&gt; detectorID &gt;&gt; nBin &gt;&gt; tmin_temp &gt;&gt; tmax_temp;</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;            planes[detectorID].tmax = tmax_temp;</div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;            planes[detectorID].tmin = tmin_temp;</div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;</div>
-<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nBin; i++)</div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;            {</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;                _cali_file.getline(buf, 100);</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;                istringstream cali_line(buf);</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;    <span class="comment">//load alignment numbers for chambers</span></div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;    fstream _align_mille;</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;    _align_mille.open(alignmentFile_mille.c_str(), ios::in);</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;    <span class="keywordflow">if</span>(_align_mille)</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;    {</div>
+<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i++)</div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;        {</div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;            _align_mille.getline(buf, 100);</div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;            istringstream stringBuf(buf);</div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;            stringBuf &gt;&gt; planes[i].deltaZ &gt;&gt; planes[i].rotZ &gt;&gt; planes[i].deltaW &gt;&gt; planes[i].resolution;</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;            planes[i].deltaX = planes[i].deltaW*planes[i].costheta;</div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;            planes[i].deltaY = planes[i].deltaW*planes[i].sintheta;</div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;            planes[i].update();</div>
+<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;</div>
+<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;            <span class="comment">//if(planes[i].resolution &lt; RESOLUTION_DC) planes[i].resolution = RESOLUTION_DC;</span></div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;        }</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded millepede-based alignment parameters from &quot;</span> &lt;&lt; alignmentFile_mille &lt;&lt; endl;</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;</div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>; i+=2)</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;        {</div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;            planes[i].resolution = rc-&gt;get_DoubleFlag(<span class="stringliteral">&quot;RESOLUTION_FACTOR&quot;</span>)*0.5*(planes[i].resolution + planes[i+1].resolution);</div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;            planes[i+1].resolution = planes[i].resolution;</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;        }</div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;    }</div>
+<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    {</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: failed to load mullepede-based alignment parameters from &quot;</span> &lt;&lt; alignmentFile_mille &lt;&lt; endl;</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    }</div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    _align_mille.close();</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;}</div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;</div>
+<div class="line"><a name="l01091"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661"> 1091</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661">GeomSvc::loadCalibration</a>(<span class="keyword">const</span> std::string&amp; calibrationFile)</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;{</div>
+<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    <span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;    fstream _cali_file;</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;    _cali_file.open(calibrationFile.c_str(), ios::in);</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    <span class="keywordtype">char</span> buf[300];</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;    <span class="keywordtype">int</span> iBin, nBin, detectorID;</div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    <span class="keywordtype">double</span> tmin_temp, tmax_temp;</div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    <span class="keywordtype">double</span> R[500], T[500];</div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <span class="keywordflow">if</span>(_cali_file)</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    {</div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;        calibration_loaded = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;                cali_line &gt;&gt; iBin &gt;&gt; T[i] &gt;&gt; R[i];</div>
-<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;            }</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;            <span class="keywordflow">if</span>(planes[detectorID].rtprofile != <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keyword">delete</span> planes[detectorID].rtprofile;</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;            <span class="keywordflow">if</span>(nBin &gt; 0) planes[detectorID].rtprofile = <span class="keyword">new</span> TSpline3(<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>(detectorID).c_str(), T, R, nBin, <span class="stringliteral">&quot;b1e1&quot;</span>);</div>
-<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;        }</div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded calibration parameters from &quot;</span> &lt;&lt; calibrationFile &lt;&lt; endl;</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;    }</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;    _cali_file.close();</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;}</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;</div>
-<div class="line"><a name="l01117"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b"> 1117</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b">GeomSvc::isInTime</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tdcTime)</div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;{</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    <span class="keywordflow">return</span> tdcTime &gt; planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#ae22586f5ccc02714dabc306d0722a363">tmin</a> &amp;&amp; tdcTime &lt; planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a8e2bf353d82726be58db6d97c10b718a">tmax</a>;</div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;}</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;</div>
-<div class="line"><a name="l01122"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c"> 1122</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c">GeomSvc::printWirePosition</a>()</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;{</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;  {</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;    <span class="keywordtype">int</span> detectorID = (*iter).second;</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot; ====================== &quot;</span> &lt;&lt; (*iter).first &lt;&lt; <span class="stringliteral">&quot; ==================== &quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a063bf35bfe693843f4759472538da523">nElements</a>; ++i)</div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    {</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; detectorID;</div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; (*iter).first;</div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; i;</div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)];</div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)] - 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)] + 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;        std::cout &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;    }</div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;  }</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;}</div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;</div>
-<div class="line"><a name="l01142"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031"> 1142</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031">GeomSvc::printAlignPar</a>()</div>
-<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;{</div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;detectorID         DetectorName            offset_pos             offset_z             offset_phi&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;  {</div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;    std::cout &lt;&lt; iter-&gt;second &lt;&lt; <span class="stringliteral">&quot;     &quot;</span> &lt;&lt; iter-&gt;first &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a9eb3672ed6b74af253645f8444b26dae">deltaW</a> &lt;&lt; <span class="stringliteral">&quot;     &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a197dd226141359484ea87aef14935b39">deltaZ</a> &lt;&lt; <span class="stringliteral">&quot;      &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a44240b813f6fb47888c34388270dddc6">rotZ</a> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;  }</div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;}</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;</div>
-<div class="line"><a name="l01152"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e"> 1152</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e">GeomSvc::printTable</a>()</div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;{</div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;detectorID detectorName planeType    Spacing     Xoffset     overlap     width       height       nElement       angleFromVertical     z0     x0     y0     deltaW&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
-<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;  {</div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    std::cout &lt;&lt; planes[iter-&gt;second] &lt;&lt; std::endl;</div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;  }</div>
-<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;}</div>
-<div class="ttc" id="classGeomSvc_html_a418543d7b33fc95092b2cd4a7496f1b8"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8">GeomSvc::loadMilleAlignment</a></div><div class="ttdeci">void loadMilleAlignment(const std::string &amp;alignmentFile_mille)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01040">GeomSvc.cxx:1040</a></div></div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        <span class="keywordflow">while</span>(_cali_file.getline(buf, 100))</div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;        {</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;            istringstream detector_info(buf);</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;            detector_info &gt;&gt; detectorID &gt;&gt; nBin &gt;&gt; tmin_temp &gt;&gt; tmax_temp;</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;            planes[detectorID].tmax = tmax_temp;</div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;            planes[detectorID].tmin = tmin_temp;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;</div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nBin; i++)</div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;            {</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;                _cali_file.getline(buf, 100);</div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;                istringstream cali_line(buf);</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;                cali_line &gt;&gt; iBin &gt;&gt; T[i] &gt;&gt; R[i];</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;            }</div>
+<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;            <span class="keywordflow">if</span>(planes[detectorID].rtprofile != <a class="code" href="../../d0/d85/Pdb_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keyword">delete</span> planes[detectorID].rtprofile;</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;            <span class="keywordflow">if</span>(nBin &gt; 0) planes[detectorID].rtprofile = <span class="keyword">new</span> TSpline3(<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>(detectorID).c_str(), T, R, nBin, <span class="stringliteral">&quot;b1e1&quot;</span>);</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;        }</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;GeomSvc: loaded calibration parameters from &quot;</span> &lt;&lt; calibrationFile &lt;&lt; endl;</div>
+<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    }</div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;    _cali_file.close();</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;}</div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;</div>
+<div class="line"><a name="l01129"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b"> 1129</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b">GeomSvc::isInTime</a>(<span class="keywordtype">int</span> detectorID, <span class="keywordtype">double</span> tdcTime)</div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;{</div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    <span class="keywordflow">return</span> tdcTime &gt; planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#ae22586f5ccc02714dabc306d0722a363">tmin</a> &amp;&amp; tdcTime &lt; planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a8e2bf353d82726be58db6d97c10b718a">tmax</a>;</div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;}</div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;</div>
+<div class="line"><a name="l01134"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c"> 1134</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c">GeomSvc::printWirePosition</a>()</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;{</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
+<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;  {</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    <span class="keywordtype">int</span> detectorID = (*iter).second;</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot; ====================== &quot;</span> &lt;&lt; (*iter).first &lt;&lt; <span class="stringliteral">&quot; ==================== &quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 1; i &lt;= planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a063bf35bfe693843f4759472538da523">nElements</a>; ++i)</div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    {</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; detectorID;</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; (*iter).first;</div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;        std::cout &lt;&lt; std::setw(6) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; i;</div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)];</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)] - 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        std::cout &lt;&lt; std::setw(10) &lt;&lt; std::setiosflags(std::ios::right) &lt;&lt; map_wirePosition[std::make_pair(detectorID, i)] + 0.5*planes[detectorID].<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a>;</div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;        std::cout &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    }</div>
+<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;  }</div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;}</div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;</div>
+<div class="line"><a name="l01154"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031"> 1154</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031">GeomSvc::printAlignPar</a>()</div>
+<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;{</div>
+<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;detectorID         DetectorName            offset_pos             offset_z             offset_phi&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;  {</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;    std::cout &lt;&lt; iter-&gt;second &lt;&lt; <span class="stringliteral">&quot;     &quot;</span> &lt;&lt; iter-&gt;first &lt;&lt; <span class="stringliteral">&quot;    &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a9eb3672ed6b74af253645f8444b26dae">deltaW</a> &lt;&lt; <span class="stringliteral">&quot;     &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a197dd226141359484ea87aef14935b39">deltaZ</a> &lt;&lt; <span class="stringliteral">&quot;      &quot;</span> &lt;&lt; planes[(*iter).second].<a class="code" href="../../dc/d90/classPlane.html#a44240b813f6fb47888c34388270dddc6">rotZ</a> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;  }</div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;}</div>
+<div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;</div>
+<div class="line"><a name="l01164"></a><span class="lineno"><a class="line" href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e"> 1164</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e">GeomSvc::printTable</a>()</div>
+<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;{</div>
+<div class="line"><a name="l01166"></a><span class="lineno"> 1166</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;detectorID detectorName planeType    Spacing     Xoffset     overlap     width       height       nElement       angleFromVertical     z0     x0     y0     deltaW&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01167"></a><span class="lineno"> 1167</span>&#160;  <span class="keywordflow">for</span>(std::map&lt;std::string, int&gt;::iterator iter = map_detectorID.begin(); iter != map_detectorID.end(); ++iter)</div>
+<div class="line"><a name="l01168"></a><span class="lineno"> 1168</span>&#160;  {</div>
+<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;    <span class="keywordflow">if</span>(iter-&gt;second&gt;<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ac39ebac91aa702fb64e4de86a43d9a19">nChamberPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109">nHodoPlanes</a>+<a class="code" href="../../dd/de2/GlobalConsts_8h.html#a4c9618fd93c75e1c267eee5d28add513">nPropPlanes</a>) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;    std::cout &lt;&lt; planes[iter-&gt;second] &lt;&lt; std::endl;</div>
+<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;  }</div>
+<div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;}</div>
+<div class="ttc" id="classGeomSvc_html_a418543d7b33fc95092b2cd4a7496f1b8"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8">GeomSvc::loadMilleAlignment</a></div><div class="ttdeci">void loadMilleAlignment(const std::string &amp;alignmentFile_mille)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01052">GeomSvc.cxx:1052</a></div></div>
 <div class="ttc" id="structGeomParamPlane_1_1Plane_html_afca1947f18888f9868fd81d90be43322"><div class="ttname"><a href="../../d6/d90/structGeomParamPlane_1_1Plane.html#afca1947f18888f9868fd81d90be43322">GeomParamPlane::Plane::theta_x</a></div><div class="ttdeci">double theta_x</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/GeomParamPlane_8h_source.html#l00019">GeomParamPlane.h:19</a></div></div>
 <div class="ttc" id="classPlane_html_a0d7465239ba9703a6ce4ab9c42fed54c"><div class="ttname"><a href="../../dc/d90/classPlane.html#a0d7465239ba9703a6ce4ab9c42fed54c">Plane::rotY</a></div><div class="ttdeci">double rotY</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00099">GeomSvc.h:99</a></div></div>
 <div class="ttc" id="classPlane_html_a3e174ec1cfe64b0f78b3353c861a3e71"><div class="ttname"><a href="../../dc/d90/classPlane.html#a3e174ec1cfe64b0f78b3353c861a3e71">Plane::deltaW_module</a></div><div class="ttdeci">double deltaW_module[9]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00097">GeomSvc.h:97</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a64fde7dce7f3df7cf534796d7da4ecdb"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">GeomSvc::getDetectorName</a></div><div class="ttdeci">std::string getDetectorName(const int &amp;detectorID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00188">GeomSvc.h:188</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a0c78d3ac904cfbb367e96c73f176630d"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d">GeomSvc::initWireLUT</a></div><div class="ttdeci">void initWireLUT()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00675">GeomSvc.cxx:675</a></div></div>
-<div class="ttc" id="classGeomSvc_html_a27a7c39c0efd80b50f1f5747552f6031"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031">GeomSvc::printAlignPar</a></div><div class="ttdeci">void printAlignPar()</div><div class="ttdoc">Debugging print of the content. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01142">GeomSvc.cxx:1142</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a27a7c39c0efd80b50f1f5747552f6031"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031">GeomSvc::printAlignPar</a></div><div class="ttdeci">void printAlignPar()</div><div class="ttdoc">Debugging print of the content. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01154">GeomSvc.cxx:1154</a></div></div>
 <div class="ttc" id="classPlane_html_a0955dd443f1ce45a104fe720af0b2dfa"><div class="ttname"><a href="../../dc/d90/classPlane.html#a0955dd443f1ce45a104fe720af0b2dfa">Plane::resolution</a></div><div class="ttdeci">double resolution</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00101">GeomSvc.h:101</a></div></div>
 <div class="ttc" id="classPlane_html_a1870599ad709dd619752217ba6dda7d6"><div class="ttname"><a href="../../dc/d90/classPlane.html#a1870599ad709dd619752217ba6dda7d6">Plane::getWirePosition</a></div><div class="ttdeci">double getWirePosition(int elementID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00144">GeomSvc.cxx:144</a></div></div>
 <div class="ttc" id="classPlane_html_ab4a0d070736ad81dcc5cf6eb697099e0"><div class="ttname"><a href="../../dc/d90/classPlane.html#ab4a0d070736ad81dcc5cf6eb697099e0">Plane::detectorID</a></div><div class="ttdeci">int detectorID</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00063">GeomSvc.h:63</a></div></div>
@@ -1297,7 +1309,7 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="ttc" id="classPlane_html_adacbb0083bfbcfcb073db424852498ce"><div class="ttname"><a href="../../dc/d90/classPlane.html#adacbb0083bfbcfcb073db424852498ce">Plane::deltaX</a></div><div class="ttdeci">double deltaX</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00093">GeomSvc.h:93</a></div></div>
 <div class="ttc" id="classGeomSvc_html_af4a7c6010841138de3cbcabe33ec8e03"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#af4a7c6010841138de3cbcabe33ec8e03">GeomSvc::get2DBoxSize</a></div><div class="ttdeci">void get2DBoxSize(int detectorID, int elementID, double &amp;x_min, double &amp;x_max, double &amp;y_min, double &amp;y_max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00830">GeomSvc.cxx:830</a></div></div>
 <div class="ttc" id="run_8C_html_a078d38b1d96e7c0e4f35d93363cc8325"><div class="ttname"><a href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a></div><div class="ttdeci">int run(const int nEvents=1)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbc/run_8C_source.html#l00010">run.C:10</a></div></div>
-<div class="ttc" id="classGeomSvc_html_a02a8a93c3eb88f77c11aaf949a92730c"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c">GeomSvc::printWirePosition</a></div><div class="ttdeci">void printWirePosition()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01122">GeomSvc.cxx:1122</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a02a8a93c3eb88f77c11aaf949a92730c"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c">GeomSvc::printWirePosition</a></div><div class="ttdeci">void printWirePosition()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01134">GeomSvc.cxx:1134</a></div></div>
 <div class="ttc" id="classPlane_html_acac0d9c003e0ab10d07b146c3566a0c7"><div class="ttname"><a href="../../dc/d90/classPlane.html#acac0d9c003e0ab10d07b146c3566a0c7">Plane::Plane</a></div><div class="ttdeci">Plane()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00031">GeomSvc.cxx:31</a></div></div>
 <div class="ttc" id="structGeomParamPlane_1_1Plane_html_a8307a1f98125cca997d8e861579c4c34"><div class="ttname"><a href="../../d6/d90/structGeomParamPlane_1_1Plane.html#a8307a1f98125cca997d8e861579c4c34">GeomParamPlane::Plane::det_name</a></div><div class="ttdeci">std::string det_name</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/GeomParamPlane_8h_source.html#l00008">GeomParamPlane.h:8</a></div></div>
 <div class="ttc" id="classPlane_html"><div class="ttname"><a href="../../dc/d90/classPlane.html">Plane</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00035">GeomSvc.h:35</a></div></div>
@@ -1310,7 +1322,7 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="ttc" id="classPlane_html_a43be5f58e45f5f51e5fe29ee2dda5638"><div class="ttname"><a href="../../dc/d90/classPlane.html#a43be5f58e45f5f51e5fe29ee2dda5638">Plane::zc</a></div><div class="ttdeci">double zc</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00106">GeomSvc.h:106</a></div></div>
 <div class="ttc" id="structGeomParamPlane_1_1Plane_html_a64e82af00ff6e6dc3421b0228688cd07"><div class="ttname"><a href="../../d6/d90/structGeomParamPlane_1_1Plane.html#a64e82af00ff6e6dc3421b0228688cd07">GeomParamPlane::Plane::width</a></div><div class="ttdeci">double width</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/GeomParamPlane_8h_source.html#l00014">GeomParamPlane.h:14</a></div></div>
 <div class="ttc" id="GeomSvc_8h_html"><div class="ttname"><a href="../../d6/d19/GeomSvc_8h.html">GeomSvc.h</a></div></div>
-<div class="ttc" id="classGeomSvc_html_aa83ded881f7568b9a84df59357f17a4b"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b">GeomSvc::isInTime</a></div><div class="ttdeci">bool isInTime(int detectorID, double tdcTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01117">GeomSvc.cxx:1117</a></div></div>
+<div class="ttc" id="classGeomSvc_html_aa83ded881f7568b9a84df59357f17a4b"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#aa83ded881f7568b9a84df59357f17a4b">GeomSvc::isInTime</a></div><div class="ttdeci">bool isInTime(int detectorID, double tdcTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01129">GeomSvc.cxx:1129</a></div></div>
 <div class="ttc" id="classPlane_html_a14a2c0a7bbcc7d14d5f8da9f17b90776"><div class="ttname"><a href="../../dc/d90/classPlane.html#a14a2c0a7bbcc7d14d5f8da9f17b90776">Plane::nVec</a></div><div class="ttdeci">TVectorD nVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00113">GeomSvc.h:113</a></div></div>
 <div class="ttc" id="structGeomParamPlane_1_1Plane_html_a747407b2624302dfe4caa70871cca897"><div class="ttname"><a href="../../d6/d90/structGeomParamPlane_1_1Plane.html#a747407b2624302dfe4caa70871cca897">GeomParamPlane::Plane::x0</a></div><div class="ttdeci">double x0</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/GeomParamPlane_8h_source.html#l00016">GeomParamPlane.h:16</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a151fe7cb80312c1a81a03874ccedc303"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a151fe7cb80312c1a81a03874ccedc303">GeomSvc::isInElement</a></div><div class="ttdeci">bool isInElement(int detectorID, int elementID, double x, double y, double tolr=0.)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00760">GeomSvc.cxx:760</a></div></div>
@@ -1327,21 +1339,21 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="ttc" id="classPlane_html_ae22586f5ccc02714dabc306d0722a363"><div class="ttname"><a href="../../dc/d90/classPlane.html#ae22586f5ccc02714dabc306d0722a363">Plane::tmin</a></div><div class="ttdeci">double tmin</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00121">GeomSvc.h:121</a></div></div>
 <div class="ttc" id="classGeomSvc_html_aed36d516bf38688e70bbf2c421e1ec46"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#aed36d516bf38688e70bbf2c421e1ec46">GeomSvc::close</a></div><div class="ttdeci">void close()</div><div class="ttdoc">Close the geometry service before exit or starting a new one. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00222">GeomSvc.cxx:222</a></div></div>
 <div class="ttc" id="classPlane_html_a3bbc4951b366a268652b1a7324565a9b"><div class="ttname"><a href="../../dc/d90/classPlane.html#a3bbc4951b366a268652b1a7324565a9b">Plane::rotM</a></div><div class="ttdeci">TMatrixD rotM</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00118">GeomSvc.h:118</a></div></div>
-<div class="ttc" id="classGeomSvc_html_abc60088ed5985a796f5df18ae4299661"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661">GeomSvc::loadCalibration</a></div><div class="ttdeci">void loadCalibration(const std::string &amp;calibrateFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01079">GeomSvc.cxx:1079</a></div></div>
+<div class="ttc" id="classGeomSvc_html_abc60088ed5985a796f5df18ae4299661"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661">GeomSvc::loadCalibration</a></div><div class="ttdeci">void loadCalibration(const std::string &amp;calibrateFile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01091">GeomSvc.cxx:1091</a></div></div>
 <div class="ttc" id="classPlane_html_af52175e6ba55e34ca7a7c50d32908725"><div class="ttname"><a href="../../dc/d90/classPlane.html#af52175e6ba55e34ca7a7c50d32908725">Plane::rX</a></div><div class="ttdeci">double rX</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00108">GeomSvc.h:108</a></div></div>
 <div class="ttc" id="classPlane_html_af08cf22f517177a723cdffa6b7b5206e"><div class="ttname"><a href="../../dc/d90/classPlane.html#af08cf22f517177a723cdffa6b7b5206e">Plane::thetaY</a></div><div class="ttdeci">double thetaY</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00089">GeomSvc.h:89</a></div></div>
 <div class="ttc" id="classPlane_html_abcde574cfae3af4275ce674ea80089c2"><div class="ttname"><a href="../../dc/d90/classPlane.html#abcde574cfae3af4275ce674ea80089c2">Plane::x1</a></div><div class="ttdeci">double x1</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00082">GeomSvc.h:82</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a0641a47774433aeb18678e927a4447eb"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a0641a47774433aeb18678e927a4447eb">GeomSvc::findPatternInDetector</a></div><div class="ttdeci">bool findPatternInDetector(int detectorID, std::string pattern)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00744">GeomSvc.cxx:744</a></div></div>
-<div class="ttc" id="classGeomSvc_html_ad1bef3d2b84f7192189c915646b24509"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">GeomSvc::getDCA</a></div><div class="ttdeci">double getDCA(int detectorID, int elementID, double tx, double ty, double x0, double y0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00928">GeomSvc.cxx:928</a></div></div>
+<div class="ttc" id="classGeomSvc_html_ad1bef3d2b84f7192189c915646b24509"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ad1bef3d2b84f7192189c915646b24509">GeomSvc::getDCA</a></div><div class="ttdeci">double getDCA(int detectorID, int elementID, double tx, double ty, double x0, double y0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00940">GeomSvc.cxx:940</a></div></div>
 <div class="ttc" id="classPlane_html_a3035f7119149f708254592edbc6a9199"><div class="ttname"><a href="../../dc/d90/classPlane.html#a3035f7119149f708254592edbc6a9199">Plane::x2</a></div><div class="ttdeci">double x2</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00085">GeomSvc.h:85</a></div></div>
 <div class="ttc" id="classPlane_html_a59a51ff78abe97e281af291dd0eb588f"><div class="ttname"><a href="../../dc/d90/classPlane.html#a59a51ff78abe97e281af291dd0eb588f">Plane::tantheta</a></div><div class="ttdeci">double tantheta</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00076">GeomSvc.h:76</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a69586ef9100d9c369aa5ed31c0e27190"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a69586ef9100d9c369aa5ed31c0e27190">GeomSvc::isInKMAG</a></div><div class="ttdeci">bool isInKMAG(double x, double y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00773">GeomSvc.cxx:773</a></div></div>
 <div class="ttc" id="classPlane_html_ae428f7c6a71e72f095aa62f1e77fc58e"><div class="ttname"><a href="../../dc/d90/classPlane.html#ae428f7c6a71e72f095aa62f1e77fc58e">Plane::vVec</a></div><div class="ttdeci">TVectorD vVec</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00115">GeomSvc.h:115</a></div></div>
 <div class="ttc" id="classPlane_html_acb6879da676f3728441eea775456465c"><div class="ttname"><a href="../../dc/d90/classPlane.html#acb6879da676f3728441eea775456465c">Plane::rY</a></div><div class="ttdeci">double rY</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00109">GeomSvc.h:109</a></div></div>
-<div class="ttc" id="classGeomSvc_html_a81bcda86eeb1ac939125237d431d8fee"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">GeomSvc::getInterceptionFast</a></div><div class="ttdeci">double getInterceptionFast(int detectorID, double tx, double ty, double x0, double y0) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00923">GeomSvc.cxx:923</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a81bcda86eeb1ac939125237d431d8fee"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee">GeomSvc::getInterceptionFast</a></div><div class="ttdeci">double getInterceptionFast(int detectorID, double tx, double ty, double x0, double y0) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00935">GeomSvc.cxx:935</a></div></div>
 <div class="ttc" id="classPlane_html_a44240b813f6fb47888c34388270dddc6"><div class="ttname"><a href="../../dc/d90/classPlane.html#a44240b813f6fb47888c34388270dddc6">Plane::rotZ</a></div><div class="ttdeci">double rotZ</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00100">GeomSvc.h:100</a></div></div>
 <div class="ttc" id="classGeomSvc_html_afbf6d99190de576faf739ed50bbeb33b"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#afbf6d99190de576faf739ed50bbeb33b">GeomSvc::getDetectorIDs</a></div><div class="ttdeci">std::vector&lt; int &gt; getDetectorIDs(std::string pattern)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00724">GeomSvc.cxx:724</a></div></div>
-<div class="ttc" id="classGeomSvc_html_a06eef790314a92502f823553f388ba5e"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e">GeomSvc::printTable</a></div><div class="ttdeci">void printTable()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01152">GeomSvc.cxx:1152</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a06eef790314a92502f823553f388ba5e"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e">GeomSvc::printTable</a></div><div class="ttdeci">void printTable()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l01164">GeomSvc.cxx:1164</a></div></div>
 <div class="ttc" id="classPlane_html_a58849d1c587f12c717391fb77e9dd910"><div class="ttname"><a href="../../dc/d90/classPlane.html#a58849d1c587f12c717391fb77e9dd910">Plane::costheta</a></div><div class="ttdeci">double costheta</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00075">GeomSvc.h:75</a></div></div>
 <div class="ttc" id="structGeomParamPlane_1_1Plane_html_a53587ff2dc44e36f868ca116f13f1ea7"><div class="ttname"><a href="../../d6/d90/structGeomParamPlane_1_1Plane.html#a53587ff2dc44e36f868ca116f13f1ea7">GeomParamPlane::Plane::height</a></div><div class="ttdeci">double height</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/GeomParamPlane_8h_source.html#l00015">GeomParamPlane.h:15</a></div></div>
 <div class="ttc" id="classPlane_html_a7fbb07f76503fe057772e01f542afc32"><div class="ttname"><a href="../../dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32">Plane::update</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00076">GeomSvc.cxx:76</a></div></div>
@@ -1365,7 +1377,7 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="ttc" id="classPlane_html_a1c80e92a016aa1942cca1e7d9944b0c8"><div class="ttname"><a href="../../dc/d90/classPlane.html#a1c80e92a016aa1942cca1e7d9944b0c8">Plane::rotX</a></div><div class="ttdeci">double rotX</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00098">GeomSvc.h:98</a></div></div>
 <div class="ttc" id="classGeomSvc_html"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html">GeomSvc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00129">GeomSvc.h:129</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a247234ec614ff09436ae5da46c2af983"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a247234ec614ff09436ae5da46c2af983">GeomSvc::getWireEndPoints</a></div><div class="ttdeci">void getWireEndPoints(int detectorID, int elementID, double &amp;x_min, double &amp;x_max, double &amp;y_min, double &amp;y_max)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00855">GeomSvc.cxx:855</a></div></div>
-<div class="ttc" id="classGeomSvc_html_a11846ccd95c54f825b0c5b8dc327923f"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">GeomSvc::getDriftDistance</a></div><div class="ttdeci">double getDriftDistance(int detectorID, double tdcTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00897">GeomSvc.cxx:897</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a11846ccd95c54f825b0c5b8dc327923f"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a11846ccd95c54f825b0c5b8dc327923f">GeomSvc::getDriftDistance</a></div><div class="ttdeci">double getDriftDistance(int detectorID, double tdcTime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00909">GeomSvc.cxx:909</a></div></div>
 <div class="ttc" id="GeomParamPlane_8h_html"><div class="ttname"><a href="../../de/d50/GeomParamPlane_8h.html">GeomParamPlane.h</a></div></div>
 <div class="ttc" id="classPlane_html_a097c65d3f59402732c7a6779c9490855"><div class="ttname"><a href="../../dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855">Plane::spacing</a></div><div class="ttdeci">double spacing</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00069">GeomSvc.h:69</a></div></div>
 <div class="ttc" id="classPlane_html_ac5842b3b0defa3aa1f05f5d79309b5e0"><div class="ttname"><a href="../../dc/d90/classPlane.html#ac5842b3b0defa3aa1f05f5d79309b5e0">Plane::thetaZ</a></div><div class="ttdeci">double thetaZ</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00090">GeomSvc.h:90</a></div></div>
@@ -1375,7 +1387,8 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 <div class="ttc" id="classPlane_html_ae36e9360831b280563f197a851bd7c7e"><div class="ttname"><a href="../../dc/d90/classPlane.html#ae36e9360831b280563f197a851bd7c7e">Plane::y0</a></div><div class="ttdeci">double y0</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00080">GeomSvc.h:80</a></div></div>
 <div class="ttc" id="classPlane_html_a57d52a555d2f2e43a12ba9efa6db1e31"><div class="ttname"><a href="../../dc/d90/classPlane.html#a57d52a555d2f2e43a12ba9efa6db1e31">Plane::rZ</a></div><div class="ttdeci">double rZ</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00110">GeomSvc.h:110</a></div></div>
 <div class="ttc" id="classPlane_html_a3ca30ba234e7668f9e3eb277c9ee2085"><div class="ttname"><a href="../../dc/d90/classPlane.html#a3ca30ba234e7668f9e3eb277c9ee2085">Plane::sintheta</a></div><div class="ttdeci">double sintheta</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00074">GeomSvc.h:74</a></div></div>
-<div class="ttc" id="classGeomSvc_html_ab6c810e39b86ce66a4be6a596b4d54b8"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">GeomSvc::loadAlignment</a></div><div class="ttdeci">void loadAlignment(const std::string &amp;alignmentFile_chamber, const std::string &amp;alignmentFile_hodo, const std::string &amp;alignmentFile_prop)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00942">GeomSvc.cxx:942</a></div></div>
+<div class="ttc" id="classGeomSvc_html_ab6c810e39b86ce66a4be6a596b4d54b8"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8">GeomSvc::loadAlignment</a></div><div class="ttdeci">void loadAlignment(const std::string &amp;alignmentFile_chamber, const std::string &amp;alignmentFile_hodo, const std::string &amp;alignmentFile_prop)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00954">GeomSvc.cxx:954</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a343d0997c42d09832a6eb3bb2a4a2f0c"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c">GeomSvc::getHodoStation</a></div><div class="ttdeci">int getHodoStation(const int detectorID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00897">GeomSvc.cxx:897</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -1386,7 +1399,7 @@ $(document).ready(function(){initNavTree('d1/d34/GeomSvc_8cxx_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1e3a55bacfbd23a6aba299383b6b7742.html">geom_svc</a></li><li class="navelem"><a class="el" href="../../d1/d34/GeomSvc_8cxx.html">GeomSvc.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Oct 13 2020 11:32:13</em> using <a
+			updated: <em>Wed Oct 21 2020 02:10:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

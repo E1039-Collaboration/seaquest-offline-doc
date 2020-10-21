@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"d0/dc5/shared__ptr_8hpp.html#a0d13c95d2b025c1b69ce9a0f9af8be1d":[21,0,0,0,0,0,0,0,0,2,34],
+"d0/dc5/shared__ptr_8hpp.html#a241550106141c8ac116ae8968b8bb25f":[21,0,0,0,0,0,0,0,0,2,38],
 "d0/dc5/shared__ptr_8hpp.html#a44e90a4cff71a50eadaa2913d05f4d88":[21,0,0,0,0,0,0,0,0,2,35],
 "d0/dc5/shared__ptr_8hpp.html#a4502baaa62095798a53105d9455aa791":[21,0,0,0,0,0,0,0,0,2,25],
 "d0/dc5/shared__ptr_8hpp.html#a469f2906c0424b86520ecf5d00d6aa1f":[21,0,0,0,0,0,0,0,0,2,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "d1/d3e/classPHDataNode.html#a7b3d21744d95fbec9cccb04cc96e5764":[20,0,157,8],
 "d1/d3e/classPHDataNode.html#a9b0af60a493cb195eed571da12617a1d":[20,0,157,4],
 "d1/d3e/classPHDataNode.html#ab9f153f81afc2b7793bda81fcd212495":[20,0,157,5],
-"d1/d3e/classPHDataNode.html#ae552d6d83427c1edd2741b5c688252da":[20,0,157,2],
-"d1/d42/classPHG4Particlev1.html":[20,0,262],
-"d1/d42/classPHG4Particlev1.html#a11612d794b72806cd194b8dccf370adb":[20,0,262,8]
+"d1/d3e/classPHDataNode.html#ae552d6d83427c1edd2741b5c688252da":[20,0,157,2]
 };

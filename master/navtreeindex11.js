@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"d3/dc3/PHG4CylinderCellv2_8h.html":[21,0,2,7,1,86],
+"d3/dc3/PHG4CylinderCellv2_8h_source.html":[21,0,2,7,1,86],
 "d3/dc5/classVariableArrayContainer.html":[20,0,440],
 "d3/dc5/classVariableArrayContainer.html#a065b1ef3e63d9a6821b6a6c2bd0d7906":[20,0,440,5],
 "d3/dc5/classVariableArrayContainer.html#a0b4e9737103613e63ec3a8d8a0385cf3":[20,0,440,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d4/d2d/classPHG4SquareTubeSubsystem.html#a5b92b85e8435b833679496938bc6c4d8":[20,0,281,4],
 "d4/d2d/classPHG4SquareTubeSubsystem.html#a650047864e54a622d436bf28e799cbaf":[20,0,281,5],
 "d4/d2d/classPHG4SquareTubeSubsystem.html#a9c9438ac6e85d0ff7902624d90fc97d6":[20,0,281,3],
-"d4/d2d/classPHG4SquareTubeSubsystem.html#aa2e4e1959ebf9ba8b9f740755737ec2c":[20,0,281,1],
-"d4/d2d/classPHG4SquareTubeSubsystem.html#ae98d6c8735221b71919737d7d798dd47":[20,0,281,0],
-"d4/d2e/classG4TBMagneticFieldSetup.html":[20,0,98]
+"d4/d2d/classPHG4SquareTubeSubsystem.html#aa2e4e1959ebf9ba8b9f740755737ec2c":[20,0,281,1]
 };

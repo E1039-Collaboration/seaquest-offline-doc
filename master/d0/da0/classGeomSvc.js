@@ -26,6 +26,8 @@ var classGeomSvc =
     [ "getEndPoints", "d0/da0/classGeomSvc.html#a631d2a6b362ac1c735920cb16f056945", null ],
     [ "getEndPoints", "d0/da0/classGeomSvc.html#a241a8720bcc79b2838338d8e2a105ca9", null ],
     [ "getExpElementID", "d0/da0/classGeomSvc.html#aa473fe84216b361eab68967a0d41e30f", null ],
+    [ "getHodoStation", "d0/da0/classGeomSvc.html#a343d0997c42d09832a6eb3bb2a4a2f0c", null ],
+    [ "getHodoStation", "d0/da0/classGeomSvc.html#a28747b9fb16639f591b6c90ddb6cdd2f", null ],
     [ "getInterception", "d0/da0/classGeomSvc.html#a0490f7069c7c31609d956dc96daa3524", null ],
     [ "getInterceptionFast", "d0/da0/classGeomSvc.html#a81bcda86eeb1ac939125237d431d8fee", null ],
     [ "getInterceptionFast", "d0/da0/classGeomSvc.html#a0442a6d2e9a2785bd97a8ce24b54a52d", null ],
