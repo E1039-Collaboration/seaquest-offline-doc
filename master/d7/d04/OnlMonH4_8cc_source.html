@@ -183,9 +183,9 @@ $(document).ready(function(){initNavTree('d7/d04/OnlMonH4_8cc_source.html','../.
 <div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../d2/d02/classOnlMonH4.html#a4903332f47864785a12cf8f4938dd0c3">   74</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d02/classOnlMonH4.html#a4903332f47864785a12cf8f4938dd0c3">OnlMonH4::InitRunOnlMon</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> DT = 40/9.0; <span class="comment">// 4/9 ns per single count of Taiwan TDC</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> NT    = 100;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> NT    = 350;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T0 = 100.5*DT;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T1 = 200.5*DT;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T1 = 450.5*DT;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">int</span> n_ele = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#ab5c7737b3c015da421b6ac756a35213c">getPlaneNElements</a>( geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">getDetectorID</a>(m_det_name) );</div>
@@ -384,7 +384,7 @@ $(document).ready(function(){initNavTree('d7/d04/OnlMonH4_8cc_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_7f25cc720e972459e882558067e6a7dd.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../d7/d04/OnlMonH4_8cc.html">OnlMonH4.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 18 2020 08:50:45</em> using <a
+			updated: <em>Wed Nov 18 2020 18:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
