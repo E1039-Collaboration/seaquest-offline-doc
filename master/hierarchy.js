@@ -508,7 +508,6 @@ var hierarchy =
           [ "SQDimuon_v1", "d0/d85/classSQDimuon__v1.html", null ],
           [ "SRecDimuon", "d3/d07/classSRecDimuon.html", null ]
         ] ],
-        [ "SQDimuonTruthInfoContainer", "d0/d60/classSQDimuonTruthInfoContainer.html", null ],
         [ "SQDimuonVector", "d3/df1/classSQDimuonVector.html", [
           [ "SQDimuonVector_v1", "d3/dc1/classSQDimuonVector__v1.html", null ]
         ] ],
@@ -532,7 +531,6 @@ var hierarchy =
         [ "SQIntMap", "dc/d07/classSQIntMap.html", [
           [ "SQIntMap_v1", "d1/d94/classSQIntMap__v1.html", null ]
         ] ],
-        [ "SQMCDimuon", "d5/ddb/classSQMCDimuon.html", null ],
         [ "SQMCEvent", "d9/d3d/classSQMCEvent.html", [
           [ "SQMCEvent_v1", "d7/df6/classSQMCEvent__v1.html", null ]
         ] ],

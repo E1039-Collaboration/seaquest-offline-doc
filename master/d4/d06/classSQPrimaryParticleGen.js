@@ -8,7 +8,7 @@ var classSQPrimaryParticleGen =
     [ "enablePsipGen", "d4/d06/classSQPrimaryParticleGen.html#aa2541aa06e60bc44e92cd775a5056472", null ],
     [ "enablePythia", "d4/d06/classSQPrimaryParticleGen.html#a6b1c3dc8b010a08849e5834ff5f31749", null ],
     [ "generateCustomDimuon", "d4/d06/classSQPrimaryParticleGen.html#af5ebb7d477cc4bf72b5f377d708356e2", null ],
-    [ "generateDimuon", "d4/d06/classSQPrimaryParticleGen.html#ab539402f38eec7049588d242ae8685fc", null ],
+    [ "generateDimuon", "d4/d06/classSQPrimaryParticleGen.html#a5296f1efeb34fc0a9f30d1cfbff349d2", null ],
     [ "generateDrellYan", "d4/d06/classSQPrimaryParticleGen.html#acb9d64a17b2176d50e06275170ac7878", null ],
     [ "generateJPsi", "d4/d06/classSQPrimaryParticleGen.html#a85f076747e4de28e06193216b0ee30ec", null ],
     [ "generatePsip", "d4/d06/classSQPrimaryParticleGen.html#a2d5f49fbafe2df88df9b0dd402512ed5", null ],

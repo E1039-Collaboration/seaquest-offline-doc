@@ -2,7 +2,8 @@ var searchData=
 [
   ['c_5farray',['c_array',['../d1/d96/classboost_1_1array.html#ae868fa64e0782bd92b7c602caaa3f600',1,'boost::array::c_array()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#a47c93db5b19ad8b3f3f62d2fe9ecf45a',1,'boost::array&lt; T, 0 &gt;::c_array()']]],
   ['calcchisq',['calcChisq',['../d2/d26/classTracklet.html#af4572336b769b0e1f0b2d679887bab5d',1,'Tracklet']]],
-  ['calcvariables',['calcVariables',['../d5/ddb/classSQMCDimuon.html#a5bcb737712e92a8fd3f068f4b8a574fe',1,'SQMCDimuon::calcVariables()'],['../d3/d07/classSRecDimuon.html#ac53e58ade80e9739db859c06760de431',1,'SRecDimuon::calcVariables()']]],
+  ['calcvar',['CalcVar',['../d4/dcc/namespaceUtilDimuon.html#a2c35e2505eb5afa717e21307aad64c53',1,'UtilDimuon::CalcVar(const SQDimuon *dim, double &amp;mass, double &amp;pT, double &amp;x1, double &amp;x2, double &amp;xF, double &amp;costh, double &amp;phi)'],['../d4/dcc/namespaceUtilDimuon.html#a4ac03830bb8fd8d804d60da41e219ba5',1,'UtilDimuon::CalcVar(const TLorentzVector &amp;p_pos, const TLorentzVector &amp;p_neg, double &amp;mass, double &amp;pT, double &amp;x1, double &amp;x2, double &amp;xF, double &amp;costh, double &amp;phi)']]],
+  ['calcvariables',['calcVariables',['../d3/d07/classSRecDimuon.html#ac53e58ade80e9739db859c06760de431',1,'SRecDimuon']]],
   ['calibevtqual',['CalibEvtQual',['../da/de3/classCalibEvtQual.html#ad4005aca1a59d15c01bdcfefb5b30994',1,'CalibEvtQual']]],
   ['calibintime',['CalibInTime',['../d3/d98/classCalibInTime.html#a4ade98a6f347cd740d02a8531afe2d1b',1,'CalibInTime']]],
   ['calibmergeh4',['CalibMergeH4',['../df/d49/classCalibMergeH4.html#a6be067536f32b5aaf6617173dac9a3ab',1,'CalibMergeH4']]],

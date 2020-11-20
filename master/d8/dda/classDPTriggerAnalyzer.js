@@ -1,6 +1,10 @@
 var classDPTriggerAnalyzer =
 [
     [ "MatrixNode", "dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode.html", "dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode" ],
+    [ "NimMode", "d8/dda/classDPTriggerAnalyzer.html#adb22d5a606f5806de2c70e8235e8d9e2", [
+      [ "NIM_AND", "d8/dda/classDPTriggerAnalyzer.html#adb22d5a606f5806de2c70e8235e8d9e2a77619e020a89466aa566903d9c8332b9", null ],
+      [ "NIM_OR", "d8/dda/classDPTriggerAnalyzer.html#adb22d5a606f5806de2c70e8235e8d9e2afeb888b7e15e008e3a5cb2f6f0bfff8c", null ]
+    ] ],
     [ "DPTriggerAnalyzer", "d8/dda/classDPTriggerAnalyzer.html#a000f2f9719caea965ece0207962937b5", null ],
     [ "~DPTriggerAnalyzer", "d8/dda/classDPTriggerAnalyzer.html#aafe19ecd55ef067ce2327ec5e7b380c4", null ],
     [ "buildTriggerMatrix", "d8/dda/classDPTriggerAnalyzer.html#a7c2963b069d98298731a4da80a59ab72", null ],
@@ -14,5 +18,6 @@ var classDPTriggerAnalyzer =
     [ "printPath", "d8/dda/classDPTriggerAnalyzer.html#a8d0a2baf7daec668f2255260921fe010", null ],
     [ "process_event", "d8/dda/classDPTriggerAnalyzer.html#af71bdac68acca94700335d0e3be50250", null ],
     [ "searchMatrix", "d8/dda/classDPTriggerAnalyzer.html#afedfc5e24e178733d52c4982bfd0a300", null ],
+    [ "set_nim_mode", "d8/dda/classDPTriggerAnalyzer.html#aaf1978135bbdc8c18d05c3da2c952968", null ],
     [ "set_road_set_file_name", "d8/dda/classDPTriggerAnalyzer.html#a94e85484cdca7ad5423c533c8222bfcc", null ]
 ];

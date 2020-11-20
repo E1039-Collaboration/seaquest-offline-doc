@@ -107,11 +107,11 @@ $(document).ready(function(){initNavTree('dc/d87/md__dev_shm_kenichi_update-gith
 <h2>Create the Realistic primary vertex distribution</h2>
 <p>``` -SQBeamlineObject.C -SQBeamlineObject.h -SQPrimaryVertexGen.C -SQPrimaryVertexGen.h ```</p>
 <h2>Creates primary particles following desired physics</h2>
-<p>``` -SQPrimaryParticleGen.C -SQPrimaryParticleGen.h -SQMCDimuon.C -SQMCDimuon.h ``` </p>
+<p>``` -SQPrimaryParticleGen.C -SQPrimaryParticleGen.h ``` </p>
 <h2>Stores dimuon truth information in a node</h2>
-<p>``` -SQDimuonTruthInfoContainer.C -SQDimuonTruthInfoContainer.h ``` The individual primary particle's info is passed to Geant4 simlation via Fun4All interface and their truth info can be read as how it is being read now (i.e. via <a class="el" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a>) <br/>
+<p>``` -SQMCEvent -SQDimuonVector ``` The individual primary particle's info is passed to Geant4 simlation via Fun4All interface and their truth info can be read as how it is being read now (i.e. via <a class="el" href="../../da/d6c/classPHG4TruthInfoContainer.html">PHG4TruthInfoContainer</a>) <br/>
  <br/>
- <a class="el" href="../../d0/d60/classSQDimuonTruthInfoContainer.html">SQDimuonTruthInfoContainer</a> node is need to be added to user's analysis module to catch the truth information of dimuon including the cross-section (weight) for each event. </p>
+ </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -121,7 +121,7 @@ $(document).ready(function(){initNavTree('dc/d87/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 18 2020 18:20:10</em> using <a
+			updated: <em>Thu Nov 19 2020 21:30:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
