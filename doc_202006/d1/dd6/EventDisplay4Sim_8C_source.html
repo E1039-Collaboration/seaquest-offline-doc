@@ -386,124 +386,123 @@ $(document).ready(function(){initNavTree('d1/dd6/EventDisplay4Sim_8C_source.html
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  <span class="comment">// Trigger Emulator</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  <a class="code" href="../../d8/dda/classDPTriggerAnalyzer.html">DPTriggerAnalyzer</a>* dptrigger = <span class="keyword">new</span> <a class="code" href="../../d8/dda/classDPTriggerAnalyzer.html">DPTriggerAnalyzer</a>();</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  dptrigger-&gt;<a class="code" href="../../d8/dda/classDPTriggerAnalyzer.html#af94e7024ee5d5a62610db952b5a0014b">set_hit_container_choice</a>(<span class="stringliteral">&quot;Vector&quot;</span>);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  dptrigger-&gt;<a class="code" href="../../d8/dda/classDPTriggerAnalyzer.html#a94e85484cdca7ad5423c533c8222bfcc">set_road_set_file_name</a>(gSystem-&gt;ExpandPathName(<span class="stringliteral">&quot;$E1039_RESOURCE/trigger/trigger_67.txt&quot;</span>));</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <span class="comment">//dptrigger-&gt;Verbosity(99);</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(dptrigger);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <span class="comment">// Event Filter</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a320e904700f0c0f2164057bff085d8c3">evt_filter</a> = <span class="keyword">new</span> <a class="code" href="../../d1/dbd/classEvtFilter.html">EvtFilter</a>();</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  <span class="comment">//evt_filter-&gt;Verbosity(10);</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="comment">//evt_filter-&gt;set_trigger_req(1&lt;&lt;5);</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a320e904700f0c0f2164057bff085d8c3">evt_filter</a>);</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="comment">// trakcing module</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html">KalmanFastTrackingWrapper</a> *ktracker = <span class="keyword">new</span> <a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html">KalmanFastTrackingWrapper</a>();</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  <span class="comment">//ktracker-&gt;Verbosity(99);</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#a46ff3f180842976abcebef6ae4927e65">set_enable_event_reducer</a>(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#a05f76e0f15362bd0cba55d725d057b91">set_DS_level</a>(0);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#ab0ca59c0b207dc7a18f935a4a8ad0efb">set_pattern_db_name</a>(gSystem-&gt;ExpandPathName(<span class="stringliteral">&quot;$E1039_RESOURCE/dsearch/v1/pattern.root&quot;</span>));</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  <span class="comment">//ktracker-&gt;set_sim_db_name(gSystem-&gt;ExpandPathName(&quot;$E1039_RESOURCE/dsearch/v1/sim.root&quot;));</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  <span class="comment">//PatternDBUtil::ResScaleDC3(3);</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <span class="comment">//PatternDBUtil::LooseMode(false);</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(ktracker);</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;  <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>* vertexing = <span class="keyword">new</span> <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>();</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(vertexing);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  <span class="comment">// Event display</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <span class="comment">// (width, height, use_fieldmap, use_geofile, field-map name, geo-file name)</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a>* disp = <span class="keyword">new</span> <a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a>(1920, 1080, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;geom.root&quot;</span>);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  disp-&gt;<a class="code" href="../../d1/dce/classPHEventDisplay.html#a02fc0b80e4c80d17913bc2f16561344c">set_verbosity</a>(3);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(disp);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  <span class="keywordflow">if</span>(read_hepmc) {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a>(<span class="stringliteral">&quot;HEPMCIN&quot;</span>);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    in-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(10);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184">set_vertex_distribution_mean</a>(0,0,target_coil_pos_z,0);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a">fileopen</a>(<span class="stringliteral">&quot;hepmcout.txt&quot;</span>);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  }</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <span class="comment">//</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="comment">// Make GUI</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="comment">//</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  g4Reco-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  disp  -&gt;<a class="code" href="../../d1/dce/classPHEventDisplay.html#a41be51990798d21514cd311258511f42">InitRun</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a06697dd5e6cdad5da2f4f14632bea358">view</a> = gEve-&gt;GetDefaultGLViewer();</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  TEveBrowser* browser = gEve-&gt;GetBrowser();</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;  browser-&gt;StartEmbedding(TRootBrowser::kLeft);</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  TGMainFrame* frmMain = <span class="keyword">new</span> TGMainFrame(gClient-&gt;GetRoot(), 1000, 600);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  frmMain-&gt;SetWindowName(<span class="stringliteral">&quot;Event Display&quot;</span>);</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  frmMain-&gt;SetCleanup(kDeepCleanup);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  TGVerticalFrame* frmVert = <span class="keyword">new</span> TGVerticalFrame(frmMain);</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  {</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    TGTextButton* b = 0;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    EvNavHandler* handler = <span class="keyword">new</span> EvNavHandler;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    TGHorizontalFrame* frm1 = 0;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    TGLabel* lab = 0;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    frm1 = <span class="keyword">new</span> TGHorizontalFrame(frmVert);</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    lab = <span class="keyword">new</span> TGLabel(frm1, <span class="stringliteral">&quot;Event ID&quot;</span>);</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    frm1-&gt;AddFrame(lab, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsLeft, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a> = <span class="keyword">new</span> TGNumberEntry(frm1, -1, 9, 999, TGNumberFormat::kNESInteger,</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        TGNumberFormat::kNEAAnyNumber,</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        TGNumberFormat::kNELLimitMinMax,</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        -999999, 999999);</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a>-&gt;Connect(<span class="stringliteral">&quot;ValueSet(Long_t)&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;ReqEvtID()&quot;</span>);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    frm1-&gt;AddFrame(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a>, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsRight, 5, 5, 5, 5));</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    frmVert-&gt;AddFrame(frm1);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  dptrigger-&gt;<a class="code" href="../../d8/dda/classDPTriggerAnalyzer.html#a94e85484cdca7ad5423c533c8222bfcc">set_road_set_file_name</a>(<span class="stringliteral">&quot;$E1039_RESOURCE/trigger/trigger_67.txt&quot;</span>);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="comment">//dptrigger-&gt;Verbosity(99);</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(dptrigger);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  <span class="comment">// Event Filter</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a320e904700f0c0f2164057bff085d8c3">evt_filter</a> = <span class="keyword">new</span> <a class="code" href="../../d1/dbd/classEvtFilter.html">EvtFilter</a>();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <span class="comment">//evt_filter-&gt;Verbosity(10);</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  <span class="comment">//evt_filter-&gt;set_trigger_req(1&lt;&lt;5);</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a320e904700f0c0f2164057bff085d8c3">evt_filter</a>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  <span class="comment">// trakcing module</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html">KalmanFastTrackingWrapper</a> *ktracker = <span class="keyword">new</span> <a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html">KalmanFastTrackingWrapper</a>();</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <span class="comment">//ktracker-&gt;Verbosity(99);</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#a46ff3f180842976abcebef6ae4927e65">set_enable_event_reducer</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#a05f76e0f15362bd0cba55d725d057b91">set_DS_level</a>(0);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;  ktracker-&gt;<a class="code" href="../../d4/dff/classKalmanFastTrackingWrapper.html#ab0ca59c0b207dc7a18f935a4a8ad0efb">set_pattern_db_name</a>(gSystem-&gt;ExpandPathName(<span class="stringliteral">&quot;$E1039_RESOURCE/dsearch/v1/pattern.root&quot;</span>));</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  <span class="comment">//ktracker-&gt;set_sim_db_name(gSystem-&gt;ExpandPathName(&quot;$E1039_RESOURCE/dsearch/v1/sim.root&quot;));</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  <span class="comment">//PatternDBUtil::ResScaleDC3(3);</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  <span class="comment">//PatternDBUtil::LooseMode(false);</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(ktracker);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>* vertexing = <span class="keyword">new</span> <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>();</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(vertexing);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="comment">// Event display</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  <span class="comment">// (width, height, use_fieldmap, use_geofile, field-map name, geo-file name)</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a>* disp = <span class="keyword">new</span> <a class="code" href="../../d1/dce/classPHEventDisplay.html">PHEventDisplay</a>(1920, 1080, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;geom.root&quot;</span>);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  disp-&gt;<a class="code" href="../../d1/dce/classPHEventDisplay.html#a02fc0b80e4c80d17913bc2f16561344c">set_verbosity</a>(3);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(disp);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <span class="keywordflow">if</span>(read_hepmc) {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a>(<span class="stringliteral">&quot;HEPMCIN&quot;</span>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    in-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(10);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184">set_vertex_distribution_mean</a>(0,0,target_coil_pos_z,0);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a">fileopen</a>(<span class="stringliteral">&quot;hepmcout.txt&quot;</span>);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="comment">//</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <span class="comment">// Make GUI</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="comment">//</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  g4Reco-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">InitRun</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  disp  -&gt;<a class="code" href="../../d1/dce/classPHEventDisplay.html#a41be51990798d21514cd311258511f42">InitRun</a>(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>());</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#a06697dd5e6cdad5da2f4f14632bea358">view</a> = gEve-&gt;GetDefaultGLViewer();</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;  TEveBrowser* browser = gEve-&gt;GetBrowser();</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  browser-&gt;StartEmbedding(TRootBrowser::kLeft);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  TGMainFrame* frmMain = <span class="keyword">new</span> TGMainFrame(gClient-&gt;GetRoot(), 1000, 600);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  frmMain-&gt;SetWindowName(<span class="stringliteral">&quot;Event Display&quot;</span>);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  frmMain-&gt;SetCleanup(kDeepCleanup);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  TGVerticalFrame* frmVert = <span class="keyword">new</span> TGVerticalFrame(frmMain);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    TGTextButton* b = 0;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    EvNavHandler* handler = <span class="keyword">new</span> EvNavHandler;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    TGHorizontalFrame* frm1 = 0;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    TGLabel* lab = 0;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    frm1 = <span class="keyword">new</span> TGHorizontalFrame(frmVert);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    lab = <span class="keyword">new</span> TGLabel(frm1, <span class="stringliteral">&quot;Event ID&quot;</span>);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    frm1-&gt;AddFrame(lab, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsLeft, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a> = <span class="keyword">new</span> TGNumberEntry(frm1, -1, 9, 999, TGNumberFormat::kNESInteger,</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        TGNumberFormat::kNEAAnyNumber,</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        TGNumberFormat::kNELLimitMinMax,</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        -999999, 999999);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a>-&gt;Connect(<span class="stringliteral">&quot;ValueSet(Long_t)&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;ReqEvtID()&quot;</span>);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    frm1-&gt;AddFrame(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#ae830e92e39112cb4e2314f5b9b5c1dc2">ne_evt_id</a>, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsRight, 5, 5, 5, 5));</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    frmVert-&gt;AddFrame(frm1);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    frm1 = <span class="keyword">new</span> TGHorizontalFrame(frmVert);</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    lab = <span class="keyword">new</span> TGLabel(frm1, <span class="stringliteral">&quot;Trigger&quot;</span>);</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    frm1-&gt;AddFrame(lab, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsLeft, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a> = <span class="keyword">new</span> TGNumberEntry(frm1, -1, 9, 999, TGNumberFormat::kNESInteger,</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        TGNumberFormat::kNEAAnyNumber,</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        TGNumberFormat::kNELLimitMinMax,</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        -999, 999);</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a>-&gt;Connect(<span class="stringliteral">&quot;ValueSet(Long_t)&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;ReqTrig()&quot;</span>);</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    frm1-&gt;AddFrame(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a>, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsRight, 5, 5, 5, 5));</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    frmVert-&gt;AddFrame(frm1);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    frm1 = <span class="keyword">new</span> TGHorizontalFrame(frmVert);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    lab = <span class="keyword">new</span> TGLabel(frm1, <span class="stringliteral">&quot;Trigger&quot;</span>);</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    frm1-&gt;AddFrame(lab, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsLeft, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a> = <span class="keyword">new</span> TGNumberEntry(frm1, -1, 9, 999, TGNumberFormat::kNESInteger,</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        TGNumberFormat::kNEAAnyNumber,</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        TGNumberFormat::kNELLimitMinMax,</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        -999, 999);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a>-&gt;Connect(<span class="stringliteral">&quot;ValueSet(Long_t)&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;ReqTrig()&quot;</span>);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    frm1-&gt;AddFrame(<a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#aabefd0636cac35c45c2ee54c39a165f2">ne_trig</a>, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterY | kLHintsRight, 5, 5, 5, 5));</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    frmVert-&gt;AddFrame(frm1);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Next Event&quot;</span>);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;NextEvent()&quot;</span>);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Top View&quot;</span>);</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;TopView()&quot;</span>);</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Side View&quot;</span>);</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;SideView()&quot;</span>);</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;3D View&quot;</span>);</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;View3D()&quot;</span>);</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  }</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;  frmMain-&gt;AddFrame(frmVert);</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  frmMain-&gt;MapSubwindows();</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  frmMain-&gt;Resize();</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  frmMain-&gt;MapWindow();</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  browser-&gt;StopEmbedding();</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  browser-&gt;SetTabTitle(<span class="stringliteral">&quot;Event Control&quot;</span>, 0);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;}</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Next Event&quot;</span>);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;NextEvent()&quot;</span>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Top View&quot;</span>);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;TopView()&quot;</span>);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;Side View&quot;</span>);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;SideView()&quot;</span>);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    b = <span class="keyword">new</span> TGTextButton(frmVert, <span class="stringliteral">&quot;3D View&quot;</span>);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    frmVert-&gt;AddFrame(b, <span class="keyword">new</span> TGLayoutHints(kLHintsCenterX, 5, 5, 3, 4));</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    b-&gt;Connect(<span class="stringliteral">&quot;Clicked()&quot;</span>, <span class="stringliteral">&quot;EvNavHandler&quot;</span>, handler, <span class="stringliteral">&quot;View3D()&quot;</span>);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  }</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  frmMain-&gt;AddFrame(frmVert);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  frmMain-&gt;MapSubwindows();</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  frmMain-&gt;Resize();</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  frmMain-&gt;MapWindow();</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  browser-&gt;StopEmbedding();</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  browser-&gt;SetTabTitle(<span class="stringliteral">&quot;Event Control&quot;</span>, 0);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;}</div>
 <div class="ttc" id="classFun4AllServer_html_ab2cb490790d15b865ae79eb3094caabe"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">Fun4AllServer::registerInputManager</a></div><div class="ttdeci">int registerInputManager(Fun4AllInputManager *InManager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer.cc:1256</a></div></div>
 <div class="ttc" id="classPHFlag_html_a64f8c67e9313e5cecdbed51f747026da"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da">PHFlag::set_DoubleFlag</a></div><div class="ttdeci">virtual void set_DoubleFlag(const std::string &amp;name, const double flag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00075">PHFlag.cc:75</a></div></div>
 <div class="ttc" id="classPHG4Reco_html"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a></div><div class="ttdoc">Runs G4 as a subsystem. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/PHG4Reco_8h_source.html#l00038">PHG4Reco.h:38</a></div></div>
@@ -576,7 +575,6 @@ $(document).ready(function(){initNavTree('d1/dd6/EventDisplay4Sim_8C_source.html
 <div class="ttc" id="classPHG4Reco_html_a9d8228ce8682c19cd6be2f6b44ec847b"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html#a9d8228ce8682c19cd6be2f6b44ec847b">PHG4Reco::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco.cc:316</a></div></div>
 <div class="ttc" id="classPHFieldConfig_html_a1100379b9a3055047b2967b4e4d7faa1a745f24172e09f70d3cea17ad708e865d"><div class="ttname"><a href="../../d9/d8c/classPHFieldConfig.html#a1100379b9a3055047b2967b4e4d7faa1a745f24172e09f70d3cea17ad708e865d">PHFieldConfig::RegionalConst</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de3/PHFieldConfig_8h_source.html#l00049">PHFieldConfig.h:49</a></div></div>
 <div class="ttc" id="classSQPrimaryParticleGen_html_abd7fa6b2f4504544741711ae96c5ba7c"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#abd7fa6b2f4504544741711ae96c5ba7c">SQPrimaryParticleGen::enableJPsiGen</a></div><div class="ttdeci">void enableJPsiGen()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00073">SQPrimaryParticleGen.h:73</a></div></div>
-<div class="ttc" id="classDPTriggerAnalyzer_html_af94e7024ee5d5a62610db952b5a0014b"><div class="ttname"><a href="../../d8/dda/classDPTriggerAnalyzer.html#af94e7024ee5d5a62610db952b5a0014b">DPTriggerAnalyzer::set_hit_container_choice</a></div><div class="ttdeci">void set_hit_container_choice(const std::string &amp;hitContainerChoice)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00137">DPTriggerAnalyzer.h:137</a></div></div>
 <div class="ttc" id="classPHG4Reco_html_ae3a89b790e2508e68657bd0059675ef5"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html#ae3a89b790e2508e68657bd0059675ef5">PHG4Reco::SetPhysicsList</a></div><div class="ttdeci">void SetPhysicsList(const std::string &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/PHG4Reco_8h_source.html#l00114">PHG4Reco.h:114</a></div></div>
 <div class="ttc" id="classSQPrimaryParticleGen_html_ac79fad4accf33b38346794b369b5e247"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#ac79fad4accf33b38346794b369b5e247">SQPrimaryParticleGen::enableDrellYanGen</a></div><div class="ttdeci">void enableDrellYanGen()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00070">SQPrimaryParticleGen.h:70</a></div></div>
 <div class="ttc" id="classPHG4SimpleEventGenerator_html_ad2163ba775c5037bde6d852085922ab1"><div class="ttname"><a href="../../d5/df3/classPHG4SimpleEventGenerator.html#ad2163ba775c5037bde6d852085922ab1">PHG4SimpleEventGenerator::set_vertex_size_parameters</a></div><div class="ttdeci">void set_vertex_size_parameters(const double mean, const double width)</div><div class="ttdoc">set the dimensions of the distribution of particles about the vertex </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d3e/PHG4SimpleEventGenerator_8cc_source.html#l00174">PHG4SimpleEventGenerator.cc:174</a></div></div>
@@ -610,7 +608,7 @@ $(document).ready(function(){initNavTree('d1/dd6/EventDisplay4Sim_8C_source.html
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_e5f78ae802e6a5d675965ac802228964.html">EventDisplaySim</a></li><li class="navelem"><a class="el" href="../../d1/dd6/EventDisplay4Sim_8C.html">EventDisplay4Sim.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 18 2020 08:51:49</em> using <a
+			updated: <em>Fri Nov 20 2020 22:31:16</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
