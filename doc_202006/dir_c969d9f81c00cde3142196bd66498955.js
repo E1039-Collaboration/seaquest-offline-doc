@@ -14,7 +14,6 @@ var dir_c969d9f81c00cde3142196bd66498955 =
     ] ],
     [ "KalmanTrack.cxx", "d0/dac/KalmanTrack_8cxx.html", null ],
     [ "KalmanTrack.h", "d7/d2b/KalmanTrack_8h.html", [
-      [ "Seed", "db/d19/classSeed.html", "db/d19/classSeed" ],
       [ "KalmanTrack", "d9/dc3/classKalmanTrack.html", "d9/dc3/classKalmanTrack" ]
     ] ],
     [ "KalmanUtil.cxx", "df/dfc/KalmanUtil_8cxx.html", null ],

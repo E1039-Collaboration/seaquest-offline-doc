@@ -1,8 +1,5 @@
 var dir_3eb0cc2acfb784258aeda8faf9aac162 =
 [
-    [ "DPDigitizer.cc", "d4/dcd/DPDigitizer_8cc.html", "d4/dcd/DPDigitizer_8cc" ],
-    [ "DPDigitizer.h", "d9/da1/DPDigitizer_8h.html", "d9/da1/DPDigitizer_8h" ],
-    [ "DPDigitizerLinkDef.h", "d3/d3e/DPDigitizerLinkDef_8h.html", null ],
     [ "PHG4BlockCellGeom.cc", "d5/dd1/PHG4BlockCellGeom_8cc.html", null ],
     [ "PHG4BlockCellGeom.h", "d7/d39/PHG4BlockCellGeom_8h.html", [
       [ "PHG4BlockCellGeom", "d1/dd7/classPHG4BlockCellGeom.html", "d1/dd7/classPHG4BlockCellGeom" ]
@@ -212,19 +209,19 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
       [ "PHG4DetectorSubsystem", "d5/d29/classPHG4DetectorSubsystem.html", "d5/d29/classPHG4DetectorSubsystem" ]
     ] ],
     [ "PHG4DetectorSubsystemLinkDef.h", "d4/d35/PHG4DetectorSubsystemLinkDef_8h.html", null ],
-    [ "PHG4E1039InsensDetector.cc", "d6/d9b/PHG4E1039InsensDetector_8cc.html", null ],
-    [ "PHG4E1039InsensDetector.h", "d1/d1b/PHG4E1039InsensDetector_8h.html", [
-      [ "PHG4E1039InsensDetector", "d5/dd4/classPHG4E1039InsensDetector.html", "d5/dd4/classPHG4E1039InsensDetector" ]
+    [ "PHG4EMCalDetector.cc", "dd/dc7/PHG4EMCalDetector_8cc.html", null ],
+    [ "PHG4EMCalDetector.h", "dd/dda/PHG4EMCalDetector_8h.html", [
+      [ "PHG4EMCalDetector", "dd/d57/classPHG4EMCalDetector.html", "dd/d57/classPHG4EMCalDetector" ]
     ] ],
-    [ "PHG4E1039InsensSteppingAction.cc", "d4/ddf/PHG4E1039InsensSteppingAction_8cc.html", null ],
-    [ "PHG4E1039InsensSteppingAction.h", "df/d52/PHG4E1039InsensSteppingAction_8h.html", [
-      [ "PHG4E1039InsensSteppingAction", "d9/d14/classPHG4E1039InsensSteppingAction.html", "d9/d14/classPHG4E1039InsensSteppingAction" ]
+    [ "PHG4EMCalSteppingAction.cc", "db/d10/PHG4EMCalSteppingAction_8cc.html", null ],
+    [ "PHG4EMCalSteppingAction.h", "d5/d60/PHG4EMCalSteppingAction_8h.html", [
+      [ "PHG4EMCalSteppingAction", "db/d53/classPHG4EMCalSteppingAction.html", "db/d53/classPHG4EMCalSteppingAction" ]
     ] ],
-    [ "PHG4E1039InsensSubsystem.cc", "dc/de7/PHG4E1039InsensSubsystem_8cc.html", null ],
-    [ "PHG4E1039InsensSubsystem.h", "da/de8/PHG4E1039InsensSubsystem_8h.html", [
-      [ "PHG4E1039InsensSubsystem", "d9/d43/classPHG4E1039InsensSubsystem.html", "d9/d43/classPHG4E1039InsensSubsystem" ]
+    [ "PHG4EMCalSubsystem.cc", "da/dc1/PHG4EMCalSubsystem_8cc.html", null ],
+    [ "PHG4EMCalSubsystem.h", "dd/d87/PHG4EMCalSubsystem_8h.html", [
+      [ "PHG4EMCalSubsystem", "d5/d2e/classPHG4EMCalSubsystem.html", "d5/d2e/classPHG4EMCalSubsystem" ]
     ] ],
-    [ "PHG4E1039InsensSubsystemLinkDef.h", "db/d2d/PHG4E1039InsensSubsystemLinkDef_8h.html", null ],
+    [ "PHG4EMCalSubsystemLinkDef.h", "db/d60/PHG4EMCalSubsystemLinkDef_8h.html", null ],
     [ "PHG4EventActionClearZeroEdep.cc", "d8/dfd/PHG4EventActionClearZeroEdep_8cc.html", null ],
     [ "PHG4EventActionClearZeroEdep.h", "df/d8f/PHG4EventActionClearZeroEdep_8h.html", [
       [ "PHG4EventActionClearZeroEdep", "db/d55/classPHG4EventActionClearZeroEdep.html", "db/d55/classPHG4EventActionClearZeroEdep" ]
@@ -310,6 +307,11 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
     [ "PHG4TargetCoilV2SubsystemLinkDef.h", "d3/d35/PHG4TargetCoilV2SubsystemLinkDef_8h.html", null ],
     [ "PHG4TrackStatusDecode.cc", "db/da9/PHG4TrackStatusDecode_8cc.html", "db/da9/PHG4TrackStatusDecode_8cc" ],
     [ "PHG4TrackStatusDecode.h", "dd/d2b/PHG4TrackStatusDecode_8h.html", "dd/d2b/PHG4TrackStatusDecode_8h" ],
+    [ "SQDigitizer.cc", "d2/d4d/SQDigitizer_8cc.html", null ],
+    [ "SQDigitizer.h", "da/dca/SQDigitizer_8h.html", [
+      [ "SQDigitizer", "df/d36/classSQDigitizer.html", "df/d36/classSQDigitizer" ]
+    ] ],
+    [ "SQDigitizerLinkDef.h", "d6/d95/SQDigitizerLinkDef_8h.html", null ],
     [ "SQG4DipoleMagnetDetector.cc", "d0/dae/SQG4DipoleMagnetDetector_8cc.html", null ],
     [ "SQG4DipoleMagnetDetector.h", "d0/d80/SQG4DipoleMagnetDetector_8h.html", [
       [ "SQG4DipoleMagnetDetector", "d3/d93/classSQG4DipoleMagnetDetector.html", "d3/d93/classSQG4DipoleMagnetDetector" ]

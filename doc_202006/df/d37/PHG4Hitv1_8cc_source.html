@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('df/d37/PHG4Hitv1_8cc_source.html','../
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a>(<a class="code" href="../../d9/d35/classPHG4Hitv1.html">PHG4Hitv1</a>)</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d9/d35/classPHG4Hitv1.html#a3296b2329cd86b74a3d91d19cdd566ae">   12</a></span>&#160;<a class="code" href="../../d9/d35/classPHG4Hitv1.html">PHG4Hitv1</a>::<a class="code" href="../../d9/d35/classPHG4Hitv1.html">PHG4Hitv1</a>():</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; hitid(ULONG_LONG_MAX),</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; hitid(UINT_MAX),</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; trackid(INT_MIN),</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; edep(NAN)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('df/d37/PHG4Hitv1_8cc_source.html','../
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d9/d35/classPHG4Hitv1.html#ab575227751c23eee1c8c3e15aca16d7e">   33</a></span>&#160;<a class="code" href="../../d9/d35/classPHG4Hitv1.html#ab575227751c23eee1c8c3e15aca16d7e">PHG4Hitv1::Reset</a>()</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  hitid = ULONG_LONG_MAX;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  hitid = UINT_MAX;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  trackid = INT_MIN;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  edep = NAN;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i&lt;2;i++)</div>
@@ -514,30 +514,36 @@ $(document).ready(function(){initNavTree('df/d37/PHG4Hitv1_8cc_source.html','../
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, y1: &quot;</span> &lt;&lt; get_y(1)</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, z1: &quot;</span> &lt;&lt; get_z(1)</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, t1: &quot;</span> &lt;&lt; get_t(1) &lt;&lt; endl;</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;trackid: &quot;</span> &lt;&lt; trackid &lt;&lt; <span class="stringliteral">&quot;, showerid: &quot;</span> &lt;&lt; showerid</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, edep: &quot;</span> &lt;&lt; edep &lt;&lt; endl;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  <span class="keywordflow">for</span> (prop_map_t::const_iterator i = prop_map.begin(); i!= prop_map.end(); ++i)</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    {</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;      <a class="code" href="../../d3/d9e/classPHG4Hit.html#a078ec3a14cea27bbaea43d65f80db7d2">PROPERTY</a> prop_id = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d3/d9e/classPHG4Hit.html#a078ec3a14cea27bbaea43d65f80db7d2">PROPERTY</a><span class="keyword">&gt;</span>(i-&gt;first);</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;      pair&lt;const string, PROPERTY_TYPE&gt; property_info = get_property_info(prop_id);</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; prop_id &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; property_info.first &lt;&lt; <span class="stringliteral">&quot; = \t&quot;</span>;</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;      <span class="keywordflow">switch</span>(property_info.second)</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        {</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keywordflow">case</span> type_int:</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;          cout &lt;&lt; get_property_int(prop_id);</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <span class="keywordflow">case</span> type_uint:</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;          cout &lt;&lt; get_property_uint(prop_id);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        <span class="keywordflow">case</span> type_float:</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;          cout &lt;&lt; get_property_float(prop_id);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;px0: &quot;</span> &lt;&lt; get_px(0)</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, py0: &quot;</span> &lt;&lt; get_py(0)</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, pz0: &quot;</span> &lt;&lt; get_pz(0) &lt;&lt; endl;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;px1: &quot;</span> &lt;&lt; get_px(1)</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, py1: &quot;</span> &lt;&lt; get_py(1)</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, pz1: &quot;</span> &lt;&lt; get_pz(1) &lt;&lt; endl;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;trackid: &quot;</span> &lt;&lt; trackid &lt;&lt; <span class="stringliteral">&quot;, showerid: &quot;</span> &lt;&lt; showerid</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;       &lt;&lt; <span class="stringliteral">&quot;, edep: &quot;</span> &lt;&lt; edep &lt;&lt; endl;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  <span class="keywordflow">for</span> (prop_map_t::const_iterator i = prop_map.begin(); i!= prop_map.end(); ++i)</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    {</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;      <a class="code" href="../../d3/d9e/classPHG4Hit.html#a078ec3a14cea27bbaea43d65f80db7d2">PROPERTY</a> prop_id = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d3/d9e/classPHG4Hit.html#a078ec3a14cea27bbaea43d65f80db7d2">PROPERTY</a><span class="keyword">&gt;</span>(i-&gt;first);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;      pair&lt;const string, PROPERTY_TYPE&gt; property_info = get_property_info(prop_id);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; prop_id &lt;&lt; <span class="stringliteral">&quot;:\t&quot;</span> &lt;&lt; property_info.first &lt;&lt; <span class="stringliteral">&quot; = \t&quot;</span>;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;      <span class="keywordflow">switch</span>(property_info.second)</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        <span class="keywordflow">case</span> type_int:</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;          cout &lt;&lt; get_property_int(prop_id);</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;          cout &lt;&lt; <span class="stringliteral">&quot; unknown type &quot;</span>;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        }</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      cout &lt;&lt;endl;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    }</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;}</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <span class="keywordflow">case</span> type_uint:</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;          cout &lt;&lt; get_property_uint(prop_id);</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        <span class="keywordflow">case</span> type_float:</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;          cout &lt;&lt; get_property_float(prop_id);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;          cout &lt;&lt; <span class="stringliteral">&quot; unknown type &quot;</span>;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;      cout &lt;&lt;endl;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    }</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;}</div>
 <div class="ttc" id="classPHG4Hitv1_html_aeb393556ee95d1fcb3c517eaefce235b"><div class="ttname"><a href="../../d9/d35/classPHG4Hitv1.html#aeb393556ee95d1fcb3c517eaefce235b">PHG4Hitv1::set_local_x</a></div><div class="ttdeci">virtual void set_local_x(const int i, const float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d37/PHG4Hitv1_8cc_source.html#l00344">PHG4Hitv1.cc:344</a></div></div>
 <div class="ttc" id="classPHG4Hitv1_html_a973615e1b37b5dc3ab9ee27795ec8e38"><div class="ttname"><a href="../../d9/d35/classPHG4Hitv1.html#a973615e1b37b5dc3ab9ee27795ec8e38">PHG4Hitv1::set_local_y</a></div><div class="ttdeci">virtual void set_local_y(const int i, const float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d37/PHG4Hitv1_8cc_source.html#l00361">PHG4Hitv1.cc:361</a></div></div>
 <div class="ttc" id="classPHG4Hitv1_html_adf2fefb8eedbe5fc77e54155c1b594c9"><div class="ttname"><a href="../../d9/d35/classPHG4Hitv1.html#adf2fefb8eedbe5fc77e54155c1b594c9">PHG4Hitv1::get_local_x</a></div><div class="ttdeci">virtual float get_local_x(const int i) const </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d37/PHG4Hitv1_8cc_source.html#l00299">PHG4Hitv1.cc:299</a></div></div>
@@ -585,7 +591,7 @@ $(document).ready(function(){initNavTree('df/d37/PHG4Hitv1_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0a538a087021ce8adf1d4849fdeba031.html">simulation</a></li><li class="navelem"><a class="el" href="../../dir_58fcd450565d9abaf4895ca6c5d9b2fd.html">g4main</a></li><li class="navelem"><a class="el" href="../../df/d37/PHG4Hitv1_8cc.html">PHG4Hitv1.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:21</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,5 +1,15 @@
 var dir_21fa564a88be47a3879b0c5d4f9e77d5 =
 [
+    [ "SQCalHit_v1.cxx", "df/d75/SQCalHit__v1_8cxx.html", "df/d75/SQCalHit__v1_8cxx" ],
+    [ "SQCalHit_v1.h", "df/dc4/SQCalHit__v1_8h.html", [
+      [ "SQCalHit_v1", "da/db1/classSQCalHit__v1.html", "da/db1/classSQCalHit__v1" ]
+    ] ],
+    [ "SQCalHit_v1LinkDef.h", "d1/db5/SQCalHit__v1LinkDef_8h.html", null ],
+    [ "SQCalMCHit_v1.cxx", "de/d09/SQCalMCHit__v1_8cxx.html", "de/d09/SQCalMCHit__v1_8cxx" ],
+    [ "SQCalMCHit_v1.h", "d6/d53/SQCalMCHit__v1_8h.html", [
+      [ "SQCalMCHit_v1", "d7/d16/classSQCalMCHit__v1.html", "d7/d16/classSQCalMCHit__v1" ]
+    ] ],
+    [ "SQCalMCHit_v1LinkDef.h", "d5/d2e/SQCalMCHit__v1LinkDef_8h.html", null ],
     [ "SQDimuon.cxx", "dc/dde/SQDimuon_8cxx.html", null ],
     [ "SQDimuon.h", "d5/d78/SQDimuon_8h.html", [
       [ "SQDimuon", "d8/dd3/classSQDimuon.html", "d8/dd3/classSQDimuon" ]

@@ -2,7 +2,6 @@ var namespaces =
 [
     [ "boost", "d4/da9/namespaceboost.html", "d4/da9/namespaceboost" ],
     [ "DPGEN", "d2/da1/namespaceDPGEN.html", null ],
-    [ "erhic", "db/dfc/namespaceerhic.html", null ],
     [ "findNode", "da/dc3/namespacefindNode.html", null ],
     [ "Fun4AllReturnCodes", "d1/d38/namespaceFun4AllReturnCodes.html", null ],
     [ "Fun4AllUtils", "dd/d3e/namespaceFun4AllUtils.html", null ],
@@ -24,5 +23,6 @@ var namespaces =
     [ "UtilHist", "d3/daf/namespaceUtilHist.html", null ],
     [ "UtilHodo", "d9/d7c/namespaceUtilHodo.html", null ],
     [ "UtilSQHit", "d0/dc5/namespaceUtilSQHit.html", null ],
+    [ "UtilTrigger", "df/d60/namespaceUtilTrigger.html", null ],
     [ "varids", "d1/db0/namespacevarids.html", null ]
 ];

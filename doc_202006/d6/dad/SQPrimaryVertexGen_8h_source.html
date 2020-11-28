@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('d6/dad/SQPrimaryVertexGen_8h_source.ht
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/dc4/classSQPrimaryVertexGen.html#a8c77ae57c72f754b15b8ab08d3ee5d67">findInteractingPiece</a>();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//get the proton/neutron ratio of the piece, must be called after generateVertex</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548">   52</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548">getPARatio</a>() { <span class="keywordflow">return</span> interactables[index].protonPerc; }</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548">   52</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548">getPARatio</a>() { <span class="keywordflow">return</span> interactables[index].protonPerc(); }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//get the relative luminosity on this target</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">//double getLuminosity() { return p_config-&gt;biasVertexGen ? interactables[index].prob : probSum; }</span></div>
@@ -218,7 +218,7 @@ $(document).ready(function(){initNavTree('d6/dad/SQPrimaryVertexGen_8h_source.ht
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h.html">SQPrimaryVertexGen.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:20</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

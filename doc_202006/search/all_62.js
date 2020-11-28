@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['b',['b',['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment']]],
+  ['b',['B',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a67eb8d60485fca39da4fd691885032d4',1,'SQField3DCartesian::FieldPoint::B()'],['../d0/d1e/classPropSegment.html#a607b0ee46b2a2cafb3ebe4b33503b46a',1,'PropSegment::b()']]],
   ['back',['back',['../d1/d96/classboost_1_1array.html#a1ac7c3e7833222573dc540ee5791df74',1,'boost::array::back()'],['../d1/d96/classboost_1_1array.html#a2ce0d047e8821142da4fea5798cc3ead',1,'boost::array::back() const '],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#abbfeb9b9181561448a2780ab832c9419',1,'boost::array&lt; T, 0 &gt;::back()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#af3a2f4dad316a352d94caa7d38ecd3f9',1,'boost::array&lt; T, 0 &gt;::back() const ']]],
   ['barcode',['barcode',['../d1/d42/classPHG4Particlev1.html#a2f2fdb9b3294007ba7216b5e739bc3c0',1,'PHG4Particlev1']]],
-  ['beam_5fspot_5fx',['BEAM_SPOT_X',['../dd/de2/GlobalConsts_8h.html#afecee686111b2302bc19ed59cfb608f1',1,'GlobalConsts.h']]],
-  ['beam_5fspot_5fy',['BEAM_SPOT_Y',['../dd/de2/GlobalConsts_8h.html#ab73d474a1c1d8072ebe4eef222edd753',1,'GlobalConsts.h']]],
   ['beam_5fvertex_5fparameters',['beam_vertex_parameters',['../d9/d3a/classPHPythia8.html#abb21b0537da59ea9e6a1a4b92827af18',1,'PHPythia8']]],
   ['beamcurrent',['beamCurrent',['../df/d9a/classSettings.html#a16f67a9e8a88c5a3c770fb4fdf2f280f',1,'Settings']]],
   ['beammomentum',['beamMomentum',['../df/d9a/classSettings.html#a6852cb6a5cd007fe14179e93d4f8fc23',1,'Settings']]],
@@ -63,6 +61,8 @@ var searchData=
   ['board',['board',['../d1/df2/structFeeData.html#a27b125c4d004c5d13df088181ba49260',1,'FeeData::board()'],['../dc/dac/structScalerData.html#aaebfbaa7014230865c92a7aa4a92f356',1,'ScalerData::board()'],['../d2/de9/structHitData.html#a3f48fab5ae464face1b07ba010591cdd',1,'HitData::board()']]],
   ['bookevaluation',['bookEvaluation',['../d1/d13/classVertexFit.html#a41ae248c2d4336b8e7e4c310fb2346c9',1,'VertexFit']]],
   ['booleanwrite',['BooleanWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#acaa5a680bf366ae99a07faf07f4cbf7c',1,'PHG4GDMLWriteSolids']]],
+  ['boolflag',['boolflag',['../d1/da8/classPHFlag.html#a284873c28d823e6416d7aa95a4bf0257',1,'PHFlag']]],
+  ['boolmap',['BoolMap',['../d1/da8/classPHFlag.html#a5c10fa00aa11ec6dbf07c95b8b515629',1,'PHFlag']]],
   ['boost',['boost',['../d4/da9/namespaceboost.html',1,'']]],
   ['borderelementvec',['borderElementVec',['../d2/d72/classPHG4GDMLWriteStructure.html#aa53584e596f9df11da0f1fe10c4d7411',1,'PHG4GDMLWriteStructure']]],
   ['bordersurfacecache',['BorderSurfaceCache',['../d2/d72/classPHG4GDMLWriteStructure.html#aa22bfa894b736e4069f3733c5410b42e',1,'PHG4GDMLWriteStructure']]],
@@ -86,7 +86,6 @@ var searchData=
   ['builddata',['buildData',['../d6/deb/classTriggerAnalyzer.html#a095d42811ed0348e26a4e42b1cc12d49',1,'TriggerAnalyzer']]],
   ['buildfieldmap',['BuildFieldMap',['../df/d4d/classPHFieldUtility.html#af731a02ce323b6a94e98279f2b93c124',1,'PHFieldUtility']]],
   ['buildglobaltracks',['buildGlobalTracks',['../d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c',1,'KalmanFastTracking::buildGlobalTracks()'],['../db/daa/classKalmanDSTrk.html#adf4981f081f2606bf3412851eaa62eb0',1,'KalmanDSTrk::buildGlobalTracks()']]],
-  ['buildhitpattern',['buildHitPattern',['../d8/dda/classDPTriggerAnalyzer.html#ae8833b58c2ebf1e3abf374c12857b548',1,'DPTriggerAnalyzer']]],
   ['buildinterface',['BuildInterface',['../d1/de7/classOnlMonUI.html#a30f58f22fe3ab98c09880483c92254b1',1,'OnlMonUI::BuildInterface()'],['../d8/d6d/classEventDispUI.html#aef63d462bef07095dda1c1e83d66fa5f',1,'EventDispUI::BuildInterface()']]],
   ['buildpatterndb',['BuildPatternDB',['../d2/d0e/classPatternDBUtil.html#a332a44268857397d811857c0099a5b5c',1,'PatternDBUtil']]],
   ['buildpropsegments',['buildPropSegments',['../d3/d46/classKalmanFastTracking.html#aa85f2e38eff0fe4a53d365feedb112d1',1,'KalmanFastTracking::buildPropSegments()'],['../db/daa/classKalmanDSTrk.html#ac715ce9ee791825f2f65dfd77e6909ba',1,'KalmanDSTrk::buildPropSegments()']]],
@@ -94,13 +93,11 @@ var searchData=
   ['buildtriggermatrix',['buildTriggerMatrix',['../d8/dda/classDPTriggerAnalyzer.html#a7c2963b069d98298731a4da80a59ab72',1,'DPTriggerAnalyzer']]],
   ['buildtriggertree',['buildTriggerTree',['../d6/deb/classTriggerAnalyzer.html#adbe21c345df4405cea2e4e1d334e8253',1,'TriggerAnalyzer']]],
   ['bv_5fcms',['bv_cms',['../d2/da1/namespaceDPGEN.html#ad2f4dbf0f6b46fe55d09135ebaff6eda',1,'DPGEN']]],
-  ['bxz',['bxz',['../db/d19/classSeed.html#a8f11cb1952f594697ad1687d0c86c693',1,'Seed']]],
   ['bymass',['byMass',['../d5/d72/classTriggerRoad.html#a6802ef57ef49d1bcb201b2eeac29b159',1,'TriggerRoad']]],
   ['bypt',['byPt',['../d5/d72/classTriggerRoad.html#aeafaa7e4f51bdd34a686749403bdccc6',1,'TriggerRoad']]],
   ['byrndfrequency',['byRndFrequency',['../d5/d72/classTriggerRoad.html#a55213432c5aca4bf66ce2722a4b09e2e',1,'TriggerRoad']]],
   ['bytargetdump',['byTargetDump',['../d5/d72/classTriggerRoad.html#a69f0328e099c9da4b4d4ac606fb26a13',1,'TriggerRoad']]],
   ['byteswritten',['byteswritten',['../de/d50/classFun4AllFileOutStream.html#abeb4b991601e37eb7bc738d7f8837bf7',1,'Fun4AllFileOutStream']]],
   ['byweight',['byWeight',['../d5/d72/classTriggerRoad.html#aeaf49b8349c448d97470b4fa03bc7c87',1,'TriggerRoad']]],
-  ['byz',['byz',['../db/d19/classSeed.html#afa5bdac1a9fea61d343177832f7bc5ce',1,'Seed']]],
   ['detail',['detail',['../da/d4b/namespaceboost_1_1detail.html',1,'boost']]]
 ];

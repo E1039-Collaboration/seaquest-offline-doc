@@ -5,5 +5,7 @@ var classTruthNodeMaker =
     [ "End", "dd/d44/classTruthNodeMaker.html#aca3d5552732133d219a9c52a05ac409b", null ],
     [ "Init", "dd/d44/classTruthNodeMaker.html#af54e4654ad8b361badb4d766b9c3012d", null ],
     [ "InitRun", "dd/d44/classTruthNodeMaker.html#aa482319d4805711a0c69c981fbb52671", null ],
-    [ "process_event", "dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397", null ]
+    [ "process_event", "dd/d44/classTruthNodeMaker.html#a8796cc20f6e90d66179b114adc4d6397", null ],
+    [ "set_legacy_rec_container", "dd/d44/classTruthNodeMaker.html#a12e662057b529066fe78d9b51a8b7d90", null ],
+    [ "set_matching_threshold", "dd/d44/classTruthNodeMaker.html#ac81f92243097100fd405034557ad2686", null ]
 ];

@@ -235,8 +235,8 @@ var dir_58fcd450565d9abaf4895ca6c5d9b2fd =
     [ "PHG4VtxPointv1.h", "db/d72/PHG4VtxPointv1_8h.html", [
       [ "PHG4VtxPointv1", "d5/dff/classPHG4VtxPointv1.html", "d5/dff/classPHG4VtxPointv1" ]
     ] ],
-    [ "ReadEICFiles.cc", "d9/d7b/ReadEICFiles_8cc.html", "d9/d7b/ReadEICFiles_8cc" ],
-    [ "ReadEICFiles.h", "d9/dc2/ReadEICFiles_8h.html", [
-      [ "ReadEICFiles", "d3/d49/classReadEICFiles.html", "d3/d49/classReadEICFiles" ]
+    [ "SQCosmicGen.cc", "d9/d39/SQCosmicGen_8cc.html", null ],
+    [ "SQCosmicGen.h", "db/d1a/SQCosmicGen_8h.html", [
+      [ "SQCosmicGen", "d8/d0f/classSQCosmicGen.html", "d8/d0f/classSQCosmicGen" ]
     ] ]
 ];

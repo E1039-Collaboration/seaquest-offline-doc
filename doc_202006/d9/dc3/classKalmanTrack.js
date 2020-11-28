@@ -1,7 +1,6 @@
 var classKalmanTrack =
 [
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html#af94772dd289f96de9888b5e705b4c48b", null ],
-    [ "KalmanTrack", "d9/dc3/classKalmanTrack.html#a1781fbc1ebabbda4a1fc16fe4ab38ecb", null ],
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398", null ],
     [ "addHit", "d9/dc3/classKalmanTrack.html#a659fdf3a875fa693371de5b2559f9aa0", null ],
     [ "flipCharge", "d9/dc3/classKalmanTrack.html#aee5edc29d3174b3c82aca63833bec16b", null ],
@@ -32,7 +31,6 @@ var classKalmanTrack =
     [ "getMomentumUpstream", "d9/dc3/classKalmanTrack.html#ab362a81321fb5cc8c15d562ba5858db7", null ],
     [ "getMomentumUpstream", "d9/dc3/classKalmanTrack.html#ad55b3de9c053f420ad26574c3248b6c8", null ],
     [ "getMomentumVertex", "d9/dc3/classKalmanTrack.html#a142008cf7b877085eefefd71119fcb15", null ],
-    [ "getMuIDAngle", "d9/dc3/classKalmanTrack.html#a5109b783a2a64bfcf59edd72a728abd5", null ],
     [ "getNearestNodePtr", "d9/dc3/classKalmanTrack.html#ad92a13303a13a7941e38074edb6dcf27", null ],
     [ "getNHits", "d9/dc3/classKalmanTrack.html#aeba3e093ee56955178b2fdf382bdcf02", null ],
     [ "getNHitsInStation", "d9/dc3/classKalmanTrack.html#a79f727208bf8dd8fca6a4f9c3247b644", null ],
@@ -45,11 +43,9 @@ var classKalmanTrack =
     [ "getQuality", "d9/dc3/classKalmanTrack.html#a866f88e6d893a3f09fc7da56258ada35", null ],
     [ "getReducedChisq", "d9/dc3/classKalmanTrack.html#aaab1cafac4c055c17315ae0a963240b4", null ],
     [ "getSagittaInSuperDetector", "d9/dc3/classKalmanTrack.html#ac73a7ff611d9b0a7cf77eb1775901036", null ],
-    [ "getSeed", "d9/dc3/classKalmanTrack.html#a89bed49fd5119339144990359940086c", null ],
     [ "getSRecTrack", "d9/dc3/classKalmanTrack.html#a38e275864291b276a96abd8c50de4282", null ],
     [ "getXZProjection", "d9/dc3/classKalmanTrack.html#ae07c88148b788116759dcd1048a5aeac", null ],
     [ "getXZSlopeInStation", "d9/dc3/classKalmanTrack.html#ac153df61b85121c26adb19555f30c250", null ],
-    [ "isInStation3", "d9/dc3/classKalmanTrack.html#ac7e41743680505a0c0951c730921f0a9", null ],
     [ "isValid", "d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81", null ],
     [ "operator<", "d9/dc3/classKalmanTrack.html#ae2efeeefa8980458fb234a968cd1abcb", null ],
     [ "operator==", "d9/dc3/classKalmanTrack.html#ac38be0074d65b646686b7ed3ce8af062", null ],

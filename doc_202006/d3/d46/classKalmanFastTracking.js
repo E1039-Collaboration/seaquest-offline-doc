@@ -31,6 +31,7 @@ var classKalmanFastTracking =
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a85b3cc71d34ec9adabb6956b0a279821", null ],
     [ "resolveLeftRight", "d3/d46/classKalmanFastTracking.html#a3d3ef7a6aeb00056e003e98564e45b65", null ],
     [ "resolveSingleLeftRight", "d3/d46/classKalmanFastTracking.html#ac550362b5ae3fca6231ae3f0e5259a62", null ],
+    [ "setOutputListID", "d3/d46/classKalmanFastTracking.html#acf0bfa81b4bd103ad86d25a0743110c4", null ],
     [ "setRawEvent", "d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b", null ],
     [ "setRawEventDebug", "d3/d46/classKalmanFastTracking.html#a0d26e6a5949405c0331f1b2ae47611d7", null ],
     [ "Verbosity", "d3/d46/classKalmanFastTracking.html#a6a54682cb860f609e675148665fd29f2", null ],

@@ -13,16 +13,16 @@ var dir_3980a51e8d33af599989cef77cf718ce =
     [ "KalmanFastTracking.h", "db/db6/KalmanFastTracking_8h.html", [
       [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", "d3/d46/classKalmanFastTracking" ]
     ] ],
-    [ "KalmanFastTrackingWrapper.cxx", "d8/d66/KalmanFastTrackingWrapper_8cxx.html", "d8/d66/KalmanFastTrackingWrapper_8cxx" ],
-    [ "KalmanFastTrackingWrapper.h", "d0/d8f/KalmanFastTrackingWrapper_8h.html", [
-      [ "KalmanFastTrackingWrapper", "d4/dff/classKalmanFastTrackingWrapper.html", "d4/dff/classKalmanFastTrackingWrapper" ]
-    ] ],
-    [ "KalmanFastTrackingWrapperLinkDef.h", "d4/d07/KalmanFastTrackingWrapperLinkDef_8h.html", null ],
     [ "SQReco.cxx", "d0/d98/SQReco_8cxx.html", "d0/d98/SQReco_8cxx" ],
     [ "SQReco.h", "d8/dde/SQReco_8h.html", [
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]
     ] ],
     [ "SQRecoLinkDef.h", "dd/ddd/SQRecoLinkDef_8h.html", null ],
+    [ "SQTruthVertexing.cxx", "da/da7/SQTruthVertexing_8cxx.html", null ],
+    [ "SQTruthVertexing.h", "de/d3a/SQTruthVertexing_8h.html", [
+      [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", "d8/d20/classSQTruthVertexing" ]
+    ] ],
+    [ "SQTruthVertexingLinkDef.h", "de/d15/SQTruthVertexingLinkDef_8h.html", null ],
     [ "TriggerAnalyzer.cxx", "d3/dfc/TriggerAnalyzer_8cxx.html", "d3/dfc/TriggerAnalyzer_8cxx" ],
     [ "TriggerAnalyzer.h", "d6/d97/TriggerAnalyzer_8h.html", "d6/d97/TriggerAnalyzer_8h" ],
     [ "VertexFit.cxx", "db/df0/VertexFit_8cxx.html", null ],

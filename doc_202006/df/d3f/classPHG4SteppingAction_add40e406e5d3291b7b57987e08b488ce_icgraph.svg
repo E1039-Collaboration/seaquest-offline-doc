@@ -30,9 +30,9 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d9/d43/classPHG4E1039InsensSubsystem.html#a988fb957cc3d360f305f378e16142679" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="150.5,-392 150.5,-422 295.5,-422 295.5,-392 150.5,-392"/>
-<text text-anchor="start" x="158.5" y="-410" font-family="FreeSans" font-size="10.00">PHG4E1039InsensSubsystem</text>
+<g id="a_node3"><a xlink:href="../../dc/d3f/classSQG4DipoleMagnetSubsystem.html#a987f9dd192d0398318a72f229fb715eb" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="148,-392 148,-422 298,-422 298,-392 148,-392"/>
+<text text-anchor="start" x="156" y="-410" font-family="FreeSans" font-size="10.00">SQG4DipoleMagnetSubsystem</text>
 <text text-anchor="middle" x="223" y="-399" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
@@ -44,9 +44,9 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dc/d3f/classSQG4DipoleMagnetSubsystem.html#a987f9dd192d0398318a72f229fb715eb" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="148,-343 148,-373 298,-373 298,-343 148,-343"/>
-<text text-anchor="start" x="156" y="-361" font-family="FreeSans" font-size="10.00">SQG4DipoleMagnetSubsystem</text>
+<g id="a_node4"><a xlink:href="../../de/d78/classPHG4CollimatorSubsystem.html#a8933422bb733ada5a794e973e01f0079" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="156,-343 156,-373 290,-373 290,-343 156,-343"/>
+<text text-anchor="start" x="164" y="-361" font-family="FreeSans" font-size="10.00">PHG4CollimatorSubsystem</text>
 <text text-anchor="middle" x="223" y="-350" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
@@ -58,9 +58,9 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../de/d78/classPHG4CollimatorSubsystem.html#a8933422bb733ada5a794e973e01f0079" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="156,-294 156,-324 290,-324 290,-294 156,-294"/>
-<text text-anchor="start" x="164" y="-312" font-family="FreeSans" font-size="10.00">PHG4CollimatorSubsystem</text>
+<g id="a_node5"><a xlink:href="../../d4/d2d/classPHG4SquareTubeSubsystem.html#a650047864e54a622d436bf28e799cbaf" target="_top" xlink:title="event processing ">
+<polygon fill="none" stroke="black" points="151.5,-294 151.5,-324 294.5,-324 294.5,-294 151.5,-294"/>
+<text text-anchor="start" x="159.5" y="-312" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSubsystem</text>
 <text text-anchor="middle" x="223" y="-301" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
@@ -72,16 +72,16 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d4/d2d/classPHG4SquareTubeSubsystem.html#a650047864e54a622d436bf28e799cbaf" target="_top" xlink:title="event processing ">
-<polygon fill="none" stroke="black" points="151.5,-245 151.5,-275 294.5,-275 294.5,-245 151.5,-245"/>
-<text text-anchor="start" x="159.5" y="-263" font-family="FreeSans" font-size="10.00">PHG4SquareTubeSubsystem</text>
+<g id="a_node6"><a xlink:href="../../d5/d2e/classPHG4EMCalSubsystem.html#a8c3a5ab146576fc83e11a783cdfd846b" target="_top" xlink:title="PHG4EMCalSubsystem\l::process_event">
+<polygon fill="none" stroke="black" points="163.5,-245 163.5,-275 282.5,-275 282.5,-245 163.5,-245"/>
+<text text-anchor="start" x="171.5" y="-263" font-family="FreeSans" font-size="10.00">PHG4EMCalSubsystem</text>
 <text text-anchor="middle" x="223" y="-252" font-family="FreeSans" font-size="10.00">::process_event</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M120.392,-244.698C130.586,-246.233 141.175,-247.828 151.5,-249.382"/>
+<path fill="none" stroke="midnightblue" d="M120.454,-244.707C134.541,-246.828 149.379,-249.063 163.23,-251.149"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="120.764,-241.214 110.355,-243.186 119.722,-248.136 120.764,-241.214"/>
 </g>
 <!-- Node7 -->

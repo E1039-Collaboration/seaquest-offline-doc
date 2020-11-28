@@ -12,7 +12,7 @@ var searchData=
   ['afterinhmatrix',['AfterInhMATRIX',['../d2/d31/structEventInfo.html#aaecf95f2b7bc10e655310eb9ff849149',1,'EventInfo']]],
   ['ajpsi',['ajpsi',['../d2/da1/namespaceDPGEN.html#a2682c11ce16bf943da85c39bd6d411d2',1,'DPGEN']]],
   ['angle_5ffrom_5fvert',['angle_from_vert',['../d6/d90/structGeomParamPlane_1_1Plane.html#ac05777841edd18e7951a7e1c6340d0e8',1,'GeomParamPlane::Plane']]],
-  ['anglefromvert',['angleFromVert',['../dc/d90/classPlane.html#a11a214a9f65fe7697b2c40e953c52bf0',1,'Plane::angleFromVert()'],['../db/d4a/classDPDigiPlane.html#a8addb4131bc27e4fca53609a007be386',1,'DPDigiPlane::angleFromVert()']]],
+  ['anglefromvert',['angleFromVert',['../dc/d90/classPlane.html#a11a214a9f65fe7697b2c40e953c52bf0',1,'Plane']]],
   ['arraycontainer',['arraycontainer',['../d3/dc5/classVariableArrayContainer.html#a065b1ef3e63d9a6821b6a6c2bd0d7906',1,'VariableArrayContainer']]],
   ['ascii_5fin',['ascii_in',['../d6/d6f/classFun4AllHepMCInputManager.html#a2619f675eb43dba011c8a928519e0cdc',1,'Fun4AllHepMCInputManager']]],
   ['ascii_5fout',['ascii_out',['../d0/dec/classFun4AllHepMCOutputManager.html#a017aa86cef1936878997f2549d975ae6',1,'Fun4AllHepMCOutputManager']]],
@@ -21,7 +21,5 @@ var searchData=
   ['attenuation',['attenuation',['../d5/d7b/classSQBeamlineObject.html#a1d2ab4762cb4b610961d9465a77576fe',1,'SQBeamlineObject']]],
   ['attenuationself',['attenuationSelf',['../d5/d7b/classSQBeamlineObject.html#af04b28ccc6385918ba56253551158d3d',1,'SQBeamlineObject']]],
   ['auxlist',['auxList',['../d4/d37/structPHG4GDMLAuxStructType.html#a689c773a8b94d99f9c26ca2a6738b9ed',1,'PHG4GDMLAuxStructType::auxList()'],['../dd/db5/classPHG4GDMLWrite.html#a16c0b0a002e07a335acfa48092026637',1,'PHG4GDMLWrite::auxList()']]],
-  ['auxmap',['auxmap',['../d2/d72/classPHG4GDMLWriteStructure.html#a2c7bf40e3d330e54c902257af3f39c86',1,'PHG4GDMLWriteStructure']]],
-  ['axz',['axz',['../db/d19/classSeed.html#ada06c31eb4474ea9399d05b24cd1e910',1,'Seed']]],
-  ['ayz',['ayz',['../db/d19/classSeed.html#a2f74e34cf359ca11356c36a668e449c3',1,'Seed']]]
+  ['auxmap',['auxmap',['../d2/d72/classPHG4GDMLWriteStructure.html#a2c7bf40e3d330e54c902257af3f39c86',1,'PHG4GDMLWriteStructure']]]
 ];

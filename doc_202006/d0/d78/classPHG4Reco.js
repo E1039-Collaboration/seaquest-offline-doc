@@ -24,11 +24,14 @@ var classPHG4Reco =
     [ "ResetEvent", "d0/d78/classPHG4Reco.html#a2fb53a6144060df78e0565a592928440", null ],
     [ "save_DST_geometry", "d0/d78/classPHG4Reco.html#a4b5ed2f9900c83c39c5965f2abb9fa22", null ],
     [ "set_decayer_active", "d0/d78/classPHG4Reco.html#aceee2856fb15b947088e697a471298ee", null ],
+    [ "set_energy_threshold", "d0/d78/classPHG4Reco.html#a2cd5e8514a6919ecd43297a49fd70908", null ],
     [ "set_field", "d0/d78/classPHG4Reco.html#af7a3ea8186b3f700913d0f0ab4a64535", null ],
     [ "set_field_map", "d0/d78/classPHG4Reco.html#a2b127807e9bccb2480da1e0493cc2bd1", null ],
     [ "set_field_rescale", "d0/d78/classPHG4Reco.html#a29cc7f3d84eb82b13e8425bc77e200e3", null ],
     [ "set_force_decay", "d0/d78/classPHG4Reco.html#a79765f3051dffcab10f2dd08c18e5f89", null ],
+    [ "set_optical_photon", "d0/d78/classPHG4Reco.html#a108295981af969d63eff30496bb3ae4e", null ],
     [ "set_rapidity_coverage", "d0/d78/classPHG4Reco.html#a7f706bdb1798a3fb60c6cdfcca81600b", null ],
+    [ "set_zero_field_line", "d0/d78/classPHG4Reco.html#a33e2536e9513c43afb8220d5b95f9d98", null ],
     [ "setGeneratorAction", "d0/d78/classPHG4Reco.html#a5a203c4bc9f43ef5b7d410714ddd277a", null ],
     [ "SetPhysicsList", "d0/d78/classPHG4Reco.html#ae3a89b790e2508e68657bd0059675ef5", null ],
     [ "setupInputEventNodeReader", "d0/d78/classPHG4Reco.html#af0c0ba5027360ea57d9ee31bc949e4dd", null ],
@@ -43,6 +46,7 @@ var classPHG4Reco =
     [ "active_decayer_", "d0/d78/classPHG4Reco.html#aaa1e4dec37dd46ff3c428c1f267e5700", null ],
     [ "active_force_decay_", "d0/d78/classPHG4Reco.html#a6996ffafba25ab275e546b325d4b2434", null ],
     [ "detector_", "d0/d78/classPHG4Reco.html#a7ffada81f159fe1f9939b8b15c283a2a", null ],
+    [ "energy_threshold_", "d0/d78/classPHG4Reco.html#a4636f3733d5c8f4fc9bcc2deb4807ed0", null ],
     [ "eventAction_", "d0/d78/classPHG4Reco.html#a28913404b108551f1d8583842a8cf6e7", null ],
     [ "field_", "d0/d78/classPHG4Reco.html#aa67457ba62a094670fd6964b68568aeb", null ],
     [ "fieldmapfile", "d0/d78/classPHG4Reco.html#aef227274efdd6e719f6c2c167382729d", null ],
@@ -51,6 +55,7 @@ var classPHG4Reco =
     [ "magfield", "d0/d78/classPHG4Reco.html#a67a7bf2afb7a333e7cca99fcfd5ccfc3", null ],
     [ "magfield_rescale", "d0/d78/classPHG4Reco.html#adfd0dffdb62833f7ee62aeb9e80d1f95", null ],
     [ "mapdim", "d0/d78/classPHG4Reco.html#a9b60dbddb39a3d0f3624162de868dd28", null ],
+    [ "optical_photon_", "d0/d78/classPHG4Reco.html#a6e24e84ae1d75cbda277714f3874d221", null ],
     [ "physicslist", "d0/d78/classPHG4Reco.html#a7c753df30858d63f4788167f0cc6e44c", null ],
     [ "runManager_", "d0/d78/classPHG4Reco.html#ae55bdb2e9cf7e1a3d06dff00ee216888", null ],
     [ "save_DST_geometry_", "d0/d78/classPHG4Reco.html#a70f462d01c78165774cd36c889b1a24d", null ],
@@ -61,5 +66,6 @@ var classPHG4Reco =
     [ "visManager", "d0/d78/classPHG4Reco.html#a8413ea3c6d4d987e2f0c6a984c2bfca5", null ],
     [ "worldmaterial", "d0/d78/classPHG4Reco.html#a8ed53ddc3a42a139ac41b5976a570870", null ],
     [ "worldshape", "d0/d78/classPHG4Reco.html#a43f5966f626414f1a30b6ce5ada77576", null ],
-    [ "WorldSize", "d0/d78/classPHG4Reco.html#a975d760da023527427444a70bb58b2ba", null ]
+    [ "WorldSize", "d0/d78/classPHG4Reco.html#a975d760da023527427444a70bb58b2ba", null ],
+    [ "zero_field_line_", "d0/d78/classPHG4Reco.html#a117ffcc793668e71a03fd3ac127b2e1a", null ]
 ];

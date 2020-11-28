@@ -145,12 +145,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aca8db4374326cd60b9b90eeea916874e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4014e13daccb40325629fbcfbc9b2536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a4014e13daccb40325629fbcfbc9b2536">Verbosity</a> (int verb)</td></tr>
 <tr class="separator:a4014e13daccb40325629fbcfbc9b2536"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9d45f2c881b6c9ced3b3031333f1b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a2e9d45f2c881b6c9ced3b3031333f1b6">AddDetector</a> (<a class="el" href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a> *detector)</td></tr>
-<tr class="memdesc:a2e9d45f2c881b6c9ced3b3031333f1b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a detector. This is called in <a class="el" href="../../d0/d78/classPHG4Reco.html#a59f7c59986c59710348395db0de25bda" title="full initialization ">PHG4Reco::Init</a> based on which detectors are found on the tree  <a href="#a2e9d45f2c881b6c9ced3b3031333f1b6">More...</a><br/></td></tr>
-<tr class="separator:a2e9d45f2c881b6c9ced3b3031333f1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eff5105a7370631a71a821ebfbaeef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a2eff5105a7370631a71a821ebfbaeef5">AddDetector</a> (<a class="el" href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a> *detector, int zero_field=0)</td></tr>
+<tr class="memdesc:a2eff5105a7370631a71a821ebfbaeef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">register a detector. This is called in <a class="el" href="../../d0/d78/classPHG4Reco.html#a59f7c59986c59710348395db0de25bda" title="full initialization ">PHG4Reco::Init</a> based on which detectors are found on the tree  <a href="#a2eff5105a7370631a71a821ebfbaeef5">More...</a><br/></td></tr>
+<tr class="separator:a2eff5105a7370631a71a821ebfbaeef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed5e9a8d0ba20e1fef8a48240aa06b85"><td class="memItemLeft" align="right" valign="top">virtual G4VPhysicalVolume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#aed5e9a8d0ba20e1fef8a48240aa06b85">Construct</a> (void)</td></tr>
 <tr class="memdesc:aed5e9a8d0ba20e1fef8a48240aa06b85"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is called by geant to actually construct all detectors  <a href="#aed5e9a8d0ba20e1fef8a48240aa06b85">More...</a><br/></td></tr>
 <tr class="separator:aed5e9a8d0ba20e1fef8a48240aa06b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff98e491e01396343c1b0a9064b7fdb9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#aff98e491e01396343c1b0a9064b7fdb9">ConstructSDandField</a> ()</td></tr>
+<tr class="memdesc:aff98e491e01396343c1b0a9064b7fdb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is used to associate the local field manager to the no-field-zone logical volume  <a href="#aff98e491e01396343c1b0a9064b7fdb9">More...</a><br/></td></tr>
+<tr class="separator:aff98e491e01396343c1b0a9064b7fdb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88ca49aaf04213eda53ccbc01f155a5e"><td class="memItemLeft" align="right" valign="top">G4double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a88ca49aaf04213eda53ccbc01f155a5e">GetWorldSizeX</a> () const </td></tr>
 <tr class="separator:a88ca49aaf04213eda53ccbc01f155a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc72bd4ebf10e844bbc61f400ab9749"><td class="memItemLeft" align="right" valign="top">G4double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#aecc72bd4ebf10e844bbc61f400ab9749">GetWorldSizeY</a> () const </td></tr>
@@ -169,11 +172,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acdba581a56ceb2717c1553449802b153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f9f09748e767ac536249ac56995fd2"><td class="memItemLeft" align="right" valign="top">G4VPhysicalVolume *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a08f9f09748e767ac536249ac56995fd2">GetPhysicalVolume</a> (void)</td></tr>
 <tr class="separator:a08f9f09748e767ac536249ac56995fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ca0baeb25ef55124a30f7751331be2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#ae4ca0baeb25ef55124a30f7751331be2">SetZeroFieldStartZ</a> (const G4double z)</td></tr>
+<tr class="separator:ae4ca0baeb25ef55124a30f7751331be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d0f753e838a21aa606cbebe5461af9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html#a8d0f753e838a21aa606cbebe5461af9f">SetZeroFieldManager</a> (G4FieldManager *man)</td></tr>
+<tr class="separator:a8d0f753e838a21aa606cbebe5461af9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>this is the main detector construction class, passed to geant to construct the entire phenix detector </p>
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00014">14</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00015">15</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0d41e9e1b90ce830a28dd2e0a41c5ae1"></a>
 <div class="memitem">
@@ -191,7 +198,7 @@ Public Member Functions</h2></td></tr>
 
 <p>constructor </p>
 
-<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00027">27</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00028">28</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
 
 </div>
 </div>
@@ -218,12 +225,12 @@ Public Member Functions</h2></td></tr>
 
 <p>destructor </p>
 
-<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00040">40</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00045">45</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a2e9d45f2c881b6c9ced3b3031333f1b6"></a>
+<a class="anchor" id="a2eff5105a7370631a71a821ebfbaeef5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -234,8 +241,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void PHG4PhenixDetector::AddDetector </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d3/de7/classPHG4Detector.html">PHG4Detector</a> *&#160;</td>
-          <td class="paramname"><em>detector</em></td><td>)</td>
+          <td class="paramname"><em>detector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>zero_field</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -247,16 +264,16 @@ Public Member Functions</h2></td></tr>
 
 <p>register a detector. This is called in <a class="el" href="../../d0/d78/classPHG4Reco.html#a59f7c59986c59710348395db0de25bda" title="full initialization ">PHG4Reco::Init</a> based on which detectors are found on the tree </p>
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00028">28</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00029">29</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_a2e9d45f2c881b6c9ced3b3031333f1b6_icgraph.svg" width="720" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_a2eff5105a7370631a71a821ebfbaeef5_icgraph.svg" width="720" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -287,19 +304,46 @@ Public Member Functions</h2></td></tr>
 
 <p>this is called by geant to actually construct all detectors </p>
 
-<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00051">51</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00056">56</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
 
-<p>References <a class="el" href="../../d2/dcb/recoConsts_8h_source.html#l00014">recoConsts::instance()</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00042">PHFlag::set_CharFlag()</a>, and <a class="el" href="../../da/d7e/PHG4RegionInformation_8h_source.html#l00054">PHG4RegionInformation::SetWorld()</a>.</p>
+<p>References <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts::set_CharFlag()</a>, and <a class="el" href="../../da/d7e/PHG4RegionInformation_8h_source.html#l00054">PHG4RegionInformation::SetWorld()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_aed5e9a8d0ba20e1fef8a48240aa06b85_cgraph.svg" width="574" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_aed5e9a8d0ba20e1fef8a48240aa06b85_cgraph.svg" width="1064" height="255"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="aff98e491e01396343c1b0a9064b7fdb9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PHG4PhenixDetector::ConstructSDandField </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>this is used to associate the local field manager to the no-field-zone logical volume </p>
+
+<p>Definition at line <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html#l00128">128</a> of file <a class="el" href="../../d9/d93/PHG4PhenixDetector_8cc_source.html">PHG4PhenixDetector.cc</a>.</p>
 
 </div>
 </div>
@@ -325,9 +369,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00048">48</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00052">52</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00526">PHG4Reco::Dump_GDML()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00560">PHG4Reco::Dump_GDML()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -362,7 +406,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00034">34</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00038">38</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
 </div>
 </div>
@@ -387,7 +431,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00037">37</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00041">41</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +456,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00039">39</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00043">43</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
 </div>
 </div>
@@ -438,11 +482,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00047">47</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00051">51</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00057">DPGEN::s</a>.</p>
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00058">DPGEN::s</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -478,11 +522,11 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00046">46</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00050">50</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00057">DPGEN::s</a>.</p>
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00058">DPGEN::s</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -518,9 +562,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00042">42</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00046">46</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -556,9 +600,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00043">43</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00047">47</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -594,9 +638,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00044">44</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00048">48</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -604,6 +648,82 @@ Public Member Functions</h2></td></tr>
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_a7de4106257c7435e45acb3579177c3c4_icgraph.svg" width="720" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a8d0f753e838a21aa606cbebe5461af9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PHG4PhenixDetector::SetZeroFieldManager </td>
+          <td>(</td>
+          <td class="paramtype">G4FieldManager *&#160;</td>
+          <td class="paramname"><em>man</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00055">55</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_a8d0f753e838a21aa606cbebe5461af9f_icgraph.svg" width="726" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae4ca0baeb25ef55124a30f7751331be2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PHG4PhenixDetector::SetZeroFieldStartZ </td>
+          <td>(</td>
+          <td class="paramtype">const G4double&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00054">54</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_ae4ca0baeb25ef55124a30f7751331be2_icgraph.svg" width="720" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -632,15 +752,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00025">25</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html#l00026">26</a> of file <a class="el" href="../../d7/d30/PHG4PhenixDetector_8h_source.html">PHG4PhenixDetector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00316">PHG4Reco::InitRun()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dcb/PHG4Reco_8cc_source.html#l00320">PHG4Reco::InitRun()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d13/classPHG4PhenixDetector_a4014e13daccb40325629fbcfbc9b2536_icgraph.svg" width="720" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -662,7 +782,7 @@ Public Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d1/d13/classPHG4PhenixDetector.html">PHG4PhenixDetector</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:24</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

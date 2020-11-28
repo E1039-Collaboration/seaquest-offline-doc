@@ -22,11 +22,13 @@ var classPHG4HitContainer =
     [ "getmaxkey", "d4/d30/classPHG4HitContainer.html#a032b255f36b64361b918bcf89c42be23", null ],
     [ "identify", "d4/d30/classPHG4HitContainer.html#ad10aef419dacb46c625d72afe0aded86", null ],
     [ "num_layers", "d4/d30/classPHG4HitContainer.html#a5ee07eeac3932a731c29050d17cf8e15", null ],
+    [ "registerHitOnLayer", "d4/d30/classPHG4HitContainer.html#a87c40b780333324fe53c5f003d34799b", null ],
     [ "RemoveZeroEDep", "d4/d30/classPHG4HitContainer.html#a1cf8afd339b72457bd9d00c53587ed97", null ],
     [ "Reset", "d4/d30/classPHG4HitContainer.html#ac46513ba45ed769b947beb4a97c106b1", null ],
     [ "SetID", "d4/d30/classPHG4HitContainer.html#a09df67193e996f6068b9177fcfe42b92", null ],
     [ "size", "d4/d30/classPHG4HitContainer.html#a516cd69a4ce8570252cd9bd7dafcc35a", null ],
     [ "hitmap", "d4/d30/classPHG4HitContainer.html#af37b44dbf63ae91a0e48809134e2c6a3", null ],
     [ "id", "d4/d30/classPHG4HitContainer.html#a7aef4de1bb1293d1c3201affd3395767", null ],
+    [ "layerMaxID", "d4/d30/classPHG4HitContainer.html#abec225fea53076906b014e600c8dfff0", null ],
     [ "layers", "d4/d30/classPHG4HitContainer.html#ad066560788a761884d542e8ebf4132db", null ]
 ];

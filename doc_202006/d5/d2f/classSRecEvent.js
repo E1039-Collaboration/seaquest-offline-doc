@@ -4,7 +4,7 @@ var classSRecEvent =
     [ "clear", "d5/d2f/classSRecEvent.html#acde10eea5441bdbc7c1bb6625627fd9f", null ],
     [ "Clone", "d5/d2f/classSRecEvent.html#ab2d80187d4d4d8f65a03adb632e3c117", null ],
     [ "getChargedTrackIDs", "d5/d2f/classSRecEvent.html#a5442b2a502378eb6afd3894e378a1cbf", null ],
-    [ "getDimuon", "d5/d2f/classSRecEvent.html#ae58e9b5338329870fd20651abf27c570", null ],
+    [ "getDimuon", "d5/d2f/classSRecEvent.html#aa2e8c89ced896ae2c4d5371eb35738f1", null ],
     [ "getEventID", "d5/d2f/classSRecEvent.html#a25a8bdf3da2916977d00ac0f2094723a", null ],
     [ "getLocalID", "d5/d2f/classSRecEvent.html#a8fa6258d9d8ddd686835e86c2d114f71", null ],
     [ "getNDimuons", "d5/d2f/classSRecEvent.html#af3ec950be8c17e1e72c5c3fe5dc31b1c", null ],

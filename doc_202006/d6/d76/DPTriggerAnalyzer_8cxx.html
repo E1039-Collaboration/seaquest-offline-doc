@@ -105,21 +105,15 @@ $(document).ready(function(){initNavTree('d6/d76/DPTriggerAnalyzer_8cxx.html','.
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">DPTriggerAnalyzer.cxx File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>&quot;</code><br/>
-<code>#include &lt;<a class="el" href="../../d1/ddf/SQHit_8h_source.html">interface_main/SQHit.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/d3e/SQHit__v1_8h_source.html">interface_main/SQHit_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d8/d2f/SQHitMap__v1_8h_source.html">interface_main/SQHitMap_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d2/dec/SQHitVector__v1_8h_source.html">interface_main/SQHitVector_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../db/d0d/SQEvent__v1_8h_source.html">interface_main/SQEvent_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d9/d38/SQRun__v1_8h_source.html">interface_main/SQRun_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../dd/df4/SQSpill__v1_8h_source.html">interface_main/SQSpill_v1.h</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../da/d0e/SQSpillMap__v1_8h_source.html">interface_main/SQSpillMap_v1.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/d59/SQRun_8h_source.html">interface_main/SQRun.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d0/db5/SQEvent_8h_source.html">interface_main/SQEvent.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/ddd/SQHitVector_8h_source.html">interface_main/SQHitVector.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d6/d19/GeomSvc_8h_source.html">geom_svc/GeomSvc.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html">fun4all/Fun4AllBase.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</code><br/>
@@ -127,97 +121,27 @@ $(document).ready(function(){initNavTree('d6/d76/DPTriggerAnalyzer_8cxx.html','.
 <code>#include &lt;<a class="el" href="../../d8/d30/PHCompositeNode_8h_source.html">phool/PHCompositeNode.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d3/d79/PHIODataNode_8h_source.html">phool/PHIODataNode.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../dd/dd4/getClass_8h_source.html">phool/getClass.h</a>&gt;</code><br/>
+<code>#include &lt;TSystem.h&gt;</code><br/>
 <code>#include &lt;iomanip&gt;</code><br/>
-<code>#include &lt;cmath&gt;</code><br/>
 <code>#include &lt;fstream&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
 <code>#include &lt;string&gt;</code><br/>
-<code>#include &lt;regex&gt;</code><br/>
-<code>#include &lt;boost/lexical_cast.hpp&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for DPTriggerAnalyzer.cxx:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/da5/DPTriggerAnalyzer_8cxx__incl.svg" width="4084" height="606"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/da5/DPTriggerAnalyzer_8cxx__incl.svg" width="3451" height="755"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
 <p><a href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a6e96ad1c3be2c24926ba0487d28cd75c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html#a6e96ad1c3be2c24926ba0487d28cd75c">IMAX</a>&#160;&#160;&#160;1000000</td></tr>
-<tr class="separator:a6e96ad1c3be2c24926ba0487d28cd75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f799b3fb32ecd6a70300d45fe1dfaad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html#a6f799b3fb32ecd6a70300d45fe1dfaad">JMAX</a>&#160;&#160;&#160;16</td></tr>
-<tr class="separator:a6f799b3fb32ecd6a70300d45fe1dfaad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a940b85a83458e94519f2685b33ddd276"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html#a940b85a83458e94519f2685b33ddd276">KMAX</a>&#160;&#160;&#160;1000</td></tr>
-<tr class="separator:a940b85a83458e94519f2685b33ddd276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b086514f6963b35ee29bc954fc9b0f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html#a5b086514f6963b35ee29bc954fc9b0f3">LMAX</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a5b086514f6963b35ee29bc954fc9b0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a739925beec3ecbf1bcc14e80e2a89974"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html#a739925beec3ecbf1bcc14e80e2a89974">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="../../da/d6a/classDPTriggerRoad.html">DPTriggerRoad</a> &amp;road)</td></tr>
 <tr class="separator:a739925beec3ecbf1bcc14e80e2a89974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a6e96ad1c3be2c24926ba0487d28cd75c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define IMAX&#160;&#160;&#160;1000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00043">43</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6f799b3fb32ecd6a70300d45fe1dfaad"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define JMAX&#160;&#160;&#160;16</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00044">44</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a940b85a83458e94519f2685b33ddd276"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define KMAX&#160;&#160;&#160;1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00045">45</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5b086514f6963b35ee29bc954fc9b0f3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LMAX&#160;&#160;&#160;4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00046">46</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a739925beec3ecbf1bcc14e80e2a89974"></a>
 <div class="memitem">
@@ -243,9 +167,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00118">118</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00088">88</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00032">NTRPLANES</a>.</p>
+<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>.</p>
 
 </div>
 </div>
@@ -259,7 +183,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_649327444067f074c28c0b0d6c830adb.html">dptrigger</a></li><li class="navelem"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html">DPTriggerAnalyzer.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:22</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

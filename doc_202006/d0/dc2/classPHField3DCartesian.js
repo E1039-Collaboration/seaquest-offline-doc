@@ -3,6 +3,8 @@ var classPHField3DCartesian =
     [ "PHField3DCartesian", "d0/dc2/classPHField3DCartesian.html#a4aeb0fd2f3fdb9f662c27f0ab683429e", null ],
     [ "~PHField3DCartesian", "d0/dc2/classPHField3DCartesian.html#a1a9e1e0bd1db6025bc79da86394a1429", null ],
     [ "GetFieldValue", "d0/dc2/classPHField3DCartesian.html#a9f1cb41902a4314b233e4a68f88ed919", null ],
+    [ "GetZMax", "d0/dc2/classPHField3DCartesian.html#af1d1f184eadc6017c670440b0cf70edd", null ],
+    [ "GetZMin", "d0/dc2/classPHField3DCartesian.html#a805d7f2ae28126be3bf9f589c8dfca68", null ],
     [ "bf", "d0/dc2/classPHField3DCartesian.html#a43a23bcad7e310d8bbfb980b911d09cb", null ],
     [ "cache_hits", "d0/dc2/classPHField3DCartesian.html#a77e6dca92d36d8fdeac2925f40ac3090", null ],
     [ "cache_misses", "d0/dc2/classPHField3DCartesian.html#a494e2235b269bac41ed906f7f63fe537", null ],

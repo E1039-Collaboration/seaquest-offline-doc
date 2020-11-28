@@ -1,6 +1,8 @@
 var classSQGenFit_1_1GFTrack =
 [
     [ "GFTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#a7ae8a09e431b0a75bb631a1779383cae", null ],
+    [ "GFTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#ac83dd24f3ea3f1761cdae1697e799c70", null ],
+    [ "GFTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#ad19776af235dcd4b0ab059f3e582d0d4", null ],
     [ "~GFTrack", "d2/d6b/classSQGenFit_1_1GFTrack.html#a338093580415312f97ebd45765b1f7b0", null ],
     [ "addMeasurement", "d2/d6b/classSQGenFit_1_1GFTrack.html#a3c58a85e0b91e6d047bfd483fce664f4", null ],
     [ "addMeasurements", "d2/d6b/classSQGenFit_1_1GFTrack.html#a1eaa297aa217bbce2e5e8608db4705b5", null ],
@@ -21,5 +23,6 @@ var classSQGenFit_1_1GFTrack =
     [ "print", "d2/d6b/classSQGenFit_1_1GFTrack.html#a11e6a9fba368ce5f8116ad4d660e4c52", null ],
     [ "setTracklet", "d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8", null ],
     [ "setVerbosity", "d2/d6b/classSQGenFit_1_1GFTrack.html#a2a0f27f6d51c7ebf4c9fca7f9d7e19ce", null ],
+    [ "swimToVertex", "d2/d6b/classSQGenFit_1_1GFTrack.html#a352ab02b1657c0f530671adff791787f", null ],
     [ "updatePropState", "d2/d6b/classSQGenFit_1_1GFTrack.html#ab7f060d1a32c45f6d49365ef6457c4f5", null ]
 ];

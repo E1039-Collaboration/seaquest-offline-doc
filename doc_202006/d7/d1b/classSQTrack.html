@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('d7/d1b/classSQTrack.html','../../');})
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/db6/classSQTrack__inherit__graph.svg" width="104" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/db6/classSQTrack__inherit__graph.svg" width="215" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -155,6 +155,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03de8a7a2e6437772da44913ed2427df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a19d45d47f4346fc5dee8f96c007805"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a0a19d45d47f4346fc5dee8f96c007805">set_track_id</a> (const int a)=0</td></tr>
 <tr class="separator:a0a19d45d47f4346fc5dee8f96c007805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a403c328f5b106a76ebd3cb4cd44dfba4">get_rec_track_id</a> () const =0</td></tr>
+<tr class="memdesc:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID of associated reconstructed track. Valid only if this object holds truth track info.  <a href="#a403c328f5b106a76ebd3cb4cd44dfba4">More...</a><br/></td></tr>
+<tr class="separator:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2f756557f0bc368b5607204c01eba5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#acd2f756557f0bc368b5607204c01eba5">set_rec_track_id</a> (const int a)=0</td></tr>
+<tr class="separator:acd2f756557f0bc368b5607204c01eba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a314678666c4468b687a6da3f832986aa"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a314678666c4468b687a6da3f832986aa">get_charge</a> () const =0</td></tr>
 <tr class="memdesc:a314678666c4468b687a6da3f832986aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the charge, i.e. +1 or -1.  <a href="#a314678666c4468b687a6da3f832986aa">More...</a><br/></td></tr>
 <tr class="separator:a314678666c4468b687a6da3f832986aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +200,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd0f5125ab7bbc67abdcdef467804171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9ed34f1c11ac26391493b80b3c2225c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#af9ed34f1c11ac26391493b80b3c2225c">set_mom_st3</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:af9ed34f1c11ac26391493b80b3c2225c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa42414909371d8fcc8810dbb387ee25a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#aa42414909371d8fcc8810dbb387ee25a">get_chisq</a> () const =0</td></tr>
+<tr class="separator:aa42414909371d8fcc8810dbb387ee25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a7f2ad5bfdeba0826a1af12e42a50a"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a91a7f2ad5bfdeba0826a1af12e42a50a">get_chisq_target</a> () const =0</td></tr>
+<tr class="separator:a91a7f2ad5bfdeba0826a1af12e42a50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6635f5c6d4d442ab9f7d866a0ebe5251"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a6635f5c6d4d442ab9f7d866a0ebe5251">get_chisq_dump</a> () const =0</td></tr>
+<tr class="separator:a6635f5c6d4d442ab9f7d866a0ebe5251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179fcd99720da9d3e1087d69c694afe1"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a179fcd99720da9d3e1087d69c694afe1">get_chsiq_upstream</a> () const =0</td></tr>
+<tr class="separator:a179fcd99720da9d3e1087d69c694afe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6647932534d94512f6541c6cab984f7e"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a6647932534d94512f6541c6cab984f7e">get_pos_target</a> () const =0</td></tr>
+<tr class="separator:a6647932534d94512f6541c6cab984f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a823b9b9604c85eebce234046a75b5554"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a823b9b9604c85eebce234046a75b5554">get_pos_dump</a> () const =0</td></tr>
+<tr class="separator:a823b9b9604c85eebce234046a75b5554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5d380017a0e9422ccd472c8265dadf"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a7d5d380017a0e9422ccd472c8265dadf">get_mom_target</a> () const =0</td></tr>
+<tr class="separator:a7d5d380017a0e9422ccd472c8265dadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad4a7992a3434d174e139c1554b0b36"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a6ad4a7992a3434d174e139c1554b0b36">get_mom_dump</a> () const =0</td></tr>
+<tr class="separator:a6ad4a7992a3434d174e139c1554b0b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d52c07a2e047bc546cfd9a7d629af8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a22d52c07a2e047bc546cfd9a7d629af8">get_hit_id</a> (const int i) const =0</td></tr>
+<tr class="separator:a22d52c07a2e047bc546cfd9a7d629af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPHObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPHObject')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d24/classPHObject.html">PHObject</a></td></tr>
 <tr class="memitem:a0bec945eff2555869b529ddfd5dee556 inherit pub_methods_classPHObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d24/classPHObject.html#a0bec945eff2555869b529ddfd5dee556">PHObject</a> ()</td></tr>
 <tr class="memdesc:a0bec945eff2555869b529ddfd5dee556 inherit pub_methods_classPHObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">ctor  <a href="#a0bec945eff2555869b529ddfd5dee556">More...</a><br/></td></tr>
@@ -288,7 +311,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00045">45</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +371,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a6e671cab0198bd0710cf1f20599b389f">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#afdbdccf9bca936aa1a2af4afcda7978a">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a6e671cab0198bd0710cf1f20599b389f">SQTrack_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d80/SQTrackVector__v1_8cxx_source.html#l00054">SQTrackVector_v1::push_back()</a>.</p>
 
@@ -387,7 +410,170 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the charge, i.e. +1 or -1. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac78e01cee8827be233e9739b6d8ab905">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a2d16806637dfacffa1137a80791b030c">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac78e01cee8827be233e9739b6d8ab905">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a314678666c4468b687a6da3f832986aa_icgraph.svg" width="371" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa42414909371d8fcc8810dbb387ee25a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double SQTrack::get_chisq </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a799a770d110ff33a56bd52b3b89fc945">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ae5f555abc074b7fe3fed85f28bfadee6">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6635f5c6d4d442ab9f7d866a0ebe5251"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double SQTrack::get_chisq_dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a689868f8401d98580594d663caa287f8">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a04b2900f6a77ea30f09a92fae295484c">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a91a7f2ad5bfdeba0826a1af12e42a50a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double SQTrack::get_chisq_target </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a03f5ba8040052c7f96733c6dc864686a">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a032bf3d756b48136e8c91110a4a0534f">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a179fcd99720da9d3e1087d69c694afe1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double SQTrack::get_chsiq_upstream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a6fa27e994f178d42db1f495234ad115f">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ab6c764fefa154d8d09015821d65934ad">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a22d52c07a2e047bc546cfd9a7d629af8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int SQTrack::get_hit_id </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#ab9c6d4947b0e9e3455de5e8dc03b9bd8">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a72ce5bb5952c6c120dc655419e9d5aa8">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6ad4a7992a3434d174e139c1554b0b36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TLorentzVector SQTrack::get_mom_dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#ade22e2980ec185dc2b119358efe1846c">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a60ef2ea0090968bf33737aa2df98ae5b">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -414,7 +600,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track momentum at Station 1. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a943761687acc117ae50664b3dd3868f1">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a19fc5b492eb3a10a13faf0d311e5016b">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a943761687acc117ae50664b3dd3868f1">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -441,7 +627,32 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track momentum at Station 3. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac9f93fea9bf786eb1a8e5549e1c17c04">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aab5a59e4c239aedfbd8a3f23a2ee69de">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac9f93fea9bf786eb1a8e5549e1c17c04">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7d5d380017a0e9422ccd472c8265dadf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TLorentzVector SQTrack::get_mom_target </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#adf9e036de167e4fe149bd27324c9a099">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#acc837210c0707c8e79053e812eef7b79">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -468,15 +679,15 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track momentum at vertex. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#ae3e554619d6448e07b80561b9f5fface">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a5c06300c91da8e45f7b41a097d1d41d0">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ae3e554619d6448e07b80561b9f5fface">SQTrack_v1</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00057">TruthNodeMaker::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a769675e6e32bc5e71c70752135a479e7_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -507,7 +718,32 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the number of hits associated to this track. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#aad900dde567a7157fd19e661f4966a49">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#ab9a04133fcd51d78a50f8bf2a4d800cf">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#aad900dde567a7157fd19e661f4966a49">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a823b9b9604c85eebce234046a75b5554"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TVector3 SQTrack::get_pos_dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a924426b534c17ae67c256bf85bf9a31e">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#adc139e5f8457be1a8e64d0fa94454609">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -534,7 +770,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track position at Station 1. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a4928535693f29f7f23fb5ab6b71cae8f">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aca51cb0c9f5264f511e91272ac96d2cb">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a4928535693f29f7f23fb5ab6b71cae8f">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -561,7 +797,32 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track position at Station 3. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a8c2d066d5cc04f81b99596bdfe4c970d">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#afdae37656d15cd0478310026592ae291">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a8c2d066d5cc04f81b99596bdfe4c970d">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6647932534d94512f6541c6cab984f7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TVector3 SQTrack::get_pos_target </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a3224e20a08748b529a0ecf327fe1eab5">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a37fa7511a7b068e6b75bdc76719b2923">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -588,7 +849,58 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track position at vertex. </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#addcc2419134fb6880b765d739a9272d7">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aa603e3ae62bd833a393c706239d4956d">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#addcc2419134fb6880b765d739a9272d7">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, and <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a247e1764cbde039ea677fcad7181b9be_icgraph.svg" width="384" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a403c328f5b106a76ebd3cb4cd44dfba4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int SQTrack::get_rec_track_id </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the track ID of associated reconstructed track. Valid only if this object holds truth track info. </p>
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aae335b077676d4c3130d0c0e7352f36f">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a988c605a52986820c21ad110cf4389d8">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a403c328f5b106a76ebd3cb4cd44dfba4_icgraph.svg" width="411" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -615,7 +927,19 @@ Protected Member Functions</h2></td></tr>
 
 <p>Return the track ID, which is unique per event(?). </p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a0c22189b7b40029a93e260013fcb47e2">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a0c92c723c2dde93ceb447b208f89427a">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a0c22189b7b40029a93e260013fcb47e2">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, and <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a03de8a7a2e6437772da44913ed2427df_icgraph.svg" width="387" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -650,7 +974,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d9/d24/classPHObject.html#a83a7b0e5681a0f4f92814692f1bf3375">PHObject</a>.</p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac713a2626b301710608d7c968d9378bc">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a244583de32f620aef2723b45995d5638">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac713a2626b301710608d7c968d9378bc">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -679,7 +1003,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d9/d24/classPHObject.html#a774523c4bd28a63765be6f8407bbce54">PHObject</a>.</p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a7f2b7ae26f1d16f4d55e191cd2c141e1">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a7f2b7ae26f1d16f4d55e191cd2c141e1">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -708,7 +1032,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d9/d24/classPHObject.html#a079739b3b51fdbda7356e60ec50f055e">PHObject</a>.</p>
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#afce4b8b09dc8656d3a729c9310802c9b">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a3dedffa013d8eff01abaef6a40c8611e">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#afce4b8b09dc8656d3a729c9310802c9b">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -734,7 +1058,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a75af5d8aa0388ad88298043a654ec04f">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aaa926e19cf5d66661e81c491b466fdf3">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a75af5d8aa0388ad88298043a654ec04f">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -760,7 +1084,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a3b2977a3c2fd4abbc45628816b7d28bf">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aa525e2333d0126091b97be21a2625052">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a3b2977a3c2fd4abbc45628816b7d28bf">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_abf58bc9caabc820970f66c17f955105e_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -786,7 +1122,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#af50edc589bafe490d4db882fbb616593">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a0e0c032ddbbab9ef18019da841678f38">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#af50edc589bafe490d4db882fbb616593">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_af9ed34f1c11ac26391493b80b3c2225c_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -812,7 +1160,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#acbdb61ed896a2a2c5e096d0c3fe9203c">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a64ad1a758446dacf5a449197a6905fab">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#acbdb61ed896a2a2c5e096d0c3fe9203c">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -838,7 +1186,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a9a575d9c3ad84836d856e9a3ff1eaef7">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aa3eeea252755aae6619fa4095349c8cd">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a9a575d9c3ad84836d856e9a3ff1eaef7">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a6e744eec12025e84f98a8f98d33b9aa7_icgraph.svg" width="384" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -864,7 +1224,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a2715f96c24b0f14d69c659211d9fa24f">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a6bd87c810126f403d95fc2125b8ca51a">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a2715f96c24b0f14d69c659211d9fa24f">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a82786d051362373ff79e91904805f13a_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -890,7 +1262,19 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#aa4451bd7cd2a190dc67145b57d58834b">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#abb87eb9c57c36b19e7bc4f3e3bc9af0f">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#aa4451bd7cd2a190dc67145b57d58834b">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_a99c21b03e36b8795c21f303be578c86e_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -916,7 +1300,45 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#a2969e93831d7fa8231635c70503b6798">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aadccd16a4556b01a785ea579595180c8">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a2969e93831d7fa8231635c70503b6798">SQTrack_v1</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acd2f756557f0bc368b5607204c01eba5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SQTrack::set_rec_track_id </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#ac0aeb4ffbd7c9560473638b6d71de699">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac79307cd3878e74bf79b7e2a09aa3dbb">SQTrack_v1</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
+
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d1b/classSQTrack_acd2f756557f0bc368b5607204c01eba5_icgraph.svg" width="403" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -942,7 +1364,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac1384c6066f9477cb0012ffe451c2ecc">SQTrack_v1</a>.</p>
+<p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aa1f20855fadb10887e6aff63fc3ac92b">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac1384c6066f9477cb0012ffe451c2ecc">SQTrack_v1</a>.</p>
 
 </div>
 </div>
@@ -959,7 +1381,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d1b/classSQTrack.html">SQTrack</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:25</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

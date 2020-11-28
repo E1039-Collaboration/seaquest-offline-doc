@@ -121,116 +121,111 @@ $(document).ready(function(){initNavTree('d1/d43/GFFitter_8cxx_source.html','../
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">namespace </span>SQGenFit</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aaa91d19b7f4a2d7eab972c8bcf3e7ea4">   14</a></span>&#160;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aaa91d19b7f4a2d7eab972c8bcf3e7ea4">GFFitter::GFFitter</a>()</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  _verbosity = 0;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  _kmfitter = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  _display = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">   22</a></span>&#160;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">GFFitter::~GFFitter</a>()</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">if</span>(_kmfitter != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _kmfitter;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordflow">if</span>(_display != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _display;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">   28</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">GFFitter::setVerbosity</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> v)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  _verbosity = v;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <span class="keywordflow">if</span>(_kmfitter != <span class="keyword">nullptr</span>) _kmfitter-&gt;setDebugLvl(_verbosity);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aaa91d19b7f4a2d7eab972c8bcf3e7ea4">   14</a></span>&#160;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aaa91d19b7f4a2d7eab972c8bcf3e7ea4">GFFitter::GFFitter</a>(): _verbosity(0), _kmfitter(nullptr), _display(nullptr)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">   17</a></span>&#160;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">GFFitter::~GFFitter</a>()</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordflow">if</span>(_kmfitter != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _kmfitter;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordflow">if</span>(_display != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _display;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">GFFitter::setVerbosity</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> v)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  _verbosity = v;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  <span class="keywordflow">if</span>(_kmfitter != <span class="keyword">nullptr</span>) _kmfitter-&gt;setDebugLvl(_verbosity);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">GFFitter::init</a>(<a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html">GFField</a>* field, <span class="keyword">const</span> TString&amp; fitter_choice)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  genfit::FieldManager::getInstance()-&gt;init(field);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  genfit::MaterialEffects::getInstance()-&gt;init(<span class="keyword">new</span> genfit::TGeoMaterialInterface());</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">   34</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">GFFitter::init</a>(<a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html">GFField</a>* field, <span class="keyword">const</span> TString&amp; fitter_choice)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  genfit::FieldManager::getInstance()-&gt;init(field);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  genfit::MaterialEffects::getInstance()-&gt;init(<span class="keyword">new</span> genfit::TGeoMaterialInterface());</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  _fitterTy = fitter_choice;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;KalmanFitterRefTrack&quot;</span>)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitterRefTrack();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;KalmanFitter&quot;</span>)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitter();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;DafSimple&quot;</span>)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::DAF(<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;DafRef&quot;</span>)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::DAF(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitter();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  _kmfitter-&gt;setMaxIterations(10);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  _kmfitter-&gt;setDebugLvl(_verbosity);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">   55</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">GFFitter::processTrack</a>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html">GFTrack</a>&amp; track, <span class="keywordtype">bool</span> display)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="comment">//check before fit</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">checkConsistency</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  _fitterTy = fitter_choice;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;KalmanFitterRefTrack&quot;</span>)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitterRefTrack();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;KalmanFitter&quot;</span>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitter();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;DafSimple&quot;</span>)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::DAF(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fitter_choice == <span class="stringliteral">&quot;DafRef&quot;</span>)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::DAF(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    _kmfitter = <span class="keyword">new</span> genfit::KalmanFitter();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  _kmfitter-&gt;setMaxIterations(10);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  _kmfitter-&gt;setDebugLvl(_verbosity);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">   50</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">GFFitter::processTrack</a>(<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html">GFTrack</a>&amp; track, <span class="keywordtype">bool</span> display)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="comment">//check before fit</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">checkConsistency</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track consistency error before fit: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track consistency error before fit: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="comment">//Do the fit</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  genfit::Track* gftrack = track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ad1a13fb7a5330e2c48d7666dd13d7d57">getGenFitTrack</a>();</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    _kmfitter-&gt;processTrack(gftrack);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="comment">//Do the fit</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  genfit::Track* gftrack = track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ad1a13fb7a5330e2c48d7666dd13d7d57">getGenFitTrack</a>();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    _kmfitter-&gt;processTrack(gftrack);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track fitting failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track fitting failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="comment">//check after fit</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">checkConsistency</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="comment">//check after fit</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    track.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">checkConsistency</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track consistency error after fit: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track consistency error after fit: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  genfit::AbsTrackRep* rep = gftrack-&gt;getCardinalRep();</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  <span class="keywordflow">if</span>(!gftrack-&gt;getFitStatus(rep)-&gt;isFitConverged())</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Fit failed to converge.&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordflow">if</span>(display)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span>(_display == <span class="keyword">nullptr</span>) _display = genfit::EventDisplay::getInstance();</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    _display-&gt;addEvent(gftrack);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  }</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  genfit::AbsTrackRep* rep = gftrack-&gt;getCardinalRep();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">if</span>(!gftrack-&gt;getFitStatus(rep)-&gt;isFitConverged())</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Fit failed to converge.&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">if</span>(display)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span>(_display == <span class="keyword">nullptr</span>) _display = genfit::EventDisplay::getInstance();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    _display-&gt;addEvent(gftrack);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">  102</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">GFFitter::displayEvent</a>()</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;{</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <span class="keywordflow">if</span>(_display != <span class="keyword">nullptr</span>) _display-&gt;open();</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">  107</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">GFFitter::displayEvent</a>()</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordflow">if</span>(_display != <span class="keyword">nullptr</span>) _display-&gt;open();</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;}</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
-<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a0fa66caee672974c2f0ef8e0d772d2f7"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">SQGenFit::GFFitter::setVerbosity</a></div><div class="ttdeci">void setVerbosity(unsigned int v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00028">GFFitter.cxx:28</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_af507321c9368e0da4ef4c58f1b083303"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">SQGenFit::GFTrack::checkConsistency</a></div><div class="ttdeci">void checkConsistency()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00046">GFTrack.h:46</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFFitter_html_aa43824a9ae32df32db12736e6fea2a40"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">SQGenFit::GFFitter::~GFFitter</a></div><div class="ttdeci">~GFFitter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00022">GFFitter.cxx:22</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a5305280a7dd50219233406f87732bb26"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">SQGenFit::GFFitter::displayEvent</a></div><div class="ttdeci">void displayEvent()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00107">GFFitter.cxx:107</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a026d1abff9900b98f280d5841af39115"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">SQGenFit::GFFitter::init</a></div><div class="ttdeci">void init(GFField *field, const TString &amp;fitter_choice=&quot;KalmanFitterRefTrack&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00034">GFFitter.cxx:34</a></div></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a0fa66caee672974c2f0ef8e0d772d2f7"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a0fa66caee672974c2f0ef8e0d772d2f7">SQGenFit::GFFitter::setVerbosity</a></div><div class="ttdeci">void setVerbosity(unsigned int v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00023">GFFitter.cxx:23</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFTrack_html_af507321c9368e0da4ef4c58f1b083303"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303">SQGenFit::GFTrack::checkConsistency</a></div><div class="ttdeci">void checkConsistency()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00050">GFTrack.h:50</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFFitter_html_aa43824a9ae32df32db12736e6fea2a40"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aa43824a9ae32df32db12736e6fea2a40">SQGenFit::GFFitter::~GFFitter</a></div><div class="ttdeci">~GFFitter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00017">GFFitter.cxx:17</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a5305280a7dd50219233406f87732bb26"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a5305280a7dd50219233406f87732bb26">SQGenFit::GFFitter::displayEvent</a></div><div class="ttdeci">void displayEvent()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00102">GFFitter.cxx:102</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFFitter_html_a026d1abff9900b98f280d5841af39115"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#a026d1abff9900b98f280d5841af39115">SQGenFit::GFFitter::init</a></div><div class="ttdeci">void init(GFField *field, const TString &amp;fitter_choice=&quot;KalmanFitterRefTrack&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00029">GFFitter.cxx:29</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFFitter_html_aaa91d19b7f4a2d7eab972c8bcf3e7ea4"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#aaa91d19b7f4a2d7eab972c8bcf3e7ea4">SQGenFit::GFFitter::GFFitter</a></div><div class="ttdeci">GFFitter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00014">GFFitter.cxx:14</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFField_html"><div class="ttname"><a href="../../d4/db7/classSQGenFit_1_1GFField.html">SQGenFit::GFField</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9d/GFField_8h_source.html#l00011">GFField.h:11</a></div></div>
 <div class="ttc" id="GFFitter_8h_html"><div class="ttname"><a href="../../dc/d11/GFFitter_8h.html">GFFitter.h</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFTrack_html_ad1a13fb7a5330e2c48d7666dd13d7d57"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ad1a13fb7a5330e2c48d7666dd13d7d57">SQGenFit::GFTrack::getGenFitTrack</a></div><div class="ttdeci">genfit::Track * getGenFitTrack()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00053">GFTrack.h:53</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFTrack_html_ad1a13fb7a5330e2c48d7666dd13d7d57"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#ad1a13fb7a5330e2c48d7666dd13d7d57">SQGenFit::GFTrack::getGenFitTrack</a></div><div class="ttdeci">genfit::Track * getGenFitTrack()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00057">GFTrack.h:57</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFTrack_html"><div class="ttname"><a href="../../d2/d6b/classSQGenFit_1_1GFTrack.html">SQGenFit::GFTrack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5e/GFTrack_8h_source.html#l00021">GFTrack.h:21</a></div></div>
-<div class="ttc" id="classSQGenFit_1_1GFFitter_html_ad51fae247e8bb6cf75b6d82d230403c2"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">SQGenFit::GFFitter::processTrack</a></div><div class="ttdeci">int processTrack(GFTrack &amp;track, bool display=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00055">GFFitter.cxx:55</a></div></div>
+<div class="ttc" id="classSQGenFit_1_1GFFitter_html_ad51fae247e8bb6cf75b6d82d230403c2"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">SQGenFit::GFFitter::processTrack</a></div><div class="ttdeci">int processTrack(GFTrack &amp;track, bool display=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00050">GFFitter.cxx:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -241,7 +236,7 @@ $(document).ready(function(){initNavTree('d1/d43/GFFitter_8cxx_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_8dd800435d9fa50a0a309cbf892633ea.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_2eed23623fdf77bd73dc6b6f46584ac1.html">SQGenFit</a></li><li class="navelem"><a class="el" href="../../d1/d43/GFFitter_8cxx.html">GFFitter.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:33:21</em> using <a
+			updated: <em>Fri Nov 27 2020 22:30:08</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

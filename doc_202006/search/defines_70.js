@@ -5,8 +5,6 @@ var searchData=
   ['phool_5fvirtual_5fwarning',['PHOOL_VIRTUAL_WARNING',['../d5/d6f/phool_8h.html#a98da12669d7bfdd5db2233160e5d54d4',1,'phool.h']]],
   ['phwhere',['PHWHERE',['../d5/d6f/phool_8h.html#af0d012f6b6ca17becb91a4495f1e8b7a',1,'phool.h']]],
   ['pmode',['PMODE',['../d9/dca/evio_8c.html#a3d0f761bc3b47fa0576b2fd02b8a3e70',1,'evio.c']]],
-  ['prob_5floose',['PROB_LOOSE',['../dd/de2/GlobalConsts_8h.html#ab25a01968c6a3c24757aa92024145c3e',1,'GlobalConsts.h']]],
-  ['prob_5ftight',['PROB_TIGHT',['../dd/de2/GlobalConsts_8h.html#a93de82f91cb0035770f3ab57ecb2d80f',1,'GlobalConsts.h']]],
   ['py1ent',['py1ent',['../d8/de1/Pythia6_8cc.html#af046d35c39cc3768a4a790191449c163',1,'py1ent():&#160;Pythia6.cc'],['../de/d6b/pythia6__common__address_8c.html#af046d35c39cc3768a4a790191449c163',1,'py1ent():&#160;pythia6_common_address.c']]],
   ['pycomp',['pycomp',['../d8/de1/Pythia6_8cc.html#a54e4846d2789b66d1dc7aca291a54a5b',1,'pycomp():&#160;Pythia6.cc'],['../de/d6b/pythia6__common__address_8c.html#a54e4846d2789b66d1dc7aca291a54a5b',1,'pycomp():&#160;pythia6_common_address.c']]],
   ['pydat1',['pydat1',['../de/d6b/pythia6__common__address_8c.html#a3ac349aace72ee0475915601b813a720',1,'pythia6_common_address.c']]],
