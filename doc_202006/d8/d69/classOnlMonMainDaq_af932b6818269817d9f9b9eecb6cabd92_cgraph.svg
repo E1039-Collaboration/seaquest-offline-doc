@@ -16,7 +16,7 @@
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d7/db7/classSQRun.html#af4311adcc7271be0ccde700d50150ed6" target="_top" xlink:title="SQRun::get_n_evt_all">
+<g id="a_node2"><a xlink:href="../../d7/db7/classSQRun.html#af4311adcc7271be0ccde700d50150ed6" target="_top" xlink:title="Return the number of all recorded events. ">
 <polygon fill="none" stroke="black" points="203,-928.5 203,-947.5 313,-947.5 313,-928.5 203,-928.5"/>
 <text text-anchor="middle" x="258" y="-935.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_evt_all</text>
 </a>
@@ -29,7 +29,7 @@
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/db7/classSQRun.html#af8af494d17ec14a3a7773beadca02231" target="_top" xlink:title="SQRun::get_n_evt_dec">
+<g id="a_node3"><a xlink:href="../../d7/db7/classSQRun.html#af8af494d17ec14a3a7773beadca02231" target="_top" xlink:title="Return the number of decoded events. The online decoding usually skips a part of events in order to f...">
 <polygon fill="none" stroke="black" points="200,-890.5 200,-909.5 316,-909.5 316,-890.5 200,-890.5"/>
 <text text-anchor="middle" x="258" y="-897.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_evt_dec</text>
 </a>
@@ -42,7 +42,7 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d7/db7/classSQRun.html#a54a7764b9c329ca727aa3b62e31fb1bc" target="_top" xlink:title="SQRun::get_n_flush_evt">
+<g id="a_node4"><a xlink:href="../../d7/db7/classSQRun.html#a54a7764b9c329ca727aa3b62e31fb1bc" target="_top" xlink:title="Return the number of all FLUSH events. ">
 <polygon fill="none" stroke="black" points="198.5,-852.5 198.5,-871.5 317.5,-871.5 317.5,-852.5 198.5,-852.5"/>
 <text text-anchor="middle" x="258" y="-859.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_flush_evt</text>
 </a>
@@ -55,7 +55,7 @@
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/db7/classSQRun.html#aad855f9c094ebb2299434735bf9297fe" target="_top" xlink:title="SQRun::get_n_flush\l_evt_bad">
+<g id="a_node5"><a xlink:href="../../d7/db7/classSQRun.html#aad855f9c094ebb2299434735bf9297fe" target="_top" xlink:title="Return the number of bad FLUSH events. ">
 <polygon fill="none" stroke="black" points="207.5,-803 207.5,-833 308.5,-833 308.5,-803 207.5,-803"/>
 <text text-anchor="start" x="215.5" y="-821" font-family="FreeSans" font-size="10.00">SQRun::get_n_flush</text>
 <text text-anchor="middle" x="258" y="-810" font-family="FreeSans" font-size="10.00">_evt_bad</text>
@@ -69,7 +69,7 @@
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d7/db7/classSQRun.html#a243f1ff7869e4fbe32c7944ff6c0c220" target="_top" xlink:title="SQRun::get_n_hit">
+<g id="a_node6"><a xlink:href="../../d7/db7/classSQRun.html#a243f1ff7869e4fbe32c7944ff6c0c220" target="_top" xlink:title="Return the number of all Taiwan&#45;TDC hits. ">
 <polygon fill="none" stroke="black" points="212,-764.5 212,-783.5 304,-783.5 304,-764.5 212,-764.5"/>
 <text text-anchor="middle" x="258" y="-771.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_hit</text>
 </a>
@@ -82,7 +82,7 @@
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d7/db7/classSQRun.html#ac4f0054827abcce5dd77da950a3e71bd" target="_top" xlink:title="SQRun::get_n_hit_bad">
+<g id="a_node7"><a xlink:href="../../d7/db7/classSQRun.html#ac4f0054827abcce5dd77da950a3e71bd" target="_top" xlink:title="Return the number of bad Taiwan&#45;TDC hits. ">
 <polygon fill="none" stroke="black" points="201.5,-726.5 201.5,-745.5 314.5,-745.5 314.5,-726.5 201.5,-726.5"/>
 <text text-anchor="middle" x="258" y="-733.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_hit_bad</text>
 </a>
@@ -95,7 +95,7 @@
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d7/db7/classSQRun.html#ac499790a00dcc165067ddded9efd3858" target="_top" xlink:title="SQRun::get_n_phys_evt">
+<g id="a_node8"><a xlink:href="../../d7/db7/classSQRun.html#ac499790a00dcc165067ddded9efd3858" target="_top" xlink:title="Return the number of all PHYSICS events. ">
 <polygon fill="none" stroke="black" points="198.5,-688.5 198.5,-707.5 317.5,-707.5 317.5,-688.5 198.5,-688.5"/>
 <text text-anchor="middle" x="258" y="-695.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_phys_evt</text>
 </a>
@@ -108,7 +108,7 @@
 </g>
 <!-- Node9 -->
 <g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d7/db7/classSQRun.html#abffc76419a737579f55216fc6b2259c5" target="_top" xlink:title="SQRun::get_n_phys_evt_bad">
+<g id="a_node9"><a xlink:href="../../d7/db7/classSQRun.html#abffc76419a737579f55216fc6b2259c5" target="_top" xlink:title="Return the number of bad PHYSICS events. ">
 <polygon fill="none" stroke="black" points="188,-650.5 188,-669.5 328,-669.5 328,-650.5 188,-650.5"/>
 <text text-anchor="middle" x="258" y="-657.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_phys_evt_bad</text>
 </a>
@@ -121,7 +121,7 @@
 </g>
 <!-- Node10 -->
 <g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d7/db7/classSQRun.html#a1801d7cae6cae837b9e3ba0224da5ba9" target="_top" xlink:title="SQRun::get_n_spill">
+<g id="a_node10"><a xlink:href="../../d7/db7/classSQRun.html#a1801d7cae6cae837b9e3ba0224da5ba9" target="_top" xlink:title="Return the number of spill events. ">
 <polygon fill="none" stroke="black" points="209,-612.5 209,-631.5 307,-631.5 307,-612.5 209,-612.5"/>
 <text text-anchor="middle" x="258" y="-619.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_spill</text>
 </a>
@@ -134,7 +134,7 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d7/db7/classSQRun.html#a27e43a6b48ba6e5b09552848172c9579" target="_top" xlink:title="SQRun::get_n_t_hit">
+<g id="a_node11"><a xlink:href="../../d7/db7/classSQRun.html#a27e43a6b48ba6e5b09552848172c9579" target="_top" xlink:title="Return the number of all V1495&#45;TDC (i.e. trigger) hits. ">
 <polygon fill="none" stroke="black" points="207.5,-574.5 207.5,-593.5 308.5,-593.5 308.5,-574.5 207.5,-574.5"/>
 <text text-anchor="middle" x="258" y="-581.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_t_hit</text>
 </a>
@@ -147,7 +147,7 @@
 </g>
 <!-- Node12 -->
 <g id="node12" class="node"><title>Node12</title>
-<g id="a_node12"><a xlink:href="../../d7/db7/classSQRun.html#aeb0e64609de4c5d017d086c1b630ed46" target="_top" xlink:title="SQRun::get_n_t_hit_bad">
+<g id="a_node12"><a xlink:href="../../d7/db7/classSQRun.html#aeb0e64609de4c5d017d086c1b630ed46" target="_top" xlink:title="Return the number of bad V1495&#45;TDC (i.e. trigger) hits. ">
 <polygon fill="none" stroke="black" points="197,-536.5 197,-555.5 319,-555.5 319,-536.5 197,-536.5"/>
 <text text-anchor="middle" x="258" y="-543.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_t_hit_bad</text>
 </a>
@@ -160,7 +160,7 @@
 </g>
 <!-- Node13 -->
 <g id="node13" class="node"><title>Node13</title>
-<g id="a_node13"><a xlink:href="../../d7/db7/classSQRun.html#a2186c5a7b6b5bc88c3c8c266c008f8f7" target="_top" xlink:title="SQRun::get_n_v1495">
+<g id="a_node13"><a xlink:href="../../d7/db7/classSQRun.html#a2186c5a7b6b5bc88c3c8c266c008f8f7" target="_top" xlink:title="Return the number of all V1495 events. ">
 <polygon fill="none" stroke="black" points="204.5,-498.5 204.5,-517.5 311.5,-517.5 311.5,-498.5 204.5,-498.5"/>
 <text text-anchor="middle" x="258" y="-505.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_v1495</text>
 </a>
@@ -173,7 +173,7 @@
 </g>
 <!-- Node14 -->
 <g id="node14" class="node"><title>Node14</title>
-<g id="a_node14"><a xlink:href="../../d7/db7/classSQRun.html#af31872dc607bc7bf1fbff8c580840da8" target="_top" xlink:title="SQRun::get_n_v1495_d1ad">
+<g id="a_node14"><a xlink:href="../../d7/db7/classSQRun.html#af31872dc607bc7bf1fbff8c580840da8" target="_top" xlink:title="Return the number of V1495 events having &#39;d1ad&#39;. ">
 <polygon fill="none" stroke="black" points="191,-460.5 191,-479.5 325,-479.5 325,-460.5 191,-460.5"/>
 <text text-anchor="middle" x="258" y="-467.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_v1495_d1ad</text>
 </a>
@@ -186,7 +186,7 @@
 </g>
 <!-- Node15 -->
 <g id="node15" class="node"><title>Node15</title>
-<g id="a_node15"><a xlink:href="../../d7/db7/classSQRun.html#aa8d54ee169abb6c2da325e85d5d47875" target="_top" xlink:title="SQRun::get_n_v1495_d2ad">
+<g id="a_node15"><a xlink:href="../../d7/db7/classSQRun.html#aa8d54ee169abb6c2da325e85d5d47875" target="_top" xlink:title="Return the number of V1495 events having &#39;d2ad&#39;. ">
 <polygon fill="none" stroke="black" points="191,-422.5 191,-441.5 325,-441.5 325,-422.5 191,-422.5"/>
 <text text-anchor="middle" x="258" y="-429.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_v1495_d2ad</text>
 </a>
@@ -199,7 +199,7 @@
 </g>
 <!-- Node16 -->
 <g id="node16" class="node"><title>Node16</title>
-<g id="a_node16"><a xlink:href="../../d7/db7/classSQRun.html#aba4a7124574588a3810b7dafa9c18f15" target="_top" xlink:title="SQRun::get_n_v1495_d3ad">
+<g id="a_node16"><a xlink:href="../../d7/db7/classSQRun.html#aba4a7124574588a3810b7dafa9c18f15" target="_top" xlink:title="Return the number of V1495 events having &#39;d3ad&#39;. ">
 <polygon fill="none" stroke="black" points="191,-384.5 191,-403.5 325,-403.5 325,-384.5 191,-384.5"/>
 <text text-anchor="middle" x="258" y="-391.5" font-family="FreeSans" font-size="10.00">SQRun::get_n_v1495_d3ad</text>
 </a>

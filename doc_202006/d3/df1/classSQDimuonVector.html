@@ -116,6 +116,9 @@ $(document).ready(function(){initNavTree('d3/df1/classSQDimuonVector.html','../.
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold a list of <a class="el" href="../../d8/dd3/classSQDimuon.html" title="An SQ interface class to hold one true or reconstructed dimuon. ">SQDimuon</a> objects.  
+ <a href="../../d3/df1/classSQDimuonVector.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQDimuonVector.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQDimuonVector:</div>
@@ -224,8 +227,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:af90329b5921a334fbd8d35efeb8abbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00008">8</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold a list of <a class="el" href="../../d8/dd3/classSQDimuon.html" title="An SQ interface class to hold one true or reconstructed dimuon. ">SQDimuon</a> objects. </p>
+<p>Below is the standard way to find this object in "topNode" and loop over each dimuon; </p>
+<div class="fragment"><div class="line"><a class="code" href="../../d3/df1/classSQDimuonVector.html">SQDimuonVector</a>* dim_vec = findNode::getClass&lt;SQDimuonVector&gt;(topNode, <span class="stringliteral">&quot;SQDimuonVector&quot;</span>);</div>
+<div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../d3/df1/classSQDimuonVector.html#a05176a60b8449f1561cc5cfcc8b6bd8e">SQDimuonVector::ConstIter</a> it = dim_vec-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a5952963b15d84456d0cb156571df3fcd">begin</a>(); it != dim_vec-&gt;<a class="code" href="../../d3/df1/classSQDimuonVector.html#a6967e24c14a61067fda5bcc23fefc8b5">end</a>(); it++) {</div>
+<div class="line">  <a class="code" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a>* dim = *it;</div>
+<div class="line">  <span class="keywordtype">int</span> dim_id = dim-&gt;<a class="code" href="../../d8/dd3/classSQDimuon.html#a1d420c0c809472ee738f9bcec8a5bcde">get_dimuon_id</a>();</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00019">19</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a05176a60b8449f1561cc5cfcc8b6bd8e"></a>
 <div class="memitem">
@@ -237,7 +247,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00011">11</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00022">22</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 
 </div>
 </div>
@@ -251,7 +261,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00012">12</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00023">23</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +275,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00010">10</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00021">21</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +301,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00014">14</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00025">25</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 
 </div>
 </div>
@@ -316,7 +326,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00035">35</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html#l00046">46</a> of file <a class="el" href="../../d7/d21/SQDimuonVector_8h_source.html">SQDimuonVector.h</a>.</p>
 
 </div>
 </div>
@@ -813,7 +823,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d3/df1/classSQDimuonVector.html">SQDimuonVector</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Nov 27 2020 23:40:12</em> using <a
+			updated: <em>Sun Nov 29 2020 20:30:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

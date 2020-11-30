@@ -116,6 +116,9 @@ $(document).ready(function(){initNavTree('db/d03/classSQTrackVector.html','../..
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold a list of <a class="el" href="../../d7/d1b/classSQTrack.html" title="An SQ interface class to hold one true or reconstructed track. ">SQTrack</a> objects.  
+ <a href="../../db/d03/classSQTrackVector.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQTrackVector.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQTrackVector:</div>
@@ -224,8 +227,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a13fdfe0ee29414a029d1b3c4fd466e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00008">8</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold a list of <a class="el" href="../../d7/d1b/classSQTrack.html" title="An SQ interface class to hold one true or reconstructed track. ">SQTrack</a> objects. </p>
+<p>Below is the standard way to find this object in "topNode" and loop over each track; </p>
+<div class="fragment"><div class="line"><a class="code" href="../../db/d03/classSQTrackVector.html">SQTrackVector</a>* trk_vec = findNode::getClass&lt;SQTrackVector&gt;(topNode, <span class="stringliteral">&quot;SQTrackVector&quot;</span>);</div>
+<div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../db/d03/classSQTrackVector.html#aa8be22a23d827732ec44a8becb04d3f7">SQTrackVector::ConstIter</a> it = trk_vec-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a2fc60d67bed68359cf96c11a90ec0245">begin</a>(); it != trk_vec-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a53f537e0b71057a25658d4668f29ae7c">end</a>(); it++) {</div>
+<div class="line">  <a class="code" href="../../d7/d1b/classSQTrack.html">SQTrack</a>* trk = *it;</div>
+<div class="line">  <span class="keywordtype">int</span> trk_id = trk-&gt;<a class="code" href="../../d7/d1b/classSQTrack.html#a03de8a7a2e6437772da44913ed2427df">get_track_id</a>();</div>
+<div class="line">}</div>
+</div><!-- fragment --> 
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00019">19</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aa8be22a23d827732ec44a8becb04d3f7"></a>
 <div class="memitem">
@@ -237,7 +247,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00011">11</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00022">22</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 
 </div>
 </div>
@@ -251,7 +261,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00012">12</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00023">23</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +275,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00010">10</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00021">21</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +301,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00014">14</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00025">25</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 
 </div>
 </div>
@@ -316,7 +326,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00035">35</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html#l00046">46</a> of file <a class="el" href="../../d9/d7f/SQTrackVector_8h_source.html">SQTrackVector.h</a>.</p>
 
 </div>
 </div>
@@ -813,7 +823,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../db/d03/classSQTrackVector.html">SQTrackVector</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Nov 27 2020 23:40:12</em> using <a
+			updated: <em>Sun Nov 29 2020 20:30:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
