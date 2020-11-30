@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d8/dd3/classSQDimuon.html','../../');}
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold one true or reconstructed dimuon.  
+ <a href="../../d8/dd3/classSQDimuon.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d5/d78/SQDimuon_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQDimuon.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQDimuon:</div>
@@ -148,38 +151,47 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4149033f894ae68ccdaeba7d1361cdba"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a4149033f894ae68ccdaeba7d1361cdba">Clone</a> () const =0</td></tr>
 <tr class="separator:a4149033f894ae68ccdaeba7d1361cdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d420c0c809472ee738f9bcec8a5bcde"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a1d420c0c809472ee738f9bcec8a5bcde">get_dimuon_id</a> () const =0</td></tr>
+<tr class="memdesc:a1d420c0c809472ee738f9bcec8a5bcde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimuon ID, which is unique per event(?).  <a href="#a1d420c0c809472ee738f9bcec8a5bcde">More...</a><br/></td></tr>
 <tr class="separator:a1d420c0c809472ee738f9bcec8a5bcde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec72b122b8515946f0d119d6bf04b978"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#aec72b122b8515946f0d119d6bf04b978">set_dimuon_id</a> (const int a)=0</td></tr>
 <tr class="separator:aec72b122b8515946f0d119d6bf04b978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6927371bc688f7591acacf0c3172bf21"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a6927371bc688f7591acacf0c3172bf21">get_rec_dimuon_id</a> () const =0</td></tr>
+<tr class="memdesc:a6927371bc688f7591acacf0c3172bf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimuon ID of associated reconstructed dimuon. Valid only if this object holds truth dimuon info.  <a href="#a6927371bc688f7591acacf0c3172bf21">More...</a><br/></td></tr>
 <tr class="separator:a6927371bc688f7591acacf0c3172bf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d7799ed2d4a9bb21ddabca72318b0da"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a5d7799ed2d4a9bb21ddabca72318b0da">set_rec_dimuon_id</a> (const int a)=0</td></tr>
 <tr class="separator:a5d7799ed2d4a9bb21ddabca72318b0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d09dc5b759c4e8d6d77d4bda749358a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a2d09dc5b759c4e8d6d77d4bda749358a">get_pdg_id</a> () const =0</td></tr>
+<tr class="memdesc:a2d09dc5b759c4e8d6d77d4bda749358a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the GPD ID of parent particle. It is valid only for true dimuon.  <a href="#a2d09dc5b759c4e8d6d77d4bda749358a">More...</a><br/></td></tr>
 <tr class="separator:a2d09dc5b759c4e8d6d77d4bda749358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab54ff89f1337ff3e1b66408cfb350a4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#ab54ff89f1337ff3e1b66408cfb350a4b">set_pdg_id</a> (const int a)=0</td></tr>
 <tr class="separator:ab54ff89f1337ff3e1b66408cfb350a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6a5493efa95f43d47f15cedfdb6bbee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#aa6a5493efa95f43d47f15cedfdb6bbee">get_track_id_pos</a> () const =0</td></tr>
+<tr class="memdesc:aa6a5493efa95f43d47f15cedfdb6bbee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID of the positive track.  <a href="#aa6a5493efa95f43d47f15cedfdb6bbee">More...</a><br/></td></tr>
 <tr class="separator:aa6a5493efa95f43d47f15cedfdb6bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da8c6989e940e4d940221cf3835d77f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a9da8c6989e940e4d940221cf3835d77f">set_track_id_pos</a> (const int a)=0</td></tr>
 <tr class="separator:a9da8c6989e940e4d940221cf3835d77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64259cd519b3be6e35de4b08bc787d60"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a64259cd519b3be6e35de4b08bc787d60">get_track_id_neg</a> () const =0</td></tr>
+<tr class="memdesc:a64259cd519b3be6e35de4b08bc787d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID of the negative track.  <a href="#a64259cd519b3be6e35de4b08bc787d60">More...</a><br/></td></tr>
 <tr class="separator:a64259cd519b3be6e35de4b08bc787d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92fde6ffcdc6c354967c3fa5939d1979"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a92fde6ffcdc6c354967c3fa5939d1979">set_track_id_neg</a> (const int a)=0</td></tr>
 <tr class="separator:a92fde6ffcdc6c354967c3fa5939d1979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad757074fb0caee54bdd797608cfd033e"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#ad757074fb0caee54bdd797608cfd033e">get_pos</a> () const =0</td></tr>
+<tr class="memdesc:ad757074fb0caee54bdd797608cfd033e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimuon position at vertex.  <a href="#ad757074fb0caee54bdd797608cfd033e">More...</a><br/></td></tr>
 <tr class="separator:ad757074fb0caee54bdd797608cfd033e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3df6d1d1c7c53557ea7a73d341f11d89"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a3df6d1d1c7c53557ea7a73d341f11d89">set_pos</a> (const TVector3 a)=0</td></tr>
 <tr class="separator:a3df6d1d1c7c53557ea7a73d341f11d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76b3516ee9387204f164d1f7f424e071"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a76b3516ee9387204f164d1f7f424e071">get_mom</a> () const =0</td></tr>
+<tr class="memdesc:a76b3516ee9387204f164d1f7f424e071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimuon momentum at vertex.  <a href="#a76b3516ee9387204f164d1f7f424e071">More...</a><br/></td></tr>
 <tr class="separator:a76b3516ee9387204f164d1f7f424e071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a182416c89ca64a0b88761a3a119db8d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a182416c89ca64a0b88761a3a119db8d1">set_mom</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:a182416c89ca64a0b88761a3a119db8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ef46c5aa106110118f86f46d0f16f4"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4">get_mom_pos</a> () const =0</td></tr>
+<tr class="memdesc:a42ef46c5aa106110118f86f46d0f16f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the momentum of the positive track at vertex.  <a href="#a42ef46c5aa106110118f86f46d0f16f4">More...</a><br/></td></tr>
 <tr class="separator:a42ef46c5aa106110118f86f46d0f16f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357c50a36e1060bf03ddd485c226d67c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c">set_mom_pos</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:a357c50a36e1060bf03ddd485c226d67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15fd2a9fc7752aeee3077b031aa034e5"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5">get_mom_neg</a> () const =0</td></tr>
+<tr class="memdesc:a15fd2a9fc7752aeee3077b031aa034e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the momentum of the negative track at vertex.  <a href="#a15fd2a9fc7752aeee3077b031aa034e5">More...</a><br/></td></tr>
 <tr class="separator:a15fd2a9fc7752aeee3077b031aa034e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8cb0fd037441195cf90e7dab4a6f78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78">set_mom_neg</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:a0d8cb0fd037441195cf90e7dab4a6f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,8 +248,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:adb675a6e78271a6d3fb6fd4e732fd312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00007">7</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold one true or reconstructed dimuon. </p>
+
+<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00008">8</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a01c6e3f58cd6b83514a2bfc4dbc0b7be"></a>
 <div class="memitem">
@@ -260,7 +273,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00009">9</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00010">10</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
 
 </div>
 </div>
@@ -285,7 +298,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00051">51</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d78/SQDimuon_8h_source.html#l00052">52</a> of file <a class="el" href="../../d5/d78/SQDimuon_8h_source.html">SQDimuon.h</a>.</p>
 
 </div>
 </div>
@@ -407,6 +420,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the dimuon ID, which is unique per event(?). </p>
+
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a94a43b67afd4b1bb8b6ee419fc259cc3">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a54978d9042990836b8d43a9e92b64438">SQDimuon_v1</a>.</p>
 
 </div>
@@ -457,6 +472,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the dimuon momentum at vertex. </p>
+
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a0cb751f637a4f3ca315b1e138e3c3d70">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a745eef544e394d76c5bf765dbf31abc8">SQDimuon_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00028">AnaSimDst::process_event()</a>.</p>
@@ -493,6 +510,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the momentum of the negative track at vertex. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a2e2bd93f27ba472544ae19ae8bf522bf">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#abf7a167be51be94dc0bad58b4d40b548">SQDimuon_v1</a>.</p>
 
@@ -531,6 +550,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the momentum of the positive track at vertex. </p>
+
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#ab356cfe3861187443183a2e5107ab978">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#aa2523d3cf45f3c74149e9695f9f4992c">SQDimuon_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00052">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00006">UtilDimuon::GetX1X2()</a>, and <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00028">AnaSimDst::process_event()</a>.</p>
@@ -567,6 +588,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the GPD ID of parent particle. It is valid only for true dimuon. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a79ecf392f2c5df723e17e505e298f218">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a59e8680bdecafdab7fbbe8a0f357421d">SQDimuon_v1</a>.</p>
 
@@ -605,6 +628,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the dimuon position at vertex. </p>
+
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#af0c2387c77c871367439a91113663b31">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#afe658028fbfa1721e285e2d267e8e26a">SQDimuon_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00028">AnaSimDst::process_event()</a>, and <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>.</p>
@@ -642,6 +667,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the dimuon ID of associated reconstructed dimuon. Valid only if this object holds truth dimuon info. </p>
+
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a39e8352dc13f29662e06abcb78285f3c">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a586b3b01d0967e6f90e9252b0dc5a092">SQDimuon_v1</a>.</p>
 
 </div>
@@ -666,6 +693,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the track ID of the negative track. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a4ffba019b2df28777728fa4e817f81fc">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a4045f63899855c95dedbfa3862210abc">SQDimuon_v1</a>.</p>
 
@@ -703,6 +732,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the track ID of the positive track. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d07/classSRecDimuon.html#a0c2a8c780cca4e86371405705dc64ce7">SRecDimuon</a>, and <a class="el" href="../../d0/d85/classSQDimuon__v1.html#a80a8242b13ba5d769edf73d409a46c57">SQDimuon_v1</a>.</p>
 
@@ -1171,7 +1202,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

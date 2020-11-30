@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d7/db7/classSQRun.html','../../');});
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold the run-level info.  
+ <a href="../../d7/db7/classSQRun.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../de/d59/SQRun_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQRun.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQRun:</div>
@@ -143,106 +146,132 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab208074901916b7cc41ed3ad697482f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ab208074901916b7cc41ed3ad697482f0">identify</a> (std::ostream &amp;os=std::cout) const </td></tr>
 <tr class="separator:ab208074901916b7cc41ed3ad697482f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531e051f0da88b4930023c4725853dd9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a531e051f0da88b4930023c4725853dd9">get_run_id</a> () const </td></tr>
+<tr class="memdesc:a531e051f0da88b4930023c4725853dd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the run ID.  <a href="#a531e051f0da88b4930023c4725853dd9">More...</a><br/></td></tr>
 <tr class="separator:a531e051f0da88b4930023c4725853dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ed6fc3946239560aa9ff866359aba3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a17ed6fc3946239560aa9ff866359aba3">set_run_id</a> (const int a)</td></tr>
 <tr class="separator:a17ed6fc3946239560aa9ff866359aba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7f209aa17fe470c433a72bda370f3f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aac7f209aa17fe470c433a72bda370f3f">get_unix_time_begin</a> () const </td></tr>
+<tr class="memdesc:aac7f209aa17fe470c433a72bda370f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Unix time when this run began.  <a href="#aac7f209aa17fe470c433a72bda370f3f">More...</a><br/></td></tr>
 <tr class="separator:aac7f209aa17fe470c433a72bda370f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c6e216284dc36271e9350cae899cc50"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a6c6e216284dc36271e9350cae899cc50">set_unix_time_begin</a> (const int a)</td></tr>
 <tr class="separator:a6c6e216284dc36271e9350cae899cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66cecc9754f2a8fd458cafdbf215b7a7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a66cecc9754f2a8fd458cafdbf215b7a7">get_unix_time_end</a> () const </td></tr>
+<tr class="memdesc:a66cecc9754f2a8fd458cafdbf215b7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Unix time when this run ended.  <a href="#a66cecc9754f2a8fd458cafdbf215b7a7">More...</a><br/></td></tr>
 <tr class="separator:a66cecc9754f2a8fd458cafdbf215b7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a960eac6b26ce72343a23cd55f373da19"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a960eac6b26ce72343a23cd55f373da19">set_unix_time_end</a> (const int a)</td></tr>
 <tr class="separator:a960eac6b26ce72343a23cd55f373da19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae83d74ca885e77505a549171dcc3e95f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ae83d74ca885e77505a549171dcc3e95f">get_fpga_enabled</a> (const int chan) const </td></tr>
+<tr class="memdesc:ae83d74ca885e77505a549171dcc3e95f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if the given channel ('chan') of the FPGA trigger was enabled in this run.  <a href="#ae83d74ca885e77505a549171dcc3e95f">More...</a><br/></td></tr>
 <tr class="separator:ae83d74ca885e77505a549171dcc3e95f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21b94a46a30b8ed5e26064c48776ea45"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a21b94a46a30b8ed5e26064c48776ea45">set_fpga_enabled</a> (const int chan, const int a)</td></tr>
 <tr class="separator:a21b94a46a30b8ed5e26064c48776ea45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d6343f4e6ab60d612b28a5edb2ee2e3"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a5d6343f4e6ab60d612b28a5edb2ee2e3">get_nim_enabled</a> (const int chan) const </td></tr>
+<tr class="memdesc:a5d6343f4e6ab60d612b28a5edb2ee2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if the given channel ('chan') of the NIM trigger was enabled in this run.  <a href="#a5d6343f4e6ab60d612b28a5edb2ee2e3">More...</a><br/></td></tr>
 <tr class="separator:a5d6343f4e6ab60d612b28a5edb2ee2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb1a412a50e1bc0aa4733d2e29fbfb35"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#adb1a412a50e1bc0aa4733d2e29fbfb35">set_nim_enabled</a> (const int chan, const int a)</td></tr>
 <tr class="separator:adb1a412a50e1bc0aa4733d2e29fbfb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa2b768b44219c834ef0d22a968c0536"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#afa2b768b44219c834ef0d22a968c0536">get_fpga_prescale</a> (const int chan) const </td></tr>
+<tr class="memdesc:afa2b768b44219c834ef0d22a968c0536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the prescale factor of the given channel ('chan') of the FPGA trigger in this run.  <a href="#afa2b768b44219c834ef0d22a968c0536">More...</a><br/></td></tr>
 <tr class="separator:afa2b768b44219c834ef0d22a968c0536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa549574793c91c65a04d4ce03f69caf5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aa549574793c91c65a04d4ce03f69caf5">set_fpga_prescale</a> (const int chan, const int a)</td></tr>
 <tr class="separator:aa549574793c91c65a04d4ce03f69caf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c1a18d5f0531b1b923093f2e2e46785"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a2c1a18d5f0531b1b923093f2e2e46785">get_nim_prescale</a> (const int chan) const </td></tr>
+<tr class="memdesc:a2c1a18d5f0531b1b923093f2e2e46785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the prescale factor of the given channel ('chan') of the NIM trigger in this run.  <a href="#a2c1a18d5f0531b1b923093f2e2e46785">More...</a><br/></td></tr>
 <tr class="separator:a2c1a18d5f0531b1b923093f2e2e46785"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af49298d43cc905f8debb10bbeec61914"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#af49298d43cc905f8debb10bbeec61914">set_nim_prescale</a> (const int chan, const int a)</td></tr>
 <tr class="separator:af49298d43cc905f8debb10bbeec61914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe0601f38c6bd4f93b008a0d4e47f28d"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#abe0601f38c6bd4f93b008a0d4e47f28d">get_run_desc</a> () const </td></tr>
+<tr class="memdesc:abe0601f38c6bd4f93b008a0d4e47f28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the run description of this run.  <a href="#abe0601f38c6bd4f93b008a0d4e47f28d">More...</a><br/></td></tr>
 <tr class="separator:abe0601f38c6bd4f93b008a0d4e47f28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d217f63b16b17b26f0443cd42e3d01f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a9d217f63b16b17b26f0443cd42e3d01f">set_run_desc</a> (const std::string a)</td></tr>
 <tr class="separator:a9d217f63b16b17b26f0443cd42e3d01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc16687f41bc4c631e6220430ad2a255"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#abc16687f41bc4c631e6220430ad2a255">get_n_fee_event</a> () const </td></tr>
+<tr class="memdesc:abc16687f41bc4c631e6220430ad2a255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of FEE events.  <a href="#abc16687f41bc4c631e6220430ad2a255">More...</a><br/></td></tr>
 <tr class="separator:abc16687f41bc4c631e6220430ad2a255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad87895a236aefa3a70b3f6ef9297deea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ad87895a236aefa3a70b3f6ef9297deea">set_n_fee_event</a> (const int a)</td></tr>
 <tr class="separator:ad87895a236aefa3a70b3f6ef9297deea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab327ba12df1a2d58c45e40b4579edf07"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ab327ba12df1a2d58c45e40b4579edf07">get_n_fee_prescale</a> () const </td></tr>
+<tr class="memdesc:ab327ba12df1a2d58c45e40b4579edf07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of FEE-prescale events.  <a href="#ab327ba12df1a2d58c45e40b4579edf07">More...</a><br/></td></tr>
 <tr class="separator:ab327ba12df1a2d58c45e40b4579edf07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd53ddc8c12dd785fe182698a737957c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#acd53ddc8c12dd785fe182698a737957c">set_n_fee_prescale</a> (const int a)</td></tr>
 <tr class="separator:acd53ddc8c12dd785fe182698a737957c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08a37eea0f4c9357af4764aee27382c8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a08a37eea0f4c9357af4764aee27382c8">get_n_run_desc</a> () const </td></tr>
+<tr class="memdesc:a08a37eea0f4c9357af4764aee27382c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of run-description events.  <a href="#a08a37eea0f4c9357af4764aee27382c8">More...</a><br/></td></tr>
 <tr class="separator:a08a37eea0f4c9357af4764aee27382c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23120880ae3a18629a6c9dee5acbf819"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a23120880ae3a18629a6c9dee5acbf819">set_n_run_desc</a> (const int a)</td></tr>
 <tr class="separator:a23120880ae3a18629a6c9dee5acbf819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1801d7cae6cae837b9e3ba0224da5ba9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a1801d7cae6cae837b9e3ba0224da5ba9">get_n_spill</a> () const </td></tr>
+<tr class="memdesc:a1801d7cae6cae837b9e3ba0224da5ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of spill events.  <a href="#a1801d7cae6cae837b9e3ba0224da5ba9">More...</a><br/></td></tr>
 <tr class="separator:a1801d7cae6cae837b9e3ba0224da5ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b78a3cb4f8702ba7de4e198043275d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a1b78a3cb4f8702ba7de4e198043275d9">set_n_spill</a> (const int a)</td></tr>
 <tr class="separator:a1b78a3cb4f8702ba7de4e198043275d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4311adcc7271be0ccde700d50150ed6"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#af4311adcc7271be0ccde700d50150ed6">get_n_evt_all</a> () const </td></tr>
+<tr class="memdesc:af4311adcc7271be0ccde700d50150ed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all recorded events.  <a href="#af4311adcc7271be0ccde700d50150ed6">More...</a><br/></td></tr>
 <tr class="separator:af4311adcc7271be0ccde700d50150ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fd8b63cbcfacc6cab57dcaf6e392430"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a1fd8b63cbcfacc6cab57dcaf6e392430">set_n_evt_all</a> (const int a)</td></tr>
 <tr class="separator:a1fd8b63cbcfacc6cab57dcaf6e392430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8af494d17ec14a3a7773beadca02231"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#af8af494d17ec14a3a7773beadca02231">get_n_evt_dec</a> () const </td></tr>
+<tr class="memdesc:af8af494d17ec14a3a7773beadca02231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of decoded events. The online decoding usually skips a part of events in order to finish in time.  <a href="#af8af494d17ec14a3a7773beadca02231">More...</a><br/></td></tr>
 <tr class="separator:af8af494d17ec14a3a7773beadca02231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1692d7f3bac0f33fe942d6ef30603e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ac1692d7f3bac0f33fe942d6ef30603e6">set_n_evt_dec</a> (const int a)</td></tr>
 <tr class="separator:ac1692d7f3bac0f33fe942d6ef30603e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac499790a00dcc165067ddded9efd3858"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ac499790a00dcc165067ddded9efd3858">get_n_phys_evt</a> () const </td></tr>
+<tr class="memdesc:ac499790a00dcc165067ddded9efd3858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all PHYSICS events.  <a href="#ac499790a00dcc165067ddded9efd3858">More...</a><br/></td></tr>
 <tr class="separator:ac499790a00dcc165067ddded9efd3858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44a219b94b52037b5ee19ceb694d6287"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a44a219b94b52037b5ee19ceb694d6287">set_n_phys_evt</a> (const int a)</td></tr>
 <tr class="separator:a44a219b94b52037b5ee19ceb694d6287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abffc76419a737579f55216fc6b2259c5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#abffc76419a737579f55216fc6b2259c5">get_n_phys_evt_bad</a> () const </td></tr>
+<tr class="memdesc:abffc76419a737579f55216fc6b2259c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bad PHYSICS events.  <a href="#abffc76419a737579f55216fc6b2259c5">More...</a><br/></td></tr>
 <tr class="separator:abffc76419a737579f55216fc6b2259c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1ceb49518bcb0715f5bd5208f6441c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ab1ceb49518bcb0715f5bd5208f6441c0">set_n_phys_evt_bad</a> (const int a)</td></tr>
 <tr class="separator:ab1ceb49518bcb0715f5bd5208f6441c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a7764b9c329ca727aa3b62e31fb1bc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a54a7764b9c329ca727aa3b62e31fb1bc">get_n_flush_evt</a> () const </td></tr>
+<tr class="memdesc:a54a7764b9c329ca727aa3b62e31fb1bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all FLUSH events.  <a href="#a54a7764b9c329ca727aa3b62e31fb1bc">More...</a><br/></td></tr>
 <tr class="separator:a54a7764b9c329ca727aa3b62e31fb1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ce81d7b73f2b692ee5bed32fd6c5b31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a2ce81d7b73f2b692ee5bed32fd6c5b31">set_n_flush_evt</a> (const int a)</td></tr>
 <tr class="separator:a2ce81d7b73f2b692ee5bed32fd6c5b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad855f9c094ebb2299434735bf9297fe"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aad855f9c094ebb2299434735bf9297fe">get_n_flush_evt_bad</a> () const </td></tr>
+<tr class="memdesc:aad855f9c094ebb2299434735bf9297fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bad FLUSH events.  <a href="#aad855f9c094ebb2299434735bf9297fe">More...</a><br/></td></tr>
 <tr class="separator:aad855f9c094ebb2299434735bf9297fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03bc3b6ac0a1d44793ea258cce15a2c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ae03bc3b6ac0a1d44793ea258cce15a2c">set_n_flush_evt_bad</a> (const int a)</td></tr>
 <tr class="separator:ae03bc3b6ac0a1d44793ea258cce15a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a243f1ff7869e4fbe32c7944ff6c0c220"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a243f1ff7869e4fbe32c7944ff6c0c220">get_n_hit</a> () const </td></tr>
+<tr class="memdesc:a243f1ff7869e4fbe32c7944ff6c0c220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all Taiwan-TDC hits.  <a href="#a243f1ff7869e4fbe32c7944ff6c0c220">More...</a><br/></td></tr>
 <tr class="separator:a243f1ff7869e4fbe32c7944ff6c0c220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f35581ec68cddfc3787b1f1da798a4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ae9f35581ec68cddfc3787b1f1da798a4">set_n_hit</a> (const int a)</td></tr>
 <tr class="separator:ae9f35581ec68cddfc3787b1f1da798a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27e43a6b48ba6e5b09552848172c9579"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a27e43a6b48ba6e5b09552848172c9579">get_n_t_hit</a> () const </td></tr>
+<tr class="memdesc:a27e43a6b48ba6e5b09552848172c9579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all V1495-TDC (i.e. trigger) hits.  <a href="#a27e43a6b48ba6e5b09552848172c9579">More...</a><br/></td></tr>
 <tr class="separator:a27e43a6b48ba6e5b09552848172c9579"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a499d2ee010fb7f00b00e6486242fbf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a5a499d2ee010fb7f00b00e6486242fbf">set_n_t_hit</a> (const int a)</td></tr>
 <tr class="separator:a5a499d2ee010fb7f00b00e6486242fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f0054827abcce5dd77da950a3e71bd"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ac4f0054827abcce5dd77da950a3e71bd">get_n_hit_bad</a> () const </td></tr>
+<tr class="memdesc:ac4f0054827abcce5dd77da950a3e71bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bad Taiwan-TDC hits.  <a href="#ac4f0054827abcce5dd77da950a3e71bd">More...</a><br/></td></tr>
 <tr class="separator:ac4f0054827abcce5dd77da950a3e71bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a6052fa8a6b86addd3cf0d2633b8fed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a9a6052fa8a6b86addd3cf0d2633b8fed">set_n_hit_bad</a> (const int a)</td></tr>
 <tr class="separator:a9a6052fa8a6b86addd3cf0d2633b8fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb0e64609de4c5d017d086c1b630ed46"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aeb0e64609de4c5d017d086c1b630ed46">get_n_t_hit_bad</a> () const </td></tr>
+<tr class="memdesc:aeb0e64609de4c5d017d086c1b630ed46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of bad V1495-TDC (i.e. trigger) hits.  <a href="#aeb0e64609de4c5d017d086c1b630ed46">More...</a><br/></td></tr>
 <tr class="separator:aeb0e64609de4c5d017d086c1b630ed46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32614e0063ff079a22abff1a817f16f3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a32614e0063ff079a22abff1a817f16f3">set_n_t_hit_bad</a> (const int a)</td></tr>
 <tr class="separator:a32614e0063ff079a22abff1a817f16f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2186c5a7b6b5bc88c3c8c266c008f8f7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a2186c5a7b6b5bc88c3c8c266c008f8f7">get_n_v1495</a> () const </td></tr>
+<tr class="memdesc:a2186c5a7b6b5bc88c3c8c266c008f8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of all V1495 events.  <a href="#a2186c5a7b6b5bc88c3c8c266c008f8f7">More...</a><br/></td></tr>
 <tr class="separator:a2186c5a7b6b5bc88c3c8c266c008f8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a904c155e5230ad65f47d6023bf32ea99"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a904c155e5230ad65f47d6023bf32ea99">set_n_v1495</a> (const int a)</td></tr>
 <tr class="separator:a904c155e5230ad65f47d6023bf32ea99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af31872dc607bc7bf1fbff8c580840da8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#af31872dc607bc7bf1fbff8c580840da8">get_n_v1495_d1ad</a> () const </td></tr>
+<tr class="memdesc:af31872dc607bc7bf1fbff8c580840da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of V1495 events having 'd1ad'.  <a href="#af31872dc607bc7bf1fbff8c580840da8">More...</a><br/></td></tr>
 <tr class="separator:af31872dc607bc7bf1fbff8c580840da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a159b47fc67f9002ee753203e874c33d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a159b47fc67f9002ee753203e874c33d5">set_n_v1495_d1ad</a> (const int a)</td></tr>
 <tr class="separator:a159b47fc67f9002ee753203e874c33d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d54ee169abb6c2da325e85d5d47875"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aa8d54ee169abb6c2da325e85d5d47875">get_n_v1495_d2ad</a> () const </td></tr>
+<tr class="memdesc:aa8d54ee169abb6c2da325e85d5d47875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of V1495 events having 'd2ad'.  <a href="#aa8d54ee169abb6c2da325e85d5d47875">More...</a><br/></td></tr>
 <tr class="separator:aa8d54ee169abb6c2da325e85d5d47875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28918d06ff771065b60d7b5677b537a9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#a28918d06ff771065b60d7b5677b537a9">set_n_v1495_d2ad</a> (const int a)</td></tr>
 <tr class="separator:a28918d06ff771065b60d7b5677b537a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4a7124574588a3810b7dafa9c18f15"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#aba4a7124574588a3810b7dafa9c18f15">get_n_v1495_d3ad</a> () const </td></tr>
+<tr class="memdesc:aba4a7124574588a3810b7dafa9c18f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of V1495 events having 'd3ad'.  <a href="#aba4a7124574588a3810b7dafa9c18f15">More...</a><br/></td></tr>
 <tr class="separator:aba4a7124574588a3810b7dafa9c18f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0661f172614b5ca91cea54be97d6836"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db7/classSQRun.html#ae0661f172614b5ca91cea54be97d6836">set_n_v1495_d3ad</a> (const int a)</td></tr>
 <tr class="separator:ae0661f172614b5ca91cea54be97d6836"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,8 +321,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aae485e00d55eab0d5600cc7e1a08e17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00017">17</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold the run-level info. </p>
+
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00018">18</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac69ba50348aaa6bd0f6701cc908228b3"></a>
 <div class="memitem">
@@ -316,7 +346,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00021">21</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00022">22</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -341,7 +371,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00111">111</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00112">112</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -402,9 +432,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return 'true' if the given channel ('chan') of the FPGA trigger was enabled in this run. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ab125f94e7c4bcb354d8dc22481eeb308">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00040">40</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00041">41</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -430,9 +462,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the prescale factor of the given channel ('chan') of the FPGA trigger in this run. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a9d8eb0a45016c67f61a6c79ff7278c52">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00046">46</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00047">47</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -457,9 +491,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all recorded events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a2795915dd888c23e95b6ad7bd202c0cd">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00067">67</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00068">68</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -496,9 +532,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of decoded events. The online decoding usually skips a part of events in order to finish in time. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a328f86eb65e1de0ad74180c5bd76ede2">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00070">70</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00071">71</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -535,9 +573,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of FEE events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#afa535e63fb16a24e49f85c72886444f9">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00055">55</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00056">56</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -562,9 +602,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of FEE-prescale events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a6ddef34e535a44fc0699585e5a3b65c9">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00058">58</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00059">59</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -589,9 +631,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all FLUSH events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a013484cfba6c2a98c672d9fc01860179">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00079">79</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00080">80</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -628,9 +672,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of bad FLUSH events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#acfbc18e08cbda07142002d6dea2c2e8d">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00082">82</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -667,9 +713,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all Taiwan-TDC hits. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ac524e52e7cbe458fb2213744fd258c84">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00085">85</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -706,9 +754,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of bad Taiwan-TDC hits. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ad12b506362458e4a6075aa114e04e8bc">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00091">91</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00092">92</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -745,9 +795,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all PHYSICS events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a45d030c2dbc626cc04ceed5be68a5fc7">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00073">73</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00074">74</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -784,9 +836,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of bad PHYSICS events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#aea1ee10d34a156b5bcecfb81a5dc8786">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00076">76</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00077">77</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -823,9 +877,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of run-description events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a274007d72ddb8759234105996a49b3bb">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00061">61</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00062">62</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -850,9 +906,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of spill events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a4a6bca19f88c735d5db16b31bd905164">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00064">64</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00065">65</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -889,9 +947,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all V1495-TDC (i.e. trigger) hits. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#aebed434f9dece434194e48d066112f6b">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00088">88</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00089">89</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -928,9 +988,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of bad V1495-TDC (i.e. trigger) hits. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a6c5451c443bd1578e43a14c454d09b86">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00094">94</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00095">95</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -967,9 +1029,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of all V1495 events. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ad7a58fca1e5668cea81fd9a572f7aa47">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00097">97</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00098">98</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -1006,9 +1070,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of V1495 events having 'd1ad'. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ad519ec002a19f075526b177801033c01">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00100">100</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00101">101</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -1045,9 +1111,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of V1495 events having 'd2ad'. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a0eeb1a8fc2d9907484c252a4f2cde267">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00103">103</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -1084,9 +1152,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of V1495 events having 'd3ad'. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a4d16fda31dc7287d1978c12c10d0c774">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00106">106</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00070">OnlMonMainDaq::ProcessEventOnlMon()</a>.</p>
 
@@ -1124,9 +1194,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return 'true' if the given channel ('chan') of the NIM trigger was enabled in this run. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a5e158454c334838d7b06fa2397a3f87f">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00043">43</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1152,9 +1224,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the prescale factor of the given channel ('chan') of the NIM trigger in this run. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a2e9ecc837708d038d83cbb98a1a68369">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00049">49</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1179,9 +1253,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the run description of this run. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a0b9128d80f07981b5909f907672bfc29">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00052">52</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1206,9 +1282,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the run ID. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a5c0541704d3d7a8b331beda3e519e966">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00031">31</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d50/DbUpRun_8cc_source.html#l00053">DbUpRun::End()</a>, <a class="el" href="../../df/d04/DbUpSpill_8cc_source.html#l00032">DbUpSpill::InitRun()</a>, <a class="el" href="../../dc/d50/DbUpRun_8cc_source.html#l00028">DbUpRun::InitRun()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00061">OnlMonClient::InitRun()</a>, and <a class="el" href="../../dc/d50/DbUpRun_8cc_source.html#l00038">DbUpRun::process_event()</a>.</p>
 
@@ -1245,9 +1323,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the Unix time when this run began. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a58d8ec1dc1980979edd8d25ee991d182">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1272,9 +1352,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the Unix time when this run ended. </p>
+
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a54c62aec803f32216efd2708794c9fc0">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00037">37</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00038">38</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1311,7 +1393,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a92ebadfba5f46421c54f1adb954db4c2">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00025">25</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00026">26</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1424,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ace1af1d2969240e6dc27053280e61e0c">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00023">23</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00024">24</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1462,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ada875b355e43d5730c5ee7f7c4aaa2a3">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00041">41</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00042">42</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1430,7 +1512,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a76b50ee8e86fad107f240f2f84958b15">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00047">47</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00048">48</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1470,7 +1552,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a90f5917cfd8a764230c13437407b47fa">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00068">68</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00069">69</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1510,7 +1592,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a37119b5dc1627a38710e8e5eabe1a77f">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00071">71</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00072">72</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1550,7 +1632,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a9d1563fd173596b73de85822a1ee4e41">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00056">56</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00057">57</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1590,7 +1672,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a287c0fca861ffe7bcff1eda13abab9d9">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00059">59</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00060">60</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1630,7 +1712,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a61aa2d334fdfde3fc61a23afcd5ee208">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00080">80</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00081">81</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1670,7 +1752,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a3405a90738f4fa890b4c7e8f969185f3">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00084">84</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1710,7 +1792,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ab89f4f6376ebffff20aba6b5f3a1a185">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00086">86</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00087">87</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1750,7 +1832,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a8cee684673aa3e4ae6a94a6df78d7f2d">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00092">92</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00093">93</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1790,7 +1872,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a6119454848d7ebf7636d8adf32715795">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00074">74</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00075">75</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1830,7 +1912,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#adbc8b39537b15648f3878a48ba9da8ce">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00077">77</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00078">78</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1870,7 +1952,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ae838ec503e9d9b25b37199fee2b8ce40">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00062">62</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00063">63</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1910,7 +1992,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ac75c9e1ae4f30d27caf6bd494d24b0fb">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00065">65</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00066">66</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx_source.html#l00123">Fun4AllSRawEventInputManager::E906ToE1039()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1950,7 +2032,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a0f6bef7f670ed6de0d80edf6d0134b3e">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00089">89</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00090">90</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -1990,7 +2072,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a8797b5b48dd823907ca694f857f1463c">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00095">95</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00096">96</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2030,7 +2112,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a275f04325321f474017514632653cacf">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00098">98</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00099">99</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2070,7 +2152,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a65999b3bf32357cd272da554fc06701e">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00101">101</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00102">102</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2110,7 +2192,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a43edb08f31e8260cd55a981a92bcb9d5">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00105">105</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2150,7 +2232,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a0bac9871da2e3f5274ee3b625a4738e3">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00107">107</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00108">108</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2200,7 +2282,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a5718f34dba1fceecab8c1a2fb4b991f4">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00044">44</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00045">45</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2250,7 +2332,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a9a482e34e7400fd6ace77ccb6e4806c7">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00050">50</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00051">51</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2290,7 +2372,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#aeea42fc4d90a0cb03978c2289f7abaa7">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00053">53</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00054">54</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2330,7 +2412,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a296bbe1045240c61e4a39043c2cd76db">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx_source.html#l00123">Fun4AllSRawEventInputManager::E906ToE1039()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2370,7 +2452,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#a1f626ecd4991f044c4b18dffcb2239cd">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00036">36</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2410,7 +2492,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/d96/classSQRun__v1.html#ab6611ff6400f08e086deadd14c431100">SQRun_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00038">38</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d59/SQRun_8h_source.html#l00039">39</a> of file <a class="el" href="../../de/d59/SQRun_8h_source.html">SQRun.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
@@ -2439,7 +2521,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/db7/classSQRun.html">SQRun</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

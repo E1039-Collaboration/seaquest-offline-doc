@@ -116,6 +116,9 @@ $(document).ready(function(){initNavTree('d7/d5e/classSQScaler.html','../../');}
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold the data of one scaler channel.  
+ <a href="../../d7/d5e/classSQScaler.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d0/dd5/SQScaler_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQScaler.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQScaler:</div>
@@ -160,14 +163,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5e18331777a44cdcdd7ca1415fd4e37f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual copy constructor.  <a href="#a5e18331777a44cdcdd7ca1415fd4e37f">More...</a><br/></td></tr>
 <tr class="separator:a5e18331777a44cdcdd7ca1415fd4e37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ebbdfe701904a33336a0fc156a23363"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d5e/classSQScaler.html#aabac272052094f55f60831b31929eacb">ScalerType_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#a7ebbdfe701904a33336a0fc156a23363">get_type</a> () const </td></tr>
+<tr class="memdesc:a7ebbdfe701904a33336a0fc156a23363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'BOS' or 'EOS' according to the timing when this channel was read out.  <a href="#a7ebbdfe701904a33336a0fc156a23363">More...</a><br/></td></tr>
 <tr class="separator:a7ebbdfe701904a33336a0fc156a23363"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb2cbc1dcc5e5b62f2e4061d25133dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#a1cb2cbc1dcc5e5b62f2e4061d25133dd">set_type</a> (const <a class="el" href="../../d7/d5e/classSQScaler.html#aabac272052094f55f60831b31929eacb">ScalerType_t</a> a)</td></tr>
 <tr class="separator:a1cb2cbc1dcc5e5b62f2e4061d25133dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39f6245aa038e3719479b7c47a334998"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#a39f6245aa038e3719479b7c47a334998">get_name</a> () const </td></tr>
+<tr class="memdesc:a39f6245aa038e3719479b7c47a334998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the name of this scaler channel.  <a href="#a39f6245aa038e3719479b7c47a334998">More...</a><br/></td></tr>
 <tr class="separator:a39f6245aa038e3719479b7c47a334998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab68cfc5f064a6eb42d8b7c22e48c8a8f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#ab68cfc5f064a6eb42d8b7c22e48c8a8f">set_name</a> (const std::string a)</td></tr>
 <tr class="separator:ab68cfc5f064a6eb42d8b7c22e48c8a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa89531f3f2209773b8f6517b0dd59748"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#aa89531f3f2209773b8f6517b0dd59748">get_count</a> () const </td></tr>
+<tr class="memdesc:aa89531f3f2209773b8f6517b0dd59748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the count of this scaler channel.  <a href="#aa89531f3f2209773b8f6517b0dd59748">More...</a><br/></td></tr>
 <tr class="separator:aa89531f3f2209773b8f6517b0dd59748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c7e553e831a6404576112406b608b12"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/classSQScaler.html#a6c7e553e831a6404576112406b608b12">set_count</a> (const int a)</td></tr>
 <tr class="separator:a6c7e553e831a6404576112406b608b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,8 +215,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:af0c040436018924000ec738ac4335642"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold the data of one scaler channel. </p>
+<p>A list of this objects is held by <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00015">15</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="aabac272052094f55f60831b31929eacb"></a>
 <div class="memitem">
@@ -230,7 +238,7 @@ Protected Member Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00013">13</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00017">17</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -256,7 +264,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00019">19</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00023">23</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +289,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00039">39</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00043">43</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -309,7 +317,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a87c02f3e3db663ae8212d80c92fa0714">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00028">28</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00032">32</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -342,7 +350,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#abbb21fabd72e3b525dbeb296911f95dc">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00029">29</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00033">33</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -369,9 +377,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the count of this scaler channel. </p>
+
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a7b640c5b69095f47cdb0a744cf998bb4">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00035">35</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00039">39</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -397,9 +407,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the name of this scaler channel. </p>
+
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#ad7c940527fa9d04cbb087c4b05ca9323">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00033">33</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -424,11 +436,13 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return 'BOS' or 'EOS' according to the timing when this channel was read out. </p>
+
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#ac0fe1d48e4b769fc827b42cbc03f3206">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00031">31</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00035">35</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
-<p>References <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00014">UNDEF</a>.</p>
+<p>References <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00018">UNDEF</a>.</p>
 
 </div>
 </div>
@@ -465,7 +479,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a77c013e44a02e77be066907e83bcdc08">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00023">23</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00027">27</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -496,7 +510,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#af3948d6841a398a7697a386297cf732a">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00027">27</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00031">31</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -527,7 +541,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a55bea7f662a406df235c0c402e7ba584">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00026">26</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00030">30</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -555,7 +569,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a2421966ca6274300ac8a0124b251709d">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00036">36</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00040">40</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +597,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a223df8ec2f8e9e4c2734d2ffc11eea58">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00034">34</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00038">38</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -611,7 +625,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d4/d64/classSQScaler__v1.html#a6889a314654ae6bf2292795d18dbbc9c">SQScaler_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00032">32</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/dd5/SQScaler_8h_source.html#l00036">36</a> of file <a class="el" href="../../d0/dd5/SQScaler_8h_source.html">SQScaler.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +642,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d5e/classSQScaler.html">SQScaler</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

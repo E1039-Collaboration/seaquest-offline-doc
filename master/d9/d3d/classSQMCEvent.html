@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d9/d3d/classSQMCEvent.html','../../');
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold one simulated-event header.  
+ <a href="../../d9/d3d/classSQMCEvent.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQMCEvent.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQMCEvent:</div>
@@ -148,22 +151,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a364a6bc8a27fa86122c920f1d921b98c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d3d/classSQMCEvent.html">SQMCEvent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#a364a6bc8a27fa86122c920f1d921b98c">Clone</a> () const =0</td></tr>
 <tr class="separator:a364a6bc8a27fa86122c920f1d921b98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcdcbb63b81c2baaa6480942b365fa41"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#adcdcbb63b81c2baaa6480942b365fa41">get_process_id</a> () const =0</td></tr>
+<tr class="memdesc:adcdcbb63b81c2baaa6480942b365fa41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the primary process ID.  <a href="#adcdcbb63b81c2baaa6480942b365fa41">More...</a><br/></td></tr>
 <tr class="separator:adcdcbb63b81c2baaa6480942b365fa41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefe2f09f1714387169a7007a53b96d4c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#aefe2f09f1714387169a7007a53b96d4c">set_process_id</a> (const int a)=0</td></tr>
 <tr class="separator:aefe2f09f1714387169a7007a53b96d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff2a1d1dd69ad3d846745d2704a88c48"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#aff2a1d1dd69ad3d846745d2704a88c48">get_cross_section</a> () const =0</td></tr>
+<tr class="memdesc:aff2a1d1dd69ad3d846745d2704a88c48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the cross section.  <a href="#aff2a1d1dd69ad3d846745d2704a88c48">More...</a><br/></td></tr>
 <tr class="separator:aff2a1d1dd69ad3d846745d2704a88c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6611251950549fa07087e44c9adf3ec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#af6611251950549fa07087e44c9adf3ec">set_cross_section</a> (const double a)=0</td></tr>
 <tr class="separator:af6611251950549fa07087e44c9adf3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab78c6d530c534ad2fdf44226ff6c5283"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#ab78c6d530c534ad2fdf44226ff6c5283">get_weight</a> () const =0</td></tr>
+<tr class="memdesc:ab78c6d530c534ad2fdf44226ff6c5283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the event weight.  <a href="#ab78c6d530c534ad2fdf44226ff6c5283">More...</a><br/></td></tr>
 <tr class="separator:ab78c6d530c534ad2fdf44226ff6c5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7413aadf0a2bf6ee3b33d685859938cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#a7413aadf0a2bf6ee3b33d685859938cf">set_weight</a> (const double a)=0</td></tr>
 <tr class="separator:a7413aadf0a2bf6ee3b33d685859938cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac86d1d777ee12938c5276d386e01bf0"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#aac86d1d777ee12938c5276d386e01bf0">get_particle_id</a> (const int i) const =0</td></tr>
+<tr class="memdesc:aac86d1d777ee12938c5276d386e01bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle ID of the primary process, where i=0...3 for "0 + 1 -&gt; 2 + 3".  <a href="#aac86d1d777ee12938c5276d386e01bf0">More...</a><br/></td></tr>
 <tr class="separator:aac86d1d777ee12938c5276d386e01bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c156147d8b8e8d70ef6aecf1966858"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#ab6c156147d8b8e8d70ef6aecf1966858">set_particle_id</a> (const int i, const int a)=0</td></tr>
 <tr class="separator:ab6c156147d8b8e8d70ef6aecf1966858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdcb62065764e520aa615a6a0bd5f7cd"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#acdcb62065764e520aa615a6a0bd5f7cd">get_particle_momentum</a> (const int i) const =0</td></tr>
+<tr class="memdesc:acdcb62065764e520aa615a6a0bd5f7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the particle momentum of the primary process, where i=0...3 for "0 + 1 -&gt; 2 + 3".  <a href="#acdcb62065764e520aa615a6a0bd5f7cd">More...</a><br/></td></tr>
 <tr class="separator:acdcb62065764e520aa615a6a0bd5f7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a33d82ffb78139476cf1d9dd5fe21b1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3d/classSQMCEvent.html#a9a33d82ffb78139476cf1d9dd5fe21b1">set_particle_momentum</a> (const int i, const TLorentzVector a)=0</td></tr>
 <tr class="separator:a9a33d82ffb78139476cf1d9dd5fe21b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -210,8 +218,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a10007199e7917a9a5d6041cb1f0145ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00007">7</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold one simulated-event header. </p>
+<p>It holds a set of variables that are peculiar to <em>simulated</em> event. All other variables that are common to <em>real</em> event are held by <a class="el" href="../../d9/dd7/classSQEvent.html" title="An SQ interface class to hold one event header. ">SQEvent</a>. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00012">12</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a7942c1c59764c76c0d84761882a1da95"></a>
 <div class="memitem">
@@ -234,7 +244,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00009">9</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00014">14</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +269,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00032">32</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html#l00037">37</a> of file <a class="el" href="../../d4/d54/SQMCEvent_8h_source.html">SQMCEvent.h</a>.</p>
 
 </div>
 </div>
@@ -344,6 +354,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the cross section. </p>
+
 <p>Implemented in <a class="el" href="../../d7/df6/classSQMCEvent__v1.html#a6befc923d4866a3f9b2abea282b783c7">SQMCEvent_v1</a>.</p>
 
 </div>
@@ -369,6 +381,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the particle ID of the primary process, where i=0...3 for "0 + 1 -&gt; 2 + 3". </p>
 
 <p>Implemented in <a class="el" href="../../d7/df6/classSQMCEvent__v1.html#abd78d0935bdd24387f4e3f899556c362">SQMCEvent_v1</a>.</p>
 
@@ -396,6 +410,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the particle momentum of the primary process, where i=0...3 for "0 + 1 -&gt; 2 + 3". </p>
+
 <p>Implemented in <a class="el" href="../../d7/df6/classSQMCEvent__v1.html#a8cd18d36ddb8901ee46ae475c04d6927">SQMCEvent_v1</a>.</p>
 
 </div>
@@ -421,6 +437,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the primary process ID. </p>
+
 <p>Implemented in <a class="el" href="../../d7/df6/classSQMCEvent__v1.html#aa1cda53e5838fb04c9c01f10600769ec">SQMCEvent_v1</a>.</p>
 
 </div>
@@ -445,6 +463,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the event weight. </p>
 
 <p>Implemented in <a class="el" href="../../d7/df6/classSQMCEvent__v1.html#a3781d9059beb3794f5b11ab99edcc5cd">SQMCEvent_v1</a>.</p>
 
@@ -742,7 +762,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/d3d/classSQMCEvent.html">SQMCEvent</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

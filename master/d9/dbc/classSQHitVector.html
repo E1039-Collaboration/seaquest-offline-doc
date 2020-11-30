@@ -116,6 +116,9 @@ $(document).ready(function(){initNavTree('d9/dbc/classSQHitVector.html','../../'
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold a list of <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> objects.  
+ <a href="../../d9/dbc/classSQHitVector.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../db/ddd/SQHitVector_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQHitVector.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQHitVector:</div>
@@ -222,8 +225,16 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:aea514ca662b7e364c64d29f084b7034f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00019">19</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold a list of <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> objects. </p>
+<p>Below is the standard way to find this object in "topNode" and loop over each hit; </p>
+<div class="fragment"><div class="line"><a class="code" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a>* hit_vec = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
+<div class="line"><span class="keywordflow">for</span> (<a class="code" href="../../d9/dbc/classSQHitVector.html#aab09d655321bec52564233584a2db222">SQHitVector::ConstIter</a> it = hit_vec-&gt;<a class="code" href="../../d9/dbc/classSQHitVector.html#a194d01789d543dd623068b46c450e434">begin</a>(); it != hit_vec-&gt;<a class="code" href="../../d9/dbc/classSQHitVector.html#afc94725c2663f4280cabaa5754a57f17">end</a>(); it++) {</div>
+<div class="line">  <a class="code" href="../../de/d79/classSQHit.html">SQHit</a>* hit = *it;</div>
+<div class="line">  <span class="keywordtype">int</span> det_id = hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33">get_detector_id</a>();</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>You can use utility functions defined in <a class="el" href="../../d0/dc5/namespaceUtilSQHit.html" title="A set of utility functions about SQHit. ">UtilSQHit</a> for more complicated manipulations. </p>
+
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00032">32</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="aab09d655321bec52564233584a2db222"></a>
 <div class="memitem">
@@ -235,7 +246,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00024">24</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">37</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +260,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00023">23</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00036">36</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -263,7 +274,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00025">25</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00038">38</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +300,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00027">27</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00040">40</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +325,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00052">52</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00065">65</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -343,9 +354,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a78c758dbe48ddd53c2da9d8fe742e1a1">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00040">40</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00053">53</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00030">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>, and <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">DPTriggerAnalyzer::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00047">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>, and <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">DPTriggerAnalyzer::process_event()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -383,7 +394,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a8b5a31e049b179b338e209c0f8a54d8a">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00041">41</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00054">54</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -412,9 +423,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a09c51aad798d57ebf122b33265272472">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00045">45</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00058">58</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00013">UtilSQHit::FindHits()</a>, <a class="el" href="../../dc/d86/CalibInTime_8cc_source.html#l00050">CalibInTime::process_event()</a>, and <a class="el" href="../../df/d30/CalibXT_8cc_source.html#l00050">CalibXT::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00024">UtilSQHit::FindHits()</a>, <a class="el" href="../../dc/d86/CalibInTime_8cc_source.html#l00050">CalibInTime::process_event()</a>, and <a class="el" href="../../df/d30/CalibXT_8cc_source.html#l00050">CalibXT::process_event()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -451,7 +462,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a9585850668040aceb9282db25e427983">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00061">61</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -478,9 +489,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a7d1f806d5934696dd7d0cf6daccb4a67">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00038">38</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00051">51</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00030">UtilSQHit::FindFirstHits()</a>, and <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00013">UtilSQHit::FindHits()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00047">UtilSQHit::FindFirstHits()</a>, and <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00024">UtilSQHit::FindHits()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -517,11 +528,11 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a7d0f4558850319f44c1e4d6ac2c75d31">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00034">34</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00047">47</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00030">UtilSQHit::FindFirstHits()</a>, and <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00013">UtilSQHit::FindHits()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00047">UtilSQHit::FindFirstHits()</a>, and <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00024">UtilSQHit::FindHits()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -558,7 +569,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a01c922fead06509795f235ea627140c5">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00036">36</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00049">49</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -585,9 +596,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a490c3b0c38cf057c394a876d1cb68488">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">59</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00013">UtilSQHit::FindHits()</a>, <a class="el" href="../../df/d30/CalibXT_8cc_source.html#l00050">CalibXT::process_event()</a>, <a class="el" href="../../dc/d86/CalibInTime_8cc_source.html#l00050">CalibInTime::process_event()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00024">UtilSQHit::FindHits()</a>, <a class="el" href="../../df/d30/CalibXT_8cc_source.html#l00050">CalibXT::process_event()</a>, <a class="el" href="../../dc/d86/CalibInTime_8cc_source.html#l00050">CalibInTime::process_event()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -624,7 +635,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a1d909a686e3860ed9a1ce45b8547b831">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00049">49</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00062">62</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -652,7 +663,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#ae35de1dba1953d75cdcf363842430ca5">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00043">43</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00056">56</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -689,7 +700,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#af9f4bdea43b2f37e481402c600bc3a15">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00029">29</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +731,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a04e72a8b762e7a0d093ec53562db0b23">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00033">33</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -748,9 +759,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#ab174f4a79074eb14883ac429aee2a35d">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00055">55</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00244">SQDigitizer::digitizeEMCal()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00152">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx_source.html#l00123">Fun4AllSRawEventInputManager::E906ToE1039()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00030">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00013">UtilSQHit::FindHits()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00244">SQDigitizer::digitizeEMCal()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00152">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx_source.html#l00123">Fun4AllSRawEventInputManager::E906ToE1039()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00047">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00024">UtilSQHit::FindHits()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00141">Fun4AllEVIOInputManager::run()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -791,7 +802,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#a83341fdbe1bf2afd12a25d0e27a68c3e">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00032">32</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00045">45</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
 </div>
 </div>
@@ -819,9 +830,9 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d9/dbf/classSQHitVector__v1.html#aa2c8e33eb5a12ee9dc4ba9c7f6d55c53">SQHitVector_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00037">37</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00050">50</a> of file <a class="el" href="../../db/ddd/SQHitVector_8h_source.html">SQHitVector.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00244">SQDigitizer::digitizeEMCal()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00152">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00030">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">DPTriggerAnalyzer::process_event()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00244">SQDigitizer::digitizeEMCal()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00152">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html#l00047">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">DPTriggerAnalyzer::process_event()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -848,7 +859,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

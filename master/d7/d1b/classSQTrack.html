@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d7/d1b/classSQTrack.html','../../');})
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold one true or reconstructed track.  
+ <a href="../../d7/d1b/classSQTrack.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d7/da7/SQTrack_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQTrack.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQTrack:</div>
@@ -148,42 +151,52 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aae4c8d2202096f26b51e0b2d0f9e13d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d1b/classSQTrack.html">SQTrack</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#aae4c8d2202096f26b51e0b2d0f9e13d0">Clone</a> () const =0</td></tr>
 <tr class="separator:aae4c8d2202096f26b51e0b2d0f9e13d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03de8a7a2e6437772da44913ed2427df"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a03de8a7a2e6437772da44913ed2427df">get_track_id</a> () const =0</td></tr>
+<tr class="memdesc:a03de8a7a2e6437772da44913ed2427df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID, which is unique per event(?).  <a href="#a03de8a7a2e6437772da44913ed2427df">More...</a><br/></td></tr>
 <tr class="separator:a03de8a7a2e6437772da44913ed2427df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a19d45d47f4346fc5dee8f96c007805"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a0a19d45d47f4346fc5dee8f96c007805">set_track_id</a> (const int a)=0</td></tr>
 <tr class="separator:a0a19d45d47f4346fc5dee8f96c007805"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a403c328f5b106a76ebd3cb4cd44dfba4">get_rec_track_id</a> () const =0</td></tr>
+<tr class="memdesc:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID of associated reconstructed track. Valid only if this object holds truth track info.  <a href="#a403c328f5b106a76ebd3cb4cd44dfba4">More...</a><br/></td></tr>
 <tr class="separator:a403c328f5b106a76ebd3cb4cd44dfba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd2f756557f0bc368b5607204c01eba5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#acd2f756557f0bc368b5607204c01eba5">set_rec_track_id</a> (const int a)=0</td></tr>
 <tr class="separator:acd2f756557f0bc368b5607204c01eba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a314678666c4468b687a6da3f832986aa"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a314678666c4468b687a6da3f832986aa">get_charge</a> () const =0</td></tr>
+<tr class="memdesc:a314678666c4468b687a6da3f832986aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the charge, i.e. +1 or -1.  <a href="#a314678666c4468b687a6da3f832986aa">More...</a><br/></td></tr>
 <tr class="separator:a314678666c4468b687a6da3f832986aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabbf42c5300211e3941132b6adb3c54a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#aabbf42c5300211e3941132b6adb3c54a">set_charge</a> (const int a)=0</td></tr>
 <tr class="separator:aabbf42c5300211e3941132b6adb3c54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41e0971f119cb52df03b57b576700471"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a41e0971f119cb52df03b57b576700471">get_num_hits</a> () const =0</td></tr>
+<tr class="memdesc:a41e0971f119cb52df03b57b576700471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of hits associated to this track.  <a href="#a41e0971f119cb52df03b57b576700471">More...</a><br/></td></tr>
 <tr class="separator:a41e0971f119cb52df03b57b576700471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e744eec12025e84f98a8f98d33b9aa7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a6e744eec12025e84f98a8f98d33b9aa7">set_num_hits</a> (const int a)=0</td></tr>
 <tr class="separator:a6e744eec12025e84f98a8f98d33b9aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a247e1764cbde039ea677fcad7181b9be"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a247e1764cbde039ea677fcad7181b9be">get_pos_vtx</a> () const =0</td></tr>
+<tr class="memdesc:a247e1764cbde039ea677fcad7181b9be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track position at vertex.  <a href="#a247e1764cbde039ea677fcad7181b9be">More...</a><br/></td></tr>
 <tr class="separator:a247e1764cbde039ea677fcad7181b9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2deaab835758990349bbde0ed9176edb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a2deaab835758990349bbde0ed9176edb">set_pos_vtx</a> (const TVector3 a)=0</td></tr>
 <tr class="separator:a2deaab835758990349bbde0ed9176edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af88fc2374026e4ca1894715705e10157"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#af88fc2374026e4ca1894715705e10157">get_pos_st1</a> () const =0</td></tr>
+<tr class="memdesc:af88fc2374026e4ca1894715705e10157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track position at Station 1.  <a href="#af88fc2374026e4ca1894715705e10157">More...</a><br/></td></tr>
 <tr class="separator:af88fc2374026e4ca1894715705e10157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82786d051362373ff79e91904805f13a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a82786d051362373ff79e91904805f13a">set_pos_st1</a> (const TVector3 a)=0</td></tr>
 <tr class="separator:a82786d051362373ff79e91904805f13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb28bde8b4bae68ac7eea9f3e3c2dffd"><td class="memItemLeft" align="right" valign="top">virtual TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#aeb28bde8b4bae68ac7eea9f3e3c2dffd">get_pos_st3</a> () const =0</td></tr>
+<tr class="memdesc:aeb28bde8b4bae68ac7eea9f3e3c2dffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track position at Station 3.  <a href="#aeb28bde8b4bae68ac7eea9f3e3c2dffd">More...</a><br/></td></tr>
 <tr class="separator:aeb28bde8b4bae68ac7eea9f3e3c2dffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99c21b03e36b8795c21f303be578c86e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a99c21b03e36b8795c21f303be578c86e">set_pos_st3</a> (const TVector3 a)=0</td></tr>
 <tr class="separator:a99c21b03e36b8795c21f303be578c86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a769675e6e32bc5e71c70752135a479e7"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a769675e6e32bc5e71c70752135a479e7">get_mom_vtx</a> () const =0</td></tr>
+<tr class="memdesc:a769675e6e32bc5e71c70752135a479e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track momentum at vertex.  <a href="#a769675e6e32bc5e71c70752135a479e7">More...</a><br/></td></tr>
 <tr class="separator:a769675e6e32bc5e71c70752135a479e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73f685d4a111c29d82afc9d8467c8118"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#a73f685d4a111c29d82afc9d8467c8118">set_mom_vtx</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:a73f685d4a111c29d82afc9d8467c8118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d5a941243c05fffc0f09c36eeee4bf"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#ad7d5a941243c05fffc0f09c36eeee4bf">get_mom_st1</a> () const =0</td></tr>
+<tr class="memdesc:ad7d5a941243c05fffc0f09c36eeee4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track momentum at Station 1.  <a href="#ad7d5a941243c05fffc0f09c36eeee4bf">More...</a><br/></td></tr>
 <tr class="separator:ad7d5a941243c05fffc0f09c36eeee4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf58bc9caabc820970f66c17f955105e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#abf58bc9caabc820970f66c17f955105e">set_mom_st1</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:abf58bc9caabc820970f66c17f955105e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd0f5125ab7bbc67abdcdef467804171"><td class="memItemLeft" align="right" valign="top">virtual TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#afd0f5125ab7bbc67abdcdef467804171">get_mom_st3</a> () const =0</td></tr>
+<tr class="memdesc:afd0f5125ab7bbc67abdcdef467804171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track momentum at Station 3.  <a href="#afd0f5125ab7bbc67abdcdef467804171">More...</a><br/></td></tr>
 <tr class="separator:afd0f5125ab7bbc67abdcdef467804171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9ed34f1c11ac26391493b80b3c2225c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1b/classSQTrack.html#af9ed34f1c11ac26391493b80b3c2225c">set_mom_st3</a> (const TLorentzVector a)=0</td></tr>
 <tr class="separator:af9ed34f1c11ac26391493b80b3c2225c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,8 +261,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a6a3185666df71a57755987b939258ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00007">7</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold one true or reconstructed track. </p>
+
+<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00008">8</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a05451b2162cbbdb3240082cf071fd447"></a>
 <div class="memitem">
@@ -272,7 +286,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00009">9</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00010">10</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
 
 </div>
 </div>
@@ -297,7 +311,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00060">60</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da7/SQTrack_8h_source.html#l00061">61</a> of file <a class="el" href="../../d7/da7/SQTrack_8h_source.html">SQTrack.h</a>.</p>
 
 </div>
 </div>
@@ -393,6 +407,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the charge, i.e. +1 or -1. </p>
 
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a2d16806637dfacffa1137a80791b030c">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac78e01cee8827be233e9739b6d8ab905">SQTrack_v1</a>.</p>
 
@@ -582,6 +598,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track momentum at Station 1. </p>
+
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a19fc5b492eb3a10a13faf0d311e5016b">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a943761687acc117ae50664b3dd3868f1">SQTrack_v1</a>.</p>
 
 </div>
@@ -606,6 +624,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the track momentum at Station 3. </p>
 
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aab5a59e4c239aedfbd8a3f23a2ee69de">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ac9f93fea9bf786eb1a8e5549e1c17c04">SQTrack_v1</a>.</p>
 
@@ -657,6 +677,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track momentum at vertex. </p>
+
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a5c06300c91da8e45f7b41a097d1d41d0">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#ae3e554619d6448e07b80561b9f5fface">SQTrack_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
@@ -693,6 +715,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the number of hits associated to this track. </p>
 
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#ab9a04133fcd51d78a50f8bf2a4d800cf">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#aad900dde567a7157fd19e661f4966a49">SQTrack_v1</a>.</p>
 
@@ -744,6 +768,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track position at Station 1. </p>
+
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aca51cb0c9f5264f511e91272ac96d2cb">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a4928535693f29f7f23fb5ab6b71cae8f">SQTrack_v1</a>.</p>
 
 </div>
@@ -768,6 +794,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the track position at Station 3. </p>
 
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#afdae37656d15cd0478310026592ae291">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a8c2d066d5cc04f81b99596bdfe4c970d">SQTrack_v1</a>.</p>
 
@@ -819,6 +847,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track position at vertex. </p>
+
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aa603e3ae62bd833a393c706239d4956d">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#addcc2419134fb6880b765d739a9272d7">SQTrack_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, and <a class="el" href="../../df/da0/TruthNodeMaker_8cc_source.html#l00070">TruthNodeMaker::process_event()</a>.</p>
@@ -856,6 +886,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track ID of associated reconstructed track. Valid only if this object holds truth track info. </p>
+
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#aae335b077676d4c3130d0c0e7352f36f">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a988c605a52986820c21ad110cf4389d8">SQTrack_v1</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>.</p>
@@ -892,6 +924,8 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the track ID, which is unique per event(?). </p>
 
 <p>Implemented in <a class="el" href="../../d6/db1/classSRecTrack.html#a0c92c723c2dde93ceb447b208f89427a">SRecTrack</a>, and <a class="el" href="../../d6/d88/classSQTrack__v1.html#a0c22189b7b40029a93e260013fcb47e2">SQTrack_v1</a>.</p>
 
@@ -1347,7 +1381,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d1b/classSQTrack.html">SQTrack</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

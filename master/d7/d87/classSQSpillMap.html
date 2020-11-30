@@ -116,6 +116,9 @@ $(document).ready(function(){initNavTree('d7/d87/classSQSpillMap.html','../../')
 </div><!--header-->
 <div class="contents">
 
+<p>An SQ interface class to hold a list of <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> objects.  
+ <a href="../../d7/d87/classSQSpillMap.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../db/d81/SQSpillMap_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/interface_main/SQSpillMap.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for SQSpillMap:</div>
@@ -161,32 +164,46 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adee2ec0e453ecbfdedc864e39457a53e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html">SQSpillMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#adee2ec0e453ecbfdedc864e39457a53e">Clone</a> () const </td></tr>
 <tr class="separator:adee2ec0e453ecbfdedc864e39457a53e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d7c32a7f93feb9171c1b046a20064f1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a8d7c32a7f93feb9171c1b046a20064f1">empty</a> () const </td></tr>
+<tr class="memdesc:a8d7c32a7f93feb9171c1b046a20064f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if this object holds no spill.  <a href="#a8d7c32a7f93feb9171c1b046a20064f1">More...</a><br/></td></tr>
 <tr class="separator:a8d7c32a7f93feb9171c1b046a20064f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1507f47c531d69efe1b717d3b035f06"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#ad1507f47c531d69efe1b717d3b035f06">size</a> () const </td></tr>
+<tr class="memdesc:ad1507f47c531d69efe1b717d3b035f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of spills held.  <a href="#ad1507f47c531d69efe1b717d3b035f06">More...</a><br/></td></tr>
 <tr class="separator:ad1507f47c531d69efe1b717d3b035f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ebfce770623bb24bf8096354edcb268"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a7ebfce770623bb24bf8096354edcb268">count</a> (unsigned int idkey) const </td></tr>
+<tr class="memdesc:a7ebfce770623bb24bf8096354edcb268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of spills having spill ID = 'idkey'. Must be '0' or '1'.  <a href="#a7ebfce770623bb24bf8096354edcb268">More...</a><br/></td></tr>
 <tr class="separator:a7ebfce770623bb24bf8096354edcb268"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae710de29703100a3abfec3bd40e5fc34"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#ae710de29703100a3abfec3bd40e5fc34">clear</a> ()</td></tr>
+<tr class="memdesc:ae710de29703100a3abfec3bd40e5fc34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the list.  <a href="#ae710de29703100a3abfec3bd40e5fc34">More...</a><br/></td></tr>
 <tr class="separator:ae710de29703100a3abfec3bd40e5fc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1351e39720be4745cbed2b2a1f0f33ea"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a1351e39720be4745cbed2b2a1f0f33ea">get</a> (unsigned int idkey) const </td></tr>
+<tr class="memdesc:a1351e39720be4745cbed2b2a1f0f33ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. Return '0' if no entry exists.  <a href="#a1351e39720be4745cbed2b2a1f0f33ea">More...</a><br/></td></tr>
 <tr class="separator:a1351e39720be4745cbed2b2a1f0f33ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3213ec4122e6adf28194cfe6adc472b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a3213ec4122e6adf28194cfe6adc472b3">get</a> (unsigned int idkey)</td></tr>
+<tr class="memdesc:a3213ec4122e6adf28194cfe6adc472b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. Return '0' if no entry exists.  <a href="#a3213ec4122e6adf28194cfe6adc472b3">More...</a><br/></td></tr>
 <tr class="separator:a3213ec4122e6adf28194cfe6adc472b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5c7b26a3807941f36d12dce0de37ad7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#ab5c7b26a3807941f36d12dce0de37ad7">insert</a> (const <a class="el" href="../../d0/d78/classSQSpill.html">SQSpill</a> *hit)</td></tr>
+<tr class="memdesc:ab5c7b26a3807941f36d12dce0de37ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert the given <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> object.  <a href="#ab5c7b26a3807941f36d12dce0de37ad7">More...</a><br/></td></tr>
 <tr class="separator:ab5c7b26a3807941f36d12dce0de37ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6275f3f7e9610d84ef77939c00bd9649"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a6275f3f7e9610d84ef77939c00bd9649">erase</a> (unsigned int idkey)</td></tr>
+<tr class="memdesc:a6275f3f7e9610d84ef77939c00bd9649"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'.  <a href="#a6275f3f7e9610d84ef77939c00bd9649">More...</a><br/></td></tr>
 <tr class="separator:a6275f3f7e9610d84ef77939c00bd9649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ee6a948b8f4f3c7d004df6ba314ccf9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612">ConstIter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a4ee6a948b8f4f3c7d004df6ba314ccf9">begin</a> () const </td></tr>
+<tr class="memdesc:a4ee6a948b8f4f3c7d004df6ba314ccf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the const begin iterator.  <a href="#a4ee6a948b8f4f3c7d004df6ba314ccf9">More...</a><br/></td></tr>
 <tr class="separator:a4ee6a948b8f4f3c7d004df6ba314ccf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeba06d7be1fb20ef5d49b50d5c4ea5f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612">ConstIter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#abeba06d7be1fb20ef5d49b50d5c4ea5f">find</a> (unsigned int idkey) const </td></tr>
+<tr class="memdesc:abeba06d7be1fb20ef5d49b50d5c4ea5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the const iterator of the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'.  <a href="#abeba06d7be1fb20ef5d49b50d5c4ea5f">More...</a><br/></td></tr>
 <tr class="separator:abeba06d7be1fb20ef5d49b50d5c4ea5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fa54b36f801c37bcb4982ba9c4fc094"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a55a9f792a1b30441257e41c431816612">ConstIter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a4fa54b36f801c37bcb4982ba9c4fc094">end</a> () const </td></tr>
+<tr class="memdesc:a4fa54b36f801c37bcb4982ba9c4fc094"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the const end iterator.  <a href="#a4fa54b36f801c37bcb4982ba9c4fc094">More...</a><br/></td></tr>
 <tr class="separator:a4fa54b36f801c37bcb4982ba9c4fc094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0e7e85ff2c230619d13394e14f9195"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a7b0e7e85ff2c230619d13394e14f9195">begin</a> ()</td></tr>
+<tr class="memdesc:a7b0e7e85ff2c230619d13394e14f9195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the begin iterator.  <a href="#a7b0e7e85ff2c230619d13394e14f9195">More...</a><br/></td></tr>
 <tr class="separator:a7b0e7e85ff2c230619d13394e14f9195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09598c85d80d6173b1f81ae3146e2ec6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a09598c85d80d6173b1f81ae3146e2ec6">find</a> (unsigned int idkey)</td></tr>
+<tr class="memdesc:a09598c85d80d6173b1f81ae3146e2ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the iterator of the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'.  <a href="#a09598c85d80d6173b1f81ae3146e2ec6">More...</a><br/></td></tr>
 <tr class="separator:a09598c85d80d6173b1f81ae3146e2ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0de469fc0223464f299b07db1711159f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d87/classSQSpillMap.html#a9132b74a1d4fb2434969e8028f2c5641">Iter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d87/classSQSpillMap.html#a0de469fc0223464f299b07db1711159f">end</a> ()</td></tr>
+<tr class="memdesc:a0de469fc0223464f299b07db1711159f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the end iterator.  <a href="#a0de469fc0223464f299b07db1711159f">More...</a><br/></td></tr>
 <tr class="separator:a0de469fc0223464f299b07db1711159f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classPHObject"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classPHObject')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d24/classPHObject.html">PHObject</a></td></tr>
 <tr class="memitem:a0bec945eff2555869b529ddfd5dee556 inherit pub_methods_classPHObject"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d24/classPHObject.html#a0bec945eff2555869b529ddfd5dee556">PHObject</a> ()</td></tr>
@@ -229,8 +246,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:abc2908862e3f444dceab32b570991c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00018">18</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<div class="textblock"><p>An SQ interface class to hold a list of <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> objects. </p>
+
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00019">19</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a55a9f792a1b30441257e41c431816612"></a>
 <div class="memitem">
@@ -242,7 +260,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00023">23</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00024">24</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -256,7 +274,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00024">24</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00025">25</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -270,7 +288,7 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00022">22</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00023">23</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -296,7 +314,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00026">26</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00027">27</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -321,7 +339,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00054">54</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00055">55</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -347,9 +365,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the const begin iterator. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#aa677a6cadcc655da8cffb51e4c96c725">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00045">45</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -374,9 +394,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the begin iterator. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#ac79f51f7f630fc56b5458ba043fe9921">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00049">49</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00050">50</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -401,9 +423,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Clear the list. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#afb994a3a65c475d0f97e430589366712">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00038">38</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00039">39</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -430,7 +454,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a058ad60e1037de5f4379619286eedf00">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00033">33</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00034">34</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -458,9 +482,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of spills having spill ID = 'idkey'. Must be '0' or '1'. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#aec0a217189303e5267720d42f2fae36e">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00037">37</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00038">38</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -485,9 +511,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return 'true' if this object holds no spill. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a180cda61118ff37ab5de1bd58bce5c50">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00035">35</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00036">36</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -512,9 +540,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the const end iterator. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00047">47</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00048">48</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -539,9 +569,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the end iterator. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a6cc69615467444f3021b6aa25df3b39b">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00051">51</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00052">52</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -567,9 +599,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Erase the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a52f9259870b0452ab8108f4d2b97fbc2">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00043">43</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00044">44</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -595,9 +629,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the const iterator of the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#ab9e10194e62aa24d8f48c728a8e4d7f1">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00047">47</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -623,9 +659,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the iterator of the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a53b60ec3b212eb91d8360095c46cfe61">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00050">50</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00051">51</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -651,9 +689,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. Return '0' if no entry exists. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#adaceb5662f5219e689064e1d8c5a7383">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00040">40</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00041">41</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -693,9 +733,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> entry having spill ID = 'idkey'. Return '0' if no entry exists. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a36db572e54c2c6b01dc04d5f7b26dba3">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00041">41</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -734,7 +776,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a0dc1c791e1674c79cd463478889464cf">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00028">28</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00029">29</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -760,9 +802,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Insert the given <a class="el" href="../../d0/d78/classSQSpill.html" title="An SQ interface class to hold the data of one spill. ">SQSpill</a> object. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#ad049891b6661863aedd66e0fb5b35678">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00043">43</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 <p>References <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
@@ -807,7 +851,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a962ee8dd235d667a8db78bcd4afba4e6">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00032">32</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00033">33</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -838,7 +882,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00031">31</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00032">32</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 </div>
 </div>
@@ -864,9 +908,11 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the number of spills held. </p>
+
 <p>Reimplemented in <a class="el" href="../../df/de1/classSQSpillMap__v1.html#a99b8e528c40ce7825c6f1d76f3c1682f">SQSpillMap_v1</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00036">36</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d81/SQSpillMap_8h_source.html#l00037">37</a> of file <a class="el" href="../../db/d81/SQSpillMap_8h_source.html">SQSpillMap.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx_source.html#l00123">Fun4AllSRawEventInputManager::E906ToE1039()</a>.</p>
 
@@ -895,7 +941,7 @@ Protected Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d87/classSQSpillMap.html">SQSpillMap</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

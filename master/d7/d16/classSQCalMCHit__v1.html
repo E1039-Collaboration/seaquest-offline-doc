@@ -149,6 +149,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a02774108eba5747284570e2a48ae1e4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d79/classSQHit.html">SQHit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a02774108eba5747284570e2a48ae1e4f">Clone</a> () const </td></tr>
 <tr class="separator:a02774108eba5747284570e2a48ae1e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a531294b9326676e7fd23b2df87e84c52"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a531294b9326676e7fd23b2df87e84c52">get_track_id</a> () const </td></tr>
+<tr class="memdesc:a531294b9326676e7fd23b2df87e84c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the track ID associated with this hit. Probably the value is not properly set at present.  <a href="#a531294b9326676e7fd23b2df87e84c52">More...</a><br/></td></tr>
 <tr class="separator:a531294b9326676e7fd23b2df87e84c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a956faefc76344cf2be71333ad69b19f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a956faefc76344cf2be71333ad69b19f9">set_track_id</a> (const int a)</td></tr>
 <tr class="separator:a956faefc76344cf2be71333ad69b19f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,30 +158,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b8c6bb00c7e08e634a91607e388b0e4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a9b8c6bb00c7e08e634a91607e388b0e4">set_shower_id</a> (const int a)</td></tr>
 <tr class="separator:a9b8c6bb00c7e08e634a91607e388b0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a34a192c5ebd9b00d92a9d888789cf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../da/dd0/namespacePHG4HitDefs.html#af3fcd3e3e6ae7239b1634383b1268666">PHG4HitDefs::keytype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a36a34a192c5ebd9b00d92a9d888789cf">get_g4hit_id</a> () const </td></tr>
+<tr class="memdesc:a36a34a192c5ebd9b00d92a9d888789cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Geant-hit ID associated with this hit.  <a href="#a36a34a192c5ebd9b00d92a9d888789cf">More...</a><br/></td></tr>
 <tr class="separator:a36a34a192c5ebd9b00d92a9d888789cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabf3756152dba82b0a9b90949687e370"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#aabf3756152dba82b0a9b90949687e370">set_g4hit_id</a> (const <a class="el" href="../../da/dd0/namespacePHG4HitDefs.html#af3fcd3e3e6ae7239b1634383b1268666">PHG4HitDefs::keytype</a> a)</td></tr>
 <tr class="separator:aabf3756152dba82b0a9b90949687e370"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af578f455ac87682d08bd5ef6f24f952c"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#af578f455ac87682d08bd5ef6f24f952c">get_truth_x</a> () const </td></tr>
+<tr class="memdesc:af578f455ac87682d08bd5ef6f24f952c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true x-position of this hit. Meaningful only if this hit is of MC.  <a href="#af578f455ac87682d08bd5ef6f24f952c">More...</a><br/></td></tr>
 <tr class="separator:af578f455ac87682d08bd5ef6f24f952c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec9c4004e6f5bda52c0b8ba826a8a1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#aeec9c4004e6f5bda52c0b8ba826a8a1a">set_truth_x</a> (const float a)</td></tr>
 <tr class="separator:aeec9c4004e6f5bda52c0b8ba826a8a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a483ba81c1955c3f5d81c4524fce2e022"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a483ba81c1955c3f5d81c4524fce2e022">get_truth_y</a> () const </td></tr>
+<tr class="memdesc:a483ba81c1955c3f5d81c4524fce2e022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true y-position of this hit. Meaningful only if this hit is of MC.  <a href="#a483ba81c1955c3f5d81c4524fce2e022">More...</a><br/></td></tr>
 <tr class="separator:a483ba81c1955c3f5d81c4524fce2e022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c8d94e0f9d3707104fae8a1aee3d5c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a1c8d94e0f9d3707104fae8a1aee3d5c7">set_truth_y</a> (const float a)</td></tr>
 <tr class="separator:a1c8d94e0f9d3707104fae8a1aee3d5c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5dedbc4027a7d74ca518de8cd40012b0"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a5dedbc4027a7d74ca518de8cd40012b0">get_truth_z</a> () const </td></tr>
+<tr class="memdesc:a5dedbc4027a7d74ca518de8cd40012b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true z-position of this hit. Meaningful only if this hit is of MC.  <a href="#a5dedbc4027a7d74ca518de8cd40012b0">More...</a><br/></td></tr>
 <tr class="separator:a5dedbc4027a7d74ca518de8cd40012b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55400749a4b081e6f17f996ddf5c077c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a55400749a4b081e6f17f996ddf5c077c">set_truth_z</a> (const float a)</td></tr>
 <tr class="separator:a55400749a4b081e6f17f996ddf5c077c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac717679287bc49c178efba103aaf4a39"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#ac717679287bc49c178efba103aaf4a39">get_truth_px</a> () const </td></tr>
+<tr class="memdesc:ac717679287bc49c178efba103aaf4a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true x-momentum of this hit. Meaningful only if this hit is of MC.  <a href="#ac717679287bc49c178efba103aaf4a39">More...</a><br/></td></tr>
 <tr class="separator:ac717679287bc49c178efba103aaf4a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a9b49c73ec4b9075d3969e88354822a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a4a9b49c73ec4b9075d3969e88354822a">set_truth_px</a> (const float a)</td></tr>
 <tr class="separator:a4a9b49c73ec4b9075d3969e88354822a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86ad227942d24497431ce5bee5ce784a"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a86ad227942d24497431ce5bee5ce784a">get_truth_py</a> () const </td></tr>
+<tr class="memdesc:a86ad227942d24497431ce5bee5ce784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true y-momentum of this hit. Meaningful only if this hit is of MC.  <a href="#a86ad227942d24497431ce5bee5ce784a">More...</a><br/></td></tr>
 <tr class="separator:a86ad227942d24497431ce5bee5ce784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54c0af44451f6ad75ba395c84476d745"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a54c0af44451f6ad75ba395c84476d745">set_truth_py</a> (const float a)</td></tr>
 <tr class="separator:a54c0af44451f6ad75ba395c84476d745"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1e2acc92a4742210545671595f54b2d"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#ab1e2acc92a4742210545671595f54b2d">get_truth_pz</a> () const </td></tr>
+<tr class="memdesc:ab1e2acc92a4742210545671595f54b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the true z-momentum of this hit. Meaningful only if this hit is of MC.  <a href="#ab1e2acc92a4742210545671595f54b2d">More...</a><br/></td></tr>
 <tr class="separator:ab1e2acc92a4742210545671595f54b2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab5980bf1f235d2c14b16cba39e86c0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html#a3ab5980bf1f235d2c14b16cba39e86c0">set_truth_pz</a> (const float a)</td></tr>
 <tr class="separator:a3ab5980bf1f235d2c14b16cba39e86c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,28 +198,35 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad018f65519c217d1c078fb9f1aa36f5e inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#ad018f65519c217d1c078fb9f1aa36f5e">~SQCalHit_v1</a> ()</td></tr>
 <tr class="separator:ad018f65519c217d1c078fb9f1aa36f5e inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6c546969a5ddaddfe4a8125cc6cee1 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#aef6c546969a5ddaddfe4a8125cc6cee1">get_hit_id</a> () const </td></tr>
+<tr class="memdesc:aef6c546969a5ddaddfe4a8125cc6cee1 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the ID of this hit.  <a href="#aef6c546969a5ddaddfe4a8125cc6cee1">More...</a><br/></td></tr>
 <tr class="separator:aef6c546969a5ddaddfe4a8125cc6cee1 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b944403be4ce222cf29e1f4d262800b inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#a8b944403be4ce222cf29e1f4d262800b">set_hit_id</a> (const int a)</td></tr>
 <tr class="separator:a8b944403be4ce222cf29e1f4d262800b inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea96dc92777f3b75953ee93566b8aa32 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#aea96dc92777f3b75953ee93566b8aa32">get_detector_id</a> () const </td></tr>
+<tr class="memdesc:aea96dc92777f3b75953ee93566b8aa32 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the detector ID of this hit.  <a href="#aea96dc92777f3b75953ee93566b8aa32">More...</a><br/></td></tr>
 <tr class="separator:aea96dc92777f3b75953ee93566b8aa32 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb11c77a1b2eb1985f9af7b2cbf51720 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#aeb11c77a1b2eb1985f9af7b2cbf51720">set_detector_id</a> (const short a)</td></tr>
 <tr class="separator:aeb11c77a1b2eb1985f9af7b2cbf51720 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5959d7681920685c4ded16f66d9fea7 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#ab5959d7681920685c4ded16f66d9fea7">get_element_id</a> () const </td></tr>
+<tr class="memdesc:ab5959d7681920685c4ded16f66d9fea7 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the element ID of this hit.  <a href="#ab5959d7681920685c4ded16f66d9fea7">More...</a><br/></td></tr>
 <tr class="separator:ab5959d7681920685c4ded16f66d9fea7 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98e855863129b8c7d210bbd60ef1eb61 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#a98e855863129b8c7d210bbd60ef1eb61">set_element_id</a> (const short id)</td></tr>
 <tr class="separator:a98e855863129b8c7d210bbd60ef1eb61 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff053ad02840acce8b823b0a1760b723 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#aff053ad02840acce8b823b0a1760b723">get_tower_id</a> () const </td></tr>
+<tr class="memdesc:aff053ad02840acce8b823b0a1760b723 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not valid in E1039. To be deleted.  <a href="#aff053ad02840acce8b823b0a1760b723">More...</a><br/></td></tr>
 <tr class="separator:aff053ad02840acce8b823b0a1760b723 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf9e1f24f4a30ea56e718bc79268e26b inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#abf9e1f24f4a30ea56e718bc79268e26b">set_tower_id</a> (const short id)</td></tr>
 <tr class="separator:abf9e1f24f4a30ea56e718bc79268e26b inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d1c21165c1c886620b40d38d95039a3 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#a5d1c21165c1c886620b40d38d95039a3">get_edep</a> () const </td></tr>
+<tr class="memdesc:a5d1c21165c1c886620b40d38d95039a3 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Not valid in E1039. To be deleted.  <a href="#a5d1c21165c1c886620b40d38d95039a3">More...</a><br/></td></tr>
 <tr class="separator:a5d1c21165c1c886620b40d38d95039a3 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a332d769cf4f79daa4abcc335cd30c7f8 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#a332d769cf4f79daa4abcc335cd30c7f8">set_edep</a> (const float a)</td></tr>
 <tr class="separator:a332d769cf4f79daa4abcc335cd30c7f8 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345475063170ecb170f5728907b0c8b3 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#a345475063170ecb170f5728907b0c8b3">get_n_cells</a> () const </td></tr>
+<tr class="memdesc:a345475063170ecb170f5728907b0c8b3 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the number of cells included in this hit.  <a href="#a345475063170ecb170f5728907b0c8b3">More...</a><br/></td></tr>
 <tr class="separator:a345475063170ecb170f5728907b0c8b3 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae333fd5622a0299d7fdaf10d0fd8c1b1 inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../de/d79/classSQHit.html#ac669f7f841a38994a52c86ac6220bf40">CellMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#ae333fd5622a0299d7fdaf10d0fd8c1b1">get_cells</a> () const </td></tr>
+<tr class="memdesc:ae333fd5622a0299d7fdaf10d0fd8c1b1 inherit pub_methods_classSQCalHit__v1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the list of all cells included in this hit.  <a href="#ae333fd5622a0299d7fdaf10d0fd8c1b1">More...</a><br/></td></tr>
 <tr class="separator:ae333fd5622a0299d7fdaf10d0fd8c1b1 inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac13e06106040f91fa102cdab8c9dfafb inherit pub_methods_classSQCalHit__v1"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db1/classSQCalHit__v1.html#ac13e06106040f91fa102cdab8c9dfafb">get_cell</a> (short i) const </td></tr>
 <tr class="separator:ac13e06106040f91fa102cdab8c9dfafb inherit pub_methods_classSQCalHit__v1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,34 +238,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d8575ef257b3f3da6335b5c79091fc4 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a1d8575ef257b3f3da6335b5c79091fc4">~SQHit</a> ()</td></tr>
 <tr class="separator:a1d8575ef257b3f3da6335b5c79091fc4 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13aacfea8dac7c8772a17601e758081e inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a13aacfea8dac7c8772a17601e758081e">get_level</a> () const </td></tr>
+<tr class="memdesc:a13aacfea8dac7c8772a17601e758081e inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the trigger level of this hit. Meaningful only if this hit is of V1495 TDC.  <a href="#a13aacfea8dac7c8772a17601e758081e">More...</a><br/></td></tr>
 <tr class="separator:a13aacfea8dac7c8772a17601e758081e inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e73d45e2d8dba08e564b78ca78702b2 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a4e73d45e2d8dba08e564b78ca78702b2">set_level</a> (const short a)</td></tr>
 <tr class="separator:a4e73d45e2d8dba08e564b78ca78702b2 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeba3ae619e5aaf5da416508413dd5e47 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#aeba3ae619e5aaf5da416508413dd5e47">get_tdc_time</a> () const </td></tr>
+<tr class="memdesc:aeba3ae619e5aaf5da416508413dd5e47 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the TDC time (nsec) of this hit.  <a href="#aeba3ae619e5aaf5da416508413dd5e47">More...</a><br/></td></tr>
 <tr class="separator:aeba3ae619e5aaf5da416508413dd5e47 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b0e74b024716ff77dcec3f480f2434b inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b">set_tdc_time</a> (const float a)</td></tr>
 <tr class="separator:a9b0e74b024716ff77dcec3f480f2434b inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab506d06da719529a43b1210c758f379 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#aab506d06da719529a43b1210c758f379">get_drift_distance</a> () const </td></tr>
+<tr class="memdesc:aab506d06da719529a43b1210c758f379 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the drift distance of this hit. Probably the value is not properly set at present. Meaningful only if this hit is of drift chamber or prop tube.  <a href="#aab506d06da719529a43b1210c758f379">More...</a><br/></td></tr>
 <tr class="separator:aab506d06da719529a43b1210c758f379 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a04a2324c69db1a38fa0b19040b361 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361">set_drift_distance</a> (const float a)</td></tr>
 <tr class="separator:ac4a04a2324c69db1a38fa0b19040b361 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2560a11b54287b55ec70196fc416b573 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a2560a11b54287b55ec70196fc416b573">get_pos</a> () const </td></tr>
+<tr class="memdesc:a2560a11b54287b55ec70196fc416b573 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the absolute position of this hit. Probably the value is not properly set at present.  <a href="#a2560a11b54287b55ec70196fc416b573">More...</a><br/></td></tr>
 <tr class="separator:a2560a11b54287b55ec70196fc416b573 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7549b98c01465679c34eedaab71381e6 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6">set_pos</a> (const float a)</td></tr>
 <tr class="separator:a7549b98c01465679c34eedaab71381e6 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bfb493c5b0f24384c319c2a0a7b448 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a19bfb493c5b0f24384c319c2a0a7b448">is_in_time</a> () const </td></tr>
+<tr class="memdesc:a19bfb493c5b0f24384c319c2a0a7b448 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if this hit is in the time window.  <a href="#a19bfb493c5b0f24384c319c2a0a7b448">More...</a><br/></td></tr>
 <tr class="separator:a19bfb493c5b0f24384c319c2a0a7b448 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af76759313e6258d1a2c526591ef79aa6 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6">set_in_time</a> (const bool a)</td></tr>
 <tr class="separator:af76759313e6258d1a2c526591ef79aa6 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a502d7c63d7502ca8d7656712a94240bc inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a502d7c63d7502ca8d7656712a94240bc">is_hodo_mask</a> () const </td></tr>
+<tr class="memdesc:a502d7c63d7502ca8d7656712a94240bc inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if this hit is accepted (or masked out?) by the hodoscope masking. Meaningful only if this hit is of drift chamber.  <a href="#a502d7c63d7502ca8d7656712a94240bc">More...</a><br/></td></tr>
 <tr class="separator:a502d7c63d7502ca8d7656712a94240bc inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7ef5cd97220b7bec19f37db5e2875b3 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3">set_hodo_mask</a> (const bool a)</td></tr>
 <tr class="separator:ab7ef5cd97220b7bec19f37db5e2875b3 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d3a7a45962965ba87d43190aff68cc4 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a4d3a7a45962965ba87d43190aff68cc4">is_trigger_mask</a> () const </td></tr>
+<tr class="memdesc:a4d3a7a45962965ba87d43190aff68cc4 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return 'true' if this hit is accepted (or masked out?) by the trigger-road masking. Meaningful only if this hit is of drift chamber.  <a href="#a4d3a7a45962965ba87d43190aff68cc4">More...</a><br/></td></tr>
 <tr class="separator:a4d3a7a45962965ba87d43190aff68cc4 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a8924314c3d2a19915df9f18866c83b inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a9a8924314c3d2a19915df9f18866c83b">set_trigger_mask</a> (const bool a)</td></tr>
 <tr class="separator:a9a8924314c3d2a19915df9f18866c83b inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c10bafc970cef7c6c1087288a3ddbd4 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a3c10bafc970cef7c6c1087288a3ddbd4">get_cell</a> (unsigned int i) const </td></tr>
+<tr class="memdesc:a3c10bafc970cef7c6c1087288a3ddbd4 inherit pub_methods_classSQHit"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the 'edep' value of the i-th cell.  <a href="#a3c10bafc970cef7c6c1087288a3ddbd4">More...</a><br/></td></tr>
 <tr class="separator:a3c10bafc970cef7c6c1087288a3ddbd4 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a465174aa658e0bce1ddea0c2929ca329 inherit pub_methods_classSQHit"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d79/classSQHit.html#a465174aa658e0bce1ddea0c2929ca329">add_cell</a> (unsigned int i, float a)</td></tr>
 <tr class="separator:a465174aa658e0bce1ddea0c2929ca329 inherit pub_methods_classSQHit"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -420,6 +443,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the Geant-hit ID associated with this hit. </p>
+
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#af01763a2d5c671656646944fafc155d4">SQHit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html#l00030">30</a> of file <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html">SQCalMCHit_v1.h</a>.</p>
@@ -472,6 +497,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the track ID associated with this hit. Probably the value is not properly set at present. </p>
+
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#a9d92b7fbedfe574c09053e935e00a548">SQHit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html#l00024">24</a> of file <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html">SQCalMCHit_v1.h</a>.</p>
@@ -511,6 +538,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the true x-momentum of this hit. Meaningful only if this hit is of MC. </p>
+
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#a07641e27916ddaeaa04113a1a3b235fc">SQHit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html#l00042">42</a> of file <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html">SQCalMCHit_v1.h</a>.</p>
@@ -537,6 +566,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the true y-momentum of this hit. Meaningful only if this hit is of MC. </p>
 
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#a749e77b8faae665e46ca29cf4a065c98">SQHit</a>.</p>
 
@@ -565,6 +596,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the true z-momentum of this hit. Meaningful only if this hit is of MC. </p>
+
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#a7a0db64bff79ef3463598087e8c2b8b7">SQHit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html#l00048">48</a> of file <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html">SQCalMCHit_v1.h</a>.</p>
@@ -591,6 +624,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the true x-position of this hit. Meaningful only if this hit is of MC. </p>
 
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#a63029bc4a09b18fd86a188c46a04a0f5">SQHit</a>.</p>
 
@@ -619,6 +654,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Return the true y-position of this hit. Meaningful only if this hit is of MC. </p>
+
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#abf31201931e26c0fe1239769e77ed2dd">SQHit</a>.</p>
 
 <p>Definition at line <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html#l00036">36</a> of file <a class="el" href="../../d6/d53/SQCalMCHit__v1_8h_source.html">SQCalMCHit_v1.h</a>.</p>
@@ -645,6 +682,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Return the true z-position of this hit. Meaningful only if this hit is of MC. </p>
 
 <p>Reimplemented from <a class="el" href="../../de/d79/classSQHit.html#ae83c155024619b34a47e73aeb7958f45">SQHit</a>.</p>
 
@@ -1153,7 +1192,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d16/classSQCalMCHit__v1.html">SQCalMCHit_v1</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Nov 25 2020 14:32:18</em> using <a
+			updated: <em>Sun Nov 29 2020 22:20:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
