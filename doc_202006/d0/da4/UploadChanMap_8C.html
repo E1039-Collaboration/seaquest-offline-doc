@@ -111,14 +111,12 @@ $(document).ready(function(){initNavTree('d0/da4/UploadChanMap_8C.html','../../'
 </div><!--header-->
 <div class="contents">
 
-<p>Macro to upload the channel mapping from tsv file to MySQL DB.  
-<a href="#details">More...</a></p>
-
 <p><a href="../../d0/da4/UploadChanMap_8C_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a6ec43687f04e8350c642c7866b2117f9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/UploadChanMap_8C.html#a6ec43687f04e8350c642c7866b2117f9">UploadChanMap</a> (const std::string type=&quot;taiwan&quot;, const std::string map_id=&quot;2019091301&quot;)</td></tr>
+<tr class="memdesc:a6ec43687f04e8350c642c7866b2117f9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d0/da4/UploadChanMap_8C.html">UploadChanMap.C</a>: Macro to upload the channel mapping from tsv file to MySQL DB.  <a href="#a6ec43687f04e8350c642c7866b2117f9">More...</a><br/></td></tr>
 <tr class="separator:a6ec43687f04e8350c642c7866b2117f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae385e581fe5291a9fb5d38cb847a6501"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da4/UploadChanMap_8C.html#ae385e581fe5291a9fb5d38cb847a6501">CheckChanMap</a> (const std::string type=&quot;taiwan&quot;, const int <a class="el" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>=25000)</td></tr>
 <tr class="separator:ae385e581fe5291a9fb5d38cb847a6501"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,44 +124,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a1e7e5c79eeb34653003164775cf59e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test function to make a channel mapping by hand.  <a href="#a1e7e5c79eeb34653003164775cf59e31">More...</a><br/></td></tr>
 <tr class="separator:a1e7e5c79eeb34653003164775cf59e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Macro to upload the channel mapping from tsv file to MySQL DB. </p>
-<p>The channel mapping of each subsystem is managed by subsystem expert, including all versions and applicable run ranges. Below shows the procedure for first converting the original mapping file to the common-format tsv file and then upload it to MySQL DB. It is usually done by the online software manager, but can be done by subsystem expert.</p>
-<dl class="section user"><dt>Taiwan TDC</dt><dd></dd></dl>
-<ol type="1">
-<li>Create a new mapping file in the original format of each subsystem. Below are all the subsystems using Taiwan TDC and their directories:<ul>
-<li>Hodoscope: ??</li>
-<li>DP hodo: ??</li>
-<li>Trigger: ??</li>
-<li>Chamber: /data2/chambers/mapping/channel_mapping</li>
-<li>Prop Tube: ??</li>
-</ul>
-</li>
-<li>Convert the mapping file to the common-format tsv file. There should be a script per subsystem for this conversion.</li>
-<li>Name the new mapping. It is usually "[year][month][day][serial]", e.g. "2020113001". Then create a directory for it by copying the previous one, e.g. "2020012301": <div class="fragment"><div class="line">cd /data2/e1039/resource/chan_map/taiwan</div>
-<div class="line">cp -a 2020012301 2020113001</div>
-</div><!-- fragment --></li>
-<li>Copy the new tsv file ("cham.tsv" as example) into the directory: <div class="fragment"><div class="line">cp -p /path/to/cham.tsv /data2/e1039/resource/chan_map/taiwan/2020113001/sub</div>
-</div><!-- fragment --></li>
-<li>Merge the tsv files of all subsystems: <div class="fragment"><div class="line">cd /data2/e1039/resource/chan_map/taiwan/2020113001</div>
-<div class="line">./merge.sh</div>
-</div><!-- fragment --></li>
-<li>Define a run range for the new mapping by editing "run_range.tsv".</li>
-<li>Upload the new mapping by executing "UploadChanMap.C", where you have to replace the number "123456" below with a run number in the run range for the new mapping: <div class="fragment"><div class="line">source /data2/e1039/<span class="keyword">this</span>-e1039.sh</div>
-<div class="line">cd /data2/e1039/core/<span class="keywordflow">default</span>/macros/packages/geom_svc</div>
-<div class="line">root -b</div>
-<div class="line">.L <a class="code" href="../../d0/da4/UploadChanMap_8C.html#a6ec43687f04e8350c642c7866b2117f9">UploadChanMap</a>.C</div>
-<div class="line"><a class="code" href="../../d0/da4/UploadChanMap_8C.html#a6ec43687f04e8350c642c7866b2117f9">UploadChanMap</a>(<span class="stringliteral">&quot;taiwan&quot;</span>, <span class="stringliteral">&quot;2020113001&quot;</span>);</div>
-<div class="line"><a class="code" href="../../d0/da4/UploadChanMap_8C.html#ae385e581fe5291a9fb5d38cb847a6501">CheckChanMap</a> (<span class="stringliteral">&quot;taiwan&quot;</span>, 123456);</div>
-</div><!-- fragment --></li>
-</ol>
-<dl class="section user"><dt>V1495 TDC</dt><dd></dd></dl>
-<p>To be written.</p>
-<dl class="section user"><dt>Main-DAQ Scaler</dt><dd></dd></dl>
-<p>To be written. </p>
-
-<p>Definition in file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
-</div><h2 class="groupheader">Function Documentation</h2>
+<h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ae385e581fe5291a9fb5d38cb847a6501"></a>
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +149,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00080">80</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00030">30</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
 
 <p>References <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00097">RunParamBase::ReadFromDB()</a>, <a class="el" href="../../df/dbc/run_8C_source.html#l00010">run()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00031">RunParamBase::SetMapIDbyDB()</a>, and <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00083">RunParamBase::WriteToLocalFile()</a>.</p>
 
@@ -220,7 +181,7 @@ Functions</h2></td></tr>
 <p>Test function to make a channel mapping by hand. </p>
 <p>roc, board chan, det, ele </p>
 
-<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00099">99</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00049">49</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
 
 <p>References <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00148">ChanMapTaiwan::Print()</a>, and <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00083">RunParamBase::WriteToLocalFile()</a>.</p>
 
@@ -260,7 +221,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00060">60</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
+<p><a class="el" href="../../d0/da4/UploadChanMap_8C.html">UploadChanMap.C</a>: Macro to upload the channel mapping from tsv file to MySQL DB. </p>
+<p>Usage: .L <a class="el" href="../../d0/da4/UploadChanMap_8C.html">UploadChanMap.C</a> UploadChanMap("taiwan", "2019091301"); CheckChanMap ("taiwan", 500); </p>
+
+<p>Definition at line <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html#l00010">10</a> of file <a class="el" href="../../d0/da4/UploadChanMap_8C_source.html">UploadChanMap.C</a>.</p>
 
 <p>References <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00053">RunParamBase::ReadFromFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00021">RunParamBase::SetMapIDbyFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00135">RunParamBase::WriteRangeToDB()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00116">RunParamBase::WriteToDB()</a>, and <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00083">RunParamBase::WriteToLocalFile()</a>.</p>
 
@@ -286,7 +250,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1e3a55bacfbd23a6aba299383b6b7742.html">geom_svc</a></li><li class="navelem"><a class="el" href="../../dir_708600ca59ad06453a0bd78e40c222a0.html">macros</a></li><li class="navelem"><a class="el" href="../../d0/da4/UploadChanMap_8C.html">UploadChanMap.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Nov 29 2020 22:10:09</em> using <a
+			updated: <em>Tue Dec 8 2020 21:41:52</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
