@@ -105,7 +105,14 @@ $(document).ready(function(){initNavTree('de/d08/md__dev_shm_kenichi_update-gith
 <div class="textblock"><p>``` gridrun_data.sh gridsub_data.sh ``<code> These are scripts to run real data in grid with the macro,</code>RecoE1039Data.C&lt;tt&gt;. Since/data2/<code>area is not acessible during job submission, these scripts assume you copied the dst data files from</code>/data2/<code>area to</code>/pnfs/e906/persistent/users/$USER/DstRun<code>area. Please refer to the [wiki page](<a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/data-file-on-grid">https://github.com/E1039-Collaboration/e1039-wiki/wiki/data-file-on-grid</a>) about setting the file location. To run list of the runs from</code>run_list.txt&lt;tt&gt;in grid, use the following command; `` ./gridsub_data.sh ouput_dir 1 run_list.txt 0 single ``<code> Here, the "0" options lets you run all the available events in the run. For the longer runs which can't be finished within the 24 hours limit, you need to split the data in some spill number interval. The</code><a class="el" href="../../d5/dcc/splitDST_8C.html">splitDST.C</a>`macro splits the longer DST runs in specified interval of spills. For now, the default number of spill interval for splitting is set to 750.</p>
 <p>``` root -b -q splitDst.C(run_number) ```</p>
 <p>The splitted dst files will be outputed to <code>/pnfs/e906/persistent/users/$USER/DstRun/run_number/</code> (You might see some error msg regarding the persmission to write in persistent area, please ignore the message for now). After splitting the data for a particular run, use the following command to run all the splitted files from the runs in run_list.txt;</p>
-<p>``` ./gridsub_data.sh ouput_dir 1 run_list.txt 0 split ``` </p>
+<p>``` ./gridsub_data.sh ouput_dir 1 run_list.txt 0 split ```</p>
+<h2>Note:</h2>
+<ol type="1">
+<li>Please turn on <code>reco-&gt;set_enable_eval_dst(true);</code> in the <code><a class="el" href="../../db/dea/RecoE1039Data_8C.html">RecoE1039Data.C</a></code> macro to add the tracklet vector node to DST</li>
+</ol>
+<ol type="1">
+<li>Don't the chage the name of the input file in the macro while running grid job. Keep it as it is (i.e. <code>data.root</code>) </li>
+</ol>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -115,7 +122,7 @@ $(document).ready(function(){initNavTree('de/d08/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Dec 21 2020 15:40:11</em> using <a
+			updated: <em>Tue Dec 22 2020 16:40:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
