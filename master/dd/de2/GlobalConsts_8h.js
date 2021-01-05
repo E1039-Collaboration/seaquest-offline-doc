@@ -1,6 +1,8 @@
 var GlobalConsts_8h =
 [
     [ "E_BEAM", "dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9", null ],
+    [ "LogDebug", "dd/de2/GlobalConsts_8h.html#a52279903e10561ef695cee631e3dfa4b", null ],
+    [ "LogDebuglv2", "dd/de2/GlobalConsts_8h.html#a67907a4a3bedad173e62fef29123e4bf", null ],
     [ "LogInfo", "dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba", null ],
     [ "M_MU", "dd/de2/GlobalConsts_8h.html#ad5e813aa3a37a08ba9289e6598954ea0", null ],
     [ "M_P", "dd/de2/GlobalConsts_8h.html#ab4d888266c25c8140baedb207e24e8f4", null ],

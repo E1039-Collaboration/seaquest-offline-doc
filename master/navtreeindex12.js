@@ -215,6 +215,8 @@ var NAVTREEINDEX12 =
 "d4/d6b/G4__InsensitiveVolumes_8C_source.html":[21,0,2,4,2],
 "d4/d6e/PHG4ConeSubsystemLinkDef_8h.html":[21,0,2,7,1,63],
 "d4/d6e/PHG4ConeSubsystemLinkDef_8h_source.html":[21,0,2,7,1,63],
+"d4/d70/classSQGenFit_1_1GFMeasurementComp.html":[20,0,15,3],
+"d4/d70/classSQGenFit_1_1GFMeasurementComp.html#ad2dcb37cf7f80b907b95f55d059d812b":[20,0,15,3,0],
 "d4/d73/PHOperation_8h.html":[21,0,2,1,2,29],
 "d4/d73/PHOperation_8h_source.html":[21,0,2,1,2,29],
 "d4/d7a/PHG4GDMLWriteDefine_8cc.html":[21,0,2,7,4,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d4/d82/classGenericSD.html":[20,0,100],
 "d4/d82/classGenericSD.html#a10d7c641a74f679049884f6307efc58b":[20,0,100,4],
 "d4/d82/classGenericSD.html#a4e64f30a11d6f88414459242a8527ea8":[20,0,100,1],
-"d4/d82/classGenericSD.html#a5819d162dde37a5524b2e190e0fe6e32":[20,0,100,0],
-"d4/d82/classGenericSD.html#a6083ef66d8233c0a4d89e481a46c3718":[20,0,100,2],
-"d4/d82/classGenericSD.html#af5f7a49393d5e64fd736cf22c24d6538":[20,0,100,3]
+"d4/d82/classGenericSD.html#a5819d162dde37a5524b2e190e0fe6e32":[20,0,100,0]
 };

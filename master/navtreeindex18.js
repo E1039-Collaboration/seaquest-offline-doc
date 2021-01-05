@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d6/d12/classPHG4PolyconSubsystem.html#a082ea713a3da58c29df24bff1d067e13":[20,0,272,3],
+"d6/d12/classPHG4PolyconSubsystem.html#a1f9a397e0bc8f57c9ff79cbed4e84037":[20,0,272,0],
+"d6/d12/classPHG4PolyconSubsystem.html#a3db59998a34089522d862e296bd62678":[20,0,272,5],
 "d6/d12/classPHG4PolyconSubsystem.html#aaa8575daa8ccca19386bc924b557b9b9":[20,0,272,1],
 "d6/d12/classPHG4PolyconSubsystem.html#aaeebd3d4f0dc15785098c0dcb44b6740":[20,0,272,4],
 "d6/d12/classPHG4PolyconSubsystem.html#ac0d058ac20e3a49f36965d13fd13e24b":[20,0,272,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d6/d81/classPHG4VtxPoint.html#ad983bcfed092a74ea0a229f18c576dac":[20,0,302,9],
 "d6/d81/classPHG4VtxPoint.html#ae26c6d111c93795d64e3571b6f306ef9":[20,0,302,6],
 "d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html":[19,0,6,4],
-"d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html":[20,0,6,4],
-"d6/d86/classPHPointerList.html":[20,0,332],
-"d6/d86/classPHPointerList.html#a3669eb76331b3c0eba8cbc5a2a025ea1":[20,0,332,2],
-"d6/d86/classPHPointerList.html#a37bebc30be41ff5ab22e84a15d4d553c":[20,0,332,9]
+"d6/d84/namespacePHG4CellDefs_1_1SizeBinning.html":[20,0,6,4]
 };

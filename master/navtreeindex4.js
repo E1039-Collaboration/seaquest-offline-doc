@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d1/d42/classPHG4Particlev1.html#aa07b8c93df3398457b73ed567e2ae881":[20,0,263,14],
 "d1/d42/classPHG4Particlev1.html#aa3497c5d525870090b3c44caaacc5286":[20,0,263,12],
 "d1/d42/classPHG4Particlev1.html#ab246ba478bfb4904a3f879001cdde566":[20,0,263,15],
 "d1/d42/classPHG4Particlev1.html#ab71c63a21b88e7e6280e1733240f90de":[20,0,263,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "d1/da8/classPHFlag.html#ae208df4c723dbe1d9d29bf234454bc47":[20,0,174,8],
 "d1/da8/classPHFlag.html#aea7f3b3c3cedf14efe1163c87105b0d9":[20,0,174,1],
 "d1/da8/classPHFlag.html#afa50d9e51a9e09d77201a9816d414dba":[20,0,174,11],
-"d1/da8/classPHFlag.html#afc9529a56d670d320212520c3c5c5110":[20,0,174,7]
+"d1/da8/classPHFlag.html#afc9529a56d670d320212520c3c5c5110":[20,0,174,7],
+"d1/db0/namespacevarids.html":[20,0,25]
 };

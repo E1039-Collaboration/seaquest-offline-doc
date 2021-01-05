@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('d1/d43/GFFitter_8cxx_source.html','../
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track fitting failed: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> -2;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  </div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="comment">//check after fit</span></div>
@@ -190,14 +190,14 @@ $(document).ready(function(){initNavTree('d1/d43/GFFitter_8cxx_source.html','../
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">catch</span>(genfit::Exception&amp; e)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Track consistency error after fit: &quot;</span> &lt;&lt; e.what() &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> -3;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  genfit::AbsTrackRep* rep = gftrack-&gt;getCardinalRep();</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keywordflow">if</span>(!gftrack-&gt;getFitStatus(rep)-&gt;isFitConverged())</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  {</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    std::cerr &lt;&lt; <span class="stringliteral">&quot;Fit failed to converge.&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> -4;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  <span class="keywordflow">if</span>(display)</div>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('d1/d43/GFFitter_8cxx_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_8dd800435d9fa50a0a309cbf892633ea.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_2eed23623fdf77bd73dc6b6f46584ac1.html">SQGenFit</a></li><li class="navelem"><a class="el" href="../../d1/d43/GFFitter_8cxx.html">GFFitter.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Dec 22 2020 16:40:09</em> using <a
+			updated: <em>Tue Jan 5 2021 09:40:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

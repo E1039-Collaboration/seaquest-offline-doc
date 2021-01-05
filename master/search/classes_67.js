@@ -12,6 +12,7 @@ var searchData=
   ['gffield',['GFField',['../d4/db7/classSQGenFit_1_1GFField.html',1,'SQGenFit']]],
   ['gffitter',['GFFitter',['../d8/d77/classSQGenFit_1_1GFFitter.html',1,'SQGenFit']]],
   ['gfmeasurement',['GFMeasurement',['../d4/d9d/classSQGenFit_1_1GFMeasurement.html',1,'SQGenFit']]],
+  ['gfmeasurementcomp',['GFMeasurementComp',['../d4/d70/classSQGenFit_1_1GFMeasurementComp.html',1,'SQGenFit']]],
   ['gftrack',['GFTrack',['../d2/d6b/classSQGenFit_1_1GFTrack.html',1,'SQGenFit']]],
   ['globtrackkey',['GlobTrackKey',['../da/d33/classGlobTrackKey.html',1,'']]]
 ];

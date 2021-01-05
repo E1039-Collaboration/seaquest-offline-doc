@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d1/db0/namespacevarids.html":[20,0,25],
 "d1/db0/namespacevarids.html":[19,0,24],
 "d1/db2/SimDstTrimmer_8cxx.html":[21,0,2,6,5,3],
 "d1/db2/SimDstTrimmer_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba":[21,0,2,6,5,3,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d2/d07/SQHitMap_8cxx_source.html":[21,0,2,3,30],
 "d2/d08/classVariableArrayUtils.html":[20,0,440],
 "d2/d08/classVariableArrayUtils.html#a58b626e5325406f70b023beabdac9eed":[20,0,440,0],
-"d2/d08/classVariableArrayUtils.html#aa3e80d2e6209ea8388272b75ba45b95c":[20,0,440,1]
+"d2/d08/classVariableArrayUtils.html#aa3e80d2e6209ea8388272b75ba45b95c":[20,0,440,1],
+"d2/d09/HepMCNodeReader_8cc.html":[21,0,2,7,5,6]
 };

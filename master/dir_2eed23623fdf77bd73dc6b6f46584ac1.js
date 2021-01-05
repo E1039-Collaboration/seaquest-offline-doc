@@ -11,7 +11,8 @@ var dir_2eed23623fdf77bd73dc6b6f46584ac1 =
     ] ],
     [ "GFMeasurement.cxx", "d7/dbf/GFMeasurement_8cxx.html", null ],
     [ "GFMeasurement.h", "d2/db1/GFMeasurement_8h.html", [
-      [ "GFMeasurement", "d4/d9d/classSQGenFit_1_1GFMeasurement.html", "d4/d9d/classSQGenFit_1_1GFMeasurement" ]
+      [ "GFMeasurement", "d4/d9d/classSQGenFit_1_1GFMeasurement.html", "d4/d9d/classSQGenFit_1_1GFMeasurement" ],
+      [ "GFMeasurementComp", "d4/d70/classSQGenFit_1_1GFMeasurementComp.html", "d4/d70/classSQGenFit_1_1GFMeasurementComp" ]
     ] ],
     [ "GFTrack.cxx", "d0/ddc/GFTrack_8cxx.html", null ],
     [ "GFTrack.h", "d7/d5e/GFTrack_8h.html", [
