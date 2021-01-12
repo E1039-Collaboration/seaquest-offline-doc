@@ -107,10 +107,6 @@ var NAVTREEINDEX4 =
 "d1/d7f/DecoData_8h_source.html":[21,0,2,5,0,21],
 "d1/d80/SQTrackVector__v1_8cxx.html":[21,0,2,3,110],
 "d1/d80/SQTrackVector__v1_8cxx_source.html":[21,0,2,3,110],
-"d1/d81/e1039-core_2packages_2Display_2macro_2G4__SensitiveDetectors_8C.html":[21,0,2,6,2,2,2],
-"d1/d81/e1039-core_2packages_2Display_2macro_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b":[21,0,2,6,2,2,2,0],
-"d1/d81/e1039-core_2packages_2Display_2macro_2G4__SensitiveDetectors_8C.html#af71e50cde83a891cd25129c49f742314":[21,0,2,6,2,2,2,1],
-"d1/d81/e1039-core_2packages_2Display_2macro_2G4__SensitiveDetectors_8C_source.html":[21,0,2,6,2,2,2],
 "d1/d83/PHG4GDMLWriteSetup_8cc.html":[21,0,2,7,4,13],
 "d1/d83/PHG4GDMLWriteSetup_8cc_source.html":[21,0,2,7,4,13],
 "d1/d88/namespacePHG4CellDefs_1_1SpacalBinning.html":[19,0,6,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX4 =
 "d1/da8/classPHFlag.html#aea7f3b3c3cedf14efe1163c87105b0d9":[20,0,174,1],
 "d1/da8/classPHFlag.html#afa50d9e51a9e09d77201a9816d414dba":[20,0,174,11],
 "d1/da8/classPHFlag.html#afc9529a56d670d320212520c3c5c5110":[20,0,174,7],
-"d1/db0/namespacevarids.html":[20,0,25]
+"d1/db0/namespacevarids.html":[20,0,25],
+"d1/db0/namespacevarids.html":[19,0,24],
+"d1/db2/SimDstTrimmer_8cxx.html":[21,0,2,6,5,3],
+"d1/db2/SimDstTrimmer_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba":[21,0,2,6,5,3,0],
+"d1/db2/SimDstTrimmer_8cxx_source.html":[21,0,2,6,5,3]
 };

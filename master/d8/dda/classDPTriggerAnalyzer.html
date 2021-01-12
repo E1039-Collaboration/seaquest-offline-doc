@@ -177,6 +177,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a744041e9e94b85652c6ba65e85a611ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94e85484cdca7ad5423c533c8222bfcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#a94e85484cdca7ad5423c533c8222bfcc">set_road_set_file_name</a> (const std::string &amp;roadSetFileName)</td></tr>
 <tr class="separator:a94e85484cdca7ad5423c533c8222bfcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90ea32c0481950719e6e17be853bbb16"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#a90ea32c0481950719e6e17be853bbb16">get_output_node_name</a> () const </td></tr>
+<tr class="separator:a90ea32c0481950719e6e17be853bbb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e908ff155008dbba1b4f78753f476d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#af9e908ff155008dbba1b4f78753f476d">set_output_node_name</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:af9e908ff155008dbba1b4f78753f476d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9074a8488b87cbb5eb7ef716b1a6ace0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#a9074a8488b87cbb5eb7ef716b1a6ace0">use_trigger_hit</a> ()</td></tr>
+<tr class="separator:a9074a8488b87cbb5eb7ef716b1a6ace0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce3a5a0c8d6bb60ef2650cd699484ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#a7ce3a5a0c8d6bb60ef2650cd699484ed">require_in_time</a> (const bool val)</td></tr>
+<tr class="separator:a7ce3a5a0c8d6bb60ef2650cd699484ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf1978135bbdc8c18d05c3da2c952968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#aaf1978135bbdc8c18d05c3da2c952968">set_nim_mode</a> (const <a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#adb22d5a606f5806de2c70e8235e8d9e2">NimMode</a> nim1, const <a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#adb22d5a606f5806de2c70e8235e8d9e2">NimMode</a> nim2)</td></tr>
 <tr class="separator:aaf1978135bbdc8c18d05c3da2c952968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c2963b069d98298731a4da80a59ab72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#a7c2963b069d98298731a4da80a59ab72">buildTriggerMatrix</a> ()</td></tr>
@@ -308,9 +316,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00112">112</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00116">116</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00353">deleteMatrix()</a>.</p>
+<p>References <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00382">deleteMatrix()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -342,11 +350,11 @@ Additional Inherited Members</h2></td></tr>
 <p>This function converts the lists of roads (i.e. roadset given), into the trees of hodo element nodes.</p>
 <p>The depth of each branch is always four, which corresponds to the four hodo planes. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00302">302</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00331">331</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00388">DPTriggerAnalyzer::MatrixNode::add()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00169">DPTriggerAnalyzer::MatrixNode::children</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>.</p>
+<p>References <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00417">DPTriggerAnalyzer::MatrixNode::add()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00177">DPTriggerAnalyzer::MatrixNode::children</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00129">Init()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00133">Init()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -386,11 +394,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Tree deletion. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00353">353</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00382">382</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00169">DPTriggerAnalyzer::MatrixNode::children</a>, and <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
+<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00177">DPTriggerAnalyzer::MatrixNode::children</a>, and <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00112">~DPTriggerAnalyzer()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00116">~DPTriggerAnalyzer()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -430,9 +438,34 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00277">277</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00287">287</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a90ea32c0481950719e6e17be853bbb16"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string&amp; DPTriggerAnalyzer::get_output_node_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00104">104</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +518,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Helper function to retrieve the found road list. </p>
 
-<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00120">120</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00124">124</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 </div>
 </div>
@@ -514,9 +547,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00129">129</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00133">133</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00025">DPTriggerRoad::addTrElement()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00302">buildTriggerMatrix()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00077">DPTriggerRoad::getStringID()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00050">DPTriggerRoad::setBkgRate()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00051">DPTriggerRoad::setPxMin()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00048">DPTriggerRoad::setRoadID()</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00049">DPTriggerRoad::setSigWeight()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00025">DPTriggerRoad::addTrElement()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00331">buildTriggerMatrix()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00077">DPTriggerRoad::getStringID()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00050">DPTriggerRoad::setBkgRate()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00051">DPTriggerRoad::setPxMin()</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00048">DPTriggerRoad::setRoadID()</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00049">DPTriggerRoad::setSigWeight()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -555,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00169">169</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00173">173</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
 </div>
 </div>
@@ -574,7 +607,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Helper functions to print various things. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00363">363</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00392">392</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
 <p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>.</p>
 
@@ -593,7 +626,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00373">373</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00402">402</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
 </div>
 </div>
@@ -623,19 +656,45 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">174</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00178">178</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00053">SQHitVector::at()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00185">GeomSvc::getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00896">GeomSvc::getHodoStation()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00210">GeomSvc::instance()</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00027">SQEvent::MATRIX1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00028">SQEvent::MATRIX2</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00029">SQEvent::MATRIX3</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00030">SQEvent::MATRIX4</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00031">SQEvent::MATRIX5</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00022">SQEvent::NIM1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00023">SQEvent::NIM2</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00088">NIM_AND</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00333">searchMatrix()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger()</a>, and <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00050">SQHitVector::size()</a>.</p>
+<p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00053">SQHitVector::at()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00185">GeomSvc::getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00896">GeomSvc::getHodoStation()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00210">GeomSvc::instance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00090">SQHit::is_in_time()</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00027">SQEvent::MATRIX1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00028">SQEvent::MATRIX2</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00029">SQEvent::MATRIX3</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00030">SQEvent::MATRIX4</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00031">SQEvent::MATRIX5</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00022">SQEvent::NIM1</a>, <a class="el" href="../../d0/db5/SQEvent_8h_source.html#l00023">SQEvent::NIM2</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00088">NIM_AND</a>, <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00016">NTRPLANES</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00362">searchMatrix()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger()</a>, and <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00050">SQHitVector::size()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dda/classDPTriggerAnalyzer_af71bdac68acca94700335d0e3be50250_cgraph.svg" width="2238" height="1299"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dda/classDPTriggerAnalyzer_af71bdac68acca94700335d0e3be50250_cgraph.svg" width="2238" height="1006"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a7ce3a5a0c8d6bb60ef2650cd699484ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DPTriggerAnalyzer::require_in_time </td>
+          <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00108">108</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 </div>
 </div>
@@ -673,11 +732,11 @@ Additional Inherited Members</h2></td></tr>
 <p>search for possible roads</p>
 <p>The contents of "buildHitPattern()" have been moved to <a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html#af71bdac68acca94700335d0e3be50250">process_event()</a>, because the similar hit selection was repeated inside and outside this function. </p>
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00333">333</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00362">362</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00169">DPTriggerAnalyzer::MatrixNode::children</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00077">DPTriggerRoad::getStringID()</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00168">DPTriggerAnalyzer::MatrixNode::uniqueID</a>.</p>
+<p>References <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00177">DPTriggerAnalyzer::MatrixNode::children</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00077">DPTriggerRoad::getStringID()</a>, and <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00176">DPTriggerAnalyzer::MatrixNode::uniqueID</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00174">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00178">process_event()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -725,7 +784,33 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00118">118</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00122">122</a> of file <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html">DPTriggerAnalyzer.cxx</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af9e908ff155008dbba1b4f78753f476d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DPTriggerAnalyzer::set_output_node_name </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00105">105</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 </div>
 </div>
@@ -751,7 +836,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00101">101</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00100">100</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
@@ -764,6 +849,31 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a9074a8488b87cbb5eb7ef716b1a6ace0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DPTriggerAnalyzer::use_trigger_hit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html#l00107">107</a> of file <a class="el" href="../../d7/da0/DPTriggerAnalyzer_8h_source.html">DPTriggerAnalyzer.h</a>.</p>
 
 </div>
 </div>
@@ -781,7 +891,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/dda/classDPTriggerAnalyzer.html">DPTriggerAnalyzer</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Jan 5 2021 09:40:12</em> using <a
+			updated: <em>Tue Jan 12 2021 10:10:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,9 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"d2/d09/HepMCNodeReader_8cc.html#a4d4cb9d3a87f2e2c9d40eb0e32cbcfb6":[21,0,2,7,5,6,0],
-"d2/d09/HepMCNodeReader_8cc_source.html":[21,0,2,7,5,6],
-"d2/d0b/PHG4RegionInformation_8cc.html":[21,0,2,7,5,83],
-"d2/d0b/PHG4RegionInformation_8cc_source.html":[21,0,2,7,5,83],
 "d2/d0e/classPatternDBUtil.html":[20,0,142],
 "d2/d0e/classPatternDBUtil.html#a09b0b576a75b7babb891b0bbfd243b66":[20,0,142,11],
 "d2/d0e/classPatternDBUtil.html#a0d4144f29bbb122324526cbabd60756c":[20,0,142,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX6 =
 "d2/d62/classSQHitMap__v1.html#aea1b50285fd892c00424fe312c03be2e":[20,0,383,20],
 "d2/d62/classSQHitMap__v1.html#aeb187cf1089e2a7c9fece3aa124030cd":[20,0,383,8],
 "d2/d65/PHTimer_8cc.html":[21,0,2,1,2,35],
-"d2/d65/PHTimer_8cc_source.html":[21,0,2,1,2,35]
+"d2/d65/PHTimer_8cc_source.html":[21,0,2,1,2,35],
+"d2/d69/classSQSlowCont__v1.html":[20,0,401],
+"d2/d69/classSQSlowCont__v1.html#a0365b81e074472dd42bda29c63c0147f":[20,0,401,6],
+"d2/d69/classSQSlowCont__v1.html#a0d0bdb7f97f7c9426b81b366d6bae81c":[20,0,401,1],
+"d2/d69/classSQSlowCont__v1.html#a285e5871b489c46b735f730690440a11":[20,0,401,4]
 };

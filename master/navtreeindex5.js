@@ -1,9 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d1/db0/namespacevarids.html":[19,0,24],
-"d1/db2/SimDstTrimmer_8cxx.html":[21,0,2,6,5,3],
-"d1/db2/SimDstTrimmer_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba":[21,0,2,6,5,3,0],
-"d1/db2/SimDstTrimmer_8cxx_source.html":[21,0,2,6,5,3],
 "d1/db5/SQCalHit__v1LinkDef_8h.html":[21,0,2,3,2],
 "d1/db5/SQCalHit__v1LinkDef_8h_source.html":[21,0,2,3,2],
 "d1/db6/PHG4EventAction_8h.html":[21,0,2,7,5,17],
@@ -249,5 +245,9 @@ var NAVTREEINDEX5 =
 "d2/d08/classVariableArrayUtils.html":[20,0,440],
 "d2/d08/classVariableArrayUtils.html#a58b626e5325406f70b023beabdac9eed":[20,0,440,0],
 "d2/d08/classVariableArrayUtils.html#aa3e80d2e6209ea8388272b75ba45b95c":[20,0,440,1],
-"d2/d09/HepMCNodeReader_8cc.html":[21,0,2,7,5,6]
+"d2/d09/HepMCNodeReader_8cc.html":[21,0,2,7,5,6],
+"d2/d09/HepMCNodeReader_8cc.html#a4d4cb9d3a87f2e2c9d40eb0e32cbcfb6":[21,0,2,7,5,6,0],
+"d2/d09/HepMCNodeReader_8cc_source.html":[21,0,2,7,5,6],
+"d2/d0b/PHG4RegionInformation_8cc.html":[21,0,2,7,5,83],
+"d2/d0b/PHG4RegionInformation_8cc_source.html":[21,0,2,7,5,83]
 };

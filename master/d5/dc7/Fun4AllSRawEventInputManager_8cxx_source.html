@@ -276,7 +276,7 @@ $(document).ready(function(){initNavTree('d5/dc7/Fun4AllSRawEventInputManager_8c
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  }</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  vector&lt;Hit&gt;&amp; trhits = <a class="code" href="../../d5/dd4/classFun4AllSRawEventInputManager.html#a1d5920392f803d150c62d7cad8fd745b">_srawEvent</a>-&gt;<a class="code" href="../../d5/d83/classSRawEvent.html#a19538db4753d30b369bd24de890a6e3b">getTriggerHits</a>();</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> it = hits.begin(); it != hits.end(); ++it) {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> it = trhits.begin(); it != trhits.end(); ++it) {</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <a class="code" href="../../de/d79/classSQHit.html">SQHit</a>* hit = <span class="keyword">new</span> <a class="code" href="../../d3/d2e/classSQHit__v1.html">SQHit_v1</a>();</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a51f264b3d3a56f8d897e7e00f05ad6d6">set_hit_id</a>(it-&gt;index);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a9497f045fe7b60f98f6d62c75aa58c36">set_detector_id</a>(it-&gt;detectorID);</div>
@@ -718,7 +718,7 @@ $(document).ready(function(){initNavTree('d5/dc7/Fun4AllSRawEventInputManager_8c
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_8dd800435d9fa50a0a309cbf892633ea.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_3980a51e8d33af599989cef77cf718ce.html">ktracker</a></li><li class="navelem"><a class="el" href="../../d5/dc7/Fun4AllSRawEventInputManager_8cxx.html">Fun4AllSRawEventInputManager.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Jan 5 2021 09:40:09</em> using <a
+			updated: <em>Tue Jan 12 2021 10:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

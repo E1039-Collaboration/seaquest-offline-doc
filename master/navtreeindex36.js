@@ -1,8 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"db/dfa/classPHG4Showerv1.html#a7ddff18d84a993f55aabf5c6abb4e1d1":[20,0,278,7],
-"db/dfa/classPHG4Showerv1.html#a7e811340833446f9722d3d131746c558":[20,0,278,37],
-"db/dfa/classPHG4Showerv1.html#a80cfcaa01c5054d941527b46d87d64e3":[20,0,278,54],
 "db/dfa/classPHG4Showerv1.html#a83afa3f32a8184a9cbef18c016aa5da6":[20,0,278,9],
 "db/dfa/classPHG4Showerv1.html#a875e9612604057f1f1111e0785dce236":[20,0,278,40],
 "db/dfa/classPHG4Showerv1.html#a87a62b235c6cee0498146de72b72ba1c":[20,0,278,51],
@@ -249,5 +246,8 @@ var NAVTREEINDEX36 =
 "dc/d5b/classDetectorConstruction.html#aa18b4e7fa9d7170feb008649215d1afb":[20,0,53,4],
 "dc/d5b/classDetectorConstruction.html#aa67b318bdb0436eb2fb74d3b4c136abe":[20,0,53,0],
 "dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0":[20,0,53,20],
-"dc/d5b/classDetectorConstruction.html#abff0f2f514e01e750e48fe56fa513f04":[20,0,53,3]
+"dc/d5b/classDetectorConstruction.html#abff0f2f514e01e750e48fe56fa513f04":[20,0,53,3],
+"dc/d5b/classDetectorConstruction.html#ac93aa8889de39383c37499e3ea574ae2":[20,0,53,12],
+"dc/d5b/classDetectorConstruction.html#ae45bb6a3b870804b1e483cb28fe5be53":[20,0,53,6],
+"dc/d5b/classDetectorConstruction.html#ae8cbab2a1c6d53cd4a52c1a6859b72bb":[20,0,53,11]
 };

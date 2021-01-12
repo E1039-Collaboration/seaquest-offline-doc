@@ -1,8 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"de/d04/PHGenEventList_8cc.html":[21,0,2,2,1,19],
-"de/d04/PHGenEventList_8cc_source.html":[21,0,2,2,1,19],
-"de/d07/Fun4AllOscarInputManagerLinkDef_8h.html":[21,0,2,2,1,11],
 "de/d07/Fun4AllOscarInputManagerLinkDef_8h_source.html":[21,0,2,2,1,11],
 "de/d08/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_RecoDev_grid_script_README.html":[16],
 "de/d09/SQCalMCHit__v1_8cxx.html":[21,0,2,3,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX42 =
 "de/d79/classSQHit.html#a17afce273ccad62a57d1d5f324551f83":[20,0,380,18],
 "de/d79/classSQHit.html#a19bfb493c5b0f24384c319c2a0a7b448":[20,0,380,28],
 "de/d79/classSQHit.html#a1d8575ef257b3f3da6335b5c79091fc4":[20,0,380,3],
-"de/d79/classSQHit.html#a2560a11b54287b55ec70196fc416b573":[20,0,380,16]
+"de/d79/classSQHit.html#a2560a11b54287b55ec70196fc416b573":[20,0,380,16],
+"de/d79/classSQHit.html#a2c916cfbed60365839511237fbbbcfc4":[20,0,380,10],
+"de/d79/classSQHit.html#a366ae828973d6f08070553edb5902bf0":[20,0,380,51],
+"de/d79/classSQHit.html#a3ba426998ce6bd9061e3d821dbf8d80e":[20,0,380,35]
 };

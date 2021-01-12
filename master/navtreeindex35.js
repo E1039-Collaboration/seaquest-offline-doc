@@ -1,8 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"db/d88/classPHG4Shower.html#adff34107bbad0bb677ba3294f894b0fa":[20,0,277,6],
-"db/d88/classPHG4Shower.html#ae5dae33607ce91ae141c4b3cb5bc2b07":[20,0,277,56],
-"db/d88/classPHG4Shower.html#af6a5f93e51b188b2c513899145a58c4a":[20,0,277,27],
 "db/d88/classPHG4Shower.html#af74a5a120ffa4ccb231772e727ff99c3":[20,0,277,32],
 "db/d88/classPHG4Shower.html#aff36d66ca2bfafcb3528d98960fb89c4":[20,0,277,11],
 "db/d88/classPHG4Shower.html#affe6309ae27cd2e18781a260b1ab22e6":[20,0,277,46],
@@ -249,5 +246,8 @@ var NAVTREEINDEX35 =
 "db/dfa/classPHG4Showerv1.html#a6c733b10ae8fe562485a8e6397cd5e5d":[20,0,278,10],
 "db/dfa/classPHG4Showerv1.html#a6d146c7273012f7d3dc55805bded5e2d":[20,0,278,6],
 "db/dfa/classPHG4Showerv1.html#a793c3ef4014ced43cd67a8dab697b069":[20,0,278,25],
-"db/dfa/classPHG4Showerv1.html#a7cd35bb0bea0e850630867c971cee951":[20,0,278,1]
+"db/dfa/classPHG4Showerv1.html#a7cd35bb0bea0e850630867c971cee951":[20,0,278,1],
+"db/dfa/classPHG4Showerv1.html#a7ddff18d84a993f55aabf5c6abb4e1d1":[20,0,278,7],
+"db/dfa/classPHG4Showerv1.html#a7e811340833446f9722d3d131746c558":[20,0,278,37],
+"db/dfa/classPHG4Showerv1.html#a80cfcaa01c5054d941527b46d87d64e3":[20,0,278,54]
 };
