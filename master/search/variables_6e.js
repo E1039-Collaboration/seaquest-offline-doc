@@ -15,6 +15,7 @@ var searchData=
   ['n_5fflush_5fevt_5fbad',['n_flush_evt_bad',['../d0/d64/structRunData.html#aa169203d2003ec8707bddee196d6222a',1,'RunData']]],
   ['n_5fhit',['n_hit',['../d0/d64/structRunData.html#a56850c2204e17b1a9b8d83b3a7cdc3bf',1,'RunData']]],
   ['n_5fhit_5fbad',['n_hit_bad',['../d0/d64/structRunData.html#a53e160ce5b1f063879a3c4e70067e253',1,'RunData']]],
+  ['n_5fhits',['n_hits',['../da/da4/classTrackletData.html#a20ab80e8e062cade6826521d12e39855',1,'TrackletData']]],
   ['n_5fphi_5fz_5fbins',['n_phi_z_bins',['../d5/dd0/classPHG4CylinderCellReco.html#a648537f6e4f5320896615ee4e371ad95',1,'PHG4CylinderCellReco::n_phi_z_bins()'],['../dc/d94/classPHG4CylinderCellTPCReco.html#af12daaf282cbee83ef5612a9239e4a26',1,'PHG4CylinderCellTPCReco::n_phi_z_bins()']]],
   ['n_5fphys_5fevt',['n_phys_evt',['../d0/d64/structRunData.html#a2817928c7eb90e02b738cfe0f936a15d',1,'RunData']]],
   ['n_5fphys_5fevt_5fbad',['n_phys_evt_bad',['../d0/d64/structRunData.html#a4499c187036b397d3b8622ffc17fd4d1',1,'RunData']]],

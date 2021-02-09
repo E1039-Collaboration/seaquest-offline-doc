@@ -106,14 +106,14 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 <h2>Analysis Flow</h2>
 <ol type="1">
 <li>DST -&gt; Micro DST (uDST)<ul>
-<li>By macro <code><a class="el" href="../../db/dba/Fun4SimDst_8C.html">Fun4SimDst.C</a></code>.</li>
+<li>By macro <code>Fun4SimDst.C</code>.</li>
 <li>To reduce the data size.</li>
 </ul>
 </li>
 </ol>
 <ol type="1">
 <li>uDST -&gt; Tree<ul>
-<li>By macro <code><a class="el" href="../../d6/dac/Fun4SimMicroDst_8C.html">Fun4SimMicroDst.C</a></code></li>
+<li>By macro <code>Fun4SimMicroDst.C</code></li>
 <li>To further reduce the data size &amp; calculate your custom quantities.</li>
 </ul>
 </li>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 <p>The analysis code is located in <code>e1039-analysis/AnaSimDst/src</code>. The following commands set up the shell environment and compile the code; ``` cd e1039-analysis/AnaSimDst source setup.sh cd build cmake-ana-sim-dst make install ``` You are expected to later look into the script and the analysis code to make your own analysis logic.</p>
 <h3>Execution of Analysis</h3>
 <p>The 1st step is to create uDST from DSTs. The following commands reads five simDSTs for test. The uDST file is <code>uDST.root</code>. ``` cd e1039-analysis/AnaSimDst source setup.sh cd work root -b -q 'Fun4SimDst.C(5)' ```</p>
-<p>The 2nd step is to create Tree from uDST, by the following command. The TTree object is outputted to <code>sim_tree.root</code>. ``` root -b -q <a class="el" href="../../d6/dac/Fun4SimMicroDst_8C.html">Fun4SimMicroDst.C</a> ```</p>
+<p>The 2nd step is to create Tree from uDST, by the following command. The TTree object is outputted to <code>sim_tree.root</code>. ``` root -b -q Fun4SimMicroDst.C ```</p>
 <p>The last step is draw plots from Tree. ``` root -b -q <a class="el" href="../../d3/dcd/Fun4SimTree_8C.html">Fun4SimTree.C</a> ``<code> Various plots are outputted to</code>result/`.</p>
 <p>If all the commands ran fine, you delete <code>(5)</code> (or change to <code>(0)</code>) in the 1st step to use all DSTs.</p>
 <h2>Advanced Usage</h2>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Jan 26 2021 20:12:07</em> using <a
+			updated: <em>Tue Feb 9 2021 16:11:59</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

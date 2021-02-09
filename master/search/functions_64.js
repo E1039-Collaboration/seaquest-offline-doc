@@ -27,7 +27,7 @@ var searchData=
   ['different',['Different',['../de/dbb/classSyncObject.html#ab8b7f5a87277828d6ea97d2ed3dd546d',1,'SyncObject::Different(const SyncObject *other) const '],['../de/dbb/classSyncObject.html#a09c4601f4fbb74b3267c4a48f369c102',1,'SyncObject::Different(const SyncObject *other) const ']]],
   ['digitizeemcal',['digitizeEMCal',['../df/d36/classSQDigitizer.html#a8db95e9af1b348833d7e759a486ee3da',1,'SQDigitizer']]],
   ['digitizeplane',['digitizePlane',['../df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b',1,'SQDigitizer']]],
-  ['dimuondata',['DimuonData',['../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a',1,'DimuonData']]],
+  ['dimuondata',['DimuonData',['../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a',1,'DimuonData::DimuonData()'],['../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a',1,'DimuonData::DimuonData()']]],
   ['dirparam',['DirParam',['../d3/d97/classFun4AllEVIOInputManager.html#ab323cb4e28ce2307e8d693db1b18caec',1,'Fun4AllEVIOInputManager']]],
   ['disable',['disable',['../d5/d72/classTriggerRoad.html#a3a3a238de231e09564c1ee8d52f9f717',1,'TriggerRoad::disable()'],['../d4/db7/classSQGenFit_1_1GFField.html#a3a3ca7d8d96316f4aa074bc86728886c',1,'SQGenFit::GFField::disable()']]],
   ['disconnectdb',['DisconnectDB',['../dd/df1/classPdbApplication.html#a23f08f3edd58c407a969430b65238d55',1,'PdbApplication::DisconnectDB()'],['../dc/d4a/classRunToTime.html#a24fc273f978dd2629390a88a9a284f0a',1,'RunToTime::DisconnectDB()'],['../da/d29/classFun4AllServer.html#a1266c6d922adaaa9e895b854be49d3e8',1,'Fun4AllServer::DisconnectDB()']]],

@@ -9,6 +9,7 @@ var searchData=
   ['track2d',['Track2D',['../dd/df6/structUtilHodo_1_1Track2D.html',1,'UtilHodo']]],
   ['trackdata',['TrackData',['../dd/d7f/structTrackData.html',1,'']]],
   ['tracklet',['Tracklet',['../d2/d26/classTracklet.html',1,'']]],
+  ['trackletdata',['TrackletData',['../da/da4/classTrackletData.html',1,'']]],
   ['trackletkey',['TrackletKey',['../d3/d1f/classTrackletKey.html',1,'']]],
   ['trackletvector',['TrackletVector',['../d5/dba/classTrackletVector.html',1,'']]],
   ['triggeranalyzer',['TriggerAnalyzer',['../d6/deb/classTriggerAnalyzer.html',1,'']]],

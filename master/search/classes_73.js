@@ -13,6 +13,7 @@ var searchData=
   ['shared_5fptr_5ftraits_3c_20void_20volatile_20_3e',['shared_ptr_traits&lt; void volatile &gt;',['../df/d5a/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01volatile_01_4.html',1,'boost::detail']]],
   ['signedhit',['SignedHit',['../de/d45/classSignedHit.html',1,'']]],
   ['simdsttrimmer',['SimDstTrimmer',['../de/d85/classSimDstTrimmer.html',1,'']]],
+  ['simpletree',['SimpleTree',['../d8/d3e/classSimpleTree.html',1,'']]],
   ['slowcontroldata',['SlowControlData',['../db/d49/structSlowControlData.html',1,'']]],
   ['smatrix',['SMatrix',['../d9/db7/classSMatrix.html',1,'']]],
   ['sp_5fenable_5fif_5fauto_5fptr',['sp_enable_if_auto_ptr',['../de/d4b/structboost_1_1detail_1_1sp__enable__if__auto__ptr.html',1,'boost::detail']]],
