@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"df/d36/classSQDigitizer.html#a8db95e9af1b348833d7e759a486ee3da":[20,0,374,2],
+"df/d36/classSQDigitizer.html#a94fbfd930c455a55a462aa844db45c58":[20,0,374,11],
+"df/d36/classSQDigitizer.html#aa950c86897435eda1e4fe4b91c214778":[20,0,374,1],
 "df/d36/classSQDigitizer.html#aad119128235bc9f3d7cbf6005c769c51":[20,0,374,9],
 "df/d36/classSQDigitizer.html#aeebb86ad3f793ec11e6d1e7807c8064c":[20,0,374,8],
 "df/d37/PHG4Hitv1_8cc.html":[21,0,2,7,5,35],
@@ -197,8 +200,8 @@ var NAVTREEINDEX45 =
 "df/d5e/classPHG4BlockCellReco.html#ae2234f60490d0fc28a3ca73d4bc531af":[20,0,179,15],
 "df/d5f/CalibParamXTLinkDef_8h.html":[21,0,2,6,6,9],
 "df/d5f/CalibParamXTLinkDef_8h_source.html":[21,0,2,6,6,9],
-"df/d60/namespaceUtilTrigger.html":[19,0,23],
 "df/d60/namespaceUtilTrigger.html":[20,0,24],
+"df/d60/namespaceUtilTrigger.html":[19,0,23],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html":[21,0,2,5,2,1],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html#a92136f391f9569a6c6c1c81dcb9679df":[21,0,2,5,2,1,1],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html#ab9151bcfc5d35e7a25c9cf86fddd2bd2":[21,0,2,5,2,1,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "df/d82/classPHG4BlockGeom.html#a3675cffa90af292fd3b482a254f72350":[20,0,181,16],
 "df/d82/classPHG4BlockGeom.html#a3e92b6be3074c5a792f3059a138afec7":[20,0,181,15],
 "df/d82/classPHG4BlockGeom.html#a5bdd91ea56a08160f44388d03039fea8":[20,0,181,18],
-"df/d82/classPHG4BlockGeom.html#a5c1d6dceab925b27f4a0e753d8e714c0":[20,0,181,17],
-"df/d82/classPHG4BlockGeom.html#a6449d54b2c019eecda050d9f281dd003":[20,0,181,9],
-"df/d82/classPHG4BlockGeom.html#a6bd87e5d962010b16d638ad97a31a670":[20,0,181,7],
-"df/d82/classPHG4BlockGeom.html#a6eb52a7aa8339645f6a5c6af808fadec":[20,0,181,6]
+"df/d82/classPHG4BlockGeom.html#a5c1d6dceab925b27f4a0e753d8e714c0":[20,0,181,17]
 };

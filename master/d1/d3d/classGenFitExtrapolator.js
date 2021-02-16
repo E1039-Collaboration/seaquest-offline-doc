@@ -17,6 +17,8 @@ var classGenFitExtrapolator =
     [ "setLengthCalc", "d1/d3d/classGenFitExtrapolator.html#acac6549d516c6784082967ffed07b848", null ],
     [ "setParticleType", "d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3", null ],
     [ "setPropCalc", "d1/d3d/classGenFitExtrapolator.html#a39eec48c004525ea9b2ac216b85507ab", null ],
+    [ "TRGENFIT2LEGACY", "d1/d3d/classGenFitExtrapolator.html#ad9e40b6808684418add1000bcf45b1c1", null ],
+    [ "TRLEGACY2GENFIT", "d1/d3d/classGenFitExtrapolator.html#ab0965ff56ad1562173d50ab1cc150952", null ],
     [ "TRSCSD", "d1/d3d/classGenFitExtrapolator.html#af89a02f2ed82e4444bae4662f07b1682", null ],
     [ "TRSDSC", "d1/d3d/classGenFitExtrapolator.html#a96d70bf901dbf71f4772873a3b1df1b5", null ]
 ];

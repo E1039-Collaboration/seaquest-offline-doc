@@ -233,7 +233,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00078">GenFitExtrapolator::setLengthCalc()</a>, and <a class="el" href="../../d3/d13/GenFitExtrapolator_8h_source.html#l00077">GenFitExtrapolator::setPropCalc()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00145">VertexFit::InitRun()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00147">VertexFit::InitRun()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -277,7 +277,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Calculate the filtered parameter's contribution to chi square chi2 += chi2m + chi2p chi2m = r_filter^t.g.r_filter (contribution from measurement) chi2p = (p_filter-p_pred)^t.c_pred^{-1}.(p_filter - p_pred) (contribution from extrapolator)</p>
 <p>Store the filtered state vector </p>
 
-<p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00111">111</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00113">113</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00086">TrkPar::_covar_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00085">TrkPar::_state_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00087">TrkPar::_z</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00125">SMatrix::getABCt()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00141">SMatrix::getABtC()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00133">SMatrix::getAtBC()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00107">Node::getFiltered()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00110">Node::getMeasurement()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00111">Node::getMeasurementCov()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00106">Node::getPredicted()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00122">Node::getProjector()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00052">SMatrix::invertMatrix()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00132">Node::isFilterDone()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00131">Node::isPredictionDone()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00145">Node::setChisq()</a>, and <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00142">Node::setFilterDone()</a>.</p>
 
@@ -323,16 +323,16 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00050">50</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00111">filter()</a>, and <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00062">predict()</a>.</p>
+<p>References <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00113">filter()</a>, and <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00062">predict()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00538">VertexFit::findVertex()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00544">VertexFit::findVertex()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classKalmanFilter_a9c77cbaf604c1adc5e0e12ef3463d37c_cgraph.svg" width="1267" height="1175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classKalmanFilter_a9c77cbaf604c1adc5e0e12ef3463d37c_cgraph.svg" width="771" height="1060"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -375,7 +375,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00045">45</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
 
-<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00074">GenFitExtrapolator::init()</a>.</p>
+<p>References <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00075">GenFitExtrapolator::init()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>.</p>
 
@@ -428,7 +428,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00039">KalmanFilter()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00576">KalmanTrack::addHit()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00145">VertexFit::InitRun()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00185">KalmanTrack::propagateTo()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00576">KalmanTrack::addHit()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00147">VertexFit::InitRun()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00185">KalmanTrack::propagateTo()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -467,11 +467,12 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Kalman filter steps. </p>
+<p>probably we don't need this (?); Abi</p>
 <p>Empty prediction, for debugging purpose </p>
 
 <p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00062">62</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
 
-<p>References <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00086">TrkPar::_covar_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00085">TrkPar::_state_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00087">TrkPar::_z</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00234">GenFitExtrapolator::extrapolateTo()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00125">SMatrix::getABCt()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00169">GenFitExtrapolator::getFinalStateWithCov()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00106">Node::getPredicted()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00206">GenFitExtrapolator::getPropagator()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00121">Node::getPropagator()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00126">Node::getZ()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00131">Node::isPredictionDone()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00116">GenFitExtrapolator::setInitialStateWithCov()</a>, and <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00141">Node::setPredictionDone()</a>.</p>
+<p>References <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00086">TrkPar::_covar_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00085">TrkPar::_state_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00087">TrkPar::_z</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00288">GenFitExtrapolator::extrapolateTo()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00190">GenFitExtrapolator::getFinalStateWithCov()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00106">Node::getPredicted()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00245">GenFitExtrapolator::getPropagator()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00121">Node::getPropagator()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00126">Node::getZ()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00131">Node::isPredictionDone()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00117">GenFitExtrapolator::setInitialStateWithCov()</a>, and <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00141">Node::setPredictionDone()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00050">fit_node()</a>, and <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00185">KalmanTrack::propagateTo()</a>.</p>
 
@@ -480,7 +481,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classKalmanFilter_adfaf7ddeefb43919df6aee3f1e2638ae_cgraph.svg" width="1059" height="635"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d2a/classKalmanFilter_adfaf7ddeefb43919df6aee3f1e2638ae_cgraph.svg" width="563" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -525,7 +526,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00107">Node::getFiltered()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00538">VertexFit::findVertex()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00185">KalmanTrack::propagateTo()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00169">KalmanFitter::setStartingParameter()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00544">VertexFit::findVertex()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00204">KalmanTrack::getMomentumVertex()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00185">KalmanTrack::propagateTo()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00169">KalmanFitter::setStartingParameter()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00168">SRecTrack::setZVertex()</a>.</p>
 
 <p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -603,7 +604,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Calculate the covariance of the smoothed state vector c_smooth = c_filter + a.(c_smooth_prev - c_pred_prev).a^t</p>
 <p>Fill the smoothed track parameter </p>
 
-<p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00185">185</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00187">187</a> of file <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html">KalmanFilter.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00086">TrkPar::_covar_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00085">TrkPar::_state_kf</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00087">TrkPar::_z</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00125">SMatrix::getABCt()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00149">SMatrix::getABtCinv()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00107">Node::getFiltered()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00106">Node::getPredicted()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00121">Node::getPropagator()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00108">Node::getSmoothed()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00132">Node::isFilterDone()</a>, <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00133">Node::isSmoothDone()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">LogInfo</a>, and <a class="el" href="../../da/d1d/KalmanUtil_8h_source.html#l00143">Node::setSmoothDone()</a>.</p>
 
@@ -645,7 +646,7 @@ Static Public Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d6/d2a/classKalmanFilter.html">KalmanFilter</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Feb 15 2021 12:10:13</em> using <a
+			updated: <em>Tue Feb 16 2021 13:20:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -16,6 +16,7 @@ var searchData=
   ['empty_5fg4vertex_5fid',['empty_g4vertex_id',['../db/d88/classPHG4Shower.html#a0a49618c836e9537150d0568a6f2868b',1,'PHG4Shower::empty_g4vertex_id()'],['../db/dfa/classPHG4Showerv1.html#a69ee8cb1364367dd1f587957a693465d',1,'PHG4Showerv1::empty_g4vertex_id()']]],
   ['enable',['enable',['../d5/d72/classTriggerRoad.html#a3ee4917aa3f4eb61b13227558862968d',1,'TriggerRoad']]],
   ['enable_5fe1039_5ftranslation',['enable_E1039_translation',['../d5/dd4/classFun4AllSRawEventInputManager.html#a2b199b0e4d25bb9ea94e35e8cf7ce860',1,'Fun4AllSRawEventInputManager']]],
+  ['enable_5ffit_5ftarget_5fcenter',['enable_fit_target_center',['../d1/d13/classVertexFit.html#a3304088ba5c3bf5f17e167c504d16c82',1,'VertexFit']]],
   ['enablecustomdimuon',['enableCustomDimuon',['../d4/d06/classSQPrimaryParticleGen.html#af6a9b798a32c2220dd37a93aa3adcb43',1,'SQPrimaryParticleGen']]],
   ['enabledrellyangen',['enableDrellYanGen',['../d4/d06/classSQPrimaryParticleGen.html#ac79fad4accf33b38346794b369b5e247',1,'SQPrimaryParticleGen']]],
   ['enabledumpcorrection',['enableDumpCorrection',['../d6/d2a/classKalmanFilter.html#aa8071f1a779f51acd7790c731ec9fca2',1,'KalmanFilter']]],

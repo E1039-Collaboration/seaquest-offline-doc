@@ -7,6 +7,7 @@ var classVertexFit =
     [ "addTrack", "d1/d13/classVertexFit.html#a01f51bc88c39dbfb655967c683cafbae", null ],
     [ "addTrack", "d1/d13/classVertexFit.html#a890a9a8c27ced4d9708c47f50460ec51", null ],
     [ "bookEvaluation", "d1/d13/classVertexFit.html#a41ae248c2d4336b8e7e4c310fb2346c9", null ],
+    [ "enable_fit_target_center", "d1/d13/classVertexFit.html#a3304088ba5c3bf5f17e167c504d16c82", null ],
     [ "enableOptimization", "d1/d13/classVertexFit.html#a2db71861065660d8cc26f34d2f773f65", null ],
     [ "End", "d1/d13/classVertexFit.html#a9f590ef2eeecda6520303ba9b12bed00", null ],
     [ "fillEvaluation", "d1/d13/classVertexFit.html#a08c6ee60ec06539c0a781612cabd80c2", null ],

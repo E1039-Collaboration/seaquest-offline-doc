@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d5/dfb/SyncObjectv2_8cc.html":[21,0,2,1,0,16],
+"d5/dfb/SyncObjectv2_8cc_source.html":[21,0,2,1,0,16],
+"d5/dff/classPHG4VtxPointv1.html":[20,0,305],
 "d5/dff/classPHG4VtxPointv1.html#a0d8f744ece9ff6ea178dae6049feaeb6":[20,0,305,19],
 "d5/dff/classPHG4VtxPointv1.html#a25a9c588490cb03abbbb13b69c04f121":[20,0,305,15],
 "d5/dff/classPHG4VtxPointv1.html#a32da2dddf8f1503300419ff1bf416204":[20,0,305,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "d6/d6f/classFun4AllHepMCInputManager.html#ab30f395e803ef4a8714c6845fdb3ba6f":[20,0,81,23],
 "d6/d6f/classFun4AllHepMCInputManager.html#ab49f9d3e9950f49dfe1323ac466e2021":[20,0,81,0],
 "d6/d6f/classFun4AllHepMCInputManager.html#ab6c80a8ee0701bfff5eee3ec3623015c":[20,0,81,13],
-"d6/d6f/classFun4AllHepMCInputManager.html#abd8be106f5a5aaeefc073889f72d5242":[20,0,81,21],
-"d6/d6f/classFun4AllHepMCInputManager.html#abfdd531fdd5e6761042c68a7dce97cce":[20,0,81,12],
-"d6/d6f/classFun4AllHepMCInputManager.html#ac7fd7eac1b0627114a1f4f610be548e1":[20,0,81,24],
-"d6/d6f/classFun4AllHepMCInputManager.html#acab7c0aa0174dd84627f17dfc4eb7f9e":[20,0,81,10]
+"d6/d6f/classFun4AllHepMCInputManager.html#abd8be106f5a5aaeefc073889f72d5242":[20,0,81,21]
 };

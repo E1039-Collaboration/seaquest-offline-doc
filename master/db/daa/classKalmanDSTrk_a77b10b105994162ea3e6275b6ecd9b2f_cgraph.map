@@ -1,51 +1,51 @@
 <map id="KalmanDSTrk::resolveLeftRight" name="KalmanDSTrk::resolveLeftRight">
-<area shape="rect" id="node2" href="$db/daa/classKalmanDSTrk.html#a6ef1da3cf3344ef3215f9618c1cfe21f" title="KalmanDSTrk::fitTrack" alt="" coords="247,1437,399,1464"/>
-<area shape="rect" id="node47" href="$d9/dc3/classKalmanTrack.html#a8b5dfe0c3b90ca7364ffa0e1b0a8c095" title="Get the list of hits associated. " alt="" coords="227,1387,418,1413"/>
-<area shape="rect" id="node3" href="$d9/dc3/classKalmanTrack.html#a5131a89f46b93d34ece2b08c442845cc" title="KalmanTrack::getNodeList" alt="" coords="944,1336,1117,1363"/>
-<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#ab24b24f8545dab241ef926371741ac71" title="GeomSvc::getPlaneResolution" alt="" coords="225,1488,421,1515"/>
-<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#ad3634b2f30bd7d95b2c1e4b7061fbfd0" title="GeomSvc::getUinStereoPlane" alt="" coords="226,1564,419,1591"/>
-<area shape="rect" id="node4" href="$d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d" title="KalmanFitter::processOne\lTrack" alt="" coords="472,1118,643,1159"/>
-<area shape="rect" id="node44" href="$d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c" title="KalmanFitter::updateTrack" alt="" coords="470,1437,645,1464"/>
-<area shape="rect" id="node5" href="$d3/dc9/classKalmanFitter.html#a6c4dc9c69d998ffb8897d4eabe692e29" title="Initialize the node list. " alt="" coords="709,1285,878,1312"/>
-<area shape="rect" id="node6" href="$d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8" title="Set the starting parameters. " alt="" coords="711,1118,875,1159"/>
-<area shape="rect" id="node9" href="$d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326" title="Update the actual z position of each node according to current fit results. " alt="" coords="694,1235,893,1261"/>
-<area shape="rect" id="node10" href="$d3/dc9/classKalmanFitter.html#ae9587c1f1ad0cda46b37cc803ea8513b" title="Initialize the kalman filter. " alt="" coords="734,965,853,992"/>
-<area shape="rect" id="node11" href="$d6/d2a/classKalmanFilter.html#a9c77cbaf604c1adc5e0e12ef3463d37c" title="Fit one node. " alt="" coords="720,724,867,751"/>
-<area shape="rect" id="node7" href="$d6/d2a/classKalmanFilter.html#a8d8429d9087367301473581d099091f6" title="set the current track parameter using the current node " alt="" coords="941,1125,1120,1152"/>
-<area shape="rect" id="node38" href="$d3/dc9/classKalmanFitter.html#a6afa98e802038d1ef394de55bbe013b5" title="Initialize the smoother. " alt="" coords="943,1183,1118,1209"/>
-<area shape="rect" id="node42" href="$d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306" title="KalmanFilter::smooth" alt="" coords="959,1051,1102,1077"/>
-<area shape="rect" id="node8" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title="Node::getFiltered" alt="" coords="1197,1129,1315,1156"/>
-<area shape="rect" id="node12" href="$d6/d2a/classKalmanFilter.html#adfaf7ddeefb43919df6aee3f1e2638ae" title="Kalman filter steps. " alt="" coords="961,329,1101,356"/>
-<area shape="rect" id="node28" href="$d6/d2a/classKalmanFilter.html#a06b2c6aa660f89c5f30e164b0a29512c" title="KalmanFilter::filter" alt="" coords="968,724,1093,751"/>
-<area shape="rect" id="node13" href="$df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" title="Node::isPredictionDone" alt="" coords="1179,420,1333,447"/>
-<area shape="rect" id="node14" href="$df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" title="Node::getZ" alt="" coords="1214,237,1298,264"/>
-<area shape="rect" id="node15" href="$d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48" title="Set input initial state parameters. " alt="" coords="1179,289,1333,330"/>
-<area shape="rect" id="node19" href="$d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526" title="GenFitExtrapolator\l::extrapolateTo" alt="" coords="1191,354,1321,395"/>
-<area shape="rect" id="node20" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets. " alt="" coords="1191,825,1321,852"/>
-<area shape="rect" id="node21" href="$d1/d3d/classGenFitExtrapolator.html#af0f921bf2fe387759c642a9b7c348109" title="Get the final state parameters and covariance. " alt="" coords="1179,5,1333,46"/>
-<area shape="rect" id="node23" href="$d1/d3d/classGenFitExtrapolator.html#ac013889a915dded109c6b9fd236b31dd" title="Get the propagator. " alt="" coords="1191,70,1321,111"/>
-<area shape="rect" id="node24" href="$df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" title="Node::getPropagator" alt="" coords="1187,876,1325,903"/>
-<area shape="rect" id="node25" href="$df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" title="Node::setPredictionDone" alt="" coords="1175,136,1337,163"/>
-<area shape="rect" id="node26" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="1186,187,1326,213"/>
-<area shape="rect" id="node27" href="$d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" title="SMatrix::getABCt" alt="" coords="1195,927,1317,953"/>
-<area shape="rect" id="node16" href="$d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7" title="Transformation between the state vector and the mom/pos. " alt="" coords="1397,289,1526,330"/>
-<area shape="rect" id="node17" href="$d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3" title="Set particle type. " alt="" coords="1397,354,1526,395"/>
-<area shape="rect" id="node18" href="$d1/d3d/classGenFitExtrapolator.html#a96d70bf901dbf71f4772873a3b1df1b5" title="GenFitExtrapolator\l::TRSDSC" alt="" coords="1397,223,1526,265"/>
-<area shape="rect" id="node22" href="$d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63" title="GenFitExtrapolator\l::convertMPtoSV" alt="" coords="1397,5,1526,46"/>
-<area shape="rect" id="node29" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title="Node::isFilterDone" alt="" coords="1193,1079,1319,1105"/>
-<area shape="rect" id="node30" href="$df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb" title="Node::getMeasurement" alt="" coords="1179,623,1333,649"/>
-<area shape="rect" id="node31" href="$df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa" title="Node::getMeasurementCov" alt="" coords="1168,673,1344,700"/>
-<area shape="rect" id="node32" href="$df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd" title="Node::getProjector" alt="" coords="1192,724,1320,751"/>
-<area shape="rect" id="node33" href="$d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a" title="SMatrix::invertMatrix" alt="" coords="1392,1003,1531,1029"/>
-<area shape="rect" id="node34" href="$d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e" title="SMatrix::getAtBC" alt="" coords="1195,775,1317,801"/>
-<area shape="rect" id="node35" href="$d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526" title="SMatrix::getABtC" alt="" coords="1195,471,1317,497"/>
-<area shape="rect" id="node36" href="$df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e" title="Node::setChisq" alt="" coords="1203,521,1309,548"/>
-<area shape="rect" id="node37" href="$df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08" title="Node::setFilterDone" alt="" coords="1189,572,1323,599"/>
-<area shape="rect" id="node39" href="$df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1" title="Node::isSmoothDone" alt="" coords="1185,1281,1327,1308"/>
-<area shape="rect" id="node40" href="$df/dd0/classNode.html#a385cbcf82382c3ff0e7d347d6e6d6a77" title="Node::getSmoothed" alt="" coords="1189,1180,1323,1207"/>
-<area shape="rect" id="node41" href="$df/dd0/classNode.html#acd87507e822cf12e56a26c23064af5fe" title="Node::setSmoothDone" alt="" coords="1181,1231,1331,1257"/>
-<area shape="rect" id="node43" href="$d9/db7/classSMatrix.html#a0209d8bd6c377b460a9cda4bc134b37d" title="SMatrix::getABtCinv" alt="" coords="1187,1028,1325,1055"/>
-<area shape="rect" id="node45" href="$d9/dc3/classKalmanTrack.html#a864c3756a797ab658515bbc1c8206633" title="set the current track parameter " alt="" coords="702,1437,885,1464"/>
-<area shape="rect" id="node46" href="$d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e" title="Update the track status. " alt="" coords="721,1387,865,1413"/>
-<area shape="rect" id="node50" href="$dc/d90/classPlane.html#a48ab3a309bee8c386464b36a7593df16" title="Plane::getW" alt="" coords="512,1589,603,1616"/>
+<area shape="rect" id="node2" href="$db/daa/classKalmanDSTrk.html#a6ef1da3cf3344ef3215f9618c1cfe21f" title="KalmanDSTrk::fitTrack" alt="" coords="247,1400,399,1427"/>
+<area shape="rect" id="node47" href="$d9/dc3/classKalmanTrack.html#a8b5dfe0c3b90ca7364ffa0e1b0a8c095" title="Get the list of hits associated. " alt="" coords="227,1349,418,1376"/>
+<area shape="rect" id="node3" href="$d9/dc3/classKalmanTrack.html#a5131a89f46b93d34ece2b08c442845cc" title="KalmanTrack::getNodeList" alt="" coords="944,1299,1117,1325"/>
+<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#ab24b24f8545dab241ef926371741ac71" title="GeomSvc::getPlaneResolution" alt="" coords="225,1451,421,1477"/>
+<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#ad3634b2f30bd7d95b2c1e4b7061fbfd0" title="GeomSvc::getUinStereoPlane" alt="" coords="226,1527,419,1553"/>
+<area shape="rect" id="node4" href="$d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d" title="KalmanFitter::processOne\lTrack" alt="" coords="472,1081,643,1122"/>
+<area shape="rect" id="node44" href="$d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c" title="KalmanFitter::updateTrack" alt="" coords="470,1400,645,1427"/>
+<area shape="rect" id="node5" href="$d3/dc9/classKalmanFitter.html#a6c4dc9c69d998ffb8897d4eabe692e29" title="Initialize the node list. " alt="" coords="709,1248,878,1275"/>
+<area shape="rect" id="node6" href="$d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8" title="Set the starting parameters. " alt="" coords="711,1081,875,1122"/>
+<area shape="rect" id="node9" href="$d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326" title="Update the actual z position of each node according to current fit results. " alt="" coords="694,1197,893,1224"/>
+<area shape="rect" id="node10" href="$d3/dc9/classKalmanFitter.html#ae9587c1f1ad0cda46b37cc803ea8513b" title="Initialize the kalman filter. " alt="" coords="734,928,853,955"/>
+<area shape="rect" id="node11" href="$d6/d2a/classKalmanFilter.html#a9c77cbaf604c1adc5e0e12ef3463d37c" title="Fit one node. " alt="" coords="720,737,867,764"/>
+<area shape="rect" id="node7" href="$d6/d2a/classKalmanFilter.html#a8d8429d9087367301473581d099091f6" title="set the current track parameter using the current node " alt="" coords="941,1088,1120,1115"/>
+<area shape="rect" id="node38" href="$d3/dc9/classKalmanFitter.html#a6afa98e802038d1ef394de55bbe013b5" title="Initialize the smoother. " alt="" coords="943,1145,1118,1172"/>
+<area shape="rect" id="node42" href="$d6/d2a/classKalmanFilter.html#a511c8165e9c3ad5ee16b6c48ec9ae306" title="KalmanFilter::smooth" alt="" coords="959,1013,1102,1040"/>
+<area shape="rect" id="node8" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title="Node::getFiltered" alt="" coords="1197,1092,1315,1119"/>
+<area shape="rect" id="node12" href="$d6/d2a/classKalmanFilter.html#adfaf7ddeefb43919df6aee3f1e2638ae" title="Kalman filter steps. " alt="" coords="961,303,1101,329"/>
+<area shape="rect" id="node27" href="$d6/d2a/classKalmanFilter.html#a06b2c6aa660f89c5f30e164b0a29512c" title="KalmanFilter::filter" alt="" coords="968,737,1093,764"/>
+<area shape="rect" id="node13" href="$df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" title="Node::isPredictionDone" alt="" coords="1179,383,1333,409"/>
+<area shape="rect" id="node14" href="$df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" title="Node::getZ" alt="" coords="1214,19,1298,45"/>
+<area shape="rect" id="node15" href="$d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48" title="Set input initial state parameters. " alt="" coords="1179,70,1333,111"/>
+<area shape="rect" id="node19" href="$d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526" title="GenFitExtrapolator\l::extrapolateTo" alt="" coords="1191,135,1321,177"/>
+<area shape="rect" id="node20" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets. " alt="" coords="1191,889,1321,916"/>
+<area shape="rect" id="node21" href="$d1/d3d/classGenFitExtrapolator.html#af0f921bf2fe387759c642a9b7c348109" title="Get the final state parameters and covariance. " alt="" coords="1179,201,1333,242"/>
+<area shape="rect" id="node24" href="$d1/d3d/classGenFitExtrapolator.html#ac013889a915dded109c6b9fd236b31dd" title="Get the propagator. " alt="" coords="1191,266,1321,307"/>
+<area shape="rect" id="node25" href="$df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" title="Node::getPropagator" alt="" coords="1187,433,1325,460"/>
+<area shape="rect" id="node26" href="$df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" title="Node::setPredictionDone" alt="" coords="1175,332,1337,359"/>
+<area shape="rect" id="node16" href="$d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7" title="Transformation between the state vector and the mom/pos. " alt="" coords="1403,5,1533,46"/>
+<area shape="rect" id="node17" href="$d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3" title="Set particle type. " alt="" coords="1403,70,1533,111"/>
+<area shape="rect" id="node18" href="$d1/d3d/classGenFitExtrapolator.html#ab0965ff56ad1562173d50ab1cc150952" title="GenFitExtrapolator\l::TRLEGACY2GENFIT" alt="" coords="1393,135,1543,177"/>
+<area shape="rect" id="node22" href="$d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63" title="GenFitExtrapolator\l::convertMPtoSV" alt="" coords="1403,201,1533,242"/>
+<area shape="rect" id="node23" href="$d1/d3d/classGenFitExtrapolator.html#ad9e40b6808684418add1000bcf45b1c1" title="Tranformation between GenFit and Legacy plane; Abi. " alt="" coords="1393,266,1543,307"/>
+<area shape="rect" id="node28" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title="Node::isFilterDone" alt="" coords="1193,1041,1319,1068"/>
+<area shape="rect" id="node29" href="$df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb" title="Node::getMeasurement" alt="" coords="1179,687,1333,713"/>
+<area shape="rect" id="node30" href="$df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa" title="Node::getMeasurementCov" alt="" coords="1168,737,1344,764"/>
+<area shape="rect" id="node31" href="$df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd" title="Node::getProjector" alt="" coords="1192,788,1320,815"/>
+<area shape="rect" id="node32" href="$d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a" title="SMatrix::invertMatrix" alt="" coords="1399,915,1537,941"/>
+<area shape="rect" id="node33" href="$d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e" title="SMatrix::getAtBC" alt="" coords="1195,484,1317,511"/>
+<area shape="rect" id="node34" href="$d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526" title="SMatrix::getABtC" alt="" coords="1195,535,1317,561"/>
+<area shape="rect" id="node35" href="$d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" title="SMatrix::getABCt" alt="" coords="1195,940,1317,967"/>
+<area shape="rect" id="node36" href="$df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e" title="Node::setChisq" alt="" coords="1203,585,1309,612"/>
+<area shape="rect" id="node37" href="$df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08" title="Node::setFilterDone" alt="" coords="1189,636,1323,663"/>
+<area shape="rect" id="node39" href="$df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1" title="Node::isSmoothDone" alt="" coords="1185,1244,1327,1271"/>
+<area shape="rect" id="node40" href="$df/dd0/classNode.html#a385cbcf82382c3ff0e7d347d6e6d6a77" title="Node::getSmoothed" alt="" coords="1189,1143,1323,1169"/>
+<area shape="rect" id="node41" href="$df/dd0/classNode.html#acd87507e822cf12e56a26c23064af5fe" title="Node::setSmoothDone" alt="" coords="1181,1193,1331,1220"/>
+<area shape="rect" id="node43" href="$d9/db7/classSMatrix.html#a0209d8bd6c377b460a9cda4bc134b37d" title="SMatrix::getABtCinv" alt="" coords="1187,991,1325,1017"/>
+<area shape="rect" id="node45" href="$d9/dc3/classKalmanTrack.html#a864c3756a797ab658515bbc1c8206633" title="set the current track parameter " alt="" coords="702,1400,885,1427"/>
+<area shape="rect" id="node46" href="$d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e" title="Update the track status. " alt="" coords="721,1349,865,1376"/>
+<area shape="rect" id="node50" href="$dc/d90/classPlane.html#a48ab3a309bee8c386464b36a7593df16" title="Plane::getW" alt="" coords="512,1552,603,1579"/>
 </map>

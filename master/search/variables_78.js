@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()'],['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()']]],
+  ['x',['X',['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()'],['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()']]],
   ['x0',['x0',['../d6/d90/structGeomParamPlane_1_1Plane.html#a747407b2624302dfe4caa70871cca897',1,'GeomParamPlane::Plane::x0()'],['../dc/d90/classPlane.html#ab1e54f526f034360007cc97447f0c4b6',1,'Plane::x0()'],['../d2/d26/classTracklet.html#a4d010ad8661d14b6ace17f5dc838b218',1,'Tracklet::x0()']]],
   ['x0max',['x0max',['../d5/d9b/plot__matscan_8C.html#a1f9fde3c80fd661c0b3c9254c26a8cb2',1,'plot_matscan.C']]],
   ['x0min',['x0min',['../d5/d9b/plot__matscan_8C.html#af801aa677d9d37d79974c125bac5790b',1,'plot_matscan.C']]],
@@ -9,7 +9,7 @@ var searchData=
   ['x_5fexp',['x_exp',['../da/da4/classTrackletData.html#a445e554b0dc84ef265f520988756a91c',1,'TrackletData']]],
   ['xb',['xb',['../de/d50/classFun4AllFileOutStream.html#a5af0b5470752a0e372c7534287e5ff63',1,'Fun4AllFileOutStream']]],
   ['xc',['xc',['../dc/d90/classPlane.html#a6df76e27a2937d88e3bffb5eeca115ec',1,'Plane']]],
-  ['xf',['xf',['../d2/dc4/classRoadPair.html#a9ca91a607c20b35823204796d258c522',1,'RoadPair::xf()'],['../dd/dec/structDimuonData.html#ac4c59332a05fea74f95d4df2c7f8a734',1,'DimuonData::xf()'],['../d3/d07/classSRecDimuon.html#a76c5c422745f641efad48a6435323fb9',1,'SRecDimuon::xF()']]],
+  ['xf',['xF',['../d3/d07/classSRecDimuon.html#a76c5c422745f641efad48a6435323fb9',1,'SRecDimuon::xF()'],['../d2/dc4/classRoadPair.html#a9ca91a607c20b35823204796d258c522',1,'RoadPair::xf()'],['../dd/dec/structDimuonData.html#ac4c59332a05fea74f95d4df2c7f8a734',1,'DimuonData::xf()']]],
   ['xkey_5fsave',['xkey_save',['../d0/dc2/classPHField3DCartesian.html#aa778428169cd35dd7449a2dd2d94c370',1,'PHField3DCartesian']]],
   ['xmax',['xmax',['../d0/dc2/classPHField3DCartesian.html#a2858cdab35d0be5d9479d8c209c9e3e3',1,'PHField3DCartesian::xmax()'],['../d7/d58/classSQField3DCartesian.html#ad892f9ab550397eb41f9278af2102309',1,'SQField3DCartesian::xmax()']]],
   ['xmin',['xmin',['../d0/dc2/classPHField3DCartesian.html#ae230b0b77c9bc9bc2fe67997ca6b363d',1,'PHField3DCartesian::xmin()'],['../d7/d58/classSQField3DCartesian.html#a2bc664233c591060dea39376433182b2',1,'SQField3DCartesian::xmin()']]],

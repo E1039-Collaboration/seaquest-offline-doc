@@ -1,5 +1,8 @@
 var NAVTREEINDEX15 =
 {
+"d5/d59/classPHFieldConfig__v1.html#a289aebf0b0c215565652cb8d717f4c7d":[20,0,169,5],
+"d5/d59/classPHFieldConfig__v1.html#a29e27873e197edf1943b01f2dc5f4e7c":[20,0,169,7],
+"d5/d59/classPHFieldConfig__v1.html#a5a2b478b16de588370dd8d6cb9f6455c":[20,0,169,10],
 "d5/d59/classPHFieldConfig__v1.html#a5c1edf9a5b3e2fddcc5d63b66274c59a":[20,0,169,11],
 "d5/d59/classPHFieldConfig__v1.html#a6be806263ab75acc4a08877ca57350ee":[20,0,169,1],
 "d5/d59/classPHFieldConfig__v1.html#a713ab5d1af771a8e3b557acfc4e308a6":[20,0,169,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX15 =
 "d5/d78/SQDimuon_8h_source.html":[21,0,2,3,7],
 "d5/d7b/classSQBeamlineObject.html":[20,0,370],
 "d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc":[20,0,370,19],
-"d5/d7b/classSQBeamlineObject.html#a040cb3bdd274d3d7f9d9303688af09a2":[20,0,370,1],
-"d5/d7b/classSQBeamlineObject.html#a05561d9154094fb30c058ac2045c83ff":[20,0,370,21],
-"d5/d7b/classSQBeamlineObject.html#a11db5be548d6a2047f3dbb472d5536d4":[20,0,370,11],
-"d5/d7b/classSQBeamlineObject.html#a1d2ab4762cb4b610961d9465a77576fe":[20,0,370,9]
+"d5/d7b/classSQBeamlineObject.html#a040cb3bdd274d3d7f9d9303688af09a2":[20,0,370,1]
 };

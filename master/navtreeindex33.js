@@ -1,5 +1,8 @@
 var NAVTREEINDEX33 =
 {
+"da/da4/classTrackletData.html#ad40dcc7b21ffd17282ccaa5f19423958":[20,0,434,5],
+"da/da4/classTrackletData.html#adc653c3520633096b0cc6878653c2127":[20,0,434,7],
+"da/da4/classTrackletData.html#ae54b97811991c1309fe18867f6edb41e":[20,0,434,1],
 "da/da4/classTrackletData.html#af2e3211148f0ecb7dffe19bdb002bdea":[20,0,434,10],
 "da/da7/SQTruthVertexing_8cxx.html":[21,0,2,6,11,2,10],
 "da/da7/SQTruthVertexing_8cxx_source.html":[21,0,2,6,11,2,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX33 =
 "db/d03/classSQTrackVector.html#a953c8d24870742b17f0bae4daf006c2f":[20,0,416,4],
 "db/d03/classSQTrackVector.html#a96588f6c02aa8688204bd9db348220f3":[20,0,416,16],
 "db/d03/classSQTrackVector.html#aa8be22a23d827732ec44a8becb04d3f7":[20,0,416,0],
-"db/d03/classSQTrackVector.html#aba39c8924184b895a34a3f2b76bc28aa":[20,0,416,10],
-"db/d03/classSQTrackVector.html#ad4ce34ef8610353a230be29903a0749e":[20,0,416,15],
-"db/d04/PHG4ConeDetector_8cc.html":[21,0,2,7,1,55],
-"db/d04/PHG4ConeDetector_8cc_source.html":[21,0,2,7,1,55]
+"db/d03/classSQTrackVector.html#aba39c8924184b895a34a3f2b76bc28aa":[20,0,416,10]
 };

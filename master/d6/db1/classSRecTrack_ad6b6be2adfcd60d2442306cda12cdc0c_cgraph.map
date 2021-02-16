@@ -1,51 +1,47 @@
 <map id="SRecTrack::updateVtxHypothesis" name="SRecTrack::updateVtxHypothesis">
-<area shape="rect" id="node2" href="$d6/db1/classSRecTrack.html#aa8d156f11061e9f05cfbf8f2f9dd79b3" title="SRecTrack::getZVertex" alt="" coords="288,725,443,752"/>
-<area shape="rect" id="node3" href="$d6/db1/classSRecTrack.html#a35297e447abfcbb0167c8575f5b2186f" title="SRecTrack::setChisqDump" alt="" coords="277,776,453,803"/>
-<area shape="rect" id="node4" href="$d6/db1/classSRecTrack.html#a6babb2f9c10d3c28375433436388c480" title="SRecTrack::setChisqTarget" alt="" coords="276,827,455,853"/>
-<area shape="rect" id="node5" href="$d6/db1/classSRecTrack.html#ab71cddfabc804a6e29489e2cbdc370d3" title="SRecTrack::setChisqUpstream" alt="" coords="267,877,464,904"/>
-<area shape="rect" id="node6" href="$d6/db1/classSRecTrack.html#a4e6933a5892c3e5fd593046ac3ee94a5" title="SRecTrack::setZVertex" alt="" coords="288,928,443,955"/>
-<area shape="rect" id="node7" href="$d6/d2a/classKalmanFilter.html#aa8071f1a779f51acd7790c731ec9fca2" title="Enable the dump mode: stop calc prop matrix, start calc travel length. " alt="" coords="512,282,685,323"/>
-<area shape="rect" id="node10" href="$d6/d2a/classKalmanFilter.html#a9c77cbaf604c1adc5e0e12ef3463d37c" title="Fit one node. " alt="" coords="525,675,672,701"/>
-<area shape="rect" id="node42" href="$d2/d70/classTrkPar.html#a144f65eec516de2add02c90211eb655c" title="TrkPar::get_mom_vec" alt="" coords="525,725,673,752"/>
-<area shape="rect" id="node44" href="$d2/d70/classTrkPar.html#af6c71e40d32ee559292d927b271b2b7a" title="TrkPar::get_x" alt="" coords="549,776,648,803"/>
-<area shape="rect" id="node45" href="$d2/d70/classTrkPar.html#a04101dd3ba83b7ebba771126f22a22c6" title="TrkPar::get_y" alt="" coords="549,827,648,853"/>
-<area shape="rect" id="node46" href="$df/dd0/classNode.html#a47f85a076ff52d02b1bf5327348ad8dd" title="Node::getChisq" alt="" coords="545,877,653,904"/>
-<area shape="rect" id="node15" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title="Node::getFiltered" alt="" coords="989,1080,1107,1107"/>
-<area shape="rect" id="node16" href="$df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb" title="Node::getMeasurement" alt="" coords="971,928,1125,955"/>
-<area shape="rect" id="node17" href="$df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa" title="Node::getMeasurementCov" alt="" coords="960,979,1136,1005"/>
-<area shape="rect" id="node19" href="$df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd" title="Node::getProjector" alt="" coords="984,1029,1112,1056"/>
-<area shape="rect" id="node47" href="$d6/d2a/classKalmanFilter.html#a6f0a34958ea81f4f3843ad3c03bfa366" title="singlton instance " alt="" coords="524,1131,673,1157"/>
-<area shape="rect" id="node49" href="$d6/d2a/classKalmanFilter.html#a8d8429d9087367301473581d099091f6" title="set the current track parameter using the current node " alt="" coords="733,1181,912,1208"/>
-<area shape="rect" id="node50" href="$df/dd0/classNode.html#a3e34b0104817584060e987797eb5d18c" title="Node::setZ" alt="" coords="557,1232,640,1259"/>
-<area shape="rect" id="node8" href="$d1/d3d/classGenFitExtrapolator.html#acac6549d516c6784082967ffed07b848" title="GenFitExtrapolator\l::setLengthCalc" alt="" coords="758,282,887,323"/>
-<area shape="rect" id="node9" href="$d1/d3d/classGenFitExtrapolator.html#a39eec48c004525ea9b2ac216b85507ab" title="External control of modes. " alt="" coords="758,217,887,258"/>
-<area shape="rect" id="node11" href="$d6/d2a/classKalmanFilter.html#a06b2c6aa660f89c5f30e164b0a29512c" title="KalmanFilter::filter" alt="" coords="760,725,885,752"/>
-<area shape="rect" id="node25" href="$d6/d2a/classKalmanFilter.html#adfaf7ddeefb43919df6aee3f1e2638ae" title="Kalman filter steps. " alt="" coords="753,348,893,375"/>
-<area shape="rect" id="node12" href="$d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" title="SMatrix::getABCt" alt="" coords="987,472,1109,499"/>
-<area shape="rect" id="node13" href="$d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526" title="SMatrix::getABtC" alt="" coords="987,827,1109,853"/>
-<area shape="rect" id="node14" href="$d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e" title="SMatrix::getAtBC" alt="" coords="987,877,1109,904"/>
-<area shape="rect" id="node18" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets. " alt="" coords="983,523,1113,549"/>
-<area shape="rect" id="node20" href="$d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a" title="SMatrix::invertMatrix" alt="" coords="979,624,1117,651"/>
-<area shape="rect" id="node21" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title="Node::isFilterDone" alt="" coords="985,675,1111,701"/>
-<area shape="rect" id="node22" href="$df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" title="Node::isPredictionDone" alt="" coords="971,573,1125,600"/>
-<area shape="rect" id="node23" href="$df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e" title="Node::setChisq" alt="" coords="995,725,1101,752"/>
-<area shape="rect" id="node24" href="$df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08" title="Node::setFilterDone" alt="" coords="981,776,1115,803"/>
-<area shape="rect" id="node26" href="$d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526" title="GenFitExtrapolator\l::extrapolateTo" alt="" coords="983,275,1113,317"/>
-<area shape="rect" id="node27" href="$d1/d3d/classGenFitExtrapolator.html#af0f921bf2fe387759c642a9b7c348109" title="Get the final state parameters and covariance. " alt="" coords="971,341,1125,382"/>
-<area shape="rect" id="node30" href="$d1/d3d/classGenFitExtrapolator.html#ac013889a915dded109c6b9fd236b31dd" title="Get the propagator. " alt="" coords="983,406,1113,447"/>
-<area shape="rect" id="node31" href="$df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" title="Node::getPropagator" alt="" coords="979,5,1117,32"/>
-<area shape="rect" id="node32" href="$df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" title="Node::getZ" alt="" coords="1006,56,1090,83"/>
-<area shape="rect" id="node33" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="978,107,1118,133"/>
-<area shape="rect" id="node37" href="$d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48" title="Set input initial state parameters. " alt="" coords="971,158,1125,199"/>
-<area shape="rect" id="node41" href="$df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" title="Node::setPredictionDone" alt="" coords="967,224,1129,251"/>
-<area shape="rect" id="node28" href="$d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63" title="GenFitExtrapolator\l::convertMPtoSV" alt="" coords="1201,341,1330,382"/>
-<area shape="rect" id="node29" href="$d1/d3d/classGenFitExtrapolator.html#af89a02f2ed82e4444bae4662f07b1682" title="GenFitExtrapolator\l::TRSCSD" alt="" coords="1201,406,1330,447"/>
-<area shape="rect" id="node34" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title="recoConsts::recoConsts" alt="" coords="1187,93,1343,120"/>
-<area shape="rect" id="node35" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="1185,43,1346,69"/>
-<area shape="rect" id="node36" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title="PHFlag::set_BoolFlag" alt="" coords="1395,43,1541,69"/>
-<area shape="rect" id="node38" href="$d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7" title="Transformation between the state vector and the mom/pos. " alt="" coords="1201,210,1330,251"/>
-<area shape="rect" id="node39" href="$d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3" title="Set particle type. " alt="" coords="1201,275,1330,317"/>
-<area shape="rect" id="node40" href="$d1/d3d/classGenFitExtrapolator.html#a96d70bf901dbf71f4772873a3b1df1b5" title="GenFitExtrapolator\l::TRSDSC" alt="" coords="1201,145,1330,186"/>
-<area shape="rect" id="node43" href="$d2/d70/classTrkPar.html#a98db9ac6051888eb9bbcb224cca2bcf5" title="TrkPar::get_mom" alt="" coords="762,776,883,803"/>
-<area shape="rect" id="node48" href="$d6/d2a/classKalmanFilter.html#ae44df2d206d9c7a7083b1a0313f20a73" title="Real constructor. " alt="" coords="735,1131,910,1157"/>
+<area shape="rect" id="node2" href="$d6/db1/classSRecTrack.html#aa8d156f11061e9f05cfbf8f2f9dd79b3" title="SRecTrack::getZVertex" alt="" coords="288,707,443,733"/>
+<area shape="rect" id="node3" href="$d6/db1/classSRecTrack.html#a35297e447abfcbb0167c8575f5b2186f" title="SRecTrack::setChisqDump" alt="" coords="277,757,453,784"/>
+<area shape="rect" id="node4" href="$d6/db1/classSRecTrack.html#a6babb2f9c10d3c28375433436388c480" title="SRecTrack::setChisqTarget" alt="" coords="276,808,455,835"/>
+<area shape="rect" id="node5" href="$d6/db1/classSRecTrack.html#ab71cddfabc804a6e29489e2cbdc370d3" title="SRecTrack::setChisqUpstream" alt="" coords="267,859,464,885"/>
+<area shape="rect" id="node6" href="$d6/db1/classSRecTrack.html#a4e6933a5892c3e5fd593046ac3ee94a5" title="SRecTrack::setZVertex" alt="" coords="288,909,443,936"/>
+<area shape="rect" id="node7" href="$d6/d2a/classKalmanFilter.html#aa8071f1a779f51acd7790c731ec9fca2" title="Enable the dump mode: stop calc prop matrix, start calc travel length. " alt="" coords="512,270,685,311"/>
+<area shape="rect" id="node10" href="$d6/d2a/classKalmanFilter.html#a9c77cbaf604c1adc5e0e12ef3463d37c" title="Fit one node. " alt="" coords="525,656,672,683"/>
+<area shape="rect" id="node38" href="$d2/d70/classTrkPar.html#a144f65eec516de2add02c90211eb655c" title="TrkPar::get_mom_vec" alt="" coords="525,707,673,733"/>
+<area shape="rect" id="node40" href="$d2/d70/classTrkPar.html#af6c71e40d32ee559292d927b271b2b7a" title="TrkPar::get_x" alt="" coords="549,757,648,784"/>
+<area shape="rect" id="node41" href="$d2/d70/classTrkPar.html#a04101dd3ba83b7ebba771126f22a22c6" title="TrkPar::get_y" alt="" coords="549,808,648,835"/>
+<area shape="rect" id="node42" href="$df/dd0/classNode.html#a47f85a076ff52d02b1bf5327348ad8dd" title="Node::getChisq" alt="" coords="545,859,653,885"/>
+<area shape="rect" id="node15" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title="Node::getFiltered" alt="" coords="989,1061,1107,1088"/>
+<area shape="rect" id="node16" href="$df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb" title="Node::getMeasurement" alt="" coords="971,909,1125,936"/>
+<area shape="rect" id="node17" href="$df/dd0/classNode.html#aba6dd9d4c392f430d1c93d4af381dbaa" title="Node::getMeasurementCov" alt="" coords="960,960,1136,987"/>
+<area shape="rect" id="node19" href="$df/dd0/classNode.html#ab276ce7246c8434b058236346dc121fd" title="Node::getProjector" alt="" coords="984,1011,1112,1037"/>
+<area shape="rect" id="node43" href="$d6/d2a/classKalmanFilter.html#a6f0a34958ea81f4f3843ad3c03bfa366" title="singlton instance " alt="" coords="524,1112,673,1139"/>
+<area shape="rect" id="node45" href="$d6/d2a/classKalmanFilter.html#a8d8429d9087367301473581d099091f6" title="set the current track parameter using the current node " alt="" coords="733,1163,912,1189"/>
+<area shape="rect" id="node46" href="$df/dd0/classNode.html#a3e34b0104817584060e987797eb5d18c" title="Node::setZ" alt="" coords="557,1213,640,1240"/>
+<area shape="rect" id="node8" href="$d1/d3d/classGenFitExtrapolator.html#acac6549d516c6784082967ffed07b848" title="GenFitExtrapolator\l::setLengthCalc" alt="" coords="758,270,887,311"/>
+<area shape="rect" id="node9" href="$d1/d3d/classGenFitExtrapolator.html#a39eec48c004525ea9b2ac216b85507ab" title="External control of modes. " alt="" coords="758,205,887,246"/>
+<area shape="rect" id="node11" href="$d6/d2a/classKalmanFilter.html#a06b2c6aa660f89c5f30e164b0a29512c" title="KalmanFilter::filter" alt="" coords="760,707,885,733"/>
+<area shape="rect" id="node25" href="$d6/d2a/classKalmanFilter.html#adfaf7ddeefb43919df6aee3f1e2638ae" title="Kalman filter steps. " alt="" coords="753,336,893,363"/>
+<area shape="rect" id="node12" href="$d9/db7/classSMatrix.html#a5b825aefb91608b827fbb652501eaecc" title="SMatrix::getABCt" alt="" coords="987,757,1109,784"/>
+<area shape="rect" id="node13" href="$d9/db7/classSMatrix.html#a03a7887eb40e088b798124c6cc6fe526" title="SMatrix::getABtC" alt="" coords="987,808,1109,835"/>
+<area shape="rect" id="node14" href="$d9/db7/classSMatrix.html#a92895b3c0152de2335f0c60b6ccdc60e" title="SMatrix::getAtBC" alt="" coords="987,859,1109,885"/>
+<area shape="rect" id="node18" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets. " alt="" coords="983,504,1113,531"/>
+<area shape="rect" id="node20" href="$d9/db7/classSMatrix.html#ac07d7810681bd4683b433c29187d7a5a" title="SMatrix::invertMatrix" alt="" coords="979,555,1117,581"/>
+<area shape="rect" id="node21" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title="Node::isFilterDone" alt="" coords="985,605,1111,632"/>
+<area shape="rect" id="node22" href="$df/dd0/classNode.html#a85c7247d8b700b6e836479d7666467e4" title="Node::isPredictionDone" alt="" coords="971,453,1125,480"/>
+<area shape="rect" id="node23" href="$df/dd0/classNode.html#a84513468a161f558e0722ad6585e7d2e" title="Node::setChisq" alt="" coords="995,656,1101,683"/>
+<area shape="rect" id="node24" href="$df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08" title="Node::setFilterDone" alt="" coords="981,707,1115,733"/>
+<area shape="rect" id="node26" href="$d1/d3d/classGenFitExtrapolator.html#a7b1a68079d56beae96151d18c5166526" title="GenFitExtrapolator\l::extrapolateTo" alt="" coords="983,387,1113,429"/>
+<area shape="rect" id="node27" href="$d1/d3d/classGenFitExtrapolator.html#af0f921bf2fe387759c642a9b7c348109" title="Get the final state parameters and covariance. " alt="" coords="971,37,1125,78"/>
+<area shape="rect" id="node30" href="$d1/d3d/classGenFitExtrapolator.html#ac013889a915dded109c6b9fd236b31dd" title="Get the propagator. " alt="" coords="983,102,1113,143"/>
+<area shape="rect" id="node31" href="$df/dd0/classNode.html#aea3d844fd090737d8981ac1f6bbca3a7" title="Node::getPropagator" alt="" coords="979,168,1117,195"/>
+<area shape="rect" id="node32" href="$df/dd0/classNode.html#ab26d80e97604621eab868ebacda71304" title="Node::getZ" alt="" coords="1006,219,1090,245"/>
+<area shape="rect" id="node33" href="$d1/d3d/classGenFitExtrapolator.html#af4266f5d426d735721763e75e530cd48" title="Set input initial state parameters. " alt="" coords="971,270,1125,311"/>
+<area shape="rect" id="node37" href="$df/dd0/classNode.html#a10e8167a975add910020702519aaadb0" title="Node::setPredictionDone" alt="" coords="967,336,1129,363"/>
+<area shape="rect" id="node28" href="$d1/d3d/classGenFitExtrapolator.html#a555c962eb4a305b009e3a37069a57c63" title="GenFitExtrapolator\l::convertMPtoSV" alt="" coords="1195,70,1325,111"/>
+<area shape="rect" id="node29" href="$d1/d3d/classGenFitExtrapolator.html#ad9e40b6808684418add1000bcf45b1c1" title="Tranformation between GenFit and Legacy plane; Abi. " alt="" coords="1185,5,1335,46"/>
+<area shape="rect" id="node34" href="$d1/d3d/classGenFitExtrapolator.html#a665990fee41ea5f21f14b8b8be2123e7" title="Transformation between the state vector and the mom/pos. " alt="" coords="1195,335,1325,377"/>
+<area shape="rect" id="node35" href="$d1/d3d/classGenFitExtrapolator.html#a9dac444d8a4c8632bf60968fa5b929c3" title="Set particle type. " alt="" coords="1195,205,1325,246"/>
+<area shape="rect" id="node36" href="$d1/d3d/classGenFitExtrapolator.html#ab0965ff56ad1562173d50ab1cc150952" title="GenFitExtrapolator\l::TRLEGACY2GENFIT" alt="" coords="1185,270,1335,311"/>
+<area shape="rect" id="node39" href="$d2/d70/classTrkPar.html#a98db9ac6051888eb9bbcb224cca2bcf5" title="TrkPar::get_mom" alt="" coords="762,757,883,784"/>
+<area shape="rect" id="node44" href="$d6/d2a/classKalmanFilter.html#ae44df2d206d9c7a7083b1a0313f20a73" title="Real constructor. " alt="" coords="735,1112,910,1139"/>
 </map>
