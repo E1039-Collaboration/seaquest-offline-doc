@@ -406,48 +406,50 @@ $(document).ready(function(){initNavTree('d5/d7f/SimChainDev_2Fun4Sim_8C_source.
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(reco);</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>* vertexing = <span class="keyword">new</span> <a class="code" href="../../d1/d13/classVertexFit.html">VertexFit</a>();</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(vertexing);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new SimDstTrimmer());</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;  <span class="keywordflow">if</span>(read_hepmc) {</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a>(<span class="stringliteral">&quot;HEPMCIN&quot;</span>);</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    in-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(10);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184">set_vertex_distribution_mean</a>(0,0,target_coil_pos_z,0);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a">fileopen</a>(<span class="stringliteral">&quot;hepmcout.txt&quot;</span>);</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  }</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  <span class="comment">// Output</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  <span class="comment">// DST output manager</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, <span class="stringliteral">&quot;DST.root&quot;</span>);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="comment">//if(gen_pythia8 &amp;&amp; !read_hepmc) {</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="comment">//  Fun4AllHepMCOutputManager *out = new Fun4AllHepMCOutputManager(&quot;HEPMCOUT&quot;, &quot;hepmcout.txt&quot;);</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="comment">//  out-&gt;set_embedding_id(1);</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <span class="comment">//  se-&gt;registerOutputManager(out);</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="comment">//}</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <span class="comment">//vertexing-&gt;enable_fit_target_center(); //uncomment if you want to fit in the target center</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;  <span class="comment">//vertexing-&gt;enableOptimization(); //uncomment if you want to fit according to new optimization formula</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(vertexing);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new SimDstTrimmer());</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <span class="keywordflow">if</span>(read_hepmc) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html">Fun4AllHepMCInputManager</a>(<span class="stringliteral">&quot;HEPMCIN&quot;</span>);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    in-&gt;<a class="code" href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Verbosity</a>(10);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184">set_vertex_distribution_mean</a>(0,0,target_coil_pos_z,0);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    in-&gt;<a class="code" href="../../d6/d6f/classFun4AllHepMCInputManager.html#aaf891596a876957d656c23ea03b39f1a">fileopen</a>(<span class="stringliteral">&quot;hepmcout.txt&quot;</span>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  <span class="comment">// Output</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="comment">// DST output manager</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, <span class="stringliteral">&quot;DST.root&quot;</span>);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="comment">//if(gen_pythia8 &amp;&amp; !read_hepmc) {</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <span class="comment">//  Fun4AllHepMCOutputManager *out = new Fun4AllHepMCOutputManager(&quot;HEPMCOUT&quot;, &quot;hepmcout.txt&quot;);</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="comment">//  out-&gt;set_embedding_id(1);</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;  <span class="comment">//  se-&gt;registerOutputManager(out);</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  <span class="comment">//}</span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  <a class="code" href="../../d2/da1/classPHGeomUtility.html#aaa34b2cff253bbdae62673e7f68e091c">PHGeomUtility::ExportGeomtry</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>(),<span class="stringliteral">&quot;geom.root&quot;</span>);</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  </div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  <span class="comment">// finish job - close and save output files</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e">PrintTimer</a>();</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;All done&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  <span class="comment">// cleanup - delete the server and exit</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  gSystem-&gt;Exit(0);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;}</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  <a class="code" href="../../d2/da1/classPHGeomUtility.html#aaa34b2cff253bbdae62673e7f68e091c">PHGeomUtility::ExportGeomtry</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>(),<span class="stringliteral">&quot;geom.root&quot;</span>);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  </div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  <span class="comment">// finish job - close and save output files</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e">PrintTimer</a>();</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;All done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <span class="comment">// cleanup - delete the server and exit</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  gSystem-&gt;Exit(0);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;}</div>
 <div class="ttc" id="classFun4AllServer_html_ab2cb490790d15b865ae79eb3094caabe"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">Fun4AllServer::registerInputManager</a></div><div class="ttdeci">int registerInputManager(Fun4AllInputManager *InManager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer.cc:1256</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_ab7263450319ca1d5029209fde26a7af8"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">Fun4AllServer::End</a></div><div class="ttdeci">virtual int End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer.cc:988</a></div></div>
 <div class="ttc" id="classPHFlag_html_a64f8c67e9313e5cecdbed51f747026da"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da">PHFlag::set_DoubleFlag</a></div><div class="ttdeci">virtual void set_DoubleFlag(const std::string &amp;name, const double flag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag.cc:77</a></div></div>
@@ -558,7 +560,7 @@ $(document).ready(function(){initNavTree('d5/d7f/SimChainDev_2Fun4Sim_8C_source.
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_9e6919709635c14ac17e96cff5093809.html">SimChainDev</a></li><li class="navelem"><a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C.html">Fun4Sim.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Feb 9 2021 16:11:55</em> using <a
+			updated: <em>Wed Feb 24 2021 17:21:59</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
