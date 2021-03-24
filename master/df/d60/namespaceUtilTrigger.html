@@ -119,8 +119,44 @@ Functions</h2></td></tr>
 <tr class="memitem:a26c776dbd619458af7fa35b6faae6056"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#a26c776dbd619458af7fa35b6faae6056">Road2Hodo</a> (const int road, int &amp;h1, int &amp;h2, int &amp;h3, int &amp;h4, int &amp;tb)</td></tr>
 <tr class="memdesc:a26c776dbd619458af7fa35b6faae6056"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a roadset ID to a set of hodo IDs.  <a href="#a26c776dbd619458af7fa35b6faae6056">More...</a><br/></td></tr>
 <tr class="separator:a26c776dbd619458af7fa35b6faae6056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd030c4cb67c41d7abc754c205b0626"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d60/namespaceUtilTrigger.html#afdd030c4cb67c41d7abc754c205b0626">ExtractRoadID</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec)</td></tr>
+<tr class="memdesc:afdd030c4cb67c41d7abc754c205b0626"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a unique road in the given list of SQHits.  <a href="#afdd030c4cb67c41d7abc754c205b0626">More...</a><br/></td></tr>
+<tr class="separator:afdd030c4cb67c41d7abc754c205b0626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="afdd030c4cb67c41d7abc754c205b0626"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int UtilTrigger::ExtractRoadID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a unique road in the given list of SQHits. </p>
+<p>This function returns a road ID if the given list contains exactly one hit every top plane (i.e. H1T, H2T, H3T &amp; H4T) or every bottom plane. It returns '0' if any plan has no hit or multiple hit. The given list can contain any extra Y-hodoscope, chamber or prop tube hit, which is just ignored. </p>
+
+<p>Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">40</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+
+<p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00058">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00189">GeomSvc::getDetectorName()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00011">Hodo2Road()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00210">GeomSvc::instance()</a>.</p>
+
+<p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_afdd030c4cb67c41d7abc754c205b0626_cgraph.svg" width="1928" height="1234"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a36f02c79502113f6ce616ca486f2d8fe"></a>
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +202,19 @@ Functions</h2></td></tr>
 <p>Convert a set of hodo IDs to a roadset ID. </p>
 <p>Note that the max hodo IDs are 23 (H1), 16 (H2), 16 (H3) and 16 (H4). </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00009">9</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00011">11</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">ExtractRoadID()</a>.</p>
+
+<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d60/namespaceUtilTrigger_a36f02c79502113f6ce616ca486f2d8fe_icgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -220,7 +268,7 @@ Functions</h2></td></tr>
 
 <p>Convert a roadset ID to a set of hodo IDs. </p>
 
-<p>Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00015">15</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00019">19</a> of file <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html">UtilTrigger.cc</a>.</p>
 
 </div>
 </div>
@@ -234,7 +282,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../df/d60/namespaceUtilTrigger.html">UtilTrigger</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Feb 27 2021 05:10:14</em> using <a
+			updated: <em>Wed Mar 24 2021 17:40:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

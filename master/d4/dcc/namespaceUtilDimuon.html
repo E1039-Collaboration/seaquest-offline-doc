@@ -113,6 +113,9 @@ $(document).ready(function(){initNavTree('d4/dcc/namespaceUtilDimuon.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a5400970be4b3d021c8dac56b1c255bd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcc/namespaceUtilDimuon.html#a5400970be4b3d021c8dac56b1c255bd2">FindDimuonByID</a> (const <a class="el" href="../../d3/df1/classSQDimuonVector.html">SQDimuonVector</a> *vec, const int id_dim, const bool do_assert=false)</td></tr>
+<tr class="memdesc:a5400970be4b3d021c8dac56b1c255bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a dimuon by dimuon ID in the given dimuon list.  <a href="#a5400970be4b3d021c8dac56b1c255bd2">More...</a><br/></td></tr>
+<tr class="separator:a5400970be4b3d021c8dac56b1c255bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3998d44988236a047a2a93e18f5d3649"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcc/namespaceUtilDimuon.html#a3998d44988236a047a2a93e18f5d3649">GetX1X2</a> (const <a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a> *dim, double &amp;x1, double &amp;x2)</td></tr>
 <tr class="separator:a3998d44988236a047a2a93e18f5d3649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a422b81d52cb3407195a252b8e6a4bb9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dcc/namespaceUtilDimuon.html#a422b81d52cb3407195a252b8e6a4bb9b">GetX1X2</a> (const <a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a> *dim, float &amp;x1, float &amp;x2)</td></tr>
@@ -195,7 +198,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="../../d4/dcc/namespaceUtilDimuon.html#a2c35e2505eb5afa717e21307aad64c53">UtilDimuon::CalcVar</a>(dim, mass, pT, x1, x2, xF, costh, phi);</div>
 </div><!-- fragment --><p>The costh and phi values are of the Collins-Soper frame. Please look into this function to check the formulae used. The formulae were taken from SQMCDimuon::calcVariable() on 2020-11-05. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00052">52</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">70</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
 <p>References <a class="el" href="../../d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5">SQDimuon::get_mom_neg()</a>, and <a class="el" href="../../d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4">SQDimuon::get_mom_pos()</a>.</p>
 
@@ -291,7 +294,7 @@ Functions</h2></td></tr>
 
 <p>Calculate the key kinematic variables of dimuon. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00059">59</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00077">77</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
 <p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00057">DPGEN::bv_cms</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00053">DPGEN::ebeam</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00047">DPGEN::mp</a>, <a class="el" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">DPGEN::p_beam()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00056">DPGEN::p_cms</a>, <a class="el" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">DPGEN::p_target()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00058">DPGEN::s</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00059">DPGEN::sqrts</a>.</p>
 
@@ -301,6 +304,55 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a4ac03830bb8fd8d804d60da41e219ba5_cgraph.svg" width="315" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a5400970be4b3d021c8dac56b1c255bd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a> * UtilDimuon::FindDimuonByID </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/df1/classSQDimuonVector.html">SQDimuonVector</a> *&#160;</td>
+          <td class="paramname"><em>vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>id_dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>do_assert</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find a dimuon by dimuon ID in the given dimuon list. </p>
+<p>This function returns a <a class="el" href="../../d8/dd3/classSQDimuon.html" title="An SQ interface class to hold one true or reconstructed dimuon. ">SQDimuon</a> pointer if successful. Otherwise it returns '0' by default, or aborts when 'do_assert' = true. </p>
+
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00012">12</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+
+<p>References <a class="el" href="../../d3/df1/classSQDimuonVector.html#a5952963b15d84456d0cb156571df3fcd">SQDimuonVector::begin()</a>, <a class="el" href="../../d3/df1/classSQDimuonVector.html#a6967e24c14a61067fda5bcc23fefc8b5">SQDimuonVector::end()</a>, and <a class="el" href="../../d8/dd3/classSQDimuon.html#a1d420c0c809472ee738f9bcec8a5bcde">SQDimuon::get_dimuon_id()</a>.</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a5400970be4b3d021c8dac56b1c255bd2_cgraph.svg" width="424" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -321,15 +373,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00026">26</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00044">44</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00006">GetX1X2()</a>.</p>
+<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00024">GetX1X2()</a>.</p>
 
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a749268151c7326e43cb8152316c82691_cgraph.svg" width="552" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -367,27 +419,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00006">6</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00024">24</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
 <p>References <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00014">E_BEAM</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5">SQDimuon::get_mom_neg()</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4">SQDimuon::get_mom_pos()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00013">M_P</a>, <a class="el" href="../../d2/da1/namespaceDPGEN.html#a21ec5fa2fedf044b3f0f539ed54242a4">DPGEN::p_beam()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00056">DPGEN::p_cms</a>, and <a class="el" href="../../d2/da1/namespaceDPGEN.html#add08e2813c32370aafa63ee51324def2">DPGEN::p_target()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00026">GetX1()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00018">GetX1X2()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00033">GetX2()</a>, and <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00028">AnaSimDst::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00044">GetX1()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00036">GetX1X2()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00051">GetX2()</a>, and <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00028">AnaSimDst::process_event()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a3998d44988236a047a2a93e18f5d3649_cgraph.svg" width="376" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a3998d44988236a047a2a93e18f5d3649_icgraph.svg" width="347" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -425,15 +477,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00018">18</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00036">36</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00006">GetX1X2()</a>.</p>
+<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00024">GetX1X2()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_a422b81d52cb3407195a252b8e6a4bb9b_cgraph.svg" width="568" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -455,15 +507,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00033">33</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00051">51</a> of file <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html">UtilDimuon.cc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00006">GetX1X2()</a>.</p>
+<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00024">GetX1X2()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dcc/namespaceUtilDimuon_ad29e35bc7b249b498953a3e850ee70d1_cgraph.svg" width="552" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -481,7 +533,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d4/dcc/namespaceUtilDimuon.html">UtilDimuon</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sat Feb 27 2021 05:10:14</em> using <a
+			updated: <em>Wed Mar 24 2021 17:40:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
