@@ -9,6 +9,7 @@ var classOnlMonCanvas =
     [ "OnlMonCanvas", "df/ddc/classOnlMonCanvas.html#afd93d5cc03f3bf11535d1e12069b5c84", null ],
     [ "~OnlMonCanvas", "df/ddc/classOnlMonCanvas.html#ae070f42243f5ba27afe5e2e82064f6b4", null ],
     [ "AddMessage", "df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c", null ],
+    [ "AddMessage", "df/ddc/classOnlMonCanvas.html#ad813396a37ae8d747241ccefc44505c3", null ],
     [ "GetMainPad", "df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183", null ],
     [ "GetStatus", "df/ddc/classOnlMonCanvas.html#a2364660764207f25bbd29937422d9536", null ],
     [ "PostDraw", "df/ddc/classOnlMonCanvas.html#ad9d50146b1e9a2cf7c31fb5dd90abe0f", null ],

@@ -108,18 +108,18 @@ $(document).ready(function(){initNavTree('df/d4b/OnlMonCham_8cc_source.html','..
 <div class="title">OnlMonCham.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d4b/OnlMonCham_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;TH1D.h&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d59/SQRun_8h.html">interface_main/SQRun.h</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/db5/SQEvent_8h.html">interface_main/SQEvent.h</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/ddd/SQHitVector_8h.html">interface_main/SQHitVector.h</a>&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/dc1/Fun4AllReturnCodes_8h.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/dfd/PHNodeIterator_8h.html">phool/PHNodeIterator.h</a>&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d79/PHIODataNode_8h.html">phool/PHIODataNode.h</a>&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d19/GeomSvc_8h.html">geom_svc/GeomSvc.h</a>&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d55/UtilHist_8h.html">UtilAna/UtilHist.h</a>&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d8a/OnlMonServer_8h.html">OnlMonServer.h</a>&quot;</span></div>
+<a href="../../df/d4b/OnlMonCham_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;TH1D.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d59/SQRun_8h.html">interface_main/SQRun.h</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/db5/SQEvent_8h.html">interface_main/SQEvent.h</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/ddd/SQHitVector_8h.html">interface_main/SQHitVector.h</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/dc1/Fun4AllReturnCodes_8h.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/dfd/PHNodeIterator_8h.html">phool/PHNodeIterator.h</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d79/PHIODataNode_8h.html">phool/PHIODataNode.h</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d19/GeomSvc_8h.html">geom_svc/GeomSvc.h</a>&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d55/UtilHist_8h.html">UtilAna/UtilHist.h</a>&gt;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../da/d7a/OnlMonCham_8h.html">OnlMonCham.h</a>&quot;</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
@@ -230,20 +230,20 @@ $(document).ready(function(){initNavTree('df/d4b/OnlMonCham_8cc_source.html','..
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  <a class="code" href="../../df/ddc/classOnlMonCanvas.html">OnlMonCanvas</a>* can0 = <a class="code" href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">GetCanvas</a>(0);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  TPad* pad0 = can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">GetMainPad</a>();</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  pad0-&gt;SetGrid();</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  pad0-&gt;Divide(2, 3);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">N_PL</a>; pl++) {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    pad0-&gt;cd(pl+1);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  pad0-&gt;Divide(2, <a class="code" href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">N_PL</a>/2); <span class="comment">// Assume N_PL is even.</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">N_PL</a>; pl++) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    TVirtualPad* pad0i = pad0-&gt;cd(pl+1);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    pad0i-&gt;SetGrid();</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    h1_ele[pl]-&gt;Draw();</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  }</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="comment">//can0-&gt;SetStatus(OnlMonCanvas::OK);</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <a class="code" href="../../df/ddc/classOnlMonCanvas.html">OnlMonCanvas</a>* can1 = <a class="code" href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">GetCanvas</a>(1);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  TPad* pad1 = can1-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">GetMainPad</a>();</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  pad1-&gt;SetGrid();</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  pad1-&gt;Divide(2, 3);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">N_PL</a>; pl++) {</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    pad1-&gt;cd(pl+1);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  pad1-&gt;Divide(2, N_PL/2); <span class="comment">// Assume N_PL is even.</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> pl = 0; pl &lt; <a class="code" href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">N_PL</a>; pl++) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    TVirtualPad* pad1i = pad1-&gt;cd(pl+1);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    pad1i-&gt;SetGrid();</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719">UtilHist::AutoSetRange</a>(h1_time[pl]);</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    h1_time[pl]-&gt;Draw();</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  }</div>
@@ -279,7 +279,7 @@ $(document).ready(function(){initNavTree('df/d4b/OnlMonCham_8cc_source.html','..
 <div class="ttc" id="classSQEvent_html"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html">SQEvent</a></div><div class="ttdoc">An SQ interface class to hold one event header. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00017">SQEvent.h:17</a></div></div>
 <div class="ttc" id="classGeomSvc_html_afbf6d99190de576faf739ed50bbeb33b"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#afbf6d99190de576faf739ed50bbeb33b">GeomSvc::getDetectorIDs</a></div><div class="ttdeci">std::vector&lt; int &gt; getDetectorIDs(std::string pattern)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00723">GeomSvc.cxx:723</a></div></div>
 <div class="ttc" id="classOnlMonCham_html_aaf9e68b3b806ed449fb7d5e3e54b03cd"><div class="ttname"><a href="../../db/d15/classOnlMonCham.html#aaf9e68b3b806ed449fb7d5e3e54b03cd">OnlMonCham::InitRunOnlMon</a></div><div class="ttdeci">int InitRunOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4b/OnlMonCham_8cc_source.html#l00034">OnlMonCham.cc:34</a></div></div>
-<div class="ttc" id="classOnlMonCanvas_html_aec0773674b0c23cc053658c3a4526183"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">OnlMonCanvas::GetMainPad</a></div><div class="ttdeci">TPad * GetMainPad()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00074">OnlMonCanvas.cc:74</a></div></div>
+<div class="ttc" id="classOnlMonCanvas_html_aec0773674b0c23cc053658c3a4526183"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">OnlMonCanvas::GetMainPad</a></div><div class="ttdeci">TPad * GetMainPad()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00073">OnlMonCanvas.cc:73</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00210">GeomSvc.cxx:210</a></div></div>
 <div class="ttc" id="classOnlMonCham_html_a631aa7824422c3c178b897e7484c662b"><div class="ttname"><a href="../../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b">OnlMonCham::N_PL</a></div><div class="ttdeci">static const int N_PL</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d7a/OnlMonCham_8h_source.html#l00008">OnlMonCham.h:8</a></div></div>
 <div class="ttc" id="classOnlMonClient_html_a83c618d86bb40c3525485caef3325e8a"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">OnlMonClient::FindMonHist</a></div><div class="ttdeci">TH1 * FindMonHist(const std::string name, const bool non_null=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dae/OnlMonClient_8cc_source.html#l00178">OnlMonClient.cc:178</a></div></div>
@@ -294,7 +294,6 @@ $(document).ready(function(){initNavTree('df/d4b/OnlMonCham_8cc_source.html','..
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 <div class="ttc" id="classOnlMonCham_html_a00dbbbd38ad4a6fb3ae3dce82cff0cfd"><div class="ttname"><a href="../../db/d15/classOnlMonCham.html#a00dbbbd38ad4a6fb3ae3dce82cff0cfd">OnlMonCham::DrawMonitor</a></div><div class="ttdeci">int DrawMonitor()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4b/OnlMonCham_8cc_source.html#l00120">OnlMonCham.cc:120</a></div></div>
 <div class="ttc" id="SQHitVector_8h_html"><div class="ttname"><a href="../../db/ddd/SQHitVector_8h.html">SQHitVector.h</a></div></div>
-<div class="ttc" id="OnlMonServer_8h_html"><div class="ttname"><a href="../../d7/d8a/OnlMonServer_8h.html">OnlMonServer.h</a></div></div>
 <div class="ttc" id="SQEvent_8h_html"><div class="ttname"><a href="../../d0/db5/SQEvent_8h.html">SQEvent.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -306,7 +305,7 @@ $(document).ready(function(){initNavTree('df/d4b/OnlMonCham_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_7f25cc720e972459e882558067e6a7dd.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../df/d4b/OnlMonCham_8cc.html">OnlMonCham.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Apr 15 2021 13:00:28</em> using <a
+			updated: <em>Thu May 6 2021 10:50:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

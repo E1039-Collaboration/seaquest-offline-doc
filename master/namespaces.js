@@ -19,6 +19,7 @@ var namespaces =
     [ "submit_bnl", "d1/d2b/namespacesubmit__bnl.html", null ],
     [ "submit_e1039", "d9/d8d/namespacesubmit__e1039.html", null ],
     [ "syncdefs", "d2/de5/namespacesyncdefs.html", null ],
+    [ "UtilBeam", "de/dba/namespaceUtilBeam.html", null ],
     [ "UtilDimuon", "d4/dcc/namespaceUtilDimuon.html", null ],
     [ "UtilHist", "d3/daf/namespaceUtilHist.html", null ],
     [ "UtilHodo", "d9/d7c/namespaceUtilHodo.html", null ],

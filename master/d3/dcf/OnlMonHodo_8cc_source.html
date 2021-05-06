@@ -108,20 +108,20 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="title">OnlMonHodo.cc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/dcf/OnlMonHodo_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;TH1D.h&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;TH2D.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;TProfile.h&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d59/SQRun_8h.html">interface_main/SQRun.h</a>&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/db5/SQEvent_8h.html">interface_main/SQEvent.h</a>&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/ddd/SQHitVector_8h.html">interface_main/SQHitVector.h</a>&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/dc1/Fun4AllReturnCodes_8h.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/dfd/PHNodeIterator_8h.html">phool/PHNodeIterator.h</a>&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d79/PHIODataNode_8h.html">phool/PHIODataNode.h</a>&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d19/GeomSvc_8h.html">geom_svc/GeomSvc.h</a>&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d55/UtilHist_8h.html">UtilAna/UtilHist.h</a>&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d8a/OnlMonServer_8h.html">OnlMonServer.h</a>&quot;</span></div>
+<a href="../../d3/dcf/OnlMonHodo_8cc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;TH1D.h&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;TH2D.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;TProfile.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d59/SQRun_8h.html">interface_main/SQRun.h</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/db5/SQEvent_8h.html">interface_main/SQEvent.h</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/ddd/SQHitVector_8h.html">interface_main/SQHitVector.h</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/dc1/Fun4AllReturnCodes_8h.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/dfd/PHNodeIterator_8h.html">phool/PHNodeIterator.h</a>&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d79/PHIODataNode_8h.html">phool/PHIODataNode.h</a>&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/dd4/getClass_8h.html">phool/getClass.h</a>&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d19/GeomSvc_8h.html">geom_svc/GeomSvc.h</a>&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d55/UtilHist_8h.html">UtilAna/UtilHist.h</a>&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d5/ddd/OnlMonHodo_8h.html">OnlMonHodo.h</a>&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
@@ -294,11 +294,11 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <a class="code" href="../../df/ddc/classOnlMonCanvas.html">OnlMonCanvas</a>* can0 = <a class="code" href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">GetCanvas</a>(0);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f">SetStatus</a>(<a class="code" href="../../df/ddc/classOnlMonCanvas.html#adcc3913b6afe1037ee5a6d4f4351576cafe403521ffb0f327566819a2d2e72354">OnlMonCanvas::OK</a>);</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  TPad* pad0 = can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">GetMainPad</a>();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  pad0-&gt;SetGrid();</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  pad0-&gt;Divide(2, 2);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordtype">bool</span> empty_ele = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_det = 0; i_det &lt; <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>; i_det++) {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    pad0-&gt;cd(2*i_det+1);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  pad0-&gt;Divide(2, <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keywordtype">bool</span> empty_ele = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_det = 0; i_det &lt; <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>; i_det++) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    TVirtualPad* pad01 = pad0-&gt;cd(2*i_det+1);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    pad01-&gt;SetGrid();</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    h1_ele[i_det]-&gt;SetLineColor(kBlack);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    h1_ele[i_det]-&gt;Draw();</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    h1_ele_in[i_det]-&gt;SetLineColor(kBlue);</div>
@@ -306,48 +306,49 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    h1_ele_in[i_det]-&gt;Draw(<span class="stringliteral">&quot;same&quot;</span>);</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">if</span> (h1_ele[i_det]-&gt;GetMinimum() == 0) empty_ele = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    pad0-&gt;cd(2*i_det+2);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a9b4097c0abd026534b2deecdf3b6d963">UtilHist::AutoSetRangeY</a>(h2_time_ele[i_det]);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    h2_time_ele[i_det]-&gt;Draw(<span class="stringliteral">&quot;colz&quot;</span>);</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    ostringstream oss;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;pr_&quot;</span> &lt;&lt; h2_time_ele[i_det]-&gt;GetName();</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    TProfile* pr = h2_time_ele[i_det]-&gt;ProfileX(oss.str().c_str()); <span class="comment">// , 1, -1, &quot;s&quot;);</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    pr-&gt;SetLineColor(kBlack);</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    pr-&gt;Draw(<span class="stringliteral">&quot;E1same&quot;</span>);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  }</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <span class="keywordflow">if</span> (empty_ele) {</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f">SetStatus</a>(<a class="code" href="../../df/ddc/classOnlMonCanvas.html#adcc3913b6afe1037ee5a6d4f4351576cad3be501990c488f601440ac1c07d799c">OnlMonCanvas::WARN</a>);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c">AddMessage</a>(<span class="stringliteral">&quot;No-hit element.&quot;</span>);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  }</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;  <a class="code" href="../../df/ddc/classOnlMonCanvas.html">OnlMonCanvas</a>* can1 = <a class="code" href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">GetCanvas</a>(1);</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <span class="comment">//can1-&gt;SetStatus(OnlMonCanvas::OK);</span></div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  TPad* pad1 = can1-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">GetMainPad</a>();</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  pad1-&gt;SetGrid();</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  pad1-&gt;Divide(1, 2);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    TVirtualPad* pad02 = pad0-&gt;cd(2*i_det+2);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    pad02-&gt;SetGrid();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a9b4097c0abd026534b2deecdf3b6d963">UtilHist::AutoSetRangeY</a>(h2_time_ele[i_det]);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    h2_time_ele[i_det]-&gt;Draw(<span class="stringliteral">&quot;colz&quot;</span>);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    ostringstream oss;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;pr_&quot;</span> &lt;&lt; h2_time_ele[i_det]-&gt;GetName();</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    TProfile* pr = h2_time_ele[i_det]-&gt;ProfileX(oss.str().c_str()); <span class="comment">// , 1, -1, &quot;s&quot;);</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    pr-&gt;SetLineColor(kBlack);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    pr-&gt;Draw(<span class="stringliteral">&quot;E1same&quot;</span>);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  <span class="keywordflow">if</span> (empty_ele) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f">SetStatus</a>(<a class="code" href="../../df/ddc/classOnlMonCanvas.html#adcc3913b6afe1037ee5a6d4f4351576cad3be501990c488f601440ac1c07d799c">OnlMonCanvas::WARN</a>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    can0-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c">AddMessage</a>(<span class="stringliteral">&quot;No-hit element.&quot;</span>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  <a class="code" href="../../df/ddc/classOnlMonCanvas.html">OnlMonCanvas</a>* can1 = <a class="code" href="../../d9/d62/classOnlMonClient.html#a30958880ab524ef1a22e3224dfb667e1">GetCanvas</a>(1);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;  <span class="comment">//can1-&gt;SetStatus(OnlMonCanvas::OK);</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  TPad* pad1 = can1-&gt;<a class="code" href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">GetMainPad</a>();</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  pad1-&gt;Divide(1, N_DET);</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_det = 0; i_det &lt; <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>; i_det++) {</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    pad1-&gt;cd(i_det+1);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719">UtilHist::AutoSetRange</a>(h1_time[i_det]);</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">//h1_time[i_det]-&gt;GetXaxis()-&gt;SetRangeUser(400, 1050);</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    h1_time[i_det]-&gt;SetLineColor(kBlack);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    h1_time[i_det]-&gt;Draw();</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    h1_time_in[i_det]-&gt;SetLineColor(kBlue);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    h1_time_in[i_det]-&gt;SetFillColor(kBlue-7);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    h1_time_in[i_det]-&gt;Draw(<span class="stringliteral">&quot;same&quot;</span>);</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;}</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="keywordtype">void</span> OnlMonHodo::SetDet(<span class="keyword">const</span> <span class="keywordtype">char</span>* det0, <span class="keyword">const</span> <span class="keywordtype">char</span>* det1)</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;{</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;  list_det_name[0] = det0;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  list_det_name[1] = det1;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ii = 0; ii &lt; <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>; ii++) {</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    list_det_id[ii] = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">getDetectorID</a>(list_det_name[ii]);</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  }</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;}</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    TVirtualPad* pad1i = pad1-&gt;cd(i_det+1);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    pad1i-&gt;SetGrid();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="../../d3/daf/namespaceUtilHist.html#a5c646c763a7d90ed6ae5b9eb7d6b9719">UtilHist::AutoSetRange</a>(h1_time[i_det]);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="comment">//h1_time[i_det]-&gt;GetXaxis()-&gt;SetRangeUser(400, 1050);</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    h1_time[i_det]-&gt;SetLineColor(kBlack);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    h1_time[i_det]-&gt;Draw();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    h1_time_in[i_det]-&gt;SetLineColor(kBlue);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    h1_time_in[i_det]-&gt;SetFillColor(kBlue-7);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    h1_time_in[i_det]-&gt;Draw(<span class="stringliteral">&quot;same&quot;</span>);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="keywordtype">void</span> OnlMonHodo::SetDet(<span class="keyword">const</span> <span class="keywordtype">char</span>* det0, <span class="keyword">const</span> <span class="keywordtype">char</span>* det1)</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;{</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;  list_det_name[0] = det0;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  list_det_name[1] = det1;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ii = 0; ii &lt; <a class="code" href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">N_DET</a>; ii++) {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    list_det_id[ii] = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">getDetectorID</a>(list_det_name[ii]);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
 <div class="ttc" id="classOnlMonClient_html_a9291a22f516ea38a805ad11726ddb38d"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a9291a22f516ea38a805ad11726ddb38d">OnlMonClient::NumCanvases</a></div><div class="ttdeci">int NumCanvases()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/OnlMonClient_8h_source.html#l00101">OnlMonClient.h:101</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a8b5c84dd1ecada043da43ecc157cdc32"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a8b5c84dd1ecada043da43ecc157cdc32">OnlMonHodo::N_DET</a></div><div class="ttdeci">static const int N_DET</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddd/OnlMonHodo_8h_source.html#l00008">OnlMonHodo.h:8</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a4ee4204ca159d2eea60f6f639b07694eaca1bf0a4c667ed2c903a350308941f60"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a4ee4204ca159d2eea60f6f639b07694eaca1bf0a4c667ed2c903a350308941f60">OnlMonHodo::H1X</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddd/OnlMonHodo_8h_source.html#l00007">OnlMonHodo.h:7</a></div></div>
@@ -363,7 +364,7 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="ttc" id="classOnlMonHodo_html_a4ee4204ca159d2eea60f6f639b07694ea65b788146d38891e5ab95328f0e647d4"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a4ee4204ca159d2eea60f6f639b07694ea65b788146d38891e5ab95328f0e647d4">OnlMonHodo::DP2B</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddd/OnlMonHodo_8h_source.html#l00007">OnlMonHodo.h:7</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a1fac7a856583fcb221b21190dbcdeac8"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a1fac7a856583fcb221b21190dbcdeac8">OnlMonHodo::EndOnlMon</a></div><div class="ttdeci">int EndOnlMon(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00150">OnlMonHodo.cc:150</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
-<div class="ttc" id="classOnlMonCanvas_html_a965335816e1bdd68a3c96b9ab5a72e2f"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f">OnlMonCanvas::SetStatus</a></div><div class="ttdeci">void SetStatus(const MonStatus_t stat)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/OnlMonCanvas_8h_source.html#l00042">OnlMonCanvas.h:42</a></div></div>
+<div class="ttc" id="classOnlMonCanvas_html_a965335816e1bdd68a3c96b9ab5a72e2f"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#a965335816e1bdd68a3c96b9ab5a72e2f">OnlMonCanvas::SetStatus</a></div><div class="ttdeci">void SetStatus(const MonStatus_t stat)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/OnlMonCanvas_8h_source.html#l00043">OnlMonCanvas.h:43</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a4ee4204ca159d2eea60f6f639b07694ea1cc7e318186642dcd862626e720e3fc8"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a4ee4204ca159d2eea60f6f639b07694ea1cc7e318186642dcd862626e720e3fc8">OnlMonHodo::H2Y</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddd/OnlMonHodo_8h_source.html#l00007">OnlMonHodo.h:7</a></div></div>
 <div class="ttc" id="GeomSvc_8h_html"><div class="ttname"><a href="../../d6/d19/GeomSvc_8h.html">GeomSvc.h</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a4ee4204ca159d2eea60f6f639b07694ea6c99eaead47dd2f418c994303afc5892"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a4ee4204ca159d2eea60f6f639b07694ea6c99eaead47dd2f418c994303afc5892">OnlMonHodo::DP2T</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddd/OnlMonHodo_8h_source.html#l00007">OnlMonHodo.h:7</a></div></div>
@@ -384,12 +385,12 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="ttc" id="classSQEvent_html"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html">SQEvent</a></div><div class="ttdoc">An SQ interface class to hold one event header. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db5/SQEvent_8h_source.html#l00017">SQEvent.h:17</a></div></div>
 <div class="ttc" id="namespaceUtilHist_html_a9b4097c0abd026534b2deecdf3b6d963"><div class="ttname"><a href="../../d3/daf/namespaceUtilHist.html#a9b4097c0abd026534b2deecdf3b6d963">UtilHist::AutoSetRangeY</a></div><div class="ttdeci">void AutoSetRangeY(TH2 *h2, const int margin_lo=5, const int margin_hi=5)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/UtilHist_8cc_source.html#l00043">UtilHist.cc:43</a></div></div>
 <div class="ttc" id="classOnlMonCanvas_html_adcc3913b6afe1037ee5a6d4f4351576cad3be501990c488f601440ac1c07d799c"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#adcc3913b6afe1037ee5a6d4f4351576cad3be501990c488f601440ac1c07d799c">OnlMonCanvas::WARN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/OnlMonCanvas_8h_source.html#l00013">OnlMonCanvas.h:13</a></div></div>
-<div class="ttc" id="classOnlMonCanvas_html_aec0773674b0c23cc053658c3a4526183"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">OnlMonCanvas::GetMainPad</a></div><div class="ttdeci">TPad * GetMainPad()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00074">OnlMonCanvas.cc:74</a></div></div>
+<div class="ttc" id="classOnlMonCanvas_html_aec0773674b0c23cc053658c3a4526183"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#aec0773674b0c23cc053658c3a4526183">OnlMonCanvas::GetMainPad</a></div><div class="ttdeci">TPad * GetMainPad()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00073">OnlMonCanvas.cc:73</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00210">GeomSvc.cxx:210</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a3e4f40789e9b2a98477ab8e8191d5ff2"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">GeomSvc::getDetectorID</a></div><div class="ttdeci">int getDetectorID(const std::string &amp;detectorName) const </div><div class="ttdoc">Get the plane position. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00185">GeomSvc.h:185</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_aff558860dfa3bce0f78380ff29d9e469"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#aff558860dfa3bce0f78380ff29d9e469">OnlMonHodo::OnlMonHodo</a></div><div class="ttdeci">OnlMonHodo(const HodoType_t type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00019">OnlMonHodo.cc:19</a></div></div>
 <div class="ttc" id="classOnlMonClient_html_a83c618d86bb40c3525485caef3325e8a"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html#a83c618d86bb40c3525485caef3325e8a">OnlMonClient::FindMonHist</a></div><div class="ttdeci">TH1 * FindMonHist(const std::string name, const bool non_null=true)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dae/OnlMonClient_8cc_source.html#l00178">OnlMonClient.cc:178</a></div></div>
-<div class="ttc" id="classOnlMonCanvas_html_a83334e848c8a13d6ba7e76a2b6b03f7c"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c">OnlMonCanvas::AddMessage</a></div><div class="ttdeci">void AddMessage(const char *msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00050">OnlMonCanvas.cc:50</a></div></div>
+<div class="ttc" id="classOnlMonCanvas_html_a83334e848c8a13d6ba7e76a2b6b03f7c"><div class="ttname"><a href="../../df/ddc/classOnlMonCanvas.html#a83334e848c8a13d6ba7e76a2b6b03f7c">OnlMonCanvas::AddMessage</a></div><div class="ttdeci">void AddMessage(const char *msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d60/OnlMonCanvas_8cc_source.html#l00049">OnlMonCanvas.cc:49</a></div></div>
 <div class="ttc" id="Fun4AllReturnCodes_8h_html"><div class="ttname"><a href="../../da/dc1/Fun4AllReturnCodes_8h.html">Fun4AllReturnCodes.h</a></div></div>
 <div class="ttc" id="classOnlMonHodo_html_a144b3f308aab8322df05978626b64aa7"><div class="ttname"><a href="../../d8/dc8/classOnlMonHodo.html#a144b3f308aab8322df05978626b64aa7">OnlMonHodo::FindAllMonHist</a></div><div class="ttdeci">int FindAllMonHist()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00155">OnlMonHodo.cc:155</a></div></div>
 <div class="ttc" id="classGeomSvc_html"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html">GeomSvc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00130">GeomSvc.h:130</a></div></div>
@@ -402,7 +403,6 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 <div class="ttc" id="UtilHist_8h_html"><div class="ttname"><a href="../../d3/d55/UtilHist_8h.html">UtilHist.h</a></div></div>
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 <div class="ttc" id="SQHitVector_8h_html"><div class="ttname"><a href="../../db/ddd/SQHitVector_8h.html">SQHitVector.h</a></div></div>
-<div class="ttc" id="OnlMonServer_8h_html"><div class="ttname"><a href="../../d7/d8a/OnlMonServer_8h.html">OnlMonServer.h</a></div></div>
 <div class="ttc" id="SQEvent_8h_html"><div class="ttname"><a href="../../d0/db5/SQEvent_8h.html">SQEvent.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -414,7 +414,7 @@ $(document).ready(function(){initNavTree('d3/dcf/OnlMonHodo_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_7f25cc720e972459e882558067e6a7dd.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../d3/dcf/OnlMonHodo_8cc.html">OnlMonHodo.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Apr 15 2021 13:00:28</em> using <a
+			updated: <em>Thu May 6 2021 10:50:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
