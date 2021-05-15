@@ -1,7 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d3/daf/G4Pythia6DecayerMessenger_8cc_source.html":[21,0,2,7,0,3],
-"d3/daf/namespaceUtilHist.html":[20,0,21],
 "d3/daf/namespaceUtilHist.html":[19,0,20],
 "d3/db2/PHG4ParametersContainer_8cc.html":[21,0,2,7,1,142],
 "d3/db2/PHG4ParametersContainer_8cc_source.html":[21,0,2,7,1,142],
@@ -249,5 +247,7 @@ var NAVTREEINDEX11 =
 "d4/d0b/PHG4ColorDefs_8h.html#a93ce0b1d78bbb19d7bd6c09559969d02":[21,0,2,7,5,9,5],
 "d4/d0b/PHG4ColorDefs_8h.html#aa2ef460dec350f5f7747277ccc2c569f":[21,0,2,7,5,9,0],
 "d4/d0b/PHG4ColorDefs_8h.html#ac79e6477acd7166511a8cfb42ed72787":[21,0,2,7,5,9,1],
-"d4/d0b/PHG4ColorDefs_8h.html#aeb2a9d7ae9cfe66ed8e4377268a173cf":[21,0,2,7,5,9,3]
+"d4/d0b/PHG4ColorDefs_8h.html#aeb2a9d7ae9cfe66ed8e4377268a173cf":[21,0,2,7,5,9,3],
+"d4/d0b/PHG4ColorDefs_8h_source.html":[21,0,2,7,5,9],
+"d4/d0b/SQScaler__v1_8cxx.html":[21,0,2,3,71]
 };

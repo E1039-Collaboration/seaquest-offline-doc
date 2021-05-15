@@ -1,13 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"da/da4/classTrackletData.html#ae54b97811991c1309fe18867f6edb41e":[20,0,434,1],
-"da/da4/classTrackletData.html#af2e3211148f0ecb7dffe19bdb002bdea":[20,0,434,10],
-"da/da7/SQTruthVertexing_8cxx.html":[21,0,2,6,11,2,10],
-"da/da7/SQTruthVertexing_8cxx_source.html":[21,0,2,6,11,2,10],
-"da/da8/classPHG4TrackUserInfoV1.html":[20,0,294],
-"da/da8/classPHG4TrackUserInfoV1.html#a1304bd6ed13bc7dd162cc6dc16b382c9":[20,0,294,6],
-"da/da8/classPHG4TrackUserInfoV1.html#a2526bf1b51b05064e036151132e60651":[20,0,294,0],
-"da/da8/classPHG4TrackUserInfoV1.html#a392764827dbb08381fd224a91eb65023":[20,0,294,5],
 "da/da8/classPHG4TrackUserInfoV1.html#a3b601d27e2da22dcda729574cca30cb3":[20,0,294,4],
 "da/da8/classPHG4TrackUserInfoV1.html#a4f4dcf6d603ae3edd78bb8d922e8fdfa":[20,0,294,7],
 "da/da8/classPHG4TrackUserInfoV1.html#a843c09440cf2e5dbcc26fe7e243c8494":[20,0,294,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX33 =
 "db/d03/classSQTrackVector.html#aa8be22a23d827732ec44a8becb04d3f7":[20,0,416,0],
 "db/d03/classSQTrackVector.html#aba39c8924184b895a34a3f2b76bc28aa":[20,0,416,10],
 "db/d03/classSQTrackVector.html#ad4ce34ef8610353a230be29903a0749e":[20,0,416,15],
-"db/d04/PHG4ConeDetector_8cc.html":[21,0,2,7,1,55]
+"db/d04/PHG4ConeDetector_8cc.html":[21,0,2,7,1,55],
+"db/d04/PHG4ConeDetector_8cc_source.html":[21,0,2,7,1,55],
+"db/d09/structPHG4DSTReader_1_1record.html":[20,0,222,0],
+"db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689":[20,0,222,0,4],
+"db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3f":[20,0,222,0,0],
+"db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3fa5d68dd952f40b77a91d6a85d553bc18b":[20,0,222,0,0,1],
+"db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3faa21f0f70dbca6472918c8768cdf18560":[20,0,222,0,0,2],
+"db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3faa25bb60c2302cc22ea4e7b1ca5ed42a2":[20,0,222,0,0,0],
+"db/d09/structPHG4DSTReader_1_1record.html#a4013ac71172d81605fc51183263edc79":[20,0,222,0,1]
 };

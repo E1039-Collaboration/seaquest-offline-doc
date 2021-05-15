@@ -1,7 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d5/df3/classPHG4SimpleEventGenerator.html#ad8b508f710a9eda892cf2a005b9b53fe":[20,0,284,11],
-"d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006":[20,0,284,0],
 "d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006ab828501cbdd70abf98e8e2b59d17992c":[20,0,284,0,1],
 "d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006abaf3795dd2edfe34cefe33cc812a40f3":[20,0,284,0,0],
 "d5/df3/classPHG4SimpleEventGenerator.html#aefd6658f5625513895dc653eced42a28":[20,0,284,9],
@@ -136,8 +134,6 @@ var NAVTREEINDEX18 =
 "d6/d1e/CodaInputManager_8h.html#af4a931f1cb23d15aee027dffacd678af":[21,0,2,5,0,13,22],
 "d6/d1e/CodaInputManager_8h.html#af9bdc3014f3d54c426b6d2df10de4960ae704abfd91e8618ed3ca664acc02c548":[21,0,2,5,0,13,10],
 "d6/d1e/CodaInputManager_8h_source.html":[21,0,2,5,0,13],
-"d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc.html":[21,0,2,6,12,11],
-"d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc_source.html":[21,0,2,6,12,11],
 "d6/d28/SQHitVectorLinkDef_8h.html":[21,0,2,3,41],
 "d6/d28/SQHitVectorLinkDef_8h_source.html":[21,0,2,3,41],
 "d6/d2a/classKalmanFilter.html":[20,0,118],
@@ -249,5 +245,9 @@ var NAVTREEINDEX18 =
 "d6/d6f/classFun4AllHepMCInputManager.html#a61a7eb9df4b1ebbd1da50c3790832140":[20,0,83,32],
 "d6/d6f/classFun4AllHepMCInputManager.html#a63272413d7dbd96e541618b734b609d0":[20,0,83,18],
 "d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184":[20,0,83,17],
-"d6/d6f/classFun4AllHepMCInputManager.html#a7709e8349366ed5fc571a11473352c13":[20,0,83,28]
+"d6/d6f/classFun4AllHepMCInputManager.html#a7709e8349366ed5fc571a11473352c13":[20,0,83,28],
+"d6/d6f/classFun4AllHepMCInputManager.html#a800e8c517886bf9e24fc300041851281":[20,0,83,7],
+"d6/d6f/classFun4AllHepMCInputManager.html#a8301fc523371ddb62e38efd336d998ba":[20,0,83,33],
+"d6/d6f/classFun4AllHepMCInputManager.html#a9a50c062c06ffe7af73b6591993de7c4":[20,0,83,2],
+"d6/d6f/classFun4AllHepMCInputManager.html#a9f8e48bc4e1ed4fcb027de6b4f9147f6":[20,0,83,30]
 };

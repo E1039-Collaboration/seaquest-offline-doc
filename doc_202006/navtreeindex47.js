@@ -1,13 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1":[20,0,411,9],
-"df/de1/classSQSpillMap__v1.html#a5fb3ff23d9d6f063ae66302c89740d6e":[20,0,411,2],
-"df/de1/classSQSpillMap__v1.html#a6cc69615467444f3021b6aa25df3b39b":[20,0,411,10],
-"df/de1/classSQSpillMap__v1.html#a962ee8dd235d667a8db78bcd4afba4e6":[20,0,411,18],
-"df/de1/classSQSpillMap__v1.html#a99b8e528c40ce7825c6f1d76f3c1682f":[20,0,411,21],
-"df/de1/classSQSpillMap__v1.html#a9c4a97f77e222f22aa321b9b0d28fc41":[20,0,411,20],
-"df/de1/classSQSpillMap__v1.html#aa4428af436effb61e716a0182ead289a":[20,0,411,0],
-"df/de1/classSQSpillMap__v1.html#aa677a6cadcc655da8cffb51e4c96c725":[20,0,411,3],
 "df/de1/classSQSpillMap__v1.html#ab9e10194e62aa24d8f48c728a8e4d7f1":[20,0,411,12],
 "df/de1/classSQSpillMap__v1.html#ac6a8d8c001a1c38119e27a9f60117749":[20,0,411,1],
 "df/de1/classSQSpillMap__v1.html#ac79f51f7f630fc56b5458ba043fe9921":[20,0,411,4],
@@ -163,8 +155,8 @@ var NAVTREEINDEX47 =
 "dir_f1191aa33b8aa651e9f93b94dc659338.html":[21,0,2,6,11,0],
 "dir_fbce079917f4092189dcb9e25c05e73c.html":[21,0,1,9],
 "files.html":[21,0],
-"functions.html":[20,3,0],
 "functions.html":[20,3,0,0],
+"functions.html":[20,3,0],
 "functions_0x61.html":[20,3,0,1],
 "functions_0x62.html":[20,3,0,2],
 "functions_0x63.html":[20,3,0,3],
@@ -214,8 +206,8 @@ var NAVTREEINDEX47 =
 "functions_eval_0x77.html":[20,3,5,17],
 "functions_eval_0x78.html":[20,3,5,18],
 "functions_eval_0x79.html":[20,3,5,19],
-"functions_func.html":[20,3,1],
 "functions_func.html":[20,3,1,0],
+"functions_func.html":[20,3,1],
 "functions_func_0x61.html":[20,3,1,1],
 "functions_func_0x62.html":[20,3,1,2],
 "functions_func_0x63.html":[20,3,1,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX47 =
 "functions_type_0x64.html":[20,3,3,2],
 "functions_type_0x65.html":[20,3,3,3],
 "functions_type_0x68.html":[20,3,3,4],
-"functions_type_0x69.html":[20,3,3,5]
+"functions_type_0x69.html":[20,3,3,5],
+"functions_type_0x6c.html":[20,3,3,6],
+"functions_type_0x6d.html":[20,3,3,7],
+"functions_type_0x6f.html":[20,3,3,8],
+"functions_type_0x70.html":[20,3,3,9],
+"functions_type_0x72.html":[20,3,3,10],
+"functions_type_0x73.html":[20,3,3,11],
+"functions_type_0x74.html":[20,3,3,12],
+"functions_type_0x76.html":[20,3,3,13]
 };

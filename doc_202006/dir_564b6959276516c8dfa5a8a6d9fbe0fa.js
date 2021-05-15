@@ -11,8 +11,8 @@ var dir_564b6959276516c8dfa5a8a6d9fbe0fa =
     [ "UtilOnline.h", "db/d8e/UtilOnline_8h.html", [
       [ "UtilOnline", "df/da2/classUtilOnline.html", "df/da2/classUtilOnline" ]
     ] ],
-    [ "UtilSQHit.cc", "d6/d24/e1039-core_2packages_2UtilAna_2UtilSQHit_8cc.html", null ],
-    [ "UtilSQHit.h", "d7/d7e/e1039-core_2packages_2UtilAna_2UtilSQHit_8h.html", "d7/d7e/e1039-core_2packages_2UtilAna_2UtilSQHit_8h" ],
+    [ "UtilSQHit.cc", "d8/d24/UtilSQHit_8cc.html", null ],
+    [ "UtilSQHit.h", "df/da2/UtilSQHit_8h.html", "df/da2/UtilSQHit_8h" ],
     [ "UtilTrigger.cc", "d9/d5e/UtilTrigger_8cc.html", "d9/d5e/UtilTrigger_8cc" ],
     [ "UtilTrigger.h", "d0/d8a/UtilTrigger_8h.html", "d0/d8a/UtilTrigger_8h" ]
 ];

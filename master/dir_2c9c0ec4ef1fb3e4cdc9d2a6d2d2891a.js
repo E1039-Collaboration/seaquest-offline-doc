@@ -12,7 +12,5 @@ var dir_2c9c0ec4ef1fb3e4cdc9d2a6d2d2891a =
     [ "AnaRealDst.h", "dd/de9/AnaRealDst_8h.html", [
       [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ]
     ] ],
-    [ "LinkDef.h", "da/dbf/e1039-analysis_2AnaRealDst_2src_2LinkDef_8h.html", null ],
-    [ "UtilSQHit.cc", "d3/d26/e1039-analysis_2AnaRealDst_2src_2UtilSQHit_8cc.html", null ],
-    [ "UtilSQHit.h", "dc/db4/e1039-analysis_2AnaRealDst_2src_2UtilSQHit_8h.html", "dc/db4/e1039-analysis_2AnaRealDst_2src_2UtilSQHit_8h" ]
+    [ "LinkDef.h", "da/dbf/e1039-analysis_2AnaRealDst_2src_2LinkDef_8h.html", null ]
 ];

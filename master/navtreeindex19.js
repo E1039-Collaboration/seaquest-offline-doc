@@ -1,9 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d6/d6f/classFun4AllHepMCInputManager.html#a800e8c517886bf9e24fc300041851281":[20,0,83,7],
-"d6/d6f/classFun4AllHepMCInputManager.html#a8301fc523371ddb62e38efd336d998ba":[20,0,83,33],
-"d6/d6f/classFun4AllHepMCInputManager.html#a9a50c062c06ffe7af73b6591993de7c4":[20,0,83,2],
-"d6/d6f/classFun4AllHepMCInputManager.html#a9f8e48bc4e1ed4fcb027de6b4f9147f6":[20,0,83,30],
 "d6/d6f/classFun4AllHepMCInputManager.html#aa166a65ee56516f8035c62629179bc78":[20,0,83,25],
 "d6/d6f/classFun4AllHepMCInputManager.html#aa3b44c632c823330ae4e1c1a52bdbb0c":[20,0,83,1],
 "d6/d6f/classFun4AllHepMCInputManager.html#aaac93013e0d5835c48d80d3f217d3761":[20,0,83,29],
@@ -249,5 +245,9 @@ var NAVTREEINDEX19 =
 "d6/db1/classSRecTrack.html#a702c048ca803c30217d314d7ac45a0de":[20,0,426,27],
 "d6/db1/classSRecTrack.html#a7233ece37574bb58366394285995b6f6":[20,0,426,132],
 "d6/db1/classSRecTrack.html#a72eb45ffdada16cfb84620763643412d":[20,0,426,65],
-"d6/db1/classSRecTrack.html#a7852144ea3c5017d59948a606a7c6bf3":[20,0,426,133]
+"d6/db1/classSRecTrack.html#a7852144ea3c5017d59948a606a7c6bf3":[20,0,426,133],
+"d6/db1/classSRecTrack.html#a799a770d110ff33a56bd52b3b89fc945":[20,0,426,4],
+"d6/db1/classSRecTrack.html#a7a31be5621882dac17f96f7ec7e71cd3":[20,0,426,46],
+"d6/db1/classSRecTrack.html#a7b26e58e008a4550c85d2247c393c8b7":[20,0,426,45],
+"d6/db1/classSRecTrack.html#a8818d0b4ba0435c90b2ad03ba62b16bc":[20,0,426,43]
 };

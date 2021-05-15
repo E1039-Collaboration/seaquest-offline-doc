@@ -1,13 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"dc/d36/classPHG4BlockDetector.html#a877320f4e203f10c167e15c7e3e0c606":[20,0,180,5],
-"dc/d36/classPHG4BlockDetector.html#a88751a44a13a578c566ee70a8832b3bf":[20,0,180,1],
-"dc/d36/classPHG4BlockDetector.html#a99a2a0ffcd583efca31eea977ef36d64":[20,0,180,4],
-"dc/d36/classPHG4BlockDetector.html#a9d62d277bf32201cda7570864cb2cc7d":[20,0,180,6],
-"dc/d36/classPHG4BlockDetector.html#aaca6af5fccde9dcfdc03ff3033569db2":[20,0,180,2],
-"dc/d36/classPHG4BlockDetector.html#ae2eac6c0b35c371fe6698adbe4610eb4":[20,0,180,3],
-"dc/d38/classPHG4ConsistencyCheck.html":[20,0,200],
-"dc/d38/classPHG4ConsistencyCheck.html#a47c6ba77eda164f7c663b7412c273c63":[20,0,200,2],
 "dc/d38/classPHG4ConsistencyCheck.html#a52d89c7166211c0c19f906d885558b63":[20,0,200,3],
 "dc/d38/classPHG4ConsistencyCheck.html#a8d7b7c99035d95b72ff466c07e6f39fd":[20,0,200,0],
 "dc/d38/classPHG4ConsistencyCheck.html#aca6929b35f5c3f3e300ed68b33202f50":[20,0,200,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX37 =
 "dc/d94/classPHG4CylinderCellTPCReco.html#a1f63af44af4df3bc4075d5505ea81f39":[20,0,206,16],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a20a8704d2c72e623d0c2bb4f33e1f756":[20,0,206,47],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a225c53507f070c460c7c628ff8344e8e":[20,0,206,4],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a24b610688820daf9e2f3b20e52506c65":[20,0,206,44]
+"dc/d94/classPHG4CylinderCellTPCReco.html#a24b610688820daf9e2f3b20e52506c65":[20,0,206,44],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a276634a328d283f9525dbb0dc535590c":[20,0,206,18],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a278f7da142f1952f770f02ca4b6863a7":[20,0,206,41],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a2f9f0829a241c68d8d5cf8ac8f027864":[20,0,206,63],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a305fce9a65e292cb5c856d808f248231":[20,0,206,58],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a342c414db048576d10c20860e638b6dc":[20,0,206,55],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a34b0099a018fc003286142b96de534f0":[20,0,206,66],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a36f8dae72fae5f5d6e17b06fcec0b463":[20,0,206,7],
+"dc/d94/classPHG4CylinderCellTPCReco.html#a3f2d2b5c90603c3031a14cb9af46d959":[20,0,206,53]
 };

@@ -1,13 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"db/dda/SRawEvent_8h_source.html":[21,0,2,6,11,0,4],
-"db/ddd/PHG4ParticleGun_8cc.html":[21,0,2,7,5,60],
-"db/ddd/PHG4ParticleGun_8cc_source.html":[21,0,2,7,5,60],
-"db/ddd/SQHitVector_8h.html":[21,0,2,3,37],
-"db/ddd/SQHitVector_8h_source.html":[21,0,2,3,37],
-"db/ddf/classPHG4TargetCoilV2Subsystem.html":[20,0,292],
-"db/ddf/classPHG4TargetCoilV2Subsystem.html#a24540dd12390a806e26dc44422be1f02":[20,0,292,6],
-"db/ddf/classPHG4TargetCoilV2Subsystem.html#a4377e3dfeb5e3e1e753d997521f9931a":[20,0,292,2],
 "db/ddf/classPHG4TargetCoilV2Subsystem.html#a8f24e874c6d5a43b8befd48a1b945eca":[20,0,292,3],
 "db/ddf/classPHG4TargetCoilV2Subsystem.html#a90105993fc507bc86e1605a1ea0f5b28":[20,0,292,4],
 "db/ddf/classPHG4TargetCoilV2Subsystem.html#a917582120b87f760e6dbb4d504e8bbb8":[20,0,292,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX36 =
 "dc/d34/PHG4BlockCellGeomLinkDef_8h.html":[21,0,2,7,1,5],
 "dc/d34/PHG4BlockCellGeomLinkDef_8h_source.html":[21,0,2,7,1,5],
 "dc/d36/classPHG4BlockDetector.html":[20,0,180],
-"dc/d36/classPHG4BlockDetector.html#a06fce0dc5ba62a1889dfbe5c3782be02":[20,0,180,0]
+"dc/d36/classPHG4BlockDetector.html#a06fce0dc5ba62a1889dfbe5c3782be02":[20,0,180,0],
+"dc/d36/classPHG4BlockDetector.html#a877320f4e203f10c167e15c7e3e0c606":[20,0,180,5],
+"dc/d36/classPHG4BlockDetector.html#a88751a44a13a578c566ee70a8832b3bf":[20,0,180,1],
+"dc/d36/classPHG4BlockDetector.html#a99a2a0ffcd583efca31eea977ef36d64":[20,0,180,4],
+"dc/d36/classPHG4BlockDetector.html#a9d62d277bf32201cda7570864cb2cc7d":[20,0,180,6],
+"dc/d36/classPHG4BlockDetector.html#aaca6af5fccde9dcfdc03ff3033569db2":[20,0,180,2],
+"dc/d36/classPHG4BlockDetector.html#ae2eac6c0b35c371fe6698adbe4610eb4":[20,0,180,3],
+"dc/d38/classPHG4ConsistencyCheck.html":[20,0,200],
+"dc/d38/classPHG4ConsistencyCheck.html#a47c6ba77eda164f7c663b7412c273c63":[20,0,200,2]
 };
