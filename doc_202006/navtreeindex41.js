@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8":[20,0,432,0],
 "dd/d7f/structTrackData.html#aa78f49afadf21645d2ce4cfc8c631ff5":[20,0,432,6],
 "dd/d7f/structTrackData.html#ac184578c7df859727edc14f74030aba7":[20,0,432,3],
 "dd/d7f/structTrackData.html#ac184578c7df859727edc14f74030aba7":[20,0,432,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "dd/de2/GlobalConsts_8h.html#ac6d5331c0bb040b743ec1df449426acc":[21,0,2,6,7,0,10],
 "dd/de2/GlobalConsts_8h.html#acac414e575e1ee011cf3e3d0bbf14adc":[21,0,2,6,7,0,5],
 "dd/de2/GlobalConsts_8h.html#ad3b82bbab2a9e149bf577f0bcd0d1109":[21,0,2,6,7,0,6],
-"dd/de2/GlobalConsts_8h.html#ad5e813aa3a37a08ba9289e6598954ea0":[21,0,2,6,7,0,2],
-"dd/de2/GlobalConsts_8h.html#ada3443eb3804790de5070c718d72fbb2":[21,0,2,6,7,0,20]
+"dd/de2/GlobalConsts_8h.html#ad5e813aa3a37a08ba9289e6598954ea0":[21,0,2,6,7,0,2]
 };

@@ -5,6 +5,7 @@ var Fun4SimTree_8C =
     [ "DrawDimTrueKin", "d3/dcd/Fun4SimTree_8C.html#a9a147f54da9063a7bd360a9ac239e3e6", null ],
     [ "DrawTrkTrueKin", "d3/dcd/Fun4SimTree_8C.html#ace6125063c77519b294a4f873f64dd29", null ],
     [ "DrawTrueVar", "d3/dcd/Fun4SimTree_8C.html#a20119dfeeed65b735f9a3ac928e45bef", null ],
+    [ "FitCosTheta", "d3/dcd/Fun4SimTree_8C.html#aeaec847c1ee8a4674a6cd01e67fa313e", null ],
     [ "Fun4SimTree", "d3/dcd/Fun4SimTree_8C.html#a36640f1758a0cef4ef5986ea63db8fca", null ],
     [ "c1", "d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"db/dbc/PHG4TargetCoilSteppingAction_8cc.html":[21,0,2,7,1,164],
 "db/dbc/PHG4TargetCoilSteppingAction_8cc_source.html":[21,0,2,7,1,164],
 "db/dbe/Fun4AllOscarInputManager_8cc.html":[21,0,2,2,1,9],
 "db/dbe/Fun4AllOscarInputManager_8cc.html#a6bde64d7528df1ca2bde90a10dcf10a1":[21,0,2,2,1,9,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "dc/d30/classPHG4CylinderGeom.html#a314e0a7c0210ad44b9d02f178f209a4e":[20,0,214,19],
 "dc/d30/classPHG4CylinderGeom.html#a554ae3b5caa718578910acf2a3e198f5":[20,0,214,27],
 "dc/d30/classPHG4CylinderGeom.html#a5e628ced545e46cdcdb65944fd63e524":[20,0,214,17],
-"dc/d30/classPHG4CylinderGeom.html#a65215722dae7c8766a83c220a222b6a1":[20,0,214,18],
-"dc/d30/classPHG4CylinderGeom.html#a66c0e9b04057cd3b2fffdbd6727e7f94":[20,0,214,11]
+"dc/d30/classPHG4CylinderGeom.html#a65215722dae7c8766a83c220a222b6a1":[20,0,214,18]
 };

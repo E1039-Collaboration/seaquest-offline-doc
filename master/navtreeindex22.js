@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d7/d50/classPHGenEventList.html#a19b10129c990ce86e4c7514ce5747aab":[20,0,311,3],
 "d7/d50/classPHGenEventList.html#a3a1a6772c7cad606c68f4bff6b4e8c5d":[20,0,311,10],
 "d7/d50/classPHGenEventList.html#a5aee178faede6cddb0af7113ddef51f7":[20,0,311,4],
 "d7/d50/classPHGenEventList.html#a70f00de57067c0d38143ab945b18b989":[20,0,311,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acf15745e1b80e99af18853ffa757185a":[20,0,223,29],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acfa4b23ec1948996679832f540568261":[20,0,223,32],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#ad04bab630e8275962ac588fa5e854bb3":[20,0,223,18],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#ad08f83c68f120c5968c8c170c0e48372":[20,0,223,8],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#ad0e37a05f678105fc9826916d533eebd":[20,0,223,19]
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#ad08f83c68f120c5968c8c170c0e48372":[20,0,223,8]
 };

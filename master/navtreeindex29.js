@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"d9/d87/classPHG4SquareTubeDetector.html#ab7b83d5553c5b1f7401e21a5bcabd2d9":[20,0,285,3],
 "d9/d87/classPHG4SquareTubeDetector.html#ac7847c139d6bef3cc997a9613b27fee9":[20,0,285,0],
 "d9/d8a/RunToTime_8cc.html":[21,0,2,0,0,0,32],
 "d9/d8a/RunToTime_8cc_source.html":[21,0,2,0,0,0,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "d9/dc3/classKalmanTrack.html#a79f727208bf8dd8fca6a4f9c3247b644":[20,0,120,33],
 "d9/dc3/classKalmanTrack.html#a7ad952befc1454928b67103cd17fcba9":[20,0,120,20],
 "d9/dc3/classKalmanTrack.html#a7e2415da41eef98c3cbc025772a316af":[20,0,120,12],
-"d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81":[20,0,120,46],
-"d9/dc3/classKalmanTrack.html#a81c4035ba4ab14a326924a80665e69ed":[20,0,120,49]
+"d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81":[20,0,120,46]
 };

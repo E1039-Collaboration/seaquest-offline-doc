@@ -9,7 +9,7 @@ var searchData=
   ['x_5fexp',['x_exp',['../da/da4/classTrackletData.html#a445e554b0dc84ef265f520988756a91c',1,'TrackletData']]],
   ['xb',['xb',['../de/d50/classFun4AllFileOutStream.html#a5af0b5470752a0e372c7534287e5ff63',1,'Fun4AllFileOutStream']]],
   ['xc',['xc',['../dc/d90/classPlane.html#a6df76e27a2937d88e3bffb5eeca115ec',1,'Plane']]],
-  ['xf',['xF',['../d3/d07/classSRecDimuon.html#a76c5c422745f641efad48a6435323fb9',1,'SRecDimuon::xF()'],['../d2/dc4/classRoadPair.html#a9ca91a607c20b35823204796d258c522',1,'RoadPair::xf()'],['../dd/dec/structDimuonData.html#ac4c59332a05fea74f95d4df2c7f8a734',1,'DimuonData::xf()']]],
+  ['xf',['xF',['../d3/d07/classSRecDimuon.html#a76c5c422745f641efad48a6435323fb9',1,'SRecDimuon::xF()'],['../dd/dec/structDimuonData.html#ab47c032c9478b5bd93b2feec0b225410',1,'DimuonData::xF()'],['../d2/dc4/classRoadPair.html#a9ca91a607c20b35823204796d258c522',1,'RoadPair::xf()'],['../dd/dec/structDimuonData.html#ac4c59332a05fea74f95d4df2c7f8a734',1,'DimuonData::xf()']]],
   ['xkey_5fsave',['xkey_save',['../d0/dc2/classPHField3DCartesian.html#aa778428169cd35dd7449a2dd2d94c370',1,'PHField3DCartesian']]],
   ['xmax',['xmax',['../d0/dc2/classPHField3DCartesian.html#a2858cdab35d0be5d9479d8c209c9e3e3',1,'PHField3DCartesian::xmax()'],['../d7/d58/classSQField3DCartesian.html#ad892f9ab550397eb41f9278af2102309',1,'SQField3DCartesian::xmax()']]],
   ['xmin',['xmin',['../d0/dc2/classPHField3DCartesian.html#ae230b0b77c9bc9bc2fe67997ca6b363d',1,'PHField3DCartesian::xmin()'],['../d7/d58/classSQField3DCartesian.html#a2bc664233c591060dea39376433182b2',1,'SQField3DCartesian::xmin()']]],

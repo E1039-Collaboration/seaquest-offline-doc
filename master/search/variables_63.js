@@ -50,7 +50,7 @@ var searchData=
   ['condor_5fwork_5fdir',['condor_work_dir',['../d1/d2b/namespacesubmit__bnl.html#a4625628f30a9f7c8481fcff9fa8e2d73',1,'submit_bnl.condor_work_dir()'],['../d9/d8d/namespacesubmit__e1039.html#ac78d4b4b6bca419ef67af615163959b9',1,'submit_e1039.condor_work_dir()']]],
   ['condor_5fwork_5fdir_5fbase',['condor_work_dir_base',['../d1/d2b/namespacesubmit__bnl.html#a77d243bba28e4085b323f203e0181a86',1,'submit_bnl.condor_work_dir_base()'],['../d9/d8d/namespacesubmit__e1039.html#af8d22599fbc2cb5f7455db391d096403',1,'submit_e1039.condor_work_dir_base()']]],
   ['condorfile',['condorfile',['../d1/d2b/namespacesubmit__bnl.html#a7ecb2ebfc54e4c25dfac6f29f9e5a9fc',1,'submit_bnl.condorfile()'],['../d9/d8d/namespacesubmit__e1039.html#adabf5b4e0cbfcadde4c79cd2b5c3442c',1,'submit_e1039.condorfile()'],['../d1/d2b/namespacesubmit__bnl.html#aa39d79a3a97b02b0126187702b8ba2f2',1,'submit_bnl.CONDORFILE()'],['../d9/d8d/namespacesubmit__e1039.html#a85cd50d36823edf7d8dc710b3bc3a590',1,'submit_e1039.CONDORFILE()']]],
-  ['costh',['costh',['../d3/d07/classSRecDimuon.html#a00575eead745dce51bdc982c6d78e751',1,'SRecDimuon']]],
+  ['costh',['costh',['../d3/d07/classSRecDimuon.html#a00575eead745dce51bdc982c6d78e751',1,'SRecDimuon::costh()'],['../dd/dec/structDimuonData.html#ad1373eae7bcb5db44a7263e97005c850',1,'DimuonData::costh()']]],
   ['costheta',['costheta',['../dc/d90/classPlane.html#a58849d1c587f12c717391fb77e9dd910',1,'Plane']]],
   ['cparams',['cparams',['../d8/d21/classPdbParameterMap.html#afc3511e91dadfd065b7a311e8c2006a6',1,'PdbParameterMap']]],
   ['current_5fsequence',['current_sequence',['../d0/dbe/classFun4AllRolloverFileOutStream.html#a85122c7405a3b2a4149fc2baaf4c3075',1,'Fun4AllRolloverFileOutStream']]],

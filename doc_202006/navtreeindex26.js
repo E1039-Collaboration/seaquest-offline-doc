@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d8/d86/classPHG4TargetCoilSubsystem.html#aceab8ce9c6b4458e3b77023a578dc807":[20,0,289,0],
 "d8/d8a/RunHeader_8cc.html":[21,0,2,1,0,9],
 "d8/d8a/RunHeader_8cc.html#ae49a0bde473dba796a724741671460a0":[21,0,2,1,0,9,0],
 "d8/d8a/RunHeader_8cc_source.html":[21,0,2,1,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d9/d0c/classRndmEmbed.html#a0fecf7d0d05c3a6f7174dd6e30f10aa2":[20,0,355,2],
 "d9/d0c/classRndmEmbed.html#a1e5ee66cdcc5af345d14b88c319197ec":[20,0,355,11],
 "d9/d0c/classRndmEmbed.html#a21f4ccb71db5b46c75c774b68b1f4df5":[20,0,355,1],
-"d9/d0c/classRndmEmbed.html#a5cb455956c81cb828949df893636ae4f":[20,0,355,7],
-"d9/d0c/classRndmEmbed.html#a748b963b294faec3a0d496b61d46ee8a":[20,0,355,4]
+"d9/d0c/classRndmEmbed.html#a5cb455956c81cb828949df893636ae4f":[20,0,355,7]
 };

@@ -132,14 +132,17 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 <p>You first produce a set of simulated DST files by <code>SimChainDev</code>. This document assumes that the top directory of your simDST files is <code>/your/dst/dir</code>. It can be either relative or absolute.</p>
 <p>The following command lists up all simDSTs into <code>list_dst.txt</code>; ``` cd e1039-analysis/AnaSimDst/work ./make-dst-list.sh /your/dst/dir ``` You might manually create or edit the list file as you need.</p>
 <h3>Compilation of Analysis Code</h3>
-<p>The analysis code is located in <code>e1039-analysis/AnaSimDst/src</code>. The following commands set up the shell environment and compile the code; ``` cd e1039-analysis/AnaSimDst source setup.sh cd build cmake-ana-sim-dst make install ``` You are expected to later look into the script and the analysis code to make your own analysis logic.</p>
+<p>The analysis code is located in <code>e1039-analysis/AnaSimDst/src</code>. The following commands set up the shell environment and compile the code; ``` cd e1039-analysis/AnaSimDst source setup.sh cmake-this make-this ``` You are expected to later look into the script and the analysis code to make your own analysis logic.</p>
 <h3>Execution of Analysis</h3>
 <p>The 1st step is to create uDST from DSTs. The following commands reads five simDSTs for test. The uDST file is <code>uDST.root</code>. ``` cd e1039-analysis/AnaSimDst source setup.sh cd work root -b -q 'Fun4SimDst.C(5)' ```</p>
 <p>The 2nd step is to create Tree from uDST, by the following command. The TTree object is outputted to <code>sim_tree.root</code>. ``` root -b -q Fun4SimMicroDst.C ```</p>
 <p>The last step is draw plots from Tree. ``` root -b -q <a class="el" href="../../d3/dcd/Fun4SimTree_8C.html">Fun4SimTree.C</a> ``<code> Various plots are outputted to</code>result/`.</p>
 <p>If all the commands ran fine, you delete <code>(5)</code> (or change to <code>(0)</code>) in the 1st step to use all DSTs.</p>
 <h2>Advanced Usage</h2>
-<p>to be written.</p>
+<h3><code>cmake-this</code></h3>
+<p>You should execute this function when you add/delete files under <code>src/</code>. It is a shell function defined in <code>setup.sh</code>. It calls 'cmake' with a proper configuration. It cleans up all files in the build &amp; install directories.</p>
+<h3><code>make-this</code></h3>
+<p>You should execute this function when you modify files under <code>src/</code>. It is a shell function defined in <code>setup.sh</code>. It calls 'make install' with a proper configuration.</p>
 <h2>Author</h2>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no@'+'nu'+'cl.'+'ph'+'ys.'+'ti'+'tec'+'h.'+'ac.'+'jp'; return false;">knaka<span style="display: none;">.nosp@m.</span>no@n<span style="display: none;">.nosp@m.</span>ucl.p<span style="display: none;">.nosp@m.</span>hys.<span style="display: none;">.nosp@m.</span>titec<span style="display: none;">.nosp@m.</span>h.ac<span style="display: none;">.nosp@m.</span>.jp</a> </p>
 </div></div><!-- contents -->
@@ -151,7 +154,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu May 6 2021 10:50:12</em> using <a
+			updated: <em>Sat May 15 2021 16:20:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

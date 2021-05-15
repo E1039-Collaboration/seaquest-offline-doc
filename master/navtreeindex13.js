@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#aaf8d84c324ef763c3571f72036a1dcc0":[20,0,0,2,40],
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ab157cd64a0af0be8c64903f8e71aeba3":[20,0,0,2,2],
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ab36cff2ae4f912052c8fed5abb0f1c34":[20,0,0,2,30],
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#abbfeb9b9181561448a2780ab832c9419":[20,0,0,2,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d4/dc9/classPHG4DSTReader.html#af40c7548b7a92d5da87e8551b72b3de8":[20,0,225,13],
 "d4/dcc/PdbParameterError_8h.html":[21,0,2,0,0,0,25],
 "d4/dcc/PdbParameterError_8h_source.html":[21,0,2,0,0,0,25],
-"d4/dcc/namespaceUtilDimuon.html":[20,0,21],
-"d4/dcc/namespaceUtilDimuon.html":[19,0,20]
+"d4/dcc/namespaceUtilDimuon.html":[20,0,21]
 };

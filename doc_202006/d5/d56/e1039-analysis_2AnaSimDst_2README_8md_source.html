@@ -152,50 +152,59 @@ $(document).ready(function(){initNavTree('d5/d56/e1039-analysis_2AnaSimDst_2READ
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;```</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;cd e1039-analysis/<a class="code" href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;source setup.sh</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;cd build</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;cmake-<a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a>-sim-dst</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;make install</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;```</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;You are expected to later look into the script and the analysis code to make your own analysis logic.</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;### Execution of Analysis</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;The 1st step is to create uDST from DSTs.</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;The following commands reads five simDSTs <span class="keywordflow">for</span> test.</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;The uDST file is `uDST.root`.</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;```</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;cd e1039-analysis/<a class="code" href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;source setup.sh</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;cd work</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;root -b -q <span class="stringliteral">&#39;Fun4SimDst.C(5)&#39;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;```</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;The 2nd step is to create Tree from uDST, by the following command.</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;The TTree <span class="keywordtype">object</span> is outputted to `sim_tree.root`.</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;```</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;root -b -q <a class="code" href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C.html#ab980c780491ded824d61247fc1fa6127">Fun4SimMicroDst</a>.C</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;```</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;The last step is draw plots from Tree.</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;```</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;root -b -q <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a36640f1758a0cef4ef5986ea63db8fca">Fun4SimTree</a>.C</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;```</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;Various plots are outputted to `result/`.</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;If all the commands ran fine, you <span class="keyword">delete</span> `(5)` (or change to `(0)`) in the 1st step to use all DSTs.</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;## Advanced Usage</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;to be written.</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;## Author</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;Kenichi Naknao &lt;knakano@nucl.phys.titech.ac.jp&gt;</div>
-<div class="ttc" id="Fun4SimTree_8C_html_a36640f1758a0cef4ef5986ea63db8fca"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a36640f1758a0cef4ef5986ea63db8fca">Fun4SimTree</a></div><div class="ttdeci">void Fun4SimTree(const char *fname=&quot;sim_tree.root&quot;, const char *tname=&quot;tree&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00014">Fun4SimTree.C:14</a></div></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;cmake-<span class="keyword">this</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;make-<span class="keyword">this</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;```</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;You are expected to later look into the script and the analysis code to make your own analysis logic.</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;### Execution of Analysis</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;The 1st step is to create uDST from DSTs.</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;The following commands reads five simDSTs <span class="keywordflow">for</span> test.</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;The uDST file is `uDST.root`.</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;```</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;cd e1039-analysis/<a class="code" href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;source setup.sh</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;cd work</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;root -b -q <span class="stringliteral">&#39;Fun4SimDst.C(5)&#39;</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;```</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;The 2nd step is to create Tree from uDST, by the following command.</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;The TTree <span class="keywordtype">object</span> is outputted to `sim_tree.root`.</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;```</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;root -b -q <a class="code" href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C.html#ab980c780491ded824d61247fc1fa6127">Fun4SimMicroDst</a>.C</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;```</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;The last step is draw plots from Tree.</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;```</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;root -b -q <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a36640f1758a0cef4ef5986ea63db8fca">Fun4SimTree</a>.C</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;```</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;Various plots are outputted to `result/`.</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;If all the commands ran fine, you <span class="keyword">delete</span> `(5)` (or change to `(0)`) in the 1st step to use all DSTs.</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;## Advanced Usage</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;### `cmake-<span class="keyword">this</span>`</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;You should execute <span class="keyword">this</span> <span class="keyword">function</span> when you add/<span class="keyword">delete</span> files under `src/`.</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;It is a shell <span class="keyword">function</span> defined in `setup.sh`.</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;It calls <span class="stringliteral">&#39;cmake&#39;</span> with a proper configuration.</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;It cleans up all files in the build &amp; install directories.</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;### `make-<span class="keyword">this</span>`</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;You should execute <span class="keyword">this</span> <span class="keyword">function</span> when you modify files under `src/`.</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;It is a shell <span class="keyword">function</span> defined in `setup.sh`.</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;It calls <span class="stringliteral">&#39;make install&#39;</span> with a proper configuration.</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;## Author</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;Kenichi Naknao &lt;knakano@nucl.phys.titech.ac.jp&gt;</div>
+<div class="ttc" id="Fun4SimTree_8C_html_a36640f1758a0cef4ef5986ea63db8fca"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a36640f1758a0cef4ef5986ea63db8fca">Fun4SimTree</a></div><div class="ttdeci">void Fun4SimTree(const char *fname=&quot;sim_tree.root&quot;, const char *tname=&quot;tree&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00013">Fun4SimTree.C:13</a></div></div>
 <div class="ttc" id="classAnaSimDst_html"><div class="ttname"><a href="../../d1/d9e/classAnaSimDst.html">AnaSimDst</a></div><div class="ttdoc">An example class to analyze the simulated uDST file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/AnaSimDst_8h_source.html#l00017">AnaSimDst.h:17</a></div></div>
-<div class="ttc" id="E1039Shielding_2ana_8C_html_a24b637aefa84c667b63905e9be5a8f69"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a></div><div class="ttdeci">void ana()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00291">ana.C:291</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimDst_8C_html_abf0708efff889232b6c0a7359cfb70ae"><div class="ttname"><a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae">Fun4SimDst</a></div><div class="ttdeci">int Fun4SimDst(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;, const char *fn_udst=&quot;uDST.root&quot;)</div><div class="ttdoc">Fun4SimDst.C: Fun4all macro to analyze the E1039 simulated DST files. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C_source.html#l00006">Fun4SimDst.C:6</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimMicroDst_8C_html_ab980c780491ded824d61247fc1fa6127"><div class="ttname"><a href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C.html#ab980c780491ded824d61247fc1fa6127">Fun4SimMicroDst</a></div><div class="ttdeci">int Fun4SimMicroDst(const char *fn_udst=&quot;uDST.root&quot;)</div><div class="ttdoc">Fun4SimMicroDst.C: Fun4all macro to analyze you uDST. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C_source.html#l00006">Fun4SimMicroDst.C:6</a></div></div>
+<div class="ttc" id="AnaSimDst_2work_2Fun4SimDst_8C_html_abf0708efff889232b6c0a7359cfb70ae"><div class="ttname"><a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae">Fun4SimDst</a></div><div class="ttdeci">int Fun4SimDst(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;, const char *fn_udst=&quot;uDST.root&quot;)</div><div class="ttdoc">Fun4SimDst.C: Fun4all macro to analyze the E1039 simulated DST files. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C_source.html#l00004">Fun4SimDst.C:4</a></div></div>
+<div class="ttc" id="AnaSimDst_2work_2Fun4SimMicroDst_8C_html_ab980c780491ded824d61247fc1fa6127"><div class="ttname"><a href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C.html#ab980c780491ded824d61247fc1fa6127">Fun4SimMicroDst</a></div><div class="ttdeci">int Fun4SimMicroDst(const char *fn_udst=&quot;uDST.root&quot;)</div><div class="ttdoc">Fun4SimMicroDst.C: Fun4all macro to analyze you uDST. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d69/AnaSimDst_2work_2Fun4SimMicroDst_8C_source.html#l00004">Fun4SimMicroDst.C:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -206,7 +215,7 @@ $(document).ready(function(){initNavTree('d5/d56/e1039-analysis_2AnaSimDst_2READ
 		<li class="navelem"><a class="el" href="../../d5/d56/e1039-analysis_2AnaSimDst_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Apr 15 2021 13:02:15</em> using <a
+			updated: <em>Sat May 15 2021 16:21:52</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

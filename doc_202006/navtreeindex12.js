@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d4/d0b/PHG4ColorDefs_8h_source.html":[21,0,2,7,5,9],
 "d4/d0b/SQScaler__v1_8cxx.html":[21,0,2,3,71],
 "d4/d0b/SQScaler__v1_8cxx.html#af9215714dc2a019b37aa80970f9b7c47":[21,0,2,3,71,0],
 "d4/d0b/SQScaler__v1_8cxx_source.html":[21,0,2,3,71],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ac7a864fc1f402677dcbc87da6fd3e69b":[20,0,0,2,39],
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ac81dd839a20f9f6ecf74d49f4342ab2b":[20,0,0,2,4],
 "d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#aca9d011169296548f199735270a7b4ec":[20,0,0,2,34],
-"d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ad4a81d893437cb65742e55c8d58db91e":[20,0,0,2,5],
-"d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#adc4a818443f261765d86d3b65d354a0c":[20,0,0,2,6]
+"d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#ad4a81d893437cb65742e55c8d58db91e":[20,0,0,2,5]
 };

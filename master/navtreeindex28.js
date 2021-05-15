@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d9/d35/classPHG4Hitv1.html#af739e2b82a0f5cf7224441e9ded807af":[20,0,251,62],
 "d9/d35/classPHG4Hitv1.html#afaacaccbdc9c15a54b345fcd151d53a6":[20,0,251,10],
 "d9/d35/classPHG4Hitv1.html#afd4dc562ec1b59ee0ab11f644a612c6c":[20,0,251,67],
 "d9/d35/classPHG4Hitv1.html#afeb98de07d982e44b7f65df87c622432":[20,0,251,77],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d9/d87/classPHG4SquareTubeDetector.html#a2f26f00af28dd837236d293c3fafccd4":[20,0,285,5],
 "d9/d87/classPHG4SquareTubeDetector.html#a7d65d2d7c168e873a90f35190fff76e0":[20,0,285,2],
 "d9/d87/classPHG4SquareTubeDetector.html#a8c8065a9721ea8d0030d71ee344e789a":[20,0,285,6],
-"d9/d87/classPHG4SquareTubeDetector.html#a950e64ea7d2c7061f5c6c317659d3906":[20,0,285,4],
-"d9/d87/classPHG4SquareTubeDetector.html#ab7b83d5553c5b1f7401e21a5bcabd2d9":[20,0,285,3]
+"d9/d87/classPHG4SquareTubeDetector.html#a950e64ea7d2c7061f5c6c317659d3906":[20,0,285,4]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"db/d04/PHG4ConeDetector_8cc_source.html":[21,0,2,7,1,55],
 "db/d09/structPHG4DSTReader_1_1record.html":[20,0,222,0],
 "db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689":[20,0,222,0,4],
 "db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3f":[20,0,222,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "db/d73/OnlMonTrigNim_8h_source.html":[21,0,2,5,3,24],
 "db/d73/classP6DExtDecayerPhysics.html":[20,0,139],
 "db/d73/classP6DExtDecayerPhysics.html#a108003500087ee552dd8602664317bdc":[20,0,139,1],
-"db/d73/classP6DExtDecayerPhysics.html#a2bd6e1c13d83f11d804f6296c151472f":[20,0,139,5],
-"db/d73/classP6DExtDecayerPhysics.html#a4f01f2ff0034668cfb45591372d8f1b4":[20,0,139,3]
+"db/d73/classP6DExtDecayerPhysics.html#a2bd6e1c13d83f11d804f6296c151472f":[20,0,139,5]
 };

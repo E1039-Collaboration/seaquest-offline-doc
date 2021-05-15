@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"d8/d2f/halfFunction_8h_source.html":[21,0,2,6,8,4],
 "d8/d30/PHCompositeNode_8h.html":[21,0,2,1,2,2],
 "d8/d30/PHCompositeNode_8h_source.html":[21,0,2,1,2,2],
 "d8/d38/PHG4BlockCellRecoLinkDef_8h.html":[21,0,2,7,1,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "d8/d78/classPHG4ParticleGeneratorBase.html#ab24bc7916e939674871bf34991a4bc59":[20,0,264,17],
 "d8/d78/classPHG4ParticleGeneratorBase.html#ab54597d3bd4b632e39a0b980f42cc441":[20,0,264,27],
 "d8/d78/classPHG4ParticleGeneratorBase.html#ab8befe41219bb20320aef409c10cf740":[20,0,264,12],
-"d8/d78/classPHG4ParticleGeneratorBase.html#abdeb99aab4b694da1d9beb19af7951f8":[20,0,264,35],
-"d8/d78/classPHG4ParticleGeneratorBase.html#ac65b77adac8ec73739acd8ffc797a77d":[20,0,264,11]
+"d8/d78/classPHG4ParticleGeneratorBase.html#abdeb99aab4b694da1d9beb19af7951f8":[20,0,264,35]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"db/dda/SRawEvent_8h_source.html":[21,0,2,6,11,0,4],
 "db/ddd/PHG4ParticleGun_8cc.html":[21,0,2,7,5,60],
 "db/ddd/PHG4ParticleGun_8cc_source.html":[21,0,2,7,5,60],
 "db/ddd/SQHitVector_8h.html":[21,0,2,3,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "dc/d34/PHG4BlockCellGeomLinkDef_8h.html":[21,0,2,7,1,5],
 "dc/d34/PHG4BlockCellGeomLinkDef_8h_source.html":[21,0,2,7,1,5],
 "dc/d36/classPHG4BlockDetector.html":[20,0,180],
-"dc/d36/classPHG4BlockDetector.html#a06fce0dc5ba62a1889dfbe5c3782be02":[20,0,180,0],
-"dc/d36/classPHG4BlockDetector.html#a877320f4e203f10c167e15c7e3e0c606":[20,0,180,5]
+"dc/d36/classPHG4BlockDetector.html#a06fce0dc5ba62a1889dfbe5c3782be02":[20,0,180,0]
 };

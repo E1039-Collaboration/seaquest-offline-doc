@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d9/d3a/classPHPythia8.html#aeabc0bd681a2a5f0fcfc9a0ad9661462":[20,0,339,6],
 "d9/d3a/classPHPythia8.html#aec98d8e3f6718e0414f494a4cd80ac1b":[20,0,339,16],
 "d9/d3a/classPHPythia8.html#af2c12c56383374d15eb4a539d7b8ca5d":[20,0,339,9],
 "d9/d3a/classPHPythia8.html#af381f96f7115a7f8011d31572c46fcfc":[20,0,339,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d9/d8b/classPHPy8ParticleTrigger.html#a6c937285eccabe5ab231c687bcc4bb7a":[20,0,338,16],
 "d9/d8b/classPHPy8ParticleTrigger.html#a71e451495234c415e1956e672e98b943":[20,0,338,20],
 "d9/d8b/classPHPy8ParticleTrigger.html#a76cc511a67e56de15ea003c75c5761b9":[20,0,338,21],
-"d9/d8b/classPHPy8ParticleTrigger.html#a8452f4b863772c461f82e70870985df1":[20,0,338,6],
-"d9/d8b/classPHPy8ParticleTrigger.html#a8560ab4dd4a2fc0caf58bff8f98559f0":[20,0,338,3]
+"d9/d8b/classPHPy8ParticleTrigger.html#a8452f4b863772c461f82e70870985df1":[20,0,338,6]
 };

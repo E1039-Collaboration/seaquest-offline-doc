@@ -1,5 +1,10 @@
 var NAVTREEINDEX45 =
 {
+"df/d36/classSQDigitizer.html#a648fd50a9d861de15ce2190d803acc3e":[20,0,374,0],
+"df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b":[20,0,374,3],
+"df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda":[20,0,374,7],
+"df/d36/classSQDigitizer.html#a8db95e9af1b348833d7e759a486ee3da":[20,0,374,2],
+"df/d36/classSQDigitizer.html#a94fbfd930c455a55a462aa844db45c58":[20,0,374,11],
 "df/d36/classSQDigitizer.html#aa950c86897435eda1e4fe4b91c214778":[20,0,374,1],
 "df/d36/classSQDigitizer.html#aad119128235bc9f3d7cbf6005c769c51":[20,0,374,9],
 "df/d36/classSQDigitizer.html#aeebb86ad3f793ec11e6d1e7807c8064c":[20,0,374,8],
@@ -198,8 +203,8 @@ var NAVTREEINDEX45 =
 "df/d5e/classPHG4BlockCellReco.html#ae2234f60490d0fc28a3ca73d4bc531af":[20,0,179,15],
 "df/d5f/CalibParamXTLinkDef_8h.html":[21,0,2,6,6,9],
 "df/d5f/CalibParamXTLinkDef_8h_source.html":[21,0,2,6,6,9],
-"df/d60/namespaceUtilTrigger.html":[19,0,23],
 "df/d60/namespaceUtilTrigger.html":[20,0,24],
+"df/d60/namespaceUtilTrigger.html":[19,0,23],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html":[21,0,2,5,2,1],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html#a92136f391f9569a6c6c1c81dcb9679df":[21,0,2,5,2,1,1],
 "df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C.html#ab9151bcfc5d35e7a25c9cf86fddd2bd2":[21,0,2,5,2,1,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX45 =
 "df/d82/classPHG4BlockGeom.html#a0a442912cb5afb529ccd4ec72abb4eb5":[20,0,181,1],
 "df/d82/classPHG4BlockGeom.html#a24e176452b0a79f58ab5d572680e697a":[20,0,181,3],
 "df/d82/classPHG4BlockGeom.html#a2f6577e7c79cbce1cf56feb41ecdaba6":[20,0,181,2],
-"df/d82/classPHG4BlockGeom.html#a3675cffa90af292fd3b482a254f72350":[20,0,181,16],
-"df/d82/classPHG4BlockGeom.html#a3e92b6be3074c5a792f3059a138afec7":[20,0,181,15],
-"df/d82/classPHG4BlockGeom.html#a5bdd91ea56a08160f44388d03039fea8":[20,0,181,18],
-"df/d82/classPHG4BlockGeom.html#a5c1d6dceab925b27f4a0e753d8e714c0":[20,0,181,17],
-"df/d82/classPHG4BlockGeom.html#a6449d54b2c019eecda050d9f281dd003":[20,0,181,9],
-"df/d82/classPHG4BlockGeom.html#a6bd87e5d962010b16d638ad97a31a670":[20,0,181,7]
+"df/d82/classPHG4BlockGeom.html#a3675cffa90af292fd3b482a254f72350":[20,0,181,16]
 };
