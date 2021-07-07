@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lab2collinssoper',['Lab2CollinsSoper',['../d4/dcc/namespaceUtilDimuon.html#adfbba745f7561d97d958171d4f9784b3',1,'UtilDimuon::Lab2CollinsSoper(const SQDimuon *dim, double &amp;costh, double &amp;phi)'],['../d4/dcc/namespaceUtilDimuon.html#a401ca52e725b67b1abe46265e66c5eeb',1,'UtilDimuon::Lab2CollinsSoper(const TVector3 &amp;p1, const TVector3 &amp;p2, double &amp;costh, double &amp;phi)'],['../d4/dcc/namespaceUtilDimuon.html#aa6caf065f1f49908ba80cede284b83c0',1,'UtilDimuon::Lab2CollinsSoper(const double px1, const double py1, const double pz1, const double px2, const double py2, const double pz2, double &amp;costh, double &amp;phi)']]],
   ['length',['length',['../d6/d86/classPHPointerList.html#aa48452c4f6bad6c475f9c3efeb97e4b9',1,'PHPointerList']]],
   ['line_5fand_5frectangle_5fintersect',['line_and_rectangle_intersect',['../df/d5e/classPHG4BlockCellReco.html#aa0e5a8c1e446e3764a55bcf53476cb32',1,'PHG4BlockCellReco::line_and_rectangle_intersect()'],['../d5/dd0/classPHG4CylinderCellReco.html#a0d95db78388db2f32607a90f661f41a1',1,'PHG4CylinderCellReco::line_and_rectangle_intersect()']]],
   ['linearfit_5fiterative',['linearFit_iterative',['../d0/d1e/classPropSegment.html#a067c6fdcf39b89aad070673feb429266',1,'PropSegment']]],
@@ -12,6 +13,7 @@ var searchData=
   ['loadcalibration',['loadCalibration',['../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661',1,'GeomSvc']]],
   ['loadfromionode',['LoadFromIONode',['../d2/da1/classPHGeomUtility.html#ae062424701e91fed6173ca3aa29779e4',1,'PHGeomUtility']]],
   ['loadmillealignment',['loadMilleAlignment',['../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8',1,'GeomSvc']]],
+  ['loadonlinealignment',['loadOnlineAlignment',['../d0/da0/classGeomSvc.html#a6234a9e4de78f5667104d23c8828b79f',1,'GeomSvc']]],
   ['loadpatterndb',['LoadPatternDB',['../d2/d0e/classPatternDBUtil.html#ab5230e7ad27a1812e45af9d9ecc96c81',1,'PatternDBUtil']]],
   ['loadseed',['LoadSeed',['../dd/d1f/classPHRandomSeed.html#a82d8caaa0180a43adc05ae970b164b05',1,'PHRandomSeed']]],
   ['loop_5fana',['loop_ana',['../dd/d2a/loop__ana_8C.html#a57fd4fbe7846a1003bda4845bb5aae4c',1,'loop_ana.C']]],

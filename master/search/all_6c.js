@@ -1,6 +1,7 @@
 var searchData=
 [
   ['l_5findex',['l_index',['../db/dad/classPHG4CylinderCellv3.html#ab176d91f94071d8990f08e83e9220ae9',1,'PHG4CylinderCellv3']]],
+  ['lab2collinssoper',['Lab2CollinsSoper',['../d4/dcc/namespaceUtilDimuon.html#adfbba745f7561d97d958171d4f9784b3',1,'UtilDimuon::Lab2CollinsSoper(const SQDimuon *dim, double &amp;costh, double &amp;phi)'],['../d4/dcc/namespaceUtilDimuon.html#a401ca52e725b67b1abe46265e66c5eeb',1,'UtilDimuon::Lab2CollinsSoper(const TVector3 &amp;p1, const TVector3 &amp;p2, double &amp;costh, double &amp;phi)'],['../d4/dcc/namespaceUtilDimuon.html#aa6caf065f1f49908ba80cede284b83c0',1,'UtilDimuon::Lab2CollinsSoper(const double px1, const double py1, const double pz1, const double px2, const double py2, const double pz2, double &amp;costh, double &amp;phi)']]],
   ['ladder_5fphi_5findex',['ladder_phi_index',['../db/d16/classPHG4CylinderCellv2.html#a2875525592b7dfb78e99a5e17b768f1d',1,'PHG4CylinderCellv2']]],
   ['ladder_5fz_5findex',['ladder_z_index',['../db/d16/classPHG4CylinderCellv2.html#a4ec1ebe21b56b001f9f281e03cb3161b',1,'PHG4CylinderCellv2']]],
   ['lamda0max',['lamda0max',['../d5/d9b/plot__matscan_8C.html#a39cb46ece952697be83163edd533f256',1,'plot_matscan.C']]],
@@ -46,6 +47,7 @@ var searchData=
   ['loadcalibration',['loadCalibration',['../d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661',1,'GeomSvc']]],
   ['loadfromionode',['LoadFromIONode',['../d2/da1/classPHGeomUtility.html#ae062424701e91fed6173ca3aa29779e4',1,'PHGeomUtility']]],
   ['loadmillealignment',['loadMilleAlignment',['../d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8',1,'GeomSvc']]],
+  ['loadonlinealignment',['loadOnlineAlignment',['../d0/da0/classGeomSvc.html#a6234a9e4de78f5667104d23c8828b79f',1,'GeomSvc']]],
   ['loadpatterndb',['LoadPatternDB',['../d2/d0e/classPatternDBUtil.html#ab5230e7ad27a1812e45af9d9ecc96c81',1,'PatternDBUtil']]],
   ['loadseed',['LoadSeed',['../dd/d1f/classPHRandomSeed.html#a82d8caaa0180a43adc05ae970b164b05',1,'PHRandomSeed']]],
   ['local',['LOCAL',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a0c6c825682b9935836ddb4e373e7197e',1,'DbSvc']]],

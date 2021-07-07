@@ -105,8 +105,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">DbSvc.cc File Reference</div>  </div>
 </div><!--header-->
@@ -122,13 +121,14 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc.html','../../');});
 <code>#include &lt;TSQLStatement.h&gt;</code><br/>
 <code>#include &lt;TSQLResult.h&gt;</code><br/>
 <code>#include &lt;TSQLRow.h&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/dcb/recoConsts_8h_source.html">phool/recoConsts.h</a>&gt;</code><br/>
 <code>#include &quot;<a class="el" href="../../d7/d8f/DbSvc_8h_source.html">DbSvc.h</a>&quot;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for DbSvc.cc:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dd5/DbSvc_8cc__incl.svg" width="1304" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/dd5/DbSvc_8cc__incl.svg" width="1446" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -138,13 +138,6 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc.html','../../');});
 Macros</h2></td></tr>
 <tr class="memitem:a00810b1cb9d2f25d25ce2d4d93815fba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(message)&#160;&#160;&#160;std::cout &lt;&lt; &quot;DEBUG: &quot; &lt;&lt; __FILE__ &lt;&lt; &quot;  &quot; &lt;&lt; __LINE__ &lt;&lt; &quot;  &quot; &lt;&lt; __FUNCTION__ &lt;&lt; &quot; :::  &quot; &lt;&lt; message &lt;&lt; std::endl</td></tr>
 <tr class="separator:a00810b1cb9d2f25d25ce2d4d93815fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a796d6df1ba630b2c252c5ca036bd3034"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/DbSvc_8cc.html#a796d6df1ba630b2c252c5ca036bd3034">FileExist</a> (const std::string fileName)</td></tr>
-<tr class="separator:a796d6df1ba630b2c252c5ca036bd3034"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af49adeb6262b3b870c3409ba576ad031"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d4b/DbSvc_8cc.html#af49adeb6262b3b870c3409ba576ad031">ExpandEnvironmentals</a> (const std::string &amp;input)</td></tr>
-<tr class="separator:af49adeb6262b3b870c3409ba576ad031"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a00810b1cb9d2f25d25ce2d4d93815fba"></a>
@@ -161,70 +154,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00014">14</a> of file <a class="el" href="../../da/d4b/DbSvc_8cc_source.html">DbSvc.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00015">15</a> of file <a class="el" href="../../da/d4b/DbSvc_8cc_source.html">DbSvc.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00586">KalmanFastTracking::acceptEvent()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00643">KalmanDSTrk::acceptEvent()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01342">KalmanFastTracking::acceptTracklet()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01684">KalmanDSTrk::acceptTracklet()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00624">KalmanFastTracking::buildBackPartialTracks()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00681">KalmanDSTrk::buildBackPartialTracks()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00760">KalmanFastTracking::buildGlobalTracks()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00899">KalmanDSTrk::buildGlobalTracks()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01601">KalmanFastTracking::buildPropSegments()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01943">KalmanDSTrk::buildPropSegments()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01176">KalmanFastTracking::buildTrackletsInStation()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01416">KalmanDSTrk::buildTrackletsInStation()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00039">DbSvc::DbSvc()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00095">mTrkEveDisplay::event()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00113">KalmanFilter::filter()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00544">VertexFit::findVertex()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00274">PropSegment::fit()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00239">KalmanTrack::getExpPosition()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01372">KalmanFastTracking::hodoMask()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01714">KalmanDSTrk::hodoMask()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00075">GenFitExtrapolator::init()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00133">DPTriggerAnalyzer::Init()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00078">SRawEventEmbed::InitRun()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00192">KalmanFitter::initSmoother()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01495">KalmanFastTracking::muonID_comp()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01837">KalmanDSTrk::muonID_comp()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00062">KalmanFilter::predict()</a>, <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00345">SQReco::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00185">VertexFit::process_event()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00472">VertexFit::processOnePair()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01865">KalmanFastTracking::processOneTracklet()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l02207">KalmanDSTrk::processOneTracklet()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01708">KalmanFastTracking::reduceTrackletList()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l02050">KalmanDSTrk::reduceTrackletList()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01036">KalmanFastTracking::removeBadHits()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01276">KalmanDSTrk::removeBadHits()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00911">KalmanFastTracking::resolveLeftRight()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01145">KalmanDSTrk::resolveLeftRight()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01013">KalmanFastTracking::resolveSingleLeftRight()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01253">KalmanDSTrk::resolveSingleLeftRight()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00117">GenFitExtrapolator::setInitialStateWithCov()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00428">KalmanFastTracking::setRawEvent()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00482">KalmanDSTrk::setRawEventWorker()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00257">VertexFit::setRecEvent()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00187">KalmanFilter::smooth()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00453">GenFitExtrapolator::TRSDSC()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="af49adeb6262b3b870c3409ba576ad031"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string ExpandEnvironmentals </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00024">24</a> of file <a class="el" href="../../da/d4b/DbSvc_8cc_source.html">DbSvc.cc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00039">DbSvc::DbSvc()</a>.</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d4b/DbSvc_8cc_af49adeb6262b3b870c3409ba576ad031_icgraph.svg" width="315" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a796d6df1ba630b2c252c5ca036bd3034"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool FileExist </td>
-          <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>fileName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00018">18</a> of file <a class="el" href="../../da/d4b/DbSvc_8cc_source.html">DbSvc.cc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00039">DbSvc::DbSvc()</a>.</p>
-
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d4b/DbSvc_8cc_a796d6df1ba630b2c252c5ca036bd3034_icgraph.svg" width="235" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
+<p>Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00586">KalmanFastTracking::acceptEvent()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00643">KalmanDSTrk::acceptEvent()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01342">KalmanFastTracking::acceptTracklet()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01684">KalmanDSTrk::acceptTracklet()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00624">KalmanFastTracking::buildBackPartialTracks()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00681">KalmanDSTrk::buildBackPartialTracks()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00760">KalmanFastTracking::buildGlobalTracks()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00899">KalmanDSTrk::buildGlobalTracks()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01601">KalmanFastTracking::buildPropSegments()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01943">KalmanDSTrk::buildPropSegments()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01176">KalmanFastTracking::buildTrackletsInStation()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01416">KalmanDSTrk::buildTrackletsInStation()</a>, <a class="el" href="../../da/d4b/DbSvc_8cc_source.html#l00029">DbSvc::DbSvc()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00179">mTrkEveDisplay::draw_hits()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00095">mTrkEveDisplay::event()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00113">KalmanFilter::filter()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00544">VertexFit::findVertex()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00274">PropSegment::fit()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00239">KalmanTrack::getExpPosition()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01372">KalmanFastTracking::hodoMask()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01714">KalmanDSTrk::hodoMask()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00075">GenFitExtrapolator::init()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00134">DPTriggerAnalyzer::Init()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00078">SRawEventEmbed::InitRun()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00192">KalmanFitter::initSmoother()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01495">KalmanFastTracking::muonID_comp()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01837">KalmanDSTrk::muonID_comp()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00062">KalmanFilter::predict()</a>, <a class="el" href="../../d0/d98/SQReco_8cxx_source.html#l00345">SQReco::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00185">VertexFit::process_event()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00472">VertexFit::processOnePair()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter::processOneTrack()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01865">KalmanFastTracking::processOneTracklet()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l02207">KalmanDSTrk::processOneTracklet()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01708">KalmanFastTracking::reduceTrackletList()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l02050">KalmanDSTrk::reduceTrackletList()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01036">KalmanFastTracking::removeBadHits()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01276">KalmanDSTrk::removeBadHits()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00911">KalmanFastTracking::resolveLeftRight()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01145">KalmanDSTrk::resolveLeftRight()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01013">KalmanFastTracking::resolveSingleLeftRight()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01253">KalmanDSTrk::resolveSingleLeftRight()</a>, <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00117">GenFitExtrapolator::setInitialStateWithCov()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00428">KalmanFastTracking::setRawEvent()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00482">KalmanDSTrk::setRawEventWorker()</a>, <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00257">VertexFit::setRecEvent()</a>, <a class="el" href="../../d5/dc2/KalmanFilter_8cxx_source.html#l00187">KalmanFilter::smooth()</a>, and <a class="el" href="../../d0/d9f/GenFitExtrapolator_8cxx_source.html#l00453">GenFitExtrapolator::TRSDSC()</a>.</p>
 
 </div>
 </div>
@@ -238,7 +170,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_a20ba7afb7409ef346e4211b1bc3468e.html">db_svc</a></li><li class="navelem"><a class="el" href="../../da/d4b/DbSvc_8cc.html">DbSvc.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 26 2021 21:42:15</em> using <a
+			updated: <em>Wed Jul 7 2021 08:24:16</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

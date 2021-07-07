@@ -1,6 +1,9 @@
 var searchData=
 [
   ['scintillatorslatbinning',['scintillatorslatbinning',['../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528cab68a0ffaa18177f6142c227355d2dc26',1,'PHG4CellDefs']]],
+  ['single',['SINGLE',['../d8/dca/classSQGeomAcc.html#a7b54ab6df2105e2e3e484dec086e76f9ab2a68ec9f227aa3fcd367963823d86c4',1,'SQGeomAcc']]],
+  ['single_5fb',['SINGLE_B',['../d8/dca/classSQGeomAcc.html#a7b54ab6df2105e2e3e484dec086e76f9a54ab6dc241e2f24918f08b2acf65781e',1,'SQGeomAcc']]],
+  ['single_5ft',['SINGLE_T',['../d8/dca/classSQGeomAcc.html#a7b54ab6df2105e2e3e484dec086e76f9a6013e16cd7314e6f70f6661ae555ec80',1,'SQGeomAcc']]],
   ['sizebinning',['sizebinning',['../d7/dba/namespacePHG4CellDefs.html#abe0361ab474a224272fe4f968784528cac82f6fa5fbd6b24f2cc2ef91bf7d027d',1,'PHG4CellDefs::sizebinning()'],['../d2/da3/namespacePHG4CylinderCellDefs.html#a0314a6fafd12193bfc855a817dc4f5b4af7c4bd99c35f1947f12a785eb9f5bf4f',1,'PHG4CylinderCellDefs::sizebinning()']]],
   ['slow_5fcontrol',['SLOW_CONTROL',['../d6/d1e/CodaInputManager_8h.html#a16af7b253440dadd46a80a4b9fddba4da72ce0527bdc427078616600eca3ebb6b',1,'CodaInputManager.h']]],
   ['sp_5fall',['SP_ALL',['../d9/d95/classOnlMonComm.html#a030dc15b387e5468225516105d466d2cadfaebd323de7e5e56069a65e82273a06',1,'OnlMonComm']]],

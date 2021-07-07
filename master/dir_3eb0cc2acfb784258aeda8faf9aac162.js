@@ -307,6 +307,11 @@ var dir_3eb0cc2acfb784258aeda8faf9aac162 =
     [ "PHG4TargetCoilV2SubsystemLinkDef.h", "d3/d35/PHG4TargetCoilV2SubsystemLinkDef_8h.html", null ],
     [ "PHG4TrackStatusDecode.cc", "db/da9/PHG4TrackStatusDecode_8cc.html", "db/da9/PHG4TrackStatusDecode_8cc" ],
     [ "PHG4TrackStatusDecode.h", "dd/d2b/PHG4TrackStatusDecode_8h.html", "dd/d2b/PHG4TrackStatusDecode_8h" ],
+    [ "SQChamberRealization.cc", "d6/dc3/SQChamberRealization_8cc.html", null ],
+    [ "SQChamberRealization.h", "d8/dc6/SQChamberRealization_8h.html", [
+      [ "SQChamberRealization", "dc/dcd/classSQChamberRealization.html", "dc/dcd/classSQChamberRealization" ]
+    ] ],
+    [ "SQChamberRealizationLinkDef.h", "d2/dee/SQChamberRealizationLinkDef_8h.html", null ],
     [ "SQDigitizer.cc", "d2/d4d/SQDigitizer_8cc.html", null ],
     [ "SQDigitizer.h", "da/dca/SQDigitizer_8h.html", [
       [ "SQDigitizer", "df/d36/classSQDigitizer.html", "df/d36/classSQDigitizer" ]

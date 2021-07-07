@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['main',['main',['../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;eLut.cpp'],['../d5/d7e/toFloat_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;toFloat.cpp'],['../d7/d08/convert_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;convert.cxx'],['../db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;test_minimum.cxx']]],
+  ['main',['main',['../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;test_vtx.C'],['../d2/d9a/eLut_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;eLut.cpp'],['../d5/d7e/toFloat_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;toFloat.cpp'],['../d7/d08/convert_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;convert.cxx'],['../db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;test_minimum.cxx']]],
   ['maindaqparser',['MainDaqParser',['../df/dcd/classMainDaqParser.html#a5c5bb917a7b5e65b9787cea4ef9dc761',1,'MainDaqParser']]],
   ['makechanmap',['MakeChanMap',['../d0/da4/UploadChanMap_8C.html#a1e7e5c79eeb34653003164775cf59e31',1,'UploadChanMap.C']]],
   ['makehisto',['makeHisto',['../d3/d96/classFun4AllHistoManager.html#ad13a9bc82841ea99d349f7b9b5f93177',1,'Fun4AllHistoManager::makeHisto()'],['../da/d29/classFun4AllServer.html#a248740a0e8d771bcabbe44cc08a5a1b6',1,'Fun4AllServer::makeHisto()']]],
@@ -15,6 +15,7 @@ var searchData=
   ['mapfilename',['MapFileName',['../db/d8a/classRunParamBase.html#a5427618c29c9b3aa7e5517bfade82893',1,'RunParamBase']]],
   ['mappedfield',['MappedField',['../db/d3c/classPHEveDisplay_1_1MappedField.html#a39a3631d713055b7ffb4c1305e6a402c',1,'PHEveDisplay::MappedField']]],
   ['maptablename',['MapTableName',['../db/d8a/classRunParamBase.html#ad9f709752d29d2a439deafc2663e78e4',1,'RunParamBase']]],
+  ['materialprofile',['MaterialProfile',['../d3/d10/classMaterialProfile.html#a278f956031c414ade92545c5c9d13079',1,'MaterialProfile']]],
   ['materialswrite',['MaterialsWrite',['../dd/db5/classPHG4GDMLWrite.html#a53261ba42feb5edb57ac7d491689c96a',1,'PHG4GDMLWrite::MaterialsWrite()'],['../d3/d04/classPHG4GDMLWriteMaterials.html#acc9c7831eea2e3e5c2ea03c3d6248338',1,'PHG4GDMLWriteMaterials::MaterialsWrite()']]],
   ['materialwrite',['MaterialWrite',['../d3/d04/classPHG4GDMLWriteMaterials.html#a24dff32470666c766f8e697a00247b74',1,'PHG4GDMLWriteMaterials']]],
   ['matrixnode',['MatrixNode',['../dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode.html#a3b2dcec257751340c1a0dac9e4abda3e',1,'DPTriggerAnalyzer::MatrixNode']]],

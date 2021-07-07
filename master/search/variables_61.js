@@ -2,6 +2,7 @@ var searchData=
 [
   ['a',['a',['../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8',1,'PropSegment::a()'],['../d5/d7b/classSQBeamlineObject.html#ae01e887a07b0dfb58e19637631eecfed',1,'SQBeamlineObject::A()']]],
   ['accumulatedprob',['accumulatedProb',['../d5/d7b/classSQBeamlineObject.html#a8b077f03ed29258d9a88ba049448b0fc',1,'SQBeamlineObject']]],
+  ['accumulatedprobs',['accumulatedProbs',['../d3/d10/classMaterialProfile.html#a6c000e6e4e5c38a2ba03c7c107c6e411',1,'MaterialProfile']]],
   ['active_5fdecayer_5f',['active_decayer_',['../d0/d78/classPHG4Reco.html#aaa1e4dec37dd46ff3c428c1f267e5700',1,'PHG4Reco']]],
   ['active_5fforce_5fdecay_5f',['active_force_decay_',['../d0/d78/classPHG4Reco.html#a6996ffafba25ab275e546b325d4b2434',1,'PHG4Reco']]],
   ['adc_5fzbin',['adc_zbin',['../dc/d94/classPHG4CylinderCellTPCReco.html#afc75b19d5b25723c35243176832cfd35',1,'PHG4CylinderCellTPCReco']]],

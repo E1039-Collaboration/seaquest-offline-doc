@@ -176,6 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae8c761979b82f36b15d35d7c4e6d9e30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3a/classPHPythia8.html#ae8c761979b82f36b15d35d7c4e6d9e30">set_reuse_vertex</a> (int src_embedding_id)</td></tr>
 <tr class="memdesc:ae8c761979b82f36b15d35d7c4e6d9e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">reuse vertex from another <a class="el" href="../../d7/d7b/classPHHepMCGenEvent.html">PHHepMCGenEvent</a> with embedding_id = src_embedding_id Additional smearing and shift possible with set_vertex_distribution_*()  <a href="#ae8c761979b82f36b15d35d7c4e6d9e30">More...</a><br/></td></tr>
 <tr class="separator:ae8c761979b82f36b15d35d7c4e6d9e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63b6364dd3c7f8b5e5aa6659134e8491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3a/classPHPythia8.html#a63b6364dd3c7f8b5e5aa6659134e8491">enableLegacyVtxGen</a> ()</td></tr>
+<tr class="memdesc:a63b6364dd3c7f8b5e5aa6659134e8491"><td class="mdescLeft">&#160;</td><td class="mdescRight">add interface for using legacy gen vertex; Abi  <a href="#a63b6364dd3c7f8b5e5aa6659134e8491">More...</a><br/></td></tr>
+<tr class="separator:a63b6364dd3c7f8b5e5aa6659134e8491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a498587470c98906d029dd8deeac3ae9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3a/classPHPythia8.html#a498587470c98906d029dd8deeac3ae9e">get_embedding_id</a> () const </td></tr>
 <tr class="separator:a498587470c98906d029dd8deeac3ae9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a937b33446516e1a3f023c9d6be1426dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3a/classPHPythia8.html#a937b33446516e1a3f023c9d6be1426dd">set_embedding_id</a> (int id)</td></tr>
@@ -260,9 +263,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00032">32</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00033">33</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
-<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00066">PHHepMCGenHelper::set_embedding_id()</a>.</p>
+<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00067">PHHepMCGenHelper::set_embedding_id()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -297,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00064">64</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00065">65</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
 </div>
 </div>
@@ -374,6 +377,57 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a63b6364dd3c7f8b5e5aa6659134e8491"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PHPythia8::enableLegacyVtxGen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add interface for using legacy gen vertex; Abi </p>
+
+<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00104">104</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
+
+<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00106">PHHepMCGenHelper::enableLegacyVtxGen()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a63b6364dd3c7f8b5e5aa6659134e8491_cgraph.svg" width="459" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a63b6364dd3c7f8b5e5aa6659134e8491_icgraph.svg" width="382" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a644fd629b9e90bdfd82622a2047a88d0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -400,16 +454,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00109">109</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00110">110</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d4/d2b/PHObject_8cc_source.html#l00021">PHObject::identify()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d4/d2b/PHObject_8cc_source.html#l00021">PHObject::identify()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00145">PHFlag::set_IntFlag()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a644fd629b9e90bdfd82622a2047a88d0_cgraph.svg" width="296" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a644fd629b9e90bdfd82622a2047a88d0_cgraph.svg" width="1008" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -438,15 +492,15 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>embedding ID for the event positive ID is the embedded event of interest, e.g. jetty event from pythia negative IDs are backgrounds, .e.g out of time pile up collisions Usually, ID = 0 means the primary Au+Au collision background </p>
 
-<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00107">107</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00113">113</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00060">PHHepMCGenHelper::get_embedding_id()</a>.</p>
+<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00061">PHHepMCGenHelper::get_embedding_id()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a498587470c98906d029dd8deeac3ae9e_cgraph.svg" width="422" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -479,7 +533,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00069">69</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00070">70</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>.</p>
 
@@ -498,7 +552,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00162">162</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00167">167</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
 </div>
 </div>
@@ -527,16 +581,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00167">167</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00172">172</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00089">PHHepMCGenHelper::insert_event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00033">PHGenIntegral::set_Integrated_Lumi()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00044">PHGenIntegral::set_N_Generator_Accepted_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00055">PHGenIntegral::set_N_Processed_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00070">PHGenIntegral::set_Sum_Of_Weight()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00045">Fun4AllBase::VERBOSITY_EVEN_MORE</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00096">PHHepMCGenHelper::insert_event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00033">PHGenIntegral::set_Integrated_Lumi()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00044">PHGenIntegral::set_N_Generator_Accepted_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00055">PHGenIntegral::set_N_Processed_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00070">PHGenIntegral::set_Sum_Of_Weight()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00048">Fun4AllBase::VERBOSITY_A_LOT</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00045">Fun4AllBase::VERBOSITY_EVEN_MORE</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00039">Fun4AllBase::VERBOSITY_SOME</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a5cc4124cc6be2fb2467714e3d3bc5a6a_cgraph.svg" width="1184" height="372"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a5cc4124cc6be2fb2467714e3d3bc5a6a_cgraph.svg" width="2091" height="399"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -587,27 +641,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>set event selection criteria </p>
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00303">303</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00308">308</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
 <p>References <a class="el" href="../../d8/de1/PHPy8GenTrigger_8h_source.html#l00029">PHPy8GenTrigger::GetName()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00075">Fun4AllBase::verbosity</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00042">Fun4AllBase::VERBOSITY_MORE</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../de/d66/Fun4Pythia8Demo_8C_source.html#l00004">Fun4Pythia8Demo()</a>, <a class="el" href="../../d7/dbf/Pythia8Demo_2Fun4Sim_8C_source.html#l00006">Fun4Sim()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_af2c12c56383374d15eb4a539d7b8ca5d_cgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_af2c12c56383374d15eb4a539d7b8ca5d_icgraph.svg" width="331" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -641,7 +695,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac28cddf33e4bfb2c63b5dfbe9d21c9bd">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00298">298</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d49/PHPythia8_8C_source.html#l00303">303</a> of file <a class="el" href="../../df/d49/PHPythia8_8C_source.html">PHPythia8.C</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -671,7 +725,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>whether to store the integrated luminosity and other event statistics to the TOP/RUN/PHGenIntegral node </p>
 
-<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00115">115</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00121">121</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
 </div>
 </div>
@@ -701,11 +755,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../de/d66/Fun4Pythia8Demo_8C_source.html#l00004">Fun4Pythia8Demo()</a>, <a class="el" href="../../d7/dbf/Pythia8Demo_2Fun4Sim_8C_source.html#l00006">Fun4Sim()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_aa10f3cd989b78519ac61785cba92949a_icgraph.svg" width="371" height="443"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -736,27 +790,27 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>embedding ID for the event positive ID is the embedded event of interest, e.g. jetty event from pythia negative IDs are backgrounds, .e.g out of time pile up collisions Usually, ID = 0 means the primary Au+Au collision background </p>
 
-<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00113">113</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00119">119</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00066">PHHepMCGenHelper::set_embedding_id()</a>.</p>
+<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00067">PHHepMCGenHelper::set_embedding_id()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a937b33446516e1a3f023c9d6be1426dd_cgraph.svg" width="422" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a937b33446516e1a3f023c9d6be1426dd_icgraph.svg" width="379" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -790,13 +844,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00098">98</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00069">PHHepMCGenHelper::set_reuse_vertex()</a>.</p>
+<p>References <a class="el" href="../../de/d81/PHHepMCGenHelper_8h_source.html#l00070">PHHepMCGenHelper::set_reuse_vertex()</a>.</p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_ae8c761979b82f36b15d35d7c4e6d9e30_cgraph.svg" width="371" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -829,11 +883,11 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a317aaead7f3c3c28fbc0510bb66f1fbb_icgraph.svg" width="384" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -914,13 +968,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00080">80</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00137">PHHepMCGenHelper::set_vertex_distribution_function()</a>.</p>
+<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00153">PHHepMCGenHelper::set_vertex_distribution_function()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a77dfcb80cbf7e9d6f5ce58d848516be6_cgraph.svg" width="374" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -976,25 +1030,25 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00086">86</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00146">PHHepMCGenHelper::set_vertex_distribution_mean()</a>.</p>
+<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00162">PHHepMCGenHelper::set_vertex_distribution_mean()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00068">beam_vertex_parameters()</a>, <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../d2/d24/Fun4E1039Shielding_8C_source.html#l00006">Fun4E1039Shielding()</a>, <a class="el" href="../../d6/d6a/Fun4HodoAccGap_8C_source.html#l00006">Fun4HodoAccGap()</a>, <a class="el" href="../../d7/d66/Fun4PatternDB_8C_source.html#l00006">Fun4PatternDB()</a>, <a class="el" href="../../d7/dbf/Pythia8Demo_2Fun4Sim_8C_source.html#l00006">Fun4Sim()</a>, <a class="el" href="../../d2/d3a/Fun4TrkDev_8C_source.html#l00044">Fun4TrkDev()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a470a47c13c0afa5c17b3a7139895e6bd_cgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_a470a47c13c0afa5c17b3a7139895e6bd_icgraph.svg" width="368" height="458"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1050,25 +1104,25 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00092">92</a> of file <a class="el" href="../../d1/d15/PHPythia8_8h_source.html">PHPythia8.h</a>.</p>
 
-<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00155">PHHepMCGenHelper::set_vertex_distribution_width()</a>.</p>
+<p>References <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00171">PHHepMCGenHelper::set_vertex_distribution_width()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d15/PHPythia8_8h_source.html#l00068">beam_vertex_parameters()</a>.</p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_ac16c7d96b92c346f7f562868e95c3a78_cgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d3a/classPHPythia8_ac16c7d96b92c346f7f562868e95c3a78_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1090,7 +1144,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d9/d3a/classPHPythia8.html">PHPythia8</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 26 2021 21:42:18</em> using <a
+			updated: <em>Wed Jul 7 2021 08:24:19</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

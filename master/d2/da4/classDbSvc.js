@@ -2,19 +2,20 @@ var classDbSvc =
 [
     [ "VarList", "da/dfa/classDbSvc_1_1VarList.html", "da/dfa/classDbSvc_1_1VarList" ],
     [ "SvrId_t", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89", [
+      [ "AutoSvr", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a7dae5e15c3ae84623ea81477e0f98a38", null ],
       [ "DB1", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a9d901475d2b29f9233c821a067c7e42e", null ],
       [ "DB2", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89acd81f44e35cf09f50086d8caf3713bce", null ],
       [ "DB3", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a782e9d9e6c24ec938ae691dcad800933", null ],
-      [ "DB01", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89ab26959fab21b5b2295646ff840042049", null ],
-      [ "UIUC", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a723dc3d89ab49d9a88872530424eb870", null ],
+      [ "DB4", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a16a37b8653a48eb09d72f6b7fcd01e5b", null ],
       [ "LITE", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a138450a0e1543e532ac3ec659b546e90", null ],
       [ "LOCAL", "d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a0c6c825682b9935836ddb4e373e7197e", null ]
     ] ],
     [ "UsrId_t", "d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688", [
+      [ "AutoUsr", "d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a9dbf882f2056a0679072a175c024d127", null ],
       [ "Guest", "d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a2d50952924e38d8778d7ad42d84af824", null ],
       [ "Prod", "d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a6f2d2cea7ea00b39d19ae93d8ee22878", null ]
     ] ],
-    [ "DbSvc", "d2/da4/classDbSvc.html#a5f328abc1cca706bc49a9856a83fb540", null ],
+    [ "DbSvc", "d2/da4/classDbSvc.html#a50402f71517d8caf88526042822386d1", null ],
     [ "DbSvc", "d2/da4/classDbSvc.html#af8a608ba2104267facd4a7184a17283f", null ],
     [ "~DbSvc", "d2/da4/classDbSvc.html#a0013281a909be870df1f80bfeb5f1b56", null ],
     [ "Con", "d2/da4/classDbSvc.html#af342c238c151003ac35ca3e96f60d02e", null ],

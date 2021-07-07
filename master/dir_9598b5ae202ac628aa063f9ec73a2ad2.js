@@ -1,9 +1,13 @@
 var dir_9598b5ae202ac628aa063f9ec73a2ad2 =
 [
     [ "LinkDef.h", "d3/df8/e1039-core_2simulation_2g4dst_2LinkDef_8h.html", null ],
-    [ "RequireParticlesInAcc.cc", "dd/dad/RequireParticlesInAcc_8cc.html", null ],
-    [ "RequireParticlesInAcc.h", "d6/dfd/RequireParticlesInAcc_8h.html", [
-      [ "RequireParticlesInAcc", "da/d73/classRequireParticlesInAcc.html", "da/d73/classRequireParticlesInAcc" ]
+    [ "SQGeomAcc.cc", "d0/da4/SQGeomAcc_8cc.html", null ],
+    [ "SQGeomAcc.h", "da/d37/SQGeomAcc_8h.html", [
+      [ "SQGeomAcc", "d8/dca/classSQGeomAcc.html", "d8/dca/classSQGeomAcc" ]
+    ] ],
+    [ "SQGeomAccLoose.cc", "d7/d09/SQGeomAccLoose_8cc.html", null ],
+    [ "SQGeomAccLoose.h", "d1/db2/SQGeomAccLoose_8h.html", [
+      [ "SQGeomAccLoose", "d6/da3/classSQGeomAccLoose.html", "d6/da3/classSQGeomAccLoose" ]
     ] ],
     [ "TruthNodeMaker.cc", "df/da0/TruthNodeMaker_8cc.html", null ],
     [ "TruthNodeMaker.h", "d3/d86/TruthNodeMaker_8h.html", [

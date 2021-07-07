@@ -468,33 +468,33 @@ $(document).ready(function(){initNavTree('d6/da7/PHFlag_8cc_source.html','../../
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  map&lt;string, int&gt;::const_iterator intiter;</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;  <span class="keywordflow">for</span> (intiter = intflag.begin(); intiter != intflag.end(); ++intiter)</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;  {</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;I&quot;</span> &lt;&lt; intiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; intiter-&gt;second &lt;&lt; endl;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;I\t&quot;</span> &lt;&lt; intiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; intiter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;  }</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;  map&lt;string, float&gt;::const_iterator floatiter;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;  <span class="keywordflow">for</span> (floatiter = floatflag.begin(); floatiter != floatflag.end(); ++floatiter)</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;  {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;F&quot;</span> &lt;&lt; floatiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; floatiter-&gt;second &lt;&lt; endl;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;F\t&quot;</span> &lt;&lt; floatiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; floatiter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  }</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  <span class="keywordtype">int</span> oldprecision = outFile.precision(15);</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;  map&lt;string, double&gt;::const_iterator doubleiter;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <span class="keywordflow">for</span> (doubleiter = doubleflag.begin(); doubleiter != doubleflag.end(); ++doubleiter)</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;  {</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;D&quot;</span> &lt;&lt; doubleiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; doubleiter-&gt;second &lt;&lt; endl;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;D\t&quot;</span> &lt;&lt; doubleiter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; doubleiter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;  }</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  outFile.precision(oldprecision);</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  map&lt;string, string&gt;::const_iterator chariter;</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  <span class="keywordflow">for</span> (chariter = charflag.begin(); chariter != charflag.end(); ++chariter)</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  {</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;C&quot;</span> &lt;&lt; chariter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; chariter-&gt;second &lt;&lt; endl;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;C\t&quot;</span> &lt;&lt; chariter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; chariter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  }</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  map&lt;string, bool&gt;::const_iterator booliter;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="keywordflow">for</span> (booliter = boolflag.begin(); booliter != boolflag.end(); ++booliter)</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  {</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;B&quot;</span> &lt;&lt; booliter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; booliter-&gt;second &lt;&lt; endl;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    outFile &lt;&lt; <span class="stringliteral">&quot;B\t&quot;</span> &lt;&lt; booliter-&gt;first &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; booliter-&gt;second &lt;&lt; endl;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  }</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;  outFile.close();</div>
@@ -531,7 +531,7 @@ $(document).ready(function(){initNavTree('d6/da7/PHFlag_8cc_source.html','../../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_ec5b6dea0f546bb9c4903c2bcb98e114.html">framework</a></li><li class="navelem"><a class="el" href="../../dir_1c2a2cd2611808215857b3adbe5c38fc.html">phool</a></li><li class="navelem"><a class="el" href="../../d6/da7/PHFlag_8cc.html">PHFlag.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 26 2021 21:42:13</em> using <a
+			updated: <em>Wed Jul 7 2021 08:24:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

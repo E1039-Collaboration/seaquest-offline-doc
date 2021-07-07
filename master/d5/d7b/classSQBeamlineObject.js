@@ -2,8 +2,7 @@ var classSQBeamlineObject =
 [
     [ "SQBeamlineObject", "d5/d7b/classSQBeamlineObject.html#aa39d39458558ded77d768b0cd17f8864", null ],
     [ "SQBeamlineObject", "d5/d7b/classSQBeamlineObject.html#a040cb3bdd274d3d7f9d9303688af09a2", null ],
-    [ "getZ", "d5/d7b/classSQBeamlineObject.html#a8c6a553595e65fea7695eaf06e70b91d", null ],
-    [ "inAcceptance", "d5/d7b/classSQBeamlineObject.html#ab93d88d94e15b9d88916a4af6a4ff034", null ],
+    [ "getZ", "d5/d7b/classSQBeamlineObject.html#a19aa5cc4785871f980ef4ca6406ff8c5", null ],
     [ "operator<", "d5/d7b/classSQBeamlineObject.html#aa6c0d12af621a174b4dc1eea539ea3b1", null ],
     [ "protonPerc", "d5/d7b/classSQBeamlineObject.html#aa7c519bda441dfb6569f952a3e3b7d81", null ],
     [ "operator<<", "d5/d7b/classSQBeamlineObject.html#a9081ff733ed981a390ed01429a5aa91d", null ],
@@ -17,8 +16,6 @@ var classSQBeamlineObject =
     [ "name", "d5/d7b/classSQBeamlineObject.html#ac5ba8bb44f0a4ca6d4f5365d89705b8c", null ],
     [ "nucIntLen", "d5/d7b/classSQBeamlineObject.html#aa361535519b5121642a7e3880adbc43d", null ],
     [ "prob", "d5/d7b/classSQBeamlineObject.html#a6e9590bcc5bd031b15f8a240ceefe643", null ],
-    [ "radiusX", "d5/d7b/classSQBeamlineObject.html#ad043c147f9f68fc0bb965ade5f614e00", null ],
-    [ "radiusY", "d5/d7b/classSQBeamlineObject.html#a1dfa96736085ea63323ec829a5d58a92", null ],
     [ "Z", "d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc", null ],
     [ "z0", "d5/d7b/classSQBeamlineObject.html#a7d85033d3abc7e02c4d64d0830c5c24b", null ],
     [ "z_down", "d5/d7b/classSQBeamlineObject.html#a05561d9154094fb30c058ac2045c83ff", null ],

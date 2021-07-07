@@ -76,6 +76,7 @@ var classGeomSvc =
     [ "loadAlignment", "d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8", null ],
     [ "loadCalibration", "d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661", null ],
     [ "loadMilleAlignment", "d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8", null ],
+    [ "loadOnlineAlignment", "d0/da0/classGeomSvc.html#a6234a9e4de78f5667104d23c8828b79f", null ],
     [ "printAlignPar", "d0/da0/classGeomSvc.html#a27a7c39c0efd80b50f1f5747552f6031", null ],
     [ "printTable", "d0/da0/classGeomSvc.html#a06eef790314a92502f823553f388ba5e", null ],
     [ "printWirePosition", "d0/da0/classGeomSvc.html#a02a8a93c3eb88f77c11aaf949a92730c", null ],

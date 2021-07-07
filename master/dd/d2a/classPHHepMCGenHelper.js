@@ -7,6 +7,7 @@ var classPHHepMCGenHelper =
     [ "PHHepMCGenHelper", "dd/d2a/classPHHepMCGenHelper.html#a3fec8449d5589e0a7dbb886c000fa531", null ],
     [ "~PHHepMCGenHelper", "dd/d2a/classPHHepMCGenHelper.html#a6cab75748313b1d1053c013cba5b085a", null ],
     [ "create_node_tree", "dd/d2a/classPHHepMCGenHelper.html#a78f26357d1f0720a4bfa89589a3c4eff", null ],
+    [ "enableLegacyVtxGen", "dd/d2a/classPHHepMCGenHelper.html#a72a214800ef3ccce50a040e4065f0edc", null ],
     [ "get_embedding_id", "dd/d2a/classPHHepMCGenHelper.html#ac7cd24ce28d07d1fa3459688fc8c407b", null ],
     [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a16425dd4d4a37fc3765ba93126230fe6", null ],
     [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a6ad0de3d63be00c5d74809ee2183029a", null ],

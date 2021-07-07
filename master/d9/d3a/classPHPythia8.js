@@ -3,6 +3,7 @@ var classPHPythia8 =
     [ "PHPythia8", "d9/d3a/classPHPythia8.html#a8dc0aac69c97aee724ac17f3035d21fe", null ],
     [ "~PHPythia8", "d9/d3a/classPHPythia8.html#a45620a3954e6e1363693cbe44168608b", null ],
     [ "beam_vertex_parameters", "d9/d3a/classPHPythia8.html#abb21b0537da59ea9e6a1a4b92827af18", null ],
+    [ "enableLegacyVtxGen", "d9/d3a/classPHPythia8.html#a63b6364dd3c7f8b5e5aa6659134e8491", null ],
     [ "End", "d9/d3a/classPHPythia8.html#a644fd629b9e90bdfd82622a2047a88d0", null ],
     [ "get_embedding_id", "d9/d3a/classPHPythia8.html#a498587470c98906d029dd8deeac3ae9e", null ],
     [ "Init", "d9/d3a/classPHPythia8.html#af381f96f7115a7f8011d31572c46fcfc", null ],

@@ -3,8 +3,6 @@ var searchData=
   ['r_5fmap_5f',['r_map_',['../db/d49/classPHField2D.html#a547cdc422219b91656abe665c4774c58',1,'PHField2D::r_map_()'],['../d5/dc1/classPHField3DCylindrical.html#a619940a67bd825a8aa441a584465ad18',1,'PHField3DCylindrical::r_map_()']]],
   ['radius',['radius',['../d9/d85/classPHG4CylinderCellGeom.html#a72b88f56bb7b76daeebbca2e35352b6a',1,'PHG4CylinderCellGeom::radius()'],['../d3/d63/classPHG4CylinderGeomv1.html#a7ff788bdf3785fdca9ed445b22f45253',1,'PHG4CylinderGeomv1::radius()']]],
   ['radius_5fstagger',['radius_stagger',['../d5/dca/classPHG4CylinderGeomv4.html#ab8e0f8c96c271093c77aca2c7d96cfcf',1,'PHG4CylinderGeomv4']]],
-  ['radiusx',['radiusX',['../d5/d7b/classSQBeamlineObject.html#ad043c147f9f68fc0bb965ade5f614e00',1,'SQBeamlineObject']]],
-  ['radiusy',['radiusY',['../d5/d7b/classSQBeamlineObject.html#a1dfa96736085ea63323ec829a5d58a92',1,'SQBeamlineObject']]],
   ['radix',['radix',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#aa68982d8a699207a216cf352c129bd8e',1,'std::numeric_limits&lt; half &gt;']]],
   ['randomgenerator',['RandomGenerator',['../dd/d2a/classPHHepMCGenHelper.html#ab5c92249998bd96eea753f91b5e8485e',1,'PHHepMCGenHelper::RandomGenerator()'],['../dc/d94/classPHG4CylinderCellTPCReco.html#a2f9f0829a241c68d8d5cf8ac8f027864',1,'PHG4CylinderCellTPCReco::RandomGenerator()'],['../d8/d78/classPHG4ParticleGeneratorBase.html#ad5d212d32105d7c2659026d4528313fe',1,'PHG4ParticleGeneratorBase::RandomGenerator()']]],
   ['randomseed',['randomSeed',['../dd/d6c/classHepMCFlowAfterBurner.html#af555af520f92957d1028a22a9189f532',1,'HepMCFlowAfterBurner']]],

@@ -285,7 +285,7 @@ $(document).ready(function(){initNavTree('d6/d91/PHGeomUtility_8cc_source.html',
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;std::string</div>
 <div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="../../d2/da1/classPHGeomUtility.html#a3130e3b42131e3f048aa7586829192c5">  179</a></span>&#160;<a class="code" href="../../d2/da1/classPHGeomUtility.html#a3130e3b42131e3f048aa7586829192c5">PHGeomUtility::GenerateGeometryFileName</a>(<span class="keyword">const</span> std::string &amp; filename_extension)</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;{</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  stringstream file;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  stringstream <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  file &lt;&lt; <span class="stringliteral">&quot;/tmp/&quot;</span> &lt;&lt; <span class="stringliteral">&quot;PHGeomUtility_geom_file_&quot;</span> &lt;&lt; ::getpid() &lt;&lt; <span class="stringliteral">&quot;.&quot;</span></div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      &lt;&lt; filename_extension ;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
@@ -395,6 +395,7 @@ $(document).ready(function(){initNavTree('d6/d91/PHGeomUtility_8cc_source.html',
 <div class="ttc" id="recoConsts_8h_html"><div class="ttname"><a href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a></div></div>
 <div class="ttc" id="classPHGeomUtility_html_ae053065752b1bff9f63f585b6fefc68b"><div class="ttname"><a href="../../d2/da1/classPHGeomUtility.html#ae053065752b1bff9f63f585b6fefc68b">PHGeomUtility::ImportCurrentTGeoManager</a></div><div class="ttdeci">static int ImportCurrentTGeoManager(PHCompositeNode *topNode)</div><div class="ttdoc">gGeoManager -&amp;gt; DST node </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d91/PHGeomUtility_8cc_source.html#l00097">PHGeomUtility.cc:97</a></div></div>
 <div class="ttc" id="PHGeomTGeo_8h_html"><div class="ttname"><a href="../../d5/d54/PHGeomTGeo_8h.html">PHGeomTGeo.h</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 <div class="ttc" id="classPHNodeIterator_html_aea98bf8619af59b1212a94fb32106baa"><div class="ttname"><a href="../../d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa">PHNodeIterator::findFirst</a></div><div class="ttdeci">PHNode * findFirst(const std::string &amp;, const std::string &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator.cc:50</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html">PHGeomTGeo</a></div><div class="ttdoc">PHGeomTGeo provide run-time access to TGeoManger. It is transient object and it shall NOT be saved to...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d54/PHGeomTGeo_8h_source.html#l00024">PHGeomTGeo.h:24</a></div></div>
 <div class="ttc" id="classPHGeomTGeo_html_a8b2df41583e27a653458c6aae76a2926"><div class="ttname"><a href="../../d7/d6d/classPHGeomTGeo.html#a8b2df41583e27a653458c6aae76a2926">PHGeomTGeo::SetGeometry</a></div><div class="ttdeci">void SetGeometry(TGeoManager *g)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/def/PHGeomTGeo_8cc_source.html#l00035">PHGeomTGeo.cc:35</a></div></div>
@@ -446,7 +447,7 @@ $(document).ready(function(){initNavTree('d6/d91/PHGeomUtility_8cc_source.html',
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_d813f0cb9f44c96d9d14694ed5cb9cef.html">PHGeometry</a></li><li class="navelem"><a class="el" href="../../d6/d91/PHGeomUtility_8cc.html">PHGeomUtility.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed May 26 2021 21:42:14</em> using <a
+			updated: <em>Wed Jul 7 2021 08:24:15</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

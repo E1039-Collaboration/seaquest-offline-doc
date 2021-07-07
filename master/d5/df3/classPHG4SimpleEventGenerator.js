@@ -8,6 +8,7 @@ var classPHG4SimpleEventGenerator =
     [ "~PHG4SimpleEventGenerator", "d5/df3/classPHG4SimpleEventGenerator.html#aade43f838d564ec3aedcaea2bb2584f9", null ],
     [ "add_particles", "d5/df3/classPHG4SimpleEventGenerator.html#a0cbcf45627535118b9d1910d47173a66", null ],
     [ "add_particles", "d5/df3/classPHG4SimpleEventGenerator.html#a815056df11c45972bbd0ba45122360b9", null ],
+    [ "enableLegacyVtxGen", "d5/df3/classPHG4SimpleEventGenerator.html#af7c3344bbb8d0a9266ed6004398b3b3c", null ],
     [ "InitRun", "d5/df3/classPHG4SimpleEventGenerator.html#a54f0db778c3a2a4154b76b30e75baf44", null ],
     [ "process_event", "d5/df3/classPHG4SimpleEventGenerator.html#a4a7065a5083bd5b21c3743f8e224065b", null ],
     [ "set_eta_range", "d5/df3/classPHG4SimpleEventGenerator.html#a60e50255f5c220f9f720b1b1fce92578", null ],
