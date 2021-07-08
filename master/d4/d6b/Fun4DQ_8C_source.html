@@ -239,67 +239,62 @@ $(document).ready(function(){initNavTree('d4/d6b/Fun4DQ_8C_source.html','../../'
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <a class="code" href="../../d5/d85/classPHG4TruthSubsystem.html">PHG4TruthSubsystem</a>* truth = <span class="keyword">new</span> <a class="code" href="../../d5/d85/classPHG4TruthSubsystem.html">PHG4TruthSubsystem</a>();</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  g4Reco-&gt;<a class="code" href="../../d0/d78/classPHG4Reco.html#abc0956c0994a72d5a817b69511e1456b">registerSubsystem</a>(truth);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="comment">// apply in-acceptance cut</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="comment">// RequireParticlesInAcc* inacc = new RequireParticlesInAcc();</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="comment">// if(dimuon)</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  <span class="comment">// {</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  <span class="comment">//   inacc-&gt;SetNumParticlesPerEvent(2);</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  <span class="comment">// }</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  <span class="comment">// else if(single)</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="comment">// {</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="comment">//   inacc-&gt;SetNumParticlesPerEvent(1);</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="comment">// }</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="comment">// se-&gt;registerSubsystem(inacc);</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="comment">// digitizer</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  <a class="code" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a>* digitizer = <span class="keyword">new</span> <a class="code" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a>(<span class="stringliteral">&quot;Digitizer&quot;</span>, 0);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="comment">//digitizer-&gt;Verbosity(99);</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  digitizer-&gt;<a class="code" href="../../df/d36/classSQDigitizer.html#aad119128235bc9f3d7cbf6005c769c51">registerEMCal</a>(<span class="stringliteral">&quot;EMCal&quot;</span>, 100);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(digitizer);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">// trakcing module</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// SQReco* reco = new SQReco();</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">// reco-&gt;Verbosity(0);</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">// //reco-&gt;set_geom_file_name(&quot;support/geom.root&quot;); //not needed as it&#39;s created on the fly</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">// reco-&gt;set_enable_KF(true);           //Kalman filter not needed for the track finding, disabling KF saves a lot of initialization time</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="comment">// reco-&gt;setInputTy(SQReco::E1039);     //options are SQReco::E906 and SQReco::E1039</span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="comment">// reco-&gt;setFitterTy(SQReco::KFREF);    //not relavant for the track finding</span></div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="comment">// reco-&gt;set_evt_reducer_opt(&quot;none&quot;);   //if not provided, event reducer will be using JobOptsSvc to intialize; to turn off, set it to &quot;none&quot;, for normal tracking, set to something like &quot;aoc&quot;</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="comment">// reco-&gt;set_enable_eval(true);          //set to true to generate evaluation file which includes final track candidates </span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="comment">// reco-&gt;set_eval_file_name(&quot;eval.root&quot;);</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="comment">// reco-&gt;set_enable_eval_dst(false);     //set to true to include final track cnadidates in the DST tree</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(4);             //include back partial tracks in eval tree for debuging</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(3);             //include station-3+/- in eval tree for debuging</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(2);             //include station-2 tracks in eval tree for debuging</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="comment">// se-&gt;registerSubsystem(reco);</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  <span class="comment">// digitizer</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <a class="code" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a>* digitizer = <span class="keyword">new</span> <a class="code" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a>(<span class="stringliteral">&quot;Digitizer&quot;</span>, 0);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  <span class="comment">//digitizer-&gt;Verbosity(99);</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  digitizer-&gt;<a class="code" href="../../df/d36/classSQDigitizer.html#aad119128235bc9f3d7cbf6005c769c51">registerEMCal</a>(<span class="stringliteral">&quot;EMCal&quot;</span>, 100);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(digitizer);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  <span class="comment">//SQGeomAcc* geom_acc = new SQGeomAcc();</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  <span class="comment">//if     (dimuon) geom_acc-&gt;SetMuonMode(SQGeomAcc::PAIR);</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  <span class="comment">//else if(single) geom_acc-&gt;SetMuonMode(SQGeomAcc::SINGLE);</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  <span class="comment">//geom_acc-&gt;SetPlaneMode(SQGeomAcc::HODO_CHAM);</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;  <span class="comment">//geom_acc-&gt;SetNumOfH1EdgeElementsExcluded(4);</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(geom_acc);</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="comment">// trakcing module</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="comment">// SQReco* reco = new SQReco();</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <span class="comment">// reco-&gt;Verbosity(0);</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="comment">// //reco-&gt;set_geom_file_name(&quot;support/geom.root&quot;); //not needed as it&#39;s created on the fly</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">// reco-&gt;set_enable_KF(true);           //Kalman filter not needed for the track finding, disabling KF saves a lot of initialization time</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">// reco-&gt;setInputTy(SQReco::E1039);     //options are SQReco::E906 and SQReco::E1039</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">// reco-&gt;setFitterTy(SQReco::KFREF);    //not relavant for the track finding</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">// reco-&gt;set_evt_reducer_opt(&quot;none&quot;);   //if not provided, event reducer will be using JobOptsSvc to intialize; to turn off, set it to &quot;none&quot;, for normal tracking, set to something like &quot;aoc&quot;</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">// reco-&gt;set_enable_eval(true);          //set to true to generate evaluation file which includes final track candidates </span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="comment">// reco-&gt;set_eval_file_name(&quot;eval.root&quot;);</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="comment">// reco-&gt;set_enable_eval_dst(false);     //set to true to include final track cnadidates in the DST tree</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(4);             //include back partial tracks in eval tree for debuging</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(3);             //include station-3+/- in eval tree for debuging</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="comment">// //reco-&gt;add_eval_list(2);             //include station-2 tracks in eval tree for debuging</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="comment">// se-&gt;registerSubsystem(reco);</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="comment">//Vertexing is not tested and probably does not work yet</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  <span class="comment">// VertexFit* vertexing = new VertexFit();</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="comment">// se-&gt;registerSubsystem(vertexing);</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="comment">//Vertexing is not tested and probably does not work yet</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="comment">// VertexFit* vertexing = new VertexFit();</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="comment">// se-&gt;registerSubsystem(vertexing);</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  <span class="comment">// input - we need a dummy to drive the event loop</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <a class="code" href="../../d4/da9/classFun4AllInputManager.html">Fun4AllInputManager</a> *in = <span class="keyword">new</span> <a class="code" href="../../df/d43/classFun4AllDummyInputManager.html">Fun4AllDummyInputManager</a>(<span class="stringliteral">&quot;DUMMY&quot;</span>);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">registerInputManager</a>(in);</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  <span class="comment">// Output</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment"></span>  <span class="comment">// DST output manager, tunred off to save disk by default</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>* out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, <span class="stringliteral">&quot;DST.root&quot;</span>);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  <a class="code" href="../../d2/da1/classPHGeomUtility.html#aaa34b2cff253bbdae62673e7f68e091c">PHGeomUtility::ExportGeomtry</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>(), <span class="stringliteral">&quot;geom.root&quot;</span>);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="comment">// finish job - close and save output files</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e">PrintTimer</a>();</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;All done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  <span class="comment">// Output</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment"></span>  <span class="comment">// DST output manager, tunred off to save disk by default</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>* out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, <span class="stringliteral">&quot;DST.root&quot;</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>(nevent);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  <a class="code" href="../../d2/da1/classPHGeomUtility.html#aaa34b2cff253bbdae62673e7f68e091c">PHGeomUtility::ExportGeomtry</a>(se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">topNode</a>(), <span class="stringliteral">&quot;geom.root&quot;</span>);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="comment">// finish job - close and save output files</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e">PrintTimer</a>();</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  std::cout &lt;&lt; <span class="stringliteral">&quot;All done&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="comment">// cleanup - delete the server and exit</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  gSystem-&gt;Exit(0);</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="comment">// cleanup - delete the server and exit</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  gSystem-&gt;Exit(0);</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
 <div class="ttc" id="classFun4AllServer_html_ab2cb490790d15b865ae79eb3094caabe"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">Fun4AllServer::registerInputManager</a></div><div class="ttdeci">int registerInputManager(Fun4AllInputManager *InManager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer.cc:1256</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_ab7263450319ca1d5029209fde26a7af8"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">Fun4AllServer::End</a></div><div class="ttdeci">virtual int End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer.cc:988</a></div></div>
 <div class="ttc" id="classPHFlag_html_a64f8c67e9313e5cecdbed51f747026da"><div class="ttname"><a href="../../d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da">PHFlag::set_DoubleFlag</a></div><div class="ttdeci">virtual void set_DoubleFlag(const std::string &amp;name, const double flag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag.cc:77</a></div></div>
@@ -375,7 +370,7 @@ $(document).ready(function(){initNavTree('d4/d6b/Fun4DQ_8C_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_b4dee8169413dae45fd8587be8d506c1.html">EMCalDev</a></li><li class="navelem"><a class="el" href="../../d4/d6b/Fun4DQ_8C.html">Fun4DQ.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Jul 7 2021 08:24:13</em> using <a
+			updated: <em>Thu Jul 8 2021 16:00:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
