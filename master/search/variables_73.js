@@ -32,7 +32,6 @@ var searchData=
   ['serverthreadid',['serverthreadid',['../d8/d38/classOnlMonServer.html#acd1fdfa041b3e5a503479c56b41b1675',1,'OnlMonServer']]],
   ['showeredeps',['showeredeps',['../de/d5e/classPHG4Cellv1.html#acf02f9668c6f3ee84a836b6b30a8b989',1,'PHG4Cellv1::showeredeps()'],['../dd/d2e/classPHG4CylinderCellv1.html#ae5c7e59fda626c5cdfe420c0be49740f',1,'PHG4CylinderCellv1::showeredeps()']]],
   ['showerid',['showerid',['../d9/d35/classPHG4Hitv1.html#a95d67800c875b1da83dd6645e5a65c33',1,'PHG4Hitv1']]],
-  ['sigmajpsi',['sigmajpsi',['../d2/da1/namespaceDPGEN.html#ae7473028c7d79a5f4e421d598933bd1b',1,'DPGEN']]],
   ['sigmat',['sigmaT',['../dc/d94/classPHG4CylinderCellTPCReco.html#a80f5320764c6623baaf2c0a591e37c15',1,'PHG4CylinderCellTPCReco']]],
   ['sign',['sign',['../de/d45/classSignedHit.html#a46e4a7ba77a6a810862cf2a5f9131471',1,'SignedHit']]],
   ['sintheta',['sintheta',['../dc/d90/classPlane.html#a3ca30ba234e7668f9e3eb277c9ee2085',1,'Plane']]],

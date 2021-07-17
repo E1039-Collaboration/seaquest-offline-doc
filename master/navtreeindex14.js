@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d4/dc9/classPHG4DSTReader.html#a14475bcaa9191b68fbfebe6752c934d0":[19,0,227,11],
 "d4/dc9/classPHG4DSTReader.html#a3381f10a220669c8355dc99c7ffd094f":[19,0,227,18],
 "d4/dc9/classPHG4DSTReader.html#a45c8a52f3beb06958edfeee8640fb6a4":[19,0,227,28],
 "d4/dc9/classPHG4DSTReader.html#a4ad324fcecf2e5bfc7f3f27bd51ce4e6":[19,0,227,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d5/d41/classPHHepMCGenEventMap.html#a24778e1c1dc662a7c0fd7c1647a0a0d3":[19,0,323,28],
 "d5/d41/classPHHepMCGenEventMap.html#a288daa0192450f4d7bde4fd4a24afd40":[19,0,323,16],
 "d5/d41/classPHHepMCGenEventMap.html#a28c156234e9a12ba587b18a1fb70b151":[19,0,323,30],
-"d5/d41/classPHHepMCGenEventMap.html#a2d9a24ca4cdb17fc4abdd4800acc809c":[19,0,323,29],
-"d5/d41/classPHHepMCGenEventMap.html#a350b00f8da0e56f8eaf41e880a96db05":[19,0,323,20]
+"d5/d41/classPHHepMCGenEventMap.html#a2d9a24ca4cdb17fc4abdd4800acc809c":[19,0,323,29]
 };

@@ -119,6 +119,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C.html','
 <code>#include &lt;cassert&gt;</code><br/>
 <code>#include &lt;cstdlib&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html">fun4all/Fun4AllReturnCodes.h</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/dcb/recoConsts_8h_source.html">phool/recoConsts.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d8/d30/PHCompositeNode_8h_source.html">phool/PHCompositeNode.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d3/d79/PHIODataNode_8h_source.html">phool/PHIODataNode.h</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../de/dea/PHRandomSeed_8h_source.html">phool/PHRandomSeed.h</a>&gt;</code><br/>
@@ -149,7 +150,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C.html','
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/de1/SQPrimaryParticleGen_8C__incl.svg" width="4094" height="771"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/de1/SQPrimaryParticleGen_8C__incl.svg" width="4144" height="771"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -193,17 +194,6 @@ Variables</h2></td></tr>
 <tr class="separator:a5ad3679fb5bed4f7b6c9bd74bbb6298b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af44e11f40fa39234c8e731f3368d57ae"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#af44e11f40fa39234c8e731f3368d57ae">DPGEN::sqrts</a> = p_cms.M()</td></tr>
 <tr class="separator:af44e11f40fa39234c8e731f3368d57ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7473028c7d79a5f4e421d598933bd1b"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#ae7473028c7d79a5f4e421d598933bd1b">DPGEN::sigmajpsi</a> = 0.2398</td></tr>
-<tr class="memdesc:ae7473028c7d79a5f4e421d598933bd1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">distribution-wise constants, moved into <a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html" title="Physics generator imported from E906 software. ">SQPrimaryParticleGen</a>  <a href="#ae7473028c7d79a5f4e421d598933bd1b">More...</a><br/></td></tr>
-<tr class="separator:ae7473028c7d79a5f4e421d598933bd1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe97efe3f80c88149929eff7a5e87954"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#abe97efe3f80c88149929eff7a5e87954">DPGEN::brjpsi</a> = 0.0594</td></tr>
-<tr class="separator:abe97efe3f80c88149929eff7a5e87954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2682c11ce16bf943da85c39bd6d411d2"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#a2682c11ce16bf943da85c39bd6d411d2">DPGEN::ajpsi</a> = 0.001464*TMath::Exp(-16.66*mjpsi/sqrts)</td></tr>
-<tr class="separator:a2682c11ce16bf943da85c39bd6d411d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0512590ba0452309d12cbcf7ea6592e1"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#a0512590ba0452309d12cbcf7ea6592e1">DPGEN::bjpsi</a> = 2.*sigmajpsi*sigmajpsi</td></tr>
-<tr class="separator:a0512590ba0452309d12cbcf7ea6592e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af170cc273e15ab58d3c768404faa2517"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/da1/namespaceDPGEN.html#af170cc273e15ab58d3c768404faa2517">DPGEN::psipscale</a> = 0.019</td></tr>
-<tr class="separator:af170cc273e15ab58d3c768404faa2517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -215,7 +205,7 @@ Variables</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C.html">SQPrimaryParticleGen.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:06</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d8/dc4/classSQPrimaryVertexGen.html','
 </div><!--header-->
 <div class="contents">
 
+<p>Class to generate the event vertex, based on the beam profile and the target+spectrometer materials given.  
+ <a href="../../d8/dc4/classSQPrimaryVertexGen.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyVtxGen/SQPrimaryVertexGen.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -143,11 +146,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03033bb64222faf974480a77f593d8ed"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc4/classSQPrimaryVertexGen.html#a03033bb64222faf974480a77f593d8ed">getLuminosity</a> ()</td></tr>
 <tr class="memdesc:a03033bb64222faf974480a77f593d8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the relative luminosity on this target  <a href="#a03033bb64222faf974480a77f593d8ed">More...</a><br/></td></tr>
 <tr class="separator:a03033bb64222faf974480a77f593d8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cf5b80cc5e905c113c7baaeba42459f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc4/classSQPrimaryVertexGen.html#a4cf5b80cc5e905c113c7baaeba42459f">set_targetOnlyMode</a> ()</td></tr>
-<tr class="memdesc:a4cf5b80cc5e905c113c7baaeba42459f"><td class="mdescLeft">&#160;</td><td class="mdescRight">setting target/fmag only function  <a href="#a4cf5b80cc5e905c113c7baaeba42459f">More...</a><br/></td></tr>
-<tr class="separator:a4cf5b80cc5e905c113c7baaeba42459f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ace065014ce82563975f051bd87d3da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc4/classSQPrimaryVertexGen.html#a5ace065014ce82563975f051bd87d3da">set_dumpOnlyMode</a> ()</td></tr>
-<tr class="separator:a5ace065014ce82563975f051bd87d3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -156,8 +154,26 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a83717d2f594758cfe306f1e1aed04339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00036">36</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<div class="textblock"><p>Class to generate the event vertex, based on the beam profile and the target+spectrometer materials given. </p>
+<p>This class is used inside the event generators like <code><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html" title="Physics generator imported from E906 software. ">SQPrimaryParticleGen</a></code>. User need not instantiate (i.e. new) this class explicitly.</p>
+<p>The beam profile in (x, y) is Gaussian at r&lt;3*sigma and 1/r at r&gt;=3*sigma.</p>
+<p>User can control the beam profile and the materials by changing the following <code><a class="el" href="../../d8/d14/classrecoConsts.html">recoConsts</a></code> flags.</p>
+<ul>
+<li><code>X0_TARGET</code>, <code>Y0_TARGET</code> ... The center location of the target material.</li>
+<li><code>RX_TARGET</code>, <code>RY_TARGET</code> ... The radius of the target material.</li>
+<li><code>X_BEAM</code>, <code>Y_BEAM</code> ... The center location of the beam.</li>
+<li><code>SIGX_BEAM</code>, <code>SIGY_BEAM</code> ... The Gaussian width of the beam.</li>
+<li><code>VTX_GEN_MATERIAL_MODE</code> ... Mode to enable only a part of materials.<ul>
+<li><code>All</code> ... Enable all materials (default).</li>
+<li><code>Target</code> ... Enable only the target material.</li>
+<li><code>Dump</code> ... Enable only the dump material.</li>
+<li><code>TargetDumpGap</code> ... Enable only the air gap between the target and the dump.</li>
+<li><code>Manual</code> ... Enable only a z-range specified via <code>VTX_GEN_Z_START</code> and <code>VTX_GEN_Z_STOP</code>. </li>
+</ul>
+</li>
+</ul>
+
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00059">59</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="adbe775a9ffff5c932b3b41c853ae376e"></a>
 <div class="memitem">
@@ -226,18 +242,18 @@ Static Public Member Functions</h2></td></tr>
 
 <p>fill material profile using initial x/y position </p>
 
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00157">157</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00219">219</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">MaterialProfile::calcProb()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00033">MaterialProfile::interactables</a>.</p>
+<p>References <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">MaterialProfile::calcProb()</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00037">MaterialProfile::interactables</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">generateVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">generateVertex()</a>.</p>
 
 <p><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc4/classSQPrimaryVertexGen_a90d9890e48202ae68f36de2878ad2c11_cgraph.svg" width="1064" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc4/classSQPrimaryVertexGen_a90d9890e48202ae68f36de2878ad2c11_cgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -289,7 +305,7 @@ Static Public Member Functions</h2></td></tr>
 <p>beam profile function </p>
 <p>Function for beam profile (double gaussian at core and 1/r at tail) </p>
 
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00259">259</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00290">290</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
 </div>
 </div>
@@ -308,18 +324,18 @@ Static Public Member Functions</h2></td></tr>
 
 <p>generate 3-D vertex position </p>
 
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">215</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">246</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00157">fillMaterialProfile()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00026">MaterialProfile::findInteractingPiece()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00253">generateVtxPerp()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00033">MaterialProfile::interactables</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00031">MaterialProfile::probSum</a>.</p>
+<p>References <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00219">fillMaterialProfile()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00026">MaterialProfile::findInteractingPiece()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00284">generateVtxPerp()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00037">MaterialProfile::interactables</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00035">MaterialProfile::probSum</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/de0/test__vtx_8C_source.html#l00007">main()</a>, <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00109">PHHepMCGenHelper::move_vertex()</a>, <a class="el" href="../../db/ddd/PHG4ParticleGun_8cc_source.html#l00048">PHG4ParticleGun::process_event()</a>, <a class="el" href="../../d3/d3e/PHG4SimpleEventGenerator_8cc_source.html#l00254">PHG4SimpleEventGenerator::process_event()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">SQPrimaryParticleGen::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/de0/test__vtx_8C_source.html#l00007">main()</a>, <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00109">PHHepMCGenHelper::move_vertex()</a>, <a class="el" href="../../db/ddd/PHG4ParticleGun_8cc_source.html#l00048">PHG4ParticleGun::process_event()</a>, <a class="el" href="../../d3/d3e/PHG4SimpleEventGenerator_8cc_source.html#l00254">PHG4SimpleEventGenerator::process_event()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">SQPrimaryParticleGen::process_event()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc4/classSQPrimaryVertexGen_acf0116c5e4797e4f14e22c701520d75d_cgraph.svg" width="1304" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dc4/classSQPrimaryVertexGen_acf0116c5e4797e4f14e22c701520d75d_cgraph.svg" width="608" height="182"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -362,9 +378,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>use the beam profile to generate vertex in X-Y plane </p>
 
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00253">253</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00284">284</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">generateVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">generateVertex()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -401,9 +417,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>get the relative luminosity on this target </p>
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00059">59</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00085">85</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">SQPrimaryParticleGen::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">SQPrimaryParticleGen::process_event()</a>.</p>
 
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -440,9 +456,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>get the proton/neutron ratio of the piece, must be called after generateVertex </p>
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00056">56</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00082">82</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">SQPrimaryParticleGen::process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">SQPrimaryParticleGen::process_event()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -474,7 +490,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00088">88</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00069">PHHepMCGenHelper::create_node_tree()</a>, <a class="el" href="../../db/ddd/PHG4ParticleGun_8cc_source.html#l00040">PHG4ParticleGun::InitRun()</a>, <a class="el" href="../../d3/d3e/PHG4SimpleEventGenerator_8cc_source.html#l00178">PHG4SimpleEventGenerator::InitRun()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00152">SQPrimaryParticleGen::InitRun()</a>, and <a class="el" href="../../dc/de0/test__vtx_8C_source.html#l00007">main()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/ddf/PHHepMCGenHelper_8cc_source.html#l00069">PHHepMCGenHelper::create_node_tree()</a>, <a class="el" href="../../db/ddd/PHG4ParticleGun_8cc_source.html#l00040">PHG4ParticleGun::InitRun()</a>, <a class="el" href="../../d3/d3e/PHG4SimpleEventGenerator_8cc_source.html#l00178">PHG4SimpleEventGenerator::InitRun()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00142">SQPrimaryParticleGen::InitRun()</a>, and <a class="el" href="../../dc/de0/test__vtx_8C_source.html#l00007">main()</a>.</p>
 
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -506,42 +522,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5ace065014ce82563975f051bd87d3da"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SQPrimaryVertexGen::set_dumpOnlyMode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00150">150</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4cf5b80cc5e905c113c7baaeba42459f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SQPrimaryVertexGen::set_targetOnlyMode </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>setting target/fmag only function </p>
-
-<p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00143">143</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>/dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyVtxGen/<a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a></li>
 <li>/dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyVtxGen/<a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a></li>
@@ -556,7 +536,7 @@ Static Public Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/dc4/classSQPrimaryVertexGen.html">SQPrimaryVertexGen</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:09</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

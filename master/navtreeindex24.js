@@ -1,9 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ac5a3e5031c9d3fc0dcf34917d58d6dc6a99bbb2b84070310e409a84e1bad41401":[19,0,268,0,1],
-"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ac5a3e5031c9d3fc0dcf34917d58d6dc6abe4938aec6ac029fb39d43d236bb6491":[19,0,268,0,0],
-"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#adf229f0ed378926fb8c4abdb00c8e28f":[19,0,268,17],
-"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ae069f79322dc5ba734e7e85c89478dae":[19,0,268,2],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ae59ad156fbe5abe97188e42d54a49f0d":[19,0,268,39],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ae8f301cdc15c55c1bed4c016eed06e49":[19,0,268,51],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#ae9b3e22018e395e1ef7bdf9a40c89c5d":[19,0,268,16],
@@ -249,5 +245,9 @@ var NAVTREEINDEX24 =
 "d8/d21/classPdbParameterMap.html#afc3511e91dadfd065b7a311e8c2006a6":[19,0,161,20],
 "d8/d24/UtilSQHit_8cc.html":[20,0,2,6,12,11],
 "d8/d24/UtilSQHit_8cc_source.html":[20,0,2,6,12,11],
-"d8/d25/classPythia6.html":[19,0,356]
+"d8/d25/classPythia6.html":[19,0,356],
+"d8/d25/classPythia6.html#a1bdc0d72709ccb972bcfee24020170d1":[19,0,356,2],
+"d8/d25/classPythia6.html#a1c309e0807535318aaecfae4985889e4":[19,0,356,9],
+"d8/d25/classPythia6.html#a2d69c1109df9b9a45134c793c312c223":[19,0,356,6],
+"d8/d25/classPythia6.html#a3330971ef3343452c6ff99364015dd4f":[19,0,356,4]
 };

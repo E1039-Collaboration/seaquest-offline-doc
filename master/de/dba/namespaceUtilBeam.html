@@ -189,8 +189,12 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Make a list of QIE RF+nn values. </p>
-<p>This function uses an array of "double", instead of "int". It is suitable for the constructors of the TH1 classes. ``` int num_inte; double* list_inte; UtilBeam::ListOfRfValues(num_inte, list_inte); TH1* h1_rf_inte = new TH1D("h1_rf_inte", "", num_inte - 1, list_inte); ``` </p>
-
+<p>This function uses an array of "double", instead of "int". It is suitable for the constructors of the TH1 classes. </p>
+<div class="fragment"><div class="line"><span class="keywordtype">int</span> num_inte;</div>
+<div class="line"><span class="keywordtype">double</span>* list_inte;</div>
+<div class="line"><a class="code" href="../../de/dba/namespaceUtilBeam.html#a3df2257c9faf4451b949631e2ce09b17">UtilBeam::ListOfRfValues</a>(num_inte, list_inte);</div>
+<div class="line">TH1* h1_rf_inte = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;h1_rf_inte&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, num_inte - 1, list_inte);</div>
+</div><!-- fragment --> 
 <p>Definition at line <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html">UtilBeam.cc</a>.</p>
 
 <p>References <a class="el" href="../../d3/d91/UtilBeam_8cc_source.html#l00010">ListOfRfValues()</a>.</p>
@@ -217,7 +221,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../de/dba/namespaceUtilBeam.html">UtilBeam</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:10</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

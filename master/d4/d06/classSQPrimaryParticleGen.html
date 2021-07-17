@@ -145,6 +145,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab7a8430868fccd122e5f1f1bbe19fbaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3089360fe1b2fd95de23dd28219b32f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a3089360fe1b2fd95de23dd28219b32f6">InitRun</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="separator:a3089360fe1b2fd95de23dd28219b32f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5309b9d6239c32a6acabaa17aa2c20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#adb5309b9d6239c32a6acabaa17aa2c20">End</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="memdesc:adb5309b9d6239c32a6acabaa17aa2c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of all processing.  <a href="#adb5309b9d6239c32a6acabaa17aa2c20">More...</a><br/></td></tr>
+<tr class="separator:adb5309b9d6239c32a6acabaa17aa2c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405112dedb0671ec479a1286faca433b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b">process_event</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="separator:a405112dedb0671ec479a1286faca433b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bc8ba5f11c8d17934557967836c2388"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388">generateDimuon</a> (double mass, double xF)</td></tr>
@@ -160,6 +163,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd7fa6b2f4504544741711ae96c5ba7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2541aa06e60bc44e92cd775a5056472"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#aa2541aa06e60bc44e92cd775a5056472">enablePsipGen</a> ()</td></tr>
 <tr class="separator:aa2541aa06e60bc44e92cd775a5056472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcc464773eeb9d33c39904898f81e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a6fcc464773eeb9d33c39904898f81e86">set_pdfset</a> (const std::string name)</td></tr>
+<tr class="separator:a6fcc464773eeb9d33c39904898f81e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e142ee8619b5a7347be5b45c0522ca8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8">set_pT0DY</a> (const double val)</td></tr>
 <tr class="separator:a1e142ee8619b5a7347be5b45c0522ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9152286e1b9b623af0d4ecebb5d41566"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a9152286e1b9b623af0d4ecebb5d41566">set_pTpowDY</a> (const double val)</td></tr>
@@ -179,8 +184,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad9953e74d17ddccbeb33801056187898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the Drell-Yan cross section, given only mass, xF and pARatio.  <a href="#ad9953e74d17ddccbeb33801056187898">More...</a><br/></td></tr>
 <tr class="separator:ad9953e74d17ddccbeb33801056187898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41384d093709b5fac50023b7f799c579"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#a41384d093709b5fac50023b7f799c579">CrossSectionDrellYan</a> (const double mass, const double xF, const double x1, const double x2, const double pARatio)</td></tr>
-<tr class="memdesc:a41384d093709b5fac50023b7f799c579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the Drell-Yan cross section, d^2sigma/dM*dxF in nb/GeV.  <a href="#a41384d093709b5fac50023b7f799c579">More...</a><br/></td></tr>
+<tr class="memdesc:a41384d093709b5fac50023b7f799c579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the Drell-Yan cross section, d^2sigma/dM*dxF in pb/GeV.  <a href="#a41384d093709b5fac50023b7f799c579">More...</a><br/></td></tr>
 <tr class="separator:a41384d093709b5fac50023b7f799c579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af089734822f5c2158b28e504da4c535e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#af089734822f5c2158b28e504da4c535e">CrossSectionJPsi</a> (const double xF)</td></tr>
+<tr class="memdesc:af089734822f5c2158b28e504da4c535e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the cross section for J/psi vs xF in pb. Return "BR*sigma(xF)".  <a href="#af089734822f5c2158b28e504da4c535e">More...</a><br/></td></tr>
+<tr class="separator:af089734822f5c2158b28e504da4c535e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff56bfc1da86142490deefb6dcb85357"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#aff56bfc1da86142490deefb6dcb85357">CrossSectionPsip</a> (const double xF)</td></tr>
+<tr class="memdesc:aff56bfc1da86142490deefb6dcb85357"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the cross section for psi' vs xF in pb.  <a href="#aff56bfc1da86142490deefb6dcb85357">More...</a><br/></td></tr>
+<tr class="separator:aff56bfc1da86142490deefb6dcb85357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:ab203c6f5d5a3957edaa5d1c741ca8fec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html#ab203c6f5d5a3957edaa5d1c741ca8fec">generateDrellYan</a> (const TVector3 &amp;vtx, const double pARatio, double luminosity)</td></tr>
 <tr class="memdesc:ab203c6f5d5a3957edaa5d1c741ca8fec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various generators.  <a href="#ab203c6f5d5a3957edaa5d1c741ca8fec">More...</a><br/></td></tr>
@@ -233,9 +244,6 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classSubsysReco"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSubsysReco')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a></td></tr>
 <tr class="memitem:a63fe15cdc609293d791ef1f327945aac inherit pub_methods_classSubsysReco"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d32/classSubsysReco.html#a63fe15cdc609293d791ef1f327945aac">~SubsysReco</a> ()</td></tr>
 <tr class="separator:a63fe15cdc609293d791ef1f327945aac inherit pub_methods_classSubsysReco"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99bfd765c7cc22d20a8e4feace7461e7 inherit pub_methods_classSubsysReco"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">End</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *)</td></tr>
-<tr class="memdesc:a99bfd765c7cc22d20a8e4feace7461e7 inherit pub_methods_classSubsysReco"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of all processing.  <a href="#a99bfd765c7cc22d20a8e4feace7461e7">More...</a><br/></td></tr>
-<tr class="separator:a99bfd765c7cc22d20a8e4feace7461e7 inherit pub_methods_classSubsysReco"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47f0eb4d5a0f192746e046e77ab4cc0a inherit pub_methods_classSubsysReco"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d32/classSubsysReco.html#a47f0eb4d5a0f192746e046e77ab4cc0a">EndRun</a> (const int)</td></tr>
 <tr class="memdesc:a47f0eb4d5a0f192746e046e77ab4cc0a inherit pub_methods_classSubsysReco"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of each run.  <a href="#a47f0eb4d5a0f192746e046e77ab4cc0a">More...</a><br/></td></tr>
 <tr class="separator:a47f0eb4d5a0f192746e046e77ab4cc0a inherit pub_methods_classSubsysReco"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -344,7 +352,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00083">83</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00070">70</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
 </div>
 </div>
@@ -369,7 +377,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00113">113</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00100">100</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
 </div>
 </div>
@@ -405,20 +413,20 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calculate the Drell-Yan cross section, given only mass, xF and pARatio. </p>
-<p>This function is intended to be used in checking the cross-section values computed by this generator. See <a class="el" href="../../d3/dfc/CheckParticleGen_8C.html">macros/CheckParticleGen.C</a>. </p>
+<p>This function is intended to be used in checking the cross-section values computed by this generator. See macros/CheckParticleGen.C. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00282">282</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00305">305</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00441">generateDimuon()</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>.</p>
+<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00458">generateDimuon()</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/dfc/CheckParticleGen_8C_source.html#l00005">CheckParticleGen()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00293">generateDrellYan()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/df0/CheckParticleGenDrellYan_8C_source.html#l00005">CheckParticleGenDrellYan()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">generateDrellYan()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ad9953e74d17ddccbeb33801056187898_cgraph.svg" width="811" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ad9953e74d17ddccbeb33801056187898_cgraph.svg" width="830" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -428,7 +436,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ad9953e74d17ddccbeb33801056187898_icgraph.svg" width="571" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ad9953e74d17ddccbeb33801056187898_icgraph.svg" width="592" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -477,11 +485,91 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calculate the Drell-Yan cross section, d^2sigma/dM*dxF in nb/GeV. </p>
+<p>Calculate the Drell-Yan cross section, d^2sigma/dM*dxF in pb/GeV. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00235">235</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00258">258</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">c1</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00048">DPGEN::pi</a>.</p>
+<p>References <a class="el" href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">c1</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00049">DPGEN::pi</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af089734822f5c2158b28e504da4c535e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double SQPrimaryParticleGen::CrossSectionJPsi </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>xF</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the cross section for J/psi vs xF in pb. Return "BR*sigma(xF)". </p>
+<p>The cross section is parameterized as "BR*sigma = A * exp(-(xF/W)^2/2) / (sqrt(2*pi)*W)". The "A" term includes the sqrt(s) dependence. The remaining term includes the xF dependence using the Gaussian shape. The constants were taken from "Schub et al., Phys Rev D 52, 1307 (1995)". </p>
+
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00323">323</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00056">DPGEN::mjpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00051">DPGEN::sqrt2pi</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00066">DPGEN::sqrts</a>.</p>
+
+<p>Referenced by <a class="el" href="../../df/d74/CheckParticleGenJPsi_8C_source.html#l00005">CheckParticleGenJPsi()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00337">CrossSectionPsip()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00364">generateJPsi()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_af089734822f5c2158b28e504da4c535e_icgraph.svg" width="774" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aff56bfc1da86142490deefb6dcb85357"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double SQPrimaryParticleGen::CrossSectionPsip </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>xF</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the cross section for psi' vs xF in pb. </p>
+<p>It just returns the cross section of J/psi scaled by the psi'-to-J/psi ratio, "psipscale". "psipscale" was taken from line 5 in page 1313 of PRD52_1307, although the value is slightly different (0.019 vs 0.018). </p>
+
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00337">337</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00323">CrossSectionJPsi()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00376">generatePsip()</a>.</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_aff56bfc1da86142490deefb6dcb85357_cgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_aff56bfc1da86142490deefb6dcb85357_icgraph.svg" width="571" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
 
 </div>
 </div>
@@ -506,7 +594,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00077">77</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00078">78</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 </div>
 </div>
@@ -531,16 +619,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00078">78</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00079">79</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/dfc/CheckParticleGen_8C_source.html#l00005">CheckParticleGen()</a>, <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/df0/CheckParticleGenDrellYan_8C_source.html#l00005">CheckParticleGenDrellYan()</a>, <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ac79fad4accf33b38346794b369b5e247_icgraph.svg" width="342" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ac79fad4accf33b38346794b369b5e247_icgraph.svg" width="390" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -568,16 +656,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00079">79</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00080">80</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d74/CheckParticleGenJPsi_8C_source.html#l00005">CheckParticleGenJPsi()</a>, <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_abd7fa6b2f4504544741711ae96c5ba7c_icgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_abd7fa6b2f4504544741711ae96c5ba7c_icgraph.svg" width="366" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -605,15 +693,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00080">80</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00081">81</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_aa2541aa06e60bc44e92cd775a5056472_icgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -642,16 +730,58 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00076">76</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00077">77</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a6b1c3dc8b010a08849e5834ff5f31749_icgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adb5309b9d6239c32a6acabaa17aa2c20"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SQPrimaryParticleGen::End </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called at the end of all processing. </p>
+
+<p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00193">193</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts::set_CharFlag()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>, and <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00145">PHFlag::set_IntFlag()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_adb5309b9d6239c32a6acabaa17aa2c20_cgraph.svg" width="1078" height="215"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -685,30 +815,30 @@ Additional Inherited Members</h2></td></tr>
 <p>Dimuon phase space generator. </p>
 <p>Main function to generate dimuon.</p>
 <p>Reference: G. Moerno et.al. Phys. Rev D43:2815-2836, 1991</p>
-<p>The pT and theta distributions generated are affected by the value of <code>_DrellYanGen</code>. </p>
+<p>The pT and theta distributions generated are affected by the value of <code>_DrellYanGen</code>. The formula of pTmaxSq is discussed in DocDB 9292. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00441">441</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00458">458</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00063">DPGEN::bv_cms</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00064">DPGEN::s</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78">SQDimuon::set_mom_neg()</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c">SQDimuon::set_mom_pos()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00065">DPGEN::sqrts</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00049">DPGEN::twopi</a>.</p>
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00064">DPGEN::bv_cms</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00125">UtilDimuon::Lab2CollinsSoper()</a>, <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00065">DPGEN::s</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78">SQDimuon::set_mom_neg()</a>, <a class="el" href="../../d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c">SQDimuon::set_mom_pos()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00066">DPGEN::sqrts</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00050">DPGEN::twopi</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00282">CrossSectionDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00293">generateDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00314">generateJPsi()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">generatePsip()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00305">CrossSectionDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">generateDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00364">generateJPsi()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00376">generatePsip()</a>.</p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a8bc8ba5f11c8d17934557967836c2388_cgraph.svg" width="608" height="164"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a8bc8ba5f11c8d17934557967836c2388_cgraph.svg" width="627" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a8bc8ba5f11c8d17934557967836c2388_icgraph.svg" width="774" height="227"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a8bc8ba5f11c8d17934557967836c2388_icgraph.svg" width="795" height="227"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -747,27 +877,27 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Various generators. </p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00293">293</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">343</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00282">CrossSectionDrellYan()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00441">generateDimuon()</a>.</p>
+<p>References <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00305">CrossSectionDrellYan()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00458">generateDimuon()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">process_event()</a>.</p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ab203c6f5d5a3957edaa5d1c741ca8fec_cgraph.svg" width="1014" height="168"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ab203c6f5d5a3957edaa5d1c741ca8fec_cgraph.svg" width="1032" height="194"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ab203c6f5d5a3957edaa5d1c741ca8fec_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -805,27 +935,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00314">314</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00364">364</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00076">DPGEN::ajpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00077">DPGEN::bjpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00075">DPGEN::brjpsi</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00441">generateDimuon()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00055">DPGEN::mjpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00074">DPGEN::sigmajpsi</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00050">DPGEN::sqrt2pi</a>.</p>
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00323">CrossSectionJPsi()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00458">generateDimuon()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00056">DPGEN::mjpsi</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">process_event()</a>.</p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a9c6f6b1a69bddb2536e0f32f7abbd8c1_cgraph.svg" width="811" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a9c6f6b1a69bddb2536e0f32f7abbd8c1_cgraph.svg" width="830" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a9c6f6b1a69bddb2536e0f32f7abbd8c1_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -863,27 +993,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">343</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00376">376</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00076">DPGEN::ajpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00077">DPGEN::bjpsi</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00075">DPGEN::brjpsi</a>, <a class="el" href="../../d4/d8d/UtilDimuon_8cc_source.html#l00070">UtilDimuon::CalcVar()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00441">generateDimuon()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00056">DPGEN::mpsip</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00079">DPGEN::psipscale</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00074">DPGEN::sigmajpsi</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00050">DPGEN::sqrt2pi</a>.</p>
+<p>References <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00337">CrossSectionPsip()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00458">generateDimuon()</a>, and <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00057">DPGEN::mpsip</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">process_event()</a>.</p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ac51fd9f2552b3bdcbf45b80e13e35177_cgraph.svg" width="811" height="166"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ac51fd9f2552b3bdcbf45b80e13e35177_cgraph.svg" width="830" height="255"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_ac51fd9f2552b3bdcbf45b80e13e35177_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -915,27 +1045,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00373">373</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00389">389</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
 <p>References <a class="el" href="../../dd/d67/PHG4InEvent_8cc_source.html#l00063">PHG4InEvent::AddParticle()</a>, <a class="el" href="../../dd/d67/PHG4InEvent_8cc_source.html#l00038">PHG4InEvent::AddVtx()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00037">PHG4Particle::set_e()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00032">PHG4Particle::set_name()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00033">PHG4Particle::set_pid()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00034">PHG4Particle::set_px()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00035">PHG4Particle::set_py()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00036">PHG4Particle::set_pz()</a>, <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00028">PHG4Particle::set_track_id()</a>, and <a class="el" href="../../dd/d05/PHG4Particle_8h_source.html#l00029">PHG4Particle::set_vtx_id()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">process_event()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">process_event()</a>.</p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_acfa5f61e737ba771b523e83be555a1ad_cgraph.svg" width="392" height="494"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_acfa5f61e737ba771b523e83be555a1ad_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -964,11 +1094,11 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called during initialization. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
+<p>Called during initialization, i.e. registered via <a class="el" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">Fun4AllServer::registerSubsystem()</a>. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00121">121</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00108">108</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d8/d9f/PHG4ParticleGeneratorBase_8h_source.html#l00060">PHG4ParticleGeneratorBase::seed</a>.</p>
 
@@ -999,15 +1129,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d78/classPHG4ParticleGeneratorBase.html#a6d7c97ddfb202769c5b878454d8d07a7">PHG4ParticleGeneratorBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00152">152</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00142">142</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00006">Fun4AllReturnCodes::ABORTRUN</a>, <a class="el" href="../../df/d01/PHCompositeNode_8cc_source.html#l00040">PHCompositeNode::addNode()</a>, <a class="el" href="../../d0/d41/PHNodeIterator_8cc_source.html#l00050">PHNodeIterator::findFirst()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00088">SQPrimaryVertexGen::InitRun()</a>, and <a class="el" href="../../d5/d6f/phool_8h_source.html#l00023">PHWHERE</a>.</p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a3089360fe1b2fd95de23dd28219b32f6_cgraph.svg" width="600" height="228"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1040,16 +1170,16 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d78/classPHG4ParticleGeneratorBase.html#ab24bc7916e939674871bf34991a4bc59">PHG4ParticleGeneratorBase</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00203">203</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00227">227</a> of file <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html">SQPrimaryParticleGen.C</a>.</p>
 
-<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00293">generateDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00314">generateJPsi()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">generatePsip()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00373">generatePythia()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">SQPrimaryVertexGen::generateVertex()</a>, <a class="el" href="../../d9/d3d/classSQMCEvent.html#ab78c6d530c534ad2fdf44226ff6c5283">SQMCEvent::get_weight()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00059">SQPrimaryVertexGen::getLuminosity()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00056">SQPrimaryVertexGen::getPARatio()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">SQEvent::set_event_id()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00033">PHGenIntegral::set_Integrated_Lumi()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00044">PHGenIntegral::set_N_Generator_Accepted_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00055">PHGenIntegral::set_N_Processed_Event()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">SQEvent::set_spill_id()</a>, and <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00070">PHGenIntegral::set_Sum_Of_Weight()</a>.</p>
+<p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00343">generateDrellYan()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00364">generateJPsi()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00376">generatePsip()</a>, <a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00389">generatePythia()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">SQPrimaryVertexGen::generateVertex()</a>, <a class="el" href="../../d9/d3d/classSQMCEvent.html#ab78c6d530c534ad2fdf44226ff6c5283">SQMCEvent::get_weight()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00085">SQPrimaryVertexGen::getLuminosity()</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00082">SQPrimaryVertexGen::getPARatio()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">SQEvent::set_event_id()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00033">PHGenIntegral::set_Integrated_Lumi()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00044">PHGenIntegral::set_N_Generator_Accepted_Event()</a>, <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00055">PHGenIntegral::set_N_Processed_Event()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">SQEvent::set_spill_id()</a>, and <a class="el" href="../../d2/dfd/PHGenIntegral_8h_source.html#l00070">PHGenIntegral::set_Sum_Of_Weight()</a>.</p>
 
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a405112dedb0671ec479a1286faca433b_cgraph.svg" width="1579" height="1235"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a405112dedb0671ec479a1286faca433b_cgraph.svg" width="1328" height="1264"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1080,15 +1210,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>config file for pythia </p>
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00088">88</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00091">91</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_acccab0c078ac6a33680e1d30449d7369_icgraph.svg" width="288" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1128,19 +1258,45 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00097">97</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00100">100</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a4dd823cf3db0eaeb2df795d15dbde1fc_icgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
+
+</div>
+</div>
+<a class="anchor" id="a6fcc464773eeb9d33c39904898f81e86"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SQPrimaryParticleGen::set_pdfset </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00083">83</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 </div>
 </div>
@@ -1166,16 +1322,16 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00082">82</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00085">85</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/dfc/CheckParticleGen_8C_source.html#l00005">CheckParticleGen()</a>.</p>
+<p>Referenced by <a class="el" href="../../d9/df0/CheckParticleGenDrellYan_8C_source.html#l00005">CheckParticleGenDrellYan()</a>.</p>
 
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a1e142ee8619b5a7347be5b45c0522ca8_icgraph.svg" width="342" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a1e142ee8619b5a7347be5b45c0522ca8_icgraph.svg" width="390" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1204,7 +1360,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00084">84</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00087">87</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 </div>
 </div>
@@ -1230,7 +1386,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00083">83</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00086">86</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +1412,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00085">85</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00088">88</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 </div>
 </div>
@@ -1292,15 +1448,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00093">93</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00096">96</a> of file <a class="el" href="../../d6/de2/SQPrimaryParticleGen_8h_source.html">SQPrimaryParticleGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, and <a class="el" href="../../d5/d7f/SimChainDev_2Fun4Sim_8C_source.html#l00019">Fun4Sim()</a>.</p>
 
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d06/classSQPrimaryParticleGen_a48e600d1ddd231dcbe7fa33506afb37b_icgraph.svg" width="339" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1322,7 +1478,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html">SQPrimaryParticleGen</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:09</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

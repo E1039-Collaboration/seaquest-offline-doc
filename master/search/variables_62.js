@@ -44,7 +44,6 @@ var searchData=
   ['binning',['binning',['../df/d5e/classPHG4BlockCellReco.html#aabf369a398083393170399a415411746',1,'PHG4BlockCellReco::binning()'],['../d9/d85/classPHG4CylinderCellGeom.html#ae7d2b519a723b2354e19ffc6859c7d9f',1,'PHG4CylinderCellGeom::binning()'],['../d5/dd0/classPHG4CylinderCellReco.html#a225b552d7f4a3cc5322b41a033f71658',1,'PHG4CylinderCellReco::binning()'],['../dc/d94/classPHG4CylinderCellTPCReco.html#a086fee5c2581f5e9825424dec89a7c29',1,'PHG4CylinderCellTPCReco::binning()']]],
   ['binphi',['binphi',['../dd/d2e/classPHG4CylinderCellv1.html#aaa89128016bf107ccaaeb5af0fb09c5b',1,'PHG4CylinderCellv1']]],
   ['binz',['binz',['../dd/d2e/classPHG4CylinderCellv1.html#a8e3c88922c4a212b65080b152486344d',1,'PHG4CylinderCellv1']]],
-  ['bjpsi',['bjpsi',['../d2/da1/namespaceDPGEN.html#a0512590ba0452309d12cbcf7ea6592e1',1,'DPGEN']]],
   ['board',['board',['../d1/df2/structFeeData.html#a27b125c4d004c5d13df088181ba49260',1,'FeeData::board()'],['../dc/dac/structScalerData.html#aaebfbaa7014230865c92a7aa4a92f356',1,'ScalerData::board()'],['../d2/de9/structHitData.html#a3f48fab5ae464face1b07ba010591cdd',1,'HitData::board()']]],
   ['boolflag',['boolflag',['../d1/da8/classPHFlag.html#a284873c28d823e6416d7aa95a4bf0257',1,'PHFlag']]],
   ['borderelementvec',['borderElementVec',['../d2/d72/classPHG4GDMLWriteStructure.html#aa53584e596f9df11da0f1fe10c4d7411',1,'PHG4GDMLWriteStructure']]],
@@ -55,7 +54,6 @@ var searchData=
   ['branchpathdelim',['branchpathdelim',['../d3/d8a/namespacephooldefs.html#abd91428a77ef5ad59019b643babd1ef3',1,'phooldefs']]],
   ['branchread',['branchread',['../d7/d0b/classFun4AllDstInputManager.html#a4f175b45613d09e4be7c53f195b43444',1,'Fun4AllDstInputManager']]],
   ['brat',['BRAT',['../dc/d49/structPydat3__t.html#a5f4d0b03b6754011dde278c202d80e33',1,'Pydat3_t']]],
-  ['brjpsi',['brjpsi',['../d2/da1/namespaceDPGEN.html#abe97efe3f80c88149929eff7a5e87954',1,'DPGEN']]],
   ['bucket_5fsize',['bucket_size',['../df/d9a/classSettings.html#a8846938893d11cba0c838f1acdb06f44',1,'Settings']]],
   ['bv_5fcms',['bv_cms',['../d2/da1/namespaceDPGEN.html#ad2f4dbf0f6b46fe55d09135ebaff6eda',1,'DPGEN']]],
   ['byteswritten',['byteswritten',['../de/d50/classFun4AllFileOutStream.html#abeb4b991601e37eb7bc738d7f8837bf7',1,'Fun4AllFileOutStream']]]

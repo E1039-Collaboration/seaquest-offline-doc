@@ -238,9 +238,6 @@ var NAVTREEINDEX11 =
 "d3/df3/PHG4BNLTargetCoilSubsystem_8h_source.html":[20,0,2,7,1,31],
 "d3/df8/e1039-core_2simulation_2g4dst_2LinkDef_8h.html":[20,0,2,7,2,0],
 "d3/df8/e1039-core_2simulation_2g4dst_2LinkDef_8h_source.html":[20,0,2,7,2,0],
-"d3/dfc/CheckParticleGen_8C.html":[20,0,2,2,0,0,0],
-"d3/dfc/CheckParticleGen_8C.html#a058e2db6f5d6a1f0ed003558487efd70":[20,0,2,2,0,0,0,0],
-"d3/dfc/CheckParticleGen_8C_source.html":[20,0,2,2,0,0,0],
 "d3/dfc/TriggerAnalyzer_8cxx.html":[20,0,2,6,11,2,13],
 "d3/dfc/TriggerAnalyzer_8cxx.html#abc9c01d19499cf24b74fd002cb65b068":[20,0,2,6,11,2,13,0],
 "d3/dfc/TriggerAnalyzer_8cxx_source.html":[20,0,2,6,11,2,13],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "d4/d06/classG4Pythia6DecayerMessenger.html":[19,0,100],
 "d4/d06/classG4Pythia6DecayerMessenger.html#a510007e27533639be95779077d17d4a6":[19,0,100,1],
 "d4/d06/classG4Pythia6DecayerMessenger.html#a5488a8234ad408256220c944b23b4bf6":[19,0,100,0],
-"d4/d06/classG4Pythia6DecayerMessenger.html#af4a400cb97ecc6dcd249759951290f63":[19,0,100,2]
+"d4/d06/classG4Pythia6DecayerMessenger.html#af4a400cb97ecc6dcd249759951290f63":[19,0,100,2],
+"d4/d06/classSQPrimaryParticleGen.html":[19,0,405],
+"d4/d06/classSQPrimaryParticleGen.html#a0dc31a3fcb2c718f67fae07ff9dd0d74":[19,0,405,1],
+"d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8":[19,0,405,23]
 };

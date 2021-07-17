@@ -1,8 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"dc/dfe/classPHG4Cell.html#a6b697ec4b3db77564ef70709b43f2f90":[19,0,194,14],
-"dc/dfe/classPHG4Cell.html#a7797d5bd155fcf17a5cdf67eacdc1ada":[19,0,194,26],
-"dc/dfe/classPHG4Cell.html#a77ebd5f6d3e2d9c5251fd3ab9a9ca17e":[19,0,194,10],
 "dc/dfe/classPHG4Cell.html#a78363041a9ef5382f844f3e07b67029e":[19,0,194,4],
 "dc/dfe/classPHG4Cell.html#a7c79b802782cc4c7da0426a18cf91e2c":[19,0,194,19],
 "dc/dfe/classPHG4Cell.html#a84f66c58e51f5a1d5ea4ac552f2f80cf":[19,0,194,59],
@@ -190,8 +187,8 @@ var NAVTREEINDEX40 =
 "dd/d39/PHG4ConeSteppingAction_8h_source.html":[20,0,2,7,1,60],
 "dd/d3c/PHG4PileupGenerator_8h.html":[20,0,2,7,5,75],
 "dd/d3c/PHG4PileupGenerator_8h_source.html":[20,0,2,7,5,75],
-"dd/d3e/namespaceFun4AllUtils.html":[18,0,4],
 "dd/d3e/namespaceFun4AllUtils.html":[19,0,4],
+"dd/d3e/namespaceFun4AllUtils.html":[18,0,4],
 "dd/d3f/G4TBMagneticFieldSetup_8hh.html":[20,0,2,7,5,3],
 "dd/d3f/G4TBMagneticFieldSetup_8hh_source.html":[20,0,2,7,5,3],
 "dd/d44/classTruthNodeMaker.html":[19,0,448],
@@ -249,5 +246,8 @@ var NAVTREEINDEX40 =
 "dd/d59/classSQEvent__v1.html#a78305f0f00d1da5dd2fa7c4423119af9":[19,0,385,13],
 "dd/d59/classSQEvent__v1.html#a7a07a44d84340caaf7777a4303671d29":[19,0,385,2],
 "dd/d59/classSQEvent__v1.html#a7a6f56805337d9d6f2c2409c9a95ef8a":[19,0,385,46],
-"dd/d59/classSQEvent__v1.html#a7c862c634e341e460a53947415d62e0f":[19,0,385,26]
+"dd/d59/classSQEvent__v1.html#a7c862c634e341e460a53947415d62e0f":[19,0,385,26],
+"dd/d59/classSQEvent__v1.html#a7d35ddc873bffc9753dd809fb405e73f":[19,0,385,52],
+"dd/d59/classSQEvent__v1.html#a7f9386361a02d57e55f1a53c16dd3d9c":[19,0,385,15],
+"dd/d59/classSQEvent__v1.html#a82bd5dd97adff87e61561d44ac644a5b":[19,0,385,65]
 };

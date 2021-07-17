@@ -216,8 +216,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to skip a simulated event in which a muon or a muon pair doesn't pass through the <em>rough</em> geometric acceptance. </p>
-<p>Typical usage: ``` SQGeomAccLoose* geom_acc = new <a class="el" href="../../d6/da3/classSQGeomAccLoose.html#a2bedba475a381d86d4b76afb0b8ccc90">SQGeomAccLoose()</a>; geom_acc-&gt;SetNumParticlesPerEvent(2); // or 1 for single events se-&gt;registerSubsystem(geom_acc); ```</p>
-<p>This module can/should be registered before <code><a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a></code> for better process speed. The geometric acceptance required by this module is <em>rough</em>, because</p>
+<p>Typical usage: </p>
+<div class="fragment"><div class="line"><a class="code" href="../../d6/da3/classSQGeomAccLoose.html">SQGeomAccLoose</a>* geom_acc = <span class="keyword">new</span> <a class="code" href="../../d6/da3/classSQGeomAccLoose.html#a2bedba475a381d86d4b76afb0b8ccc90">SQGeomAccLoose</a>();</div>
+<div class="line">geom_acc-&gt;<a class="code" href="../../d6/da3/classSQGeomAccLoose.html#afdbdb204ccd02a28a1746157fd577d06">SetNumParticlesPerEvent</a>(2); <span class="comment">// or 1 for single events</span></div>
+<div class="line"><a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(geom_acc);</div>
+</div><!-- fragment --><p>This module can/should be registered before <code><a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a></code> for better process speed. The geometric acceptance required by this module is <em>rough</em>, because</p>
 <ul>
 <li>The chamber acceptance is not included and</li>
 <li>The hodoscope plane area is defined by the Geant4 volume and thus larger than its real size. You have to use <code><a class="el" href="../../d8/dca/classSQGeomAcc.html" title="An SubsysReco module to skip a simulated event in which a muon or a muon pair doesn&#39;t pass through th...">SQGeomAcc</a></code> when you need accurate and/or flexible geometric acceptance. </li>
@@ -322,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called during initialization. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
+<p>Called during initialization, i.e. registered via <a class="el" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">Fun4AllServer::registerSubsystem()</a>. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
@@ -463,7 +466,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d6/da3/classSQGeomAccLoose.html">SQGeomAccLoose</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:09</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

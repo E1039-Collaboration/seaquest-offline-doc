@@ -240,8 +240,13 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to skip a simulated event in which a muon or a muon pair doesn't pass through the geometric acceptance. </p>
-<p>Typical usage: ``` SQGeomAcc* geom_acc = new <a class="el" href="../../d8/dca/classSQGeomAcc.html#a2a7dccfc734293b18d8d53c03f2caa0b">SQGeomAcc()</a>; geom_acc-&gt;SetMuonMode(SQGeomAcc::PAIR_TBBT); geom_acc-&gt;SetPlaneMode(SQGeomAcc::HODO_CHAM); geom_acc-&gt;SetNumOfH1EdgeElementsExcluded(4); // 0 by default se-&gt;registerSubsystem(geom_acc); ```</p>
-<p>This module must be registered after <code><a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a></code> since it uses SQHits. All the available modes are listed and explained in the sections of <code>MuonMode_t</code> and <code>PlaneMode_t</code>. Elements at the left and right edges of H1T and H1B can be excluded via <code><a class="el" href="../../d8/dca/classSQGeomAcc.html#af9c7dc772b4e46bf5a935b502e6761e0">SetNumOfH1EdgeElementsExcluded()</a></code>, where the four elements at each edge are planned to be excluded from the trigger logic.</p>
+<p>Typical usage: </p>
+<div class="fragment"><div class="line"><a class="code" href="../../d8/dca/classSQGeomAcc.html">SQGeomAcc</a>* geom_acc = <span class="keyword">new</span> <a class="code" href="../../d8/dca/classSQGeomAcc.html#a2a7dccfc734293b18d8d53c03f2caa0b">SQGeomAcc</a>();</div>
+<div class="line">geom_acc-&gt;<a class="code" href="../../d8/dca/classSQGeomAcc.html#af5b76167f3edbd148c9216c50c566b5b">SetMuonMode</a>(<a class="code" href="../../d8/dca/classSQGeomAcc.html#a7b54ab6df2105e2e3e484dec086e76f9a1988792120394145fcfedc0cabd1c73e">SQGeomAcc::PAIR_TBBT</a>);</div>
+<div class="line">geom_acc-&gt;<a class="code" href="../../d8/dca/classSQGeomAcc.html#ab122befa51a5c3adf20a8abc92896dcf">SetPlaneMode</a>(<a class="code" href="../../d8/dca/classSQGeomAcc.html#aa6a07967f75493d10f8c788ebcee3650affe707f3b59e89591cfa997468631470">SQGeomAcc::HODO_CHAM</a>);</div>
+<div class="line">geom_acc-&gt;<a class="code" href="../../d8/dca/classSQGeomAcc.html#af9c7dc772b4e46bf5a935b502e6761e0">SetNumOfH1EdgeElementsExcluded</a>(4); <span class="comment">// 0 by default</span></div>
+<div class="line"><a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(geom_acc);</div>
+</div><!-- fragment --><p>This module must be registered after <code><a class="el" href="../../df/d36/classSQDigitizer.html">SQDigitizer</a></code> since it uses SQHits. All the available modes are listed and explained in the sections of <code>MuonMode_t</code> and <code>PlaneMode_t</code>. Elements at the left and right edges of H1T and H1B can be excluded via <code><a class="el" href="../../d8/dca/classSQGeomAcc.html#af9c7dc772b4e46bf5a935b502e6761e0">SetNumOfH1EdgeElementsExcluded()</a></code>, where the four elements at each edge are planned to be excluded from the trigger logic.</p>
 <p>The chamber acceptance is defined by D0X, D2X, D3pX and D3mX (not Xp, U, Up, V nor Vp). This definition should be simple and sufficient in terms of the "geometric" acceptance. D0U/V and D2U/V are identical to D0X and D2X in the plane size. U/V of D3p/m are larger than X but the X-U-V overlapping region is almost identical to X.</p>
 <p>The effect of detection/reconstruction inefficiencies is not considered by this module. It can/should be studied with other modules, like <code><a class="el" href="../../dc/dcd/classSQChamberRealization.html" title="SubsysReco module to do the detector realization for chamber and prop tube. ">SQChamberRealization</a></code> and <code><a class="el" href="../../df/df2/classSQReco.html">SQReco</a></code>. </p>
 
@@ -399,7 +404,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Called during initialization. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
+<p>Called during initialization, i.e. registered via <a class="el" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">Fun4AllServer::registerSubsystem()</a>. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
@@ -497,7 +502,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dca/classSQGeomAcc_a53a85bbc478b036b78d626f3254a0800_cgraph.svg" width="1936" height="1055"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/dca/classSQGeomAcc_a53a85bbc478b036b78d626f3254a0800_cgraph.svg" width="1936" height="1250"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -632,7 +637,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/dca/classSQGeomAcc.html">SQGeomAcc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:09</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

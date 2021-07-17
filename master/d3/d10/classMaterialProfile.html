@@ -115,6 +115,9 @@ $(document).ready(function(){initNavTree('d3/d10/classMaterialProfile.html','../
 </div><!--header-->
 <div class="contents">
 
+<p>Class to hold the profile of materials at a (x, y) beam position.  
+ <a href="../../d3/d10/classMaterialProfile.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyVtxGen/SQPrimaryVertexGen.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Collaboration diagram for MaterialProfile:</div>
@@ -146,8 +149,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adb268ff030f2b5cdafe8c2a044a64f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00022">22</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<div class="textblock"><p>Class to hold the profile of materials at a (x, y) beam position. </p>
+<p>Only used by <code><a class="el" href="../../d8/dc4/classSQPrimaryVertexGen.html" title="Class to generate the event vertex, based on the beam profile and the target+spectrometer materials g...">SQPrimaryVertexGen</a></code> internally. </p>
+
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00026">26</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a278f956031c414ade92545c5c9d13079"></a>
 <div class="memitem">
@@ -182,9 +187,9 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">31</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00032">accumulatedProbs</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00033">interactables</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00030">nPieces</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00031">probSum</a>.</p>
+<p>References <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00036">accumulatedProbs</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00037">interactables</a>, <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00034">nPieces</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00035">probSum</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00157">SQPrimaryVertexGen::fillMaterialProfile()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00219">SQPrimaryVertexGen::fillMaterialProfile()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -214,9 +219,9 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00026">26</a> of file <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html">SQPrimaryVertexGen.C</a>.</p>
 
-<p>References <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00032">accumulatedProbs</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00030">nPieces</a>.</p>
+<p>References <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00036">accumulatedProbs</a>, and <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00034">nPieces</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">SQPrimaryVertexGen::generateVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">SQPrimaryVertexGen::generateVertex()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -241,7 +246,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00032">32</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00036">36</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00026">findInteractingPiece()</a>.</p>
 
@@ -257,9 +262,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00033">33</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00037">37</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00157">SQPrimaryVertexGen::fillMaterialProfile()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">SQPrimaryVertexGen::generateVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00219">SQPrimaryVertexGen::fillMaterialProfile()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">SQPrimaryVertexGen::generateVertex()</a>.</p>
 
 </div>
 </div>
@@ -273,7 +278,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00030">30</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00034">34</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00026">findInteractingPiece()</a>.</p>
 
@@ -289,9 +294,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html#l00035">35</a> of file <a class="el" href="../../d6/dad/SQPrimaryVertexGen_8h_source.html">SQPrimaryVertexGen.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00215">SQPrimaryVertexGen::generateVertex()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00031">calcProb()</a>, and <a class="el" href="../../d1/d30/SQPrimaryVertexGen_8C_source.html#l00246">SQPrimaryVertexGen::generateVertex()</a>.</p>
 
 </div>
 </div>
@@ -309,7 +314,7 @@ Public Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d3/d10/classMaterialProfile.html">MaterialProfile</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:07</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

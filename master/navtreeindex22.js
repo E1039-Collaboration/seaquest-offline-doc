@@ -1,9 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"d7/d48/classDecoStatusDb.html#ac931f50d8aeae7f72c3a8319c52946fd":[19,0,54,5],
-"d7/d48/classDecoStatusDb.html#af00f1b7b4b93e5de7871330cea526584":[19,0,54,4],
-"d7/d4a/PHG4TargetCoilDetector_8cc.html":[20,0,2,7,1,162],
-"d7/d4a/PHG4TargetCoilDetector_8cc_source.html":[20,0,2,7,1,162],
 "d7/d4b/PatternDB_8cxx.html":[20,0,2,6,11,3,2],
 "d7/d4b/PatternDB_8cxx.html#a77b0f232332efb8eea13487f66689802":[20,0,2,6,11,3,2,0],
 "d7/d4b/PatternDB_8cxx.html#a8d6b6a9feaabaf60bad4ee152c7b57ef":[20,0,2,6,11,3,2,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX22 =
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#a44f975336ed26c222049a3af5643988f":[19,0,225,30],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#a55ef1ae528c71c43bbd8c9fa04454094":[19,0,225,26],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#a56cbe5f15efc38960c8c9694e1e4b7c8":[19,0,225,5],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#a5bf08c640a7ccb29c6230e009d144a11":[19,0,225,34]
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#a5bf08c640a7ccb29c6230e009d144a11":[19,0,225,34],
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#a61e9cb2db9d1d20e41bdad1bd3f6445b":[19,0,225,31],
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#a647213a2db245e8c859370ca0897ed23":[19,0,225,33],
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#a68b228254410e456701c89e673871b9c":[19,0,225,3],
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#a7aa94c0ddb8f6d69b4dc5a87aa16fd35":[19,0,225,37]
 };

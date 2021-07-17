@@ -9,7 +9,5 @@ var classSQPrimaryVertexGen =
     [ "getLuminosity", "d8/dc4/classSQPrimaryVertexGen.html#a03033bb64222faf974480a77f593d8ed", null ],
     [ "getPARatio", "d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548", null ],
     [ "InitRun", "d8/dc4/classSQPrimaryVertexGen.html#adaec2c25db49bd6962dda77a1cf060cb", null ],
-    [ "InitRun", "d8/dc4/classSQPrimaryVertexGen.html#a153e5d3ac1e2fc853c4be9be308aa51a", null ],
-    [ "set_dumpOnlyMode", "d8/dc4/classSQPrimaryVertexGen.html#a5ace065014ce82563975f051bd87d3da", null ],
-    [ "set_targetOnlyMode", "d8/dc4/classSQPrimaryVertexGen.html#a4cf5b80cc5e905c113c7baaeba42459f", null ]
+    [ "InitRun", "d8/dc4/classSQPrimaryVertexGen.html#a153e5d3ac1e2fc853c4be9be308aa51a", null ]
 ];

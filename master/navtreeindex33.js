@@ -1,8 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"da/d6c/classPHG4TruthInfoContainer.html#a808b5f4866d1bf7a14e5e1cae1c559ad":[19,0,301,67],
-"da/d6c/classPHG4TruthInfoContainer.html#a8b2054668a9cc160eef0373b3f0df77c":[19,0,301,43],
-"da/d6c/classPHG4TruthInfoContainer.html#a91cc4af637d1913d3da007f536280635":[19,0,301,12],
 "da/d6c/classPHG4TruthInfoContainer.html#a9414755db7a671125d55ae862c5d32ca":[19,0,301,14],
 "da/d6c/classPHG4TruthInfoContainer.html#a99f74596c44940f047410a7911983029":[19,0,301,33],
 "da/d6c/classPHG4TruthInfoContainer.html#aa09ebcce49983d5e1beb29d16c6c1ab1":[19,0,301,50],
@@ -244,10 +241,13 @@ var NAVTREEINDEX33 =
 "da/dcf/SQRun__v1_8cxx_source.html":[20,0,2,3,65],
 "da/dd0/FlagSave_8h.html":[20,0,2,1,0,5],
 "da/dd0/FlagSave_8h_source.html":[20,0,2,1,0,5],
-"da/dd0/namespacePHG4HitDefs.html":[18,0,8],
 "da/dd0/namespacePHG4HitDefs.html":[19,0,8],
+"da/dd0/namespacePHG4HitDefs.html":[18,0,8],
 "da/dd8/PHFieldConfig__v1LinkDef_8h.html":[20,0,2,6,9,13],
 "da/dd8/PHFieldConfig__v1LinkDef_8h_source.html":[20,0,2,6,9,13],
 "da/dd8/classFun4AllPrdfInputManager.html":[19,0,92],
-"da/dd8/classFun4AllPrdfInputManager.html#a21f3c2ab4bea5351a5128585818ab5f1":[19,0,92,5]
+"da/dd8/classFun4AllPrdfInputManager.html#a21f3c2ab4bea5351a5128585818ab5f1":[19,0,92,5],
+"da/dd8/classFun4AllPrdfInputManager.html#a24e3604b9347ab82b45f2564b6d1aeb6":[19,0,92,14],
+"da/dd8/classFun4AllPrdfInputManager.html#a36fdaca3254cbb07a00af64b10488385":[19,0,92,0],
+"da/dd8/classFun4AllPrdfInputManager.html#a3bee0d21f2328a1165efb3f8ea7b9588":[19,0,92,8]
 };

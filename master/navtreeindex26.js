@@ -1,9 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d8/d78/CodaInputManager_8cc.html#ae4ab40fbb136f8c139525ec7d9c87cf5":[20,0,2,5,0,12,2],
-"d8/d78/CodaInputManager_8cc_source.html":[20,0,2,5,0,12],
-"d8/d78/classPHG4ParticleGeneratorBase.html":[19,0,266],
-"d8/d78/classPHG4ParticleGeneratorBase.html#a0d6b5bda5c42773492080f27b9a04fa7":[19,0,266,22],
 "d8/d78/classPHG4ParticleGeneratorBase.html#a0eac6d840be703c7f5fee9a3b8390273":[19,0,266,16],
 "d8/d78/classPHG4ParticleGeneratorBase.html#a1c8fb7b3cb97ad9c0eb85468be4f0f1b":[19,0,266,18],
 "d8/d78/classPHG4ParticleGeneratorBase.html#a20217993ec7304237fbba9e418411786":[19,0,266,31],
@@ -105,8 +101,6 @@ var NAVTREEINDEX26 =
 "d8/dc4/classSQPrimaryVertexGen.html#a03033bb64222faf974480a77f593d8ed":[19,0,406,6],
 "d8/dc4/classSQPrimaryVertexGen.html#a153e5d3ac1e2fc853c4be9be308aa51a":[19,0,406,9],
 "d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548":[19,0,406,7],
-"d8/dc4/classSQPrimaryVertexGen.html#a4cf5b80cc5e905c113c7baaeba42459f":[19,0,406,11],
-"d8/dc4/classSQPrimaryVertexGen.html#a5ace065014ce82563975f051bd87d3da":[19,0,406,10],
 "d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44":[19,0,406,5],
 "d8/dc4/classSQPrimaryVertexGen.html#a83717d2f594758cfe306f1e1aed04339":[19,0,406,3],
 "d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11":[19,0,406,2],
@@ -249,5 +243,11 @@ var NAVTREEINDEX26 =
 "d8/dda/classDPTriggerAnalyzer.html#a0a622f00c0c3e49e5ff42093054559a7":[19,0,59,5],
 "d8/dda/classDPTriggerAnalyzer.html#a1e285dfeac51e81a9d802261338e4ee3":[19,0,59,11],
 "d8/dda/classDPTriggerAnalyzer.html#a744041e9e94b85652c6ba65e85a611ce":[19,0,59,8],
-"d8/dda/classDPTriggerAnalyzer.html#a7c2963b069d98298731a4da80a59ab72":[19,0,59,4]
+"d8/dda/classDPTriggerAnalyzer.html#a7c2963b069d98298731a4da80a59ab72":[19,0,59,4],
+"d8/dda/classDPTriggerAnalyzer.html#a7ce3a5a0c8d6bb60ef2650cd699484ed":[19,0,59,15],
+"d8/dda/classDPTriggerAnalyzer.html#a8d0a2baf7daec668f2255260921fe010":[19,0,59,13],
+"d8/dda/classDPTriggerAnalyzer.html#a9074a8488b87cbb5eb7ef716b1a6ace0":[19,0,59,20],
+"d8/dda/classDPTriggerAnalyzer.html#a90ea32c0481950719e6e17be853bbb16":[19,0,59,7],
+"d8/dda/classDPTriggerAnalyzer.html#a94e85484cdca7ad5423c533c8222bfcc":[19,0,59,19],
+"d8/dda/classDPTriggerAnalyzer.html#aa42cba47d67699221d2c857ba50b06fc":[19,0,59,12]
 };

@@ -1,46 +1,41 @@
 <map id="SQPrimaryParticleGen::process_event" name="SQPrimaryParticleGen::process_event">
-<area shape="rect" id="node2" href="$d4/d06/classSQPrimaryParticleGen.html#ab203c6f5d5a3957edaa5d1c741ca8fec" title="Various generators. " alt="" coords="233,217,386,258"/>
-<area shape="rect" id="node10" href="$d4/d06/classSQPrimaryParticleGen.html#a9c6f6b1a69bddb2536e0f32f7abbd8c1" title="SQPrimaryParticleGen\l::generateJPsi" alt="" coords="478,5,631,46"/>
-<area shape="rect" id="node11" href="$d4/d06/classSQPrimaryParticleGen.html#ac51fd9f2552b3bdcbf45b80e13e35177" title="SQPrimaryParticleGen\l::generatePsip" alt="" coords="478,70,631,111"/>
-<area shape="rect" id="node12" href="$d4/d06/classSQPrimaryParticleGen.html#acfa5f61e737ba771b523e83be555a1ad" title="SQPrimaryParticleGen\l::generatePythia" alt="" coords="233,525,386,566"/>
-<area shape="rect" id="node23" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="237,590,382,631"/>
-<area shape="rect" id="node36" href="$d9/d3d/classSQMCEvent.html#ab78c6d530c534ad2fdf44226ff6c5283" title="Return the event weight. " alt="" coords="229,656,390,683"/>
-<area shape="rect" id="node37" href="$d8/dc4/classSQPrimaryVertexGen.html#a03033bb64222faf974480a77f593d8ed" title="get the relative luminosity on this target " alt="" coords="237,707,382,749"/>
-<area shape="rect" id="node38" href="$d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548" title="get the proton/neutron ratio of the piece, must be called after generateVertex " alt="" coords="237,773,382,814"/>
-<area shape="rect" id="node39" href="$d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a" title="SQEvent::set_event_id" alt="" coords="234,839,385,865"/>
-<area shape="rect" id="node40" href="$d8/d0e/classPHGenIntegral.html#a16c344a9ff51e404647871950bf75037" title="Integrated luminosity in pb^&#45;1. " alt="" coords="244,890,375,931"/>
-<area shape="rect" id="node41" href="$d8/d0e/classPHGenIntegral.html#a1a118b6282fc57664f98797fc2ab199d" title="Number of accepted events in the event generator. This can be higher than fNProcessedEvent depending ..." alt="" coords="208,955,411,997"/>
-<area shape="rect" id="node42" href="$d8/d0e/classPHGenIntegral.html#ae0e2bea949283d9350110312f73673dd" title="Number of processed events in the Fun4All cycles. " alt="" coords="237,1021,381,1062"/>
-<area shape="rect" id="node43" href="$d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36" title="SQEvent::set_run_id" alt="" coords="240,1087,379,1113"/>
-<area shape="rect" id="node44" href="$d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025" title="SQEvent::set_spill_id" alt="" coords="238,1137,381,1164"/>
-<area shape="rect" id="node45" href="$d8/d0e/classPHGenIntegral.html#ad07b6fe2f35d05ec2892dce02a375b06" title="PHGenIntegral::set\l_Sum_Of_Weight" alt="" coords="244,1189,375,1230"/>
-<area shape="rect" id="node3" href="$d4/dcc/namespaceUtilDimuon.html#ac02089aa04111adab00a7286b3ef0bcb" title="Calculate the key kinematic variables of dimuon. " alt="" coords="928,139,1064,165"/>
-<area shape="rect" id="node6" href="$d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898" title="Calculate the Drell&#45;Yan cross section, given only mass, xF and pARatio. " alt="" coords="478,187,631,229"/>
-<area shape="rect" id="node7" href="$d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388" title="Dimuon phase space generator. " alt="" coords="703,73,857,114"/>
-<area shape="rect" id="node4" href="$d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4" title="Return the momentum of the positive track at vertex. " alt="" coords="1131,113,1303,140"/>
-<area shape="rect" id="node5" href="$d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5" title="Return the momentum of the negative track at vertex. " alt="" coords="1131,164,1304,191"/>
-<area shape="rect" id="node8" href="$d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78" title="SQDimuon::set_mom_neg" alt="" coords="910,84,1082,111"/>
-<area shape="rect" id="node9" href="$d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c" title="SQDimuon::set_mom_pos" alt="" coords="911,33,1081,60"/>
-<area shape="rect" id="node13" href="$db/d62/classPHG4InEvent.html#a1ce8225b21358e01f87adfd4b5d46d4b" title="PHG4InEvent::AddParticle" alt="" coords="468,507,641,533"/>
-<area shape="rect" id="node14" href="$db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148" title="PHG4InEvent::AddVtx" alt="" coords="481,557,628,584"/>
-<area shape="rect" id="node15" href="$de/dc9/classPHG4Particle.html#a7d23cfc1ee659e728ccce239388bce98" title="PHG4Particle::set_e" alt="" coords="485,608,624,635"/>
-<area shape="rect" id="node16" href="$de/dc9/classPHG4Particle.html#aee8ffddf6f6d6f13e10d836e029b1f85" title="PHG4Particle::set_name" alt="" coords="473,659,636,685"/>
-<area shape="rect" id="node17" href="$de/dc9/classPHG4Particle.html#a46b6688accb92b757c61c937b2096cfd" title="PHG4Particle::set_pid" alt="" coords="481,709,629,736"/>
-<area shape="rect" id="node18" href="$de/dc9/classPHG4Particle.html#af31b6defcc11e390aba98f174758e512" title="PHG4Particle::set_px" alt="" coords="483,760,627,787"/>
-<area shape="rect" id="node19" href="$de/dc9/classPHG4Particle.html#ac770ea1bf23f97f632266874287ffab8" title="PHG4Particle::set_py" alt="" coords="483,304,627,331"/>
-<area shape="rect" id="node20" href="$de/dc9/classPHG4Particle.html#afa639bd82e60cd2a24777a530b1f5851" title="PHG4Particle::set_pz" alt="" coords="483,355,627,381"/>
-<area shape="rect" id="node21" href="$de/dc9/classPHG4Particle.html#ae8c7ae2b08b94a22cf92f21a7e02e032" title="PHG4Particle::set_track_id" alt="" coords="466,405,643,432"/>
-<area shape="rect" id="node22" href="$de/dc9/classPHG4Particle.html#a4425c997564dec94c9aa0a2b21c7b05c" title="PHG4Particle::set_vtx_id" alt="" coords="473,456,637,483"/>
-<area shape="rect" id="node24" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="482,811,627,853"/>
-<area shape="rect" id="node25" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="482,877,627,918"/>
-<area shape="rect" id="node35" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="459,942,650,983"/>
-<area shape="rect" id="node26" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="710,909,850,936"/>
-<area shape="rect" id="node34" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="699,859,861,885"/>
-<area shape="rect" id="node27" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title="recoConsts::recoConsts" alt="" coords="918,935,1074,961"/>
-<area shape="rect" id="node28" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="915,884,1077,911"/>
-<area shape="rect" id="node29" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title="PHFlag::set_BoolFlag" alt="" coords="1144,909,1291,936"/>
-<area shape="rect" id="node30" href="$d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6" title="overide the virtual function to expand the environmental variables " alt="" coords="1133,960,1301,987"/>
-<area shape="rect" id="node32" href="$d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da" title="PHFlag::set_DoubleFlag" alt="" coords="1137,808,1297,835"/>
-<area shape="rect" id="node33" href="$d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8" title="PHFlag::set_IntFlag" alt="" coords="1150,859,1285,885"/>
-<area shape="rect" id="node31" href="$d8/d14/classrecoConsts.html#ad45c452d9a71b5410c472614d72442ec" title="recoConsts::ExpandEnvironmentals" alt="" coords="1352,960,1573,987"/>
+<area shape="rect" id="node2" href="$d4/d06/classSQPrimaryParticleGen.html#ab203c6f5d5a3957edaa5d1c741ca8fec" title="Various generators. " alt="" coords="233,64,386,105"/>
+<area shape="rect" id="node11" href="$d4/d06/classSQPrimaryParticleGen.html#a9c6f6b1a69bddb2536e0f32f7abbd8c1" title="SQPrimaryParticleGen\l::generateJPsi" alt="" coords="478,268,631,309"/>
+<area shape="rect" id="node13" href="$d4/d06/classSQPrimaryParticleGen.html#ac51fd9f2552b3bdcbf45b80e13e35177" title="SQPrimaryParticleGen\l::generatePsip" alt="" coords="233,202,386,244"/>
+<area shape="rect" id="node15" href="$d4/d06/classSQPrimaryParticleGen.html#acfa5f61e737ba771b523e83be555a1ad" title="SQPrimaryParticleGen\l::generatePythia" alt="" coords="233,554,386,596"/>
+<area shape="rect" id="node26" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="237,620,382,661"/>
+<area shape="rect" id="node31" href="$d9/d3d/classSQMCEvent.html#ab78c6d530c534ad2fdf44226ff6c5283" title="Return the event weight. " alt="" coords="229,686,390,712"/>
+<area shape="rect" id="node32" href="$d8/dc4/classSQPrimaryVertexGen.html#a03033bb64222faf974480a77f593d8ed" title="get the relative luminosity on this target " alt="" coords="237,737,382,778"/>
+<area shape="rect" id="node33" href="$d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548" title="get the proton/neutron ratio of the piece, must be called after generateVertex " alt="" coords="237,802,382,844"/>
+<area shape="rect" id="node34" href="$d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a" title="SQEvent::set_event_id" alt="" coords="234,868,385,895"/>
+<area shape="rect" id="node35" href="$d8/d0e/classPHGenIntegral.html#a16c344a9ff51e404647871950bf75037" title="Integrated luminosity in pb^&#45;1. " alt="" coords="244,920,375,961"/>
+<area shape="rect" id="node36" href="$d8/d0e/classPHGenIntegral.html#a1a118b6282fc57664f98797fc2ab199d" title="Number of accepted events in the event generator. This can be higher than fNProcessedEvent depending ..." alt="" coords="208,985,411,1026"/>
+<area shape="rect" id="node37" href="$d8/d0e/classPHGenIntegral.html#ae0e2bea949283d9350110312f73673dd" title="Number of processed events in the Fun4All cycles. " alt="" coords="237,1050,381,1092"/>
+<area shape="rect" id="node38" href="$d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36" title="SQEvent::set_run_id" alt="" coords="240,1116,379,1143"/>
+<area shape="rect" id="node39" href="$d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025" title="SQEvent::set_spill_id" alt="" coords="238,1167,381,1194"/>
+<area shape="rect" id="node40" href="$d8/d0e/classPHGenIntegral.html#ad07b6fe2f35d05ec2892dce02a375b06" title="PHGenIntegral::set\l_Sum_Of_Weight" alt="" coords="244,1218,375,1260"/>
+<area shape="rect" id="node3" href="$d4/dcc/namespaceUtilDimuon.html#ac02089aa04111adab00a7286b3ef0bcb" title="Calculate the key kinematic variables of dimuon. " alt="" coords="937,28,1073,55"/>
+<area shape="rect" id="node6" href="$d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898" title="Calculate the Drell&#45;Yan cross section, given only mass, xF and pARatio. " alt="" coords="478,34,631,76"/>
+<area shape="rect" id="node7" href="$d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388" title="Dimuon phase space generator. " alt="" coords="703,104,857,145"/>
+<area shape="rect" id="node4" href="$d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4" title="Return the momentum of the positive track at vertex. " alt="" coords="1150,79,1322,106"/>
+<area shape="rect" id="node5" href="$d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5" title="Return the momentum of the negative track at vertex. " alt="" coords="1149,28,1323,55"/>
+<area shape="rect" id="node8" href="$d4/dcc/namespaceUtilDimuon.html#adfbba745f7561d97d958171d4f9784b3" title="Convert the momenta of muon pair from Lab frame to Collins&#45;Soper frame. " alt="" coords="910,79,1101,106"/>
+<area shape="rect" id="node9" href="$d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78" title="SQDimuon::set_mom_neg" alt="" coords="919,130,1091,156"/>
+<area shape="rect" id="node10" href="$d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c" title="SQDimuon::set_mom_pos" alt="" coords="920,180,1091,207"/>
+<area shape="rect" id="node12" href="$d4/d06/classSQPrimaryParticleGen.html#af089734822f5c2158b28e504da4c535e" title="Calculate the cross section for J/psi vs xF in pb. Return &quot;BR*sigma(xF)&quot;. " alt="" coords="703,236,857,277"/>
+<area shape="rect" id="node14" href="$d4/d06/classSQPrimaryParticleGen.html#aff56bfc1da86142490deefb6dcb85357" title="Calculate the cross section for psi&#39; vs xF in pb. " alt="" coords="478,202,631,244"/>
+<area shape="rect" id="node16" href="$db/d62/classPHG4InEvent.html#a1ce8225b21358e01f87adfd4b5d46d4b" title="PHG4InEvent::AddParticle" alt="" coords="468,688,641,715"/>
+<area shape="rect" id="node17" href="$db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148" title="PHG4InEvent::AddVtx" alt="" coords="481,739,628,766"/>
+<area shape="rect" id="node18" href="$de/dc9/classPHG4Particle.html#a7d23cfc1ee659e728ccce239388bce98" title="PHG4Particle::set_e" alt="" coords="485,790,624,816"/>
+<area shape="rect" id="node19" href="$de/dc9/classPHG4Particle.html#aee8ffddf6f6d6f13e10d836e029b1f85" title="PHG4Particle::set_name" alt="" coords="473,334,636,360"/>
+<area shape="rect" id="node20" href="$de/dc9/classPHG4Particle.html#a46b6688accb92b757c61c937b2096cfd" title="PHG4Particle::set_pid" alt="" coords="481,384,629,411"/>
+<area shape="rect" id="node21" href="$de/dc9/classPHG4Particle.html#af31b6defcc11e390aba98f174758e512" title="PHG4Particle::set_px" alt="" coords="483,435,627,462"/>
+<area shape="rect" id="node22" href="$de/dc9/classPHG4Particle.html#ac770ea1bf23f97f632266874287ffab8" title="PHG4Particle::set_py" alt="" coords="483,486,627,512"/>
+<area shape="rect" id="node23" href="$de/dc9/classPHG4Particle.html#afa639bd82e60cd2a24777a530b1f5851" title="PHG4Particle::set_pz" alt="" coords="483,536,627,563"/>
+<area shape="rect" id="node24" href="$de/dc9/classPHG4Particle.html#ae8c7ae2b08b94a22cf92f21a7e02e032" title="PHG4Particle::set_track_id" alt="" coords="466,587,643,614"/>
+<area shape="rect" id="node25" href="$de/dc9/classPHG4Particle.html#a4425c997564dec94c9aa0a2b21c7b05c" title="PHG4Particle::set_vtx_id" alt="" coords="473,638,637,664"/>
+<area shape="rect" id="node27" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="482,841,627,882"/>
+<area shape="rect" id="node28" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="482,906,627,948"/>
+<area shape="rect" id="node30" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="459,972,650,1013"/>
+<area shape="rect" id="node29" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="699,914,861,940"/>
 </map>

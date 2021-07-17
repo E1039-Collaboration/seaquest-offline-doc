@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>Class Reference for E1039 Core &amp; Analysis Software: /dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyGen/macros/CheckParticleGen.C Source File</title>
+<title>Class Reference for E1039 Core &amp; Analysis Software: /dev/shm/kenichi/update-github-e1039-doc/e1039-core/generators/E906LegacyGen/macros/CheckParticleGenDrellYan.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -86,7 +86,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('d3/dfc/CheckParticleGen_8C_source.html','../../');});
+$(document).ready(function(){initNavTree('d9/df0/CheckParticleGenDrellYan_8C_source.html','../../');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,13 +105,13 @@ $(document).ready(function(){initNavTree('d3/dfc/CheckParticleGen_8C_source.html
 
 <div class="header">
   <div class="headertitle">
-<div class="title">CheckParticleGen.C</div>  </div>
+<div class="title">CheckParticleGenDrellYan.C</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/dfc/CheckParticleGen_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;R__LOAD_LIBRARY(libSQPrimaryGen)</div>
+<a href="../../d9/df0/CheckParticleGenDrellYan_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;R__LOAD_LIBRARY(libSQPrimaryGen)</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;using namespace std;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d3/dfc/CheckParticleGen_8C.html#a058e2db6f5d6a1f0ed003558487efd70">    5</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/dfc/CheckParticleGen_8C.html#a058e2db6f5d6a1f0ed003558487efd70">CheckParticleGen</a>()</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d9/df0/CheckParticleGenDrellYan_8C.html#a888720da32b32c4b5ef1509e03e58b94">    5</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/df0/CheckParticleGenDrellYan_8C.html#a888720da32b32c4b5ef1509e03e58b94">CheckParticleGenDrellYan</a>()</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> xF       = 0.3;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span>    n_mass   = 20;</div>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('d3/dfc/CheckParticleGen_8C_source.html
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  ofs.close();</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  ostringstream oss;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;Drell-Yan @ x_{F} = &quot;</span> &lt;&lt; xF &lt;&lt; <span class="stringliteral">&quot;;Mass (GeV);M^{3} d^{2}#sigma/dMdx_{F} (nb GeV^{2})&quot;</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;Drell-Yan @ x_{F} = &quot;</span> &lt;&lt; xF &lt;&lt; <span class="stringliteral">&quot;;Mass (GeV);M^{3} d^{2}#sigma/dMdx_{F} (pb GeV^{2})&quot;</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  gr-&gt;SetTitle(oss.str().c_str());</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  gr-&gt;SetLineWidth(2);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  gr-&gt;SetMarkerStyle(8);</div>
@@ -151,11 +151,11 @@ $(document).ready(function(){initNavTree('d3/dfc/CheckParticleGen_8C_source.html
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
-<div class="ttc" id="classSQPrimaryParticleGen_html_ad9953e74d17ddccbeb33801056187898"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898">SQPrimaryParticleGen::CrossSectionDrellYan</a></div><div class="ttdeci">double CrossSectionDrellYan(const double mass, const double xF, const double pARatio)</div><div class="ttdoc">Calculate the Drell-Yan cross section, given only mass, xF and pARatio. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00282">SQPrimaryParticleGen.C:282</a></div></div>
+<div class="ttc" id="classSQPrimaryParticleGen_html_ad9953e74d17ddccbeb33801056187898"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898">SQPrimaryParticleGen::CrossSectionDrellYan</a></div><div class="ttdeci">double CrossSectionDrellYan(const double mass, const double xF, const double pARatio)</div><div class="ttdoc">Calculate the Drell-Yan cross section, given only mass, xF and pARatio. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00305">SQPrimaryParticleGen.C:305</a></div></div>
 <div class="ttc" id="classSQPrimaryParticleGen_html"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html">SQPrimaryParticleGen</a></div><div class="ttdoc">Physics generator imported from E906 software. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00048">SQPrimaryParticleGen.h:48</a></div></div>
-<div class="ttc" id="classSQPrimaryParticleGen_html_a1e142ee8619b5a7347be5b45c0522ca8"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8">SQPrimaryParticleGen::set_pT0DY</a></div><div class="ttdeci">void set_pT0DY(const double val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00082">SQPrimaryParticleGen.h:82</a></div></div>
-<div class="ttc" id="classSQPrimaryParticleGen_html_ac79fad4accf33b38346794b369b5e247"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#ac79fad4accf33b38346794b369b5e247">SQPrimaryParticleGen::enableDrellYanGen</a></div><div class="ttdeci">void enableDrellYanGen()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00078">SQPrimaryParticleGen.h:78</a></div></div>
-<div class="ttc" id="CheckParticleGen_8C_html_a058e2db6f5d6a1f0ed003558487efd70"><div class="ttname"><a href="../../d3/dfc/CheckParticleGen_8C.html#a058e2db6f5d6a1f0ed003558487efd70">CheckParticleGen</a></div><div class="ttdeci">int CheckParticleGen()</div><div class="ttdoc">Macro to check the cross-section value computed by SQPrimaryParticleGen. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfc/CheckParticleGen_8C_source.html#l00005">CheckParticleGen.C:5</a></div></div>
+<div class="ttc" id="classSQPrimaryParticleGen_html_a1e142ee8619b5a7347be5b45c0522ca8"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8">SQPrimaryParticleGen::set_pT0DY</a></div><div class="ttdeci">void set_pT0DY(const double val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00085">SQPrimaryParticleGen.h:85</a></div></div>
+<div class="ttc" id="CheckParticleGenDrellYan_8C_html_a888720da32b32c4b5ef1509e03e58b94"><div class="ttname"><a href="../../d9/df0/CheckParticleGenDrellYan_8C.html#a888720da32b32c4b5ef1509e03e58b94">CheckParticleGenDrellYan</a></div><div class="ttdeci">int CheckParticleGenDrellYan()</div><div class="ttdoc">Macro to check the cross-section value of D-Y computed by SQPrimaryParticleGen. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df0/CheckParticleGenDrellYan_8C_source.html#l00005">CheckParticleGenDrellYan.C:5</a></div></div>
+<div class="ttc" id="classSQPrimaryParticleGen_html_ac79fad4accf33b38346794b369b5e247"><div class="ttname"><a href="../../d4/d06/classSQPrimaryParticleGen.html#ac79fad4accf33b38346794b369b5e247">SQPrimaryParticleGen::enableDrellYanGen</a></div><div class="ttdeci">void enableDrellYanGen()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de2/SQPrimaryParticleGen_8h_source.html#l00079">SQPrimaryParticleGen.h:79</a></div></div>
 <div class="ttc" id="Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -164,10 +164,10 @@ $(document).ready(function(){initNavTree('d3/dfc/CheckParticleGen_8C_source.html
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../dir_333428ad351a0b7eb32dec2327323f21.html">macros</a></li><li class="navelem"><a class="el" href="../../d3/dfc/CheckParticleGen_8C.html">CheckParticleGen.C</a></li>
+		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../dir_333428ad351a0b7eb32dec2327323f21.html">macros</a></li><li class="navelem"><a class="el" href="../../d9/df0/CheckParticleGenDrellYan_8C.html">CheckParticleGenDrellYan.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:04</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

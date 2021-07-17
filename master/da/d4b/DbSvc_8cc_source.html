@@ -340,50 +340,54 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;{</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  ostringstream oss;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;mysql://&quot;</span> &lt;&lt; m_svr &lt;&lt; <span class="stringliteral">&quot;/?timeout=120&amp;reconnect=1&amp;cnf_file=&quot;</span> &lt;&lt; m_my_cnf;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  m_con = TMySQLServer::Connect(oss.str().c_str(), 0, 0);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordflow">if</span> (! (m_con &amp;&amp; m_con-&gt;IsConnected())) {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;!!ERROR!!  DbSvc::ConnectServer():  Failed.  Abort.&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    exit(1);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="keywordtype">string</span> url = oss.str();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_try = 0; i_try &lt; 5; i_try++) { <span class="comment">// The connection sometimes fails even with &quot;reconnect=1&quot;.  Thus let&#39;s try it 5 times.</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    m_con = TMySQLServer::Connect(url.c_str(), 0, 0); <span class="comment">// User and password must be given in my.cnf, not here.</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span> (m_con &amp;&amp; m_con-&gt;IsConnected()) <span class="keywordflow">return</span>; <span class="comment">// OK</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    sleep(10);</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  }</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;}</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="keywordtype">bool</span> DbSvc::FileExist(<span class="keyword">const</span> std::string fileName)</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  std::ifstream infile(fileName.c_str());</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keywordflow">return</span> infile.good();</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;std::string DbSvc::ExpandEnvironmentals( <span class="keyword">const</span> std::string&amp; input )</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <span class="comment">// expand any environment variables in the file name</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  wordexp_t exp_result;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordflow">if</span>(wordexp(input.c_str(), &amp;exp_result, 0) != 0)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;ExpandEnvironmentals - ERROR - Your string &#39;&quot;</span> &lt;&lt; input &lt;&lt; <span class="stringliteral">&quot;&#39; cannot be understood!&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  }</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span> output( exp_result.we_wordv[0]);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <span class="keywordflow">return</span> output;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;}</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00276"></a><span class="lineno"><a class="line" href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">  276</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">DbSvc::VarList::Add</a>(<span class="keyword">const</span> std::string name, <span class="keyword">const</span> std::string type, <span class="keyword">const</span> <span class="keywordtype">bool</span> is_key)</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;{</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  m_name  .push_back(name);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  m_type  .push_back(type);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  m_is_key.push_back(is_key);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
-<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">  283</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">DbSvc::VarList::Get</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idx, std::string&amp; name, std::string&amp; type, <span class="keywordtype">bool</span>&amp; is_key)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  name   = m_name  [idx];</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;  type   = m_type  [idx];</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  is_key = m_is_key[idx];</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  cerr &lt;&lt; <span class="stringliteral">&quot;!!ERROR!!  DbSvc::ConnectServer():  Failed.  Abort.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  exit(1);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;}</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="keywordtype">bool</span> DbSvc::FileExist(<span class="keyword">const</span> std::string fileName)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;{</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  std::ifstream infile(fileName.c_str());</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  <span class="keywordflow">return</span> infile.good();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;}</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;std::string DbSvc::ExpandEnvironmentals( <span class="keyword">const</span> std::string&amp; input )</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;{</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="comment">// expand any environment variables in the file name</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  wordexp_t exp_result;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <span class="keywordflow">if</span>(wordexp(input.c_str(), &amp;exp_result, 0) != 0)</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;ExpandEnvironmentals - ERROR - Your string &#39;&quot;</span> &lt;&lt; input &lt;&lt; <span class="stringliteral">&quot;&#39; cannot be understood!&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span> output( exp_result.we_wordv[0]);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordflow">return</span> output;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">  279</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">DbSvc::VarList::Add</a>(<span class="keyword">const</span> std::string name, <span class="keyword">const</span> std::string type, <span class="keyword">const</span> <span class="keywordtype">bool</span> is_key)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  m_name  .push_back(name);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  m_type  .push_back(type);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  m_is_key.push_back(is_key);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;}</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">  286</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">DbSvc::VarList::Get</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> idx, std::string&amp; name, std::string&amp; type, <span class="keywordtype">bool</span>&amp; is_key)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  name   = m_name  [idx];</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  type   = m_type  [idx];</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  is_key = m_is_key[idx];</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;}</div>
 <div class="ttc" id="classDbSvc_html_a6a81decc3cbba4d978b9c35a3f1c7d89a138450a0e1543e532ac3ec659b546e90"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a138450a0e1543e532ac3ec659b546e90">DbSvc::LITE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00016">DbSvc.h:16</a></div></div>
 <div class="ttc" id="classDbSvc_html_ac816f917a8d4bea6f8257f91740ca688a6f2d2cea7ea00b39d19ae93d8ee22878"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a6f2d2cea7ea00b39d19ae93d8ee22878">DbSvc::Prod</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00017">DbSvc.h:17</a></div></div>
 <div class="ttc" id="recoConsts_8h_html"><div class="ttname"><a href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a></div></div>
-<div class="ttc" id="classDbSvc_1_1VarList_html_af185efd235b2f0d00093b403fee2c57f"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">DbSvc::VarList::Get</a></div><div class="ttdeci">void Get(const int idx, std::string &amp;name, std::string &amp;type, bool &amp;is_key) const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00283">DbSvc.cc:283</a></div></div>
+<div class="ttc" id="classDbSvc_1_1VarList_html_af185efd235b2f0d00093b403fee2c57f"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#af185efd235b2f0d00093b403fee2c57f">DbSvc::VarList::Get</a></div><div class="ttdeci">void Get(const int idx, std::string &amp;name, std::string &amp;type, bool &amp;is_key) const </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00286">DbSvc.cc:286</a></div></div>
 <div class="ttc" id="classDbSvc_html_ac816f917a8d4bea6f8257f91740ca688"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688">DbSvc::UsrId_t</a></div><div class="ttdeci">UsrId_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00017">DbSvc.h:17</a></div></div>
 <div class="ttc" id="classDbSvc_html_ac816f917a8d4bea6f8257f91740ca688a2d50952924e38d8778d7ad42d84af824"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a2d50952924e38d8778d7ad42d84af824">DbSvc::Guest</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00017">DbSvc.h:17</a></div></div>
 <div class="ttc" id="classDbSvc_html_a7e4cc05e20e0a21eef9c185c34c51044"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a7e4cc05e20e0a21eef9c185c34c51044">DbSvc::UseSchema</a></div><div class="ttdeci">void UseSchema(const char *name, const bool do_create=false, const bool do_drop=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00052">DbSvc.cc:52</a></div></div>
@@ -394,7 +398,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="ttc" id="classDbSvc_html_a6a81decc3cbba4d978b9c35a3f1c7d89a0c6c825682b9935836ddb4e373e7197e"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a0c6c825682b9935836ddb4e373e7197e">DbSvc::LOCAL</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00016">DbSvc.h:16</a></div></div>
 <div class="ttc" id="classDbSvc_html_a6a81decc3cbba4d978b9c35a3f1c7d89acd81f44e35cf09f50086d8caf3713bce"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89acd81f44e35cf09f50086d8caf3713bce">DbSvc::DB2</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00016">DbSvc.h:16</a></div></div>
 <div class="ttc" id="DbSvc_8h_html"><div class="ttname"><a href="../../d7/d8f/DbSvc_8h.html">DbSvc.h</a></div></div>
-<div class="ttc" id="classDbSvc_1_1VarList_html_a8835fc0ecc4041873b5e15dbb35a5218"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">DbSvc::VarList::Add</a></div><div class="ttdeci">void Add(const std::string name, const std::string type, const bool is_key=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00276">DbSvc.cc:276</a></div></div>
+<div class="ttc" id="classDbSvc_1_1VarList_html_a8835fc0ecc4041873b5e15dbb35a5218"><div class="ttname"><a href="../../da/dfa/classDbSvc_1_1VarList.html#a8835fc0ecc4041873b5e15dbb35a5218">DbSvc::VarList::Add</a></div><div class="ttdeci">void Add(const std::string name, const std::string type, const bool is_key=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00279">DbSvc.cc:279</a></div></div>
 <div class="ttc" id="classDbSvc_html_ac816f917a8d4bea6f8257f91740ca688a9dbf882f2056a0679072a175c024d127"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#ac816f917a8d4bea6f8257f91740ca688a9dbf882f2056a0679072a175c024d127">DbSvc::AutoUsr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00017">DbSvc.h:17</a></div></div>
 <div class="ttc" id="classDbSvc_html_a6a81decc3cbba4d978b9c35a3f1c7d89a16a37b8653a48eb09d72f6b7fcd01e5b"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a16a37b8653a48eb09d72f6b7fcd01e5b">DbSvc::DB4</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/DbSvc_8h_source.html#l00016">DbSvc.h:16</a></div></div>
 <div class="ttc" id="classDbSvc_html_abc037dbd5084422aacdfa76bd0e8d2b7"><div class="ttname"><a href="../../d2/da4/classDbSvc.html#abc037dbd5084422aacdfa76bd0e8d2b7">DbSvc::CreateTable</a></div><div class="ttdeci">void CreateTable(const std::string name, const std::vector&lt; std::string &gt; list_var, const std::vector&lt; std::string &gt; list_type, const std::vector&lt; std::string &gt; list_key)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d4b/DbSvc_8cc_source.html#l00102">DbSvc.cc:102</a></div></div>
@@ -419,7 +423,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_a20ba7afb7409ef346e4211b1bc3468e.html">db_svc</a></li><li class="navelem"><a class="el" href="../../da/d4b/DbSvc_8cc.html">DbSvc.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jul 15 2021 11:21:04</em> using <a
+			updated: <em>Sat Jul 17 2021 09:50:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

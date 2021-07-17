@@ -1,20 +1,12 @@
 <map id="PHHepMCGenHelper::move_vertex" name="PHHepMCGenHelper::move_vertex">
-<area shape="rect" id="node2" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="269,74,414,115"/>
-<area shape="rect" id="node15" href="$d5/d41/classPHHepMCGenEventMap.html#aeee51cbc5dbbd18af41e66c03e955319" title="fetch event " alt="" coords="247,140,435,167"/>
-<area shape="rect" id="node16" href="$d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns ..." alt="" coords="260,191,423,233"/>
-<area shape="rect" id="node17" href="$d5/d41/classPHHepMCGenEventMap.html#a9808332ce5629be39dc62c9c3d50a0e2" title="PHHepMCGenEventMap\l::identify" alt="" coords="259,257,423,298"/>
-<area shape="rect" id="node18" href="$d7/d7b/classPHHepMCGenEvent.html#a4cd34cc37b99ec3a4a1301dfed8eab6c" title="move the collision vertex position in the Hall coordinate system, use PHENIX units of cm..." alt="" coords="235,323,447,349"/>
-<area shape="rect" id="node19" href="$dd/d2a/classPHHepMCGenHelper.html#a030e43db2086d86155f32e8c6cf5958b" title="PHHepMCGenHelper::smear" alt="" coords="249,373,434,400"/>
-<area shape="rect" id="node3" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="519,9,665,50"/>
-<area shape="rect" id="node4" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="519,74,665,115"/>
-<area shape="rect" id="node14" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="497,139,687,181"/>
-<area shape="rect" id="node5" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="747,56,887,83"/>
-<area shape="rect" id="node13" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="737,107,898,133"/>
-<area shape="rect" id="node6" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title="recoConsts::recoConsts" alt="" coords="950,31,1106,57"/>
-<area shape="rect" id="node7" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="947,81,1109,108"/>
-<area shape="rect" id="node8" href="$d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da" title="PHFlag::set_DoubleFlag" alt="" coords="1161,5,1321,32"/>
-<area shape="rect" id="node9" href="$d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8" title="PHFlag::set_IntFlag" alt="" coords="1174,56,1309,83"/>
-<area shape="rect" id="node10" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title="PHFlag::set_BoolFlag" alt="" coords="1168,107,1315,133"/>
-<area shape="rect" id="node11" href="$d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6" title="overide the virtual function to expand the environmental variables " alt="" coords="1157,157,1325,184"/>
-<area shape="rect" id="node12" href="$d8/d14/classrecoConsts.html#ad45c452d9a71b5410c472614d72442ec" title="recoConsts::ExpandEnvironmentals" alt="" coords="1373,157,1595,184"/>
+<area shape="rect" id="node2" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="269,70,414,111"/>
+<area shape="rect" id="node7" href="$d5/d41/classPHHepMCGenEventMap.html#aeee51cbc5dbbd18af41e66c03e955319" title="fetch event " alt="" coords="247,136,435,163"/>
+<area shape="rect" id="node8" href="$d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns ..." alt="" coords="260,187,423,229"/>
+<area shape="rect" id="node9" href="$d5/d41/classPHHepMCGenEventMap.html#a9808332ce5629be39dc62c9c3d50a0e2" title="PHHepMCGenEventMap\l::identify" alt="" coords="259,253,423,294"/>
+<area shape="rect" id="node10" href="$d7/d7b/classPHHepMCGenEvent.html#a4cd34cc37b99ec3a4a1301dfed8eab6c" title="move the collision vertex position in the Hall coordinate system, use PHENIX units of cm..." alt="" coords="235,319,447,345"/>
+<area shape="rect" id="node11" href="$dd/d2a/classPHHepMCGenHelper.html#a030e43db2086d86155f32e8c6cf5958b" title="PHHepMCGenHelper::smear" alt="" coords="249,369,434,396"/>
+<area shape="rect" id="node3" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="519,5,665,46"/>
+<area shape="rect" id="node4" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="519,70,665,111"/>
+<area shape="rect" id="node6" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="497,135,687,177"/>
+<area shape="rect" id="node5" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="737,77,898,104"/>
 </map>
