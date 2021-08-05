@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['p6dextdecayerphysics_2ecc',['P6DExtDecayerPhysics.cc',['../d9/de1/P6DExtDecayerPhysics_8cc.html',1,'']]],
-  ['p6dextdecayerphysics_2ehh',['P6DExtDecayerPhysics.hh',['../de/dc3/P6DExtDecayerPhysics_8hh.html',1,'']]],
   ['paramrunrange_2ecc',['ParamRunRange.cc',['../d7/dc6/ParamRunRange_8cc.html',1,'']]],
   ['paramrunrange_2eh',['ParamRunRange.h',['../d0/dc7/ParamRunRange_8h.html',1,'']]],
   ['patterndb_2ecxx',['PatternDB.cxx',['../d7/d4b/PatternDB_8cxx.html',1,'']]],
@@ -498,8 +496,5 @@ var searchData=
   ['phtimestamp_2eh',['PHTimeStamp.h',['../da/d32/PHTimeStamp_8h.html',1,'']]],
   ['phtimestamplinkdef_2eh',['PHTimeStampLinkDef.h',['../d4/df1/PHTimeStampLinkDef_8h.html',1,'']]],
   ['phtypednodeiterator_2eh',['PHTypedNodeIterator.h',['../db/d17/PHTypedNodeIterator_8h.html',1,'']]],
-  ['plot_5fmatscan_2ec',['plot_matscan.C',['../d5/d9b/plot__matscan_8C.html',1,'']]],
-  ['pythia6_2ecc',['Pythia6.cc',['../d8/de1/Pythia6_8cc.html',1,'']]],
-  ['pythia6_2ehh',['Pythia6.hh',['../d3/d86/Pythia6_8hh.html',1,'']]],
-  ['pythia6_5fcommon_5faddress_2ec',['pythia6_common_address.c',['../de/d6b/pythia6__common__address_8c.html',1,'']]]
+  ['plot_5fmatscan_2ec',['plot_matscan.C',['../d5/d9b/plot__matscan_8C.html',1,'']]]
 ];

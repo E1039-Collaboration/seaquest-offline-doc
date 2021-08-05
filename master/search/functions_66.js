@@ -79,7 +79,6 @@ var searchData=
   ['fmag_5fhole_5fradius',['FMAG_HOLE_RADIUS',['../d0/da0/classGeomSvc.html#a8ee7dae35e3f204ea10b8ff6c7a93484',1,'GeomSvc::FMAG_HOLE_RADIUS() const '],['../d0/da0/classGeomSvc.html#adf63cc6a5fbc144d2a1a78928de02351',1,'GeomSvc::FMAG_HOLE_RADIUS(const double v)']]],
   ['fmag_5flength',['FMAG_LENGTH',['../d0/da0/classGeomSvc.html#ae907c8549cd30a80556ac954483355a2',1,'GeomSvc::FMAG_LENGTH() const '],['../d0/da0/classGeomSvc.html#a85e842b337031a09090a33a39d269a23',1,'GeomSvc::FMAG_LENGTH(const double v)']]],
   ['for_5feach',['for_each',['../d5/d07/classPHNodeIterator.html#a07cdbcfd300706ffa96c5b5860b35c43',1,'PHNodeIterator']]],
-  ['forcedecaytype',['ForceDecayType',['../d8/d46/classG4Pythia6Decayer.html#a9e2c2eb2d96530707e459567d49cbc70',1,'G4Pythia6Decayer']]],
   ['forceend',['ForceEnd',['../d9/de8/classCodaInputManager.html#a67044b0a612db9e13c07e64416bdeb89',1,'CodaInputManager']]],
   ['foreach',['forEach',['../d5/d07/classPHNodeIterator.html#afeaefab44bf0ab15a439926205924f19',1,'PHNodeIterator']]],
   ['forgetme',['forgetMe',['../d5/dca/classPHCompositeNode.html#a012e50d9437dbf9d84a9f4bb00a7f495',1,'PHCompositeNode::forgetMe()'],['../d1/d3e/classPHDataNode.html#ab9f153f81afc2b7793bda81fcd212495',1,'PHDataNode::forgetMe()'],['../dc/d82/classPHNode.html#a98412a1d4a36461076c3192902ec14e5',1,'PHNode::forgetMe()']]],

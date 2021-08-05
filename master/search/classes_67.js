@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['g4pythia6decayer',['G4Pythia6Decayer',['../d8/d46/classG4Pythia6Decayer.html',1,'']]],
-  ['g4pythia6decayermessenger',['G4Pythia6DecayerMessenger',['../d4/d06/classG4Pythia6DecayerMessenger.html',1,'']]],
   ['g4tbfieldmessenger',['G4TBFieldMessenger',['../df/d05/classG4TBFieldMessenger.html',1,'']]],
   ['g4tbmagneticfieldsetup',['G4TBMagneticFieldSetup',['../d4/d2e/classG4TBMagneticFieldSetup.html',1,'']]],
   ['genericsd',['GenericSD',['../d4/d82/classGenericSD.html',1,'']]],

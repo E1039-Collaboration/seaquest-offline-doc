@@ -10,7 +10,6 @@ var searchData=
   ['particleidconstiter',['ParticleIdConstIter',['../db/d88/classPHG4Shower.html#a8bd4d91c5c97a701e44c6260842c6f1d',1,'PHG4Shower']]],
   ['particleiditer',['ParticleIdIter',['../db/d88/classPHG4Shower.html#a1bded9b676cc66ab0886558bc3e16d3b',1,'PHG4Shower']]],
   ['particleidset',['ParticleIdSet',['../db/d88/classPHG4Shower.html#a4cb6ca0beb4c749ccd8e34c56b96a867',1,'PHG4Shower']]],
-  ['particlevector',['ParticleVector',['../d3/d86/Pythia6_8hh.html#a29e716913d880cf19a256dbe31c254a9',1,'Pythia6.hh']]],
   ['partset_5ft',['PartSet_t',['../d4/dc9/classPHG4DSTReader.html#aac31ae406b9e81ebdfdb3d17770477ea',1,'PHG4DSTReader']]],
   ['pdbapplicationfactory',['PdbApplicationFactory',['../d3/d2e/PdbApplicationFactory_8h.html#abb9046455e697ac7033795b9ebcb98b7',1,'PdbApplicationFactory.h']]],
   ['pdbbankmanagerfactory',['PdbBankManagerFactory',['../dd/d6b/PdbBankManagerFactory_8h.html#a948851c01dc7fe9b12226af055bc54fe',1,'PdbBankManagerFactory.h']]],

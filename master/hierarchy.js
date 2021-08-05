@@ -165,7 +165,6 @@ var hierarchy =
     ] ],
     [ "G4TBMagneticFieldSetup", "d4/d2e/classG4TBMagneticFieldSetup.html", null ],
     [ "G4UImessenger", null, [
-      [ "G4Pythia6DecayerMessenger", "d4/d06/classG4Pythia6DecayerMessenger.html", null ],
       [ "G4TBFieldMessenger", "df/d05/classG4TBFieldMessenger.html", null ]
     ] ],
     [ "G4UIsession", null, [
@@ -185,17 +184,11 @@ var hierarchy =
         [ "PHG4TruthTrackingAction", "db/d5c/classPHG4TruthTrackingAction.html", null ]
       ] ]
     ] ],
-    [ "G4VExtDecayer", null, [
-      [ "G4Pythia6Decayer", "d8/d46/classG4Pythia6Decayer.html", null ]
-    ] ],
     [ "G4VHit", null, [
       [ "MCHit", "dd/da5/classMCHit.html", null ]
     ] ],
     [ "G4VParameterisationTubs", null, [
       [ "PHG4ParameterisationTubsEta", "d5/d62/classPHG4ParameterisationTubsEta.html", null ]
-    ] ],
-    [ "G4VPhysicsConstructor", null, [
-      [ "P6DExtDecayerPhysics", "db/d73/classP6DExtDecayerPhysics.html", null ]
     ] ],
     [ "G4VPVParameterisation", null, [
       [ "PHG4EtaParameterization", "de/d5e/classPHG4EtaParameterization.html", null ],
@@ -348,15 +341,10 @@ var hierarchy =
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
-    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
+    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "boost::detail::polymorphic_cast_tag", "da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
-    [ "Pydat1_t", "d0/da2/structPydat1__t.html", null ],
-    [ "Pydat3_t", "dc/d49/structPydat3__t.html", null ],
-    [ "Pyjets_t", "d9/d6e/structPyjets__t.html", null ],
-    [ "Pythia6", "d8/d25/classPythia6.html", null ],
-    [ "Pythia6Particle", "d3/da8/structPythia6Particle.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
     [ "RunParamBase", "db/d8a/classRunParamBase.html", [
       [ "CalibParamBase", "d5/d33/classCalibParamBase.html", [

@@ -96,7 +96,7 @@ var searchData=
   ['hitlist',['HitList',['../dc/dac/TriggerAna_2src_2TreeData_8h.html#a2e12466a980e227ea200848a4ead230a',1,'TreeData.h']]],
   ['hitlist_5ft',['HitList_t',['../d2/d9d/classOnlMonTrigNim.html#ab929f70dea3c7539f9ea555788b2855d',1,'OnlMonTrigNim::HitList_t()'],['../d3/d4a/structUtilHodo_1_1Track1D.html#a7cdf99934b77c92993e27d6bf4fabe8f',1,'UtilHodo::Track1D::HitList_t()']]],
   ['hitlistmap_5ft',['HitListMap_t',['../d2/d9d/classOnlMonTrigNim.html#a6aea729fce3bfebed063b5a94ca30262',1,'OnlMonTrigNim']]],
-  ['hitmap',['HitMap',['../d0/dac/classSQHitMap.html#acd1db90810ab6f16643e8eb1b5bea3b9',1,'SQHitMap::HitMap()'],['../d4/d30/classPHG4HitContainer.html#af37b44dbf63ae91a0e48809134e2c6a3',1,'PHG4HitContainer::hitmap()']]],
+  ['hitmap',['hitmap',['../d4/d30/classPHG4HitContainer.html#af37b44dbf63ae91a0e48809134e2c6a3',1,'PHG4HitContainer::hitmap()'],['../d0/dac/classSQHitMap.html#acd1db90810ab6f16643e8eb1b5bea3b9',1,'SQHitMap::HitMap()']]],
   ['hitnodename',['hitnodename',['../df/d5e/classPHG4BlockCellReco.html#a1e1e2bbc8ea694ddffaca7bcba4e8ea9',1,'PHG4BlockCellReco::hitnodename()'],['../d5/dd0/classPHG4CylinderCellReco.html#a1c7d5ec0013a1f0436eca653c04aa504',1,'PHG4CylinderCellReco::hitnodename()'],['../dc/d94/classPHG4CylinderCellTPCReco.html#a342c414db048576d10c20860e638b6dc',1,'PHG4CylinderCellTPCReco::hitnodename()']]],
   ['hitquality',['HitQuality',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit::HitQuality()'],['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()']]],
   ['hits',['hits',['../d0/d1e/classPropSegment.html#a25575427a3d301ea5a04ce91bef70610',1,'PropSegment::hits()'],['../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4',1,'Tracklet::hits()']]],

@@ -6,8 +6,6 @@ var searchData=
   ['e906toe1039',['E906ToE1039',['../d5/dd4/classFun4AllSRawEventInputManager.html#a099eb2a97c632559682325679485dc5f',1,'Fun4AllSRawEventInputManager']]],
   ['e_5fbeam',['E_BEAM',['../dd/de2/GlobalConsts_8h.html#a98a213294605adf4d40b31e143bd09a9',1,'GlobalConsts.h']]],
   ['ebeam',['ebeam',['../d2/da1/namespaceDPGEN.html#a1b7d21e958d12430a4a0316cae695466',1,'DPGEN']]],
-  ['edecaytype',['EDecayType',['../d9/d5f/EDecayType_8hh.html#a25d1b091c2bb9d7850d72019a0a5476e',1,'EDecayType.hh']]],
-  ['edecaytype_2ehh',['EDecayType.hh',['../d9/d5f/EDecayType_8hh.html',1,'']]],
   ['edep',['edep',['../d9/d35/classPHG4Hitv1.html#af03298f5ec4aa6dcb8a972e7be33be4b',1,'PHG4Hitv1']]],
   ['edep_5fcoil',['edep_coil',['../d9/d8f/classTruthTrack.html#a537a06bba36ac234ea4b5a9c1eb70b00',1,'TruthTrack']]],
   ['edep_5fwire',['edep_wire',['../d9/d8f/classTruthTrack.html#a91baf20240e52068260f04bb5ac30941',1,'TruthTrack']]],

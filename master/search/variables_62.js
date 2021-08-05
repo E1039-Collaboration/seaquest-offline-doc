@@ -53,7 +53,6 @@ var searchData=
   ['bottomids',['bottomIDs',['../d5/d24/GetRoad_8cc.html#aa02d3f287c699aab7ec4d4e15a54e88c',1,'GetRoad.cc']]],
   ['branchpathdelim',['branchpathdelim',['../d3/d8a/namespacephooldefs.html#abd91428a77ef5ad59019b643babd1ef3',1,'phooldefs']]],
   ['branchread',['branchread',['../d7/d0b/classFun4AllDstInputManager.html#a4f175b45613d09e4be7c53f195b43444',1,'Fun4AllDstInputManager']]],
-  ['brat',['BRAT',['../dc/d49/structPydat3__t.html#a5f4d0b03b6754011dde278c202d80e33',1,'Pydat3_t']]],
   ['bucket_5fsize',['bucket_size',['../df/d9a/classSettings.html#a8846938893d11cba0c838f1acdb06f44',1,'Settings']]],
   ['bv_5fcms',['bv_cms',['../d2/da1/namespaceDPGEN.html#ad2f4dbf0f6b46fe55d09135ebaff6eda',1,'DPGEN']]],
   ['byteswritten',['byteswritten',['../de/d50/classFun4AllFileOutStream.html#abeb4b991601e37eb7bc738d7f8837bf7',1,'Fun4AllFileOutStream']]]

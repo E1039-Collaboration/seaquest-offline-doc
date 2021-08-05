@@ -8,6 +8,5 @@ var searchData=
   ['tfexit_5ffail_5fst2_5ftracklet',['TFEXIT_FAIL_ST2_TRACKLET',['../dd/de2/GlobalConsts_8h.html#aaad7149910aed42d9247b7fd032dd612',1,'GlobalConsts.h']]],
   ['tfexit_5ffail_5fst3_5ftracklet',['TFEXIT_FAIL_ST3_TRACKLET',['../dd/de2/GlobalConsts_8h.html#a31c076fa6a015c612db32ce43b5148a9',1,'GlobalConsts.h']]],
   ['tfexit_5fsuccess',['TFEXIT_SUCCESS',['../dd/de2/GlobalConsts_8h.html#ae06f8ebdc41bc1567e233263235d4d91',1,'GlobalConsts.h']]],
-  ['triggerbit',['triggerBit',['../db/dda/SRawEvent_8h.html#a7afbe319d9807908d70aeb818bddc153',1,'SRawEvent.h']]],
-  ['type_5fof_5fcall',['type_of_call',['../d8/de1/Pythia6_8cc.html#aa1c2e64708a5f94518ab43b6311e7ad2',1,'type_of_call():&#160;Pythia6.cc'],['../de/d6b/pythia6__common__address_8c.html#aa1c2e64708a5f94518ab43b6311e7ad2',1,'type_of_call():&#160;pythia6_common_address.c']]]
+  ['triggerbit',['triggerBit',['../db/dda/SRawEvent_8h.html#a7afbe319d9807908d70aeb818bddc153',1,'SRawEvent.h']]]
 ];

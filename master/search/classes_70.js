@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['p6dextdecayerphysics',['P6DExtDecayerPhysics',['../db/d73/classP6DExtDecayerPhysics.html',1,'']]],
   ['paramrunrange',['ParamRunRange',['../d0/d0d/classParamRunRange.html',1,'']]],
   ['parttrackkey',['PartTrackKey',['../d6/dfe/classPartTrackKey.html',1,'']]],
   ['patterndb',['PatternDB',['../d2/d5a/classPatternDB.html',1,'']]],
@@ -214,10 +213,5 @@ var searchData=
   ['plane',['Plane',['../dc/d90/classPlane.html',1,'']]],
   ['polymorphic_5fcast_5ftag',['polymorphic_cast_tag',['../da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html',1,'boost::detail']]],
   ['productcreatorpair',['ProductCreatorPair',['../da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html',1,'PHGenericFactoryT']]],
-  ['propsegment',['PropSegment',['../d0/d1e/classPropSegment.html',1,'']]],
-  ['pydat1_5ft',['Pydat1_t',['../d0/da2/structPydat1__t.html',1,'']]],
-  ['pydat3_5ft',['Pydat3_t',['../dc/d49/structPydat3__t.html',1,'']]],
-  ['pyjets_5ft',['Pyjets_t',['../d9/d6e/structPyjets__t.html',1,'']]],
-  ['pythia6',['Pythia6',['../d8/d25/classPythia6.html',1,'']]],
-  ['pythia6particle',['Pythia6Particle',['../d3/da8/structPythia6Particle.html',1,'']]]
+  ['propsegment',['PropSegment',['../d0/d1e/classPropSegment.html',1,'']]]
 ];
