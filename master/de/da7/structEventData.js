@@ -24,5 +24,7 @@ var structEventData =
     [ "proc_id", "de/da7/structEventData.html#a296610c55dd475f5f5d031bef0cce006", null ],
     [ "rec_stat", "de/da7/structEventData.html#a61e2c55d2f1fa83875a44e22699c69e9", null ],
     [ "trig_bits", "de/da7/structEventData.html#a27de345d973fff5900a05e0f1a12c5d8", null ],
+    [ "trig_matrix1", "de/da7/structEventData.html#ac9dd5bf90d95463816a80fd5f1159e54", null ],
+    [ "trig_matrix2", "de/da7/structEventData.html#a7b2493986f4192522bde08f5a231a2a4", null ],
     [ "weight", "de/da7/structEventData.html#a00d12c8b021f4624b805895441cb9ef8", null ]
 ];

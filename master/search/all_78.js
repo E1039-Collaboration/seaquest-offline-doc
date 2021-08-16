@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x',['X',['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()'],['../d3/d4a/structUtilHodo_1_1Track1D.html#afdbe870ca8ae8e6f6bfa013208f52b06aa72c578164a737e1dacef60be3d3873b',1,'UtilHodo::Track1D::X()'],['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()']]],
+  ['x',['X',['../d3/d1f/classTrackletKey.html#aabe72600e3d908267c230265b2d901d0',1,'TrackletKey::X()'],['../d3/d4a/structUtilHodo_1_1Track1D.html#afdbe870ca8ae8e6f6bfa013208f52b06aa72c578164a737e1dacef60be3d3873b',1,'UtilHodo::Track1D::X()'],['../d8/df5/structUtilHodo2_1_1Track1D.html#a04eff6b72731baad947d4d8aa72ae3d8aa4b4af3d8a3cafe46cd6d5ad2e3e4a21',1,'UtilHodo2::Track1D::X()'],['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a361bf0f4f0ce74e1f3cb307c4f7b5727',1,'SQField3DCartesian::FieldPoint::x()'],['../d9/d35/classPHG4Hitv1.html#a76c01e051d8a7ea85eaecaa439f6638c',1,'PHG4Hitv1::x()']]],
   ['x0',['x0',['../d6/d90/structGeomParamPlane_1_1Plane.html#a747407b2624302dfe4caa70871cca897',1,'GeomParamPlane::Plane::x0()'],['../dc/d90/classPlane.html#ab1e54f526f034360007cc97447f0c4b6',1,'Plane::x0()'],['../d2/d26/classTracklet.html#a4d010ad8661d14b6ace17f5dc838b218',1,'Tracklet::x0()']]],
   ['x0max',['x0max',['../d5/d9b/plot__matscan_8C.html#a1f9fde3c80fd661c0b3c9254c26a8cb2',1,'plot_matscan.C']]],
   ['x0min',['x0min',['../d5/d9b/plot__matscan_8C.html#af801aa677d9d37d79974c125bac5790b',1,'plot_matscan.C']]],
@@ -21,6 +21,6 @@ var searchData=
   ['xtruwrite',['XtruWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#a47008ee8616fcf6fe7bd245c0201eea2',1,'PHG4GDMLWriteSolids']]],
   ['xvals',['xvals',['../d0/dc2/classPHField3DCartesian.html#a42744d90b2e025cb7d3a8f374dab6870',1,'PHField3DCartesian::xvals()'],['../d7/d58/classSQField3DCartesian.html#a7519659dcfb256222f2ae0d9b3ab9230',1,'SQField3DCartesian::xvals()']]],
   ['xvec',['xVec',['../dc/d90/classPlane.html#aab0c62736a2e94fa41b4c4b1b5000b94',1,'Plane']]],
-  ['xy_5ft',['XY_t',['../d3/d4a/structUtilHodo_1_1Track1D.html#afdbe870ca8ae8e6f6bfa013208f52b06',1,'UtilHodo::Track1D']]],
+  ['xy_5ft',['XY_t',['../d3/d4a/structUtilHodo_1_1Track1D.html#afdbe870ca8ae8e6f6bfa013208f52b06',1,'UtilHodo::Track1D::XY_t()'],['../d8/df5/structUtilHodo2_1_1Track1D.html#a04eff6b72731baad947d4d8aa72ae3d8',1,'UtilHodo2::Track1D::XY_t()']]],
   ['xyz',['xyz',['../d0/dc2/classPHField3DCartesian.html#a27c4b7be9d8fa8debbd0a307ac6d5e02',1,'PHField3DCartesian']]]
 ];

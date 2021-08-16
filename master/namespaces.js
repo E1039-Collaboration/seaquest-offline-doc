@@ -23,6 +23,7 @@ var namespaces =
     [ "UtilDimuon", "d4/dcc/namespaceUtilDimuon.html", null ],
     [ "UtilHist", "d3/daf/namespaceUtilHist.html", null ],
     [ "UtilHodo", "d9/d7c/namespaceUtilHodo.html", null ],
+    [ "UtilHodo2", "d9/d23/namespaceUtilHodo2.html", null ],
     [ "UtilSQHit", "d0/dc5/namespaceUtilSQHit.html", null ],
     [ "UtilTrack", "d2/d1e/namespaceUtilTrack.html", null ],
     [ "UtilTrigger", "df/d60/namespaceUtilTrigger.html", null ],
