@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"da/da4/classTrackletData.html":[19,0,434],
 "da/da4/classTrackletData.html#a20ab80e8e062cade6826521d12e39855":[19,0,434,12],
 "da/da4/classTrackletData.html#a445e554b0dc84ef265f520988756a91c":[19,0,434,14],
 "da/da4/classTrackletData.html#a46d425c7eeb70c1001a4d9443efd59ee":[19,0,434,11],
@@ -177,8 +178,8 @@ var NAVTREEINDEX33 =
 "da/dcf/SQRun__v1_8cxx_source.html":[20,0,2,3,65],
 "da/dd0/FlagSave_8h.html":[20,0,2,1,0,5],
 "da/dd0/FlagSave_8h_source.html":[20,0,2,1,0,5],
-"da/dd0/namespacePHG4HitDefs.html":[19,0,8],
 "da/dd0/namespacePHG4HitDefs.html":[18,0,8],
+"da/dd0/namespacePHG4HitDefs.html":[19,0,8],
 "da/dd8/PHFieldConfig__v1LinkDef_8h.html":[20,0,2,6,9,13],
 "da/dd8/PHFieldConfig__v1LinkDef_8h_source.html":[20,0,2,6,9,13],
 "da/dd8/classFun4AllPrdfInputManager.html":[19,0,93],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008":[20,0,2,0,0,0,19,0],
 "db/d02/PdbCalChan_8cc_source.html":[20,0,2,0,0,0,19],
 "db/d03/SQField3DCartesian_8cc.html":[20,0,2,6,9,30],
-"db/d03/SQField3DCartesian_8cc_source.html":[20,0,2,6,9,30],
-"db/d03/classSQTrackVector.html":[19,0,416]
+"db/d03/SQField3DCartesian_8cc_source.html":[20,0,2,6,9,30]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e":[19,0,423,98],
 "d6/db1/classSRecTrack.html#a6babb2f9c10d3c28375433436388c480":[19,0,423,115],
 "d6/db1/classSRecTrack.html#a6bd87c810126f403d95fc2125b8ca51a":[19,0,423,108],
 "d6/db1/classSRecTrack.html#a6c85e068fa493991c144436ceeddaf5d":[19,0,423,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d6/df5/DPTriggerAnalyzerLinkDef_8h.html":[20,0,2,6,3,2],
 "d6/df5/DPTriggerAnalyzerLinkDef_8h_source.html":[20,0,2,6,3,2],
 "d6/df7/SyncObjectv1_8h.html":[20,0,2,1,0,15],
-"d6/df7/SyncObjectv1_8h_source.html":[20,0,2,1,0,15],
-"d6/dfd/PHG4ConeDetector_8h.html":[20,0,2,7,0,56]
+"d6/df7/SyncObjectv1_8h_source.html":[20,0,2,1,0,15]
 };

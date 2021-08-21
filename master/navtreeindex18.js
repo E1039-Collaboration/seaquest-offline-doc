@@ -1,14 +1,15 @@
 var NAVTREEINDEX18 =
 {
-"d5/df3/classPHG4SimpleEventGenerator.html#ad8b508f710a9eda892cf2a005b9b53fe":[19,0,284,12],
+"d5/df3/classPHG4SimpleEventGenerator.html#ad2163ba775c5037bde6d852085922ab1":[19,0,284,20],
+"d5/df3/classPHG4SimpleEventGenerator.html#ad8b508f710a9eda892cf2a005b9b53fe":[19,0,284,13],
 "d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006":[19,0,284,0],
 "d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006ab828501cbdd70abf98e8e2b59d17992c":[19,0,284,0,1],
 "d5/df3/classPHG4SimpleEventGenerator.html#ae2306c79cf01b2f07172d0ae83564006abaf3795dd2edfe34cefe33cc812a40f3":[19,0,284,0,0],
-"d5/df3/classPHG4SimpleEventGenerator.html#aefd6658f5625513895dc653eced42a28":[19,0,284,10],
-"d5/df3/classPHG4SimpleEventGenerator.html#af3fa00ec8ad3374acc872274b30e3323":[19,0,284,16],
+"d5/df3/classPHG4SimpleEventGenerator.html#aefd6658f5625513895dc653eced42a28":[19,0,284,11],
+"d5/df3/classPHG4SimpleEventGenerator.html#af3fa00ec8ad3374acc872274b30e3323":[19,0,284,17],
 "d5/df3/classPHG4SimpleEventGenerator.html#af7c3344bbb8d0a9266ed6004398b3b3c":[19,0,284,5],
-"d5/df3/classPHG4SimpleEventGenerator.html#afe4a7efd4e1e12768254ca2c3d06925b":[19,0,284,15],
-"d5/df3/classPHG4SimpleEventGenerator.html#afe6a627cccef3c73253b978264bd4dba":[19,0,284,9],
+"d5/df3/classPHG4SimpleEventGenerator.html#afe4a7efd4e1e12768254ca2c3d06925b":[19,0,284,16],
+"d5/df3/classPHG4SimpleEventGenerator.html#afe6a627cccef3c73253b978264bd4dba":[19,0,284,10],
 "d5/df4/structboost_1_1detail_1_1dynamic__cast__tag.html":[19,0,0,0,2],
 "d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html":[20,0,1,2,1,0],
 "d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae":[20,0,1,2,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d6/d6f/classFun4AllHepMCInputManager.html#a61a7eb9df4b1ebbd1da50c3790832140":[19,0,85,32],
 "d6/d6f/classFun4AllHepMCInputManager.html#a63272413d7dbd96e541618b734b609d0":[19,0,85,18],
 "d6/d6f/classFun4AllHepMCInputManager.html#a6361f8f1de5cb369a9f420d842c8e184":[19,0,85,17],
-"d6/d6f/classFun4AllHepMCInputManager.html#a7709e8349366ed5fc571a11473352c13":[19,0,85,28],
-"d6/d6f/classFun4AllHepMCInputManager.html#a800e8c517886bf9e24fc300041851281":[19,0,85,7]
+"d6/d6f/classFun4AllHepMCInputManager.html#a7709e8349366ed5fc571a11473352c13":[19,0,85,28]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d6/d6f/classFun4AllHepMCInputManager.html#a800e8c517886bf9e24fc300041851281":[19,0,85,7],
 "d6/d6f/classFun4AllHepMCInputManager.html#a8301fc523371ddb62e38efd336d998ba":[19,0,85,33],
 "d6/d6f/classFun4AllHepMCInputManager.html#a9a50c062c06ffe7af73b6591993de7c4":[19,0,85,2],
 "d6/d6f/classFun4AllHepMCInputManager.html#a9f8e48bc4e1ed4fcb027de6b4f9147f6":[19,0,85,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d6/db1/classSRecTrack.html#a63ec789a0370e972ea037090443db7ef":[19,0,423,1],
 "d6/db1/classSRecTrack.html#a64ad1a758446dacf5a449197a6905fab":[19,0,423,106],
 "d6/db1/classSRecTrack.html#a666b48168e5c86f3577fadf78a425180":[19,0,423,62],
-"d6/db1/classSRecTrack.html#a689868f8401d98580594d663caa287f8":[19,0,423,5],
-"d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e":[19,0,423,98]
+"d6/db1/classSRecTrack.html#a689868f8401d98580594d663caa287f8":[19,0,423,5]
 };

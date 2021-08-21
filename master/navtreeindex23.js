@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#acb9c297af011ced29e7157bcda5d5ef9":[19,0,223,25],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914":[19,0,223,0],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914a24d74eb90f4ecf985348898703ba45f9":[19,0,223,0,0],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914a79df1a7d2e56186e28bf07d82882c572":[19,0,223,0,1],
@@ -165,8 +166,8 @@ var NAVTREEINDEX23 =
 "d7/db7/classSQRun.html#af49298d43cc905f8debb10bbeec61914":[19,0,401,52],
 "d7/db7/classSQRun.html#af8af494d17ec14a3a7773beadca02231":[19,0,401,6],
 "d7/db7/classSQRun.html#afa2b768b44219c834ef0d22a968c0536":[19,0,401,4],
-"d7/dba/namespacePHG4CellDefs.html":[18,0,6],
 "d7/dba/namespacePHG4CellDefs.html":[19,0,6],
+"d7/dba/namespacePHG4CellDefs.html":[18,0,6],
 "d7/dbd/PHG4CylinderCellLinkDef_8h.html":[20,0,2,7,0,75],
 "d7/dbd/PHG4CylinderCellLinkDef_8h_source.html":[20,0,2,7,0,75],
 "d7/dbe/PHG4CylinderDetector_8h.html":[20,0,2,7,0,92],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d7/dc6/classPHG4EventHeader.html#a26912cad00a0ffd4e2965f0ef9f4a376":[19,0,233,9],
 "d7/dc6/classPHG4EventHeader.html#a39576108b707039e471513c272ddf488":[19,0,233,4],
 "d7/dc6/classPHG4EventHeader.html#a5cb2bde798cd43407eacc21ed14b9a33":[19,0,233,8],
-"d7/dc6/classPHG4EventHeader.html#a6868108731db07cf62aeb7e3be75f48e":[19,0,233,2],
-"d7/dc6/classPHG4EventHeader.html#ab5ca9bad115ff6423197f47709492a84":[19,0,233,6]
+"d7/dc6/classPHG4EventHeader.html#a6868108731db07cf62aeb7e3be75f48e":[19,0,233,2]
 };

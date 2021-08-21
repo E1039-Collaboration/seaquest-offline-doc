@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"df/d35/classRunHeader.html#a1ab5774cf677bb534ff4337069e19129":[19,0,356,9],
 "df/d35/classRunHeader.html#a1e9da37c12213327a72f458a5955414a":[19,0,356,7],
 "df/d35/classRunHeader.html#a389f6ae6932464c5b28c0ea24a6b6a30":[19,0,356,0],
 "df/d35/classRunHeader.html#a525c142f2ee02174c723fa9880b13bd4":[19,0,356,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "df/d75/SQCalHit__v1_8cxx_source.html":[20,0,2,3,0],
 "df/d76/classPHTypedNodeIterator.html":[19,0,348],
 "df/d76/classPHTypedNodeIterator.html#a017b8ecc229b6aef9d82cde4ecbc0988":[19,0,348,1],
-"df/d76/classPHTypedNodeIterator.html#a140d25e5823f18605f0fcf7a21807780":[19,0,348,4],
-"df/d76/classPHTypedNodeIterator.html#a2922d86c2e1157b3f5aa189c69ab3a2f":[19,0,348,3]
+"df/d76/classPHTypedNodeIterator.html#a140d25e5823f18605f0fcf7a21807780":[19,0,348,4]
 };
