@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('d6/d76/DPTriggerAnalyzer_8cxx_source.h
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  TString sid;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; uniqueTrIDs.size(); ++i)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      sid = sid + Form(<span class="stringliteral">&quot;%06d&quot;</span>, uniqueTrIDs[i]);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      sid += TString::Format(<span class="stringliteral">&quot;%06d&quot;</span>, uniqueTrIDs[i]);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  </div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">return</span> sid;</div>
@@ -606,7 +606,7 @@ $(document).ready(function(){initNavTree('d6/d76/DPTriggerAnalyzer_8cxx_source.h
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_649327444067f074c28c0b0d6c830adb.html">dptrigger</a></li><li class="navelem"><a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx.html">DPTriggerAnalyzer.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Aug 24 2021 16:00:09</em> using <a
+			updated: <em>Wed Aug 25 2021 14:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

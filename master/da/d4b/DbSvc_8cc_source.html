@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  m_svr = Form(<span class="stringliteral">&quot;sqlite://%s&quot;</span>, m_dbfile.c_str());</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  m_svr = <span class="stringliteral">&quot;sqlite://&quot;</span> + m_dbfile;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  m_con = <span class="keyword">new</span> TSQLiteServer(m_svr.c_str());</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
@@ -426,7 +426,7 @@ $(document).ready(function(){initNavTree('da/d4b/DbSvc_8cc_source.html','../../'
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_a20ba7afb7409ef346e4211b1bc3468e.html">db_svc</a></li><li class="navelem"><a class="el" href="../../da/d4b/DbSvc_8cc.html">DbSvc.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Aug 24 2021 16:00:09</em> using <a
+			updated: <em>Wed Aug 25 2021 14:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
