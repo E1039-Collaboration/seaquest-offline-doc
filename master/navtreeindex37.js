@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"dc/d30/classPHG4CylinderGeom.html#a9f3b7b16decbec77a411bd9de40f5b29":[19,0,214,25],
+"dc/d30/classPHG4CylinderGeom.html#aba6c6ead451a9ba39783bb465dae2e87":[19,0,214,15],
 "dc/d30/classPHG4CylinderGeom.html#abeaf359852a90077831339d1d793cc65":[19,0,214,6],
 "dc/d30/classPHG4CylinderGeom.html#ac21b5401bd93b0a780026e31de04ff5d":[19,0,214,2],
 "dc/d30/classPHG4CylinderGeom.html#ad978ad904b4a70184d716c095a75874d":[19,0,214,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "dc/d93/SQParamDeco_8cxx_source.html":[20,0,2,3,57],
 "dc/d94/classPHG4CylinderCellTPCReco.html":[19,0,209],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a02175e1ac17cb4b9f056d62154042ad7":[19,0,209,14],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a03e2a6830365aa15e3090bf25812d889":[19,0,209,19],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a086fee5c2581f5e9825424dec89a7c29":[19,0,209,30],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a151ffd4cb9d9254d68b88dab79fce243":[19,0,209,60]
+"dc/d94/classPHG4CylinderCellTPCReco.html#a03e2a6830365aa15e3090bf25812d889":[19,0,209,19]
 };

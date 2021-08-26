@@ -32,5 +32,7 @@ var classSQReco =
     [ "set_geom_file_name", "df/df2/classSQReco.html#a0871655f71f89a5e115a71634a03b600", null ],
     [ "set_legacy_rec_container", "df/df2/classSQReco.html#ae211f2cdcaf58e031e72b6cd3ec1bd2d", null ],
     [ "setFitterTy", "df/df2/classSQReco.html#a6c0a83b27bb557a841efe71bfa7ae45d", null ],
-    [ "setInputTy", "df/df2/classSQReco.html#a776b09887ccbc519302f98905019813c", null ]
+    [ "setInputTy", "df/df2/classSQReco.html#a776b09887ccbc519302f98905019813c", null ],
+    [ "use_geom_io_node", "df/df2/classSQReco.html#a64ec04307cf82c0f2ad3666188f1464b", null ],
+    [ "use_geom_io_node", "df/df2/classSQReco.html#a3310504ff7c58b2d0d578948862fd435", null ]
 ];

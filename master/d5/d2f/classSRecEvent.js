@@ -2,6 +2,8 @@ var classSRecEvent =
 [
     [ "SRecEvent", "d5/d2f/classSRecEvent.html#a701a201dd1837f1e1110c0a785bf310c", null ],
     [ "clear", "d5/d2f/classSRecEvent.html#acde10eea5441bdbc7c1bb6625627fd9f", null ],
+    [ "clearDimuons", "d5/d2f/classSRecEvent.html#addb8e3c9933b100525484dc9b6e4bd38", null ],
+    [ "clearTracks", "d5/d2f/classSRecEvent.html#aa2c0bb658393a9c867c815f6bd433611", null ],
     [ "Clone", "d5/d2f/classSRecEvent.html#ab2d80187d4d4d8f65a03adb632e3c117", null ],
     [ "getChargedTrackIDs", "d5/d2f/classSRecEvent.html#a5442b2a502378eb6afd3894e378a1cbf", null ],
     [ "getDimuon", "d5/d2f/classSRecEvent.html#aa2e8c89ced896ae2c4d5371eb35738f1", null ],

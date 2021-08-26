@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d9/d35/classPHG4Hitv1.html#a8f126d953649b4399418e25ed8ec67bd":[19,0,251,37],
+"d9/d35/classPHG4Hitv1.html#a95d67800c875b1da83dd6645e5a65c33":[19,0,251,81],
 "d9/d35/classPHG4Hitv1.html#a971dab00d2d1ee8835e3e90f4a128942":[19,0,251,54],
 "d9/d35/classPHG4Hitv1.html#a973615e1b37b5dc3ab9ee27795ec8e38":[19,0,251,58],
 "d9/d35/classPHG4Hitv1.html#aa3da2c2af142668846df99120f319d90":[19,0,251,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "d9/d87/classPHG4SquareTubeDetector.html#ab7b83d5553c5b1f7401e21a5bcabd2d9":[19,0,285,3],
 "d9/d87/classPHG4SquareTubeDetector.html#ac7847c139d6bef3cc997a9613b27fee9":[19,0,285,0],
 "d9/d8a/RunToTime_8cc.html":[20,0,2,0,0,0,32],
-"d9/d8a/RunToTime_8cc_source.html":[20,0,2,0,0,0,32],
-"d9/d8b/classPHPy8ParticleTrigger.html":[19,0,341],
-"d9/d8b/classPHPy8ParticleTrigger.html#a05b30e7e69164f7a723eb74bc1ac9993":[19,0,341,17]
+"d9/d8a/RunToTime_8cc_source.html":[20,0,2,0,0,0,32]
 };

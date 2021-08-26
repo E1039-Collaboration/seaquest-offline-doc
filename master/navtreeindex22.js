@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"d7/d4d/classPHNodeIOManager.html#a5d6181baf8cf3741d062e1b50eb8c131":[19,0,327,16],
+"d7/d4d/classPHNodeIOManager.html#a684551827a6ed397d1cab2d4dfee988d":[19,0,327,5],
 "d7/d4d/classPHNodeIOManager.html#a7c68ffe5937e4fd98583d2789f8d3b40":[19,0,327,4],
 "d7/d4d/classPHNodeIOManager.html#a7f701a7b25803133c586853f87454a3a":[19,0,327,14],
 "d7/d4d/classPHNodeIOManager.html#a7fcd787c0049e4476b2534299b801b47":[19,0,327,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#ab0a3fd0c62d1248cc844008cc91041b6":[19,0,223,24],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#ab162d4327eb79d053483639438cb9aa6":[19,0,223,7],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#ab9097e7e005eb194daa206f2be1855c6":[19,0,223,28],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#abc33b495a0c0dd4ecf96db57816f78d2":[19,0,223,4],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#abec0c72c8b4cd658b94bf986539de1d5":[19,0,223,17],
-"d7/d7f/classPHG4DetectorGroupSubsystem.html#ac6d2c4fb6ba110085d0ca90a8f039e66":[19,0,223,35]
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#abc33b495a0c0dd4ecf96db57816f78d2":[19,0,223,4]
 };

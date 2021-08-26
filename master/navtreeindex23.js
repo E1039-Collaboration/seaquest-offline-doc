@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#abec0c72c8b4cd658b94bf986539de1d5":[19,0,223,17],
+"d7/d7f/classPHG4DetectorGroupSubsystem.html#ac6d2c4fb6ba110085d0ca90a8f039e66":[19,0,223,35],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acb9c297af011ced29e7157bcda5d5ef9":[19,0,223,25],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914":[19,0,223,0],
 "d7/d7f/classPHG4DetectorGroupSubsystem.html#acbe991bea313b0ebdf8b40fe882c4914a24d74eb90f4ecf985348898703ba45f9":[19,0,223,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "d7/dc6/classPHG4EventHeader.html":[19,0,233],
 "d7/dc6/classPHG4EventHeader.html#a1185e719570f4a1f5bbc5c0e3a4b0581":[19,0,233,1],
 "d7/dc6/classPHG4EventHeader.html#a26912cad00a0ffd4e2965f0ef9f4a376":[19,0,233,9],
-"d7/dc6/classPHG4EventHeader.html#a39576108b707039e471513c272ddf488":[19,0,233,4],
-"d7/dc6/classPHG4EventHeader.html#a5cb2bde798cd43407eacc21ed14b9a33":[19,0,233,8],
-"d7/dc6/classPHG4EventHeader.html#a6868108731db07cf62aeb7e3be75f48e":[19,0,233,2]
+"d7/dc6/classPHG4EventHeader.html#a39576108b707039e471513c272ddf488":[19,0,233,4]
 };

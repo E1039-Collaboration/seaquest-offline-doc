@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"d7/dc6/classPHG4EventHeader.html#a5cb2bde798cd43407eacc21ed14b9a33":[19,0,233,8],
+"d7/dc6/classPHG4EventHeader.html#a6868108731db07cf62aeb7e3be75f48e":[19,0,233,2],
 "d7/dc6/classPHG4EventHeader.html#ab5ca9bad115ff6423197f47709492a84":[19,0,233,6],
 "d7/dc6/classPHG4EventHeader.html#ad0ab3e429d944daafe421444363292bd":[19,0,233,5],
 "d7/dc6/classPHG4EventHeader.html#ae78cccd90d15297eae124da08cc38eba":[19,0,233,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "d8/d2f/SQHitMap__v1_8h.html":[20,0,2,3,33],
 "d8/d2f/SQHitMap__v1_8h_source.html":[20,0,2,3,33],
 "d8/d2f/halfFunction_8h.html":[20,0,2,6,8,4],
-"d8/d2f/halfFunction_8h_source.html":[20,0,2,6,8,4],
-"d8/d30/PHCompositeNode_8h.html":[20,0,2,1,2,2],
-"d8/d30/PHCompositeNode_8h_source.html":[20,0,2,1,2,2]
+"d8/d2f/halfFunction_8h_source.html":[20,0,2,6,8,4]
 };
