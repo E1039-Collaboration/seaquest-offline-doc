@@ -38,7 +38,7 @@ var searchData=
   ['skinelementvec',['skinElementVec',['../d2/d72/classPHG4GDMLWriteStructure.html#a8478b1220b2ea55f603d189d80caa380',1,'PHG4GDMLWriteStructure']]],
   ['skipevents',['skipEvents',['../db/d1f/classFun4AllOscarInputManager.html#a39316f6e814aac3ec87d7f0337566fab',1,'Fun4AllOscarInputManager']]],
   ['skippedevents',['skippedEvents',['../db/d1f/classFun4AllOscarInputManager.html#a929cd909d9ca9fbc8255f2aadedb1bc5',1,'Fun4AllOscarInputManager']]],
-  ['slope',['slope',['../d3/d4a/structUtilHodo_1_1Track1D.html#a56553d140bc9ff46c34940e96759991a',1,'UtilHodo::Track1D::slope()'],['../d8/df5/structUtilHodo2_1_1Track1D.html#a9b7be035a23554a6d02b9ffcbf950242',1,'UtilHodo2::Track1D::slope()']]],
+  ['slope',['slope',['../d3/d4a/structUtilHodo_1_1Track1D.html#a56553d140bc9ff46c34940e96759991a',1,'UtilHodo::Track1D']]],
   ['solidlist',['solidList',['../d0/d94/classPHG4GDMLWriteSolids.html#af70d7e83114f68e651633468024c632e',1,'PHG4GDMLWriteSolids']]],
   ['solidselement',['solidsElement',['../d0/d94/classPHG4GDMLWriteSolids.html#a02344c7e2df1fbba7ec1b43400bf6593',1,'PHG4GDMLWriteSolids']]],
   ['solidvec',['solidVec',['../dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0',1,'DetectorConstruction']]],

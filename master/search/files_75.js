@@ -11,8 +11,6 @@ var searchData=
   ['utilhist_2eh',['UtilHist.h',['../d3/d55/UtilHist_8h.html',1,'']]],
   ['utilhodo_2ecc',['UtilHodo.cc',['../de/d1f/UtilHodo_8cc.html',1,'']]],
   ['utilhodo_2eh',['UtilHodo.h',['../dc/d0d/UtilHodo_8h.html',1,'']]],
-  ['utilhodo2_2ecc',['UtilHodo2.cc',['../d5/de9/UtilHodo2_8cc.html',1,'']]],
-  ['utilhodo2_2eh',['UtilHodo2.h',['../da/de8/UtilHodo2_8h.html',1,'']]],
   ['utilonline_2ecc',['UtilOnline.cc',['../d0/d85/UtilOnline_8cc.html',1,'']]],
   ['utilonline_2eh',['UtilOnline.h',['../db/d8e/UtilOnline_8h.html',1,'']]],
   ['utilsqhit_2ecc',['UtilSQHit.cc',['../d8/d24/UtilSQHit_8cc.html',1,'']]],

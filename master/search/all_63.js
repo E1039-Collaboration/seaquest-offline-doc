@@ -92,7 +92,7 @@ var searchData=
   ['checkparticlegendrellyan_2ec',['CheckParticleGenDrellYan.C',['../d9/df0/CheckParticleGenDrellYan_8C.html',1,'']]],
   ['checkparticlegenjpsi',['CheckParticleGenJPsi',['../df/d74/CheckParticleGenJPsi_8C.html#a50536ccc22c0571b5ea1dd4295601f62',1,'CheckParticleGenJPsi.C']]],
   ['checkparticlegenjpsi_2ec',['CheckParticleGenJPsi.C',['../df/d74/CheckParticleGenJPsi_8C.html',1,'']]],
-  ['chi2',['chi2',['../d3/d4a/structUtilHodo_1_1Track1D.html#a67b564c38e3c70d6eef0ba99e41f0f55',1,'UtilHodo::Track1D::chi2()'],['../d8/df5/structUtilHodo2_1_1Track1D.html#a292b377923e6f7b97e610c8579185488',1,'UtilHodo2::Track1D::chi2()']]],
+  ['chi2',['chi2',['../d3/d4a/structUtilHodo_1_1Track1D.html#a67b564c38e3c70d6eef0ba99e41f0f55',1,'UtilHodo::Track1D']]],
   ['chi2fit',['chi2fit',['../d3/d46/classKalmanFastTracking.html#a4a5292af0d5fd95b0808ee930a54e94b',1,'KalmanFastTracking::chi2fit()'],['../db/daa/classKalmanDSTrk.html#a09765880f77c3455666b6e4504aeeae4',1,'KalmanDSTrk::chi2fit()']]],
   ['children',['children',['../dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode.html#acf21c654f0fcbf2868a0c4c2fe105ba2',1,'DPTriggerAnalyzer::MatrixNode::children()'],['../d9/dcd/classTNode.html#a0b268718a42dd4073578424f33b61272',1,'TNode::children()']]],
   ['chisq',['chisq',['../d0/d1e/classPropSegment.html#a6a22045fca91d7ca7044c8a66e0c9a0e',1,'PropSegment::chisq()'],['../d2/d26/classTracklet.html#a8806290888abe9f228d971fe75cad56c',1,'Tracklet::chisq()'],['../d1/d18/classRoad.html#aeb249d8ba6380d069eb1e1a1d169b2ea',1,'Road::chisq()'],['../da/da4/classTrackletData.html#a973c51fcfac3d91e945142f520898624',1,'TrackletData::chisq()']]],

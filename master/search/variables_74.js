@@ -82,12 +82,10 @@ var searchData=
   ['trig_5fbit',['trig_bit',['../d0/d64/structRunData.html#a2bf6bd0af3516d3285d84cdaab4910e4',1,'RunData']]],
   ['trig_5fbits',['trig_bits',['../de/da7/structEventData.html#a27de345d973fff5900a05e0f1a12c5d8',1,'EventData']]],
   ['trig_5fhit_5fvec',['trig_hit_vec',['../d5/dd4/classFun4AllSRawEventInputManager.html#ac1587b3cb47cdd5bf58a89ed76da28bc',1,'Fun4AllSRawEventInputManager']]],
-  ['trig_5fmatrix1',['trig_matrix1',['../de/da7/structEventData.html#ac9dd5bf90d95463816a80fd5f1159e54',1,'EventData']]],
-  ['trig_5fmatrix2',['trig_matrix2',['../de/da7/structEventData.html#a7b2493986f4192522bde08f5a231a2a4',1,'EventData']]],
   ['trigger_5fbits',['trigger_bits',['../d2/d31/structEventInfo.html#ab34ea66e7d50040081463be95f739d64',1,'EventInfo']]],
   ['triggercount',['triggerCount',['../d2/d31/structEventInfo.html#a8656da85e6727af940b0e1f601237547',1,'EventInfo']]],
-  ['trk_5fx',['trk_x',['../dd/df6/structUtilHodo_1_1Track2D.html#a8a0f7de8762a5b87bdaffbddd409d5fe',1,'UtilHodo::Track2D::trk_x()'],['../d3/d37/structUtilHodo2_1_1Track2D.html#af26ba440034eadfd052e734a56b6fd93',1,'UtilHodo2::Track2D::trk_x()']]],
-  ['trk_5fy',['trk_y',['../dd/df6/structUtilHodo_1_1Track2D.html#ae31ad11a6f0c2cd24fa758c28eb4728f',1,'UtilHodo::Track2D::trk_y()'],['../d3/d37/structUtilHodo2_1_1Track2D.html#ad2ec64d33f5da8a83eae809b539ff1b0',1,'UtilHodo2::Track2D::trk_y()']]],
+  ['trk_5fx',['trk_x',['../dd/df6/structUtilHodo_1_1Track2D.html#a8a0f7de8762a5b87bdaffbddd409d5fe',1,'UtilHodo::Track2D']]],
+  ['trk_5fy',['trk_y',['../dd/df6/structUtilHodo_1_1Track2D.html#ae31ad11a6f0c2cd24fa758c28eb4728f',1,'UtilHodo::Track2D']]],
   ['trkid',['trkid',['../d1/db9/classPHG4Particlev2.html#a30e1ea92a73366f5390b4f2ac48324ef',1,'PHG4Particlev2']]],
   ['true',['True',['../d5/d6f/phool_8h.html#aebaf03576508c103b76116e5c63f2328',1,'phool.h']]],
   ['ts',['ts',['../db/d49/structSlowControlData.html#a49f10bb70b74dc6625a74488d255b642',1,'SlowControlData']]],
@@ -98,5 +96,5 @@ var searchData=
   ['ty',['ty',['../d2/d26/classTracklet.html#a2e524ae28a29ecc92ced3cb0d3526595',1,'Tracklet']]],
   ['type',['type',['../dc/d82/classPHNode.html#ac9420c3b651ee6fe485390a5f1f5098c',1,'PHNode::type()'],['../db/d49/structSlowControlData.html#a0e6c989b09b12cab16e623b0d3471c67',1,'SlowControlData::type()'],['../dc/dac/structScalerData.html#a53a576730d61a2f295453039f7a8db75',1,'ScalerData::type()'],['../d4/d37/structPHG4GDMLAuxStructType.html#afe4ef1fe4a197ba4b3f65357bf07182f',1,'PHG4GDMLAuxStructType::type()']]],
   ['type_5fgmc',['TYPE_GMC',['../d3/dcd/Fun4SimTree_8C.html#a4bb73fe6d54f9890daa38642b3da24d5',1,'Fun4SimTree.C']]],
-  ['type_5fxy',['type_xy',['../d3/d4a/structUtilHodo_1_1Track1D.html#a2a2ebc75da6624f7ef7b7f7ac6a86485',1,'UtilHodo::Track1D::type_xy()'],['../d8/df5/structUtilHodo2_1_1Track1D.html#aa70bcaad86e55270e11cb9558ca3239c',1,'UtilHodo2::Track1D::type_xy()']]]
+  ['type_5fxy',['type_xy',['../d3/d4a/structUtilHodo_1_1Track1D.html#a2a2ebc75da6624f7ef7b7f7ac6a86485',1,'UtilHodo::Track1D']]]
 ];
