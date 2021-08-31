@@ -2,6 +2,7 @@ var searchData=
 [
   ['g4tbfieldmessenger',['G4TBFieldMessenger',['../df/d05/classG4TBFieldMessenger.html',1,'']]],
   ['g4tbmagneticfieldsetup',['G4TBMagneticFieldSetup',['../d4/d2e/classG4TBMagneticFieldSetup.html',1,'']]],
+  ['genembeddingdata',['GenEmbeddingData',['../d6/d29/classGenEmbeddingData.html',1,'']]],
   ['genericsd',['GenericSD',['../d4/d82/classGenericSD.html',1,'']]],
   ['genfitextrapolator',['GenFitExtrapolator',['../d1/d3d/classGenFitExtrapolator.html',1,'']]],
   ['geomparambase',['GeomParamBase',['../d4/d63/classGeomParamBase.html',1,'']]],
