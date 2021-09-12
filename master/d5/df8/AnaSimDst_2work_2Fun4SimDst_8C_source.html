@@ -121,38 +121,42 @@ $(document).ready(function(){initNavTree('d5/df8/AnaSimDst_2work_2Fun4SimDst_8C_
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(<span class="keyword">new</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html">AnaSimRunInfo</a>());</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new FilterSimEvent());</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, fn_udst);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SRecEvent&quot;</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQMCEvent&quot;</span>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQTruthTrackVector&quot;</span>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQTruthDimuonVector&quot;</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  vector&lt;string&gt; list_dst;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordtype">string</span> fn_dst;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  ifstream ifs(fn_list_dst);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordflow">while</span> (ifs &gt;&gt; fn_dst) list_dst.push_back(fn_dst);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  ifs.close();</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">int</span> n_dst = list_dst.size();</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;N of DSTs: all = &quot;</span> &lt;&lt; n_dst;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">if</span> (n_dst_ana &gt; 0 &amp;&amp; n_dst &gt; n_dst_ana) n_dst = n_dst_ana;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;, to be analyzed = &quot;</span> &lt;&lt; n_dst &lt;&lt; endl;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_dst = 0; i_dst &lt; n_dst; i_dst++) {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">string</span> fn_dst = list_dst[i_dst];</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;DST: &quot;</span> &lt;&lt; i_dst &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; n_dst &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; fn_dst &lt;&lt; endl;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    in-&gt;<a class="code" href="../../d4/da9/classFun4AllInputManager.html#a8ad787f847a175450ec5beddeaa33ca6">fileopen</a>(fn_dst);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new TraceHepMCParticle());</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new TracePHG4Particle());</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new AnaSimHit());</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="comment">//se-&gt;registerSubsystem(new FilterSimEvent());</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a> *out = <span class="keyword">new</span> <a class="code" href="../../da/daa/classFun4AllDstOutputManager.html">Fun4AllDstOutputManager</a>(<span class="stringliteral">&quot;DSTOUT&quot;</span>, fn_udst);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a9e7cd54536d1edb6e5c5cc153c0a036a">registerOutputManager</a>(out);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SRecEvent&quot;</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQMCEvent&quot;</span>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQTruthTrackVector&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  out-&gt;<a class="code" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">AddNode</a>(<span class="stringliteral">&quot;SQTruthDimuonVector&quot;</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  vector&lt;string&gt; list_dst;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">string</span> fn_dst;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  ifstream ifs(fn_list_dst);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordflow">while</span> (ifs &gt;&gt; fn_dst) list_dst.push_back(fn_dst);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  ifs.close();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordtype">int</span> n_dst = list_dst.size();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;N of DSTs: all = &quot;</span> &lt;&lt; n_dst;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">if</span> (n_dst_ana &gt; 0 &amp;&amp; n_dst &gt; n_dst_ana) n_dst = n_dst_ana;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;, to be analyzed = &quot;</span> &lt;&lt; n_dst &lt;&lt; endl;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_dst = 0; i_dst &lt; n_dst; i_dst++) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">string</span> fn_dst = list_dst[i_dst];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;DST: &quot;</span> &lt;&lt; i_dst &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; n_dst &lt;&lt; <span class="stringliteral">&quot;: &quot;</span> &lt;&lt; fn_dst &lt;&lt; endl;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    in-&gt;<a class="code" href="../../d4/da9/classFun4AllInputManager.html#a8ad787f847a175450ec5beddeaa33ca6">fileopen</a>(fn_dst);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a">run</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  se-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">End</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="ttc" id="classFun4AllServer_html_ab2cb490790d15b865ae79eb3094caabe"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe">Fun4AllServer::registerInputManager</a></div><div class="ttdeci">int registerInputManager(Fun4AllInputManager *InManager)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer.cc:1256</a></div></div>
 <div class="ttc" id="classFun4AllServer_html_ab7263450319ca1d5029209fde26a7af8"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8">Fun4AllServer::End</a></div><div class="ttdeci">virtual int End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer.cc:988</a></div></div>
 <div class="ttc" id="classFun4AllDstOutputManager_html_aecbb1b9b7fa38d255ce40f25ad6a0398"><div class="ttname"><a href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398">Fun4AllDstOutputManager::AddNode</a></div><div class="ttdeci">int AddNode(const std::string &amp;nodename)</div><div class="ttdoc">add a node in outputmanager </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d74/Fun4AllDstOutputManager_8cc_source.html#l00040">Fun4AllDstOutputManager.cc:40</a></div></div>
@@ -178,7 +182,7 @@ $(document).ready(function(){initNavTree('d5/df8/AnaSimDst_2work_2Fun4SimDst_8C_
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_243bf7af8da44f9204e1d1b23ddfdc4e.html">AnaSimDst</a></li><li class="navelem"><a class="el" href="../../dir_594115a7168d80fc889aeab2a664b270.html">work</a></li><li class="navelem"><a class="el" href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html">Fun4SimDst.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Sep 7 2021 09:01:09</em> using <a
+			updated: <em>Sun Sep 12 2021 14:50:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

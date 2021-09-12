@@ -131,74 +131,81 @@ $(document).ready(function(){initNavTree('dd/d1b/AnaSimRunInfo_8cc_source.html',
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#aa16bbfdc98b01b557af695118a9b9e7a">   22</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#aa16bbfdc98b01b557af695118a9b9e7a">AnaSimRunInfo::Init</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">if</span> (m_fn_lumi_list.length() &gt; 0) ofs_lumi_list.open(m_fn_lumi_list.c_str());</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">   32</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">AnaSimRunInfo::InitRun</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  mi_evt      = findNode::getClass&lt;SQEvent      &gt;(topNode, <span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  mi_gen_inte = findNode::getClass&lt;PHGenIntegral&gt;(topNode, <span class="stringliteral">&quot;PHGenIntegral&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordflow">if</span> (!mi_evt || !mi_gen_inte) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">   44</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">AnaSimRunInfo::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">int</span> run_id_pre = -1;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">int</span> evt_id_pre = -1;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keywordtype">int</span> run_id = mi_evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">get_run_id</a>();</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordtype">int</span> evt_id = mi_evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">get_event_id</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keywordflow">if</span> (run_id != run_id_pre || evt_id &lt; evt_id_pre) {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">double</span> lumi_inte = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#a602ff4dfd24221ca9cbb86e69c2f8d38">get_Integrated_Lumi</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">long</span>   n_evt_gen = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#ab423bef5cb65ec50c9e5dc8d24cf5adc">get_N_Generator_Accepted_Event</a>();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">long</span>   n_evt_pro = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#aaf67e6931c93f2f00069e882e370499c">get_N_Processed_Event</a>();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;AnaSimRunInfo: Integrated luminosity          = &quot;</span> &lt;&lt; lumi_inte &lt;&lt; <span class="stringliteral">&quot; /pb\n&quot;</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;               N of generator-accepted events = &quot;</span> &lt;&lt; n_evt_gen &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;               N of processed events          = &quot;</span> &lt;&lt; n_evt_pro &lt;&lt; endl;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (ofs_lumi_list.is_open()) ofs_lumi_list &lt;&lt; lumi_inte &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; n_evt_gen &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; n_evt_pro &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    lumi_inte_tot += lumi_inte;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    n_evt_gen_tot += n_evt_gen;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    n_evt_pro_tot += n_evt_pro;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    n_run++;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  run_id_pre = run_id;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  evt_id_pre = evt_id;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">   70</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">AnaSimRunInfo::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordflow">if</span> (ofs_lumi_list.is_open()) ofs_lumi_list.close();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  ostringstream oss;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;Integrated luminosity          = &quot;</span> &lt;&lt; lumi_inte_tot &lt;&lt; <span class="stringliteral">&quot; /pb\n&quot;</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of generator-accepted events = &quot;</span> &lt;&lt; n_evt_gen_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of processed events          = &quot;</span> &lt;&lt; n_evt_pro_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of input runs                = &quot;</span> &lt;&lt; n_run         &lt;&lt; endl;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;AnaSimRunInfo::End():\n&quot;</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;         &lt;&lt; oss.str();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordflow">if</span> (m_fn_lumi_info.length() &gt; 0) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    ofstream ofs(m_fn_lumi_info);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    ofs &lt;&lt; oss.str();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    ofs.close();</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  ofstream ofs(m_fn_lumi_tot);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  ofs &lt;&lt; lumi_inte_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  ofs.close();</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">   31</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">AnaSimRunInfo::InitRun</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  mi_evt      = findNode::getClass&lt;SQEvent      &gt;(topNode, <span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  mi_gen_inte = findNode::getClass&lt;PHGenIntegral&gt;(topNode, <span class="stringliteral">&quot;PHGenIntegral&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordflow">if</span> (mi_evt &amp;&amp; mi_gen_inte) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span> (m_fn_lumi_list.length() &gt; 0) ofs_lumi_list.open(m_fn_lumi_list.c_str());</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;AnaSimRunInfo will do nothing since cannot find SQEvent/PHGenIntegral.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">   47</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">AnaSimRunInfo::process_event</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keywordflow">if</span> (!mi_evt || !mi_gen_inte) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">int</span> run_id_pre = -1;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">int</span> evt_id_pre = -1;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">int</span> run_id = mi_evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">get_run_id</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <span class="keywordtype">int</span> evt_id = mi_evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">get_event_id</a>();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span> (run_id != run_id_pre || evt_id &lt; evt_id_pre) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">double</span> lumi_inte = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#a602ff4dfd24221ca9cbb86e69c2f8d38">get_Integrated_Lumi</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">long</span>   n_evt_gen = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#ab423bef5cb65ec50c9e5dc8d24cf5adc">get_N_Generator_Accepted_Event</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">long</span>   n_evt_pro = mi_gen_inte-&gt;<a class="code" href="../../d8/d0e/classPHGenIntegral.html#aaf67e6931c93f2f00069e882e370499c">get_N_Processed_Event</a>();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      cout &lt;&lt; <span class="stringliteral">&quot;AnaSimRunInfo: Integrated luminosity          = &quot;</span> &lt;&lt; lumi_inte &lt;&lt; <span class="stringliteral">&quot; /pb\n&quot;</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;               N of generator-accepted events = &quot;</span> &lt;&lt; n_evt_gen &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;           &lt;&lt; <span class="stringliteral">&quot;               N of processed events          = &quot;</span> &lt;&lt; n_evt_pro &lt;&lt; endl;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span> (ofs_lumi_list.is_open()) ofs_lumi_list &lt;&lt; lumi_inte &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; n_evt_gen &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; n_evt_pro &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    lumi_inte_tot += lumi_inte;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    n_evt_gen_tot += n_evt_gen;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    n_evt_pro_tot += n_evt_pro;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    n_run++;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  run_id_pre = run_id;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  evt_id_pre = evt_id;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">   75</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">AnaSimRunInfo::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  <span class="keywordflow">if</span> (!mi_evt || !mi_gen_inte) <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">if</span> (ofs_lumi_list.is_open()) ofs_lumi_list.close();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  ostringstream oss;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  oss &lt;&lt; <span class="stringliteral">&quot;Integrated luminosity          = &quot;</span> &lt;&lt; lumi_inte_tot &lt;&lt; <span class="stringliteral">&quot; /pb\n&quot;</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of generator-accepted events = &quot;</span> &lt;&lt; n_evt_gen_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of processed events          = &quot;</span> &lt;&lt; n_evt_pro_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      &lt;&lt; <span class="stringliteral">&quot;N of input runs                = &quot;</span> &lt;&lt; n_run         &lt;&lt; endl;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;AnaSimRunInfo::End():\n&quot;</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;         &lt;&lt; oss.str();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  <span class="keywordflow">if</span> (m_fn_lumi_info.length() &gt; 0) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    ofstream ofs(m_fn_lumi_info);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    ofs &lt;&lt; oss.str();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    ofs.close();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  ofstream ofs(m_fn_lumi_tot);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  ofs &lt;&lt; lumi_inte_tot &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  ofs.close();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
 <div class="ttc" id="classSQEvent_html_a392d15330793852b00fa9bc842604dca"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id</a></div><div class="ttdeci">virtual int get_run_id() const =0</div><div class="ttdoc">Return the run ID. </div></div>
-<div class="ttc" id="classAnaSimRunInfo_html_a19169df63f4da93da887ada278d4be4e"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">AnaSimRunInfo::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00032">AnaSimRunInfo.cc:32</a></div></div>
-<div class="ttc" id="classAnaSimRunInfo_html_ac50ffa4a911741f89e59cb8b4bd0e815"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">AnaSimRunInfo::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00044">AnaSimRunInfo.cc:44</a></div></div>
-<div class="ttc" id="classAnaSimRunInfo_html_adc88c2c376932ce820e54381fa77f73b"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">AnaSimRunInfo::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00070">AnaSimRunInfo.cc:70</a></div></div>
+<div class="ttc" id="classAnaSimRunInfo_html_a19169df63f4da93da887ada278d4be4e"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#a19169df63f4da93da887ada278d4be4e">AnaSimRunInfo::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00031">AnaSimRunInfo.cc:31</a></div></div>
+<div class="ttc" id="classAnaSimRunInfo_html_ac50ffa4a911741f89e59cb8b4bd0e815"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#ac50ffa4a911741f89e59cb8b4bd0e815">AnaSimRunInfo::process_event</a></div><div class="ttdeci">int process_event(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00047">AnaSimRunInfo.cc:47</a></div></div>
+<div class="ttc" id="classAnaSimRunInfo_html_adc88c2c376932ce820e54381fa77f73b"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#adc88c2c376932ce820e54381fa77f73b">AnaSimRunInfo::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00075">AnaSimRunInfo.cc:75</a></div></div>
 <div class="ttc" id="classSQEvent_html_ae99eb349fe38c0a3e655cadeecb8772a"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id</a></div><div class="ttdeci">virtual int get_event_id() const =0</div><div class="ttdoc">Return the event ID, which is unique per run. </div></div>
 <div class="ttc" id="PHGenIntegral_8h_html"><div class="ttname"><a href="../../d2/dfd/PHGenIntegral_8h.html">PHGenIntegral.h</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes.h:8</a></div></div>
@@ -212,7 +219,6 @@ $(document).ready(function(){initNavTree('dd/d1b/AnaSimRunInfo_8cc_source.html',
 <div class="ttc" id="classAnaSimRunInfo_html_aa16bbfdc98b01b557af695118a9b9e7a"><div class="ttname"><a href="../../d0/d63/classAnaSimRunInfo.html#aa16bbfdc98b01b557af695118a9b9e7a">AnaSimRunInfo::Init</a></div><div class="ttdeci">int Init(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1b/AnaSimRunInfo_8cc_source.html#l00022">AnaSimRunInfo.cc:22</a></div></div>
 <div class="ttc" id="classPHGenIntegral_html_a602ff4dfd24221ca9cbb86e69c2f8d38"><div class="ttname"><a href="../../d8/d0e/classPHGenIntegral.html#a602ff4dfd24221ca9cbb86e69c2f8d38">PHGenIntegral::get_Integrated_Lumi</a></div><div class="ttdeci">virtual Double_t get_Integrated_Lumi() const </div><div class="ttdoc">Integrated luminosity in pb^-1. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dfd/PHGenIntegral_8h_source.html#l00027">PHGenIntegral.h:27</a></div></div>
 <div class="ttc" id="Fun4AllReturnCodes_8h_html"><div class="ttname"><a href="../../da/dc1/Fun4AllReturnCodes_8h.html">Fun4AllReturnCodes.h</a></div></div>
-<div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes.h:7</a></div></div>
 <div class="ttc" id="classPHGenIntegral_html_aaf67e6931c93f2f00069e882e370499c"><div class="ttname"><a href="../../d8/d0e/classPHGenIntegral.html#aaf67e6931c93f2f00069e882e370499c">PHGenIntegral::get_N_Processed_Event</a></div><div class="ttdeci">virtual ULong64_t get_N_Processed_Event() const </div><div class="ttdoc">Number of processed events in the Fun4All cycles. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dfd/PHGenIntegral_8h_source.html#l00049">PHGenIntegral.h:49</a></div></div>
 <div class="ttc" id="SQEvent_8h_html"><div class="ttname"><a href="../../d0/db5/SQEvent_8h.html">SQEvent.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -225,7 +231,7 @@ $(document).ready(function(){initNavTree('dd/d1b/AnaSimRunInfo_8cc_source.html',
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_243bf7af8da44f9204e1d1b23ddfdc4e.html">AnaSimDst</a></li><li class="navelem"><a class="el" href="../../dir_5068949cefb9fa8f293e96b7d57e8366.html">src</a></li><li class="navelem"><a class="el" href="../../dd/d1b/AnaSimRunInfo_8cc.html">AnaSimRunInfo.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Sep 7 2021 09:01:09</em> using <a
+			updated: <em>Sun Sep 12 2021 14:50:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
