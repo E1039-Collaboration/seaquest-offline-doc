@@ -15,6 +15,8 @@ var searchData=
   ['utilonline_2eh',['UtilOnline.h',['../db/d8e/UtilOnline_8h.html',1,'']]],
   ['utilsqhit_2ecc',['UtilSQHit.cc',['../d8/d24/UtilSQHit_8cc.html',1,'']]],
   ['utilsqhit_2eh',['UtilSQHit.h',['../df/da2/UtilSQHit_8h.html',1,'']]],
+  ['utilsrawevent_2ecxx',['UtilSRawEvent.cxx',['../dd/d0b/UtilSRawEvent_8cxx.html',1,'']]],
+  ['utilsrawevent_2eh',['UtilSRawEvent.h',['../db/d44/UtilSRawEvent_8h.html',1,'']]],
   ['utiltrack_2ecc',['UtilTrack.cc',['../d5/dd0/UtilTrack_8cc.html',1,'']]],
   ['utiltrack_2eh',['UtilTrack.h',['../df/d0d/UtilTrack_8h.html',1,'']]],
   ['utiltrigger_2ecc',['UtilTrigger.cc',['../d9/d5e/UtilTrigger_8cc.html',1,'']]],

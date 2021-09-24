@@ -28,5 +28,6 @@ var searchData=
   ['fun4allserver',['Fun4AllServer',['../da/d29/classFun4AllServer.html',1,'']]],
   ['fun4allspilldstoutputmanager',['Fun4AllSpillDstOutputManager',['../df/d00/classFun4AllSpillDstOutputManager.html',1,'']]],
   ['fun4allsraweventinputmanager',['Fun4AllSRawEventInputManager',['../d5/dd4/classFun4AllSRawEventInputManager.html',1,'']]],
+  ['fun4allsraweventoutputmanager',['Fun4AllSRawEventOutputManager',['../d9/dc8/classFun4AllSRawEventOutputManager.html',1,'']]],
   ['fun4allsyncmanager',['Fun4AllSyncManager',['../dd/ded/classFun4AllSyncManager.html',1,'']]]
 ];

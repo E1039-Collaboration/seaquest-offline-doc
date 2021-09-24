@@ -186,8 +186,8 @@ $(document).ready(function(){initNavTree('d4/d55/PHEventDisplay_8cxx_source.html
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  TEveViewer* v; TEveScene* <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">s</a>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  <a class="code" href="../../d4/d55/PHEventDisplay_8cxx.html#a23e243d47d150dddfb54e402891cdef4">MakeViewerScene</a>(slot, v, s);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  v-&gt;SetElementName(Form(<span class="stringliteral">&quot;Viewer - %s&quot;</span>,name));</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  s-&gt;SetElementName(Form(<span class="stringliteral">&quot;Scene - %s&quot;</span>,name));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  v-&gt;SetElementName(TString::Format(<span class="stringliteral">&quot;Viewer - %s&quot;</span>,name));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  s-&gt;SetElementName(TString::Format(<span class="stringliteral">&quot;Scene - %s&quot;</span>,name));</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  s-&gt;AddElement(element);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
@@ -226,8 +226,8 @@ $(document).ready(function(){initNavTree('d4/d55/PHEventDisplay_8cxx_source.html
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  TEveViewer* v; TEveScene* <a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">s</a>;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <a class="code" href="../../d4/d55/PHEventDisplay_8cxx.html#a23e243d47d150dddfb54e402891cdef4">MakeViewerScene</a>(slot, v, s);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  v-&gt;SetElementName(Form(<span class="stringliteral">&quot;Viewer - %s&quot;</span>,name));</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  s-&gt;SetElementName(Form(<span class="stringliteral">&quot;Scene - %s&quot;</span>,name));</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  v-&gt;SetElementName(TString::Format(<span class="stringliteral">&quot;Viewer - %s&quot;</span>,name));</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  s-&gt;SetElementName(TString::Format(<span class="stringliteral">&quot;Scene - %s&quot;</span>,name));</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  s-&gt;AddElement(element);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
@@ -532,10 +532,10 @@ $(document).ready(function(){initNavTree('d4/d55/PHEventDisplay_8cxx_source.html
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  <span class="keywordflow">if</span> (_sqevent) {</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordflow">if</span>(verbosity) std::cout&lt;&lt;<span class="stringliteral">&quot;PHEventDisplay - SQEvent nodes found.&quot;</span>&lt;&lt;std::endl;</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    v-&gt;DeleteOverlayAnnotations();</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    TGLAnnotation* ann = <span class="keyword">new</span> TGLAnnotation(v, Form(<span class="stringliteral">&quot;Run: %d, Spill: %d, Event: %d&quot;</span>, _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">get_run_id</a>(), _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">get_spill_id</a>(), _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">get_event_id</a>()), 0.55, 0.95);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    TGLAnnotation* ann = <span class="keyword">new</span> TGLAnnotation(v, TString::Format(<span class="stringliteral">&quot;Run: %d, Spill: %d, Event: %d&quot;</span>, _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">get_run_id</a>(), _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">get_spill_id</a>(), _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">get_event_id</a>()), 0.55, 0.95);</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    ann-&gt;SetTextSize(0.04);</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    ann = <span class="keyword">new</span> TGLAnnotation(v,</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        Form(<span class="stringliteral">&quot;NIM: {%d, %d, %d, %d, %d}  MATRIX: {%d, %d, %d, %d, %d}&quot;</span>,</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        TString::Format(<span class="stringliteral">&quot;NIM: {%d, %d, %d, %d, %d}  MATRIX: {%d, %d, %d, %d, %d}&quot;</span>,</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;            _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29">get_trigger</a>(<a class="code" href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a85a7c31a2b6f94dd85c8c7e7e8d9d359">SQEvent::NIM1</a>),</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;            _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29">get_trigger</a>(<a class="code" href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21a8314f890b52f7ee970d20b45d2800b92">SQEvent::NIM2</a>),</div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            _sqevent-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29">get_trigger</a>(<a class="code" href="../../d9/dd7/classSQEvent.html#a5328bd72e6338cf887fbece656986c21ad5454722cb5c854f26c3dcc21b52e2b7">SQEvent::NIM3</a>),</div>
@@ -647,7 +647,7 @@ $(document).ready(function(){initNavTree('d4/d55/PHEventDisplay_8cxx_source.html
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_7f0851f3eb1a856f692bc300b62d4726.html">Display</a></li><li class="navelem"><a class="el" href="../../dir_6e3f0bb39283b79a9e062dfe122b60c1.html">interface</a></li><li class="navelem"><a class="el" href="../../d4/d55/PHEventDisplay_8cxx.html">PHEventDisplay.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Sep 13 2021 13:20:07</em> using <a
+			updated: <em>Fri Sep 24 2021 14:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

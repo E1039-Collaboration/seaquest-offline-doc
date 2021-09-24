@@ -9,6 +9,7 @@ var classSQDigitizer =
     [ "InitRun", "df/d36/classSQDigitizer.html#a21d74c5a523ba8627e32e49714a6e26f", null ],
     [ "process_event", "df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda", null ],
     [ "registerEMCal", "df/d36/classSQDigitizer.html#aad119128235bc9f3d7cbf6005c769c51", null ],
+    [ "set_digitize_secondaries", "df/d36/classSQDigitizer.html#ac14f04f0178f87e28fc92871f1ce2dac", null ],
     [ "set_enable_dphodo", "df/d36/classSQDigitizer.html#a2c57d538a846166838bac4f118da7f72", null ],
     [ "set_enable_st1dc", "df/d36/classSQDigitizer.html#a94fbfd930c455a55a462aa844db45c58", null ]
 ];

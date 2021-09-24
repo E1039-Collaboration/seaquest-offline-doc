@@ -9,6 +9,7 @@ var searchData=
   ['unregistersubsystemsnow',['unregisterSubsystemsNow',['../da/d29/classFun4AllServer.html#a3a4e3f448388cb2e68b085e9038feaf8',1,'Fun4AllServer']]],
   ['update',['update',['../dc/d90/classPlane.html#a7fbb07f76503fe057772e01f542afc32',1,'Plane::update()'],['../d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e',1,'KalmanTrack::update()']]],
   ['updatealignment',['updateAlignment',['../d3/dc9/classKalmanFitter.html#ae154e58fd85842a26842f707dd98a326',1,'KalmanFitter']]],
+  ['updatedbstatus',['UpdateDBStatus',['../d9/dc8/classFun4AllSRawEventOutputManager.html#ad0854f039998d386930165b208337398',1,'Fun4AllSRawEventOutputManager']]],
   ['updateeventselector',['UpdateEventSelector',['../da/d29/classFun4AllServer.html#a596005b9bc46ff6f5167378423248271',1,'Fun4AllServer']]],
   ['updatefield',['UpdateField',['../d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe',1,'G4TBMagneticFieldSetup']]],
   ['updatefullspillrange',['UpdateFullSpillRange',['../d1/de7/classOnlMonUI.html#a1606bcb6ab4e21a81922b7cbe1e6bd6f',1,'OnlMonUI']]],

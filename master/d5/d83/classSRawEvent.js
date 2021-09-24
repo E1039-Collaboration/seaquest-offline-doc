@@ -19,6 +19,8 @@ var classSRawEvent =
     [ "Clone", "d5/d83/classSRawEvent.html#a1a7ac6be6edc4107486a5832afe2d602", null ],
     [ "DeepClone", "d5/d83/classSRawEvent.html#ad51593b8a33085c35b0a2ffefb3c4282", null ],
     [ "empty", "d5/d83/classSRawEvent.html#a3e5fe5d87d1a7c1b21e903ca61f12cae", null ],
+    [ "emptyHits", "d5/d83/classSRawEvent.html#a5aaa34883e14f01c358e09c77d5cbe00", null ],
+    [ "emptyTriggerHits", "d5/d83/classSRawEvent.html#a2d0c86e5608813e7f176506199aee986", null ],
     [ "findHit", "d5/d83/classSRawEvent.html#af082e0479172370aa4faa7c785936bcd", null ],
     [ "getAdjacentHitsIndex", "d5/d83/classSRawEvent.html#ad3226e50bb57b111e047e75054c592b4", null ],
     [ "getAllHits", "d5/d83/classSRawEvent.html#abd6f13b04ed7155aa744111e9324aa41", null ],
