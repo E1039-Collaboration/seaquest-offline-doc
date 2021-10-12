@@ -117,54 +117,58 @@ $(document).ready(function(){initNavTree('db/ddd/e1039-analysis_2HitEmbedding_2m
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;It writes out the embedded data into a new DST <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`DST.root`).</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">## Preparation</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;You first make lists of signal and embedding data; `list_sig_file.txt` and `list_emb_file.txt`.</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;You modify `make-list.sh` so that `DIR_SIG` and `DIR_EMB` in the script point to the directories where you store the data files.</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;You then execute the script as follows;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;```</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;./make-lists.sh</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;```</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;You will see the numbers of files and events found and should check that the contents of the two files are valid.</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;## Method of pairing signal data and embedding data</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">## Preparation</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;You first make lists of signal and embedding data; `list_sig_file.txt` and `list_emb_file.txt`.</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;You modify `make-list.sh` so that `DIR_SIG` and `DIR_EMB` in the script point to the directories where you store the data files.</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;You then execute the script as follows;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;```</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;./make-lists.sh</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;```</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;You will see the numbers of files and events found and should check that the contents of the two files are valid.</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;One signal data (`DST.root`) and one embedding data (`embedding_data.root`)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;are paired from the top of the lists in sequence.</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;The pairing will be made by the smaller number of data files.</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;Per paired data files,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;one signal event and one embedding data are paired from the head of event in sequence.</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;The pairing will be made by the smaller number of events.</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;Note that the orders of the data files and events are _not_ shuffled at random.</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;It is fine because</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;* The orders stored are already random, and</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;* The fixed order is helpful in checking the reproducibility of the hit embedding.</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;But the random pairing might be implemented in future.</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">## Usage</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;Two scripts (`gridsub.sh` and `gridrun.sh`) are used as usual, although the contents of `gridsub.sh` are quite difference since it needs two input data files.</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;You first execute the following command for test;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;```</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;./gridsub.sh -j 1 -e 10 20210823_01</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;```</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;It processes only the first 10 events in the 1st job (i.e. input <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> pair) on local.</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;You then execute the following commands to submit grid jobs;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;## Method of pairing signal data and embedding data</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;One signal data (`DST.root`) and one embedding data (`embedding_data.root`)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;are paired from the top of the lists in sequence.</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;The pairing will be made by the smaller number of data files.</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;Per paired data files,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;one signal event and one embedding data are paired from the head of event in sequence.</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;The pairing will be made by the smaller number of events.</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;Note that the orders of the data files and events are _not_ shuffled at random.</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;It is fine because</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;* The orders stored are already random, and</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;* The fixed order is helpful in checking the reproducibility of the hit embedding.</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;But the random pairing might be implemented in future.</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">## Usage</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;Two scripts (`gridsub.sh` and `gridrun.sh`) are used as usual, although the contents of `gridsub.sh` are quite difference since it needs two input data files.</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;You first execute the following command for test,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;which processes only the first 10 events in the 1st job (i.e. input <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> pair) on local.</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;```</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;./gridsub.sh -j 1 -e 10 jpsi_20211012</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;```</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;source /e906/app/software/script/setup-jobsub-spinquest.sh</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;./gridsub.sh -g 20210823_01</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;You then execute the following commands to submit grid jobs;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;```</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">## Event reconstruction</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;The <span class="keyword">event</span> reconstruction is carried out after the hit embedding.</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;The setting has to be identical to the one in `macro_gen_signal/<a class="code" href="../../d8/d19/HitEmbedding_2macro__embed_2Fun4Sim_8C.html#a023b21d2b27b8be1999a1cb7e43bbb23">Fun4Sim</a>.C`.</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;The reconstruction here makes a result affected by the hit embedding.</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;source /e906/app/software/script/setup-jobsub-spinquest.sh</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;./gridsub.sh -g jpsi_20211012</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;```</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">## Event reconstruction</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;The <span class="keyword">event</span> reconstruction is carried out after the hit embedding.</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;The setting has to be identical to the one in `macro_gen_signal/<a class="code" href="../../d8/d19/HitEmbedding_2macro__embed_2Fun4Sim_8C.html#a023b21d2b27b8be1999a1cb7e43bbb23">Fun4Sim</a>.C`.</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;The reconstruction here makes a result affected by the hit embedding.</div>
 <div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 <div class="ttc" id="HitEmbedding_2macro__embed_2Fun4Sim_8C_html_a023b21d2b27b8be1999a1cb7e43bbb23"><div class="ttname"><a href="../../d8/d19/HitEmbedding_2macro__embed_2Fun4Sim_8C.html#a023b21d2b27b8be1999a1cb7e43bbb23">Fun4Sim</a></div><div class="ttdeci">int Fun4Sim(const char *fn_sig, const char *fn_emb, const int n_evt_in=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/HitEmbedding_2macro__embed_2Fun4Sim_8C_source.html#l00006">Fun4Sim.C:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -177,7 +181,7 @@ $(document).ready(function(){initNavTree('db/ddd/e1039-analysis_2HitEmbedding_2m
 		<li class="navelem"><a class="el" href="../../db/ddd/e1039-analysis_2HitEmbedding_2macro__embed_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:06</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

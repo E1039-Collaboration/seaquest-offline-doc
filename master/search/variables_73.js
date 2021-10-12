@@ -44,7 +44,7 @@ var searchData=
   ['solidvec',['solidVec',['../dc/d5b/classDetectorConstruction.html#ab98ac5f4579a4a8134ccac738d1f6bf0',1,'DetectorConstruction']]],
   ['spacing',['spacing',['../dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855',1,'Plane']]],
   ['sphenix_5fbuild_5ftag',['sphenix_build_tag',['../d1/d2b/namespacesubmit__bnl.html#afcbd17f85d168e172b325acd1437d8cc',1,'submit_bnl.sphenix_build_tag()'],['../d9/d8d/namespacesubmit__e1039.html#aba3f12b8832052534af5f04b9c7ed4fb',1,'submit_e1039.sphenix_build_tag()']]],
-  ['spill_5fid',['spill_id',['../d4/dbe/structSpillData.html#a62a882a26d8405ed6e9adab5c6ea37f8',1,'SpillData::spill_id()'],['../d9/d76/structEmbEventData.html#aa4a1f51d37bb3f2a4272f3f7e8b6edcd',1,'EmbEventData::spill_id()']]],
+  ['spill_5fid',['spill_id',['../d4/dbe/structSpillData.html#a62a882a26d8405ed6e9adab5c6ea37f8',1,'SpillData']]],
   ['spill_5fid_5fslow',['spill_id_slow',['../d4/dbe/structSpillData.html#a4c0d386390e930989a7c7c9b469db96d',1,'SpillData']]],
   ['spill_5fmap',['spill_map',['../d5/dd4/classFun4AllSRawEventInputManager.html#a5964373eee09efd1b6463373302ad2fc',1,'Fun4AllSRawEventInputManager']]],
   ['spillid',['spillID',['../d2/d31/structEventInfo.html#ae7ef015e777cec94b176855011b9b869',1,'EventInfo::spillID()'],['../d3/df0/structDecoParam.html#a8684acad44049c3dc3d93173add54469',1,'DecoParam::spillID()']]],

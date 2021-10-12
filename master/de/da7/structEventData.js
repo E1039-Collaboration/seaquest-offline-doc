@@ -13,8 +13,12 @@ var structEventData =
     [ "ClassDef", "de/da7/structEventData.html#aaf523d8c0d0ce358ca7b087dad875cf8", null ],
     [ "event", "de/da7/structEventData.html#a85b750286a88ee2e09bcdc6dc6473dc6", null ],
     [ "event_id", "de/da7/structEventData.html#a6e8e442f8917d27fa5702d5e49d365c1", null ],
+    [ "job_id", "de/da7/structEventData.html#af25e0dba7445caac736129f36bf9d743", null ],
     [ "list_hit", "de/da7/structEventData.html#a30525f8996a775dd3c725014c6bf2d33", null ],
     [ "list_hit_trig", "de/da7/structEventData.html#af3e9149e315c62ac312cdd15be447791", null ],
+    [ "n_d1", "de/da7/structEventData.html#a69405ee42e01214d9c4634d0fc6895c3", null ],
+    [ "n_d2", "de/da7/structEventData.html#a595d025cb46c57414c7a8958a48950f4", null ],
+    [ "n_d3", "de/da7/structEventData.html#a9a9cdc1b14d8acd89a7f855cc8ccdca2", null ],
     [ "n_dim_reco", "de/da7/structEventData.html#ae6c3b8d08041407a1a089ec6decd553e", null ],
     [ "n_dim_true", "de/da7/structEventData.html#ada87acb03efc9388d2c3f303b739019c", null ],
     [ "n_h1x", "de/da7/structEventData.html#a95573a8e66f336e28f7804fdadfd1c0a", null ],
@@ -30,6 +34,9 @@ var structEventData =
     [ "par_mom", "de/da7/structEventData.html#a1e7a99c648fb3e8f75308e80cd1d493b", null ],
     [ "proc_id", "de/da7/structEventData.html#a296610c55dd475f5f5d031bef0cce006", null ],
     [ "rec_stat", "de/da7/structEventData.html#a61e2c55d2f1fa83875a44e22699c69e9", null ],
+    [ "rfm01", "de/da7/structEventData.html#ae5904de861fc17a66fd5476488dad563", null ],
+    [ "rfp00", "de/da7/structEventData.html#a74992dc9521739b1ef9a716a4d6742ee", null ],
+    [ "rfp01", "de/da7/structEventData.html#ab2f0d33f6b19eca1c12ea2f80eeff9d4", null ],
     [ "trig_bits", "de/da7/structEventData.html#a27de345d973fff5900a05e0f1a12c5d8", null ],
     [ "weight", "de/da7/structEventData.html#a00d12c8b021f4624b805895441cb9ef8", null ]
 ];

@@ -115,44 +115,60 @@ $(document).ready(function(){initNavTree('d7/d99/e1039-analysis_2HitEmbedding_2m
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;The comparison between them shows you the effect of embedded hits.</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;Thus you will carry out the analysis twice in two sub-directories; `not_embedded` and `embedded`.</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;## Analysis of non-embedded data</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;You first make a list of the input data, which are `DST.root` that you generetd with `macro_gen_signal`.</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;You execute the following commands;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;```</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;cd not_embedded</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;../make-dst-list.sh ../../macro_gen_signal/data/sig_20210823_01</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;```</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;You see `list_dst.txt` and `info_dst.txt` are created.</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;You then produce a compact ROOT <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`ana_tree.root`) from the input data, by executing the following command;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;```</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;root -b ../<a class="code" href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae">Fun4SimDst</a>.C</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;```</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;The contents of `ana_tree.root` are defined by `src/<a class="code" href="../../d2/de6/classAnaEmbeddedData.html">AnaEmbeddedData</a>.cc`.</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;You will most likely modify it for your own study.</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;You last draw a set of plots using `ana_tree.root`, by executing the following command;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;```</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;root -b ../<a class="code" href="../../d3/d84/AnaTree_8C.html#a552efd90a1b50f5f9b1ae5f8e1a0e892">AnaTree</a>.C</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;```</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;The plots will appear in `result/`.</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">## Analysis of embedded data</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;You repeat the same procedure to analyze the embedded data as well.</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;The input data <span class="keyword">this</span> time are `DST.root` that you generated with `macro_embed`.</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;```</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;cd ../not_embedded</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;../make-dst-list.sh ../../macro_embed/data/20210823_01</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;root -b ../<a class="code" href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae">Fun4SimDst</a>.C</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;root -b ../<a class="code" href="../../d3/d84/AnaTree_8C.html#a552efd90a1b50f5f9b1ae5f8e1a0e892">AnaTree</a>.C</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;```</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;## Analysis of non-embedded data</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;You first make a list of the input data, which are `DST.root` that you generetd with `macro_gen_signal`.</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;You execute the following commands;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;```</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;cd not_embedded</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;../make-dst-list.sh ../../macro_gen_signal/data/jpsi_20211011</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;```</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;You see `list_dst.txt` and `info_dst.txt` are created.</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;You then produce a compact ROOT <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`ana_tree.root`) from the input data, by executing the following command;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;```</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;root -b ../<a class="code" href="../../d7/d2d/macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a>.C</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;```</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;The contents of `ana_tree.root` are defined by `src/<a class="code" href="../../d2/de6/classAnaEmbeddedData.html">AnaEmbeddedData</a>.cc`.</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;You will most likely modify it for your own study.</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;You last draw a set of plots using `ana_tree.root`, by executing the following command;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;```</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;root -b ../<a class="code" href="../../d2/df5/AnaOneData_8C.html#ac005486e6f425fc3bfa45e5fa7780f3c">AnaOneData</a>.C</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;```</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;The plots will appear in `result/`.</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">## Analysis of embedded data</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;You repeat the same procedure to analyze the embedded data as well.</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;The input data <span class="keyword">this</span> time are `DST.root` that you generated with `macro_embed`.</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;```</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;cd ../embedded</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;../make-dst-list.sh ../../macro_embed/data/20211012</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;root -b ../<a class="code" href="../../d7/d2d/macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a>.C</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;root -b ../<a class="code" href="../../d2/df5/AnaOneData_8C.html#ac005486e6f425fc3bfa45e5fa7780f3c">AnaOneData</a>.C</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;```</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">## Simultaneous analysis of non-embedded and embedded data</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;You can/should analyze both the non-embedded and embedded data simultaneously, </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordflow">for</span> example to evaluate the relative reconstruction efficiency versus rate.</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;Such analysis can be done via `<a class="code" href="../../d5/d7f/AnaBothData_8C.html#aea479ab7335c426e77f73378affec42c">AnaBothData</a>.C`, where the contents of </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;the analysis are implemented in `src/<a class="code" href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a>.cc`;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;```</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;cd ..</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;root -b <a class="code" href="../../d5/d7f/AnaBothData_8C.html#aea479ab7335c426e77f73378affec42c">AnaBothData</a>.C</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;```</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;The plots will appear in `result/`.</div>
 <div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
-<div class="ttc" id="AnaTree_8C_html_a552efd90a1b50f5f9b1ae5f8e1a0e892"><div class="ttname"><a href="../../d3/d84/AnaTree_8C.html#a552efd90a1b50f5f9b1ae5f8e1a0e892">AnaTree</a></div><div class="ttdeci">void AnaTree(const char *fname=&quot;ana_tree.root&quot;, const char *tname=&quot;tree&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/AnaTree_8C_source.html#l00008">AnaTree.C:8</a></div></div>
-<div class="ttc" id="classAnaEmbeddedData_html"><div class="ttname"><a href="../../d2/de6/classAnaEmbeddedData.html">AnaEmbeddedData</a></div><div class="ttdoc">An example class to analyze the simulated uDST file. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/AnaEmbeddedData_8h_source.html#l00018">AnaEmbeddedData.h:18</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimDst_8C_html_abf0708efff889232b6c0a7359cfb70ae"><div class="ttname"><a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C.html#abf0708efff889232b6c0a7359cfb70ae">Fun4SimDst</a></div><div class="ttdeci">int Fun4SimDst(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;, const char *fn_udst=&quot;uDST.root&quot;)</div><div class="ttdoc">Fun4SimDst.C: Fun4all macro to analyze the E1039 simulated DST files. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df8/AnaSimDst_2work_2Fun4SimDst_8C_source.html#l00004">Fun4SimDst.C:4</a></div></div>
+<div class="ttc" id="classAnaCleanAndMessyData_html"><div class="ttname"><a href="../../dc/d8e/classAnaCleanAndMessyData.html">AnaCleanAndMessyData</a></div><div class="ttdoc">A SubsysReco module to analyze the non-embedded and embedded data at once. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/AnaCleanAndMessyData_8h_source.html#l00009">AnaCleanAndMessyData.h:9</a></div></div>
+<div class="ttc" id="AnaBothData_8C_html_aea479ab7335c426e77f73378affec42c"><div class="ttname"><a href="../../d5/d7f/AnaBothData_8C.html#aea479ab7335c426e77f73378affec42c">AnaBothData</a></div><div class="ttdeci">void AnaBothData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d7f/AnaBothData_8C_source.html#l00004">AnaBothData.C:4</a></div></div>
+<div class="ttc" id="macro__ana_2Fun4All_8C_html_afa2b16358017bbcbfbab8e9243beb61d"><div class="ttname"><a href="../../d7/d2d/macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a></div><div class="ttdeci">int Fun4All(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2d/macro__ana_2Fun4All_8C_source.html#l00003">Fun4All.C:3</a></div></div>
+<div class="ttc" id="AnaOneData_8C_html_ac005486e6f425fc3bfa45e5fa7780f3c"><div class="ttname"><a href="../../d2/df5/AnaOneData_8C.html#ac005486e6f425fc3bfa45e5fa7780f3c">AnaOneData</a></div><div class="ttdeci">void AnaOneData(const char *fname=&quot;ana_tree.root&quot;, const char *tname=&quot;tree&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df5/AnaOneData_8C_source.html#l00008">AnaOneData.C:8</a></div></div>
+<div class="ttc" id="classAnaEmbeddedData_html"><div class="ttname"><a href="../../d2/de6/classAnaEmbeddedData.html">AnaEmbeddedData</a></div><div class="ttdoc">A SubsysReco module to analyze the hit-embedded data. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/AnaEmbeddedData_8h_source.html#l00021">AnaEmbeddedData.h:21</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -163,7 +179,7 @@ $(document).ready(function(){initNavTree('d7/d99/e1039-analysis_2HitEmbedding_2m
 		<li class="navelem"><a class="el" href="../../d7/d99/e1039-analysis_2HitEmbedding_2macro__ana_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:06</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

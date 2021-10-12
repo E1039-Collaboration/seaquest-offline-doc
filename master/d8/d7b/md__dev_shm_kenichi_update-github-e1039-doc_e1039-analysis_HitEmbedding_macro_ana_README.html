@@ -104,11 +104,13 @@ $(document).ready(function(){initNavTree('d8/d7b/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>This macro is to analyze the data before/after the hit embedding. You can apply the identical analysis program to both the embedded data and the non-embedded data. The comparison between them shows you the effect of embedded hits. Thus you will carry out the analysis twice in two sub-directories; <code>not_embedded</code> and <code>embedded</code>.</p>
 <h2>Analysis of non-embedded data</h2>
-<p>You first make a list of the input data, which are <code>DST.root</code> that you generetd with <code>macro_gen_signal</code>. You execute the following commands; ``` cd not_embedded ../make-dst-list.sh ../../macro_gen_signal/data/sig_20210823_01 ``<code> You see</code>list_dst.txt&lt;tt&gt;andinfo_dst.txt` are created.</p>
-<p>You then produce a compact ROOT file (<code>ana_tree.root</code>) from the input data, by executing the following command; ``` root -b ../Fun4SimDst.C ``<code> The contents of</code>ana_tree.root&lt;tt&gt;are defined by<a class="el" href="../../db/d39/AnaEmbeddedData_8cc.html">src/AnaEmbeddedData.cc</a>`. You will most likely modify it for your own study.</p>
-<p>You last draw a set of plots using <code>ana_tree.root</code>, by executing the following command; ``` root -b ../AnaTree.C ``<code> The plots will appear in</code>result/`.</p>
+<p>You first make a list of the input data, which are <code>DST.root</code> that you generetd with <code>macro_gen_signal</code>. You execute the following commands; ``` cd not_embedded ../make-dst-list.sh ../../macro_gen_signal/data/jpsi_20211011 ``<code> You see</code>list_dst.txt&lt;tt&gt;andinfo_dst.txt` are created.</p>
+<p>You then produce a compact ROOT file (<code>ana_tree.root</code>) from the input data, by executing the following command; ``` root -b ../Fun4All.C ``<code> The contents of</code>ana_tree.root&lt;tt&gt;are defined by<a class="el" href="../../db/d39/AnaEmbeddedData_8cc.html">src/AnaEmbeddedData.cc</a>`. You will most likely modify it for your own study.</p>
+<p>You last draw a set of plots using <code>ana_tree.root</code>, by executing the following command; ``` root -b ../AnaOneData.C ``<code> The plots will appear in</code>result/`.</p>
 <h2>Analysis of embedded data</h2>
-<p>You repeat the same procedure to analyze the embedded data as well. The input data this time are <code>DST.root</code> that you generated with <code>macro_embed</code>. ``` cd ../not_embedded ../make-dst-list.sh ../../macro_embed/data/20210823_01 root -b ../Fun4SimDst.C root -b ../AnaTree.C ``` </p>
+<p>You repeat the same procedure to analyze the embedded data as well. The input data this time are <code>DST.root</code> that you generated with <code>macro_embed</code>. ``` cd ../embedded ../make-dst-list.sh ../../macro_embed/data/20211012 root -b ../Fun4All.C root -b ../AnaOneData.C ```</p>
+<h2>Simultaneous analysis of non-embedded and embedded data</h2>
+<p>You can/should analyze both the non-embedded and embedded data simultaneously, for example to evaluate the relative reconstruction efficiency versus rate. Such analysis can be done via <code><a class="el" href="../../d5/d7f/AnaBothData_8C.html">AnaBothData.C</a></code>, where the contents of the analysis are implemented in <code><a class="el" href="../../d6/dfe/AnaCleanAndMessyData_8cc.html">src/AnaCleanAndMessyData.cc</a></code>; ``` cd .. root -b <a class="el" href="../../d5/d7f/AnaBothData_8C.html">AnaBothData.C</a> ``<code> The plots will appear in</code>result/`. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -118,7 +120,7 @@ $(document).ready(function(){initNavTree('d8/d7b/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:09</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

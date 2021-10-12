@@ -112,40 +112,50 @@ $(document).ready(function(){initNavTree('d8/d83/e1039-analysis_2HitEmbedding_2m
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;This macro is to generate signal events to be used <span class="keywordflow">for</span> the hit embedding.</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;The DST <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (i.e. `DST.root`) outputted by this macro is used next.</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">## Alternative</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;You can use another <span class="keyword">package </span>for this step, such as `SimChainDev`.</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;In that case you are recommended to</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;* Confirm that the geometry configuration is identical, and</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;* Save only necessary data nodes in DSTs to reduce the size of DSTs, via `Fun4AllDstOutputManager::AddNode()`.</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;## Default Setting of Event Generation</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;The default setting configured in `Fun4Sim.C` uses</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;* The J/psi production via `SQPrimaryParticleGen`,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;* The standard geometry configuration, and</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;* The standard event reconstruction (i.e. tracking &amp; vertexing).</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;You can modify them as you need.</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;The reconstruction here makes a result _not_ affected by the hit embedding.</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;It will be compared to another result reconstructed after the hit embedding.</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;## Usage</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;The usage is quite similar to `SimChainDev`.</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;You use two shell scripts to execute the macro on the grid.</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;The number of signal events per job (=<a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>) should be matched with that of *embedding* events that you will use.</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;The number used below (5000) is suitable for the E906 NIM3 embedding events.</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">## Alternative</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;You can use another <span class="keyword">package </span>for this step, such as `SimChainDev`.</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;In that case you are recommended to</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;* Match the number of events per job (=file) with that of *embedding* events that you will use, </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;* Confirm that the geometry configuration is identical, and</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;* Save only necessary data nodes in DSTs to reduce the size of DSTs, via `Fun4AllDstOutputManager::AddNode()`.</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;## Default Setting of Event Generation</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;The default setting configured in `Fun4Sim.C` uses</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;* The J/psi production via `SQPrimaryParticleGen`,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;* The standard geometry configuration, and</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;* The standard event reconstruction (i.e. tracking &amp; vertexing).</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;You can modify them as you need.</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;The reconstruction here makes a result _not_ affected by the hit embedding.</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;It will be compared to another result reconstructed after the hit embedding.</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;## Usage</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;Typically you first execute the following command to execute the macro on local for test;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;```</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;./gridsub.sh sig_20210823_01 0 1 100</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;```</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;You then execute the following commands to submit grid jobs;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;```</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;source /e906/app/software/script/setup-jobsub-spinquest.sh</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;./gridsub.sh sig_20210823_01 1 50 5000</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;```</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;The usage is quite similar to `SimChainDev`.</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;You use two shell scripts to execute the macro on the grid.</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;Typically you first execute the following command to execute the macro on local for test,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;which runs one job that generates 100 events;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;```</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;./gridsub.sh jpsi_20211011</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;```</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;You then execute the following commands to submit grid jobs (`-g`),</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;which runs 100 jobs (`-j 100`) that generate 5000 events/job (`-e 5000`);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;```</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;source /e906/app/software/script/setup-jobsub-spinquest.sh</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;./gridsub.sh -g -j 100 -e 5000 jpsi_20211011</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;```</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;You might submit more jobs when the statistics are not enough;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;```</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;./gridsub.sh -g -j 101-200 -e 5000 jpsi_20211011</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;```</div>
 <div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -157,7 +167,7 @@ $(document).ready(function(){initNavTree('d8/d83/e1039-analysis_2HitEmbedding_2m
 		<li class="navelem"><a class="el" href="../../d8/d83/e1039-analysis_2HitEmbedding_2macro__gen__signal_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:06</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

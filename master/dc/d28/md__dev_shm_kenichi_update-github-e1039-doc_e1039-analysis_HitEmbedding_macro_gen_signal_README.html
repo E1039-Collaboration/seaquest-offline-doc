@@ -102,10 +102,11 @@ $(document).ready(function(){initNavTree('dc/d28/md__dev_shm_kenichi_update-gith
 <div class="title">Macro to generate signal events </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This macro is to generate signal events to be used for the hit embedding. The DST file (i.e. <code>DST.root</code>) outputted by this macro is used next.</p>
+<div class="textblock"><p>This macro is to generate signal events to be used for the hit embedding. The DST file (i.e. <code>DST.root</code>) outputted by this macro is used next. The number of signal events per job (=file) should be matched with that of <em>embedding</em> events that you will use. The number used below (5000) is suitable for the E906 NIM3 embedding events.</p>
 <h2>Alternative</h2>
 <p>You can use another package for this step, such as <code>SimChainDev</code>. In that case you are recommended to</p>
 <ul>
+<li>Match the number of events per job (=file) with that of <em>embedding</em> events that you will use,</li>
 <li>Confirm that the geometry configuration is identical, and</li>
 <li>Save only necessary data nodes in DSTs to reduce the size of DSTs, via <code><a class="el" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398" title="add a node in outputmanager ">Fun4AllDstOutputManager::AddNode()</a></code>.</li>
 </ul>
@@ -119,8 +120,9 @@ $(document).ready(function(){initNavTree('dc/d28/md__dev_shm_kenichi_update-gith
 <p>You can modify them as you need. The reconstruction here makes a result <em>not</em> affected by the hit embedding. It will be compared to another result reconstructed after the hit embedding.</p>
 <h2>Usage</h2>
 <p>The usage is quite similar to <code>SimChainDev</code>. You use two shell scripts to execute the macro on the grid.</p>
-<p>Typically you first execute the following command to execute the macro on local for test; ``` ./gridsub.sh sig_20210823_01 0 1 100 ```</p>
-<p>You then execute the following commands to submit grid jobs; ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh sig_20210823_01 1 50 5000 ``` </p>
+<p>Typically you first execute the following command to execute the macro on local for test, which runs one job that generates 100 events; ``` ./gridsub.sh jpsi_20211011 ```</p>
+<p>You then execute the following commands to submit grid jobs (<code>-g</code>), which runs 100 jobs (<code>-j 100</code>) that generate 5000 events/job (<code>-e 5000</code>); ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh -g -j 100 -e 5000 jpsi_20211011 ```</p>
+<p>You might submit more jobs when the statistics are not enough; ``` ./gridsub.sh -g -j 101-200 -e 5000 jpsi_20211011 ``` </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -130,7 +132,7 @@ $(document).ready(function(){initNavTree('dc/d28/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:09</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

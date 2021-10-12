@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('d8/d48/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>This macro is to generate background events from which hits are taken and embedded. A ROOT file that contains a compact TTree object (i.e. <code>embedding_data.root</code>) outputted by this macro is used in the hit embedding.</p>
 <h2>Alternative</h2>
-<p>The NIM3 events in the E906 or E1039 data are better (i.e. more realistic) sources of background hits. A new macro to generate the embedding data from the E906 data will be set up next.</p>
+<p>The NIM3 events in the E906 or E1039 data are better (i.e. more realistic) sources of background hits.</p>
 <h2>Default Setting of <a class="el" href="../../d5/da5/classEvent.html">Event</a> Generation</h2>
 <p>The default setting configured in <code>Fun4Sim.C</code> uses</p>
 <ul>
@@ -114,8 +114,8 @@ $(document).ready(function(){initNavTree('d8/d48/md__dev_shm_kenichi_update-gith
 <p>You can modify them as you need.</p>
 <h2>Usage</h2>
 <p>The usage is quite similar to <code>macro_gen_signal</code> and thus <code>SimChainDev</code>. You use two shell scripts to execute the macro on the grid.</p>
-<p>Typically you first execute the following command to execute the macro on local for test; ``` ./gridsub.sh emb_20210823_01 0 1 100 ```</p>
-<p>You then execute the following commands to submit grid jobs; ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh emb_20210823_01 1 50 1000 ``` </p>
+<p>Typically you first execute the following command to execute the macro on local for test; ``` ./gridsub.sh emb_20210823 0 1 100 ```</p>
+<p>You then execute the following commands to submit grid jobs; ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh emb_20210823 1 50 1000 ``` </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('d8/d48/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:09</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

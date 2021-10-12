@@ -112,28 +112,42 @@ $(document).ready(function(){initNavTree('df/dd5/HitEmbedding_2src_2TreeData_8cc
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../de/da7/structEventData.html#a5ccfae751d54851f1069e9e4985183b2">EventData::EventData</a>()</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  : event_id(0)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  , trig_bits(0)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  , rec_stat(0)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  , weight(1.0)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  , n_h1x(0)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  , n_h2x(0)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , n_h3x(0)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , n_h4x(0)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  ;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<a class="code" href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a>() </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  : charge(0)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  ;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<a class="code" href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a>() </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  ;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  : job_id(0)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  , event_id(0)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  , trig_bits(0)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  , rfp01(0)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  , rfp00(0)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  , rfm01(0)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , weight(1.0)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , rec_stat(0)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  , n_h1x(0)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , n_h2x(0)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  , n_h3x(0)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  , n_h4x(0)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  , n_d1 (0)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  , n_d2 (0)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  , n_d3 (0)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  ;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a>() </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  : charge(0)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<a class="code" href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a>() </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  : mass(0)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  , pT(0)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  , x1(0)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  , x2(0)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  , xF(0)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  , costh_cs(0)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  , phi_cs(0)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  ;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="ttc" id="HitEmbedding_2src_2TreeData_8h_html"><div class="ttname"><a href="../../d8/d52/HitEmbedding_2src_2TreeData_8h.html">TreeData.h</a></div></div>
 <div class="ttc" id="structTrackData_html_a7f60a06862d3b68011eac879566fcae8"><div class="ttname"><a href="../../dd/d7f/structTrackData.html#a7f60a06862d3b68011eac879566fcae8">TrackData::TrackData</a></div><div class="ttdeci">TrackData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd3/AnaSimDst_2src_2TreeData_8cc_source.html#l00018">TreeData.cc:18</a></div></div>
 <div class="ttc" id="structDimuonData_html_a200494267cc1629fc211ba8312de740a"><div class="ttname"><a href="../../dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a">DimuonData::DimuonData</a></div><div class="ttdeci">DimuonData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd3/AnaSimDst_2src_2TreeData_8cc_source.html#l00024">TreeData.cc:24</a></div></div>
@@ -148,7 +162,7 @@ $(document).ready(function(){initNavTree('df/dd5/HitEmbedding_2src_2TreeData_8cc
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_d67fa6163eb9936af17cf99185a2b662.html">HitEmbedding</a></li><li class="navelem"><a class="el" href="../../dir_6089bce9f43f1e8d79753ad2bd6556d6.html">src</a></li><li class="navelem"><a class="el" href="../../df/dd5/HitEmbedding_2src_2TreeData_8cc.html">TreeData.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:05</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

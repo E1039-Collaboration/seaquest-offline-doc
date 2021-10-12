@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('d0/dde/md__dev_shm_kenichi_update-gith
 </ul>
 <h2>Usage</h2>
 <p>Two scripts (<code>gridsub.sh</code> and <code>gridrun.sh</code>) are used as usual, although the contents of <code>gridsub.sh</code> are quite difference since it needs two input data files.</p>
-<p>You first execute the following command for test; ``` ./gridsub.sh -j 1 -e 10 20210823_01 ``` It processes only the first 10 events in the 1st job (i.e. input file pair) on local.</p>
-<p>You then execute the following commands to submit grid jobs; ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh -g 20210823_01 ```</p>
+<p>You first execute the following command for test, which processes only the first 10 events in the 1st job (i.e. input file pair) on local. ``` ./gridsub.sh -j 1 -e 10 jpsi_20211012 ```</p>
+<p>You then execute the following commands to submit grid jobs; ``` source /e906/app/software/script/setup-jobsub-spinquest.sh ./gridsub.sh -g jpsi_20211012 ```</p>
 <h2><a class="el" href="../../d5/da5/classEvent.html">Event</a> reconstruction</h2>
 <p>The event reconstruction is carried out after the hit embedding. The setting has to be identical to the one in <code><a class="el" href="../../db/d09/HitEmbedding_2macro__gen__signal_2Fun4Sim_8C.html">macro_gen_signal/Fun4Sim.C</a></code>. The reconstruction here makes a result affected by the hit embedding. </p>
 </div></div><!-- contents -->
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d0/dde/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Sep 24 2021 14:20:09</em> using <a
+			updated: <em>Tue Oct 12 2021 17:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
