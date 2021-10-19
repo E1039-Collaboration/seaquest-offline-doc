@@ -10,6 +10,7 @@ var UtilDimuon_8h =
     [ "GetX1X2", "d7/d60/UtilDimuon_8h.html#a422b81d52cb3407195a252b8e6a4bb9b", null ],
     [ "GetX2", "d7/d60/UtilDimuon_8h.html#ad29e35bc7b249b498953a3e850ee70d1", null ],
     [ "Lab2CollinsSoper", "d7/d60/UtilDimuon_8h.html#adfbba745f7561d97d958171d4f9784b3", null ],
+    [ "Lab2CollinsSoper", "d7/d60/UtilDimuon_8h.html#a2b8d0756bbe24e221b2e7bae4a8ac263", null ],
     [ "Lab2CollinsSoper", "d7/d60/UtilDimuon_8h.html#a401ca52e725b67b1abe46265e66c5eeb", null ],
     [ "Lab2CollinsSoper", "d7/d60/UtilDimuon_8h.html#aa6caf065f1f49908ba80cede284b83c0", null ]
 ];

@@ -218,7 +218,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p><a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to do the detector realization for chamber and prop tube. </p>
 <p>This module simulates the detection efficiency and the time/distance resolution.</p>
 <p>The in-time flag of one <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> object is set to 'false' when the hit is regarded as inefficient. We might better have another flag like 'is_efficient' in future.</p>
-<p>The drift distance of one <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> object is converted to its TDC time, by using the X-T relation and the T0 value given by <a class="el" href="../../da/d44/classCalibParamXT.html" title="Calibration parameter for chamber X-T relation. ">CalibParamXT</a> and <a class="el" href="../../d7/dec/classCalibParamInTimeTaiwan.html">CalibParamInTimeTaiwan</a>. User has to use (i.e. register) <code><a class="el" href="../../da/dab/classCalibXT.html">CalibXT</a></code> to derive the (realistic) drift distance from the TDC time, because this module does <em>not</em> modify the drift distance itself. </p>
+<p>The drift distance of one <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> object is converted to its TDC time, by using the X-T relation and the T0 value given by <a class="el" href="../../da/d44/classCalibParamXT.html" title="Calibration parameter for chamber X-T relation. ">CalibParamXT</a> and <a class="el" href="../../d7/dec/classCalibParamInTimeTaiwan.html">CalibParamInTimeTaiwan</a>. User has to use (i.e. register) <code><a class="el" href="../../d4/d73/classCalibDriftDist.html" title="SubsysReco module to calibrate the drift distance and also the in-time window of the chambers and the...">CalibDriftDist</a></code> to derive the (realistic) drift distance from the TDC time, because this module does <em>not</em> modify the drift distance itself. </p>
 
 <p>Definition at line <a class="el" href="../../d8/dc6/SQChamberRealization_8h_source.html#l00021">21</a> of file <a class="el" href="../../d8/dc6/SQChamberRealization_8h_source.html">SQChamberRealization.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -511,7 +511,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dc/dcd/classSQChamberRealization.html">SQChamberRealization</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Oct 12 2021 17:20:12</em> using <a
+			updated: <em>Tue Oct 19 2021 07:10:13</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
