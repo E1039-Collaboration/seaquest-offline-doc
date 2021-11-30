@@ -11,6 +11,7 @@ var classPHHepMCGenHelper =
     [ "get_embedding_id", "dd/d2a/classPHHepMCGenHelper.html#ac7cd24ce28d07d1fa3459688fc8c407b", null ],
     [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a16425dd4d4a37fc3765ba93126230fe6", null ],
     [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a6ad0de3d63be00c5d74809ee2183029a", null ],
+    [ "get_LegacyPARatio", "dd/d2a/classPHHepMCGenHelper.html#a0cf16159882a28151fc1e20b083a32e7", null ],
     [ "get_random_generator", "dd/d2a/classPHHepMCGenHelper.html#ab3acf64be39e440cd9cbd115eda31929", null ],
     [ "insert_event", "dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227", null ],
     [ "move_vertex", "dd/d2a/classPHHepMCGenHelper.html#af1c2525b75067fcdd4c28de6007c5963", null ],

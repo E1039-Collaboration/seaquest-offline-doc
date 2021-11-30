@@ -6,6 +6,7 @@ var classPHPythia8 =
     [ "enableLegacyVtxGen", "d9/d3a/classPHPythia8.html#a63b6364dd3c7f8b5e5aa6659134e8491", null ],
     [ "End", "d9/d3a/classPHPythia8.html#a644fd629b9e90bdfd82622a2047a88d0", null ],
     [ "get_embedding_id", "d9/d3a/classPHPythia8.html#a498587470c98906d029dd8deeac3ae9e", null ],
+    [ "get_LegacyPARatio", "d9/d3a/classPHPythia8.html#a957eb0373efaddc834c693b449a41088", null ],
     [ "Init", "d9/d3a/classPHPythia8.html#af381f96f7115a7f8011d31572c46fcfc", null ],
     [ "print_config", "d9/d3a/classPHPythia8.html#aeabc0bd681a2a5f0fcfc9a0ad9661462", null ],
     [ "process_event", "d9/d3a/classPHPythia8.html#a5cc4124cc6be2fb2467714e3d3bc5a6a", null ],

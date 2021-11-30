@@ -26,6 +26,7 @@ var hierarchy =
     [ "EventDispUI", "d8/d6d/classEventDispUI.html", null ],
     [ "EventInfo", "d2/d31/structEventInfo.html", null ],
     [ "EventReducer", "d5/dda/classEventReducer.html", null ],
+    [ "ExtParticle", "da/d0f/classExtParticle.html", null ],
     [ "FactoryErrorPolicy", null, [
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
@@ -129,6 +130,7 @@ var hierarchy =
           [ "PHG4PSScanGenerator", "de/d76/classPHG4PSScanGenerator.html", null ],
           [ "PHG4SimpleEventGenerator", "d5/df3/classPHG4SimpleEventGenerator.html", null ],
           [ "SQCosmicGen", "d8/d0f/classSQCosmicGen.html", null ],
+          [ "SQPileupGen", "d0/db4/classSQPileupGen.html", null ],
           [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html", null ]
         ] ],
         [ "PHG4Reco", "d0/d78/classPHG4Reco.html", null ],
@@ -352,8 +354,8 @@ var hierarchy =
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
-    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
+    [ "Plane", "dc/d90/classPlane.html", null ],
     [ "boost::detail::polymorphic_cast_tag", "da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],

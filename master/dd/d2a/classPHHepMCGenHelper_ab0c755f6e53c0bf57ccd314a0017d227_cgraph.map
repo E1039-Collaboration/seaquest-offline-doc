@@ -1,17 +1,18 @@
 <map id="PHHepMCGenHelper::insert_event" name="PHHepMCGenHelper::insert_event">
-<area shape="rect" id="node2" href="$d7/d7b/classPHHepMCGenEvent.html#a34a8f753178a4d74085b90e3a5264907" title="host an HepMC event " alt="" coords="235,12,434,39"/>
-<area shape="rect" id="node3" href="$d5/d41/classPHHepMCGenEventMap.html#ace1292e973fe2429bee746acb6aaddb9" title="insert a event with specific embedding ID " alt="" coords="253,63,417,105"/>
-<area shape="rect" id="node7" href="$dd/d2a/classPHHepMCGenHelper.html#af1c2525b75067fcdd4c28de6007c5963" title="move vertex according to vertex settings " alt="" coords="244,173,425,214"/>
-<area shape="rect" id="node4" href="$d7/d7b/classPHHepMCGenEvent.html#a16b40df377cd06bfc6dc779d25740107" title="PHHepMCGenEvent::Clone" alt="" coords="500,12,679,39"/>
-<area shape="rect" id="node6" href="$d5/d41/classPHHepMCGenEventMap.html#a9808332ce5629be39dc62c9c3d50a0e2" title="PHHepMCGenEventMap\l::identify" alt="" coords="507,63,671,105"/>
+<area shape="rect" id="node2" href="$d7/d7b/classPHHepMCGenEvent.html#a34a8f753178a4d74085b90e3a5264907" title="host an HepMC event " alt="" coords="235,16,434,43"/>
+<area shape="rect" id="node3" href="$d5/d41/classPHHepMCGenEventMap.html#ace1292e973fe2429bee746acb6aaddb9" title="insert a event with specific embedding ID " alt="" coords="253,67,417,109"/>
+<area shape="rect" id="node7" href="$dd/d2a/classPHHepMCGenHelper.html#af1c2525b75067fcdd4c28de6007c5963" title="move vertex according to vertex settings " alt="" coords="244,227,425,269"/>
+<area shape="rect" id="node4" href="$d7/d7b/classPHHepMCGenEvent.html#a16b40df377cd06bfc6dc779d25740107" title="PHHepMCGenEvent::Clone" alt="" coords="500,15,679,41"/>
+<area shape="rect" id="node6" href="$d5/d41/classPHHepMCGenEventMap.html#a9808332ce5629be39dc62c9c3d50a0e2" title="PHHepMCGenEventMap\l::identify" alt="" coords="507,67,671,109"/>
 <area shape="rect" id="node5" href="$d7/d7b/classPHHepMCGenEvent.html#a51bb6b2ee662beeefd54171ab480dccd" title="PHHepMCGenEvent::PHHepMCGen\lEvent" alt="" coords="745,5,975,46"/>
-<area shape="rect" id="node8" href="$d5/d41/classPHHepMCGenEventMap.html#aeee51cbc5dbbd18af41e66c03e955319" title="fetch event " alt="" coords="495,129,683,156"/>
-<area shape="rect" id="node9" href="$d7/d7b/classPHHepMCGenEvent.html#a4cd34cc37b99ec3a4a1301dfed8eab6c" title="move the collision vertex position in the Hall coordinate system, use PHENIX units of cm..." alt="" coords="483,180,695,207"/>
-<area shape="rect" id="node10" href="$d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns ..." alt="" coords="508,231,671,273"/>
-<area shape="rect" id="node11" href="$dd/d2a/classPHHepMCGenHelper.html#a030e43db2086d86155f32e8c6cf5958b" title="PHHepMCGenHelper::smear" alt="" coords="497,297,682,324"/>
-<area shape="rect" id="node12" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="517,349,662,390"/>
-<area shape="rect" id="node13" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="787,283,933,325"/>
-<area shape="rect" id="node14" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="787,349,933,390"/>
-<area shape="rect" id="node16" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="765,414,955,455"/>
-<area shape="rect" id="node15" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="1025,356,1186,383"/>
+<area shape="rect" id="node8" href="$d8/dc4/classSQPrimaryVertexGen.html#acf0116c5e4797e4f14e22c701520d75d" title="generate 3&#45;D vertex position " alt="" coords="517,133,662,174"/>
+<area shape="rect" id="node13" href="$d8/dc4/classSQPrimaryVertexGen.html#a27408c6d8e8747b9c45ada8b9efcd548" title="get the proton/neutron ratio of the piece, must be called after generateVertex " alt="" coords="517,198,662,239"/>
+<area shape="rect" id="node14" href="$d7/d7b/classPHHepMCGenEvent.html#a4cd34cc37b99ec3a4a1301dfed8eab6c" title="move the collision vertex position in the Hall coordinate system, use PHENIX units of cm..." alt="" coords="483,264,695,291"/>
+<area shape="rect" id="node15" href="$d5/d41/classPHHepMCGenEventMap.html#aeee51cbc5dbbd18af41e66c03e955319" title="fetch event " alt="" coords="495,315,683,341"/>
+<area shape="rect" id="node16" href="$d7/d7b/classPHHepMCGenEvent.html#aeb1f4b1ca526d968a3b025a3063c61c4" title="collision vertex position in the Hall coordinate system, use PHENIX units of cm, ns ..." alt="" coords="508,366,671,407"/>
+<area shape="rect" id="node17" href="$dd/d2a/classPHHepMCGenHelper.html#a030e43db2086d86155f32e8c6cf5958b" title="PHHepMCGenHelper::smear" alt="" coords="497,432,682,459"/>
+<area shape="rect" id="node9" href="$d8/dc4/classSQPrimaryVertexGen.html#a747f021860226c5d7457c224d9661f44" title="use the beam profile to generate vertex in X&#45;Y plane " alt="" coords="787,70,933,111"/>
+<area shape="rect" id="node10" href="$d8/dc4/classSQPrimaryVertexGen.html#a90d9890e48202ae68f36de2878ad2c11" title="fill material profile using initial x/y position " alt="" coords="787,135,933,177"/>
+<area shape="rect" id="node12" href="$d3/d10/classMaterialProfile.html#a03bdad4bc97bb6c8070ca809fd22f757" title="MaterialProfile::findInteracting\lPiece" alt="" coords="765,201,955,242"/>
+<area shape="rect" id="node11" href="$d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867" title="MaterialProfile::calcProb" alt="" coords="1025,143,1186,169"/>
 </map>
