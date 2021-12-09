@@ -7,6 +7,7 @@ var classMakeRTCurve =
     [ "DrawCalibResult", "de/d72/classMakeRTCurve.html#ab4ada927ad5286b66dabc0346194ee4f", null ],
     [ "DrawHistEvent", "de/d72/classMakeRTCurve.html#ab49f5926a8a687a7c6cd79b1bb5c5196", null ],
     [ "DrawHistHit", "de/d72/classMakeRTCurve.html#a00cc34269fdac115f803771ab72d8fa5", null ],
+    [ "ExtractRT", "de/d72/classMakeRTCurve.html#a9bc08fbd0282af4f51288d874b22bf22", null ],
     [ "Init", "de/d72/classMakeRTCurve.html#a2756b0c00ae6335182f4f6c20d1b169b", null ],
     [ "WriteRT", "de/d72/classMakeRTCurve.html#afcc7e8a2dbbe068378167285b2ce578a", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"df/d5e/classPHG4BlockCellReco.html#a486484051fdc93517a1ffd08c0c4080c":[27,0,196,20],
 "df/d5e/classPHG4BlockCellReco.html#a5d39419017e6f11365c09ccd90c6b40e":[27,0,196,5],
 "df/d5e/classPHG4BlockCellReco.html#a6a2aba7bbca824f19f9a3c11533bc2e5":[27,0,196,4],
 "df/d5e/classPHG4BlockCellReco.html#a73bf56152f1fe62502bd63738f01a262":[27,0,196,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "df/dd0/classNode.html#a47f85a076ff52d02b1bf5327348ad8dd":[27,0,141,4],
 "df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8":[27,0,141,12],
 "df/dd0/classNode.html#a4a86ba8845ae47da557252b269a31c9a":[27,0,141,2],
-"df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08":[27,0,141,28],
-"df/dd0/classNode.html#a4e6f7c1350b1445ca9b9221cb709dbcb":[27,0,141,10]
+"df/dd0/classNode.html#a4beaaa953c5b36787c115a33b8b22b08":[27,0,141,28]
 };
