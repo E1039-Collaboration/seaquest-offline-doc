@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"d6/d1e/CodaInputManager_8h.html#a80155586fa275b28773c9b203f52cabaa2c058a63d1f9506cc2da2fbaf52d4a84":[28,0,2,5,0,7,8],
+"d6/d1e/CodaInputManager_8h.html#aaf105ae5beaca1dee30ae54530691fceacbb453b5d4c3139de65849f77fea1c7f":[28,0,2,5,0,7,7],
+"d6/d1e/CodaInputManager_8h.html#ab04a0655cd1e3bcac5e8f48c18df1a57a47810b11661bfe6add2bd2a72717283c":[28,0,2,5,0,7,15],
 "d6/d1e/CodaInputManager_8h.html#aba01db17f4a2bfbc3db60dc172972a25a00db033d18b232b380c71a203a11daf6":[28,0,2,5,0,7,6],
 "d6/d1e/CodaInputManager_8h.html#abc5c98fcc1211af2b80116dd6e0a035da77a59119a34911070f531e3c85be640d":[28,0,2,5,0,7,2],
 "d6/d1e/CodaInputManager_8h.html#abed82baf7f470b522273a3e37c24c600ac4b5378624f172792185abab9389e008":[28,0,2,5,0,7,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "d6/d88/classSQTrack__v1.html#aa13d144b668940a13ac4f31b6a677710":[27,0,431,40],
 "d6/d88/classSQTrack__v1.html#aa4451bd7cd2a190dc67145b57d58834b":[27,0,431,32],
 "d6/d88/classSQTrack__v1.html#aad29d43ef195d014060dc5b870001ac2":[27,0,431,1],
-"d6/d88/classSQTrack__v1.html#aad900dde567a7157fd19e661f4966a49":[27,0,431,15],
-"d6/d88/classSQTrack__v1.html#ab6c764fefa154d8d09015821d65934ad":[27,0,431,8],
-"d6/d88/classSQTrack__v1.html#ac1384c6066f9477cb0012ffe451c2ecc":[27,0,431,35],
-"d6/d88/classSQTrack__v1.html#ac713a2626b301710608d7c968d9378bc":[27,0,431,23]
+"d6/d88/classSQTrack__v1.html#aad900dde567a7157fd19e661f4966a49":[27,0,431,15]
 };

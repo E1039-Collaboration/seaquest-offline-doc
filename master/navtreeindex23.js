@@ -1,5 +1,8 @@
 var NAVTREEINDEX23 =
 {
+"d7/d5e/classSQScaler.html#aabac272052094f55f60831b31929eacba8b8c05246793cacd7b68394a9660c243":[27,0,419,0,1],
+"d7/d5e/classSQScaler.html#ab68cfc5f064a6eb42d8b7c22e48c8a8f":[27,0,419,12],
+"d7/d5e/classSQScaler.html#ace4c7ef6af019e34342ab44e1e436117":[27,0,419,9],
 "d7/d5e/classSQScaler.html#af0c040436018924000ec738ac4335642":[27,0,419,2],
 "d7/d5e/classSQScaler.html#af2b6b3b27c384e4ada59ded87b2d7ad2":[27,0,419,3],
 "d7/d5f/PHEventDisplay_8h.html":[28,0,2,6,3,1,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX23 =
 "d7/da4/classPHG4GenHit.html#ac94e3d486c5184596fff96b0b6070fb1":[27,0,259,3],
 "d7/da4/classPHG4GenHit.html#afa83a298ebad91ac7355384ffb35568e":[27,0,259,9],
 "d7/da7/SQTrack_8h.html":[28,0,2,3,103],
-"d7/da7/SQTrack_8h_source.html":[28,0,2,3,103],
-"d7/dac/classOnlMonProp.html":[27,0,149],
-"d7/dac/classOnlMonProp.html#a0738d0919cf6457266df90f59194c3ea":[27,0,149,5],
-"d7/dac/classOnlMonProp.html#a485c15170dedfd3c1b1d195702cc9983":[27,0,149,2]
+"d7/da7/SQTrack_8h_source.html":[28,0,2,3,103]
 };

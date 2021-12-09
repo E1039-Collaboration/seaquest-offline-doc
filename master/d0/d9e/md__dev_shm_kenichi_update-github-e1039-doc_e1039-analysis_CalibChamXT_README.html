@@ -102,29 +102,31 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 <div class="title">e1039-analysis/CalibChamXT </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A program to calibrate the chamber X-T curve, using cosmic-ray events. It is based on the following programs;</p>
+<div class="textblock"><p>A program to calibrate the chamber X-T curve, using cosmic-ray events at present. The file structure, the configuration and the usage are similar to the following programs;</p>
 <ul>
 <li><a href="https://cdcvs.fnal.gov/redmine/projects/calib-cham-rt">https://cdcvs.fnal.gov/redmine/projects/calib-cham-rt</a></li>
+<li><a href="https://github.com/E1039-Collaboration/e1039-analysis/tree/master/AnaRealDst">https://github.com/E1039-Collaboration/e1039-analysis/tree/master/AnaRealDst</a></li>
 <li><a href="https://github.com/E1039-Collaboration/e1039-analysis/tree/master/RecoDev">https://github.com/E1039-Collaboration/e1039-analysis/tree/master/RecoDev</a></li>
 <li>/seaquest/users/apun/abi_project/data_manage/e1039-data-mgt_test</li>
 </ul>
 <h2>Download</h2>
 <p>You are recommended to use <code>spinquestgpvm01</code>. You first clone the GitHub repository as usual;</p>
-<p>``` ssh spinquestgpvm01 cd /path/to/your/working/directory git clone <a href="#" onclick="location.href='mai'+'lto:'+'git'+'@g'+'ith'+'ub'+'.co'+'m'; return false;">git@g<span style="display: none;">.nosp@m.</span>ithu<span style="display: none;">.nosp@m.</span>b.com</a>:E1039-Collaboration/e1039-analysis.git cd e1039-analysis/CalibChamXT ```</p>
+<p>``` ssh spinquestgpvm01.fnal.gov cd /path/to/your/working/directory git clone <a href="#" onclick="location.href='mai'+'lto:'+'git'+'@g'+'ith'+'ub'+'.co'+'m'; return false;">git@g<span style="display: none;">.nosp@m.</span>ithu<span style="display: none;">.nosp@m.</span>b.com</a>:E1039-Collaboration/e1039-analysis.git cd e1039-analysis/CalibChamXT ```</p>
 <p>The top directory of this program is <code>e1039-analysis/CalibChamXT/</code>. All files/directories explained below are relative to the top directory, unless specified.</p>
 <h2>Preparation</h2>
 <p>The runs to be analyzed are listed in <code>work/list_run.txt</code>. The list contains only run 3492 at present. You could modify the list when necessary.</p>
 <p>You copy the DST files of all runs from <code>data2</code> to <code>pnfs</code> as follows. It usually takes a few minutes per run;</p>
 <p>``` cd work ./copy_dst.sh ```</p>
-<p>The analysis code is located in <code>e1039-analysis/AnaSimDst/src</code>. The following commands set up the shell environment and compile the code;</p>
+<p>The source code is located in <code>src/</code>. The following commands set up the shell environment and compile the code;</p>
 <p>``` source setup.sh cmake-this make-this ```</p>
 <h2>Track Reconstruction</h2>
 <p>The program can execute the track reconstruction, not yet the calibration of the X-T curve.</p>
 <p>The following commands carry out a test, using 10,000 events in the 1st DST file. It should take 10-20 seconds.</p>
 <p>``` cd work ./run_reco.sh -d 1 -e 10000 GO ```</p>
-<p>The main output file is <code>scratch/default/run_003492_spill_000000000_spin/out/eval.root</code>. The ROOT file (<code>eval.root</code>) contains all tracklets. You had better check the number of entries is non-zero.</p>
-<p>You then execute the following commands to process all events/runs. The <code>-g</code> option is to run jobs on the grid. You use 'jobsub_q_mine' and wait until all grid jobs finish.</p>
+<p>The main output file is <code>scratch/main/run_003492_spill_000000000_spin/out/eval.root</code>. The ROOT file (<code>eval.root</code>) contains all tracklets. You had better check the number of tree entries is non-zero.</p>
+<p>You then execute the following commands to process all events/runs. The <code>-g</code> option is to run jobs on the grid.</p>
 <p>``` source /e906/app/software/script/setup-jobsub-spinquest.sh kinit ./run_reco.sh -g GO ```</p>
+<p>You use <code>jobsub_q_mine</code> (or <code>./check_job.sh</code>) to wait until all grid jobs finish.</p>
 <h2><a class="el" href="../../d2/d26/classTracklet.html">Tracklet</a> Analysis</h2>
 <p>Then the following commands analyze the tracklets reconstructed by <code>run_reco.sh</code>. Plots will appear in <code>calib/1/</code>.</p>
 <p>``` cd work ./make_rt.sh ```</p>
@@ -145,7 +147,7 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 9 2021 09:40:10</em> using <a
+			updated: <em>Thu Dec 9 2021 10:40:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
