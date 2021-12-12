@@ -27,7 +27,7 @@ var searchData=
   ['theoscarfile',['theOscarFile',['../d6/d6f/classFun4AllHepMCInputManager.html#a9f8e48bc4e1ed4fcb027de6b4f9147f6',1,'Fun4AllHepMCInputManager::theOscarFile()'],['../db/d1f/classFun4AllOscarInputManager.html#a6dfb5b861fd26ce99192c04973d6cabd',1,'Fun4AllOscarInputManager::theOscarFile()']]],
   ['thepar',['thePar',['../dc/d07/classPdbParameter.html#ac49142ce9dc2de50611066e3edde497d',1,'PdbParameter']]],
   ['theparerror',['theParError',['../d6/d01/classPdbParameterError.html#ad48754d1ccf070b7ae67c11b03a8707e',1,'PdbParameterError']]],
-  ['theta',['theta',['../d7/da4/classPHG4GenHit.html#aaa367d0ad4d2d9ed15b3bb3448e4d901',1,'PHG4GenHit']]],
+  ['theta',['theta',['../d7/da4/classPHG4GenHit.html#aaa367d0ad4d2d9ed15b3bb3448e4d901',1,'PHG4GenHit::theta()'],['../d4/d42/structSignalData.html#a745eeeda68737db65948d5edff492459',1,'SignalData::theta()']]],
   ['theta_5fx',['theta_x',['../d6/d90/structGeomParamPlane_1_1Plane.html#afca1947f18888f9868fd81d90be43322',1,'GeomParamPlane::Plane']]],
   ['theta_5fy',['theta_y',['../d6/d90/structGeomParamPlane_1_1Plane.html#a3fa93123769f92f4ff8e41817a2e6ca2',1,'GeomParamPlane::Plane']]],
   ['theta_5fz',['theta_z',['../d6/d90/structGeomParamPlane_1_1Plane.html#ababa0ba5803f9965641d67e8c89b8d2c',1,'GeomParamPlane::Plane']]],

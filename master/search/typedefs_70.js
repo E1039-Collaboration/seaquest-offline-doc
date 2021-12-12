@@ -20,6 +20,8 @@ var searchData=
   ['phobjectnode_5ft',['PHObjectNode_t',['../db/dbe/Fun4AllOscarInputManager_8cc.html#a6bde64d7528df1ca2bde90a10dcf10a1',1,'PHObjectNode_t():&#160;Fun4AllOscarInputManager.cc'],['../df/d49/PHPythia8_8C.html#a6bde64d7528df1ca2bde90a10dcf10a1',1,'PHObjectNode_t():&#160;PHPythia8.C']]],
   ['phrootnodeiterator',['PHRootNodeIterator',['../db/d17/PHTypedNodeIterator_8h.html#aeae434c5dc8915f7992880c836abfc93',1,'PHTypedNodeIterator.h']]],
   ['phtime_5ft',['phtime_t',['../da/d32/PHTimeStamp_8h.html#a80bd641ca67eea04909603dccc4872b9',1,'PHTimeStamp.h']]],
+  ['planeconn_5ft',['PlaneConn_t',['../d9/d2a/classDrawRoadset.html#a27a1c46aaed91d0b4da9005190e8486f',1,'DrawRoadset']]],
+  ['planeconncount_5ft',['PlaneConnCount_t',['../d9/d2a/classDrawRoadset.html#ac995c1457769e5b92bd9db67da94c52f',1,'DrawRoadset']]],
   ['pointer',['pointer',['../da/d18/classboost_1_1shared__ptr.html#aa9ef239de25874ced292231d738b1eed',1,'boost::shared_ptr']]],
   ['productcreator',['ProductCreator',['../d5/da9/classPHGenericFactoryT.html#ad16e475cdc006d2a470df57648600395',1,'PHGenericFactoryT']]],
   ['prop_5fid_5ft',['prop_id_t',['../de/d5e/classPHG4Cellv1.html#a048f7da2769d417f471163450807d3ba',1,'PHG4Cellv1::prop_id_t()'],['../d9/d35/classPHG4Hitv1.html#a3ef7c1d7ea5ab7cbd91c80355a2aa80a',1,'PHG4Hitv1::prop_id_t()']]],

@@ -51,6 +51,7 @@ var searchData=
   ['fn_5fin',['fn_in',['../d3/df0/structDecoParam.html#ab54f813b7f9534223a196cc17e93261a',1,'DecoParam']]],
   ['fname',['fname',['../d7/d0b/classFun4AllDstInputManager.html#adf92f7951d272118bf320fee8ba7b5c8',1,'Fun4AllDstInputManager::fname()'],['../d1/d42/classPHG4Particlev1.html#a4903776866f23bf3f4837c979cb1d299',1,'PHG4Particlev1::fname()']]],
   ['fpad',['fpad',['../dc/d94/classPHG4CylinderCellTPCReco.html#a89226fd64ea8e9cf83be7ed4312cfe6d',1,'PHG4CylinderCellTPCReco']]],
+  ['fpga1',['fpga1',['../d0/d6d/structBgData.html#ac957d2f1fa86c8635114c623c6de7b65',1,'BgData']]],
   ['fpga_5fenabled',['fpga_enabled',['../d0/d64/structRunData.html#a813d29b5936458a4247046cb7d6a284b',1,'RunData']]],
   ['fpga_5fprescale',['fpga_prescale',['../d0/d64/structRunData.html#af36ec01e17cb705a733b7631b73417fe',1,'RunData']]],
   ['fpid',['fpid',['../d1/d42/classPHG4Particlev1.html#afa71a784ab437ee2d9f83ccdace25783',1,'PHG4Particlev1']]],

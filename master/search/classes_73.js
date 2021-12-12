@@ -11,6 +11,7 @@ var searchData=
   ['shared_5fptr_5ftraits_3c_20void_20const_20_20_3e',['shared_ptr_traits&lt; void const  &gt;',['../d7/dfb/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01const_01_01_4.html',1,'boost::detail']]],
   ['shared_5fptr_5ftraits_3c_20void_20const_20volatile_20_3e',['shared_ptr_traits&lt; void const volatile &gt;',['../dc/dbf/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01const_01volatile_01_4.html',1,'boost::detail']]],
   ['shared_5fptr_5ftraits_3c_20void_20volatile_20_3e',['shared_ptr_traits&lt; void volatile &gt;',['../df/d5a/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01volatile_01_4.html',1,'boost::detail']]],
+  ['signaldata',['SignalData',['../d4/d42/structSignalData.html',1,'']]],
   ['signedhit',['SignedHit',['../de/d45/classSignedHit.html',1,'']]],
   ['simdsttrimmer',['SimDstTrimmer',['../de/d85/classSimDstTrimmer.html',1,'']]],
   ['simpletree',['SimpleTree',['../d8/d3e/classSimpleTree.html',1,'']]],
@@ -80,6 +81,9 @@ var searchData=
   ['static_5fcast_5ftag',['static_cast_tag',['../dd/df3/structboost_1_1detail_1_1static__cast__tag.html',1,'boost::detail']]],
   ['strless',['strless',['../d1/dd5/structstrless.html',1,'']]],
   ['subsysreco',['SubsysReco',['../d0/d32/classSubsysReco.html',1,'']]],
+  ['subsysrecofullbg',['SubsysRecoFullBG',['../d6/db0/classSubsysRecoFullBG.html',1,'']]],
+  ['subsysreconim3',['SubsysRecoNim3',['../df/dc0/classSubsysRecoNim3.html',1,'']]],
+  ['subsysrecosignal',['SubsysRecoSignal',['../d4/d8e/classSubsysRecoSignal.html',1,'']]],
   ['syncobject',['SyncObject',['../de/dbb/classSyncObject.html',1,'']]],
   ['syncobjectv1',['SyncObjectv1',['../d9/d30/classSyncObjectv1.html',1,'']]],
   ['syncobjectv2',['SyncObjectv2',['../df/da3/classSyncObjectv2.html',1,'']]]

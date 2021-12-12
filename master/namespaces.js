@@ -23,6 +23,7 @@ var namespaces =
     [ "UtilDimuon", "d4/dcc/namespaceUtilDimuon.html", null ],
     [ "UtilHist", "d3/daf/namespaceUtilHist.html", null ],
     [ "UtilHodo", "d9/d7c/namespaceUtilHodo.html", null ],
+    [ "UtilRoad", "de/dad/namespaceUtilRoad.html", null ],
     [ "UtilSQHit", "d0/dc5/namespaceUtilSQHit.html", null ],
     [ "UtilSRawEvent", "d6/d43/namespaceUtilSRawEvent.html", null ],
     [ "UtilTrack", "d2/d1e/namespaceUtilTrack.html", null ],
