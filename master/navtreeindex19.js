@@ -1,10 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d5/dda/classEventReducer.html#af69506f70efff619964ac0aa0a7b2c66":[31,0,82,3],
-"d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c":[31,0,82,8],
-"d5/ddd/OnlMonHodo_8h.html":[32,0,2,5,3,14],
-"d5/ddd/OnlMonHodo_8h_source.html":[32,0,2,5,3,14],
-"d5/dde/PHG4ParticleGeneratorD0_8h.html":[32,0,2,7,4,57],
 "d5/dde/PHG4ParticleGeneratorD0_8h_source.html":[32,0,2,7,4,57],
 "d5/de1/ChanMapScaler_8h.html":[32,0,2,6,7,11],
 "d5/de1/ChanMapScaler_8h_source.html":[32,0,2,6,7,11],
@@ -249,5 +244,10 @@ var NAVTREEINDEX19 =
 "d6/d3c/PHFieldUniform_8cc.html":[32,0,2,6,10,25],
 "d6/d3c/PHFieldUniform_8cc_source.html":[32,0,2,6,10,25],
 "d6/d3e/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01_4.html":[31,0,0,0,5],
-"d6/d3e/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01_4.html#a9029c96f6cd5b40f3609ad3989b01d60":[31,0,0,0,5,0]
+"d6/d3e/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01_4.html#a9029c96f6cd5b40f3609ad3989b01d60":[31,0,0,0,5,0],
+"d6/d40/PHG4BlockGeom_8cc.html":[32,0,2,7,0,12],
+"d6/d40/PHG4BlockGeom_8cc_source.html":[32,0,2,7,0,12],
+"d6/d40/SimDstTrimmer_8h.html":[32,0,2,6,6,4],
+"d6/d40/SimDstTrimmer_8h_source.html":[32,0,2,6,6,4],
+"d6/d41/PHG4HitEval_8cc.html":[32,0,2,7,4,30]
 };

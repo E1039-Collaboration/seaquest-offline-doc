@@ -1,9 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"de/d0b/G4__EMCal_8C_source.html":[32,0,1,8,3],
-"de/d0f/PdbParameterMap_8cc.html":[32,0,2,0,0,0,26],
-"de/d0f/PdbParameterMap_8cc_source.html":[32,0,2,0,0,0,26],
-"de/d0f/classPHGeomFileImport.html":[31,0,337],
 "de/d0f/classPHGeomFileImport.html#a07737ba0b468d62a88d5f12216adbc4b":[31,0,337,2],
 "de/d0f/classPHGeomFileImport.html#a23d2225050b7598b9a34a82e9a93ce1d":[31,0,337,3],
 "de/d0f/classPHGeomFileImport.html#a5288056a79e7230b51b1da9433010b7f":[31,0,337,5],
@@ -249,5 +245,9 @@ var NAVTREEINDEX45 =
 "de/d78/classPHG4CollimatorSubsystem.html#af0dc785a0ce1a46030d5b359326a65c1":[31,0,219,1],
 "de/d79/classSQHit.html":[31,0,414],
 "de/d79/classSQHit.html#a06be955fb4662f0e27bc9872eecdadc5":[31,0,414,49],
-"de/d79/classSQHit.html#a07641e27916ddaeaa04113a1a3b235fc":[31,0,414,20]
+"de/d79/classSQHit.html#a07641e27916ddaeaa04113a1a3b235fc":[31,0,414,20],
+"de/d79/classSQHit.html#a0dbb354340605068fada85b4d3420167":[31,0,414,15],
+"de/d79/classSQHit.html#a13aacfea8dac7c8772a17601e758081e":[31,0,414,14],
+"de/d79/classSQHit.html#a17afce273ccad62a57d1d5f324551f83":[31,0,414,18],
+"de/d79/classSQHit.html#a19bfb493c5b0f24384c319c2a0a7b448":[31,0,414,28]
 };

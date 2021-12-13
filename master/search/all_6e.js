@@ -29,6 +29,7 @@ var searchData=
   ['n_5fphys_5fevt_5fbad',['n_phys_evt_bad',['../d0/d64/structRunData.html#a4499c187036b397d3b8622ffc17fd4d1',1,'RunData']]],
   ['n_5fpl',['N_PL',['../db/d15/classOnlMonCham.html#a631aa7824422c3c178b897e7484c662b',1,'OnlMonCham::N_PL()'],['../d7/dac/classOnlMonProp.html#a67a5554a4fa86adc1a053a12f704a304',1,'OnlMonProp::N_PL()'],['../db/d63/classAnaEffCham.html#acfa8b76e5abe334d9130a872b11d5207',1,'AnaEffCham::N_PL()']]],
   ['n_5fqie',['n_qie',['../de/da7/structEventData.html#a54eff5dd0c6de6dc9d8801be9ead806a',1,'EventData']]],
+  ['n_5frf_5fper_5fspill',['N_RF_PER_SPILL',['../db/df7/classAnaBG.html#a7411c8662c04ad7a32c5c9f0df511409',1,'AnaBG']]],
   ['n_5frun_5fdesc',['n_run_desc',['../d0/d64/structRunData.html#ad9e1682296930e054fb9e5cb9217371b',1,'RunData']]],
   ['n_5fscaler',['n_scaler',['../d4/dbe/structSpillData.html#a60d88d7261ee6df7c35748aba4669430',1,'SpillData']]],
   ['n_5fsensors_5fin_5flayer',['N_sensors_in_layer',['../d5/dca/classPHG4CylinderGeomv4.html#a11bec6b27affc406bcb2e8b2056c2446',1,'PHG4CylinderGeomv4']]],

@@ -104,7 +104,7 @@ var searchData=
   ['hitlistmap_5ft',['HitListMap_t',['../d2/d9d/classOnlMonTrigNim.html#a6aea729fce3bfebed063b5a94ca30262',1,'OnlMonTrigNim']]],
   ['hitmap',['hitmap',['../d4/d30/classPHG4HitContainer.html#af37b44dbf63ae91a0e48809134e2c6a3',1,'PHG4HitContainer::hitmap()'],['../d0/dac/classSQHitMap.html#acd1db90810ab6f16643e8eb1b5bea3b9',1,'SQHitMap::HitMap()']]],
   ['hitnodename',['hitnodename',['../df/d5e/classPHG4BlockCellReco.html#a1e1e2bbc8ea694ddffaca7bcba4e8ea9',1,'PHG4BlockCellReco::hitnodename()'],['../d5/dd0/classPHG4CylinderCellReco.html#a1c7d5ec0013a1f0436eca653c04aa504',1,'PHG4CylinderCellReco::hitnodename()'],['../dc/d94/classPHG4CylinderCellTPCReco.html#a342c414db048576d10c20860e638b6dc',1,'PHG4CylinderCellTPCReco::hitnodename()']]],
-  ['hitquality',['HitQuality',['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit::HitQuality()'],['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()']]],
+  ['hitquality',['hitQuality',['../d0/d88/classHit.html#a4e716960d2188a1dec96f366679ffd3a',1,'Hit::hitQuality()'],['../de/d79/classSQHit.html#ac69979b5cc15bb17e30747f3ecff502d',1,'SQHit::HitQuality()']]],
   ['hits',['hits',['../d0/d1e/classPropSegment.html#a25575427a3d301ea5a04ce91bef70610',1,'PropSegment::hits()'],['../d2/d26/classTracklet.html#a1584bfb98531085b02b043a7d7b09db4',1,'Tracklet::hits()']]],
   ['hitvector',['HitVector',['../d9/dbc/classSQHitVector.html#a3b5331027926445dd9e8252501a92eb1',1,'SQHitVector']]],
   ['hodo',['HODO',['../d8/dca/classSQGeomAcc.html#aa6a07967f75493d10f8c788ebcee3650a07fb6f6d6e19ff17252c8956d4013339',1,'SQGeomAcc']]],

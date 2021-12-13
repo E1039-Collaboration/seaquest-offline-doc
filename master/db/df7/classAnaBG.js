@@ -25,5 +25,6 @@ var classAnaBG =
     [ "m_road_map_neg_bot", "db/df7/classAnaBG.html#a3ceb00c73da56e6acd9ce78233526dd4", null ],
     [ "m_road_map_neg_top", "db/df7/classAnaBG.html#a62c5398c1f91e9ef3bf1f5bdbedc2c54", null ],
     [ "m_road_map_pos_bot", "db/df7/classAnaBG.html#a162883e17e5af169858f100c77f462ad", null ],
-    [ "m_road_map_pos_top", "db/df7/classAnaBG.html#aa4ab8162432600856b7ec96493581972", null ]
+    [ "m_road_map_pos_top", "db/df7/classAnaBG.html#aa4ab8162432600856b7ec96493581972", null ],
+    [ "N_RF_PER_SPILL", "db/df7/classAnaBG.html#a7411c8662c04ad7a32c5c9f0df511409", null ]
 ];

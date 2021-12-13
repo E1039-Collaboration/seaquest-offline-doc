@@ -8,11 +8,6 @@ var classReAnaBG =
     [ "GetRoadMapTop", "d4/dfb/classReAnaBG.html#a371d064dd5756767a80e2eede8ac5f13", null ],
     [ "Init", "d4/dfb/classReAnaBG.html#ad93c85d64916c0c88bfeca5aed6a27b6", null ],
     [ "ProcessOneEvent", "d4/dfb/classReAnaBG.html#aa658b4411fb937cb060d0bb2dc74b051", null ],
-    [ "SetEnabledRoads", "d4/dfb/classReAnaBG.html#af8da435bcef9412ab00f2dd5cc672910", null ],
     [ "m_road_map_bot", "d4/dfb/classReAnaBG.html#afdb77dbefc41f5fff945cfbf40cce306", null ],
-    [ "m_road_map_neg_bot_on", "d4/dfb/classReAnaBG.html#a9a266e5b979cf1912b160da20abeb551", null ],
-    [ "m_road_map_neg_top_on", "d4/dfb/classReAnaBG.html#a9179ec361c3c53bb7cf990e6946bf623", null ],
-    [ "m_road_map_pos_bot_on", "d4/dfb/classReAnaBG.html#a729c6d5f9d9d79b685f8ec0d65398dc3", null ],
-    [ "m_road_map_pos_top_on", "d4/dfb/classReAnaBG.html#a3f70dcf9e306292994caa59d57fc4934", null ],
     [ "m_road_map_top", "d4/dfb/classReAnaBG.html#a645bef6e0259bb2cb061a88daaae3e9f", null ]
 ];

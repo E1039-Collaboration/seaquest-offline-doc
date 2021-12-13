@@ -1,10 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"da/da4/classTrackletData.html#ae54b97811991c1309fe18867f6edb41e":[31,0,469,1],
-"da/da4/classTrackletData.html#af2e3211148f0ecb7dffe19bdb002bdea":[31,0,469,10],
-"da/da7/SQTruthVertexing_8cxx.html":[32,0,2,6,12,2,13],
-"da/da7/SQTruthVertexing_8cxx_source.html":[32,0,2,6,12,2,13],
-"da/da8/GenRoadset_2macro__gen__signal_2Fun4All_8C.html":[32,0,1,10,2,0],
 "da/da8/GenRoadset_2macro__gen__signal_2Fun4All_8C.html#aad65c1a75e1e47d34a5ed49e0004522d":[32,0,1,10,2,0,0],
 "da/da8/GenRoadset_2macro__gen__signal_2Fun4All_8C_source.html":[32,0,1,10,2,0],
 "da/da8/classPHG4TrackUserInfoV1.html":[31,0,318],
@@ -249,5 +244,10 @@ var NAVTREEINDEX35 =
 "db/d03/classSQTrackVector.html#ad4ce34ef8610353a230be29903a0749e":[31,0,446,15],
 "db/d04/PHG4ConeDetector_8cc.html":[32,0,2,7,0,55],
 "db/d04/PHG4ConeDetector_8cc_source.html":[32,0,2,7,0,55],
-"db/d09/HitEmbedding_2macro__gen__signal_2Fun4Sim_8C.html":[32,0,1,11,4,0]
+"db/d09/HitEmbedding_2macro__gen__signal_2Fun4Sim_8C.html":[32,0,1,11,4,0],
+"db/d09/HitEmbedding_2macro__gen__signal_2Fun4Sim_8C.html#ac0b59872aecb7b9a9b7dc44b5a90e4c2":[32,0,1,11,4,0,0],
+"db/d09/HitEmbedding_2macro__gen__signal_2Fun4Sim_8C_source.html":[32,0,1,11,4,0],
+"db/d09/structPHG4DSTReader_1_1record.html":[31,0,246,0],
+"db/d09/structPHG4DSTReader_1_1record.html#a0919892144bc39b41cdbd50c1ca90689":[31,0,246,0,4],
+"db/d09/structPHG4DSTReader_1_1record.html#a14cecf2a0b4019fdc98363a73b46fd3f":[31,0,246,0,0]
 };

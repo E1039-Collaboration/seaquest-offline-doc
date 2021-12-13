@@ -1,10 +1,5 @@
 var NAVTREEINDEX38 =
 {
-"db/dbe/Fun4AllOscarInputManager_8cc_source.html":[32,0,2,2,2,9],
-"db/dbe/Fun4CODA_8C.html":[32,0,1,5,0],
-"db/dbe/Fun4CODA_8C.html#a1bbee777074605aa2a59ddf9b2b52742":[32,0,1,5,0,0],
-"db/dbe/Fun4CODA_8C_source.html":[32,0,1,5,0],
-"db/dc5/classPHG4CylinderSubsystem.html":[31,0,242],
 "db/dc5/classPHG4CylinderSubsystem.html#a034cd0c643ec03070dcaf5f3bae175e0":[31,0,242,4],
 "db/dc5/classPHG4CylinderSubsystem.html#a21b6d58dc9322fa3cd11ab34e52ef5d2":[31,0,242,3],
 "db/dc5/classPHG4CylinderSubsystem.html#a23a72128ae220d7f889d4767d8987d86":[31,0,242,0],
@@ -94,6 +89,7 @@ var NAVTREEINDEX38 =
 "db/df7/classAnaBG.html#a5879e776376a0b6974b6eb2b02b0ebff":[31,0,31,13],
 "db/df7/classAnaBG.html#a62c5398c1f91e9ef3bf1f5bdbedc2c54":[31,0,31,23],
 "db/df7/classAnaBG.html#a659b15b637cc13dff45007893baea443":[31,0,31,2],
+"db/df7/classAnaBG.html#a7411c8662c04ad7a32c5c9f0df511409":[31,0,31,26],
 "db/df7/classAnaBG.html#a78d9ec5da056f411d6180b444c611151":[31,0,31,1],
 "db/df7/classAnaBG.html#a8e880a489af0c3ab11e36d8d7eb721c3":[31,0,31,10],
 "db/df7/classAnaBG.html#a9603f6c0c9ec4b4cce44e7fd8868a21a":[31,0,31,14],
@@ -249,5 +245,9 @@ var NAVTREEINDEX38 =
 "dc/d14/PatternDBGen_8h.html":[32,0,2,6,12,3,5],
 "dc/d14/PatternDBGen_8h_source.html":[32,0,2,6,12,3,5],
 "dc/d1c/PHParameters_8cc.html":[32,0,2,0,1,6],
-"dc/d1c/PHParameters_8cc_source.html":[32,0,2,0,1,6]
+"dc/d1c/PHParameters_8cc_source.html":[32,0,2,0,1,6],
+"dc/d1d/PHG4Showerv1_8h.html":[32,0,2,7,4,88],
+"dc/d1d/PHG4Showerv1_8h_source.html":[32,0,2,7,4,88],
+"dc/d21/SQSlowCont__v1_8h.html":[32,0,2,3,78],
+"dc/d21/SQSlowCont__v1_8h_source.html":[32,0,2,3,78]
 };
