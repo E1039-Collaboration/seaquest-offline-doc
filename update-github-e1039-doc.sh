@@ -50,7 +50,7 @@ if [ ! -d e1039-core ] ; then
     CORE_CLONED=yes
 fi
 cd e1039-core
-git fetch origin
+git fetch -p origin
 for BR_ORG in 'origin/master' $(git branch -r | grep 'origin/doc_20') ; do
     BR_LOC=${BR_ORG#'origin/'}
     #echo "  e1039-core branch:  $BR_LOC $BR_ORG"
@@ -117,5 +117,7 @@ cd $DIR_WORK/e1039-doc
     git commit --message "$TS"
     git push origin gh-pages
 } &>../log-git-add.txt
+
+echo "End."
 
 } &>$FN_LOG
