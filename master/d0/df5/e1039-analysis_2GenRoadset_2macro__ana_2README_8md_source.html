@@ -113,34 +113,44 @@ $(document).ready(function(){initNavTree('d0/df5/e1039-analysis_2GenRoadset_2mac
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;This directory is to first generate a <span class="keyword">new</span> roadset, <span class="keyword">using</span> the signal and BG events.</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;It then evaluates the <span class="keyword">new</span> roadset, namely re-analyzes the signal and BG events to compute the signal acceptance and the BG rate.</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;## Generation of Roadset</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;You need execute `source setup.sh` beforehand.</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;* `macro_ana/<a class="code" href="../../db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5">GenerateRoad</a>.C`</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;* `src/AnaGmc.(h|cc)`</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;* `src/AnaNim3.(h|cc)`</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;* `src/<a class="code" href="../../d5/de8/classGenRoadset.html">GenRoadset</a>.(h|cc)`</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;```</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;./make-input-list.sh</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;root -b <a class="code" href="../../db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5">GenerateRoad</a>.C</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;```</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;## Evaluation of Roadset</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;* `work/<a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a>.C`</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;* `work/ApplyRoasetd2BG.C`</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;* `work/<a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C`</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;* `src/<a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>.(h|cc)`</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;* `src/<a class="code" href="../../d4/dfb/classReAnaBG.html">ReAnaBG</a>.(h|cc)`</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;* `src/<a class="code" href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a>.(h|cc)`</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;## Lists of Input Files</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;It is used in `macro_ana/make-input-list.sh` by <span class="keywordflow">default</span>.</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;```</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;./make-input-list.sh</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;```</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">## Generation of Roadset</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;* `macro_ana/<a class="code" href="../../db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5">GenerateRoad</a>.C`</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;* `src/AnaGmc.(h|cc)`</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;* `src/AnaNim3.(h|cc)`</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;* `src/<a class="code" href="../../d5/de8/classGenRoadset.html">GenRoadset</a>.(h|cc)`</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;```</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;root -b <a class="code" href="../../db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5">GenerateRoad</a>.C</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;```</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;```</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;root -b <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a>.C</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;root -b <a class="code" href="../../dc/d2f/ApplyRoadset2BG_8C.html#a1f63e07791b42c1da808997dd4776019">ApplyRoadset2BG</a>.C</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;root -b <a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;```</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;## Evaluation of Roadset</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;* `work/<a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a>.C`</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;* `work/ApplyRoasetd2BG.C`</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;* `work/<a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C`</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;* `src/<a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>.(h|cc)`</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;* `src/<a class="code" href="../../d4/dfb/classReAnaBG.html">ReAnaBG</a>.(h|cc)`</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;* `src/<a class="code" href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a>.(h|cc)`</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;```</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;root -b <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a>.C</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;root -b <a class="code" href="../../dc/d2f/ApplyRoadset2BG_8C.html#a1f63e07791b42c1da808997dd4776019">ApplyRoadset2BG</a>.C</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;root -b <a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;```</div>
 <div class="ttc" id="classDrawRoadset_html"><div class="ttname"><a href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de1/DrawRoadset_8h_source.html#l00007">DrawRoadset.h:7</a></div></div>
 <div class="ttc" id="GenerateRoad_8C_html_ad670b842d08a44a59cfb72c6170cd1f5"><div class="ttname"><a href="../../db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5">GenerateRoad</a></div><div class="ttdeci">void GenerateRoad()</div><div class="ttdoc">Macro to generate a roadset based on the S/N FoM. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d30/GenerateRoad_8C_source.html#l00005">GenerateRoad.C:5</a></div></div>
 <div class="ttc" id="classGenRoadset_html"><div class="ttname"><a href="../../d5/de8/classGenRoadset.html">GenRoadset</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d28/GenRoadset_8h_source.html#l00008">GenRoadset.h:8</a></div></div>
@@ -159,7 +169,7 @@ $(document).ready(function(){initNavTree('d0/df5/e1039-analysis_2GenRoadset_2mac
 		<li class="navelem"><a class="el" href="../../d0/df5/e1039-analysis_2GenRoadset_2macro__ana_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Dec 12 2021 18:30:08</em> using <a
+			updated: <em>Mon Dec 13 2021 09:00:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

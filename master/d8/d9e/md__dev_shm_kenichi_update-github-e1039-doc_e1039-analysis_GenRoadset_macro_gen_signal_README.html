@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('d8/d9e/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>This directory is to generate signal events to be used for the roadset tuning. It outputs a small ROOT file named <code>signal_tree.root</code>, which will be used later in <code>macro_ana</code>.</p>
 <h2>Setting of <a class="el" href="../../d5/da5/classEvent.html">Event</a> Generation</h2>
-<p>The setting of the event generation is configured in <code>Fun4All.C</code> as usual. You can modify them as you need.</p>
+<p>The setting of the event generation is configured in <code>Fun4All.C</code> as usual. The <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates <code>signal_tree.root</code> is <code>src/SubsysRecoSignal.(h|cc)</code>. You can modify them as you need.</p>
 <h2>Test Production</h2>
 <p>You first execute the following command to execute the macro on local for test, which runs one job that generates 10 in-acceptance events;</p>
 <p>``` ./gridsub.sh ```</p>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('d8/d9e/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Dec 12 2021 18:30:10</em> using <a
+			updated: <em>Mon Dec 13 2021 09:00:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

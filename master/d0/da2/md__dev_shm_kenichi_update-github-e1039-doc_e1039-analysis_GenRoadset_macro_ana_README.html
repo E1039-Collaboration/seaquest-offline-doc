@@ -103,6 +103,10 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to first generate a new roadset, using the signal and BG events. It then evaluates the new roadset, namely re-analyzes the signal and BG events to compute the signal acceptance and the BG rate.</p>
+<p>You need execute <code>source setup.sh</code> beforehand.</p>
+<h2>Lists of Input Files</h2>
+<p>It is used in <code>macro_ana/make-input-list.sh</code> by default.</p>
+<p>``` ./make-input-list.sh ```</p>
 <h2>Generation of Roadset</h2>
 <ul>
 <li><code><a class="el" href="../../db/d30/GenerateRoad_8C.html">macro_ana/GenerateRoad.C</a></code></li>
@@ -110,7 +114,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 <li><code>src/AnaNim3.(h|cc)</code></li>
 <li><code>src/GenRoadset.(h|cc)</code></li>
 </ul>
-<p>``` ./make-input-list.sh root -b <a class="el" href="../../db/d30/GenerateRoad_8C.html">GenerateRoad.C</a> ```</p>
+<p>``` root -b <a class="el" href="../../db/d30/GenerateRoad_8C.html">GenerateRoad.C</a> ```</p>
 <h2>Evaluation of Roadset</h2>
 <ul>
 <li><code>work/ApplyRoadset2Signal.C</code></li>
@@ -130,7 +134,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Sun Dec 12 2021 18:30:10</em> using <a
+			updated: <em>Mon Dec 13 2021 09:00:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
