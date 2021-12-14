@@ -12,5 +12,9 @@ var dir_2c9c0ec4ef1fb3e4cdc9d2a6d2d2891a =
     [ "AnaRealDst.h", "dd/de9/AnaRealDst_8h.html", [
       [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ]
     ] ],
+    [ "AnaTriggerHit.cc", "d2/d72/AnaTriggerHit_8cc.html", null ],
+    [ "AnaTriggerHit.h", "d4/d89/AnaTriggerHit_8h.html", [
+      [ "AnaTriggerHit", "d2/db9/classAnaTriggerHit.html", "d2/db9/classAnaTriggerHit" ]
+    ] ],
     [ "LinkDef.h", "da/dbf/e1039-analysis_2AnaRealDst_2src_2LinkDef_8h.html", null ]
 ];

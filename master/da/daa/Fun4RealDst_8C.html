@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('da/daa/Fun4RealDst_8C.html','../../');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:af2bc551d71266cd8c5a6daeea6a861d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daa/Fun4RealDst_8C.html#af2bc551d71266cd8c5a6daeea6a861d8">Fun4RealDst</a> (const int <a class="el" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>=1666, const int nevent=0)</td></tr>
-<tr class="memdesc:af2bc551d71266cd8c5a6daeea6a861d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fun4MainDaq.C: Fun4all macro to decode the MainDAQ data.  <a href="#af2bc551d71266cd8c5a6daeea6a861d8">More...</a><br/></td></tr>
+<tr class="memdesc:af2bc551d71266cd8c5a6daeea6a861d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main function.  <a href="#af2bc551d71266cd8c5a6daeea6a861d8">More...</a><br/></td></tr>
 <tr class="separator:af2bc551d71266cd8c5a6daeea6a861d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa80eadb6952b5d52a756d7cf52d05770"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daa/Fun4RealDst_8C.html#aa80eadb6952b5d52a756d7cf52d05770">Fun4MultiRealDst</a> (const char *fn_list_run=&quot;list_run.txt&quot;)</td></tr>
 <tr class="memdesc:aa80eadb6952b5d52a756d7cf52d05770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to analyze multiple DST files.  <a href="#aa80eadb6952b5d52a756d7cf52d05770">More...</a><br/></td></tr>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
 <p>Function to analyze multiple DST files. </p>
 <p>You first list up runs in "list_run.txt". Then type the following commands to execute this function: root -b .L <a class="el" href="../../da/daa/Fun4RealDst_8C.html">Fun4RealDst.C</a> <a class="el" href="../../da/daa/Fun4RealDst_8C.html#aa80eadb6952b5d52a756d7cf52d05770" title="Function to analyze multiple DST files. ">Fun4MultiRealDst()</a>; </p>
 
-<p>Definition at line <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html#l00038">38</a> of file <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html">Fun4RealDst.C</a>.</p>
+<p>Definition at line <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html#l00034">34</a> of file <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html">Fun4RealDst.C</a>.</p>
 
 <p>References <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer::End()</a>, <a class="el" href="../../d1/de7/Fun4AllInputManager_8h_source.html#l00020">Fun4AllInputManager::fileopen()</a>, <a class="el" href="../../db/d8e/UtilOnline_8h_source.html#l00025">UtilOnline::GetDstFileDir()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00043">Fun4AllServer::instance()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer::registerInputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00181">Fun4AllServer::registerSubsystem()</a>, <a class="el" href="../../df/dbc/run_8C_source.html#l00010">run()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer::run()</a>, <a class="el" href="../../d0/d85/UtilOnline_8cc_source.html#l00049">UtilOnline::RunNum2DstFile()</a>, and <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00021">se</a>.</p>
 
@@ -180,22 +180,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Fun4MainDaq.C: Fun4all macro to decode the MainDAQ data. </p>
 <p>Main function. </p>
 
-<p>Definition at line <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html#l00007">7</a> of file <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html">Fun4RealDst.C</a>.</p>
-
-<p>References <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer::End()</a>, <a class="el" href="../../d1/de7/Fun4AllInputManager_8h_source.html#l00020">Fun4AllInputManager::fileopen()</a>, <a class="el" href="../../d0/d85/UtilOnline_8cc_source.html#l00074">UtilOnline::GetDstFilePath()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00043">Fun4AllServer::instance()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01256">Fun4AllServer::registerInputManager()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00181">Fun4AllServer::registerSubsystem()</a>, <a class="el" href="../../df/dbc/run_8C_source.html#l00010">run()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01288">Fun4AllServer::run()</a>, and <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00021">se</a>.</p>
-
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/daa/Fun4RealDst_8C_af2bc551d71266cd8c5a6daeea6a861d8_cgraph.svg" width="1502" height="1459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
+<p>Definition at line <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html#l00004">4</a> of file <a class="el" href="../../da/daa/Fun4RealDst_8C_source.html">Fun4RealDst.C</a>.</p>
 
 </div>
 </div>
@@ -209,7 +196,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_1d98e9ce442887d620c11ab5d486353f.html">AnaRealDst</a></li><li class="navelem"><a class="el" href="../../dir_e6f4aebe2c190ca6b819e8ac4e893483.html">macro</a></li><li class="navelem"><a class="el" href="../../da/daa/Fun4RealDst_8C.html">Fun4RealDst.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Dec 14 2021 08:30:09</em> using <a
+			updated: <em>Tue Dec 14 2021 15:00:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

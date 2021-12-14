@@ -12,6 +12,7 @@ var searchData=
   ['_7eanasimdst',['~AnaSimDst',['../d1/d9e/classAnaSimDst.html#a76a46bda714a627671d20e491e192319',1,'AnaSimDst']]],
   ['_7eanasimhit',['~AnaSimHit',['../d7/dfc/classAnaSimHit.html#a24cb823b643183a69f0a5db00cd64aee',1,'AnaSimHit']]],
   ['_7eanasimruninfo',['~AnaSimRunInfo',['../d0/d63/classAnaSimRunInfo.html#a3a528325fb16f62f6602e0f091b334ff',1,'AnaSimRunInfo']]],
+  ['_7eanatriggerhit',['~AnaTriggerHit',['../d2/db9/classAnaTriggerHit.html#a83f033aeb8739f0ea03a75d9b33b950a',1,'AnaTriggerHit']]],
   ['_7eanatrkqa',['~AnaTrkQA',['../d9/d85/classAnaTrkQA.html#a2761a43c558d33b76d0e427cd30142a1',1,'AnaTrkQA']]],
   ['_7eanawait',['~AnaWait',['../d5/d60/classAnaWait.html#a41b305f5a8e05bac87cbebf41eb1f3f4',1,'AnaWait']]],
   ['_7ebgdata',['~BgData',['../d0/d6d/structBgData.html#acf1679296c4f40f5d1445b3114496d5a',1,'BgData']]],
