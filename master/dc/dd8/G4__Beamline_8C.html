@@ -110,6 +110,9 @@ $(document).ready(function(){initNavTree('dc/dd8/G4__Beamline_8C.html','../../')
 <div class="title">G4_Beamline.C File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Macro to configure the beamline objects.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d4/dab/PHG4CollimatorSubsystem_8h_source.html">g4detectors/PHG4CollimatorSubsystem.h</a>&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for G4_Beamline.C:</div>
@@ -133,9 +136,15 @@ $(document).ready(function(){initNavTree('dc/dd8/G4__Beamline_8C.html','../../')
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a6e6165b8660634556c42a32fcad753eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dd8/G4__Beamline_8C.html#a6e6165b8660634556c42a32fcad753eb">SetupBeamline</a> (<a class="el" href="../../d0/d78/classPHG4Reco.html">PHG4Reco</a> *g4Reco, const bool toggle_collimator=true, const double collimator_pos_z=-602.36, const int register_hits=0)</td></tr>
+<tr class="memdesc:a6e6165b8660634556c42a32fcad753eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro function to configure the beamline objects.  <a href="#a6e6165b8660634556c42a32fcad753eb">More...</a><br/></td></tr>
 <tr class="separator:a6e6165b8660634556c42a32fcad753eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Macro to configure the beamline objects. </p>
+<p>The usage is similar to <code>G4_SensitiveDetectors.C</code>. </p>
+
+<p>Definition in file <a class="el" href="../../dc/dd8/G4__Beamline_8C_source.html">G4_Beamline.C</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a6e6165b8660634556c42a32fcad753eb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -172,11 +181,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/dd8/G4__Beamline_8C_source.html#l00008">8</a> of file <a class="el" href="../../dc/dd8/G4__Beamline_8C_source.html">G4_Beamline.C</a>.</p>
+<p>Macro function to configure the beamline objects. </p>
+<p>t.b.w. </p>
+
+<p>Definition at line <a class="el" href="../../dc/dd8/G4__Beamline_8C_source.html#l00017">17</a> of file <a class="el" href="../../dc/dd8/G4__Beamline_8C_source.html">G4_Beamline.C</a>.</p>
 
 <p>References <a class="el" href="../../d0/d2b/PHG4Reco_8h_source.html#l00063">PHG4Reco::registerSubsystem()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00155">PHG4DetectorSubsystem::set_double_param()</a>, <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00464">PHG4DetectorSubsystem::SetActive()</a>, and <a class="el" href="../../d8/de4/PHG4DetectorSubsystem_8cc_source.html#l00148">PHG4DetectorSubsystem::SuperDetector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../da/da8/GenRoadset_2macro__gen__signal_2Fun4All_8C_source.html#l00014">Fun4All()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../db/d7c/Fun4DumpGeom_8C_source.html#l00015">Fun4DumpGeom()</a>, <a class="el" href="../../d4/dfd/HitEmbedding_2macro__gen__emb_2Fun4Sim_8C_source.html#l00013">Fun4Sim()</a>, <a class="el" href="../../d3/da6/Fun4Sim__TrkQA_8C_source.html#l00025">Fun4Sim_TrkQA()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dd6/EventDisplay4Sim_8C_source.html#l00076">EventDisplay4Sim()</a>, <a class="el" href="../../da/da8/GenRoadset_2macro__gen__signal_2Fun4All_8C_source.html#l00014">Fun4All()</a>, <a class="el" href="../../d4/d6b/Fun4DQ_8C_source.html#l00026">Fun4DQ()</a>, <a class="el" href="../../db/d7c/Fun4DumpGeom_8C_source.html#l00019">Fun4DumpGeom()</a>, <a class="el" href="../../d4/dfd/HitEmbedding_2macro__gen__emb_2Fun4Sim_8C_source.html#l00013">Fun4Sim()</a>, <a class="el" href="../../d3/da6/Fun4Sim__TrkQA_8C_source.html#l00025">Fun4Sim_TrkQA()</a>, and <a class="el" href="../../d0/d9c/RecoE1039Sim_8C_source.html#l00026">RecoE1039Sim()</a>.</p>
 
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -210,7 +222,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0987381a3d6260ef070a766a46bdeb23.html">macros</a></li><li class="navelem"><a class="el" href="../../dc/dd8/G4__Beamline_8C.html">G4_Beamline.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Dec 13 2021 09:00:09</em> using <a
+			updated: <em>Tue Dec 14 2021 08:30:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
