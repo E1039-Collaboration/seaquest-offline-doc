@@ -36,7 +36,13 @@ if [ $DO_FORCE != yes ] ; then
     test "X$YN" != 'Xy' -a "X$YN" != 'Xyes' && echo "Abort." && exit
 fi
 
-rm -rf $DIR_OUT
+if [ -e $DIR_OUT ] ; then
+    echo "Cleaning up the existing output directory..."
+    rm -rf $DIR_OUT
+    echo "...Done."
+fi
+
+echo "Running doxygen..."
 
 { # To doxygen
     cat $DIR_PROG/Doxyfile
@@ -47,4 +53,4 @@ rm -rf $DIR_OUT
 } | doxygen -
 
 echo
-echo "End."
+echo "...Done."
