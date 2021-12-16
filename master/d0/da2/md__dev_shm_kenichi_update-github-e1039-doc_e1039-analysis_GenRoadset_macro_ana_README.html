@@ -107,24 +107,30 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 <h2>Lists of Input Files</h2>
 <p>It is used in <code>macro_ana/make-input-list.sh</code> by default.</p>
 <p>``` ./make-input-list.sh ```</p>
+<h2>QIE Inhibit Threshold</h2>
+<p>You set the QIE inhibit threshold when generating and evaluating a new roadset. It was 1200 on average in the last E906 run, although it varied with time. Thus you should try 1200 and also different values (like 1000 and 1400) to check how the result changes.</p>
 <h2>Generation of Roadset</h2>
+<p>Typical procedure:</p>
+<p>``` root -b <a class="el" href="../../db/d30/GenerateRoad_8C.html">GenerateRoad.C</a> ```</p>
+<p>Related files:</p>
 <ul>
 <li><code><a class="el" href="../../db/d30/GenerateRoad_8C.html">macro_ana/GenerateRoad.C</a></code></li>
 <li><code>src/AnaGmc.(h|cc)</code></li>
 <li><code>src/AnaNim3.(h|cc)</code></li>
 <li><code>src/GenRoadset.(h|cc)</code></li>
 </ul>
-<p>``` root -b <a class="el" href="../../db/d30/GenerateRoad_8C.html">GenerateRoad.C</a> ```</p>
 <h2>Evaluation of Roadset</h2>
+<p>Typical procedure:</p>
+<p>``` root -b <a class="el" href="../../d3/d1d/ApplyRoadset2Signal_8C.html">ApplyRoadset2Signal.C</a> root -b 'ApplyRoadset2BG.C(0)' root -b 'ApplyRoadset2BG.C(1200)' root -b <a class="el" href="../../d5/d05/DrawRS_8C.html">DrawRS.C</a> ```</p>
+<p>Related files:</p>
 <ul>
 <li><code>work/ApplyRoadset2Signal.C</code></li>
 <li><code>work/ApplyRoasetd2BG.C</code></li>
 <li><code>work/DrawRS.C</code></li>
 <li><code>src/ReAnaSignal.(h|cc)</code></li>
 <li><code>src/ReAnaBG.(h|cc)</code></li>
-<li><code>src/DrawRoadset.(h|cc)</code></li>
+<li><code>src/DrawRoadset.(h|cc)</code> </li>
 </ul>
-<p>``` root -b <a class="el" href="../../d3/d1d/ApplyRoadset2Signal_8C.html">ApplyRoadset2Signal.C</a> root -b <a class="el" href="../../dc/d2f/ApplyRoadset2BG_8C.html">ApplyRoadset2BG.C</a> root -b <a class="el" href="../../d5/d05/DrawRS_8C.html">DrawRS.C</a> ``` </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -134,7 +140,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Dec 14 2021 15:00:10</em> using <a
+			updated: <em>Thu Dec 16 2021 11:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

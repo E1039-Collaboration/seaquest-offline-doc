@@ -1,5 +1,5 @@
 var GenerateRoad_8C =
 [
-    [ "GenerateRoad", "db/d30/GenerateRoad_8C.html#ad670b842d08a44a59cfb72c6170cd1f5", null ],
-    [ "GenerateRoadBySignal", "db/d30/GenerateRoad_8C.html#a6db19ceb083a4f626a6ddc1a3c26eff8", null ]
+    [ "GenerateRoad", "db/d30/GenerateRoad_8C.html#a1fd98e3e3dc1d83a3d46a4ad5ebcb37f", null ],
+    [ "GenerateRoadBySignal", "db/d30/GenerateRoad_8C.html#a804dba5613967b3a359d79c6f8810e30", null ]
 ];

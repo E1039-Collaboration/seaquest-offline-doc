@@ -111,11 +111,15 @@ $(document).ready(function(){initNavTree('d3/d1d/ApplyRoadset2Signal_8C_source.h
 <a href="../../d3/d1d/ApplyRoadset2Signal_8C.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;R__LOAD_LIBRARY(libGenRoadset)</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;using namespace std;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">    4</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a>()</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">    4</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a>(const <span class="keywordtype">string</span> rs_id=&quot;113&quot;)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">string</span>   rs_id = <span class="stringliteral">&quot;113&quot;</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> mass_lo = 2.5;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> mass_hi = 3.5;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keywordtype">double</span>  mass_lo;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordtype">double</span>  mass_hi;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  <span class="keywordflow">if</span>      (rs_id == <span class="stringliteral">&quot;102&quot;</span>) { mass_lo=4.0; mass_hi=5.0; }</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rs_id == <span class="stringliteral">&quot;103&quot;</span>) { mass_lo=2.5; mass_hi=3.5; }</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rs_id == <span class="stringliteral">&quot;104&quot;</span>) { mass_lo=2.5; mass_hi=3.5; }</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rs_id == <span class="stringliteral">&quot;105&quot;</span>) { mass_lo=7.0; mass_hi=8.0; }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (rs_id == <span class="stringliteral">&quot;113&quot;</span>) { mass_lo=2.5; mass_hi=3.5; }</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  <a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>* ana_sig = <span class="keyword">new</span> <a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>(<span class="stringliteral">&quot;app_sig_rs&quot;</span> + rs_id);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  ana_sig-&gt;<a class="code" href="../../df/de1/classAnaBase.html#a90676552e4e8a00e4d2f01426c412067">SetInputTreeName</a>  (<span class="stringliteral">&quot;signal_tree&quot;</span>);</div>
@@ -137,16 +141,6 @@ $(document).ready(function(){initNavTree('d3/d1d/ApplyRoadset2Signal_8C_source.h
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;E N D&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  exit(0);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">QIE inhibit threshold = 1200 in the last E906 run.</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">Expected counts per spill = [N of &quot;fired&quot; events] / [N of all events] * [N of filled RFs]</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">N of filled RFs = 186e6</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"> */</span></div>
 <div class="ttc" id="classReAnaSignal_html_aa1083a13c415ec02029f19b4dad19e3f"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#aa1083a13c415ec02029f19b4dad19e3f">ReAnaSignal::End</a></div><div class="ttdeci">virtual void End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5c/ReAnaSignal_8cc_source.html#l00093">ReAnaSignal.cc:93</a></div></div>
 <div class="ttc" id="classAnaSignal_html_a92bf1e385a1c5b248c70d6136e78edc9"><div class="ttname"><a href="../../d6/d80/classAnaSignal.html#a92bf1e385a1c5b248c70d6136e78edc9">AnaSignal::SetMassRange</a></div><div class="ttdeci">void SetMassRange(const double mass_lo, const double mass_hi)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d15/AnaSignal_8cc_source.html#l00029">AnaSignal.cc:29</a></div></div>
 <div class="ttc" id="classAnaBase_html_a90676552e4e8a00e4d2f01426c412067"><div class="ttname"><a href="../../df/de1/classAnaBase.html#a90676552e4e8a00e4d2f01426c412067">AnaBase::SetInputTreeName</a></div><div class="ttdeci">virtual void SetInputTreeName(const std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/AnaBase_8h_source.html#l00019">AnaBase.h:19</a></div></div>
@@ -160,7 +154,7 @@ $(document).ready(function(){initNavTree('d3/d1d/ApplyRoadset2Signal_8C_source.h
 <div class="ttc" id="namespaceUtilRoad_html_a821437dd1b17c33e441b0fd33c3dda1d"><div class="ttname"><a href="../../de/dad/namespaceUtilRoad.html#a821437dd1b17c33e441b0fd33c3dda1d">UtilRoad::ReadFromFile</a></div><div class="ttdeci">void ReadFromFile(RoadMap *pos_top, RoadMap *pos_bot, RoadMap *neg_top, RoadMap *neg_bot, const std::string id)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc6/UtilRoad_8cc_source.html#l00070">UtilRoad.cc:70</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_abcf2910868dd32d73d1d9156c0fcb761"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#abcf2910868dd32d73d1d9156c0fcb761">ReAnaSignal::Init</a></div><div class="ttdeci">virtual void Init()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5c/ReAnaSignal_8cc_source.html#l00031">ReAnaSignal.cc:31</a></div></div>
 <div class="ttc" id="classAnaBase_html_ad03f273ac3a6f26ae51b79076355c441"><div class="ttname"><a href="../../df/de1/classAnaBase.html#ad03f273ac3a6f26ae51b79076355c441">AnaBase::SetInputBranchName</a></div><div class="ttdeci">virtual void SetInputBranchName(const std::string name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/AnaBase_8h_source.html#l00020">AnaBase.h:20</a></div></div>
-<div class="ttc" id="ApplyRoadset2Signal_8C_html_a9ffd08c74a3b922193e8865b086eb211"><div class="ttname"><a href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a9ffd08c74a3b922193e8865b086eb211">ApplyRoadset2Signal</a></div><div class="ttdeci">void ApplyRoadset2Signal()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1d/ApplyRoadset2Signal_8C_source.html#l00004">ApplyRoadset2Signal.C:4</a></div></div>
+<div class="ttc" id="ApplyRoadset2Signal_8C_html_a0c649f9ab6ca30adfd58efaa36029f69"><div class="ttname"><a href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a></div><div class="ttdeci">void ApplyRoadset2Signal(const string rs_id=&quot;113&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1d/ApplyRoadset2Signal_8C_source.html#l00004">ApplyRoadset2Signal.C:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -171,7 +165,7 @@ $(document).ready(function(){initNavTree('d3/d1d/ApplyRoadset2Signal_8C_source.h
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_e294f48d281c94c535cbbd9d721d165f.html">GenRoadset</a></li><li class="navelem"><a class="el" href="../../dir_09dee5a46ed11e273f789b8f5d6e83d9.html">macro_ana</a></li><li class="navelem"><a class="el" href="../../d3/d1d/ApplyRoadset2Signal_8C.html">ApplyRoadset2Signal.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Dec 14 2021 15:00:07</em> using <a
+			updated: <em>Thu Dec 16 2021 11:10:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
