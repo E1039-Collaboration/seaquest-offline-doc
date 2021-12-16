@@ -105,8 +105,9 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 <div class="textblock"><p>This directory is to first generate a new roadset, using the signal and BG events. It then evaluates the new roadset, namely re-analyzes the signal and BG events to compute the signal acceptance and the BG rate.</p>
 <p>You need execute <code>source setup.sh</code> beforehand.</p>
 <h2>Lists of Input Files</h2>
-<p>It is used in <code>macro_ana/make-input-list.sh</code> by default.</p>
+<p>Signal files and BG files should be listed in <code>list_signal.txt</code> and <code>list_bg.txt</code>. You can make the lists by the following command;</p>
 <p>``` ./make-input-list.sh ```</p>
+<p>If you have modified some setting in <code>macro_gen_signal</code> or <code>macro_e906_nim3</code>, you might have to modify <code>make-input-list.sh</code> accordingly.</p>
 <h2>QIE Inhibit Threshold</h2>
 <p>You set the QIE inhibit threshold when generating and evaluating a new roadset. It was 1200 on average in the last E906 run, although it varied with time. Thus you should try 1200 and also different values (like 1000 and 1400) to check how the result changes.</p>
 <h2>Generation of Roadset</h2>
@@ -140,7 +141,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 16 2021 11:10:10</em> using <a
+			updated: <em>Thu Dec 16 2021 11:20:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
