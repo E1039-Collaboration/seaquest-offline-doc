@@ -1,6 +1,10 @@
 #!/bin/bash
-## Script to create/update the Doxygen document on e906-gat1.
-
+# Script to create/update the Doxygen document on e906-gat1.
+# The basic usage is explained in `README.md`.
+# Here are some advanced usages:
+#   ./update-gat1-doc.sh -A
+#     Ignore `e1039-analysis`.  Useful when you care about `e1039-core` only.
+#
 DIR_PROG=$(dirname $(readlink -f $0))
 
 if [ $(hostname -s) != 'e906-gat1' ] ; then
