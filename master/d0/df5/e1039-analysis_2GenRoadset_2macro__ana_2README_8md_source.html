@@ -125,50 +125,52 @@ $(document).ready(function(){initNavTree('d0/df5/e1039-analysis_2GenRoadset_2mac
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;./make-input-list.sh</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;```</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;If you have modified some setting in `macro_gen_signal` or `macro_e906_nim3`, you might have to modify `make-input-list.sh` accordingly.</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;When you use the full-BG simulation, you have to change `DIR_IN_BG` in the script beforehand.</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;## QIE Inhibit Threshold</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;If you have modified some setting in `macro_gen_signal` or `macro_e906_nim3`, you might have to modify `make-input-list.sh` accordingly.</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;You set the QIE inhibit threshold when generating and evaluating a <span class="keyword">new</span> roadset.</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;It was 1200 on average in the last E906 <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>, although it varied with time.</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;Thus you should <span class="keywordflow">try</span> 1200 and also different values (like 1000 and 1400) to check how the result changes.</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;## Generation of Roadset</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;## QIE Inhibit Threshold</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;You set the QIE inhibit threshold when generating and evaluating a <span class="keyword">new</span> roadset.</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;It was 1200 on average in the last E906 <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>, although it varied with time.</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;Thus you should <span class="keywordflow">try</span> 1200 and also different values (like 1000 and 1400) to check how the result changes.</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;Typical procedure:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;## Generation of Roadset</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;```</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;root -b <a class="code" href="../../db/d30/GenerateRoad_8C.html#a1fd98e3e3dc1d83a3d46a4ad5ebcb37f">GenerateRoad</a>.C</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;Typical procedure:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;```</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;Related files:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;* `macro_ana/<a class="code" href="../../db/d30/GenerateRoad_8C.html#a1fd98e3e3dc1d83a3d46a4ad5ebcb37f">GenerateRoad</a>.C`</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;* `src/AnaGmc.(h|cc)`</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;* `src/AnaNim3.(h|cc)`</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;* `src/<a class="code" href="../../d5/de8/classGenRoadset.html">GenRoadset</a>.(h|cc)`</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;## Evaluation of Roadset</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;root -b <a class="code" href="../../db/d30/GenerateRoad_8C.html#a1fd98e3e3dc1d83a3d46a4ad5ebcb37f">GenerateRoad</a>.C</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;```</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;Related files:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;* `macro_ana/<a class="code" href="../../db/d30/GenerateRoad_8C.html#a1fd98e3e3dc1d83a3d46a4ad5ebcb37f">GenerateRoad</a>.C`</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;* `src/AnaGmc.(h|cc)`</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;* `src/AnaNim3.(h|cc)`</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;* `src/<a class="code" href="../../d5/de8/classGenRoadset.html">GenRoadset</a>.(h|cc)`</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;Typical procedure:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;## Evaluation of Roadset</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;```</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;root -b <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a>.C</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;root -b <span class="stringliteral">&#39;ApplyRoadset2BG.C(0)&#39;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;root -b <span class="stringliteral">&#39;ApplyRoadset2BG.C(1200)&#39;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;root -b <a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;```</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;Related files:</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;* `work/<a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a>.C`</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;* `work/ApplyRoasetd2BG.C`</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;* `work/<a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C`</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;* `src/<a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>.(h|cc)`</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;* `src/<a class="code" href="../../d4/dfb/classReAnaBG.html">ReAnaBG</a>.(h|cc)`</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;* `src/<a class="code" href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a>.(h|cc)`</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;Typical procedure:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;```</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;root -b <a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a>.C</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;root -b <span class="stringliteral">&#39;ApplyRoadset2BG.C(0)&#39;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;root -b <span class="stringliteral">&#39;ApplyRoadset2BG.C(1200)&#39;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;root -b <a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;```</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;Related files:</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;* `work/<a class="code" href="../../d3/d1d/ApplyRoadset2Signal_8C.html#a0c649f9ab6ca30adfd58efaa36029f69">ApplyRoadset2Signal</a>.C`</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;* `work/ApplyRoasetd2BG.C`</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;* `work/<a class="code" href="../../d5/d05/DrawRS_8C.html#a0b9b108dd5f8364426a86f8d2d2151f5">DrawRS</a>.C`</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;* `src/<a class="code" href="../../d3/d4e/classReAnaSignal.html">ReAnaSignal</a>.(h|cc)`</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;* `src/<a class="code" href="../../d4/dfb/classReAnaBG.html">ReAnaBG</a>.(h|cc)`</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;* `src/<a class="code" href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a>.(h|cc)`</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="ttc" id="classDrawRoadset_html"><div class="ttname"><a href="../../d9/d2a/classDrawRoadset.html">DrawRoadset</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de1/DrawRoadset_8h_source.html#l00007">DrawRoadset.h:7</a></div></div>
 <div class="ttc" id="classGenRoadset_html"><div class="ttname"><a href="../../d5/de8/classGenRoadset.html">GenRoadset</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d28/GenRoadset_8h_source.html#l00008">GenRoadset.h:8</a></div></div>
 <div class="ttc" id="classReAnaBG_html"><div class="ttname"><a href="../../d4/dfb/classReAnaBG.html">ReAnaBG</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d28/ReAnaBG_8h_source.html#l00005">ReAnaBG.h:5</a></div></div>
@@ -187,7 +189,7 @@ $(document).ready(function(){initNavTree('d0/df5/e1039-analysis_2GenRoadset_2mac
 		<li class="navelem"><a class="el" href="../../d0/df5/e1039-analysis_2GenRoadset_2macro__ana_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 16 2021 11:50:07</em> using <a
+			updated: <em>Tue Dec 21 2021 18:10:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

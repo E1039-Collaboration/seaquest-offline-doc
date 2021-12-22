@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 <h2>Lists of Input Files</h2>
 <p>Signal files and BG files should be listed in <code>list_signal.txt</code> and <code>list_bg.txt</code>. You can make the lists by the following command;</p>
 <p>``` ./make-input-list.sh ```</p>
+<p>When you use the full-BG simulation, you have to change <code>DIR_IN_BG</code> in the script beforehand.</p>
 <p>If you have modified some setting in <code>macro_gen_signal</code> or <code>macro_e906_nim3</code>, you might have to modify <code>make-input-list.sh</code> accordingly.</p>
 <h2>QIE Inhibit Threshold</h2>
 <p>You set the QIE inhibit threshold when generating and evaluating a new roadset. It was 1200 on average in the last E906 run, although it varied with time. Thus you should try 1200 and also different values (like 1000 and 1400) to check how the result changes.</p>
@@ -141,7 +142,7 @@ $(document).ready(function(){initNavTree('d0/da2/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 16 2021 11:50:09</em> using <a
+			updated: <em>Tue Dec 21 2021 18:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

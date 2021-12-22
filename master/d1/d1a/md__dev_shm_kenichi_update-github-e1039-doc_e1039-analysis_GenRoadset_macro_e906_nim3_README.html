@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('d1/d1a/md__dev_shm_kenichi_update-gith
 <div class="textblock"><p>This directory is to extract NIM3 events from the E906 digit files. It outputs a small ROOT file named <code>bg_tree.root</code>, which will be used later in <code>macro_ana</code>.</p>
 <p>You usually need not carry out this step by yourself.</p>
 <h2>Setting of <a class="el" href="../../d5/da5/classEvent.html">Event</a> Extraction</h2>
-<p>The setting of the event extraction is configured in <code>Fun4All.C</code> as usual. The <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates <code>bg_tree.root</code> is <code>src/SubsysRecoNim3.(h|cc)</code>. You can modify them as you need.</p>
+<p>The setting of the event extraction is configured in <code>Fun4All.C</code> as usual. The <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates <code>bg_tree.root</code> is <code>src/SubsysRecoBG.(h|cc)</code>. You can modify them as you need.</p>
 <h2>Procedure</h2>
 <p>The digit files had better be prestaged before use.</p>
 <p>``` ../../HitEmbedding/macro_gen_emb_e906/prestage-input-file.sh ```</p>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('d1/d1a/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 16 2021 11:50:09</em> using <a
+			updated: <em>Tue Dec 21 2021 18:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

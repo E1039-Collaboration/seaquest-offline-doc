@@ -16,6 +16,14 @@ var dir_75eae09653f0bf0d3a0fb7dab27d09b6 =
     [ "DrawRoadset.h", "d5/de1/DrawRoadset_8h.html", [
       [ "DrawRoadset", "d9/d2a/classDrawRoadset.html", "d9/d2a/classDrawRoadset" ]
     ] ],
+    [ "E906SpillSelector.cc", "d2/d6b/E906SpillSelector_8cc.html", null ],
+    [ "E906SpillSelector.h", "d5/dcf/E906SpillSelector_8h.html", [
+      [ "E906SpillSelector", "df/dd0/classE906SpillSelector.html", "df/dd0/classE906SpillSelector" ]
+    ] ],
+    [ "FilterByTrigger.cc", "d7/dc0/GenRoadset_2src_2FilterByTrigger_8cc.html", null ],
+    [ "FilterByTrigger.h", "df/d78/GenRoadset_2src_2FilterByTrigger_8h.html", [
+      [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", "d0/d1d/classFilterByTrigger" ]
+    ] ],
     [ "GenRoadset.cc", "d0/d04/GenRoadset_8cc.html", null ],
     [ "GenRoadset.h", "d3/d28/GenRoadset_8h.html", [
       [ "GenRoadset", "d5/de8/classGenRoadset.html", "d5/de8/classGenRoadset" ]
@@ -45,13 +53,9 @@ var dir_75eae09653f0bf0d3a0fb7dab27d09b6 =
     [ "RoadMap.h", "da/d50/RoadMap_8h.html", [
       [ "RoadMap", "d4/d45/classRoadMap.html", "d4/d45/classRoadMap" ]
     ] ],
-    [ "SubsysRecoFullBG.cc", "d5/d3c/SubsysRecoFullBG_8cc.html", null ],
-    [ "SubsysRecoFullBG.h", "dd/d98/SubsysRecoFullBG_8h.html", [
-      [ "SubsysRecoFullBG", "d6/db0/classSubsysRecoFullBG.html", "d6/db0/classSubsysRecoFullBG" ]
-    ] ],
-    [ "SubsysRecoNim3.cc", "d6/d48/SubsysRecoNim3_8cc.html", null ],
-    [ "SubsysRecoNim3.h", "dd/dde/SubsysRecoNim3_8h.html", [
-      [ "SubsysRecoNim3", "df/dc0/classSubsysRecoNim3.html", "df/dc0/classSubsysRecoNim3" ]
+    [ "SubsysRecoBG.cc", "df/df6/SubsysRecoBG_8cc.html", null ],
+    [ "SubsysRecoBG.h", "d4/d52/SubsysRecoBG_8h.html", [
+      [ "SubsysRecoBG", "d6/d44/classSubsysRecoBG.html", "d6/d44/classSubsysRecoBG" ]
     ] ],
     [ "SubsysRecoSignal.cc", "d9/dc9/SubsysRecoSignal_8cc.html", null ],
     [ "SubsysRecoSignal.h", "d2/d9c/SubsysRecoSignal_8h.html", [
