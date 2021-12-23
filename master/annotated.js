@@ -39,6 +39,7 @@ var annotated =
     [ "AnaEffHodo", "db/d7d/classAnaEffHodo.html", "db/d7d/classAnaEffHodo" ],
     [ "AnaEmbeddedData", "d2/de6/classAnaEmbeddedData.html", "d2/de6/classAnaEmbeddedData" ],
     [ "AnaModule", "dc/da8/classAnaModule.html", "dc/da8/classAnaModule" ],
+    [ "AnaPileup", "de/dec/classAnaPileup.html", "de/dec/classAnaPileup" ],
     [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ],
     [ "AnaSignal", "d6/d80/classAnaSignal.html", "d6/d80/classAnaSignal" ],
     [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", "d1/d9e/classAnaSimDst" ],
