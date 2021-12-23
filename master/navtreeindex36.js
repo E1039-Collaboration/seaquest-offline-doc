@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"da/de3/classCalibEvtQual.html#ae5cef28e21ebc6c150f11047f36d0766":[34,0,49,3],
+"da/deb/Efficiency_2AnaModule_2AnaModule_8h.html":[35,0,1,7,0,1],
+"da/deb/Efficiency_2AnaModule_2AnaModule_8h_source.html":[35,0,1,7,0,1],
 "da/ded/PHG4CylinderCellv3_8h.html":[35,0,2,7,0,89],
 "da/ded/PHG4CylinderCellv3_8h_source.html":[35,0,2,7,0,89],
 "da/dee/PHG4GenHit_8h.html":[35,0,2,7,0,132],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "db/d62/classPHG4InEvent.html#a21ffc7a40dc313688f69a53efb536e5c":[34,0,276,11],
 "db/d62/classPHG4InEvent.html#a3aceec54176f99daca9282e7df169148":[34,0,276,4],
 "db/d62/classPHG4InEvent.html#a3dd93bdfcca611ac18f565586fd0e126":[34,0,276,8],
-"db/d62/classPHG4InEvent.html#a459357d91b697f1a08abee3fc0b0dcce":[34,0,276,15],
-"db/d62/classPHG4InEvent.html#a47af3dda48d75749874e989dbd730b28":[34,0,276,16],
-"db/d62/classPHG4InEvent.html#a4eb602f778fead6b1b0dfe2deef88a3d":[34,0,276,1],
-"db/d62/classPHG4InEvent.html#a565abe8aa2e32da8ccab3b24ffdd4ff1":[34,0,276,7]
+"db/d62/classPHG4InEvent.html#a459357d91b697f1a08abee3fc0b0dcce":[34,0,276,15]
 };

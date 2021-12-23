@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"dc/dfe/classPHG4Cell.html#a3df1a480cab5fe0e70a7571460340fd8":[34,0,216,56],
+"dc/dfe/classPHG4Cell.html#a42e05d988a7b10a3011cbb29ccc873cd":[34,0,216,40],
+"dc/dfe/classPHG4Cell.html#a4472e00cc78dd180ee71109fb7eb43da":[34,0,216,39],
 "dc/dfe/classPHG4Cell.html#a4af6dace543cbf6d359fa3e59613261a":[34,0,216,23],
 "dc/dfe/classPHG4Cell.html#a4b8d8758436b757e44f89ad18534c1a2":[34,0,216,41],
 "dc/dfe/classPHG4Cell.html#a4d6ed1aeb951071ae42180f754b2d547":[34,0,216,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "dd/d4b/classTraceHepMCParticle.html#a3f320ff096b67a8071c4d12f057fab1c":[34,0,467,1],
 "dd/d4b/classTraceHepMCParticle.html#a60f5faff4cb3ae5f8bd0eefae597adf8":[34,0,467,5],
 "dd/d4b/classTraceHepMCParticle.html#aba40fb0aa6005695ab617967cf0c9b4b":[34,0,467,3],
-"dd/d4b/classTraceHepMCParticle.html#af665c7b9d1dfc86ad297fdcb64ec0cce":[34,0,467,4],
-"dd/d57/classPHG4EMCalDetector.html":[34,0,250],
-"dd/d57/classPHG4EMCalDetector.html#a2dbfda6976333bd230bb8ee078000919":[34,0,250,4],
-"dd/d57/classPHG4EMCalDetector.html#a4584f1aab351792ff7798501eb6d3be9":[34,0,250,3]
+"dd/d4b/classTraceHepMCParticle.html#af665c7b9d1dfc86ad297fdcb64ec0cce":[34,0,467,4]
 };

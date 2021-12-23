@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"d8/d39/PHG4Particlev1_8h_source.html":[35,0,2,7,4,63],
+"d8/d3a/PHG4DetectorSubsystem_8h.html":[35,0,2,7,0,120],
+"d8/d3a/PHG4DetectorSubsystem_8h_source.html":[35,0,2,7,0,120],
 "d8/d3b/Fun4AllPrdfOutputManager_8cc.html":[35,0,2,1,1,26],
 "d8/d3b/Fun4AllPrdfOutputManager_8cc_source.html":[35,0,2,1,1,26],
 "d8/d3d/SQRunLinkDef_8h.html":[35,0,2,3,68],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "d8/da3/PHGeomFileImport_8h.html":[35,0,2,6,11,2],
 "d8/da3/PHGeomFileImport_8h_source.html":[35,0,2,6,11,2],
 "d8/da7/PHG4PileupGenerator_8cc.html":[35,0,2,7,4,74],
-"d8/da7/PHG4PileupGenerator_8cc_source.html":[35,0,2,7,4,74],
-"d8/da7/PHG4SquareTubeSubsystem_8h.html":[35,0,2,7,0,158],
-"d8/da7/PHG4SquareTubeSubsystem_8h_source.html":[35,0,2,7,0,158],
-"d8/daf/KalmanFitter_8h.html":[35,0,2,6,12,1,5]
+"d8/da7/PHG4PileupGenerator_8cc_source.html":[35,0,2,7,4,74]
 };

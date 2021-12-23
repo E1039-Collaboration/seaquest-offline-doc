@@ -1,5 +1,8 @@
 var NAVTREEINDEX19 =
 {
+"d5/dd4/classFun4AllSRawEventInputManager.html#a60995583091d85f729e88dede5fe3f34":[34,0,118,25],
+"d5/dd4/classFun4AllSRawEventInputManager.html#a650de528e23ff7e562ba0308c484643c":[34,0,118,33],
+"d5/dd4/classFun4AllSRawEventInputManager.html#a6c3d388984dc808d631411747bcf9748":[34,0,118,29],
 "d5/dd4/classFun4AllSRawEventInputManager.html#a6fb883458d575781c7ae1da38ecf30dd":[34,0,118,14],
 "d5/dd4/classFun4AllSRawEventInputManager.html#a72fc8aee367810a4f5104178ab58850d":[34,0,118,0],
 "d5/dd4/classFun4AllSRawEventInputManager.html#a7849dc28e35c3954b17106c4a82ecae6":[34,0,118,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX19 =
 "d6/d1e/CodaInputManager_8h.html#ac36f475ca5b446f4fde4c9b90bec77c8a9664986b9dfae614bd5cc4feedf3748e":[35,0,2,5,0,7,3],
 "d6/d1e/CodaInputManager_8h.html#ae4ab40fbb136f8c139525ec7d9c87cf5":[35,0,2,5,0,7,18],
 "d6/d1e/CodaInputManager_8h.html#af4a931f1cb23d15aee027dffacd678af":[35,0,2,5,0,7,22],
-"d6/d1e/CodaInputManager_8h.html#af9bdc3014f3d54c426b6d2df10de4960ae704abfd91e8618ed3ca664acc02c548":[35,0,2,5,0,7,10],
-"d6/d1e/CodaInputManager_8h_source.html":[35,0,2,5,0,7],
-"d6/d28/SQHitVectorLinkDef_8h.html":[35,0,2,3,41],
-"d6/d28/SQHitVectorLinkDef_8h_source.html":[35,0,2,3,41]
+"d6/d1e/CodaInputManager_8h.html#af9bdc3014f3d54c426b6d2df10de4960ae704abfd91e8618ed3ca664acc02c548":[35,0,2,5,0,7,10]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"d6/d1e/CodaInputManager_8h_source.html":[35,0,2,5,0,7],
+"d6/d28/SQHitVectorLinkDef_8h.html":[35,0,2,3,41],
+"d6/d28/SQHitVectorLinkDef_8h_source.html":[35,0,2,3,41],
 "d6/d29/classGenEmbeddingData.html":[34,0,123],
 "d6/d29/classGenEmbeddingData.html#a1642ff226e38074c6fc7609510e03c38":[34,0,123,5],
 "d6/d29/classGenEmbeddingData.html#a1787aea83cc1e735b58adb311e07405e":[34,0,123,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "d6/d88/classSQTrack__v1.html#a04b2900f6a77ea30f09a92fae295484c":[34,0,448,6],
 "d6/d88/classSQTrack__v1.html#a0b8f09fba23f231567ad29e3d9d73e83":[34,0,448,38],
 "d6/d88/classSQTrack__v1.html#a0c22189b7b40029a93e260013fcb47e2":[34,0,448,22],
-"d6/d88/classSQTrack__v1.html#a2715f96c24b0f14d69c659211d9fa24f":[34,0,448,31],
-"d6/d88/classSQTrack__v1.html#a2969e93831d7fa8231635c70503b6798":[34,0,448,33],
-"d6/d88/classSQTrack__v1.html#a2bb3dd46e0d1d9a3939dc42291e6a8dd":[34,0,448,0],
-"d6/d88/classSQTrack__v1.html#a31aec85d045242a9b9640cb27326cf65":[34,0,448,43]
+"d6/d88/classSQTrack__v1.html#a2715f96c24b0f14d69c659211d9fa24f":[34,0,448,31]
 };

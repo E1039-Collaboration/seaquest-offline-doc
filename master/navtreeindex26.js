@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"d7/dec/classPHG4BlockGeomv1.html#a7769cfd77fd75cc956969d8698227766":[34,0,210,26],
+"d7/dec/classPHG4BlockGeomv1.html#a78e0bcafd348ae513bd64d81f4c55513":[34,0,210,17],
+"d7/dec/classPHG4BlockGeomv1.html#a7eccd2183f194420da5c3c682e030535":[34,0,210,4],
 "d7/dec/classPHG4BlockGeomv1.html#a7f76764167b47d10daa4c90f65b5209a":[34,0,210,0],
 "d7/dec/classPHG4BlockGeomv1.html#a9a16b5bccde44785dac8f1525b22e14d":[34,0,210,18],
 "d7/dec/classPHG4BlockGeomv1.html#aa5ad8b9fdfeb86f7b5f127dd99eeacee":[34,0,210,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "d8/d38/classOnlMonServer.html#ad3f6a87980699ad1d95c7c4588f15e2f":[34,0,162,2],
 "d8/d38/classOnlMonServer.html#ad47951c3720d1d0c910767acdc2f8ee8":[34,0,162,23],
 "d8/d38/classOnlMonServer.html#afa6a2749217b65d3de3f6fb3623c05b5":[34,0,162,3],
-"d8/d39/PHG4Particlev1_8h.html":[35,0,2,7,4,63],
-"d8/d39/PHG4Particlev1_8h_source.html":[35,0,2,7,4,63],
-"d8/d3a/PHG4DetectorSubsystem_8h.html":[35,0,2,7,0,120],
-"d8/d3a/PHG4DetectorSubsystem_8h_source.html":[35,0,2,7,0,120]
+"d8/d39/PHG4Particlev1_8h.html":[35,0,2,7,4,63]
 };

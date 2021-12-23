@@ -1,5 +1,8 @@
 var NAVTREEINDEX47 =
 {
+"de/dc9/classPHG4Particle.html#a44b98bfd72a04825791d1e4c4cb150a1":[34,0,286,8],
+"de/dc9/classPHG4Particle.html#a46b6688accb92b757c61c937b2096cfd":[34,0,286,19],
+"de/dc9/classPHG4Particle.html#a474033dbd058eea155c71fc4d17aaf4d":[34,0,286,6],
 "de/dc9/classPHG4Particle.html#a533e9bda40b15f62802b187e6a743e74":[34,0,286,10],
 "de/dc9/classPHG4Particle.html#a5b89400c5307020a6cf3d07a41287087":[34,0,286,20],
 "de/dc9/classPHG4Particle.html#a645fc1dd0a89df3547b2558024bad845":[34,0,286,15],
@@ -246,8 +249,5 @@ var NAVTREEINDEX47 =
 "df/d3f/PdbBankID_8cc.html#acaf7272a1398a977e3a2eba5ee189ade":[35,0,2,0,0,0,5,0],
 "df/d3f/PdbBankID_8cc_source.html":[35,0,2,0,0,0,5],
 "df/d3f/classPHG4SteppingAction.html":[34,0,312],
-"df/d3f/classPHG4SteppingAction.html#a0d7b79bcfbf36eab727d15abe5b60229":[34,0,312,10],
-"df/d3f/classPHG4SteppingAction.html#a290ed92a661efc7ee1ea1b2acbcaa40b":[34,0,312,7],
-"df/d3f/classPHG4SteppingAction.html#a3f7be4288c6944cd44ec86e27629f642":[34,0,312,0],
-"df/d3f/classPHG4SteppingAction.html#a5183bb8d4d85ea62fd4960dfbd378eb8":[34,0,312,15]
+"df/d3f/classPHG4SteppingAction.html#a0d7b79bcfbf36eab727d15abe5b60229":[34,0,312,10]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"df/d3f/classPHG4SteppingAction.html#a290ed92a661efc7ee1ea1b2acbcaa40b":[34,0,312,7],
+"df/d3f/classPHG4SteppingAction.html#a3f7be4288c6944cd44ec86e27629f642":[34,0,312,0],
+"df/d3f/classPHG4SteppingAction.html#a5183bb8d4d85ea62fd4960dfbd378eb8":[34,0,312,15],
 "df/d3f/classPHG4SteppingAction.html#a57aa751589ae9eb0c2e6563948e85513":[34,0,312,5],
 "df/d3f/classPHG4SteppingAction.html#a57fef5578f2f19918f0460413162cec1":[34,0,312,4],
 "df/d3f/classPHG4SteppingAction.html#a693ac1159f06460044936f3083d361a5":[34,0,312,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "df/d8d/KalmanDSTrk_8cxx.html":[35,0,2,6,12,3,0],
 "df/d8d/KalmanDSTrk_8cxx.html#a0ac316ff3e25cfe04399fea1ad5966c8":[35,0,2,6,12,3,0,0],
 "df/d8d/KalmanDSTrk_8cxx_source.html":[35,0,2,6,12,3,0],
-"df/d8f/PHG4EventActionClearZeroEdep_8h.html":[35,0,2,7,0,130],
-"df/d8f/PHG4EventActionClearZeroEdep_8h_source.html":[35,0,2,7,0,130],
-"df/d92/e1039-analysis_2E1039Shielding_2G4__SensitiveDetectors_8C.html":[35,0,1,6,4],
-"df/d92/e1039-analysis_2E1039Shielding_2G4__SensitiveDetectors_8C.html#a52279903e10561ef695cee631e3dfa4b":[35,0,1,6,4,0]
+"df/d8f/PHG4EventActionClearZeroEdep_8h.html":[35,0,2,7,0,130]
 };

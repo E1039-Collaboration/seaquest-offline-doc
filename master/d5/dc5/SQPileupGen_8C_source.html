@@ -287,27 +287,28 @@ $(document).ready(function(){initNavTree('d5/dc5/SQPileupGen_8C_source.html','..
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  _evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">set_run_id</a>(0);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  _evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a7e592d3355b5300948ccc3966ae59025">set_spill_id</a>(0);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  _evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">set_event_id</a>(_n_proc_evt);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>; </div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;}</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="keywordtype">bool</span> SQPileupGen::readExtTree(<span class="keywordtype">int</span> nEvents)</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>()&gt;0)  std::cout&lt;&lt;<span class="stringliteral">&quot;No. of Piledup Events: &quot;</span>&lt;&lt;nEvents&lt;&lt;std::endl;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  _extParticles.clear();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  <span class="keywordflow">if</span>(nEvents + _readIdx &gt; _extTree-&gt;GetEntries()) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nEvents; ++i)</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      _extTree-&gt;GetEntry(_readIdx++);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; _nExtPar; ++j)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        {</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          _extParticles.push_back(<a class="code" href="../../da/d0f/classExtParticle.html">ExtParticle</a>(_extEvtID, _extPDG[j], *((TVector3*)_extPos-&gt;At(j)), *((TVector3*)_extMom-&gt;At(j))));</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  _evt-&gt;<a class="code" href="../../d9/dd7/classSQEvent.html#a96d83f66ff4f35d5296337bc14a26284">set_qie_rf_intensity</a>(0, QIEcount);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;}</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="keywordtype">bool</span> SQPileupGen::readExtTree(<span class="keywordtype">int</span> nEvents)</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;{</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>()&gt;0)  std::cout&lt;&lt;<span class="stringliteral">&quot;No. of Piledup Events: &quot;</span>&lt;&lt;nEvents&lt;&lt;std::endl;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  _extParticles.clear();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keywordflow">if</span>(nEvents + _readIdx &gt; _extTree-&gt;GetEntries()) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; nEvents; ++i)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      _extTree-&gt;GetEntry(_readIdx++);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j = 0; j &lt; _nExtPar; ++j)</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          _extParticles.push_back(<a class="code" href="../../da/d0f/classExtParticle.html">ExtParticle</a>(_extEvtID, _extPDG[j], *((TVector3*)_extPos-&gt;At(j)), *((TVector3*)_extMom-&gt;At(j))));</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
 <div class="ttc" id="classPHG4ParticleGeneratorBase_html"><div class="ttname"><a href="../../d8/d78/classPHG4ParticleGeneratorBase.html">PHG4ParticleGeneratorBase</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d9f/PHG4ParticleGeneratorBase_8h_source.html#l00016">PHG4ParticleGeneratorBase.h:16</a></div></div>
 <div class="ttc" id="PHG4Particlev1_8h_html"><div class="ttname"><a href="../../d8/d39/PHG4Particlev1_8h.html">PHG4Particlev1.h</a></div></div>
 <div class="ttc" id="classSQPileupGen_html_a7e684c37dd4c69182e4a13ed4bdae6e9"><div class="ttname"><a href="../../d0/db4/classSQPileupGen.html#a7e684c37dd4c69182e4a13ed4bdae6e9">SQPileupGen::InitRun</a></div><div class="ttdeci">int InitRun(PHCompositeNode *topNode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc5/SQPileupGen_8C_source.html#l00071">SQPileupGen.C:71</a></div></div>
@@ -316,6 +317,7 @@ $(document).ready(function(){initNavTree('d5/dc5/SQPileupGen_8C_source.html','..
 <div class="ttc" id="PHG4VtxPoint_8h_html"><div class="ttname"><a href="../../d4/d2a/PHG4VtxPoint_8h.html">PHG4VtxPoint.h</a></div></div>
 <div class="ttc" id="classSQEvent_html_a9b019f1f9d2c475c9046fa4f112c6d36"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id</a></div><div class="ttdeci">virtual void set_run_id(const int a)=0</div></div>
 <div class="ttc" id="classSQPileupGen_html_a40a9d05694c78c02ed4d589b27915da6"><div class="ttname"><a href="../../d0/db4/classSQPileupGen.html#a40a9d05694c78c02ed4d589b27915da6">SQPileupGen::~SQPileupGen</a></div><div class="ttdeci">virtual ~SQPileupGen()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc5/SQPileupGen_8C_source.html#l00061">SQPileupGen.C:61</a></div></div>
+<div class="ttc" id="classSQEvent_html_a96d83f66ff4f35d5296337bc14a26284"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a96d83f66ff4f35d5296337bc14a26284">SQEvent::set_qie_rf_intensity</a></div><div class="ttdeci">virtual void set_qie_rf_intensity(const short i, const int a)=0</div></div>
 <div class="ttc" id="classSQMCEvent_html_af6611251950549fa07087e44c9adf3ec"><div class="ttname"><a href="../../d9/d3d/classSQMCEvent.html#af6611251950549fa07087e44c9adf3ec">SQMCEvent::set_cross_section</a></div><div class="ttdeci">virtual void set_cross_section(const double a)=0</div></div>
 <div class="ttc" id="classPHG4Particle_html_afa639bd82e60cd2a24777a530b1f5851"><div class="ttname"><a href="../../de/dc9/classPHG4Particle.html#afa639bd82e60cd2a24777a530b1f5851">PHG4Particle::set_pz</a></div><div class="ttdeci">virtual void set_pz(const double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d05/PHG4Particle_8h_source.html#l00036">PHG4Particle.h:36</a></div></div>
 <div class="ttc" id="classPHG4Particlev2_html"><div class="ttname"><a href="../../d1/db9/classPHG4Particlev2.html">PHG4Particlev2</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3b/PHG4Particlev2_8h_source.html#l00006">PHG4Particlev2.h:6</a></div></div>
@@ -369,7 +371,7 @@ $(document).ready(function(){initNavTree('d5/dc5/SQPileupGen_8C_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../d5/dc5/SQPileupGen_8C.html">SQPileupGen.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Dec 23 2021 10:30:07</em> using <a
+			updated: <em>Thu Dec 23 2021 15:30:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

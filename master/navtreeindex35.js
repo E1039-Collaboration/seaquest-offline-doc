@@ -1,5 +1,8 @@
 var NAVTREEINDEX35 =
 {
+"da/d72/AnaWait_8h.html":[35,0,2,5,3,1],
+"da/d72/AnaWait_8h_source.html":[35,0,2,5,3,1],
+"da/d75/PHGeomTGeoLinkDef_8h.html":[35,0,2,6,11,9],
 "da/d75/PHGeomTGeoLinkDef_8h_source.html":[35,0,2,6,11,9],
 "da/d75/PHPy8JetTrigger_8h.html":[35,0,2,2,3,3],
 "da/d75/PHPy8JetTrigger_8h_source.html":[35,0,2,2,3,3],
@@ -205,8 +208,8 @@ var NAVTREEINDEX35 =
 "da/dcf/SQRun__v1_8cxx_source.html":[35,0,2,3,65],
 "da/dd0/FlagSave_8h.html":[35,0,2,1,0,5],
 "da/dd0/FlagSave_8h_source.html":[35,0,2,1,0,5],
-"da/dd0/namespacePHG4HitDefs.html":[33,0,8],
 "da/dd0/namespacePHG4HitDefs.html":[34,0,8],
+"da/dd0/namespacePHG4HitDefs.html":[33,0,8],
 "da/dd8/PHFieldConfig__v1LinkDef_8h.html":[35,0,2,6,10,13],
 "da/dd8/PHFieldConfig__v1LinkDef_8h_source.html":[35,0,2,6,10,13],
 "da/dd8/classFun4AllPrdfInputManager.html":[34,0,113],
@@ -246,8 +249,5 @@ var NAVTREEINDEX35 =
 "da/de3/classCalibEvtQual.html#a313a5af5d3487fe678fe4941595975c4":[34,0,49,4],
 "da/de3/classCalibEvtQual.html#a60c10229751381c51f1c4740895494a8":[34,0,49,1],
 "da/de3/classCalibEvtQual.html#ad4005aca1a59d15c01bdcfefb5b30994":[34,0,49,0],
-"da/de3/classCalibEvtQual.html#adcc8c02c29a4ac72c69affdcadf7af13":[34,0,49,2],
-"da/de3/classCalibEvtQual.html#ae5cef28e21ebc6c150f11047f36d0766":[34,0,49,3],
-"da/deb/Efficiency_2AnaModule_2AnaModule_8h.html":[35,0,1,7,0,1],
-"da/deb/Efficiency_2AnaModule_2AnaModule_8h_source.html":[35,0,1,7,0,1]
+"da/de3/classCalibEvtQual.html#adcc8c02c29a4ac72c69affdcadf7af13":[34,0,49,2]
 };

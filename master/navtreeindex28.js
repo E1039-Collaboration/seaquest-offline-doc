@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"d8/da7/PHG4SquareTubeSubsystem_8h.html":[35,0,2,7,0,158],
+"d8/da7/PHG4SquareTubeSubsystem_8h_source.html":[35,0,2,7,0,158],
+"d8/daf/KalmanFitter_8h.html":[35,0,2,6,12,1,5],
 "d8/daf/KalmanFitter_8h_source.html":[35,0,2,6,12,1,5],
 "d8/db0/TraceHepMCParticle_8h.html":[35,0,1,2,0,10],
 "d8/db0/TraceHepMCParticle_8h_source.html":[35,0,1,2,0,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "d8/def/PHG4UIsession_8cc_source.html":[35,0,2,7,4,108],
 "d8/df3/e1039-core_2macros_2G4__Target_8C.html":[35,0,2,4,4],
 "d8/df3/e1039-core_2macros_2G4__Target_8C.html#aea642c3fb5b533f8c1ee3bd826eecccf":[35,0,2,4,4,0],
-"d8/df3/e1039-core_2macros_2G4__Target_8C_source.html":[35,0,2,4,4],
-"d8/dfd/PHG4EventActionClearZeroEdep_8cc.html":[35,0,2,7,0,129],
-"d8/dfd/PHG4EventActionClearZeroEdep_8cc_source.html":[35,0,2,7,0,129],
-"d8/dfd/PHNodeIterator_8h.html":[35,0,2,1,2,19]
+"d8/df3/e1039-core_2macros_2G4__Target_8C_source.html":[35,0,2,4,4]
 };

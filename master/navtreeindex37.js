@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"db/d62/classPHG4InEvent.html#a47af3dda48d75749874e989dbd730b28":[34,0,276,16],
+"db/d62/classPHG4InEvent.html#a4eb602f778fead6b1b0dfe2deef88a3d":[34,0,276,1],
+"db/d62/classPHG4InEvent.html#a565abe8aa2e32da8ccab3b24ffdd4ff1":[34,0,276,7],
 "db/d62/classPHG4InEvent.html#a620e4276e7fb6a0db18c1c429b98b06f":[34,0,276,10],
 "db/d62/classPHG4InEvent.html#a64ce473f416b917858b446396f7522af":[34,0,276,12],
 "db/d62/classPHG4InEvent.html#a73f34552202ce3034314d189207fdce1":[34,0,276,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "db/daa/classKalmanDSTrk.html#a6b601939c8c3b95a8a4df5b4a25f550e":[34,0,139,30],
 "db/daa/classKalmanDSTrk.html#a6ef1da3cf3344ef3215f9618c1cfe21f":[34,0,139,10],
 "db/daa/classKalmanDSTrk.html#a70427f37abaf9c9e72695ae84379a1b4":[34,0,139,14],
-"db/daa/classKalmanDSTrk.html#a74c511703006c9df9d7d3b6db5a77cc5":[34,0,139,34],
-"db/daa/classKalmanDSTrk.html#a77b10b105994162ea3e6275b6ecd9b2f":[34,0,139,32],
-"db/daa/classKalmanDSTrk.html#a7f85c61feb66250b806bbeb6b2b71ff1":[34,0,139,11],
-"db/daa/classKalmanDSTrk.html#a8495bbefa15a7e82b17db7596b557623":[34,0,139,37]
+"db/daa/classKalmanDSTrk.html#a74c511703006c9df9d7d3b6db5a77cc5":[34,0,139,34]
 };
