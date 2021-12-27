@@ -127,6 +127,7 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 <p>You then execute the following commands to process all events/runs. The <code>-g</code> option is to run jobs on the grid.</p>
 <p>``` source /e906/app/software/script/setup-jobsub-spinquest.sh kinit ./run_reco.sh -g GO ```</p>
 <p>You use <code>jobsub_q_mine</code> (or <code>./check_job.sh</code>) to wait until all grid jobs finish.</p>
+<p>``` ~kenichi/bin/hadddraw -o hist_raw data/main/run_*/out/output_*.root ```</p>
 <h2><a class="el" href="../../d2/d26/classTracklet.html">Tracklet</a> Analysis</h2>
 <p>Then the following commands analyze the tracklets reconstructed by <code>run_reco.sh</code>. Plots will appear in <code>calib/1/</code>.</p>
 <p>``` cd work ./make_rt.sh ```</p>
@@ -147,7 +148,7 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Dec 27 2021 11:11:50</em> using <a
+			updated: <em>Mon Dec 27 2021 15:20:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

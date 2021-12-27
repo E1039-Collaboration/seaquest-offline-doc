@@ -78,6 +78,7 @@ var hierarchy =
       ] ],
       [ "Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html", null ],
       [ "SubsysReco", "d0/d32/classSubsysReco.html", [
+        [ "AnaChamPlane", "d3/d28/classAnaChamPlane.html", null ],
         [ "AnaEffCham", "db/d63/classAnaEffCham.html", null ],
         [ "AnaEffHodo", "db/d7d/classAnaEffHodo.html", null ],
         [ "AnaEmbeddedData", "d2/de6/classAnaEmbeddedData.html", null ],

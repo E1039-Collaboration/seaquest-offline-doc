@@ -2,6 +2,7 @@ var searchData=
 [
   ['_7eanabase',['~AnaBase',['../df/de1/classAnaBase.html#a29cf1fa5fcef80c96f6e621422801478',1,'AnaBase']]],
   ['_7eanabg',['~AnaBG',['../db/df7/classAnaBG.html#a659b15b637cc13dff45007893baea443',1,'AnaBG']]],
+  ['_7eanachamplane',['~AnaChamPlane',['../d3/d28/classAnaChamPlane.html#acf5fc90e352ddd4c2030b6800f5b6c78',1,'AnaChamPlane']]],
   ['_7eanacleanandmessydata',['~AnaCleanAndMessyData',['../dc/d8e/classAnaCleanAndMessyData.html#a6053ef4168590f4adfac1b7ad5629709',1,'AnaCleanAndMessyData']]],
   ['_7eanaeffcham',['~AnaEffCham',['../db/d63/classAnaEffCham.html#af15d1003be893f4500f1e280ad1eb61f',1,'AnaEffCham']]],
   ['_7eanaeffhodo',['~AnaEffHodo',['../db/d7d/classAnaEffHodo.html#ac524953d1428c7854eaca6fb33753ec5',1,'AnaEffHodo']]],
