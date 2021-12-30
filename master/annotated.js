@@ -162,6 +162,7 @@ var annotated =
     [ "OnlMonH4", "d2/d02/classOnlMonH4.html", "d2/d02/classOnlMonH4" ],
     [ "OnlMonHodo", "d8/dc8/classOnlMonHodo.html", "d8/dc8/classOnlMonHodo" ],
     [ "OnlMonMainDaq", "d8/d69/classOnlMonMainDaq.html", "d8/d69/classOnlMonMainDaq" ],
+    [ "OnlMonParam", "d7/d79/classOnlMonParam.html", "d7/d79/classOnlMonParam" ],
     [ "OnlMonProp", "d7/dac/classOnlMonProp.html", "d7/dac/classOnlMonProp" ],
     [ "OnlMonQie", "d7/df2/classOnlMonQie.html", "d7/df2/classOnlMonQie" ],
     [ "OnlMonReco", "df/d73/classOnlMonReco.html", "df/d73/classOnlMonReco" ],

@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('df/dd0/classE906SpillSelector.html','.
 <p>A <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to select good E906 spills.  
  <a href="../../df/dd0/classE906SpillSelector.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/GenRoadset/src/E906SpillSelector.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html">/dev/shm/kenichi/update-github-e1039-doc/e1039-core/packages/evt_filter/E906SpillSelector.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Inheritance diagram for E906SpillSelector:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -141,6 +141,23 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbc8aede8032da59255ce8f9c02a2069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afec611d2c6ce660370cd5deeec328db3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#afec611d2c6ce660370cd5deeec328db3">~E906SpillSelector</a> ()</td></tr>
 <tr class="separator:afec611d2c6ce660370cd5deeec328db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44ff1f7f634e6ddbaa8b5beb306bf7ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a44ff1f7f634e6ddbaa8b5beb306bf7ca">Init</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="separator:a44ff1f7f634e6ddbaa8b5beb306bf7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7466a247a2c27fb6afabe0792239db1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a7466a247a2c27fb6afabe0792239db1e">InitRun</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="separator:a7466a247a2c27fb6afabe0792239db1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad027406b6bea008ab5ef5047a2495f8c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#ad027406b6bea008ab5ef5047a2495f8c">process_event</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="separator:ad027406b6bea008ab5ef5047a2495f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54e169da9811fc9cb99bcb4089a8c3db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a54e169da9811fc9cb99bcb4089a8c3db">End</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
+<tr class="memdesc:a54e169da9811fc9cb99bcb4089a8c3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of all processing.  <a href="#a54e169da9811fc9cb99bcb4089a8c3db">More...</a><br/></td></tr>
+<tr class="separator:a54e169da9811fc9cb99bcb4089a8c3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9dde7a8cedf212d301158c0421667e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#ab9dde7a8cedf212d301158c0421667e6">SetSpillListFile</a> (const std::string fn_list)</td></tr>
+<tr class="separator:ab9dde7a8cedf212d301158c0421667e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a994b0e1e8f8c143f9e81c9b6e8038544"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544">EnableOutput</a> (const std::string fn_out=&quot;e906_spill_selector.tsv&quot;)</td></tr>
+<tr class="separator:a994b0e1e8f8c143f9e81c9b6e8038544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc8aede8032da59255ce8f9c02a2069"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069">E906SpillSelector</a> (const std::string &amp;name=&quot;E906SpillSelector&quot;)</td></tr>
+<tr class="separator:afbc8aede8032da59255ce8f9c02a2069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45da0ec4483a51e98dc1109d66ef839d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a45da0ec4483a51e98dc1109d66ef839d">~E906SpillSelector</a> ()</td></tr>
+<tr class="separator:a45da0ec4483a51e98dc1109d66ef839d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44ff1f7f634e6ddbaa8b5beb306bf7ca"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a44ff1f7f634e6ddbaa8b5beb306bf7ca">Init</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="separator:a44ff1f7f634e6ddbaa8b5beb306bf7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7466a247a2c27fb6afabe0792239db1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd0/classE906SpillSelector.html#a7466a247a2c27fb6afabe0792239db1e">InitRun</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
@@ -216,13 +233,19 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to select good E906 spills. </p>
+<p>It can handle only the last E906 dataset, Run 6.</p>
 <p>It outputs the counts of all and accepted events into a tsv file once <code><a class="el" href="../../df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544">EnableOutput()</a></code> is called.</p>
 <p>Typical usage: </p>
 <div class="fragment"><div class="line"><a class="code" href="../../df/dd0/classE906SpillSelector.html">E906SpillSelector</a>* e906ss = <span class="keyword">new</span> <a class="code" href="../../df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069">E906SpillSelector</a>();</div>
 <div class="line">e906ss-&gt;<a class="code" href="../../df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544">EnableOutput</a>();</div>
 <div class="line"><a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(e906ss);</div>
+</div><!-- fragment --><p>It outputs the counts of all and accepted events into a tsv file once <code><a class="el" href="../../df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544">EnableOutput()</a></code> is called.</p>
+<p>Typical usage: </p>
+<div class="fragment"><div class="line"><a class="code" href="../../df/dd0/classE906SpillSelector.html">E906SpillSelector</a>* e906ss = <span class="keyword">new</span> <a class="code" href="../../df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069">E906SpillSelector</a>();</div>
+<div class="line">e906ss-&gt;<a class="code" href="../../df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544">EnableOutput</a>();</div>
+<div class="line"><a class="code" href="../../d1/dd6/EventDisplay4Sim_8C.html#af8c7a3e26fa5fcf0403c823ec9f4c7ca">se</a>-&gt;<a class="code" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">registerSubsystem</a>(e906ss);</div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html#l00019">19</a> of file <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html#l00021">21</a> of file <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="afbc8aede8032da59255ce8f9c02a2069"></a>
 <div class="memitem">
@@ -238,7 +261,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00011">11</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00011">11</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
 
 </div>
 </div>
@@ -263,7 +286,46 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00021">21</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00021">21</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afbc8aede8032da59255ce8f9c02a2069"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">E906SpillSelector::E906SpillSelector </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em> = <code>&quot;E906SpillSelector&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a45da0ec4483a51e98dc1109d66ef839d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual E906SpillSelector::~E906SpillSelector </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -290,7 +352,33 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html#l00035">35</a> of file <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4c/e1039-analysis_2GenRoadset_2src_2E906SpillSelector_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d4c/e1039-analysis_2GenRoadset_2src_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a994b0e1e8f8c143f9e81c9b6e8038544"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void E906SpillSelector::EnableOutput </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>fn_out</em> = <code>&quot;e906_spill_selector.tsv&quot;</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html#l00037">37</a> of file <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C_source.html#l00005">Fun4All()</a>.</p>
 
@@ -332,7 +420,35 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00070">70</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a54e169da9811fc9cb99bcb4089a8c3db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int E906SpillSelector::End </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called at the end of all processing. </p>
+
+<p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00070">70</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -363,7 +479,34 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00026">26</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a44ff1f7f634e6ddbaa8b5beb306bf7ca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int E906SpillSelector::Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called during initialization, i.e. registered via <a class="el" href="../../da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0">Fun4AllServer::registerSubsystem()</a>. Typically this is where you can book histograms, and e.g. register them to <a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a> (so they can be output to file using <a class="el" href="../../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e">Fun4AllServer::dumpHistos()</a> method). </p>
+
+<p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00026">26</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
 
@@ -404,7 +547,34 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00047">47</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a7466a247a2c27fb6afabe0792239db1e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int E906SpillSelector::InitRun </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called for first event when run number is known. Typically this is where you may want to fetch data from database, because you know the run number. </p>
+
+<p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00047">47</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, and <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -435,7 +605,34 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html#l00061">61</a> of file <a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a>.</p>
+</div>
+</div>
+<a class="anchor" id="ad027406b6bea008ab5ef5047a2495f8c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int E906SpillSelector::process_event </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called for each event. This is where you do the real work. </p>
+
+<p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html#l00061">61</a> of file <a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a>.</p>
 
 <p>References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, and <a class="el" href="../../d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680">SQEvent::get_spill_id()</a>.</p>
 
@@ -473,12 +670,40 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html#l00034">34</a> of file <a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d4c/e1039-analysis_2GenRoadset_2src_2E906SpillSelector_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/d4c/e1039-analysis_2GenRoadset_2src_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab9dde7a8cedf212d301158c0421667e6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void E906SpillSelector::SetSpillListFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>fn_list</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html#l00036">36</a> of file <a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/GenRoadset/src/<a class="el" href="../../d5/dcf/E906SpillSelector_8h_source.html">E906SpillSelector.h</a></li>
+<li>/dev/shm/kenichi/update-github-e1039-doc/e1039-core/packages/evt_filter/<a class="el" href="../../d6/d21/e1039-core_2packages_2evt__filter_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a></li>
+<li>/dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/GenRoadset/src/<a class="el" href="../../de/d4c/e1039-analysis_2GenRoadset_2src_2E906SpillSelector_8h_source.html">E906SpillSelector.h</a></li>
+<li>/dev/shm/kenichi/update-github-e1039-doc/e1039-core/packages/evt_filter/<a class="el" href="../../d5/dba/E906SpillSelector_8cxx_source.html">E906SpillSelector.cxx</a></li>
 <li>/dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/GenRoadset/src/<a class="el" href="../../d2/d6b/E906SpillSelector_8cc_source.html">E906SpillSelector.cc</a></li>
 </ul>
 </div><!-- contents -->
@@ -491,7 +716,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../df/dd0/classE906SpillSelector.html">E906SpillSelector</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Dec 27 2021 15:20:11</em> using <a
+			updated: <em>Thu Dec 30 2021 09:50:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
