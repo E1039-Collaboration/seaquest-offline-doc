@@ -16,7 +16,6 @@ var classAnaBG =
     [ "SetRoads", "db/df7/classAnaBG.html#a5879e776376a0b6974b6eb2b02b0ebff", null ],
     [ "m_bg_data", "db/df7/classAnaBG.html#a9603f6c0c9ec4b4cce44e7fd8868a21a", null ],
     [ "m_file_out", "db/df7/classAnaBG.html#afeb8bffd10535024cf03df8345a24729", null ],
-    [ "m_h1_evt_cnt", "db/df7/classAnaBG.html#aebad4b405d7d5b6ade8179d87c0ddb18", null ],
     [ "m_h1_inte_max", "db/df7/classAnaBG.html#a08e20671497d036acc04435a141d289d", null ],
     [ "m_inte_cut", "db/df7/classAnaBG.html#ad23d6e9ee974da5572f4d67d59431dcb", null ],
     [ "m_n_evt_fired", "db/df7/classAnaBG.html#a34323c164040ca119d83eba30199ad54", null ],

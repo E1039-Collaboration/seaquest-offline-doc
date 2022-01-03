@@ -1,6 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"db/dfa/classPHG4Showerv1.html#a5d862b56ea59584eb12f2234e4476719":[34,0,309,24],
 "db/dfa/classPHG4Showerv1.html#a618ddc9bab74d7806b1cd46ba0995ff9":[34,0,309,15],
 "db/dfa/classPHG4Showerv1.html#a69ee8cb1364367dd1f587957a693465d":[34,0,309,17],
 "db/dfa/classPHG4Showerv1.html#a6c733b10ae8fe562485a8e6397cd5e5d":[34,0,309,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX39 =
 "dc/d5b/classDetectorConstruction.html#a72fe1f767755663c6fb841ccf081fb95":[34,0,72,16],
 "dc/d5b/classDetectorConstruction.html#a73013cab35a2b470338da2e4686edea3":[34,0,72,1],
 "dc/d5b/classDetectorConstruction.html#a7df8cd3f856d3ae58a3ecbb50b67d467":[34,0,72,7],
-"dc/d5b/classDetectorConstruction.html#a7ed45e5183e21052374459413a2546be":[34,0,72,24]
+"dc/d5b/classDetectorConstruction.html#a7ed45e5183e21052374459413a2546be":[34,0,72,24],
+"dc/d5b/classDetectorConstruction.html#a8bd25131dd93866d3ecbacec65930441":[34,0,72,15]
 };

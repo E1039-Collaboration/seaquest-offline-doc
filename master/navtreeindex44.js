@@ -1,6 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"dd/da5/classMCHit.html":[34,0,149],
 "dd/da5/classMCHit.html#a1e366beea425ac3173294bfea1d360ff":[34,0,149,9],
 "dd/da5/classMCHit.html#a29455aefc293e7c97293f8aee54367f6":[34,0,149,5],
 "dd/da5/classMCHit.html#a2a01e59630e6b9a7fdf73c452b77ea2c":[34,0,149,2],
@@ -234,20 +233,21 @@ var NAVTREEINDEX44 =
 "dd/dec/structDimuonData.html#a08e8befe024384d1d0ecb21661c2c1ff":[34,0,74,13],
 "dd/dec/structDimuonData.html#a17c26c32e7b2dcc2357b77ec9cb34f1a":[34,0,74,10],
 "dd/dec/structDimuonData.html#a1863a5b244a5219bedf7b0c242f2a7b3":[34,0,74,22],
+"dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[34,0,74,4],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[34,0,74,0],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[34,0,74,2],
-"dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[34,0,74,4],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[34,0,74,6],
-"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[34,0,74,8],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[34,0,74,7],
+"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[34,0,74,8],
 "dd/dec/structDimuonData.html#a440e365309731178825f5b6f543c3bc4":[34,0,74,16],
 "dd/dec/structDimuonData.html#a48c20e55a74e68c560919d32a4ed41d3":[34,0,74,23],
 "dd/dec/structDimuonData.html#a5004b8d8b874cc205f2f223facc0cc8d":[34,0,74,18],
 "dd/dec/structDimuonData.html#a70fbb218d5cc8a2daddd7fe32f78466b":[34,0,74,17],
 "dd/dec/structDimuonData.html#a7e35d9116403b1bb17b7b64dae3ce0fa":[34,0,74,14],
-"dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[34,0,74,1],
 "dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[34,0,74,3],
+"dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[34,0,74,1],
 "dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[34,0,74,5],
 "dd/dec/structDimuonData.html#ab0cb863198b6f103b8fc34f93f671293":[34,0,74,24],
-"dd/dec/structDimuonData.html#ab168821cbe7cc91fb6a95febc6346847":[34,0,74,12]
+"dd/dec/structDimuonData.html#ab168821cbe7cc91fb6a95febc6346847":[34,0,74,12],
+"dd/dec/structDimuonData.html#ab47c032c9478b5bd93b2feec0b225410":[34,0,74,26]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"dd/dec/structDimuonData.html#ab47c032c9478b5bd93b2feec0b225410":[34,0,74,26],
 "dd/dec/structDimuonData.html#ab4d0f38d9254fd978a929e5126ff59c9":[34,0,74,11],
 "dd/dec/structDimuonData.html#abfd02131cdc9114dddd59add321aab8e":[34,0,74,20],
 "dd/dec/structDimuonData.html#ac4c59332a05fea74f95d4df2c7f8a734":[34,0,74,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX45 =
 "de/d5e/classPHG4Cellv1.html#a8c51fc772173796ddf4f4d0d7bf85fef":[34,0,220,29],
 "de/d5e/classPHG4Cellv1.html#a9073190f3ff664cc27a351c4aab32390":[34,0,220,3],
 "de/d5e/classPHG4Cellv1.html#a92e4a72f31bce187268f0548b3aaf835":[34,0,220,23],
-"de/d5e/classPHG4Cellv1.html#a93d1d17a59446df0de7da73be9279b7c":[34,0,220,34]
+"de/d5e/classPHG4Cellv1.html#a93d1d17a59446df0de7da73be9279b7c":[34,0,220,34],
+"de/d5e/classPHG4Cellv1.html#a94808161c9be60a630a11a96ebb78597":[34,0,220,26]
 };

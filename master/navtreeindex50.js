@@ -1,6 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"df/dd0/classNode.html#afe0921e467304a8cb618ae3c6e289e55":[34,0,152,7],
 "df/dd1/classDefaultFactoryError.html":[34,0,71],
 "df/dd1/classDefaultFactoryError.html#a246cde2433086e77237218b22b1b92d7":[34,0,71,0],
 "df/dd5/HitEmbedding_2src_2TreeData_8cc.html":[35,0,1,11,5,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX50 =
 "dir_c7d7a6af6909a7abb3baac462ba28381.html":[35,0,2,6,3,0],
 "dir_c969d9f81c00cde3142196bd66498955.html":[35,0,2,6,12,1],
 "dir_cb07c7b76a329f1d5619a75c20aec096.html":[35,0,1,17,1],
-"dir_cbb78555fa74d2fba9b1763ed11269bc.html":[35,0,0,0,0,0,0]
+"dir_cbb78555fa74d2fba9b1763ed11269bc.html":[35,0,0,0,0,0,0],
+"dir_d5f675583fef84cd98d90ad6b85f32b7.html":[35,0,1,6]
 };
