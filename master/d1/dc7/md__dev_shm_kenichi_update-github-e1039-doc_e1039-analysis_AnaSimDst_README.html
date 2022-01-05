@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 </ol>
 <ol type="1">
 <li>Tree -&gt; Plots<ul>
-<li>By macro <code><a class="el" href="../../d3/dcd/Fun4SimTree_8C.html">Fun4SimTree.C</a></code></li>
+<li>By macro <code>Fun4SimTree.C</code></li>
 <li>To draw your quantities with various conditions.</li>
 </ul>
 </li>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 <h3>Execution of Analysis</h3>
 <p>The 1st step is to create uDST from DSTs. The following commands reads five simDSTs for test. The uDST file is <code>uDST.root</code>. ``` cd e1039-analysis/AnaSimDst source setup.sh cd work root -b -q 'Fun4SimDst.C(5)' ```</p>
 <p>The 2nd step is to create Tree from uDST, by the following command. The TTree object is outputted to <code>sim_tree.root</code>. ``` root -b -q Fun4SimMicroDst.C ```</p>
-<p>The last step is draw plots from Tree. ``` root -b -q <a class="el" href="../../d3/dcd/Fun4SimTree_8C.html">Fun4SimTree.C</a> ``<code> Various plots are outputted to</code>result/`.</p>
+<p>The last step is draw plots from Tree. ``` root -b -q Fun4SimTree.C ``<code> Various plots are outputted to</code>result/`.</p>
 <p>If all the commands ran fine, you delete <code>(5)</code> (or change to <code>(0)</code>) in the 1st step to use all DSTs.</p>
 <h2>Advanced Usage</h2>
 <h3><code>cmake-this</code></h3>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('d1/dc7/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Jan 4 2022 18:31:30</em> using <a
+			updated: <em>Wed Jan 5 2022 13:20:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

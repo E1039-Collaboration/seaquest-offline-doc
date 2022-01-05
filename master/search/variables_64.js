@@ -31,6 +31,7 @@ var searchData=
   ['detectorname',['detectorName',['../dc/d90/classPlane.html#ad61fb2203ddedd69abd1ac1e0297af1d',1,'Plane']]],
   ['detid_5fmask',['detid_mask',['../da/dd0/namespacePHG4HitDefs.html#ae15045c3c4a000e0a376a5c83a255f0e',1,'PHG4HitDefs']]],
   ['detname',['detname',['../dd/dae/classPHParameters.html#a0ea61399af0d3ef4517d75750fde3631',1,'PHParameters::detname()'],['../da/d29/classPHG4Parameters.html#ab8c28f760f5117a4fda59bfae1b877b4',1,'PHG4Parameters::detname()']]],
+  ['df',['df',['../d0/d88/draw__stat__exp_8cc.html#aaef491a008c3e8a4fbfd30caf189f590',1,'draw_stat_exp.cc']]],
   ['did',['dID',['../de/d63/SimpleTree_8cc.html#af00a2886196cb3b697175110d073abe9',1,'SimpleTree.cc']]],
   ['digits',['digits',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ac6db367a091792dafc32cc6912435eb9',1,'std::numeric_limits&lt; half &gt;']]],
   ['digits10',['digits10',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#ae83777abb4ecd29e2ba40588d28b5f26',1,'std::numeric_limits&lt; half &gt;']]],
