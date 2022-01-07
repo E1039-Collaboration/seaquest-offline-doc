@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"da/db3/classFlagSavev1.html#a796b74458c4fda647227cfa84d32d030":[36,0,97,7],
 "da/db3/classFlagSavev1.html#a827c5b109c29926cdea34ead55437006":[36,0,97,12],
 "da/db3/classFlagSavev1.html#a853ebd54eafca38aec14763fc5feca3b":[36,0,97,23],
 "da/db3/classFlagSavev1.html#a8aa3983319a8685a8d517de9fabf3b7f":[36,0,97,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "db/d1f/classFun4AllOscarInputManager.html#a39316f6e814aac3ec87d7f0337566fab":[36,0,112,29],
 "db/d1f/classFun4AllOscarInputManager.html#a3d8ee2b71114d5c6e9078d6d09516c74":[36,0,112,3],
 "db/d1f/classFun4AllOscarInputManager.html#a47fb9bd0390eb184d9bf7f067280f6ca":[36,0,112,32],
-"db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6":[36,0,112,13],
-"db/d1f/classFun4AllOscarInputManager.html#a5110f3e1f297076a3c56b1026b4fe1c7":[36,0,112,24]
+"db/d1f/classFun4AllOscarInputManager.html#a4be602bd8c9fe73f9dcc81c8871784a6":[36,0,112,13]
 };

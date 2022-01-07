@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"d2/dcb/PHG4Reco_8cc_source.html":[37,0,2,7,4,80],
 "d2/dcb/recoConsts_8h.html":[37,0,2,1,2,45],
 "d2/dcb/recoConsts_8h_source.html":[37,0,2,1,2,45],
 "d2/dce/EvtFilter_8cxx.html":[37,0,2,6,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "d3/d10/classMaterialProfile.html#a104f0271e7b9d9604bf30a5dd0a27534":[36,0,147,5],
 "d3/d10/classMaterialProfile.html#a278f956031c414ade92545c5c9d13079":[36,0,147,0],
 "d3/d10/classMaterialProfile.html#a540860b0ba1150eb3933d26c15c6f5fa":[36,0,147,6],
-"d3/d10/classMaterialProfile.html#a6c000e6e4e5c38a2ba03c7c107c6e411":[36,0,147,3],
-"d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867":[36,0,147,1]
+"d3/d10/classMaterialProfile.html#a6c000e6e4e5c38a2ba03c7c107c6e411":[36,0,147,3]
 };

@@ -26,6 +26,7 @@ var classPHG4Reco =
     [ "set_energy_threshold", "d0/d78/classPHG4Reco.html#a2cd5e8514a6919ecd43297a49fd70908", null ],
     [ "set_field", "d0/d78/classPHG4Reco.html#af7a3ea8186b3f700913d0f0ab4a64535", null ],
     [ "set_field_map", "d0/d78/classPHG4Reco.html#a2b127807e9bccb2480da1e0493cc2bd1", null ],
+    [ "set_field_map", "d0/d78/classPHG4Reco.html#a055d8050ec335732577ca539b9bd94a7", null ],
     [ "set_field_rescale", "d0/d78/classPHG4Reco.html#a29cc7f3d84eb82b13e8425bc77e200e3", null ],
     [ "set_optical_photon", "d0/d78/classPHG4Reco.html#a108295981af969d63eff30496bb3ae4e", null ],
     [ "set_rapidity_coverage", "d0/d78/classPHG4Reco.html#a7f706bdb1798a3fb60c6cdfcca81600b", null ],

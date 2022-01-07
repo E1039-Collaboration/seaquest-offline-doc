@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"df/d01/PHCompositeNode_8cc.html":[37,0,2,1,2,1],
 "df/d01/PHCompositeNode_8cc_source.html":[37,0,2,1,2,1],
 "df/d01/SQHitMap_8h.html":[37,0,2,3,31],
 "df/d01/SQHitMap_8h_source.html":[37,0,2,3,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "df/d49/PHFieldConfig__v2_8h_source.html":[37,0,2,6,10,15],
 "df/d49/PHPythia8_8C.html":[37,0,2,2,3,6],
 "df/d49/PHPythia8_8C.html#a6bde64d7528df1ca2bde90a10dcf10a1":[37,0,2,2,3,6,0],
-"df/d49/PHPythia8_8C_source.html":[37,0,2,2,3,6],
-"df/d49/classCalibMergeH4.html":[36,0,53]
+"df/d49/PHPythia8_8C_source.html":[37,0,2,2,3,6]
 };

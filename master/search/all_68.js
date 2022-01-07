@@ -83,7 +83,7 @@ var searchData=
   ['highmweight',['highMWeight',['../d5/d72/classTriggerRoad.html#a39e9a2f86c1af28f4c62cf9b5dd78354',1,'TriggerRoad']]],
   ['histmode_5ft',['HistMode_t',['../d9/d62/classOnlMonClient.html#a6e52532477d71955816ba201ae8a04ed',1,'OnlMonClient']]],
   ['histomanager',['HistoManager',['../da/d29/classFun4AllServer.html#a8a3a7c2b49c0f8a3b5b1c24a4c6f9e4e',1,'Fun4AllServer']]],
-  ['hit',['Hit',['../d0/d88/classHit.html',1,'Hit'],['../de/d45/classSignedHit.html#a1e4d11c118b19f0feacfd806872e47df',1,'SignedHit::hit()'],['../d0/d88/classHit.html#ac2727a27933c07b60b6a7ccccba12fff',1,'Hit::Hit()'],['../d0/d88/classHit.html#a372175d3c552a1ee05694fbd3a98c464',1,'Hit::Hit(int uniqueID)'],['../d0/d88/classHit.html#a9758715ddd80d61ab4916daf17e0be15',1,'Hit::Hit(int detectorID, int elementID)']]],
+  ['hit',['Hit',['../d0/d88/classHit.html',1,'Hit'],['../d0/d88/classHit.html#ac2727a27933c07b60b6a7ccccba12fff',1,'Hit::Hit()'],['../d0/d88/classHit.html#a372175d3c552a1ee05694fbd3a98c464',1,'Hit::Hit(int uniqueID)'],['../d0/d88/classHit.html#a9758715ddd80d61ab4916daf17e0be15',1,'Hit::Hit(int detectorID, int elementID)'],['../de/d45/classSignedHit.html#a1e4d11c118b19f0feacfd806872e47df',1,'SignedHit::hit()']]],
   ['hit_5fid',['hit_id',['../d2/de9/structHitData.html#a1618758ddefc90c0718956265cbe0b7b',1,'HitData::hit_id()'],['../da/da4/classTrackletData.html#af2e3211148f0ecb7dffe19bdb002bdea',1,'TrackletData::hit_id()']]],
   ['hit_5fidbits',['hit_idbits',['../da/dd0/namespacePHG4HitDefs.html#acb332eea7f3887867ababbc417fdadac',1,'PHG4HitDefs']]],
   ['hit_5fpair',['hit_pair',['../d5/d83/classSRawEvent.html#a258a6b2f3d1bc9edf5c47cddebfc2a57',1,'SRawEvent']]],

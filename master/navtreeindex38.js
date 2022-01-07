@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"db/d88/classPHG4Shower.html#a50d7e8d0e19e252f4ac77797a0cf1a61":[36,0,308,40],
 "db/d88/classPHG4Shower.html#a56c29993f30bf07b1f5192d914f2ef08":[36,0,308,23],
 "db/d88/classPHG4Shower.html#a56eb8e05b67b42189eb3f622cd6e1cb4":[36,0,308,63],
 "db/d88/classPHG4Shower.html#a573b44ea9915a15ad02c222752cb089a":[36,0,308,19],
@@ -239,8 +240,8 @@ var NAVTREEINDEX38 =
 "db/dea/RecoE1039Data_8C.html":[37,0,1,18,2],
 "db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[37,0,1,18,2,0],
 "db/dea/RecoE1039Data_8C_source.html":[37,0,1,18,2],
-"db/ded/namespacePHG4TrackStatusDecode.html":[36,0,11],
 "db/ded/namespacePHG4TrackStatusDecode.html":[35,0,11],
+"db/ded/namespacePHG4TrackStatusDecode.html":[36,0,11],
 "db/df0/VertexFit_8cxx.html":[37,0,2,6,12,2,20],
 "db/df0/VertexFit_8cxx_source.html":[37,0,2,6,12,2,20],
 "db/df0/classPHPy8GenTrigger.html":[36,0,365],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "db/df0/classPHPy8GenTrigger.html#a1fdf9150bf40372408356e617d068814":[36,0,365,1],
 "db/df0/classPHPy8GenTrigger.html#a32596d7fc7198f1eff96d1683ba8ab99":[36,0,365,3],
 "db/df0/classPHPy8GenTrigger.html#a398590b998cd9d44dc7c5ab657da1029":[36,0,365,5],
-"db/df0/classPHPy8GenTrigger.html#a42497011fcc10d753b89c6688543fbb7":[36,0,365,4],
-"db/df0/classPHPy8GenTrigger.html#a9b0b7e5479b08598e3a895fc7f454627":[36,0,365,0]
+"db/df0/classPHPy8GenTrigger.html#a42497011fcc10d753b89c6688543fbb7":[36,0,365,4]
 };

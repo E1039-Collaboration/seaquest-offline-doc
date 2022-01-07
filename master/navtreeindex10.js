@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d3/d10/classMaterialProfile.html#a9522494d6d40d47ebc8c72f9fc16d867":[36,0,147,1],
 "d3/d10/classMaterialProfile.html#adb268ff030f2b5cdafe8c2a044a64f77":[36,0,147,4],
 "d3/d11/PHG4TruthSubsystem_8cc.html":[37,0,2,7,4,103],
 "d3/d11/PHG4TruthSubsystem_8cc_source.html":[37,0,2,7,4,103],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d3/d63/classPHG4CylinderGeomv1.html#a2ead0d7e9a202bae1ab3ee5e5905c23e":[36,0,242,7],
 "d3/d63/classPHG4CylinderGeomv1.html#a473c3b267ccaa71b17de8d316fe0085b":[36,0,242,6],
 "d3/d63/classPHG4CylinderGeomv1.html#a488e2c6b7f0fdf61ff8ebc15c1d2c4b6":[36,0,242,10],
-"d3/d63/classPHG4CylinderGeomv1.html#a734880f0483ae696b0b65242ae9b58fc":[36,0,242,2],
-"d3/d63/classPHG4CylinderGeomv1.html#a7ff788bdf3785fdca9ed445b22f45253":[36,0,242,16]
+"d3/d63/classPHG4CylinderGeomv1.html#a734880f0483ae696b0b65242ae9b58fc":[36,0,242,2]
 };

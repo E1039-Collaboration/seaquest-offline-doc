@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d0/da9/PHG4CylinderCellGeomLinkDef_8h.html":[37,0,2,7,0,74],
 "d0/da9/PHG4CylinderCellGeomLinkDef_8h_source.html":[37,0,2,7,0,74],
 "d0/dac/KalmanTrack_8cxx.html":[37,0,2,6,12,1,6],
 "d0/dac/KalmanTrack_8cxx_source.html":[37,0,2,6,12,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d1/d13/classPHG4PhenixDetector.html#a8d0f753e838a21aa606cbebe5461af9f":[36,0,296,14],
 "d1/d13/classPHG4PhenixDetector.html#aca8db4374326cd60b9b90eeea916874e":[36,0,296,1],
 "d1/d13/classPHG4PhenixDetector.html#acdba581a56ceb2717c1553449802b153":[36,0,296,9],
-"d1/d13/classPHG4PhenixDetector.html#ae4ca0baeb25ef55124a30f7751331be2":[36,0,296,15],
-"d1/d13/classPHG4PhenixDetector.html#aecc72bd4ebf10e844bbc61f400ab9749":[36,0,296,7]
+"d1/d13/classPHG4PhenixDetector.html#ae4ca0baeb25ef55124a30f7751331be2":[36,0,296,15]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a3031b5a9ba15e6ec5d25819de31fdffd":[36,0,292,48],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a31f17c8146593b2d946cc4c2762d25ed":[36,0,292,5],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a32d8e2e33a763e1fa9241f08b220cf62":[36,0,292,34],
 "d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a34455f33298e8b8a4dddd782fec05426":[36,0,292,53],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d8/d1b/classPHG4ParameterInterface.html#a6cb9fcc8ea7d1ab8a2557bb69a35d54a":[36,0,284,6],
 "d8/d1b/classPHG4ParameterInterface.html#a7159c9ad2c4db68564416852afcf7a81":[36,0,284,2],
 "d8/d1b/classPHG4ParameterInterface.html#a721cd58a62f8f105caea9ab42ee29376":[36,0,284,15],
-"d8/d1b/classPHG4ParameterInterface.html#a9ebfb17000d91890d822ed8c39342f02":[36,0,284,5],
-"d8/d1b/classPHG4ParameterInterface.html#aa3159174470740a10792a436cee0357e":[36,0,284,13]
+"d8/d1b/classPHG4ParameterInterface.html#a9ebfb17000d91890d822ed8c39342f02":[36,0,284,5]
 };

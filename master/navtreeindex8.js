@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d2/d6b/classSQGenFit_1_1GFTrack.html#af507321c9368e0da4ef4c58f1b083303":[36,0,15,4,6],
 "d2/d70/classTrkPar.html":[36,0,478],
 "d2/d70/classTrkPar.html#a04101dd3ba83b7ebba771126f22a22c6":[36,0,478,12],
 "d2/d70/classTrkPar.html#a0871a8bb671ef3cd98214feb49185fd5":[36,0,478,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d2/dcb/PHG4Reco_8cc.html#a4dbc25d487f7308828b303145063304e":[37,0,2,7,4,80,1],
 "d2/dcb/PHG4Reco_8cc.html#a5221c4de3c8551fa533e73628534bd94":[37,0,2,7,4,80,0],
 "d2/dcb/PHG4Reco_8cc.html#aa27878f26b6abb4b6ff45ff41ed2aef4":[37,0,2,7,4,80,2],
-"d2/dcb/PHG4Reco_8cc.html#acbd24ecee4d01bbb750e79a8098eeda7":[37,0,2,7,4,80,3],
-"d2/dcb/PHG4Reco_8cc_source.html":[37,0,2,7,4,80]
+"d2/dcb/PHG4Reco_8cc.html#acbd24ecee4d01bbb750e79a8098eeda7":[37,0,2,7,4,80,3]
 };

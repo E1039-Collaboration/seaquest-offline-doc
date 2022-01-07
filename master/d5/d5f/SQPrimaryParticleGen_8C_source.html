@@ -447,7 +447,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C_source.
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  <a class="code" href="../../d4/dcc/namespaceUtilDimuon.html#ac02089aa04111adab00a7286b3ef0bcb">UtilDimuon::CalcVar</a>(_dim_gen, dim_mass, dim_pT, dim_x1, dim_x2, dim_xF);</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  <span class="keywordtype">double</span> xsec   = <a class="code" href="../../d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898">CrossSectionDrellYan</a>(dim_mass, dim_xF, dim_x1, dim_x2, pARatio);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity * (massMax - massMin) * (xfMax - xfMin);</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  InsertEventInfo(xsec, weight, vtx);</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;  <span class="keywordflow">return</span> 0;</div>
@@ -460,7 +460,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C_source.
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388">generateDimuon</a>(<a class="code" href="../../d2/da1/namespaceDPGEN.html#af92ba51a991928b4b394303fd0923856">DPGEN::mjpsi</a>, xF)) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  InsertMuonPair(vtx);</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;  <span class="keywordtype">double</span> xsec   = <a class="code" href="../../d4/d06/classSQPrimaryParticleGen.html#af089734822f5c2158b28e504da4c535e">CrossSectionJPsi</a>(xF);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity * (xfMax - xfMin);</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  InsertEventInfo(xsec, weight, vtx);</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;}</div>
@@ -472,7 +472,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C_source.
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  <span class="keywordflow">if</span>(!<a class="code" href="../../d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388">generateDimuon</a>(<a class="code" href="../../d2/da1/namespaceDPGEN.html#a2da0b9f765465cecb71a324dfa8a082f">DPGEN::mpsip</a>, xF)) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;  InsertMuonPair(vtx);</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  <span class="keywordtype">double</span> xsec   = <a class="code" href="../../d4/d06/classSQPrimaryParticleGen.html#aff56bfc1da86142490deefb6dcb85357">CrossSectionPsip</a>(xF);</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <span class="keywordtype">double</span> weight = xsec * luminosity * (xfMax - xfMin);</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  InsertEventInfo(xsec, weight, vtx);</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div>
@@ -770,7 +770,7 @@ $(document).ready(function(){initNavTree('d5/d5f/SQPrimaryParticleGen_8C_source.
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_1a6567115d8fe4eed7adc9cd640ab127.html">generators</a></li><li class="navelem"><a class="el" href="../../dir_7ea3cf3554778141e4c84ab6ef528d6b.html">E906LegacyGen</a></li><li class="navelem"><a class="el" href="../../d5/d5f/SQPrimaryParticleGen_8C.html">SQPrimaryParticleGen.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Jan 5 2022 13:20:08</em> using <a
+			updated: <em>Thu Jan 6 2022 23:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

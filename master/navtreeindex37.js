@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"db/d1f/classFun4AllOscarInputManager.html#a5110f3e1f297076a3c56b1026b4fe1c7":[36,0,112,24],
 "db/d1f/classFun4AllOscarInputManager.html#a5661505114daa0f36e89c7af9060fe5b":[36,0,112,12],
 "db/d1f/classFun4AllOscarInputManager.html#a5a425c1c743f7654dec7be5dd42d039e":[36,0,112,20],
 "db/d1f/classFun4AllOscarInputManager.html#a5f79f3b12535df02533d25a14aab26a6":[36,0,112,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "db/d88/classPHG4Shower.html#a46279fbda706b644a1db061bf003d99c":[36,0,308,17],
 "db/d88/classPHG4Shower.html#a479173f0a57455112fff3d677ce11b1f":[36,0,308,64],
 "db/d88/classPHG4Shower.html#a4cb6ca0beb4c749ccd8e34c56b96a867":[36,0,308,5],
-"db/d88/classPHG4Shower.html#a4d09d299df222645e6213e0fd5a1d6e7":[36,0,308,62],
-"db/d88/classPHG4Shower.html#a50d7e8d0e19e252f4ac77797a0cf1a61":[36,0,308,40]
+"db/d88/classPHG4Shower.html#a4d09d299df222645e6213e0fd5a1d6e7":[36,0,308,62]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d1/d13/classPHG4PhenixDetector.html#aecc72bd4ebf10e844bbc61f400ab9749":[36,0,296,7],
 "d1/d13/classPHG4PhenixDetector.html#aed5e9a8d0ba20e1fef8a48240aa06b85":[36,0,296,3],
 "d1/d13/classPHG4PhenixDetector.html#aff98e491e01396343c1b0a9064b7fdb9":[36,0,296,4],
 "d1/d13/classVertexFit.html":[36,0,486],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d1/d72/Fun4AllHepMCInputManager_8h.html":[37,0,2,2,2,1],
 "d1/d72/Fun4AllHepMCInputManager_8h_source.html":[37,0,2,2,2,1],
 "d1/d72/SQStringMap__v1LinkDef_8h.html":[37,0,2,3,100],
-"d1/d72/SQStringMap__v1LinkDef_8h_source.html":[37,0,2,3,100],
-"d1/d75/classPHG4EtaPhiParameterization.html":[36,0,256]
+"d1/d72/SQStringMap__v1LinkDef_8h_source.html":[37,0,2,3,100]
 };

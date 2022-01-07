@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"dd/dd4/getClass_8h_source.html":[37,0,2,1,2,0],
 "dd/dd8/CalibEvtQual_8h.html":[37,0,2,5,0,1],
 "dd/dd8/CalibEvtQual_8h_source.html":[37,0,2,5,0,1],
 "dd/dda/PHG4EMCalDetector_8h.html":[37,0,2,7,0,123],
@@ -66,10 +67,10 @@ var NAVTREEINDEX45 =
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[36,0,74,6],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[36,0,74,2],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[36,0,74,4],
-"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,11],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,10],
-"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,9],
+"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,11],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,8],
+"dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[36,0,74,9],
 "dd/dec/structDimuonData.html#a3fe1ab345c2cb655e984c94aa372cf98":[36,0,74,22],
 "dd/dec/structDimuonData.html#a440e365309731178825f5b6f543c3bc4":[36,0,74,19],
 "dd/dec/structDimuonData.html#a48c20e55a74e68c560919d32a4ed41d3":[36,0,74,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "de/d45/classSignedHit.html#a15933362d3c51ed17641a71aaa685d72":[36,0,395,5],
 "de/d45/classSignedHit.html#a1dd429014d79a58cbfdf9a4542fa1c10":[36,0,395,7],
 "de/d45/classSignedHit.html#a1e4d11c118b19f0feacfd806872e47df":[36,0,395,11],
-"de/d45/classSignedHit.html#a417ee26c0290b9ce963b817db048f047":[36,0,395,2],
-"de/d45/classSignedHit.html#a46e4a7ba77a6a810862cf2a5f9131471":[36,0,395,12]
+"de/d45/classSignedHit.html#a417ee26c0290b9ce963b817db048f047":[36,0,395,2]
 };

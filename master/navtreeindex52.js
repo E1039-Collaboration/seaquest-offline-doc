@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"globals_0x6e.html":[37,1,0,13],
 "globals_0x6f.html":[37,1,0,14],
 "globals_0x70.html":[37,1,0,15],
 "globals_0x72.html":[37,1,0,16],
@@ -40,8 +41,8 @@ var NAVTREEINDEX52 =
 "index.html#SlowQA":[1,1],
 "index.html#UsefulFeatures":[1,0],
 "index.html#Write_your_code":[2],
-"namespacemembers.html":[35,1,0,0],
 "namespacemembers.html":[35,1,0],
+"namespacemembers.html":[35,1,0,0],
 "namespacemembers_0x61.html":[35,1,0,1],
 "namespacemembers_0x62.html":[35,1,0,2],
 "namespacemembers_0x63.html":[35,1,0,3],

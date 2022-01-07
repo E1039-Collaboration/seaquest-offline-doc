@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d1/d75/classPHG4EtaPhiParameterization.html":[36,0,256],
 "d1/d75/classPHG4EtaPhiParameterization.html#a17bfde48f86e9102da3dbe6f595e305e":[36,0,256,6],
 "d1/d75/classPHG4EtaPhiParameterization.html#a81f702042abd57b3e78c0df34709457e":[36,0,256,5],
 "d1/d75/classPHG4EtaPhiParameterization.html#abbd3ee8b0c4a985b958812233ac3a526":[36,0,256,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d1/dce/classPHEventDisplay.html#a6a50254d7670f83e3cb7d5b269fb022b":[36,0,192,1],
 "d1/dce/classPHEventDisplay.html#a6e011843da915a8960be27be33668fea":[36,0,192,12],
 "d1/dce/classPHEventDisplay.html#a70390f343753399e585b5e17287c2578":[36,0,192,11],
-"d1/dce/classPHEventDisplay.html#aa0a83a6dfbc330a3758301501d37b7b6":[36,0,192,2],
-"d1/dce/classPHEventDisplay.html#acbf5f402a323d8484a9afc42922fbcfb":[36,0,192,4]
+"d1/dce/classPHEventDisplay.html#aa0a83a6dfbc330a3758301501d37b7b6":[36,0,192,2]
 };

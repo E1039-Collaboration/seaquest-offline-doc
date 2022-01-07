@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"db/df0/classPHPy8GenTrigger.html#a9b0b7e5479b08598e3a895fc7f454627":[36,0,365,0],
 "db/df0/classPHPy8GenTrigger.html#af6b861b74be494424420724da11628b8":[36,0,365,2],
 "db/df5/EvtDispFilter_8h.html":[37,0,2,6,3,3,1],
 "db/df5/EvtDispFilter_8h_source.html":[37,0,2,6,3,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "dc/d38/classPHG4ConsistencyCheck.html#ae7787e4ce2e1ba0b118212ac37186319":[36,0,229,4],
 "dc/d39/classPHG4EventAction.html":[36,0,257],
 "dc/d39/classPHG4EventAction.html#a03372e3ca55aa95b5e318d7047419419":[36,0,257,1],
-"dc/d39/classPHG4EventAction.html#a0ca03c2943e3534c00d1bfb071345d73":[36,0,257,0],
-"dc/d39/classPHG4EventAction.html#a51f4512ce8b1e3e698c3e93d1730cd86":[36,0,257,3]
+"dc/d39/classPHG4EventAction.html#a0ca03c2943e3534c00d1bfb071345d73":[36,0,257,0]
 };

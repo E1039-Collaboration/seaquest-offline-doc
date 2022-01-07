@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d3/d63/classPHG4CylinderGeomv1.html#a7ff788bdf3785fdca9ed445b22f45253":[36,0,242,16],
 "d3/d63/classPHG4CylinderGeomv1.html#a8124db6475d108272caaf688911e5ef6":[36,0,242,11],
 "d3/d63/classPHG4CylinderGeomv1.html#a87a6fd59ec9a6022f3a226275ac2a5e0":[36,0,242,15],
 "d3/d63/classPHG4CylinderGeomv1.html#aa5757a0cb4e18165103754d0b311b004":[36,0,242,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d3/d9e/classPHG4Hit.html#a82e4721a85588fe7a2d15511bc6dd506":[36,0,273,53],
 "d3/d9e/classPHG4Hit.html#a880ee4134d36a1b558ec9eed831f376a":[36,0,273,8],
 "d3/d9e/classPHG4Hit.html#a896d7a45139f9cbc2e429127baa61715":[36,0,273,82],
-"d3/d9e/classPHG4Hit.html#a8992f01396d51ebf6c85dd2859e13a6b":[36,0,273,21],
-"d3/d9e/classPHG4Hit.html#a93856008c104dbdb267516b8d1008d7e":[36,0,273,20]
+"d3/d9e/classPHG4Hit.html#a8992f01396d51ebf6c85dd2859e13a6b":[36,0,273,21]
 };

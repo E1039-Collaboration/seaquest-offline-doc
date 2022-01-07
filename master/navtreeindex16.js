@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d5/d1d/PHG4InputFilter_8h_source.html":[37,0,2,7,4,44],
 "d5/d1e/e1039-analysis_2OnlMonDev_2OnlMon4MainDaq_8C.html":[37,0,1,15,3],
 "d5/d1e/e1039-analysis_2OnlMonDev_2OnlMon4MainDaq_8C.html#a527430875d0ea1a6625047be8c3c09af":[37,0,1,15,3,0],
 "d5/d1e/e1039-analysis_2OnlMonDev_2OnlMon4MainDaq_8C.html#aa66c466516c320b5bd7d690e3637b51e":[37,0,1,15,3,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d5/d60/classPHG4HitEval.html#a7b81551dfe66454d768c0ac77cdb3381":[36,0,275,8],
 "d5/d60/classPHG4HitEval.html#a9cfc5de55b1a80075fdcccb6fd0977cf":[36,0,275,6],
 "d5/d60/classPHG4HitEval.html#aa340cb0dbaf3fbc75e54287c4489a56c":[36,0,275,4],
-"d5/d60/classPHG4HitEval.html#ab182e3f2bd743a7fb49546576c19d200":[36,0,275,12],
-"d5/d60/classPHG4HitEval.html#ab3985eb6c231ada4ab772ee30a87dc9f":[36,0,275,5]
+"d5/d60/classPHG4HitEval.html#ab182e3f2bd743a7fb49546576c19d200":[36,0,275,12]
 };

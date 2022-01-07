@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8":[36,0,433,23],
 "d4/d06/classSQPrimaryParticleGen.html#a3089360fe1b2fd95de23dd28219b32f6":[36,0,433,18],
 "d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b":[36,0,433,19],
 "d4/d06/classSQPrimaryParticleGen.html#a41384d093709b5fac50023b7f799c579":[36,0,433,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d4/d48/TriggerAna_2work_2Fun4SimMicroDst_8C_source.html":[37,0,1,22,1,1],
 "d4/d4b/PHG4EtaParameterization_8cc.html":[37,0,2,7,4,13],
 "d4/d4b/PHG4EtaParameterization_8cc_source.html":[37,0,2,7,4,13],
-"d4/d4b/mPHEveModuleBase_8h.html":[37,0,2,6,3,3,3],
-"d4/d4b/mPHEveModuleBase_8h_source.html":[37,0,2,6,3,3,3]
+"d4/d4b/mPHEveModuleBase_8h.html":[37,0,2,6,3,3,3]
 };
