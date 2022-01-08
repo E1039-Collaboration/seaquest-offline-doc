@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['macro_20for_20event_20analysis',['Macro for Event Analysis',['../d8/d90/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_EvalJpsiAsymStat_macro_ana_README.html',1,'']]],
+  ['macro_20for_20event_20generation',['Macro for Event Generation',['../df/d0d/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_EvalJpsiAsymStat_macro_gen_README.html',1,'']]],
   ['macro_20to_20generate_20and_20evaluate_20roadset',['Macro to generate and evaluate roadset',['../d0/da2/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_GenRoadset_macro_ana_README.html',1,'']]],
   ['macro_20to_20extract_20e906_20nim3_20events',['Macro to extract E906 NIM3 events',['../d1/d1a/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_GenRoadset_macro_e906_nim3_README.html',1,'']]],
   ['macro_20to_20generate_20bg_20events_20from_20the_20full_2dbg_20simulation',['Macro to generate BG events from the full-BG simulation',['../d0/dc0/md__dev_shm_kenichi_update-github-e1039-doc_e1039-analysis_GenRoadset_macro_full_bg_README.html',1,'']]],

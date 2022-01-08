@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<title>Class Reference for E1039 Core &amp; Analysis Software: /dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/EvalJpsiAsymStat/work/asymmetry.C Source File</title>
+<title>Class Reference for E1039 Core &amp; Analysis Software: /dev/shm/kenichi/update-github-e1039-doc/e1039-analysis/EvalJpsiAsymStat/macro_ana/asymmetry.C Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" /> 
 <script type="text/javascript" src="../../jquery.js"></script>
@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('da/d0a/asymmetry_8C_source.html','../.
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../da/d0a/asymmetry_8C.html#a5353dff2d9c2cadcf78d6451ba0b71b7">    8</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/d0a/asymmetry_8C.html#a5353dff2d9c2cadcf78d6451ba0b71b7">asymmetry</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* fname=<span class="stringliteral">&quot;sim_tree.root&quot;</span>, <span class="keyword">const</span> <span class="keywordtype">char</span>* tname=<span class="stringliteral">&quot;tree&quot;</span>)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  TFile* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> = <span class="keyword">new</span> TFile(fname);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  TTree* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a> = (TTree*)file-&gt;Get(tname);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  TFile* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> = <span class="keyword">new</span> TFile(fname);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  TTree* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a> = (TTree*)file-&gt;Get(tname);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> <a class="code" href="../../da/d0a/asymmetry_8C.html#a952eac791b596a61bba0a133a3bb439f">PI</a> = TMath::Pi();</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  TH1D *h1_x2  = <span class="keyword">new</span> TH1D(<span class="stringliteral">&quot;h1_x2&quot;</span>, <span class="stringliteral">&quot;GMC J/psi;x2;Yield&quot;</span>, <a class="code" href="../../da/d0a/asymmetry_8C.html#a98dd2447a6e10df7592363b8cb56750b">N_X2</a>, <a class="code" href="../../da/d0a/asymmetry_8C.html#a415df0ccd5e4a49edde23f71a83f0a46">X2_MIN</a>, <a class="code" href="../../da/d0a/asymmetry_8C.html#a56e0d27dfc6b6b64168c2f53cb47b65f">X2_MAX</a>); </div>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('da/d0a/asymmetry_8C_source.html','../.
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  gSystem-&gt;mkdir(<span class="stringliteral">&quot;result_asym&quot;</span>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  ofstream ofs(<span class="stringliteral">&quot;result_asym/result.txt&quot;</span>);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  TCanvas* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>,<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  TCanvas* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>,<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  c1-&gt;SetGrid();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  h1_x2-&gt;Draw();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  c1-&gt;SaveAs(<span class="stringliteral">&quot;result_asym/h1_x2.png&quot;</span>);</div>
@@ -214,14 +214,14 @@ $(document).ready(function(){initNavTree('da/d0a/asymmetry_8C_source.html','../.
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  ofs.close();</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_a415df0ccd5e4a49edde23f71a83f0a46"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#a415df0ccd5e4a49edde23f71a83f0a46">X2_MIN</a></div><div class="ttdeci">const double X2_MIN</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00005">asymmetry.C:5</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_abc721ee15074057ff5837b1d5dac8ae2"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a></div><div class="ttdeci">TTree * tree</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00007">Fun4SimTree.C:7</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_a98dd2447a6e10df7592363b8cb56750b"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#a98dd2447a6e10df7592363b8cb56750b">N_X2</a></div><div class="ttdeci">const int N_X2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00004">asymmetry.C:4</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_a952eac791b596a61bba0a133a3bb439f"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#a952eac791b596a61bba0a133a3bb439f">PI</a></div><div class="ttdeci">const double PI</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00002">asymmetry.C:2</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_a5353dff2d9c2cadcf78d6451ba0b71b7"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#a5353dff2d9c2cadcf78d6451ba0b71b7">asymmetry</a></div><div class="ttdeci">void asymmetry(const char *fname=&quot;sim_tree.root&quot;, const char *tname=&quot;tree&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00008">asymmetry.C:8</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_a56e0d27dfc6b6b64168c2f53cb47b65f"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#a56e0d27dfc6b6b64168c2f53cb47b65f">X2_MAX</a></div><div class="ttdeci">const double X2_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00006">asymmetry.C:6</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_abc721ee15074057ff5837b1d5dac8ae2"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a></div><div class="ttdeci">TTree * tree</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00007">Fun4SimTree.C:7</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 <div class="ttc" id="asymmetry_8C_html_ae2001b68a1538c497a6ecda5bd0e3f64"><div class="ttname"><a href="../../da/d0a/asymmetry_8C.html#ae2001b68a1538c497a6ecda5bd0e3f64">N_PHI</a></div><div class="ttdeci">const int N_PHI</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0a/asymmetry_8C_source.html#l00003">asymmetry.C:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -230,10 +230,10 @@ $(document).ready(function(){initNavTree('da/d0a/asymmetry_8C_source.html','../.
 <div id="nav-path" class="navpath">
 	<!-- id is needed for treeview function! -->
 	<ul>
-		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_75972439e12f17b0c759ff02e69ba490.html">EvalJpsiAsymStat</a></li><li class="navelem"><a class="el" href="../../dir_84c0677908737268449dce90be38fba7.html">work</a></li><li class="navelem"><a class="el" href="../../da/d0a/asymmetry_8C.html">asymmetry.C</a></li>
+		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_75972439e12f17b0c759ff02e69ba490.html">EvalJpsiAsymStat</a></li><li class="navelem"><a class="el" href="../../dir_1aa8d6ce97690f70e1c125f1ede84bff.html">macro_ana</a></li><li class="navelem"><a class="el" href="../../da/d0a/asymmetry_8C.html">asymmetry.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 6 2022 23:20:06</em> using <a
+			updated: <em>Fri Jan 7 2022 19:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

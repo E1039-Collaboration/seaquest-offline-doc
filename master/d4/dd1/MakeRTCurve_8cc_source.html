@@ -288,7 +288,7 @@ $(document).ready(function(){initNavTree('d4/dd1/MakeRTCurve_8cc_source.html','.
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;{</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;DrawCalibResult()&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  TCanvas* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, 800, 600);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  TCanvas* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, 800, 600);</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  c1-&gt;SetGrid();</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  gStyle-&gt;SetOptStat(0);</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  TLegend* leg = <span class="keyword">new</span> TLegend(0.7, 0.7, 0.9, 0.9);</div>
@@ -357,7 +357,7 @@ $(document).ready(function(){initNavTree('d4/dd1/MakeRTCurve_8cc_source.html','.
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  oss &lt;&lt; m_dir_name_out &lt;&lt; <span class="stringliteral">&quot;/h1_res.png&quot;</span>;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  c1-&gt;SaveAs(oss.str().c_str());</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  </div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;  <span class="comment">//const char* NAME_GROUP[4] = {&quot;D1&quot;, &quot;D2&quot;, &quot;D3p&quot;, &quot;D3m&quot;};</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  <span class="comment">//const double   RES_MAX[4] = {0.1, 0.1, 0.1, 0.1};</span></div>
@@ -383,7 +383,6 @@ $(document).ready(function(){initNavTree('d4/dd1/MakeRTCurve_8cc_source.html','.
 <div class="ttc" id="classRTCurve_html_aea8fee81e03e26dd2947752e14aaf821"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html#aea8fee81e03e26dd2947752e14aaf821">RTCurve::GetT2DRGraph</a></div><div class="ttdeci">TGraph * GetT2DRGraph()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db6/RTCurve_8cc_source.html#l00073">RTCurve.cc:73</a></div></div>
 <div class="ttc" id="classCalibData_html_ad42472ebbbb677b7f500ea0090973814"><div class="ttname"><a href="../../de/d52/classCalibData.html#ad42472ebbbb677b7f500ea0090973814">CalibData::GetHistRT</a></div><div class="ttdeci">TH2 * GetHistRT(const int ipl) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/CalibData_8h_source.html#l00045">CalibData.h:45</a></div></div>
 <div class="ttc" id="classMakeRTCurve_html_ab93f9634739a05300ad5613619bda081"><div class="ttname"><a href="../../de/d72/classMakeRTCurve.html#ab93f9634739a05300ad5613619bda081">MakeRTCurve::AnalyzeListOfFiles</a></div><div class="ttdeci">void AnalyzeListOfFiles(const char *fn_list)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00061">MakeRTCurve.cc:61</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 <div class="ttc" id="classCalibData_html_ab9db1159336ae37e87f8d330b7385812"><div class="ttname"><a href="../../de/d52/classCalibData.html#ab9db1159336ae37e87f8d330b7385812">CalibData::FillHit</a></div><div class="ttdeci">void FillHit(const int det_id, const double drift_dist, const double tdc_time, const double track_dist)</div><div class="ttdoc">Fill the hit information. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/CalibData_8cc_source.html#l00137">CalibData.cc:137</a></div></div>
 <div class="ttc" id="classCalibParam_html_a839a6e488d27b6de903971b26a4546ef"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a839a6e488d27b6de903971b26a4546ef">CalibParam::WriteRTParam</a></div><div class="ttdeci">void WriteRTParam(const std::string dir_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00104">CalibParam.cc:104</a></div></div>
 <div class="ttc" id="classCalibData_html_aaa08b0b8ac27a0ff81b1ed85aafed48e"><div class="ttname"><a href="../../de/d52/classCalibData.html#aaa08b0b8ac27a0ff81b1ed85aafed48e">CalibData::DrawHistEvent</a></div><div class="ttdeci">void DrawHistEvent(const std::string dir_out)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/CalibData_8cc_source.html#l00148">CalibData.cc:148</a></div></div>
@@ -425,6 +424,7 @@ $(document).ready(function(){initNavTree('d4/dd1/MakeRTCurve_8cc_source.html','.
 <div class="ttc" id="classMakeRTCurve_html_a94dcb23bfa67b4b64c2f7efa3d48a235"><div class="ttname"><a href="../../de/d72/classMakeRTCurve.html#a94dcb23bfa67b4b64c2f7efa3d48a235">MakeRTCurve::AnalyzeFile</a></div><div class="ttdeci">void AnalyzeFile(const char *fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00069">MakeRTCurve.cc:69</a></div></div>
 <div class="ttc" id="RTCurve_8h_html"><div class="ttname"><a href="../../d3/d7b/RTCurve_8h.html">RTCurve.h</a></div></div>
 <div class="ttc" id="classTracklet_html_a4d010ad8661d14b6ace17f5dc838b218"><div class="ttname"><a href="../../d2/d26/classTracklet.html#a4d010ad8661d14b6ace17f5dc838b218">Tracklet::x0</a></div><div class="ttdeci">double x0</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00237">FastTracklet.h:237</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -435,7 +435,7 @@ $(document).ready(function(){initNavTree('d4/dd1/MakeRTCurve_8cc_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_8e3c0b7ee39d23b7e7ea7aac33186201.html">CalibChamXT</a></li><li class="navelem"><a class="el" href="../../dir_668656ae549bcabc6db3ee86a007d3ef.html">src</a></li><li class="navelem"><a class="el" href="../../d4/dd1/MakeRTCurve_8cc.html">MakeRTCurve.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 6 2022 23:20:06</em> using <a
+			updated: <em>Fri Jan 7 2022 19:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

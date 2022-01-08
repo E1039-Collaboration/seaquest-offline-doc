@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="../../d3/d4e/classReAnaSignal.html#ad4cbfa854ca3afdfa99fb147d4de1f23">  171</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d4e/classReAnaSignal.html#ad4cbfa854ca3afdfa99fb147d4de1f23">ReAnaSignal::DrawOneVar</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* name, TH1* h1_tb, TH1* h1_trig)</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;{</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  TCanvas* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  TCanvas* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  c1-&gt;SetGrid();</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  gStyle-&gt;SetOptStat(0000);</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
@@ -341,12 +341,12 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  c1-&gt;SaveAs(oss.str().c_str());</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  <span class="keyword">delete</span> h1_ratio;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;}</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
 <div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="../../d3/d4e/classReAnaSignal.html#acdecdc28e9eb7499eeacb0fe31e75e6b">  237</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d4e/classReAnaSignal.html#acdecdc28e9eb7499eeacb0fe31e75e6b">ReAnaSignal::DrawOneVar2D</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* name, TH2* h2_tb, TH2* h2_trig)</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  TCanvas* <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;  TCanvas* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a> = <span class="keyword">new</span> TCanvas(<span class="stringliteral">&quot;c1&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;  c1-&gt;SetGrid();</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  gStyle-&gt;SetOptStat(0000);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
@@ -445,7 +445,7 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  c1-&gt;SaveAs(oss.str().c_str());</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> iy = 1; iy &lt;= h2_tb-&gt;GetNbinsY(); iy++) <span class="keyword">delete</span> h1_ratio[iy];</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  <span class="keyword">delete</span> <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a>;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;}</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="comment">//void ReAnaSignal::DrawOneVar(TTree* tree, const char* name, const char* var, const int N, const double X0, const double X1)</span></div>
@@ -505,7 +505,6 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 <div class="ttc" id="classReAnaSignal_html_a465b6ddb9d913aa8ac5c4cbd8a13f998"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#a465b6ddb9d913aa8ac5c4cbd8a13f998">ReAnaSignal::m_h2_x2_trig</a></div><div class="ttdeci">TH2 * m_h2_x2_trig</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00032">ReAnaSignal.h:32</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_a0e2c198617b332f6d268d32cbd2e565f"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#a0e2c198617b332f6d268d32cbd2e565f">ReAnaSignal::m_h2_xF_trig</a></div><div class="ttdeci">TH2 * m_h2_xF_trig</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00028">ReAnaSignal.h:28</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_ab5b8ab8e9c621806195bf6f050dcab0e"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#ab5b8ab8e9c621806195bf6f050dcab0e">ReAnaSignal::m_h2_x1_trig</a></div><div class="ttdeci">TH2 * m_h2_x1_trig</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00030">ReAnaSignal.h:30</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_afff10ee051f0c275b44a3c4ef4d12d73"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#afff10ee051f0c275b44a3c4ef4d12d73">ReAnaSignal::m_h1_x2_tb</a></div><div class="ttdeci">TH1 * m_h1_x2_tb</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00018">ReAnaSignal.h:18</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_a960106b87524685b1c2acb1ccb3c5dc3"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#a960106b87524685b1c2acb1ccb3c5dc3">ReAnaSignal::m_h2_theta_tb</a></div><div class="ttdeci">TH2 * m_h2_theta_tb</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00037">ReAnaSignal.h:37</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_aa1083a13c415ec02029f19b4dad19e3f"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#aa1083a13c415ec02029f19b4dad19e3f">ReAnaSignal::End</a></div><div class="ttdeci">virtual void End()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5c/ReAnaSignal_8cc_source.html#l00093">ReAnaSignal.cc:93</a></div></div>
@@ -559,6 +558,7 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 <div class="ttc" id="classAnaBase_html_a57a9645af20edbabbb1a11d2401c6fd4"><div class="ttname"><a href="../../df/de1/classAnaBase.html#a57a9645af20edbabbb1a11d2401c6fd4">AnaBase::m_dir_out</a></div><div class="ttdeci">std::string m_dir_out</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/AnaBase_8h_source.html#l00011">AnaBase.h:11</a></div></div>
 <div class="ttc" id="classReAnaSignal_html_abdc5ad355d31c429ffb316bd44328acc"><div class="ttname"><a href="../../d3/d4e/classReAnaSignal.html#abdc5ad355d31c429ffb316bd44328acc">ReAnaSignal::m_h1_theta_trig</a></div><div class="ttdeci">TH1 * m_h1_theta_trig</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d15/ReAnaSignal_8h_source.html#l00025">ReAnaSignal.h:25</a></div></div>
 <div class="ttc" id="classAnaSignal_html_ac844fa2df0a1c791e4f267ceedf82c29"><div class="ttname"><a href="../../d6/d80/classAnaSignal.html#ac844fa2df0a1c791e4f267ceedf82c29">AnaSignal::m_sig_data</a></div><div class="ttdeci">SignalData * m_sig_data</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/AnaSignal_8h_source.html#l00018">AnaSignal.h:18</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a47ef1dcd76787ecde3d7fe7d8038597a"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a47ef1dcd76787ecde3d7fe7d8038597a">c1</a></div><div class="ttdeci">TCanvas * c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00008">Fun4SimTree.C:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -569,7 +569,7 @@ $(document).ready(function(){initNavTree('d2/d5c/ReAnaSignal_8cc_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_e294f48d281c94c535cbbd9d721d165f.html">GenRoadset</a></li><li class="navelem"><a class="el" href="../../dir_75eae09653f0bf0d3a0fb7dab27d09b6.html">src</a></li><li class="navelem"><a class="el" href="../../d2/d5c/ReAnaSignal_8cc.html">ReAnaSignal.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 6 2022 23:20:06</em> using <a
+			updated: <em>Fri Jan 7 2022 19:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('d0/d5b/e1039-core_2simulation_2README_
 <div class="contents">
 <a href="../../d0/d5b/e1039-core_2simulation_2README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor"># Notes on E1039 Simulation Codes</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;The E1039 simulation codes had been taken from (<a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">s</a>)PHENIX, together with the <a class="code" href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C.html#aa9d8439da27772d2a98c941554b90bf8">Fun4All</a> framework.</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;The E1039 simulation codes had been taken from (<a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">s</a>)PHENIX, together with the <a class="code" href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a> framework.</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;Many obsolete/unused files are left in this directory.</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;This note is to pick up and explain key files/classes, as a guideline for new developer.</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d0/d5b/e1039-core_2simulation_2README_
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;## Data Nodes</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;Each <span class="keyword">event</span> generator fills generated events into the <span class="stringliteral">&quot;PHG4*&quot;</span> objects.</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;Each <span class="keyword">event</span> <a class="code" href="../../d3/d84/AnaTree_8C.html#a45aa3042c7f112bd4258cec727ea449a">generator</a> fills generated events into the <span class="stringliteral">&quot;PHG4*&quot;</span> objects.</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;Or some generators (like PYTHIA8) fills into the <span class="stringliteral">&quot;HepMC&quot;</span> objects and then `<a class="code" href="../../db/d6c/classHepMCNodeReader.html">HepMCNodeReader</a>` transfers into <span class="stringliteral">&quot;PHG4*&quot;</span>.</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;* `<a class="code" href="../../db/d62/classPHG4InEvent.html">PHG4InEvent</a>`</div>
@@ -130,13 +130,14 @@ $(document).ready(function(){initNavTree('d0/d5b/e1039-core_2simulation_2README_
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">## Interface to Geant4</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;The <span class="stringliteral">&quot;PHG4*&quot;</span> objects are converted into <span class="stringliteral">&quot;G4*&quot;</span> objects by `<a class="code" href="../../d7/d54/classPHG4PrimaryGeneratorAction.html">PHG4PrimaryGeneratorAction</a>`.</div>
+<div class="ttc" id="EvalJpsiAsymStat_2macro__ana_2Fun4All_8C_html_afa2b16358017bbcbfbab8e9243beb61d"><div class="ttname"><a href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a></div><div class="ttdeci">int Fun4All(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;)</div><div class="ttdoc">macro_ana/Fun4All.C: Fun4all macro to analyze the simDST files for J/psi TSSA. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C_source.html#l00004">Fun4All.C:4</a></div></div>
 <div class="ttc" id="namespaceDPGEN_html_a5ad3679fb5bed4f7b6c9bd74bbb6298b"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">DPGEN::s</a></div><div class="ttdeci">const double s</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00065">SQPrimaryParticleGen.C:65</a></div></div>
 <div class="ttc" id="classPHG4VtxPoint_html"><div class="ttname"><a href="../../d6/d81/classPHG4VtxPoint.html">PHG4VtxPoint</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2a/PHG4VtxPoint_8h_source.html#l00009">PHG4VtxPoint.h:9</a></div></div>
 <div class="ttc" id="classHepMCNodeReader_html"><div class="ttname"><a href="../../db/d6c/classHepMCNodeReader.html">HepMCNodeReader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de1/HepMCNodeReader_8h_source.html#l00022">HepMCNodeReader.h:22</a></div></div>
 <div class="ttc" id="classPHG4PrimaryGeneratorAction_html"><div class="ttname"><a href="../../d7/d54/classPHG4PrimaryGeneratorAction.html">PHG4PrimaryGeneratorAction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d92/PHG4PrimaryGeneratorAction_8h_source.html#l00008">PHG4PrimaryGeneratorAction.h:8</a></div></div>
-<div class="ttc" id="GenRoadset_2macro__e906__nim3_2Fun4All_8C_html_aa9d8439da27772d2a98c941554b90bf8"><div class="ttname"><a href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C.html#aa9d8439da27772d2a98c941554b90bf8">Fun4All</a></div><div class="ttdeci">int Fun4All(const int run, const string fname, const int nevent=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C_source.html#l00005">Fun4All.C:5</a></div></div>
 <div class="ttc" id="classPHG4Particle_html"><div class="ttname"><a href="../../de/dc9/classPHG4Particle.html">PHG4Particle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d05/PHG4Particle_8h_source.html#l00007">PHG4Particle.h:7</a></div></div>
 <div class="ttc" id="classPHG4BlockSubsystem_html"><div class="ttname"><a href="../../df/d14/classPHG4BlockSubsystem.html">PHG4BlockSubsystem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d16/PHG4BlockSubsystem_8h_source.html#l00009">PHG4BlockSubsystem.h:9</a></div></div>
+<div class="ttc" id="AnaTree_8C_html_a45aa3042c7f112bd4258cec727ea449a"><div class="ttname"><a href="../../d3/d84/AnaTree_8C.html#a45aa3042c7f112bd4258cec727ea449a">generator</a></div><div class="ttdeci">string generator</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/AnaTree_8C_source.html#l00007">AnaTree.C:7</a></div></div>
 <div class="ttc" id="classPHG4InEvent_html"><div class="ttname"><a href="../../db/d62/classPHG4InEvent.html">PHG4InEvent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4f/PHG4InEvent_8h_source.html#l00012">PHG4InEvent.h:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -148,7 +149,7 @@ $(document).ready(function(){initNavTree('d0/d5b/e1039-core_2simulation_2README_
 		<li class="navelem"><a class="el" href="../../d0/d5b/e1039-core_2simulation_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 6 2022 23:20:07</em> using <a
+			updated: <em>Fri Jan 7 2022 19:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

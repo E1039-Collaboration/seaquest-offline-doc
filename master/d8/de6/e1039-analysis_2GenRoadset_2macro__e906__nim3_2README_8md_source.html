@@ -111,14 +111,14 @@ $(document).ready(function(){initNavTree('d8/de6/e1039-analysis_2GenRoadset_2mac
 <a href="../../d8/de6/e1039-analysis_2GenRoadset_2macro__e906__nim3_2README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor"># Macro to extract E906 NIM3 events</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;This directory is to extract NIM3 events from the E906 digit files.</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;It outputs a small ROOT <a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> named `bg_tree.root`, which will be used later in `macro_ana`.</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;It outputs a small ROOT <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> named `bg_tree.root`, which will be used later in `macro_ana`.</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;You usually need not carry out <span class="keyword">this</span> step by yourself.</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;## Setting of <a class="code" href="../../d5/da5/classEvent.html">Event</a> Extraction</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;The setting of the <span class="keyword">event</span> extraction is configured in `<a class="code" href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C.html#aa9d8439da27772d2a98c941554b90bf8">Fun4All</a>.C` as usual.</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;The setting of the <span class="keyword">event</span> extraction is configured in `<a class="code" href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a>.C` as usual.</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;The <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates `bg_tree.root` is `src/<a class="code" href="../../d6/d44/classSubsysRecoBG.html">SubsysRecoBG</a>.(h|cc)`.</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;You can modify them as you need.</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d8/de6/e1039-analysis_2GenRoadset_2mac
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;The digit files had better be prestaged before use.</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;```</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;../../HitEmbedding/macro_gen_emb_e906/prestage-input-<a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.sh</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;../../HitEmbedding/macro_gen_emb_e906/prestage-input-<a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.sh</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;```</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;The generation process can/should be done on local computer, since one <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a> takes only a few minutes.</div>
@@ -144,11 +144,11 @@ $(document).ready(function(){initNavTree('d8/de6/e1039-analysis_2GenRoadset_2mac
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;The <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>-by-<a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a> output files should be merged;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;```</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;./merge-output-<a class="code" href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.sh</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;./merge-output-<a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.sh</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;```</div>
+<div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
+<div class="ttc" id="EvalJpsiAsymStat_2macro__ana_2Fun4All_8C_html_afa2b16358017bbcbfbab8e9243beb61d"><div class="ttname"><a href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C.html#afa2b16358017bbcbfbab8e9243beb61d">Fun4All</a></div><div class="ttdeci">int Fun4All(const int n_dst_ana=0, const char *fn_list_dst=&quot;list_dst.txt&quot;)</div><div class="ttdoc">macro_ana/Fun4All.C: Fun4all macro to analyze the simDST files for J/psi TSSA. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d7f/EvalJpsiAsymStat_2macro__ana_2Fun4All_8C_source.html#l00004">Fun4All.C:4</a></div></div>
 <div class="ttc" id="run_8C_html_a078d38b1d96e7c0e4f35d93363cc8325"><div class="ttname"><a href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a></div><div class="ttdeci">int run(const int nEvents=1)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbc/run_8C_source.html#l00010">run.C:10</a></div></div>
-<div class="ttc" id="AnaSimDst_2work_2Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da3/AnaSimDst_2work_2Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
-<div class="ttc" id="GenRoadset_2macro__e906__nim3_2Fun4All_8C_html_aa9d8439da27772d2a98c941554b90bf8"><div class="ttname"><a href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C.html#aa9d8439da27772d2a98c941554b90bf8">Fun4All</a></div><div class="ttdeci">int Fun4All(const int run, const string fname, const int nevent=0)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6f/GenRoadset_2macro__e906__nim3_2Fun4All_8C_source.html#l00005">Fun4All.C:5</a></div></div>
 <div class="ttc" id="classSubsysRecoBG_html"><div class="ttname"><a href="../../d6/d44/classSubsysRecoBG.html">SubsysRecoBG</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d52/SubsysRecoBG_8h_source.html#l00012">SubsysRecoBG.h:12</a></div></div>
 <div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
 <div class="ttc" id="classEvent_html"><div class="ttname"><a href="../../d5/da5/classEvent.html">Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/Event_8h_source.html#l00013">Event.h:13</a></div></div>
@@ -162,7 +162,7 @@ $(document).ready(function(){initNavTree('d8/de6/e1039-analysis_2GenRoadset_2mac
 		<li class="navelem"><a class="el" href="../../d8/de6/e1039-analysis_2GenRoadset_2macro__e906__nim3_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Jan 6 2022 23:20:07</em> using <a
+			updated: <em>Fri Jan 7 2022 19:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
