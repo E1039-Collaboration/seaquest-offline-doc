@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d4/d52/SubsysRecoBG_8h.html":[38,0,1,11,4,28],
 "d4/d52/SubsysRecoBG_8h_source.html":[38,0,1,11,4,28],
 "d4/d54/PHG4ParameterInterface_8h.html":[38,0,2,7,0,138],
 "d4/d54/PHG4ParameterInterface_8h_source.html":[38,0,2,7,0,138],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d4/da7/PatternDBGen_8cxx.html#af4231849d7d75726b179a00224d575de":[38,0,2,6,12,3,4,1],
 "d4/da7/PatternDBGen_8cxx_source.html":[38,0,2,6,12,3,4],
 "d4/da9/classFun4AllInputManager.html":[37,0,112],
-"d4/da9/classFun4AllInputManager.html#a01c946e063c464f497e7befbbe757f71":[37,0,112,20],
-"d4/da9/classFun4AllInputManager.html#a0343c1c3801d769b5d4a0f749f7858f3":[37,0,112,6]
+"d4/da9/classFun4AllInputManager.html#a01c946e063c464f497e7befbbe757f71":[37,0,112,20]
 };

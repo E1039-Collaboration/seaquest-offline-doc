@@ -131,44 +131,12 @@ $(document).ready(function(){initNavTree('d5/d07/GenRoadset_2src_2TreeData_8cc_s
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  : <a class="code" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>       (0)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  , evt       (0)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  , fpga1     (false)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  , inte_rfp00(0)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  , inte_max  (0)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  ;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//EventData::EventData()</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">//  : proc_id(0)</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//  , weight(1.0)</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//  , trig_bits(0)</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//  , rec_stat(0)</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//  , n_dim_true(0)</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">//  , n_dim_reco(0)</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//{</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//  for (int ii = 0; ii &lt; 4; ii++) {</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">//    par_id [ii] = 0;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//    par_mom[ii].SetXYZT(0, 0, 0, 0);</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">//  }</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//}</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//TrackData::TrackData() </span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">//  : charge(0)</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//{</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//  ;</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//}</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//  </span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//DimuonData::DimuonData() </span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//  : pdg_id(0)</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//  , mass(0)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//  , pT(0)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//  , x1(0)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//  , x2(0)</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//  , xF(0)</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">//  , costh(0)</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">//  , phi(0)</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//{</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//  ;</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//}</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  , pot_rfp00 (0)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  , inte_rfp00(0)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  , inte_max  (0)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  ;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="GenRoadset_2src_2TreeData_8h_html"><div class="ttname"><a href="../../d9/d14/GenRoadset_2src_2TreeData_8h.html">TreeData.h</a></div></div>
 <div class="ttc" id="run_8C_html_a078d38b1d96e7c0e4f35d93363cc8325"><div class="ttname"><a href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a></div><div class="ttdeci">int run(const int nEvents=1)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbc/run_8C_source.html#l00010">run.C:10</a></div></div>
 <div class="ttc" id="structBgData_html_a034d140b8b381be97faf9bda30540c2c"><div class="ttname"><a href="../../d0/d6d/structBgData.html#a034d140b8b381be97faf9bda30540c2c">BgData::BgData</a></div><div class="ttdeci">BgData()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d07/GenRoadset_2src_2TreeData_8cc_source.html#l00020">TreeData.cc:20</a></div></div>
@@ -183,7 +151,7 @@ $(document).ready(function(){initNavTree('d5/d07/GenRoadset_2src_2TreeData_8cc_s
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_e294f48d281c94c535cbbd9d721d165f.html">GenRoadset</a></li><li class="navelem"><a class="el" href="../../dir_75eae09653f0bf0d3a0fb7dab27d09b6.html">src</a></li><li class="navelem"><a class="el" href="../../d5/d07/GenRoadset_2src_2TreeData_8cc.html">TreeData.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Jan 7 2022 19:20:06</em> using <a
+			updated: <em>Sat Jan 8 2022 19:40:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

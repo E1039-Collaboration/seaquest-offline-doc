@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d1/d75/classPHG4EtaPhiParameterization.html#af63bd3d29cca859eb7b5fb540bff804b":[37,0,258,0],
 "d1/d76/PdbParameterMapContainer_8h.html":[38,0,2,0,0,0,29],
 "d1/d76/PdbParameterMapContainer_8h_source.html":[38,0,2,0,0,0,29],
 "d1/d7f/DecoData_8h.html":[38,0,2,5,0,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d1/dd7/classPHG4BlockCellGeom.html#a126d93544e96e8b7c79383198561b6ca":[37,0,208,39],
 "d1/dd7/classPHG4BlockCellGeom.html#a13943bcd3490c2b3ad99247222ec4a38":[37,0,208,14],
 "d1/dd7/classPHG4BlockCellGeom.html#a18843d5d8b32ff156e5c87c1888411ad":[37,0,208,34],
-"d1/dd7/classPHG4BlockCellGeom.html#a223e018d3a4e72e58d23c86f6bd5c833":[37,0,208,12],
-"d1/dd7/classPHG4BlockCellGeom.html#a22fbef0d504647ebaa5946b6035527b4":[37,0,208,41]
+"d1/dd7/classPHG4BlockCellGeom.html#a223e018d3a4e72e58d23c86f6bd5c833":[37,0,208,12]
 };

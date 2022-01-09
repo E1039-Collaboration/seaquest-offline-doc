@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"da/db3/classFlagSavev1.html#aa92739fc7d5aae2d8d21bcda3c1e8c55":[37,0,99,5],
 "da/db3/classFlagSavev1.html#ab76e8904e291a6ad358467c15ac2a072":[37,0,99,2],
 "da/db3/classFlagSavev1.html#ac542234da0ef492eaa37629cdf4c7c88":[37,0,99,22],
 "da/db3/classFlagSavev1.html#acc15190540961e0209dc92236a83434b":[37,0,99,15],
@@ -79,8 +80,8 @@ var NAVTREEINDEX36 =
 "da/dcf/SQRun__v1_8cxx_source.html":[38,0,2,3,65],
 "da/dd0/FlagSave_8h.html":[38,0,2,1,0,5],
 "da/dd0/FlagSave_8h_source.html":[38,0,2,1,0,5],
-"da/dd0/namespacePHG4HitDefs.html":[36,0,8],
 "da/dd0/namespacePHG4HitDefs.html":[37,0,8],
+"da/dd0/namespacePHG4HitDefs.html":[36,0,8],
 "da/dd8/PHFieldConfig__v1LinkDef_8h.html":[38,0,2,6,10,13],
 "da/dd8/PHFieldConfig__v1LinkDef_8h_source.html":[38,0,2,6,10,13],
 "da/dd8/classFun4AllPrdfInputManager.html":[37,0,116],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "db/d1f/classFun4AllOscarInputManager.html#a5110f3e1f297076a3c56b1026b4fe1c7":[37,0,114,24],
 "db/d1f/classFun4AllOscarInputManager.html#a5661505114daa0f36e89c7af9060fe5b":[37,0,114,12],
 "db/d1f/classFun4AllOscarInputManager.html#a5a425c1c743f7654dec7be5dd42d039e":[37,0,114,20],
-"db/d1f/classFun4AllOscarInputManager.html#a5f79f3b12535df02533d25a14aab26a6":[37,0,114,18],
-"db/d1f/classFun4AllOscarInputManager.html#a6dfb5b861fd26ce99192c04973d6cabd":[37,0,114,31]
+"db/d1f/classFun4AllOscarInputManager.html#a5f79f3b12535df02533d25a14aab26a6":[37,0,114,18]
 };

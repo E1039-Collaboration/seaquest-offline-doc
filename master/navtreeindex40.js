@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"dc/d3f/classSQG4DipoleMagnetSubsystem.html#ac5595eb7e57b6dffed83623793d81c9e":[37,0,418,1],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html#ad00f117a06a70051c1fa87e9f45661f4":[37,0,418,4],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html#ad4c45d0b32bff5e48d6f63376c6fd9e9":[37,0,418,2],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html#aeaafbedbde75123ef7e8735d7c0f3bbe":[37,0,418,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "dc/d94/classPHG4CylinderCellTPCReco.html#a652e23eb754817317594aedd63b8c7dc":[37,0,237,10],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a66b8e24b6e4d8f8365175e90a6175894":[37,0,237,45],
 "dc/d94/classPHG4CylinderCellTPCReco.html#a67bb69d3fa7e7ca20a7cc86d8ae21411":[37,0,237,43],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a73846db9ce9c976c6fa284c30b7a20cf":[37,0,237,38],
-"dc/d94/classPHG4CylinderCellTPCReco.html#a75c377807a2b0585b5bad470cb2cf9f5":[37,0,237,12]
+"dc/d94/classPHG4CylinderCellTPCReco.html#a73846db9ce9c976c6fa284c30b7a20cf":[37,0,237,38]
 };

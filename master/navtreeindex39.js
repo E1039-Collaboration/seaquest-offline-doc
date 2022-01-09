@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"db/df7/classAnaBG.html":[37,0,32],
 "db/df7/classAnaBG.html#a08e20671497d036acc04435a141d289d":[37,0,32,16],
 "db/df7/classAnaBG.html#a1079f44bd1460e62164aee07107c4e25":[37,0,32,9],
 "db/df7/classAnaBG.html#a107e6419813502c96eeae3d48a325780":[37,0,32,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "dc/d39/classPHG4EventAction.html#aa3de5031934dcadb89a3c0e0e9472328":[37,0,259,5],
 "dc/d39/classPHG4EventAction.html#ac9fa31d16ad34e6b2c64c6dbf272ca88":[37,0,259,4],
 "dc/d3f/classSQG4DipoleMagnetSubsystem.html":[37,0,418],
-"dc/d3f/classSQG4DipoleMagnetSubsystem.html#a987f9dd192d0398318a72f229fb715eb":[37,0,418,5],
-"dc/d3f/classSQG4DipoleMagnetSubsystem.html#ac5595eb7e57b6dffed83623793d81c9e":[37,0,418,1]
+"dc/d3f/classSQG4DipoleMagnetSubsystem.html#a987f9dd192d0398318a72f229fb715eb":[37,0,418,5]
 };

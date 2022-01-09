@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"dd/ddd/SQRecoLinkDef_8h_source.html":[38,0,2,6,12,2,12],
 "dd/dde/PHField3DCylindrical_8cc.html":[38,0,2,6,10,7],
 "dd/dde/PHField3DCylindrical_8cc_source.html":[38,0,2,6,10,7],
 "dd/ddf/PHG4ParameterInterface_8cc.html":[38,0,2,7,0,137],
@@ -57,9 +58,9 @@ var NAVTREEINDEX45 =
 "dd/dec/structDimuonData.html#a17c26c32e7b2dcc2357b77ec9cb34f1a":[37,0,76,13],
 "dd/dec/structDimuonData.html#a1863a5b244a5219bedf7b0c242f2a7b3":[37,0,76,27],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[37,0,76,0],
+"dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[37,0,76,2],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[37,0,76,4],
 "dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[37,0,76,6],
-"dd/dec/structDimuonData.html#a200494267cc1629fc211ba8312de740a":[37,0,76,2],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[37,0,76,8],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[37,0,76,9],
 "dd/dec/structDimuonData.html#a31e0c769b556a91921e874fe2a456055":[37,0,76,10],
@@ -71,9 +72,9 @@ var NAVTREEINDEX45 =
 "dd/dec/structDimuonData.html#a70fbb218d5cc8a2daddd7fe32f78466b":[37,0,76,20],
 "dd/dec/structDimuonData.html#a7e35d9116403b1bb17b7b64dae3ce0fa":[37,0,76,17],
 "dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[37,0,76,1],
-"dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[37,0,76,5],
 "dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[37,0,76,7],
 "dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[37,0,76,3],
+"dd/dec/structDimuonData.html#a8dfec52e800555be25e8b4d34d59689b":[37,0,76,5],
 "dd/dec/structDimuonData.html#ab0cb863198b6f103b8fc34f93f671293":[37,0,76,29],
 "dd/dec/structDimuonData.html#ab168821cbe7cc91fb6a95febc6346847":[37,0,76,15],
 "dd/dec/structDimuonData.html#ab298faf64ffa6ee8361eb3667098ed78":[37,0,76,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "de/d3f/PHHepMCParticleSelectorDecayProductChainLinkDef_8h.html":[38,0,2,2,2,44],
 "de/d3f/PHHepMCParticleSelectorDecayProductChainLinkDef_8h_source.html":[38,0,2,2,2,44],
 "de/d45/classSignedHit.html":[37,0,397],
-"de/d45/classSignedHit.html#a0e337b84364b1ea021a8f2ad0a764304":[37,0,397,6],
-"de/d45/classSignedHit.html#a15933362d3c51ed17641a71aaa685d72":[37,0,397,5]
+"de/d45/classSignedHit.html#a0e337b84364b1ea021a8f2ad0a764304":[37,0,397,6]
 };

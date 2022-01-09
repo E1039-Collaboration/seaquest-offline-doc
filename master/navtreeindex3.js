@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d0/dac/classSQHitMap.html#a5de9caa4daefebe5263b8f664eff7430":[37,0,423,16],
 "d0/dac/classSQHitMap.html#a686171faa0bdf68435a6d20ba6e4f63e":[37,0,423,21],
 "d0/dac/classSQHitMap.html#a6c94d8d39a6fd3fbb150b02391dc93a1":[37,0,423,6],
 "d0/dac/classSQHitMap.html#a8ce30dbbb46f478113b1eecc06c703da":[37,0,423,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d1/d13/classVertexFit.html#a080d08ef76e4108261aaf89373c07211":[37,0,488,29],
 "d1/d13/classVertexFit.html#a08c6ee60ec06539c0a781612cabd80c2":[37,0,488,10],
 "d1/d13/classVertexFit.html#a0f125e233abe9f231c9ff2673454ea13":[37,0,488,28],
-"d1/d13/classVertexFit.html#a11e5f0b43d2c2fedf4f2fd54e5ebced3":[37,0,488,2],
-"d1/d13/classVertexFit.html#a19eb69c177fa675e1e63e8a054a5c645":[37,0,488,11]
+"d1/d13/classVertexFit.html#a11e5f0b43d2c2fedf4f2fd54e5ebced3":[37,0,488,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"de/d45/classSignedHit.html#a15933362d3c51ed17641a71aaa685d72":[37,0,397,5],
 "de/d45/classSignedHit.html#a1dd429014d79a58cbfdf9a4542fa1c10":[37,0,397,7],
 "de/d45/classSignedHit.html#a1e4d11c118b19f0feacfd806872e47df":[37,0,397,11],
 "de/d45/classSignedHit.html#a417ee26c0290b9ce963b817db048f047":[37,0,397,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "de/d7b/SQBeamlineObject_8h_source.html":[38,0,2,2,1,2],
 "de/d7e/classTDirectoryHelper.html":[37,0,469],
 "de/d7e/classTDirectoryHelper.html#a05fda94e95bcb216abc68086c009cfb5":[37,0,469,6],
-"de/d7e/classTDirectoryHelper.html#a4cd22dcafada4ca5e357f45b7f2bc6de":[37,0,469,4],
-"de/d7e/classTDirectoryHelper.html#a55ce5622ae00b46a2388158eab8b847a":[37,0,469,2]
+"de/d7e/classTDirectoryHelper.html#a4cd22dcafada4ca5e357f45b7f2bc6de":[37,0,469,4]
 };

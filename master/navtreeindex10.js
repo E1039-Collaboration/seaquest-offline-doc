@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"d3/d21/classChanMapTaiwan.html#a06b6d7f47fba11f8ef947f4a98e5afa4":[37,0,64,8],
 "d3/d21/classChanMapTaiwan.html#a202fd4bca72e9b85b4c2acfbb7311ad1":[37,0,64,3],
 "d3/d21/classChanMapTaiwan.html#a219978861e3ab1d03670720f1ef5cc4f":[37,0,64,6],
 "d3/d21/classChanMapTaiwan.html#a57e036f851b608f9455721d0a51a72ae":[37,0,64,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "d3/d6b/classDecoError.html#a8ea670df7e092ef7ab05de0ffb383d41":[37,0,70,7],
 "d3/d6b/classDecoError.html#a9e852999c54182c319df9ba8ec8bb68d":[37,0,70,1],
 "d3/d6b/classDecoError.html#aa121147c5823e820dd9a6b16d5be2a55":[37,0,70,3],
-"d3/d6b/classDecoError.html#aa63c91350685ca4eccaeef1fc747a2db":[37,0,70,9],
-"d3/d6b/classDecoError.html#aad3adc984672123cd26afa9540f5a721":[37,0,70,6]
+"d3/d6b/classDecoError.html#aa63c91350685ca4eccaeef1fc747a2db":[37,0,70,9]
 };

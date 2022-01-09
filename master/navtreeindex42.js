@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"dc/dbf/classPHG4PileupGenerator.html#a8f7be4400d5ecf68fe5acdd121ad7e6b":[37,0,302,6],
 "dc/dbf/classPHG4PileupGenerator.html#a9769cd90808cfd7ec26c775687a8da4d":[37,0,302,3],
 "dc/dbf/classPHG4PileupGenerator.html#aa43b83221b2107e7e36b0141ad4b3e8d":[37,0,302,12],
 "dc/dbf/classPHG4PileupGenerator.html#ab51717f7c9b9285a17b57b41e550591a":[37,0,302,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "dd/d26/PHGenEventListV1LinkDef_8h.html":[38,0,2,2,2,24],
 "dd/d26/PHGenEventListV1LinkDef_8h_source.html":[38,0,2,2,2,24],
 "dd/d28/PHFieldUtilityLinkDef_8h.html":[38,0,2,6,10,29],
-"dd/d28/PHFieldUtilityLinkDef_8h_source.html":[38,0,2,6,10,29],
-"dd/d28/ReAnaBG_8h.html":[38,0,1,11,4,16]
+"dd/d28/PHFieldUtilityLinkDef_8h_source.html":[38,0,2,6,10,29]
 };

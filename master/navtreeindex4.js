@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d1/d13/classVertexFit.html#a19eb69c177fa675e1e63e8a054a5c645":[37,0,488,11],
 "d1/d13/classVertexFit.html#a1f0518644dc302ab0ec02eb8e9d634df":[37,0,488,12],
 "d1/d13/classVertexFit.html#a2397d3cdc39d8660b8cb250de49e8404":[37,0,488,14],
 "d1/d13/classVertexFit.html#a29db4764df9a667395da7f294c2f1f4c":[37,0,488,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d1/d75/classPHG4EtaPhiParameterization.html#abbd3ee8b0c4a985b958812233ac3a526":[37,0,258,3],
 "d1/d75/classPHG4EtaPhiParameterization.html#abe5c2769926afdd9b0d7509154b05964":[37,0,258,4],
 "d1/d75/classPHG4EtaPhiParameterization.html#ac5c6e0acb81651da12bc5db73c111e7a":[37,0,258,1],
-"d1/d75/classPHG4EtaPhiParameterization.html#ad247bfd037a0d3bfaafc88ec439928ca":[37,0,258,2],
-"d1/d75/classPHG4EtaPhiParameterization.html#af63bd3d29cca859eb7b5fb540bff804b":[37,0,258,0]
+"d1/d75/classPHG4EtaPhiParameterization.html#ad247bfd037a0d3bfaafc88ec439928ca":[37,0,258,2]
 };

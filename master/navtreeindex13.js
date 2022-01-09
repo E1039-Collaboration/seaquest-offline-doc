@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d4/d06/classSQPrimaryParticleGen.html#a4dd823cf3db0eaeb2df795d15dbde1fc":[37,0,435,21],
 "d4/d06/classSQPrimaryParticleGen.html#a6b1c3dc8b010a08849e5834ff5f31749":[37,0,435,10],
 "d4/d06/classSQPrimaryParticleGen.html#a6fcc464773eeb9d33c39904898f81e86":[37,0,435,22],
 "d4/d06/classSQPrimaryParticleGen.html#a8bc8ba5f11c8d17934557967836c2388":[37,0,435,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d4/d4e/PHGenIntegralv1LinkDef_8h.html":[38,0,2,2,2,33],
 "d4/d4e/PHGenIntegralv1LinkDef_8h_source.html":[38,0,2,2,2,33],
 "d4/d4f/PHPointerListIterator_8h.html":[38,0,2,1,2,31],
-"d4/d4f/PHPointerListIterator_8h_source.html":[38,0,2,1,2,31],
-"d4/d52/SubsysRecoBG_8h.html":[38,0,1,11,4,28]
+"d4/d4f/PHPointerListIterator_8h_source.html":[38,0,2,1,2,31]
 };

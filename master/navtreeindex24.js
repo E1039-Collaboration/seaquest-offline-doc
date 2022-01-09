@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d7/d48/classDecoStatusDb.html#af00f1b7b4b93e5de7871330cea526584":[37,0,72,4],
 "d7/d4a/PHG4TargetCoilDetector_8cc.html":[38,0,2,7,0,162],
 "d7/d4a/PHG4TargetCoilDetector_8cc_source.html":[38,0,2,7,0,162],
 "d7/d4b/PatternDB_8cxx.html":[38,0,2,6,12,3,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d7/d7d/classSQStringMap.html#aa92b939a3d2f21a7cf531d3e68a867b6":[37,0,449,9],
 "d7/d7d/classSQStringMap.html#aa9cf7cd5087681e4729cf79840da97f5":[37,0,449,19],
 "d7/d7d/classSQStringMap.html#aab75064b3f1a4fbaf078363dba52f215":[37,0,449,18],
-"d7/d7d/classSQStringMap.html#ab520cf4f04246f00b09fe90cb092299d":[37,0,449,14],
-"d7/d7d/classSQStringMap.html#abe6f1a5d2779d610f1655cfa929f7250":[37,0,449,4]
+"d7/d7d/classSQStringMap.html#ab520cf4f04246f00b09fe90cb092299d":[37,0,449,14]
 };

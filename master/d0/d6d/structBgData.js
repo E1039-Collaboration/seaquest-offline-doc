@@ -15,5 +15,6 @@ var structBgData =
     [ "h4t", "d0/d6d/structBgData.html#addc76757a7b8bcf477257e9b9d8fc49c", null ],
     [ "inte_max", "d0/d6d/structBgData.html#a542a6018e1f54e3e6e631ab08f3850fd", null ],
     [ "inte_rfp00", "d0/d6d/structBgData.html#a8bedd89af2e9db22d4a527d261541433", null ],
+    [ "pot_rfp00", "d0/d6d/structBgData.html#aa47edcb66904ecfab8cbb5a9af217e69", null ],
     [ "run", "d0/d6d/structBgData.html#a4742cd4033857dcfac37e65f9aee539d", null ]
 ];
