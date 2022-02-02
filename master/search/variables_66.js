@@ -49,6 +49,7 @@ var searchData=
   ['fmaglength',['fmagLength',['../dc/d5b/classDetectorConstruction.html#a8bd25131dd93866d3ecbacec65930441',1,'DetectorConstruction']]],
   ['fmagmultiplier',['fMagMultiplier',['../df/d9a/classSettings.html#af208b1993f56a19ddfa2d8845255b642',1,'Settings']]],
   ['fmagname',['fMagName',['../df/d9a/classSettings.html#a9863e589440c73aba2cd58a03c560a7d',1,'Settings']]],
+  ['fmagstr',['FMAGSTR',['../dd/d73/MacroCommon_8h.html#adeff044049f5c45cd218b0822f9de011',1,'MacroCommon.h']]],
   ['fn_5fin',['fn_in',['../d3/df0/structDecoParam.html#ab54f813b7f9534223a196cc17e93261a',1,'DecoParam']]],
   ['fname',['fname',['../d7/d0b/classFun4AllDstInputManager.html#adf92f7951d272118bf320fee8ba7b5c8',1,'Fun4AllDstInputManager::fname()'],['../d1/d42/classPHG4Particlev1.html#a4903776866f23bf3f4837c979cb1d299',1,'PHG4Particlev1::fname()']]],
   ['fpad',['fpad',['../dc/d94/classPHG4CylinderCellTPCReco.html#a89226fd64ea8e9cf83be7ed4312cfe6d',1,'PHG4CylinderCellTPCReco']]],

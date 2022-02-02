@@ -40,6 +40,7 @@ var searchData=
   ['kmag',['kmag',['../d9/da8/classPHFieldSeaQuest.html#addb9220312a71a38d445ca5c12be22ad',1,'PHFieldSeaQuest']]],
   ['kmagmultiplier',['kMagMultiplier',['../df/d9a/classSettings.html#a797d74382330e75024802aee862e381a',1,'Settings']]],
   ['kmagname',['kMagName',['../df/d9a/classSettings.html#a6489e442de562a4bcc0b2fb9b1023121',1,'Settings']]],
+  ['kmagstr',['KMAGSTR',['../dd/d73/MacroCommon_8h.html#af6684eb4e0d13d65c2d6ec2e1e18d055',1,'MacroCommon.h']]],
   ['kmagzoffset',['kmagZOffset',['../d9/da8/classPHFieldSeaQuest.html#ab169e3dc25478133999df8f56633c893',1,'PHFieldSeaQuest']]],
   ['krelativeprecision',['kRelativePrecision',['../d9/def/classPHG4GDMLWriteDefine.html#a9cc8d12349d387bdf38daf244551b7aa',1,'PHG4GDMLWriteDefine']]]
 ];

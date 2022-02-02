@@ -92,6 +92,7 @@ var hierarchy =
         [ "AnaSimHit", "d7/dfc/classAnaSimHit.html", null ],
         [ "AnaSimRunInfo", "d0/d63/classAnaSimRunInfo.html", null ],
         [ "AnaSimRunInfo", "d0/d63/classAnaSimRunInfo.html", null ],
+        [ "AnaTrack", "de/d8a/classAnaTrack.html", null ],
         [ "AnaTriggerHit", "d2/db9/classAnaTriggerHit.html", null ],
         [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", null ],
         [ "AnaWait", "d5/d60/classAnaWait.html", null ],

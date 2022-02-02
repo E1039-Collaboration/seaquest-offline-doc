@@ -48,6 +48,7 @@ var annotated =
     [ "AnaSimDst", "d1/d9e/classAnaSimDst.html", "d1/d9e/classAnaSimDst" ],
     [ "AnaSimHit", "d7/dfc/classAnaSimHit.html", "d7/dfc/classAnaSimHit" ],
     [ "AnaSimRunInfo", "d0/d63/classAnaSimRunInfo.html", "d0/d63/classAnaSimRunInfo" ],
+    [ "AnaTrack", "de/d8a/classAnaTrack.html", "de/d8a/classAnaTrack" ],
     [ "AnaTriggerHit", "d2/db9/classAnaTriggerHit.html", "d2/db9/classAnaTriggerHit" ],
     [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", "d9/d85/classAnaTrkQA" ],
     [ "AnaWait", "d5/d60/classAnaWait.html", "d5/d60/classAnaWait" ],
