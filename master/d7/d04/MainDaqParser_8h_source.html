@@ -141,13 +141,13 @@ $(document).ready(function(){initNavTree('d7/d04/MainDaqParser_8h_source.html','
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordtype">int</span> ProcessPhysPrestart    (<span class="keywordtype">int</span>* words);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keywordtype">int</span> ProcessPhysSlow        (<span class="keywordtype">int</span>* words);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="keywordtype">int</span> ProcessPhysSpillCounter(<span class="keywordtype">int</span>* words);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordtype">int</span> ProcessPhysBOSEOS      (<span class="keywordtype">int</span>* words, <span class="keyword">const</span> <span class="keywordtype">int</span> type);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">int</span> ProcessPhysFlush       (<span class="keywordtype">int</span>* words);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="keywordtype">int</span> ProcessPhysBOSEOS      (<span class="keywordtype">int</span>* words, <span class="keyword">const</span> <span class="keywordtype">int</span> event_type);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="keywordtype">int</span> ProcessPhysStdAndFlush (<span class="keywordtype">int</span>* words, <span class="keyword">const</span> <span class="keywordtype">int</span> event_type);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">// Handlers of Board data in flush event</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">int</span> ProcessBoardData        (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> idx, <span class="keywordtype">int</span> idx_roc_end, <span class="keywordtype">int</span> e906flag);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordtype">int</span> ProcessBoardData        (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> idx, <span class="keywordtype">int</span> idx_roc_end, <span class="keywordtype">int</span> e906flag, <span class="keyword">const</span> <span class="keywordtype">int</span> event_type);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordtype">int</span> ProcessBoardScaler      (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> j);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">int</span> ProcessBoardTriggerBit  (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> j);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">int</span> ProcessBoardTriggerBit  (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> j, <span class="keywordtype">int</span> idx_roc_end);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordtype">int</span> ProcessBoardTriggerCount(<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> j);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">int</span> ProcessBoardFeeQIE      (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> j);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <span class="keywordtype">int</span> ProcessBoardV1495TDC    (<span class="keywordtype">int</span>* words, <span class="keywordtype">int</span> idx);</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('d7/d04/MainDaqParser_8h_source.html','
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_39383dc96e40a2540d2ef02f364e956c.html">decoder_maindaq</a></li><li class="navelem"><a class="el" href="../../d7/d04/MainDaqParser_8h.html">MainDaqParser.h</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Feb 2 2022 10:50:07</em> using <a
+			updated: <em>Wed Feb 2 2022 23:30:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

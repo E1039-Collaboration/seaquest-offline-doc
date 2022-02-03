@@ -5,7 +5,7 @@ var searchData=
   ['newattribute',['NewAttribute',['../dd/db5/classPHG4GDMLWrite.html#afe96dc9fdc7c1a0a1a96b59dc15dffa2',1,'PHG4GDMLWrite::NewAttribute(const G4String &amp;, const G4String &amp;)'],['../dd/db5/classPHG4GDMLWrite.html#a0fa6846d2f66ec30922ed4a6477e5b39',1,'PHG4GDMLWrite::NewAttribute(const G4String &amp;, const G4double &amp;)']]],
   ['newelement',['NewElement',['../dd/db5/classPHG4GDMLWrite.html#ada0a5579d406ec27f3150711ab83becc',1,'PHG4GDMLWrite']]],
   ['next',['next',['../de/d57/classPdbCalBankIterator.html#a4fcb724a281db4c1ca8dbb3c5e279c8c',1,'PdbCalBankIterator::next()'],['../df/db9/classPHTimeServer_1_1iterator.html#afefab8983e99e97395c9878f3556f73e',1,'PHTimeServer::iterator::next()']]],
-  ['nextcodaevent',['NextCodaEvent',['../d9/de8/classCodaInputManager.html#aedda0f443ef8f023461c82dfc42c86c4',1,'CodaInputManager']]],
+  ['nextcodaevent',['NextCodaEvent',['../d9/de8/classCodaInputManager.html#aa54d2abed21d2ccd2df24c72c60799f2',1,'CodaInputManager']]],
   ['nextevent',['NextEvent',['../d8/d6d/classEventDispUI.html#a93421e77c003c06c1aff15cd2adb1c9a',1,'EventDispUI']]],
   ['nextphysicsevent',['NextPhysicsEvent',['../df/dcd/classMainDaqParser.html#a82fee38c4e8fa7912e47085f7e66f97d',1,'MainDaqParser']]],
   ['nhistos',['nHistos',['../d3/d96/classFun4AllHistoManager.html#abacd0eae0fd26e6a6b55895348dcf402',1,'Fun4AllHistoManager']]],

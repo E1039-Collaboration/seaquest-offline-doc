@@ -13,7 +13,8 @@ var dir_1e3a55bacfbd23a6aba299383b6b7742 =
     [ "CalibParamInTimeV1495LinkDef.h", "d4/df5/CalibParamInTimeV1495LinkDef_8h.html", null ],
     [ "CalibParamXT.cc", "d4/d24/CalibParamXT_8cc.html", null ],
     [ "CalibParamXT.h", "d7/dc9/CalibParamXT_8h.html", [
-      [ "CalibParamXT", "da/d44/classCalibParamXT.html", "da/d44/classCalibParamXT" ]
+      [ "CalibParamXT", "da/d44/classCalibParamXT.html", "da/d44/classCalibParamXT" ],
+      [ "Set", "d4/d65/structCalibParamXT_1_1Set.html", "d4/d65/structCalibParamXT_1_1Set" ]
     ] ],
     [ "CalibParamXTLinkDef.h", "df/d5f/CalibParamXTLinkDef_8h.html", null ],
     [ "ChanMapScaler.cc", "d7/d16/ChanMapScaler_8cc.html", null ],

@@ -9,6 +9,7 @@ var structDecoParam =
     [ "chan_map_v1495", "d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa", null ],
     [ "codaID", "d3/df0/structDecoParam.html#afc0581b19eaaacd8a76010bc58624284", null ],
     [ "dir_param", "d3/df0/structDecoParam.html#aecd716f75393453ae9c1be0e6dc53c85", null ],
+    [ "event_count", "d3/df0/structDecoParam.html#afb5f8c0aa7daef230f92f69d07c212d9", null ],
     [ "eventIDstd", "d3/df0/structDecoParam.html#afc0817be79fba75709a6bcdac58adf4c", null ],
     [ "fn_in", "d3/df0/structDecoParam.html#ab54f813b7f9534223a196cc17e93261a", null ],
     [ "has_1st_bos", "d3/df0/structDecoParam.html#a13131be81059a410da1ec6786b277921", null ],

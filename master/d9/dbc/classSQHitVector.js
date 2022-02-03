@@ -15,6 +15,7 @@ var classSQHitVector =
     [ "end", "d9/dbc/classSQHitVector.html#afc94725c2663f4280cabaa5754a57f17", null ],
     [ "end", "d9/dbc/classSQHitVector.html#a9c2d37a481dface0329cdee5bf30ee43", null ],
     [ "erase", "d9/dbc/classSQHitVector.html#a52842b5cab692cf37da5eef1e22a8d65", null ],
+    [ "erase", "d9/dbc/classSQHitVector.html#ada22a85806151fa341d1d4fa249e7c35", null ],
     [ "identify", "d9/dbc/classSQHitVector.html#a2a8cef4d68548c7f690cb628cd5b89f6", null ],
     [ "isValid", "d9/dbc/classSQHitVector.html#aec2fc91873c0607de73c8ef51c6955b8", null ],
     [ "push_back", "d9/dbc/classSQHitVector.html#aeefecc59b07f9082de2629256f5d4675", null ],

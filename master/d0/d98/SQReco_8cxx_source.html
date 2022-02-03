@@ -401,334 +401,338 @@ $(document).ready(function(){initNavTree('d0/d98/SQReco_8cxx_source.html','../..
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;Entering SQReco::process_event: &quot;</span> &lt;&lt; _event);</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>()) ResetEvalVars();</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>)</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  {</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">if</span>(!_event_header) </div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_event_header&quot;</span>);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTRUN;</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">if</span>(!_spill_map) </div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    {</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_spill_map&quot;</span>);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTRUN;</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="keywordflow">if</span>(!_hit_vector) </div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    {</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_hit_vector&quot;</span>);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  }</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  std::unique_ptr&lt;SRawEvent&gt; up_raw_event;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>) </div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  {</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    up_raw_event = std::unique_ptr&lt;SRawEvent&gt;(BuildSRawEvent());</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    _rawEvent = up_raw_event.get();</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) </div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  {</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;SRawEvent before the Reducer&quot;</span>);</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    _rawEvent-&gt;<a class="code" href="../../d5/d83/classSRawEvent.html#af07729980c2ffa12b0d6b47d48cc91bc">identify</a>();</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  }</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="keywordflow">if</span>(_eventReducer != <span class="keyword">nullptr</span>) </div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  {</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    _eventReducer-&gt;<a class="code" href="../../d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c">reduceEvent</a>(_rawEvent);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>) updateHitInfo(_rawEvent);</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  }</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) </div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;  {</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;SRawEvent after the Reducer&quot;</span>);</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    _rawEvent-&gt;<a class="code" href="../../d5/d83/classSRawEvent.html#af07729980c2ffa12b0d6b47d48cc91bc">identify</a>();</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  }</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  <span class="keywordtype">int</span> finderstatus = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b">setRawEvent</a>(_rawEvent);</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container) </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  {</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff">setRawEvent</a>(_rawEvent);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a019729051374bee85e8778951606082a">setRecStatus</a>(finderstatus);</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  }</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a1a257ebca4e6139b8d762da69ece51fe">printTimers</a>();</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <span class="keywordtype">int</span> nTracklets = 0;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;  <span class="keywordtype">int</span> nFittedTracks = 0;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  std::list&lt;Tracklet&gt;&amp; rec_tracklets = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a5b5e33499e87762f2f4b3617c035eb73">getFinalTracklets</a>();</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = rec_tracklets.begin(); iter != rec_tracklets.end(); ++iter)</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  {</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    iter-&gt;calcChisq();</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) iter-&gt;print();</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordtype">bool</span> fitOK = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">if</span>(_enable_KF)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;      <span class="keywordflow">if</span>(_fitter_type == <a class="code" href="../../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081">SQReco::LEGACY</a>)</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        fitOK = fitTrackCand(*iter, _kfitter);</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        fitOK = fitTrackCand(*iter, _gfitter);</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    }</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordflow">if</span>(!fitOK)</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> recTrack = iter-&gt;getSRecTrack(_enable_KF &amp;&amp; (_fitter_type == <a class="code" href="../../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081">SQReco::LEGACY</a>));</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      recTrack.<a class="code" href="../../d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594">setKalmanStatus</a>(-1);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;      </div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      fillRecTrack(recTrack);</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    }</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    {</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      ++nFittedTracks;</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>()) <span class="keyword">new</span>((*_tracklets)[nTracklets]) <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>(*iter);</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>()) _tracklet_vector-&gt;<a class="code" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">push_back</a>(&amp;(*iter));</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    ++nTracklets;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  }</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;  <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;Leaving SQReco::process_event: &quot;</span> &lt;&lt; _event &lt;&lt; <span class="stringliteral">&quot;, finder status &quot;</span> &lt;&lt; finderstatus &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; nTracklets &lt;&lt; <span class="stringliteral">&quot; track candidates, &quot;</span> &lt;&lt; nFittedTracks &lt;&lt; <span class="stringliteral">&quot; fitted tracks&quot;</span>);</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <span class="comment">//add additional eval information if applicable</span></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>() || <a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>())</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  {</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; _eval_listIDs.size(); ++i)</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    {</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;      std::list&lt;Tracklet&gt;&amp; eval_tracklets = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a45752f6ef79a4e7449eff0c78d4e8c6f">getTrackletList</a>(_eval_listIDs[i]);</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;      <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = eval_tracklets.begin(); iter != eval_tracklets.end(); ++iter)</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      {</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>())</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        {</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;          <span class="keyword">new</span>((*_tracklets)[nTracklets]) <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>(*iter);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;          ++nTracklets;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        }</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>()) _tracklet_vector-&gt;<a class="code" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">push_back</a>(&amp;(*iter));</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      }</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    }</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  }</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  </div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>() &amp;&amp; nTracklets &gt; 0) _eval_tree-&gt;Fill();</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  ++_event;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;}</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
-<div class="line"><a name="l00408"></a><span class="lineno"><a class="line" href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">  408</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">SQReco::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;{</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) std::cout &lt;&lt; <span class="stringliteral">&quot;SQReco::End&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>())</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  {</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <a class="code" href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">PHTFileServer::get</a>().<a class="code" href="../../d3/d2b/classPHTFileServer.html#ac4e4f66af63e11c709628712c43c5dc9">cd</a>(_eval_file_name.Data());</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    _eval_tree-&gt;Write();</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;  }</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  <span class="keyword">delete</span> _fastfinder;</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;  <span class="keywordflow">if</span>(_gfitter != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _gfitter;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;}</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;<span class="keywordtype">bool</span> SQReco::fitTrackCand(<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>&amp; tracklet, <a class="code" href="../../d3/dc9/classKalmanFitter.html">KalmanFitter</a>* fitter)</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;{</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;  <a class="code" href="../../d9/dc3/classKalmanTrack.html">KalmanTrack</a> kmtrk;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;  kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210">setTracklet</a>(tracklet);</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;  <span class="keywordflow">if</span>(kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a5131a89f46b93d34ece2b08c442845cc">getNodeList</a>().empty()) </div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;  {</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kmtrk nodelist empty&quot;</span>);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;  }</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;  <span class="keywordflow">if</span>(_kfitter-&gt;<a class="code" href="../../d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d">processOneTrack</a>(kmtrk) == 0)</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;  {</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kFitter failed to converge&quot;</span>);</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;  }</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;  _kfitter-&gt;<a class="code" href="../../d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c">updateTrack</a>(kmtrk);<span class="comment">//update after fitting</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>()) _tracklet_vector-&gt;<a class="code" href="../../d5/dba/classTrackletVector.html#ab6c2454fb69b1d8975959c232a1c332f">clear</a>();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>)</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;  {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">if</span>(!_event_header) </div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_event_header&quot;</span>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTRUN;</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    }</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <span class="keywordflow">if</span>(!_spill_map) </div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_spill_map&quot;</span>);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTRUN;</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">if</span>(!_hit_vector) </div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_hit_vector&quot;</span>);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  std::unique_ptr&lt;SRawEvent&gt; up_raw_event;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>) </div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;  {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    up_raw_event = std::unique_ptr&lt;SRawEvent&gt;(BuildSRawEvent());</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    _rawEvent = up_raw_event.get();</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) </div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;  {</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;SRawEvent before the Reducer&quot;</span>);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    _rawEvent-&gt;<a class="code" href="../../d5/d83/classSRawEvent.html#af07729980c2ffa12b0d6b47d48cc91bc">identify</a>();</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  <span class="keywordflow">if</span>(_eventReducer != <span class="keyword">nullptr</span>) </div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;  {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    _eventReducer-&gt;<a class="code" href="../../d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c">reduceEvent</a>(_rawEvent);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>) updateHitInfo(_rawEvent);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  }</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) </div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;SRawEvent after the Reducer&quot;</span>);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    _rawEvent-&gt;<a class="code" href="../../d5/d83/classSRawEvent.html#af07729980c2ffa12b0d6b47d48cc91bc">identify</a>();</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;  }</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  <span class="keywordtype">int</span> finderstatus = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b">setRawEvent</a>(_rawEvent);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container) </div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;  {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a79c7950118ac5e00c6a7e2e1ef4301ff">setRawEvent</a>(_rawEvent);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a019729051374bee85e8778951606082a">setRecStatus</a>(finderstatus);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;  }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a1a257ebca4e6139b8d762da69ece51fe">printTimers</a>();</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  <span class="keywordtype">int</span> nTracklets = 0;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;  <span class="keywordtype">int</span> nFittedTracks = 0;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;  std::list&lt;Tracklet&gt;&amp; rec_tracklets = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a5b5e33499e87762f2f4b3617c035eb73">getFinalTracklets</a>();</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = rec_tracklets.begin(); iter != rec_tracklets.end(); ++iter)</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    iter-&gt;calcChisq();</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>) iter-&gt;print();</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordtype">bool</span> fitOK = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">if</span>(_enable_KF)</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">if</span>(_fitter_type == <a class="code" href="../../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081">SQReco::LEGACY</a>)</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        fitOK = fitTrackCand(*iter, _kfitter);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        fitOK = fitTrackCand(*iter, _gfitter);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">if</span>(!fitOK)</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    {</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;      <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> recTrack = iter-&gt;getSRecTrack(_enable_KF &amp;&amp; (_fitter_type == <a class="code" href="../../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0af6b1e879fffdc86eb3aab80053074081">SQReco::LEGACY</a>));</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      recTrack.<a class="code" href="../../d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594">setKalmanStatus</a>(-1);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;      </div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      fillRecTrack(recTrack);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    }</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    {</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      ++nFittedTracks;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    }</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>()) <span class="keyword">new</span>((*_tracklets)[nTracklets]) <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>(*iter);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>()) _tracklet_vector-&gt;<a class="code" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">push_back</a>(&amp;(*iter));</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    ++nTracklets;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;  }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;  <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;Leaving SQReco::process_event: &quot;</span> &lt;&lt; _event &lt;&lt; <span class="stringliteral">&quot;, finder status &quot;</span> &lt;&lt; finderstatus &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; nTracklets &lt;&lt; <span class="stringliteral">&quot; track candidates, &quot;</span> &lt;&lt; nFittedTracks &lt;&lt; <span class="stringliteral">&quot; fitted tracks&quot;</span>);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  <span class="comment">//add additional eval information if applicable</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>() || <a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>())</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;  {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; _eval_listIDs.size(); ++i)</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      std::list&lt;Tracklet&gt;&amp; eval_tracklets = _fastfinder-&gt;<a class="code" href="../../d3/d46/classKalmanFastTracking.html#a45752f6ef79a4e7449eff0c78d4e8c6f">getTrackletList</a>(_eval_listIDs[i]);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;      <span class="keywordflow">for</span>(<span class="keyword">auto</span> iter = eval_tracklets.begin(); iter != eval_tracklets.end(); ++iter)</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;      {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>())</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        {</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;          <span class="keyword">new</span>((*_tracklets)[nTracklets]) <a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>(*iter);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;          ++nTracklets;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714">is_eval_dst_enabled</a>()) _tracklet_vector-&gt;<a class="code" href="../../d5/dba/classTrackletVector.html#ae5cfaede448884011ecfffbc4887ae8c">push_back</a>(&amp;(*iter));</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      }</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  </div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>() &amp;&amp; nTracklets &gt; 0) _eval_tree-&gt;Fill();</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  ++_event;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;}</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
+<div class="line"><a name="l00410"></a><span class="lineno"><a class="line" href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">  410</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">SQReco::End</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;{</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) std::cout &lt;&lt; <span class="stringliteral">&quot;SQReco::End&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b">is_eval_enabled</a>())</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  {</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <a class="code" href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">PHTFileServer::get</a>().<a class="code" href="../../d3/d2b/classPHTFileServer.html#ac4e4f66af63e11c709628712c43c5dc9">cd</a>(_eval_file_name.Data());</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    _eval_tree-&gt;Write();</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  }</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;  <span class="keyword">delete</span> _fastfinder;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;  <span class="keywordflow">if</span>(_gfitter != <span class="keyword">nullptr</span>) <span class="keyword">delete</span> _gfitter;</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;<span class="keywordtype">bool</span> SQReco::fitTrackCand(<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>&amp; tracklet, <a class="code" href="../../d3/dc9/classKalmanFitter.html">KalmanFitter</a>* fitter)</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;{</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;  <a class="code" href="../../d9/dc3/classKalmanTrack.html">KalmanTrack</a> kmtrk;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;  kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210">setTracklet</a>(tracklet);</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  <span class="keywordflow">if</span>(kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a5131a89f46b93d34ece2b08c442845cc">getNodeList</a>().empty()) </div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;  {</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kmtrk nodelist empty&quot;</span>);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;  }</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;  <span class="keywordflow">if</span>(_kfitter-&gt;<a class="code" href="../../d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d">processOneTrack</a>(kmtrk) == 0)</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;  {</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kFitter failed to converge&quot;</span>);</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;  }</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;  <span class="keywordflow">if</span>(!kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81">isValid</a>()) </div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;  {</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kmtrk quality cut failed&quot;</span>);</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;  }</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> strack = kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a38e275864291b276a96abd8c50de4282">getSRecTrack</a>();</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;  _kfitter-&gt;<a class="code" href="../../d3/dc9/classKalmanFitter.html#a87c3f1aaaae5bd73d76b7383cbf72b5c">updateTrack</a>(kmtrk);<span class="comment">//update after fitting</span></div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;  <span class="keywordflow">if</span>(!kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81">isValid</a>()) </div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;  {</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;kmtrk quality cut failed&quot;</span>);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;  }</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;  <span class="comment">//Set trigger road ID</span></div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;  <a class="code" href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a> road(tracklet);</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8">setTriggerRoad</a>(road.getRoadID());</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;  <span class="comment">//Set prop tube slopes</span></div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa">setNHitsInPT</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>(), tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>());</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c">setPTSlope</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>, tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>);</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594">setKalmanStatus</a>(1);</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;  fillRecTrack(strack);</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;}</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="keywordtype">bool</span> SQReco::fitTrackCand(<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>&amp; tracklet, <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html">SQGenFit::GFFitter</a>* fitter)</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;{</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html">SQGenFit::GFTrack</a> gftrk;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8">setTracklet</a>(tracklet);</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;  <span class="keywordtype">int</span> fitOK = _gfitter-&gt;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">processTrack</a>(gftrk);</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  <span class="keywordflow">if</span>(fitOK != 0)</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  {</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;gFitter failed to converge.&quot;</span>);</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  }</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>)</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;  {</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168">postFitUpdate</a>();</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a11e6a9fba368ce5f8116ad4d660e4c52">print</a>(2);</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;  }</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;  <span class="comment">//TODO: A gtrack quality cut?</span></div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;  <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> strack = kmtrk.<a class="code" href="../../d9/dc3/classKalmanTrack.html#a38e275864291b276a96abd8c50de4282">getSRecTrack</a>();</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  <span class="comment">//Set trigger road ID</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;  <a class="code" href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a> road(tracklet);</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8">setTriggerRoad</a>(road.getRoadID());</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;  <span class="comment">//Set prop tube slopes</span></div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa">setNHitsInPT</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>(), tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>());</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c">setPTSlope</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>, tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594">setKalmanStatus</a>(1);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;  fillRecTrack(strack);</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;}</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;<span class="keywordtype">bool</span> SQReco::fitTrackCand(<a class="code" href="../../d2/d26/classTracklet.html">Tracklet</a>&amp; tracklet, <a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html">SQGenFit::GFFitter</a>* fitter)</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;{</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;  <a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html">SQGenFit::GFTrack</a> gftrk;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;  gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#aa12a74dbecdfcb395e1e3b44859ce6b8">setTracklet</a>(tracklet);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  <span class="keywordtype">int</span> fitOK = _gfitter-&gt;<a class="code" href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">processTrack</a>(gftrk);</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;  <span class="keywordflow">if</span>(fitOK != 0)</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;  {</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;gFitter failed to converge.&quot;</span>);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;  }</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;  <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51da89a3bd26adbef9dd283a2b739c7729fd">Fun4AllBase::VERBOSITY_A_LOT</a>)</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;  {</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a2e82f17d76cfb0e2f1b74e7199a42168">postFitUpdate</a>();</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a11e6a9fba368ce5f8116ad4d660e4c52">print</a>(2);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;  }</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;  <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> strack = gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658">getSRecTrack</a>();</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;  <span class="comment">//TODO: A gtrack quality cut?</span></div>
 <div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;  <span class="comment">//Set trigger road ID</span></div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;  <a class="code" href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a> road(tracklet);</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8">setTriggerRoad</a>(road.getRoadID());</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;  <span class="comment">//Set prop tube slopes</span></div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa">setNHitsInPT</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>(), tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>());</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c">setPTSlope</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>, tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>);</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;  fillRecTrack(strack);</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;}</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="keywordtype">int</span> SQReco::InitEvalTree() </div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;{</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;  <a class="code" href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">PHTFileServer::get</a>().<a class="code" href="../../d3/d2b/classPHTFileServer.html#aaae99c6748eb17d5f8d7df375bc6d615">open</a>(_eval_file_name.Data(), <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;  _tracklets = <span class="keyword">new</span> TClonesArray(<span class="stringliteral">&quot;Tracklet&quot;</span>);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;  <a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a> strack = gftrk.<a class="code" href="../../d2/d6b/classSQGenFit_1_1GFTrack.html#a4c47a82cf378aae1787e2dc4d168b658">getSRecTrack</a>();</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;  <span class="comment">//Set trigger road ID</span></div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;  <a class="code" href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a> road(tracklet);</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8">setTriggerRoad</a>(road.getRoadID());</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;  <span class="comment">//Set prop tube slopes</span></div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa">setNHitsInPT</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>(), tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5">getNHits</a>());</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;  strack.<a class="code" href="../../d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c">setPTSlope</a>(tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a0729198d627af737f3e8795b92a6aa3e">seg_x</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>, tracklet.<a class="code" href="../../d2/d26/classTracklet.html#a2876bb98d149261b479e461f6db1e272">seg_y</a>.<a class="code" href="../../d0/d1e/classPropSegment.html#a60ab1ec29dac3ba6780a9044d98ccbf8">a</a>);</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;  fillRecTrack(strack);</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;}</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;<span class="keywordtype">int</span> SQReco::InitEvalTree() </div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;{</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;  <a class="code" href="../../d3/d2b/classPHTFileServer.html#a5a3ed7a2a70cc2e38dbe1cb33afe9c2f">PHTFileServer::get</a>().<a class="code" href="../../d3/d2b/classPHTFileServer.html#aaae99c6748eb17d5f8d7df375bc6d615">open</a>(_eval_file_name.Data(), <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;  _eval_tree = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;eval&quot;</span>, <span class="stringliteral">&quot;eval&quot;</span>);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;  _eval_tree-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;_event, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;  _eval_tree-&gt;Branch(<span class="stringliteral">&quot;tracklets&quot;</span>, &amp;_tracklets, 256000, 99);</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;  _tracklets-&gt;BypassStreamer();</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;}</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;<span class="keywordtype">int</span> SQReco::ResetEvalVars() </div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;{</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;  _tracklets-&gt;Clear();</div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;}</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;<span class="keywordtype">void</span> SQReco::fillRecTrack(<a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a>&amp; recTrack)</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;{</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container)</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a5629c2c2cb30f4df56891b9b48cc52b0">insertTrack</a>(recTrack);</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    _recTrackVec-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a30b5210d63658fde39a1928e9ac46381">push_back</a>(&amp;recTrack);</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;}</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;<span class="keywordtype">int</span> SQReco::MakeNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;{</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;  <a class="code" href="../../d5/d07/classPHNodeIterator.html">PHNodeIterator</a> iter(topNode);</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;  <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* eventNode = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*<span class="keyword">&gt;</span>(iter.findFirst(<span class="stringliteral">&quot;PHCompositeNode&quot;</span>, <span class="stringliteral">&quot;DST&quot;</span>));</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;  <span class="keywordflow">if</span>(!eventNode) </div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;  {</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;No DST node, create one&quot;</span>);</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    eventNode = <span class="keyword">new</span> <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>(<span class="stringliteral">&quot;DST&quot;</span>);</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    topNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(eventNode);</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;  }</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container)</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;  {</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    _recEvent = findNode::getClass&lt;SRecEvent&gt;(topNode, <span class="stringliteral">&quot;SRecEvent&quot;</span>); <span class="comment">// Could exist when the tracking is re-done.</span></div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <span class="keywordflow">if</span>(!_recEvent) {</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      _recEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>();</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;      eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(<span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_recEvent, <span class="stringliteral">&quot;SRecEvent&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>));</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/SRecEvent Added&quot;</span>);</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;    }</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;  }</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;  {</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    _recTrackVec = <span class="keyword">new</span> <a class="code" href="../../d6/d0b/classSQTrackVector__v1.html">SQTrackVector_v1</a>();</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>* recEventNode = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_recTrackVec, <span class="stringliteral">&quot;SQRecTrackVector&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(recEventNode);</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/SQRecTrackVector Added&quot;</span>);</div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;  }</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;  <span class="keywordflow">if</span>(_enable_eval_dst)</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;  {</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    _tracklet_vector = <span class="keyword">new</span> <a class="code" href="../../d5/dba/classTrackletVector.html">TrackletVector</a>();</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    _tracklet_vector-&gt;<a class="code" href="../../d9/d24/classPHObject.html#ab31eb105fb44d43de8f1a77709ed3ed4">SplitLevel</a>(99);</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>* trackletVecNode = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_tracklet_vector, <span class="stringliteral">&quot;TrackletVector&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(trackletVecNode);</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/TrackletVector Added&quot;</span>);</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  }</div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;}</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;</div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;<span class="keywordtype">int</span> SQReco::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;{</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>)</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  {</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    _run_header = findNode::getClass&lt;SQRun&gt;(topNode, <span class="stringliteral">&quot;SQRun&quot;</span>);</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    <span class="keywordflow">if</span>(!_run_header) </div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    {</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_run_header&quot;</span>);</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    }</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    _spill_map = findNode::getClass&lt;SQSpillMap&gt;(topNode, <span class="stringliteral">&quot;SQSpillMap&quot;</span>);</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">if</span>(!_spill_map) </div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    {</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_spill_map&quot;</span>);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    }</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    _event_header = findNode::getClass&lt;SQEvent&gt;(topNode, <span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <span class="keywordflow">if</span>(!_event_header) </div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    {</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_event_header&quot;</span>);</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    }</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    _hit_vector = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <span class="keywordflow">if</span>(!_hit_vector) </div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    {</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;      <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_hit_vector&quot;</span>);</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    }</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    _triggerhit_vector = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQTriggerHitVector&quot;</span>);</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <span class="keywordflow">if</span>(!_triggerhit_vector) </div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    {</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_triggerhit_vector&quot;</span>);</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    }</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;  }</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;  {</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    _rawEvent = findNode::getClass&lt;SRawEvent&gt;(topNode, <span class="stringliteral">&quot;SRawEvent&quot;</span>);</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keywordflow">if</span>(_rawEvent) </div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    {</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Using SRawEvent as input for E906-like data input&quot;</span>);</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    }</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;  }</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;}</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;</div>
-<div class="line"><a name="l00615"></a><span class="lineno"><a class="line" href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">  615</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">SQReco::add_eval_list</a>(<span class="keywordtype">int</span> listID)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;{</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;  <span class="keywordflow">if</span>(std::find(_eval_listIDs.begin(), _eval_listIDs.end(), listID) == _eval_listIDs.end())</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;  {</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    _eval_listIDs.push_back(listID);</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;  }</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;}</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;  _tracklets = <span class="keyword">new</span> TClonesArray(<span class="stringliteral">&quot;Tracklet&quot;</span>);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;  _eval_tree = <span class="keyword">new</span> TTree(<span class="stringliteral">&quot;eval&quot;</span>, <span class="stringliteral">&quot;eval&quot;</span>);</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;  _eval_tree-&gt;Branch(<span class="stringliteral">&quot;eventID&quot;</span>, &amp;_event, <span class="stringliteral">&quot;eventID/I&quot;</span>);</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;  _eval_tree-&gt;Branch(<span class="stringliteral">&quot;tracklets&quot;</span>, &amp;_tracklets, 256000, 99);</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;  _tracklets-&gt;BypassStreamer();</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;}</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;<span class="keywordtype">int</span> SQReco::ResetEvalVars() </div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;{</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;  _tracklets-&gt;Clear();</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;}</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;<span class="keywordtype">void</span> SQReco::fillRecTrack(<a class="code" href="../../d6/db1/classSRecTrack.html">SRecTrack</a>&amp; recTrack)</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;{</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container)</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    _recEvent-&gt;<a class="code" href="../../d5/d2f/classSRecEvent.html#a5629c2c2cb30f4df56891b9b48cc52b0">insertTrack</a>(recTrack);</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    _recTrackVec-&gt;<a class="code" href="../../db/d03/classSQTrackVector.html#a30b5210d63658fde39a1928e9ac46381">push_back</a>(&amp;recTrack);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;}</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;<span class="keywordtype">int</span> SQReco::MakeNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;{</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;  <a class="code" href="../../d5/d07/classPHNodeIterator.html">PHNodeIterator</a> iter(topNode);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;  <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* eventNode = <span class="keyword">static_cast&lt;</span><a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>*<span class="keyword">&gt;</span>(iter.findFirst(<span class="stringliteral">&quot;PHCompositeNode&quot;</span>, <span class="stringliteral">&quot;DST&quot;</span>));</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;  <span class="keywordflow">if</span>(!eventNode) </div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;  {</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;No DST node, create one&quot;</span>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    eventNode = <span class="keyword">new</span> <a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>(<span class="stringliteral">&quot;DST&quot;</span>);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    topNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(eventNode);</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;  }</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;  <span class="keywordflow">if</span>(_legacy_rec_container)</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;  {</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    _recEvent = findNode::getClass&lt;SRecEvent&gt;(topNode, <span class="stringliteral">&quot;SRecEvent&quot;</span>); <span class="comment">// Could exist when the tracking is re-done.</span></div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <span class="keywordflow">if</span>(!_recEvent) {</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      _recEvent = <span class="keyword">new</span> <a class="code" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>();</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(<span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_recEvent, <span class="stringliteral">&quot;SRecEvent&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>));</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/SRecEvent Added&quot;</span>);</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    }</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;  }</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;  {</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    _recTrackVec = <span class="keyword">new</span> <a class="code" href="../../d6/d0b/classSQTrackVector__v1.html">SQTrackVector_v1</a>();</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>* recEventNode = <span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_recTrackVec, <span class="stringliteral">&quot;SQRecTrackVector&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>);</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(recEventNode);</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/SQRecTrackVector Added&quot;</span>);</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;  }</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;  <span class="keywordflow">if</span>(_enable_eval_dst)</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;  {</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    _tracklet_vector = findNode::getClass&lt;TrackletVector&gt;(topNode, <span class="stringliteral">&quot;TrackletVector&quot;</span>); <span class="comment">// Could exist when the tracking is re-done.</span></div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    <span class="keywordflow">if</span>(!_tracklet_vector) {</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;      _tracklet_vector = <span class="keyword">new</span> <a class="code" href="../../d5/dba/classTrackletVector.html">TrackletVector</a>();</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;      _tracklet_vector-&gt;<a class="code" href="../../d9/d24/classPHObject.html#ab31eb105fb44d43de8f1a77709ed3ed4">SplitLevel</a>(99);</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;      eventNode-&gt;<a class="code" href="../../d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf">addNode</a>(<span class="keyword">new</span> <a class="code" href="../../d9/dde/classPHIODataNode.html">PHIODataNode&lt;PHObject&gt;</a>(_tracklet_vector, <span class="stringliteral">&quot;TrackletVector&quot;</span>, <span class="stringliteral">&quot;PHObject&quot;</span>));</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt;= <a class="code" href="../../d5/dec/classFun4AllBase.html#ac73557a95e7a7eb06cf07af95430c51daf9d7c93b85147bb85ae2d50bde1efe09">Fun4AllBase::VERBOSITY_SOME</a>) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;DST/TrackletVector Added&quot;</span>);</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    }</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;  }</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;}</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;<span class="keywordtype">int</span> SQReco::GetNodes(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode) </div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;{</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;  <span class="keywordflow">if</span>(_input_type == <a class="code" href="../../df/df2/classSQReco.html#a05f654bf20f7a897ef98b2d1825bec25a0df820c3cf96c646f2252520749eb051">SQReco::E1039</a>)</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;  {</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    _run_header = findNode::getClass&lt;SQRun&gt;(topNode, <span class="stringliteral">&quot;SQRun&quot;</span>);</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <span class="keywordflow">if</span>(!_run_header) </div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    {</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_run_header&quot;</span>);</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    }</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    _spill_map = findNode::getClass&lt;SQSpillMap&gt;(topNode, <span class="stringliteral">&quot;SQSpillMap&quot;</span>);</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    <span class="keywordflow">if</span>(!_spill_map) </div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    {</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_spill_map&quot;</span>);</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    }</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    _event_header = findNode::getClass&lt;SQEvent&gt;(topNode, <span class="stringliteral">&quot;SQEvent&quot;</span>);</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <span class="keywordflow">if</span>(!_event_header) </div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    {</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_event_header&quot;</span>);</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    }</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    _hit_vector = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQHitVector&quot;</span>);</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    <span class="keywordflow">if</span>(!_hit_vector) </div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    {</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;      <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_hit_vector&quot;</span>);</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a>;</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    }</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    _triggerhit_vector = findNode::getClass&lt;SQHitVector&gt;(topNode, <span class="stringliteral">&quot;SQTriggerHitVector&quot;</span>);</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    <span class="keywordflow">if</span>(!_triggerhit_vector) </div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    {</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 2) <a class="code" href="../../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b">LogDebug</a>(<span class="stringliteral">&quot;!_triggerhit_vector&quot;</span>);</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;      <span class="comment">//return Fun4AllReturnCodes::ABORTEVENT;</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    }</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;  }</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;  <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;  {</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    _rawEvent = findNode::getClass&lt;SRawEvent&gt;(topNode, <span class="stringliteral">&quot;SRawEvent&quot;</span>);</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">if</span>(_rawEvent) </div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    {</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;      <span class="keywordflow">if</span>(<a class="code" href="../../d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40">Verbosity</a>() &gt; 0) <a class="code" href="../../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba">LogInfo</a>(<span class="stringliteral">&quot;Using SRawEvent as input for E906-like data input&quot;</span>);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    }</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;  }</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723affeaf5c83d68b72a5c44f2660d44ab6b">Fun4AllReturnCodes::EVENT_OK</a>;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;}</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
+<div class="line"><a name="l00619"></a><span class="lineno"><a class="line" href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">  619</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">SQReco::add_eval_list</a>(<span class="keywordtype">int</span> listID)</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;{</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;  <span class="keywordflow">if</span>(std::find(_eval_listIDs.begin(), _eval_listIDs.end(), listID) == _eval_listIDs.end())</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;  {</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    _eval_listIDs.push_back(listID);</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;  }</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;}</div>
 <div class="ttc" id="classKalmanFastTracking_html_ada493cf8d995c42b9e78a53b891ce72b"><div class="ttname"><a href="../../d3/d46/classKalmanFastTracking.html#ada493cf8d995c42b9e78a53b891ce72b">KalmanFastTracking::setRawEvent</a></div><div class="ttdeci">int setRawEvent(SRawEvent *event_input)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00428">KalmanFastTracking.cxx:428</a></div></div>
 <div class="ttc" id="SQHit_8h_html"><div class="ttname"><a href="../../d1/ddf/SQHit_8h.html">SQHit.h</a></div></div>
 <div class="ttc" id="recoConsts_8h_html"><div class="ttname"><a href="../../d2/dcb/recoConsts_8h.html">recoConsts.h</a></div></div>
@@ -793,6 +797,7 @@ $(document).ready(function(){initNavTree('d0/d98/SQReco_8cxx_source.html','../..
 <div class="ttc" id="classSQHitVector_html_a77ceaf92de0b9ab85eafad0770d0db4b"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html#a77ceaf92de0b9ab85eafad0770d0db4b">SQHitVector::at</a></div><div class="ttdeci">virtual const SQHit * at(const size_t idkey) const </div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddd/SQHitVector_8h_source.html#l00053">SQHitVector.h:53</a></div></div>
 <div class="ttc" id="classSQReco_html_ac004a60404bdead688bea035eab4cbb0"><div class="ttname"><a href="../../df/df2/classSQReco.html#ac004a60404bdead688bea035eab4cbb0">SQReco::~SQReco</a></div><div class="ttdeci">virtual ~SQReco()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d98/SQReco_8cxx_source.html#l00085">SQReco.cxx:85</a></div></div>
 <div class="ttc" id="classTriggerRoad_html"><div class="ttname"><a href="../../d5/d72/classTriggerRoad.html">TriggerRoad</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/TriggerRoad_8h_source.html#l00016">TriggerRoad.h:16</a></div></div>
+<div class="ttc" id="classTrackletVector_html_ab6c2454fb69b1d8975959c232a1c332f"><div class="ttname"><a href="../../d5/dba/classTrackletVector.html#ab6c2454fb69b1d8975959c232a1c332f">TrackletVector::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d06/FastTracklet_8h_source.html#l00266">FastTracklet.h:266</a></div></div>
 <div class="ttc" id="classPHCompositeNode_html"><div class="ttname"><a href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d30/PHCompositeNode_8h_source.html#l00014">PHCompositeNode.h:14</a></div></div>
 <div class="ttc" id="PHIODataNode_8h_html"><div class="ttname"><a href="../../d3/d79/PHIODataNode_8h.html">PHIODataNode.h</a></div></div>
 <div class="ttc" id="namespaceUtilSRawEvent_html_a585264b4e2fdc064ef63179ce96c30a2"><div class="ttname"><a href="../../d6/d43/namespaceUtilSRawEvent.html#a585264b4e2fdc064ef63179ce96c30a2">UtilSRawEvent::SetHit</a></div><div class="ttdeci">bool SetHit(SRawEvent *sraw, const SQHitVector *hit_vec, std::map&lt; int, size_t &gt; *hitID_idx=0, const bool do_assert=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d0b/UtilSRawEvent_8cxx_source.html#l00048">UtilSRawEvent.cxx:48</a></div></div>
@@ -841,7 +846,7 @@ $(document).ready(function(){initNavTree('d0/d98/SQReco_8cxx_source.html','../..
 <div class="ttc" id="classKalmanFastTracking_html"><div class="ttname"><a href="../../d3/d46/classKalmanFastTracking.html">KalmanFastTracking</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/db6/KalmanFastTracking_8h_source.html#l00034">KalmanFastTracking.h:34</a></div></div>
 <div class="ttc" id="classPHTFileServer_html_aaae99c6748eb17d5f8d7df375bc6d615"><div class="ttname"><a href="../../d3/d2b/classPHTFileServer.html#aaae99c6748eb17d5f8d7df375bc6d615">PHTFileServer::open</a></div><div class="ttdeci">void open(const std::string &amp;filename, const std::string &amp;type=&quot;RECREATE&quot;)</div><div class="ttdoc">open a SafeTFile. If filename is not found in the map, create a new TFile and append to the map; incr...</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/PHTFileServer_8cxx_source.html#l00029">PHTFileServer.cxx:29</a></div></div>
 <div class="ttc" id="classKalmanTrack_html_a8024f527b25df1f1ec4bb31972473b81"><div class="ttname"><a href="../../d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81">KalmanTrack::isValid</a></div><div class="ttdeci">bool isValid()</div><div class="ttdoc">Self check to see if it is null. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dac/KalmanTrack_8cxx_source.html#l00096">KalmanTrack.cxx:96</a></div></div>
-<div class="ttc" id="classSQReco_html_aa20ec491fe4eb02a46cc927bf301530f"><div class="ttname"><a href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">SQReco::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d98/SQReco_8cxx_source.html#l00408">SQReco.cxx:408</a></div></div>
+<div class="ttc" id="classSQReco_html_aa20ec491fe4eb02a46cc927bf301530f"><div class="ttname"><a href="../../df/df2/classSQReco.html#aa20ec491fe4eb02a46cc927bf301530f">SQReco::End</a></div><div class="ttdeci">int End(PHCompositeNode *topNode)</div><div class="ttdoc">Called at the end of all processing. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d98/SQReco_8cxx_source.html#l00410">SQReco.cxx:410</a></div></div>
 <div class="ttc" id="classSQGenFit_1_1GFFitter_html_ad51fae247e8bb6cf75b6d82d230403c2"><div class="ttname"><a href="../../d8/d77/classSQGenFit_1_1GFFitter.html#ad51fae247e8bb6cf75b6d82d230403c2">SQGenFit::GFFitter::processTrack</a></div><div class="ttdeci">int processTrack(GFTrack &amp;track, bool display=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d43/GFFitter_8cxx_source.html#l00050">GFFitter.cxx:50</a></div></div>
 <div class="ttc" id="namespaceFun4AllReturnCodes_html_aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9"><div class="ttname"><a href="../../d1/d38/namespaceFun4AllReturnCodes.html#aa345e6d8902d9b0cda19d43a7b073723ab9766759fe935d370dc201e057e63bf9">Fun4AllReturnCodes::ABORTEVENT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes.h:7</a></div></div>
 <div class="ttc" id="PHTFileServer_8h_html"><div class="ttname"><a href="../../d6/de6/PHTFileServer_8h.html">PHTFileServer.h</a></div><div class="ttdoc">TFile clean handling. </div></div>
@@ -854,7 +859,7 @@ $(document).ready(function(){initNavTree('d0/d98/SQReco_8cxx_source.html','../..
 <div class="ttc" id="PHNodeIterator_8h_html"><div class="ttname"><a href="../../d8/dfd/PHNodeIterator_8h.html">PHNodeIterator.h</a></div></div>
 <div class="ttc" id="classSQReco_html_a42d818bfe072e39760c48da8803dd3c0ab361121968d67698dc68c8515726ce67"><div class="ttname"><a href="../../df/df2/classSQReco.html#a42d818bfe072e39760c48da8803dd3c0ab361121968d67698dc68c8515726ce67">SQReco::KFREF</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dde/SQReco_8h_source.html#l00046">SQReco.h:46</a></div></div>
 <div class="ttc" id="classSQSpillMap_html_a1351e39720be4745cbed2b2a1f0f33ea"><div class="ttname"><a href="../../d7/d87/classSQSpillMap.html#a1351e39720be4745cbed2b2a1f0f33ea">SQSpillMap::get</a></div><div class="ttdeci">virtual const SQSpill * get(unsigned int idkey) const </div><div class="ttdoc">Return the SQSpill entry having spill ID = &amp;#39;idkey&amp;#39;. Return &amp;#39;0&amp;#39; if no entry exists. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d81/SQSpillMap_8h_source.html#l00041">SQSpillMap.h:41</a></div></div>
-<div class="ttc" id="classSQReco_html_ac4a887882255c3ed9540ca605b98d264"><div class="ttname"><a href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">SQReco::add_eval_list</a></div><div class="ttdeci">void add_eval_list(int listID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d98/SQReco_8cxx_source.html#l00615">SQReco.cxx:615</a></div></div>
+<div class="ttc" id="classSQReco_html_ac4a887882255c3ed9540ca605b98d264"><div class="ttname"><a href="../../df/df2/classSQReco.html#ac4a887882255c3ed9540ca605b98d264">SQReco::add_eval_list</a></div><div class="ttdeci">void add_eval_list(int listID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d98/SQReco_8cxx_source.html#l00619">SQReco.cxx:619</a></div></div>
 <div class="ttc" id="classKalmanFitter_html_a36692b492f189bfdcf521fb4e7ed491d"><div class="ttname"><a href="../../d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d">KalmanFitter::processOneTrack</a></div><div class="ttdeci">int processOneTrack(KalmanTrack &amp;_track)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/KalmanFitter_8cxx_source.html#l00051">KalmanFitter.cxx:51</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -866,7 +871,7 @@ $(document).ready(function(){initNavTree('d0/d98/SQReco_8cxx_source.html','../..
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_8dd800435d9fa50a0a309cbf892633ea.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_3980a51e8d33af599989cef77cf718ce.html">ktracker</a></li><li class="navelem"><a class="el" href="../../d0/d98/SQReco_8cxx.html">SQReco.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Feb 2 2022 10:50:08</em> using <a
+			updated: <em>Wed Feb 2 2022 23:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

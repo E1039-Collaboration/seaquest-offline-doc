@@ -115,9 +115,9 @@ $(document).ready(function(){initNavTree('d3/d9b/UploadGeomParam_8C.html','../..
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a848a5f72fcdaa3c113387cdabf946afe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html#a848a5f72fcdaa3c113387cdabf946afe">UploadGeomParam</a> (const std::string map_id=&quot;G9_run5_2&quot;)</td></tr>
-<tr class="memdesc:a848a5f72fcdaa3c113387cdabf946afe"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a>: Macro to upload the geometry parameter from tsv file to MySQL DB.  <a href="#a848a5f72fcdaa3c113387cdabf946afe">More...</a><br/></td></tr>
-<tr class="separator:a848a5f72fcdaa3c113387cdabf946afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653975abf07fc322d86e6f542eb8dc6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html#a653975abf07fc322d86e6f542eb8dc6f">UploadGeomParam</a> (const std::string type=&quot;plane&quot;, const std::string map_id=&quot;G9_run5_2&quot;)</td></tr>
+<tr class="memdesc:a653975abf07fc322d86e6f542eb8dc6f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a>: Macro to upload the geometry parameter from tsv file to MySQL DB.  <a href="#a653975abf07fc322d86e6f542eb8dc6f">More...</a><br/></td></tr>
+<tr class="separator:a653975abf07fc322d86e6f542eb8dc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abff45e447c793e64f0acf5a0566a404c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html#abff45e447c793e64f0acf5a0566a404c">CheckGeomParam</a> (const int <a class="el" href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a>=25000)</td></tr>
 <tr class="separator:abff45e447c793e64f0acf5a0566a404c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -152,7 +152,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a848a5f72fcdaa3c113387cdabf946afe"></a>
+<a class="anchor" id="a653975abf07fc322d86e6f542eb8dc6f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -160,25 +160,35 @@ Functions</h2></td></tr>
           <td class="memname">int UploadGeomParam </td>
           <td>(</td>
           <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>map_id</em> = <code>&quot;G9_run5_2&quot;</code></td><td>)</td>
+          <td class="paramname"><em>type</em> = <code>&quot;plane&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>map_id</em> = <code>&quot;G9_run5_2&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a>: Macro to upload the geometry parameter from tsv file to MySQL DB. </p>
-<p>Usage: .L <a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a> UploadGeomParam("G9_run5_2"); CheckGeomParam(25000); </p>
+<p>Usage: .L <a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a> UploadGeomParam("plane", "G9_run5_2"); CheckGeomParam(25000); </p>
 
 <p>Definition at line <a class="el" href="../../d3/d9b/UploadGeomParam_8C_source.html#l00010">10</a> of file <a class="el" href="../../d3/d9b/UploadGeomParam_8C_source.html">UploadGeomParam.C</a>.</p>
 
-<p>References <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00053">RunParamBase::ReadFromFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00021">RunParamBase::SetMapIDbyFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00140">RunParamBase::WriteRangeToDB()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00121">RunParamBase::WriteToDB()</a>, and <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00085">RunParamBase::WriteToLocalFile()</a>.</p>
+<p>References <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00053">RunParamBase::ReadFromFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00021">RunParamBase::SetMapIDbyFile()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00140">RunParamBase::WriteRangeToDB()</a>, and <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00121">RunParamBase::WriteToDB()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d9b/UploadGeomParam_8C_a848a5f72fcdaa3c113387cdabf946afe_cgraph.svg" width="1107" height="595"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d9b/UploadGeomParam_8C_a653975abf07fc322d86e6f542eb8dc6f_cgraph.svg" width="1107" height="527"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -195,7 +205,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_5e295cd396ed00d01dcf10a6f0e423f9.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_1e3a55bacfbd23a6aba299383b6b7742.html">geom_svc</a></li><li class="navelem"><a class="el" href="../../dir_708600ca59ad06453a0bd78e40c222a0.html">macros</a></li><li class="navelem"><a class="el" href="../../d3/d9b/UploadGeomParam_8C.html">UploadGeomParam.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Feb 2 2022 10:50:10</em> using <a
+			updated: <em>Wed Feb 2 2022 23:30:09</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

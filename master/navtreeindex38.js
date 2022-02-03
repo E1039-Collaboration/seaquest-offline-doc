@@ -1,5 +1,17 @@
 var NAVTREEINDEX38 =
 {
+"db/d88/classPHG4Shower.html#a1394a30863939f0f246ff5c3d4d00ff7":[38,0,311,47],
+"db/d88/classPHG4Shower.html#a15c28f472c5bde05ba5ef2bd207614b0":[38,0,311,16],
+"db/d88/classPHG4Shower.html#a19357f31c92996bc52fe850f8df29610":[38,0,311,49],
+"db/d88/classPHG4Shower.html#a1a4528bdbba96732ada86a081a528d91":[38,0,311,68],
+"db/d88/classPHG4Shower.html#a1bded9b676cc66ab0886558bc3e16d3b":[38,0,311,4],
+"db/d88/classPHG4Shower.html#a1fb664089eee8e0cf0413291f70c19a7":[38,0,311,66],
+"db/d88/classPHG4Shower.html#a1fcc48bcb87f6aea9f164e99f51089a6":[38,0,311,31],
+"db/d88/classPHG4Shower.html#a22b49281cbac4c09f9c833f0a610719b":[38,0,311,57],
+"db/d88/classPHG4Shower.html#a27d5b3f2531295097acdf913c10abef8":[38,0,311,1],
+"db/d88/classPHG4Shower.html#a2d4dae4fed5f35a79a5cdc915ead5210":[38,0,311,12],
+"db/d88/classPHG4Shower.html#a34435c49b7aafdb4f7128d5173dd69ca":[38,0,311,39],
+"db/d88/classPHG4Shower.html#a381e15145a06e9f33c3764c7bc4e678d":[38,0,311,59],
 "db/d88/classPHG4Shower.html#a39676afbf8996da5c13422a7b938e28b":[38,0,311,38],
 "db/d88/classPHG4Shower.html#a3c34ea5a7e477fc5c77732303716bbd1":[38,0,311,58],
 "db/d88/classPHG4Shower.html#a44933b7299b3a4a46ed21366d26e50f9":[38,0,311,8],
@@ -237,17 +249,5 @@ var NAVTREEINDEX38 =
 "db/de3/classPHFieldConfig__v3.html#aa7ca6c4289eca94d1865c334529bebab":[38,0,203,3],
 "db/de3/classPHFieldConfig__v3.html#abe9495fbb9828156c5c3c7502c8fb40c":[38,0,203,2],
 "db/de3/classPHFieldConfig__v3.html#ac68e956c0b55bdf1c141797001a3e0c3":[38,0,203,16],
-"db/de3/classPHFieldConfig__v3.html#ac7374e929df5e93aa51dca18eeb4a791":[38,0,203,20],
-"db/de3/classPHFieldConfig__v3.html#ad51ca63a3592751f786218f2b4be9ef9":[38,0,203,10],
-"db/de3/classPHFieldConfig__v3.html#ad627d674f3fda5150abe2cdbf58f4b37":[38,0,203,1],
-"db/de3/classPHFieldConfig__v3.html#adc889eebfdc04e337f119d354001c016":[38,0,203,15],
-"db/de3/classPHFieldConfig__v3.html#aefc5510841b6822af5eba70d0f28ef1a":[38,0,203,18],
-"db/de7/SQHitMap__v1_8cxx.html":[39,0,2,3,32],
-"db/de7/SQHitMap__v1_8cxx_source.html":[39,0,2,3,32],
-"db/dea/RecoE1039Data_8C.html":[39,0,1,19,2],
-"db/dea/RecoE1039Data_8C.html#a619388c470b52b98a611cb6f18ba24c1":[39,0,1,19,2,0],
-"db/dea/RecoE1039Data_8C_source.html":[39,0,1,19,2],
-"db/ded/namespacePHG4TrackStatusDecode.html":[37,0,11],
-"db/ded/namespacePHG4TrackStatusDecode.html":[38,0,11],
-"db/df0/VertexFit_8cxx.html":[39,0,2,6,12,2,20]
+"db/de3/classPHFieldConfig__v3.html#ac7374e929df5e93aa51dca18eeb4a791":[38,0,203,20]
 };

@@ -13,6 +13,7 @@ var classSQHitVector__v1 =
     [ "end", "d9/dbf/classSQHitVector__v1.html#a490c3b0c38cf057c394a876d1cb68488", null ],
     [ "end", "d9/dbf/classSQHitVector__v1.html#a1d909a686e3860ed9a1ce45b8547b831", null ],
     [ "erase", "d9/dbf/classSQHitVector__v1.html#ae35de1dba1953d75cdcf363842430ca5", null ],
+    [ "erase", "d9/dbf/classSQHitVector__v1.html#a4b4df10ebe9d6a91cccf36e03134fd73", null ],
     [ "identify", "d9/dbf/classSQHitVector__v1.html#af9f4bdea43b2f37e481402c600bc3a15", null ],
     [ "isValid", "d9/dbf/classSQHitVector__v1.html#a04e72a8b762e7a0d093ec53562db0b23", null ],
     [ "operator=", "d9/dbf/classSQHitVector__v1.html#a0cfa98f892e2be551ed84cab5d82d01a", null ],
