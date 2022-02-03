@@ -8,9 +8,9 @@ var dir_2c9c0ec4ef1fb3e4cdc9d2a6d2d2891a =
     [ "AnaEffHodo.h", "da/d85/AnaEffHodo_8h.html", [
       [ "AnaEffHodo", "db/d7d/classAnaEffHodo.html", "db/d7d/classAnaEffHodo" ]
     ] ],
-    [ "AnaRealDst.cc", "dd/d33/AnaRealDst_8cc.html", null ],
-    [ "AnaRealDst.h", "dd/de9/AnaRealDst_8h.html", [
-      [ "AnaRealDst", "d0/d63/classAnaRealDst.html", "d0/d63/classAnaRealDst" ]
+    [ "AnaHodoHit.cc", "d1/d73/AnaHodoHit_8cc.html", null ],
+    [ "AnaHodoHit.h", "dc/d50/AnaHodoHit_8h.html", [
+      [ "AnaHodoHit", "d4/dc4/classAnaHodoHit.html", "d4/dc4/classAnaHodoHit" ]
     ] ],
     [ "AnaTriggerHit.cc", "d2/d72/AnaTriggerHit_8cc.html", null ],
     [ "AnaTriggerHit.h", "d4/d89/AnaTriggerHit_8h.html", [

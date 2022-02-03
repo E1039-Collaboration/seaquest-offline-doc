@@ -104,25 +104,8 @@ $(document).ready(function(){initNavTree('de/de7/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>A compact program to analyze the "DST" file, which is created by the Main DAQ decoder. Since it is yet under development and also depends on other software under development, it might stop working occasionally. In such cases, please contact the author.</p>
 <h2>Basic Usage</h2>
-<p>The procedure below will read the DST file of run 202 (for example), which is ``` /data2/e1039/dst/run_000202_spin.root ``` and produce basic histograms and ntuple.</p>
-<ol type="1">
-<li>source setup.sh</li>
-</ol>
-<ol type="1">
-<li>cmake-this</li>
-</ol>
-<ol type="1">
-<li>make-this</li>
-</ol>
-<ol type="1">
-<li>cd macro</li>
-</ol>
-<ol type="1">
-<li>root -b -q 'Fun4RealDst.C(202)'</li>
-</ol>
-<ol type="1">
-<li>display h1_ele_H1T.png &amp;</li>
-</ol>
+<p>The procedure below will read the DST file of run 3620 (for example), which is <code>/data2/e1039/dst/run_003620_spin.root</code>, and produce basic histograms and ntuple.</p>
+<p>``` cd /path/to/your/e1039-analysis/AnaRealDst source setup.sh cmake-this make-this cd macro root -b -q 'Fun4All.C(3620)' display h1_ele_H1T.png &amp; ```</p>
 <p>Here are some tips:</p>
 <ul>
 <li>You need execute "source setup.sh" every time you open a new terminal.</li>
@@ -132,7 +115,7 @@ $(document).ready(function(){initNavTree('de/de7/md__dev_shm_kenichi_update-gith
 </ul>
 <h2>Advanced Usage</h2>
 <ul>
-<li>The contents of the analysis are defined in class "AnaRealDst". You can modify this class (i.e. "src/AnaRealDst.cc") to implement your own analysis.<ul>
+<li>The contents of the analysis are defined in class "AnaHodoHit". You can modify this class (i.e. "src/AnaHodoHit.cc") to implement your own analysis.<ul>
 <li>The E1039 data are structured by the SQ interface classes. To access them, you use several member functions of these classes. You can refer to the <a href="https://e1039-collaboration.github.io/e1039-doc/annotated.html">oline document</a>. Below are frequently-used classes;<ul>
 <li><a href="https://e1039-collaboration.github.io/e1039-doc/d7/db7/classSQRun.html">SQRun</a></li>
 <li><a href="https://e1039-collaboration.github.io/e1039-doc/d9/dd7/classSQEvent.html">SQEvent</a></li>
@@ -143,7 +126,7 @@ $(document).ready(function(){initNavTree('de/de7/md__dev_shm_kenichi_update-gith
 </li>
 </ul>
 </li>
-<li>The run ID and the number of events for analysis are defined in "macro/Fun4RealDst.C". You can change them so that you need not give them in the command line.</li>
+<li>The run ID and the number of events for analysis are defined in "macro/Fun4All.C". You can change them so that you need not give them in the command line.</li>
 </ul>
 <h2>Author</h2>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no@'+'nu'+'cl.'+'ph'+'ys.'+'ti'+'tec'+'h.'+'ac.'+'jp'; return false;">knaka<span style="display: none;">.nosp@m.</span>no@n<span style="display: none;">.nosp@m.</span>ucl.p<span style="display: none;">.nosp@m.</span>hys.<span style="display: none;">.nosp@m.</span>titec<span style="display: none;">.nosp@m.</span>h.ac<span style="display: none;">.nosp@m.</span>.jp</a> </p>
@@ -156,7 +139,7 @@ $(document).ready(function(){initNavTree('de/de7/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 3 2022 10:30:10</em> using <a
+			updated: <em>Thu Feb 3 2022 15:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

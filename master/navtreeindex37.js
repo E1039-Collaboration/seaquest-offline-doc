@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"db/d17/PHTypedNodeIterator_8h.html#aeae434c5dc8915f7992880c836abfc93":[39,0,2,1,2,43,2],
+"db/d17/PHTypedNodeIterator_8h_source.html":[39,0,2,1,2,43],
 "db/d19/OnlMonUI_8cc.html":[39,0,2,5,3,31],
 "db/d19/OnlMonUI_8cc_source.html":[39,0,2,5,3,31],
 "db/d1a/SQCosmicGen_8h.html":[39,0,2,7,4,119],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "db/d86/test__minimum_8cxx_source.html":[39,0,2,6,12,4,0,0],
 "db/d87/PHGenEvent_8h.html":[39,0,2,2,2,17],
 "db/d87/PHGenEvent_8h_source.html":[39,0,2,2,2,17],
-"db/d88/classPHG4Shower.html":[38,0,311],
-"db/d88/classPHG4Shower.html#a0751738c450c5810ea6ea857b9c119ba":[38,0,311,0],
-"db/d88/classPHG4Shower.html#a0a49618c836e9537150d0568a6f2868b":[38,0,311,26]
+"db/d88/classPHG4Shower.html":[38,0,311]
 };

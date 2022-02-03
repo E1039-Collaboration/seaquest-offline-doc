@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"da/db1/classSQCalHit__v1.html#aea96dc92777f3b75953ee93566b8aa32":[38,0,405,6],
+"da/db1/classSQCalHit__v1.html#aeb11c77a1b2eb1985f9af7b2cbf51720":[38,0,405,15],
 "da/db1/classSQCalHit__v1.html#aef6c546969a5ddaddfe4a8125cc6cee1":[38,0,405,9],
 "da/db1/classSQCalHit__v1.html#af8fde3a46a67ecf4bf42d8813960b92f":[38,0,405,14],
 "da/db1/classSQCalHit__v1.html#aff053ad02840acce8b823b0a1760b723":[38,0,405,11],
@@ -100,8 +102,8 @@ var NAVTREEINDEX36 =
 "da/dcf/SQRun__v1_8cxx_source.html":[39,0,2,3,65],
 "da/dd0/FlagSave_8h.html":[39,0,2,1,0,5],
 "da/dd0/FlagSave_8h_source.html":[39,0,2,1,0,5],
-"da/dd0/namespacePHG4HitDefs.html":[38,0,8],
 "da/dd0/namespacePHG4HitDefs.html":[37,0,8],
+"da/dd0/namespacePHG4HitDefs.html":[38,0,8],
 "da/dd8/PHFieldConfig__v1LinkDef_8h.html":[39,0,2,6,10,13],
 "da/dd8/PHFieldConfig__v1LinkDef_8h_source.html":[39,0,2,6,10,13],
 "da/dd8/classFun4AllPrdfInputManager.html":[38,0,117],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "db/d16/classPHG4CylinderCellv2.html#ab4cdf5b6a3e1fce1d082b6724300bd82":[38,0,240,1],
 "db/d16/classPHG4CylinderCellv2.html#ab9603f05db30bf014f0ac4f8d9b8ef04":[38,0,240,4],
 "db/d16/classPHG4CylinderCellv2.html#ade104dddab62a5ca2c4817537f3249c7":[38,0,240,3],
-"db/d17/PHTypedNodeIterator_8h.html":[39,0,2,1,2,43],
-"db/d17/PHTypedNodeIterator_8h.html#aeae434c5dc8915f7992880c836abfc93":[39,0,2,1,2,43,2],
-"db/d17/PHTypedNodeIterator_8h_source.html":[39,0,2,1,2,43]
+"db/d17/PHTypedNodeIterator_8h.html":[39,0,2,1,2,43]
 };
