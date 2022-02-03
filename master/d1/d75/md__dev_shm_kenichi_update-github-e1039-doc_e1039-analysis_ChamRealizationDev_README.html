@@ -104,17 +104,19 @@ $(document).ready(function(){initNavTree('d1/d75/md__dev_shm_kenichi_update-gith
 <div class="contents">
 <div class="textblock"><p>A compact program to develop the chamber realization, which adds inefficiencies and position resolutions to chamber and prop tube hits.</p>
 <h2>Preparation</h2>
-<p>The version of e1039-core is selected in <code>setup.sh</code>. If you need modify e1039-core, you build e1039-core and select it in <code>setup.sh</code>.</p>
+<p>The version of e1039-core is selected in <code>setup.sh</code>. The pre-built offline version is used by default. If you need modify e1039-core, you build e1039-core and select it in <code>setup.sh</code>.</p>
 <h2>Source Build</h2>
 <p>The source code is located in <code>src/</code>. The following commands set up the shell environment and compile the code;</p>
 <p>``` source setup.sh cmake-this make-this ```</p>
 <p><code><a class="el" href="../../de/d8a/classAnaTrack.html">AnaTrack</a></code> is a <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to analyze reconstructed tracks. The track reconstruction and the analysis are done before and after the chamber realization in order to evalaute the effect of the chamber realization.</p>
 <h2><a class="el" href="../../d5/da5/classEvent.html">Event</a> Generation</h2>
 <p>``` cd macro root -b 'Fun4AllStep1.C(10000)' ```</p>
-<p>This step includes the track reconstruction and the analysis. The chamber realization is carried out in the next step.</p>
+<p>This step generates a set of single-track events using <code><a class="el" href="../../d5/df3/classPHG4SimpleEventGenerator.html" title="Event generator to generate a set of particles under a condition of the vertex and the momentum...">PHG4SimpleEventGenerator</a></code>. The vertex and the momentum of tracks are fixed by default for simplicity. You can change them as you need, by modifying <code><a class="el" href="../../d6/d6b/Fun4AllStep1_8C.html">Fun4AllStep1.C</a></code>.</p>
+<p>This step also includes the reconstruction and the analysis of tracks. Results of the analysis will appear under <code>AnaTrack_raw/</code>. The chamber realization is carried out in the next step.</p>
 <h2>Chamber Realization</h2>
 <p>``` root -b <a class="el" href="../../da/df1/Fun4AllStep2_8C.html">Fun4AllStep2.C</a> ```</p>
-<p>This step includes the track reconstruction and the analysis.</p>
+<p>This step reads the DST file (<code>DST.root</code>) created in the previous step. It applies the chamber realization and then reconstruct and analyze tracks. Results of the analysis will appear under <code>AnaTrack_real/</code>.</p>
+<p>You compare <code>AnaTrack_raw/</code> and <code>AnaTrack_real/</code> to evaluate the effect of the chamber realization.</p>
 <h2>Contact</h2>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no0'+'52'+'4@g'+'ma'+'il.'+'co'+'m'; return false;">knaka<span style="display: none;">.nosp@m.</span>no05<span style="display: none;">.nosp@m.</span>24@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a> </p>
 </div></div><!-- contents -->
@@ -126,7 +128,7 @@ $(document).ready(function(){initNavTree('d1/d75/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Feb 2 2022 23:30:09</em> using <a
+			updated: <em>Thu Feb 3 2022 10:30:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

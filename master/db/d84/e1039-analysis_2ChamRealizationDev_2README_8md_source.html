@@ -112,51 +112,65 @@ $(document).ready(function(){initNavTree('db/d84/e1039-analysis_2ChamRealization
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;A compact program to develop the chamber realization, which adds inefficiencies and position resolutions to chamber and prop tube hits.</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;## Preparation</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;The version of e1039-core is selected in `setup.sh`.</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;If you need modify e1039-core, you build e1039-core and select it in `setup.sh`.</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;## Source Build</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;## Preparation</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;The version of e1039-core is selected in `setup.sh`.</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;The pre-built offline version is used by <span class="keywordflow">default</span>.</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;If you need modify e1039-core, you build e1039-core and select it in `setup.sh`.</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;The source code is located in `src/`.</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;The following commands set up the shell environment and compile the code;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;```</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;source setup.sh</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;cmake-<span class="keyword">this</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;make-<span class="keyword">this</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;```</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;`<a class="code" href="../../de/d8a/classAnaTrack.html">AnaTrack</a>` is a <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to analyze reconstructed tracks.</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;The track reconstruction and the analysis are done before and after the chamber realization in order to evalaute the effect of the chamber realization.</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;## <a class="code" href="../../d5/da5/classEvent.html">Event</a> Generation</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;## Source Build</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;The source code is located in `src/`.</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;The following commands set up the shell environment and compile the code;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;```</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;source setup.sh</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;cmake-<span class="keyword">this</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;make-<span class="keyword">this</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;```</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;`<a class="code" href="../../de/d8a/classAnaTrack.html">AnaTrack</a>` is a <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to analyze reconstructed tracks.</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;The track reconstruction and the analysis are done before and after the chamber realization in order to evalaute the effect of the chamber realization.</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;```</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;cd macro</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;root -b <span class="stringliteral">&#39;Fun4AllStep1.C(10000)&#39;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;```</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;This step includes the track reconstruction and the analysis.</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;The chamber realization is carried out in the next step.</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;## Chamber Realization</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;## <a class="code" href="../../d5/da5/classEvent.html">Event</a> Generation</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;```</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;cd macro</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;root -b <span class="stringliteral">&#39;Fun4AllStep1.C(10000)&#39;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;```</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;This step generates a set of single-track events <span class="keyword">using</span> `<a class="code" href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a>`.</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;The vertex and the momentum of tracks are fixed by <span class="keywordflow">default</span> <span class="keywordflow">for</span> simplicity.</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;You can change them as you need, by modifying `<a class="code" href="../../d6/d6b/Fun4AllStep1_8C.html#a80b7d0af371ae0ca7d151efffe87f69b">Fun4AllStep1</a>.C`.</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;```</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;root -b <a class="code" href="../../da/df1/Fun4AllStep2_8C.html#a11d31d4348734587fa6d3d77f4ba8d8e">Fun4AllStep2</a>.C</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;```</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;This step also includes the reconstruction and the analysis of tracks.</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;Results of the analysis will appear under `AnaTrack_raw/`.</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;The chamber realization is carried out in the next step.</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;This step includes the track reconstruction and the analysis.</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;## Chamber Realization</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;## Contact</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;Kenichi Naknao &lt;knakano0524@gmail.com&gt;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;```</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;root -b <a class="code" href="../../da/df1/Fun4AllStep2_8C.html#a11d31d4348734587fa6d3d77f4ba8d8e">Fun4AllStep2</a>.C</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;```</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;This step reads the DST <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`DST.root`) created in the previous step.</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;It applies the chamber realization and then reconstruct and analyze tracks.</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;Results of the analysis will appear under `AnaTrack_real/`.</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;You compare `AnaTrack_raw/` and `AnaTrack_real/` to evaluate the effect of the chamber realization.</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">## Contact</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;Kenichi Naknao &lt;knakano0524@gmail.com&gt;</div>
 <div class="ttc" id="classAnaTrack_html"><div class="ttname"><a href="../../de/d8a/classAnaTrack.html">AnaTrack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/AnaTrack_8h_source.html#l00014">AnaTrack.h:14</a></div></div>
+<div class="ttc" id="classPHG4SimpleEventGenerator_html"><div class="ttname"><a href="../../d5/df3/classPHG4SimpleEventGenerator.html">PHG4SimpleEventGenerator</a></div><div class="ttdoc">Event generator to generate a set of particles under a condition of the vertex and the momentum...</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/PHG4SimpleEventGenerator_8h_source.html#l00019">PHG4SimpleEventGenerator.h:19</a></div></div>
+<div class="ttc" id="Fun4AllStep1_8C_html_a80b7d0af371ae0ca7d151efffe87f69b"><div class="ttname"><a href="../../d6/d6b/Fun4AllStep1_8C.html#a80b7d0af371ae0ca7d151efffe87f69b">Fun4AllStep1</a></div><div class="ttdeci">int Fun4AllStep1(const int n_evt=10)</div><div class="ttdoc">Fun4All macro to generate events and carry out the track reconstruction. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/Fun4AllStep1_8C_source.html#l00020">Fun4AllStep1.C:20</a></div></div>
+<div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 <div class="ttc" id="Fun4AllStep2_8C_html_a11d31d4348734587fa6d3d77f4ba8d8e"><div class="ttname"><a href="../../da/df1/Fun4AllStep2_8C.html#a11d31d4348734587fa6d3d77f4ba8d8e">Fun4AllStep2</a></div><div class="ttdeci">int Fun4AllStep2(const int n_evt=0, const char *fn_dst=&quot;DST.root&quot;)</div><div class="ttdoc">Fun4All macro to carry out the chamber realization and then the track reconstruction. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/df1/Fun4AllStep2_8C_source.html#l00009">Fun4AllStep2.C:9</a></div></div>
 <div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
 <div class="ttc" id="classEvent_html"><div class="ttname"><a href="../../d5/da5/classEvent.html">Event</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/Event_8h_source.html#l00013">Event.h:13</a></div></div>
@@ -170,7 +184,7 @@ $(document).ready(function(){initNavTree('db/d84/e1039-analysis_2ChamRealization
 		<li class="navelem"><a class="el" href="../../db/d84/e1039-analysis_2ChamRealizationDev_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Feb 2 2022 23:30:06</em> using <a
+			updated: <em>Thu Feb 3 2022 10:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
