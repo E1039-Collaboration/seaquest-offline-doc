@@ -110,71 +110,56 @@ $(document).ready(function(){initNavTree('d8/d19/e1039-core_2online_2onlmonserve
 <div class="contents">
 <a href="../../d8/d19/e1039-core_2online_2onlmonserver_2README_8md.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor"># Online Monitor (OnlMon) in e1039-core</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;The structure of the OnlMon system in terms of code and process is illustrated in [DocDB 6106](https:<span class="comment">//seaquest-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=6106).</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;The OnlMon system is based on the <a class="code" href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C.html#a7c2439ba4530dd42d633f170487a7f51">Fun4All</a> framework <span class="keywordflow">for</span> the <span class="keyword">event</span> processing.</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">## OnlMon Client</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;The functions of the OnlMon client are</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;1. Define a set of histograms to be monitored,</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;1. Fill the histograms per <span class="keyword">event</span> when called by the OnlMon server, and</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;1. Draw the histograms when called by the OnlMon viewer.</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;The OnlMon client (`<a class="code" href="../../d9/d62/classOnlMonClient.html">OnlMonClient</a>`) is inherited from `<a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a>` to carry out the event analysis.</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;It is equipped with common functions needed for the OnlMon scheme.</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;All subsystem clients (like `<a class="code" href="../../d8/d69/classOnlMonMainDaq.html">OnlMonMainDaq</a>`) are inherited from `<a class="code" href="../../d9/d62/classOnlMonClient.html">OnlMonClient</a>`.</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;The OnlMon server (`<a class="code" href="../../d8/d38/classOnlMonServer.html">OnlMonServer</a>`) is inherited from `<a class="code" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a>` to input/process/output events.</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;It in addition accepts a network (TCP/IP) connection from the OnlMon viewer to provide histograms that each client holds.</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;Note that the OnlMon client runs in the two independent processes, namely the OnlMon server and the OnlMon viewer.</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;The histogram contents are shared via network communication.</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;## Development of OnlMon-Client Class by Subsystem Group</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;Each subsytem group is asked to develop and maintain its OnlMon-client <span class="keyword">class</span>.</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;It should not be much compilcated because a templete is available.</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">## OnlMon Client</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;The functions of the OnlMon client are</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;1. Define a set of histograms to be monitored,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;1. Fill the histograms per <span class="keyword">event</span> when called by the OnlMon server, and</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;1. Draw the histograms when called by the OnlMon viewer.</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;The six functions listed below should be modified consistently with one another.</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;Details are not available yet but will be described in the Doxygen document.</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;Note that the OnlMon client runs in the two independent processes, namely the OnlMon server and the OnlMon viewer.</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;The histogram contents are shared via network communication.</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; | Function             | Role |</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; |----------------------|------|</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; | InitOnlMon()         | Initialize all variables that don<span class="stringliteral">&#39;t depend on the run info. |</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="stringliteral"> | InitRunOnlMon()      | Initialize all variables that depend on the run info.       |</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="stringliteral"> | ProcessEventOnlMon() | Process one given event to fill histograms.                 |</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="stringliteral"> | EndOnlMon()          | Carry out any calculations (like efficiency) after all events are processed. |</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="stringliteral"> | FindAllMonHist()     | Associate histogram objects found by name with histogram variables.  |</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="stringliteral"> | DrawMonitor()        | Design canvases, draw histograms, and decide the run-quality status. |</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="stringliteral">## Code Management</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="stringliteral">Below is the recommended procedure for updating the OnlMon code.</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="stringliteral">1. Make a new branch on GitHub and modify it.</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="stringliteral">1. Run a test, as instructed below.</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="stringliteral">1. Make a pull request with a short description of code modification and test result.</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="stringliteral">1. Ask the online-software coordinator to review and accept the pull request.</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="stringliteral">1. Let the online-software coordinator compile the updated code in the official directory.</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="stringliteral">1. Confirm that the updated code works fine on one or two incoming runs.</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="stringliteral">## Test Procedure</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="stringliteral">When a client class is updated, it has to be tested before merged into the master branch.</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="stringliteral">First of all you set up the shell environment by sourcing `this-e1039.sh` in your install directory.</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="stringliteral">The test procedure varies with the location of update.</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="stringliteral">### When only the Drawing Style of Histograms is Updated</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="stringliteral">It is rather simple because the official process of the OnlMon server can be used.</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="stringliteral">You can start the OnlMon viewer in your working directory to draw the histograms.</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="stringliteral">```</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="stringliteral">root /path/to/e1039-core/online/macros/OnlMon4MainDaq.C</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="stringliteral">```</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="stringliteral">### When the Number or Filling Condition of Histograms is Updated</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="stringliteral"></span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="stringliteral">In this case you have to run the OnlMon server, which is a part of the decoding process,</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="stringliteral">because it creates and fills histograms.</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="stringliteral">If you use run 1000 for test, you execute the following command:</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="stringliteral">```</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="stringliteral">/path/to/e1039-core/script/exec-decoder.sh 1000</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="stringliteral">```</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="stringliteral">It runs in a special (development) mode so as not to overwrite the outputs made by the official decoding process.</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="stringliteral">The OnlMon plots saved as PNG file will appear in `/data2/e1039/onlmon/plots-devel`.</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="stringliteral">You need not execute the OnlMon viewer.</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;## OnlMon Client of Subsystem Group</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;Each subsytem group is asked to develop and maintain its OnlMon client(<a class="code" href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">s</a>).</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;It should not be much compilcated because a templete is available.</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;The six functions listed below should be modified consistently with one another.</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;Details are not available yet but will be described in the Doxygen document.</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; | Function             | Role |</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; |----------------------|------|</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; | InitOnlMon()         | Initialize all variables that don<span class="stringliteral">&#39;t depend on the run info. |</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="stringliteral"> | InitRunOnlMon()      | Initialize all variables that depend on the run info.       |</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="stringliteral"> | ProcessEventOnlMon() | Process one given event to fill histograms.                 |</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="stringliteral"> | EndOnlMon()          | Carry out any calculations (like efficiency) after all events are processed. |</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="stringliteral"> | FindAllMonHist()     | Associate histogram objects found by name with histogram variables.  |</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="stringliteral"> | DrawMonitor()        | Design canvases, draw histograms, and decide the run-quality status. |</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="stringliteral">## Procedure for Developing OnlMonClient</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="stringliteral"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="stringliteral">It is explained in e1039-wiki.</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="stringliteral"></span></div>
+<div class="ttc" id="classOnlMonServer_html"><div class="ttname"><a href="../../d8/d38/classOnlMonServer.html">OnlMonServer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/OnlMonServer_8h_source.html#l00008">OnlMonServer.h:8</a></div></div>
+<div class="ttc" id="namespaceDPGEN_html_a5ad3679fb5bed4f7b6c9bd74bbb6298b"><div class="ttname"><a href="../../d2/da1/namespaceDPGEN.html#a5ad3679fb5bed4f7b6c9bd74bbb6298b">DPGEN::s</a></div><div class="ttdeci">const double s</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d5f/SQPrimaryParticleGen_8C_source.html#l00065">SQPrimaryParticleGen.C:65</a></div></div>
+<div class="ttc" id="classFun4AllServer_html"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00024">Fun4AllServer.h:24</a></div></div>
+<div class="ttc" id="classOnlMonMainDaq_html"><div class="ttname"><a href="../../d8/d69/classOnlMonMainDaq.html">OnlMonMainDaq</a></div><div class="ttdoc">OnlMonMainDaq. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/dca/OnlMonMainDaq_8h_source.html#l00006">OnlMonMainDaq.h:6</a></div></div>
+<div class="ttc" id="AnaRealDst_2macro_2Fun4All_8C_html_a7c2439ba4530dd42d633f170487a7f51"><div class="ttname"><a href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C.html#a7c2439ba4530dd42d633f170487a7f51">Fun4All</a></div><div class="ttdeci">int Fun4All(const int run=1666, const int nevent=0)</div><div class="ttdoc">Main function. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C_source.html#l00004">Fun4All.C:4</a></div></div>
+<div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
+<div class="ttc" id="classOnlMonClient_html"><div class="ttname"><a href="../../d9/d62/classOnlMonClient.html">OnlMonClient</a></div><div class="ttdoc">Base class for the OnlMon subsystem module. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/OnlMonClient_8h_source.html#l00035">OnlMonClient.h:35</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -185,7 +170,7 @@ $(document).ready(function(){initNavTree('d8/d19/e1039-core_2online_2onlmonserve
 		<li class="navelem"><a class="el" href="../../d8/d19/e1039-core_2online_2onlmonserver_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 3 2022 15:20:08</em> using <a
+			updated: <em>Fri Feb 4 2022 14:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

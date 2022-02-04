@@ -155,9 +155,9 @@ $(document).ready(function(){initNavTree('d0/d26/OnlMonTrigSig_8cc_source.html',
 <div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../dc/dae/classOnlMonTrigSig.html#a059dd3c99a0d88fb498c81ff4300594b">   46</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/dae/classOnlMonTrigSig.html#a059dd3c99a0d88fb498c81ff4300594b">OnlMonTrigSig::InitRunOnlMon</a>(<a class="code" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a>* topNode)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> DT = 40/9.0; <span class="comment">// 4/9 ns per single count of Taiwan TDC</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> NT    = 100;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">int</span> NT    = 200;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T0 = 100.5*DT;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T1 = 200.5*DT;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> T1 = 300.5*DT;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  h2_bi_fpga = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;h2_bi_fpga&quot;</span>, <span class="stringliteral">&quot;FPGA Before Inhibit;tdcTime;&quot;</span>, NT, T0, T1,  5, 0.5, 5.5);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  h2_ai_fpga = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;h2_ai_fpga&quot;</span>,  <span class="stringliteral">&quot;FPGA After Inhibit;tdcTime;&quot;</span>, NT, T0, T1,  5, 0.5, 5.5);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  h2_bi_nim  = <span class="keyword">new</span> TH2D(<span class="stringliteral">&quot;h2_bi_nim&quot;</span> ,  <span class="stringliteral">&quot;NIM Before Inhibit;tdcTime;&quot;</span>, NT, T0, T1,  5, 0.5, 5.5);</div>
@@ -344,7 +344,7 @@ $(document).ready(function(){initNavTree('d0/d26/OnlMonTrigSig_8cc_source.html',
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_7f25cc720e972459e882558067e6a7dd.html">onlmonserver</a></li><li class="navelem"><a class="el" href="../../d0/d26/OnlMonTrigSig_8cc.html">OnlMonTrigSig.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 3 2022 15:20:08</em> using <a
+			updated: <em>Fri Feb 4 2022 14:20:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

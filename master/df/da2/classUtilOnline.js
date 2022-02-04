@@ -15,11 +15,11 @@ var classUtilOnline =
     [ "RunNum2DstFile", "df/da2/classUtilOnline.html#a77bb4df07b55c28ab99df1fa75d88e79", null ],
     [ "RunNum2EDDstFile", "df/da2/classUtilOnline.html#ac7bbb57104e0eebe65aff956f2a8b0b3", null ],
     [ "RunNum2EndFile", "df/da2/classUtilOnline.html#a28b8e62ece2f07e607ac2a788da434f1", null ],
-    [ "SetCodaFileDir", "df/da2/classUtilOnline.html#aeb1e7e1f8e67e710397fbbbd28e74ea8", null ],
-    [ "SetDstFileDir", "df/da2/classUtilOnline.html#ac40933cd70528dcf1c02ab2e53b90804", null ],
-    [ "SetEDDstFileDir", "df/da2/classUtilOnline.html#ae37d7ae5b4e182ca19c09789116450a4", null ],
-    [ "SetEndFileDir", "df/da2/classUtilOnline.html#ab3cf85ce6f975f4c2cb8b6e537e617b2", null ],
-    [ "SetOnlMonDir", "df/da2/classUtilOnline.html#a2bad376ce811461e1134a1c5a4d13526", null ],
-    [ "SetSchemaMainDaq", "df/da2/classUtilOnline.html#a98255d9eb90840ffdfc418130224913b", null ],
+    [ "SetCodaFileDir", "df/da2/classUtilOnline.html#a3f92a0ada76935cbe7761e749716c215", null ],
+    [ "SetDstFileDir", "df/da2/classUtilOnline.html#ae236a027e731e3af90fd734f79795df7", null ],
+    [ "SetEDDstFileDir", "df/da2/classUtilOnline.html#a1a4030273760d01fb7342868287ca4ce", null ],
+    [ "SetEndFileDir", "df/da2/classUtilOnline.html#a935d83491c53226be298d6a786a33277", null ],
+    [ "SetOnlMonDir", "df/da2/classUtilOnline.html#a5fe82ed71e9a97bffa041b174c8c0bb0", null ],
+    [ "SetSchemaMainDaq", "df/da2/classUtilOnline.html#a191c5a6779684d1a63674fadfe9d18a2", null ],
     [ "UseOutputLocationForDevel", "df/da2/classUtilOnline.html#a1b169013bb8cf80fc91fe0acd1108678", null ]
 ];

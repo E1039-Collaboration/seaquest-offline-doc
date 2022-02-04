@@ -102,7 +102,9 @@ $(document).ready(function(){initNavTree('df/d46/md__dev_shm_kenichi_update-gith
 <div class="title">Online Monitor (OnlMon) in e1039-core </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The structure of the OnlMon system in terms of code and process is illustrated in <a href="https://seaquest-docdb.fnal.gov/cgi-bin/private/ShowDocument?docid=6106">DocDB 6106</a>.</p>
+<div class="textblock"><p>The OnlMon system is based on the Fun4All framework for the event processing.</p>
+<p>The OnlMon client (<code><a class="el" href="../../d9/d62/classOnlMonClient.html" title="Base class for the OnlMon subsystem module. ">OnlMonClient</a></code>) is inherited from <code><a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a></code> to carry out the event analysis. It is equipped with common functions needed for the OnlMon scheme. All subsystem clients (like <code><a class="el" href="../../d8/d69/classOnlMonMainDaq.html" title="OnlMonMainDaq. ">OnlMonMainDaq</a></code>) are inherited from <code><a class="el" href="../../d9/d62/classOnlMonClient.html" title="Base class for the OnlMon subsystem module. ">OnlMonClient</a></code>.</p>
+<p>The OnlMon server (<code><a class="el" href="../../d8/d38/classOnlMonServer.html">OnlMonServer</a></code>) is inherited from <code><a class="el" href="../../da/d29/classFun4AllServer.html">Fun4AllServer</a></code> to input/process/output events. It in addition accepts a network (TCP/IP) connection from the OnlMon viewer to provide histograms that each client holds.</p>
 <h2>OnlMon Client</h2>
 <p>The functions of the OnlMon client are</p>
 <ol type="1">
@@ -115,8 +117,8 @@ $(document).ready(function(){initNavTree('df/d46/md__dev_shm_kenichi_update-gith
 <li>Draw the histograms when called by the OnlMon viewer.</li>
 </ol>
 <p>Note that the OnlMon client runs in the two independent processes, namely the OnlMon server and the OnlMon viewer. The histogram contents are shared via network communication.</p>
-<h2>Development of OnlMon-Client Class by Subsystem Group</h2>
-<p>Each subsytem group is asked to develop and maintain its OnlMon-client class. It should not be much compilcated because a templete is available.</p>
+<h2>OnlMon Client of Subsystem Group</h2>
+<p>Each subsytem group is asked to develop and maintain its OnlMon client(s). It should not be much compilcated because a templete is available.</p>
 <p>The six functions listed below should be modified consistently with one another. Details are not available yet but will be described in the Doxygen document.</p>
 <table class="doxtable">
 <tr>
@@ -134,32 +136,8 @@ $(document).ready(function(){initNavTree('df/d46/md__dev_shm_kenichi_update-gith
 <tr>
 <td>DrawMonitor() </td><td>Design canvases, draw histograms, and decide the run-quality status. </td></tr>
 </table>
-<h2>Code Management</h2>
-<p>Below is the recommended procedure for updating the OnlMon code.</p>
-<ol type="1">
-<li>Make a new branch on GitHub and modify it.</li>
-</ol>
-<ol type="1">
-<li>Run a test, as instructed below.</li>
-</ol>
-<ol type="1">
-<li>Make a pull request with a short description of code modification and test result.</li>
-</ol>
-<ol type="1">
-<li>Ask the online-software coordinator to review and accept the pull request.</li>
-</ol>
-<ol type="1">
-<li>Let the online-software coordinator compile the updated code in the official directory.</li>
-</ol>
-<ol type="1">
-<li>Confirm that the updated code works fine on one or two incoming runs.</li>
-</ol>
-<h2>Test Procedure</h2>
-<p>When a client class is updated, it has to be tested before merged into the master branch. First of all you set up the shell environment by sourcing <code>this-e1039.sh</code> in your install directory. The test procedure varies with the location of update.</p>
-<h3>When only the Drawing Style of Histograms is Updated</h3>
-<p>It is rather simple because the official process of the OnlMon server can be used. You can start the OnlMon viewer in your working directory to draw the histograms. ``` root /path/to/e1039-core/online/macros/OnlMon4MainDaq.C ```</p>
-<h3>When the Number or Filling Condition of Histograms is Updated</h3>
-<p>In this case you have to run the OnlMon server, which is a part of the decoding process, because it creates and fills histograms. If you use run 1000 for test, you execute the following command: ``` /path/to/e1039-core/script/exec-decoder.sh 1000 ``` It runs in a special (development) mode so as not to overwrite the outputs made by the official decoding process. The OnlMon plots saved as PNG file will appear in <code>/data2/e1039/onlmon/plots-devel</code>. You need not execute the OnlMon viewer. </p>
+<h2>Procedure for Developing <a class="el" href="../../d9/d62/classOnlMonClient.html" title="Base class for the OnlMon subsystem module. ">OnlMonClient</a></h2>
+<p>It is explained in e1039-wiki. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -169,7 +147,7 @@ $(document).ready(function(){initNavTree('df/d46/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Feb 3 2022 15:20:10</em> using <a
+			updated: <em>Fri Feb 4 2022 14:20:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"dd/d13/classPHG4ParticleGun.html#a2d29fadfb094cff742426062cabfaf75":[38,0,296,6],
+"dd/d13/classPHG4ParticleGun.html#a497b7156cb7aa451d307bc8f5c339656":[38,0,296,1],
+"dd/d13/classPHG4ParticleGun.html#a4ae78feb73a255a33846991f30a9a95b":[38,0,296,3],
 "dd/d13/classPHG4ParticleGun.html#a602c1dc8c1b1a7aa762d9a1def15c0f9":[38,0,296,0],
 "dd/d13/classPHG4ParticleGun.html#a6a76fa0b061c94d8ce36da48fd41d274":[38,0,296,5],
 "dd/d13/classPHG4ParticleGun.html#a802c07ab2bd8235142b8fca208188ab6":[38,0,296,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "dd/d67/PHG4InEvent_8cc.html":[39,0,2,7,4,37],
 "dd/d67/PHG4InEvent_8cc_source.html":[39,0,2,7,4,37],
 "dd/d68/classPHG4ParticleGenerator.html":[38,0,292],
-"dd/d68/classPHG4ParticleGenerator.html#a1292dcb1c73496ea30769a4b8c355780":[38,0,292,2],
-"dd/d68/classPHG4ParticleGenerator.html#a2519e761aa5d07a73586842149b4fc93":[38,0,292,4],
-"dd/d68/classPHG4ParticleGenerator.html#a2e4bf8cceee101428c03b4f987a623eb":[38,0,292,1],
-"dd/d68/classPHG4ParticleGenerator.html#a42c805e711babd555b7fac596d80e913":[38,0,292,10]
+"dd/d68/classPHG4ParticleGenerator.html#a1292dcb1c73496ea30769a4b8c355780":[38,0,292,2]
 };
