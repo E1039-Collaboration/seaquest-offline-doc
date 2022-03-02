@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d5/d60/classAnaWait.html#a3766d7f32712b60a9331c1e935331cd9":[38,0,49,2],
+"d5/d60/classAnaWait.html#a41b305f5a8e05bac87cbebf41eb1f3f4":[38,0,49,1],
 "d5/d60/classAnaWait.html#a5f7e24b021ba446a9ec7557a2f844ca3":[38,0,49,5],
 "d5/d60/classAnaWait.html#a6dcc5693ad57c0a47800c86fde1841f3":[38,0,49,0],
 "d5/d60/classAnaWait.html#a76dc9a37505487dc524456ad34e28af6":[38,0,49,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "d5/d83/classSRawEvent.html#a4930a2f2a0b38541a566fb5190b15d77":[38,0,457,59],
 "d5/d83/classSRawEvent.html#a4a085b0b6ebb9ea287b92b554cda2250":[38,0,457,36],
 "d5/d83/classSRawEvent.html#a4ed91d923eb7ee95fc0271354d18c25f":[38,0,457,63],
-"d5/d83/classSRawEvent.html#a51cd8d3010d8a2df78fe5543a2a6cb31":[38,0,457,58],
-"d5/d83/classSRawEvent.html#a53cdafbb2b5abcb4f0c1d068deb50395":[38,0,457,54],
-"d5/d83/classSRawEvent.html#a565e2bbd3b852d7e203c35130b066719":[38,0,457,26]
+"d5/d83/classSRawEvent.html#a51cd8d3010d8a2df78fe5543a2a6cb31":[38,0,457,58]
 };

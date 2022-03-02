@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d3/d9e/classPHG4Hit.html#acde0bddc67695b3afde72fbc86a5d02f":[38,0,276,48],
+"d3/d9e/classPHG4Hit.html#acea6b2f3763d899e4de3765b9b5c6e51":[38,0,276,13],
 "d3/d9e/classPHG4Hit.html#ad97bbe7fcf81822a93654afe0e540143":[38,0,276,50],
 "d3/d9e/classPHG4Hit.html#ad98752c535af4b000b234218810958dc":[38,0,276,68],
 "d3/d9e/classPHG4Hit.html#ae7fc1a891b4ec4997c1ad36ea1de95e5":[38,0,276,65],
@@ -180,7 +182,6 @@ var NAVTREEINDEX12 =
 "d3/df0/PHG4CellContainerLinkDef_8h.html":[39,0,2,7,0,37],
 "d3/df0/PHG4CellContainerLinkDef_8h_source.html":[39,0,2,7,0,37],
 "d3/df0/structDecoParam.html":[38,0,72],
-"d3/df0/structDecoParam.html#a1030b8e7bbdc4630c0fac94474b13f8e":[38,0,72,28],
 "d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30":[38,0,72,16],
 "d3/df0/structDecoParam.html#a13131be81059a410da1ec6786b277921":[38,0,72,12],
 "d3/df0/structDecoParam.html#a234ccfe8c1e307a8cae881a19d56dfe2":[38,0,72,20],
@@ -202,6 +203,7 @@ var NAVTREEINDEX12 =
 "d3/df0/structDecoParam.html#aabd6cac4f6884d32b10b16762b27aa91":[38,0,72,26],
 "d3/df0/structDecoParam.html#ab54f813b7f9534223a196cc17e93261a":[38,0,72,11],
 "d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00":[38,0,72,5],
+"d3/df0/structDecoParam.html#ac44312ee03dff4f7ba955a1f560113bc":[38,0,72,28],
 "d3/df0/structDecoParam.html#aecd716f75393453ae9c1be0e6dc53c85":[38,0,72,8],
 "d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b":[38,0,72,4],
 "d3/df0/structDecoParam.html#aef04eeb5d2dcc0d6f05fe527a912cc03":[38,0,72,17],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8":[38,0,436,23],
 "d4/d06/classSQPrimaryParticleGen.html#a3089360fe1b2fd95de23dd28219b32f6":[38,0,436,18],
 "d4/d06/classSQPrimaryParticleGen.html#a405112dedb0671ec479a1286faca433b":[38,0,436,19],
-"d4/d06/classSQPrimaryParticleGen.html#a41384d093709b5fac50023b7f799c579":[38,0,436,3],
-"d4/d06/classSQPrimaryParticleGen.html#a48e600d1ddd231dcbe7fa33506afb37b":[38,0,436,27],
-"d4/d06/classSQPrimaryParticleGen.html#a4dd823cf3db0eaeb2df795d15dbde1fc":[38,0,436,21]
+"d4/d06/classSQPrimaryParticleGen.html#a41384d093709b5fac50023b7f799c579":[38,0,436,3]
 };

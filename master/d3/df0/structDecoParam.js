@@ -28,5 +28,5 @@ var structDecoParam =
     [ "timeEnd", "d3/df0/structDecoParam.html#a890ecc101e28b39da9b58aea9a0faeaa", null ],
     [ "timeStart", "d3/df0/structDecoParam.html#aabd6cac4f6884d32b10b16762b27aa91", null ],
     [ "turn_id_max", "d3/df0/structDecoParam.html#afdff03ac1e085cddb8424c9357fa078f", null ],
-    [ "verbose", "d3/df0/structDecoParam.html#a1030b8e7bbdc4630c0fac94474b13f8e", null ]
+    [ "verb", "d3/df0/structDecoParam.html#ac44312ee03dff4f7ba955a1f560113bc", null ]
 ];

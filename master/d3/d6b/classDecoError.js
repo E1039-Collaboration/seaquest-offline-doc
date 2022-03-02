@@ -8,7 +8,8 @@ var classDecoError =
       [ "START_WO_STOP", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a8a4a4b08b265bc9d47b25b1e33d1db5d", null ],
       [ "START_NOT_RISE", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a6a3feb6706ea113ca5a599e38e0dc593", null ],
       [ "DIRTY_FINISH", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a79af3e57663945e2a48a24fa994f6059", null ],
-      [ "N_TDC_ERROR", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a40ccf869316ceca4fce06826503b2aa1", null ]
+      [ "N_TDC_ERROR", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a40ccf869316ceca4fce06826503b2aa1", null ],
+      [ "V1495_0BAD", "d3/d6b/classDecoError.html#ab5cef5f70dcbb9583bf2c53c1b4c4225a34b0eddf969abc8974ff2b906c2ad8cb", null ]
     ] ],
     [ "DecoError", "d3/d6b/classDecoError.html#a9e852999c54182c319df9ba8ec8bb68d", null ],
     [ "~DecoError", "d3/d6b/classDecoError.html#a23636de96829a2a6fcb55dc5b5a0ddf2", null ],

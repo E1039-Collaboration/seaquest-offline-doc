@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"dc/db2/SQMCHit__v1LinkDef_8h_source.html":[39,0,2,3,56],
+"dc/db3/PHParameterContainerInterface_8h.html":[39,0,2,0,1,1],
 "dc/db3/PHParameterContainerInterface_8h_source.html":[39,0,2,0,1,1],
 "dc/db5/classVariableArray.html":[38,0,486],
 "dc/db5/classVariableArray.html#a056ec79571ebb66dca87908aaddb6ecd":[38,0,486,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "dd/d0b/UtilSRawEvent_8cxx.html":[39,0,2,6,12,2,18],
 "dd/d0b/UtilSRawEvent_8cxx_source.html":[39,0,2,6,12,2,18],
 "dd/d10/PHG4BlockGeom_8h.html":[39,0,2,7,0,13],
-"dd/d10/PHG4BlockGeom_8h_source.html":[39,0,2,7,0,13],
-"dd/d13/classPHG4ParticleGun.html":[38,0,296],
-"dd/d13/classPHG4ParticleGun.html#a143e7c976888edf85b1a2bc04f987727":[38,0,296,2]
+"dd/d10/PHG4BlockGeom_8h_source.html":[39,0,2,7,0,13]
 };

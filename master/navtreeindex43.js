@@ -1,5 +1,7 @@
 var NAVTREEINDEX43 =
 {
+"dd/d13/classPHG4ParticleGun.html":[38,0,296],
+"dd/d13/classPHG4ParticleGun.html#a143e7c976888edf85b1a2bc04f987727":[38,0,296,2],
 "dd/d13/classPHG4ParticleGun.html#a2d29fadfb094cff742426062cabfaf75":[38,0,296,6],
 "dd/d13/classPHG4ParticleGun.html#a497b7156cb7aa451d307bc8f5c339656":[38,0,296,1],
 "dd/d13/classPHG4ParticleGun.html#a4ae78feb73a255a33846991f30a9a95b":[38,0,296,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX43 =
 "dd/d62/PHG4BlockCellGeomv1LinkDef_8h.html":[39,0,2,7,0,6],
 "dd/d62/PHG4BlockCellGeomv1LinkDef_8h_source.html":[39,0,2,7,0,6],
 "dd/d67/PHG4InEvent_8cc.html":[39,0,2,7,4,37],
-"dd/d67/PHG4InEvent_8cc_source.html":[39,0,2,7,4,37],
-"dd/d68/classPHG4ParticleGenerator.html":[38,0,292],
-"dd/d68/classPHG4ParticleGenerator.html#a1292dcb1c73496ea30769a4b8c355780":[38,0,292,2]
+"dd/d67/PHG4InEvent_8cc_source.html":[39,0,2,7,4,37]
 };

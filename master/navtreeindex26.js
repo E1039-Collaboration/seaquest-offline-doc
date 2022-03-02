@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"d7/dbe/PHG4GDMLWriteMaterials_8hh_source.html":[39,0,2,7,3,10],
+"d7/dbf/GFMeasurement_8cxx.html":[39,0,2,6,12,4,5],
 "d7/dbf/GFMeasurement_8cxx_source.html":[39,0,2,6,12,4,5],
 "d7/dbf/Pythia8Demo_2Fun4Sim_8C.html":[39,0,1,18,2],
 "d7/dbf/Pythia8Demo_2Fun4Sim_8C.html#a13db461d7442e3977a7c3773cd8119df":[39,0,1,18,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "d8/d14/classrecoConsts.html#a5502a14fdb8433de15c2e71351f281d6":[38,0,382,6],
 "d8/d14/classrecoConsts.html#a7c0a1405f7f0f8c2acca26831984b28d":[38,0,382,2],
 "d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc":[38,0,382,8],
-"d8/d14/classrecoConsts.html#ad45c452d9a71b5410c472614d72442ec":[38,0,382,1],
-"d8/d14/classrecoConsts.html#ad735ab2c74ebc74858e447fe2d91e299":[38,0,382,3],
-"d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24":[38,0,382,0]
+"d8/d14/classrecoConsts.html#ad45c452d9a71b5410c472614d72442ec":[38,0,382,1]
 };

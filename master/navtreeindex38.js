@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"db/d87/PHGenEvent_8h_source.html":[39,0,2,2,2,17],
+"db/d88/classPHG4Shower.html":[38,0,311],
 "db/d88/classPHG4Shower.html#a0751738c450c5810ea6ea857b9c119ba":[38,0,311,0],
 "db/d88/classPHG4Shower.html#a0a49618c836e9537150d0568a6f2868b":[38,0,311,26],
 "db/d88/classPHG4Shower.html#a1394a30863939f0f246ff5c3d4d00ff7":[38,0,311,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "db/de3/classPHFieldConfig__v3.html#a740fd2458803be6f0f503b213e518fc9":[38,0,203,4],
 "db/de3/classPHFieldConfig__v3.html#a7ba088f18362ac821513772350e5dd38":[38,0,203,13],
 "db/de3/classPHFieldConfig__v3.html#a7ff75adfe1e39759cd3539f8937a4131":[38,0,203,17],
-"db/de3/classPHFieldConfig__v3.html#a8654c01d2cd12d97a21b4338e4d76804":[38,0,203,0],
-"db/de3/classPHFieldConfig__v3.html#aa7ca6c4289eca94d1865c334529bebab":[38,0,203,3],
-"db/de3/classPHFieldConfig__v3.html#abe9495fbb9828156c5c3c7502c8fb40c":[38,0,203,2]
+"db/de3/classPHFieldConfig__v3.html#a8654c01d2cd12d97a21b4338e4d76804":[38,0,203,0]
 };
