@@ -47,6 +47,7 @@ var searchData=
   ['etaxsize',['etaxsize',['../df/d5e/classPHG4BlockCellReco.html#a5d39419017e6f11365c09ccd90c6b40e',1,'PHG4BlockCellReco']]],
   ['eval',['Eval',['../d2/d26/classTracklet.html#a476e4e0cd1490e5ed9f20fd5e1adc0d9',1,'Tracklet']]],
   ['eval4',['Eval4',['../d2/d26/classTracklet.html#a5fd7cf0057f0ede1d41e8472e665cf42',1,'Tracklet']]],
+  ['evalaverageoffilledbins',['EvalAverageOfFilledBins',['../d8/d69/classOnlMonMainDaq.html#a6f6dc648e64c93cde7d51044e03fcfdb',1,'OnlMonMainDaq']]],
   ['evalr',['EvalR',['../d3/d0c/classRTCurve.html#a1fe9921fe899712ccff8612610f0748d',1,'RTCurve']]],
   ['evclose',['evClose',['../d9/dca/evio_8c.html#a2f48414e60ed98e36184c0d714927134',1,'evClose(int handle):&#160;evio.c'],['../d9/df8/evio_8h.html#a2f48414e60ed98e36184c0d714927134',1,'evClose(int handle):&#160;evio.c']]],
   ['evclose_5f',['evclose_',['../d9/dca/evio_8c.html#ad63ee18fc0d14a4e0022f212a8c72f65',1,'evio.c']]],

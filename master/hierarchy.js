@@ -382,8 +382,8 @@ var hierarchy =
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
-    [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
     [ "Plane", "dc/d90/classPlane.html", null ],
+    [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
     [ "boost::detail::polymorphic_cast_tag", "da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
@@ -558,7 +558,14 @@ var hierarchy =
           [ "SQDimuonVector_v1", "d3/dc1/classSQDimuonVector__v1.html", null ]
         ] ],
         [ "SQEvent", "d9/dd7/classSQEvent.html", [
-          [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ]
+          [ "SQEvent_v1", "dd/d59/classSQEvent__v1.html", null ],
+          [ "SQEvent_v2", "d7/dcb/classSQEvent__v2.html", null ]
+        ] ],
+        [ "SQHardEvent", "df/d41/classSQHardEvent.html", [
+          [ "SQHardEvent_v1", "dc/da2/classSQHardEvent__v1.html", null ]
+        ] ],
+        [ "SQHardSpill", "d9/d4a/classSQHardSpill.html", [
+          [ "SQHardSpill_v1", "da/db8/classSQHardSpill__v1.html", null ]
         ] ],
         [ "SQHit", "de/d79/classSQHit.html", [
           [ "SQCalHit_v1", "da/db1/classSQCalHit__v1.html", [

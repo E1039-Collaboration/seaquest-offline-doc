@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc604e499880357a56d30951e7a2124e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82fee38c4e8fa7912e47085f7e66f97d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/classMainDaqParser.html#a82fee38c4e8fa7912e47085f7e66f97d">NextPhysicsEvent</a> (<a class="el" href="../../de/da7/structEventData.html">EventData</a> *&amp;ed, <a class="el" href="../../d4/dbe/structSpillData.html">SpillData</a> *&amp;sd, <a class="el" href="../../d0/d64/structRunData.html">RunData</a> *&amp;rd)</td></tr>
 <tr class="separator:a82fee38c4e8fa7912e47085f7e66f97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1473c52675422e209e896ebdaaf737a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d64/structRunData.html">RunData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/classMainDaqParser.html#a1473c52675422e209e896ebdaaf737a3">GetRunData</a> ()</td></tr>
+<tr class="separator:a1473c52675422e209e896ebdaaf737a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade90d9a3b3b05b89cc47a4bc4f1b194c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcd/classMainDaqParser.html#ade90d9a3b3b05b89cc47a4bc4f1b194c">End</a> ()</td></tr>
 <tr class="separator:ade90d9a3b3b05b89cc47a4bc4f1b194c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -231,9 +233,9 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00189">189</a> of file <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html">MainDaqParser.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d78/CodaInputManager_8cc_source.html#l00068">CodaInputManager::CloseFile()</a>, <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00077">dec_err</a>, <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00076">dec_par</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00104">PHTimer::get_accumulated_time()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00108">PHTimer::get_ncycle()</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00024">DecoError::InitData()</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00020">DecoParam::is_online</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00091">RunData::n_evt_all</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00092">RunData::n_evt_dec</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00095">RunData::n_flush_evt</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00097">RunData::n_hit</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00099">RunData::n_hit_bad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00093">RunData::n_phys_evt</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00098">RunData::n_t_hit</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00100">RunData::n_t_hit_bad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00101">RunData::n_v1495</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00102">RunData::n_v1495_d1ad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00103">RunData::n_v1495_d2ad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00104">RunData::n_v1495_d3ad</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00056">DecoError::PrintData()</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00054">DecoParam::timeEnd</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00054">DecoParam::timeStart</a>, and <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00022">DecoParam::verb</a>.</p>
+<p>References <a class="el" href="../../d8/d78/CodaInputManager_8cc_source.html#l00068">CodaInputManager::CloseFile()</a>, <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00078">dec_err</a>, <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00077">dec_par</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00104">PHTimer::get_accumulated_time()</a>, <a class="el" href="../../dc/d26/PHTimer_8h_source.html#l00108">PHTimer::get_ncycle()</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00024">DecoError::InitData()</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00021">DecoParam::is_online</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00092">RunData::n_evt_all</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00093">RunData::n_evt_dec</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00096">RunData::n_flush_evt</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00098">RunData::n_hit</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00100">RunData::n_hit_bad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00094">RunData::n_phys_evt</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00099">RunData::n_t_hit</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00101">RunData::n_t_hit_bad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00102">RunData::n_v1495</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00103">RunData::n_v1495_d1ad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00104">RunData::n_v1495_d2ad</a>, <a class="el" href="../../d1/d7f/DecoData_8h_source.html#l00105">RunData::n_v1495_d3ad</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../d0/d56/DecoError_8cc_source.html#l00056">DecoError::PrintData()</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00058">DecoParam::timeEnd</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00058">DecoParam::timeStart</a>, and <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00023">DecoParam::verb</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00411">Fun4AllEVIOInputManager::fileclose()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00435">Fun4AllEVIOInputManager::fileclose()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -280,7 +282,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00071">71</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00594">Fun4AllEVIOInputManager::SetOnline()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00624">Fun4AllEVIOInputManager::SetOnline()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -288,6 +290,43 @@ Public Attributes</h2></td></tr>
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_a44b8e1e79624227a49e33f53fc67341a_icgraph.svg" width="582" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a1473c52675422e209e896ebdaaf737a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d64/structRunData.html">RunData</a>* MainDaqParser::GetRunData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00074">74</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00435">Fun4AllEVIOInputManager::fileclose()</a>.</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_a1473c52675422e209e896ebdaaf737a3_icgraph.svg" width="1131" height="322"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -328,23 +367,23 @@ Public Attributes</h2></td></tr>
 
 <p>References <a class="el" href="../../d6/d1e/CodaInputManager_8h_source.html#l00029">CodaInputManager::IsEnded()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00160">Fun4AllEVIOInputManager::run()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00169">Fun4AllEVIOInputManager::run()</a>.</p>
 
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_a82fee38c4e8fa7912e47085f7e66f97d_cgraph.svg" width="430" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_a82fee38c4e8fa7912e47085f7e66f97d_icgraph.svg" width="446" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -390,25 +429,25 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00056">56</a> of file <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html">MainDaqParser.cc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00076">dec_par</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00018">DecoParam::fn_in</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../d8/d78/CodaInputManager_8cc_source.html#l00018">CodaInputManager::OpenFile()</a>, and <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00054">DecoParam::timeStart</a>.</p>
+<p>References <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00077">dec_par</a>, <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00019">DecoParam::fn_in</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../d8/d78/CodaInputManager_8cc_source.html#l00018">CodaInputManager::OpenFile()</a>, and <a class="el" href="../../d9/da4/DecoParam_8h_source.html#l00058">DecoParam::timeStart</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00127">Fun4AllEVIOInputManager::fileopen()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00136">Fun4AllEVIOInputManager::fileopen()</a>.</p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_afc604e499880357a56d30951e7a2124e_cgraph.svg" width="966" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../df/dcd/classMainDaqParser_afc604e499880357a56d30951e7a2124e_icgraph.svg" width="907" height="204"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -427,7 +466,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00077">77</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00078">78</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00189">End()</a>.</p>
 
@@ -443,9 +482,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00076">76</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html#l00077">77</a> of file <a class="el" href="../../d7/d04/MainDaqParser_8h_source.html">MainDaqParser.h</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00605">Fun4AllEVIOInputManager::DirParam()</a>, <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00189">End()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00600">Fun4AllEVIOInputManager::EventSamplingFactor()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00127">Fun4AllEVIOInputManager::fileopen()</a>, <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00056">OpenCodaFile()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00610">Fun4AllEVIOInputManager::PretendSpillInterval()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00160">Fun4AllEVIOInputManager::run()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00594">Fun4AllEVIOInputManager::SetOnline()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00635">Fun4AllEVIOInputManager::DirParam()</a>, <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00189">End()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00630">Fun4AllEVIOInputManager::EventSamplingFactor()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00136">Fun4AllEVIOInputManager::fileopen()</a>, <a class="el" href="../../d8/d76/MainDaqParser_8cc_source.html#l00056">OpenCodaFile()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00640">Fun4AllEVIOInputManager::PretendSpillInterval()</a>, <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00169">Fun4AllEVIOInputManager::run()</a>, and <a class="el" href="../../de/d00/Fun4AllEVIOInputManager_8cc_source.html#l00624">Fun4AllEVIOInputManager::SetOnline()</a>.</p>
 
 </div>
 </div>
@@ -463,7 +502,7 @@ Public Attributes</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../df/dcd/classMainDaqParser.html">MainDaqParser</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue Mar 1 2022 22:00:10</em> using <a
+			updated: <em>Thu Mar 10 2022 08:10:12</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

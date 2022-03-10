@@ -5,6 +5,7 @@ var classOnlMonMainDaq =
     [ "Clone", "d8/d69/classOnlMonMainDaq.html#a99d24d75f7feee752010b182875de460", null ],
     [ "DrawMonitor", "d8/d69/classOnlMonMainDaq.html#ad84a74b4b2b1986c7cc1d1a433594728", null ],
     [ "EndOnlMon", "d8/d69/classOnlMonMainDaq.html#a0f3828933193d49acbc7936ce7265aab", null ],
+    [ "EvalAverageOfFilledBins", "d8/d69/classOnlMonMainDaq.html#a6f6dc648e64c93cde7d51044e03fcfdb", null ],
     [ "FindAllMonHist", "d8/d69/classOnlMonMainDaq.html#af54b484ad656c81c126dc3cebdc8d28d", null ],
     [ "InitOnlMon", "d8/d69/classOnlMonMainDaq.html#a9d90f481b1b6cbba08a32be90c7ce291", null ],
     [ "InitRunOnlMon", "d8/d69/classOnlMonMainDaq.html#a6cc752f5f098e9af6fb44d1b91a42b03", null ],
