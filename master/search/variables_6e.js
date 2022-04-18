@@ -72,6 +72,7 @@ var searchData=
   ['npieces',['nPieces',['../d3/d10/classMaterialProfile.html#a104f0271e7b9d9604bf30a5dd0a27534',1,'MaterialProfile']]],
   ['nplus',['nPlus',['../d5/d72/classTriggerRoad.html#a99a3bead4af93e56c72c1a751656b312',1,'TriggerRoad']]],
   ['nscint',['nscint',['../d1/df3/classPHG4CylinderGeomv2.html#a12f8dc4cbf4305a03ecac010c181872e',1,'PHG4CylinderGeomv2']]],
+  ['ntracklets',['nTracklets',['../df/dd4/classKJob.html#a9796d85a2a33323cc577a9ccf74d74c8',1,'KJob']]],
   ['nucintlen',['nucIntLen',['../d5/d7b/classSQBeamlineObject.html#aa361535519b5121642a7e3880adbc43d',1,'SQBeamlineObject']]],
   ['nuhits',['nUHits',['../d2/d26/classTracklet.html#a3bdc7e0e07f1157b9c3ac9d8421627af',1,'Tracklet']]],
   ['num_5fpixel_5flayers',['num_pixel_layers',['../dc/d94/classPHG4CylinderCellTPCReco.html#a305fce9a65e292cb5c856d808f248231',1,'PHG4CylinderCellTPCReco']]],

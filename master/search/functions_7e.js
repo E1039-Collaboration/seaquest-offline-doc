@@ -109,6 +109,8 @@ var searchData=
   ['_7ehitdata',['~HitData',['../d2/de9/structHitData.html#a175cf8c398d41c5935f8db1ac7fb1b2e',1,'HitData::~HitData()'],['../d2/de9/structHitData.html#a175cf8c398d41c5935f8db1ac7fb1b2e',1,'HitData::~HitData()']]],
   ['_7ekalmandstrk',['~KalmanDSTrk',['../db/daa/classKalmanDSTrk.html#aed91a1c4407e4fa711da3468bbacaf53',1,'KalmanDSTrk']]],
   ['_7ekalmanfasttracking',['~KalmanFastTracking',['../d3/d46/classKalmanFastTracking.html#a3deb95ac6b2fba8e3928ec2b7c124906',1,'KalmanFastTracking']]],
+  ['_7ekjob',['~KJob',['../df/dd4/classKJob.html#ae471774ad3fb512f5b52d7555fdd1a0d',1,'KJob']]],
+  ['_7ekscheduler',['~KScheduler',['../dd/d12/classKScheduler.html#a3059207126a3849dd4fc494bf596f274',1,'KScheduler']]],
   ['_7emaindaqparser',['~MainDaqParser',['../df/dcd/classMainDaqParser.html#a3c258d3157d5e339c5522130f496af51',1,'MainDaqParser']]],
   ['_7emakertcurve',['~MakeRTCurve',['../de/d72/classMakeRTCurve.html#aeb688dd25ccae62aed3b80e4e8f07751',1,'MakeRTCurve']]],
   ['_7emappedfield',['~MappedField',['../db/d3c/classPHEveDisplay_1_1MappedField.html#a8da12dbd7aeb7fe8b74ef969250a0456',1,'PHEveDisplay::MappedField']]],
