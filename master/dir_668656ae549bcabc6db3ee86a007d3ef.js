@@ -12,9 +12,9 @@ var dir_668656ae549bcabc6db3ee86a007d3ef =
     [ "CalibParam.h", "d5/d47/CalibParam_8h.html", [
       [ "CalibParam", "d6/db6/classCalibParam.html", "d6/db6/classCalibParam" ]
     ] ],
-    [ "FilterByTrigger.cc", "d7/db3/CalibChamXT_2src_2FilterByTrigger_8cc.html", null ],
-    [ "FilterByTrigger.h", "d4/ddd/e1039-analysis_2CalibChamXT_2src_2FilterByTrigger_8h.html", [
-      [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", "d0/d1d/classFilterByTrigger" ]
+    [ "FitRTDist.cc", "d7/d57/FitRTDist_8cc.html", null ],
+    [ "FitRTDist.h", "db/d2a/FitRTDist_8h.html", [
+      [ "FitRTDist", "d5/df4/classFitRTDist.html", "d5/df4/classFitRTDist" ]
     ] ],
     [ "LinkDef.h", "db/dfb/e1039-analysis_2CalibChamXT_2src_2LinkDef_8h.html", null ],
     [ "MakeRTCurve.cc", "d4/dd1/MakeRTCurve_8cc.html", null ],

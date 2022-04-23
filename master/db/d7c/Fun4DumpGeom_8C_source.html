@@ -114,10 +114,10 @@ $(document).ready(function(){initNavTree('db/d7c/Fun4DumpGeom_8C_source.html','.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/df3/e1039-core_2macros_2G4__Target_8C.html">G4_Target.C</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d6b/G4__InsensitiveVolumes_8C.html">G4_InsensitiveVolumes.C</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d72/e1039-core_2macros_2G4__SensitiveDetectors_8C.html">G4_SensitiveDetectors.C</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;R__LOAD_LIBRARY(libfun4all)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;R__LOAD_LIBRARY(libgeom_svc)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;R__LOAD_LIBRARY(libg4detectors)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;R__LOAD_LIBRARY(libg4dst)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<a class="code" href="../../de/de6/Fun4AllReco_8C.html#a4897de516e3b8adf4af5321c24469fcc">R__LOAD_LIBRARY</a>(libfun4all)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../de/de6/Fun4AllReco_8C.html#a4897de516e3b8adf4af5321c24469fcc">R__LOAD_LIBRARY</a>(libgeom_svc)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../de/de6/Fun4AllReco_8C.html#a4897de516e3b8adf4af5321c24469fcc">R__LOAD_LIBRARY</a>(libg4detectors)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<a class="code" href="../../de/de6/Fun4AllReco_8C.html#a4897de516e3b8adf4af5321c24469fcc">R__LOAD_LIBRARY</a>(libg4dst)</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;using namespace std;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
@@ -205,6 +205,7 @@ $(document).ready(function(){initNavTree('db/d7c/Fun4DumpGeom_8C_source.html','.
 <div class="ttc" id="classFun4AllServer_html_abcaf6825367e5db292ff795237bdcf62"><div class="ttname"><a href="../../da/d29/classFun4AllServer.html#abcaf6825367e5db292ff795237bdcf62">Fun4AllServer::topNode</a></div><div class="ttdeci">PHCompositeNode * topNode() const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/Fun4AllServer_8h_source.html#l00059">Fun4AllServer.h:59</a></div></div>
 <div class="ttc" id="G4__Beamline_8C_html_a6e6165b8660634556c42a32fcad753eb"><div class="ttname"><a href="../../dc/dd8/G4__Beamline_8C.html#a6e6165b8660634556c42a32fcad753eb">SetupBeamline</a></div><div class="ttdeci">void SetupBeamline(PHG4Reco *g4Reco, const bool toggle_collimator=true, const double collimator_pos_z=-602.36, const int register_hits=0)</div><div class="ttdoc">Macro function to configure the beamline objects. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd8/G4__Beamline_8C_source.html#l00017">G4_Beamline.C:17</a></div></div>
 <div class="ttc" id="classPHG4Reco_html_a4b72190c41f51067bce7433768d5eb57"><div class="ttname"><a href="../../d0/d78/classPHG4Reco.html#a4b72190c41f51067bce7433768d5eb57">PHG4Reco::SetWorldSizeX</a></div><div class="ttdeci">void SetWorldSizeX(const double sx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2b/PHG4Reco_8h_source.html#l00107">PHG4Reco.h:107</a></div></div>
+<div class="ttc" id="Fun4AllReco_8C_html_a4897de516e3b8adf4af5321c24469fcc"><div class="ttname"><a href="../../de/de6/Fun4AllReco_8C.html#a4897de516e3b8adf4af5321c24469fcc">R__LOAD_LIBRARY</a></div><div class="ttdeci">R__LOAD_LIBRARY(libphg4hit)</div><div class="ttdoc">Fun4AllReco.C: Fun4all macro to run the reconstruction. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/de6/Fun4AllReco_8C_source.html#l00003">Fun4AllReco.C:3</a></div></div>
 <div class="ttc" id="classFun4AllBase_html_a05da2261577843028cf78e99171343b9"><div class="ttname"><a href="../../d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9">Fun4AllBase::Verbosity</a></div><div class="ttdeci">virtual void Verbosity(const int ival)</div><div class="ttdoc">Sets the verbosity of this module (0 by default=quiet). </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de7/Fun4AllBase_8h_source.html#l00058">Fun4AllBase.h:58</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc.cxx:212</a></div></div>
 <div class="ttc" id="G4__Beamline_8C_html"><div class="ttname"><a href="../../dc/dd8/G4__Beamline_8C.html">G4_Beamline.C</a></div><div class="ttdoc">Macro to configure the beamline objects. </div></div>
@@ -222,7 +223,7 @@ $(document).ready(function(){initNavTree('db/d7c/Fun4DumpGeom_8C_source.html','.
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_0987381a3d6260ef070a766a46bdeb23.html">macros</a></li><li class="navelem"><a class="el" href="../../db/d7c/Fun4DumpGeom_8C.html">Fun4DumpGeom.C</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Apr 18 2022 13:10:07</em> using <a
+			updated: <em>Fri Apr 22 2022 22:50:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

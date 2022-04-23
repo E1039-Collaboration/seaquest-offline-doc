@@ -19,6 +19,6 @@ var classCalibParam =
     [ "ReadRTParam", "d6/db6/classCalibParam.html#a9d9f35c04e8e835eb9dcccc007ebd204", null ],
     [ "ReadTimeWindow", "d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930", null ],
     [ "TimeWindowIsFixed", "d6/db6/classCalibParam.html#a1854ac13c37143089e9125a0f2ca1f73", null ],
-    [ "WriteRTGraph", "d6/db6/classCalibParam.html#a5bbc4fc8c311b0345fce8a010b6483ba", null ],
-    [ "WriteRTParam", "d6/db6/classCalibParam.html#a839a6e488d27b6de903971b26a4546ef", null ]
+    [ "WriteRTGraph", "d6/db6/classCalibParam.html#a81dc60a9a65f78e7db78ba3752ad7355", null ],
+    [ "WriteRTParam", "d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9", null ]
 ];

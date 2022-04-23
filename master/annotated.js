@@ -101,6 +101,7 @@ var annotated =
     [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", "d0/d1d/classFilterByTrigger" ],
     [ "FilterE906Nim3", "d9/d7b/classFilterE906Nim3.html", "d9/d7b/classFilterE906Nim3" ],
     [ "FilterSimEvent", "d5/db4/classFilterSimEvent.html", "d5/db4/classFilterSimEvent" ],
+    [ "FitRTDist", "d5/df4/classFitRTDist.html", "d5/df4/classFitRTDist" ],
     [ "FlagSave", "d3/da3/classFlagSave.html", "d3/da3/classFlagSave" ],
     [ "FlagSavev1", "da/db3/classFlagSavev1.html", "da/db3/classFlagSavev1" ],
     [ "Fun4AllBase", "d5/dec/classFun4AllBase.html", "d5/dec/classFun4AllBase" ],

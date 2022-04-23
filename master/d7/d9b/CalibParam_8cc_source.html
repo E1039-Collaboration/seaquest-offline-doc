@@ -184,160 +184,163 @@ $(document).ready(function(){initNavTree('d7/d9b/CalibParam_8cc_source.html','..
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a9d9f35c04e8e835eb9dcccc007ebd204">   75</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a9d9f35c04e8e835eb9dcccc007ebd204">CalibParam::ReadRTParam</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> fname)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;ReadRT(): input = &quot;</span> &lt;&lt; fname &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;ReadRTParam(): input = &quot;</span> &lt;&lt; fname &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  ifstream ifs(fname.c_str());</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">if</span> (! ifs) {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;ERROR:  Cannot open the input file.  Abort.&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    exit(1);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordtype">char</span> buf[300];</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordflow">while</span> (ifs.getline(buf, 300)) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    istringstream detector_info(buf);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">int</span> det_id, n_bin;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">double</span> tmin_temp, tmax_temp;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">string</span> det_name;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    detector_info &gt;&gt; det_id &gt;&gt; n_bin &gt;&gt; tmin_temp &gt;&gt; tmax_temp &gt;&gt; det_name;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (det_id &gt; N_PL) <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ii = 0; ii &lt; n_bin; ii++) {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="keywordtype">int</span> i_bin;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="keywordtype">double</span> R, T;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      ifs.getline(buf, 100);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      istringstream cali_line(buf);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      cali_line &gt;&gt; i_bin &gt;&gt; T &gt;&gt; R;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      m_gr_t2r_in[det_id - 1]-&gt;SetPoint(ii, T, R);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  ifs.close();</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a839a6e488d27b6de903971b26a4546ef">  104</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a839a6e488d27b6de903971b26a4546ef">CalibParam::WriteRTParam</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> dir_name)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;{</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;WriteRT(): output = &quot;</span> &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  ostringstream oss;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  oss &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;/calibration_cham.txt&quot;</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  ofstream ofs1(oss.str().c_str()); </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  ofs1.setf(ios_base::fixed, ios_base::floatfield);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  oss &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;/calibration_cham_res.txt&quot;</span>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  ofstream ofs2(oss.str().c_str());</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  ofs2.setf(ios_base::fixed, ios_base::floatfield);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  <span class="keywordtype">char</span> buf[300];</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  <span class="keywordflow">while</span> (ifs.getline(buf, 300)) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (buf[0] != <span class="charliteral">&#39;D&#39;</span>) <span class="keywordflow">continue</span>; <span class="comment">// comment or PT lines</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    istringstream iss(buf);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">string</span> det;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">double</span> t, x, dt, dx;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    iss &gt;&gt; det &gt;&gt; t &gt;&gt; x &gt;&gt; dt &gt;&gt; dx;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> det_id = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>()-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">getDetectorID</a>(det);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    TGraph* gr = m_gr_t2r_in[det_id - 1];</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    gr-&gt;SetPoint(gr-&gt;GetN(), t, x);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  ifs.close();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9">   99</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9">CalibParam::WriteRTParam</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> dir_name, <span class="keyword">const</span> <span class="keywordtype">string</span> fname)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;WriteRTParam(): output = &quot;</span> &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  ostringstream oss;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  oss &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; fname;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  ofstream ofs1(oss.str().c_str()); </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  ofs1.setf(ios_base::fixed, ios_base::floatfield);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  ofs1 &lt;&lt; <span class="stringliteral">&quot;#det\tt\tx\tdt\tdx\n&quot;</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ip = 0; ip &lt; N_PL; ip++) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span>      (ip &lt;  6) { <span class="keywordflow">if</span> (! m_ana_d0 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 12) { <span class="keywordflow">if</span> (! m_ana_d1 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 18) { <span class="keywordflow">if</span> (! m_ana_d2 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 24) { <span class="keywordflow">if</span> (! m_ana_d3p) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">else</span>              { <span class="keywordflow">if</span> (! m_ana_d3m) <span class="keywordflow">continue</span>; }</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ip = 0; ip &lt; N_PL; ip++) {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span>      (ip &lt;  6) { <span class="keywordflow">if</span> (! m_ana_d0 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 12) { <span class="keywordflow">if</span> (! m_ana_d1 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 18) { <span class="keywordflow">if</span> (! m_ana_d2 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 24) { <span class="keywordflow">if</span> (! m_ana_d3p) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">else</span>              { <span class="keywordflow">if</span> (! m_ana_d3m) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">int</span> n_pt;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordtype">double</span> t_min, t_max;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">if</span> (fix_time_window) {</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      t_min = T1[ip];</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      t_max = T0[ip];</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      n_pt  = (int)((t_max - t_min) / DT_RT) + 1;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      n_pt  = m_gr_t2r_in[ip]-&gt;GetN();</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      t_min = m_gr_t2r_in[ip]-&gt;GetX()[0];</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      t_max = m_gr_t2r_in[ip]-&gt;GetX()[n_pt-1];</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    ofs1 &lt;&lt; ip+1 &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; n_pt &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; fixed &lt;&lt; setprecision(1) &lt;&lt; t_min &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; t_max &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>(ip+1) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_pt = 0; i_pt &lt; n_pt; i_pt++) {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <span class="keywordtype">double</span> t = t_min + DT_RT * i_pt;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="keywordtype">double</span> r = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a1fe9921fe899712ccff8612610f0748d">EvalR</a>(t);</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      ofs1 &lt;&lt;<span class="stringliteral">&quot;0   &quot;</span>&lt;&lt; setprecision(1) &lt;&lt; t &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; setprecision(4) &lt;&lt; r &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    ofs2 &lt;&lt; ip+1 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; setprecision(3) &lt;&lt; m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a4269dc311487d239c0453b9527be815d">GetRWidth</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  }</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  <span class="comment">//ifstream ifs( &quot;calibration_prop.txt&quot; );</span></div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  <span class="comment">//if(!ifs){</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  <span class="comment">//  cerr &lt;&lt;&quot;!!ERROR!!  Cannot open the input file &#39;calibration_prop.txt&#39;.  Abort.&quot; &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="comment">//  exit(1);</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">//}    </span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">//string buffer;</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">//while (getline(ifs, buffer)) ofs1 &lt;&lt; buffer &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">//ifs .close();</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  ofs1.close();</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  ofs2.close();</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a5bbc4fc8c311b0345fce8a010b6483ba">  158</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a5bbc4fc8c311b0345fce8a010b6483ba">CalibParam::WriteRTGraph</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> dir_name)</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;{</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  ostringstream oss;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  oss &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;/rt_graph.root&quot;</span>;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  TFile* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> = <span class="keyword">new</span> TFile(oss.str().c_str(), <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> ip = 0; ip &lt; N_PL; ip++){</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">if</span>      (ip &lt;  6) { <span class="keywordflow">if</span> (! m_ana_d0 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 12) { <span class="keywordflow">if</span> (! m_ana_d1 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 18) { <span class="keywordflow">if</span> (! m_ana_d2 ) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 24) { <span class="keywordflow">if</span> (! m_ana_d3p) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">else</span>              { <span class="keywordflow">if</span> (! m_ana_d3m) <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>); </div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;gr_t2r_in_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    m_gr_t2r_in[ip]-&gt;SetName(oss.str().c_str());</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    m_gr_t2r_in[ip]-&gt;Write();</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    TGraph* gr_t2dr = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#aea8fee81e03e26dd2947752e14aaf821">GetT2DRGraph</a>();</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;gr_t2dr_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    gr_t2dr-&gt;SetName(oss.str().c_str());</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    gr_t2dr-&gt;Write();</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    TSpline3* spl_t2r = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a59548845ae3bc6e75d10276330eccf68">GetT2RSpline</a>();</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;spl_t2r_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    spl_t2r-&gt;SetName(oss.str().c_str());</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    spl_t2r-&gt;Write();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  file-&gt;Write();</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  file-&gt;Close();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
-<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">  194</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">CalibParam::ReadTimeWindow</a>(<span class="keyword">const</span> std::string fname)</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;{</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;ReadTimeWindow(): input = &quot;</span> &lt;&lt; fname &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  ifstream ifs(fname.c_str());</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <span class="keywordflow">if</span> (! ifs) {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;ERROR:  Cannot open the input file.  Abort.&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    exit(1);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;  }</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  <span class="keywordtype">int</span> det_id;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  <span class="keywordtype">double</span> t1, t0;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  <span class="keywordtype">string</span> det_name;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="keywordflow">while</span> (ifs &gt;&gt; det_id &gt;&gt; t1 &gt;&gt; t0 &gt;&gt; det_name) {</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; det_id &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; t1 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; t0 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; det_name &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    T1[det_id-1] = t1;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    T0[det_id-1] = t0;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  ifs.close();</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  fix_time_window = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> n_pt;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">double</span> t_min, t_max;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (fix_time_window) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      t_min = T1[ip];</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      t_max = T0[ip];</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      n_pt  = (int)((t_max - t_min) / DT_RT) + 1;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      n_pt  = m_gr_t2r_in[ip]-&gt;GetN();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      t_min = m_gr_t2r_in[ip]-&gt;GetX()[0];</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      t_max = m_gr_t2r_in[ip]-&gt;GetX()[n_pt-1];</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="keywordflow">if</span> (t_min &gt; t_max) {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordtype">double</span> t_tmp = t_min;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        t_min = t_max;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        t_max = t_tmp;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">string</span> det = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">getDetectorName</a>(ip+1);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordtype">double</span> dx  = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a4269dc311487d239c0453b9527be815d">GetRWidth</a>();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">double</span> dt  = dx * (t_max - t_min) / R_MAX[ip];</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i_pt = 0; i_pt &lt; n_pt; i_pt++) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="keywordtype">double</span> t = t_min + DT_RT * i_pt;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordtype">double</span> x = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a1fe9921fe899712ccff8612610f0748d">EvalR</a>(t);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      ofs1 &lt;&lt; det &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;           &lt;&lt; setprecision(1) &lt;&lt; t  &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;           &lt;&lt; setprecision(4) &lt;&lt; x  &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;           &lt;&lt; setprecision(3) &lt;&lt; dt &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;           &lt;&lt; setprecision(3) &lt;&lt; dx &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="comment">//ifstream ifs( &quot;calibration_prop.txt&quot; );</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  <span class="comment">//if(!ifs){</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  <span class="comment">//  cerr &lt;&lt;&quot;!!ERROR!!  Cannot open the input file &#39;calibration_prop.txt&#39;.  Abort.&quot; &lt;&lt; endl;</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  <span class="comment">//  exit(1);</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  <span class="comment">//}    </span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  <span class="comment">//string buffer;</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  <span class="comment">//while (getline(ifs, buffer)) ofs1 &lt;&lt; buffer &lt;&lt; endl;</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  <span class="comment">//ifs .close();</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  ofs1.close();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;}</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a81dc60a9a65f78e7db78ba3752ad7355">  160</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a81dc60a9a65f78e7db78ba3752ad7355">CalibParam::WriteRTGraph</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> dir_name, <span class="keyword">const</span> <span class="keywordtype">string</span> fname)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;{</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  ostringstream oss;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  oss &lt;&lt; dir_name &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; fname;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  TFile* <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> = <span class="keyword">new</span> TFile(oss.str().c_str(), <span class="stringliteral">&quot;RECREATE&quot;</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> ip = 0; ip &lt; N_PL; ip++){</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">if</span>      (ip &lt;  6) { <span class="keywordflow">if</span> (! m_ana_d0 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 12) { <span class="keywordflow">if</span> (! m_ana_d1 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 18) { <span class="keywordflow">if</span> (! m_ana_d2 ) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ip &lt; 24) { <span class="keywordflow">if</span> (! m_ana_d3p) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">else</span>              { <span class="keywordflow">if</span> (! m_ana_d3m) <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>); </div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;gr_t2r_in_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    m_gr_t2r_in[ip]-&gt;SetName(oss.str().c_str());</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    m_gr_t2r_in[ip]-&gt;Write();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    TGraph* gr_t2dr = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#aea8fee81e03e26dd2947752e14aaf821">GetT2DRGraph</a>();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;gr_t2dr_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    gr_t2dr-&gt;SetName(oss.str().c_str());</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    gr_t2dr-&gt;Write();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    TSpline3* spl_t2r = m_rtc[ip]-&gt;<a class="code" href="../../d3/d0c/classRTCurve.html#a59548845ae3bc6e75d10276330eccf68">GetT2RSpline</a>();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    oss.str(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    oss &lt;&lt; <span class="stringliteral">&quot;spl_t2r_&quot;</span> &lt;&lt; geom-&gt;getDetectorName(ip+1);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    spl_t2r-&gt;SetName(oss.str().c_str());</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    spl_t2r-&gt;Write();</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  file-&gt;Write();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  file-&gt;Close();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">  196</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">CalibParam::ReadTimeWindow</a>(<span class="keyword">const</span> std::string fname)</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  cout &lt;&lt; <span class="stringliteral">&quot;ReadTimeWindow(): input = &quot;</span> &lt;&lt; fname &lt;&lt; <span class="stringliteral">&quot;.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  ifstream ifs(fname.c_str());</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  <span class="keywordflow">if</span> (! ifs) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    cerr &lt;&lt; <span class="stringliteral">&quot;ERROR:  Cannot open the input file.  Abort.&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    exit(1);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  <span class="keywordtype">int</span> det_id;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;  <span class="keywordtype">double</span> t1, t0;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  <span class="keywordtype">string</span> det_name;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  <span class="keywordflow">while</span> (ifs &gt;&gt; det_id &gt;&gt; t1 &gt;&gt; t0 &gt;&gt; det_name) {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;  &quot;</span> &lt;&lt; det_id &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; t1 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; t0 &lt;&lt; <span class="stringliteral">&quot;\t&quot;</span> &lt;&lt; det_name &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    T1[det_id-1] = t1;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    T0[det_id-1] = t0;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  }</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  ifs.close();</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  fix_time_window = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;}</div>
 <div class="ttc" id="classRTCurve_html_a59548845ae3bc6e75d10276330eccf68"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html#a59548845ae3bc6e75d10276330eccf68">RTCurve::GetT2RSpline</a></div><div class="ttdeci">TSpline3 * GetT2RSpline()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db6/RTCurve_8cc_source.html#l00063">RTCurve.cc:63</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a64fde7dce7f3df7cf534796d7da4ecdb"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb">GeomSvc::getDetectorName</a></div><div class="ttdeci">std::string getDetectorName(const int &amp;detectorID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00190">GeomSvc.h:190</a></div></div>
 <div class="ttc" id="classCalibParam_html_a9d9f35c04e8e835eb9dcccc007ebd204"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a9d9f35c04e8e835eb9dcccc007ebd204">CalibParam::ReadRTParam</a></div><div class="ttdeci">void ReadRTParam(const std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00075">CalibParam.cc:75</a></div></div>
 <div class="ttc" id="classRTCurve_html_aea8fee81e03e26dd2947752e14aaf821"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html#aea8fee81e03e26dd2947752e14aaf821">RTCurve::GetT2DRGraph</a></div><div class="ttdeci">TGraph * GetT2DRGraph()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db6/RTCurve_8cc_source.html#l00073">RTCurve.cc:73</a></div></div>
-<div class="ttc" id="classCalibParam_html_a0e191ce444be04f9c17f55b242d63930"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">CalibParam::ReadTimeWindow</a></div><div class="ttdeci">void ReadTimeWindow(const std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00194">CalibParam.cc:194</a></div></div>
+<div class="ttc" id="classCalibParam_html_a0e191ce444be04f9c17f55b242d63930"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a0e191ce444be04f9c17f55b242d63930">CalibParam::ReadTimeWindow</a></div><div class="ttdeci">void ReadTimeWindow(const std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00196">CalibParam.cc:196</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a62517e6e6692a7f4a7ee4f45acfbc1a3"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a62517e6e6692a7f4a7ee4f45acfbc1a3">GeomSvc::getCellWidth</a></div><div class="ttdeci">double getCellWidth(int detectorID) const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00204">GeomSvc.h:204</a></div></div>
 <div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
-<div class="ttc" id="classCalibParam_html_a839a6e488d27b6de903971b26a4546ef"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a839a6e488d27b6de903971b26a4546ef">CalibParam::WriteRTParam</a></div><div class="ttdeci">void WriteRTParam(const std::string dir_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00104">CalibParam.cc:104</a></div></div>
 <div class="ttc" id="CalibParam_8h_html"><div class="ttname"><a href="../../d5/d47/CalibParam_8h.html">CalibParam.h</a></div></div>
+<div class="ttc" id="classCalibParam_html_a47703e979fa6f8a22f1af6600ce651b9"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9">CalibParam::WriteRTParam</a></div><div class="ttdeci">void WriteRTParam(const std::string dir_name, const std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00099">CalibParam.cc:99</a></div></div>
 <div class="ttc" id="GeomSvc_8h_html"><div class="ttname"><a href="../../d6/d19/GeomSvc_8h.html">GeomSvc.h</a></div></div>
 <div class="ttc" id="classCalibParam_html_ad2a7e089ab24008aa995482b5b3cc70f"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#ad2a7e089ab24008aa995482b5b3cc70f">CalibParam::~CalibParam</a></div><div class="ttdeci">virtual ~CalibParam()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00025">CalibParam.cc:25</a></div></div>
 <div class="ttc" id="classCalibParam_html_aedc7a2b2e90a4e88efbe8283a6947795"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#aedc7a2b2e90a4e88efbe8283a6947795">CalibParam::CalibParam</a></div><div class="ttdeci">CalibParam()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00014">CalibParam.cc:14</a></div></div>
+<div class="ttc" id="classCalibParam_html_a81dc60a9a65f78e7db78ba3752ad7355"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a81dc60a9a65f78e7db78ba3752ad7355">CalibParam::WriteRTGraph</a></div><div class="ttdeci">void WriteRTGraph(const std::string dir_name, const std::string fname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00160">CalibParam.cc:160</a></div></div>
 <div class="ttc" id="classRTCurve_html"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html">RTCurve</a></div><div class="ttdoc">Class to represent R-T curve. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d7b/RTCurve_8h_source.html#l00007">RTCurve.h:7</a></div></div>
 <div class="ttc" id="classCalibParam_html_a303685b2c7d72864d02729b4291f1300"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a303685b2c7d72864d02729b4291f1300">CalibParam::Init</a></div><div class="ttdeci">void Init(const int n_rt_pt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00030">CalibParam.cc:30</a></div></div>
 <div class="ttc" id="classRTCurve_html_a4269dc311487d239c0453b9527be815d"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html#a4269dc311487d239c0453b9527be815d">RTCurve::GetRWidth</a></div><div class="ttdeci">double GetRWidth() const </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db6/RTCurve_8cc_source.html#l00048">RTCurve.cc:48</a></div></div>
 <div class="ttc" id="classGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc.cxx:212</a></div></div>
+<div class="ttc" id="classGeomSvc_html_a3e4f40789e9b2a98477ab8e8191d5ff2"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a3e4f40789e9b2a98477ab8e8191d5ff2">GeomSvc::getDetectorID</a></div><div class="ttdeci">int getDetectorID(const std::string &amp;detectorName) const </div><div class="ttdoc">Get the plane position. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00186">GeomSvc.h:186</a></div></div>
 <div class="ttc" id="classGeomSvc_html"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html">GeomSvc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00130">GeomSvc.h:130</a></div></div>
-<div class="ttc" id="classCalibParam_html_a5bbc4fc8c311b0345fce8a010b6483ba"><div class="ttname"><a href="../../d6/db6/classCalibParam.html#a5bbc4fc8c311b0345fce8a010b6483ba">CalibParam::WriteRTGraph</a></div><div class="ttdeci">void WriteRTGraph(const std::string dir_name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9b/CalibParam_8cc_source.html#l00158">CalibParam.cc:158</a></div></div>
 <div class="ttc" id="RTCurve_8h_html"><div class="ttname"><a href="../../d3/d7b/RTCurve_8h.html">RTCurve.h</a></div></div>
 <div class="ttc" id="classRTCurve_html_a1fe9921fe899712ccff8612610f0748d"><div class="ttname"><a href="../../d3/d0c/classRTCurve.html#a1fe9921fe899712ccff8612610f0748d">RTCurve::EvalR</a></div><div class="ttdeci">double EvalR(const double t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db6/RTCurve_8cc_source.html#l00053">RTCurve.cc:53</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -350,7 +353,7 @@ $(document).ready(function(){initNavTree('d7/d9b/CalibParam_8cc_source.html','..
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_8e3c0b7ee39d23b7e7ea7aac33186201.html">CalibChamXT</a></li><li class="navelem"><a class="el" href="../../dir_668656ae549bcabc6db3ee86a007d3ef.html">src</a></li><li class="navelem"><a class="el" href="../../d7/d9b/CalibParam_8cc.html">CalibParam.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Mon Apr 18 2022 13:10:06</em> using <a
+			updated: <em>Fri Apr 22 2022 22:50:05</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

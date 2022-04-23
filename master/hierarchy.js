@@ -44,6 +44,7 @@ var hierarchy =
       [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >", "d5/da9/classPHGenericFactoryT.html", null ]
     ] ],
     [ "SQField3DCartesian::FieldPoint", "df/d82/classSQField3DCartesian_1_1FieldPoint.html", null ],
+    [ "FitRTDist", "d5/df4/classFitRTDist.html", null ],
     [ "Fun4AllBase", "d5/dec/classFun4AllBase.html", [
       [ "Fun4AllEventOutStream", "dc/dab/classFun4AllEventOutStream.html", [
         [ "Fun4AllFileOutStream", "de/d50/classFun4AllFileOutStream.html", [
@@ -111,7 +112,6 @@ var hierarchy =
         [ "E906SpillSelector", "df/dd0/classE906SpillSelector.html", null ],
         [ "EvtDispFilter", "d2/df3/classEvtDispFilter.html", null ],
         [ "EvtFilter", "d1/dbd/classEvtFilter.html", null ],
-        [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", null ],
         [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", null ],
         [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", null ],
         [ "FilterE906Nim3", "d9/d7b/classFilterE906Nim3.html", null ],
@@ -644,8 +644,8 @@ var hierarchy =
     [ "UtilHodo::Track2D", "dd/df6/structUtilHodo_1_1Track2D.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
+    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UtilOnline", "df/da2/classUtilOnline.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],
