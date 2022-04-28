@@ -96,6 +96,7 @@ var annotated =
     [ "EvtDispFilter", "d2/df3/classEvtDispFilter.html", "d2/df3/classEvtDispFilter" ],
     [ "EvtFilter", "d1/dbd/classEvtFilter.html", "d1/dbd/classEvtFilter" ],
     [ "ExtParticle", "da/d0f/classExtParticle.html", "da/d0f/classExtParticle" ],
+    [ "ExtractTdcDist", "dd/d3d/classExtractTdcDist.html", "dd/d3d/classExtractTdcDist" ],
     [ "FeeData", "d1/df2/structFeeData.html", "d1/df2/structFeeData" ],
     [ "Field", "d7/d24/classField.html", "d7/d24/classField" ],
     [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", "d0/d1d/classFilterByTrigger" ],

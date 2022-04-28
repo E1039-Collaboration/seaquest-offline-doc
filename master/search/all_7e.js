@@ -60,6 +60,7 @@ var searchData=
   ['_7eevio_5fevent',['~EVIO_Event',['../dd/daf/classEVIO__Event.html#a9267e20ea8174a60cfffbf574d706d72',1,'EVIO_Event']]],
   ['_7eevtdispfilter',['~EvtDispFilter',['../d2/df3/classEvtDispFilter.html#a64fe52c5d41b503915df66be0a3e16b6',1,'EvtDispFilter']]],
   ['_7eevtfilter',['~EvtFilter',['../d1/dbd/classEvtFilter.html#ae2614962014874b9b7567b140f8c37b1',1,'EvtFilter']]],
+  ['_7eextracttdcdist',['~ExtractTdcDist',['../dd/d3d/classExtractTdcDist.html#ae945ecad64d7141e8ea7becce6d0a23f',1,'ExtractTdcDist']]],
   ['_7efeedata',['~FeeData',['../d1/df2/structFeeData.html#a1f8d1b4bf1b2766315449fe70d188fe0',1,'FeeData']]],
   ['_7efield',['~Field',['../d7/d24/classField.html#a45d6e6d09b8f8e46de62b40119d62c60',1,'Field']]],
   ['_7efilterbytrigger',['~FilterByTrigger',['../d0/d1d/classFilterByTrigger.html#afd8ebf9c965fbfe0ef8441b32dadb4fd',1,'FilterByTrigger::~FilterByTrigger()'],['../d0/d1d/classFilterByTrigger.html#a703d7b208de94e0af99e34b3c8a47c11',1,'FilterByTrigger::~FilterByTrigger()']]],
