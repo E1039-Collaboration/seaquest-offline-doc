@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"d7/d21/classPHG4BNLTargetCoilDetector.html#aa77b00e6ae09614d1bb752f26f0867a9":[39,0,222,7],
+"d7/d21/classPHG4BNLTargetCoilDetector.html#ab310aa717fa68673170b8452955defe6":[39,0,222,5],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#ae3848aea7c8fc48866af5d922016584c":[39,0,222,6],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#aef6b65f6a3a7c4c3a24cd8909446a8d5":[39,0,222,1],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#af946d2d7cc66b2610d9b77fa450bf22f":[39,0,222,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "d7/d6b/classPHParametersContainer.html#ae171a8d0f44662e2bcbe4cdd5d6b0dca":[39,0,369,1],
 "d7/d6b/classPHParametersContainer.html#aeea87ec5112ffb96aef47541208e5093":[39,0,369,11],
 "d7/d6c/PHG4PSScanGenerator_8cc.html":[40,0,2,7,4,78],
-"d7/d6c/PHG4PSScanGenerator_8cc_source.html":[40,0,2,7,4,78],
-"d7/d6d/classPHGeomTGeo.html":[39,0,351],
-"d7/d6d/classPHGeomTGeo.html#a20ea80d66622f1227e6f0c4e55f4090f":[39,0,351,8]
+"d7/d6c/PHG4PSScanGenerator_8cc_source.html":[40,0,2,7,4,78]
 };

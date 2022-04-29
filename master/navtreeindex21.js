@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"d6/d4b/classPdbCalChan.html#a177c6dfe725f69a8b53fafcff474e39b":[39,0,188,0],
+"d6/d4b/classPdbCalChan.html#ac1e7efb7e576b7847398e2d8f275210e":[39,0,188,2],
 "d6/d4b/classPdbCalChan.html#ada02e42c67cde01fd31c78e1aa01aa04":[39,0,188,1],
 "d6/d4d/PHG4PolyconDetector_8cc.html":[40,0,2,7,0,146],
 "d6/d4d/PHG4PolyconDetector_8cc_source.html":[40,0,2,7,0,146],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "d6/d9f/PHG4TargetCoilDetector_8h.html":[40,0,2,7,0,163],
 "d6/d9f/PHG4TargetCoilDetector_8h_source.html":[40,0,2,7,0,163],
 "d6/d9f/SQSpill__v2_8h.html":[40,0,2,3,102],
-"d6/d9f/SQSpill__v2_8h_source.html":[40,0,2,3,102],
-"d6/da0/SRecEvent_8h.html":[40,0,2,6,13,0,7],
-"d6/da0/SRecEvent_8h_source.html":[40,0,2,6,13,0,7]
+"d6/d9f/SQSpill__v2_8h_source.html":[40,0,2,3,102]
 };

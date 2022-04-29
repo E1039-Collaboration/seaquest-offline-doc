@@ -28,5 +28,9 @@ var dir_668656ae549bcabc6db3ee86a007d3ef =
     [ "RTCurve.cc", "d6/db6/RTCurve_8cc.html", null ],
     [ "RTCurve.h", "d3/d7b/RTCurve_8h.html", [
       [ "RTCurve", "d3/d0c/classRTCurve.html", "d3/d0c/classRTCurve" ]
+    ] ],
+    [ "SRMakeRTCurve.cc", "de/d38/SRMakeRTCurve_8cc.html", null ],
+    [ "SRMakeRTCurve.h", "d3/d28/SRMakeRTCurve_8h.html", [
+      [ "SRMakeRTCurve", "d8/de3/classSRMakeRTCurve.html", "d8/de3/classSRMakeRTCurve" ]
     ] ]
 ];

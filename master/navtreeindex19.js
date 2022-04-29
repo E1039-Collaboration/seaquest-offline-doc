@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"d5/dca/classPHCompositeNode.html#a9ab088d6c577c3f302856eab5f352206":[39,0,195,7],
+"d5/dca/classPHCompositeNode.html#ab48f8466f60c0d5753b0bbcd5ffa30f8":[39,0,195,0],
 "d5/dca/classPHCompositeNode.html#ac7dbf017614c324e218a001d729607bf":[39,0,195,2],
 "d5/dca/classPHCompositeNode.html#afe884796fb149698d158849392aaf49a":[39,0,195,8],
 "d5/dca/classPHCompositeNode.html#aff0da0744ba583eb2018856f354977f4":[39,0,195,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "d5/df3/classPHG4SimpleEventGenerator.html#afe4a7efd4e1e12768254ca2c3d06925b":[39,0,317,16],
 "d5/df3/classPHG4SimpleEventGenerator.html#afe6a627cccef3c73253b978264bd4dba":[39,0,317,10],
 "d5/df4/EvalJpsiAsymStat_2macro__gen_2Fun4All_8C.html":[40,0,1,10,1,0],
-"d5/df4/EvalJpsiAsymStat_2macro__gen_2Fun4All_8C.html#a4da59347671e0a8cf08ad0401cda29a2":[40,0,1,10,1,0,0],
-"d5/df4/EvalJpsiAsymStat_2macro__gen_2Fun4All_8C_source.html":[40,0,1,10,1,0],
-"d5/df4/classFitRTDist.html":[39,0,100]
+"d5/df4/EvalJpsiAsymStat_2macro__gen_2Fun4All_8C.html#a4da59347671e0a8cf08ad0401cda29a2":[40,0,1,10,1,0,0]
 };

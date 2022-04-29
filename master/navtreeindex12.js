@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d3/d9e/classPHG4Hit.html#ac19cdd97dbd9b8154b8012ec0de01f76":[39,0,280,42],
+"d3/d9e/classPHG4Hit.html#ac4e7f18a0d54ec275128651928e69531":[39,0,280,79],
 "d3/d9e/classPHG4Hit.html#acb136829baab1de2639e7fd5de3a74b5":[39,0,280,74],
 "d3/d9e/classPHG4Hit.html#acde0bddc67695b3afde72fbc86a5d02f":[39,0,280,48],
 "d3/d9e/classPHG4Hit.html#acea6b2f3763d899e4de3765b9b5c6e51":[39,0,280,13],
@@ -63,13 +65,13 @@ var NAVTREEINDEX12 =
 "d3/dc2/TruthEvalLinkDef_8h_source.html":[40,0,1,22,0,2],
 "d3/dc3/PHG4CylinderCellv2_8h.html":[40,0,2,7,0,86],
 "d3/dc3/PHG4CylinderCellv2_8h_source.html":[40,0,2,7,0,86],
-"d3/dc5/classVariableArrayContainer.html":[39,0,496],
-"d3/dc5/classVariableArrayContainer.html#a065b1ef3e63d9a6821b6a6c2bd0d7906":[39,0,496,5],
-"d3/dc5/classVariableArrayContainer.html#a0b4e9737103613e63ec3a8d8a0385cf3":[39,0,496,3],
-"d3/dc5/classVariableArrayContainer.html#a4d0bc5581cf9c5f7947700b6b663801d":[39,0,496,2],
-"d3/dc5/classVariableArrayContainer.html#a59eb60260718531c5bf5414e32c3bce4":[39,0,496,0],
-"d3/dc5/classVariableArrayContainer.html#a5efa24e67e0717dcc2da9b251924fec2":[39,0,496,4],
-"d3/dc5/classVariableArrayContainer.html#a64752a1583194fa7400389916c0df63a":[39,0,496,1],
+"d3/dc5/classVariableArrayContainer.html":[39,0,497],
+"d3/dc5/classVariableArrayContainer.html#a065b1ef3e63d9a6821b6a6c2bd0d7906":[39,0,497,5],
+"d3/dc5/classVariableArrayContainer.html#a0b4e9737103613e63ec3a8d8a0385cf3":[39,0,497,3],
+"d3/dc5/classVariableArrayContainer.html#a4d0bc5581cf9c5f7947700b6b663801d":[39,0,497,2],
+"d3/dc5/classVariableArrayContainer.html#a59eb60260718531c5bf5414e32c3bce4":[39,0,497,0],
+"d3/dc5/classVariableArrayContainer.html#a5efa24e67e0717dcc2da9b251924fec2":[39,0,497,4],
+"d3/dc5/classVariableArrayContainer.html#a64752a1583194fa7400389916c0df63a":[39,0,497,1],
 "d3/dc9/classKalmanFitter.html":[39,0,148],
 "d3/dc9/classKalmanFitter.html#a36692b492f189bfdcf521fb4e7ed491d":[39,0,148,13],
 "d3/dc9/classKalmanFitter.html#a3d139ee72b694541612a4d76023589f8":[39,0,148,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d3/dfc/TriggerAnalyzer_8cxx_source.html":[40,0,2,6,13,2,16],
 "d4/d03/fun4all_2PHFlagLinkDef_8h.html":[40,0,2,1,1,37],
 "d4/d03/fun4all_2PHFlagLinkDef_8h_source.html":[40,0,2,1,1,37],
-"d4/d06/classSQPrimaryParticleGen.html":[39,0,445],
-"d4/d06/classSQPrimaryParticleGen.html#a0dc31a3fcb2c718f67fae07ff9dd0d74":[39,0,445,1],
-"d4/d06/classSQPrimaryParticleGen.html#a1e142ee8619b5a7347be5b45c0522ca8":[39,0,445,23]
+"d4/d06/classSQPrimaryParticleGen.html":[39,0,445]
 };

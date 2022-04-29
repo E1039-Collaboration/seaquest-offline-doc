@@ -474,6 +474,7 @@ var annotated =
     [ "SRecDimuon", "d3/d07/classSRecDimuon.html", "d3/d07/classSRecDimuon" ],
     [ "SRecEvent", "d5/d2f/classSRecEvent.html", "d5/d2f/classSRecEvent" ],
     [ "SRecTrack", "d6/db1/classSRecTrack.html", "d6/db1/classSRecTrack" ],
+    [ "SRMakeRTCurve", "d8/de3/classSRMakeRTCurve.html", "d8/de3/classSRMakeRTCurve" ],
     [ "strless", "d1/dd5/structstrless.html", "d1/dd5/structstrless" ],
     [ "SubsysReco", "d0/d32/classSubsysReco.html", "d0/d32/classSubsysReco" ],
     [ "SubsysRecoBG", "d6/d44/classSubsysRecoBG.html", "d6/d44/classSubsysRecoBG" ],
