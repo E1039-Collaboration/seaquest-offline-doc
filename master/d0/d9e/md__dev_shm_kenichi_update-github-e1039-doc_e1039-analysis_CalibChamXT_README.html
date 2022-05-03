@@ -130,10 +130,11 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 <p>``` ~kenichi/bin/hadddraw -o hist_raw data/main/run_*/out/output_*.root ```</p>
 <h2><a class="el" href="../../d2/d26/classTracklet.html">Tracklet</a> Analysis</h2>
 <p>Then the following commands analyze the tracklets reconstructed by <code>run_reco.sh</code>. Plots will appear in <code>calib/1/</code>.</p>
-<p>``` cd work ./make_rt.sh ```</p>
+<p>``` cd work ./make_rt_dst.sh ```</p>
+<p>Note that <code>make_rt.sh</code> is the previous version of the analysis script that reads the evaluation file (<code>eval.root</code>) instead of <code>DSTreco.root</code>.</p>
 <h2>To-Do List</h2>
 <ol type="1">
-<li>n/a</li>
+<li>Clean up old sources/macros/scripts that use the evaluation file.</li>
 </ol>
 <h2>Reference</h2>
 <p>Station ID: <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/event-reconstruction">https://github.com/E1039-Collaboration/e1039-wiki/wiki/event-reconstruction</a></p>
@@ -160,7 +161,7 @@ $(document).ready(function(){initNavTree('d0/d9e/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue May 3 2022 14:20:10</em> using <a
+			updated: <em>Tue May 3 2022 15:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

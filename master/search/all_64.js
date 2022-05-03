@@ -12,6 +12,7 @@ var searchData=
   ['data',['data',['../dc/dd3/unionPHDataNode_1_1tobjcast.html#ac8d2ad9e0f5682bcde970f675f3a13de',1,'PHDataNode::tobjcast::data()'],['../d1/d3e/classPHDataNode.html#a5984567fe6112ec969df0697edf8d35b',1,'PHDataNode::data()'],['../d1/d96/classboost_1_1array.html#ac68ab6dc2b94e4b43c38c8a3b172c021',1,'boost::array::data() const '],['../d1/d96/classboost_1_1array.html#a10062ba8864b582a04a4ab5c72107376',1,'boost::array::data()'],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#a139a7af9e357252ed8139030d97490c5',1,'boost::array&lt; T, 0 &gt;::data() const '],['../d4/d6a/classboost_1_1array_3_01T_00_010_01_4.html#afabf8ccbd2b01f94bbc17407868d0e24',1,'boost::array&lt; T, 0 &gt;::data()'],['../de/de3/classPHGeomIOTGeo.html#a84d9030aa6add4959a7b62782dfe0ea3',1,'PHGeomIOTGeo::Data()']]],
   ['datamatrix',['DataMatrix',['../d6/d97/TriggerAnalyzer_8h.html#a03f392e646661926f549d7546b842c97',1,'TriggerAnalyzer.h']]],
   ['dataquality',['dataQuality',['../d2/d31/structEventInfo.html#ada9c6f6dd23d88afaee8d362c90ca5db',1,'EventInfo']]],
+  ['dataset_2emd',['dataset.md',['../d9/d34/dataset_8md.html',1,'']]],
   ['db1',['DB1',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a9d901475d2b29f9233c821a067c7e42e',1,'DbSvc']]],
   ['db2',['DB2',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89acd81f44e35cf09f50086d8caf3713bce',1,'DbSvc']]],
   ['db3',['DB3',['../d2/da4/classDbSvc.html#a6a81decc3cbba4d978b9c35a3f1c7d89a782e9d9e6c24ec938ae691dcad800933',1,'DbSvc']]],

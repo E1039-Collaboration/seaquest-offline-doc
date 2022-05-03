@@ -103,26 +103,8 @@ $(document).ready(function(){initNavTree('d5/d0b/md__dev_shm_kenichi_update-gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to extract the X-T curve using the time-distribution method, without the track reconstruction. The outcome is typically used as the initial X-T curve in the calibration.</p>
-<h2>Information on Analyzed Data</h2>
-<p>By default the macros in this directory uses run 3824 for D0. <a href="https://e906-gat1.fnal.gov/data-summary/e1039/run.php?run=3824">https://e906-gat1.fnal.gov/data-summary/e1039/run.php?run=3824</a></p>
-<p><a href="https://e906-gat1.fnal.gov/data-summary/e1039/onlmon-plot-run.php?run=3824#Cham">https://e906-gat1.fnal.gov/data-summary/e1039/onlmon-plot-run.php?run=3824#Cham</a></p>
-<p>From 2022-04-15 to 2022-04-21</p>
-<p>HV:</p>
-<ul>
-<li>D0Vp : 1.485 kV</li>
-<li>Other D0: 1.550 kV</li>
-<li>D2U : 1.880 kV</li>
-<li>Other D2: 1.900 kV</li>
-<li>D3p : 2.430 &amp; 1.400 kV</li>
-<li>D3m : 2.480 &amp; 1.420 kV</li>
-</ul>
-<p><a href="https://e906-gat1.fnal.gov/hvmon_cham_exp/current/?Y0=2022&M0=04&D0=14&h0=0&Y1=2022&M1=4&D1=22&h1=0">https://e906-gat1.fnal.gov/hvmon_cham_exp/current/?Y0=2022&amp;M0=04&amp;D0=14&amp;h0=0&amp;Y1=2022&amp;M1=4&amp;D1=22&amp;h1=0</a></p>
-<p>ASDQ threshold:</p>
-<ul>
-<li>D0XXp: 1250</li>
-<li>D0UUp: 1100</li>
-<li>D0VVp: 1400</li>
-</ul>
+<h2>Dataset</h2>
+<p>By default the macros in this directory uses run 3824 for D0.</p>
 <h2>Usage</h2>
 <p>``` root -b 'Fun4All.C(3824, "/data2/e1039/dst/run_003824_spin.root")' root -b <a class="el" href="../../d5/de0/ExtractXTCurve_8C.html">ExtractXTCurve.C</a> ```</p>
 <p>The 1st step takes 17 minutes when all events are analyzed. </p>
@@ -135,7 +117,7 @@ $(document).ready(function(){initNavTree('d5/d0b/md__dev_shm_kenichi_update-gith
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue May 3 2022 14:20:10</em> using <a
+			updated: <em>Tue May 3 2022 15:10:10</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

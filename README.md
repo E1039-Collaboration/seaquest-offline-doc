@@ -1,3 +1,3 @@
 # Class Reference for E1039 Core & Analysis Software
 ## [Version "master"](master/)
-Last updated at 2022-05-03 14:21:54.
+Last updated at 2022-05-03 15:11:55.
