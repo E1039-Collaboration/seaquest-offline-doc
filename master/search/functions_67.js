@@ -590,6 +590,7 @@ var searchData=
   ['getglobalfieldmanager',['GetGlobalFieldManager',['../d4/d2e/classG4TBMagneticFieldSetup.html#a0c0283b70cfe56722463755a240697a1',1,'G4TBMagneticFieldSetup']]],
   ['getglobalindex',['GetGlobalIndex',['../d7/d58/classSQField3DCartesian.html#ad62f4913b3c88e729dc4b4a7890b925f',1,'SQField3DCartesian']]],
   ['getgoend',['GetGoEnd',['../d8/d38/classOnlMonServer.html#a01ca3f07a4426ade7bbf56dcfa540b88',1,'OnlMonServer']]],
+  ['getgoodtrackletrange',['GetGoodTrackletRange',['../d8/de3/classSRMakeRTCurve.html#a286eb108c56ab71e4c956e4d104be435',1,'SRMakeRTCurve']]],
   ['getgrapht2r',['GetGraphT2R',['../d6/db6/classCalibParam.html#a10329f146d56d39dd5847547eeb10cc2',1,'CalibParam']]],
   ['getgraphx',['GetGraphX',['../dd/df6/structUtilHodo_1_1Track2D.html#ab9fc17b820fb7a19033b313af6f56926',1,'UtilHodo::Track2D']]],
   ['getgraphy',['GetGraphY',['../dd/df6/structUtilHodo_1_1Track2D.html#acccf53a38e04272cb810514938b0c76b',1,'UtilHodo::Track2D']]],

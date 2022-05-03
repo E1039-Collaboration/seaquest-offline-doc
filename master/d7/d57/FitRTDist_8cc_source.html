@@ -206,8 +206,8 @@ $(document).ready(function(){initNavTree('d7/d57/FitRTDist_8cc_source.html','../
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    m_mini-&gt;SetFixedVariable(0, <span class="stringliteral">&quot;T1&quot;</span>, t1);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    m_mini-&gt;SetFixedVariable(1, <span class="stringliteral">&quot;T1&quot;</span>, t0);</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    t1 = gr_init-&gt;GetX()[gr_init-&gt;GetN()-1]; <span class="comment">// Make sure of &quot;T1 &lt; T0&quot;</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    t0 = gr_init-&gt;GetX()[0];</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    t1 = gr_init-&gt;GetX()[0];</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    t0 = gr_init-&gt;GetX()[gr_init-&gt;GetN()-1];</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    m_mini-&gt;SetLimitedVariable(0, <span class="stringliteral">&quot;T1&quot;</span>, t1, 0.1, <a class="code" href="../../d5/df4/classFitRTDist.html#ab06ecdafd29269f9740b4a5366a0f003">m_t_min</a>, <a class="code" href="../../d5/df4/classFitRTDist.html#ad8a98465bfe6ada4a5a0c9a4263a07e2">m_t_max</a>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    m_mini-&gt;SetLimitedVariable(1, <span class="stringliteral">&quot;T0&quot;</span>, t0, 0.1, <a class="code" href="../../d5/df4/classFitRTDist.html#ab06ecdafd29269f9740b4a5366a0f003">m_t_min</a>, <a class="code" href="../../d5/df4/classFitRTDist.html#ad8a98465bfe6ada4a5a0c9a4263a07e2">m_t_max</a>);</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  }</div>
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('d7/d57/FitRTDist_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_036804b677fdb16dcf1b408a3ea90814.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_8e3c0b7ee39d23b7e7ea7aac33186201.html">CalibChamXT</a></li><li class="navelem"><a class="el" href="../../dir_668656ae549bcabc6db3ee86a007d3ef.html">src</a></li><li class="navelem"><a class="el" href="../../d7/d57/FitRTDist_8cc.html">FitRTDist.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Thu Apr 28 2022 20:00:06</em> using <a
+			updated: <em>Tue May 3 2022 14:20:06</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

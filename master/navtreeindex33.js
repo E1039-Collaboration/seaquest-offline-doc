@@ -1,5 +1,7 @@
 var NAVTREEINDEX33 =
 {
+"d9/dbf/classSQHitVector__v1.html#af9f4bdea43b2f37e481402c600bc3a15":[39,0,436,14],
+"d9/dc3/classKalmanTrack.html":[39,0,149],
 "d9/dc3/classKalmanTrack.html#a130df9a64175b4854a25f0de3120cf91":[39,0,149,4],
 "d9/dc3/classKalmanTrack.html#a142008cf7b877085eefefd71119fcb15":[39,0,149,30],
 "d9/dc3/classKalmanTrack.html#a1e23405549f3713de187b107b7d07703":[39,0,149,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX33 =
 "d9/df7/PHG4CylinderSubsystemLinkDef_8h.html":[40,0,2,7,0,115],
 "d9/df7/PHG4CylinderSubsystemLinkDef_8h_source.html":[40,0,2,7,0,115],
 "d9/df7/classPHG4BNLTargetCoilSubsystem.html":[39,0,224],
-"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a21dea7af740917038ea864f5e41dc90a":[39,0,224,2],
-"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a31f7ebfcefc9409d82820c828a04b013":[39,0,224,6],
-"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a37c910f4b9c9173531b8604e4770d40c":[39,0,224,0]
+"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a21dea7af740917038ea864f5e41dc90a":[39,0,224,2]
 };

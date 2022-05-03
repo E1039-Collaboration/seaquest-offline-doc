@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"db/dfa/classPHG4Showerv1.html#a3b940947bcf51cfb6d50a0b14639dd4e":[39,0,316,57],
+"db/dfa/classPHG4Showerv1.html#a3c5f8430265245be001b5a2e3c744782":[39,0,316,23],
 "db/dfa/classPHG4Showerv1.html#a3d8b9b4819dc9e34a1fd83796b86f46d":[39,0,316,4],
 "db/dfa/classPHG4Showerv1.html#a4618445f3fa4789eae1403d7edb0d1dd":[39,0,316,32],
 "db/dfa/classPHG4Showerv1.html#a4dd3fc26436ab27226e40a04618dbf97":[39,0,316,52],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "dc/d5a/SQG4DipoleMagnetSteppingAction_8cc.html":[40,0,2,7,0,186],
 "dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html":[40,0,2,7,0,186],
 "dc/d5b/classDetectorConstruction.html":[39,0,75],
-"dc/d5b/classDetectorConstruction.html#a0811a820c7e4f2c3bc54cae2feae7486":[39,0,75,23],
-"dc/d5b/classDetectorConstruction.html#a2d6fb30bf572012bd21515cc1cad3995":[39,0,75,22],
-"dc/d5b/classDetectorConstruction.html#a2e0a73cdf922f724a7e6e770fd08f985":[39,0,75,29]
+"dc/d5b/classDetectorConstruction.html#a0811a820c7e4f2c3bc54cae2feae7486":[39,0,75,23]
 };

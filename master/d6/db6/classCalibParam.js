@@ -17,5 +17,6 @@ var classCalibParam =
     [ "SetAnaPlanes", "d6/db6/classCalibParam.html#acfa8f5e92c03f2f18b3594b1fc164f72", null ],
     [ "TimeWindowIsFixed", "d6/db6/classCalibParam.html#a1854ac13c37143089e9125a0f2ca1f73", null ],
     [ "WriteRTGraph", "d6/db6/classCalibParam.html#a81dc60a9a65f78e7db78ba3752ad7355", null ],
-    [ "WriteRTParam", "d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9", null ]
+    [ "WriteRTParam", "d6/db6/classCalibParam.html#a47703e979fa6f8a22f1af6600ce651b9", null ],
+    [ "ZOfStationID", "d6/db6/classCalibParam.html#aaa47b559cfcc9059eb2eede93b97b1d7", null ]
 ];

@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d7/d21/classPHG4BNLTargetCoilDetector.html#a74105d7831d94e07c994c206c44bc348":[39,0,222,3],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#aa77b00e6ae09614d1bb752f26f0867a9":[39,0,222,7],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#ab310aa717fa68673170b8452955defe6":[39,0,222,5],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#ae3848aea7c8fc48866af5d922016584c":[39,0,222,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d7/d6b/classPHParametersContainer.html#addf324a1593c8694c3f4615bcb3c1ee2":[39,0,369,4],
 "d7/d6b/classPHParametersContainer.html#ae171a8d0f44662e2bcbe4cdd5d6b0dca":[39,0,369,1],
 "d7/d6b/classPHParametersContainer.html#aeea87ec5112ffb96aef47541208e5093":[39,0,369,11],
-"d7/d6c/PHG4PSScanGenerator_8cc.html":[40,0,2,7,4,78],
-"d7/d6c/PHG4PSScanGenerator_8cc_source.html":[40,0,2,7,4,78]
+"d7/d6c/PHG4PSScanGenerator_8cc.html":[40,0,2,7,4,78]
 };

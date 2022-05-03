@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a31f7ebfcefc9409d82820c828a04b013":[39,0,224,6],
+"d9/df7/classPHG4BNLTargetCoilSubsystem.html#a37c910f4b9c9173531b8604e4770d40c":[39,0,224,0],
 "d9/df7/classPHG4BNLTargetCoilSubsystem.html#a51eacfee4ecd504d8a424baa292de510":[39,0,224,4],
 "d9/df7/classPHG4BNLTargetCoilSubsystem.html#a531c4858d583ebbee19b453fd1b01479":[39,0,224,3],
 "d9/df7/classPHG4BNLTargetCoilSubsystem.html#a75dece7e833d90d72c6ca027da9d0bc6":[39,0,224,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "da/d29/classPHG4Parameters.html#a40d8acd8a8c5475928d5b5dacf38f583":[39,0,293,33],
 "da/d29/classPHG4Parameters.html#a4707b3865db26e675fd168ab18f880e6":[39,0,293,5],
 "da/d29/classPHG4Parameters.html#a4a54fbc4a1817f1415db36ff68d2945e":[39,0,293,9],
-"da/d29/classPHG4Parameters.html#a4f94dc80ba894dc3eac307652f3a7e60":[39,0,293,20],
-"da/d29/classPHG4Parameters.html#a547497854726fa78841dee6c68e6e299":[39,0,293,0],
-"da/d29/classPHG4Parameters.html#a5f40a3726e841d6d4b725d6f7c7c13a8":[39,0,293,28]
+"da/d29/classPHG4Parameters.html#a4f94dc80ba894dc3eac307652f3a7e60":[39,0,293,20]
 };

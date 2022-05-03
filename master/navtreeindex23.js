@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d6/dc8/classFun4AllPrdfOutputManager.html":[39,0,120],
 "d6/dc8/classFun4AllPrdfOutputManager.html#a03688ffd0c82ca576f2c1b669632a48d":[39,0,120,0],
 "d6/dc8/classFun4AllPrdfOutputManager.html#a08cfd40340718df9771e6020a4a420e3":[39,0,120,6],
 "d6/dc8/classFun4AllPrdfOutputManager.html#a1d891012ff50062628d053f825426c80":[39,0,120,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d7/d21/SQDimuonVector_8h_source.html":[40,0,2,3,13],
 "d7/d21/classPHG4BNLTargetCoilDetector.html":[39,0,222],
 "d7/d21/classPHG4BNLTargetCoilDetector.html#a16c32900d2a48f11dc455765404f20a0":[39,0,222,2],
-"d7/d21/classPHG4BNLTargetCoilDetector.html#a6cc5a8e1b905449fdd61d8f1b183512b":[39,0,222,4],
-"d7/d21/classPHG4BNLTargetCoilDetector.html#a74105d7831d94e07c994c206c44bc348":[39,0,222,3]
+"d7/d21/classPHG4BNLTargetCoilDetector.html#a6cc5a8e1b905449fdd61d8f1b183512b":[39,0,222,4]
 };
