@@ -1,5 +1,10 @@
 var NAVTREEINDEX51 =
 {
+"df/d9a/classSettings.html#a9d770566210a294b32183d278e5b96b9":[40,0,400,18],
+"df/d9a/classSettings.html#a9eda2175ef84fa302c8e3021dfa5aedc":[40,0,400,9],
+"df/d9a/classSettings.html#aadcea4dbd9fc7eb6e38490632d39ae5d":[40,0,400,19],
+"df/d9a/classSettings.html#ab7169a6eefce79566dd07db3b1e5e967":[40,0,400,0],
+"df/d9a/classSettings.html#ac5a66bb5e7da8e07b5afab0b0bed6364":[40,0,400,23],
 "df/d9a/classSettings.html#acd2427354136e6738bb0984d2ae3917d":[40,0,400,28],
 "df/d9a/classSettings.html#ae1a4635cd88f25375435d5e1a9c25f0f":[40,0,400,12],
 "df/d9a/classSettings.html#ae3c87a386779beb9cac77d213bfe39de":[40,0,400,8],
@@ -103,17 +108,17 @@ var NAVTREEINDEX51 =
 "df/dcf/PHG4HitReadBack_8cc.html":[41,0,2,7,4,33],
 "df/dcf/PHG4HitReadBack_8cc_source.html":[41,0,2,7,4,33],
 "df/dd0/classE906SpillSelector.html":[40,0,82],
-"df/dd0/classE906SpillSelector.html#a44ff1f7f634e6ddbaa8b5beb306bf7ca":[40,0,82,8],
 "df/dd0/classE906SpillSelector.html#a44ff1f7f634e6ddbaa8b5beb306bf7ca":[40,0,82,9],
+"df/dd0/classE906SpillSelector.html#a44ff1f7f634e6ddbaa8b5beb306bf7ca":[40,0,82,8],
 "df/dd0/classE906SpillSelector.html#a45da0ec4483a51e98dc1109d66ef839d":[40,0,82,3],
 "df/dd0/classE906SpillSelector.html#a54e169da9811fc9cb99bcb4089a8c3db":[40,0,82,7],
 "df/dd0/classE906SpillSelector.html#a54e169da9811fc9cb99bcb4089a8c3db":[40,0,82,6],
-"df/dd0/classE906SpillSelector.html#a7466a247a2c27fb6afabe0792239db1e":[40,0,82,10],
 "df/dd0/classE906SpillSelector.html#a7466a247a2c27fb6afabe0792239db1e":[40,0,82,11],
+"df/dd0/classE906SpillSelector.html#a7466a247a2c27fb6afabe0792239db1e":[40,0,82,10],
 "df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544":[40,0,82,5],
 "df/dd0/classE906SpillSelector.html#a994b0e1e8f8c143f9e81c9b6e8038544":[40,0,82,4],
-"df/dd0/classE906SpillSelector.html#ab9dde7a8cedf212d301158c0421667e6":[40,0,82,15],
 "df/dd0/classE906SpillSelector.html#ab9dde7a8cedf212d301158c0421667e6":[40,0,82,14],
+"df/dd0/classE906SpillSelector.html#ab9dde7a8cedf212d301158c0421667e6":[40,0,82,15],
 "df/dd0/classE906SpillSelector.html#ad027406b6bea008ab5ef5047a2495f8c":[40,0,82,12],
 "df/dd0/classE906SpillSelector.html#ad027406b6bea008ab5ef5047a2495f8c":[40,0,82,13],
 "df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069":[40,0,82,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX51 =
 "df/de1/classSQSpillMap__v1.html#a058ad60e1037de5f4379619286eedf00":[40,0,458,6],
 "df/de1/classSQSpillMap__v1.html#a0dc1c791e1674c79cd463478889464cf":[40,0,458,16],
 "df/de1/classSQSpillMap__v1.html#a180cda61118ff37ab5de1bd58bce5c50":[40,0,458,8],
-"df/de1/classSQSpillMap__v1.html#a36db572e54c2c6b01dc04d5f7b26dba3":[40,0,458,15],
-"df/de1/classSQSpillMap__v1.html#a52f9259870b0452ab8108f4d2b97fbc2":[40,0,458,11],
-"df/de1/classSQSpillMap__v1.html#a53b60ec3b212eb91d8360095c46cfe61":[40,0,458,13],
-"df/de1/classSQSpillMap__v1.html#a5503f946653f5c6379330068090818c1":[40,0,458,9],
-"df/de1/classSQSpillMap__v1.html#a5fb3ff23d9d6f063ae66302c89740d6e":[40,0,458,2],
-"df/de1/classSQSpillMap__v1.html#a6cc69615467444f3021b6aa25df3b39b":[40,0,458,10]
+"df/de1/classSQSpillMap__v1.html#a36db572e54c2c6b01dc04d5f7b26dba3":[40,0,458,15]
 };

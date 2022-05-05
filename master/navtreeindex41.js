@@ -1,5 +1,10 @@
 var NAVTREEINDEX41 =
 {
+"dc/d5a/EventReducer_8h.html":[41,0,2,6,13,2,1],
+"dc/d5a/EventReducer_8h_source.html":[41,0,2,6,13,2,1],
+"dc/d5a/SQG4DipoleMagnetSteppingAction_8cc.html":[41,0,2,7,0,186],
+"dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html":[41,0,2,7,0,186],
+"dc/d5b/classDetectorConstruction.html":[40,0,75],
 "dc/d5b/classDetectorConstruction.html#a0811a820c7e4f2c3bc54cae2feae7486":[40,0,75,23],
 "dc/d5b/classDetectorConstruction.html#a2d6fb30bf572012bd21515cc1cad3995":[40,0,75,22],
 "dc/d5b/classDetectorConstruction.html#a2e0a73cdf922f724a7e6e770fd08f985":[40,0,75,29],
@@ -87,9 +92,9 @@ var NAVTREEINDEX41 =
 "dc/d82/classPHNode.html#af8e3244a9eae5dd966a719f8847eddb6":[40,0,359,8],
 "dc/d86/PdbParameterMapContainer_8cc.html":[41,0,2,0,0,0,28],
 "dc/d86/PdbParameterMapContainer_8cc_source.html":[41,0,2,0,0,0,28],
-"dc/d87/Fun4AllAna_8C.html":[41,0,1,4,1,1],
-"dc/d87/Fun4AllAna_8C.html#ae261f5e3cea00457029a383191c9e461":[41,0,1,4,1,1,0],
-"dc/d87/Fun4AllAna_8C_source.html":[41,0,1,4,1,1],
+"dc/d87/Fun4AllAna_8C.html":[41,0,1,4,1,2],
+"dc/d87/Fun4AllAna_8C.html#ae261f5e3cea00457029a383191c9e461":[41,0,1,4,1,2,0],
+"dc/d87/Fun4AllAna_8C_source.html":[41,0,1,4,1,2],
 "dc/d87/SQMCHit__v1_8cxx.html":[41,0,2,3,69],
 "dc/d87/SQMCHit__v1_8cxx.html#a02312536c71277ff107dbfb30e28a9a8":[41,0,2,3,69,0],
 "dc/d87/SQMCHit__v1_8cxx_source.html":[41,0,2,3,69],
@@ -244,10 +249,5 @@ var NAVTREEINDEX41 =
 "dc/d96/classSQRun__v1.html":[40,0,449],
 "dc/d96/classSQRun__v1.html#a013484cfba6c2a98c672d9fc01860179":[40,0,449,9],
 "dc/d96/classSQRun__v1.html#a0b9128d80f07981b5909f907672bfc29":[40,0,449,25],
-"dc/d96/classSQRun__v1.html#a0bac9871da2e3f5274ee3b625a4738e3":[40,0,449,50],
-"dc/d96/classSQRun__v1.html#a0eeb1a8fc2d9907484c252a4f2cde267":[40,0,449,21],
-"dc/d96/classSQRun__v1.html#a0f6bef7f670ed6de0d80edf6d0134b3e":[40,0,449,45],
-"dc/d96/classSQRun__v1.html#a120e2f711a8409100551386f5c758273":[40,0,449,66],
-"dc/d96/classSQRun__v1.html#a1c4aaef2030a6f44c53b9ac4222df918":[40,0,449,69],
-"dc/d96/classSQRun__v1.html#a1f626ecd4991f044c4b18dffcb2239cd":[40,0,449,55]
+"dc/d96/classSQRun__v1.html#a0bac9871da2e3f5274ee3b625a4738e3":[40,0,449,50]
 };

@@ -103,6 +103,11 @@ var NAVTREEINDEX39 =
 "db/dad/classPHG4CylinderCellv3.html#ab176d91f94071d8990f08e83e9220ae9":[40,0,245,11],
 "db/dad/classPHG4CylinderCellv3.html#abb19e4fe408e22c30cf76fc7b34081c9":[40,0,245,1],
 "db/dad/classPHG4CylinderCellv3.html#acad7ea2b702a003eeca1079e4ae51bb6":[40,0,245,3],
+"db/db5/CalcAcc_8C.html":[41,0,1,4,1,1],
+"db/db5/CalcAcc_8C.html#a137681d67550c59763ebaa29daea21b9":[41,0,1,4,1,1,2],
+"db/db5/CalcAcc_8C.html#a65bf0d1e7e832d3ab9e9a0a7569b0776":[41,0,1,4,1,1,0],
+"db/db5/CalcAcc_8C.html#ace1bf26686de7614d34715761be65394":[41,0,1,4,1,1,1],
+"db/db5/CalcAcc_8C_source.html":[41,0,1,4,1,1],
 "db/db6/KalmanFastTracking_8h.html":[41,0,2,6,13,2,9],
 "db/db6/KalmanFastTracking_8h_source.html":[41,0,2,6,13,2,9],
 "db/dbc/PHG4TargetCoilSteppingAction_8cc.html":[41,0,2,7,0,164],
@@ -244,10 +249,5 @@ var NAVTREEINDEX39 =
 "db/dfa/classPHG4Showerv1.html#a0ececc598eacac90fca93cfcfd6a3613":[40,0,316,61],
 "db/dfa/classPHG4Showerv1.html#a108de468abe07f3ada69fe8c0f04729f":[40,0,316,14],
 "db/dfa/classPHG4Showerv1.html#a11a4f7bec96066ce2bc7a6d62004d265":[40,0,316,50],
-"db/dfa/classPHG4Showerv1.html#a1e7afe5656163e154abddce0b9b4ec5a":[40,0,316,29],
-"db/dfa/classPHG4Showerv1.html#a1f2f770b5929f632e361b73cfbadd40d":[40,0,316,5],
-"db/dfa/classPHG4Showerv1.html#a2108ce444231e52adbb4d52296a320df":[40,0,316,22],
-"db/dfa/classPHG4Showerv1.html#a2914efa50f596e8755bb101eabf354f3":[40,0,316,38],
-"db/dfa/classPHG4Showerv1.html#a2e5c4f0fda00c8077dd2adc121465478":[40,0,316,49],
-"db/dfa/classPHG4Showerv1.html#a2f95825d1bfb5f1608eb7f072901e073":[40,0,316,19]
+"db/dfa/classPHG4Showerv1.html#a1e7afe5656163e154abddce0b9b4ec5a":[40,0,316,29]
 };

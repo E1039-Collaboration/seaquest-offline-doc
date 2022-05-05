@@ -1,5 +1,10 @@
 var NAVTREEINDEX40 =
 {
+"db/dfa/classPHG4Showerv1.html#a1f2f770b5929f632e361b73cfbadd40d":[40,0,316,5],
+"db/dfa/classPHG4Showerv1.html#a2108ce444231e52adbb4d52296a320df":[40,0,316,22],
+"db/dfa/classPHG4Showerv1.html#a2914efa50f596e8755bb101eabf354f3":[40,0,316,38],
+"db/dfa/classPHG4Showerv1.html#a2e5c4f0fda00c8077dd2adc121465478":[40,0,316,49],
+"db/dfa/classPHG4Showerv1.html#a2f95825d1bfb5f1608eb7f072901e073":[40,0,316,19],
 "db/dfa/classPHG4Showerv1.html#a32d933787587cbb4d956da7db8555fa7":[40,0,316,34],
 "db/dfa/classPHG4Showerv1.html#a3b940947bcf51cfb6d50a0b14639dd4e":[40,0,316,57],
 "db/dfa/classPHG4Showerv1.html#a3c5f8430265245be001b5a2e3c744782":[40,0,316,23],
@@ -244,10 +249,5 @@ var NAVTREEINDEX40 =
 "dc/d55/EventDispUI_8h.html":[41,0,2,6,3,1,1],
 "dc/d55/EventDispUI_8h_source.html":[41,0,2,6,3,1,1],
 "dc/d59/SQTrack_8cxx.html":[41,0,2,3,117],
-"dc/d59/SQTrack_8cxx_source.html":[41,0,2,3,117],
-"dc/d5a/EventReducer_8h.html":[41,0,2,6,13,2,1],
-"dc/d5a/EventReducer_8h_source.html":[41,0,2,6,13,2,1],
-"dc/d5a/SQG4DipoleMagnetSteppingAction_8cc.html":[41,0,2,7,0,186],
-"dc/d5a/SQG4DipoleMagnetSteppingAction_8cc_source.html":[41,0,2,7,0,186],
-"dc/d5b/classDetectorConstruction.html":[40,0,75]
+"dc/d59/SQTrack_8cxx_source.html":[41,0,2,3,117]
 };

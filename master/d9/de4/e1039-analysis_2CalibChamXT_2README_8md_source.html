@@ -171,8 +171,8 @@ $(document).ready(function(){initNavTree('d9/de4/e1039-analysis_2CalibChamXT_2RE
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;./run_reco.sh -d 1 -e 10000 GO</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;```</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;The <a class="code" href="../../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> output <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> is `scratch/<a class="code" href="../../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>/run_003492_spill_000000000_spin/out/eval.root`.</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;The ROOT <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`eval.root`) contains all tracklets.</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;The <a class="code" href="../../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> output <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> is `scratch/<a class="code" href="../../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97">main</a>/run_003492_spill_000000000_spin/out/DSTreco.root`.</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;The ROOT <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`DSTreco.root`) contains all tracklets.</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;You had better check the number of <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a> entries is non-zero.</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;You then execute the following commands to process all events/runs.</div>
@@ -198,40 +198,50 @@ $(document).ready(function(){initNavTree('d9/de4/e1039-analysis_2CalibChamXT_2RE
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;```</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;cd work</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;./make_rt_dst.sh</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;./make_rt.sh</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;```</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;Note that `make_rt.sh` is the previous version of the analysis script that reads the evaluation <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`eval.root`) instead of `DSTreco.root`.</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;This script executes an <a class="code" href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C.html#a7c2439ba4530dd42d633f170487a7f51">Fun4All</a> macro (`<a class="code" href="../../dc/d87/Fun4AllAna_8C.html#ae261f5e3cea00457029a383191c9e461">Fun4AllAna</a>.C`), which makes use of a <a class="code" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> modle (`src/<a class="code" href="../../d8/de3/classSRMakeRTCurve.html">SRMakeRTCurve</a>`) to analyze `DSTreco.root`.</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">## To-Do List</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;1. Clean up old sources/macros/scripts that use the evaluation <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;## Reference</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;Station ID:  https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/event-reconstruction</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;Note that `make_rt.sh` has two commented-out lines that find <a class="code" href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a> analyze the evaluation <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a> (`eval.root`) using a ROOT macro (`<a class="code" href="../../d6/d11/AnaRTCurve_8C.html#a897b0cf9d4528e29771057aaa09cfd24">AnaRTCurve</a>.C`).</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;This part is kept for backward compatibility for now, but probably be deleted soon.</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">## To-Do List</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;1. Clean up old sources/macros/scripts that use the evaluation <a class="code" href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a>.</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;1. Implement an iterative extraction of X-T curves.</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<a class="code" href="../../dc/d4d/TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a> bits:</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;* FPGA1: Any ST2 and Any ST4</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;* FPGA2: Top ST2 and Top ST4</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;* FPGA3: Top ST2 and Bottom ST4</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;* FPGA4: Bottom ST2 and Top ST4</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;* FPGA5: ((H1X||H1Y)&amp;&amp;(H2X||H2Y)) || ((H2X||H2Y)&amp;&amp;(H4X||H4Y2))</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;* NIM1: (H1X||H1Y)&amp;&amp;(H2X||H2Y)&amp;&amp;(H3X||H4Y1)&amp;&amp;(H4X||H4Y2)</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;* NIM2: (H1X||H1Y)&amp;&amp;(H2X||H2Y)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;* NIM3: Random</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;* NIM4: (H2X||H2Y)&amp;&amp;(H4X||H4Y2)</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">## Author</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;Kenichi Naknao &lt;knakano0524@gmail.com&gt;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;## Reference</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;Station ID:  https:<span class="comment">//github.com/E1039-Collaboration/e1039-wiki/wiki/event-reconstruction</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<a class="code" href="../../dc/d4d/TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a> bits:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;* FPGA1: Any ST2 and Any ST4</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;* FPGA2: Top ST2 and Top ST4</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;* FPGA3: Top ST2 and Bottom ST4</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;* FPGA4: Bottom ST2 and Top ST4</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;* FPGA5: ((H1X||H1Y)&amp;&amp;(H2X||H2Y)) || ((H2X||H2Y)&amp;&amp;(H4X||H4Y2))</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;* NIM1: (H1X||H1Y)&amp;&amp;(H2X||H2Y)&amp;&amp;(H3X||H4Y1)&amp;&amp;(H4X||H4Y2)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;* NIM2: (H1X||H1Y)&amp;&amp;(H2X||H2Y)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;* NIM3: Random</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;* NIM4: (H2X||H2Y)&amp;&amp;(H4X||H4Y2)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">## Author</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;Kenichi Naknao &lt;knakano0524@gmail.com&gt;</div>
+<div class="ttc" id="AnaRTCurve_8C_html_a897b0cf9d4528e29771057aaa09cfd24"><div class="ttname"><a href="../../d6/d11/AnaRTCurve_8C.html#a897b0cf9d4528e29771057aaa09cfd24">AnaRTCurve</a></div><div class="ttdeci">int AnaRTCurve(const int run, const int iter, const char *fn_list_input)</div><div class="ttdoc">AnaRTCurve.C: ROOT macro to make the X-T curve. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/AnaRTCurve_8C_source.html#l00004">AnaRTCurve.C:4</a></div></div>
 <div class="ttc" id="Fun4SimTree_8C_html_a64207414f701ed29d5129f2178557bd5"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#a64207414f701ed29d5129f2178557bd5">file</a></div><div class="ttdeci">TFile * file</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00006">Fun4SimTree.C:6</a></div></div>
 <div class="ttc" id="test__vtx_8C_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../dc/de0/test__vtx_8C.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de0/test__vtx_8C_source.html#l00007">test_vtx.C:7</a></div></div>
 <div class="ttc" id="run_8C_html_a078d38b1d96e7c0e4f35d93363cc8325"><div class="ttname"><a href="../../df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325">run</a></div><div class="ttdeci">int run(const int nEvents=1)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbc/run_8C_source.html#l00010">run.C:10</a></div></div>
+<div class="ttc" id="Fun4AllAna_8C_html_ae261f5e3cea00457029a383191c9e461"><div class="ttname"><a href="../../dc/d87/Fun4AllAna_8C.html#ae261f5e3cea00457029a383191c9e461">Fun4AllAna</a></div><div class="ttdeci">int Fun4AllAna(const int run, const int iter, const char *fn_list)</div><div class="ttdoc">Fun4AllReco.C: Fun4all macro to run the reconstruction. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d87/Fun4AllAna_8C_source.html#l00007">Fun4AllAna.C:7</a></div></div>
 <div class="ttc" id="Fun4SimTree_8C_html_abc721ee15074057ff5837b1d5dac8ae2"><div class="ttname"><a href="../../d3/dcd/Fun4SimTree_8C.html#abc721ee15074057ff5837b1d5dac8ae2">tree</a></div><div class="ttdeci">TTree * tree</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/Fun4SimTree_8C_source.html#l00007">Fun4SimTree.C:7</a></div></div>
+<div class="ttc" id="AnaRealDst_2macro_2Fun4All_8C_html_a7c2439ba4530dd42d633f170487a7f51"><div class="ttname"><a href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C.html#a7c2439ba4530dd42d633f170487a7f51">Fun4All</a></div><div class="ttdeci">int Fun4All(const int run=1666, const int nevent=0)</div><div class="ttdoc">Main function. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d64/AnaRealDst_2macro_2Fun4All_8C_source.html#l00004">Fun4All.C:4</a></div></div>
 <div class="ttc" id="TriggerRoad_8h_html_a4dfcd17bd35f0348445322eef70f78d0"><div class="ttname"><a href="../../dc/d4d/TriggerRoad_8h.html#a4dfcd17bd35f0348445322eef70f78d0">Trigger</a></div><div class="ttdeci">std::pair&lt; int, int &gt; Trigger</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/TriggerRoad_8h_source.html#l00121">TriggerRoad.h:121</a></div></div>
+<div class="ttc" id="E1039Shielding_2ana_8C_html_a24b637aefa84c667b63905e9be5a8f69"><div class="ttname"><a href="../../d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69">ana</a></div><div class="ttdeci">void ana()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de9/E1039Shielding_2ana_8C_source.html#l00291">ana.C:291</a></div></div>
+<div class="ttc" id="classSubsysReco_html"><div class="ttname"><a href="../../d0/d32/classSubsysReco.html">SubsysReco</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc2/SubsysReco_8h_source.html#l00020">SubsysReco.h:20</a></div></div>
+<div class="ttc" id="classSRMakeRTCurve_html"><div class="ttname"><a href="../../d8/de3/classSRMakeRTCurve.html">SRMakeRTCurve</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d28/SRMakeRTCurve_8h_source.html#l00013">SRMakeRTCurve.h:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -242,7 +252,7 @@ $(document).ready(function(){initNavTree('d9/de4/e1039-analysis_2CalibChamXT_2RE
 		<li class="navelem"><a class="el" href="../../d9/de4/e1039-analysis_2CalibChamXT_2README_8md.html">README.md</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Tue May 3 2022 15:10:07</em> using <a
+			updated: <em>Thu May 5 2022 10:10:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
