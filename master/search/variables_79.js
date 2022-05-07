@@ -5,6 +5,8 @@ var searchData=
   ['y1',['y1',['../dc/d90/classPlane.html#ae317a20d9d70ac492d3ede8bc2a7d5f0',1,'Plane']]],
   ['y2',['y2',['../dc/d90/classPlane.html#a9642714d159ae0c0324b53323b62b36d',1,'Plane']]],
   ['y_5fexp',['y_exp',['../da/da4/classTrackletData.html#a9c603e304c20aaafca933671d43217ed',1,'TrackletData']]],
+  ['y_5fmask_5fmax',['y_mask_max',['../d3/d46/classKalmanFastTracking.html#ad0281efceaed566ac6dbb7823555b420',1,'KalmanFastTracking']]],
+  ['y_5fmask_5fmin',['y_mask_min',['../d3/d46/classKalmanFastTracking.html#aeed8abcf68bd982704778c1ad892da0d',1,'KalmanFastTracking']]],
   ['y_5fmax',['y_max',['../d9/d78/classPHG4ParticleGeneratorD0.html#a1334b22790efab4be2951a2250817f7d',1,'PHG4ParticleGeneratorD0::y_max()'],['../d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#abdd3b1bb7f84ed55c56d1dbdce255a2e',1,'PHG4ParticleGeneratorVectorMeson::y_max()']]],
   ['y_5fmin',['y_min',['../d9/d78/classPHG4ParticleGeneratorD0.html#ae7eefe18bcd061263b0f3b24b0a76c15',1,'PHG4ParticleGeneratorD0::y_min()'],['../d7/dc3/classPHG4ParticleGeneratorVectorMeson.html#a50dd67cf23fd9526c3f875c5b1dd68db',1,'PHG4ParticleGeneratorVectorMeson::y_min()']]],
   ['yc',['yc',['../dc/d90/classPlane.html#acf363744e3f0cbae742f0f9931f80d65',1,'Plane']]],

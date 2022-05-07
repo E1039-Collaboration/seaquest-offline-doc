@@ -118,6 +118,7 @@ var searchData=
   ['mchitallocator',['MCHitAllocator',['../dc/dc9/MCHit_8cc.html#aeab239e14cc4015233d1c697c62c647e',1,'MCHitAllocator():&#160;MCHit.cc'],['../d3/d13/MCHit_8hh.html#aeab239e14cc4015233d1c697c62c647e',1,'MCHitAllocator():&#160;MCHit.cc']]],
   ['min_5fexponent',['min_exponent',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#a4c893d8da8cda20bc1a871f9d069476a',1,'std::numeric_limits&lt; half &gt;']]],
   ['min_5fexponent10',['min_exponent10',['../d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html#a69d11d6b8eef76399a41b086ed19e947',1,'std::numeric_limits&lt; half &gt;']]],
+  ['minimizer',['minimizer',['../d3/d46/classKalmanFastTracking.html#a5b70b5cc4a9535b2e44f779966e22c9c',1,'KalmanFastTracking']]],
   ['minz_5f',['minz_',['../db/d49/classPHField2D.html#ae13beeab1a7b2218c1669676976d7630',1,'PHField2D::minz_()'],['../d5/dc1/classPHField3DCylindrical.html#ae708e4ccf31cad493b1907524c79e7b2',1,'PHField3DCylindrical::minz_()']]],
   ['mjpsi',['mjpsi',['../d2/da1/namespaceDPGEN.html#af92ba51a991928b4b394303fd0923856',1,'DPGEN']]],
   ['mm_5fover_5fc_5fto_5fsec',['mm_over_c_to_sec',['../d7/d74/HepMCCompress_8cc.html#ae61d297e9233f7f20357e73c57f123c9',1,'HepMCCompress.cc']]],

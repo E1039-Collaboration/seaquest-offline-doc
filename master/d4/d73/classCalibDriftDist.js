@@ -7,5 +7,6 @@ var classCalibDriftDist =
     [ "Init", "d4/d73/classCalibDriftDist.html#ae7b6b84aaf2f8a23633c1880c46bffc6", null ],
     [ "InitRun", "d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f", null ],
     [ "process_event", "d4/d73/classCalibDriftDist.html#ae4814127cc445b6b5af87e2311750146", null ],
-    [ "ReadParamFromFile", "d4/d73/classCalibDriftDist.html#aeb0f16a5f105596dc3cec0bc6762980d", null ]
+    [ "ReadParamFromFile", "d4/d73/classCalibDriftDist.html#aeb0f16a5f105596dc3cec0bc6762980d", null ],
+    [ "SetResolution", "d4/d73/classCalibDriftDist.html#aa879f9628c460834f598e690fc41605d", null ]
 ];

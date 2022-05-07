@@ -42,6 +42,7 @@ var classGeomSvc =
     [ "getPlaneOverlap", "d0/da0/classGeomSvc.html#a89a92f7dce975143878a46dd08a3e463", null ],
     [ "getPlanePhiOffset", "d0/da0/classGeomSvc.html#a92f3da167944e6844ef1fde045782e87", null ],
     [ "getPlanePosition", "d0/da0/classGeomSvc.html#a58a3d25847e956be5173e1c0241d8cc3", null ],
+    [ "getPlanePtr", "d0/da0/classGeomSvc.html#a4c0f25010945a1e583041838e52e071b", null ],
     [ "getPlaneResolution", "d0/da0/classGeomSvc.html#ab24b24f8545dab241ef926371741ac71", null ],
     [ "getPlaneScaleX", "d0/da0/classGeomSvc.html#ad3743c570b477ae39082c1fcd8f6d8d6", null ],
     [ "getPlaneScaleY", "d0/da0/classGeomSvc.html#a9c5d6cf552e6c390d4612ba8fdba4655", null ],

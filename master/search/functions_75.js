@@ -13,6 +13,7 @@ var searchData=
   ['updateeventselector',['UpdateEventSelector',['../da/d29/classFun4AllServer.html#a596005b9bc46ff6f5167378423248271',1,'Fun4AllServer']]],
   ['updatefield',['UpdateField',['../d4/d2e/classG4TBMagneticFieldSetup.html#a7930ec66420896c9fbaa9c72cf7543fe',1,'G4TBMagneticFieldSetup']]],
   ['updatefullspillrange',['UpdateFullSpillRange',['../d1/de7/classOnlMonUI.html#a1606bcb6ab4e21a81922b7cbe1e6bd6f',1,'OnlMonUI']]],
+  ['updatehitinfo',['updateHitInfo',['../df/df2/classSQReco.html#a498b3b48b86778c44f4643ca674f3ca9',1,'SQReco']]],
   ['updateinterface',['UpdateInterface',['../d8/d6d/classEventDispUI.html#a54a75c2f5dd2e30f22d843e477f88e77',1,'EventDispUI']]],
   ['updateionode',['UpdateIONode',['../d2/da1/classPHGeomUtility.html#a086be41b0d15f1b2e2c50836a5d73728',1,'PHGeomUtility']]],
   ['updatelabels',['UpdateLabels',['../d8/d6d/classEventDispUI.html#adda988f76cc4151561606d5395520919',1,'EventDispUI']]],

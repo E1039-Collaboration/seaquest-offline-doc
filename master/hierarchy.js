@@ -186,7 +186,9 @@ var hierarchy =
         [ "SQDigitizer", "df/d36/classSQDigitizer.html", null ],
         [ "SQGeomAcc", "d8/dca/classSQGeomAcc.html", null ],
         [ "SQGeomAccLoose", "d6/da3/classSQGeomAccLoose.html", null ],
-        [ "SQReco", "df/df2/classSQReco.html", null ],
+        [ "SQReco", "df/df2/classSQReco.html", [
+          [ "SQTrackletReco", "dd/d62/classSQTrackletReco.html", null ]
+        ] ],
         [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", null ],
         [ "SRawEventEmbed", "d4/d36/classSRawEventEmbed.html", null ],
         [ "SRMakeRTCurve", "d8/de3/classSRMakeRTCurve.html", null ],
@@ -265,7 +267,9 @@ var hierarchy =
     [ "boost::hash< T >", "d4/d27/structboost_1_1hash.html", null ],
     [ "PHTimeServer::iterator", "df/db9/classPHTimeServer_1_1iterator.html", null ],
     [ "KalmanDSTrk", "db/daa/classKalmanDSTrk.html", null ],
-    [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", null ],
+    [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", [
+      [ "KalmanFastTrackletting", "de/d12/classKalmanFastTrackletting.html", null ]
+    ] ],
     [ "KalmanFilter", "d6/d2a/classKalmanFilter.html", null ],
     [ "KalmanFitter", "d3/dc9/classKalmanFitter.html", null ],
     [ "KalmanTrack", "d9/dc3/classKalmanTrack.html", null ],
@@ -646,8 +650,8 @@ var hierarchy =
     [ "UtilHodo::Track2D", "dd/df6/structUtilHodo_1_1Track2D.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
+    [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UtilOnline", "df/da2/classUtilOnline.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],

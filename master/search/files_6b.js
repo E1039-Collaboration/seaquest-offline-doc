@@ -4,6 +4,8 @@ var searchData=
   ['kalmandstrk_2eh',['KalmanDSTrk.h',['../d5/d75/KalmanDSTrk_8h.html',1,'']]],
   ['kalmanfasttracking_2ecxx',['KalmanFastTracking.cxx',['../d0/d4a/KalmanFastTracking_8cxx.html',1,'']]],
   ['kalmanfasttracking_2eh',['KalmanFastTracking.h',['../db/db6/KalmanFastTracking_8h.html',1,'']]],
+  ['kalmanfasttrackletting_2ecxx',['KalmanFastTrackletting.cxx',['../db/d54/KalmanFastTrackletting_8cxx.html',1,'']]],
+  ['kalmanfasttrackletting_2eh',['KalmanFastTrackletting.h',['../d8/df4/KalmanFastTrackletting_8h.html',1,'']]],
   ['kalmanfilter_2ecxx',['KalmanFilter.cxx',['../d5/dc2/KalmanFilter_8cxx.html',1,'']]],
   ['kalmanfilter_2eh',['KalmanFilter.h',['../dc/db1/KalmanFilter_8h.html',1,'']]],
   ['kalmanfitter_2ecxx',['KalmanFitter.cxx',['../d3/d70/KalmanFitter_8cxx.html',1,'']]],

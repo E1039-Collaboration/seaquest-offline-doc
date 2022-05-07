@@ -53,6 +53,7 @@ var searchData=
   ['costh',['costh',['../d3/d07/classSRecDimuon.html#a00575eead745dce51bdc982c6d78e751',1,'SRecDimuon::costh()'],['../dd/dec/structDimuonData.html#ad1373eae7bcb5db44a7263e97005c850',1,'DimuonData::costh()']]],
   ['costh_5fcs',['costh_cs',['../dd/dec/structDimuonData.html#a17c26c32e7b2dcc2357b77ec9cb34f1a',1,'DimuonData']]],
   ['costheta',['costheta',['../dc/d90/classPlane.html#a58849d1c587f12c717391fb77e9dd910',1,'Plane']]],
+  ['costheta_5fplane',['costheta_plane',['../d3/d46/classKalmanFastTracking.html#a110d5109357016aa73a3027f288f1407',1,'KalmanFastTracking']]],
   ['cparams',['cparams',['../d8/d21/classPdbParameterMap.html#afc3511e91dadfd065b7a311e8c2006a6',1,'PdbParameterMap']]],
   ['current_5fsequence',['current_sequence',['../d0/dbe/classFun4AllRolloverFileOutStream.html#a85122c7405a3b2a4149fc2baaf4c3075',1,'Fun4AllRolloverFileOutStream']]],
   ['currentnode',['currentNode',['../d5/d07/classPHNodeIterator.html#ad59319d59386bdb8deee60e2657aec73',1,'PHNodeIterator']]],

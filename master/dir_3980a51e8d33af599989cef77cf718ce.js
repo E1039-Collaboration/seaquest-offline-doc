@@ -18,11 +18,20 @@ var dir_3980a51e8d33af599989cef77cf718ce =
     [ "KalmanFastTracking.h", "db/db6/KalmanFastTracking_8h.html", [
       [ "KalmanFastTracking", "d3/d46/classKalmanFastTracking.html", "d3/d46/classKalmanFastTracking" ]
     ] ],
+    [ "KalmanFastTrackletting.cxx", "db/d54/KalmanFastTrackletting_8cxx.html", null ],
+    [ "KalmanFastTrackletting.h", "d8/df4/KalmanFastTrackletting_8h.html", [
+      [ "KalmanFastTrackletting", "de/d12/classKalmanFastTrackletting.html", "de/d12/classKalmanFastTrackletting" ]
+    ] ],
     [ "SQReco.cxx", "d0/d98/SQReco_8cxx.html", "d0/d98/SQReco_8cxx" ],
     [ "SQReco.h", "d8/dde/SQReco_8h.html", [
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]
     ] ],
     [ "SQRecoLinkDef.h", "dd/ddd/SQRecoLinkDef_8h.html", null ],
+    [ "SQTrackletReco.cxx", "df/d94/SQTrackletReco_8cxx.html", null ],
+    [ "SQTrackletReco.h", "d4/dd5/SQTrackletReco_8h.html", [
+      [ "SQTrackletReco", "dd/d62/classSQTrackletReco.html", "dd/d62/classSQTrackletReco" ]
+    ] ],
+    [ "SQTrackletRecoLinkDef.h", "d4/d71/SQTrackletRecoLinkDef_8h.html", null ],
     [ "SQTruthVertexing.cxx", "da/da7/SQTruthVertexing_8cxx.html", null ],
     [ "SQTruthVertexing.h", "de/d3a/SQTruthVertexing_8h.html", [
       [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", "d8/d20/classSQTruthVertexing" ]

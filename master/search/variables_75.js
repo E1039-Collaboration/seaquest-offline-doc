@@ -1,6 +1,9 @@
 var searchData=
 [
   ['u',['U',['../d3/d1f/classTrackletKey.html#a6baf1c1dfcbdfd1dbe3a083340bb28e1',1,'TrackletKey']]],
+  ['u_5fcostheta',['u_costheta',['../d3/d46/classKalmanFastTracking.html#a16bea1b534a79f0339ced3324341a16c',1,'KalmanFastTracking']]],
+  ['u_5fsintheta',['u_sintheta',['../d3/d46/classKalmanFastTracking.html#a15ffd395ac712f860e7831a9414f1cf1',1,'KalmanFastTracking']]],
+  ['u_5fwin',['u_win',['../d3/d46/classKalmanFastTracking.html#ade766997015ba68523b21d558a653807',1,'KalmanFastTracking']]],
   ['uidata',['uidata',['../df/d43/unionPHG4Cellv1_1_1u__property.html#a396cf9be9e3dc5547f70b15fdc5f0481',1,'PHG4Cellv1::u_property::uidata()'],['../d5/d0a/unionPHG4Hitv1_1_1u__property.html#adc15952617f1646de405a796f7ee33a2',1,'PHG4Hitv1::u_property::uidata()']]],
   ['uimanager',['UImanager',['../d2/dcb/PHG4Reco_8cc.html#acbd24ecee4d01bbb750e79a8098eeda7',1,'PHG4Reco.cc']]],
   ['uisession_5f',['uisession_',['../d0/d78/classPHG4Reco.html#af21a483d090e5622934f3ca7b3bebd6b',1,'PHG4Reco']]],

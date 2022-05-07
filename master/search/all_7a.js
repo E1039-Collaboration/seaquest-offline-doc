@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['z',['z',['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a428ebc43baac3a430836cca85941566d',1,'SQField3DCartesian::FieldPoint::z()'],['../d9/d35/classPHG4Hitv1.html#a310839a3bd07bad2c46020a246d1626e',1,'PHG4Hitv1::z()'],['../d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc',1,'SQBeamlineObject::Z()']]],
+  ['z',['Z',['../d5/d7b/classSQBeamlineObject.html#a039f617305574bf1a59984b35b4a36dc',1,'SQBeamlineObject::Z()'],['../df/d82/classSQField3DCartesian_1_1FieldPoint.html#a428ebc43baac3a430836cca85941566d',1,'SQField3DCartesian::FieldPoint::z()'],['../d9/d35/classPHG4Hitv1.html#a310839a3bd07bad2c46020a246d1626e',1,'PHG4Hitv1::z()']]],
   ['z0',['z0',['../d5/d7b/classSQBeamlineObject.html#a7d85033d3abc7e02c4d64d0830c5c24b',1,'SQBeamlineObject::z0()'],['../d6/d90/structGeomParamPlane_1_1Plane.html#a5d3f24aedb96b4888ef2f2c8e2362752',1,'GeomParamPlane::Plane::z0()'],['../dc/d90/classPlane.html#abaeeb6bbe96b2c16a75ebfec813942f4',1,'Plane::z0()']]],
   ['z1',['z1',['../dc/d90/classPlane.html#a6389866c86ef234ebb8fafbc7ad09261',1,'Plane']]],
   ['z1h',['z1h',['../dc/d5b/classDetectorConstruction.html#aef96823cb792e265065b3960c95d7a96',1,'DetectorConstruction']]],
@@ -16,9 +16,15 @@ var searchData=
   ['z_5fkfmag_5fbend',['Z_KFMAG_BEND',['../d0/da0/classGeomSvc.html#a0259ba06ca037702d6e66f713ad3bfc8',1,'GeomSvc::Z_KFMAG_BEND() const '],['../d0/da0/classGeomSvc.html#ade47f4c03313b45ea365db3af4dbac1f',1,'GeomSvc::Z_KFMAG_BEND(const double v)']]],
   ['z_5fkmag_5fbend',['Z_KMAG_BEND',['../d0/da0/classGeomSvc.html#a414f10ce68ee2f1dac5db62722a7e059',1,'GeomSvc::Z_KMAG_BEND() const '],['../d0/da0/classGeomSvc.html#a5df2f64c48fd3cb4766650623cd9e437',1,'GeomSvc::Z_KMAG_BEND(const double v)']]],
   ['z_5fmap_5f',['z_map_',['../db/d49/classPHField2D.html#a700dd287b7635bbdafaae27d14317cbd',1,'PHField2D::z_map_()'],['../d5/dc1/classPHField3DCylindrical.html#a01680789ef997305fa63259f31b4a063',1,'PHField3DCylindrical::z_map_()']]],
+  ['z_5fmask',['z_mask',['../d3/d46/classKalmanFastTracking.html#a17ee8735cbc106930c972c632200a637',1,'KalmanFastTracking']]],
   ['z_5fmax',['z_max',['../dd/d68/classPHG4ParticleGenerator.html#a9b3d712c68eeca5a15bc6ae3daa2ff6d',1,'PHG4ParticleGenerator']]],
   ['z_5fmin',['z_min',['../dd/d68/classPHG4ParticleGenerator.html#a78fcabc0824f41c97a420bb45267b5e2',1,'PHG4ParticleGenerator']]],
+  ['z_5fplane',['z_plane',['../d3/d46/classKalmanFastTracking.html#a2c64f1b1ac4aef1e4bd999a6af49b57b',1,'KalmanFastTracking']]],
+  ['z_5fplane_5fu',['z_plane_u',['../d3/d46/classKalmanFastTracking.html#abc7f625afa1d2308db1953b607a4d59f',1,'KalmanFastTracking']]],
+  ['z_5fplane_5fv',['z_plane_v',['../d3/d46/classKalmanFastTracking.html#af7f7d0ace83b9aff99579cc089219087',1,'KalmanFastTracking']]],
+  ['z_5fplane_5fx',['z_plane_x',['../d3/d46/classKalmanFastTracking.html#ab7fa1a58899ed7d3c60fbf51f1e3eec0',1,'KalmanFastTracking']]],
   ['z_5fref',['Z_REF',['../d0/da0/classGeomSvc.html#a18961a04472343b1504d7823e5c9e22a',1,'GeomSvc::Z_REF() const '],['../d0/da0/classGeomSvc.html#ac57478706be3faab46c4a151f9493405',1,'GeomSvc::Z_REF(const double v)']]],
+  ['z_5fref_5fmuid',['z_ref_muid',['../d3/d46/classKalmanFastTracking.html#a5960b30e4ec36962ea36e1c127d8fb0f',1,'KalmanFastTracking']]],
   ['z_5fst1',['Z_ST1',['../d0/da0/classGeomSvc.html#aac6eb9e2770b5e4f17de24649bb0610a',1,'GeomSvc::Z_ST1() const '],['../d0/da0/classGeomSvc.html#a4fa82f8c76dac72bad4dbcc48a87aa6a',1,'GeomSvc::Z_ST1(const double v)']]],
   ['z_5fst2',['Z_ST2',['../d0/da0/classGeomSvc.html#a715922ea4b074eada90bfc2ba656e180',1,'GeomSvc::Z_ST2() const '],['../d0/da0/classGeomSvc.html#a3c7b3a4bc4b377eb555cdddf1c0a3109',1,'GeomSvc::Z_ST2(const double v)']]],
   ['z_5fst3',['Z_ST3',['../d0/da0/classGeomSvc.html#a85d3b351cc606f22e8f52d59eb539c6a',1,'GeomSvc::Z_ST3() const '],['../d0/da0/classGeomSvc.html#ae920624301e6ae4847ea85641fd1e251',1,'GeomSvc::Z_ST3(const double v)']]],

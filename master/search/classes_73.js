@@ -77,6 +77,7 @@ var searchData=
   ['sqtnode',['SQTNode',['../d4/d1f/classSQTNode.html',1,'']]],
   ['sqtrack',['SQTrack',['../d7/d1b/classSQTrack.html',1,'']]],
   ['sqtrack_5fv1',['SQTrack_v1',['../d6/d88/classSQTrack__v1.html',1,'']]],
+  ['sqtrackletreco',['SQTrackletReco',['../dd/d62/classSQTrackletReco.html',1,'']]],
   ['sqtrackvector',['SQTrackVector',['../db/d03/classSQTrackVector.html',1,'']]],
   ['sqtrackvector_5fv1',['SQTrackVector_v1',['../d6/d0b/classSQTrackVector__v1.html',1,'']]],
   ['sqtruthvertexing',['SQTruthVertexing',['../d8/d20/classSQTruthVertexing.html',1,'']]],

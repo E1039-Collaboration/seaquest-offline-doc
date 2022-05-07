@@ -5,6 +5,7 @@ var searchData=
   ['makechanmap',['MakeChanMap',['../d0/da4/UploadChanMap_8C.html#a1e7e5c79eeb34653003164775cf59e31',1,'UploadChanMap.C']]],
   ['makehist1d',['MakeHist1D',['../d3/d84/AnaTree_8C.html#a4eb5a9a6b794b3366126982d562e1a30',1,'AnaTree.C']]],
   ['makehisto',['makeHisto',['../d3/d96/classFun4AllHistoManager.html#ad13a9bc82841ea99d349f7b9b5f93177',1,'Fun4AllHistoManager::makeHisto()'],['../da/d29/classFun4AllServer.html#a248740a0e8d771bcabbe44cc08a5a1b6',1,'Fun4AllServer::makeHisto()']]],
+  ['makenodes',['MakeNodes',['../df/df2/classSQReco.html#a6606fc7b992f65ded141311b0db3f109',1,'SQReco']]],
   ['makenodespersistent',['MakeNodesPersistent',['../da/d29/classFun4AllServer.html#ac9e5b55796d46d41f6f0ec9e3422959a',1,'Fun4AllServer']]],
   ['makenodestransient',['MakeNodesTransient',['../da/d29/classFun4AllServer.html#a92c6fe0e0c19c48d2b1f9d0f63c12bbe',1,'Fun4AllServer']]],
   ['makepersistent',['makePersistent',['../dc/d82/classPHNode.html#ad5c0a3b8418667e0b16c0581435b0aff',1,'PHNode']]],
