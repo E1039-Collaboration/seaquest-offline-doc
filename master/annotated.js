@@ -64,7 +64,6 @@ var annotated =
     [ "CalibParamInTimeTaiwan", "d7/dec/classCalibParamInTimeTaiwan.html", "d7/dec/classCalibParamInTimeTaiwan" ],
     [ "CalibParamInTimeV1495", "d0/dd2/classCalibParamInTimeV1495.html", "d0/dd2/classCalibParamInTimeV1495" ],
     [ "CalibParamXT", "da/d44/classCalibParamXT.html", "da/d44/classCalibParamXT" ],
-    [ "CalibXTv2", "db/d8f/classCalibXTv2.html", "db/d8f/classCalibXTv2" ],
     [ "ChanMapBase", "df/d77/classChanMapBase.html", "df/d77/classChanMapBase" ],
     [ "ChanMapScaler", "d9/d1d/classChanMapScaler.html", "d9/d1d/classChanMapScaler" ],
     [ "ChanMapTaiwan", "d3/d21/classChanMapTaiwan.html", "d3/d21/classChanMapTaiwan" ],

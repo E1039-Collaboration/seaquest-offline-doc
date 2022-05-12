@@ -26,8 +26,6 @@ var searchData=
   ['calibparamxt_2ecc',['CalibParamXT.cc',['../d4/d24/CalibParamXT_8cc.html',1,'']]],
   ['calibparamxt_2eh',['CalibParamXT.h',['../d7/dc9/CalibParamXT_8h.html',1,'']]],
   ['calibparamxtlinkdef_2eh',['CalibParamXTLinkDef.h',['../df/d5f/CalibParamXTLinkDef_8h.html',1,'']]],
-  ['calibxtv2_2ecc',['CalibXTv2.cc',['../d4/d6c/CalibXTv2_8cc.html',1,'']]],
-  ['calibxtv2_2eh',['CalibXTv2.h',['../d0/db7/CalibXTv2_8h.html',1,'']]],
   ['chanmapscaler_2ecc',['ChanMapScaler.cc',['../d7/d16/ChanMapScaler_8cc.html',1,'']]],
   ['chanmapscaler_2eh',['ChanMapScaler.h',['../d5/de1/ChanMapScaler_8h.html',1,'']]],
   ['chanmapscalerlinkdef_2eh',['ChanMapScalerLinkDef.h',['../d3/d34/ChanMapScalerLinkDef_8h.html',1,'']]],

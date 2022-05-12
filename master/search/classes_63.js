@@ -11,7 +11,6 @@ var searchData=
   ['calibparamintimetaiwan',['CalibParamInTimeTaiwan',['../d7/dec/classCalibParamInTimeTaiwan.html',1,'']]],
   ['calibparamintimev1495',['CalibParamInTimeV1495',['../d0/dd2/classCalibParamInTimeV1495.html',1,'']]],
   ['calibparamxt',['CalibParamXT',['../da/d44/classCalibParamXT.html',1,'']]],
-  ['calibxtv2',['CalibXTv2',['../db/d8f/classCalibXTv2.html',1,'']]],
   ['chanmapbase',['ChanMapBase',['../df/d77/classChanMapBase.html',1,'']]],
   ['chanmapscaler',['ChanMapScaler',['../d9/d1d/classChanMapScaler.html',1,'']]],
   ['chanmaptaiwan',['ChanMapTaiwan',['../d3/d21/classChanMapTaiwan.html',1,'']]],

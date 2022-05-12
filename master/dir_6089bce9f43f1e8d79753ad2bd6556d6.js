@@ -8,10 +8,6 @@ var dir_6089bce9f43f1e8d79753ad2bd6556d6 =
     [ "AnaEmbeddedData.h", "df/d58/AnaEmbeddedData_8h.html", [
       [ "AnaEmbeddedData", "d2/de6/classAnaEmbeddedData.html", "d2/de6/classAnaEmbeddedData" ]
     ] ],
-    [ "CalibXTv2.cc", "d4/d6c/CalibXTv2_8cc.html", null ],
-    [ "CalibXTv2.h", "d0/db7/CalibXTv2_8h.html", [
-      [ "CalibXTv2", "db/d8f/classCalibXTv2.html", "db/d8f/classCalibXTv2" ]
-    ] ],
     [ "DoEmbedding.cc", "de/d10/DoEmbedding_8cc.html", null ],
     [ "DoEmbedding.h", "d9/d51/DoEmbedding_8h.html", [
       [ "DoEmbedding", "d2/d1b/classDoEmbedding.html", "d2/d1b/classDoEmbedding" ]

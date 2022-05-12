@@ -102,7 +102,6 @@ var hierarchy =
         [ "CalibHitElementPos", "d0/de5/classCalibHitElementPos.html", null ],
         [ "CalibHodoInTime", "d4/d41/classCalibHodoInTime.html", null ],
         [ "CalibMergeH4", "df/d49/classCalibMergeH4.html", null ],
-        [ "CalibXTv2", "db/d8f/classCalibXTv2.html", null ],
         [ "DbUpRun", "d1/de7/classDbUpRun.html", null ],
         [ "DbUpSpill", "da/dbe/classDbUpSpill.html", null ],
         [ "DetectorConstructionWrapper", "d0/dbd/classDetectorConstructionWrapper.html", null ],

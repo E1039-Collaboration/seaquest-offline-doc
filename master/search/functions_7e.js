@@ -31,7 +31,6 @@ var searchData=
   ['_7ecalibparamintimetaiwan',['~CalibParamInTimeTaiwan',['../d7/dec/classCalibParamInTimeTaiwan.html#a2c98c28d11f5b1cd16b26087dc556e62',1,'CalibParamInTimeTaiwan']]],
   ['_7ecalibparamintimev1495',['~CalibParamInTimeV1495',['../d0/dd2/classCalibParamInTimeV1495.html#a6ee5633a93ebc9c05e077d4f4fedcc2b',1,'CalibParamInTimeV1495']]],
   ['_7ecalibparamxt',['~CalibParamXT',['../da/d44/classCalibParamXT.html#a0cbef4bb35d81bafc823b1c9200b2ab7',1,'CalibParamXT']]],
-  ['_7ecalibxtv2',['~CalibXTv2',['../db/d8f/classCalibXTv2.html#a2e9614e4252596cb996d542bcf712c15',1,'CalibXTv2']]],
   ['_7echanmapbase',['~ChanMapBase',['../df/d77/classChanMapBase.html#a67faac108bddc408fbe5ba5dbcc72f3b',1,'ChanMapBase']]],
   ['_7echanmapscaler',['~ChanMapScaler',['../d9/d1d/classChanMapScaler.html#a03d2ff2d6096c9c1b5ac0f5c6ac031f5',1,'ChanMapScaler']]],
   ['_7echanmaptaiwan',['~ChanMapTaiwan',['../d3/d21/classChanMapTaiwan.html#abc3cb9c571dd1dd229452d3bd8bed884',1,'ChanMapTaiwan']]],

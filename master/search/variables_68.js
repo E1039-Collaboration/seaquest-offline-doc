@@ -26,7 +26,7 @@ var searchData=
   ['hit_5fvec',['hit_vec',['../d5/dd4/classFun4AllSRawEventInputManager.html#a59f44cd1a21c2657e7258ec0293839bd',1,'Fun4AllSRawEventInputManager']]],
   ['hitall',['hitAll',['../d3/d46/classKalmanFastTracking.html#a976cfd962e1e2abe7625f1b31549e025',1,'KalmanFastTracking']]],
   ['hitedeps',['hitedeps',['../de/d5e/classPHG4Cellv1.html#ad6ac4823adb5b867ca8ea55aa02b6df5',1,'PHG4Cellv1::hitedeps()'],['../da/d1d/classPHG4Cellv2.html#a6ff75c7452e13707c47d72aa24582184',1,'PHG4Cellv2::hitedeps()']]],
-  ['hitid',['hitid',['../d9/d35/classPHG4Hitv1.html#a8610b08a4af89a0771cdc0d02ddcb720',1,'PHG4Hitv1::hitid()'],['../d3/df0/structDecoParam.html#a5405b83ef75e60db1715ac640094559d',1,'DecoParam::hitID()']]],
+  ['hitid',['hitID',['../d3/df0/structDecoParam.html#a5405b83ef75e60db1715ac640094559d',1,'DecoParam::hitID()'],['../d9/d35/classPHG4Hitv1.html#a8610b08a4af89a0771cdc0d02ddcb720',1,'PHG4Hitv1::hitid()']]],
   ['hitid_5fmask',['hitid_mask',['../da/dd0/namespacePHG4HitDefs.html#a79dda92ffaae4734625b770271b17e11',1,'PHG4HitDefs']]],
   ['hitids_5fmask',['hitIDs_mask',['../d3/d46/classKalmanFastTracking.html#a910c4432f9f8dd73c6358bbc3168e69b',1,'KalmanFastTracking']]],
   ['hitids_5fmuid',['hitIDs_muid',['../d3/d46/classKalmanFastTracking.html#af3ec8c6b93d69a7605e85b8626d6e161',1,'KalmanFastTracking']]],
