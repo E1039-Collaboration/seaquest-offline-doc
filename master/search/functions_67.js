@@ -673,7 +673,7 @@ var searchData=
   ['getnallhits',['getNAllHits',['../d2/d26/classTracklet.html#ad52dd1c19c7ef77dcde24d61c63b1878',1,'Tracklet']]],
   ['getname',['getName',['../dc/d07/classPdbParameter.html#aa488d312bf64039738af68efedd35313',1,'PdbParameter::getName()'],['../dc/d82/classPHNode.html#aca3576f926a4401eddc3d88bf0ce0de3',1,'PHNode::getName()'],['../db/df0/classPHPy8GenTrigger.html#a42497011fcc10d753b89c6688543fbb7',1,'PHPy8GenTrigger::GetName()'],['../d3/de7/classPHG4Detector.html#a2d071f49fa045db5ade51bb99f88218f',1,'PHG4Detector::GetName()'],['../df/d3f/classPHG4SteppingAction.html#a88ff50956245a2b72d459bad2004e1ca',1,'PHG4SteppingAction::GetName()']]],
   ['getnchamberhitsall',['getNChamberHitsAll',['../d5/d83/classSRawEvent.html#adcd73c16459e35e34c2e746b5b8568c1',1,'SRawEvent']]],
-  ['getndf',['GetNDF',['../dd/df6/structUtilHodo_1_1Track2D.html#a1d641ef4b6c5e89be0236d695c4cfff2',1,'UtilHodo::Track2D::GetNDF()'],['../d2/d6b/classSQGenFit_1_1GFTrack.html#a041e6d9185b46011b7918a2e9aaa5cbb',1,'SQGenFit::GFTrack::getNDF()']]],
+  ['getndf',['getNDF',['../d2/d6b/classSQGenFit_1_1GFTrack.html#a041e6d9185b46011b7918a2e9aaa5cbb',1,'SQGenFit::GFTrack::getNDF()'],['../dd/df6/structUtilHodo_1_1Track2D.html#a1d641ef4b6c5e89be0236d695c4cfff2',1,'UtilHodo::Track2D::GetNDF()']]],
   ['getndimuons',['getNDimuons',['../d5/d2f/classSRecEvent.html#af3ec950be8c17e1e72c5c3fe5dc31b1c',1,'SRecEvent']]],
   ['getnearestmeasurementid',['getNearestMeasurementID',['../d2/d6b/classSQGenFit_1_1GFTrack.html#a3346d5421801fc75167936da61a23dd8',1,'SQGenFit::GFTrack']]],
   ['getnearestnode',['getNearestNode',['../d6/db1/classSRecTrack.html#a9862feab2764002e22502227cff0ecd4',1,'SRecTrack']]],

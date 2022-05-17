@@ -96,7 +96,7 @@ var searchData=
   ['hitdatalist',['HitDataList',['../d1/d7f/DecoData_8h.html#a48717ece42fb2ab15ea682bb1d6e6b08',1,'DecoData.h']]],
   ['hitedeps',['hitedeps',['../de/d5e/classPHG4Cellv1.html#ad6ac4823adb5b867ca8ea55aa02b6df5',1,'PHG4Cellv1::hitedeps()'],['../da/d1d/classPHG4Cellv2.html#a6ff75c7452e13707c47d72aa24582184',1,'PHG4Cellv2::hitedeps()']]],
   ['hitflagbit',['hitFlagBit',['../db/dda/SRawEvent_8h.html#a4de584d2448f1168bb2f0c409dc5a496',1,'SRawEvent.h']]],
-  ['hitid',['hitID',['../d3/df0/structDecoParam.html#a5405b83ef75e60db1715ac640094559d',1,'DecoParam::hitID()'],['../d9/d35/classPHG4Hitv1.html#a8610b08a4af89a0771cdc0d02ddcb720',1,'PHG4Hitv1::hitid()']]],
+  ['hitid',['hitid',['../d9/d35/classPHG4Hitv1.html#a8610b08a4af89a0771cdc0d02ddcb720',1,'PHG4Hitv1::hitid()'],['../d3/df0/structDecoParam.html#a5405b83ef75e60db1715ac640094559d',1,'DecoParam::hitID()']]],
   ['hitid_5fmask',['hitid_mask',['../da/dd0/namespacePHG4HitDefs.html#a79dda92ffaae4734625b770271b17e11',1,'PHG4HitDefs']]],
   ['hitidconstiter',['HitIdConstIter',['../db/d88/classPHG4Shower.html#a0751738c450c5810ea6ea857b9c119ba',1,'PHG4Shower']]],
   ['hitiditer',['HitIdIter',['../db/d88/classPHG4Shower.html#a27d5b3f2531295097acdf913c10abef8',1,'PHG4Shower']]],

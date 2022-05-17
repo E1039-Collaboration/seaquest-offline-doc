@@ -91,6 +91,8 @@ var searchData=
   ['droppacketrange',['DropPacketRange',['../d2/d4a/classFun4AllEventOutputManager.html#a9ba5514375f351891f23257a6dc3efea',1,'Fun4AllEventOutputManager::DropPacketRange()'],['../dc/dab/classFun4AllEventOutStream.html#aa0331dc19ef673eda335ce026e4b11d6',1,'Fun4AllEventOutStream::DropPacketRange()']]],
   ['droptable',['DropTable',['../d2/da4/classDbSvc.html#a7a6da517bc72f88c593f1102378dfdba',1,'DbSvc::DropTable(const char *name)'],['../d2/da4/classDbSvc.html#af202271f54386e26019373280cb409bd',1,'DbSvc::DropTable(const std::string name)']]],
   ['dstevents',['DstEvents',['../da/d29/classFun4AllServer.html#a4f75287cf7b45915eb298b3632ce6e38',1,'Fun4AllServer']]],
+  ['dstfinished',['DstFinished',['../df/d00/classFun4AllSpillDstOutputManager.html#ac86d9b90242f06634e8b79fd2d07fd2a',1,'Fun4AllSpillDstOutputManager']]],
+  ['dststarted',['DstStarted',['../df/d00/classFun4AllSpillDstOutputManager.html#abff89de8734219b1aa4105dd5f85af80',1,'Fun4AllSpillDstOutputManager']]],
   ['dump_5fgdml',['Dump_GDML',['../d9/df8/classPHG4GDMLUtility.html#adb03ec38807279cb5abaf38987c5a73f',1,'PHG4GDMLUtility::Dump_GDML()'],['../d0/d78/classPHG4Reco.html#a490f5037508d384c5b60855ef0f7e227',1,'PHG4Reco::Dump_GDML()']]],
   ['dumphistos',['dumpHistos',['../d3/d96/classFun4AllHistoManager.html#a61c2043c62739de451de3f9287832a08',1,'Fun4AllHistoManager::dumpHistos()'],['../da/d29/classFun4AllServer.html#a6108c3381626724da07c19dadf79104e',1,'Fun4AllServer::dumpHistos()']]],
   ['duplicatedir',['duplicateDir',['../de/d7e/classTDirectoryHelper.html#a93f4db39292b8c98dee770a85163c74c',1,'TDirectoryHelper']]],
