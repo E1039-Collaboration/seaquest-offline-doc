@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('d8/d38/classOnlMonServer.html','../../
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d9a/classOnlMonServer__coll__graph.svg" width="1662" height="971"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d9a/classOnlMonServer__coll__graph.svg" width="1662" height="1024"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="../../graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -288,6 +288,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad140d3adf05e96b8d1de3791abc8efce inherit pub_methods_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3fe7393e52376b515c60dd927670f2e inherit pub_methods_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e">PrintTimer</a> (const std::string &amp;name=&quot;&quot;)</td></tr>
 <tr class="separator:ae3fe7393e52376b515c60dd927670f2e inherit pub_methods_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c125bdbaf8551b658f37a8d12b15e4c inherit pub_methods_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a2c125bdbaf8551b658f37a8d12b15e4c">ReadSpillTimer</a> (double &amp;time_subsys, double &amp;time_output)</td></tr>
+<tr class="separator:a2c125bdbaf8551b658f37a8d12b15e4c inherit pub_methods_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035cbfe2fafd56ff8c2563db64e537e1 inherit pub_methods_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a035cbfe2fafd56ff8c2563db64e537e1">ResetSpillTimer</a> ()</td></tr>
+<tr class="separator:a035cbfe2fafd56ff8c2563db64e537e1 inherit pub_methods_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classFun4AllBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classFun4AllBase')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/dec/classFun4AllBase.html">Fun4AllBase</a></td></tr>
 <tr class="memitem:afb7be7679497d5e5faccb6aa863d6126 inherit pub_methods_classFun4AllBase"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dec/classFun4AllBase.html#afb7be7679497d5e5faccb6aa863d6126">~Fun4AllBase</a> ()</td></tr>
 <tr class="separator:afb7be7679497d5e5faccb6aa863d6126 inherit pub_methods_classFun4AllBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -412,9 +416,15 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a65157f6da817ed8a4971cb4c23648cef inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5f3c4ba5afcfb7d75919a71620e111d inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">std::map&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#ac5f3c4ba5afcfb7d75919a71620e111d">retcodesmap</a></td></tr>
 <tr class="separator:ac5f3c4ba5afcfb7d75919a71620e111d inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fdcdfc94cac7be9b6a3f3783dcbf9f1 inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">std::map&lt; const std::string, <br class="typebreak"/>
-<a class="el" href="../../d0/d5e/classPHTimer.html">PHTimer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a5fdcdfc94cac7be9b6a3f3783dcbf9f1">timer_map</a></td></tr>
-<tr class="separator:a5fdcdfc94cac7be9b6a3f3783dcbf9f1 inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf80b291ac8c6de4ef487f9a4c854ebc inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">std::map&lt; const std::string, <br class="typebreak"/>
+<a class="el" href="../../d5/d2d/classPHTimer2.html">PHTimer2</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#abf80b291ac8c6de4ef487f9a4c854ebc">timer_map</a></td></tr>
+<tr class="separator:abf80b291ac8c6de4ef487f9a4c854ebc inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90aa83fea8991f74d22bfab9ca984690 inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2d/classPHTimer2.html">PHTimer2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a90aa83fea8991f74d22bfab9ca984690">timer_sp_subsys</a></td></tr>
+<tr class="memdesc:a90aa83fea8991f74d22bfab9ca984690 inherit pro_attribs_classFun4AllServer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measure the time used by <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> in <a class="el" href="../../da/d29/classFun4AllServer.html#a6a65a944dfb40966ace97d35ab1f7942">process_event()</a>.  <a href="#a90aa83fea8991f74d22bfab9ca984690">More...</a><br/></td></tr>
+<tr class="separator:a90aa83fea8991f74d22bfab9ca984690 inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fcf815bd3310dc525dfad44558191a3 inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2d/classPHTimer2.html">PHTimer2</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a6fcf815bd3310dc525dfad44558191a3">timer_sp_output</a></td></tr>
+<tr class="memdesc:a6fcf815bd3310dc525dfad44558191a3 inherit pro_attribs_classFun4AllServer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Measure the time used by OutputManager in <a class="el" href="../../da/d29/classFun4AllServer.html#a6a65a944dfb40966ace97d35ab1f7942">process_event()</a>.  <a href="#a6fcf815bd3310dc525dfad44558191a3">More...</a><br/></td></tr>
+<tr class="separator:a6fcf815bd3310dc525dfad44558191a3 inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0582593b120ae42ce375725a620e89ef inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">TH1 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a0582593b120ae42ce375725a620e89ef">FrameWorkVars</a></td></tr>
 <tr class="separator:a0582593b120ae42ce375725a620e89ef inherit pro_attribs_classFun4AllServer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a717452b147fb487e103ebb6514f2a9 inherit pro_attribs_classFun4AllServer"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d29/classFun4AllServer.html#a9a717452b147fb487e103ebb6514f2a9">keep_db_connected</a></td></tr>
@@ -561,7 +571,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00096">96</a> of file <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html">OnlMonServer.cc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00988">Fun4AllServer::End()</a>.</p>
+<p>References <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l01018">Fun4AllServer::End()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00008">Fun4MainDaq()</a>, <a class="el" href="../../d1/d6b/Fun4MainDaqE906_8C_source.html#l00008">Fun4MainDaqE906()</a>, and <a class="el" href="../../dc/d8e/TestOnlMonClient_8C_source.html#l00004">TestOnlMonClient()</a>.</p>
 
@@ -736,7 +746,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/d8a/OnlMonServer_8h_source.html#l00058">mutex</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00088">OnlMonClient::process_event()</a>, and <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00261">OnlMonClient::SendHist()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00089">OnlMonClient::process_event()</a>, and <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00262">OnlMonClient::SendHist()</a>.</p>
 
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -955,7 +965,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00207">207</a> of file <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html">OnlMonServer.cc</a>.</p>
 
-<p>References <a class="el" href="../../db/d6c/OnlMonComm_8cc_source.html#l00067">OnlMonComm::FindFullSpillRange()</a>, <a class="el" href="../../dc/d0a/OnlMonComm_8h_source.html#l00033">OnlMonComm::GetSpillSelectability()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00324">Fun4AllServer::getSubsysReco()</a>, <a class="el" href="../../db/d6c/OnlMonComm_8cc_source.html#l00016">OnlMonComm::instance()</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00261">OnlMonClient::SendHist()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
+<p>References <a class="el" href="../../db/d6c/OnlMonComm_8cc_source.html#l00067">OnlMonComm::FindFullSpillRange()</a>, <a class="el" href="../../dc/d0a/OnlMonComm_8h_source.html#l00033">OnlMonComm::GetSpillSelectability()</a>, <a class="el" href="../../d8/d7a/Fun4AllServer_8cc_source.html#l00338">Fun4AllServer::getSubsysReco()</a>, <a class="el" href="../../db/d6c/OnlMonComm_8cc_source.html#l00016">OnlMonComm::instance()</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00262">OnlMonClient::SendHist()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00143">FuncServer()</a>.</p>
 
@@ -1004,7 +1014,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00034">34</a> of file <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html">OnlMonServer.cc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00008">Fun4MainDaq()</a>, <a class="el" href="../../d1/d6b/Fun4MainDaqE906_8C_source.html#l00008">Fun4MainDaqE906()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00055">OnlMonClient::Init()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00061">OnlMonClient::InitRun()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00088">OnlMonClient::process_event()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00261">OnlMonClient::SendHist()</a>, <a class="el" href="../../dc/d8e/TestOnlMonClient_8C_source.html#l00004">TestOnlMonClient()</a>, and <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00126">TestOnlMonServer()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00008">Fun4MainDaq()</a>, <a class="el" href="../../d1/d6b/Fun4MainDaqE906_8C_source.html#l00008">Fun4MainDaqE906()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00056">OnlMonClient::Init()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00062">OnlMonClient::InitRun()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00089">OnlMonClient::process_event()</a>, <a class="el" href="../../dc/dae/OnlMonClient_8cc_source.html#l00262">OnlMonClient::SendHist()</a>, <a class="el" href="../../dc/d8e/TestOnlMonClient_8C_source.html#l00004">TestOnlMonClient()</a>, and <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00127">TestOnlMonServer()</a>.</p>
 
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1329,7 +1339,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00143">FuncServer()</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, <a class="el" href="../../dc/d69/OnlMonServer_8cc_source.html#l00022">ServerThread</a>, <a class="el" href="../../d7/d8a/OnlMonServer_8h_source.html#l00051">SetThreadId()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00008">Fun4MainDaq()</a>, <a class="el" href="../../d1/d6b/Fun4MainDaqE906_8C_source.html#l00008">Fun4MainDaqE906()</a>, and <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00126">TestOnlMonServer()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00008">Fun4MainDaq()</a>, <a class="el" href="../../d1/d6b/Fun4MainDaqE906_8C_source.html#l00008">Fun4MainDaqE906()</a>, and <a class="el" href="../../df/d6a/e1039-core_2online_2macros_2Fun4MainDaq_8C_source.html#l00127">TestOnlMonServer()</a>.</p>
 
 <p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1416,7 +1426,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d8/d38/classOnlMonServer.html">OnlMonServer</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri May 27 2022 02:30:14</em> using <a
+			updated: <em>Tue May 31 2022 08:30:11</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

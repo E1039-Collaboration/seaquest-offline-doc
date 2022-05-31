@@ -52,6 +52,7 @@ var dir_1e3a55bacfbd23a6aba299383b6b7742 =
     [ "RunParamBase.h", "d4/d28/RunParamBase_8h.html", [
       [ "RunParamBase", "db/d8a/classRunParamBase.html", "db/d8a/classRunParamBase" ],
       [ "ChanMapBase", "df/d77/classChanMapBase.html", "df/d77/classChanMapBase" ],
+      [ "RocBoardChanHash", "d5/ddd/structChanMapBase_1_1RocBoardChanHash.html", "d5/ddd/structChanMapBase_1_1RocBoardChanHash" ],
       [ "CalibParamBase", "d5/d33/classCalibParamBase.html", "d5/d33/classCalibParamBase" ],
       [ "GeomParamBase", "d4/d63/classGeomParamBase.html", "d4/d63/classGeomParamBase" ]
     ] ],

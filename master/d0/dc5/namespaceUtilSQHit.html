@@ -126,6 +126,18 @@ Functions</h2></td></tr>
 <tr class="separator:a5fb03b8a409fe9772bfae09b0d316aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8796c745108428f2b9c4673dcb93d476"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a8796c745108428f2b9c4673dcb93d476">FindFirstHits</a> (const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *vec_in, const int det_id, const bool in_time=false)</td></tr>
 <tr class="separator:a8796c745108428f2b9c4673dcb93d476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9e581499adf80e352222d24efc20ec"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a3a9e581499adf80e352222d24efc20ec">FindHitsFast</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *evt, const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vec, const std::string det_name)</td></tr>
+<tr class="memdesc:a3a9e581499adf80e352222d24efc20ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast-extract a set of hits that are of the given detector (det_name).  <a href="#a3a9e581499adf80e352222d24efc20ec">More...</a><br/></td></tr>
+<tr class="separator:a3a9e581499adf80e352222d24efc20ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f93a860cc7a478efacd8ce80a5568ff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a9f93a860cc7a478efacd8ce80a5568ff">FindHitsFast</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *evt, const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vec, const int det_id)</td></tr>
+<tr class="memdesc:a9f93a860cc7a478efacd8ce80a5568ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast-extract a set of hits that are of the given detector (det_id).  <a href="#a9f93a860cc7a478efacd8ce80a5568ff">More...</a><br/></td></tr>
+<tr class="separator:a9f93a860cc7a478efacd8ce80a5568ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bf0d74fb4b1e05bbb748a60d6db0a0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a77bf0d74fb4b1e05bbb748a60d6db0a0">FindTriggerHitsFast</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *evt, const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vec, const std::string det_name)</td></tr>
+<tr class="memdesc:a77bf0d74fb4b1e05bbb748a60d6db0a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast-extract a set of trigger hits that are of the given detector (det_name).  <a href="#a77bf0d74fb4b1e05bbb748a60d6db0a0">More...</a><br/></td></tr>
+<tr class="separator:a77bf0d74fb4b1e05bbb748a60d6db0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2131b61d17892cfdd5e9df96328d2763"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a2131b61d17892cfdd5e9df96328d2763">FindTriggerHitsFast</a> (const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *evt, const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *hit_vec, const int det_id)</td></tr>
+<tr class="memdesc:a2131b61d17892cfdd5e9df96328d2763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fast-extract a set of trigger hits that are of the given detector (det_id).  <a href="#a2131b61d17892cfdd5e9df96328d2763">More...</a><br/></td></tr>
+<tr class="separator:a2131b61d17892cfdd5e9df96328d2763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A set of utility functions about <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a>. </p>
@@ -163,7 +175,7 @@ Functions</h2></td></tr>
 <p>Extract a set of first hits that are of the given detector (det_name), where "first" means the earliest (i.e. largest TDC time) hit per element. </p>
 <p>See <a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b" title="Extract a set of hits that are of the given detector (det_name). ">FindHits()</a> to find how to handle the returned object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00039">39</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">40</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">GeomSvc::getDetectorID()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
 
@@ -222,7 +234,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>See <a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b" title="Extract a set of hits that are of the given detector (det_name). ">FindHits()</a> to find how to handle the returned object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00049">49</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
 
 <p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00053">SQHitVector::at()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00051">SQHitVector::clear()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00047">SQHitVector::Clone()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00054">SQHit::get_tdc_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00090">SQHit::is_in_time()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00055">SQHitVector::push_back()</a>, and <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00050">SQHitVector::size()</a>.</p>
 
@@ -273,11 +285,11 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line">shared_ptr&lt;SQHitVector&gt; hv_h1t(<a class="code" href="../../d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b">UtilSQHit::FindHits</a>(hit_vec, <span class="stringliteral">&quot;H1T&quot;</span>));</div>
 <div class="line">cout &lt;&lt; <span class="stringliteral">&quot;N = &quot;</span> &lt;&lt; hv_h1t-&gt;size() &lt;&lt; endl;</div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00015">15</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">16</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">GeomSvc::getDetectorID()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/dd2/AnaSimHit_8cc_source.html#l00037">AnaSimHit::process_event()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00092">AnaChamPlane::process_event()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00089">AnaEffCham::process_event()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00092">AnaTriggerHit::process_event()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00118">ExtractTdcDist::process_event()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/dd2/AnaSimHit_8cc_source.html#l00037">AnaSimHit::process_event()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00092">AnaChamPlane::process_event()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00089">AnaEffCham::process_event()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00092">AnaTriggerHit::process_event()</a>, and <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00118">ExtractTdcDist::process_event()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -294,7 +306,7 @@ Functions</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_ad5349065a009f07069307079980f975b_icgraph.svg" width="403" height="430"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_ad5349065a009f07069307079980f975b_icgraph.svg" width="352" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -332,7 +344,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>See the other <a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#ad5349065a009f07069307079980f975b" title="Extract a set of hits that are of the given detector (det_name). ">FindHits()</a> function to find how to handle the returned object. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00024">24</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00025">25</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
 
 <p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00051">SQHitVector::clear()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00047">SQHitVector::Clone()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00060">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00090">SQHit::is_in_time()</a>, and <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00055">SQHitVector::push_back()</a>.</p>
 
@@ -342,6 +354,233 @@ Functions</h2></td></tr>
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a6cbee5d3451b3ff4282f0dc6a1d72eeb_cgraph.svg" width="352" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3a9e581499adf80e352222d24efc20ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; * UtilSQHit::FindHitsFast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *&#160;</td>
+          <td class="paramname"><em>evt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>hit_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>det_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fast-extract a set of hits that are of the given detector (det_name). </p>
+<p>See <code>FindHitsFast(evt, hit_vec, det_id)</code> for details. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00076">76</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+
+<p>References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">GeomSvc::getDetectorID()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d84/OnlMonTrigNim_8cc_source.html#l00055">OnlMonTrigNim::ProcessEventOnlMon()</a>, <a class="el" href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00091">OnlMonTrigSig::ProcessEventOnlMon()</a>, <a class="el" href="../../dd/da1/OnlMonProp_8cc_source.html#l00078">OnlMonProp::ProcessEventOnlMon()</a>, <a class="el" href="../../df/d4b/OnlMonCham_8cc_source.html#l00084">OnlMonCham::ProcessEventOnlMon()</a>, <a class="el" href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00126">OnlMonHodo::ProcessEventOnlMon()</a>, and <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00127">OnlMonH4::ProcessEventOnlMon()</a>.</p>
+
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a3a9e581499adf80e352222d24efc20ec_cgraph.svg" width="1923" height="1287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a3a9e581499adf80e352222d24efc20ec_icgraph.svg" width="427" height="364"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f93a860cc7a478efacd8ce80a5568ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; * UtilSQHit::FindHitsFast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *&#160;</td>
+          <td class="paramname"><em>evt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>hit_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>det_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fast-extract a set of hits that are of the given detector (det_id). </p>
+<p>Useful for speed when many <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> modules are registered and accessing the hit vector repeatedly. The returned variable is <code>vector&lt;SQHit*&gt;</code> (not <code><a class="el" href="../../d9/dbc/classSQHitVector.html" title="An SQ interface class to hold a list of SQHit objects. ">SQHitVector</a></code>), which can be used as follows for example: </p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> vec = <a class="code" href="../../d0/dc5/namespaceUtilSQHit.html#a3a9e581499adf80e352222d24efc20ec">UtilSQHit::FindHitsFast</a>(evt, hit_vec, det_id);</div>
+<div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> it = vec-&gt;begin(); it != vec-&gt;end(); it++) {</div>
+<div class="line">  <span class="keywordtype">int</span>    ele_id = (*it)-&gt;get_element_id();</div>
+<div class="line">  <span class="keywordtype">double</span> time   = (*it)-&gt;get_tdc_time  ();</div>
+<div class="line">}</div>
+</div><!-- fragment --><p> Caller must <em>not</em> delete the vector nor the <a class="el" href="../../de/d79/classSQHit.html" title="An SQ interface class to hold one detector hit. ">SQHit</a> objects.</p>
+<p>This function has an internal static variable that holds one hit vector per detector. The variable is filled only on the 1st call per event, and used by all <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> modules. The reason of using <code>vector&lt;SQHit*&gt;</code> is to avoid multiple creations+deletions of <code><a class="el" href="../../d9/dbc/classSQHitVector.html" title="An SQ interface class to hold a list of SQHit objects. ">SQHitVector</a></code>. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00099">99</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+
+<p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00060">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, and <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>.</p>
+
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a9f93a860cc7a478efacd8ce80a5568ff_cgraph.svg" width="366" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a77bf0d74fb4b1e05bbb748a60d6db0a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; * UtilSQHit::FindTriggerHitsFast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *&#160;</td>
+          <td class="paramname"><em>evt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>hit_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>det_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fast-extract a set of trigger hits that are of the given detector (det_name). </p>
+<p>See <code>FindTriggerHitsFast(evt, hit_vec, det_id)</code> for details. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00123">123</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+
+<p>References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">GeomSvc::getDetectorID()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d26/OnlMonTrigSig_8cc_source.html#l00091">OnlMonTrigSig::ProcessEventOnlMon()</a>, and <a class="el" href="../../da/dc5/OnlMonV1495_8cc_source.html#l00115">OnlMonV1495::ProcessEventOnlMon()</a>.</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a77bf0d74fb4b1e05bbb748a60d6db0a0_cgraph.svg" width="1963" height="1287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a77bf0d74fb4b1e05bbb748a60d6db0a0_icgraph.svg" width="446" height="116"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2131b61d17892cfdd5e9df96328d2763"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../de/d79/classSQHit.html">SQHit</a> * &gt; * UtilSQHit::FindTriggerHitsFast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d9/dd7/classSQEvent.html">SQEvent</a> *&#160;</td>
+          <td class="paramname"><em>evt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d9/dbc/classSQHitVector.html">SQHitVector</a> *&#160;</td>
+          <td class="paramname"><em>hit_vec</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>det_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fast-extract a set of trigger hits that are of the given detector (det_id). </p>
+<p>See <code><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html#a3a9e581499adf80e352222d24efc20ec" title="Fast-extract a set of hits that are of the given detector (det_name). ">FindHitsFast()</a></code> for usage. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00133">133</a> of file <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html">UtilSQHit.cc</a>.</p>
+
+<p>References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00060">SQHitVector::end()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a">SQEvent::get_event_id()</a>, and <a class="el" href="../../d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca">SQEvent::get_run_id()</a>.</p>
+
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dc5/namespaceUtilSQHit_a2131b61d17892cfdd5e9df96328d2763_cgraph.svg" width="406" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -358,7 +597,7 @@ Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d0/dc5/namespaceUtilSQHit.html">UtilSQHit</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri May 27 2022 02:30:16</em> using <a
+			updated: <em>Tue May 31 2022 08:30:14</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

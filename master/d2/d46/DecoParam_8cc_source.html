@@ -127,55 +127,53 @@ $(document).ready(function(){initNavTree('d2/d46/DecoParam_8cc_source.html','../
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  , spillID_slow    (0)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  , targPos         (0)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  , targPos_slow    (0)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  , ts_deco_begin   (TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  , ts_deco_end     (TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  , event_count     (0)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  , codaID          (0)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  , rocID           (0)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  , eventIDstd      (0)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  , hitID           (0)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  , has_1st_bos     (false)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  , at_bos          (false)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  , turn_id_max     (0)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  ;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">   34</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">DecoParam::InitMapper</a>()</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment">//if (dir_param.length() == 0) {</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="comment">//  cout &lt;&lt; &quot;!!ERROR!!  DecoParam::InitMapper(): dir_param is empty.\n&quot;;</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="comment">//  return 1;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="comment">//}</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a> == 0) {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;!!ERROR!!  DecoParam::InitMapper(): runID = 0.\n&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  time_t t0 = time(0);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">chan_map_taiwan</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">chan_map_taiwan</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">chan_map_v1495</a> .<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">chan_map_v1495</a> .<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">chan_map_scaler</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">chan_map_scaler</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  time_t t1 = time(0);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordflow">if</span> (t1 - t0 &gt; 3) {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;DecoParam::InitMapper():  Took too long, &quot;</span> &lt;&lt; t1-t0 &lt;&lt; <span class="stringliteral">&quot; sec.\n&quot;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;         &lt;&lt; <span class="stringliteral">&quot;  Any DNS/DB problem, such as unresponsive DNS server?&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="ttc" id="structDecoParam_html_a130310367781d9bef29b71fb21f3db30"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">DecoParam::runID</a></div><div class="ttdeci">unsigned short int runID</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00033">DecoParam.h:33</a></div></div>
-<div class="ttc" id="structDecoParam_html_a89c51db4c6cbf80bad8272a0b5171baa"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">DecoParam::chan_map_v1495</a></div><div class="ttdeci">ChanMapV1495 chan_map_v1495</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00027">DecoParam.h:27</a></div></div>
-<div class="ttc" id="structDecoParam_html_ac3abf829d37b1ce58ebf267baba6cd00"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">DecoParam::chan_map_taiwan</a></div><div class="ttdeci">ChanMapTaiwan chan_map_taiwan</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00026">DecoParam.h:26</a></div></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  , event_count     (0)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  , codaID          (0)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  , rocID           (0)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  , eventIDstd      (0)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  , hitID           (0)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  , has_1st_bos     (false)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  , at_bos          (false)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  , turn_id_max     (0)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  ;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">   32</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">DecoParam::InitMapper</a>()</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  <span class="comment">//if (dir_param.length() == 0) {</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  <span class="comment">//  cout &lt;&lt; &quot;!!ERROR!!  DecoParam::InitMapper(): dir_param is empty.\n&quot;;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  <span class="comment">//  return 1;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="comment">//}</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a> == 0) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;!!ERROR!!  DecoParam::InitMapper(): runID = 0.\n&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  time_t t0 = time(0);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">chan_map_taiwan</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">chan_map_taiwan</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">chan_map_v1495</a> .<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">chan_map_v1495</a> .<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">chan_map_scaler</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">SetMapIDbyDB</a>(<a class="code" href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">runID</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <a class="code" href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">chan_map_scaler</a>.<a class="code" href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">ReadFromDB</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  time_t t1 = time(0);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordflow">if</span> (t1 - t0 &gt; 3) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;DecoParam::InitMapper():  Took too long, &quot;</span> &lt;&lt; t1-t0 &lt;&lt; <span class="stringliteral">&quot; sec.\n&quot;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;         &lt;&lt; <span class="stringliteral">&quot;  Any DNS/DB problem, such as unresponsive DNS server?&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="ttc" id="structDecoParam_html_a130310367781d9bef29b71fb21f3db30"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a130310367781d9bef29b71fb21f3db30">DecoParam::runID</a></div><div class="ttdeci">unsigned short int runID</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00032">DecoParam.h:32</a></div></div>
+<div class="ttc" id="structDecoParam_html_a89c51db4c6cbf80bad8272a0b5171baa"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa">DecoParam::chan_map_v1495</a></div><div class="ttdeci">ChanMapV1495 chan_map_v1495</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00026">DecoParam.h:26</a></div></div>
+<div class="ttc" id="structDecoParam_html_ac3abf829d37b1ce58ebf267baba6cd00"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00">DecoParam::chan_map_taiwan</a></div><div class="ttdeci">ChanMapTaiwan chan_map_taiwan</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00025">DecoParam.h:25</a></div></div>
 <div class="ttc" id="classRunParamBase_html_a9b35f11ddb755a62b5d25f7773e0f1ce"><div class="ttname"><a href="../../db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce">RunParamBase::SetMapIDbyDB</a></div><div class="ttdeci">void SetMapIDbyDB(const std::string map_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d91/RunParamBase_8cc_source.html#l00031">RunParamBase.cc:31</a></div></div>
 <div class="ttc" id="classRunParamBase_html_a1a747ac4d6e1c3665d66f9a1d5118f32"><div class="ttname"><a href="../../db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32">RunParamBase::ReadFromDB</a></div><div class="ttdeci">void ReadFromDB()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d91/RunParamBase_8cc_source.html#l00102">RunParamBase.cc:102</a></div></div>
 <div class="ttc" id="structDecoParam_html_a81158b50a5528460268bddb31b9ec6e9"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a81158b50a5528460268bddb31b9ec6e9">DecoParam::DecoParam</a></div><div class="ttdeci">DecoParam()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d46/DecoParam_8cc_source.html#l00007">DecoParam.cc:7</a></div></div>
-<div class="ttc" id="structDecoParam_html_aece63e06bf353a1f48ba3d81f8680a3b"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">DecoParam::chan_map_scaler</a></div><div class="ttdeci">ChanMapScaler chan_map_scaler</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00028">DecoParam.h:28</a></div></div>
+<div class="ttc" id="structDecoParam_html_aece63e06bf353a1f48ba3d81f8680a3b"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b">DecoParam::chan_map_scaler</a></div><div class="ttdeci">ChanMapScaler chan_map_scaler</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da4/DecoParam_8h_source.html#l00027">DecoParam.h:27</a></div></div>
 <div class="ttc" id="DecoParam_8h_html"><div class="ttname"><a href="../../d9/da4/DecoParam_8h.html">DecoParam.h</a></div></div>
-<div class="ttc" id="structDecoParam_html_a5aa4569842470e27e4ed9480437e8047"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">DecoParam::InitMapper</a></div><div class="ttdeci">int InitMapper()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d46/DecoParam_8cc_source.html#l00034">DecoParam.cc:34</a></div></div>
+<div class="ttc" id="structDecoParam_html_a5aa4569842470e27e4ed9480437e8047"><div class="ttname"><a href="../../d3/df0/structDecoParam.html#a5aa4569842470e27e4ed9480437e8047">DecoParam::InitMapper</a></div><div class="ttdeci">int InitMapper()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d46/DecoParam_8cc_source.html#l00032">DecoParam.cc:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -186,7 +184,7 @@ $(document).ready(function(){initNavTree('d2/d46/DecoParam_8cc_source.html','../
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_4b151b34c4266ac387899d041942947f.html">online</a></li><li class="navelem"><a class="el" href="../../dir_39383dc96e40a2540d2ef02f364e956c.html">decoder_maindaq</a></li><li class="navelem"><a class="el" href="../../d2/d46/DecoParam_8cc.html">DecoParam.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri May 27 2022 02:30:09</em> using <a
+			updated: <em>Tue May 31 2022 08:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

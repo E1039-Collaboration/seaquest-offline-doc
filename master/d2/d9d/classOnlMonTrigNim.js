@@ -1,7 +1,5 @@
 var classOnlMonTrigNim =
 [
-    [ "HitList_t", "d2/d9d/classOnlMonTrigNim.html#ab929f70dea3c7539f9ea555788b2855d", null ],
-    [ "HitListMap_t", "d2/d9d/classOnlMonTrigNim.html#a6aea729fce3bfebed063b5a94ca30262", null ],
     [ "OnlMonTrigNim", "d2/d9d/classOnlMonTrigNim.html#adc54c13b3e00670b2ca465b2ef08c800", null ],
     [ "~OnlMonTrigNim", "d2/d9d/classOnlMonTrigNim.html#ab83d96e439ad5b9bd38c82f043251444", null ],
     [ "Clone", "d2/d9d/classOnlMonTrigNim.html#ae7315f821983a6c3ea72a6277bbfe7ee", null ],

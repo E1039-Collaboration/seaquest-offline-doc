@@ -2,7 +2,7 @@ var searchData=
 [
   ['e906spillselector',['E906SpillSelector',['../df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069',1,'E906SpillSelector::E906SpillSelector(const std::string &amp;name=&quot;E906SpillSelector&quot;)'],['../df/dd0/classE906SpillSelector.html#afbc8aede8032da59255ce8f9c02a2069',1,'E906SpillSelector::E906SpillSelector(const std::string &amp;name=&quot;E906SpillSelector&quot;)']]],
   ['e906toe1039',['E906ToE1039',['../d5/dd4/classFun4AllSRawEventInputManager.html#a099eb2a97c632559682325679485dc5f',1,'Fun4AllSRawEventInputManager']]],
-  ['elapsed',['elapsed',['../d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685',1,'PHTimer']]],
+  ['elapsed',['elapsed',['../d0/d5e/classPHTimer.html#a976738876ad978116fdc4549a3765685',1,'PHTimer::elapsed()'],['../d5/d2d/classPHTimer2.html#ad2069cd574a26c0986c482c7fbb33463',1,'PHTimer2::elapsed()']]],
   ['elconewrite',['ElconeWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#a95a1f206d10ac25171774e465e42246c',1,'PHG4GDMLWriteSolids']]],
   ['elementwrite',['ElementWrite',['../d3/d04/classPHG4GDMLWriteMaterials.html#a97d49d5aecdd2f3b9092433b3f51a1a1',1,'PHG4GDMLWriteMaterials']]],
   ['ellipsoid_5fdimensionswrite',['Ellipsoid_dimensionsWrite',['../d8/dd9/classPHG4GDMLWriteParamvol.html#aca1efafd52e225a354ae880df2cfa4a6',1,'PHG4GDMLWriteParamvol']]],

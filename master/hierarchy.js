@@ -388,9 +388,10 @@ var hierarchy =
     [ "PHRandomSeed", "dd/d1f/classPHRandomSeed.html", null ],
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", null ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", null ],
+    [ "PHTimer2", "d5/d2d/classPHTimer2.html", null ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", null ],
-    [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
     [ "Plane", "dc/d90/classPlane.html", null ],
+    [ "GeomParamPlane::Plane", "d6/d90/structGeomParamPlane_1_1Plane.html", null ],
     [ "boost::detail::polymorphic_cast_tag", "da/d5c/structboost_1_1detail_1_1polymorphic__cast__tag.html", null ],
     [ "PHGenericFactoryT< AbstractProduct, FactoryErrorPolicy >::ProductCreatorPair", "da/db7/classPHGenericFactoryT_1_1ProductCreatorPair.html", null ],
     [ "PHG4DSTReader::record", "db/d09/structPHG4DSTReader_1_1record.html", null ],
@@ -399,6 +400,7 @@ var hierarchy =
       [ "RoadList", "d4/d18/classRoadList.html", null ],
       [ "RoadMap", "d4/d45/classRoadMap.html", null ]
     ] ],
+    [ "ChanMapBase::RocBoardChanHash", "d5/ddd/structChanMapBase_1_1RocBoardChanHash.html", null ],
     [ "RTCurve", "d3/d0c/classRTCurve.html", null ],
     [ "RunParamBase", "db/d8a/classRunParamBase.html", [
       [ "CalibParamBase", "d5/d33/classCalibParamBase.html", [
@@ -649,8 +651,8 @@ var hierarchy =
     [ "UtilHodo::Track2D", "dd/df6/structUtilHodo_1_1Track2D.html", null ],
     [ "TriggerAnalyzer", "d6/deb/classTriggerAnalyzer.html", null ],
     [ "TrkPar", "d2/d70/classTrkPar.html", null ],
-    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "PHG4Hitv1::u_property", "d5/d0a/unionPHG4Hitv1_1_1u__property.html", null ],
+    [ "PHG4Cellv1::u_property", "df/d43/unionPHG4Cellv1_1_1u__property.html", null ],
     [ "half::uif", "db/d55/unionhalf_1_1uif.html", null ],
     [ "UtilOnline", "df/da2/classUtilOnline.html", null ],
     [ "VariableArrayUtils", "d2/d08/classVariableArrayUtils.html", null ],

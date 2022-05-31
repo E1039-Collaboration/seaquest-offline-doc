@@ -66,6 +66,10 @@ var dir_1c2a2cd2611808215857b3adbe5c38fc =
     [ "PHRandomSeedLinkDef.h", "df/db8/PHRandomSeedLinkDef_8h.html", null ],
     [ "PHTimer.cc", "d2/d65/PHTimer_8cc.html", null ],
     [ "PHTimer.h", "dc/d26/PHTimer_8h.html", "dc/d26/PHTimer_8h" ],
+    [ "PHTimer2.cc", "de/d23/PHTimer2_8cc.html", null ],
+    [ "PHTimer2.h", "d4/d35/PHTimer2_8h.html", [
+      [ "PHTimer2", "d5/d2d/classPHTimer2.html", "d5/d2d/classPHTimer2" ]
+    ] ],
     [ "PHTimeServer.cc", "dd/de2/PHTimeServer_8cc.html", null ],
     [ "PHTimeServer.h", "d9/d36/PHTimeServer_8h.html", [
       [ "PHTimeServer", "d3/de2/classPHTimeServer.html", "d3/de2/classPHTimeServer" ],

@@ -16,6 +16,7 @@ var structSpillData =
     [ "spill_id", "d4/dbe/structSpillData.html#a62a882a26d8405ed6e9adab5c6ea37f8", null ],
     [ "spill_id_slow", "d4/dbe/structSpillData.html#a4c0d386390e930989a7c7c9b469db96d", null ],
     [ "targ_pos", "d4/dbe/structSpillData.html#af73f0718dbd7dd02a30df9ea2fae16c0", null ],
-    [ "ts_deco_begin", "d4/dbe/structSpillData.html#aec0931a7626b72d4d0274b64d11b4b35", null ],
-    [ "ts_deco_end", "d4/dbe/structSpillData.html#afb45a13291dff1250619e52f8c96b70f", null ]
+    [ "time_decode", "d4/dbe/structSpillData.html#aa5b25056c457ebff243a817d99c694c8", null ],
+    [ "time_input", "d4/dbe/structSpillData.html#a072fb9ea093e328fa157bdba489f17ee", null ],
+    [ "time_map", "d4/dbe/structSpillData.html#a99a6e3a43dc7659bccb31946390dcfca", null ]
 ];

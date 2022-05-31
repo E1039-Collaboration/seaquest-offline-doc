@@ -118,40 +118,38 @@ $(document).ready(function(){initNavTree('dc/d41/SQHardSpill__v1_8cxx_source.htm
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  , _bos_vme_time (0)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;  , _eos_coda_id  (0)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  , _eos_vme_time (0)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , _ts_deco_begin(TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , _ts_deco_end  (TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  , _ts_proc_begin(TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , _ts_proc_end  (TTimeStamp(0, 0))</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  ;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">   19</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">SQHardSpill_v1::Reset</a>()</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  _bos_coda_id      = 0;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  _bos_vme_time     = 0;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  _eos_coda_id      = 0;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  _eos_vme_time     = 0;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  _ts_deco_begin.SetSec    (0);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  _ts_deco_begin.SetNanoSec(0);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  _ts_deco_end  .SetSec    (0);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  _ts_deco_end  .SetNanoSec(0);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  _ts_proc_begin.SetSec    (0);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  _ts_proc_begin.SetNanoSec(0);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  _ts_proc_end  .SetSec    (0);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  _ts_proc_end  .SetNanoSec(0);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">   35</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">SQHardSpill_v1::identify</a>(ostream&amp; os)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---SQHardSpill_v1--------------------&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  , _time_input   (0)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  , _time_decode  (0)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  , _time_map     (0)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  , _time_subsys  (0)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  , _time_output  (0)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  ;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">   20</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">SQHardSpill_v1::Reset</a>()</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  _bos_coda_id  = 0;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  _bos_vme_time = 0;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  _eos_coda_id  = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  _eos_vme_time = 0;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;  _time_input   = 0;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  _time_decode  = 0;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;  _time_map     = 0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  _time_subsys  = 0;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  _time_output  = 0;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">SQHardSpill_v1::identify</a>(ostream&amp; os)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  os &lt;&lt; <span class="stringliteral">&quot;---SQHardSpill_v1--------------------&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="ttc" id="SQHardSpill__v1_8h_html"><div class="ttname"><a href="../../d9/de1/SQHardSpill__v1_8h.html">SQHardSpill_v1.h</a></div></div>
-<div class="ttc" id="classSQHardSpill__v1_html_ad3ebaba482ed4b063ca025c8ca74c61a"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">SQHardSpill_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d41/SQHardSpill__v1_8cxx_source.html#l00019">SQHardSpill_v1.cxx:19</a></div></div>
+<div class="ttc" id="classSQHardSpill__v1_html_ad3ebaba482ed4b063ca025c8ca74c61a"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html#ad3ebaba482ed4b063ca025c8ca74c61a">SQHardSpill_v1::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">Clear Event. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d41/SQHardSpill__v1_8cxx_source.html#l00020">SQHardSpill_v1.cxx:20</a></div></div>
 <div class="ttc" id="classSQHardSpill__v1_html"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html">SQHardSpill_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de1/SQHardSpill__v1_8h_source.html#l00006">SQHardSpill_v1.h:6</a></div></div>
 <div class="ttc" id="classSQHardSpill__v1_html_a65225e40d1708851b6ecf9ed27a6b3e3"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html#a65225e40d1708851b6ecf9ed27a6b3e3">SQHardSpill_v1::SQHardSpill_v1</a></div><div class="ttdeci">SQHardSpill_v1()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d41/SQHardSpill__v1_8cxx_source.html#l00006">SQHardSpill_v1.cxx:6</a></div></div>
 <div class="ttc" id="PdbCalChan_8cc_html_a2e42736505dcaba519d53efaa5586008"><div class="ttname"><a href="../../db/d02/PdbCalChan_8cc.html#a2e42736505dcaba519d53efaa5586008">ClassImp</a></div><div class="ttdeci">ClassImp(PdbCalChan)</div></div>
-<div class="ttc" id="classSQHardSpill__v1_html_a2cb0f38d18231b40e060c0bd4f2ddfff"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">SQHardSpill_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d41/SQHardSpill__v1_8cxx_source.html#l00035">SQHardSpill_v1.cxx:35</a></div></div>
+<div class="ttc" id="classSQHardSpill__v1_html_a2cb0f38d18231b40e060c0bd4f2ddfff"><div class="ttname"><a href="../../da/db8/classSQHardSpill__v1.html#a2cb0f38d18231b40e060c0bd4f2ddfff">SQHardSpill_v1::identify</a></div><div class="ttdeci">void identify(std::ostream &amp;os=std::cout) const </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d41/SQHardSpill__v1_8cxx_source.html#l00033">SQHardSpill_v1.cxx:33</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 
@@ -162,7 +160,7 @@ $(document).ready(function(){initNavTree('dc/d41/SQHardSpill__v1_8cxx_source.htm
 		<li class="navelem"><a class="el" href="../../dir_7035d53134d2db8ceacffe687127f7fc.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_21fa564a88be47a3879b0c5d4f9e77d5.html">interface_main</a></li><li class="navelem"><a class="el" href="../../dc/d41/SQHardSpill__v1_8cxx.html">SQHardSpill_v1.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri May 27 2022 02:30:09</em> using <a
+			updated: <em>Tue May 31 2022 08:30:07</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.8.5 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

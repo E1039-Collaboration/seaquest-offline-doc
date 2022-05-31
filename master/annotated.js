@@ -381,6 +381,7 @@ var annotated =
     [ "PHRandomSeed", "dd/d1f/classPHRandomSeed.html", "dd/d1f/classPHRandomSeed" ],
     [ "PHTFileServer", "d3/d2b/classPHTFileServer.html", "d3/d2b/classPHTFileServer" ],
     [ "PHTimer", "d0/d5e/classPHTimer.html", "d0/d5e/classPHTimer" ],
+    [ "PHTimer2", "d5/d2d/classPHTimer2.html", "d5/d2d/classPHTimer2" ],
     [ "PHTimeServer", "d3/de2/classPHTimeServer.html", "d3/de2/classPHTimeServer" ],
     [ "PHTimeStamp", "da/dc2/classPHTimeStamp.html", "da/dc2/classPHTimeStamp" ],
     [ "PHTypedNodeIterator", "df/d76/classPHTypedNodeIterator.html", "df/d76/classPHTypedNodeIterator" ],

@@ -102,10 +102,10 @@
 <g id="node10" class="node"><title>Node10</title>
 <polygon fill="none" stroke="#bfbfbf" points="472,-488 472,-518 576,-518 576,-488 472,-488"/>
 <text text-anchor="start" x="480" y="-506" font-family="FreeSans" font-size="10.00">std::map&lt; std::string,</text>
-<text text-anchor="middle" x="524" y="-495" font-family="FreeSans" font-size="10.00"> PHTimer * &gt;</text>
+<text text-anchor="middle" x="524" y="-495" font-family="FreeSans" font-size="10.00"> PHTimer2 * &gt;</text>
 </g>
 <!-- Node4&#45;&gt;Node10 -->
-<g id="edge14" class="edge"><title>Node4&#45;&gt;Node10</title>
+<g id="edge15" class="edge"><title>Node4&#45;&gt;Node10</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M301.251,-317.544C307.363,-348.343 323.405,-408.237 360,-443 390.608,-472.076 436.488,-487.294 471.781,-495.116"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="304.676,-316.817 299.429,-307.613 297.791,-318.081 304.676,-316.817"/>
 <text text-anchor="middle" x="401" y="-490" font-family="FreeSans" font-size="10.00"> keys</text>
@@ -201,16 +201,16 @@
 </g>
 <!-- Node11 -->
 <g id="node11" class="node"><title>Node11</title>
-<g id="a_node11"><a xlink:href="../../d0/d5e/classPHTimer.html" target="_top" xlink:title="high precision timer ">
-<polygon fill="none" stroke="black" points="269.5,-493.5 269.5,-512.5 324.5,-512.5 324.5,-493.5 269.5,-493.5"/>
-<text text-anchor="middle" x="297" y="-500.5" font-family="FreeSans" font-size="10.00">PHTimer</text>
+<g id="a_node11"><a xlink:href="../../d5/d2d/classPHTimer2.html" target="_top" xlink:title="Class to measure the time spent by a code block. ">
+<polygon fill="none" stroke="black" points="267,-493.5 267,-512.5 327,-512.5 327,-493.5 267,-493.5"/>
+<text text-anchor="middle" x="297" y="-500.5" font-family="FreeSans" font-size="10.00">PHTimer2</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node10 -->
-<g id="edge15" class="edge"><title>Node11&#45;&gt;Node10</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M335.088,-503C372.319,-503 429.975,-503 471.605,-503"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="334.694,-499.5 324.694,-503 334.694,-506.5 334.694,-499.5"/>
+<g id="edge14" class="edge"><title>Node11&#45;&gt;Node10</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M337.88,-503C375.162,-503 431.026,-503 471.632,-503"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="337.415,-499.5 327.415,-503 337.415,-506.5 337.415,-499.5"/>
 <text text-anchor="middle" x="401" y="-506" font-family="FreeSans" font-size="10.00"> elements</text>
 </g>
 <!-- Node12 -->

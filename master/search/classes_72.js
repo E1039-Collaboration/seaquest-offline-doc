@@ -11,6 +11,7 @@ var searchData=
   ['roadlistbase',['RoadListBase',['../d2/dc1/classRoadListBase.html',1,'']]],
   ['roadmap',['RoadMap',['../d4/d45/classRoadMap.html',1,'']]],
   ['roadpair',['RoadPair',['../d2/dc4/classRoadPair.html',1,'']]],
+  ['rocboardchanhash',['RocBoardChanHash',['../d5/ddd/structChanMapBase_1_1RocBoardChanHash.html',1,'ChanMapBase']]],
   ['rtcurve',['RTCurve',['../d3/d0c/classRTCurve.html',1,'']]],
   ['rundata',['RunData',['../d0/d64/structRunData.html',1,'']]],
   ['runheader',['RunHeader',['../df/d35/classRunHeader.html',1,'']]],
