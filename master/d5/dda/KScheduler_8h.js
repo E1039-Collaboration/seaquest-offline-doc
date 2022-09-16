@@ -2,9 +2,7 @@ var KScheduler_8h =
 [
     [ "KScheduler", "dd/d12/classKScheduler.html", "dd/d12/classKScheduler" ],
     [ "KJob", "df/dd4/classKJob.html", "df/dd4/classKJob" ],
-    [ "E906DATA", "d5/dda/KScheduler_8h.html#a038bb1f1ee6e14b96e23f7c477254be2", null ],
     [ "INPUT_PIPE_DEPTH", "d5/dda/KScheduler_8h.html#ac356133db439dc1e2ff10cebf9a1a776", null ],
-    [ "LOUD", "d5/dda/KScheduler_8h.html#af33f646ac055c111fe7338f3dfe579fe", null ],
     [ "NEVENT_REDUCERS", "d5/dda/KScheduler_8h.html#acfdaf3b213563751bee2cc65360b89ff", null ],
     [ "NKFAST_TRACKERS", "d5/dda/KScheduler_8h.html#a909da98e26402df0bc252565520fabf3", null ],
     [ "NTHREADS", "d5/dda/KScheduler_8h.html#a51ca9914034cd3e92903476fd4eebbd6", null ],

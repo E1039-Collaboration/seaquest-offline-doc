@@ -961,7 +961,7 @@ var searchData=
   ['gettrackingaction',['GetTrackingAction',['../db/df7/classPHG4Subsystem.html#a8849b3410711577ec2e793987144ab69',1,'PHG4Subsystem::GetTrackingAction()'],['../d5/d85/classPHG4TruthSubsystem.html#a3bf28d104025f79f12912279d05abf80',1,'PHG4TruthSubsystem::GetTrackingAction()']]],
   ['gettrackletkey',['GetTrackletKey',['../d2/d0e/classPatternDBUtil.html#aed9e2391bc8fb196796eacee685ef5db',1,'PatternDBUtil::GetTrackletKey(const Tracklet tracklet, const PatternDB::STATION station)'],['../d2/d0e/classPatternDBUtil.html#ae908501ee6434f397e7d06f0a664e78b',1,'PatternDBUtil::GetTrackletKey(const std::vector&lt; std::pair&lt; unsigned int, unsigned int &gt; &gt; &amp;det_elem_pairs, const PatternDB::STATION &amp;station)']]],
   ['gettrackletlist',['getTrackletList',['../d3/d46/classKalmanFastTracking.html#a45752f6ef79a4e7449eff0c78d4e8c6f',1,'KalmanFastTracking::getTrackletList()'],['../db/daa/classKalmanDSTrk.html#a2e7a153d9c69abf2a8813a83ca20b72f',1,'KalmanDSTrk::getTrackletList()']]],
-  ['gettrackletsinstation',['getTrackletsInStation',['../dd/d12/classKScheduler.html#a598a8653795184a6f280c00c6540500f',1,'KScheduler']]],
+  ['gettrackletsinstation',['getTrackletsInStation',['../dd/d12/classKScheduler.html#a25b5a6ce177934e2881882bfbed9b520',1,'KScheduler']]],
   ['gettrackstatus',['GetTrackStatus',['../db/ded/namespacePHG4TrackStatusDecode.html#a206b2c27cd17b5b5887b0b959d3d3cbc',1,'PHG4TrackStatusDecode']]],
   ['gettravellength',['getTravelLength',['../d1/d3d/classGenFitExtrapolator.html#a4cbaa2593af24951440442d81d5e5999',1,'GenFitExtrapolator']]],
   ['gettrdetectorid',['getTrDetectorID',['../da/d6a/classDPTriggerRoad.html#a8736627dafa6a3f436b38177968e1fe2',1,'DPTriggerRoad']]],
