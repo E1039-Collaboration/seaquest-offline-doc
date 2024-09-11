@@ -1,7 +1,7 @@
 var classSQPrimaryParticleGen =
 [
     [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html#a9d58405f49e0d408f8bbc5f2756b1fbb", null ],
-    [ "~SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html#a0dc31a3fcb2c718f67fae07ff9dd0d74", null ],
+    [ "~SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html#ad3fd4bfa9f982958ff3ccbc86cf68a75", null ],
     [ "CrossSectionDrellYan", "d4/d06/classSQPrimaryParticleGen.html#ad9953e74d17ddccbeb33801056187898", null ],
     [ "CrossSectionDrellYan", "d4/d06/classSQPrimaryParticleGen.html#a41384d093709b5fac50023b7f799c579", null ],
     [ "CrossSectionJPsi", "d4/d06/classSQPrimaryParticleGen.html#af089734822f5c2158b28e504da4c535e", null ],

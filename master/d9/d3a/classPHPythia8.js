@@ -1,14 +1,14 @@
 var classPHPythia8 =
 [
     [ "PHPythia8", "d9/d3a/classPHPythia8.html#a8dc0aac69c97aee724ac17f3035d21fe", null ],
-    [ "~PHPythia8", "d9/d3a/classPHPythia8.html#a45620a3954e6e1363693cbe44168608b", null ],
+    [ "~PHPythia8", "d9/d3a/classPHPythia8.html#a055c94e608188306c5eacdbb055ee32f", null ],
     [ "beam_vertex_parameters", "d9/d3a/classPHPythia8.html#abb21b0537da59ea9e6a1a4b92827af18", null ],
     [ "enableLegacyVtxGen", "d9/d3a/classPHPythia8.html#a63b6364dd3c7f8b5e5aa6659134e8491", null ],
     [ "End", "d9/d3a/classPHPythia8.html#a644fd629b9e90bdfd82622a2047a88d0", null ],
-    [ "get_embedding_id", "d9/d3a/classPHPythia8.html#a498587470c98906d029dd8deeac3ae9e", null ],
+    [ "get_embedding_id", "d9/d3a/classPHPythia8.html#ace0b71d81ef67045c121415ff755e9c8", null ],
     [ "get_LegacyPARatio", "d9/d3a/classPHPythia8.html#a957eb0373efaddc834c693b449a41088", null ],
     [ "Init", "d9/d3a/classPHPythia8.html#af381f96f7115a7f8011d31572c46fcfc", null ],
-    [ "print_config", "d9/d3a/classPHPythia8.html#aeabc0bd681a2a5f0fcfc9a0ad9661462", null ],
+    [ "print_config", "d9/d3a/classPHPythia8.html#a1fb68418d591af1e1aa22fbabf28fb2d", null ],
     [ "process_event", "d9/d3a/classPHPythia8.html#a5cc4124cc6be2fb2467714e3d3bc5a6a", null ],
     [ "process_string", "d9/d3a/classPHPythia8.html#ac73dc8c3d16f30d374157e0205d246f1", null ],
     [ "register_trigger", "d9/d3a/classPHPythia8.html#af2c12c56383374d15eb4a539d7b8ca5d", null ],

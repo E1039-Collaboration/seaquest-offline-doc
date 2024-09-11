@@ -2,8 +2,8 @@ var classPHField3DCylindrical =
 [
     [ "PHField3DCylindrical", "d5/dc1/classPHField3DCylindrical.html#af8869983144df87df61a1d259ec459a3", null ],
     [ "~PHField3DCylindrical", "d5/dc1/classPHField3DCylindrical.html#a11e769551468ff550d95b71a817b3cf1", null ],
-    [ "GetFieldCyl", "d5/dc1/classPHField3DCylindrical.html#a45a2829339024068f40e87510b918ade", null ],
-    [ "GetFieldValue", "d5/dc1/classPHField3DCylindrical.html#a197fbbe9032221d9cb559f2b7a31145c", null ],
+    [ "GetFieldCyl", "d5/dc1/classPHField3DCylindrical.html#a8a891d1a7469b2536f8342e9b67b4f3f", null ],
+    [ "GetFieldValue", "d5/dc1/classPHField3DCylindrical.html#a89623a2b01e088624a9eab886861954b", null ],
     [ "BFieldPHI_", "d5/dc1/classPHField3DCylindrical.html#a08691abb9e0b422956d5c69ec14f6f7d", null ],
     [ "BFieldR_", "d5/dc1/classPHField3DCylindrical.html#a773468b8b7d1907d1489447e51b10876", null ],
     [ "BFieldZ_", "d5/dc1/classPHField3DCylindrical.html#a0dfc91682559a6cc12a9633f09e7a781", null ],

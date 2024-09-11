@@ -47,14 +47,14 @@ var classKalmanTrack =
     [ "getXZProjection", "d9/dc3/classKalmanTrack.html#ae07c88148b788116759dcd1048a5aeac", null ],
     [ "getXZSlopeInStation", "d9/dc3/classKalmanTrack.html#ac153df61b85121c26adb19555f30c250", null ],
     [ "isValid", "d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81", null ],
-    [ "operator<", "d9/dc3/classKalmanTrack.html#ae2efeeefa8980458fb234a968cd1abcb", null ],
-    [ "operator==", "d9/dc3/classKalmanTrack.html#ac38be0074d65b646686b7ed3ce8af062", null ],
+    [ "operator<", "d9/dc3/classKalmanTrack.html#a296e1d70b1f28917ae24e5392c63236b", null ],
+    [ "operator==", "d9/dc3/classKalmanTrack.html#ae5f0e242135368861a54d9ceb8fdf113", null ],
     [ "print", "d9/dc3/classKalmanTrack.html#a81c4035ba4ab14a326924a80665e69ed", null ],
     [ "printNodes", "d9/dc3/classKalmanTrack.html#a94f236f485a5ea28bd02cded4d8a00bc", null ],
     [ "propagateTo", "d9/dc3/classKalmanTrack.html#a9fb8d93bf5fe086a495e801421f605db", null ],
     [ "setCurrTrkpar", "d9/dc3/classKalmanTrack.html#a864c3756a797ab658515bbc1c8206633", null ],
     [ "setTracklet", "d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210", null ],
-    [ "similarity", "d9/dc3/classKalmanTrack.html#ab448886fb9e6ce29e039270daea6616d", null ],
+    [ "similarity", "d9/dc3/classKalmanTrack.html#a39f9689a8fdeba6645db556112f46ebe", null ],
     [ "update", "d9/dc3/classKalmanTrack.html#aaddc487a3a842187cd421c3cff2f665e", null ],
     [ "updateMomentum", "d9/dc3/classKalmanTrack.html#a28f5acae5a39bc08e61514fd6c45eab6", null ]
 ];

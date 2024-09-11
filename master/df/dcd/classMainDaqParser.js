@@ -7,10 +7,14 @@ var classMainDaqParser =
     [ "MainDaqParser", "df/dcd/classMainDaqParser.html#a5c5bb917a7b5e65b9787cea4ef9dc761", null ],
     [ "~MainDaqParser", "df/dcd/classMainDaqParser.html#a3c258d3157d5e339c5522130f496af51", null ],
     [ "End", "df/dcd/classMainDaqParser.html#ade90d9a3b3b05b89cc47a4bc4f1b194c", null ],
+    [ "ForceLocalSpillID", "df/dcd/classMainDaqParser.html#aaa6521497e22619c506b9e30357c604b", null ],
+    [ "ForceLocalSpillID", "df/dcd/classMainDaqParser.html#a2fb8f61a2b04a3653bb9e06d10998511", null ],
     [ "GetCoda", "df/dcd/classMainDaqParser.html#a44b8e1e79624227a49e33f53fc67341a", null ],
     [ "GetRunData", "df/dcd/classMainDaqParser.html#a1473c52675422e209e896ebdaaf737a3", null ],
     [ "NextPhysicsEvent", "df/dcd/classMainDaqParser.html#a82fee38c4e8fa7912e47085f7e66f97d", null ],
     [ "OpenCodaFile", "df/dcd/classMainDaqParser.html#afc604e499880357a56d30951e7a2124e", null ],
+    [ "UseLocalSpillID", "df/dcd/classMainDaqParser.html#a54f870bd1f047e349df1d1e4e1910bc5", null ],
+    [ "UseLocalSpillID", "df/dcd/classMainDaqParser.html#a384dad91ad3fc0c5b24b231c31af2f0a", null ],
     [ "dec_err", "df/dcd/classMainDaqParser.html#aacfc074a9a8c080624c16fe68ff09021", null ],
     [ "dec_par", "df/dcd/classMainDaqParser.html#af1bc0c36ae1b2946f5f25ac81962df9c", null ]
 ];

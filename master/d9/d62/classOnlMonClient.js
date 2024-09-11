@@ -20,14 +20,14 @@ var classOnlMonClient =
     [ "InitOnlMon", "d9/d62/classOnlMonClient.html#afe0494fd792508afa23d22744fe8d2a5", null ],
     [ "InitRun", "d9/d62/classOnlMonClient.html#a8eec0bd29f49d0ba659e332dee888a4c", null ],
     [ "InitRunOnlMon", "d9/d62/classOnlMonClient.html#a2201a47dd5fe18015df27506c121d17e", null ],
-    [ "NumCanvases", "d9/d62/classOnlMonClient.html#ad7213326d0049101ae05e4caab2591c8", null ],
     [ "NumCanvases", "d9/d62/classOnlMonClient.html#a9291a22f516ea38a805ad11726ddb38d", null ],
+    [ "NumCanvases", "d9/d62/classOnlMonClient.html#ad7213326d0049101ae05e4caab2591c8", null ],
     [ "process_event", "d9/d62/classOnlMonClient.html#aae8316ce9e475ceb116f375bcb07fd41", null ],
     [ "ProcessEventOnlMon", "d9/d62/classOnlMonClient.html#a30a70509da7324cb35c0f201722bf859", null ],
     [ "RegisterHist", "d9/d62/classOnlMonClient.html#a8d9777853eb790abf4721f25cf4340cd", null ],
     [ "SendHist", "d9/d62/classOnlMonClient.html#a99db500a862ab027dceda35548427aa7", null ],
     [ "SetClearUsFlag", "d9/d62/classOnlMonClient.html#aa2e8df648672b2b594c36c3f58086b52", null ],
     [ "StartMonitor", "d9/d62/classOnlMonClient.html#a68fab899fe1e1e3071ba0588a0853930", null ],
-    [ "Title", "d9/d62/classOnlMonClient.html#a76b87ef01b6f5eb2db41fa7de6858817", null ],
-    [ "Title", "d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee", null ]
+    [ "Title", "d9/d62/classOnlMonClient.html#a5f72e7aa45de26872b40a05a0f5d8aee", null ],
+    [ "Title", "d9/d62/classOnlMonClient.html#a76b87ef01b6f5eb2db41fa7de6858817", null ]
 ];

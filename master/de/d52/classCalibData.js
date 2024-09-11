@@ -8,6 +8,6 @@ var classCalibData =
     [ "FillHit", "de/d52/classCalibData.html#ae1722bd6bb1bebcd66d5bb1d435828f1", null ],
     [ "FillTracklet", "de/d52/classCalibData.html#a206f6d490b2ec28d90d3324abb3afbb4", null ],
     [ "FillTrackletHits", "de/d52/classCalibData.html#a42a8f5fb2145291f6aa833d258a430e1", null ],
-    [ "GetHistRT", "de/d52/classCalibData.html#ad42472ebbbb677b7f500ea0090973814", null ],
+    [ "GetHistRT", "de/d52/classCalibData.html#ae8eeaf5f6557fea2fd49ee1d6ee399d3", null ],
     [ "Init", "de/d52/classCalibData.html#afea151af007051b5f0744b0f988cd01e", null ]
 ];

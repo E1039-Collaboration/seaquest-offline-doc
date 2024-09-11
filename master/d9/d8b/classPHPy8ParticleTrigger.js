@@ -1,12 +1,12 @@
 var classPHPy8ParticleTrigger =
 [
     [ "PHPy8ParticleTrigger", "d9/d8b/classPHPy8ParticleTrigger.html#a5a753b34619e7dd9b064970b8a284638", null ],
-    [ "~PHPy8ParticleTrigger", "d9/d8b/classPHPy8ParticleTrigger.html#afb2efd04cffafb076ef4e0dde9365513", null ],
-    [ "AddParents", "d9/d8b/classPHPy8ParticleTrigger.html#a257f960d0c45ace9d08dccb317191229", null ],
+    [ "~PHPy8ParticleTrigger", "d9/d8b/classPHPy8ParticleTrigger.html#a197c981422dd5e267d3094320005ede2", null ],
     [ "AddParents", "d9/d8b/classPHPy8ParticleTrigger.html#a8560ab4dd4a2fc0caf58bff8f98559f0", null ],
+    [ "AddParents", "d9/d8b/classPHPy8ParticleTrigger.html#a257f960d0c45ace9d08dccb317191229", null ],
     [ "AddParents", "d9/d8b/classPHPy8ParticleTrigger.html#a2596c9ac86123756b71743cad4319640", null ],
-    [ "AddParticles", "d9/d8b/classPHPy8ParticleTrigger.html#a93f262d68f8d06ba477f362ba5c9ba66", null ],
     [ "AddParticles", "d9/d8b/classPHPy8ParticleTrigger.html#a8452f4b863772c461f82e70870985df1", null ],
+    [ "AddParticles", "d9/d8b/classPHPy8ParticleTrigger.html#a93f262d68f8d06ba477f362ba5c9ba66", null ],
     [ "AddParticles", "d9/d8b/classPHPy8ParticleTrigger.html#aaed048ae9787d4b192bfccd99041297b", null ],
     [ "Apply", "d9/d8b/classPHPy8ParticleTrigger.html#a310a967ad158bf270b6ceaf8f6b0183c", null ],
     [ "PrintConfig", "d9/d8b/classPHPy8ParticleTrigger.html#a46621815f48cbd938147ae1b12178c9b", null ],

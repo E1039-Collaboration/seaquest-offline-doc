@@ -9,7 +9,7 @@ var classMakeRTCurve =
     [ "DrawHistHit", "de/d72/classMakeRTCurve.html#a00cc34269fdac115f803771ab72d8fa5", null ],
     [ "ExtractRT", "de/d72/classMakeRTCurve.html#a9bc08fbd0282af4f51288d874b22bf22", null ],
     [ "Init", "de/d72/classMakeRTCurve.html#a2756b0c00ae6335182f4f6c20d1b169b", null ],
+    [ "Verbosity", "de/d72/classMakeRTCurve.html#a044e9ca277e7a6cfec52faaf97ac962e", null ],
     [ "Verbosity", "de/d72/classMakeRTCurve.html#a2e981c1be7b950cd13fc7bae999a3c0d", null ],
-    [ "Verbosity", "de/d72/classMakeRTCurve.html#abd63571fd2d95b4ad840cb5fcae4206b", null ],
     [ "WriteRT", "de/d72/classMakeRTCurve.html#afcc7e8a2dbbe068378167285b2ce578a", null ]
 ];

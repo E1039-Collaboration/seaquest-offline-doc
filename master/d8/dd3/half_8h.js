@@ -17,8 +17,8 @@ var half_8h =
     [ "HALF_RADIX", "d8/dd3/half_8h.html#a28a9162ede14d72457b610bc0e808592", null ],
     [ "operator<<", "d8/dd3/half_8h.html#a5c6427fc5174a82c5a401faefd430829", null ],
     [ "operator>>", "d8/dd3/half_8h.html#a311c4b5c0f1b0def57a53195cd3ee32c", null ],
-    [ "printBits", "d8/dd3/half_8h.html#a363495b804a034167515772b1da499cd", null ],
-    [ "printBits", "d8/dd3/half_8h.html#a321ef991890a06e795b1ddc0bab28746", null ],
     [ "printBits", "d8/dd3/half_8h.html#a2cd6aba446b2f93984b0f72772905ee4", null ],
-    [ "printBits", "d8/dd3/half_8h.html#a3c20f54fbbcff987e85be1f07625a439", null ]
+    [ "printBits", "d8/dd3/half_8h.html#a3c20f54fbbcff987e85be1f07625a439", null ],
+    [ "printBits", "d8/dd3/half_8h.html#a321ef991890a06e795b1ddc0bab28746", null ],
+    [ "printBits", "d8/dd3/half_8h.html#a363495b804a034167515772b1da499cd", null ]
 ];

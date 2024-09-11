@@ -2,9 +2,9 @@ var classPHG4ConeSubsystem =
 [
     [ "PHG4ConeSubsystem", "d8/d6e/classPHG4ConeSubsystem.html#acaa5006a344e972996998d676cd96b02", null ],
     [ "~PHG4ConeSubsystem", "d8/d6e/classPHG4ConeSubsystem.html#a3d14447702fefd02d9e3bcaecc791116", null ],
-    [ "GetDetector", "d8/d6e/classPHG4ConeSubsystem.html#a826a6b307c84a8d499ac5217616288a3", null ],
-    [ "GetEventAction", "d8/d6e/classPHG4ConeSubsystem.html#a4f050528f50f738c5714a9f25a36fbff", null ],
-    [ "GetSteppingAction", "d8/d6e/classPHG4ConeSubsystem.html#a200fc9c3a9893bb23b3ed2f791cab61a", null ],
+    [ "GetDetector", "d8/d6e/classPHG4ConeSubsystem.html#a89ddd24462c22fcd8f044f90decc47d7", null ],
+    [ "GetEventAction", "d8/d6e/classPHG4ConeSubsystem.html#a7049d360833ec36cc3a5a6273a41bedd", null ],
+    [ "GetSteppingAction", "d8/d6e/classPHG4ConeSubsystem.html#ac9fd7bf844eb512894c5185ffa8a325e", null ],
     [ "Init", "d8/d6e/classPHG4ConeSubsystem.html#ad28af91002a876e0061806c3c73e4cd1", null ],
     [ "process_event", "d8/d6e/classPHG4ConeSubsystem.html#a759342e76dd9ab1f444ca07515c16384", null ],
     [ "Set_eta_range", "d8/d6e/classPHG4ConeSubsystem.html#ad548b5ab78ffa103f3ff9257d0386b79", null ],

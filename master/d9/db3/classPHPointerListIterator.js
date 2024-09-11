@@ -5,6 +5,6 @@ var classPHPointerListIterator =
     [ "PHPointerListIterator", "d9/db3/classPHPointerListIterator.html#a3e4c7d912b98347c8c46d64b537e0399", null ],
     [ "operator()", "d9/db3/classPHPointerListIterator.html#a7255287c5999512f534abfac566a22a0", null ],
     [ "operator--", "d9/db3/classPHPointerListIterator.html#acf835d009f16194083db99050cae328b", null ],
-    [ "pos", "d9/db3/classPHPointerListIterator.html#adacf481f4864357223b8c91541243fcd", null ],
+    [ "pos", "d9/db3/classPHPointerListIterator.html#a9d902c6ea27cc743e533cdfebddabc80", null ],
     [ "reset", "d9/db3/classPHPointerListIterator.html#a6bde59f5af918f50b5a7214b730e1efd", null ]
 ];

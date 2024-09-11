@@ -1,51 +1,52 @@
 <map id="SQReco::ProcessEventPrep" name="SQReco::ProcessEventPrep">
-<area shape="rect" id="node2" href="$df/df2/classSQReco.html#aa71a1b4406e5d02575ed860c2861030d" title="SQReco::BuildSRawEvent" alt="" coords="241,183,413,209"/>
-<area shape="rect" id="node26" href="$d5/dba/classTrackletVector.html#ab6c2454fb69b1d8975959c232a1c332f" title="TrackletVector::clear" alt="" coords="257,1247,397,1273"/>
-<area shape="rect" id="node28" href="$d5/d83/classSRawEvent.html#af07729980c2ffa12b0d6b47d48cc91bc" title="PHObject virtual overloads. " alt="" coords="259,1297,394,1324"/>
-<area shape="rect" id="node30" href="$df/df2/classSQReco.html#a15fc6a2a728034bc592cff3e0811d714" title="SQReco::is_eval_dst\l_enabled" alt="" coords="257,1349,397,1390"/>
-<area shape="rect" id="node31" href="$df/df2/classSQReco.html#a33a09ece97da972b0501c86e55c54c6b" title="SQReco::is_eval_enabled" alt="" coords="243,1415,411,1441"/>
-<area shape="rect" id="node32" href="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c" title="EventReducer::reduceEvent" alt="" coords="237,1196,416,1223"/>
-<area shape="rect" id="node41" href="$df/df2/classSQReco.html#ad23cc4c36b0319940fed1f022b2e722f" title="SQReco::ResetEvalVars" alt="" coords="247,1465,406,1492"/>
-<area shape="rect" id="node42" href="$df/df2/classSQReco.html#a498b3b48b86778c44f4643ca674f3ca9" title="SQReco::updateHitInfo" alt="" coords="249,791,404,817"/>
-<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#a8a5c77a92bdac6bc043476e132379a40" title="Gets the verbosity of this module. " alt="" coords="250,1516,403,1543"/>
-<area shape="rect" id="node3" href="$d7/d87/classSQSpillMap.html#a1351e39720be4745cbed2b2a1f0f33ea" title="Return the SQSpill entry having spill ID = &#39;idkey&#39;. Return &#39;0&#39; if no entry exists. " alt="" coords="512,56,627,83"/>
-<area shape="rect" id="node4" href="$d5/d83/classSRawEvent.html#a28ff31d5b5e95a20cb41ca4fa8f28a0a" title="SRawEvent::getSpillID" alt="" coords="494,107,645,133"/>
-<area shape="rect" id="node5" href="$d6/d43/namespaceUtilSRawEvent.html#a44cc46840d22522d82c7dba57e14f7b5" title="UtilSRawEvent::SetEvent" alt="" coords="487,208,652,235"/>
-<area shape="rect" id="node6" href="$d5/d83/classSRawEvent.html#ae3e649456cc6ab85876e9ab1baa52ad6" title="Sets. " alt="" coords="727,31,892,57"/>
-<area shape="rect" id="node12" href="$d6/d43/namespaceUtilSRawEvent.html#a585264b4e2fdc064ef63179ce96c30a2" title="UtilSRawEvent::SetHit" alt="" coords="495,537,644,564"/>
-<area shape="rect" id="node24" href="$d6/d43/namespaceUtilSRawEvent.html#a8853964972fa88e4c6bf69baa3a1f4da" title="UtilSRawEvent::SetSpill" alt="" coords="490,5,649,32"/>
-<area shape="rect" id="node25" href="$d6/d43/namespaceUtilSRawEvent.html#a0274b2101761ecc05a87a5302590759d" title="UtilSRawEvent::SetTriggerHit" alt="" coords="475,487,664,513"/>
-<area shape="rect" id="node7" href="$d5/d83/classSRawEvent.html#a3b08b54a99e28870161ad532de39d142" title="SRawEvent::setTriggerBits" alt="" coords="723,284,896,311"/>
-<area shape="rect" id="node8" href="$d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca" title="Return the run ID. " alt="" coords="740,81,879,108"/>
-<area shape="rect" id="node9" href="$d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680" title="Return the spill ID. " alt="" coords="738,132,881,159"/>
-<area shape="rect" id="node10" href="$d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a" title="Return the event ID, which is unique per run. " alt="" coords="733,183,885,209"/>
-<area shape="rect" id="node11" href="$d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29" title="Return the trigger bit (fired or not) of the selected trigger channel. " alt="" coords="739,233,879,260"/>
-<area shape="rect" id="node13" href="$d5/d83/classSRawEvent.html#a5aaa34883e14f01c358e09c77d5cbe00" title="SRawEvent::emptyHits" alt="" coords="734,740,885,767"/>
-<area shape="rect" id="node14" href="$d9/dbc/classSQHitVector.html#a7c3abb0e9b5625a54b979de9427a377f" title="SQHitVector::size" alt="" coords="748,335,871,361"/>
-<area shape="rect" id="node15" href="$d9/dbc/classSQHitVector.html#a77ceaf92de0b9ab85eafad0770d0db4b" title="SQHitVector::at" alt="" coords="754,791,865,817"/>
-<area shape="rect" id="node16" href="$de/d79/classSQHit.html#a9e470ede0a608c4e13325eab1d691694" title="Return the ID of this hit. " alt="" coords="750,385,869,412"/>
-<area shape="rect" id="node17" href="$de/d79/classSQHit.html#acae7667f8a85fd1de5ae611b8c51fb33" title="Return the detector ID of this hit. " alt="" coords="733,436,885,463"/>
-<area shape="rect" id="node18" href="$de/d79/classSQHit.html#a4ce14b27ab63d03e5f3aab541b2efe26" title="Return the element ID of this hit. " alt="" coords="734,487,885,513"/>
-<area shape="rect" id="node19" href="$de/d79/classSQHit.html#aeba3ae619e5aaf5da416508413dd5e47" title="Return the TDC time (nsec) of this hit. " alt="" coords="740,537,879,564"/>
-<area shape="rect" id="node20" href="$de/d79/classSQHit.html#aab506d06da719529a43b1210c758f379" title="Return the drift distance of this hit. Probably the value is not properly set at present. Meaningful only if this hit is of drift chamber or prop tube. " alt="" coords="727,588,892,615"/>
-<area shape="rect" id="node21" href="$de/d79/classSQHit.html#a2560a11b54287b55ec70196fc416b573" title="Return the absolute position of this hit. Probably the value is not properly set at present..." alt="" coords="755,639,863,665"/>
-<area shape="rect" id="node22" href="$de/d79/classSQHit.html#a19bfb493c5b0f24384c319c2a0a7b448" title="Return &#39;true&#39; if this hit is in the time window. " alt="" coords="749,689,870,716"/>
-<area shape="rect" id="node23" href="$d5/d83/classSRawEvent.html#a08b2b0404bdf1ea48284bc80020c8e51" title="Reset the number hits on each plane. " alt="" coords="741,917,877,944"/>
-<area shape="rect" id="node27" href="$d5/dba/classTrackletVector.html#abf5296a5e48c5299c05a0f9bcaa83e5c" title="Clear Event. " alt="" coords="497,1449,642,1476"/>
-<area shape="rect" id="node29" href="$d5/d83/classSRawEvent.html#a84632c33dd2e086fe07a3f2c8bc3acb5" title="Print for debugging purposes. " alt="" coords="510,1500,629,1527"/>
-<area shape="rect" id="node33" href="$d5/dda/classEventReducer.html#a6aa4f5546837d8b2e47367b131332e7e" title="EventReducer::deClusterize" alt="" coords="480,1399,659,1425"/>
-<area shape="rect" id="node34" href="$d1/da8/classPHFlag.html#afc9529a56d670d320212520c3c5c5110" title="PHFlag::get_BoolFlag" alt="" coords="496,1044,643,1071"/>
-<area shape="rect" id="node35" href="$d5/d83/classSRawEvent.html#adcd73c16459e35e34c2e746b5b8568c1" title="SRawEvent::getNChamberHitsAll" alt="" coords="464,1095,675,1121"/>
-<area shape="rect" id="node36" href="$d0/da0/classGeomSvc.html#ac22b1c50a84423eb7aa7792595c2fca1" title="GeomSvc::getPlaneType" alt="" coords="727,1247,891,1273"/>
-<area shape="rect" id="node37" href="$d5/dda/classEventReducer.html#af69506f70efff619964ac0aa0a7b2c66" title="EventReducer::hodoscopeMask" alt="" coords="469,1196,670,1223"/>
-<area shape="rect" id="node38" href="$d5/d83/classSRawEvent.html#aa5f45fc48942fadce059c3a7f29d577c" title="SRawEvent::isFPGATriggered" alt="" coords="473,1247,666,1273"/>
-<area shape="rect" id="node39" href="$d5/dda/classEventReducer.html#a3fe6db13e06a16f8145307b110c15225" title="EventReducer::sagittaReducer" alt="" coords="472,1145,667,1172"/>
-<area shape="rect" id="node40" href="$d6/deb/classTriggerAnalyzer.html#a95f1cd767179e609427ece340612d01e" title="TriggerAnalyzer::trimEvent" alt="" coords="484,1297,655,1324"/>
-<area shape="rect" id="node43" href="$d5/d83/classSRawEvent.html#abd6f13b04ed7155aa744111e9324aa41" title="SRawEvent::getAllHits" alt="" coords="495,943,644,969"/>
-<area shape="rect" id="node44" href="$de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b" title="SQHit::set_tdc_time" alt="" coords="501,639,638,665"/>
-<area shape="rect" id="node45" href="$de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361" title="SQHit::set_drift_distance" alt="" coords="487,689,651,716"/>
-<area shape="rect" id="node46" href="$de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6" title="SQHit::set_pos" alt="" coords="516,740,623,767"/>
-<area shape="rect" id="node47" href="$de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6" title="SQHit::set_in_time" alt="" coords="505,791,634,817"/>
-<area shape="rect" id="node48" href="$de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3" title="SQHit::set_hodo_mask" alt="" coords="493,841,646,868"/>
-<area shape="rect" id="node49" href="$de/d79/classSQHit.html#a9a8924314c3d2a19915df9f18866c83b" title="SQHit::set_trigger_mask" alt="" coords="489,892,650,919"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1272,201,1299"/>
+<area shape="rect" id="node2" href="$df/df2/classSQReco.html#aa71a1b4406e5d02575ed860c2861030d" title=" " alt="" coords="257,233,443,260"/>
+<area shape="rect" id="node26" href="$d5/dba/classTrackletVector.html#ab6c2454fb69b1d8975959c232a1c332f" title=" " alt="" coords="273,1221,427,1248"/>
+<area shape="rect" id="node28" href="$d5/d83/classSRawEvent.html#aabb90d753f3b4e1e34e4c18af6fb0929" title="PHObject virtual overloads." alt="" coords="274,1272,426,1299"/>
+<area shape="rect" id="node30" href="$df/df2/classSQReco.html#ad3affae03a16d1a25e7634106b794a9f" title=" " alt="" coords="273,1323,427,1365"/>
+<area shape="rect" id="node31" href="$df/df2/classSQReco.html#adde13bebde2c5eabb16f01479d88455e" title=" " alt="" coords="257,1389,443,1416"/>
+<area shape="rect" id="node32" href="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c" title=" " alt="" coords="249,1171,451,1197"/>
+<area shape="rect" id="node41" href="$df/df2/classSQReco.html#ad23cc4c36b0319940fed1f022b2e722f" title=" " alt="" coords="263,1440,437,1467"/>
+<area shape="rect" id="node42" href="$df/df2/classSQReco.html#a498b3b48b86778c44f4643ca674f3ca9" title=" " alt="" coords="265,765,435,792"/>
+<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#ad0a0fa887b36a995eca4815d2b7f5afb" title="Gets the verbosity of this module." alt="" coords="265,1491,435,1517"/>
+<area shape="rect" id="node3" href="$d7/d87/classSQSpillMap.html#a8351dcdc82a11b3c52f71830bc7e2a0f" title="Return the SQSpill entry having spill ID = &#39;idkey&#39;. Return &#39;0&#39; if no entry exists." alt="" coords="554,107,679,133"/>
+<area shape="rect" id="node4" href="$d5/d83/classSRawEvent.html#a28ff31d5b5e95a20cb41ca4fa8f28a0a" title=" " alt="" coords="533,157,700,184"/>
+<area shape="rect" id="node5" href="$d6/d43/namespaceUtilSRawEvent.html#a44cc46840d22522d82c7dba57e14f7b5" title=" " alt="" coords="525,208,709,235"/>
+<area shape="rect" id="node10" href="$d5/d83/classSRawEvent.html#ae3e649456cc6ab85876e9ab1baa52ad6" title="Sets." alt="" coords="786,259,971,285"/>
+<area shape="rect" id="node12" href="$d6/d43/namespaceUtilSRawEvent.html#a585264b4e2fdc064ef63179ce96c30a2" title=" " alt="" coords="533,512,700,539"/>
+<area shape="rect" id="node24" href="$d6/d43/namespaceUtilSRawEvent.html#a8853964972fa88e4c6bf69baa3a1f4da" title=" " alt="" coords="529,56,704,83"/>
+<area shape="rect" id="node25" href="$d6/d43/namespaceUtilSRawEvent.html#a0274b2101761ecc05a87a5302590759d" title=" " alt="" coords="511,461,722,488"/>
+<area shape="rect" id="node6" href="$d9/dd7/classSQEvent.html#ae99eb349fe38c0a3e655cadeecb8772a" title="Return the event ID, which is unique per run." alt="" coords="794,208,963,235"/>
+<area shape="rect" id="node7" href="$d9/dd7/classSQEvent.html#a392d15330793852b00fa9bc842604dca" title="Return the run ID." alt="" coords="802,5,955,32"/>
+<area shape="rect" id="node8" href="$d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680" title="Return the spill ID." alt="" coords="799,56,958,83"/>
+<area shape="rect" id="node9" href="$d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29" title="Return the trigger bit (fired or not) of the selected trigger channel." alt="" coords="801,107,957,133"/>
+<area shape="rect" id="node11" href="$d5/d83/classSRawEvent.html#a3b08b54a99e28870161ad532de39d142" title=" " alt="" coords="783,157,975,184"/>
+<area shape="rect" id="node13" href="$d9/dbc/classSQHitVector.html#a264516c88dc4d55494b8fe1cbdacfb35" title=" " alt="" coords="818,765,939,792"/>
+<area shape="rect" id="node14" href="$d5/d83/classSRawEvent.html#a5aaa34883e14f01c358e09c77d5cbe00" title=" " alt="" coords="793,664,964,691"/>
+<area shape="rect" id="node15" href="$de/d79/classSQHit.html#ae69d6d52727c281a3a314cc8a48a8d6c" title="Return the detector ID of this hit." alt="" coords="795,309,963,336"/>
+<area shape="rect" id="node16" href="$de/d79/classSQHit.html#a0da72c24f051d1748bd638053a8cc97e" title="Return the drift distance of this hit. Probably the value is not properly set at present...." alt="" coords="787,360,970,387"/>
+<area shape="rect" id="node17" href="$de/d79/classSQHit.html#ab0f1f06e3215306cc35d4548d5e4ba9f" title="Return the element ID of this hit." alt="" coords="795,411,963,437"/>
+<area shape="rect" id="node18" href="$de/d79/classSQHit.html#abd646ee3f86d9c76a746e080361b60d4" title="Return the ID of this hit." alt="" coords="813,461,944,488"/>
+<area shape="rect" id="node19" href="$de/d79/classSQHit.html#a846f05a37ab82dd124c3d33ac0e10a4d" title="Return the absolute position of this hit. Probably the value is not properly set at present." alt="" coords="819,512,938,539"/>
+<area shape="rect" id="node20" href="$de/d79/classSQHit.html#abdbbb731442058ca5c3f1dab3fac96e3" title="Return the TDC time (nsec) of this hit." alt="" coords="803,563,955,589"/>
+<area shape="rect" id="node21" href="$d5/d83/classSRawEvent.html#a4ed91d923eb7ee95fc0271354d18c25f" title="Insert a new hit." alt="" coords="799,715,958,741"/>
+<area shape="rect" id="node22" href="$de/d79/classSQHit.html#a643981bc9e28dc096fd604f91e1a34db" title="Return &#39;true&#39; if this hit is in the time window." alt="" coords="811,613,946,640"/>
+<area shape="rect" id="node23" href="$d5/d83/classSRawEvent.html#a08b2b0404bdf1ea48284bc80020c8e51" title="Reset the number hits on each plane." alt="" coords="803,968,955,995"/>
+<area shape="rect" id="node27" href="$d5/dba/classTrackletVector.html#abf5296a5e48c5299c05a0f9bcaa83e5c" title="Clear Event." alt="" coords="537,1424,696,1451"/>
+<area shape="rect" id="node29" href="$d5/d83/classSRawEvent.html#a93b7d1c09325b0ff92bc65c504180785" title="Print for debugging purposes." alt="" coords="550,1475,683,1501"/>
+<area shape="rect" id="node33" href="$d5/dda/classEventReducer.html#a6aa4f5546837d8b2e47367b131332e7e" title=" " alt="" coords="516,968,717,995"/>
+<area shape="rect" id="node34" href="$d1/da8/classPHFlag.html#aecabe8faffea8e0a7f3a7b4a7bfbe90d" title=" " alt="" coords="536,1019,697,1045"/>
+<area shape="rect" id="node35" href="$d5/d83/classSRawEvent.html#adcd73c16459e35e34c2e746b5b8568c1" title=" " alt="" coords="499,1069,735,1096"/>
+<area shape="rect" id="node36" href="$d0/da0/classGeomSvc.html#a70d6df4f7ed2ccc5d9cd7d7e3ef369d7" title=" " alt="" coords="789,1348,968,1375"/>
+<area shape="rect" id="node37" href="$d5/dda/classEventReducer.html#af69506f70efff619964ac0aa0a7b2c66" title=" " alt="" coords="504,1171,729,1197"/>
+<area shape="rect" id="node38" href="$d5/d83/classSRawEvent.html#aa5f45fc48942fadce059c3a7f29d577c" title=" " alt="" coords="513,1221,721,1248"/>
+<area shape="rect" id="node39" href="$d5/dda/classEventReducer.html#a3fe6db13e06a16f8145307b110c15225" title=" " alt="" coords="507,1373,726,1400"/>
+<area shape="rect" id="node40" href="$d6/deb/classTriggerAnalyzer.html#a95f1cd767179e609427ece340612d01e" title=" " alt="" coords="519,1272,714,1299"/>
+<area shape="rect" id="node43" href="$d5/d83/classSRawEvent.html#abd6f13b04ed7155aa744111e9324aa41" title=" " alt="" coords="533,917,700,944"/>
+<area shape="rect" id="node44" href="$de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361" title=" " alt="" coords="525,613,708,640"/>
+<area shape="rect" id="node45" href="$de/d79/classSQHit.html#ab7ef5cd97220b7bec19f37db5e2875b3" title=" " alt="" coords="532,664,701,691"/>
+<area shape="rect" id="node46" href="$de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6" title=" " alt="" coords="545,715,688,741"/>
+<area shape="rect" id="node47" href="$de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6" title=" " alt="" coords="558,765,675,792"/>
+<area shape="rect" id="node48" href="$de/d79/classSQHit.html#a9b0e74b024716ff77dcec3f480f2434b" title=" " alt="" coords="541,816,692,843"/>
+<area shape="rect" id="node49" href="$de/d79/classSQHit.html#a9a8924314c3d2a19915df9f18866c83b" title=" " alt="" coords="527,867,707,893"/>
 </map>

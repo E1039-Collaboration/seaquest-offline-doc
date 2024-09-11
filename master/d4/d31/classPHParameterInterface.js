@@ -2,9 +2,9 @@ var classPHParameterInterface =
 [
     [ "PHParameterInterface", "d4/d31/classPHParameterInterface.html#a751f70019b1736fb9c4b329774daeb93", null ],
     [ "~PHParameterInterface", "d4/d31/classPHParameterInterface.html#a38bebc9deb6d93c5930fbb4d06407d55", null ],
-    [ "get_double_param", "d4/d31/classPHParameterInterface.html#ad2a1bcd8dfa116aeb75cafc5b81c059d", null ],
-    [ "get_int_param", "d4/d31/classPHParameterInterface.html#a0198091b361ca684ba272828613ed9a4", null ],
-    [ "get_string_param", "d4/d31/classPHParameterInterface.html#aabddfb685f8f6e9b690d4f3c6122c6a0", null ],
+    [ "get_double_param", "d4/d31/classPHParameterInterface.html#aac90fff7f59f3118d2ef20bad8f1f511", null ],
+    [ "get_int_param", "d4/d31/classPHParameterInterface.html#afbae75079c4ee068dd5054ad33101349", null ],
+    [ "get_string_param", "d4/d31/classPHParameterInterface.html#a6694bf3b7034c225e1d9e2d50693a143", null ],
     [ "InitializeParameters", "d4/d31/classPHParameterInterface.html#a2d4069d697a7bc6700ca79e6b42b07fa", null ],
     [ "PutOnParNode", "d4/d31/classPHParameterInterface.html#a843431a58ea1f6414cd05e0121bf163c", null ],
     [ "SaveToNodeTree", "d4/d31/classPHParameterInterface.html#ab386d05bc4aa6e4e3fcd2ff4d466aeb1", null ],

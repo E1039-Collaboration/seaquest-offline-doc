@@ -7,7 +7,7 @@ var structDecoParam =
     [ "chan_map_scaler", "d3/df0/structDecoParam.html#aece63e06bf353a1f48ba3d81f8680a3b", null ],
     [ "chan_map_taiwan", "d3/df0/structDecoParam.html#ac3abf829d37b1ce58ebf267baba6cd00", null ],
     [ "chan_map_v1495", "d3/df0/structDecoParam.html#a89c51db4c6cbf80bad8272a0b5171baa", null ],
-    [ "codaID", "d3/df0/structDecoParam.html#afc0581b19eaaacd8a76010bc58624284", null ],
+    [ "codaID", "d3/df0/structDecoParam.html#a2f1fba164d1c40265be61c31981b6d79", null ],
     [ "dir_param", "d3/df0/structDecoParam.html#aecd716f75393453ae9c1be0e6dc53c85", null ],
     [ "event_count", "d3/df0/structDecoParam.html#afb5f8c0aa7daef230f92f69d07c212d9", null ],
     [ "eventIDstd", "d3/df0/structDecoParam.html#afc0817be79fba75709a6bcdac58adf4c", null ],

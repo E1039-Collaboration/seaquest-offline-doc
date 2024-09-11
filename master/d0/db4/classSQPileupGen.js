@@ -1,9 +1,9 @@
 var classSQPileupGen =
 [
     [ "SQPileupGen", "d0/db4/classSQPileupGen.html#aa6768da9d5cc284cb06914f399708c74", null ],
-    [ "~SQPileupGen", "d0/db4/classSQPileupGen.html#a40a9d05694c78c02ed4d589b27915da6", null ],
-    [ "get_beam_intensity_profile", "d0/db4/classSQPileupGen.html#a10d87d7dddf0d9f7081550d288a63d83", null ],
-    [ "get_beam_intensity_profile_histo", "d0/db4/classSQPileupGen.html#a375e1022f7ebcdf1a7e0e8135567452a", null ],
+    [ "~SQPileupGen", "d0/db4/classSQPileupGen.html#ae83f03a68c713f42973ddb5f2af43bd2", null ],
+    [ "get_beam_intensity_profile", "d0/db4/classSQPileupGen.html#a09a07bba8e67b235a685f38899f5ac5f", null ],
+    [ "get_beam_intensity_profile_histo", "d0/db4/classSQPileupGen.html#a90b51e500f4c3de9c473fd7c4b72c27b", null ],
     [ "Init", "d0/db4/classSQPileupGen.html#ad3c1079c261cec530ef18ad19ec2402f", null ],
     [ "InitRun", "d0/db4/classSQPileupGen.html#a7e684c37dd4c69182e4a13ed4bdae6e9", null ],
     [ "process_event", "d0/db4/classSQPileupGen.html#a399ba830c75944b42d19150915a53597", null ],

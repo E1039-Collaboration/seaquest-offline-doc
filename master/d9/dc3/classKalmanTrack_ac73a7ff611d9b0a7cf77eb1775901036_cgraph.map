@@ -1,51 +1,52 @@
 <map id="KalmanTrack::getSagittaInSuperDetector" name="KalmanTrack::getSagittaInSuperDetector">
-<area shape="rect" id="node2" href="$d0/da0/classGeomSvc.html#a23e7d026a79544283e2b654f3d0d5c8e" title="GeomSvc::getCostheta" alt="" coords="260,233,415,260"/>
-<area shape="rect" id="node3" href="$d9/dc3/classKalmanTrack.html#ad2f8601ff8f0b4c22800c7a6a6fe24f7" title="KalmanTrack::getExpPositionFast" alt="" coords="230,284,445,311"/>
-<area shape="rect" id="node15" href="$d0/da0/classGeomSvc.html#a58a3d25847e956be5173e1c0241d8cc3" title="GeomSvc::getPlanePosition" alt="" coords="246,335,429,361"/>
-<area shape="rect" id="node16" href="$d0/da0/classGeomSvc.html#a41346cb0bb159f91049cfc0a284c1b29" title="GeomSvc::getSintheta" alt="" coords="262,385,413,412"/>
-<area shape="rect" id="node17" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance " alt="" coords="271,563,404,589"/>
-<area shape="rect" id="node4" href="$d2/d70/classTrkPar.html#abd74f4c05d1ca63c76a99b8d3e594059" title="TrkPar::get_dxdz" alt="" coords="542,5,661,32"/>
-<area shape="rect" id="node5" href="$d2/d70/classTrkPar.html#a15a33a13a38b30f71d1304023812bd6a" title="TrkPar::get_dydz" alt="" coords="542,56,661,83"/>
-<area shape="rect" id="node6" href="$d2/d70/classTrkPar.html#af6c71e40d32ee559292d927b271b2b7a" title="TrkPar::get_x" alt="" coords="552,107,651,133"/>
-<area shape="rect" id="node7" href="$d2/d70/classTrkPar.html#a04101dd3ba83b7ebba771126f22a22c6" title="TrkPar::get_y" alt="" coords="552,157,651,184"/>
-<area shape="rect" id="node8" href="$d2/d70/classTrkPar.html#a8b54bb0a84179176aabaacb3397c8105" title="TrkPar::get_z" alt="" coords="552,208,651,235"/>
-<area shape="rect" id="node9" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title="Node::getFiltered" alt="" coords="542,259,661,285"/>
-<area shape="rect" id="node10" href="$d9/dc3/classKalmanTrack.html#ad92a13303a13a7941e38074edb6dcf27" title="KalmanTrack::getNearestNodePtr" alt="" coords="494,309,709,336"/>
-<area shape="rect" id="node11" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets. " alt="" coords="536,360,667,387"/>
-<area shape="rect" id="node12" href="$df/dd0/classNode.html#a385cbcf82382c3ff0e7d347d6e6d6a77" title="Node::getSmoothed" alt="" coords="534,411,669,437"/>
-<area shape="rect" id="node13" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title="Node::isFilterDone" alt="" coords="538,461,665,488"/>
-<area shape="rect" id="node14" href="$df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1" title="Node::isSmoothDone" alt="" coords="530,512,673,539"/>
-<area shape="rect" id="node18" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file. " alt="" coords="550,715,653,741"/>
-<area shape="rect" id="node19" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title="GeomSvc::initPlaneDbSvc" alt="" coords="773,613,947,640"/>
-<area shape="rect" id="node44" href="$d0/da0/classGeomSvc.html#a0d550b9f787318d57cdae9db2d04d6fb" title="GeomSvc::initPlaneDirect" alt="" coords="775,664,945,691"/>
-<area shape="rect" id="node45" href="$d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d" title="GeomSvc::initWireLUT" alt="" coords="784,715,936,741"/>
-<area shape="rect" id="node20" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="1542,268,1682,295"/>
-<area shape="rect" id="node46" href="$d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8" title="GeomSvc::loadAlignment" alt="" coords="777,765,943,792"/>
-<area shape="rect" id="node47" href="$d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661" title="GeomSvc::loadCalibration" alt="" coords="775,816,945,843"/>
-<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8" title="GeomSvc::loadMilleAlignment" alt="" coords="1019,892,1213,919"/>
-<area shape="rect" id="node50" href="$d0/da0/classGeomSvc.html#a6234a9e4de78f5667104d23c8828b79f" title="Load parameters used in the online&#45;alignment mode. " alt="" coords="758,917,962,944"/>
-<area shape="rect" id="node27" href="$df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325" title="run" alt="" coords="1096,613,1136,640"/>
-<area shape="rect" id="node43" href="$d0/da0/classGeomSvc.html#a315e886f05db8254ed7d320706e268e6" title="Convert the official detectorName to local detectorName. " alt="" coords="1011,664,1221,691"/>
-<area shape="rect" id="node21" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title="recoConsts::recoConsts" alt="" coords="1742,268,1898,295"/>
-<area shape="rect" id="node22" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="1739,484,1901,511"/>
-<area shape="rect" id="node23" href="$d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da" title="PHFlag::set_DoubleFlag" alt="" coords="1953,400,2113,427"/>
-<area shape="rect" id="node24" href="$d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8" title="PHFlag::set_IntFlag" alt="" coords="1966,551,2101,577"/>
-<area shape="rect" id="node25" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title="PHFlag::set_BoolFlag" alt="" coords="1960,773,2107,800"/>
-<area shape="rect" id="node26" href="$d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6" title="overide the virtual function to expand the environmental variables " alt="" coords="1949,484,2117,511"/>
-<area shape="rect" id="node28" href="$d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69" title="ana" alt="" coords="1356,445,1399,472"/>
-<area shape="rect" id="node30" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title="Fun4AllServer::End" alt="" coords="1312,293,1443,320"/>
-<area shape="rect" id="node31" href="$d4/da9/classFun4AllInputManager.html#a8ad787f847a175450ec5beddeaa33ca6" title="Fun4AllInputManager\l::fileopen" alt="" coords="1305,497,1450,538"/>
-<area shape="rect" id="node32" href="$d8/d14/classrecoConsts.html#a7c0a1405f7f0f8c2acca26831984b28d" title="initialize the constants by the runNo &#45; not implemented yet " alt="" coords="1765,559,1875,585"/>
-<area shape="rect" id="node33" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Fun4AllServer::instance" alt="" coords="1533,639,1691,665"/>
-<area shape="rect" id="node34" href="$d8/d14/classrecoConsts.html#a5502a14fdb8433de15c2e71351f281d6" title="print all the parameters " alt="" coords="1318,715,1437,741"/>
-<area shape="rect" id="node35" href="$da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e" title="Fun4AllServer::PrintTimer" alt="" coords="1293,765,1462,792"/>
-<area shape="rect" id="node36" href="$dc/da8/classAnaModule.html#aae26c89fb67266a27325b364ba48cc38" title="AnaModule::registerDetector" alt="" coords="1285,816,1469,843"/>
-<area shape="rect" id="node37" href="$da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe" title="Fun4AllServer::registerInput\lManager" alt="" coords="1287,867,1467,909"/>
-<area shape="rect" id="node38" href="$da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0" title="Fun4AllServer::registerSubsystem" alt="" coords="1270,664,1485,691"/>
-<area shape="rect" id="node39" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file) " alt="" coords="1314,344,1441,371"/>
-<area shape="rect" id="node40" href="$dc/da8/classAnaModule.html#a815e50856d90a0bc816ad165bcf8d8f4" title="AnaModule::set_output\l_filename" alt="" coords="1301,985,1454,1026"/>
-<area shape="rect" id="node41" href="$d0/da0/classGeomSvc.html#a5c51613529dae6339bb35eb99e81f758" title="GeomSvc::UseDbSvc" alt="" coords="1305,1051,1450,1077"/>
-<area shape="rect" id="node42" href="$d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9" title="Sets the verbosity of this module (0 by default=quiet). " alt="" coords="1301,1101,1454,1128"/>
-<area shape="rect" id="node29" href="$d5/de9/E1039Shielding_2ana_8C.html#a4770f9752bd2f6c264c3a5f0e5f07bf3" title="drawSnglAccPz" alt="" coords="1555,445,1669,472"/>
-<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#a64fde7dce7f3df7cf534796d7da4ecdb" title="GeomSvc::getDetectorName" alt="" coords="1023,816,1209,843"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,403,199,445"/>
+<area shape="rect" id="node2" href="$d0/da0/classGeomSvc.html#aac855df5e6cbd57fed93378361a5a8c8" title=" " alt="" coords="280,309,451,336"/>
+<area shape="rect" id="node3" href="$d9/dc3/classKalmanTrack.html#ad2f8601ff8f0b4c22800c7a6a6fe24f7" title=" " alt="" coords="247,360,484,387"/>
+<area shape="rect" id="node15" href="$d0/da0/classGeomSvc.html#a157803343e2c6537e1d10113d7902150" title=" " alt="" coords="265,411,466,437"/>
+<area shape="rect" id="node16" href="$d0/da0/classGeomSvc.html#af5571d799f3660faf0b7889bb3dff217" title=" " alt="" coords="282,461,449,488"/>
+<area shape="rect" id="node17" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance" alt="" coords="292,563,439,589"/>
+<area shape="rect" id="node4" href="$d2/d70/classTrkPar.html#abd74f4c05d1ca63c76a99b8d3e594059" title=" " alt="" coords="587,132,715,159"/>
+<area shape="rect" id="node5" href="$d2/d70/classTrkPar.html#a15a33a13a38b30f71d1304023812bd6a" title=" " alt="" coords="587,183,715,209"/>
+<area shape="rect" id="node6" href="$d2/d70/classTrkPar.html#af6c71e40d32ee559292d927b271b2b7a" title=" " alt="" coords="599,233,704,260"/>
+<area shape="rect" id="node7" href="$d2/d70/classTrkPar.html#a04101dd3ba83b7ebba771126f22a22c6" title=" " alt="" coords="599,284,704,311"/>
+<area shape="rect" id="node8" href="$d2/d70/classTrkPar.html#a8b54bb0a84179176aabaacb3397c8105" title=" " alt="" coords="599,335,703,361"/>
+<area shape="rect" id="node9" href="$df/dd0/classNode.html#ab483dc1ccfa5a0dc9ba876ee9a2134c9" title=" " alt="" coords="584,385,719,412"/>
+<area shape="rect" id="node10" href="$d9/dc3/classKalmanTrack.html#ad92a13303a13a7941e38074edb6dcf27" title=" " alt="" coords="532,436,771,463"/>
+<area shape="rect" id="node11" href="$df/dd0/classNode.html#a49001f3ff76ccd0091837d333f8698f8" title="Gets." alt="" coords="578,487,725,513"/>
+<area shape="rect" id="node12" href="$df/dd0/classNode.html#a385cbcf82382c3ff0e7d347d6e6d6a77" title=" " alt="" coords="576,537,727,564"/>
+<area shape="rect" id="node13" href="$df/dd0/classNode.html#a35fb6b17a2553e4ff684f9cbd1e9a72c" title=" " alt="" coords="580,588,723,615"/>
+<area shape="rect" id="node14" href="$df/dd0/classNode.html#a71252a4e306e228893a72484837ac8d1" title=" " alt="" coords="572,81,731,108"/>
+<area shape="rect" id="node18" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file." alt="" coords="595,639,708,665"/>
+<area shape="rect" id="node19" href="$d0/da0/classGeomSvc.html#adbe1473f9b3a8ff942da8d7d8ee28322" title=" " alt="" coords="838,335,1029,361"/>
+<area shape="rect" id="node26" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title=" " alt="" coords="1139,588,1296,615"/>
+<area shape="rect" id="node44" href="$d0/da0/classGeomSvc.html#a0d550b9f787318d57cdae9db2d04d6fb" title=" " alt="" coords="839,563,1027,589"/>
+<area shape="rect" id="node45" href="$d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d" title=" " alt="" coords="849,613,1017,640"/>
+<area shape="rect" id="node46" href="$d0/da0/classGeomSvc.html#ab6c810e39b86ce66a4be6a596b4d54b8" title=" " alt="" coords="840,664,1027,691"/>
+<area shape="rect" id="node47" href="$d0/da0/classGeomSvc.html#abc60088ed5985a796f5df18ae4299661" title=" " alt="" coords="838,715,1029,741"/>
+<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#a418543d7b33fc95092b2cd4a7496f1b8" title=" " alt="" coords="1108,791,1327,817"/>
+<area shape="rect" id="node50" href="$d0/da0/classGeomSvc.html#a6234a9e4de78f5667104d23c8828b79f" title="Load parameters used in the online&#45;alignment mode." alt="" coords="819,816,1048,843"/>
+<area shape="rect" id="node20" href="$d1/da8/classPHFlag.html#a30692a93daeb85f72aa55375d41d4d1a" title=" " alt="" coords="1149,183,1285,209"/>
+<area shape="rect" id="node21" href="$d1/da8/classPHFlag.html#a90dd6fab732973226112ede509be5743" title=" " alt="" coords="1136,233,1299,260"/>
+<area shape="rect" id="node22" href="$d1/da8/classPHFlag.html#a9002aa5e5ee1ef0e76d65201d6056adf" title=" " alt="" coords="1143,284,1292,311"/>
+<area shape="rect" id="node23" href="$db/d8a/classRunParamBase.html#ac014950f30700976f97c094cd54feb27" title=" " alt="" coords="1121,335,1314,361"/>
+<area shape="rect" id="node24" href="$d1/d3b/classGeomParamPlane.html#a692de0076f1dbe125d7ba8cfc013b2bd" title=" " alt="" coords="1096,385,1339,412"/>
+<area shape="rect" id="node25" href="$d1/d3b/classGeomParamPlane.html#a8c176df7c57af3b0e4f35edee8ee0898" title=" " alt="" coords="1115,436,1320,463"/>
+<area shape="rect" id="node30" href="$d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6" title="overide the virtual function to expand the environmental variables" alt="" coords="1687,563,1873,589"/>
+<area shape="rect" id="node32" href="$db/d8a/classRunParamBase.html#a1a747ac4d6e1c3665d66f9a1d5118f32" title=" " alt="" coords="1395,183,1609,209"/>
+<area shape="rect" id="node38" href="$db/d8a/classRunParamBase.html#a0db5424bf8320bf32d14563a6ad8d28e" title=" " alt="" coords="1122,81,1313,108"/>
+<area shape="rect" id="node39" href="$db/d8a/classRunParamBase.html#a9b35f11ddb755a62b5d25f7773e0f1ce" title=" " alt="" coords="1104,31,1331,57"/>
+<area shape="rect" id="node43" href="$d0/da0/classGeomSvc.html#a315e886f05db8254ed7d320706e268e6" title="Convert the official detectorName to local detectorName." alt="" coords="1100,132,1335,159"/>
+<area shape="rect" id="node27" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title=" " alt="" coords="1415,588,1589,615"/>
+<area shape="rect" id="node28" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="1411,639,1593,665"/>
+<area shape="rect" id="node29" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title=" " alt="" coords="1700,639,1860,665"/>
+<area shape="rect" id="node31" href="$d8/d14/classrecoConsts.html#ad45c452d9a71b5410c472614d72442ec" title=" " alt="" coords="1943,563,2195,589"/>
+<area shape="rect" id="node33" href="$d2/da4/classDbSvc.html#af7e30673551b9cbc6d0ad9e37e4ec35b" title=" " alt="" coords="1715,107,1845,133"/>
+<area shape="rect" id="node34" href="$db/d8a/classRunParamBase.html#ad9f709752d29d2a439deafc2663e78e4" title=" " alt="" coords="1665,208,1895,235"/>
+<area shape="rect" id="node35" href="$db/d8a/classRunParamBase.html#abad1d51250d48280d4a72a64d6f57866" title=" " alt="" coords="1673,259,1887,285"/>
+<area shape="rect" id="node36" href="$db/d8a/classRunParamBase.html#aa5d08eb3156c795dd3d09085a90d8629" title=" " alt="" coords="1671,157,1889,184"/>
+<area shape="rect" id="node37" href="$d2/da4/classDbSvc.html#a7e4cc05e20e0a21eef9c185c34c51044" title=" " alt="" coords="1706,56,1854,83"/>
+<area shape="rect" id="node40" href="$d0/d0d/classParamRunRange.html#a6a2dad9dc6c5fe19ef4e07109f2de6c6" title=" " alt="" coords="1420,107,1584,133"/>
+<area shape="rect" id="node41" href="$db/d8a/classRunParamBase.html#aebc390d29c3083e39a226cce4293ac63" title=" " alt="" coords="1387,5,1617,32"/>
+<area shape="rect" id="node42" href="$d0/d0d/classParamRunRange.html#a2ed6cb68949441b6a3a929fddd6c3910" title=" " alt="" coords="1391,56,1613,83"/>
+<area shape="rect" id="node48" href="$d0/da0/classGeomSvc.html#ac4edd9b5679db2ac9b6f6bea59929447" title=" " alt="" coords="1113,715,1321,741"/>
 </map>

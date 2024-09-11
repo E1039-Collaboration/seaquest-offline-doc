@@ -1,21 +1,23 @@
 <map id="GeomSvc::getMeasurement" name="GeomSvc::getMeasurement">
-<area shape="rect" id="node2" href="$df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" title="main external call, fill the digi hit vector " alt="" coords="243,12,410,39"/>
-<area shape="rect" id="node4" href="$d2/dc4/classGetRoad.html#a78ede3599a3814162be690704d27cc94" title="GetRoad::get_mc_roads" alt="" coords="247,63,407,89"/>
-<area shape="rect" id="node6" href="$d2/dc4/classGetRoad.html#a13029c3c4e4a3b94f1b196b50ada696c" title="GetRoad::get_old_roads" alt="" coords="247,113,406,140"/>
-<area shape="rect" id="node7" href="$d3/de7/classmTrkEveDisplay.html#a2d81773e8944852045fb20a235565ad8" title="mTrkEveDisplay::hit\l_to_wire" alt="" coords="259,165,394,206"/>
-<area shape="rect" id="node10" href="$d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398" title="KalmanTrack::KalmanTrack" alt="" coords="235,231,418,257"/>
-<area shape="rect" id="node11" href="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="301,281,352,308"/>
-<area shape="rect" id="node12" href="$d0/de5/classCalibHitElementPos.html#a0b3a48a10da4c9182d62f49e1cbc56e2" title="CalibHitElementPos\l::process_event" alt="" coords="259,333,395,374"/>
-<area shape="rect" id="node13" href="$d4/d73/classCalibDriftDist.html#ae4814127cc445b6b5af87e2311750146" title="CalibDriftDist::process\l_event" alt="" coords="253,398,400,439"/>
-<area shape="rect" id="node14" href="$d9/d0c/classRndmEmbed.html#aab52cc2c180db26dd572a3556c8d6d9e" title="RndmEmbed::process\l_event" alt="" coords="253,463,400,505"/>
-<area shape="rect" id="node15" href="$d4/d36/classSRawEventEmbed.html#a0041b344c23d0d679125dbb74aa1652b" title="SRawEventEmbed::process\l_event" alt="" coords="237,529,416,570"/>
-<area shape="rect" id="node16" href="$d6/deb/classTriggerAnalyzer.html#a95f1cd767179e609427ece340612d01e" title="TriggerAnalyzer::trimEvent" alt="" coords="241,595,412,621"/>
-<area shape="rect" id="node3" href="$df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda" title="event processing " alt="" coords="487,5,625,46"/>
-<area shape="rect" id="node5" href="$d2/dc4/classGetRoad.html#a7c59356dfb86e567a7eb931fd2ac8fe3" title="GetRoad::GetRoad" alt="" coords="491,92,621,119"/>
-<area shape="rect" id="node8" href="$d3/de7/classmTrkEveDisplay.html#a364f4ae0f30bf1fa50f30d6b6a222647" title="mTrkEveDisplay::draw_hits" alt="" coords="469,172,643,199"/>
-<area shape="rect" id="node9" href="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1" title="mTrkEveDisplay::event" alt="" coords="710,172,861,199"/>
-<area shape="rect" id="node17" href="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c" title="EventReducer::reduceEvent" alt="" coords="467,595,645,621"/>
-<area shape="rect" id="node18" href="$df/df2/classSQReco.html#a4b0d94299406e4c437ecd4e1f598fcda" title="SQReco::ProcessEventPrep" alt="" coords="694,595,877,621"/>
-<area shape="rect" id="node19" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title="SQReco::process_event" alt="" coords="930,565,1089,592"/>
-<area shape="rect" id="node20" href="$dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" title="SQTrackletReco::process\l_event" alt="" coords="925,617,1093,658"/>
+<area shape="rect" id="node1" title="Convert the detectorID and elementID to the actual hit position." alt="" coords="975,311,1177,338"/>
+<area shape="rect" id="node2" href="$df/d36/classSQDigitizer.html#a6888088bc0f09a34957d84e24ba7926b" title="main external call, fill the digi hit vector" alt="" coords="734,13,921,39"/>
+<area shape="rect" id="node4" href="$d2/dc4/classGetRoad.html#a78ede3599a3814162be690704d27cc94" title=" " alt="" coords="739,63,916,90"/>
+<area shape="rect" id="node6" href="$d2/dc4/classGetRoad.html#a13029c3c4e4a3b94f1b196b50ada696c" title=" " alt="" coords="739,114,916,141"/>
+<area shape="rect" id="node7" href="$d3/de7/classmTrkEveDisplay.html#a2d81773e8944852045fb20a235565ad8" title=" " alt="" coords="752,165,903,207"/>
+<area shape="rect" id="node10" href="$d9/dc3/classKalmanTrack.html#a392fa7ce5fc124148eb469689fbb5398" title=" " alt="" coords="728,231,927,258"/>
+<area shape="rect" id="node11" href="$db/d86/test__minimum_8cxx.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="800,282,855,309"/>
+<area shape="rect" id="node12" href="$d7/d94/classCalibHitPos.html#a975f1d3dbed30c75e314c1d5983c44e7" title=" " alt="" coords="750,333,905,375"/>
+<area shape="rect" id="node13" href="$d4/d73/classCalibDriftDist.html#ae4814127cc445b6b5af87e2311750146" title=" " alt="" coords="744,399,911,440"/>
+<area shape="rect" id="node14" href="$d0/de5/classCalibHitElementPos.html#a0b3a48a10da4c9182d62f49e1cbc56e2" title=" " alt="" coords="752,464,903,505"/>
+<area shape="rect" id="node15" href="$d9/d0c/classRndmEmbed.html#aab52cc2c180db26dd572a3556c8d6d9e" title=" " alt="" coords="746,529,909,571"/>
+<area shape="rect" id="node16" href="$d4/d36/classSRawEventEmbed.html#a0041b344c23d0d679125dbb74aa1652b" title=" " alt="" coords="728,595,927,636"/>
+<area shape="rect" id="node17" href="$d6/deb/classTriggerAnalyzer.html#a95f1cd767179e609427ece340612d01e" title=" " alt="" coords="730,661,925,687"/>
+<area shape="rect" id="node3" href="$df/d36/classSQDigitizer.html#a6fd850ed7dfbdeaeac53ef644c9f9eda" title="event processing" alt="" coords="503,5,656,47"/>
+<area shape="rect" id="node5" href="$d2/dc4/classGetRoad.html#a7c59356dfb86e567a7eb931fd2ac8fe3" title=" " alt="" coords="508,93,651,119"/>
+<area shape="rect" id="node8" href="$d3/de7/classmTrkEveDisplay.html#a364f4ae0f30bf1fa50f30d6b6a222647" title=" " alt="" coords="481,173,678,199"/>
+<area shape="rect" id="node9" href="$d3/de7/classmTrkEveDisplay.html#aa3ce5d6c62c7c75bcb098cf992b788e1" title=" " alt="" coords="247,173,418,199"/>
+<area shape="rect" id="node18" href="$d5/dda/classEventReducer.html#af72954cea31bb7b3b3f122c3067b632c" title=" " alt="" coords="479,661,680,687"/>
+<area shape="rect" id="node19" href="$df/df2/classSQReco.html#a4b0d94299406e4c437ecd4e1f598fcda" title=" " alt="" coords="235,661,431,687"/>
+<area shape="rect" id="node20" href="$df/df2/classSQReco.html#a4d308ea90b8cd7c24a235f32debd6ddb" title=" " alt="" coords="9,631,183,658"/>
+<area shape="rect" id="node21" href="$dd/d62/classSQTrackletReco.html#a8da2377e83fb17bc8189b89175833872" title=" " alt="" coords="5,683,187,724"/>
 </map>

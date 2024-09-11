@@ -3,7 +3,7 @@ var classSQBeamlineObject =
     [ "SQBeamlineObject", "d5/d7b/classSQBeamlineObject.html#aa39d39458558ded77d768b0cd17f8864", null ],
     [ "SQBeamlineObject", "d5/d7b/classSQBeamlineObject.html#a040cb3bdd274d3d7f9d9303688af09a2", null ],
     [ "getZ", "d5/d7b/classSQBeamlineObject.html#a19aa5cc4785871f980ef4ca6406ff8c5", null ],
-    [ "operator<", "d5/d7b/classSQBeamlineObject.html#aa6c0d12af621a174b4dc1eea539ea3b1", null ],
+    [ "operator<", "d5/d7b/classSQBeamlineObject.html#aed129e2773f50eb6cc7996b744a0a869", null ],
     [ "protonPerc", "d5/d7b/classSQBeamlineObject.html#aa7c519bda441dfb6569f952a3e3b7d81", null ],
     [ "operator<<", "d5/d7b/classSQBeamlineObject.html#a9081ff733ed981a390ed01429a5aa91d", null ],
     [ "A", "d5/d7b/classSQBeamlineObject.html#ae01e887a07b0dfb58e19637631eecfed", null ],

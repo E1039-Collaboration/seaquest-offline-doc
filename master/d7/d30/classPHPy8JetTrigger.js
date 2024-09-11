@@ -1,7 +1,7 @@
 var classPHPy8JetTrigger =
 [
     [ "PHPy8JetTrigger", "d7/d30/classPHPy8JetTrigger.html#a9179b588510d4a6586afcbf17032e483", null ],
-    [ "~PHPy8JetTrigger", "d7/d30/classPHPy8JetTrigger.html#a8edf599a22c8281a12f899a6df4006c1", null ],
+    [ "~PHPy8JetTrigger", "d7/d30/classPHPy8JetTrigger.html#ad6cccb333b77492871fe7c4160af5993", null ],
     [ "Apply", "d7/d30/classPHPy8JetTrigger.html#acaf40813fe5634434bf56986738b1d6e", null ],
     [ "PrintConfig", "d7/d30/classPHPy8JetTrigger.html#a119a568b9761422432553e45b256cab2", null ],
     [ "SetEtaHighLow", "d7/d30/classPHPy8JetTrigger.html#abefa66e9301d01fde1015ec0bc4fa7dc", null ],

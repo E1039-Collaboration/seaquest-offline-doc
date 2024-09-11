@@ -1,51 +1,31 @@
 <map id="OnlMonMainDaq::ProcessEventOnlMon" name="OnlMonMainDaq::ProcessEventOnlMon">
-<area shape="rect" id="node2" href="$d7/db7/classSQRun.html#af4311adcc7271be0ccde700d50150ed6" title="Return the number of all recorded events. " alt="" coords="276,5,423,32"/>
-<area shape="rect" id="node3" href="$d7/db7/classSQRun.html#af8af494d17ec14a3a7773beadca02231" title="Return the number of decoded events. The online decoding usually skips a part of events in order to f..." alt="" coords="272,56,427,83"/>
-<area shape="rect" id="node4" href="$d7/db7/classSQRun.html#a54a7764b9c329ca727aa3b62e31fb1bc" title="Return the number of all FLUSH events. " alt="" coords="270,107,429,133"/>
-<area shape="rect" id="node5" href="$d7/db7/classSQRun.html#aad855f9c094ebb2299434735bf9297fe" title="Return the number of bad FLUSH events. " alt="" coords="282,158,417,199"/>
-<area shape="rect" id="node6" href="$d7/db7/classSQRun.html#a243f1ff7869e4fbe32c7944ff6c0c220" title="Return the number of all Taiwan&#45;TDC hits. " alt="" coords="288,224,411,251"/>
-<area shape="rect" id="node7" href="$d7/db7/classSQRun.html#ac4f0054827abcce5dd77da950a3e71bd" title="Return the number of bad Taiwan&#45;TDC hits. " alt="" coords="274,275,425,301"/>
-<area shape="rect" id="node8" href="$d7/db7/classSQRun.html#ac499790a00dcc165067ddded9efd3858" title="Return the number of all PHYSICS events. " alt="" coords="270,325,429,352"/>
-<area shape="rect" id="node9" href="$d7/db7/classSQRun.html#abffc76419a737579f55216fc6b2259c5" title="Return the number of bad PHYSICS events. " alt="" coords="256,376,443,403"/>
-<area shape="rect" id="node10" href="$d7/db7/classSQRun.html#a1801d7cae6cae837b9e3ba0224da5ba9" title="Return the number of spill events. " alt="" coords="284,427,415,453"/>
-<area shape="rect" id="node11" href="$d7/db7/classSQRun.html#a27e43a6b48ba6e5b09552848172c9579" title="Return the number of all V1495&#45;TDC (i.e. trigger) hits. " alt="" coords="282,477,417,504"/>
-<area shape="rect" id="node12" href="$d7/db7/classSQRun.html#aeb0e64609de4c5d017d086c1b630ed46" title="Return the number of bad V1495&#45;TDC (i.e. trigger) hits. " alt="" coords="268,528,431,555"/>
-<area shape="rect" id="node13" href="$d7/db7/classSQRun.html#a2186c5a7b6b5bc88c3c8c266c008f8f7" title="Return the number of all V1495 events. " alt="" coords="278,579,421,605"/>
-<area shape="rect" id="node14" href="$d7/db7/classSQRun.html#af31872dc607bc7bf1fbff8c580840da8" title="Return the number of V1495 events having &#39;d1ad&#39;. " alt="" coords="260,629,439,656"/>
-<area shape="rect" id="node15" href="$d7/db7/classSQRun.html#aa8d54ee169abb6c2da325e85d5d47875" title="Return the number of V1495 events having &#39;d2ad&#39;. " alt="" coords="260,680,439,707"/>
-<area shape="rect" id="node16" href="$d7/db7/classSQRun.html#aba4a7124574588a3810b7dafa9c18f15" title="Return the number of V1495 events having &#39;d3ad&#39;. " alt="" coords="260,731,439,757"/>
-<area shape="rect" id="node17" href="$d9/d4a/classSQHardSpill.html#a38bd947f36a8de44f4c5dcaa429b92bb" title="Return the time taken for the word decoding per spill. " alt="" coords="275,782,424,823"/>
-<area shape="rect" id="node18" href="$d9/d4a/classSQHardSpill.html#a992e2b6fdc30e638401b51d854df6c32" title="Return the time taken for the Coda input per spill. " alt="" coords="275,847,424,889"/>
-<area shape="rect" id="node19" href="$d9/d4a/classSQHardSpill.html#a50cd1141250cf44060b91454d565bc30" title="Return the time taken for the channel mapping per spill. " alt="" coords="259,913,440,940"/>
-<area shape="rect" id="node20" href="$d9/d4a/classSQHardSpill.html#a8f26c8ed8e6892847aaf306505d5b46b" title="Return the time taken for the data output per spill. " alt="" coords="275,965,424,1006"/>
-<area shape="rect" id="node21" href="$d9/d4a/classSQHardSpill.html#a701102222eaa904dcbddc3b15a6d5b6e" title="Return the time taken for the SubsysReco event processing per spill. " alt="" coords="275,1030,424,1071"/>
-<area shape="rect" id="node22" href="$df/dbc/run_8C.html#a078d38b1d96e7c0e4f35d93363cc8325" title="run" alt="" coords="329,1096,369,1123"/>
-<area shape="rect" id="node23" href="$d5/de9/E1039Shielding_2ana_8C.html#a24b637aefa84c667b63905e9be5a8f69" title="ana" alt="" coords="577,427,620,453"/>
-<area shape="rect" id="node25" href="$da/d29/classFun4AllServer.html#ab7263450319ca1d5029209fde26a7af8" title="Fun4AllServer::End" alt="" coords="533,780,664,807"/>
-<area shape="rect" id="node36" href="$d4/da9/classFun4AllInputManager.html#a8ad787f847a175450ec5beddeaa33ca6" title="Fun4AllInputManager\l::fileopen" alt="" coords="526,1059,671,1101"/>
-<area shape="rect" id="node37" href="$d8/d14/classrecoConsts.html#a7c0a1405f7f0f8c2acca26831984b28d" title="initialize the constants by the runNo &#45; not implemented yet " alt="" coords="992,528,1101,555"/>
-<area shape="rect" id="node29" href="$d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85" title="recoConsts::instance" alt="" coords="977,629,1117,656"/>
-<area shape="rect" id="node38" href="$da/d29/classFun4AllServer.html#a3e55156f91b2c94bb6c4ef33ffce587a" title="Fun4AllServer::instance" alt="" coords="763,1151,920,1177"/>
-<area shape="rect" id="node39" href="$d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4" title="singlton instance " alt="" coords="532,667,665,693"/>
-<area shape="rect" id="node41" href="$d8/d14/classrecoConsts.html#a5502a14fdb8433de15c2e71351f281d6" title="print all the parameters " alt="" coords="539,1227,658,1253"/>
-<area shape="rect" id="node43" href="$da/d29/classFun4AllServer.html#ae3fe7393e52376b515c60dd927670f2e" title="Fun4AllServer::PrintTimer" alt="" coords="514,1277,683,1304"/>
-<area shape="rect" id="node44" href="$dc/da8/classAnaModule.html#aae26c89fb67266a27325b364ba48cc38" title="AnaModule::registerDetector" alt="" coords="507,1328,691,1355"/>
-<area shape="rect" id="node45" href="$da/d29/classFun4AllServer.html#ab2cb490790d15b865ae79eb3094caabe" title="Fun4AllServer::registerInput\lManager" alt="" coords="509,1379,689,1421"/>
-<area shape="rect" id="node46" href="$da/d29/classFun4AllServer.html#a0a9947db0ede1e55622001eb7515f8c0" title="Fun4AllServer::registerSubsystem" alt="" coords="491,1176,706,1203"/>
-<area shape="rect" id="node47" href="$da/d29/classFun4AllServer.html#a11bbc8b2f53bc06e0b05ee202dd6372a" title="run n events (0 means up to end of file) " alt="" coords="535,881,662,908"/>
-<area shape="rect" id="node34" href="$d1/da8/classPHFlag.html#a5aaf1fedd8907f4b2b0c9535a4491f42" title="PHFlag::set_BoolFlag" alt="" coords="1383,819,1529,845"/>
-<area shape="rect" id="node32" href="$d1/da8/classPHFlag.html#a64f8c67e9313e5cecdbed51f747026da" title="PHFlag::set_DoubleFlag" alt="" coords="1376,491,1536,517"/>
-<area shape="rect" id="node48" href="$dc/da8/classAnaModule.html#a815e50856d90a0bc816ad165bcf8d8f4" title="AnaModule::set_output\l_filename" alt="" coords="522,1445,675,1486"/>
-<area shape="rect" id="node49" href="$d0/da0/classGeomSvc.html#a5c51613529dae6339bb35eb99e81f758" title="GeomSvc::UseDbSvc" alt="" coords="526,1511,671,1537"/>
-<area shape="rect" id="node50" href="$d5/dec/classFun4AllBase.html#a05da2261577843028cf78e99171343b9" title="Sets the verbosity of this module (0 by default=quiet). " alt="" coords="522,1561,675,1588"/>
-<area shape="rect" id="node24" href="$d5/de9/E1039Shielding_2ana_8C.html#a4770f9752bd2f6c264c3a5f0e5f07bf3" title="drawSnglAccPz" alt="" coords="785,427,898,453"/>
-<area shape="rect" id="node26" href="$da/d29/classFun4AllServer.html#a53b1b6b338aa36891f2690a188920980" title="Fun4AllServer::EndRun" alt="" coords="764,856,919,883"/>
-<area shape="rect" id="node27" href="$d5/d07/classPHNodeIterator.html#aea98bf8619af59b1212a94fb32106baa" title="PHNodeIterator::findFirst" alt="" coords="760,704,923,731"/>
-<area shape="rect" id="node28" href="$d1/da8/classPHFlag.html#a07899067141a5f12333cc37183caddc8" title="PHFlag::get_IntFlag" alt="" coords="773,805,909,832"/>
-<area shape="rect" id="node35" href="$da/d29/classFun4AllServer.html#a6f2074f451d0c0c1b4a802edde5ffb94" title="Fun4AllServer::outfileclose" alt="" coords="755,755,928,781"/>
-<area shape="rect" id="node30" href="$d8/d14/classrecoConsts.html#ae882d6adc62f783ec78114fe3dee3c24" title="recoConsts::recoConsts" alt="" coords="1169,629,1325,656"/>
-<area shape="rect" id="node31" href="$d8/d14/classrecoConsts.html#a864b1da9614924988d09542c268c42dc" title="set the default value for all the constants needed &#45; user is supposed to add a default value here to ..." alt="" coords="1166,579,1327,605"/>
-<area shape="rect" id="node33" href="$d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8" title="PHFlag::set_IntFlag" alt="" coords="1389,567,1523,593"/>
-<area shape="rect" id="node40" href="$d0/da0/classGeomSvc.html#a96ec4efc82cbaed0b5623e4dd69385b6" title="Initialization, either from MySQL or from ascii file. " alt="" coords="790,579,893,605"/>
-<area shape="rect" id="node42" href="$d1/da8/classPHFlag.html#a22faecd438ab5934d1634d1dec80bbbc" title="PHFlag::PrintCharFlags" alt="" coords="763,1227,919,1253"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,729,231,770"/>
+<area shape="rect" id="node2" href="$d9/dbc/classSQHitVector.html#af4e23e0ec236191386dc8e0d57c61e3c" title=" " alt="" coords="310,5,454,32"/>
+<area shape="rect" id="node3" href="$d9/dbc/classSQHitVector.html#a1de5ee010fa8617778b7a56d21e545f0" title=" " alt="" coords="316,56,448,83"/>
+<area shape="rect" id="node4" href="$dc/d07/classSQIntMap.html#a0b21c467e9aa4f98cfdb2b90ce427b7c" title=" " alt="" coords="325,107,439,133"/>
+<area shape="rect" id="node5" href="$d9/dd7/classSQEvent.html#a94c09b550ceb6a170681cf468c1e9fa6" title="Return the data&#45;quality bits." alt="" coords="285,157,479,184"/>
+<area shape="rect" id="node6" href="$df/d41/classSQHardEvent.html#ae2bea9267d292bf3a9c1a0d5f3332b27" title="Return the quality flag of the V1495 readout." alt="" coords="298,209,466,250"/>
+<area shape="rect" id="node7" href="$df/d41/classSQHardEvent.html#a27043171fe36cc2ab53883c2f85c64bc" title="Return the number of Taiwan&#45;TDC boards read out." alt="" coords="306,274,458,315"/>
+<area shape="rect" id="node8" href="$d7/db7/classSQRun.html#a4e02f916b64ddb5de932a8ef8ebad278" title="Return the number of all recorded events." alt="" coords="302,340,462,367"/>
+<area shape="rect" id="node9" href="$d7/db7/classSQRun.html#aa6ffe706771a76a8332d1d6182c8d0b1" title="Return the number of decoded events. The online decoding usually skips a part of events in order to f..." alt="" coords="299,391,465,417"/>
+<area shape="rect" id="node10" href="$d7/db7/classSQRun.html#a5d924fce25e46b12a28511212b195bb2" title="Return the number of all FLUSH events." alt="" coords="295,441,469,468"/>
+<area shape="rect" id="node11" href="$d7/db7/classSQRun.html#afa780518e1304f0e1b85eb6cb833bedd" title="Return the number of bad FLUSH events." alt="" coords="309,493,455,534"/>
+<area shape="rect" id="node12" href="$d7/db7/classSQRun.html#a6840b84c741bdf856ce9388370d27c7f" title="Return the number of all Taiwan&#45;TDC hits." alt="" coords="315,559,449,585"/>
+<area shape="rect" id="node13" href="$d7/db7/classSQRun.html#a2c8add8e01fb7f21c0133486563cd1db" title="Return the number of bad Taiwan&#45;TDC hits." alt="" coords="300,609,464,636"/>
+<area shape="rect" id="node14" href="$d7/db7/classSQRun.html#af4bb4e90e0236373f0fa07fbb82bff02" title="Return the number of all PHYSICS events." alt="" coords="295,660,469,687"/>
+<area shape="rect" id="node15" href="$d7/db7/classSQRun.html#a6ccff26bbf2baf95d9bf57769f6947df" title="Return the number of bad PHYSICS events." alt="" coords="279,711,485,737"/>
+<area shape="rect" id="node16" href="$d7/db7/classSQRun.html#a588fc505047d9a50d925e3d4eaf30c8f" title="Return the number of spill events." alt="" coords="311,761,453,788"/>
+<area shape="rect" id="node17" href="$d7/db7/classSQRun.html#a0c5d8636e61c1719a739ee561908839f" title="Return the number of all V1495&#45;TDC (i.e. trigger) hits." alt="" coords="309,812,455,839"/>
+<area shape="rect" id="node18" href="$d7/db7/classSQRun.html#a5ed9dc511fdc15730c8328ce14a8c334" title="Return the number of bad V1495&#45;TDC (i.e. trigger) hits." alt="" coords="294,863,470,889"/>
+<area shape="rect" id="node19" href="$d7/db7/classSQRun.html#a367e3d95c0eb837be38005284020d6e5" title="Return the number of all V1495 events." alt="" coords="304,913,460,940"/>
+<area shape="rect" id="node20" href="$d7/db7/classSQRun.html#a76739d17ceca62e7b54ec5a7df9a9bdc" title="Return the number of V1495 events having &#39;d1ad&#39;." alt="" coords="285,964,479,991"/>
+<area shape="rect" id="node21" href="$d7/db7/classSQRun.html#a50346aade0ebe7c77ffeccba5e139209" title="Return the number of V1495 events having &#39;d2ad&#39;." alt="" coords="285,1015,479,1041"/>
+<area shape="rect" id="node22" href="$d7/db7/classSQRun.html#aee45125f0dfeb70676e91b312c9cf3a4" title="Return the number of V1495 events having &#39;d3ad&#39;." alt="" coords="285,1065,479,1092"/>
+<area shape="rect" id="node23" href="$d9/dd7/classSQEvent.html#ac6da8f0b44b8858c40d7e4ec97fe0680" title="Return the spill ID." alt="" coords="303,1116,461,1143"/>
+<area shape="rect" id="node24" href="$d9/d4a/classSQHardSpill.html#a38bd947f36a8de44f4c5dcaa429b92bb" title="Return the time taken for the word decoding per spill." alt="" coords="299,1167,465,1209"/>
+<area shape="rect" id="node25" href="$d9/d4a/classSQHardSpill.html#a992e2b6fdc30e638401b51d854df6c32" title="Return the time taken for the Coda input per spill." alt="" coords="299,1233,465,1274"/>
+<area shape="rect" id="node26" href="$d9/d4a/classSQHardSpill.html#a50cd1141250cf44060b91454d565bc30" title="Return the time taken for the channel mapping per spill." alt="" coords="281,1299,483,1325"/>
+<area shape="rect" id="node27" href="$d9/d4a/classSQHardSpill.html#a8f26c8ed8e6892847aaf306505d5b46b" title="Return the time taken for the data output per spill." alt="" coords="299,1350,465,1391"/>
+<area shape="rect" id="node28" href="$d9/d4a/classSQHardSpill.html#a701102222eaa904dcbddc3b15a6d5b6e" title="Return the time taken for the SubsysReco event processing per spill." alt="" coords="299,1415,465,1457"/>
+<area shape="rect" id="node29" href="$d9/dd7/classSQEvent.html#a7965e4398ca4e41dc4133a958b3caa29" title="Return the trigger bit (fired or not) of the selected trigger channel." alt="" coords="304,1481,460,1508"/>
 </map>

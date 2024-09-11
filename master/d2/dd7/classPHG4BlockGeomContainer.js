@@ -9,10 +9,10 @@ var classPHG4BlockGeomContainer =
     [ "~PHG4BlockGeomContainer", "d2/dd7/classPHG4BlockGeomContainer.html#abdd97b64ff92b5be6005bdf5cc1c37ba", null ],
     [ "AddLayerGeom", "d2/dd7/classPHG4BlockGeomContainer.html#a4f7db051cc84567591d367fceb6cbdec", null ],
     [ "AddLayerGeom", "d2/dd7/classPHG4BlockGeomContainer.html#a53167b1a54f8460a442cd48a4503d095", null ],
-    [ "get_begin_end", "d2/dd7/classPHG4BlockGeomContainer.html#acc2c597ea40ab30a920514f9b2968281", null ],
-    [ "get_NLayers", "d2/dd7/classPHG4BlockGeomContainer.html#a5341b20776c39386cdb96f389da74fdc", null ],
+    [ "get_begin_end", "d2/dd7/classPHG4BlockGeomContainer.html#a03bd2e2ec7b5dcbfc5a3319ac0e1b71c", null ],
+    [ "get_NLayers", "d2/dd7/classPHG4BlockGeomContainer.html#a29a5524b2107490658b23706f3a50731", null ],
     [ "GetLayerGeom", "d2/dd7/classPHG4BlockGeomContainer.html#aa5bb6bb718f0fe5e8874c7198f172dfe", null ],
-    [ "identify", "d2/dd7/classPHG4BlockGeomContainer.html#a4ebe750303ae4499e9ef313b237c4e60", null ],
+    [ "identify", "d2/dd7/classPHG4BlockGeomContainer.html#a3b83939c9cbb5d4e1f554119247284e8", null ],
     [ "_layergeoms", "d2/dd7/classPHG4BlockGeomContainer.html#a0665212b664ff105e95a49fd95f14544", null ],
     [ "_magfield", "d2/dd7/classPHG4BlockGeomContainer.html#adc15fd907a4fa7b859880ca3736969d1", null ]
 ];

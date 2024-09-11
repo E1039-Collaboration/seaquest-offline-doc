@@ -8,9 +8,9 @@ var classPHHepMCGenHelper =
     [ "~PHHepMCGenHelper", "dd/d2a/classPHHepMCGenHelper.html#a6cab75748313b1d1053c013cba5b085a", null ],
     [ "create_node_tree", "dd/d2a/classPHHepMCGenHelper.html#a78f26357d1f0720a4bfa89589a3c4eff", null ],
     [ "enableLegacyVtxGen", "dd/d2a/classPHHepMCGenHelper.html#a72a214800ef3ccce50a040e4065f0edc", null ],
-    [ "get_embedding_id", "dd/d2a/classPHHepMCGenHelper.html#ac7cd24ce28d07d1fa3459688fc8c407b", null ],
-    [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a16425dd4d4a37fc3765ba93126230fe6", null ],
+    [ "get_embedding_id", "dd/d2a/classPHHepMCGenHelper.html#a858177759db3a36d2c7ba0305bc0b6cf", null ],
     [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a6ad0de3d63be00c5d74809ee2183029a", null ],
+    [ "get_geneventmap", "dd/d2a/classPHHepMCGenHelper.html#a7e8f4040a75176735d9b1c2235586f03", null ],
     [ "get_LegacyPARatio", "dd/d2a/classPHHepMCGenHelper.html#a0cf16159882a28151fc1e20b083a32e7", null ],
     [ "get_random_generator", "dd/d2a/classPHHepMCGenHelper.html#ab3acf64be39e440cd9cbd115eda31929", null ],
     [ "insert_event", "dd/d2a/classPHHepMCGenHelper.html#ab0c755f6e53c0bf57ccd314a0017d227", null ],
@@ -21,6 +21,6 @@ var classPHHepMCGenHelper =
     [ "set_vertex_distribution_function", "dd/d2a/classPHHepMCGenHelper.html#a1efa535f8b08a7a72e5b66121c7da777", null ],
     [ "set_vertex_distribution_mean", "dd/d2a/classPHHepMCGenHelper.html#aad7308b0a8bbfcdc2106b5be191ec37e", null ],
     [ "set_vertex_distribution_width", "dd/d2a/classPHHepMCGenHelper.html#a4a9dfd6131b1e3bfb1428875a88a98ea", null ],
-    [ "smear", "dd/d2a/classPHHepMCGenHelper.html#a030e43db2086d86155f32e8c6cf5958b", null ],
+    [ "smear", "dd/d2a/classPHHepMCGenHelper.html#afef4db979ff90edc684b2e5d1a9513cd", null ],
     [ "RandomGenerator", "dd/d2a/classPHHepMCGenHelper.html#ab5c92249998bd96eea753f91b5e8485e", null ]
 ];

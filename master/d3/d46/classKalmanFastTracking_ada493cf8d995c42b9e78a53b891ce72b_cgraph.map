@@ -1,51 +1,52 @@
 <map id="KalmanFastTracking::setRawEvent" name="KalmanFastTracking::setRawEvent">
-<area shape="rect" id="node2" href="$d3/d46/classKalmanFastTracking.html#a53e313d5cd40faa789fbe1dbe716f192" title="KalmanFastTracking\l::buildBackPartialTracks" alt="" coords="195,299,357,341"/>
-<area shape="rect" id="node22" href="$d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" title="KalmanFastTracking\l::buildGlobalTracks" alt="" coords="205,853,347,894"/>
-<area shape="rect" id="node23" href="$d3/d46/classKalmanFastTracking.html#a4aab1bd454f44de3a3ed2569efeca4b7" title="Tracklet finding stuff. " alt="" coords="423,679,583,721"/>
-<area shape="rect" id="node33" href="$d3/d46/classKalmanFastTracking.html#ac0b6441647d023db04c618a35fd2a8cd" title="Track fitting stuff. " alt="" coords="659,1501,802,1542"/>
-<area shape="rect" id="node45" href="$d3/d46/classKalmanFastTracking.html#a307d88b0582d614ba6fb98b784804bf9" title="KalmanFastTracking\l::setRawEventPrep" alt="" coords="205,1471,347,1513"/>
-<area shape="rect" id="node3" href="$d3/d46/classKalmanFastTracking.html#a3e34ec4cc289246ef9842e3482e0b1cc" title="KalmanFastTracking\l::acceptTracklet" alt="" coords="660,679,801,721"/>
-<area shape="rect" id="node15" href="$d3/d46/classKalmanFastTracking.html#a4a5292af0d5fd95b0808ee930a54e94b" title="Tool, a simple&#45;minded chi square fit. " alt="" coords="432,5,573,46"/>
-<area shape="rect" id="node16" href="$d3/d46/classKalmanFastTracking.html#a4b2ba1b9863eed906c3b6746cc9fa88b" title="KalmanFastTracking\l::fitTracklet" alt="" coords="885,317,1027,358"/>
-<area shape="rect" id="node12" href="$d0/da0/classGeomSvc.html#ac22b1c50a84423eb7aa7792595c2fca1" title="GeomSvc::getPlaneType" alt="" coords="1113,417,1277,444"/>
-<area shape="rect" id="node6" href="$d3/d46/classKalmanFastTracking.html#a2ba7e37a8c501ba0e84a3036b292c0d7" title="KalmanFastTracking\l::hodoMask" alt="" coords="885,1114,1027,1155"/>
-<area shape="rect" id="node10" href="$d2/d26/classTracklet.html#aca9d101f5ea9336e2e64e9417735b960" title="isValid returns non zero if object contains vailid data " alt="" coords="900,443,1012,469"/>
-<area shape="rect" id="node17" href="$d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4" title="Tracklet::print" alt="" coords="906,1180,1006,1207"/>
-<area shape="rect" id="node18" href="$d3/d46/classKalmanFastTracking.html#a6dfe096ad8f31ac3a21c9790ba5b11df" title="KalmanFastTracking\l::reduceTrackletList" alt="" coords="432,190,573,231"/>
-<area shape="rect" id="node19" href="$d3/d46/classKalmanFastTracking.html#a1f8aefdf54827f85127e60787ac08053" title="KalmanFastTracking\l::removeBadHits" alt="" coords="432,475,573,517"/>
-<area shape="rect" id="node21" href="$d3/d46/classKalmanFastTracking.html#a3d431cbee3bb5eaafdeccf80508ec482" title="KalmanFastTracking\l::resolveLeftRight" alt="" coords="432,358,573,399"/>
-<area shape="rect" id="node4" href="$d2/d26/classTracklet.html#a34dc65d53a8d13dd4f2cf35ee7f24573" title="Tracklet::getExpPositionX" alt="" coords="1110,947,1279,973"/>
-<area shape="rect" id="node5" href="$d2/d26/classTracklet.html#acfa229de89a95c51f515f9fec5763108" title="Tracklet::getExpPositionY" alt="" coords="1110,816,1279,843"/>
-<area shape="rect" id="node9" href="$d0/da0/classGeomSvc.html#a69586ef9100d9c369aa5ed31c0e27190" title="GeomSvc::isInKMAG" alt="" coords="884,677,1028,704"/>
-<area shape="rect" id="node13" href="$d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b" title="KalmanFastTracking\l::muonID_comp" alt="" coords="885,779,1027,821"/>
-<area shape="rect" id="node14" href="$d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909" title="KalmanFastTracking\l::muonID_search" alt="" coords="885,611,1027,653"/>
-<area shape="rect" id="node7" href="$d2/d26/classTracklet.html#ad25a91b7c2a619e3b9a59358626b181b" title="Tracklet::getExpPosErrorX" alt="" coords="1109,1125,1281,1152"/>
-<area shape="rect" id="node8" href="$d2/d26/classTracklet.html#ae1ac06ed407411fa5aedd42e5ca1d710" title="Tracklet::getExpPosErrorY" alt="" coords="1109,1179,1281,1205"/>
-<area shape="rect" id="node11" href="$d2/d26/classTracklet.html#adca6f6eddbd98bcbdf892f434e473dee" title="Tracklet::getProb" alt="" coords="1135,468,1255,495"/>
-<area shape="rect" id="node20" href="$d3/d46/classKalmanFastTracking.html#ac550362b5ae3fca6231ae3f0e5259a62" title="KalmanFastTracking\l::resolveSingleLeftRight" alt="" coords="653,745,809,786"/>
-<area shape="rect" id="node27" href="$d6/db1/classSRecTrack.html#afd6e6845e0b2b8a6ff5f0c5af61abb55" title="SRecTrack::getChisqVertex" alt="" coords="413,1100,592,1127"/>
-<area shape="rect" id="node28" href="$d3/d46/classKalmanFastTracking.html#a34696f18730ace99b63e9ec40abb3f2c" title="KalmanFastTracking\l::getExtrapoWindowsInSt1" alt="" coords="871,1049,1041,1090"/>
-<area shape="rect" id="node29" href="$d2/d26/classTracklet.html#a766bdd8c80191d06012bb3d0b7d8c889" title="Tracklet::getMomentum" alt="" coords="651,963,810,989"/>
-<area shape="rect" id="node30" href="$d3/d46/classKalmanFastTracking.html#a84d901e24def2f971d1b011e9f215b88" title="KalmanFastTracking\l::getSagittaWindowsInSt1" alt="" coords="871,494,1041,535"/>
-<area shape="rect" id="node31" href="$d6/db1/classSRecTrack.html#a698b0cb0c6ebd209a0eeb514cc83a95e" title="isValid returns non zero if object contains vailid data " alt="" coords="437,1201,568,1228"/>
-<area shape="rect" id="node32" href="$d2/d26/classTracklet.html#aee5b5f15d7f0485b9bb3897defcea876" title="Tracklet::merge" alt="" coords="447,796,558,823"/>
-<area shape="rect" id="node24" href="$d5/d83/classSRawEvent.html#a33468312a0fdd8ebe82ce5f56ce0f1c8" title="SRawEvent::getPartialHit\lPairsInSuperDetector" alt="" coords="648,1303,813,1345"/>
-<area shape="rect" id="node26" href="$d2/d26/classTracklet.html#a517e8e0a3ccc7678ef2a0cdfa5f7168d" title="Tracklet::sortHits" alt="" coords="671,861,790,888"/>
-<area shape="rect" id="node25" href="$d5/d83/classSRawEvent.html#acf9e10bcf22a77325de8cfc82dc772e0" title="Gets. " alt="" coords="868,1231,1044,1273"/>
-<area shape="rect" id="node34" href="$d3/d46/classKalmanFastTracking.html#adae298d8b0d2aa7ca771228cacd66974" title="KalmanFastTracking\l::fitTrack" alt="" coords="885,1501,1027,1542"/>
-<area shape="rect" id="node35" href="$d0/d1e/classPropSegment.html#a9642b31a718683d585cc9f92e0e372c5" title="PropSegment::getNHits" alt="" coords="1117,1563,1273,1589"/>
-<area shape="rect" id="node36" href="$d5/d72/classTriggerRoad.html#affb1214bf3dda5cbeb9ff171ab681641" title="TriggerRoad::getRoadID" alt="" coords="1115,1647,1274,1673"/>
-<area shape="rect" id="node37" href="$d9/dc3/classKalmanTrack.html#a38e275864291b276a96abd8c50de4282" title="Output to SRecTrack. " alt="" coords="862,1769,1050,1796"/>
-<area shape="rect" id="node39" href="$d2/d26/classTracklet.html#aa0ca7e43f4d1359b0068c35299a70db5" title="Tracklet::getSRecTrack" alt="" coords="877,1399,1035,1425"/>
-<area shape="rect" id="node43" href="$d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81" title="Self check to see if it is null. " alt="" coords="885,1297,1027,1324"/>
-<area shape="rect" id="node38" href="$d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594" title="SRecTrack::setKalmanStatus" alt="" coords="1099,1744,1290,1771"/>
-<area shape="rect" id="node41" href="$d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa" title="SRecTrack::setNHitsInPT" alt="" coords="1110,1373,1279,1400"/>
-<area shape="rect" id="node42" href="$d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c" title="SRecTrack::setPTSlope" alt="" coords="1115,1496,1275,1523"/>
-<area shape="rect" id="node44" href="$d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210" title="KalmanTrack::setTracklet" alt="" coords="871,845,1041,872"/>
-<area shape="rect" id="node40" href="$d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8" title="SRecTrack::setTriggerRoad" alt="" coords="1105,1437,1285,1464"/>
-<area shape="rect" id="node46" href="$d3/d46/classKalmanFastTracking.html#a0190d9515c79f0b717d538205912920a" title="KalmanFastTracking\l::acceptEvent" alt="" coords="432,1471,573,1513"/>
-<area shape="rect" id="node47" href="$d5/d83/classSRawEvent.html#abd6f13b04ed7155aa744111e9324aa41" title="SRawEvent::getAllHits" alt="" coords="428,1537,577,1564"/>
-<area shape="rect" id="node48" href="$d5/d83/classSRawEvent.html#aa5f45fc48942fadce059c3a7f29d577c" title="SRawEvent::isFPGATriggered" alt="" coords="406,1588,599,1615"/>
-<area shape="rect" id="node49" href="$d5/d83/classSRawEvent.html#a31f6d565298d411c79bc0ddf21d7fd4c" title="SRawEvent::getHitsIndexIn\lDetectors" alt="" coords="415,1639,591,1681"/>
-<area shape="rect" id="node50" href="$d3/d46/classKalmanFastTracking.html#aa85f2e38eff0fe4a53d365feedb112d1" title="KalmanFastTracking\l::buildPropSegments" alt="" coords="432,1303,573,1345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,1061,157,1103"/>
+<area shape="rect" id="node2" href="$d3/d46/classKalmanFastTracking.html#a53e313d5cd40faa789fbe1dbe716f192" title=" " alt="" coords="205,333,381,375"/>
+<area shape="rect" id="node23" href="$d3/d46/classKalmanFastTracking.html#a53c93bc5e58b3560d1cfb42e84bbe95c" title=" " alt="" coords="217,889,369,931"/>
+<area shape="rect" id="node24" href="$d3/d46/classKalmanFastTracking.html#a4aab1bd454f44de3a3ed2569efeca4b7" title="Tracklet finding stuff." alt="" coords="444,1061,623,1103"/>
+<area shape="rect" id="node33" href="$d3/d46/classKalmanFastTracking.html#ac0b6441647d023db04c618a35fd2a8cd" title="Track fitting stuff." alt="" coords="699,1341,856,1383"/>
+<area shape="rect" id="node45" href="$d3/d46/classKalmanFastTracking.html#a307d88b0582d614ba6fb98b784804bf9" title=" " alt="" coords="217,1617,369,1659"/>
+<area shape="rect" id="node3" href="$d3/d46/classKalmanFastTracking.html#a3e34ec4cc289246ef9842e3482e0b1cc" title=" " alt="" coords="701,796,853,837"/>
+<area shape="rect" id="node6" href="$d3/d46/classKalmanFastTracking.html#a2ba7e37a8c501ba0e84a3036b292c0d7" title=" " alt="" coords="942,1115,1094,1156"/>
+<area shape="rect" id="node10" href="$d2/d26/classTracklet.html#a2e1d23a5d9ca161d0c2a5e108cd9300c" title="isValid returns non zero if object contains vailid data" alt="" coords="956,443,1080,470"/>
+<area shape="rect" id="node14" href="$d3/d46/classKalmanFastTracking.html#a4a5292af0d5fd95b0808ee930a54e94b" title="Tool, a simple&#45;minded chi square fit." alt="" coords="457,216,609,257"/>
+<area shape="rect" id="node15" href="$d3/d46/classKalmanFastTracking.html#a4b2ba1b9863eed906c3b6746cc9fa88b" title=" " alt="" coords="942,327,1094,368"/>
+<area shape="rect" id="node16" href="$d0/da0/classGeomSvc.html#a70d6df4f7ed2ccc5d9cd7d7e3ef369d7" title=" " alt="" coords="1181,237,1359,263"/>
+<area shape="rect" id="node17" href="$d2/d26/classTracklet.html#ae35d72a1a17879f996f97a31df948db4" title=" " alt="" coords="963,947,1073,974"/>
+<area shape="rect" id="node19" href="$d3/d46/classKalmanFastTracking.html#a6dfe096ad8f31ac3a21c9790ba5b11df" title=" " alt="" coords="457,5,609,47"/>
+<area shape="rect" id="node20" href="$d3/d46/classKalmanFastTracking.html#a1f8aefdf54827f85127e60787ac08053" title=" " alt="" coords="457,333,609,375"/>
+<area shape="rect" id="node22" href="$d3/d46/classKalmanFastTracking.html#a3d431cbee3bb5eaafdeccf80508ec482" title=" " alt="" coords="457,552,609,593"/>
+<area shape="rect" id="node4" href="$d2/d26/classTracklet.html#a9334731bb035e662e55c0d2c93f8fc50" title=" " alt="" coords="1177,922,1363,949"/>
+<area shape="rect" id="node5" href="$d2/d26/classTracklet.html#a131913e324e5e645a4206910e7940415" title=" " alt="" coords="1177,842,1363,869"/>
+<area shape="rect" id="node9" href="$d0/da0/classGeomSvc.html#a69586ef9100d9c369aa5ed31c0e27190" title=" " alt="" coords="941,846,1095,873"/>
+<area shape="rect" id="node12" href="$d3/d46/classKalmanFastTracking.html#a7c857ddd6f4f6efc7d585bc51a78d01b" title=" " alt="" coords="942,663,1094,704"/>
+<area shape="rect" id="node13" href="$d3/d46/classKalmanFastTracking.html#ae2301f2d29aa4ca6c8af4d91a43ba909" title=" " alt="" coords="942,780,1094,821"/>
+<area shape="rect" id="node7" href="$d2/d26/classTracklet.html#a672c114e05b44101e47908de910d836a" title=" " alt="" coords="1175,1063,1365,1090"/>
+<area shape="rect" id="node8" href="$d2/d26/classTracklet.html#a55d048e8a3aef698d8720f3f5d9f46d3" title=" " alt="" coords="1176,1118,1364,1145"/>
+<area shape="rect" id="node11" href="$d2/d26/classTracklet.html#a6f9948f745c65cddaa1bd7cf12ec961a" title=" " alt="" coords="1205,443,1335,470"/>
+<area shape="rect" id="node18" href="$d2/d26/classTracklet.html#af4572336b769b0e1f0b2d679887bab5d" title=" " alt="" coords="1199,393,1341,419"/>
+<area shape="rect" id="node21" href="$d3/d46/classKalmanFastTracking.html#ac550362b5ae3fca6231ae3f0e5259a62" title=" " alt="" coords="689,731,865,772"/>
+<area shape="rect" id="node28" href="$d6/db1/classSRecTrack.html#afd6e6845e0b2b8a6ff5f0c5af61abb55" title=" " alt="" coords="436,1178,631,1205"/>
+<area shape="rect" id="node29" href="$d3/d46/classKalmanFastTracking.html#a34696f18730ace99b63e9ec40abb3f2c" title=" " alt="" coords="921,1049,1115,1091"/>
+<area shape="rect" id="node30" href="$d3/d46/classKalmanFastTracking.html#a84d901e24def2f971d1b011e9f215b88" title=" " alt="" coords="923,495,1113,536"/>
+<area shape="rect" id="node31" href="$d6/db1/classSRecTrack.html#a957d31f0c2d7cb797567ee50725442e0" title="isValid returns non zero if object contains vailid data" alt="" coords="464,922,603,949"/>
+<area shape="rect" id="node32" href="$d2/d26/classTracklet.html#aee5b5f15d7f0485b9bb3897defcea876" title=" " alt="" coords="716,527,839,554"/>
+<area shape="rect" id="node25" href="$d5/d83/classSRawEvent.html#a33468312a0fdd8ebe82ce5f56ce0f1c8" title=" " alt="" coords="685,1493,869,1535"/>
+<area shape="rect" id="node27" href="$d2/d26/classTracklet.html#a517e8e0a3ccc7678ef2a0cdfa5f7168d" title=" " alt="" coords="711,1115,843,1142"/>
+<area shape="rect" id="node26" href="$d5/d83/classSRawEvent.html#acf9e10bcf22a77325de8cfc82dc772e0" title="Gets." alt="" coords="919,1704,1117,1745"/>
+<area shape="rect" id="node34" href="$d3/d46/classKalmanFastTracking.html#adae298d8b0d2aa7ca771228cacd66974" title=" " alt="" coords="942,1232,1094,1273"/>
+<area shape="rect" id="node35" href="$d0/d1e/classPropSegment.html#a96a7957483b26109c869b04e574e1b34" title=" " alt="" coords="1183,1443,1357,1470"/>
+<area shape="rect" id="node36" href="$d5/d72/classTriggerRoad.html#affb1214bf3dda5cbeb9ff171ab681641" title=" " alt="" coords="1183,1494,1357,1521"/>
+<area shape="rect" id="node37" href="$d9/dc3/classKalmanTrack.html#a38e275864291b276a96abd8c50de4282" title="Output to SRecTrack." alt="" coords="917,1602,1119,1629"/>
+<area shape="rect" id="node38" href="$d6/db1/classSRecTrack.html#aee3ab88e74dec6985c2bedefd698f594" title=" " alt="" coords="1167,1627,1373,1654"/>
+<area shape="rect" id="node39" href="$d2/d26/classTracklet.html#aa0ca7e43f4d1359b0068c35299a70db5" title=" " alt="" coords="934,1298,1102,1325"/>
+<area shape="rect" id="node40" href="$d6/db1/classSRecTrack.html#a0ab0c5e06999afb05f1f54f606a2dcfa" title=" " alt="" coords="1180,1549,1360,1575"/>
+<area shape="rect" id="node41" href="$d6/db1/classSRecTrack.html#a990053ff263f582c2e709336b6f0f95c" title=" " alt="" coords="1186,1305,1354,1331"/>
+<area shape="rect" id="node42" href="$d6/db1/classSRecTrack.html#a9bc882c17b41b6dd16fbd92cf89530e8" title=" " alt="" coords="1173,1367,1367,1394"/>
+<area shape="rect" id="node43" href="$d9/dc3/classKalmanTrack.html#a8024f527b25df1f1ec4bb31972473b81" title="Self check to see if it is null." alt="" coords="939,1181,1097,1207"/>
+<area shape="rect" id="node44" href="$d9/dc3/classKalmanTrack.html#a6f7c31741c4b9511563da7a4ef532210" title=" " alt="" coords="925,998,1111,1025"/>
+<area shape="rect" id="node46" href="$d3/d46/classKalmanFastTracking.html#a0190d9515c79f0b717d538205912920a" title=" " alt="" coords="457,1559,609,1600"/>
+<area shape="rect" id="node47" href="$d3/d46/classKalmanFastTracking.html#aa85f2e38eff0fe4a53d365feedb112d1" title=" " alt="" coords="455,1493,611,1535"/>
+<area shape="rect" id="node48" href="$d5/d83/classSRawEvent.html#abd6f13b04ed7155aa744111e9324aa41" title=" " alt="" coords="450,1675,617,1702"/>
+<area shape="rect" id="node49" href="$d5/d83/classSRawEvent.html#a31f6d565298d411c79bc0ddf21d7fd4c" title=" " alt="" coords="434,1727,633,1768"/>
+<area shape="rect" id="node50" href="$d5/d83/classSRawEvent.html#aa5f45fc48942fadce059c3a7f29d577c" title=" " alt="" coords="429,1793,637,1819"/>
 </map>

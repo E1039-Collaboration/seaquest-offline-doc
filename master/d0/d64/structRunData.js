@@ -30,5 +30,6 @@ var structRunData =
     [ "run_id", "d0/d64/structRunData.html#a0f28a4262cfcfd9df0da19228c4c1275", null ],
     [ "trig_bit", "d0/d64/structRunData.html#a2bf6bd0af3516d3285d84cdaab4910e4", null ],
     [ "utime_b", "d0/d64/structRunData.html#a03aa049b0da3d53d8cefe180ad0b461c", null ],
-    [ "utime_e", "d0/d64/structRunData.html#abb77d945530072289674ec74c3ee076f", null ]
+    [ "utime_e", "d0/d64/structRunData.html#abb77d945530072289674ec74c3ee076f", null ],
+    [ "v1495_id", "d0/d64/structRunData.html#a0a21f49668a4ce88d3201981059b94a8", null ]
 ];

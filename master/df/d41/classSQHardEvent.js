@@ -14,7 +14,7 @@ var classSQHardEvent =
     [ "get_n_board_v1495", "df/d41/classSQHardEvent.html#a6636e570a79dbe6661e03589f291c303", null ],
     [ "get_raw_matrix", "df/d41/classSQHardEvent.html#aa157dd9b75629d4e73ecbcbd433de635", null ],
     [ "get_vme_time", "df/d41/classSQHardEvent.html#a71714364c9bf9badeabed448f76c1f13", null ],
-    [ "identify", "df/d41/classSQHardEvent.html#a9558d2e1b576fcaf88ed86851b0acafc", null ],
+    [ "identify", "df/d41/classSQHardEvent.html#acbc377426c8b4a1695ad15cc4cecc55d", null ],
     [ "isValid", "df/d41/classSQHardEvent.html#ae79873235818ff84d1076f9334638c30", null ],
     [ "Reset", "df/d41/classSQHardEvent.html#afe90f4fb1054dda9d7b4bb625b3a005b", null ],
     [ "set_after_inh_matrix", "df/d41/classSQHardEvent.html#a29987a0751349db0edc52d4c4996b3ab", null ],
