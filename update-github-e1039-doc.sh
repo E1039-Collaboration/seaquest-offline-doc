@@ -8,7 +8,7 @@ BN_PROG=$(basename $0 .sh)
 DIR_WORK=/dev/shm/$USER/$BN_PROG
 FN_LOG=$DIR_WORK/log-update.txt
 
-if [ $(hostname -s) != 'spinquestana1' ] ; then
+if [ $(hostname -s) != 'spinquestgpvm01' ] ; then
     echo "Usable only on 'spinquestana1'.  Abort."
     exit
 fi
