@@ -86,21 +86,21 @@ $(document).ready(function(){initNavTree('d7/df8/md__dev_shm_kenichi_update_gith
 <div class="title">e1039-analysis/RecoData2024 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A sample program to analyze the officially-reconstructed commissioning data. It can also carry out the reconstruction with customizable configurations. It analyzes the good runs and spills listed in <code>work/list_run_spill.txt</code>, which were defined in <a href="https://seaquest-docdb.fnal.gov/cgi-bin/sso/ShowDocument?docid=10854&amp;version=2">DocDB 10854-v2</a>.</p>
-<h1><a class="anchor" id="autotoc_md180"></a>
+<div class="textblock"><p>A sample program to analyze reconstructed commissioning data. It can also carry out the reconstruction with customizable configurations. It analyzes the good runs and spills listed in <code>work_*/list_run_spill.txt</code>, which you can replace with predefined or custom lists to analyze what you need.</p>
+<h1><a class="anchor" id="autotoc_md184"></a>
 Shell Environment and Source Code</h1>
 <p>This program depends on the E1039 software. You need source <code>setup.sh</code> every time you open a new text terminal to use the program. A sub-directory, <code>src/</code>, contains a <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module for analysis. It should be built via two commands, <code>cmake-this</code> and <code>make-this</code>, which are defined in <code>setup.sh</code>. They can be executed at any directory.</p>
 <div class="fragment"><div class="line">cd /path/to/your/e1039-analysis/RecoData2024</div>
 <div class="line">source setup.sh</div>
 <div class="line">cmake-this</div>
 <div class="line">make-this</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md181"></a>
-Analysis of Officially-Reconstructed Data</h1>
-<p>The officially-reconstructed data are stored under <code>/pnfs/e1039/persistent/users/spinquestpro/commisioning_recodata/</code>. A set of scripts/macros for analysis is prepared under <code>work_ana/</code>. Its usage is described in <code><a class="el" href="../../d7/dd7/e1039-analysis_2RecoData2024_2work__ana_2README_8md.html">work_ana/README.md</a></code>.</p>
-<h1><a class="anchor" id="autotoc_md182"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md185"></a>
+Analysis of Reconstructed Data</h1>
+<p>There are several versions of reconstructed data ready for your analysis. A set of scripts/macros for analysis is prepared under <code>work_ana/</code>. Its usage is described in <code><a class="el" href="../../d7/dd7/e1039-analysis_2RecoData2024_2work__ana_2README_8md.html">work_ana/README.md</a></code>.</p>
+<h1><a class="anchor" id="autotoc_md186"></a>
 Reconstruction of Data</h1>
 <p>A set of scripts/macros to reconstruct the commissioning data is prepared under <code>work_reco/</code>. Its usage is described in <code><a class="el" href="../../d0/d18/e1039-analysis_2RecoData2024_2work__reco_2README_8md.html">work_reco/README.md</a></code>. It reads the spill-level data files stored in <code>/pnfs/e1039/persistent/users/kenichi/dst</code>.</p>
-<h1><a class="anchor" id="autotoc_md183"></a>
+<h1><a class="anchor" id="autotoc_md187"></a>
 Contact</h1>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no0'+'52'+'4@g'+'ma'+'il.'+'co'+'m'; return false;">knaka<span style="display: none;">.nosp@m.</span>no05<span style="display: none;">.nosp@m.</span>24@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a> </p>
 </div></div><!-- contents -->
@@ -113,7 +113,7 @@ Contact</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:16</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

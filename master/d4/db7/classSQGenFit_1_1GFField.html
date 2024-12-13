@@ -118,8 +118,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03d5ff79327b26a696584e41dd296a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa25c98affc08f5b4aa26c8c75b08aea9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html#aa25c98affc08f5b4aa26c8c75b08aea9">get</a> (const double &amp;posX, const double &amp;posY, const double &amp;posZ, double &amp;Bx, double &amp;By, double &amp;Bz) const</td></tr>
 <tr class="separator:aa25c98affc08f5b4aa26c8c75b08aea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d7a5d9cab3ff41ceacdcae467e1e832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html#a1d7a5d9cab3ff41ceacdcae467e1e832">setScale</a> (double scale)</td></tr>
-<tr class="separator:a1d7a5d9cab3ff41ceacdcae467e1e832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1efc620f86396a436ea546d48aa253"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html#a4a1efc620f86396a436ea546d48aa253">setScale</a> (double scale=1.)</td></tr>
+<tr class="separator:a4a1efc620f86396a436ea546d48aa253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ea407f778aef6cc41a1be32966870a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html#a9ea407f778aef6cc41a1be32966870a4">setOffset</a> (double offset=0.)</td></tr>
+<tr class="separator:a9ea407f778aef6cc41a1be32966870a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a3ca7d8d96316f4aa074bc86728886c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html#a3a3ca7d8d96316f4aa074bc86728886c">disable</a> ()</td></tr>
 <tr class="separator:a3a3ca7d8d96316f4aa074bc86728886c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -198,7 +200,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d9d/GFField_8h_source.html#l00021">21</a> of file <a class="el" href="../../db/d9d/GFField_8h_source.html">GFField.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d9d/GFField_8h_source.html#l00022">22</a> of file <a class="el" href="../../db/d9d/GFField_8h_source.html">GFField.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +254,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/GFField_8cxx_source.html#l00027">27</a> of file <a class="el" href="../../df/dd9/GFField_8cxx_source.html">GFField.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/GFField_8cxx_source.html#l00030">30</a> of file <a class="el" href="../../df/dd9/GFField_8cxx_source.html">GFField.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">PHField::GetFieldValue()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -282,12 +284,40 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/GFField_8cxx_source.html#l00015">15</a> of file <a class="el" href="../../df/dd9/GFField_8cxx_source.html">GFField.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/GFField_8cxx_source.html#l00018">18</a> of file <a class="el" href="../../df/dd9/GFField_8cxx_source.html">GFField.cxx</a>.</p>
 
 </div>
 </div>
-<a id="a1d7a5d9cab3ff41ceacdcae467e1e832"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d7a5d9cab3ff41ceacdcae467e1e832">&#9670;&nbsp;</a></span>setScale()</h2>
+<a id="a9ea407f778aef6cc41a1be32966870a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ea407f778aef6cc41a1be32966870a4">&#9670;&nbsp;</a></span>setOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SQGenFit::GFField::setOffset </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>0.</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d9d/GFField_8h_source.html#l00021">21</a> of file <a class="el" href="../../db/d9d/GFField_8h_source.html">GFField.h</a>.</p>
+
+</div>
+</div>
+<a id="a4a1efc620f86396a436ea546d48aa253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a1efc620f86396a436ea546d48aa253">&#9670;&nbsp;</a></span>setScale()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,7 +329,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void SQGenFit::GFField::setScale </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>scale</em></td><td>)</td>
+          <td class="paramname"><em>scale</em> = <code>1.</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -328,7 +358,7 @@ Public Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d7/d95/namespaceSQGenFit.html">SQGenFit</a></li><li class="navelem"><a class="el" href="../../d4/db7/classSQGenFit_1_1GFField.html">GFField</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:18</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

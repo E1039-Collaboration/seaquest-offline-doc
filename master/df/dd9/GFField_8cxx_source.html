@@ -94,52 +94,55 @@ $(document).ready(function(){initNavTree('df/dd9/GFField_8cxx_source.html','../.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d7/d95/namespaceSQGenFit.html">    7</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d7/d95/namespaceSQGenFit.html">SQGenFit</a></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#a5e303554d4c3115e7b0c9e8e48eba28a">    9</a></span>&#160;<a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a5e303554d4c3115e7b0c9e8e48eba28a">GFField::GFField</a>(<span class="keyword">const</span> <a class="code" href="../../da/ddc/classPHField.html">PHField</a>* field): _field(field)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  _scale = 1.;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  _disable = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">   15</a></span>&#160;TVector3 <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">GFField::get</a>(<span class="keyword">const</span> TVector3&amp; pos)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="keywordtype">double</span> x = pos.X();</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  <span class="keywordtype">double</span> y = pos.Y();</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="keywordtype">double</span> z = pos.Z();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">double</span> Bx, By, Bz;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">get</a>(x, y, z, Bx, By, Bz);</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#a5e303554d4c3115e7b0c9e8e48eba28a">    9</a></span>&#160;<a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a5e303554d4c3115e7b0c9e8e48eba28a">GFField::GFField</a>(<span class="keyword">const</span> <a class="code" href="../../da/ddc/classPHField.html">PHField</a>* field): </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;  _field(field),</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  _scale(1.),</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  _offset(0.) </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  _scale = 1.;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  _disable = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">   18</a></span>&#160;TVector3 <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">GFField::get</a>(<span class="keyword">const</span> TVector3&amp; pos)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="keywordtype">double</span> x = pos.X();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  <span class="keywordtype">double</span> y = pos.Y();</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  <span class="keywordtype">double</span> z = pos.Z();</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">return</span> TVector3(Bx, By, Bz);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordtype">double</span> Bx, By, Bz;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;  <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">get</a>(x, y, z, Bx, By, Bz);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#aa25c98affc08f5b4aa26c8c75b08aea9">   27</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">GFField::get</a>(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; x, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; y, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; z, <span class="keywordtype">double</span>&amp; Bx, <span class="keywordtype">double</span>&amp; By, <span class="keywordtype">double</span>&amp; Bz)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword"></span>{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keywordflow">if</span>(_disable)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    Bx = 0.;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    By = 0.;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    Bz = 0.;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> Point[] = {x*CLHEP::cm, y*CLHEP::cm, z*CLHEP::cm, 0.};</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordtype">double</span> Bfield[6];</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 6; ++i)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    Bfield[i] = 0.;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  _field-&gt;<a class="code" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">GetFieldValue</a>(Point, Bfield);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  Bx = _scale*Bfield[0]/CLHEP::kilogauss;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  By = _scale*Bfield[1]/CLHEP::kilogauss;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  Bz = _scale*Bfield[2]/CLHEP::kilogauss;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <span class="keywordflow">return</span> TVector3(Bx, By, Bz);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d4/db7/classSQGenFit_1_1GFField.html#aa25c98affc08f5b4aa26c8c75b08aea9">   30</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">GFField::get</a>(<span class="keyword">const</span> <span class="keywordtype">double</span>&amp; x, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; y, <span class="keyword">const</span> <span class="keywordtype">double</span>&amp; z, <span class="keywordtype">double</span>&amp; Bx, <span class="keywordtype">double</span>&amp; By, <span class="keywordtype">double</span>&amp; Bz)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keywordflow">if</span>(_disable)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Bx = 0.;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    By = 0.;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    Bz = 0.;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> Point[] = {x*CLHEP::cm, y*CLHEP::cm, (z + _offset)*CLHEP::cm, 0.};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">double</span> Bfield[6];</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 6; ++i)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    Bfield[i] = 0.;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  _field-&gt;<a class="code" href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">GetFieldValue</a>(Point, Bfield);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  Bx = _scale*Bfield[0]/CLHEP::kilogauss;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  By = _scale*Bfield[1]/CLHEP::kilogauss;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  Bz = _scale*Bfield[2]/CLHEP::kilogauss;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="ttc" id="aGFField_8h_html"><div class="ttname"><a href="../../db/d9d/GFField_8h.html">GFField.h</a></div></div>
 <div class="ttc" id="aclassPHField_html"><div class="ttname"><a href="../../da/ddc/classPHField.html">PHField</a></div><div class="ttdoc">transient DST object for field storage and access</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2a/PHField_8h_source.html#l00013">PHField.h:14</a></div></div>
 <div class="ttc" id="aclassPHField_html_af517f905af775d9045dfca957739fcbb"><div class="ttname"><a href="../../da/ddc/classPHField.html#af517f905af775d9045dfca957739fcbb">PHField::GetFieldValue</a></div><div class="ttdeci">virtual void GetFieldValue(const double Point[4], double *Bfield) const =0</div></div>
-<div class="ttc" id="aclassSQGenFit_1_1GFField_html_a03d5ff79327b26a696584e41dd296a7c"><div class="ttname"><a href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">SQGenFit::GFField::get</a></div><div class="ttdeci">TVector3 get(const TVector3 &amp;pos) const</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd9/GFField_8cxx_source.html#l00015">GFField.cxx:15</a></div></div>
+<div class="ttc" id="aclassSQGenFit_1_1GFField_html_a03d5ff79327b26a696584e41dd296a7c"><div class="ttname"><a href="../../d4/db7/classSQGenFit_1_1GFField.html#a03d5ff79327b26a696584e41dd296a7c">SQGenFit::GFField::get</a></div><div class="ttdeci">TVector3 get(const TVector3 &amp;pos) const</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd9/GFField_8cxx_source.html#l00018">GFField.cxx:18</a></div></div>
 <div class="ttc" id="aclassSQGenFit_1_1GFField_html_a5e303554d4c3115e7b0c9e8e48eba28a"><div class="ttname"><a href="../../d4/db7/classSQGenFit_1_1GFField.html#a5e303554d4c3115e7b0c9e8e48eba28a">SQGenFit::GFField::GFField</a></div><div class="ttdeci">GFField(const PHField *field)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd9/GFField_8cxx_source.html#l00009">GFField.cxx:9</a></div></div>
 <div class="ttc" id="anamespaceSQGenFit_html"><div class="ttname"><a href="../../d7/d95/namespaceSQGenFit.html">SQGenFit</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd9/GFField_8cxx_source.html#l00007">GFField.cxx:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -152,7 +155,7 @@ $(document).ready(function(){initNavTree('df/dd9/GFField_8cxx_source.html','../.
 		<li class="navelem"><a class="el" href="../../dir_c252d373c2dfd5bf2b63283e19448f22.html">e1039-core</a></li><li class="navelem"><a class="el" href="../../dir_580285352ad11749b46c2981d6aa0acd.html">packages</a></li><li class="navelem"><a class="el" href="../../dir_0768172c5e7ec3ed923ec3391ea45cc3.html">reco</a></li><li class="navelem"><a class="el" href="../../dir_c6124f037f00efbbb93bc8fd4b325e5f.html">SQGenFit</a></li><li class="navelem"><a class="el" href="../../df/dd9/GFField_8cxx.html">GFField.cxx</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:15</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:32</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

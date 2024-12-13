@@ -126,6 +126,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1ccc8264b202aa4aae43a50eb5f303a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d73/classCalibDriftDist.html#a1ccc8264b202aa4aae43a50eb5f303a6">End</a> (<a class="el" href="../../d5/dca/classPHCompositeNode.html">PHCompositeNode</a> *topNode)</td></tr>
 <tr class="memdesc:a1ccc8264b202aa4aae43a50eb5f303a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at the end of all processing.  <a href="../../d4/d73/classCalibDriftDist.html#a1ccc8264b202aa4aae43a50eb5f303a6">More...</a><br /></td></tr>
 <tr class="separator:a1ccc8264b202aa4aae43a50eb5f303a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e76cfd6afeea6daca52b2c55efef78c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d73/classCalibDriftDist.html#a6e76cfd6afeea6daca52b2c55efef78c">SkipCalibration</a> ()</td></tr>
+<tr class="memdesc:a6e76cfd6afeea6daca52b2c55efef78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have this module skip the calibration. Useful when you only delete out-of-time hits.  <a href="../../d4/d73/classCalibDriftDist.html#a6e76cfd6afeea6daca52b2c55efef78c">More...</a><br /></td></tr>
+<tr class="separator:a6e76cfd6afeea6daca52b2c55efef78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232b753a1392b73411730501e9ddc38c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d73/classCalibDriftDist.html#a232b753a1392b73411730501e9ddc38c">DeleteOutTimeHit</a> ()</td></tr>
+<tr class="memdesc:a232b753a1392b73411730501e9ddc38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Have this module delete out-of-time hits.  <a href="../../d4/d73/classCalibDriftDist.html#a232b753a1392b73411730501e9ddc38c">More...</a><br /></td></tr>
+<tr class="separator:a232b753a1392b73411730501e9ddc38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa879f9628c460834f598e690fc41605d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d73/classCalibDriftDist.html#aa879f9628c460834f598e690fc41605d">SetResolution</a> (const double reso_d0, const double reso_d1, const double reso_d2, const double reso_d3p, const double reso_d3m)</td></tr>
 <tr class="memdesc:aa879f9628c460834f598e690fc41605d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the plane resolutions in cm.  <a href="../../d4/d73/classCalibDriftDist.html#aa879f9628c460834f598e690fc41605d">More...</a><br /></td></tr>
 <tr class="separator:aa879f9628c460834f598e690fc41605d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,9 +201,15 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module to calibrate the drift distance and also the in-time window of the chambers and the prop tube. </p>
-<p>This module automatically selects a proper set of calibration parameters based on the run number. Only when necessary, you can manually give a parameter set via <code><a class="el" href="../../d4/d73/classCalibDriftDist.html#aeb0f16a5f105596dc3cec0bc6762980d">ReadParamFromFile()</a></code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00012">12</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
+<p>This module automatically selects a proper set of calibration parameters based on the run number. Only when necessary, you can manually give a parameter set via <code><a class="el" href="../../d4/d73/classCalibDriftDist.html#aeb0f16a5f105596dc3cec0bc6762980d">ReadParamFromFile()</a></code>.</p>
+<div class="fragment"><div class="line"><span class="keyword">auto</span> cal_dd = <span class="keyword">new</span> <a class="code" href="../../d4/d73/classCalibDriftDist.html#aa2d1274abed7581249b971af8813fe1f">CalibDriftDist</a>();</div>
+<div class="line"><span class="comment">//cal_dd-&gt;Verbosity(10);</span></div>
+<div class="line"><span class="comment">//cal_dd-&gt;SkipCalibration(); // Uncomment this when needed.</span></div>
+<div class="line"><span class="comment">//cal_dd-&gt;DeleteOutTimeHit(); // Uncomment this when needed.</span></div>
+<div class="line">se-&gt;registerSubsystem(cal_dd);</div>
+<div class="ttc" id="aclassCalibDriftDist_html_aa2d1274abed7581249b971af8813fe1f"><div class="ttname"><a href="../../d4/d73/classCalibDriftDist.html#aa2d1274abed7581249b971af8813fe1f">CalibDriftDist::CalibDriftDist</a></div><div class="ttdeci">CalibDriftDist(const std::string &amp;name=&quot;CalibDriftDist&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d81/CalibDriftDist_8cc_source.html#l00016">CalibDriftDist.cc:16</a></div></div>
+</div><!-- fragment --> 
+<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00020">20</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa2d1274abed7581249b971af8813fe1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2d1274abed7581249b971af8813fe1f">&#9670;&nbsp;</a></span>CalibDriftDist()</h2>
@@ -242,11 +254,40 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00031">31</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00033">33</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a232b753a1392b73411730501e9ddc38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a232b753a1392b73411730501e9ddc38c">&#9670;&nbsp;</a></span>DeleteOutTimeHit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CalibDriftDist::DeleteOutTimeHit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Have this module delete out-of-time hits. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00045">45</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
+
+</div>
+</div>
 <a id="a1ccc8264b202aa4aae43a50eb5f303a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ccc8264b202aa4aae43a50eb5f303a6">&#9670;&nbsp;</a></span>End()</h2>
 
@@ -275,7 +316,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a99bfd765c7cc22d20a8e4feace7461e7">SubsysReco</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00121">121</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00153">153</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>.</p>
 
@@ -304,7 +345,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00036">36</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00049">49</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
 
 </div>
 </div>
@@ -335,7 +376,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a6670c0a093dd2c2bdd44f8fc6f9ba8e8">SubsysReco</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00036">36</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00038">38</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00063">RunParamBase::ReadFromLocalFile()</a>, and <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00028">RunParamBase::SetMapID()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -376,7 +417,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#ac60499808487d0dcd1e127d262cf25f9">SubsysReco</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00046">46</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00048">48</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
 <p class="reference">References <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00007">Fun4AllReturnCodes::ABORTEVENT</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00065">Plane::detectorName</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00117">PHFlag::get_IntFlag()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00027">RunParamBase::GetMapID()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00025">RunParamBase::GetParamID()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00225">GeomSvc::getPlanePtr()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00102">RunParamBase::ReadFromDB()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00102">Plane::resolution</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts::set_CharFlag()</a>, <a class="el" href="../../d8/ded/classSQParamDeco.html#aeea4a68329ebf9abf94907048378102b">SQParamDeco::set_variable()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00031">RunParamBase::SetMapIDbyDB()</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -418,9 +459,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d0/d32/classSubsysReco.html#a0fa6eedc5f703be3bb0535851363b9f2">SubsysReco</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00094">94</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">100</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00059">SQHitVector::begin()</a>, <a class="el" href="../../db/ddd/SQHitVector_8h_source.html#l00060">SQHitVector::end()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00054">SQHit::get_tdc_time()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00643">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00157">CalibParamXT::GetParam()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00764">GeomSvc::isChamber()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00784">GeomSvc::isPropTube()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00091">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_pos()</a>, <a class="el" href="../../d7/dc9/CalibParamXT_8h_source.html#l00020">CalibParamXT::Set::T1</a>, and <a class="el" href="../../d7/dc9/CalibParamXT_8h_source.html#l00021">CalibParamXT::Set::t2x</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dbc/classSQHitVector.html#ab80ab078afa096098e099be6767ac2f4">SQHitVector::begin()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#ab6c79c3e8a48176ebc5b0415067d862b">SQHitVector::end()</a>, <a class="el" href="../../d9/dbc/classSQHitVector.html#a34b62459ae5860972f0839b43eac52b0">SQHitVector::erase()</a>, <a class="el" href="../../da/dc1/Fun4AllReturnCodes_8h_source.html#l00008">Fun4AllReturnCodes::EVENT_OK</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00042">SQHit::get_detector_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00045">SQHit::get_element_id()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00054">SQHit::get_tdc_time()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00643">GeomSvc::getMeasurement()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00157">CalibParamXT::GetParam()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc::instance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00090">SQHit::is_in_time()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00764">GeomSvc::isChamber()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00784">GeomSvc::isPropTube()</a>, <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00023">Fun4AllBase::Name()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00058">SQHit::set_drift_distance()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00091">SQHit::set_in_time()</a>, <a class="el" href="../../d1/ddf/SQHit_8h_source.html#l00061">SQHit::set_pos()</a>, <a class="el" href="../../d7/dc9/CalibParamXT_8h_source.html#l00020">CalibParamXT::Set::T1</a>, <a class="el" href="../../d7/dc9/CalibParamXT_8h_source.html#l00021">CalibParamXT::Set::t2x</a>, and <a class="el" href="../../d2/de7/Fun4AllBase_8h_source.html#l00064">Fun4AllBase::Verbosity()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
@@ -448,7 +489,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00139">139</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00171">171</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
 
 </div>
 </div>
@@ -499,7 +540,36 @@ Additional Inherited Members</h2></td></tr>
 <p>Set the plane resolutions in cm. </p>
 <p>The resolution values are passed to <code><a class="el" href="../../d0/da0/classGeomSvc.html" title="User interface class about the geometry of detector planes.">GeomSvc</a></code> in <code><a class="el" href="../../d4/d73/classCalibDriftDist.html#ab8f98ba3b01859d64f958f280d0fe22f">InitRun()</a></code> later. They will be used in <code><a class="el" href="../../d2/d26/classTracklet.html#af4572336b769b0e1f0b2d679887bab5d">Tracklet::calcChisq()</a></code> of <code><a class="el" href="../../d0/d06/FastTracklet_8cxx.html">FastTracklet.cxx</a></code> for example. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00130">130</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00162">162</a> of file <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html">CalibDriftDist.cc</a>.</p>
+
+</div>
+</div>
+<a id="a6e76cfd6afeea6daca52b2c55efef78c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e76cfd6afeea6daca52b2c55efef78c">&#9670;&nbsp;</a></span>SkipCalibration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CalibDriftDist::SkipCalibration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Have this module skip the calibration. Useful when you only delete out-of-time hits. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html#l00043">43</a> of file <a class="el" href="../../d3/de4/CalibDriftDist_8h_source.html">CalibDriftDist.h</a>.</p>
 
 </div>
 </div>
@@ -517,7 +587,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d4/d73/classCalibDriftDist.html">CalibDriftDist</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:16</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

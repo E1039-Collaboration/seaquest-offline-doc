@@ -4,6 +4,11 @@ var dir_5d49ee15ae2cc960c483ba09ce84fe01 =
     [ "EventReducer.h", "dc/d5a/EventReducer_8h.html", [
       [ "EventReducer", "d5/dda/classEventReducer.html", "d5/dda/classEventReducer" ]
     ] ],
+    [ "Fun4AllSpillSRawEventOutputManager.cxx", "d4/df0/Fun4AllSpillSRawEventOutputManager_8cxx.html", null ],
+    [ "Fun4AllSpillSRawEventOutputManager.h", "dc/d09/Fun4AllSpillSRawEventOutputManager_8h.html", [
+      [ "Fun4AllSpillSRawEventOutputManager", "d1/db1/classFun4AllSpillSRawEventOutputManager.html", "d1/db1/classFun4AllSpillSRawEventOutputManager" ]
+    ] ],
+    [ "Fun4AllSpillSRawEventOutputManagerLinkDef.h", "d2/d34/Fun4AllSpillSRawEventOutputManagerLinkDef_8h.html", null ],
     [ "Fun4AllSRawEventInputManager.cxx", "d5/dc7/Fun4AllSRawEventInputManager_8cxx.html", null ],
     [ "Fun4AllSRawEventInputManager.h", "d5/db3/Fun4AllSRawEventInputManager_8h.html", [
       [ "Fun4AllSRawEventInputManager", "d5/dd4/classFun4AllSRawEventInputManager.html", "d5/dd4/classFun4AllSRawEventInputManager" ]
@@ -27,6 +32,10 @@ var dir_5d49ee15ae2cc960c483ba09ce84fe01 =
       [ "SQReco", "df/df2/classSQReco.html", "df/df2/classSQReco" ]
     ] ],
     [ "SQRecoLinkDef.h", "dd/ddd/SQRecoLinkDef_8h.html", null ],
+    [ "SQTrackletFitter.cxx", "d3/de5/SQTrackletFitter_8cxx.html", null ],
+    [ "SQTrackletFitter.h", "d0/d2c/SQTrackletFitter_8h.html", [
+      [ "SQTrackletFitter", "da/db3/classSQTrackletFitter.html", "da/db3/classSQTrackletFitter" ]
+    ] ],
     [ "SQTrackletReco.cxx", "df/d94/SQTrackletReco_8cxx.html", null ],
     [ "SQTrackletReco.h", "d4/dd5/SQTrackletReco_8h.html", [
       [ "SQTrackletReco", "dd/d62/classSQTrackletReco.html", "dd/d62/classSQTrackletReco" ]
@@ -37,6 +46,11 @@ var dir_5d49ee15ae2cc960c483ba09ce84fe01 =
       [ "SQTruthVertexing", "d8/d20/classSQTruthVertexing.html", "d8/d20/classSQTruthVertexing" ]
     ] ],
     [ "SQTruthVertexingLinkDef.h", "de/d15/SQTruthVertexingLinkDef_8h.html", null ],
+    [ "SQVertexing.cxx", "d8/d60/SQVertexing_8cxx.html", null ],
+    [ "SQVertexing.h", "d5/d55/SQVertexing_8h.html", [
+      [ "SQVertexing", "d5/d65/classSQVertexing.html", "d5/d65/classSQVertexing" ]
+    ] ],
+    [ "SQVertexingLinkDef.h", "d2/dca/SQVertexingLinkDef_8h.html", null ],
     [ "TriggerAnalyzer.cxx", "d3/dfc/TriggerAnalyzer_8cxx.html", "d3/dfc/TriggerAnalyzer_8cxx" ],
     [ "TriggerAnalyzer.h", "d6/d97/TriggerAnalyzer_8h.html", "d6/d97/TriggerAnalyzer_8h" ],
     [ "UtilSRawEvent.cxx", "dd/d0b/UtilSRawEvent_8cxx.html", null ],

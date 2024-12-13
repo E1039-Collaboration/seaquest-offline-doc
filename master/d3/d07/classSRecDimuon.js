@@ -1,6 +1,6 @@
 var classSRecDimuon =
 [
-    [ "calcVariables", "d3/d07/classSRecDimuon.html#ac53e58ade80e9739db859c06760de431", null ],
+    [ "calcVariables", "d3/d07/classSRecDimuon.html#a23f3ad5128df92235d23c3b684555f99", null ],
     [ "Clone", "d3/d07/classSRecDimuon.html#af28c5c8dfb5c87321e6a349d0d369db6", null ],
     [ "get_chisq", "d3/d07/classSRecDimuon.html#ab2033e563cf5296aa943610cd9a430e0", null ],
     [ "get_dimuon_id", "d3/d07/classSRecDimuon.html#a1e6396904012a38bcefe44b50f1ea64c", null ],
@@ -41,9 +41,13 @@ var classSRecDimuon =
     [ "mass", "d3/d07/classSRecDimuon.html#ab7d64de79dbdc4624fde028f7dd66195", null ],
     [ "mass_single", "d3/d07/classSRecDimuon.html#a04c1aaf4dcb7bd0a2cef534dbbf2ebf5", null ],
     [ "p_neg", "d3/d07/classSRecDimuon.html#a917641855d8ff79aca8a282c3d1161e7", null ],
+    [ "p_neg_dump", "d3/d07/classSRecDimuon.html#ae86547488a4fea251839be55a26f1532", null ],
     [ "p_neg_single", "d3/d07/classSRecDimuon.html#a7e8bd27a1b5210c7282452349e084903", null ],
+    [ "p_neg_target", "d3/d07/classSRecDimuon.html#a29ab8f706f607f6bf1aa40d4c99a7752", null ],
     [ "p_pos", "d3/d07/classSRecDimuon.html#aa42c0c2f1e88a8c357e24680527b938d", null ],
+    [ "p_pos_dump", "d3/d07/classSRecDimuon.html#ad40fe89d4ccd82d9c5a9b46b9de15edb", null ],
     [ "p_pos_single", "d3/d07/classSRecDimuon.html#a9c73821e87b65f5f77ad640c5dad44dc", null ],
+    [ "p_pos_target", "d3/d07/classSRecDimuon.html#a892ef32c13538a5c38abdd780b71542f", null ],
     [ "phi", "d3/d07/classSRecDimuon.html#af740d24a3bd9dba3cff2adc5837e5582", null ],
     [ "proj_dump_neg", "d3/d07/classSRecDimuon.html#a82a120d123fb1315d3ad594e1acbedb2", null ],
     [ "proj_dump_pos", "d3/d07/classSRecDimuon.html#a7bdc3c66ceaa1d8f2685087a533d9a08", null ],

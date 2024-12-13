@@ -253,7 +253,7 @@ $(document).ready(function(){initNavTree('da/d95/Fun4AllTrackQAv1InputManager_8c
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#ac4a04a2324c69db1a38fa0b19040b361">set_drift_distance</a>(<a class="code" href="../../d1/dbe/classFun4AllTrackQAv1InputManager.html#a59984931e8f2f88cecd5a765a86a3472">driftDistance</a>[i_hit]);</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#af76759313e6258d1a2c526591ef79aa6">set_in_time</a>(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    hit-&gt;<a class="code" href="../../de/d79/classSQHit.html#a7549b98c01465679c34eedaab71381e6">set_pos</a>(0);</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../d1/dbe/classFun4AllTrackQAv1InputManager.html#a5c6885adf42149e34365dea391d40a90">hit_vec</a>-&gt;<a class="code" href="../../d9/dbc/classSQHitVector.html#aeefecc59b07f9082de2629256f5d4675">push_back</a>(hit);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../d1/dbe/classFun4AllTrackQAv1InputManager.html#a5c6885adf42149e34365dea391d40a90">hit_vec</a>-&gt;<a class="code" href="../../d9/dbc/classSQHitVector.html#ae19e25eb6c51cbdd56d80cb865ffb6ef">push_back</a>(hit);</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keyword">delete</span> hit;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  }</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
@@ -437,7 +437,7 @@ $(document).ready(function(){initNavTree('da/d95/Fun4AllTrackQAv1InputManager_8c
 <div class="ttc" id="aclassSQEvent_html_a9b019f1f9d2c475c9046fa4f112c6d36"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#a9b019f1f9d2c475c9046fa4f112c6d36">SQEvent::set_run_id</a></div><div class="ttdeci">virtual void set_run_id(const int a)=0</div></div>
 <div class="ttc" id="aclassSQEvent_html_abb5b1e5eb1b6492822c2236a78b6b3e9"><div class="ttname"><a href="../../d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent::set_trigger</a></div><div class="ttdeci">virtual void set_trigger(const SQEvent::TriggerMask i, const bool a)=0</div></div>
 <div class="ttc" id="aclassSQHitVector__v1_html"><div class="ttname"><a href="../../d9/dbf/classSQHitVector__v1.html">SQHitVector_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dec/SQHitVector__v1_8h_source.html#l00018">SQHitVector_v1.h:18</a></div></div>
-<div class="ttc" id="aclassSQHitVector_html_aeefecc59b07f9082de2629256f5d4675"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html#aeefecc59b07f9082de2629256f5d4675">SQHitVector::push_back</a></div><div class="ttdeci">virtual void push_back(const SQHit *hit)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddd/SQHitVector_8h_source.html#l00055">SQHitVector.h:55</a></div></div>
+<div class="ttc" id="aclassSQHitVector_html_ae19e25eb6c51cbdd56d80cb865ffb6ef"><div class="ttname"><a href="../../d9/dbc/classSQHitVector.html#ae19e25eb6c51cbdd56d80cb865ffb6ef">SQHitVector::push_back</a></div><div class="ttdeci">virtual void push_back(const SQHit *hit)=0</div></div>
 <div class="ttc" id="aclassSQHit__v1_html"><div class="ttname"><a href="../../d3/d2e/classSQHit__v1.html">SQHit_v1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3e/SQHit__v1_8h_source.html#l00017">SQHit_v1.h:17</a></div></div>
 <div class="ttc" id="aclassSQHit_html"><div class="ttname"><a href="../../de/d79/classSQHit.html">SQHit</a></div><div class="ttdoc">An SQ interface class to hold one detector hit.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00020">SQHit.h:20</a></div></div>
 <div class="ttc" id="aclassSQHit_html_a3ba426998ce6bd9061e3d821dbf8d80e"><div class="ttname"><a href="../../de/d79/classSQHit.html#a3ba426998ce6bd9061e3d821dbf8d80e">SQHit::set_element_id</a></div><div class="ttdeci">virtual void set_element_id(const short a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/ddf/SQHit_8h_source.html#l00046">SQHit.h:46</a></div></div>
@@ -475,7 +475,7 @@ $(document).ready(function(){initNavTree('da/d95/Fun4AllTrackQAv1InputManager_8c
 		<li class="navelem"><a class="el" href="../../dir_39f21cb5a780a113fea29b03e1144b41.html">e1039-analysis</a></li><li class="navelem"><a class="el" href="../../dir_dd1a9c7f9c2b5b25b7157eb0917a9c6f.html">AnaCustomFile</a></li><li class="navelem"><a class="el" href="../../dir_c406c2968ea9c4dac2ce7caac8b5a194.html">src</a></li><li class="navelem"><a class="el" href="../../da/d95/Fun4AllTrackQAv1InputManager_8cc.html">Fun4AllTrackQAv1InputManager.cc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:13</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:31</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

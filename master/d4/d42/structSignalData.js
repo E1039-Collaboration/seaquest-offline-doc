@@ -3,6 +3,7 @@ var structSignalData =
     [ "SignalData", "d4/d42/structSignalData.html#aae78bded8929278f59ccd3d4b1d863f6", null ],
     [ "~SignalData", "d4/d42/structSignalData.html#a8add337577f6b1a2eeece9f85504ff02", null ],
     [ "ClassDef", "d4/d42/structSignalData.html#af8b332f8141f364e1934201ced914a22", null ],
+    [ "dz", "d4/d42/structSignalData.html#ab009bcbddb92f159e69f0951c60007be", null ],
     [ "mass", "d4/d42/structSignalData.html#a7bc2ebeaa7d355c5356cb98d6a26b947", null ],
     [ "mom", "d4/d42/structSignalData.html#a0d2e1cdee9b119c4cc292d5a09edb88d", null ],
     [ "phi", "d4/d42/structSignalData.html#a2e459c2af2012525967908dc74a308d1", null ],

@@ -123,7 +123,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af28c5c8dfb5c87321e6a349d0d369db6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d07/classSRecDimuon.html">SRecDimuon</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#af28c5c8dfb5c87321e6a349d0d369db6">Clone</a> () const</td></tr>
 <tr class="separator:af28c5c8dfb5c87321e6a349d0d369db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e6396904012a38bcefe44b50f1ea64c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a1e6396904012a38bcefe44b50f1ea64c">get_dimuon_id</a> () const</td></tr>
-<tr class="memdesc:a1e6396904012a38bcefe44b50f1ea64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the dimuon ID, which is unique per event(?).  <a href="../../d3/d07/classSRecDimuon.html#a1e6396904012a38bcefe44b50f1ea64c">More...</a><br /></td></tr>
+<tr class="memdesc:a1e6396904012a38bcefe44b50f1ea64c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/dd3/classSQDimuon.html" title="An SQ interface class to hold one true or reconstructed dimuon.">SQDimuon</a> virtual functions.  <a href="../../d3/d07/classSRecDimuon.html#a1e6396904012a38bcefe44b50f1ea64c">More...</a><br /></td></tr>
 <tr class="separator:a1e6396904012a38bcefe44b50f1ea64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31d9979a461c93dacca8c9498bea3dde"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a31d9979a461c93dacca8c9498bea3dde">set_dimuon_id</a> (const int a)</td></tr>
 <tr class="separator:a31d9979a461c93dacca8c9498bea3dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,12 +178,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2033e563cf5296aa943610cd9a430e0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ab2033e563cf5296aa943610cd9a430e0">get_chisq</a> () const</td></tr>
 <tr class="separator:ab2033e563cf5296aa943610cd9a430e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8bdaa8a74b625fe06b3ab5e51e200b3"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#af8bdaa8a74b625fe06b3ab5e51e200b3">getVPhoton</a> ()</td></tr>
+<tr class="memdesc:af8bdaa8a74b625fe06b3ab5e51e200b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total momentum of the virtual photon.  <a href="../../d3/d07/classSRecDimuon.html#af8bdaa8a74b625fe06b3ab5e51e200b3">More...</a><br /></td></tr>
 <tr class="separator:af8bdaa8a74b625fe06b3ab5e51e200b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac53e58ade80e9739db859c06760de431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ac53e58ade80e9739db859c06760de431">calcVariables</a> ()</td></tr>
-<tr class="separator:ac53e58ade80e9739db859c06760de431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f3ad5128df92235d23c3b684555f99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a23f3ad5128df92235d23c3b684555f99">calcVariables</a> (int choice=0)</td></tr>
+<tr class="memdesc:a23f3ad5128df92235d23c3b684555f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the kinematic vairables, 0 = vertex, 1 = target, 2 = dump.  <a href="../../d3/d07/classSRecDimuon.html#a23f3ad5128df92235d23c3b684555f99">More...</a><br /></td></tr>
+<tr class="separator:a23f3ad5128df92235d23c3b684555f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac30915c6f3ff17e6ba7135b8a6e1bd2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ac30915c6f3ff17e6ba7135b8a6e1bd2f">isTarget</a> ()</td></tr>
+<tr class="memdesc:ac30915c6f3ff17e6ba7135b8a6e1bd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Target dimuon.  <a href="../../d3/d07/classSRecDimuon.html#ac30915c6f3ff17e6ba7135b8a6e1bd2f">More...</a><br /></td></tr>
 <tr class="separator:ac30915c6f3ff17e6ba7135b8a6e1bd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54ebc48eaba22c2f573e5848e346052e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a54ebc48eaba22c2f573e5848e346052e">isDump</a> ()</td></tr>
+<tr class="memdesc:a54ebc48eaba22c2f573e5848e346052e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump dimuon.  <a href="../../d3/d07/classSRecDimuon.html#a54ebc48eaba22c2f573e5848e346052e">More...</a><br /></td></tr>
 <tr class="separator:a54ebc48eaba22c2f573e5848e346052e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classSQDimuon"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classSQDimuon')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d8/dd3/classSQDimuon.html">SQDimuon</a></td></tr>
 <tr class="memitem:a01c6e3f58cd6b83514a2bfc4dbc0b7be inherit pub_methods_classSQDimuon"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd3/classSQDimuon.html#a01c6e3f58cd6b83514a2bfc4dbc0b7be">~SQDimuon</a> ()</td></tr>
@@ -226,24 +230,38 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5d6be6b11385dda3c8c15867011b44fd"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a5d6be6b11385dda3c8c15867011b44fd">trackID_pos</a></td></tr>
+<tr class="memdesc:a5d6be6b11385dda3c8c15867011b44fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of muon track used in host <a class="el" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>.  <a href="../../d3/d07/classSRecDimuon.html#a5d6be6b11385dda3c8c15867011b44fd">More...</a><br /></td></tr>
 <tr class="separator:a5d6be6b11385dda3c8c15867011b44fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84d95ef297c2b138e82527909cd3f835"><td class="memItemLeft" align="right" valign="top">Int_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a84d95ef297c2b138e82527909cd3f835">trackID_neg</a></td></tr>
 <tr class="separator:a84d95ef297c2b138e82527909cd3f835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa42c0c2f1e88a8c357e24680527b938d"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#aa42c0c2f1e88a8c357e24680527b938d">p_pos</a></td></tr>
+<tr class="memdesc:aa42c0c2f1e88a8c357e24680527b938d"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-momentum of the muon tracks after vertex fit  <a href="../../d3/d07/classSRecDimuon.html#aa42c0c2f1e88a8c357e24680527b938d">More...</a><br /></td></tr>
 <tr class="separator:aa42c0c2f1e88a8c357e24680527b938d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917641855d8ff79aca8a282c3d1161e7"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a917641855d8ff79aca8a282c3d1161e7">p_neg</a></td></tr>
 <tr class="separator:a917641855d8ff79aca8a282c3d1161e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a892ef32c13538a5c38abdd780b71542f"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a892ef32c13538a5c38abdd780b71542f">p_pos_target</a></td></tr>
+<tr class="memdesc:a892ef32c13538a5c38abdd780b71542f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track momentum projections at different location.  <a href="../../d3/d07/classSRecDimuon.html#a892ef32c13538a5c38abdd780b71542f">More...</a><br /></td></tr>
+<tr class="separator:a892ef32c13538a5c38abdd780b71542f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ab8f706f607f6bf1aa40d4c99a7752"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a29ab8f706f607f6bf1aa40d4c99a7752">p_neg_target</a></td></tr>
+<tr class="separator:a29ab8f706f607f6bf1aa40d4c99a7752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad40fe89d4ccd82d9c5a9b46b9de15edb"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ad40fe89d4ccd82d9c5a9b46b9de15edb">p_pos_dump</a></td></tr>
+<tr class="separator:ad40fe89d4ccd82d9c5a9b46b9de15edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86547488a4fea251839be55a26f1532"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ae86547488a4fea251839be55a26f1532">p_neg_dump</a></td></tr>
+<tr class="separator:ae86547488a4fea251839be55a26f1532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c73821e87b65f5f77ad640c5dad44dc"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a9c73821e87b65f5f77ad640c5dad44dc">p_pos_single</a></td></tr>
+<tr class="memdesc:a9c73821e87b65f5f77ad640c5dad44dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">4-momentum of the muon tracks before vertex fit  <a href="../../d3/d07/classSRecDimuon.html#a9c73821e87b65f5f77ad640c5dad44dc">More...</a><br /></td></tr>
 <tr class="separator:a9c73821e87b65f5f77ad640c5dad44dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e8bd27a1b5210c7282452349e084903"><td class="memItemLeft" align="right" valign="top">TLorentzVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a7e8bd27a1b5210c7282452349e084903">p_neg_single</a></td></tr>
 <tr class="separator:a7e8bd27a1b5210c7282452349e084903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146bc0d4909b3d7fe9615d1ba99b8cb0"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a146bc0d4909b3d7fe9615d1ba99b8cb0">vtx</a></td></tr>
+<tr class="memdesc:a146bc0d4909b3d7fe9615d1ba99b8cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">3-vector vertex position  <a href="../../d3/d07/classSRecDimuon.html#a146bc0d4909b3d7fe9615d1ba99b8cb0">More...</a><br /></td></tr>
 <tr class="separator:a146bc0d4909b3d7fe9615d1ba99b8cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22c47d0a68b8ae35308d14ee9e2b81d"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ad22c47d0a68b8ae35308d14ee9e2b81d">vtx_pos</a></td></tr>
 <tr class="separator:ad22c47d0a68b8ae35308d14ee9e2b81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd1f1d6b559f5fd96be6a59d7e893f73"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#abd1f1d6b559f5fd96be6a59d7e893f73">vtx_neg</a></td></tr>
 <tr class="separator:abd1f1d6b559f5fd96be6a59d7e893f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3225861aaa0e93eb73f89b25f305e54"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ad3225861aaa0e93eb73f89b25f305e54">proj_target_pos</a></td></tr>
+<tr class="memdesc:ad3225861aaa0e93eb73f89b25f305e54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Track projections at different location.  <a href="../../d3/d07/classSRecDimuon.html#ad3225861aaa0e93eb73f89b25f305e54">More...</a><br /></td></tr>
 <tr class="separator:ad3225861aaa0e93eb73f89b25f305e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bdc3c66ceaa1d8f2685087a533d9a08"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a7bdc3c66ceaa1d8f2685087a533d9a08">proj_dump_pos</a></td></tr>
 <tr class="separator:a7bdc3c66ceaa1d8f2685087a533d9a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,6 +270,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a82a120d123fb1315d3ad594e1acbedb2"><td class="memItemLeft" align="right" valign="top">TVector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a82a120d123fb1315d3ad594e1acbedb2">proj_dump_neg</a></td></tr>
 <tr class="separator:a82a120d123fb1315d3ad594e1acbedb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7d64de79dbdc4624fde028f7dd66195"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ab7d64de79dbdc4624fde028f7dd66195">mass</a></td></tr>
+<tr class="memdesc:ab7d64de79dbdc4624fde028f7dd66195"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kinematic variables.  <a href="../../d3/d07/classSRecDimuon.html#ab7d64de79dbdc4624fde028f7dd66195">More...</a><br /></td></tr>
 <tr class="separator:ab7d64de79dbdc4624fde028f7dd66195"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1140bcf8e61f5a4f07f64bb96496c79"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#ad1140bcf8e61f5a4f07f64bb96496c79">pT</a></td></tr>
 <tr class="separator:ad1140bcf8e61f5a4f07f64bb96496c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,10 +289,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0f60d9ec2760939fe27aa68bf55d49b6"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a0f60d9ec2760939fe27aa68bf55d49b6">chisq_single</a></td></tr>
 <tr class="separator:a0f60d9ec2760939fe27aa68bf55d49b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24932b70dcfa6fd14469fa11bc695e0"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#aa24932b70dcfa6fd14469fa11bc695e0">chisq_kf</a></td></tr>
+<tr class="memdesc:aa24932b70dcfa6fd14469fa11bc695e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertex fit chisqs.  <a href="../../d3/d07/classSRecDimuon.html#aa24932b70dcfa6fd14469fa11bc695e0">More...</a><br /></td></tr>
 <tr class="separator:aa24932b70dcfa6fd14469fa11bc695e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a589d26cf9806fea1994e07e253b07ac6"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a589d26cf9806fea1994e07e253b07ac6">chisq_vx</a></td></tr>
 <tr class="separator:a589d26cf9806fea1994e07e253b07ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a784c82126739d0e200684628b26bb069"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a784c82126739d0e200684628b26bb069">chisq_target</a></td></tr>
+<tr class="memdesc:a784c82126739d0e200684628b26bb069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chisq of three test position.  <a href="../../d3/d07/classSRecDimuon.html#a784c82126739d0e200684628b26bb069">More...</a><br /></td></tr>
 <tr class="separator:a784c82126739d0e200684628b26bb069"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3918d6e2eb3136e8f27c8cda5cda050e"><td class="memItemLeft" align="right" valign="top">Double_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d07/classSRecDimuon.html#a3918d6e2eb3136e8f27c8cda5cda050e">chisq_dump</a></td></tr>
 <tr class="separator:a3918d6e2eb3136e8f27c8cda5cda050e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,10 +311,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00298">298</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00300">300</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac53e58ade80e9739db859c06760de431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac53e58ade80e9739db859c06760de431">&#9670;&nbsp;</a></span>calcVariables()</h2>
+<a id="a23f3ad5128df92235d23c3b684555f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f3ad5128df92235d23c3b684555f99">&#9670;&nbsp;</a></span>calcVariables()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,15 +322,18 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void SRecDimuon::calcVariables </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>choice</em> = <code>0</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">593</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+<p>Calculate the kinematic vairables, 0 = vertex, 1 = target, 2 = dump. </p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00387">costh</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00382">mass</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00389">mass_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00368">p_neg_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00367">p_pos_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00388">phi</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00383">pT</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">x1</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">x2</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">xF</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">633</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00395">costh</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00390">mass</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00397">mass_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">p_neg_dump</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00376">p_neg_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00370">p_neg_target</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">p_pos_dump</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00375">p_pos_single</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00369">p_pos_target</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00396">phi</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00391">pT</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">x1</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00394">x2</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00392">xF</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -317,7 +341,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_ac53e58ade80e9739db859c06760de431_icgraph.svg" width="614" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_a23f3ad5128df92235d23c3b684555f99_icgraph.svg" width="614" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -348,7 +372,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a4149033f894ae68ccdaeba7d1361cdba">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00306">306</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00308">308</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -377,9 +401,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#ae07da566821664a92eddced71e273fd9">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">341</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00343">343</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">chisq_kf</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00401">chisq_kf</a>.</p>
 
 </div>
 </div>
@@ -406,11 +430,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Return the dimuon ID, which is unique per event(?). </p>
+<p><a class="el" href="../../d8/dd3/classSQDimuon.html" title="An SQ interface class to hold one true or reconstructed dimuon.">SQDimuon</a> virtual functions. </p>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a1d420c0c809472ee738f9bcec8a5bcde">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00309">309</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00311">311</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -439,9 +463,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#ac7825514587ec1135d223199d5c0d154">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00338">338</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00382">mass</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00390">mass</a>.</p>
 
 </div>
 </div>
@@ -472,17 +496,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a76b3516ee9387204f164d1f7f424e071">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00068">AnaDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 <div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_aad50050dcd596deeda6807d9df6fcab9_icgraph.svg" width="390" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_aad50050dcd596deeda6807d9df6fcab9_icgraph.svg" width="407" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -515,9 +539,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a15fd2a9fc7752aeee3077b031aa034e5">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>.</p>
 
 </div>
 </div>
@@ -548,9 +572,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a42ef46c5aa106110118f86f46d0f16f4">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00332">332</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>.</p>
 
 </div>
 </div>
@@ -581,7 +605,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a2d09dc5b759c4e8d6d77d4bda749358a">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -612,17 +636,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#ad757074fb0caee54bdd797608cfd033e">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">vtx</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">vtx</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00068">AnaDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 <div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_a5f602345b87064e11922f834bf6d53e5_icgraph.svg" width="379" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_a5f602345b87064e11922f834bf6d53e5_icgraph.svg" width="396" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -655,7 +679,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a6927371bc688f7591acacf0c3172bf21">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -686,17 +710,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a64259cd519b3be6e35de4b08bc787d60">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00360">trackID_neg</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00362">trackID_neg</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00068">AnaDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_ab786bfd7ce00a0e1a388f0c62ce3c7d4_icgraph.svg" width="390" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_ab786bfd7ce00a0e1a388f0c62ce3c7d4_icgraph.svg" width="407" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -729,17 +753,17 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#aa6a5493efa95f43d47f15cedfdb6bbee">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00359">trackID_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00361">trackID_pos</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00068">AnaDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-6-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_ab7d1f2bf5d7ba1d976bf08063e20be03_icgraph.svg" width="390" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_ab7d1f2bf5d7ba1d976bf08063e20be03_icgraph.svg" width="407" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -770,9 +794,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a67ec9a1a9a298183b33b500775bc6209">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00337">337</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">x1</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">x1</a>.</p>
 
 </div>
 </div>
@@ -801,9 +825,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a483207ec32337819682318c39d63075d">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00338">338</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00340">340</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">x2</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00394">x2</a>.</p>
 
 </div>
 </div>
@@ -832,9 +856,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a32dfe56fbf7bc40d3b570d58eed66239">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">341</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">xF</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00392">xF</a>.</p>
 
 </div>
 </div>
@@ -861,9 +885,11 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Get the total momentum of the virtual photon. </p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00346">346</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>.</p>
 
 </div>
 </div>
@@ -895,7 +921,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a7848d9d1d7779f54303d7b08e4df30e0">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00303">303</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00305">305</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -914,9 +940,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">661</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+<p>Dump dimuon. </p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">proj_dump_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00377">proj_dump_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00378">proj_target_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00376">proj_target_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00373">vtx_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">vtx_pos</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">735</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00387">proj_dump_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">proj_dump_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">proj_target_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">proj_target_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00381">vtx_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00380">vtx_pos</a>.</p>
 
 </div>
 </div>
@@ -935,9 +963,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">645</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+<p>Target dimuon. </p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">proj_dump_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00377">proj_dump_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00378">proj_target_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00376">proj_target_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00373">vtx_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">vtx_pos</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">719</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00387">proj_dump_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">proj_dump_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">proj_target_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">proj_target_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00381">vtx_neg</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00380">vtx_pos</a>.</p>
 
 </div>
 </div>
@@ -968,9 +998,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a294fb2d439d3320cdc103801c9b959f6">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">620</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">694</a> of file <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html">SRecEvent.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">chisq_kf</a>, <a class="el" href="../../dd/d73/MacroCommon_8h_source.html#l00002">FMAGSTR</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">vtx</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00373">vtx_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">vtx_pos</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">xF</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00401">chisq_kf</a>, <a class="el" href="../../dd/d73/MacroCommon_8h_source.html#l00002">FMAGSTR</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">vtx</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00381">vtx_neg</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00380">vtx_pos</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00392">xF</a>.</p>
 
 </div>
 </div>
@@ -1001,7 +1031,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#afd29baee4c2d315b2d4701f2bbfc7410">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00304">304</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00306">306</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1061,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#aec72b122b8515946f0d119d6bf04b978">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00310">310</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -1061,7 +1091,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a182416c89ca64a0b88761a3a119db8d1">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -1091,9 +1121,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a0d8cb0fd037441195cf90e7dab4a6f78">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00334">334</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">p_neg</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">p_neg</a>.</p>
 
 </div>
 </div>
@@ -1123,9 +1153,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a357c50a36e1060bf03ddd485c226d67c">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">p_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">p_pos</a>.</p>
 
 </div>
 </div>
@@ -1155,7 +1185,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#ab54ff89f1337ff3e1b66408cfb350a4b">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00316">316</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -1185,9 +1215,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a3df6d1d1c7c53557ea7a73d341f11d89">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">vtx</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">vtx</a>.</p>
 
 </div>
 </div>
@@ -1217,7 +1247,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a5d7799ed2d4a9bb21ddabca72318b0da">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00313">313</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 </div>
 </div>
@@ -1247,9 +1277,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a92fde6ffcdc6c354967c3fa5939d1979">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00360">trackID_neg</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00362">trackID_neg</a>.</p>
 
 </div>
 </div>
@@ -1279,9 +1309,19 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="../../d8/dd3/classSQDimuon.html#a9da8c6989e940e4d940221cf3835d77f">SQDimuon</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00359">trackID_pos</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00361">trackID_pos</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d60/SQVertexing_8cxx_source.html#l00106">SQVertexing::process_event()</a>.</p>
+<div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d3/d07/classSRecDimuon_a58d3a7adf3d50cd0e1d10f29a3e6b344_icgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -1298,7 +1338,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00398">398</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00406">406</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
@@ -1316,9 +1356,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">393</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Vertex fit chisqs. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">get_chisq()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00401">401</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00343">get_chisq()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1334,7 +1376,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00390">390</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00398">398</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
@@ -1352,7 +1394,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00397">397</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Chisq of three test position. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00405">405</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
@@ -1370,7 +1414,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00399">399</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00407">407</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
@@ -1388,7 +1432,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00394">394</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00402">402</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
@@ -1406,9 +1450,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00387">387</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00395">395</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>.</p>
 
 </div>
 </div>
@@ -1424,9 +1468,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00382">382</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Kinematic variables. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00336">get_mass()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00390">390</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, and <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00338">get_mass()</a>.</p>
 
 </div>
 </div>
@@ -1442,9 +1488,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00389">389</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00397">397</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>.</p>
 
 </div>
 </div>
@@ -1460,9 +1506,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00364">364</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00366">366</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00327">get_mom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00333">get_mom_neg()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00344">getVPhoton()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00334">set_mom_neg()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00329">get_mom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00335">get_mom_neg()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00346">getVPhoton()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00336">set_mom_neg()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+
+</div>
+</div>
+<a id="ae86547488a4fea251839be55a26f1532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae86547488a4fea251839be55a26f1532">&#9670;&nbsp;</a></span>p_neg_dump</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector SRecDimuon::p_neg_dump</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1478,9 +1542,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00368">368</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00376">376</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a29ab8f706f607f6bf1aa40d4c99a7752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ab8f706f607f6bf1aa40d4c99a7752">&#9670;&nbsp;</a></span>p_neg_target</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector SRecDimuon::p_neg_target</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00370">370</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1496,9 +1578,29 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00363">363</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>4-momentum of the muon tracks after vertex fit </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00327">get_mom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00330">get_mom_pos()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00344">getVPhoton()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00331">set_mom_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00365">365</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00329">get_mom()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00332">get_mom_pos()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00346">getVPhoton()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00333">set_mom_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+
+</div>
+</div>
+<a id="ad40fe89d4ccd82d9c5a9b46b9de15edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40fe89d4ccd82d9c5a9b46b9de15edb">&#9670;&nbsp;</a></span>p_pos_dump</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector SRecDimuon::p_pos_dump</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">371</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1514,9 +1616,31 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00367">367</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>4-momentum of the muon tracks before vertex fit </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00375">375</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+
+</div>
+</div>
+<a id="a892ef32c13538a5c38abdd780b71542f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a892ef32c13538a5c38abdd780b71542f">&#9670;&nbsp;</a></span>p_pos_target</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TLorentzVector SRecDimuon::p_pos_target</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Track momentum projections at different location. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00369">369</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../db/d1e/AnaDimuon_8cc_source.html#l00071">AnaDimuon::process_event()</a>, <a class="el" href="../../d7/d02/AnaDimuonLikeSign_8cc_source.html#l00086">AnaDimuonLikeSign::process_event()</a>, and <a class="el" href="../../d5/d9c/AnaDimuonV2_8cc_source.html#l00075">AnaDimuonV2::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1532,9 +1656,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00388">388</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00396">396</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>.</p>
 
 </div>
 </div>
@@ -1550,9 +1674,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">379</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00387">387</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1568,9 +1692,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00377">377</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">385</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1586,9 +1710,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">386</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1604,9 +1728,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00376">376</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Track projections at different location. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1622,9 +1748,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00383">383</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00391">391</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>.</p>
 
 </div>
 </div>
@@ -1640,9 +1766,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00360">360</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00362">362</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00321">get_track_id_neg()</a>, <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00322">set_track_id_neg()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00323">get_track_id_neg()</a>, <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00324">set_track_id_neg()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1658,9 +1784,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00359">359</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>Index of muon track used in host <a class="el" href="../../d5/d2f/classSRecEvent.html">SRecEvent</a>. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00318">get_track_id_pos()</a>, <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00319">set_track_id_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00361">361</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00320">get_track_id_pos()</a>, <a class="el" href="../../da/da7/SQTruthVertexing_8cxx_source.html#l00051">SQTruthVertexing::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00321">set_track_id_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1676,9 +1804,11 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00371">371</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p>3-vector vertex position </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00324">get_pos()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00325">set_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00379">379</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00326">get_pos()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00327">set_pos()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1694,9 +1824,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00373">373</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00381">381</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1712,9 +1842,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00380">380</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00661">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00645">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00735">isDump()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00719">isTarget()</a>, <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>, and <a class="el" href="../../db/df0/VertexFit_8cxx_source.html#l00259">VertexFit::setRecEvent()</a>.</p>
 
 </div>
 </div>
@@ -1730,9 +1860,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00385">385</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00393">393</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00337">get_x1()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, and <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00339">get_x1()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, and <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1748,9 +1878,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00386">386</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00394">394</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00338">get_x2()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, and <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00340">get_x2()</a>, <a class="el" href="../../d4/db3/AnaSimDst_8cc_source.html#l00048">AnaSimDst::process_event()</a>, and <a class="el" href="../../d5/d27/AnaSimDimuon_8cc_source.html#l00052">AnaSimDimuon::process_event()</a>.</p>
 
 </div>
 </div>
@@ -1766,9 +1896,9 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00392">392</a> of file <a class="el" href="../../d6/da0/SRecEvent_8h_source.html">SRecEvent.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00593">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00339">get_xf()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00620">isValid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00633">calcVariables()</a>, <a class="el" href="../../d6/da0/SRecEvent_8h_source.html#l00341">get_xf()</a>, and <a class="el" href="../../d7/d57/SRecEvent_8cxx_source.html#l00694">isValid()</a>.</p>
 
 </div>
 </div>
@@ -1786,7 +1916,7 @@ Additional Inherited Members</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d3/d07/classSRecDimuon.html">SRecDimuon</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:18</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

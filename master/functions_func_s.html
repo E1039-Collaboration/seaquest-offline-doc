@@ -486,7 +486,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>set_event()
 : <a class="el" href="d1/dfd/classPHGenEvent.html#a0eb8bb26e3a1c0b240c5ce3ee507f959">PHGenEvent</a>
-, <a class="el" href="da/d6b/classPHGenEventv1.html#a068fa817ddf19250eaedc513ec0a6a7a">PHGenEventv1</a>
+, <a class="el" href="da/d6b/classPHGenEventv1.html#a3d4b5753d6d0de0a22a94e9a5733bbc9">PHGenEventv1</a>
 </li>
 <li>set_event_id()
 : <a class="el" href="d9/dd7/classSQEvent.html#a838679aeba51973a3d3252491706430a">SQEvent</a>
@@ -596,6 +596,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>set_geom_file_name()
 : <a class="el" href="df/df2/classSQReco.html#a0871655f71f89a5e115a71634a03b600">SQReco</a>
+, <a class="el" href="d5/d65/classSQVertexing.html#a9103ec3d1c2448de030a45edd00c6b5c">SQVertexing</a>
 </li>
 <li>set_half_stave_index()
 : <a class="el" href="dc/dfe/classPHG4Cell.html#a0fa4e00627324f1ced8bdd50a388e037">PHG4Cell</a>
@@ -738,11 +739,18 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="d3/d9e/classPHG4Hit.html#a164f860f2c74482d5d26c220f19be1f1">PHG4Hit</a>
 , <a class="el" href="d9/d35/classPHG4Hitv1.html#a832b4dd6f58f81c9274db6585c99eec4">PHG4Hitv1</a>
 </li>
+<li>set_legacy_in_container()
+: <a class="el" href="d5/d65/classSQVertexing.html#ab72f3a1f1481f763d5b82f3f74a1aecd">SQVertexing</a>
+</li>
+<li>set_legacy_out_container()
+: <a class="el" href="d5/d65/classSQVertexing.html#a2b7ff8f6cc1cd30efbba55783aa914c1">SQVertexing</a>
+</li>
 <li>set_legacy_rec_container()
 : <a class="el" href="dc/da8/classAnaModule.html#a64fd748192ce05ca21d98f10dbb871d2">AnaModule</a>
 , <a class="el" href="de/dec/classAnaPileup.html#a258172e57d2c0cf5b4d5be71bc1d2dfd">AnaPileup</a>
 , <a class="el" href="df/df2/classSQReco.html#ae211f2cdcaf58e031e72b6cd3ec1bd2d">SQReco</a>
 , <a class="el" href="d8/d20/classSQTruthVertexing.html#aac806c0cca662ec786d63f0bf46f663b">SQTruthVertexing</a>
+, <a class="el" href="d5/d65/classSQVertexing.html#a4cb126417d8c10ed7596f9caf88a49b8">SQVertexing</a>
 , <a class="el" href="dd/d44/classTruthNodeMaker.html#a12e662057b529066fe78d9b51a8b7d90">TruthNodeMaker</a>
 </li>
 <li>set_level()
@@ -1364,6 +1372,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>set_sim_db_name()
 : <a class="el" href="db/daa/classKalmanDSTrk.html#a66aec9cbf71b55459185442bd0f62bc9">KalmanDSTrk</a>
 </li>
+<li>set_single_retracking()
+: <a class="el" href="d5/d65/classSQVertexing.html#a638b693306ffa5ead7dac289acb81a56">SQVertexing</a>
+</li>
 <li>set_size()
 : <a class="el" href="df/d5e/classPHG4BlockCellReco.html#a2afdd029abc569f84dcd627107c7c2b5">PHG4BlockCellReco</a>
 , <a class="el" href="df/d82/classPHG4BlockGeom.html#ade9fe8ecda580f3dc9a9c81d06b735f5">PHG4BlockGeom</a>
@@ -1526,8 +1537,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d5/dd4/classFun4AllSRawEventInputManager.html#a2f30a92b5b370c774abbf7b05f0d1a39">Fun4AllSRawEventInputManager</a>
 </li>
 <li>set_trigger()
-: <a class="el" href="d9/dd7/classSQEvent.html#abb5b1e5eb1b6492822c2236a78b6b3e9">SQEvent</a>
-, <a class="el" href="dd/d59/classSQEvent__v1.html#a7a6f56805337d9d6f2c2409c9a95ef8a">SQEvent_v1</a>
+: <a class="el" href="d9/dd7/classSQEvent.html#a56676cfae09f20bf2396da7c8fdbec26">SQEvent</a>
+, <a class="el" href="dd/d59/classSQEvent__v1.html#a3e41f86cb093aa70fb43071b4e34599c">SQEvent_v1</a>
 , <a class="el" href="d7/dcb/classSQEvent__v2.html#ae94420f5b289cfb61b5308b23666d2e7">SQEvent_v2</a>
 </li>
 <li>set_trigger_AND()
@@ -1839,11 +1850,12 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>setBranches()
 : <a class="el" href="d7/d0b/classFun4AllDstInputManager.html#ae18b1ca89168aab89e6a9b867951f8ce">Fun4AllDstInputManager</a>
 , <a class="el" href="d4/da9/classFun4AllInputManager.html#a46fbacffa5159928b875a5d12106a3b6">Fun4AllInputManager</a>
-, <a class="el" href="da/d29/classFun4AllServer.html#a8a2c48eb56d6a8c6b829d9217344705e">Fun4AllServer</a>
+, <a class="el" href="da/d29/classFun4AllServer.html#a06b52fe9a246f2e88115fa4a5c0ee7c1">Fun4AllServer</a>
 , <a class="el" href="dd/ded/classFun4AllSyncManager.html#a77e870f697359c362d97d2f38790f3d3">Fun4AllSyncManager</a>
 </li>
 <li>SetBranchName()
 : <a class="el" href="db/dfa/classFun4AllHitMatrixInputManager.html#a4b5463b4f3c2cf09b8d68b694ef87921">Fun4AllHitMatrixInputManager</a>
+, <a class="el" href="d1/db1/classFun4AllSpillSRawEventOutputManager.html#a81a14da3803c1a40ec3608bae384e4d8">Fun4AllSpillSRawEventOutputManager</a>
 , <a class="el" href="d9/dc8/classFun4AllSRawEventOutputManager.html#ac0b9f93c5301868600d7184d296e7c8d">Fun4AllSRawEventOutputManager</a>
 , <a class="el" href="db/dd3/classFun4AllSRawEventOutputManagerV2.html#a4fcbc1461bafff7246c75d1bb5fcf9b2">Fun4AllSRawEventOutputManagerV2</a>
 </li>
@@ -2023,7 +2035,8 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d7/d4d/classPHNodeIOManager.html#a5d6181baf8cf3741d062e1b50eb8c131">PHNodeIOManager</a>
 </li>
 <li>SetFileName()
-: <a class="el" href="d6/d29/classGenEmbeddingData.html#aefe8cae6f7f4fb20ce88454103d715bb">GenEmbeddingData</a>
+: <a class="el" href="d9/dc8/classFun4AllSRawEventOutputManager.html#a8ffad7cdd01365aca96571ad858b0d3e">Fun4AllSRawEventOutputManager</a>
+, <a class="el" href="d6/d29/classGenEmbeddingData.html#aefe8cae6f7f4fb20ce88454103d715bb">GenEmbeddingData</a>
 , <a class="el" href="d6/dde/classMakeMyTree.html#a6b184ae1d026c7ca2852373dba5bf5e8">MakeMyTree</a>
 </li>
 <li>setFilterDone()
@@ -2217,6 +2230,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetNimBits()
 : <a class="el" href="d0/d1d/classFilterByTrigger.html#ad8f08072b8f0b19b18d0c70a67519e1d">FilterByTrigger</a>
 </li>
+<li>SetNodePrefix()
+: <a class="el" href="d4/d32/classAnaDimuonLikeSign.html#af677efdf5362729c87fe7d362fe41ec6">AnaDimuonLikeSign</a>
+</li>
 <li>setNRoads()
 : <a class="el" href="d5/d83/classSRawEvent.html#a5a500712ec89db44020d8ab8e7d7b607">SRawEvent</a>
 </li>
@@ -2237,6 +2253,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>setObjectType()
 : <a class="el" href="dc/d82/classPHNode.html#a5efaced7ccd6df01fc40abbb07dfe61d">PHNode</a>
+</li>
+<li>setOffset()
+: <a class="el" href="d4/db7/classSQGenFit_1_1GFField.html#a9ea407f778aef6cc41a1be32966870a4">SQGenFit::GFField</a>
 </li>
 <li>SetOnline()
 : <a class="el" href="d9/de8/classCodaInputManager.html#a7283aa792aadb1d52a41c0dc4bbecc35">CodaInputManager</a>
@@ -2264,6 +2283,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetOutputFileName()
 : <a class="el" href="d7/d73/classAnaChamHit.html#a6c577ae0dcb1237fccc7f6df47daf711">AnaChamHit</a>
 , <a class="el" href="d6/d3f/classAnaDimuon.html#a0e6b30c2fb83500a1f56c4f9093bcfbd">AnaDimuon</a>
+, <a class="el" href="d4/d32/classAnaDimuonLikeSign.html#a137fc9f5bd2621ca0aaa94a1fcdcc6c9">AnaDimuonLikeSign</a>
+, <a class="el" href="d6/d91/classAnaDimuonV2.html#a0acdd0ffd95a2c71c3d3b8547c7fa65b">AnaDimuonV2</a>
+, <a class="el" href="de/d8a/classAnaTrack.html#a9557be6208e89e20b1a25204ff38df05">AnaTrack</a>
 </li>
 <li>setOutputFilename()
 : <a class="el" href="dd/d12/classKScheduler.html#a438dcad456e0dc2ec58fb5d01360f358">KScheduler</a>
@@ -2450,6 +2472,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>SetResolution()
 : <a class="el" href="d4/d73/classCalibDriftDist.html#aa879f9628c460834f598e690fc41605d">CalibDriftDist</a>
+, <a class="el" href="dd/def/classCalibDriftDistMod.html#a0ee8504ff69cb2b638db57054ab72fb3">CalibDriftDistMod</a>
 </li>
 <li>setRFID()
 : <a class="el" href="d5/d83/classSRawEvent.html#a18e9f75778eb85c825b37328b0d0960c">SRawEvent</a>
@@ -2461,7 +2484,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d4/d5d/classRoadInfo.html#a07fd038d110883b1651711c91c8d89e0">RoadInfo</a>
 </li>
 <li>SetRoads()
-: <a class="el" href="db/df7/classAnaBG.html#a14df884050ed84da7972d0c399907114">AnaBG</a>
+: <a class="el" href="db/df7/classAnaBG.html#a5879e776376a0b6974b6eb2b02b0ebff">AnaBG</a>
 </li>
 <li>setRun()
 : <a class="el" href="da/d29/classFun4AllServer.html#acacc46b5c0596571cf81fef7f7b55658">Fun4AllServer</a>
@@ -2477,7 +2500,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d5/d85/classPHG4TruthSubsystem.html#a88f3a3bda22424a8ae4154712210ba5b">PHG4TruthSubsystem</a>
 </li>
 <li>setScale()
-: <a class="el" href="d4/db7/classSQGenFit_1_1GFField.html#a1d7a5d9cab3ff41ceacdcae467e1e832">SQGenFit::GFField</a>
+: <a class="el" href="d4/db7/classSQGenFit_1_1GFField.html#a4a1efc620f86396a436ea546d48aa253">SQGenFit::GFField</a>
 </li>
 <li>SetSchemaMainDaq()
 : <a class="el" href="df/da2/classUtilOnline.html#a191c5a6779684d1a63674fadfe9d18a2">UtilOnline</a>
@@ -2624,6 +2647,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>SetTreeName()
 : <a class="el" href="db/dfa/classFun4AllHitMatrixInputManager.html#a07a7ecbb43c078f892d6bf0b0012b359">Fun4AllHitMatrixInputManager</a>
+, <a class="el" href="d1/db1/classFun4AllSpillSRawEventOutputManager.html#a867de03807d5fd11146495d893ee8633">Fun4AllSpillSRawEventOutputManager</a>
 , <a class="el" href="d9/dc8/classFun4AllSRawEventOutputManager.html#ab9d36e079a8337e36fb647cbdfde2e86">Fun4AllSRawEventOutputManager</a>
 , <a class="el" href="db/dd3/classFun4AllSRawEventOutputManagerV2.html#a55d067c8af24bd06aed152d5fe1c36a9">Fun4AllSRawEventOutputManagerV2</a>
 , <a class="el" href="d1/dbe/classFun4AllTrackQAv1InputManager.html#aaf61f360d4492d8014256b8aa58ba75c">Fun4AllTrackQAv1InputManager</a>
@@ -2832,7 +2856,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="d3/dc1/classSQDimuonVector__v1.html#a94bf1852a72bd0d7aedf24ca077cbed9">SQDimuonVector_v1</a>
 , <a class="el" href="d0/dac/classSQHitMap.html#a33d61614d33630feaa2027b547c5c849">SQHitMap</a>
 , <a class="el" href="d2/d62/classSQHitMap__v1.html#ac1ed433b70186367de77a96e658745b7">SQHitMap_v1</a>
-, <a class="el" href="d9/dbc/classSQHitVector.html#acdb6c935c42eb90b4576ae5fb71094df">SQHitVector</a>
+, <a class="el" href="d9/dbc/classSQHitVector.html#af50e2bbdb2e27f21fe1ca95d16541965">SQHitVector</a>
 , <a class="el" href="d9/dbf/classSQHitVector__v1.html#a14a3008f1de95cc93878fbd1735ff2bc">SQHitVector_v1</a>
 , <a class="el" href="dc/d07/classSQIntMap.html#a371330f4ee0a0d800a5b8ac83c00113d">SQIntMap</a>
 , <a class="el" href="d1/d94/classSQIntMap__v1.html#aa74d03178e7ceb6add5ff40200d31ebc">SQIntMap_v1</a>
@@ -2866,6 +2890,10 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 , <a class="el" href="db/d1f/classFun4AllOscarInputManager.html#a157148351b7357237f66cb2e6109e036">Fun4AllOscarInputManager</a>
 , <a class="el" href="da/d29/classFun4AllServer.html#aaf2d265868482ae53eb2a03cc1d21183">Fun4AllServer</a>
 , <a class="el" href="dd/ded/classFun4AllSyncManager.html#a9b5874f83d4984e24572838d55513eb3">Fun4AllSyncManager</a>
+</li>
+<li>SkipCalibration()
+: <a class="el" href="d4/d73/classCalibDriftDist.html#a6e76cfd6afeea6daca52b2c55efef78c">CalibDriftDist</a>
+, <a class="el" href="d4/d41/classCalibHodoInTime.html#a8bd44b57d0098bf2a281169dd0630998">CalibHodoInTime</a>
 </li>
 <li>SlowControlData()
 : <a class="el" href="db/d49/structSlowControlData.html#ac3faa49a09870c7d2060738b86e58543">SlowControlData</a>
@@ -2995,7 +3023,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d0/dac/classSQHitMap.html#ac18c0bb9019a9e6f12ddaaff0d68020e">SQHitMap</a>
 </li>
 <li>SQHitMap_v1()
-: <a class="el" href="d2/d62/classSQHitMap__v1.html#a3e3927a9424024840118febbc08107b7">SQHitMap_v1</a>
+: <a class="el" href="d2/d62/classSQHitMap__v1.html#a8e867d4e0fd287f94480427c4f5cf613">SQHitMap_v1</a>
 </li>
 <li>SQHitVector()
 : <a class="el" href="d9/dbc/classSQHitVector.html#aea514ca662b7e364c64d29f084b7034f">SQHitVector</a>
@@ -3070,7 +3098,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d7/d87/classSQSpillMap.html#abc2908862e3f444dceab32b570991c9d">SQSpillMap</a>
 </li>
 <li>SQSpillMap_v1()
-: <a class="el" href="df/de1/classSQSpillMap__v1.html#aa4428af436effb61e716a0182ead289a">SQSpillMap_v1</a>
+: <a class="el" href="df/de1/classSQSpillMap__v1.html#ac6a8d8c001a1c38119e27a9f60117749">SQSpillMap_v1</a>
 </li>
 <li>SQStringMap()
 : <a class="el" href="d7/d7d/classSQStringMap.html#abe6f1a5d2779d610f1655cfa929f7250">SQStringMap</a>
@@ -3087,6 +3115,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SQTrack_v1()
 : <a class="el" href="d6/d88/classSQTrack__v1.html#a2bb3dd46e0d1d9a3939dc42291e6a8dd">SQTrack_v1</a>
 </li>
+<li>SQTrackletFitter()
+: <a class="el" href="da/db3/classSQTrackletFitter.html#a7126aa406ea8a33006c3800a97871060">SQTrackletFitter</a>
+</li>
 <li>SQTrackletReco()
 : <a class="el" href="dd/d62/classSQTrackletReco.html#a40e72b2223159e1ec3cc3674ba188b38">SQTrackletReco</a>
 </li>
@@ -3098,6 +3129,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>SQTruthVertexing()
 : <a class="el" href="d8/d20/classSQTruthVertexing.html#a7c054f10b18c6301bf0dd2b53fdb255e">SQTruthVertexing</a>
+</li>
+<li>SQVertexing()
+: <a class="el" href="d5/d65/classSQVertexing.html#a299fdb5376f2c6af70f0c3f0e821033a">SQVertexing</a>
 </li>
 <li>SRawEvent()
 : <a class="el" href="d5/d83/classSRawEvent.html#ab4b7cceaf7b489add9d5d182862eddd4">SRawEvent</a>
@@ -3142,6 +3176,11 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>StoreLocalCoordinate()
 : <a class="el" href="df/d3f/classPHG4SteppingAction.html#aea99a3121d5ff333ed1a6e7cfd7a0645">PHG4SteppingAction</a>
 </li>
+<li>str()
+: <a class="el" href="db/df5/classUtilTrigger_1_1TrigRoad.html#a4e84b149cec83ea4135307e8e077d61a">UtilTrigger::TrigRoad</a>
+, <a class="el" href="dc/dcc/classUtilTrigger_1_1TrigRoads.html#a77ca9284aba5ac4ef1a1911152e1b23e">UtilTrigger::TrigRoads</a>
+, <a class="el" href="d4/d61/classUtilTrigger_1_1TrigRoadset.html#a7a2524535fd9731bd1fa495cde805bc3">UtilTrigger::TrigRoadset</a>
+</li>
 <li>StreamStatus()
 : <a class="el" href="dc/dab/classFun4AllEventOutStream.html#a5270da9f643d513d4f13a55db48355c0">Fun4AllEventOutStream</a>
 </li>
@@ -3164,15 +3203,15 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>SuperDetector()
 : <a class="el" href="dc/d36/classPHG4BlockDetector.html#a877320f4e203f10c167e15c7e3e0c606">PHG4BlockDetector</a>
-, <a class="el" href="d7/d21/classPHG4BNLTargetCoilDetector.html#ae3848aea7c8fc48866af5d922016584c">PHG4BNLTargetCoilDetector</a>
+, <a class="el" href="d7/d21/classPHG4BNLTargetCoilDetector.html#a7eae10c1421a061f3a16ec2aadeec59f">PHG4BNLTargetCoilDetector</a>
 , <a class="el" href="d8/d44/classPHG4CollimatorDetector.html#a396a9c6104aca7f62cae8d0447a7c22c">PHG4CollimatorDetector</a>
 , <a class="el" href="d6/d41/classPHG4ConeDetector.html#a8e69b63cdab85fd81fd0d3262871580a">PHG4ConeDetector</a>
 , <a class="el" href="d8/d6e/classPHG4ConeSubsystem.html#aa05fefa9a9e80a860a1c5611529db005">PHG4ConeSubsystem</a>
 , <a class="el" href="d3/d95/classPHG4CylinderDetector.html#a5e1ce812d83b7a351594488805112b1c">PHG4CylinderDetector</a>
 , <a class="el" href="d7/d7f/classPHG4DetectorGroupSubsystem.html#a8168d5dcbd8500614eabb4923ad4f8b2">PHG4DetectorGroupSubsystem</a>
 , <a class="el" href="d5/d29/classPHG4DetectorSubsystem.html#aa0c11d415a70a207a3ea851b28932dfd">PHG4DetectorSubsystem</a>
-, <a class="el" href="dd/d57/classPHG4EMCalDetector.html#adceab23b82fe5e2b5ed7a7c767af2a5e">PHG4EMCalDetector</a>
-, <a class="el" href="d8/db8/classPHG4PolyconDetector.html#a3ead965596bd6d9e20a0a5b2c2fbfbd1">PHG4PolyconDetector</a>
+, <a class="el" href="dd/d57/classPHG4EMCalDetector.html#a372ccc9a58206d22754f93bafcd1f4e2">PHG4EMCalDetector</a>
+, <a class="el" href="d8/db8/classPHG4PolyconDetector.html#a345fbb1fb5c1a5876084d55eb034afa3">PHG4PolyconDetector</a>
 , <a class="el" href="d9/d87/classPHG4SquareTubeDetector.html#a2f26f00af28dd837236d293c3fafccd4">PHG4SquareTubeDetector</a>
 , <a class="el" href="df/dec/classPHG4TargetCoilDetector.html#a3c8b75b05e97b85910bbbeb4ce25190d">PHG4TargetCoilDetector</a>
 , <a class="el" href="d0/d00/classPHG4TargetCoilV2Detector.html#aba2df8ab9bb6de75f9dc679779d03937">PHG4TargetCoilV2Detector</a>
@@ -3229,7 +3268,7 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:18</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:34</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xtruwrite_12224',['XtruWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#a47008ee8616fcf6fe7bd245c0201eea2',1,'PHG4GDMLWriteSolids']]]
+  ['xtruwrite_12390',['XtruWrite',['../d0/d94/classPHG4GDMLWriteSolids.html#a47008ee8616fcf6fe7bd245c0201eea2',1,'PHG4GDMLWriteSolids']]]
 ];

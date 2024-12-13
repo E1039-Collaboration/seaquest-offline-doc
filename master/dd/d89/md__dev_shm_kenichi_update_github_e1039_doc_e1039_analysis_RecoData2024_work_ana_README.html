@@ -86,18 +86,18 @@ $(document).ready(function(){initNavTree('dd/d89/md__dev_shm_kenichi_update_gith
 <div class="title">e1039-analysis/RecoData2024/work_ana </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>The officially-reconstructed data are stored under <code>/pnfs/e1039/persistent/users/spinquestpro/commisioning_recodata/CoarseFalse/KMagOn/Occu3</code> as of 2024-09-01. These data are analyzed in this directory, as selected by <code>DIR_DST</code> in <code>gridsub.sh</code>.</p>
-<h1><a class="anchor" id="autotoc_md185"></a>
+<div class="textblock"><p>This directory is to analyze a set of reconstructed data files selected by <code>DIR_DST</code> at the beginning of <code>gridsub.sh</code>. To analyze officially-reconstructed data, you have to use <code>gridsub_official.sh</code> as explained later.</p>
+<h1><a class="anchor" id="autotoc_md189"></a>
 Test of Analysis Using a Few Runs</h1>
-<p>The procedure below will analyze the 4th good run to draw basic dimuon variables.</p>
+<p>The procedure below will analyze the 1st-2nd good runs to draw basic dimuon variables.</p>
 <div class="fragment"><div class="line">cd /path/to/your/e1039-analysis/RecoData2024/work_ana</div>
 <div class="line">source ../setup.sh</div>
-<div class="line">./gridsub.sh -j 4-4</div>
+<div class="line">./gridsub.sh -j 1-2</div>
 <div class="line">root -b &#39;AnaEventTree.C(&quot;scratch/ana&quot;)&#39;</div>
 <div class="line">display result/h1_m.png &amp;</div>
 </div><!-- fragment --><p>Here are what happens in each step:</p><ul>
 <li><code>gridsub.sh</code> sets up a subdirectory (per run) to analyze DST files of given runs.<ul>
-<li>The option <code>-j 4-4</code> selects the 4th run (listed in <code>list_run_spill.txt</code>).</li>
+<li>The option <code>-j 1-2</code> selects the 1st-2nd runs (listed in <code>list_run_spill.txt</code>).</li>
 <li>Analyzing one run is directed by <code>gridrun.sh</code> and <code>Fun4All.C</code>.</li>
 <li>A <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module, <code><a class="el" href="../../d6/d3f/classAnaDimuon.html" title="An example class to analyze hodoscope hits in E1039 DST file.">AnaDimuon</a></code>, is registered by default.</li>
 <li>The analysis runs on local computer by default (i.e. when <code>-g</code> is not given).</li>
@@ -109,16 +109,27 @@ Test of Analysis Using a Few Runs</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md186"></a>
+<h1><a class="anchor" id="autotoc_md190"></a>
 Analysis Using All Runs</h1>
 <p>You can analyze other runs by adjusting the <code>-j</code> option of <code>gridsub.sh</code>. The <code>-g</code> option let you use the Grid computing. You first submit jobs for the first 10 runs; </p><div class="fragment"><div class="line">kinit</div>
 <div class="line">./gridsub.sh -g -j 1-10</div>
-</div><!-- fragment --><p>You might execute <code>jobsub_q_mine</code> to monitor the job status, which is an alias of <code>jobsub_q --group spinquest --user=$USER</code> defined in <code>setup.sh</code>. Once you confirm that the jobs are running fine, you submit more jobs for the remaining runs; </p><div class="fragment"><div class="line">./gridsub.sh -g -j 11-</div>
-</div><!-- fragment --><p>The output files are stored under <code>data/ana/</code> in case Grid is used. You can analyze them once (almost) all jobs finish; </p><div class="fragment"><div class="line">root -b AnaEventTree.C</div>
+</div><!-- fragment --><p>You might execute <code>jobsub_q_mine</code> to monitor the job status, which is an alias of <code>jobsub_q --group spinquest --user=$USER</code> defined in <code>setup.sh</code>. Once you confirm that the jobs are running fine, you submit more jobs for the remaining runs; </p><div class="fragment"><div class="line">./gridsub.sh -g -m 20 -j 11-</div>
+</div><!-- fragment --><p> Here <code>-m 20</code> sets the max number of total (idle+running+held) jobs at a time.</p>
+<p>The output files are stored under <code>data/ana/</code> in case Grid is used. You can analyze them once (almost) all jobs finish; </p><div class="fragment"><div class="line">root -b AnaEventTree.C</div>
 <div class="line">display result/h1_m.png &amp;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md187"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md191"></a>
 Analysis Condition</h1>
-<p>The analysis condition is programmed in <code>src/AnaDimuon.(h|cc)</code>. Thus you need look into these files to understand the default condition. You might modify these files as you need. You need execute <code>make-this</code> after modification. </p>
+<p>The analysis condition is programmed in <code>src/AnaDimuon.(h|cc)</code>. Thus you need look into these files to understand the default condition. You might modify these files as you need. You need execute <code>make-this</code> after modification.</p>
+<h1><a class="anchor" id="autotoc_md192"></a>
+Dimuon Vertexing</h1>
+<p>You might redo the dimuon vertexing together with the anlaysis. It is feasible since the vertexing finishes rather quickly. To do this, you uncomment the following lines in <code>Fun4All.C</code>: </p><div class="fragment"><div class="line">//R__LOAD_LIBRARY(libktracker)</div>
+<div class="line"> </div>
+<div class="line">  //VertexFit* vtx_fit = new VertexFit();</div>
+<div class="line">  //vtx_fit-&gt;enable_fit_target_center();</div>
+<div class="line">  //se-&gt;registerSubsystem(vtx_fit);</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md193"></a>
+Analysis of Officially-Reconstructed Data</h1>
+<p>To analyze officially-reconstructed data, you have to use <code>gridsub_official.sh</code> instead of <code>gridsub.sh</code> because the name of data files is not differentiated among runs/spills. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
@@ -129,7 +140,7 @@ Analysis Condition</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Wed Sep 11 2024 10:43:16</em> using <a
+			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -34,95 +34,110 @@
 <path fill="none" stroke="midnightblue" d="M98.92,-85.15C118.98,-94.76 145.79,-107.17 170,-117 174.48,-118.82 179.15,-120.63 183.86,-122.4"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="182.92,-125.79 193.52,-125.97 185.35,-119.22 182.92,-125.79"/>
 </g>
-<!-- Node3 -->
-<g id="node3" class="node">
-<title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d5/d83/classSRawEvent.html#a33468312a0fdd8ebe82ce5f56ce0f1c8" target="_top" xlink:title=" ">
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d5/d83/classSRawEvent.html#a33468312a0fdd8ebe82ce5f56ce0f1c8" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="170,-77 170,-107 308,-107 308,-77 170,-77"/>
 <text text-anchor="start" x="178" y="-95" font-family="FreeSans" font-size="10.00">SRawEvent::getPartialHit</text>
 <text text-anchor="middle" x="239" y="-84" font-family="FreeSans" font-size="10.00">PairsInSuperDetector</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2" class="edge">
-<title>Node1&#45;&gt;Node3</title>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node1&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M134.21,-78.57C142.59,-79.65 151.22,-80.77 159.76,-81.88"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="159.36,-85.35 169.73,-83.16 160.26,-78.41 159.36,-85.35"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node">
-<title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d2/d26/classTracklet.html#a2e1d23a5d9ca161d0c2a5e108cd9300c" target="_top" xlink:title="isValid returns non zero if object contains vailid data">
+<!-- Node6 -->
+<g id="node6" class="node">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d2/d26/classTracklet.html#a2e1d23a5d9ca161d0c2a5e108cd9300c" target="_top" xlink:title="isValid returns non zero if object contains vailid data">
 <polygon fill="none" stroke="black" points="192.5,-38.5 192.5,-57.5 285.5,-57.5 285.5,-38.5 192.5,-38.5"/>
 <text text-anchor="middle" x="239" y="-45.5" font-family="FreeSans" font-size="10.00">Tracklet::isValid</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node5 -->
-<g id="edge4" class="edge">
-<title>Node1&#45;&gt;Node5</title>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge">
+<title>Node1&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M134.21,-61.43C150.04,-59.38 166.79,-57.22 182.1,-55.23"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="182.98,-58.65 192.45,-53.89 182.08,-51.71 182.98,-58.65"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node">
-<title>Node8</title>
-<g id="a_node8"><a xlink:href="../../d2/d26/classTracklet.html#a517e8e0a3ccc7678ef2a0cdfa5f7168d" target="_top" xlink:title=" ">
+<!-- Node9 -->
+<g id="node9" class="node">
+<title>Node9</title>
+<g id="a_node9"><a xlink:href="../../d2/d26/classTracklet.html#a517e8e0a3ccc7678ef2a0cdfa5f7168d" target="_top" xlink:title=" ">
 <polygon fill="none" stroke="black" points="189.5,-0.5 189.5,-19.5 288.5,-19.5 288.5,-0.5 189.5,-0.5"/>
 <text text-anchor="middle" x="239" y="-7.5" font-family="FreeSans" font-size="10.00">Tracklet::sortHits</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
-<title>Node1&#45;&gt;Node8</title>
+<!-- Node1&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node1&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M103.05,-54.8C122.56,-46.63 147.41,-36.67 170,-29 176.86,-26.67 184.18,-24.4 191.38,-22.29"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="192.42,-25.64 201.07,-19.52 190.49,-18.91 192.42,-25.64"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d5/d83/classSRawEvent.html#acf9e10bcf22a77325de8cfc82dc772e0" target="_top" xlink:title="Gets.">
+<!-- Node3 -->
+<g id="node3" class="node">
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="../../da/db3/classSQTrackletFitter.html#a7f49cc7099fb5907853f16946ccdff5c" target="_top" xlink:title="core function &#45; fit the tracklet and return the fit status">
+<polygon fill="none" stroke="black" points="363.5,-131.5 363.5,-150.5 473.5,-150.5 473.5,-131.5 363.5,-131.5"/>
+<text text-anchor="middle" x="418.5" y="-138.5" font-family="FreeSans" font-size="10.00">SQTrackletFitter::fit</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2" class="edge">
+<title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M296.16,-141C314.24,-141 334.42,-141 353.05,-141"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="353.22,-144.5 363.22,-141 353.22,-137.5 353.22,-144.5"/>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d5/d83/classSRawEvent.html#acf9e10bcf22a77325de8cfc82dc772e0" target="_top" xlink:title="Gets.">
 <polygon fill="none" stroke="black" points="344,-77 344,-107 493,-107 493,-77 344,-77"/>
 <text text-anchor="start" x="352" y="-95" font-family="FreeSans" font-size="10.00">SRawEvent::getHitsIndexIn</text>
 <text text-anchor="middle" x="418.5" y="-84" font-family="FreeSans" font-size="10.00">Detector</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge">
-<title>Node3&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge">
+<title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M308.12,-92C316.55,-92 325.25,-92 333.88,-92"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="333.96,-95.5 343.96,-92 333.96,-88.5 333.96,-95.5"/>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node">
-<title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d2/d26/classTracklet.html#a6f9948f745c65cddaa1bd7cf12ec961a" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="369.5,-38.5 369.5,-57.5 467.5,-57.5 467.5,-38.5 369.5,-38.5"/>
-<text text-anchor="middle" x="418.5" y="-45.5" font-family="FreeSans" font-size="10.00">Tracklet::getProb</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M285.71,-48C308.18,-48 335.51,-48 359.44,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="359.46,-51.5 369.46,-48 359.46,-44.5 359.46,-51.5"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d2/d26/classTracklet.html#a6531c652f61e2f7b094e24414699e49b" target="_top" xlink:title=" ">
-<polygon fill="none" stroke="black" points="529,-38.5 529,-57.5 633,-57.5 633,-38.5 529,-38.5"/>
-<text text-anchor="middle" x="581" y="-45.5" font-family="FreeSans" font-size="10.00">Tracklet::getNHits</text>
+<g id="a_node7"><a xlink:href="../../d2/d26/classTracklet.html#a6f9948f745c65cddaa1bd7cf12ec961a" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="369.5,-38.5 369.5,-57.5 467.5,-57.5 467.5,-38.5 369.5,-38.5"/>
+<text text-anchor="middle" x="418.5" y="-45.5" font-family="FreeSans" font-size="10.00">Tracklet::getProb</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
+<path fill="none" stroke="midnightblue" d="M285.71,-48C308.18,-48 335.51,-48 359.44,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="359.46,-51.5 369.46,-48 359.46,-44.5 359.46,-51.5"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node">
+<title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d2/d26/classTracklet.html#a6531c652f61e2f7b094e24414699e49b" target="_top" xlink:title=" ">
+<polygon fill="none" stroke="black" points="529,-38.5 529,-57.5 633,-57.5 633,-38.5 529,-38.5"/>
+<text text-anchor="middle" x="581" y="-45.5" font-family="FreeSans" font-size="10.00">Tracklet::getNHits</text>
+</a>
+</g>
+</g>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M467.66,-48C483.64,-48 501.65,-48 518.5,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="518.81,-51.5 528.81,-48 518.81,-44.5 518.81,-51.5"/>
 </g>
