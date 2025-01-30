@@ -87,14 +87,14 @@ $(document).ready(function(){initNavTree('d9/db7/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This macro is to generate signal events to be used for the hit embedding. The DST file (i.e. <code>DST.root</code>) outputted by this macro is used next. The number of signal events per job (=file) should be matched with that of <em>embedding</em> events that you will use. The number used below (5000) is suitable for the E906 NIM3 embedding events.</p>
-<h1><a class="anchor" id="autotoc_md149"></a>
+<h1><a class="anchor" id="autotoc_md143"></a>
 Alternative</h1>
 <p>You can use another package for this step, such as <code>SimChainDev</code>. In that case you are recommended to</p><ul>
 <li>Match the number of events per job (=file) with that of <em>embedding</em> events that you will use,</li>
 <li>Confirm that the geometry configuration is identical, and</li>
 <li>Save only necessary data nodes in DSTs to reduce the size of DSTs, via <code><a class="el" href="../../da/daa/classFun4AllDstOutputManager.html#aecbb1b9b7fa38d255ce40f25ad6a0398" title="add a node in outputmanager">Fun4AllDstOutputManager::AddNode()</a></code>.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md150"></a>
+<h1><a class="anchor" id="autotoc_md144"></a>
 Default Setting of Event Generation</h1>
 <p>The default setting configured in <code>Fun4Sim.C</code> uses</p><ul>
 <li>The J/psi production via <code><a class="el" href="../../d4/d06/classSQPrimaryParticleGen.html" title="Physics generator imported from E906 software.">SQPrimaryParticleGen</a></code>,</li>
@@ -102,7 +102,7 @@ Default Setting of Event Generation</h1>
 <li>The standard event reconstruction (i.e. tracking &amp; vertexing).</li>
 </ul>
 <p>You can modify them as you need. The reconstruction here makes a result <em>not</em> affected by the hit embedding. It will be compared to another result reconstructed after the hit embedding.</p>
-<h1><a class="anchor" id="autotoc_md151"></a>
+<h1><a class="anchor" id="autotoc_md145"></a>
 Usage</h1>
 <p>The usage is quite similar to <code>SimChainDev</code>. You use two shell scripts to execute the macro on the grid.</p>
 <p>Typically you first execute the following command to execute the macro on local for test, which runs one job that generates 100 events; </p><div class="fragment"><div class="line">./gridsub.sh jpsi_20211011</div>
@@ -118,7 +118,7 @@ Usage</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

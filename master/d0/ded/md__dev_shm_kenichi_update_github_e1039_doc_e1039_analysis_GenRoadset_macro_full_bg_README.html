@@ -87,15 +87,15 @@ $(document).ready(function(){initNavTree('d0/ded/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to generate BG events from the full-BG simulation. It outputs a small ROOT file named <code>bg_tree.root</code>, which will be used later in <code>macro_ana</code>.</p>
-<h1><a class="anchor" id="autotoc_md120"></a>
+<h1><a class="anchor" id="autotoc_md114"></a>
 Setting of Event Generation</h1>
 <p>The setting of the event generation is configured in <code>Fun4All.C</code> as usual. The <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates <code>bg_tree.root</code> is <code>src/SubsysRecoBG.(h|cc)</code>. You can modify them as you need.</p>
 <p>The configuration of <code><a class="el" href="../../d0/db4/classSQPileupGen.html" title="An SQ class to pileup the tracks from external file.">SQPileupGen</a></code> was taken from <code>abinashpun/e1039-abi-projects/PileupDev</code> on 2021-12-21. <code>e906_rf00.root</code> was copied from it also.</p>
-<h1><a class="anchor" id="autotoc_md121"></a>
+<h1><a class="anchor" id="autotoc_md115"></a>
 Test Production</h1>
 <p>You first execute the following command to execute the macro on local for test, which runs one job that generates 10 in-acceptance events;</p>
 <div class="fragment"><div class="line">./gridsub.sh</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md122"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md116"></a>
 Mass Production</h1>
 <p>You then execute the following commands to submit grid jobs (<code>-g</code>), which runs 100 jobs (<code>-j 100</code>) that generate events as many as possible (<code>-e 0</code>);</p>
 <div class="fragment"><div class="line">kinit</div>
@@ -110,7 +110,7 @@ Mass Production</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

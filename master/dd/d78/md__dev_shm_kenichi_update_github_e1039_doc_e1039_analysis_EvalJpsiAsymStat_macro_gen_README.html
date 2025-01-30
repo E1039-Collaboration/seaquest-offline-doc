@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('dd/d78/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to generate signal events. The usage is similar to <code>e1039-analysis/SimChainDev</code>. You generate sets of J/psi and psi' events at least, and optionally another set of Drell-Yan events to draw the mass distributions. The outputs are <code>DST.root</code>, which will be used later in <code>macro_ana/</code>.</p>
-<h1><a class="anchor" id="autotoc_md100"></a>
+<h1><a class="anchor" id="autotoc_md86"></a>
 Setting of Event Generation</h1>
 <p>The setting of the event generation is configured in <code>Fun4All.C</code> as usual. But note that the number of events/job that you set is of <em>accepted</em> events, not <em>all_generated</em> events. The followings are recommended numbers of events/job and jobs:</p>
 <ul>
@@ -104,11 +104,11 @@ Setting of Event Generation</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md101"></a>
+<h1><a class="anchor" id="autotoc_md87"></a>
 Test Production</h1>
 <p>You first execute the following command to execute the macro on local for test, which runs one job that generates 10 in-acceptance events;</p>
 <div class="fragment"><div class="line">./gridsub.sh</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md102"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md88"></a>
 Mass Production</h1>
 <p>You then execute the following commands to submit grid jobs (<code>-g</code>), which runs 100 jobs (<code>-j 100</code>) that generate 500 events/job (<code>-e 500</code>);</p>
 <div class="fragment"><div class="line">kinit</div>
@@ -125,7 +125,7 @@ Mass Production</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

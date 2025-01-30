@@ -38,9 +38,6 @@ var hierarchy =
     [ "Event", "d5/da5/classEvent.html", [
       [ "EVIO_Event", "dd/daf/classEVIO__Event.html", null ]
     ] ],
-    [ "EventDispUI", "d8/d6d/classEventDispUI.html", [
-      [ "EventDispOfflineUI", "dc/d36/classEventDispOfflineUI.html", null ]
-    ] ],
     [ "EventInfo", "d2/d31/structEventInfo.html", null ],
     [ "EventReducer", "d5/dda/classEventReducer.html", null ],
     [ "ExtParticle", "da/d0f/classExtParticle.html", null ],
@@ -65,8 +62,10 @@ var hierarchy =
         [ "Fun4AllHitMatrixInputManager", "db/dfa/classFun4AllHitMatrixInputManager.html", null ],
         [ "Fun4AllOscarInputManager", "db/d1f/classFun4AllOscarInputManager.html", null ],
         [ "Fun4AllPrdfInputManager", "da/dd8/classFun4AllPrdfInputManager.html", null ],
+        [ "Fun4AllRUSInputManager", "da/d1f/classFun4AllRUSInputManager.html", null ],
         [ "Fun4AllSRawEventInputManager", "d5/dd4/classFun4AllSRawEventInputManager.html", null ],
-        [ "Fun4AllTrackQAv1InputManager", "d1/dbe/classFun4AllTrackQAv1InputManager.html", null ]
+        [ "Fun4AllTrackQAv1InputManager", "d1/dbe/classFun4AllTrackQAv1InputManager.html", null ],
+        [ "Fun4AllVectEventInputManager", "d4/d7e/classFun4AllVectEventInputManager.html", null ]
       ] ],
       [ "Fun4AllOutputManager", "d8/d77/classFun4AllOutputManager.html", [
         [ "Fun4AllDstOutputManager", "da/daa/classFun4AllDstOutputManager.html", [
@@ -76,13 +75,13 @@ var hierarchy =
         [ "Fun4AllEventOutputManager", "d2/d4a/classFun4AllEventOutputManager.html", null ],
         [ "Fun4AllHepMCOutputManager", "d0/dec/classFun4AllHepMCOutputManager.html", null ],
         [ "Fun4AllPrdfOutputManager", "d6/dc8/classFun4AllPrdfOutputManager.html", null ],
+        [ "Fun4AllRUSOutputManager", "d2/d94/classFun4AllRUSOutputManager.html", null ],
         [ "Fun4AllSRawEventOutputManager", "d9/dc8/classFun4AllSRawEventOutputManager.html", null ],
         [ "Fun4AllSRawEventOutputManagerV2", "db/dd3/classFun4AllSRawEventOutputManagerV2.html", null ],
-        [ "Fun4AllSpillSRawEventOutputManager", "d1/db1/classFun4AllSpillSRawEventOutputManager.html", null ]
+        [ "Fun4AllSpillSRawEventOutputManager", "d1/db1/classFun4AllSpillSRawEventOutputManager.html", null ],
+        [ "Fun4AllVectEventOutputManager", "d7/d48/classFun4AllVectEventOutputManager.html", null ]
       ] ],
-      [ "Fun4AllServer", "da/d29/classFun4AllServer.html", [
-        [ "OnlMonServer", "d8/d38/classOnlMonServer.html", null ]
-      ] ],
+      [ "Fun4AllServer", "da/d29/classFun4AllServer.html", null ],
       [ "Fun4AllSyncManager", "dd/ded/classFun4AllSyncManager.html", null ],
       [ "SubsysReco", "d0/d32/classSubsysReco.html", [
         [ "AnaChamHit", "d7/d73/classAnaChamHit.html", null ],
@@ -109,7 +108,6 @@ var hierarchy =
         [ "AnaTrigSignal", "db/dc8/classAnaTrigSignal.html", null ],
         [ "AnaTriggerHit", "d2/db9/classAnaTriggerHit.html", null ],
         [ "AnaTrkQA", "d9/d85/classAnaTrkQA.html", null ],
-        [ "AnaWait", "d5/d60/classAnaWait.html", null ],
         [ "CalibDriftDist", "d4/d73/classCalibDriftDist.html", null ],
         [ "CalibDriftDistMod", "dd/def/classCalibDriftDistMod.html", null ],
         [ "CalibEvtQual", "da/de3/classCalibEvtQual.html", null ],
@@ -125,7 +123,6 @@ var hierarchy =
         [ "DoEmbedding", "d2/d1b/classDoEmbedding.html", null ],
         [ "E906SpillSelector", "df/dd0/classE906SpillSelector.html", null ],
         [ "E906SpillSelector", "df/dd0/classE906SpillSelector.html", null ],
-        [ "EvtDispFilter", "d2/df3/classEvtDispFilter.html", null ],
         [ "EvtFilter", "d1/dbd/classEvtFilter.html", null ],
         [ "ExtractTdcDist", "dd/d3d/classExtractTdcDist.html", null ],
         [ "FilterByTrigger", "d0/d1d/classFilterByTrigger.html", null ],
@@ -137,21 +134,6 @@ var hierarchy =
         [ "HepMCFlowAfterBurner", "dd/d6c/classHepMCFlowAfterBurner.html", null ],
         [ "HepMCNodeReader", "db/d6c/classHepMCNodeReader.html", null ],
         [ "MakeMyTree", "d6/dde/classMakeMyTree.html", null ],
-        [ "OnlMonClient", "d9/d62/classOnlMonClient.html", [
-          [ "OnlMonCham", "db/d15/classOnlMonCham.html", null ],
-          [ "OnlMonH4", "d2/d02/classOnlMonH4.html", null ],
-          [ "OnlMonHodo", "d8/dc8/classOnlMonHodo.html", null ],
-          [ "OnlMonMainDaq", "d8/d69/classOnlMonMainDaq.html", null ],
-          [ "OnlMonProp", "d7/dac/classOnlMonProp.html", null ],
-          [ "OnlMonQie", "d7/df2/classOnlMonQie.html", null ],
-          [ "OnlMonReco", "df/d73/classOnlMonReco.html", null ],
-          [ "OnlMonTrigEP", "d7/db7/classOnlMonTrigEP.html", null ],
-          [ "OnlMonTrigNim", "d2/d9d/classOnlMonTrigNim.html", null ],
-          [ "OnlMonTrigSig", "dc/dae/classOnlMonTrigSig.html", null ],
-          [ "OnlMonTrigV1495", "df/db1/classOnlMonTrigV1495.html", null ],
-          [ "OnlMonV1495", "d6/d41/classOnlMonV1495.html", null ]
-        ] ],
-        [ "PHEventDisplay", "d1/dce/classPHEventDisplay.html", null ],
         [ "PHG4BlockCellReco", "df/d5e/classPHG4BlockCellReco.html", null ],
         [ "PHG4ConsistencyCheck", "dc/d38/classPHG4ConsistencyCheck.html", null ],
         [ "PHG4CylinderCellReco", "d5/dd0/classPHG4CylinderCellReco.html", null ],
@@ -173,7 +155,8 @@ var hierarchy =
           [ "PHG4SimpleEventGenerator", "d5/df3/classPHG4SimpleEventGenerator.html", null ],
           [ "SQCosmicGen", "d8/d0f/classSQCosmicGen.html", null ],
           [ "SQPileupGen", "d0/db4/classSQPileupGen.html", null ],
-          [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html", null ]
+          [ "SQPrimaryParticleGen", "d4/d06/classSQPrimaryParticleGen.html", null ],
+          [ "SQSingleMuonGen", "dd/d77/classSQSingleMuonGen.html", null ]
         ] ],
         [ "PHG4Reco", "d0/d78/classPHG4Reco.html", null ],
         [ "PHG4Subsystem", "db/df7/classPHG4Subsystem.html", [
@@ -299,18 +282,11 @@ var hierarchy =
     [ "MakeRTCurve", "de/d72/classMakeRTCurve.html", null ],
     [ "MaterialProfile", "d3/d10/classMaterialProfile.html", null ],
     [ "DPTriggerAnalyzer::MatrixNode", "dc/d4e/classDPTriggerAnalyzer_1_1MatrixNode.html", null ],
-    [ "mPHEveModuleBase", "d0/d41/classmPHEveModuleBase.html", [
-      [ "mTrkEveDisplay", "d3/de7/classmTrkEveDisplay.html", null ]
-    ] ],
     [ "NMRDataManager", "dc/d29/classNMRDataManager.html", null ],
     [ "NMREvent", "d2/d01/classNMREvent.html", null ],
     [ "NMRSignal", "df/d56/classNMRSignal.html", null ],
     [ "Node", "df/dd0/classNode.html", null ],
     [ "std::numeric_limits< half >", "d9/d11/classstd_1_1numeric__limits_3_01half_01_4.html", null ],
-    [ "OnlMonCanvas", "df/ddc/classOnlMonCanvas.html", null ],
-    [ "OnlMonComm", "d9/d95/classOnlMonComm.html", null ],
-    [ "OnlMonParam", "d7/d79/classOnlMonParam.html", null ],
-    [ "OnlMonUI", "d1/de7/classOnlMonUI.html", null ],
     [ "ParamRunRange", "d0/d0d/classParamRunRange.html", null ],
     [ "PatternDBUtil", "d2/d0e/classPatternDBUtil.html", null ],
     [ "PdbApplication", "dd/df1/classPdbApplication.html", null ],
@@ -318,7 +294,6 @@ var hierarchy =
     [ "PdbCalBankIterator", "de/d57/classPdbCalBankIterator.html", null ],
     [ "PdbClassMap< T >", "dd/d25/classPdbClassMap.html", null ],
     [ "PHBBox", "d5/d67/classPHBBox.html", null ],
-    [ "PHEveDisplay", "df/d41/classPHEveDisplay.html", null ],
     [ "PHFieldUtility", "df/d4d/classPHFieldUtility.html", null ],
     [ "PHFlag", "d1/da8/classPHFlag.html", [
       [ "recoConsts", "d8/d14/classrecoConsts.html", null ]
@@ -448,9 +423,6 @@ var hierarchy =
     [ "CalibParamXT::Set", "d4/d65/structCalibParamXT_1_1Set.html", null ],
     [ "Settings", "df/d9a/classSettings.html", null ],
     [ "boost::shared_ptr< T >", "da/d18/classboost_1_1shared__ptr.html", null ],
-    [ "boost::shared_ptr< boost::thread >", "da/d18/classboost_1_1shared__ptr.html", null ],
-    [ "boost::shared_ptr< mPHEveModuleBase >", "da/d18/classboost_1_1shared__ptr.html", null ],
-    [ "boost::shared_ptr< PHEveDisplay >", "da/d18/classboost_1_1shared__ptr.html", null ],
     [ "boost::detail::shared_ptr_traits< T >", "d7/d17/structboost_1_1detail_1_1shared__ptr__traits.html", null ],
     [ "boost::detail::shared_ptr_traits< void >", "d6/d3e/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01_4.html", null ],
     [ "boost::detail::shared_ptr_traits< void const >", "d2/d78/structboost_1_1detail_1_1shared__ptr__traits_3_01void_01const_01_4.html", null ],
@@ -468,9 +440,6 @@ var hierarchy =
     [ "SQTrackletFitter", "da/db3/classSQTrackletFitter.html", null ],
     [ "boost::detail::static_cast_tag", "dd/df3/structboost_1_1detail_1_1static__cast__tag.html", null ],
     [ "TDirectoryHelper", "de/d7e/classTDirectoryHelper.html", null ],
-    [ "TEveMagField", null, [
-      [ "PHEveDisplay::MappedField", "db/d3c/classPHEveDisplay_1_1MappedField.html", null ]
-    ] ],
     [ "PHTimeServer::timer", "d7/d41/classPHTimeServer_1_1timer.html", null ],
     [ "PHDataNode< T >::tobjcast", "dc/dd3/unionPHDataNode_1_1tobjcast.html", null ],
     [ "TObject", null, [
@@ -629,6 +598,7 @@ var hierarchy =
         [ "SQScaler", "d7/d5e/classSQScaler.html", [
           [ "SQScaler_v1", "d4/d64/classSQScaler__v1.html", null ]
         ] ],
+        [ "SQSingleMuonTruthInfo", "d7/dc7/classSQSingleMuonTruthInfo.html", null ],
         [ "SQSlowCont", "d2/dea/classSQSlowCont.html", [
           [ "SQSlowCont_v1", "d2/d69/classSQSlowCont__v1.html", null ]
         ] ],

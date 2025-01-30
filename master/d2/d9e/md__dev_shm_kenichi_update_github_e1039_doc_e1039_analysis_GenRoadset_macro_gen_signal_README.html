@@ -87,14 +87,14 @@ $(document).ready(function(){initNavTree('d2/d9e/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to generate signal events to be used for the roadset tuning. It outputs a small ROOT file named <code>signal_tree.root</code>, which will be used later in <code>macro_ana</code>.</p>
-<h1><a class="anchor" id="autotoc_md124"></a>
+<h1><a class="anchor" id="autotoc_md118"></a>
 Setting of Event Generation</h1>
 <p>The setting of the event generation is configured in <code>Fun4All.C</code> as usual. The <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module that creates <code>signal_tree.root</code> is <code>src/SubsysRecoSignal.(h|cc)</code>. You can modify them as you need.</p>
-<h1><a class="anchor" id="autotoc_md125"></a>
+<h1><a class="anchor" id="autotoc_md119"></a>
 Test Production</h1>
 <p>You first execute the following command to execute the macro on local for test, which runs one job that generates 10 in-acceptance events;</p>
 <div class="fragment"><div class="line">./gridsub.sh</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md126"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md120"></a>
 Mass Production</h1>
 <p>You then execute the following commands to submit grid jobs (<code>-g</code>), which runs 100 jobs (<code>-j 100</code>) that generate 1000 events/job (<code>-e 1000</code>);</p>
 <div class="fragment"><div class="line">kinit</div>
@@ -112,7 +112,7 @@ Mass Production</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

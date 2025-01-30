@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('dc/db6/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="fragment"><div class="line">git clone https://github.com/E1039-Collaboration/seaquest-analysis.git</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md86"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md72"></a>
 run the Fun4All  shielding macro into the local gpvm machine:</h2>
 <div class="fragment"><div class="line">cd &lt;path-to-/seaquest-analysis/E1039Shielding&gt;</div>
 <div class="line">root -l Fun4E1039Shielding.C</div>
@@ -99,7 +99,7 @@ run the Fun4All  shielding macro into the local gpvm machine:</h2>
 <div class="line">TFile**         trk_eval.root   </div>
 <div class="line"> TFile*         trk_eval.root   </div>
 <div class="line">  KEY: TTree    T;1     TrkEval</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md87"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md73"></a>
 analysis</h2>
 <p>This root file 'trk_eval.root' needs to be attached in the macro for analysis. The analysis macro <code>ana.C</code> is for acceptance vs hole size study and the macro <code>loop_ana.C</code> is for acceptance vs dimuon mass study. You may test it using the example data from the trk_eval.root. </p><div class="fragment"><div class="line">root -l</div>
 <div class="line">root [0] .L ana.C </div>
@@ -108,14 +108,14 @@ analysis</h2>
 </div><!-- fragment --><div class="fragment"><div class="line">root -l</div>
 <div class="line">root [0] .L loop_ana.C </div>
 <div class="line">root [1] drawAccMass()</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md88"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md74"></a>
 run the Fun4All  shielding macro in Fermilab grid (the switch info can be found in gridrun.sh and gridsub.sh):</h2>
 <div class="fragment"><div class="line">./gridsub.sh opening 1 100 1000 1</div>
-</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md89"></a>
+</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md75"></a>
 Check the status and  output root file</h2>
 <div class="fragment"><div class="line">jobsub_q --user=&lt;your-user-id&gt;</div>
 <div class="line">cd /pnfs/e906/persistent/users/&lt;your-user-id&gt;/E1039Shielding</div>
-</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md90"></a>
+</div><!-- fragment --> <h2><a class="anchor" id="autotoc_md76"></a>
 Collect all the root files in a single root file</h2>
 <div class="fragment"><div class="line">### analysis</div>
 <div class="line">This root file &#39;trk_eval.root&#39; needs to be attached in the macro  for analysis. The analysis macro  `ana.C` is for acceptance vs hole size studies and the macro `loop_ana.C` is for acceptance vs dimuon mass study. You may test it using the example data.</div>
@@ -130,7 +130,7 @@ Collect all the root files in a single root file</h2>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

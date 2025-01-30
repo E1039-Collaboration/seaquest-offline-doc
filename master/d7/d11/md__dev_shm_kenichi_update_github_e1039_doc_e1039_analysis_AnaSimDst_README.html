@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d7/d11/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>A compact program to analyze the simulated DST file, which is created by the <code>SimChainDev</code> package. Since it is yet under development and also depends on other software under development, it might stop working occasionally. In such cases, please contact the author.</p>
-<h1><a class="anchor" id="autotoc_md42"></a>
+<h1><a class="anchor" id="autotoc_md28"></a>
 Analysis Flow</h1>
 <ol type="1">
 <li>DST -&gt; Micro DST (uDST)<ul>
@@ -111,23 +111,23 @@ Analysis Flow</h1>
 </li>
 </ol>
 <p>When the data size is small enough or the analysis logic is simple enough in your analysis, you can put all the steps in one macro.</p>
-<h1><a class="anchor" id="autotoc_md43"></a>
+<h1><a class="anchor" id="autotoc_md29"></a>
 Basic Usage</h1>
 <p>You can try the following procedure to go through the whole analysis flow.</p>
-<h2><a class="anchor" id="autotoc_md44"></a>
+<h2><a class="anchor" id="autotoc_md30"></a>
 Preparation of Simulated DST Files</h2>
 <p>You first produce a set of simulated DST files by <code>SimChainDev</code>. This document assumes that the top directory of your simDST files is <code>/your/dst/dir</code>. It can be either relative or absolute.</p>
 <p>The following command lists up all simDSTs into <code>list_dst.txt</code>; </p><div class="fragment"><div class="line">cd e1039-analysis/AnaSimDst/work</div>
 <div class="line">./make-dst-list.sh /your/dst/dir</div>
 </div><!-- fragment --><p> You might manually create or edit the list file as you need.</p>
-<h2><a class="anchor" id="autotoc_md45"></a>
+<h2><a class="anchor" id="autotoc_md31"></a>
 Compilation of Analysis Code</h2>
 <p>The analysis code is located in <code>e1039-analysis/AnaSimDst/src</code>. The following commands set up the shell environment and compile the code; </p><div class="fragment"><div class="line">cd e1039-analysis/AnaSimDst</div>
 <div class="line">source setup.sh</div>
 <div class="line">cmake-this</div>
 <div class="line">make-this</div>
 </div><!-- fragment --><p> You are expected to later look into the script and the analysis code to make your own analysis logic.</p>
-<h2><a class="anchor" id="autotoc_md46"></a>
+<h2><a class="anchor" id="autotoc_md32"></a>
 Execution of Analysis</h2>
 <p>The 1st step is to create uDST from DSTs. The following commands reads five simDSTs for test. The uDST file is <code>uDST.root</code>. </p><div class="fragment"><div class="line">cd e1039-analysis/AnaSimDst</div>
 <div class="line">source setup.sh</div>
@@ -137,15 +137,15 @@ Execution of Analysis</h2>
 </div><!-- fragment --><p>The last step is draw plots from Tree. </p><div class="fragment"><div class="line">root -b -q Fun4SimTree.C</div>
 </div><!-- fragment --><p> Various plots are outputted to <code>result/</code>.</p>
 <p>If all the commands ran fine, you delete <code>(5)</code> (or change to <code>(0)</code>) in the 1st step to use all DSTs.</p>
-<h1><a class="anchor" id="autotoc_md47"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 Advanced Usage</h1>
-<h2><a class="anchor" id="autotoc_md48"></a>
+<h2><a class="anchor" id="autotoc_md34"></a>
 &lt;tt&gt;cmake-this&lt;/tt&gt;</h2>
 <p>You should execute this function when you add/delete files under <code>src/</code>. It is a shell function defined in <code>setup.sh</code>. It calls 'cmake' with a proper configuration. It cleans up all files in the build &amp; install directories.</p>
-<h2><a class="anchor" id="autotoc_md49"></a>
+<h2><a class="anchor" id="autotoc_md35"></a>
 &lt;tt&gt;make-this&lt;/tt&gt;</h2>
 <p>You should execute this function when you modify files under <code>src/</code>. It is a shell function defined in <code>setup.sh</code>. It calls 'make install' with a proper configuration.</p>
-<h1><a class="anchor" id="autotoc_md50"></a>
+<h1><a class="anchor" id="autotoc_md36"></a>
 Author</h1>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no@'+'nu'+'cl.'+'ph'+'ys.'+'ti'+'tec'+'h.'+'ac.'+'jp'; return false;">knaka<span style="display: none;">.nosp@m.</span>no@n<span style="display: none;">.nosp@m.</span>ucl.p<span style="display: none;">.nosp@m.</span>hys.<span style="display: none;">.nosp@m.</span>titec<span style="display: none;">.nosp@m.</span>h.ac<span style="display: none;">.nosp@m.</span>.jp</a> </p>
 </div></div><!-- contents -->
@@ -158,7 +158,7 @@ Author</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -1,19 +1,8 @@
 var searchData=
 [
-  ['half_5fdig_14747',['HALF_DIG',['../d8/dd3/half_8h.html#a023890238a02cfe62fe6be62868d3b2b',1,'half.h']]],
-  ['half_5fepsilon_14748',['HALF_EPSILON',['../d8/dd3/half_8h.html#ab42dfec25c902fc23bd04ecf98b0f9e0',1,'half.h']]],
-  ['half_5fexport_14749',['HALF_EXPORT',['../d8/dd3/half_8h.html#a5fa1946ba134dfd277162e3b87f6da7c',1,'half.h']]],
-  ['half_5fexport_5fconst_14750',['HALF_EXPORT_CONST',['../d8/dd3/half_8h.html#a5d74254ff04d38cd1852d61ec0c0fba8',1,'half.h']]],
-  ['half_5fmant_5fdig_14751',['HALF_MANT_DIG',['../d8/dd3/half_8h.html#a5401eea966b48925b46b1f912f7267b1',1,'half.h']]],
-  ['half_5fmax_14752',['HALF_MAX',['../d8/dd3/half_8h.html#a5b6361d2fc6650dc7dec79f1c2ec19f5',1,'half.h']]],
-  ['half_5fmax_5f10_5fexp_14753',['HALF_MAX_10_EXP',['../d8/dd3/half_8h.html#a7472c7a66333055378ef1b19fad9c04c',1,'half.h']]],
-  ['half_5fmax_5fexp_14754',['HALF_MAX_EXP',['../d8/dd3/half_8h.html#a10d9f10ab9a5f9bb022c1053c1d77308',1,'half.h']]],
-  ['half_5fmin_14755',['HALF_MIN',['../d8/dd3/half_8h.html#ab50d333f1863582482e9ed60352280fd',1,'half.h']]],
-  ['half_5fmin_5f10_5fexp_14756',['HALF_MIN_10_EXP',['../d8/dd3/half_8h.html#a688f3e9e1525de46dc5e24aa460309dc',1,'half.h']]],
-  ['half_5fmin_5fexp_14757',['HALF_MIN_EXP',['../d8/dd3/half_8h.html#a8dc0bc8fb7658ee7f5b94d86b006db09',1,'half.h']]],
-  ['half_5fnrm_5fmin_14758',['HALF_NRM_MIN',['../d8/dd3/half_8h.html#a26a1b6284a9f1cdedfa26034d1f1d72a',1,'half.h']]],
-  ['half_5fradix_14759',['HALF_RADIX',['../d8/dd3/half_8h.html#a28a9162ede14d72457b610bc0e808592',1,'half.h']]],
-  ['has_5fthnsparse_14760',['HAS_THNSPARSE',['../df/d24/Fun4AllHistoManager_8cc.html#a277fac7699c20a2813d6443f5e85f267',1,'Fun4AllHistoManager.cc']]],
-  ['have_5flhep_14761',['HAVE_LHEP',['../d2/dcb/PHG4Reco_8cc.html#a5221c4de3c8551fa533e73628534bd94',1,'PHG4Reco.cc']]],
-  ['hitflagbit_14762',['hitFlagBit',['../db/dda/SRawEvent_8h.html#a4de584d2448f1168bb2f0c409dc5a496',1,'SRawEvent.h']]]
+  ['logdebug_14067',['LogDebug',['../dd/de2/GlobalConsts_8h.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;GlobalConsts.h'],['../d0/d98/SQReco_8cxx.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;SQReco.cxx'],['../d4/da7/PatternDBGen_8cxx.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;PatternDBGen.cxx'],['../db/d7f/AnaTrkQA_8cxx.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;AnaTrkQA.cxx'],['../d0/db6/TruthEval_8cxx.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;TruthEval.cxx'],['../d1/d32/DetectorConstructionWrapper_8cxx.html#a52279903e10561ef695cee631e3dfa4b',1,'LogDebug():&#160;DetectorConstructionWrapper.cxx']]],
+  ['logdebuglv2_14068',['LogDebuglv2',['../dd/de2/GlobalConsts_8h.html#a67907a4a3bedad173e62fef29123e4bf',1,'GlobalConsts.h']]],
+  ['logerror_14069',['LogError',['../d0/db6/TruthEval_8cxx.html#af4231849d7d75726b179a00224d575de',1,'LogError():&#160;TruthEval.cxx'],['../d7/d38/AnaPileup_8cc.html#af4231849d7d75726b179a00224d575de',1,'LogError():&#160;AnaPileup.cc'],['../db/d7f/AnaTrkQA_8cxx.html#af4231849d7d75726b179a00224d575de',1,'LogError():&#160;AnaTrkQA.cxx'],['../d4/da7/PatternDBGen_8cxx.html#af4231849d7d75726b179a00224d575de',1,'LogError():&#160;PatternDBGen.cxx'],['../d1/d32/DetectorConstructionWrapper_8cxx.html#af4231849d7d75726b179a00224d575de',1,'LogError():&#160;DetectorConstructionWrapper.cxx']]],
+  ['loginfo_14070',['LogInfo',['../da/d4b/DbSvc_8cc.html#a00810b1cb9d2f25d25ce2d4d93815fba',1,'LogInfo():&#160;DbSvc.cc'],['../d2/dce/EvtFilter_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba',1,'LogInfo():&#160;EvtFilter.cxx'],['../d1/db2/SimDstTrimmer_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba',1,'LogInfo():&#160;SimDstTrimmer.cxx'],['../dd/de2/GlobalConsts_8h.html#a00810b1cb9d2f25d25ce2d4d93815fba',1,'LogInfo():&#160;GlobalConsts.h'],['../df/da6/PatternDBUtil_8cxx.html#a00810b1cb9d2f25d25ce2d4d93815fba',1,'LogInfo():&#160;PatternDBUtil.cxx'],['../d0/db6/TruthEval_8cxx.html#a1f19d3981079d5a411ea6bed207aecf6',1,'LogInfo():&#160;TruthEval.cxx']]],
+  ['logwarning_14071',['LogWarning',['../d1/d32/DetectorConstructionWrapper_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10',1,'LogWarning():&#160;DetectorConstructionWrapper.cxx'],['../d4/da7/PatternDBGen_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10',1,'LogWarning():&#160;PatternDBGen.cxx'],['../db/d7f/AnaTrkQA_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10',1,'LogWarning():&#160;AnaTrkQA.cxx'],['../d7/d38/AnaPileup_8cc.html#a2ce6a75c28c8c3893d5e83930f546a10',1,'LogWarning():&#160;AnaPileup.cc'],['../d0/db6/TruthEval_8cxx.html#a2ce6a75c28c8c3893d5e83930f546a10',1,'LogWarning():&#160;TruthEval.cxx']]]
 ];

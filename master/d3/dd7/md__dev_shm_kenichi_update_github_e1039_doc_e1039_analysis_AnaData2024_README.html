@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d3/dd7/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>A sample program to analyze the commissioning data. It analyzes the good runs and spills listed in <code>work/list_run_spill.txt</code>, which were defined in <a href="https://seaquest-docdb.fnal.gov/cgi-bin/sso/ShowDocument?docid=10854&amp;version=2">DocDB 10854-v2</a>. It reads the spill-level DST files stored in <code>/pnfs/e1039/persistent/users/kenichi/dst</code>.</p>
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Test of Analysis Using a Few Runs</h1>
 <p>The procedure below will analyze the first three good runs to extract chamber hit distributions.</p>
 <div class="fragment"><div class="line"># Compile the source code.</div>
@@ -124,7 +124,7 @@ Test of Analysis Using a Few Runs</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md31"></a>
+<h1><a class="anchor" id="autotoc_md17"></a>
 Analysis Using All Runs</h1>
 <p>You can analyze other runs by adjusting the <code>-j</code> option of <code>gridsub.sh</code>. The <code>-g</code> option let you use the Grid computing. You first submit jobs for the first 10 runs; </p><div class="fragment"><div class="line">cd work</div>
 <div class="line">kinit</div>
@@ -132,11 +132,11 @@ Analysis Using All Runs</h1>
 </div><!-- fragment --><p>You might execute <code>jobsub_q_mine</code> to monitor the job status, which is an alias of <code>jobsub_q --group spinquest --user=$USER</code> defined in <code>setup.sh</code>. Once you confirm that the jobs are running fine, you submit more jobs for the remaining runs; </p><div class="fragment"><div class="line">./gridsub.sh -g -j 11-</div>
 </div><!-- fragment --><p>The output files are stored under <code>data/</code> in case Grid is used. You can analyze them once (almost) all jobs finish; </p><div class="fragment"><div class="line">root -b AnaEventTree.C</div>
 <div class="line">display result/h1_ele_30.png &amp;</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md32"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md18"></a>
 Modification of Analysis</h1>
 <p>The contents of analysis are programmed in <code>src/AnaChamHit.(h|cc)</code>. Thus you need modify these files to do the analysis you need. You need execute <code>make-this</code> after modification.</p>
 <p>Or you might create a new <a class="el" href="../../d0/d32/classSubsysReco.html">SubsysReco</a> module (like <code>src/AnaHodoHit.(h|cc)</code>) and register it in <code>Fun4All.C</code>. You need execute <code>cmake-this</code> after creating a new module and <code>make-this</code> after modifying it.</p>
-<h1><a class="anchor" id="autotoc_md33"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Contact</h1>
 <p>Kenichi Naknao <a href="#" onclick="location.href='mai'+'lto:'+'kna'+'ka'+'no0'+'52'+'4@g'+'ma'+'il.'+'co'+'m'; return false;">knaka<span style="display: none;">.nosp@m.</span>no05<span style="display: none;">.nosp@m.</span>24@gm<span style="display: none;">.nosp@m.</span>ail.<span style="display: none;">.nosp@m.</span>com</a> </p>
 </div></div><!-- contents -->
@@ -149,7 +149,7 @@ Contact</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

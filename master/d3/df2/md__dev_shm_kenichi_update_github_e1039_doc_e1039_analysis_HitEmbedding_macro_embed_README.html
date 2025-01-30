@@ -91,12 +91,12 @@ $(document).ready(function(){initNavTree('d3/df2/md__dev_shm_kenichi_update_gith
 <li>The embedding data (<code>embedding_data.root</code>) that you procuded with <code>macro_gen_emb</code>.</li>
 </ul>
 <p>It writes out the embedded data into a new DST file (<code>DST.root</code>).</p>
-<h1><a class="anchor" id="autotoc_md137"></a>
+<h1><a class="anchor" id="autotoc_md131"></a>
 Preparation</h1>
 <p>You first make lists of signal and embedding data; <code>list_sig_file.txt</code> and <code>list_emb_file.txt</code>. You modify <code>make-list.sh</code> so that <code>DIR_SIG</code> and <code>DIR_EMB</code> in the script point to the directories where you store the data files.</p>
 <p>You then execute the script as follows; </p><div class="fragment"><div class="line">./make-lists.sh</div>
 </div><!-- fragment --><p> You will see the numbers of files and events found and should check that the contents of the two files are valid.</p>
-<h1><a class="anchor" id="autotoc_md138"></a>
+<h1><a class="anchor" id="autotoc_md132"></a>
 Method of pairing signal data and embedding data</h1>
 <p>One signal data (<code>DST.root</code>) and one embedding data (<code>embedding_data.root</code>) are paired from the top of the lists in sequence. The pairing will be made by the smaller number of data files.</p>
 <p>Per paired data files, one signal event and one embedding data are paired from the head of event in sequence. The pairing will be made by the smaller number of events.</p>
@@ -104,12 +104,12 @@ Method of pairing signal data and embedding data</h1>
 <li>The orders stored are already random, and</li>
 <li>The fixed order is helpful in checking the reproducibility of the hit embedding. But the random pairing might be implemented in future.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md139"></a>
+<h1><a class="anchor" id="autotoc_md133"></a>
 Usage</h1>
 <p>Two scripts (<code>gridsub.sh</code> and <code>gridrun.sh</code>) are used as usual, although the contents of <code>gridsub.sh</code> are quite difference since it needs two input data files.</p>
 <p>You first execute the following command for test, which processes only the first 10 events in the 1st job (i.e. input file pair) on local. </p><div class="fragment"><div class="line">./gridsub.sh -j 1 -e 10 jpsi_20211012</div>
 </div><!-- fragment --><p>You then execute the following commands to submit grid jobs; </p><div class="fragment"><div class="line">./gridsub.sh -g jpsi_20211012</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md140"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md134"></a>
 Event reconstruction</h1>
 <p>The event reconstruction is carried out after the hit embedding. The setting has to be identical to the one in <code>macro_gen_signal/Fun4Sim.C</code>. The reconstruction here makes a result affected by the hit embedding. </p>
 </div></div><!-- contents -->
@@ -122,7 +122,7 @@ Event reconstruction</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

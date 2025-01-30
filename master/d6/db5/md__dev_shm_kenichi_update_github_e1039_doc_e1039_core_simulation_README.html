@@ -87,12 +87,12 @@ $(document).ready(function(){initNavTree('d6/db5/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The E1039 simulation codes had been taken from (s)PHENIX, together with the Fun4All framework. Many obsolete/unused files are left in this directory. This note is to pick up and explain key files/classes, as a guideline for new developer.</p>
-<h1><a class="anchor" id="autotoc_md22"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 Detector Configuration</h1>
 <ul>
 <li>The E1039 detector planes are built as <code><a class="el" href="../../df/d14/classPHG4BlockSubsystem.html">PHG4BlockSubsystem</a></code>, as defined in <code>macros/G4_SensitiveDetectors.C</code>.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Data Nodes</h1>
 <p>Each event generator fills generated events into the "PHG4*" objects. Or some generators (like PYTHIA8) fills into the "HepMC" objects and then <code><a class="el" href="../../db/d6c/classHepMCNodeReader.html">HepMCNodeReader</a></code> transfers into "PHG4*".</p>
 <ul>
@@ -102,7 +102,7 @@ Data Nodes</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md24"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 Interface to Geant4</h1>
 <p>The "PHG4*" objects are converted into "G4*" objects by <code><a class="el" href="../../d7/d54/classPHG4PrimaryGeneratorAction.html">PHG4PrimaryGeneratorAction</a></code>. </p>
 </div></div><!-- contents -->
@@ -115,7 +115,7 @@ Interface to Geant4</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

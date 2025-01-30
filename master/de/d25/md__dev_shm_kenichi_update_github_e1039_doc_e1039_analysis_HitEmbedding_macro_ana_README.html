@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('de/d25/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This macro is to analyze the data before/after the hit embedding. You can apply the identical analysis program to both the embedded data and the non-embedded data. The comparison between them shows you the effect of embedded hits. Thus you will carry out the analysis twice in two sub-directories; <code>not_embedded</code> and <code>embedded</code>.</p>
-<h1><a class="anchor" id="autotoc_md133"></a>
+<h1><a class="anchor" id="autotoc_md127"></a>
 Analysis of non-embedded data</h1>
 <p>You first make a list of the input data, which are <code>DST.root</code> that you generetd with <code>macro_gen_signal</code>. You execute the following commands; </p><div class="fragment"><div class="line">cd not_embedded</div>
 <div class="line">../make-dst-list.sh ../../macro_gen_signal/data/jpsi_20211011</div>
@@ -96,13 +96,13 @@ Analysis of non-embedded data</h1>
 </div><!-- fragment --><p> The contents of <code>ana_tree.root</code> are defined by <code><a class="el" href="../../db/d39/AnaEmbeddedData_8cc.html">src/AnaEmbeddedData.cc</a></code>. You will most likely modify it for your own study.</p>
 <p>You last draw a set of plots using <code>ana_tree.root</code>, by executing the following command; </p><div class="fragment"><div class="line">root -b ../AnaOneData.C</div>
 </div><!-- fragment --><p> The plots will appear in <code>result/</code>.</p>
-<h1><a class="anchor" id="autotoc_md134"></a>
+<h1><a class="anchor" id="autotoc_md128"></a>
 Analysis of embedded data</h1>
 <p>You repeat the same procedure to analyze the embedded data as well. The input data this time are <code>DST.root</code> that you generated with <code>macro_embed</code>. </p><div class="fragment"><div class="line">cd ../embedded</div>
 <div class="line">../make-dst-list.sh ../../macro_embed/data/20211012</div>
 <div class="line">root -b ../Fun4All.C</div>
 <div class="line">root -b ../AnaOneData.C</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md135"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md129"></a>
 Simultaneous analysis of non-embedded and embedded data</h1>
 <p>You can/should analyze both the non-embedded and embedded data simultaneously, for example to evaluate the relative reconstruction efficiency versus rate. Such analysis can be done via <code>AnaBothData.C</code>, where the contents of the analysis are implemented in <code><a class="el" href="../../d6/dfe/AnaCleanAndMessyData_8cc.html">src/AnaCleanAndMessyData.cc</a></code>; </p><div class="fragment"><div class="line">cd ..</div>
 <div class="line">root -b AnaBothData.C</div>
@@ -117,7 +117,7 @@ Simultaneous analysis of non-embedded and embedded data</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

@@ -87,18 +87,18 @@ $(document).ready(function(){initNavTree('d5/db0/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This directory is to analyze the events generated under <code>macro_gen/</code>.</p>
-<h1><a class="anchor" id="autotoc_md96"></a>
+<h1><a class="anchor" id="autotoc_md82"></a>
 Creation of Histograms from DST Files</h1>
 <p>You first analyze the DST files of each event set to extract histogmras. You can use <code>ana-one-set.sh</code> as follows:</p>
 <div class="fragment"><div class="line">./ana-one-set.sh jpsi</div>
 <div class="line">./ana-one-set.sh psip</div>
 <div class="line">./ana-one-set.sh dy</div>
 </div><!-- fragment --><p>Outputs of each event set will appear in <code>jpsi/</code>, <code>psip/</code> or <code>dy/</code>. You might comment out some lines in <code>ana-one-set.sh</code>, because for example you need not execute <code>make-dst-list.sh</code> when the input DST files haven't changed.</p>
-<h1><a class="anchor" id="autotoc_md97"></a>
+<h1><a class="anchor" id="autotoc_md83"></a>
 Computation of Anticipated Statistics</h1>
 <p><code>DrawStatExp.C</code> is to draw the expected accuracy of J/psi TSSA.</p>
 <div class="fragment"><div class="line">root -b DawStatExp.C</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md98"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md84"></a>
 Drawing the mass distributions</h1>
 <p>This step is optional. <code>DrawMassDist.C</code> is to draw the mass distributions of J/psi, psi', D-Y and their totals.</p>
 <div class="fragment"><div class="line">root -b DawMassDist.C</div>
@@ -112,7 +112,7 @@ Drawing the mass distributions</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

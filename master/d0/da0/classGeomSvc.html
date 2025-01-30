@@ -375,10 +375,10 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"><a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="line"><span class="keywordtype">string</span> det_name = geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#ac4edd9b5679db2ac9b6f6bea59929447">getDetectorName</a>(det_id);</div>
 <div class="line"><span class="keywordtype">double</span> det_zc   = <a class="code" href="../../d0/da0/classGeomSvc.html#a70772037f5d95089d396cd03e8cb9b05">getPlaneCenterZ</a>(det_id);</div>
-<div class="ttc" id="aclassGeomSvc_html"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html">GeomSvc</a></div><div class="ttdoc">User interface class about the geometry of detector planes.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00155">GeomSvc.h:156</a></div></div>
+<div class="ttc" id="aclassGeomSvc_html"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html">GeomSvc</a></div><div class="ttdoc">User interface class about the geometry of detector planes.</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00163">GeomSvc.h:164</a></div></div>
 <div class="ttc" id="aclassGeomSvc_html_a2b7ecf5467120206b9479654c48ad7c4"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a></div><div class="ttdeci">static GeomSvc * instance()</div><div class="ttdoc">singlton instance</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">GeomSvc.cxx:212</a></div></div>
-<div class="ttc" id="aclassGeomSvc_html_a70772037f5d95089d396cd03e8cb9b05"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a70772037f5d95089d396cd03e8cb9b05">GeomSvc::getPlaneCenterZ</a></div><div class="ttdeci">double getPlaneCenterZ(int detectorID) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00241">GeomSvc.h:241</a></div></div>
-<div class="ttc" id="aclassGeomSvc_html_ac4edd9b5679db2ac9b6f6bea59929447"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ac4edd9b5679db2ac9b6f6bea59929447">GeomSvc::getDetectorName</a></div><div class="ttdeci">std::string getDetectorName(const int &amp;detectorID) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00215">GeomSvc.h:215</a></div></div>
+<div class="ttc" id="aclassGeomSvc_html_a70772037f5d95089d396cd03e8cb9b05"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a70772037f5d95089d396cd03e8cb9b05">GeomSvc::getPlaneCenterZ</a></div><div class="ttdeci">double getPlaneCenterZ(int detectorID) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00249">GeomSvc.h:249</a></div></div>
+<div class="ttc" id="aclassGeomSvc_html_ac4edd9b5679db2ac9b6f6bea59929447"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#ac4edd9b5679db2ac9b6f6bea59929447">GeomSvc::getDetectorName</a></div><div class="ttdeci">std::string getDetectorName(const int &amp;detectorID) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00223">GeomSvc.h:223</a></div></div>
 </div><!-- fragment --><p>Usually a version of the geometry information is selected based on run ID. Thus you need set the RUNNUMBER flag before instantiating this object, namely </p><div class="fragment"><div class="line"><a class="code" href="../../d8/d14/classrecoConsts.html">recoConsts</a>* rc = <a class="code" href="../../d8/d14/classrecoConsts.html#aea8535068aa74d8acf1f98e938a1ff85">recoConsts::instance</a>();</div>
 <div class="line">rc-&gt;<a class="code" href="../../d1/da8/classPHFlag.html#a3ef5c3f1eff2daaaf18e5129858a9ef8">set_IntFlag</a>(<span class="stringliteral">&quot;RUNNUMBER&quot;</span>, 1234);</div>
 <div class="line"><a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
@@ -389,8 +389,16 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">rc-&gt;<a class="code" href="../../d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6">set_CharFlag</a>(<span class="stringliteral">&quot;GeomPlane&quot;</span>, <span class="stringliteral">&quot;2022111601&quot;</span>);</div>
 <div class="line"><a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
 <div class="ttc" id="aclassrecoConsts_html_aec7c7c885b190f7dbb57ac99af4587e6"><div class="ttname"><a href="../../d8/d14/classrecoConsts.html#aec7c7c885b190f7dbb57ac99af4587e6">recoConsts::set_CharFlag</a></div><div class="ttdeci">virtual void set_CharFlag(const std::string &amp;name, const std::string &amp;flag)</div><div class="ttdoc">overide the virtual function to expand the environmental variables</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts.cc:21</a></div></div>
+</div><!-- fragment --><p>You might change some plane parameters, which might require <code><a class="el" href="../../d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d">initWireLUT()</a></code>; </p><div class="fragment"><div class="line"><a class="code" href="../../d0/da0/classGeomSvc.html">GeomSvc</a>* geom = <a class="code" href="../../d0/da0/classGeomSvc.html#a2b7ecf5467120206b9479654c48ad7c4">GeomSvc::instance</a>();</div>
+<div class="line">geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a4c0f25010945a1e583041838e52e071b">getPlanePtr</a>(55)-&gt;<a class="code" href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">cellWidth</a> = 1.015;</div>
+<div class="line">geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a4c0f25010945a1e583041838e52e071b">getPlanePtr</a>(55)-&gt;<a class="code" href="../../dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855">spacing</a>   = 1.015;</div>
+<div class="line">geom-&gt;<a class="code" href="../../d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d">initWireLUT</a>();</div>
+<div class="ttc" id="aclassGeomSvc_html_a0c78d3ac904cfbb367e96c73f176630d"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a0c78d3ac904cfbb367e96c73f176630d">GeomSvc::initWireLUT</a></div><div class="ttdeci">void initWireLUT()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">GeomSvc.cxx:537</a></div></div>
+<div class="ttc" id="aclassGeomSvc_html_a4c0f25010945a1e583041838e52e071b"><div class="ttname"><a href="../../d0/da0/classGeomSvc.html#a4c0f25010945a1e583041838e52e071b">GeomSvc::getPlanePtr</a></div><div class="ttdeci">Plane * getPlanePtr(int detectorID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00233">GeomSvc.h:233</a></div></div>
+<div class="ttc" id="aclassPlane_html_a097c65d3f59402732c7a6779c9490855"><div class="ttname"><a href="../../dc/d90/classPlane.html#a097c65d3f59402732c7a6779c9490855">Plane::spacing</a></div><div class="ttdeci">double spacing</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00070">GeomSvc.h:70</a></div></div>
+<div class="ttc" id="aclassPlane_html_a6644314ae7f5de64ec95b551f6e0f26c"><div class="ttname"><a href="../../dc/d90/classPlane.html#a6644314ae7f5de64ec95b551f6e0f26c">Plane::cellWidth</a></div><div class="ttdeci">double cellWidth</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/GeomSvc_8h_source.html#l00071">GeomSvc.h:71</a></div></div>
 </div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00155">155</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00163">163</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aed36d516bf38688e70bbf2c421e1ec46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed36d516bf38688e70bbf2c421e1ec46">&#9670;&nbsp;</a></span>close()</h2>
@@ -439,7 +447,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00311">311</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -487,7 +495,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -524,7 +532,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00309">309</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -572,7 +580,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00310">310</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -612,7 +620,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00606">606</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00614">614</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -639,7 +647,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -677,7 +685,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -714,7 +722,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00337">337</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -752,7 +760,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00338">338</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -789,7 +797,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -827,7 +835,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00332">332</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00340">340</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -891,11 +899,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00692">692</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00700">700</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00083">Plane::x1</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00086">Plane::x2</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00084">Plane::y1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00087">Plane::y2</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00083">Plane::x1</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00086">Plane::x2</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00084">Plane::y1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00087">Plane::y2</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00622">isInElement()</a>, and <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00630">isInElement()</a>, and <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -939,7 +947,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00230">230</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00238">238</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>.</p>
 
@@ -979,17 +987,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00231">231</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00076">Plane::costheta</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00138">mTrkEveDisplay::hit_to_wire()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>.</p>
 <div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-15-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_aac855df5e6cbd57fed93378361a5a8c8_icgraph.svg" width="896" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_aac855df5e6cbd57fed93378361a5a8c8_icgraph.svg" width="432" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1045,9 +1053,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00857">857</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00865">865</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00654">getEndPoints()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00662">getEndPoints()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>.</p>
 <div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1095,15 +1103,15 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the plane position. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">211</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">219</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d73/ChanMapV1495_8cc_source.html#l00091">ChanMapV1495::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00111">CalibParamXT::Add()</a>, <a class="el" href="../../d3/d95/CalibParamInTimeTaiwan_8cc_source.html#l00087">CalibParamInTimeTaiwan::Add()</a>, <a class="el" href="../../dd/dfc/CalibParamInTimeV1495_8cc_source.html#l00088">CalibParamInTimeV1495::Add()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">UtilSQHit::FindHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00076">UtilSQHit::FindHitsFast()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00123">UtilSQHit::FindTriggerHitsFast()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00197">getDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00201">getDetectorY0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00205">getDetectorZ0()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d4/d42/AnaTrigSignal_8cc_source.html#l00040">AnaTrigSignal::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00074">OnlMonH4::InitRunOnlMon()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00180">DPTriggerAnalyzer::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00082">CalibParam::ReadRTParam()</a>, <a class="el" href="../../d5/d2f/Efficiency_2AnaModule_2AnaModule_8cxx_source.html#l00106">AnaModule::registerDetector()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00178">setDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00184">setDetectorY0()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00190">setDetectorZ0()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d73/ChanMapV1495_8cc_source.html#l00091">ChanMapV1495::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00111">CalibParamXT::Add()</a>, <a class="el" href="../../d3/d95/CalibParamInTimeTaiwan_8cc_source.html#l00087">CalibParamInTimeTaiwan::Add()</a>, <a class="el" href="../../dd/dfc/CalibParamInTimeV1495_8cc_source.html#l00088">CalibParamInTimeV1495::Add()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">UtilSQHit::FindHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00076">UtilSQHit::FindHitsFast()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00123">UtilSQHit::FindTriggerHitsFast()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00205">getDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00209">getDetectorY0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00213">getDetectorZ0()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d4/d42/AnaTrigSignal_8cc_source.html#l00040">AnaTrigSignal::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00180">DPTriggerAnalyzer::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00082">CalibParam::ReadRTParam()</a>, <a class="el" href="../../d5/d2f/Efficiency_2AnaModule_2AnaModule_8cxx_source.html#l00106">AnaModule::registerDetector()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">setDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00192">setDetectorY0()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00198">setDetectorZ0()</a>.</p>
 <div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-18-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a126b64707cebd1ad3b2f00ebd6c178c4_icgraph.svg" width="747" height="1914"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a126b64707cebd1ad3b2f00ebd6c178c4_icgraph.svg" width="972" height="1816"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1125,15 +1133,15 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00586">586</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00594">594</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d30/KScheduler_8cxx_source.html#l00132">KScheduler::Init()</a>, <a class="el" href="../../df/d4b/OnlMonCham_8cc_source.html#l00035">OnlMonCham::InitRunOnlMon()</a>, <a class="el" href="../../dd/da1/OnlMonProp_8cc_source.html#l00032">OnlMonProp::InitRunOnlMon()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00027">TriggerAnalyzer::TriggerAnalyzer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00027">TriggerAnalyzer::TriggerAnalyzer()</a>.</p>
 <div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-19-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_afbf6d99190de576faf739ed50bbeb33b_icgraph.svg" width="699" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_afbf6d99190de576faf739ed50bbeb33b_icgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1163,15 +1171,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">215</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">223</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00230">TriggerAnalyzer::buildData()</a>, <a class="el" href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00225">MakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../de/d38/SRMakeRTCurve_8cc_source.html#l00239">SRMakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00213">CalibData::DrawHistHit()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">UtilTrigger::ExtractRoadID()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">UtilTrack::FindDetectorHitsOfTrack()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00180">SQChamberRealization::FixChamReso()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00692">get2DBoxSize()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00814">getHodoStation()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00028">CalibData::Init()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00036">SQDigitizer::Init()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../df/d4b/OnlMonCham_8cc_source.html#l00035">OnlMonCham::InitRunOnlMon()</a>, <a class="el" href="../../dd/da1/OnlMonProp_8cc_source.html#l00032">OnlMonProp::InitRunOnlMon()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00764">isChamber()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00794">isDPHodo()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00774">isHodo()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00804">isInh()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00784">isPropTube()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01053">loadCalibration()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00324">TriggerRoad::makeRoadList()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00061">SQChamberRealization::process_event()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00160">SQChamberRealization::ScaleChamReso()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00121">SQChamberRealization::SetChamEff()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00141">SQChamberRealization::SetPropTubeEff()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00172">CalibParam::WriteRTGraph()</a>, and <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00120">CalibParam::WriteRTParam()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00230">TriggerAnalyzer::buildData()</a>, <a class="el" href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00225">MakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../de/d38/SRMakeRTCurve_8cc_source.html#l00239">SRMakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00213">CalibData::DrawHistHit()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">UtilTrigger::ExtractRoadID()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">UtilTrack::FindDetectorHitsOfTrack()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00180">SQChamberRealization::FixChamReso()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00700">get2DBoxSize()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00822">getHodoStation()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00028">CalibData::Init()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00036">SQDigitizer::Init()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00772">isChamber()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00802">isDPHodo()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00782">isHodo()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00812">isInh()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00792">isPropTube()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01061">loadCalibration()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00324">TriggerRoad::makeRoadList()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00061">SQChamberRealization::process_event()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00160">SQChamberRealization::ScaleChamReso()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00121">SQChamberRealization::SetChamEff()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00141">SQChamberRealization::SetPropTubeEff()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00172">CalibParam::WriteRTGraph()</a>, and <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00120">CalibParam::WriteRTParam()</a>.</p>
 <div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_ac4edd9b5679db2ac9b6f6bea59929447_icgraph.svg" width="1023" height="1598"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_ac4edd9b5679db2ac9b6f6bea59929447_icgraph.svg" width="1023" height="1510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1201,9 +1209,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00197">197</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00205">205</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00080">Plane::x0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00080">Plane::x0</a>.</p>
 <div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-21-summary" class="dynsummary" style="display:block;">
@@ -1239,9 +1247,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00201">201</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00209">209</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00081">Plane::y0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00081">Plane::y0</a>.</p>
 <div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
@@ -1277,9 +1285,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00205">205</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00213">213</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00082">Plane::z0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00082">Plane::z0</a>.</p>
 <div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
@@ -1317,7 +1325,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00826">826</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00834">834</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00124">Plane::rtprofile</a>.</p>
 
@@ -1371,7 +1379,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00660">660</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00668">668</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -1413,9 +1421,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00654">654</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00662">662</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00857">getDCA()</a>, and <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00021">SQGenFit::GFMeasurement::GFMeasurement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00865">getDCA()</a>, and <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00021">SQGenFit::GFMeasurement::GFMeasurement()</a>.</p>
 <div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-25-summary" class="dynsummary" style="display:block;">
@@ -1453,7 +1461,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00669">669</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00677">677</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00127">Plane::elementPos</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00070">Plane::spacing</a>.</p>
 
@@ -1487,9 +1495,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return a station number (1-4) for hodo planes or "0" for others. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00814">814</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00822">822</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00180">DPTriggerAnalyzer::process_event()</a>.</p>
 <div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1529,7 +1537,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return a station number (1-4) for hodo planes or "0" for others. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00819">819</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00827">827</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1595,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Get the interception of a line an a plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00272">272</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00280">280</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00129">Plane::intercept()</a>.</p>
 
@@ -1655,7 +1663,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00852">852</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00860">860</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00076">Plane::costheta</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00107">Plane::zc</a>.</p>
 
@@ -1711,7 +1719,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00274">274</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00282">282</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00048">Plane::getW()</a>.</p>
 <div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1751,7 +1759,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00649">649</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00657">657</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -1795,17 +1803,17 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Convert the detectorID and elementID to the actual hit position. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00643">643</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00651">651</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00102">Plane::resolution</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d5/d24/GetRoad_8cc_source.html#l00106">GetRoad::get_mc_roads()</a>, <a class="el" href="../../d5/d24/GetRoad_8cc_source.html#l00209">GetRoad::get_old_roads()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00138">mTrkEveDisplay::hit_to_wire()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00027">KalmanTrack::KalmanTrack()</a>, <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>, <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>, <a class="el" href="../../d9/d0b/CalibHitElementPos_8cc_source.html#l00039">CalibHitElementPos::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, and <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00532">TriggerAnalyzer::trimEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d5/d24/GetRoad_8cc_source.html#l00106">GetRoad::get_mc_roads()</a>, <a class="el" href="../../d5/d24/GetRoad_8cc_source.html#l00209">GetRoad::get_old_roads()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00027">KalmanTrack::KalmanTrack()</a>, <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>, <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>, <a class="el" href="../../d9/d0b/CalibHitElementPos_8cc_source.html#l00039">CalibHitElementPos::process_event()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00106">SRawEventEmbed::process_event()</a>, and <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00532">TriggerAnalyzer::trimEvent()</a>.</p>
 <div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-33-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a5a50feb4de0351f6d3d739dbc66d6247_icgraph.svg" width="1183" height="795"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a5a50feb4de0351f6d3d739dbc66d6247_icgraph.svg" width="1183" height="728"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1835,7 +1843,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00224">224</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00232">232</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 </div>
 </div>
@@ -1863,15 +1871,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">223</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00231">231</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00138">mTrkEveDisplay::hit_to_wire()</a>, and <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00086">RndmEmbed::process_event()</a>.</p>
 <div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-34-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a51ff6654c8ce352caa07f2e43718cfc9_icgraph.svg" width="835" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a51ff6654c8ce352caa07f2e43718cfc9_icgraph.svg" width="371" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1901,7 +1909,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00247">247</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00105">Plane::xc</a>.</p>
 
@@ -1941,7 +1949,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00240">240</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00248">248</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00106">Plane::yc</a>.</p>
 
@@ -1981,17 +1989,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00249">249</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00107">Plane::zc</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00381">mTrkEveDisplay::clear()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00029">UtilHodo::GetPlanePos()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>, and <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00046">mTrkEveDisplay::mTrkEveDisplay()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00029">UtilHodo::GetPlanePos()</a>, and <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>.</p>
 <div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-37-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a70772037f5d95089d396cd03e8cb9b05_icgraph.svg" width="1123" height="256"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a70772037f5d95089d396cd03e8cb9b05_icgraph.svg" width="1083" height="96"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -2021,17 +2029,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00252">252</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00260">260</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00038">UtilHodo::GetElementPos()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00252">TriggerRoad::getLR()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../df/d4b/OnlMonCham_8cc_source.html#l00035">OnlMonCham::InitRunOnlMon()</a>, <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00074">OnlMonH4::InitRunOnlMon()</a>, <a class="el" href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00044">OnlMonHodo::InitRunOnlMon()</a>, <a class="el" href="../../dd/da1/OnlMonProp_8cc_source.html#l00032">OnlMonProp::InitRunOnlMon()</a>, <a class="el" href="../../dc/d54/OnlMonTrigEP_8cc_source.html#l00069">OnlMonTrigEP::InitRunOnlMon()</a>, <a class="el" href="../../d5/d7d/OnlMonTrigV1495_8cc_source.html#l00059">OnlMonTrigV1495::InitRunOnlMon()</a>, <a class="el" href="../../da/dc5/OnlMonV1495_8cc_source.html#l00041">OnlMonV1495::InitRunOnlMon()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d5/d2f/Efficiency_2AnaModule_2AnaModule_8cxx_source.html#l00035">AnaModule::process_event()</a>, <a class="el" href="../../de/d63/SimpleTree_8cc_source.html#l00048">SimpleTree::process_event()</a>, and <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00310">TriggerRoad::reflectLR()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00038">UtilHodo::GetElementPos()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00252">TriggerRoad::getLR()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00343">EventReducer::initHodoMaskLUT()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d5/d2f/Efficiency_2AnaModule_2AnaModule_8cxx_source.html#l00035">AnaModule::process_event()</a>, <a class="el" href="../../de/d63/SimpleTree_8cc_source.html#l00048">SimpleTree::process_event()</a>, and <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00310">TriggerRoad::reflectLR()</a>.</p>
 <div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a8ddb02bb19817504a5a0fec673322320_icgraph.svg" width="967" height="1163"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a8ddb02bb19817504a5a0fec673322320_icgraph.svg" width="967" height="792"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -2061,7 +2069,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00229">229</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00237">237</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00073">Plane::overlap</a>.</p>
 
@@ -2101,7 +2109,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00248">248</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00256">256</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00101">Plane::rotZ</a>.</p>
 
@@ -2131,7 +2139,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00227">227</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00235">235</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00107">Plane::zc</a>.</p>
 
@@ -2171,7 +2179,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00225">225</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00233">233</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00046">CalibDriftDistMod::InitRun()</a>, and <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00048">CalibDriftDist::InitRun()</a>.</p>
 <div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2209,7 +2217,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00237">237</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00245">245</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00102">Plane::resolution</a>.</p>
 
@@ -2249,7 +2257,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00234">234</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00083">Plane::x1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00086">Plane::x2</a>.</p>
 
@@ -2289,7 +2297,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00235">235</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00243">243</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00084">Plane::y1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00087">Plane::y2</a>.</p>
 
@@ -2329,7 +2337,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00244">244</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00085">Plane::z1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00088">Plane::z2</a>.</p>
 
@@ -2359,7 +2367,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00228">228</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00070">Plane::spacing</a>.</p>
 
@@ -2399,7 +2407,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00253">253</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00261">261</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00066">Plane::planeType</a>.</p>
 
@@ -2439,7 +2447,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00249">249</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00257">257</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00097">Plane::deltaW</a>.</p>
 
@@ -2479,7 +2487,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00250">250</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00258">258</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00098">Plane::deltaW_module</a>.</p>
 
@@ -2509,7 +2517,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00247">247</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00255">255</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00096">Plane::deltaZ</a>.</p>
 
@@ -2539,7 +2547,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00250">250</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00109">Plane::rX</a>.</p>
 
@@ -2579,7 +2587,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00243">243</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00251">251</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00110">Plane::rY</a>.</p>
 
@@ -2619,7 +2627,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00244">244</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00252">252</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00111">Plane::rZ</a>.</p>
 
@@ -2659,7 +2667,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00290">290</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00298">298</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00124">Plane::rtprofile</a>.</p>
 
@@ -2689,17 +2697,17 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00232">232</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00240">240</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00075">Plane::sintheta</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00138">mTrkEveDisplay::hit_to_wire()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>.</p>
 <div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-50-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_af5571d799f3660faf0b7889bb3dff217_icgraph.svg" width="892" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_af5571d799f3660faf0b7889bb3dff217_icgraph.svg" width="428" height="220"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -2729,7 +2737,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00245">245</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00253">253</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00074">Plane::angleFromVert</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00111">Plane::rZ</a>.</p>
 
@@ -2759,7 +2767,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00233">233</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00077">Plane::tantheta</a>.</p>
 
@@ -2789,7 +2797,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00269">269</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00277">277</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/dca/SQDigitizer_8h_source.html#l00046">SQDigitizer::getTriggerLv()</a>.</p>
 <div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2843,7 +2851,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00294">294</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00302">302</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00048">Plane::getW()</a>.</p>
 
@@ -2917,7 +2925,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00717">717</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00725">725</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00070">Plane::spacing</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00105">Plane::xc</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00072">Plane::xoffset</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00084">Plane::y1</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00087">Plane::y2</a>.</p>
 
@@ -2973,7 +2981,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00295">295</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00303">303</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00046">Plane::getX()</a>.</p>
 <div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3029,7 +3037,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Convert the stereo hits to Y value. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00293">293</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00301">301</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00047">Plane::getY()</a>.</p>
 <div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3063,7 +3071,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">240</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00419">initPlaneDbSvc()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00411">initPlaneDirect()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00916">loadAlignment()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01053">loadCalibration()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01014">loadMilleAlignment()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00877">loadOnlineAlignment()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00419">initPlaneDbSvc()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00411">initPlaneDirect()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00924">loadAlignment()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01061">loadCalibration()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01022">loadMilleAlignment()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00885">loadOnlineAlignment()</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00212">instance()</a>.</p>
 <div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3102,7 +3110,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00419">419</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00012">GeomParamPlane::Plane::angle_from_vert</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00010">GeomParamPlane::Plane::cell_spacing</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00011">GeomParamPlane::Plane::cell_width</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00008">GeomParamPlane::Plane::det_name</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00255">PHFlag::FlagExist()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00013">PHFlag::get_CharFlag()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00117">PHFlag::get_IntFlag()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00027">RunParamBase::GetMapID()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00037">GeomParamPlane::GetNumPlanes()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00038">GeomParamPlane::GetPlane()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00015">GeomParamPlane::Plane::height</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00009">GeomParamPlane::Plane::n_ele</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00102">RunParamBase::ReadFromDB()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts::set_CharFlag()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00028">RunParamBase::SetMapID()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00031">RunParamBase::SetMapIDbyDB()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00019">GeomParamPlane::Plane::theta_x</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00020">GeomParamPlane::Plane::theta_y</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00021">GeomParamPlane::Plane::theta_z</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00732">toLocalDetectorName()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00014">GeomParamPlane::Plane::width</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00016">GeomParamPlane::Plane::x0</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00013">GeomParamPlane::Plane::xoffset</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00017">GeomParamPlane::Plane::y0</a>, and <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00018">GeomParamPlane::Plane::z0</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00012">GeomParamPlane::Plane::angle_from_vert</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00010">GeomParamPlane::Plane::cell_spacing</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00011">GeomParamPlane::Plane::cell_width</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00008">GeomParamPlane::Plane::det_name</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00255">PHFlag::FlagExist()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00013">PHFlag::get_CharFlag()</a>, <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00117">PHFlag::get_IntFlag()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00027">RunParamBase::GetMapID()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00037">GeomParamPlane::GetNumPlanes()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00038">GeomParamPlane::GetPlane()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00015">GeomParamPlane::Plane::height</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00007">recoConsts::instance()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00009">GeomParamPlane::Plane::n_ele</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00102">RunParamBase::ReadFromDB()</a>, <a class="el" href="../../d7/df1/recoConsts_8cc_source.html#l00021">recoConsts::set_CharFlag()</a>, <a class="el" href="../../d4/d28/RunParamBase_8h_source.html#l00028">RunParamBase::SetMapID()</a>, <a class="el" href="../../d7/d91/RunParamBase_8cc_source.html#l00031">RunParamBase::SetMapIDbyDB()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00019">GeomParamPlane::Plane::theta_x</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00020">GeomParamPlane::Plane::theta_y</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00021">GeomParamPlane::Plane::theta_z</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00740">toLocalDetectorName()</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00014">GeomParamPlane::Plane::width</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00016">GeomParamPlane::Plane::x0</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00013">GeomParamPlane::Plane::xoffset</a>, <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00017">GeomParamPlane::Plane::y0</a>, and <a class="el" href="../../de/d50/GeomParamPlane_8h_source.html#l00018">GeomParamPlane::Plane::z0</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>.</p>
 <div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3173,13 +3181,13 @@ Static Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00076">Plane::costheta</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00097">Plane::deltaW</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00098">Plane::deltaW_module</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00127">Plane::elementPos</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00075">Plane::sintheta</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00070">Plane::spacing</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00080">Plane::x0</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00072">Plane::xoffset</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00081">Plane::y0</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00178">setDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00184">setDetectorY0()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00190">setDetectorZ0()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">setDetectorX0()</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00192">setDetectorY0()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00198">setDetectorZ0()</a>.</p>
 <div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-62-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a0c78d3ac904cfbb367e96c73f176630d_icgraph.svg" width="1116" height="2327"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a0c78d3ac904cfbb367e96c73f176630d_icgraph.svg" width="1116" height="2311"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -3214,7 +3222,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>, and <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d73/ChanMapV1495_8cc_source.html#l00091">ChanMapV1495::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00111">CalibParamXT::Add()</a>, <a class="el" href="../../d3/d95/CalibParamInTimeTaiwan_8cc_source.html#l00087">CalibParamInTimeTaiwan::Add()</a>, <a class="el" href="../../dd/dfc/CalibParamInTimeV1495_8cc_source.html#l00088">CalibParamInTimeV1495::Add()</a>, <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00230">TriggerAnalyzer::buildData()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00022">ClassImp()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00250">mTrkEveDisplay::draw_tracks()</a>, <a class="el" href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00225">MakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../de/d38/SRMakeRTCurve_8cc_source.html#l00239">SRMakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00213">CalibData::DrawHistHit()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00006">EventReducer::EventReducer()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">UtilTrigger::ExtractRoadID()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">UtilTrack::FindDetectorHitsOfTrack()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">UtilSQHit::FindHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00076">UtilSQHit::FindHitsFast()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00123">UtilSQHit::FindTriggerHitsFast()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00180">SQChamberRealization::FixChamReso()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00038">UtilHodo::GetElementPos()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00252">KalmanTrack::getExpPosError()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00252">TriggerRoad::getLR()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00029">UtilHodo::GetPlanePos()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00021">SQGenFit::GFMeasurement::GFMeasurement()</a>, <a class="el" href="../../d4/d30/KScheduler_8cxx_source.html#l00132">KScheduler::Init()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00028">CalibData::Init()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00035">CalibParam::Init()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00036">SQDigitizer::Init()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d4/d42/AnaTrigSignal_8cc_source.html#l00040">AnaTrigSignal::InitRun()</a>, <a class="el" href="../../db/d7f/AnaTrkQA_8cxx_source.html#l00075">AnaTrkQA::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../d7/d38/AnaPileup_8cc_source.html#l00100">AnaPileup::InitRun()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00046">CalibDriftDistMod::InitRun()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00048">CalibDriftDist::InitRun()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00073">RndmEmbed::InitRun()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00078">SRawEventEmbed::InitRun()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00071">PatternDBGen::InitRun()</a>, <a class="el" href="../../df/d4b/OnlMonCham_8cc_source.html#l00035">OnlMonCham::InitRunOnlMon()</a>, <a class="el" href="../../d7/d04/OnlMonH4_8cc_source.html#l00074">OnlMonH4::InitRunOnlMon()</a>, <a class="el" href="../../d3/dcf/OnlMonHodo_8cc_source.html#l00044">OnlMonHodo::InitRunOnlMon()</a>, <a class="el" href="../../d1/d56/OnlMonMainDaq_8cc_source.html#l00039">OnlMonMainDaq::InitRunOnlMon()</a>, <a class="el" href="../../dd/da1/OnlMonProp_8cc_source.html#l00032">OnlMonProp::InitRunOnlMon()</a>, <a class="el" href="../../dc/d54/OnlMonTrigEP_8cc_source.html#l00069">OnlMonTrigEP::InitRunOnlMon()</a>, <a class="el" href="../../d5/d7d/OnlMonTrigV1495_8cc_source.html#l00059">OnlMonTrigV1495::InitRunOnlMon()</a>, <a class="el" href="../../da/dc5/OnlMonV1495_8cc_source.html#l00041">OnlMonV1495::InitRunOnlMon()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00019">UtilHodo::IsHodoX()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00036">KalmanDSTrk::KalmanDSTrk()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00027">KalmanTrack::KalmanTrack()</a>, <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00324">TriggerRoad::makeRoadList()</a>, <a class="el" href="../../d7/d9e/mTrkEveDisplay_8cxx_source.html#l00046">mTrkEveDisplay::mTrkEveDisplay()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>, <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00094">SQGenFit::GFMeasurement::print()</a>, <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00056">AnaChamHit::process_event()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>, <a class="el" href="../../d9/d0b/CalibHitElementPos_8cc_source.html#l00039">CalibHitElementPos::process_event()</a>, <a class="el" href="../../d0/db2/CalibHodoInTime_8cc_source.html#l00079">CalibHodoInTime::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00180">DPTriggerAnalyzer::process_event()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00061">SQChamberRealization::process_event()</a>, <a class="el" href="../../d0/da4/SQGeomAcc_8cc_source.html#l00050">SQGeomAcc::process_event()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00082">CalibParam::ReadRTParam()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00310">TriggerRoad::reflectLR()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00160">SQChamberRealization::ScaleChamReso()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00121">SQChamberRealization::SetChamEff()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00141">SQChamberRealization::SetPropTubeEff()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00062">KalmanTrack::setTracklet()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00027">TriggerAnalyzer::TriggerAnalyzer()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00045">TriggerRoad::TriggerRoad()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00172">CalibParam::WriteRTGraph()</a>, and <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00120">CalibParam::WriteRTParam()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d73/ChanMapV1495_8cc_source.html#l00091">ChanMapV1495::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00111">CalibParamXT::Add()</a>, <a class="el" href="../../d3/d95/CalibParamInTimeTaiwan_8cc_source.html#l00087">CalibParamInTimeTaiwan::Add()</a>, <a class="el" href="../../dd/dfc/CalibParamInTimeV1495_8cc_source.html#l00088">CalibParamInTimeV1495::Add()</a>, <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00101">AnaChamHit::AnalyzeTree()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00230">TriggerAnalyzer::buildData()</a>, <a class="el" href="../../d0/d06/FastTracklet_8cxx_source.html#l00022">ClassImp()</a>, <a class="el" href="../../d4/dd1/MakeRTCurve_8cc_source.html#l00225">MakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../de/d38/SRMakeRTCurve_8cc_source.html#l00239">SRMakeRTCurve::DrawCalibResult()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00213">CalibData::DrawHistHit()</a>, <a class="el" href="../../db/d35/EventReducer_8cxx_source.html#l00006">EventReducer::EventReducer()</a>, <a class="el" href="../../d9/d5e/UtilTrigger_8cc_source.html#l00040">UtilTrigger::ExtractRoadID()</a>, <a class="el" href="../../d5/dd0/UtilTrack_8cc_source.html#l00052">UtilTrack::FindDetectorHitsOfTrack()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00040">UtilSQHit::FindFirstHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00016">UtilSQHit::FindHits()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00076">UtilSQHit::FindHitsFast()</a>, <a class="el" href="../../d8/d24/UtilSQHit_8cc_source.html#l00123">UtilSQHit::FindTriggerHitsFast()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00180">SQChamberRealization::FixChamReso()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00600">KalmanTrack::getAlignment()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00038">UtilHodo::GetElementPos()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00252">KalmanTrack::getExpPosError()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00252">TriggerRoad::getLR()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00029">UtilHodo::GetPlanePos()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00752">KalmanTrack::getSagittaInSuperDetector()</a>, <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00021">SQGenFit::GFMeasurement::GFMeasurement()</a>, <a class="el" href="../../d3/dab/CalibData_8cc_source.html#l00028">CalibData::Init()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00035">CalibParam::Init()</a>, <a class="el" href="../../d9/d2b/AnaEffCham_8cc_source.html#l00031">AnaEffCham::Init()</a>, <a class="el" href="../../d9/da3/ExtractTdcDist_8cc_source.html#l00041">ExtractTdcDist::Init()</a>, <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00036">SQDigitizer::Init()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00035">AnaHodoHit::InitRun()</a>, <a class="el" href="../../d2/d72/AnaTriggerHit_8cc_source.html#l00039">AnaTriggerHit::InitRun()</a>, <a class="el" href="../../d4/d42/AnaTrigSignal_8cc_source.html#l00040">AnaTrigSignal::InitRun()</a>, <a class="el" href="../../db/d7f/AnaTrkQA_8cxx_source.html#l00075">AnaTrkQA::InitRun()</a>, <a class="el" href="../../d9/d4c/AnaChamPlane_8cc_source.html#l00043">AnaChamPlane::InitRun()</a>, <a class="el" href="../../da/d49/ChamRealizationDev_2src_2AnaTrack_8cc_source.html#l00046">AnaTrack::InitRun()</a>, <a class="el" href="../../d7/d38/AnaPileup_8cc_source.html#l00100">AnaPileup::InitRun()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00046">CalibDriftDistMod::InitRun()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00048">CalibDriftDist::InitRun()</a>, <a class="el" href="../../d0/d82/RndmEmbed_8cxx_source.html#l00073">RndmEmbed::InitRun()</a>, <a class="el" href="../../d7/d67/SRawEventEmbed_8cxx_source.html#l00078">SRawEventEmbed::InitRun()</a>, <a class="el" href="../../d4/da7/PatternDBGen_8cxx_source.html#l00071">PatternDBGen::InitRun()</a>, <a class="el" href="../../de/d1f/UtilHodo_8cc_source.html#l00019">UtilHodo::IsHodoX()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l00036">KalmanDSTrk::KalmanDSTrk()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, <a class="el" href="../../d3/d70/KalmanFitter_8cxx_source.html#l00020">KalmanFitter::KalmanFitter()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00027">KalmanTrack::KalmanTrack()</a>, <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00324">TriggerRoad::makeRoadList()</a>, <a class="el" href="../../df/dfc/KalmanUtil_8cxx_source.html#l00249">Node::Node()</a>, <a class="el" href="../../d7/dbf/GFMeasurement_8cxx_source.html#l00094">SQGenFit::GFMeasurement::print()</a>, <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00056">AnaChamHit::process_event()</a>, <a class="el" href="../../d1/d73/AnaHodoHit_8cc_source.html#l00087">AnaHodoHit::process_event()</a>, <a class="el" href="../../db/d39/AnaEmbeddedData_8cc_source.html#l00062">AnaEmbeddedData::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>, <a class="el" href="../../d9/d0b/CalibHitElementPos_8cc_source.html#l00039">CalibHitElementPos::process_event()</a>, <a class="el" href="../../d0/db2/CalibHodoInTime_8cc_source.html#l00079">CalibHodoInTime::process_event()</a>, <a class="el" href="../../d6/d76/DPTriggerAnalyzer_8cxx_source.html#l00180">DPTriggerAnalyzer::process_event()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00061">SQChamberRealization::process_event()</a>, <a class="el" href="../../d0/da4/SQGeomAcc_8cc_source.html#l00050">SQGeomAcc::process_event()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00082">CalibParam::ReadRTParam()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00310">TriggerRoad::reflectLR()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00160">SQChamberRealization::ScaleChamReso()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00121">SQChamberRealization::SetChamEff()</a>, <a class="el" href="../../d6/dc3/SQChamberRealization_8cc_source.html#l00141">SQChamberRealization::SetPropTubeEff()</a>, <a class="el" href="../../d0/dac/KalmanTrack_8cxx_source.html#l00062">KalmanTrack::setTracklet()</a>, <a class="el" href="../../d3/dfc/TriggerAnalyzer_8cxx_source.html#l00027">TriggerAnalyzer::TriggerAnalyzer()</a>, <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00045">TriggerRoad::TriggerRoad()</a>, <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00172">CalibParam::WriteRTGraph()</a>, and <a class="el" href="../../d7/d9b/CalibParam_8cc_source.html#l00120">CalibParam::WriteRTParam()</a>.</p>
 <div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-63-summary" class="dynsummary" style="display:block;">
@@ -3251,7 +3259,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Calibration related. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00287">287</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00295">295</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 </div>
 </div>
@@ -3273,9 +3281,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for chamber planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00764">764</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00772">772</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../dc/d1e/AnaChamHit_8cc_source.html#l00056">AnaChamHit::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, and <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>.</p>
 <div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3315,7 +3323,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for chamber planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00769">769</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00777">777</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -3337,9 +3345,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for DP hodo planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00794">794</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00802">802</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/db2/CalibHodoInTime_8cc_source.html#l00079">CalibHodoInTime::process_event()</a>.</p>
 <div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3379,7 +3387,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for DP hodo planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00799">799</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00807">807</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -3401,9 +3409,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for hodo planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00774">774</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00782">782</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/db2/CalibHodoInTime_8cc_source.html#l00079">CalibHodoInTime::process_event()</a>.</p>
 <div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3443,7 +3451,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for hodo planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00779">779</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00787">787</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -3491,9 +3499,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00622">622</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00630">630</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00692">get2DBoxSize()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00700">get2DBoxSize()</a>.</p>
 <div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-70-summary" class="dynsummary" style="display:block;">
@@ -3523,9 +3531,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for BeforeInh and AfterInh signals. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00804">804</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00812">812</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/db2/CalibHodoInTime_8cc_source.html#l00079">CalibHodoInTime::process_event()</a>.</p>
 <div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3563,7 +3571,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00809">809</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00817">817</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -3593,7 +3601,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00635">635</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00643">643</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01365">KalmanFastTracking::acceptTracklet()</a>, and <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01684">KalmanDSTrk::acceptTracklet()</a>.</p>
 <div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3641,7 +3649,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>See if a point is in a plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00614">614</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00622">622</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d4d/SQDigitizer_8cc_source.html#l00151">SQDigitizer::digitizePlane()</a>, <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l01448">KalmanFastTracking::muonID_search()</a>, <a class="el" href="../../df/d8d/KalmanDSTrk_8cxx_source.html#l01765">KalmanDSTrk::muonID_search()</a>, <a class="el" href="../../d5/d2f/Efficiency_2AnaModule_2AnaModule_8cxx_source.html#l00035">AnaModule::process_event()</a>, <a class="el" href="../../de/d63/SimpleTree_8cc_source.html#l00048">SimpleTree::process_event()</a>, and <a class="el" href="../../de/d74/TriggerRoad_8cxx_source.html#l00045">TriggerRoad::TriggerRoad()</a>.</p>
 <div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3681,7 +3689,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01091">1091</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01099">1099</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00123">Plane::tmax</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00122">Plane::tmin</a>.</p>
 
@@ -3705,9 +3713,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for prop tube planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00784">784</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00792">792</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/da7/CalibHitPos_8cc_source.html#l00036">CalibHitPos::process_event()</a>, <a class="el" href="../../d2/d82/CalibDriftDistMod_8cc_source.html#l00094">CalibDriftDistMod::process_event()</a>, and <a class="el" href="../../d4/d81/CalibDriftDist_8cc_source.html#l00100">CalibDriftDist::process_event()</a>.</p>
 <div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3747,7 +3755,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Return "true" for prop tube planes. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00789">789</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00797">797</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 </div>
 </div>
@@ -3783,7 +3791,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00916">916</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00924">924</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
 
@@ -3815,9 +3823,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01053">1053</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01061">1061</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00215">getDetectorName()</a>, and <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00223">getDetectorName()</a>, and <a class="el" href="../../d0/d85/Pdb_8h_source.html#l00009">NULL</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>.</p>
 <div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3855,11 +3863,11 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01014">1014</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01022">1022</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">References <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00877">loadOnlineAlignment()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00885">loadOnlineAlignment()</a>.</p>
 <div id="dynsection-80" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-80-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-80-summary" class="dynsummary" style="display:block;">
@@ -3890,9 +3898,9 @@ Static Public Member Functions</h2></td></tr>
 <p>Load parameters used in the online-alignment mode. </p>
 <p>The major part of this function is not implemented yet because we are not sure if we store the alignment parameters in DB table. We might use the text file ("align_mille.txt") during the online-alignment mode. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00877">877</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00885">885</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01014">loadMilleAlignment()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01022">loadMilleAlignment()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00240">init()</a>.</p>
 <div id="dynsection-81" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3931,9 +3939,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Debugging print of the content. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01116">1116</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01124">1124</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00097">Plane::deltaW</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00096">Plane::deltaZ</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00101">Plane::rotZ</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00097">Plane::deltaW</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00096">Plane::deltaZ</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00101">Plane::rotZ</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>.</p>
 <div id="dynsection-83" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3962,9 +3970,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01126">1126</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01134">1134</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>, and <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>.</p>
 <div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3993,9 +4001,9 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01096">1096</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l01104">1104</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00071">Plane::cellWidth</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00006">nChamberPlanes</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00009">nDarkPhotonPlanes</a>, <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00069">Plane::nElements</a>, <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00007">nHodoPlanes</a>, and <a class="el" href="../../dd/de2/GlobalConsts_8h_source.html#l00008">nPropPlanes</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d4a/KalmanFastTracking_8cxx_source.html#l00130">KalmanFastTracking::KalmanFastTracking()</a>.</p>
 <div id="dynsection-85" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4045,9 +4053,9 @@ Static Public Member Functions</h2></td></tr>
 
 <p>TODO temp solution to overwrite the y0 of a plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00178">178</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00186">186</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00080">Plane::x0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00080">Plane::x0</a>.</p>
 <div id="dynsection-86" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-86-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-86-summary" class="dynsummary" style="display:block;">
@@ -4093,9 +4101,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00184">184</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00192">192</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00081">Plane::y0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00081">Plane::y0</a>.</p>
 <div id="dynsection-87" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-87-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-87-summary" class="dynsummary" style="display:block;">
@@ -4141,9 +4149,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00190">190</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00198">198</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00211">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00082">Plane::z0</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00219">getDetectorID()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00537">initWireLUT()</a>, <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00078">Plane::update()</a>, and <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00082">Plane::z0</a>.</p>
 <div id="dynsection-88" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-88-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-88-summary" class="dynsummary" style="display:block;">
@@ -4184,7 +4192,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Convert the official detectorName to local detectorName. </p>
 <p>Convert, for example, "P1H1f" to "P1Y1" and element ID accordingly. The input arguments are kept unchanged when they are not "local" name. The local name is used only in the channel mapping of the prop tube as of 2021-10-03. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00732">732</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00740">740</a> of file <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html">GeomSvc.cxx</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d73/ChanMapV1495_8cc_source.html#l00091">ChanMapV1495::Add()</a>, <a class="el" href="../../d4/daf/ChanMapTaiwan_8cc_source.html#l00086">ChanMapTaiwan::Add()</a>, <a class="el" href="../../d4/d24/CalibParamXT_8cc_source.html#l00111">CalibParamXT::Add()</a>, <a class="el" href="../../d3/d95/CalibParamInTimeTaiwan_8cc_source.html#l00087">CalibParamInTimeTaiwan::Add()</a>, <a class="el" href="../../dd/dfc/CalibParamInTimeV1495_8cc_source.html#l00088">CalibParamInTimeV1495::Add()</a>, and <a class="el" href="../../d1/d34/GeomSvc_8cxx_source.html#l00419">initPlaneDbSvc()</a>.</p>
 <div id="dynsection-89" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4192,7 +4200,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="dynsection-89-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-89-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a315e886f05db8254ed7d320706e268e6_icgraph.svg" width="1386" height="2102"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/da0/classGeomSvc_a315e886f05db8254ed7d320706e268e6_icgraph.svg" width="1386" height="2074"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -4221,7 +4229,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00352">352</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d86/test__minimum_8cxx_source.html#l00023">main()</a>.</p>
 <div id="dynsection-90" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4259,7 +4267,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00343">343</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00351">351</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 </div>
 </div>
@@ -4286,7 +4294,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -4334,7 +4342,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00316">316</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-93" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4371,7 +4379,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00343">343</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-94" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4409,7 +4417,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-95" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4446,7 +4454,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-96" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4484,7 +4492,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-97" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4521,7 +4529,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00305">305</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00313">313</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -4569,7 +4577,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00306">306</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-100" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4606,7 +4614,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00307">307</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -4654,7 +4662,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00308">308</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00316">316</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-103" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4693,7 +4701,7 @@ Static Public Member Functions</h2></td></tr>
 
 <p>Getter/setters for a set of fixed parameters - should not be changed unless absolutely necessary. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00303">303</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00311">311</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 
@@ -4741,7 +4749,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00304">304</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-106" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4778,7 +4786,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-107" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4816,7 +4824,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-108" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4853,7 +4861,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-109" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4891,7 +4899,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00332">332</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-110" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4928,7 +4936,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00313">313</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-111" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -4966,7 +4974,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-112" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5003,7 +5011,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-113" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5041,7 +5049,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00334">334</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-114" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5078,7 +5086,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-115" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5116,7 +5124,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-116" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5153,7 +5161,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00341">341</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00049">PHFlag::get_DoubleFlag()</a>.</p>
 <div id="dynsection-117" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5191,7 +5199,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00334">334</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/d19/GeomSvc_8h_source.html#l00342">342</a> of file <a class="el" href="../../d6/d19/GeomSvc_8h_source.html">GeomSvc.h</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d6/da7/PHFlag_8cc_source.html#l00077">PHFlag::set_DoubleFlag()</a>.</p>
 <div id="dynsection-118" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -5219,7 +5227,7 @@ Static Public Member Functions</h2></td></tr>
 		<li class="navelem"><a class="el" href="../../d0/da0/classGeomSvc.html">GeomSvc</a></li>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

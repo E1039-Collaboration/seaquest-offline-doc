@@ -86,27 +86,27 @@ $(document).ready(function(){initNavTree('da/d0e/md__dev_shm_kenichi_update_gith
 <div class="title">A Program to Run Full Chain of E1039 Simulation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md201"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md195"></a>
 Environment</h1>
 <p>This program depends on the E1039 resource+share+core packages. Unless you have a special reason, you are recommended to use "spinquestgpvm01.fnal.gov", where the E1039 packages are ready to use.</p>
 <p>You can just execute the following command to set up the environment properly; </p><div class="fragment"><div class="line">source /exp/seaquest/app/software/osg/software/e1039/this-e1039.sh</div>
 </div><!-- fragment --><p> You have to do so when you start a new shell environment (i.e. text terminal).</p>
-<h1><a class="anchor" id="autotoc_md202"></a>
+<h1><a class="anchor" id="autotoc_md196"></a>
 Download</h1>
 <p>You move to a working directory and check out the repository; </p><div class="fragment"><div class="line">cd /path/to/your_working_directory</div>
 <div class="line">git clone https://github.com/E1039-Collaboration/e1039-analysis.git</div>
 </div><!-- fragment --><p> If you are a member of the GitHub E1039 group, you better use the following command to obtain the write access; </p><div class="fragment"><div class="line">git clone git@github.com:E1039-Collaboration/e1039-analysis.git</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md203"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md197"></a>
 Test Process</h1>
 <p>You run the following commands to run a small test. It will take 10-20(?) minutes. Note that you have to set up the environment beforehand, as explained above.</p>
 <div class="fragment"><div class="line">cd e1039-analysis/SimChainDev</div>
 <div class="line">root -b -q Fun4Sim.C</div>
 </div><!-- fragment --><p>By default a simple muon-pair event (via <a class="el" href="../../d5/df3/classPHG4SimpleEventGenerator.html" title="Event generator to generate a set of particles under a condition of the vertex and the momentum.">PHG4SimpleEventGenerator</a>) is simulated. You can/should change various options to simulate what you need.</p>
 <p>The simulation result is written into multiple ROOT files. The main output file is "DST.root", which is structured in the E1039 standard data format. It is usually analyzed by <code>e1039-analysis/AnaSimDst</code>.</p>
-<h1><a class="anchor" id="autotoc_md204"></a>
+<h1><a class="anchor" id="autotoc_md198"></a>
 Large Process</h1>
 <p>When you want a large set of simulated events, you should run the simulation on the grid. The procedure is explained in <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/Submit-jobs-to-the-grid">this Wiki page</a>.</p>
-<h1><a class="anchor" id="autotoc_md205"></a>
+<h1><a class="anchor" id="autotoc_md199"></a>
 More information</h1>
 <p>You could refer to <a href="https://github.com/E1039-Collaboration/e1039-wiki/wiki/E1039-simulation-tutorial---Apr.-19">E1039-simulation-tutorial&mdash;Apr.-19</a>. </p>
 </div></div><!-- contents -->
@@ -119,7 +119,7 @@ More information</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

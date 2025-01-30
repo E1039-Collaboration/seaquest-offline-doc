@@ -88,16 +88,16 @@ $(document).ready(function(){initNavTree('df/dfd/md__dev_shm_kenichi_update_gith
 <div class="contents">
 <div class="textblock"><p>This directory is to first generate a new roadset, using the signal and BG events. It then evaluates the new roadset, namely re-analyzes the signal and BG events to compute the signal acceptance and the BG rate.</p>
 <p>You need execute <code>source setup.sh</code> beforehand.</p>
-<h1><a class="anchor" id="autotoc_md112"></a>
+<h1><a class="anchor" id="autotoc_md106"></a>
 Lists of Input Files</h1>
 <p>Signal files and BG files should be listed in <code>list_signal.txt</code> and <code>list_bg.txt</code>. You can make the lists by the following command;</p>
 <div class="fragment"><div class="line">./make-input-list.sh</div>
 </div><!-- fragment --><p>When you use the full-BG simulation, you have to change <code>DIR_IN_BG</code> in the script beforehand.</p>
 <p>If you have modified some setting in <code>macro_gen_signal</code> or <code>macro_e906_nim3</code>, you might have to modify <code>make-input-list.sh</code> accordingly.</p>
-<h1><a class="anchor" id="autotoc_md113"></a>
+<h1><a class="anchor" id="autotoc_md107"></a>
 QIE Inhibit Threshold</h1>
 <p>You set the QIE inhibit threshold when generating and evaluating a new roadset. It was 1200 on average in the last E906 run, although it varied with time. Thus you should try 1200 and also different values (like 1000 and 1400) to check how the result changes.</p>
-<h1><a class="anchor" id="autotoc_md114"></a>
+<h1><a class="anchor" id="autotoc_md108"></a>
 Generation of Roadset</h1>
 <p>Typical procedure:</p>
 <div class="fragment"><div class="line">root -b GenerateRoad.C</div>
@@ -107,7 +107,7 @@ Generation of Roadset</h1>
 <li><code>src/AnaNim3.(h|cc)</code></li>
 <li><code>src/GenRoadset.(h|cc)</code></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md115"></a>
+<h1><a class="anchor" id="autotoc_md109"></a>
 Evaluation of Roadset</h1>
 <p>Typical procedure:</p>
 <div class="fragment"><div class="line">root -b ApplyRoadset2Signal.C</div>
@@ -134,7 +134,7 @@ Evaluation of Roadset</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>

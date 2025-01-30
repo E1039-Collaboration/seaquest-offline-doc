@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('d7/d16/md__dev_shm_kenichi_update_gith
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The hit embedding is a procedure for embedding a set of hits into a simulated physics event (like J/psi). It is to mimic a real event, which contains not only a physics process but also background hits. It can be used in studying the effects of background hits, such fake track and efficiency loss.</p>
-<h1><a class="anchor" id="autotoc_md153"></a>
+<h1><a class="anchor" id="autotoc_md147"></a>
 Terminology</h1>
 <p>For events, data or files:</p>
 <table class="markdownTable">
@@ -100,21 +100,21 @@ Terminology</h1>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">"Embedded" events   </td><td class="markdownTableBodyNone">Physics events where hits have been embedded   </td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md154"></a>
+<h1><a class="anchor" id="autotoc_md148"></a>
 Prerequisite</h1>
 <p>This program depends on the E1039 resource+share+core packages. You are recommended to use "spinquestgpvm01.fnal.gov". You are expected to be familiar with the procedure for generating and analyzing a set of simulated events, using <code>SimChainDev</code> and <code><a class="el" href="../../d1/d9e/classAnaSimDst.html" title="An example class to analyze the simulated uDST file.">AnaSimDst</a></code> in <code>e1039-analysis</code> for example.</p>
 <p>You can check out the repository as usual; </p><div class="fragment"><div class="line">cd /path/to/your_working_directory</div>
 <div class="line">git clone git@github.com:E1039-Collaboration/e1039-analysis.git</div>
 <div class="line">cd e1039-analysis/HitEmbedding</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md155"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md149"></a>
 Software structure</h1>
-<h2><a class="anchor" id="autotoc_md156"></a>
+<h2><a class="anchor" id="autotoc_md150"></a>
 Source codes</h2>
 <p>All source codes specific to this packages are stored in <code>src/</code>. You have to compile them at least once by the following commands; </p><div class="fragment"><div class="line">source setup.sh</div>
 <div class="line">cmake-this</div>
 <div class="line">make-this</div>
 </div><!-- fragment --><p><code>cmake-this</code> and <code>make-this</code> can be executed at any directory, since they don't depend on the current directory. They have to be executed again after you modify the codes.</p>
-<h2><a class="anchor" id="autotoc_md157"></a>
+<h2><a class="anchor" id="autotoc_md151"></a>
 Fun4All macros</h2>
 <p>Multiple Fun4All macros are available in this packages in order to carry out the hit embedding step-by-step. Details of each macro are explained in <code>README.md</code> of each directory. Probably you need not generate embedding events, since the E906 NIM3 events are already available and used by default.</p>
 <ol type="1">
@@ -150,12 +150,12 @@ Fun4All macros</h2>
 <div class="line">        |       |</div>
 <div class="line">        V       V</div>
 <div class="line">       [ Compare ]                                ... `macro_ana`</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md158"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md152"></a>
 To-do list</h1>
 <ul>
 <li>Nothing planned.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md159"></a>
+<h1><a class="anchor" id="autotoc_md153"></a>
 Contact</h1>
 <p>Feel free to send any questions/suggestions to Kenichi Nakano. </p>
 </div></div><!-- contents -->
@@ -168,7 +168,7 @@ Contact</h1>
 	<ul>
 		<li class="footer">
 		Built by <a href="mailto:yuhw@nmsu.edu">Haiwang Yu</a></em>.
-			updated: <em>Fri Dec 13 2024 12:53:33</em> using <a
+			updated: <em>Thu Jan 30 2025 10:15:17</em> using <a
 			href="http://www.doxygen.org/index.html"> <img class="footer"
 				src="../../doxygen.png" alt="doxygen" /></a> 1.9.1 
 				with <a href="https://github.com/HaiwangYu/seaquest-offline">SeaQuest GitHub integration</a>
